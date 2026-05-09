@@ -369,6 +369,81 @@ function ValuationComposition({ team }) {
   )
 }
 
+function fmtPayroll(p) {
+  if (p == null) return '—'
+  if (p >= 1000) return `$${(p / 1000).toFixed(2)}B`
+  return `$${p.toFixed(1)}M`
+}
+
+function ratioFlavor(ratio) {
+  // Classify how "player-cost-heavy" a franchise is. Rough heuristic across leagues.
+  if (ratio == null) return null
+  if (ratio < 1.5)  return { label: 'Capital-light', color: 'text-[#0a7d2a]', explain: 'Player cost is a small fraction of franchise value — most of the value is in media rights, real estate, and brand.' }
+  if (ratio < 4.0)  return { label: 'Balanced',      color: 'text-[#0a7d2a]', explain: 'A typical roster-cost-to-value ratio for a major league franchise.' }
+  if (ratio < 8.0)  return { label: 'Roster-heavy',  color: 'text-amber-600', explain: 'A larger-than-average share of value is tied up in current player contracts.' }
+  return                       { label: 'Roster-loaded', color: 'text-[#b91c1c]', explain: 'Player contracts represent a significant fraction of franchise value — typical of smaller-market or high-spending teams.' }
+}
+
+function RosterCost({ team }) {
+  const payroll = team.payroll
+  const ratio = team.payrollToValuation
+  const flavor = ratioFlavor(ratio)
+  const year = team.payrollYear
+  const source = team.payrollSource
+
+  if (payroll == null) {
+    return (
+      <section>
+        <SectionHeader>Roster Cost</SectionHeader>
+        <p className="text-sm text-slate italic">
+          Payroll data not available for this team / league.
+        </p>
+      </section>
+    )
+  }
+
+  return (
+    <section>
+      <SectionHeader>Roster Cost</SectionHeader>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-rule">
+        <div className="bg-white p-5">
+          <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
+            Total Payroll {year && <span className="text-ash">· {year}</span>}
+          </div>
+          <div className="font-mono text-3xl sm:text-4xl font-bold text-ink tracking-tight">
+            {fmtPayroll(payroll)}
+          </div>
+        </div>
+        <div className="bg-white p-5">
+          <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
+            Payroll &divide; Valuation
+          </div>
+          <div className="flex items-baseline gap-3">
+            <div className={`font-mono text-3xl sm:text-4xl font-bold tracking-tight ${flavor?.color || 'text-ink'}`}>
+              {ratio != null ? `${ratio.toFixed(2)}%` : '—'}
+            </div>
+            {flavor && (
+              <span className={`font-mono text-[10px] tracking-widest uppercase font-bold ${flavor.color}`}>
+                {flavor.label}
+              </span>
+            )}
+          </div>
+        </div>
+      </div>
+      {flavor && (
+        <p className="mt-4 text-sm text-graphite leading-relaxed">
+          {flavor.explain}
+        </p>
+      )}
+      {source && (
+        <p className="mt-2 font-mono text-[10px] tracking-wider uppercase text-ash">
+          Source: {source}
+        </p>
+      )}
+    </section>
+  )
+}
+
 function StadiumHero({ team }) {
   const images = getTeamImages(team.name)
   const stadium = images?.stadiumUrl
@@ -530,6 +605,9 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
           <div className="px-6 sm:px-8 py-8 space-y-10">
             {/* Composition donut — what % of the valuation each driver explains */}
             <ValuationComposition team={team} />
+
+            {/* Roster cost — total payroll + payroll/valuation ratio */}
+            <RosterCost team={team} />
 
             {/* Valuation history */}
             {valuationHistory.length > 0 && (

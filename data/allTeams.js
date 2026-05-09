@@ -3,6 +3,7 @@
 // so the LeagueExplorer / CompareTool can render all franchises.
 import curatedTeams from './teams.js'
 import enrichments from './enrichments.js'  // merged: base + supplements + 2025 valuations
+import { teamPayrolls } from './payrolls.js'
 import { nflEnrichments } from './enrichments-nfl.js'
 import { nbaEnrichments } from './enrichments-nba.js'
 import { mlbEnrichments } from './enrichments-mlb.js'
@@ -359,7 +360,21 @@ const allTeams = builtTeams.map(team => {
       rankings.city[dk] = rankWithinGroup(cityGroup, team.name, dk)
     }
   }
-  return { ...team, rankings }
+  // Payroll lookup ($M). Ratio = payroll($M) / valuation($B*1000) → percent of value tied up in roster
+  const p = teamPayrolls[team.name]
+  const payroll = p?.payroll ?? null
+  const payrollToValuation =
+    payroll != null && team.currentValuation > 0
+      ? +(payroll / 1000 / team.currentValuation * 100).toFixed(2)
+      : null
+  return {
+    ...team,
+    rankings,
+    payroll,
+    payrollSource: p?.source ?? null,
+    payrollYear:   p?.year ?? null,
+    payrollToValuation,
+  }
 })
 
 export default allTeams
