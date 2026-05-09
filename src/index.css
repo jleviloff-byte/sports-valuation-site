@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fafaf8;
+    color: #1a1a1a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: 'cv11', 'ss01';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Tabular figures for all .font-mono — keeps columns of numbers aligned */
+  .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Newspaper-style scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fafaf8;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9b9b9b;
+  }
+
+  select option {
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+  select optgroup {
+    background-color: #fafaf8;
+    color: #6b6b6b;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  /* Section eyebrow — small caps, ink color, used above headlines */
+  .eyebrow {
+    @apply font-mono text-[10px] tracking-[0.22em] uppercase text-slate;
+  }
+
+  /* Section headline — large serif over a thin rule, like a newspaper section header */
+  .section-title {
+    @apply font-serif font-bold text-ink leading-[1.05] tracking-tight;
+  }
+
+  /* Hairline rule below section titles */
+  .title-rule {
+    @apply h-px w-full bg-ink mt-4;
+  }
+
+  /* Card — white surface with a 1px hairline border and a barely-there shadow */
+  .editorial-card {
+    @apply bg-white border border-rule rounded-sm shadow-card;
+  }
+
+  /* Numbers — large tabular figures used for valuations etc. */
+  .num {
+    @apply font-mono tabular-nums tracking-tight;
+  }
+}
+
+@layer utilities {
+  /* Marquee ticker */
+  @keyframes ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-ticker {
+    animation: ticker-scroll 300s linear infinite;
+  }
+  .animate-ticker:hover {
+    animation-play-state: paused;
+  }
+
+  /* Fade in on mount */
+  @keyframes fade-in-up {
+    0%   { opacity: 0; transform: translateY(6px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in {
+    animation: fade-in-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Modal pop-in */
+  @keyframes modal-in {
+    0%   { opacity: 0; transform: scale(0.97) translateY(6px); }
+    100% { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .animate-modal-in {
+    animation: modal-in 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes backdrop-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .animate-backdrop-in {
+    animation: backdrop-in 0.22s ease-out both;
+  }
+
+  /* Right-side drawer for the team panel */
+  @keyframes drawer-in {
+    0%   { opacity: 0; transform: translateX(24px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  .animate-drawer-in {
+    animation: drawer-in 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}

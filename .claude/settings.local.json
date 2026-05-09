@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\" -Recurse -File | Where-Object { $_.FullName -notmatch 'node_modules|\\\\.claude|dist|research' } | Select-Object -ExpandProperty FullName | Sort-Object)",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nfl.js\" -Pattern '^\\\\s+\"[A-Z][^\"]+\":' | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "Skill(update-config)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\\" | Select-Object Name; \\(Get-Content \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nfl.js\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(\\(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nfl.js\" -Pattern '\"[A-Z][a-zA-Z ]+\" : \\\\{' | Measure-Object\\).Count; Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nfl.js\" -Pattern 'analystNotes' | Measure-Object | Select-Object -ExpandProperty Count)",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nba.js\" -Pattern 'analystNotes' | Measure-Object | Select-Object -ExpandProperty Count; \\(Get-Item \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\enrichments-nba.js\"\\).Length)",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-atlantic-central.js\"; $content | Where-Object { $_ -match '^\\\\s{2}\"[A-Za-z]' } | ForEach-Object { $_.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-atlantic-central.js\" -Pattern '^\\\\s+\"[A-Z]' | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-atlantic-central-east.js\" -Pattern '^\\\\s+\"[A-Z]' | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-central-southeast.js\" -Pattern '^\\\\s+\"[A-Z]' | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-northwest-pacific.js\" -Pattern '^\\\\s+\"[A-Z]' | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nba-temp-atlantic-central.js\" -Pattern '^\\\\s+\"[A-Z]' | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Get-Item *)",
+      "PowerShell(node --input-type=module -e \"import { nbaEnrichments } from './data/enrichments-nba.js'; console.log\\('Teams:', Object.keys\\(nbaEnrichments\\).length\\);\" 2>&1)",
+      "PowerShell(Get-Item \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\mlb-temp-nlcentral-nlwest.js\" | ForEach-Object { \"$\\($_.Name\\) — $\\($_.Length\\) bytes\" })",
+      "PowerShell(Get-Item \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\mlb-temp-nleast-nlcentral.js\" | ForEach-Object { \"$\\($_.Name\\) — $\\($_.Length\\) bytes\" })",
+      "PowerShell(Get-Item \"C:\\\\Users\\\\joshl\\\\sports-valuation-site\\\\data\\\\nhl-temp-central.js\" | ForEach-Object { \"$\\($_.Name\\) — $\\($_.Length\\) bytes\" })",
+      "PowerShell(Get-Process *)"
+    ]
+  }
+}
