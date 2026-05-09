@@ -2,6 +2,7 @@
 // Curated entries from teams.js are used as-is; remaining teams are synthesized from enrichments
 // so the LeagueExplorer / CompareTool can render all franchises.
 import curatedTeams from './teams.js'
+import enrichments from './enrichments.js'  // merged: base + supplements + 2025 valuations
 import { nflEnrichments } from './enrichments-nfl.js'
 import { nbaEnrichments } from './enrichments-nba.js'
 import { mlbEnrichments } from './enrichments-mlb.js'
@@ -290,20 +291,33 @@ function deriveTeam(name, enrichment, league) {
 
 const curatedByName = Object.fromEntries(curatedTeams.map(t => [t.name, t]))
 
-const builtTeams = LEAGUE_FILES.flatMap(([league, file]) =>
-  Object.entries(file).map(([name, enrichment]) => {
+const builtTeams = LEAGUE_FILES.flatMap(([league, baseFile]) =>
+  Object.keys(baseFile).map((name) => {
+    // CRITICAL: read the merged enrichment (which has 2025 valuations appended +
+    // supplement extendedValuationHistory prepended). Falling back to the base
+    // file would silently drop those, leaving currentValuation stuck on 2024.
+    const enrichment = enrichments[name] || baseFile[name]
     const curated = curatedByName[name]
     const derived = deriveTeam(name, enrichment, league)
     if (curated) {
-      // Curated entries are hand-curated, but valuation/growth must reflect latest history
-      // (so 2025 data flows through). Keep curated's marketing-quality oneLiner and drivers.
+      // Curated entries are hand-curated, but valuation/growth must reflect latest
+      // history (so 2025 data flows through). Keep curated's marketing-quality
+      // oneLiner and drivers. Use the *derived* current valuation unconditionally
+      // when the latest known year exceeds curated.valuationYear, so 2025 wins
+      // over a stale curated 2024 figure.
+      const derivedIsNewer =
+        (derived.valuationYear ?? 0) > (curated.valuationYear ?? 0)
       return {
         ...curated,
-        currentValuation: derived.currentValuation || curated.currentValuation,
-        valuationYear:    derived.valuationYear    || curated.valuationYear,
-        oneYearGrowth:    derived.oneYearGrowth,
-        fiveYearGrowth:   derived.fiveYearGrowth   || curated.fiveYearGrowth,
-        tenYearGrowth:    derived.tenYearGrowth,
+        currentValuation: derivedIsNewer
+          ? derived.currentValuation
+          : (derived.currentValuation || curated.currentValuation),
+        valuationYear: derivedIsNewer
+          ? derived.valuationYear
+          : (derived.valuationYear || curated.valuationYear),
+        oneYearGrowth:  derived.oneYearGrowth,
+        fiveYearGrowth: derived.fiveYearGrowth || curated.fiveYearGrowth,
+        tenYearGrowth:  derived.tenYearGrowth,
       }
     }
     return derived
