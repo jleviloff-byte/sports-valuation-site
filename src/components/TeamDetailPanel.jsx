@@ -12,6 +12,7 @@ import {
   Cell,
 } from 'recharts'
 import { getTeamImages } from '../../data/images.js'
+import allTeams from '../../data/allTeams.js'
 
 const OWNERSHIP_COLORS = ['#1a1a1a', '#e8600a', '#5b21b6', '#065f46', '#991b1b', '#075985', '#b45309', '#1e3a8a']
 
@@ -247,6 +248,127 @@ function KpiBlock({ label, value, sub, valueClass = 'text-ink' }) {
   )
 }
 
+function CompositionTooltip({ active, payload }) {
+  if (!active || !payload?.length) return null
+  const p = payload[0].payload
+  return (
+    <div className="bg-white border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
+      <div className="font-semibold text-ink mb-0.5">{p.name}</div>
+      <div className="font-mono text-base font-bold" style={{ color: p.color }}>{p.pct}%</div>
+      <div className="font-mono text-[10px] text-slate mt-0.5">Driver score: {p.score}/10</div>
+    </div>
+  )
+}
+
+// % of valuation explained by a team's top-2 drivers, normalized across the 5 scores
+function topTwoShare(t) {
+  const ds = t?.valuationDrivers || {}
+  const scores = DRIVER_DEFS.map((d) => ds[d.key] ?? 0)
+  const total = scores.reduce((s, v) => s + v, 0)
+  if (total <= 0) return 0
+  const sorted = [...scores].sort((a, b) => b - a)
+  return (sorted[0] + sorted[1]) / total
+}
+
+function ordinalSuffix(rank) {
+  if (rank === 1) return 'highest'
+  if (rank === 2) return 'second-highest'
+  if (rank === 3) return 'third-highest'
+  if (rank === 4) return 'fourth-highest'
+  if (rank === 5) return 'fifth-highest'
+  return null
+}
+
+function ValuationComposition({ team }) {
+  const drivers = team.valuationDrivers || {}
+  const totalScore = DRIVER_DEFS.reduce((s, d) => s + (drivers[d.key] ?? 0), 0)
+
+  // Round-robin so the 5 percentages sum to exactly 100
+  const raw = DRIVER_DEFS.map((d) => ({
+    name: d.label,
+    key: d.key,
+    score: drivers[d.key] ?? 0,
+    color: d.color,
+    exact: totalScore > 0 ? ((drivers[d.key] ?? 0) / totalScore) * 100 : 0,
+  }))
+  const floored = raw.map((r) => ({ ...r, pct: Math.floor(r.exact) }))
+  let leftover = 100 - floored.reduce((s, d) => s + d.pct, 0)
+  // distribute leftover to entries with the largest fractional remainder
+  const byRemainder = [...floored]
+    .map((d, i) => ({ idx: i, frac: d.exact - d.pct }))
+    .sort((a, b) => b.frac - a.frac)
+  for (let i = 0; i < leftover; i++) {
+    floored[byRemainder[i % byRemainder.length].idx].pct += 1
+  }
+  const data = floored
+
+  // Top-2 by score for the interpretive sentence
+  const sorted = [...data].sort((a, b) => b.score - a.score)
+  const top1 = sorted[0]
+  const top2 = sorted[1]
+  const top2Pct = top1.pct + top2.pct
+
+  // League ranking — how concentrated this team's top-2 is vs. peers
+  const peers = allTeams.filter((t) => t.league === team.league && t.name !== team.name)
+  const myShare = topTwoShare(team)
+  const higherCount = peers.filter((t) => topTwoShare(t) > myShare + 0.0005).length
+  const rank = higherCount + 1
+  const ordinal = ordinalSuffix(rank)
+
+  const concentrationClause = ordinal
+    ? ` — the ${ordinal} combined share in the ${team.league}.`
+    : '.'
+  const sentence = `For the ${team.name}, ${top1.name} and ${top2.name} account for ~${top2Pct}% of their estimated valuation${concentrationClause}`
+
+  return (
+    <section>
+      <SectionHeader>What Makes Up This Valuation?</SectionHeader>
+
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:items-center">
+        {/* Donut */}
+        <div className="md:col-span-2">
+          <ResponsiveContainer width="100%" height={280}>
+            <PieChart>
+              <Pie
+                data={data}
+                dataKey="pct"
+                nameKey="name"
+                innerRadius={60}
+                outerRadius={100}
+                paddingAngle={1.5}
+                stroke="#ffffff"
+                strokeWidth={2}
+              >
+                {data.map((d, i) => (
+                  <Cell key={i} fill={d.color} />
+                ))}
+              </Pie>
+              <Tooltip content={<CompositionTooltip />} />
+            </PieChart>
+          </ResponsiveContainer>
+        </div>
+
+        {/* Side legend — sorted by share, descending */}
+        <div className="md:col-span-3">
+          <div className="space-y-3">
+            {sorted.map((d) => (
+              <div key={d.key} className="flex items-center gap-3 pb-2 border-b border-rule last:border-0 last:pb-0">
+                <span className="w-3 h-3 rounded-sm flex-shrink-0" style={{ background: d.color }} />
+                <span className="text-sm text-ink flex-1">{d.name}</span>
+                <span className="font-mono text-base font-bold text-ink">{d.pct}%</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <p className="mt-6 text-base text-graphite leading-relaxed font-serif italic border-l-4 border-ink pl-5">
+        {sentence}
+      </p>
+    </section>
+  )
+}
+
 function StadiumHero({ team }) {
   const images = getTeamImages(team.name)
   const stadium = images?.stadiumUrl
@@ -406,6 +528,9 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
 
           {/* Body sections */}
           <div className="px-6 sm:px-8 py-8 space-y-10">
+            {/* Composition donut — what % of the valuation each driver explains */}
+            <ValuationComposition team={team} />
+
             {/* Valuation history */}
             {valuationHistory.length > 0 && (
               <section>
