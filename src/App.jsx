@@ -11,6 +11,9 @@ import CompareTool from './components/CompareTool.jsx'
 import TeamDetailPanel from './components/TeamDetailPanel.jsx'
 import Ticker from './components/Ticker.jsx'
 import Methodology from './pages/Methodology.jsx'
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
+import TermsOfService from './pages/TermsOfService.jsx'
+import DataSources from './pages/DataSources.jsx'
 
 // Scrolls to the in-page anchor when the URL hash changes (since react-router
 // doesn't do this automatically). Also scrolls to top on plain route changes.
@@ -40,16 +43,20 @@ function Nav() {
         >
           What's a Team Worth?
         </Link>
-        <div className="hidden md:flex gap-6 text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
+        <div className="hidden lg:flex gap-5 text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
           <Link to="/#explorer"  className="hover:text-ink transition-colors">Explorer</Link>
           <Link to="/#framework" className="hover:text-ink transition-colors">Framework</Link>
           <Link to="/#macro"     className="hover:text-ink transition-colors">Macro</Link>
           <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
           <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
+          <span className="w-px bg-rule" aria-hidden="true" />
           <Link to="/methodology" className="hover:text-accent transition-colors">How We Built This</Link>
+          <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
         </div>
-        <div className="md:hidden font-mono text-[9px] tracking-widest uppercase text-slate">
-          <Link to="/methodology" className="hover:text-ink">Methodology →</Link>
+        <div className="lg:hidden font-mono text-[9px] tracking-widest uppercase text-slate flex gap-3">
+          <Link to="/methodology" className="hover:text-ink">Methodology</Link>
+          <span className="text-rule">·</span>
+          <Link to="/data-sources" className="hover:text-ink">Sources</Link>
         </div>
       </div>
     </nav>
@@ -58,15 +65,79 @@ function Nav() {
 
 function Footer() {
   return (
-    <footer className="border-t border-rule py-10 mt-12">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
-        <span className="font-mono text-[10px] text-slate tracking-widest uppercase">
-          What's a Team Worth? &nbsp;·&nbsp; Data: Forbes 2024–2025 estimates &nbsp;·&nbsp; 174 franchises &nbsp;·&nbsp; 6 leagues
-        </span>
-        <span className="text-[10px] text-ash">
-          For educational purposes. Valuations are approximations.{' '}
-          <Link to="/methodology" className="text-accent hover:text-accent-dark">Methodology</Link>.
-        </span>
+    <footer className="border-t-2 border-ink mt-16 bg-paper">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        {/* Top row — masthead + nav columns */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-10">
+          <div className="md:col-span-5">
+            <Link
+              to="/"
+              className="font-serif italic text-xl font-bold text-ink hover:text-accent transition-colors"
+            >
+              What's a Team Worth?
+            </Link>
+            <p className="text-sm text-graphite mt-3 leading-relaxed max-w-md">
+              An interactive guide to the value of every major professional sports
+              franchise. 174 teams across six leagues. Independent analysis by
+              <span className="font-semibold text-ink"> Josh Leviloff</span>.
+            </p>
+          </div>
+
+          <div className="md:col-span-3">
+            <div className="font-mono text-[10px] tracking-widest uppercase font-bold text-slate mb-3">
+              Explore
+            </div>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/#explorer"  className="text-graphite hover:text-ink transition-colors">Explorer</Link></li>
+              <li><Link to="/#framework" className="text-graphite hover:text-ink transition-colors">Framework</Link></li>
+              <li><Link to="/#macro"     className="text-graphite hover:text-ink transition-colors">Macro</Link></li>
+              <li><Link to="/#cities"    className="text-graphite hover:text-ink transition-colors">Cities</Link></li>
+              <li><Link to="/#compare"   className="text-graphite hover:text-ink transition-colors">Compare</Link></li>
+            </ul>
+          </div>
+
+          <div className="md:col-span-2">
+            <div className="font-mono text-[10px] tracking-widest uppercase font-bold text-slate mb-3">
+              About
+            </div>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/methodology"  className="text-graphite hover:text-ink transition-colors">Methodology</Link></li>
+              <li><Link to="/data-sources" className="text-graphite hover:text-ink transition-colors">Data Sources</Link></li>
+            </ul>
+          </div>
+
+          <div className="md:col-span-2">
+            <div className="font-mono text-[10px] tracking-widest uppercase font-bold text-slate mb-3">
+              Legal
+            </div>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/privacy" className="text-graphite hover:text-ink transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms"   className="text-graphite hover:text-ink transition-colors">Terms of Service</Link></li>
+              <li><Link to="/data-sources" className="text-graphite hover:text-ink transition-colors">Disclaimers</Link></li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Disclaimer row */}
+        <div className="border-t border-rule pt-6">
+          <p className="text-xs text-slate leading-relaxed max-w-4xl font-serif italic">
+            All valuation breakdowns are independent estimates and opinions of{' '}
+            <span className="not-italic font-sans font-semibold text-ink">Josh Leviloff</span>.
+            Not financial advice. Sources include Forbes, Sportico, and the Sports
+            Business Journal. All opinions are my own and do not represent any
+            employer or institution.
+          </p>
+        </div>
+
+        {/* Bottom row — colophon */}
+        <div className="border-t border-rule mt-6 pt-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <span className="font-mono text-[10px] text-slate tracking-widest uppercase">
+            What's a Team Worth? &nbsp;·&nbsp; Data: Forbes 2024–2025 estimates &nbsp;·&nbsp; 174 franchises &nbsp;·&nbsp; 6 leagues
+          </span>
+          <span className="font-mono text-[10px] text-ash tracking-widest uppercase">
+            © 2026 Josh Leviloff
+          </span>
+        </div>
       </div>
     </footer>
   )
@@ -142,7 +213,10 @@ export default function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/methodology" element={<Methodology />} />
+          <Route path="/methodology"  element={<Methodology />} />
+          <Route path="/data-sources" element={<DataSources />} />
+          <Route path="/privacy"      element={<PrivacyPolicy />} />
+          <Route path="/terms"        element={<TermsOfService />} />
         </Routes>
         <Footer />
       </div>
