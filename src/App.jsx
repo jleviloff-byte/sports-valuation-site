@@ -2,6 +2,11 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
 import teams from '../data/allTeams.js'
 import { getEnrichment } from '../data/enrichments.js'
+import {
+  trackTeamViewed,
+  trackScrollDepth,
+  trackSubstackReferralOnce,
+} from './utils/analytics.js'
 import TitleBar from './components/TitleBar.jsx'
 import LeagueExplorer from './components/LeagueExplorer.jsx'
 import { DriversExplainer, ProblemStats } from './components/Hero.jsx'
@@ -162,8 +167,35 @@ function MethodologyCallout() {
   )
 }
 
+function useScrollDepthTracking() {
+  // Fires scroll_depth events at 25/50/75/90% page depth, once per mount.
+  useEffect(() => {
+    const fired = new Set()
+    function onScroll() {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight
+      if (docHeight <= 0) return
+      const depth = Math.min(100, Math.round((window.scrollY / docHeight) * 100))
+      for (const t of [25, 50, 75, 90]) {
+        if (depth >= t && !fired.has(t)) {
+          fired.add(t)
+          trackScrollDepth(t)
+        }
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+}
+
 function HomePage() {
   const [selectedTeam, setSelectedTeam] = useState(null)
+  useScrollDepthTracking()
+
+  function handleSelectTeam(team) {
+    setSelectedTeam(team)
+    if (team) trackTeamViewed(team.name, team.league, team.currentValuation)
+  }
 
   return (
     <>
@@ -172,7 +204,7 @@ function HomePage() {
         <MethodologyCallout />
         <LeagueExplorer
           teams={teams}
-          onSelectTeam={setSelectedTeam}
+          onSelectTeam={handleSelectTeam}
           selectedTeam={selectedTeam}
         />
 
@@ -202,6 +234,10 @@ function HomePage() {
 }
 
 export default function App() {
+  useEffect(() => {
+    trackSubstackReferralOnce()
+  }, [])
+
   return (
     <BrowserRouter>
       <ScrollManager />

@@ -1,4 +1,6 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { trackDataSourcesViewed } from '../utils/analytics.js'
 
 const SOURCES = [
   { name: 'Forbes',                 desc: 'Primary franchise valuation figures' },
@@ -15,6 +17,8 @@ const SOURCES = [
 ]
 
 export default function DataSources() {
+  useEffect(() => { trackDataSourcesViewed() }, [])
+
   return (
     <main className="bg-paper">
       <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">

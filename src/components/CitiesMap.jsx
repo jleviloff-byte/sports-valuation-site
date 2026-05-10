@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import { US_METROS, findMetro, NON_US_CITIES } from '../../data/us-metros.js'
+import { trackCityBubbleClicked } from '../utils/analytics.js'
 
 const US_LEAGUES = new Set(['NFL', 'NBA', 'MLB', 'NHL', 'MLS'])
 
@@ -296,7 +297,7 @@ export default function CitiesMap({ teams }) {
               return (
                 <g
                   key={c.name}
-                  onClick={() => setSelected(c)}
+                  onClick={() => { setSelected(c); trackCityBubbleClicked(c.name, c.total) }}
                   style={{ cursor: 'pointer' }}
                   className="group"
                 >

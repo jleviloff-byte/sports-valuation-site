@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { trackOutboundLink } from '../utils/analytics.js'
 
 export default function PrivacyPolicy() {
   return (
@@ -29,6 +30,7 @@ export default function PrivacyPolicy() {
               href="https://tools.google.com/dlpage/gaoptout"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackOutboundLink('https://tools.google.com/dlpage/gaoptout', 'GA opt-out')}
               className="font-sans not-italic text-accent hover:text-accent-dark transition-colors"
             >
               opt-out tools
@@ -44,6 +46,7 @@ export default function PrivacyPolicy() {
             <br />
             <a
               href="mailto:jleviloff@gmail.com"
+              onClick={() => trackOutboundLink('mailto:jleviloff@gmail.com', 'privacy contact email')}
               className="text-ink font-semibold hover:text-accent transition-colors"
             >
               jleviloff@gmail.com

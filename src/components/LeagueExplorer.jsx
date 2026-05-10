@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { trackLeagueFiltered, trackSortChanged } from '../utils/analytics.js'
 
 const LEAGUES = ['ALL', 'NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
 
@@ -100,6 +101,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
       setSortField(field)
       setSortDir(field === 'name' || field === 'league' ? 'asc' : 'desc')
     }
+    trackSortChanged(field)
   }
 
   const filtered = useMemo(() => {
@@ -145,7 +147,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
           {LEAGUES.map((l) => (
             <button
               key={l}
-              onClick={() => setLeagueFilter(l)}
+              onClick={() => { setLeagueFilter(l); trackLeagueFiltered(l) }}
               className={`text-[10px] font-mono font-bold tracking-widest uppercase px-3 py-1.5 rounded-sm transition-all ${
                 leagueFilter === l
                   ? LEAGUE_ACTIVE[l]

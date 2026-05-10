@@ -9,6 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts'
+import { trackTeamCompared } from '../utils/analytics.js'
 
 const LEAGUES = ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
 
@@ -126,6 +127,10 @@ export default function CompareTool({ teams }) {
 
   function setName(idx, name) {
     setTeamNames((prev) => prev.map((n, i) => (i === idx ? name : n)))
+    if (name) {
+      const t = teams.find((x) => x.name === name)
+      if (t) trackTeamCompared(t.name, t.league)
+    }
   }
   function addSlot() {
     if (teamNames.length < MAX_TEAMS) setTeamNames((prev) => [...prev, ''])

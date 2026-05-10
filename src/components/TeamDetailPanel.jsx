@@ -13,6 +13,7 @@ import {
 } from 'recharts'
 import { getTeamImages } from '../../data/images.js'
 import allTeams from '../../data/allTeams.js'
+import { trackFactorExpanded } from '../utils/analytics.js'
 
 const OWNERSHIP_COLORS = ['#1a1a1a', '#e8600a', '#5b21b6', '#065f46', '#991b1b', '#075985', '#b45309', '#1e3a8a']
 
@@ -739,7 +740,11 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                     color={color}
                     narrative={enrichment?.factorNarratives?.[key]}
                     isOpen={openDriver === key}
-                    onToggle={() => setOpenDriver(openDriver === key ? null : key)}
+                    onToggle={() => {
+                      const wasOpen = openDriver === key
+                      setOpenDriver(wasOpen ? null : key)
+                      if (!wasOpen) trackFactorExpanded(label, team.name)
+                    }}
                     leagueRank={team.rankings?.league?.[key]}
                     cityRank={team.rankings?.city?.[key]}
                     league={team.league}
