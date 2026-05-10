@@ -38,33 +38,111 @@ function ScrollManager() {
   return null
 }
 
-function Nav() {
+const MOBILE_NAV_LINKS = [
+  { to: '/#explorer',     label: 'Explore Teams' },
+  { to: '/#compare',      label: 'Compare' },
+  { to: '/#cities',       label: 'Cities' },
+  { to: '/methodology',   label: 'How We Built This' },
+  { to: '/data-sources',  label: 'Data Sources' },
+  { to: '/privacy',       label: 'Legal' },
+]
+
+function MobileMenu({ open, onClose }) {
+  // Lock body scroll while menu is open
+  useEffect(() => {
+    if (!open) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    function onKey(e) { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = prev
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [open, onClose])
+
+  if (!open) return null
+
   return (
-    <nav className="sticky top-9 z-40 bg-paper/95 backdrop-blur border-b border-rule">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-        <Link
-          to="/"
-          className="font-serif italic text-lg sm:text-xl font-bold text-ink hover:text-accent transition-colors"
-        >
-          What's a Team Worth?
-        </Link>
-        <div className="hidden lg:flex gap-5 text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
-          <Link to="/#explorer"  className="hover:text-ink transition-colors">Explorer</Link>
-          <Link to="/#framework" className="hover:text-ink transition-colors">Framework</Link>
-          <Link to="/#macro"     className="hover:text-ink transition-colors">Macro</Link>
-          <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
-          <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
-          <span className="w-px bg-rule" aria-hidden="true" />
-          <Link to="/methodology" className="hover:text-accent transition-colors">How We Built This</Link>
-          <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
+    <div className="fixed inset-0 z-[70] md:hidden">
+      <div
+        className="absolute inset-0 bg-ink/55 animate-backdrop-in"
+        onClick={onClose}
+        aria-hidden="true"
+      />
+      <div className="absolute inset-x-0 top-0 bg-white border-b-2 border-ink shadow-modal animate-fade-in">
+        <div className="px-5 py-4 flex items-center justify-between border-b border-rule">
+          <span className="font-serif italic text-lg font-bold text-ink">
+            What's a Team Worth?
+          </span>
+          <button
+            onClick={onClose}
+            className="w-11 h-11 flex items-center justify-center text-ink hover:bg-paper rounded-sm transition-colors text-xl border border-rule"
+            aria-label="Close menu"
+          >
+            ✕
+          </button>
         </div>
-        <div className="lg:hidden font-mono text-[9px] tracking-widest uppercase text-slate flex gap-3">
-          <Link to="/methodology" className="hover:text-ink">Methodology</Link>
-          <span className="text-rule">·</span>
-          <Link to="/data-sources" className="hover:text-ink">Sources</Link>
-        </div>
+        <nav className="py-2">
+          {MOBILE_NAV_LINKS.map((link) => (
+            <Link
+              key={link.to}
+              to={link.to}
+              onClick={onClose}
+              className="block min-h-[56px] flex items-center px-5 py-4 border-b border-rule font-serif text-xl text-ink hover:bg-callout transition-colors"
+            >
+              {link.label}
+              <span className="ml-auto text-accent text-base font-sans">→</span>
+            </Link>
+          ))}
+        </nav>
       </div>
-    </nav>
+    </div>
+  )
+}
+
+function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  return (
+    <>
+      <nav className="sticky top-9 z-40 bg-paper/95 backdrop-blur border-b border-rule">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+          <Link
+            to="/"
+            className="font-serif italic text-lg sm:text-xl font-bold text-ink hover:text-accent transition-colors"
+          >
+            What's a Team Worth?
+          </Link>
+
+          {/* Desktop nav (md+) */}
+          <div className="hidden md:flex items-center gap-4 lg:gap-5 text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
+            <Link to="/#explorer"  className="hover:text-ink transition-colors">Explorer</Link>
+            <Link to="/#framework" className="hover:text-ink transition-colors">Framework</Link>
+            <Link to="/#macro"     className="hover:text-ink transition-colors">Macro</Link>
+            <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
+            <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
+            <span className="w-px h-4 bg-rule" aria-hidden="true" />
+            <Link to="/methodology"  className="hover:text-accent transition-colors">How We Built This</Link>
+            <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
+          </div>
+
+          {/* Mobile hamburger (below md) */}
+          <button
+            type="button"
+            onClick={() => setMenuOpen(true)}
+            aria-label="Open navigation menu"
+            aria-expanded={menuOpen}
+            className="md:hidden w-11 h-11 flex flex-col items-center justify-center gap-1.5 text-ink hover:bg-paper rounded-sm transition-colors"
+          >
+            <span className="block w-6 h-0.5 bg-ink" />
+            <span className="block w-6 h-0.5 bg-ink" />
+            <span className="block w-6 h-0.5 bg-ink" />
+          </button>
+        </div>
+      </nav>
+      <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
+    </>
   )
 }
 

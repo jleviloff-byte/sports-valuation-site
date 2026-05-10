@@ -164,8 +164,102 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
         </div>
       </div>
 
-      {/* Table */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16">
+      {/* Mobile card list — below md, single-column readable cards */}
+      <div className="md:hidden max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-16 space-y-3">
+        {filtered.map((team) => {
+          const isSelected = selectedTeam?.name === team.name
+          return (
+            <button
+              key={team.name}
+              type="button"
+              onClick={() => onSelectTeam(isSelected ? null : team)}
+              className={`w-full text-left bg-white border rounded-sm p-4 transition-colors ${
+                isSelected ? 'border-accent bg-accent-soft' : 'border-rule active:bg-callout'
+              }`}
+            >
+              {/* Top row: badge + 5Y growth */}
+              <div className="flex items-center justify-between mb-3">
+                <span className={`font-mono text-[10px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}>
+                  {team.league}
+                </span>
+                <span className={`font-mono text-sm font-bold ${growthClass(team.fiveYearGrowth)}`}>
+                  {team.fiveYearGrowth != null
+                    ? `${team.fiveYearGrowth >= 0 ? '+' : ''}${team.fiveYearGrowth}% 5Y`
+                    : '—'}
+                </span>
+              </div>
+
+              {/* Name + city */}
+              <div className="font-serif text-2xl font-bold text-ink leading-tight">{team.name}</div>
+              {team.city && (
+                <div className="text-xs text-slate font-mono mt-0.5 mb-3">{team.city}</div>
+              )}
+
+              {/* Valuation */}
+              <div className="font-mono text-4xl font-bold text-ink tracking-tight mb-4">
+                ${team.currentValuation}
+                <span className="text-xl text-slate">B</span>
+              </div>
+
+              {/* 1Y / 5Y / 10Y row */}
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {['oneYearGrowth', 'fiveYearGrowth', 'tenYearGrowth'].map((field, i) => {
+                  const v = team[field]
+                  const label = ['1Y', '5Y', '10Y'][i]
+                  return (
+                    <div key={field} className="bg-paper border border-rule rounded-sm px-2 py-1.5">
+                      <div className="font-mono text-[9px] tracking-widest uppercase text-slate">{label}</div>
+                      <div className={`font-mono text-sm font-bold ${growthClass(v)}`}>
+                        {v == null ? '—' : `${v >= 0 ? '+' : ''}${v}%`}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+
+              {/* Driver scores — 5 small chips */}
+              <div className="flex gap-1.5">
+                {[
+                  { key: 'mediaRights', label: 'MED' },
+                  { key: 'stadium',     label: 'STD' },
+                  { key: 'brand',       label: 'BRD' },
+                  { key: 'marketSize',  label: 'MKT' },
+                  { key: 'onField',     label: 'ONF' },
+                ].map(({ key, label }) => {
+                  const score = team.valuationDrivers?.[key] ?? 0
+                  const a = 0.05 + (score / 10) * 0.32
+                  return (
+                    <div
+                      key={key}
+                      className="flex-1 rounded-sm border border-rule px-1.5 py-1 text-center"
+                      style={{ background: hexToRgba(DRIVER_COLOR[key], a) }}
+                    >
+                      <div className="font-mono text-[9px] tracking-widest uppercase text-slate">{label}</div>
+                      <div className="font-mono text-sm font-bold text-ink">{score}</div>
+                    </div>
+                  )
+                })}
+              </div>
+
+              {/* Stadium owned + tap-affordance */}
+              <div className="flex items-center justify-between mt-3 pt-3 border-t border-rule">
+                <span className={`font-mono text-[10px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-[#0a7d2a]' : 'text-ash'}`}>
+                  {team.ownsStadium ? '● Stadium owned' : '○ Tenant'}
+                </span>
+                <span className="font-mono text-[10px] tracking-widest uppercase text-accent">
+                  Tap for profile →
+                </span>
+              </div>
+            </button>
+          )
+        })}
+        {filtered.length === 0 && (
+          <div className="text-center py-12 text-slate text-sm">No franchises match this filter.</div>
+        )}
+      </div>
+
+      {/* Table — md+ */}
+      <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16">
         <div className="overflow-x-auto -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <table className="w-full border-collapse min-w-[980px]">
             <thead>

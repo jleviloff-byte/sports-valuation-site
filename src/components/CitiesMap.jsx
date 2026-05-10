@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { geoAlbersUsa, geoPath } from 'd3-geo'
 import { feature } from 'topojson-client'
 import statesTopo from 'us-atlas/states-10m.json'
@@ -200,8 +200,77 @@ function CityModal({ city, onClose }) {
   )
 }
 
+// Hook: pinch-to-zoom + pan + zoom buttons. Scale clamped to [1, 5].
+// Returns transform CSS + handlers to spread onto the wrapper.
+function useMapZoom() {
+  const [scale, setScale] = useState(1)
+  const [tx, setTx] = useState(0)
+  const [ty, setTy] = useState(0)
+  const gestureRef = useRef(null)
+
+  const clampScale = (s) => Math.max(1, Math.min(5, s))
+
+  function reset() {
+    setScale(1); setTx(0); setTy(0)
+  }
+  function zoomBy(factor) {
+    setScale((s) => clampScale(s * factor))
+  }
+
+  function onTouchStart(e) {
+    if (e.touches.length === 2) {
+      const [a, b] = e.touches
+      const dx = b.clientX - a.clientX
+      const dy = b.clientY - a.clientY
+      gestureRef.current = {
+        kind: 'pinch',
+        startDist: Math.hypot(dx, dy),
+        startScale: scale,
+      }
+    } else if (e.touches.length === 1 && scale > 1) {
+      const t = e.touches[0]
+      gestureRef.current = {
+        kind: 'pan',
+        startX: t.clientX,
+        startY: t.clientY,
+        startTx: tx,
+        startTy: ty,
+      }
+    }
+  }
+  function onTouchMove(e) {
+    const g = gestureRef.current
+    if (!g) return
+    if (g.kind === 'pinch' && e.touches.length === 2) {
+      const [a, b] = e.touches
+      const dx = b.clientX - a.clientX
+      const dy = b.clientY - a.clientY
+      const dist = Math.hypot(dx, dy)
+      setScale(clampScale(g.startScale * (dist / g.startDist)))
+    } else if (g.kind === 'pan' && e.touches.length === 1) {
+      const t = e.touches[0]
+      setTx(g.startTx + (t.clientX - g.startX))
+      setTy(g.startTy + (t.clientY - g.startY))
+    }
+    e.preventDefault()
+  }
+  function onTouchEnd() {
+    gestureRef.current = null
+  }
+
+  return {
+    scale, tx, ty,
+    transform: `translate(${tx}px, ${ty}px) scale(${scale})`,
+    onTouchStart, onTouchMove, onTouchEnd,
+    zoomIn: () => zoomBy(1.4),
+    zoomOut: () => zoomBy(1 / 1.4),
+    reset,
+  }
+}
+
 export default function CitiesMap({ teams }) {
   const [selected, setSelected] = useState(null)
+  const zoom = useMapZoom()
 
   const cities = useMemo(() => {
     const usTeams = teams.filter(
@@ -265,13 +334,46 @@ export default function CitiesMap({ teams }) {
           and MLS. Click any bubble for the full breakdown.
         </p>
 
-        {/* Map */}
-        <svg
-          viewBox={`0 0 ${VIEW.width} ${VIEW.height}`}
-          className="w-full h-auto"
-          role="img"
-          aria-label="Map of US sports cities by combined franchise valuation"
+        {/* Map — wrapped in a zoom/pan container with touch handlers */}
+        <div
+          className="relative overflow-hidden border border-rule rounded-sm bg-white"
+          onTouchStart={zoom.onTouchStart}
+          onTouchMove={zoom.onTouchMove}
+          onTouchEnd={zoom.onTouchEnd}
+          style={{ touchAction: zoom.scale > 1 ? 'none' : 'pan-y' }}
         >
+          {/* Zoom controls — top-right of the map container */}
+          <div className="absolute top-3 right-3 z-10 flex flex-col gap-1 bg-white border border-rule rounded-sm shadow-card">
+            <button
+              type="button"
+              onClick={zoom.zoomIn}
+              className="w-9 h-9 flex items-center justify-center text-ink hover:bg-paper transition-colors text-lg font-bold"
+              aria-label="Zoom in"
+            >+</button>
+            <button
+              type="button"
+              onClick={zoom.zoomOut}
+              className="w-9 h-9 flex items-center justify-center text-ink hover:bg-paper transition-colors text-lg font-bold border-t border-rule"
+              aria-label="Zoom out"
+            >−</button>
+            <button
+              type="button"
+              onClick={zoom.reset}
+              className="w-9 h-9 flex items-center justify-center text-slate hover:bg-paper hover:text-ink transition-colors text-[9px] font-mono font-bold tracking-widest uppercase border-t border-rule"
+              aria-label="Reset zoom"
+            >reset</button>
+          </div>
+          <svg
+            viewBox={`0 0 ${VIEW.width} ${VIEW.height}`}
+            className="w-full h-auto block select-none"
+            role="img"
+            aria-label="Map of US sports cities by combined franchise valuation"
+            style={{
+              transform: zoom.transform,
+              transformOrigin: '0 0',
+              transition: zoom.scale === 1 ? 'transform 0.18s ease-out' : 'none',
+            }}
+          >
           {/* States */}
           <g>
             {states.map((s) => (
@@ -353,6 +455,17 @@ export default function CitiesMap({ teams }) {
             })}
           </g>
         </svg>
+        {zoom.scale > 1 && (
+          <div className="absolute bottom-3 left-3 font-mono text-[9px] tracking-widest uppercase text-ink bg-white/90 border border-rule rounded-sm px-2 py-1">
+            {Math.round(zoom.scale * 100)}% · drag to pan
+          </div>
+        )}
+        </div>
+
+        {/* Mobile zoom hint — visible only when zoomed out */}
+        <p className="md:hidden font-mono text-[10px] tracking-wider uppercase text-ash mt-2">
+          Pinch to zoom · drag to pan
+        </p>
 
         {/* Legend */}
         <div className="mt-6 pt-5 border-t border-rule flex flex-col sm:flex-row sm:items-center gap-4">

@@ -654,7 +654,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
         role="dialog"
         aria-label={`${team.name} valuation profile`}
         aria-modal="true"
-        className="relative w-full sm:max-w-[680px] lg:max-w-[820px] h-full bg-white border-l border-rule shadow-modal overflow-hidden flex flex-col animate-drawer-in"
+        className="relative w-full md:max-w-[680px] lg:max-w-[820px] h-full bg-white md:border-l md:border-rule md:shadow-modal overflow-hidden flex flex-col animate-drawer-in"
       >
         {/* Floating close button (top-right) — sits over the photo */}
         <button

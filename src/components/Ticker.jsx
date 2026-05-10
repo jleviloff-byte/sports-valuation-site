@@ -25,9 +25,9 @@ function TickerItem({ team }) {
       >
         {team.league}
       </span>
-      <span className="text-xs font-semibold text-ink">{team.name}</span>
-      <span className="font-mono text-xs font-bold text-ink">${team.currentValuation}B</span>
-      <span className="font-mono text-[10px] font-bold" style={{ color }}>
+      <span className="text-[13px] sm:text-xs font-semibold text-ink">{team.name}</span>
+      <span className="font-mono text-[13px] sm:text-xs font-bold text-ink">${team.currentValuation}B</span>
+      <span className="font-mono text-[11px] sm:text-[10px] font-bold" style={{ color }}>
         {symbol} {Math.abs(team.fiveYearGrowth)}%
       </span>
       <span className="text-rule">·</span>
