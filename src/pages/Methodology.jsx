@@ -9,7 +9,7 @@ export default function Methodology() {
           <span className="eyebrow text-accent">Methodology</span>
         </div>
 
-        {/* Centered title — only structural element on the page */}
+        {/* Centered title; the only structural element on the page */}
         <h1 className="font-serif text-ink text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-center">
           A note on how this was built
         </h1>
@@ -32,9 +32,9 @@ export default function Methodology() {
             argument with friends. Why are the Jets, who haven't been to the
             playoffs in over a decade, worth six billion dollars? Why are the
             Knicks, who haven't won a title since 1973, the third-most-valuable
-            franchise in basketball? The standard answer — "media rights and
-            stadiums" — is technically correct and almost completely useless.
-            It explains nothing.
+            franchise in basketball? Most people will tell you "media rights
+            and stadiums." That answer is technically correct and almost
+            completely useless. It explains nothing.
           </p>
 
           <p>
@@ -42,22 +42,22 @@ export default function Methodology() {
             publish theirs. Sportico does not publish theirs. The Sports
             Business Journal will tell you the size of the NFL's media deal
             but not how it flows through to a single team's valuation. I read
-            every breakdown I could find, and they were all sectional — media
-            here, stadium there, brand somewhere else — and none of them tied
+            every breakdown I could find. They were all sectional, with media
+            here, stadium there, brand somewhere else, and none of them tied
             together. Eventually I gave up looking and built it myself.
           </p>
 
           <p>
             The model behind this site treats every franchise as a function of
-            five inputs. The headline valuation is a public output: Forbes and
+            five inputs. The headline valuation is a public output. Forbes and
             Sportico each publish their own, and they typically agree within
             five percent. What I have done is reverse engineer that output.
             For each of the 174 franchises in the major leagues, I scored the
-            team on five factors — media rights, stadium economics, brand
-            strength, market size, and on-field performance — and normalized
-            those scores so they sum to one hundred percent of the team's
-            announced value. That is the donut you see on every team page. It
-            is a partition of a known total into its causes.
+            team on five factors. Those factors are media rights, stadium
+            economics, brand strength, market size, and on-field performance.
+            Then I normalized the scores so they sum to one hundred percent of
+            the team's announced value. That is the donut you see on every
+            team page. It is a partition of a known total into its causes.
           </p>
 
           <p>
@@ -66,15 +66,15 @@ export default function Methodology() {
             with CBS, NBC, Fox, ESPN, and Amazon. Spread across thirty-two
             clubs, that is roughly $340 million per team per year, every year,
             before a single ticket is sold. The NBA's new $76 billion deal
-            with NBC and Amazon, signed in 2024, has the same effect — it
-            puts a floor under every franchise that nothing else in sports
-            comes close to. This is why the bottom of the NFL is worth more
-            than the top of the NHL: not because of fans, not because of
-            stadiums, but because of the contract sitting underneath every
-            team. I built the media-rights score by pulling each team's
-            share of national rights, layering on local broadcast and
-            streaming arrangements where they were disclosed, and indexing
-            the result against league average.
+            with NBC and Amazon, signed in 2024, has the same effect. It puts
+            a floor under every franchise that nothing else in sports comes
+            close to. This is why the bottom of the NFL is worth more than
+            the top of the NHL: not because of fans, not because of stadiums,
+            but because of the contract sitting underneath every team. I
+            built the media-rights score by pulling each team's share of
+            national rights, layering on local broadcast and streaming
+            arrangements where they were disclosed, and indexing the result
+            against league average.
           </p>
 
           <p>
@@ -83,18 +83,19 @@ export default function Methodology() {
             the team own the building, or do they pay rent? Who financed
             construction, and at what split between public bonds and private
             capital? What is the naming rights deal worth, when does it
-            expire, and who collects? Are there non-game events — concerts,
-            college bowls, conventions — and where does that revenue land?
-            And, the question that distinguishes a good stadium investment
-            from a great one, does the ownership group control the
-            surrounding real estate? The Rams' SoFi Stadium cost Stan
-            Kroenke $5 billion. SoFi by itself is impressive. SoFi as the
-            anchor of a 300-acre entertainment district that Kroenke owns —
-            that is a different asset class entirely. The team that leases
-            a publicly-financed stadium and walks away when the concert tour
-            leaves town scores categorically differently. I cross-referenced
-            municipal bond filings, local government records, team press
-            releases, and real estate databases for every venue.
+            expire, and who collects? Are there non-game events like
+            concerts, college bowls, and conventions, and where does that
+            revenue land? And, the question that distinguishes a good
+            stadium investment from a great one, does the ownership group
+            control the surrounding real estate? The Rams' SoFi Stadium
+            cost Stan Kroenke $5 billion. SoFi by itself is impressive.
+            SoFi as the anchor of a 300-acre entertainment district that
+            Kroenke owns is a different asset class entirely. The team that
+            leases a publicly-financed stadium and walks away when the
+            concert tour leaves town scores categorically differently. I
+            cross-referenced municipal bond filings, local government
+            records, team press releases, and real estate databases for
+            every venue.
           </p>
 
           <p>
@@ -103,13 +104,13 @@ export default function Methodology() {
             platforms, global merchandise revenue estimates from industry
             reports, international fanbase size where reported, and
             sponsorship deal density and value. Then each team was indexed
-            against their league average. Manchester United, the Yankees,
-            the Cowboys, the Lakers — these are not just teams, they are
-            global IP, and the gap between them and a regional team in the
-            same league is worth billions. Brand is also the input that
-            decays slowest. The Cowboys haven't been to an NFC championship
-            game since 1996; the brand was built before then and has
-            compounded ever since.
+            against their league average. Take Manchester United, the
+            Yankees, the Cowboys, the Lakers. These are not just teams.
+            They are global IP, and the gap between them and a regional
+            team in the same league is worth billions. Brand is also the
+            input that decays slowest. The Cowboys haven't been to an NFC
+            championship game since 1996, but the brand was built before
+            then and has compounded ever since.
           </p>
 
           <p>
@@ -117,8 +118,8 @@ export default function Methodology() {
             Angeles score maximum on this driver not because they have the
             most people but because their corporate sponsor universe is
             orders of magnitude denser than anywhere else. Premium seating,
-            signage, jersey sponsorships, naming rights — these are sold to
-            the corporate base of the city the team plays in. I used DMA
+            signage, jersey sponsorships, naming rights. All of it is sold
+            to the corporate base of the city the team plays in. I used DMA
             rankings, corporate headquarters density, tourism volume, and
             median household income as a proxy for ticket and premium
             pricing power. A small market with a Fortune 500 anchor scores
@@ -142,17 +143,18 @@ export default function Methodology() {
           <p>
             That is the model. Five inputs, scored 1 to 10, normalized to
             sum to 100 percent of the team's published valuation. The
-            breakdown shown in each team's profile — the donut, the bars,
-            the dollar contributions in the comparison tool — is what those
-            scores produce when applied to the Forbes number.
+            breakdown shown in each team's profile is what those scores
+            produce when applied to the Forbes number. That breakdown is
+            the donut, the bars, and the dollar contributions in the
+            comparison tool.
           </p>
 
           <p>
             I want to be honest about what this is and what it isn't. This
             is a model of a public output, built from publicly available
-            inputs. For well-documented franchises — the major-market teams
-            in the NFL, NBA, and MLB with substantial public financial
-            disclosure — I estimate the per-category accuracy at five to
+            inputs. For well-documented franchises, meaning the major-market
+            teams in the NFL, NBA, and MLB with substantial public financial
+            disclosure, I estimate the per-category accuracy at five to
             eight percentage points. For smaller-market or less-documented
             teams, where I had to fall back on league averages and informed
             estimation, the error band widens to ten to fifteen points. Real
@@ -183,7 +185,7 @@ export default function Methodology() {
         {/* Sign-off */}
         <div className="border-t border-rule pt-8 mt-16 flex items-center justify-between">
           <div className="font-serif text-base italic text-ink">
-            — Josh Leviloff
+            Josh Leviloff
           </div>
           <Link
             to="/"
