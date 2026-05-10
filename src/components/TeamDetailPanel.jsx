@@ -375,68 +375,173 @@ function fmtPayroll(p) {
   return `$${p.toFixed(1)}M`
 }
 
-function ratioFlavor(ratio) {
-  // Classify how "player-cost-heavy" a franchise is. Rough heuristic across leagues.
-  if (ratio == null) return null
-  if (ratio < 1.5)  return { label: 'Capital-light', color: 'text-[#0a7d2a]', explain: 'Player cost is a small fraction of franchise value — most of the value is in media rights, real estate, and brand.' }
-  if (ratio < 4.0)  return { label: 'Balanced',      color: 'text-[#0a7d2a]', explain: 'A typical roster-cost-to-value ratio for a major league franchise.' }
-  if (ratio < 8.0)  return { label: 'Roster-heavy',  color: 'text-amber-600', explain: 'A larger-than-average share of value is tied up in current player contracts.' }
-  return                       { label: 'Roster-loaded', color: 'text-[#b91c1c]', explain: 'Player contracts represent a significant fraction of franchise value — typical of smaller-market or high-spending teams.' }
-}
-
-function RosterCost({ team }) {
+function PayrollInvestment({ team, enrichment }) {
   const payroll = team.payroll
   const ratio = team.payrollToValuation
-  const flavor = ratioFlavor(ratio)
   const year = team.payrollYear
   const source = team.payrollSource
+
+  // League peers with payroll data
+  const leaguePeers = allTeams.filter(t => t.league === team.league && t.payroll != null)
+  const sortedByPayroll = [...leaguePeers].sort((a, b) => b.payroll - a.payroll)
+  const rank = payroll != null
+    ? sortedByPayroll.findIndex(t => t.name === team.name) + 1
+    : null
+  const leagueAvg = leaguePeers.length > 0
+    ? leaguePeers.reduce((s, t) => s + t.payroll, 0) / leaguePeers.length
+    : null
+  const ratioPeers = leaguePeers.filter(t => t.payrollToValuation != null)
+  const avgRatio = ratioPeers.length > 0
+    ? ratioPeers.reduce((s, t) => s + t.payrollToValuation, 0) / ratioPeers.length
+    : null
+
+  // % above/below league average payroll
+  const pctVsAvg = (payroll != null && leagueAvg != null && leagueAvg > 0)
+    ? Math.round(((payroll / leagueAvg) - 1) * 100)
+    : null
+
+  // Top 3 highest-paid players
+  const allContracts = enrichment?.onField?.starContracts ?? []
+  const topPaid = [...allContracts]
+    .filter(c => typeof c.aav === 'number' && c.aav > 0)
+    .sort((a, b) => b.aav - a.aav)
+    .slice(0, 3)
+
+  // One-line interpretation comparing this team's ratio to league average
+  const interpretation = (() => {
+    if (ratio == null || avgRatio == null) return null
+    const direction = ratio >= avgRatio ? 'above' : 'below'
+    return `Player costs represent ${ratio.toFixed(1)}% of franchise value, ${direction} the ${team.league} average of ${avgRatio.toFixed(1)}%.`
+  })()
 
   if (payroll == null) {
     return (
       <section>
-        <SectionHeader>Roster Cost</SectionHeader>
+        <SectionHeader>Payroll &amp; Player Investment</SectionHeader>
         <p className="text-sm text-slate italic">
-          Payroll data not available for this team / league.
+          Payroll data not available for this team.
         </p>
       </section>
     )
   }
 
+  // Comparison bar: width = team payroll / league max
+  const leagueMax = sortedByPayroll[0]?.payroll || payroll
+  const teamWidth = (payroll / leagueMax) * 100
+  const avgWidth = leagueAvg != null ? (leagueAvg / leagueMax) * 100 : null
+
   return (
     <section>
-      <SectionHeader>Roster Cost</SectionHeader>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-rule">
-        <div className="bg-white p-5">
+      <SectionHeader>Payroll &amp; Player Investment</SectionHeader>
+
+      {/* Three-up KPI strip */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-px bg-rule mb-6">
+        <div className="bg-white p-4">
           <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
             Total Payroll {year && <span className="text-ash">· {year}</span>}
           </div>
-          <div className="font-mono text-3xl sm:text-4xl font-bold text-ink tracking-tight">
+          <div className="font-mono text-2xl sm:text-3xl font-bold text-ink tracking-tight">
             {fmtPayroll(payroll)}
           </div>
         </div>
-        <div className="bg-white p-5">
+        <div className="bg-white p-4">
           <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
-            Payroll &divide; Valuation
+            Rank in {team.league}
           </div>
-          <div className="flex items-baseline gap-3">
-            <div className={`font-mono text-3xl sm:text-4xl font-bold tracking-tight ${flavor?.color || 'text-ink'}`}>
-              {ratio != null ? `${ratio.toFixed(2)}%` : '—'}
-            </div>
-            {flavor && (
-              <span className={`font-mono text-[10px] tracking-widest uppercase font-bold ${flavor.color}`}>
-                {flavor.label}
-              </span>
-            )}
+          <div className="font-mono text-2xl sm:text-3xl font-bold text-ink tracking-tight">
+            #{rank}<span className="text-base text-slate font-normal"> of {leaguePeers.length}</span>
           </div>
         </div>
+        <div className="bg-white p-4 col-span-2 sm:col-span-1">
+          <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
+            vs League Average
+          </div>
+          {pctVsAvg != null ? (
+            <>
+              <div className={`font-mono text-2xl sm:text-3xl font-bold tracking-tight ${pctVsAvg > 0 ? 'text-[#0a7d2a]' : pctVsAvg < 0 ? 'text-[#b91c1c]' : 'text-ink'}`}>
+                {pctVsAvg > 0 ? '+' : ''}{pctVsAvg}%
+              </div>
+              <div className="font-mono text-[10px] text-ash mt-1">
+                avg {fmtPayroll(leagueAvg)}
+              </div>
+            </>
+          ) : (
+            <div className="font-mono text-2xl text-ash">—</div>
+          )}
+        </div>
       </div>
-      {flavor && (
-        <p className="mt-4 text-sm text-graphite leading-relaxed">
-          {flavor.explain}
+
+      {/* Spending bar — visual position vs. league */}
+      {avgWidth != null && (
+        <div className="mb-6">
+          <div className="flex items-center justify-between font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
+            <span>League Spending Range</span>
+            <span className="text-ash normal-case tracking-normal">
+              max {fmtPayroll(leagueMax)}
+            </span>
+          </div>
+          <div className="relative h-7 bg-paper border border-rule rounded-sm overflow-hidden">
+            {/* league avg marker */}
+            <div
+              className="absolute top-0 bottom-0 border-l-2 border-dashed border-slate"
+              style={{ left: `${avgWidth}%` }}
+              aria-label="league average"
+            />
+            {/* team's payroll bar */}
+            <div
+              className="absolute top-0 bottom-0 bg-ink/85 transition-all"
+              style={{ width: `${teamWidth}%` }}
+            />
+            {/* labels overlaid */}
+            <div className="absolute inset-0 flex items-center justify-between px-2 font-mono text-[10px] font-bold uppercase">
+              <span className="text-white relative z-10">{team.name}</span>
+              <span className="text-slate">league avg</span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Interpretation sentence */}
+      {interpretation && (
+        <p className="text-sm text-graphite leading-relaxed font-serif italic border-l-2 border-ink pl-4 mb-6">
+          {interpretation}
         </p>
       )}
+
+      {/* Top 3 highest-paid players */}
+      {topPaid.length > 0 && (
+        <div>
+          <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-3">
+            Highest-Paid Players
+          </div>
+          <div className="border border-rule">
+            {topPaid.map((c, i) => (
+              <div
+                key={i}
+                className={`flex items-center gap-4 p-4 ${i < topPaid.length - 1 ? 'border-b border-rule' : ''}`}
+              >
+                <div className="font-mono text-xs font-bold text-slate w-6 flex-shrink-0">
+                  {String(i + 1).padStart(2, '0')}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="text-sm font-semibold text-ink truncate">{c.player}</div>
+                  {c.position && (
+                    <div className="font-mono text-[10px] text-slate tracking-widest uppercase mt-0.5">
+                      {c.position}
+                    </div>
+                  )}
+                </div>
+                <div className="font-mono text-base font-bold text-ink whitespace-nowrap">
+                  ${c.aav}M<span className="text-slate font-normal text-xs">/yr</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {source && (
-        <p className="mt-2 font-mono text-[10px] tracking-wider uppercase text-ash">
+        <p className="mt-4 font-mono text-[10px] tracking-wider uppercase text-ash">
           Source: {source}
         </p>
       )}
@@ -527,13 +632,11 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
   const isVenueArena = !!enrichment?.arena
   const nonGameRevenue = venue?.nonGameRevenue ?? venue?.nonArenaRevenue
   const newVenuePlans = venue?.newStadiumPlans ?? venue?.newArenaPlans
-  const franchisePlayer = enrichment?.onField?.currentFranchisePlayer ?? enrichment?.onField?.currentFranchiseQB
   const analystNotes = enrichment?.analystNotes || team.oneLiner
   const transactions = enrichment?.transactions ?? []
   const valuationHistory = (enrichment?.valuationHistory ?? []).slice().sort((a, b) => a.year - b.year)
   const ownership = enrichment?.ownership
   const media = enrichment?.media
-  const starContracts = enrichment?.onField?.starContracts ?? []
   const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
 
   return (
@@ -605,9 +708,6 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
           <div className="px-6 sm:px-8 py-8 space-y-10">
             {/* Composition donut — what % of the valuation each driver explains */}
             <ValuationComposition team={team} />
-
-            {/* Roster cost — total payroll + payroll/valuation ratio */}
-            <RosterCost team={team} />
 
             {/* Valuation history */}
             {valuationHistory.length > 0 && (
@@ -787,33 +887,9 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
               </section>
             )}
 
-            {/* Star contracts */}
-            {(franchisePlayer || starContracts.length > 0) && (
-              <section>
-                <SectionHeader>On-Field · Key Contracts</SectionHeader>
-                {franchisePlayer && (
-                  <p className="text-sm text-graphite leading-relaxed mb-4">{franchisePlayer}</p>
-                )}
-                {starContracts.length > 0 && (
-                  <div className="space-y-3">
-                    {starContracts.map((c, i) => (
-                      <div key={i} className="bg-paper border border-rule rounded-sm p-4">
-                        <div className="flex items-baseline justify-between gap-3">
-                          <span className="text-sm font-semibold text-ink">{c.player}</span>
-                          <span className="font-mono text-sm font-bold text-ink">${c.aav}M / yr</span>
-                        </div>
-                        {c.position && (
-                          <div className="font-mono text-[10px] text-slate tracking-widest uppercase mt-0.5">{c.position}</div>
-                        )}
-                        {c.contractNote && (
-                          <p className="text-xs text-graphite leading-relaxed mt-2">{c.contractNote}</p>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </section>
-            )}
+            {/* Payroll & Player Investment — total payroll, league rank,
+                comparison to average, top-3 paid players, ratio interpretation */}
+            <PayrollInvestment team={team} enrichment={enrichment} />
 
             {/* Classification */}
             <section>
