@@ -6,6 +6,7 @@ import {
   trackTeamViewed,
   trackScrollDepth,
   trackSubstackReferralOnce,
+  trackPageView,
 } from './utils/analytics.js'
 import TitleBar from './components/TitleBar.jsx'
 import LeagueExplorer from './components/LeagueExplorer.jsx'
@@ -25,6 +26,10 @@ import DataSources from './pages/DataSources.jsx'
 function ScrollManager() {
   const location = useLocation()
   useEffect(() => {
+    // Fire a page_view on every route change. (The GA snippet uses
+    // send_page_view: false so we own this manually for the SPA.)
+    trackPageView(location.pathname + location.search + location.hash)
+
     if (location.hash) {
       const el = document.querySelector(location.hash)
       if (el) {
@@ -34,7 +39,7 @@ function ScrollManager() {
       }
     }
     window.scrollTo({ top: 0, behavior: 'auto' })
-  }, [location.pathname, location.hash])
+  }, [location.pathname, location.hash, location.search])
   return null
 }
 

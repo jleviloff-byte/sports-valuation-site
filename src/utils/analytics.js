@@ -3,6 +3,8 @@
 // All wrappers no-op gracefully if gtag isn't available (ad blockers, dev,
 // SSR, etc.) so callers never need to defensive-check.
 
+const GA_ID = 'G-Q1X8Z4VC4G'
+
 function _gtag(...args) {
   if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
     window.gtag(...args)
@@ -11,6 +13,18 @@ function _gtag(...args) {
 
 function _event(name, params) {
   _gtag('event', name, params || {})
+}
+
+// SPA page_view — react-router navigations don't auto-fire page_view, so
+// the App calls this on every location change (initial load + every route
+// change after that).
+export function trackPageView(path, title) {
+  _gtag('event', 'page_view', {
+    page_path: path,
+    page_location: typeof window !== 'undefined' ? window.location.href : path,
+    page_title: title || (typeof document !== 'undefined' ? document.title : undefined),
+    send_to: GA_ID,
+  })
 }
 
 // ────────── Team interactions ──────────
