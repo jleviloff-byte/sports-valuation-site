@@ -1,5 +1,64 @@
 import { useState, useMemo } from 'react'
 import { trackLeagueFiltered, trackSortChanged } from '../utils/analytics.js'
+import { getTeamImages } from '../../data/images.js'
+
+const LEAGUE_HEX = {
+  NFL: '#1e3a8a',
+  NBA: '#991b1b',
+  MLB: '#075985',
+  NHL: '#155e75',
+  MLS: '#065f46',
+  EPL: '#581c87',
+}
+
+// Returns last 1-2 word initials. "Dallas Cowboys" → "DC", "LAFC" → "LA".
+function initialsFor(name) {
+  if (!name) return '?'
+  const tight = name.replace(/[^A-Za-z0-9 ]/g, '').trim()
+  const words = tight.split(/\s+/).filter(Boolean)
+  if (words.length === 1) return words[0].slice(0, 2).toUpperCase()
+  return (words[words.length - 2][0] + words[words.length - 1][0]).toUpperCase()
+}
+
+function TeamLogo({ team, size = 40 }) {
+  const [failed, setFailed] = useState(false)
+  const images = getTeamImages(team.name)
+  const logo = !failed && images?.logoUrl
+  const px = `${size}px`
+
+  if (logo) {
+    return (
+      <img
+        src={logo}
+        alt={`${team.name} logo`}
+        width={size}
+        height={size}
+        loading="lazy"
+        decoding="async"
+        onError={() => setFailed(true)}
+        className="rounded-full bg-white border border-rule object-contain p-0.5 flex-shrink-0"
+        style={{ width: px, height: px }}
+      />
+    )
+  }
+  // Fallback — colored circle with team initials
+  const bg = LEAGUE_HEX[team.league] || '#1a1a1a'
+  return (
+    <div
+      className="rounded-full flex items-center justify-center text-white font-bold flex-shrink-0"
+      style={{
+        width: px,
+        height: px,
+        background: bg,
+        fontSize: `${Math.round(size / 2.6)}px`,
+        letterSpacing: '0.02em',
+      }}
+      aria-label={`${team.name} logo placeholder`}
+    >
+      {initialsFor(team.name)}
+    </div>
+  )
+}
 
 const LEAGUES = ['ALL', 'NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
 
@@ -177,12 +236,13 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                 isSelected ? 'border-accent bg-accent-soft' : 'border-rule active:bg-callout'
               }`}
             >
-              {/* Top row: badge + 5Y growth */}
-              <div className="flex items-center justify-between mb-3">
+              {/* Top row: logo + badge + 5Y growth */}
+              <div className="flex items-center gap-3 mb-3">
+                <TeamLogo team={team} size={44} />
                 <span className={`font-mono text-[10px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}>
                   {team.league}
                 </span>
-                <span className={`font-mono text-sm font-bold ${growthClass(team.fiveYearGrowth)}`}>
+                <span className={`ml-auto font-mono text-sm font-bold ${growthClass(team.fiveYearGrowth)}`}>
                   {team.fiveYearGrowth != null
                     ? `${team.fiveYearGrowth >= 0 ? '+' : ''}${team.fiveYearGrowth}% 5Y`
                     : '—'}
@@ -310,12 +370,17 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                       </span>
                     </td>
                     <td className="py-2.5 px-2 max-w-[320px]">
-                      <div className="text-sm font-semibold text-ink truncate">{team.name}</div>
-                      {team.city && (
-                        <div className="text-[10px] text-slate font-mono truncate">
-                          {team.city}
+                      <div className="flex items-center gap-3">
+                        <TeamLogo team={team} size={32} />
+                        <div className="min-w-0">
+                          <div className="text-sm font-semibold text-ink truncate">{team.name}</div>
+                          {team.city && (
+                            <div className="text-[10px] text-slate font-mono truncate">
+                              {team.city}
+                            </div>
+                          )}
                         </div>
-                      )}
+                      </div>
                     </td>
                     <td className="py-2.5 px-2 text-right font-mono text-[15px] font-bold text-ink whitespace-nowrap">
                       ${team.currentValuation}

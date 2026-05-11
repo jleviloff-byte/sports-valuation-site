@@ -550,65 +550,103 @@ function PayrollInvestment({ team, enrichment }) {
   )
 }
 
+// Hide a broken image and its caption (if any) on load error
+function hideOnError(e) {
+  e.currentTarget.style.display = 'none'
+}
+
 function StadiumHero({ team }) {
   const images = getTeamImages(team.name)
   const stadium = images?.stadiumUrl
   const logo = images?.logoUrl
+  const moment = images?.iconicMomentUrl
+  const momentCaption = images?.iconicMomentCaption
   const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
 
   return (
-    <div>
-      <div className="relative h-[260px] sm:h-[300px] overflow-hidden bg-rule">
-        {stadium ? (
-          <img
-            src={stadium}
-            alt={`${team.stadiumName || 'Stadium'}, home of the ${team.name}`}
-            width={1200}
-            height={300}
-            className="absolute inset-0 w-full h-full object-cover"
-            loading="lazy"
-            decoding="async"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none'
-            }}
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center text-slate font-mono text-[10px] tracking-widest uppercase">
-            Photo unavailable
-          </div>
-        )}
-        {/* Logo overlay — circular, anchored bottom-right */}
-        {logo && (
-          <div
-            className="absolute -bottom-6 right-6 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-full p-2.5 shadow-card border border-rule"
-            style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.12)' }}
-          >
+    <div className="border-b border-rule">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-rule">
+        {/* Stadium banner — left 3/5 on desktop, full-width on mobile */}
+        <div className="md:col-span-3 relative h-[220px] md:h-[280px] overflow-hidden bg-rule">
+          {stadium ? (
             <img
-              src={logo}
-              alt={`${team.name} logo`}
-              width={96}
-              height={96}
-              className="w-full h-full object-contain"
+              src={stadium}
+              alt={`${team.stadiumName || 'Stadium'}, home of the ${team.name}`}
+              width={1200}
+              height={300}
+              className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
               decoding="async"
-              onError={(e) => {
-                if (e.currentTarget.parentElement) {
-                  e.currentTarget.parentElement.style.display = 'none'
-                }
-              }}
+              onError={hideOnError}
             />
-          </div>
-        )}
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center text-slate font-mono text-[10px] tracking-widest uppercase">
+              Photo unavailable
+            </div>
+          )}
+          {/* Logo overlay — circular, anchored bottom-right */}
+          {logo && (
+            <div
+              className="absolute -bottom-6 right-6 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-full p-2.5 shadow-card border border-rule z-10"
+              style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.12)' }}
+            >
+              <img
+                src={logo}
+                alt={`${team.name} logo`}
+                width={96}
+                height={96}
+                className="w-full h-full object-contain"
+                loading="lazy"
+                decoding="async"
+                onError={(e) => {
+                  if (e.currentTarget.parentElement) {
+                    e.currentTarget.parentElement.style.display = 'none'
+                  }
+                }}
+              />
+            </div>
+          )}
+        </div>
+
+        {/* Iconic moment square — right 2/5 on desktop, full-width below stadium on mobile */}
+        <div className="md:col-span-2 relative aspect-square md:aspect-auto md:h-[280px] overflow-hidden bg-ink">
+          {moment ? (
+            <img
+              src={moment}
+              alt={momentCaption || `Iconic moment for the ${team.name}`}
+              width={600}
+              height={600}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+              onError={hideOnError}
+            />
+          ) : (
+            // Dark placeholder with subtle texture
+            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-ink via-graphite to-ink">
+              <span className="font-mono text-[10px] tracking-[0.25em] uppercase text-ash">
+                Iconic photo pending
+              </span>
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* Photo caption — newspaper style */}
-      <div className="px-6 sm:px-8 pt-3 pb-2 border-b border-rule">
-        <p className="text-[11px] text-slate italic leading-relaxed">
-          <span className="font-semibold not-italic uppercase tracking-wider text-ash mr-1.5" style={{ color: accent }}>
-            {team.league}
-          </span>
-          {team.stadiumName || 'Home stadium'} · {team.city || '—'}
-        </p>
+      {/* Stadium + iconic moment captions */}
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-rule">
+        <div className="md:col-span-3 px-6 sm:px-8 pt-3 pb-3 bg-paper">
+          <p className="text-[11px] text-slate italic leading-relaxed">
+            <span className="font-semibold not-italic uppercase tracking-wider mr-1.5" style={{ color: accent }}>
+              {team.league}
+            </span>
+            {team.stadiumName || 'Home stadium'} · {team.city || '—'}
+          </p>
+        </div>
+        <div className="md:col-span-2 px-6 sm:px-5 pt-3 pb-3 bg-paper">
+          <p className="text-[11px] text-slate italic leading-relaxed">
+            {momentCaption || 'An iconic moment from the franchise. Photo coming soon.'}
+          </p>
+        </div>
       </div>
     </div>
   )
