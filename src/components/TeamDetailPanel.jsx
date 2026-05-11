@@ -563,8 +563,11 @@ function StadiumHero({ team }) {
           <img
             src={stadium}
             alt={`${team.stadiumName || 'Stadium'}, home of the ${team.name}`}
+            width={1200}
+            height={300}
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"
+            decoding="async"
             onError={(e) => {
               e.currentTarget.style.display = 'none'
             }}
@@ -583,8 +586,11 @@ function StadiumHero({ team }) {
             <img
               src={logo}
               alt={`${team.name} logo`}
+              width={96}
+              height={96}
               className="w-full h-full object-contain"
               loading="lazy"
+              decoding="async"
               onError={(e) => {
                 if (e.currentTarget.parentElement) {
                   e.currentTarget.parentElement.style.display = 'none'

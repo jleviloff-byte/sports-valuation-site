@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
 import teams from '../data/allTeams.js'
 import { getEnrichment } from '../data/enrichments.js'
@@ -11,18 +11,76 @@ import {
 import TitleBar from './components/TitleBar.jsx'
 import LeagueExplorer from './components/LeagueExplorer.jsx'
 import { DriversExplainer, ProblemStats } from './components/Hero.jsx'
-import ValuationsOverTime from './components/ValuationsOverTime.jsx'
-import CitiesMap from './components/CitiesMap.jsx'
-import CompareTool from './components/CompareTool.jsx'
-import TeamDetailPanel from './components/TeamDetailPanel.jsx'
 import Ticker from './components/Ticker.jsx'
-import Methodology from './pages/Methodology.jsx'
-import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
-import TermsOfService from './pages/TermsOfService.jsx'
-import DataSources from './pages/DataSources.jsx'
+
+// Heavy / below-the-fold components — lazy-loaded so the recharts + d3
+// chunks don't ship with the initial bundle. Each chunk only downloads
+// when the wrapping <LazyOnVisible> scrolls near the viewport.
+const ValuationsOverTime = lazy(() => import('./components/ValuationsOverTime.jsx'))
+const CitiesMap          = lazy(() => import('./components/CitiesMap.jsx'))
+const CompareTool        = lazy(() => import('./components/CompareTool.jsx'))
+const TeamDetailPanel    = lazy(() => import('./components/TeamDetailPanel.jsx'))
+
+// Legal/info pages are tiny but route-split so initial route doesn't pay
+// for them.
+const Methodology    = lazy(() => import('./pages/Methodology.jsx'))
+const PrivacyPolicy  = lazy(() => import('./pages/PrivacyPolicy.jsx'))
+const TermsOfService = lazy(() => import('./pages/TermsOfService.jsx'))
+const DataSources    = lazy(() => import('./pages/DataSources.jsx'))
 
 // Scrolls to the in-page anchor when the URL hash changes (since react-router
 // doesn't do this automatically). Also scrolls to top on plain route changes.
+// Renders a placeholder until the wrapper scrolls within `rootMargin` of
+// the viewport, then mounts its children. Combined with React.lazy, this
+// defers the chunk *download* — not just the render — for below-the-fold
+// components like the macro chart, cities map, and compare tool.
+function LazyOnVisible({ children, minHeight = 480, rootMargin = '320px' }) {
+  const [visible, setVisible] = useState(false)
+  const ref = useRef(null)
+  useEffect(() => {
+    if (visible) return
+    if (typeof IntersectionObserver === 'undefined') {
+      // Older browsers: render immediately.
+      setVisible(true)
+      return
+    }
+    const el = ref.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [visible, rootMargin])
+
+  return (
+    <div ref={ref} style={{ minHeight: visible ? undefined : minHeight }}>
+      {visible && children}
+    </div>
+  )
+}
+
+// Simple neutral skeleton matching the editorial aesthetic — used as
+// Suspense fallback while a lazy chunk downloads.
+function SectionSkeleton({ label = 'Loading…', height = 480 }) {
+  return (
+    <div
+      className="border-t border-rule flex items-center justify-center"
+      style={{ minHeight: height }}
+    >
+      <span className="font-mono text-[10px] tracking-widest uppercase text-ash">
+        {label}
+      </span>
+    </div>
+  )
+}
+
 function ScrollManager() {
   const location = useLocation()
   useEffect(() => {
@@ -296,21 +354,36 @@ function HomePage() {
           <DriversExplainer />
         </div>
         <ProblemStats />
+
         <div id="macro">
-          <ValuationsOverTime teams={teams} />
+          <LazyOnVisible minHeight={620}>
+            <Suspense fallback={<SectionSkeleton label="Loading macro chart…" height={620} />}>
+              <ValuationsOverTime teams={teams} />
+            </Suspense>
+          </LazyOnVisible>
         </div>
 
-        <CitiesMap teams={teams} />
+        <LazyOnVisible minHeight={760}>
+          <Suspense fallback={<SectionSkeleton label="Loading map…" height={760} />}>
+            <CitiesMap teams={teams} />
+          </Suspense>
+        </LazyOnVisible>
 
-        <CompareTool teams={teams} />
+        <LazyOnVisible minHeight={600}>
+          <Suspense fallback={<SectionSkeleton label="Loading compare tool…" height={600} />}>
+            <CompareTool teams={teams} />
+          </Suspense>
+        </LazyOnVisible>
       </main>
 
       {selectedTeam && (
-        <TeamDetailPanel
-          team={selectedTeam}
-          enrichment={getEnrichment(selectedTeam.name)}
-          onClose={() => setSelectedTeam(null)}
-        />
+        <Suspense fallback={null}>
+          <TeamDetailPanel
+            team={selectedTeam}
+            enrichment={getEnrichment(selectedTeam.name)}
+            onClose={() => setSelectedTeam(null)}
+          />
+        </Suspense>
       )}
     </>
   )
@@ -330,13 +403,15 @@ export default function App() {
           <Ticker teams={teams} />
         </div>
         <Nav />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/methodology"  element={<Methodology />} />
-          <Route path="/data-sources" element={<DataSources />} />
-          <Route path="/privacy"      element={<PrivacyPolicy />} />
-          <Route path="/terms"        element={<TermsOfService />} />
-        </Routes>
+        <Suspense fallback={<SectionSkeleton label="Loading…" height={600} />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/methodology"  element={<Methodology />} />
+            <Route path="/data-sources" element={<DataSources />} />
+            <Route path="/privacy"      element={<PrivacyPolicy />} />
+            <Route path="/terms"        element={<TermsOfService />} />
+          </Routes>
+        </Suspense>
         <Footer />
       </div>
     </BrowserRouter>
