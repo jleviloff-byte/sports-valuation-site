@@ -16,17 +16,17 @@ export default function TitleBar() {
 
         <div className="text-base sm:text-lg text-graphite mt-6 leading-relaxed max-w-3xl space-y-4 font-serif">
           <p>
-            Every year, Forbes and Sportico release franchise valuations.{' '}
-            <span className="font-sans">Helpful? Sure. Complete? Not even close.</span>{' '}
-            They hand you a number and move on — no breakdown, no explanation, no
-            context for why the Cowboys are worth $10B and the Commanders were worth
-            half that just two years ago.
+            Every year, Forbes and Sportico release franchise valuations.
+            Helpful? Sure. Complete? Not even close. They hand you a number
+            and move on — no breakdown, no explanation, no context for why
+            the Cowboys are worth $10B and the Commanders were worth half
+            that just two years ago.
           </p>
           <p>
             I've spent years thinking about what actually drives these numbers, and I
             built this to share that with any fan who's ever wondered the same thing.
           </p>
-          <p className="font-sans">
+          <p>
             Franchise valuations come down to five factors:{' '}
             <span className="text-ink font-semibold">Media rights</span>{' '}
             <span className="text-slate">(the most powerful driver by far)</span>,{' '}
@@ -36,9 +36,10 @@ export default function TitleBar() {
             <span className="text-ink font-semibold">On-field performance</span> —{' '}
             which is less important than most fans think.
           </p>
-          <p className="font-sans border-l-2 border-accent pl-4">
+          <p className="border-l-2 border-accent pl-4">
             Media rights and stadiums move the needle most. The Jets have been bad
-            for decades and are still worth $6B. <span className="text-ink font-semibold">This site explains why.</span>
+            for decades and are still worth $6B.{' '}
+            <span className="text-ink font-semibold">This site explains why.</span>
           </p>
         </div>
       </div>
