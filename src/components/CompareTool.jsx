@@ -213,7 +213,7 @@ export default function CompareTool({ teams }) {
   const allTotalsEqual = totals.every((v) => v === maxTotal)
 
   return (
-    <section id="compare" className="border-t border-rule py-24 bg-white">
+    <section className="border-t border-rule py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center gap-3 mb-3">
           <span className="eyebrow text-accent">Franchise Comparison</span>

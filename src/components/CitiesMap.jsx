@@ -314,7 +314,7 @@ export default function CitiesMap({ teams }) {
   }, [teams])
 
   return (
-    <section id="cities" className="border-t border-rule py-24">
+    <section className="border-t border-rule py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center gap-3 mb-3">
           <span className="eyebrow text-accent">Franchise Wealth by Metro</span>
