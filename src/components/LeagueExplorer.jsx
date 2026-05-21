@@ -21,9 +21,12 @@ function initialsFor(name) {
 }
 
 function TeamLogo({ team, size = 40 }) {
-  const [failed, setFailed] = useState(false)
+  // Two-stage swap: ESPN CDN (primary) → Wikimedia SVG (alt) → text initials.
+  // `stage` tracks which source we're currently trying.
+  const [stage, setStage] = useState(0)
   const images = getTeamImages(team.name)
-  const logo = !failed && images?.logoUrl
+  const candidates = [images?.logoUrl, images?.logoUrlAlt].filter(Boolean)
+  const logo = candidates[stage]
   const px = `${size}px`
 
   if (logo) {
@@ -35,7 +38,7 @@ function TeamLogo({ team, size = 40 }) {
         height={size}
         loading="lazy"
         decoding="async"
-        onError={() => setFailed(true)}
+        onError={() => setStage((s) => s + 1)}
         className="rounded-full bg-white border border-rule object-contain p-0.5 flex-shrink-0"
         style={{ width: px, height: px }}
       />
