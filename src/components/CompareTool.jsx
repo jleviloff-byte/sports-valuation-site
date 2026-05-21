@@ -10,6 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import { trackTeamCompared } from '../utils/analytics.js'
+import { getEnrichment } from '../../data/enrichments.js'
 
 const LEAGUES = ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
 
@@ -36,6 +37,43 @@ const SLOT_GRID_CLASS = {
 }
 
 const WINNER_CELL = 'bg-callout text-[#8a6d00] font-bold border border-[#e6d27a]'
+
+// Builds the short explanation shown on hover/tap of a winning cell. Uses
+// real dollar contributions, the runner-up team for context, and the
+// qualitative reasoning from enrichments.factorNarratives when available.
+function explainAdvantage(driverKey, label, winner, winnerValue, runnerUp, runnerUpValue) {
+  const winNum  = fmtBillions(winnerValue)
+  const loseNum = fmtBillions(runnerUpValue)
+  const head = runnerUp
+    ? `${winner.name} leads ${label} with ${winNum} of estimated valuation contribution vs. ${runnerUp.name}'s ${loseNum}`
+    : `${winner.name} leads ${label} with ${winNum} of estimated valuation contribution`
+  const narrative = getEnrichment(winner.name)?.factorNarratives?.[driverKey]
+  if (narrative) return `${head}. ${narrative}`
+  if (runnerUpValue > 0 && winnerValue > runnerUpValue) {
+    const pct = Math.round(((winnerValue / runnerUpValue) - 1) * 100)
+    if (pct > 0) return `${head} — a ${pct}% lead on this driver.`
+  }
+  return `${head}.`
+}
+
+// Compact, CSS-driven tooltip. Shows on pointer hover, keyboard focus, or
+// touch tap (touch fires focus on the tabindex=0 wrapper; tapping anywhere
+// else removes focus and the tooltip fades out). No JS state, no library.
+function ExplanationTooltip({ children, content }) {
+  if (!content) return children
+  return (
+    <span className="relative inline-block group" tabIndex={0}>
+      {children}
+      <span
+        role="tooltip"
+        className="pointer-events-none absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-64 sm:w-72 bg-ink text-white text-[11px] leading-relaxed font-sans font-normal normal-case tracking-normal text-left px-3 py-2 rounded-sm shadow-modal opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-150 z-50"
+      >
+        {content}
+        <span className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-ink" />
+      </span>
+    </span>
+  )
+}
 
 // Estimated $ contribution of a single driver to a team's valuation:
 //   value * (driverScore / sumOfDriverScores)
@@ -308,6 +346,29 @@ export default function CompareTool({ teams }) {
                     const max = Math.max(...contributions)
                     const tiedCount = contributions.filter((s) => Math.abs(s - max) < 0.005).length
                     const showWinner = tiedCount < contributions.length && max > 0
+                    // Runner-up = the next-highest team that isn't tied with the winner.
+                    // Used to anchor the tooltip's "vs. X" context.
+                    const winnerIdx = showWinner
+                      ? contributions.findIndex((v) => Math.abs(v - max) < 0.005)
+                      : -1
+                    const runnerUpIdx = showWinner
+                      ? contributions
+                          .map((v, i) => ({ v, i }))
+                          .filter(({ i }) => i !== winnerIdx)
+                          .sort((a, b) => b.v - a.v)[0]?.i ?? -1
+                      : -1
+                    const winnerTeam = winnerIdx >= 0 ? selectedTeams[winnerIdx] : null
+                    const runnerUpTeam = runnerUpIdx >= 0 ? selectedTeams[runnerUpIdx] : null
+                    const explanation = winnerTeam
+                      ? explainAdvantage(
+                          key,
+                          label,
+                          winnerTeam,
+                          contributions[winnerIdx],
+                          runnerUpTeam,
+                          runnerUpIdx >= 0 ? contributions[runnerUpIdx] : 0
+                        )
+                      : null
                     return (
                       <tr key={key} className="border-b border-rule">
                         <td className="py-3 px-4 text-sm text-ink font-medium">{label}</td>
@@ -316,14 +377,19 @@ export default function CompareTool({ teams }) {
                           const isWinner = showWinner && Math.abs(value - max) < 0.005
                           const slotIdx = slotTeams.findIndex((t) => t && t.name === team.name)
                           const color = TEAM_COLORS[slotIdx]
+                          const cellValue = (
+                            <span
+                              className={`inline-flex items-center justify-center min-w-[64px] h-7 px-2 rounded-sm font-mono text-sm ${isWinner ? `${WINNER_CELL} cursor-help` : 'font-semibold'}`}
+                              style={isWinner ? undefined : { color }}
+                            >
+                              {fmtBillions(value)}
+                            </span>
+                          )
                           return (
                             <td key={team.name} className="py-3 px-3 text-center">
-                              <span
-                                className={`inline-flex items-center justify-center min-w-[64px] h-7 px-2 rounded-sm font-mono text-sm ${isWinner ? WINNER_CELL : 'font-semibold'}`}
-                                style={isWinner ? undefined : { color }}
-                              >
-                                {fmtBillions(value)}
-                              </span>
+                              {isWinner && explanation
+                                ? <ExplanationTooltip content={explanation}>{cellValue}</ExplanationTooltip>
+                                : cellValue}
                             </td>
                           )
                         })}
@@ -356,7 +422,7 @@ export default function CompareTool({ teams }) {
               <div className="px-4 py-3 border-t border-rule bg-paper font-mono text-[10px] text-slate tracking-wider uppercase flex flex-wrap items-center gap-4">
                 <span className="inline-flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-sm bg-callout border border-[#e6d27a]" />
-                  Gold = leader on this row
+                  Gold = leader · hover for why
                 </span>
                 <span className="text-ash normal-case tracking-normal italic">
                   All driver figures are estimated value contributions, not transaction prices.
