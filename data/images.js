@@ -392,13 +392,177 @@ const ICONIC_MOMENTS = {
   "Wolverhampton Wanderers":  { url: COMMONS("MolineuxStadium2022.jpg"), caption: "Molineux Stadium in 2022, Wolverhampton Wanderers' home since 1889." },
 }
 
+// ────────── ESPN CDN LOGOS ──────────
+// ESPN serves clean, consistently-sized 500px PNGs for all major leagues at
+// a predictable path. We prefer these over the Wikimedia SVGs because they
+// render uniformly inside the rounded chip, and the file sizes are smaller.
+// The Wikimedia URL in `teamImages[name].logoUrl` remains as the on-error
+// fallback, so no team can collapse to a 2-letter initials circle unless
+// both sources are unavailable.
+const ESPN_NFL = (abbr) => `https://a.espncdn.com/i/teamlogos/nfl/500/${abbr}.png`
+const ESPN_NBA = (abbr) => `https://a.espncdn.com/i/teamlogos/nba/500/${abbr}.png`
+const ESPN_MLB = (abbr) => `https://a.espncdn.com/i/teamlogos/mlb/500/${abbr}.png`
+const ESPN_NHL = (abbr) => `https://a.espncdn.com/i/teamlogos/nhl/500/${abbr}.png`
+const ESPN_SOC = (id)   => `https://a.espncdn.com/i/teamlogos/soccer/500/${id}.png`
+
+const ESPN_LOGO = {
+  // ── NFL ──
+  "Buffalo Bills": ESPN_NFL("buf"),
+  "Miami Dolphins": ESPN_NFL("mia"),
+  "New York Jets": ESPN_NFL("nyj"),
+  "New England Patriots": ESPN_NFL("ne"),
+  "Baltimore Ravens": ESPN_NFL("bal"),
+  "Cincinnati Bengals": ESPN_NFL("cin"),
+  "Cleveland Browns": ESPN_NFL("cle"),
+  "Pittsburgh Steelers": ESPN_NFL("pit"),
+  "Houston Texans": ESPN_NFL("hou"),
+  "Indianapolis Colts": ESPN_NFL("ind"),
+  "Jacksonville Jaguars": ESPN_NFL("jax"),
+  "Tennessee Titans": ESPN_NFL("ten"),
+  "Denver Broncos": ESPN_NFL("den"),
+  "Kansas City Chiefs": ESPN_NFL("kc"),
+  "Las Vegas Raiders": ESPN_NFL("lv"),
+  "Los Angeles Chargers": ESPN_NFL("lac"),
+  "Dallas Cowboys": ESPN_NFL("dal"),
+  "New York Giants": ESPN_NFL("nyg"),
+  "Philadelphia Eagles": ESPN_NFL("phi"),
+  "Washington Commanders": ESPN_NFL("wsh"),
+  "Chicago Bears": ESPN_NFL("chi"),
+  "Detroit Lions": ESPN_NFL("det"),
+  "Green Bay Packers": ESPN_NFL("gb"),
+  "Minnesota Vikings": ESPN_NFL("min"),
+  "Atlanta Falcons": ESPN_NFL("atl"),
+  "Carolina Panthers": ESPN_NFL("car"),
+  "New Orleans Saints": ESPN_NFL("no"),
+  "Tampa Bay Buccaneers": ESPN_NFL("tb"),
+  "Arizona Cardinals": ESPN_NFL("ari"),
+  "Los Angeles Rams": ESPN_NFL("lar"),
+  "San Francisco 49ers": ESPN_NFL("sf"),
+  "Seattle Seahawks": ESPN_NFL("sea"),
+
+  // ── NBA ──
+  "Boston Celtics": ESPN_NBA("bos"),
+  "Brooklyn Nets": ESPN_NBA("bkn"),
+  "New York Knicks": ESPN_NBA("ny"),
+  "Philadelphia 76ers": ESPN_NBA("phi"),
+  "Toronto Raptors": ESPN_NBA("tor"),
+  "Chicago Bulls": ESPN_NBA("chi"),
+  "Cleveland Cavaliers": ESPN_NBA("cle"),
+  "Detroit Pistons": ESPN_NBA("det"),
+  "Indiana Pacers": ESPN_NBA("ind"),
+  "Milwaukee Bucks": ESPN_NBA("mil"),
+  "Atlanta Hawks": ESPN_NBA("atl"),
+  "Charlotte Hornets": ESPN_NBA("cha"),
+  "Miami Heat": ESPN_NBA("mia"),
+  "Orlando Magic": ESPN_NBA("orl"),
+  "Washington Wizards": ESPN_NBA("wsh"),
+  "Denver Nuggets": ESPN_NBA("den"),
+  "Minnesota Timberwolves": ESPN_NBA("min"),
+  "Oklahoma City Thunder": ESPN_NBA("okc"),
+  "Portland Trail Blazers": ESPN_NBA("por"),
+  "Utah Jazz": ESPN_NBA("utah"),
+  "Golden State Warriors": ESPN_NBA("gs"),
+  "Los Angeles Clippers": ESPN_NBA("lac"),
+  "Los Angeles Lakers": ESPN_NBA("lal"),
+  "Phoenix Suns": ESPN_NBA("phx"),
+  "Sacramento Kings": ESPN_NBA("sac"),
+  "Dallas Mavericks": ESPN_NBA("dal"),
+  "Houston Rockets": ESPN_NBA("hou"),
+  "Memphis Grizzlies": ESPN_NBA("mem"),
+  "New Orleans Pelicans": ESPN_NBA("no"),
+  "San Antonio Spurs": ESPN_NBA("sas"),
+
+  // ── MLB ──
+  "Baltimore Orioles": ESPN_MLB("bal"),
+  "Boston Red Sox": ESPN_MLB("bos"),
+  "New York Yankees": ESPN_MLB("nyy"),
+  "Tampa Bay Rays": ESPN_MLB("tb"),
+  "Toronto Blue Jays": ESPN_MLB("tor"),
+  "Chicago White Sox": ESPN_MLB("chw"),
+  "Cleveland Guardians": ESPN_MLB("cle"),
+  "Detroit Tigers": ESPN_MLB("det"),
+  "Kansas City Royals": ESPN_MLB("kc"),
+  "Minnesota Twins": ESPN_MLB("min"),
+  "Houston Astros": ESPN_MLB("hou"),
+  "Los Angeles Angels": ESPN_MLB("laa"),
+  "Oakland Athletics": ESPN_MLB("oak"),
+  "Seattle Mariners": ESPN_MLB("sea"),
+  "Texas Rangers": ESPN_MLB("tex"),
+  "Atlanta Braves": ESPN_MLB("atl"),
+  "Miami Marlins": ESPN_MLB("mia"),
+  "New York Mets": ESPN_MLB("nym"),
+  "Philadelphia Phillies": ESPN_MLB("phi"),
+  "Washington Nationals": ESPN_MLB("wsh"),
+  "Chicago Cubs": ESPN_MLB("chc"),
+  "Cincinnati Reds": ESPN_MLB("cin"),
+  "Milwaukee Brewers": ESPN_MLB("mil"),
+  "Pittsburgh Pirates": ESPN_MLB("pit"),
+  "St. Louis Cardinals": ESPN_MLB("stl"),
+  "Arizona Diamondbacks": ESPN_MLB("ari"),
+  "Colorado Rockies": ESPN_MLB("col"),
+  "Los Angeles Dodgers": ESPN_MLB("lad"),
+  "San Diego Padres": ESPN_MLB("sd"),
+  "San Francisco Giants": ESPN_MLB("sf"),
+
+  // ── NHL ──
+  "Boston Bruins": ESPN_NHL("bos"),
+  "Buffalo Sabres": ESPN_NHL("buf"),
+  "Detroit Red Wings": ESPN_NHL("det"),
+  "Florida Panthers": ESPN_NHL("fla"),
+  "Montreal Canadiens": ESPN_NHL("mtl"),
+  "Ottawa Senators": ESPN_NHL("ott"),
+  "Tampa Bay Lightning": ESPN_NHL("tb"),
+  "Toronto Maple Leafs": ESPN_NHL("tor"),
+  "Carolina Hurricanes": ESPN_NHL("car"),
+  "Columbus Blue Jackets": ESPN_NHL("cbj"),
+  "New Jersey Devils": ESPN_NHL("nj"),
+  "New York Islanders": ESPN_NHL("nyi"),
+  "New York Rangers": ESPN_NHL("nyr"),
+  "Philadelphia Flyers": ESPN_NHL("phi"),
+  "Pittsburgh Penguins": ESPN_NHL("pit"),
+  "Washington Capitals": ESPN_NHL("wsh"),
+  "Chicago Blackhawks": ESPN_NHL("chi"),
+  "Colorado Avalanche": ESPN_NHL("col"),
+  "Dallas Stars": ESPN_NHL("dal"),
+  "Minnesota Wild": ESPN_NHL("min"),
+  "Nashville Predators": ESPN_NHL("nsh"),
+  "St. Louis Blues": ESPN_NHL("stl"),
+  "Utah Hockey Club": ESPN_NHL("utah"),
+  "Winnipeg Jets": ESPN_NHL("wpg"),
+  "Anaheim Ducks": ESPN_NHL("ana"),
+  "Calgary Flames": ESPN_NHL("cgy"),
+  "Edmonton Oilers": ESPN_NHL("edm"),
+  "Los Angeles Kings": ESPN_NHL("la"),
+  "San Jose Sharks": ESPN_NHL("sj"),
+  "Seattle Kraken": ESPN_NHL("sea"),
+  "Vancouver Canucks": ESPN_NHL("van"),
+  "Vegas Golden Knights": ESPN_NHL("vgk"),
+
+  // ── EPL — ESPN soccer team IDs ──
+  // Only includes IDs verified against ESPN public team pages. Unverified
+  // clubs fall back to the Wikimedia SVG already populated in `teamImages`.
+  "Arsenal": ESPN_SOC(359),
+  "Chelsea": ESPN_SOC(363),
+  "Liverpool": ESPN_SOC(364),
+  "Manchester City": ESPN_SOC(382),
+  "Manchester United": ESPN_SOC(360),
+  "Tottenham Hotspur": ESPN_SOC(367),
+}
+
 export function getTeamImages(teamName) {
   const base = teamImages[teamName]
   if (!base) return null
+  // ESPN CDN logo (when available) becomes the primary; the Wikimedia SVG
+  // we had before now sits in `logoUrlAlt` for the consumer to swap to on
+  // error. Anything not in ESPN_LOGO just uses Wikimedia as logoUrl.
+  const espn = ESPN_LOGO[teamName]
+  const merged = espn
+    ? { ...base, logoUrl: espn, logoUrlAlt: base.logoUrl }
+    : base
   const moment = ICONIC_MOMENTS[teamName]
-  if (!moment || moment.url == null) return base
+  if (!moment || moment.url == null) return merged
   return {
-    ...base,
+    ...merged,
     iconicMomentUrl: moment.url,
     iconicMomentCaption: moment.caption,
   }

@@ -363,17 +363,28 @@ function HomePage() {
           </LazyOnVisible>
         </div>
 
-        <LazyOnVisible minHeight={760}>
-          <Suspense fallback={<SectionSkeleton label="Loading map…" height={760} />}>
-            <CitiesMap teams={teams} />
-          </Suspense>
-        </LazyOnVisible>
+        {/* id wrappers sit OUTSIDE LazyOnVisible so the hash anchors
+            (/#cities, /#compare) resolve immediately on route change,
+            even before the IntersectionObserver has triggered the
+            heavyweight chart mount. Without this, clicking Cities or
+            Compare in the nav from another page silently scrolled to the
+            top because document.querySelector('#cities') returned null
+            at the moment ScrollManager ran. */}
+        <div id="cities">
+          <LazyOnVisible minHeight={760}>
+            <Suspense fallback={<SectionSkeleton label="Loading map…" height={760} />}>
+              <CitiesMap teams={teams} />
+            </Suspense>
+          </LazyOnVisible>
+        </div>
 
-        <LazyOnVisible minHeight={600}>
-          <Suspense fallback={<SectionSkeleton label="Loading compare tool…" height={600} />}>
-            <CompareTool teams={teams} />
-          </Suspense>
-        </LazyOnVisible>
+        <div id="compare">
+          <LazyOnVisible minHeight={600}>
+            <Suspense fallback={<SectionSkeleton label="Loading compare tool…" height={600} />}>
+              <CompareTool teams={teams} />
+            </Suspense>
+          </LazyOnVisible>
+        </div>
       </main>
 
       {selectedTeam && (

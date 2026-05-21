@@ -11,6 +11,67 @@ const LEAGUE_HEX = {
   EPL: '#581c87',
 }
 
+// Hand-picked primary brand colors for the most storied franchises. Used in
+// the grid view's subtle gradient. Anything not in this map falls back to its
+// league color, so every card still gets a tinted background.
+const TEAM_PRIMARY_COLOR = {
+  // NFL
+  "Dallas Cowboys":         '#003594',
+  "New England Patriots":   '#002244',
+  "New York Giants":        '#0B2265',
+  "Green Bay Packers":      '#203731',
+  "San Francisco 49ers":    '#AA0000',
+  "Pittsburgh Steelers":    '#FFB612',
+  "Kansas City Chiefs":     '#E31837',
+  "Los Angeles Rams":       '#003594',
+  "Chicago Bears":          '#0B162A',
+  "Philadelphia Eagles":    '#004C54',
+  "Las Vegas Raiders":      '#000000',
+  "Miami Dolphins":         '#008E97',
+  "Denver Broncos":         '#FB4F14',
+  "Seattle Seahawks":       '#002244',
+  // NBA
+  "Los Angeles Lakers":     '#552583',
+  "Boston Celtics":         '#007A33',
+  "New York Knicks":        '#006BB6',
+  "Golden State Warriors":  '#1D428A',
+  "Chicago Bulls":          '#CE1141',
+  "Brooklyn Nets":          '#000000',
+  "Philadelphia 76ers":     '#006BB6',
+  "Miami Heat":             '#98002E',
+  // MLB
+  "New York Yankees":       '#003087',
+  "Boston Red Sox":         '#BD3039',
+  "Los Angeles Dodgers":    '#005A9C',
+  "Chicago Cubs":           '#0E3386',
+  "San Francisco Giants":   '#FD5A1E',
+  "St. Louis Cardinals":    '#C41E3A',
+  // NHL
+  "Montreal Canadiens":     '#AF1E2D',
+  "Toronto Maple Leafs":    '#00205B',
+  "New York Rangers":       '#0038A8',
+  "Detroit Red Wings":      '#CE1126',
+  "Boston Bruins":          '#FFB81C',
+  // MLS
+  "LAFC":                   '#000000',
+  "LA Galaxy":              '#00245D',
+  "Inter Miami CF":         '#F7B5CD',
+  "Atlanta United FC":      '#80000B',
+  "Seattle Sounders FC":    '#5D9741',
+  // EPL
+  "Manchester United":      '#DA291C',
+  "Liverpool":              '#C8102E',
+  "Arsenal":                '#EF0107',
+  "Chelsea":                '#034694',
+  "Manchester City":        '#6CABDD',
+  "Tottenham Hotspur":      '#132257',
+  "Newcastle United":       '#241F20',
+}
+
+function primaryColorFor(team) {
+  return TEAM_PRIMARY_COLOR[team.name] || LEAGUE_HEX[team.league] || '#1a1a1a'
+}
+
 // Returns last 1-2 word initials. "Dallas Cowboys" → "DC", "LAFC" → "LA".
 function initialsFor(name) {
   if (!name) return '?'
@@ -21,9 +82,12 @@ function initialsFor(name) {
 }
 
 function TeamLogo({ team, size = 40 }) {
-  const [failed, setFailed] = useState(false)
+  // Two-stage swap: ESPN CDN (primary) → Wikimedia SVG (alt) → text initials.
+  // `stage` tracks which source we're currently trying.
+  const [stage, setStage] = useState(0)
   const images = getTeamImages(team.name)
-  const logo = !failed && images?.logoUrl
+  const candidates = [images?.logoUrl, images?.logoUrlAlt].filter(Boolean)
+  const logo = candidates[stage]
   const px = `${size}px`
 
   if (logo) {
@@ -35,7 +99,7 @@ function TeamLogo({ team, size = 40 }) {
         height={size}
         loading="lazy"
         decoding="async"
-        onError={() => setFailed(true)}
+        onError={() => setStage((s) => s + 1)}
         className="rounded-full bg-white border border-rule object-contain p-0.5 flex-shrink-0"
         style={{ width: px, height: px }}
       />
@@ -148,10 +212,33 @@ function GrowthCell({ value }) {
   )
 }
 
+// Inline icons — keeps us off lucide-react for two tiny glyphs. Sized to the
+// caller via currentColor + h/w props.
+function ListIcon({ size = 14 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+      <line x1="3"  y1="4"  x2="13" y2="4"  />
+      <line x1="3"  y1="8"  x2="13" y2="8"  />
+      <line x1="3"  y1="12" x2="13" y2="12" />
+    </svg>
+  )
+}
+function GridIcon({ size = 14 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+      <rect x="2.5" y="2.5" width="4" height="4" rx="0.5" />
+      <rect x="9.5" y="2.5" width="4" height="4" rx="0.5" />
+      <rect x="2.5" y="9.5" width="4" height="4" rx="0.5" />
+      <rect x="9.5" y="9.5" width="4" height="4" rx="0.5" />
+    </svg>
+  )
+}
+
 export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
   const [leagueFilter, setLeagueFilter] = useState('ALL')
   const [sortField, setSortField] = useState('currentValuation')
   const [sortDir, setSortDir] = useState('desc')
+  const [viewMode, setViewMode] = useState('list')
 
   function handleSort(field) {
     if (sortField === field) {
@@ -217,8 +304,35 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               <span className="ml-1.5 opacity-70">{counts[l]}</span>
             </button>
           ))}
-          <span className="ml-auto font-mono text-[10px] text-slate tracking-wider hidden sm:inline">
-            <span className="text-ink font-semibold">{filtered.length}</span> shown · click a row for the full profile
+          {/* List/Grid view toggle — desktop only; mobile is always card-list */}
+          <div className="ml-auto hidden md:inline-flex items-center bg-white border border-rule rounded-sm overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setViewMode('list')}
+              aria-pressed={viewMode === 'list'}
+              aria-label="List view"
+              className={`flex items-center gap-1.5 font-mono text-[10px] font-bold tracking-widest uppercase px-2.5 py-1.5 transition-colors ${
+                viewMode === 'list' ? 'bg-ink text-white' : 'text-slate hover:text-ink'
+              }`}
+            >
+              <ListIcon size={12} />
+              List
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode('grid')}
+              aria-pressed={viewMode === 'grid'}
+              aria-label="Grid view"
+              className={`flex items-center gap-1.5 font-mono text-[10px] font-bold tracking-widest uppercase px-2.5 py-1.5 border-l border-rule transition-colors ${
+                viewMode === 'grid' ? 'bg-ink text-white' : 'text-slate hover:text-ink'
+              }`}
+            >
+              <GridIcon size={12} />
+              Grid
+            </button>
+          </div>
+          <span className="font-mono text-[10px] text-slate tracking-wider hidden lg:inline">
+            <span className="text-ink font-semibold">{filtered.length}</span> shown · {viewMode === 'list' ? 'click a row' : 'click a card'} for the full profile
           </span>
         </div>
       </div>
@@ -318,8 +432,79 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
         )}
       </div>
 
-      {/* Table — md+ */}
-      <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16">
+      {/* Grid view — md+, opt-in via header toggle. Sorted by valuation
+          descending so the magazine-rank order matches the headline narrative. */}
+      {viewMode === 'grid' && (
+        <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 animate-fade-in">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[...filtered]
+              .sort((a, b) => (b.currentValuation ?? 0) - (a.currentValuation ?? 0))
+              .map((team, idx) => {
+                const isSelected = selectedTeam?.name === team.name
+                const color = primaryColorFor(team)
+                const rank = idx + 1
+                return (
+                  <button
+                    key={team.name}
+                    type="button"
+                    onClick={() => onSelectTeam(isSelected ? null : team)}
+                    className={`group relative w-full text-left bg-white border rounded-sm pt-6 pb-5 px-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover ${
+                      isSelected ? 'border-accent ring-1 ring-accent-soft' : 'border-rule'
+                    }`}
+                    style={{
+                      backgroundImage: `linear-gradient(135deg, ${hexToRgba(color, 0.14)} 0%, ${hexToRgba(color, 0.02)} 65%, rgba(255,255,255,0) 100%)`,
+                    }}
+                  >
+                    {/* Magazine-style rank number, top-left, large + faint */}
+                    <span
+                      aria-hidden="true"
+                      className="absolute top-1 left-3 font-serif font-bold leading-none text-ink select-none"
+                      style={{ fontSize: '3.25rem', opacity: 0.09 }}
+                    >
+                      {rank}
+                    </span>
+
+                    {/* Logo + meta column */}
+                    <div className="flex flex-col items-center text-center pt-2">
+                      <TeamLogo team={team} size={80} />
+                      <div className="mt-3 font-serif text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
+                        {team.name}
+                      </div>
+                      <div className="mt-2 font-mono text-3xl font-bold text-ink tracking-tight">
+                        ${team.currentValuation}
+                        <span className="text-base text-slate font-semibold">B</span>
+                      </div>
+                      {team.fiveYearGrowth != null && (
+                        <div className={`mt-1 font-mono text-[11px] font-semibold ${growthClass(team.fiveYearGrowth)}`}>
+                          {team.fiveYearGrowth >= 0 ? '+' : ''}{team.fiveYearGrowth}% 5Y
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Footer row: league badge bottom-left, stadium ownership bottom-right */}
+                    <div className="mt-4 pt-3 border-t border-rule flex items-center justify-between">
+                      <span className={`font-mono text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}>
+                        {team.league}
+                      </span>
+                      <span className={`font-mono text-[9px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-[#0a7d2a]' : 'text-ash'}`}>
+                        {team.ownsStadium ? '● Stadium' : '○ Tenant'}
+                      </span>
+                    </div>
+                  </button>
+                )
+              })}
+          </div>
+          {filtered.length === 0 && (
+            <div className="text-center py-16 text-slate text-sm">
+              No franchises match this filter.
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Table — md+, default view */}
+      {viewMode === 'list' && (
+      <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 animate-fade-in">
         <div className="overflow-x-auto -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <table className="w-full border-collapse min-w-[980px]">
             <thead>
@@ -414,6 +599,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
           </div>
         )}
       </div>
+      )}
     </section>
   )
 }

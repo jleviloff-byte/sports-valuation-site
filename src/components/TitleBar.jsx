@@ -16,29 +16,31 @@ export default function TitleBar() {
 
         <div className="text-base sm:text-lg text-graphite mt-6 leading-relaxed max-w-3xl space-y-4 font-serif">
           <p>
-            Every year, Forbes and Sportico release franchise valuations.{' '}
-            <span className="font-sans">Helpful? Sure. Complete? Not even close.</span>{' '}
-            They hand you a number and move on — no breakdown, no explanation, no
-            context for why the Cowboys are worth $10B and the Commanders were worth
-            half that just two years ago.
+            Forbes drops a number. Sportico drops a number. That's it. The Cowboys
+            are worth $10.1B; the Commanders were worth half that two years ago.
+            Nobody tells you why. The math behind every franchise's price tag
+            sits inside a handful of private models that don't get published.
           </p>
           <p>
-            I've spent years thinking about what actually drives these numbers, and I
-            built this to share that with any fan who's ever wondered the same thing.
+            I built this site to open the box. All 174 franchises across the
+            NFL, NBA, MLB, NHL, MLS, and Premier League, each scored on the
+            five things that actually drive value:{' '}
+            <span className="text-ink font-semibold">media rights</span>,{' '}
+            <span className="text-ink font-semibold">stadium economics</span>,{' '}
+            <span className="text-ink font-semibold">brand</span>,{' '}
+            <span className="text-ink font-semibold">market</span>, and{' '}
+            <span className="text-ink font-semibold">on-field performance</span>.
+            What comes out is the breakdown that would sit in the appendix of a
+            sell-side note if anyone bothered to publish one.
           </p>
-          <p className="font-sans">
-            Franchise valuations come down to five factors:{' '}
-            <span className="text-ink font-semibold">Media rights</span>{' '}
-            <span className="text-slate">(the most powerful driver by far)</span>,{' '}
-            <span className="text-ink font-semibold">Stadium ownership and real estate</span>,{' '}
-            <span className="text-ink font-semibold">Brand strength and global IP</span>,{' '}
-            <span className="text-ink font-semibold">Market size and geography</span>, and{' '}
-            <span className="text-ink font-semibold">On-field performance</span> —{' '}
-            which is less important than most fans think.
-          </p>
-          <p className="font-sans border-l-2 border-accent pl-4">
-            Media rights and stadiums move the needle most. The Jets have been bad
-            for decades and are still worth $6B. <span className="text-ink font-semibold">This site explains why.</span>
+          <p className="border-l-2 border-accent pl-4">
+            The first thing you learn is that winning barely moves the curve.
+            Media rights and stadium real estate carry it. The Jets have missed
+            the playoffs for a decade and a half and are worth $6B because every
+            NFL team cashes a $340M check from the league before the season
+            starts. That kind of structural fact disappears the moment a magazine
+            publishes a ranked list and walks away.{' '}
+            <span className="text-ink font-semibold">This site doesn't walk away.</span>
           </p>
         </div>
       </div>

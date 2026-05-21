@@ -559,6 +559,7 @@ function StadiumHero({ team }) {
   const images = getTeamImages(team.name)
   const stadium = images?.stadiumUrl
   const logo = images?.logoUrl
+  const logoAlt = images?.logoUrlAlt
   const moment = images?.iconicMomentUrl
   const momentCaption = images?.iconicMomentCaption
   const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
@@ -599,6 +600,11 @@ function StadiumHero({ team }) {
                 loading="lazy"
                 decoding="async"
                 onError={(e) => {
+                  // Swap to Wikimedia alt before hiding entirely.
+                  if (logoAlt && e.currentTarget.src !== logoAlt) {
+                    e.currentTarget.src = logoAlt
+                    return
+                  }
                   if (e.currentTarget.parentElement) {
                     e.currentTarget.parentElement.style.display = 'none'
                   }
