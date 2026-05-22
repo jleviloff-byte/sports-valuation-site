@@ -286,6 +286,7 @@ function deriveTeam(name, enrichment, league) {
       onField: onFieldScore,
     },
     valuationHistory: sorted,
+    factorNarratives: enrichment.factorNarratives || null,
     oneLiner: enrichment.analystNotes || '',
     isSynthesized: !RESEARCHED_DRIVERS[name],
   }
@@ -321,6 +322,7 @@ const builtTeams = LEAGUE_FILES.flatMap(([league, baseFile]) =>
         fiveYearGrowth: derived.fiveYearGrowth || curated.fiveYearGrowth,
         tenYearGrowth:  derived.tenYearGrowth,
         valuationHistory: derived.valuationHistory,
+        factorNarratives: derived.factorNarratives,
       }
     }
     return derived

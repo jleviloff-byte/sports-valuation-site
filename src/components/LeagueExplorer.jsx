@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect, useRef } from 'react'
 import { trackLeagueFiltered, trackSortChanged } from '../utils/analytics.js'
 import { getTeamImages } from '../../data/images.js'
 
@@ -212,142 +212,232 @@ function GrowthCell({ value }) {
   )
 }
 
-// Five-factor donut for the grid card — renders the team's five
-// valuation-driver scores as proportional slices around a hollow ring
-// with the composite (avg) score in the middle. Pure SVG so we don't
-// drag in a chart library for a 70px graphic.
-//
-// Palette is a consistent editorial set across all cards (not team-tinted)
-// so the donut reads cleanly on top of the team's gradient background.
-const DONUT_FACTORS = [
-  { key: 'mediaRights', label: 'Media',  color: '#1d4ed8' }, // blue
-  { key: 'stadium',     label: 'Stadium', color: '#7c3aed' }, // violet
-  { key: 'brand',       label: 'Brand',   color: '#d97706' }, // amber
-  { key: 'marketSize',  label: 'Market',  color: '#0f766e' }, // teal
-  { key: 'onField',     label: 'On-Field', color: '#b91c1c' }, // red
+// Factor ring — wraps the team logo with a five-segment donut showing the
+// team's driver scores. Each segment is proportional to its score and
+// reveals a tooltip (factor name + score/100 + narrative sentence) on
+// hover. On touch devices the segment is tap-to-show / tap-elsewhere-to-
+// dismiss, handled by a document click listener inside the component.
+const RING_FACTORS = [
+  { key: 'mediaRights', label: 'Media Rights', color: '#1d4ed8' }, // blue
+  { key: 'stadium',     label: 'Stadium',      color: '#7c3aed' }, // violet
+  { key: 'brand',       label: 'Brand',        color: '#d97706' }, // amber
+  { key: 'marketSize',  label: 'Market Size',  color: '#0f766e' }, // teal
+  { key: 'onField',     label: 'On-Field',     color: '#b91c1c' }, // red
 ]
 
-function FiveFactorDonut({ drivers, size = 70 }) {
+// First-sentence extractor so the tooltip stays short. Falls back to the
+// first ~140 chars if no period is found in a reasonable window.
+function firstSentence(text) {
+  if (!text) return ''
+  const m = text.match(/^(.{20,180}?[.!?])(?:\s|$)/)
+  if (m) return m[1].trim()
+  return text.length > 160 ? text.slice(0, 157).trim() + '…' : text
+}
+
+function arcPath(cx, cy, oR, iR, startA, endA) {
+  const sweep = endA - startA
+  if (sweep <= 0) return ''
+  const xo1 = cx + oR * Math.cos(startA)
+  const yo1 = cy + oR * Math.sin(startA)
+  const xo2 = cx + oR * Math.cos(endA)
+  const yo2 = cy + oR * Math.sin(endA)
+  const xi1 = cx + iR * Math.cos(endA)
+  const yi1 = cy + iR * Math.sin(endA)
+  const xi2 = cx + iR * Math.cos(startA)
+  const yi2 = cy + iR * Math.sin(startA)
+  const largeArc = sweep > Math.PI ? 1 : 0
+  return `M ${xo1.toFixed(2)} ${yo1.toFixed(2)} A ${oR} ${oR} 0 ${largeArc} 1 ${xo2.toFixed(2)} ${yo2.toFixed(2)} L ${xi1.toFixed(2)} ${yi1.toFixed(2)} A ${iR} ${iR} 0 ${largeArc} 0 ${xi2.toFixed(2)} ${yi2.toFixed(2)} Z`
+}
+
+function FactorRing({ team, size = 156, logoSize = 112, thickness = 16, gap = 6 }) {
+  // Single active-segment state per card. `pinned` is true once a tap has
+  // latched the tooltip open on touch devices; document-click clears it.
+  const [activeIdx, setActiveIdx] = useState(null)
+  const [pinned, setPinned] = useState(false)
+  const rootRef = useRef(null)
+
+  // Mouse users get the tooltip on hover and clicks bubble to open the
+  // team panel. Touch users get a tap-to-pin shortcut so they can read
+  // the tooltip without an interaction that also opens the panel.
+  const isTouchDevice = useMemo(
+    () =>
+      typeof window !== 'undefined' &&
+      typeof window.matchMedia === 'function' &&
+      !window.matchMedia('(hover: hover)').matches,
+    [],
+  )
+
+  useEffect(() => {
+    if (!pinned) return
+    function onDocClick(e) {
+      if (!rootRef.current?.contains(e.target)) {
+        setPinned(false)
+        setActiveIdx(null)
+      }
+    }
+    document.addEventListener('mousedown', onDocClick)
+    document.addEventListener('touchstart', onDocClick)
+    return () => {
+      document.removeEventListener('mousedown', onDocClick)
+      document.removeEventListener('touchstart', onDocClick)
+    }
+  }, [pinned])
+
+  const drivers = team.valuationDrivers || {}
+  const narratives = team.factorNarratives || {}
+  const scores = RING_FACTORS.map((f) => Math.max(0, drivers[f.key] ?? 0))
+  const total = scores.reduce((a, b) => a + b, 0)
+  const hasData = total > 0
+
   const cx = size / 2
   const cy = size / 2
   const outerR = size / 2
-  const innerR = size * 0.34 // hole = ~68% of width
+  const innerR = outerR - thickness
+  const hoverBump = 4 // how much an active segment extends outward
+  // Inner box that holds the centered logo: inset by ring thickness + gap.
+  const inset = thickness + gap
 
-  const scores = DONUT_FACTORS.map((f) => Math.max(0, drivers?.[f.key] ?? 0))
-  const total = scores.reduce((a, b) => a + b, 0)
-  const hasData = total > 0
-  const composite = hasData ? Math.round((total / 5) * 10) / 10 : null
-
-  // No factor data — neutral gray placeholder ring with em-dash.
+  // No driver data — neutral gray ring, no segments, no tooltips.
   if (!hasData) {
     return (
-      <svg
-        width={size}
-        height={size}
-        viewBox={`0 0 ${size} ${size}`}
-        role="img"
-        aria-label="Five-factor score unavailable"
-        className="block"
-      >
-        <circle
-          cx={cx}
-          cy={cy}
-          r={(outerR + innerR) / 2}
-          fill="none"
-          stroke="rgba(15,23,42,0.12)"
-          strokeWidth={outerR - innerR}
-        />
-        <text
-          x={cx}
-          y={cy + 1}
-          textAnchor="middle"
-          dominantBaseline="middle"
-          style={{ fontSize: '11px', fill: 'rgba(15,23,42,0.45)', fontFamily: 'JetBrains Mono, monospace' }}
-        >
-          —
-        </text>
-      </svg>
+      <div className="relative" style={{ width: size, height: size }}>
+        <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-label="Five-factor data unavailable" className="block">
+          <circle cx={cx} cy={cy} r={(outerR + innerR) / 2} fill="none" stroke="rgba(15,23,42,0.12)" strokeWidth={thickness} />
+        </svg>
+        <div className="absolute flex items-center justify-center" style={{ inset }}>
+          <TeamLogo team={team} size={logoSize} />
+        </div>
+      </div>
     )
   }
 
   let cumulative = 0
-  const slices = DONUT_FACTORS.map((f, i) => {
+  const segments = RING_FACTORS.map((f, i) => {
     const fraction = scores[i] / total
-    if (fraction === 0) return null
-    const startAngle = cumulative * Math.PI * 2 - Math.PI / 2
+    const startA = cumulative * Math.PI * 2 - Math.PI / 2
     cumulative += fraction
-    const endAngle = cumulative * Math.PI * 2 - Math.PI / 2
-
-    // Edge case: a single non-zero slice covers the whole ring — emit a
-    // full-circle donut path instead of a degenerate single-arc wedge,
-    // which SVG cannot draw (start == end ⇒ zero-length arc).
-    if (fraction >= 0.999) {
-      return (
-        <path
-          key={f.key}
-          d={`M ${cx - outerR} ${cy}
-              A ${outerR} ${outerR} 0 1 1 ${cx + outerR} ${cy}
-              A ${outerR} ${outerR} 0 1 1 ${cx - outerR} ${cy}
-              M ${cx - innerR} ${cy}
-              A ${innerR} ${innerR} 0 1 0 ${cx + innerR} ${cy}
-              A ${innerR} ${innerR} 0 1 0 ${cx - innerR} ${cy}
-              Z`}
-          fill={f.color}
-          fillOpacity="0.85"
-          fillRule="evenodd"
-        >
-          <title>{`${f.label}: ${scores[i]}`}</title>
-        </path>
-      )
-    }
-
-    const xo1 = cx + outerR * Math.cos(startAngle)
-    const yo1 = cy + outerR * Math.sin(startAngle)
-    const xo2 = cx + outerR * Math.cos(endAngle)
-    const yo2 = cy + outerR * Math.sin(endAngle)
-    const xi1 = cx + innerR * Math.cos(endAngle)
-    const yi1 = cy + innerR * Math.sin(endAngle)
-    const xi2 = cx + innerR * Math.cos(startAngle)
-    const yi2 = cy + innerR * Math.sin(startAngle)
-    const largeArc = fraction > 0.5 ? 1 : 0
-
-    const d = `M ${xo1.toFixed(2)} ${yo1.toFixed(2)}
-               A ${outerR} ${outerR} 0 ${largeArc} 1 ${xo2.toFixed(2)} ${yo2.toFixed(2)}
-               L ${xi1.toFixed(2)} ${yi1.toFixed(2)}
-               A ${innerR} ${innerR} 0 ${largeArc} 0 ${xi2.toFixed(2)} ${yi2.toFixed(2)}
-               Z`
-    return (
-      <path key={f.key} d={d} fill={f.color} fillOpacity="0.85">
-        <title>{`${f.label}: ${scores[i]}`}</title>
-      </path>
-    )
+    const endA = cumulative * Math.PI * 2 - Math.PI / 2
+    return { ...f, fraction, startA, endA, score: scores[i], narrative: narratives[f.key] }
   })
 
+  const active = activeIdx != null ? segments[activeIdx] : null
+
+  function handlePointerEnter(i) {
+    if (!pinned) setActiveIdx(i)
+  }
+  function handlePointerLeave() {
+    if (!pinned) setActiveIdx(null)
+  }
+  function handleSegmentClick(e, i) {
+    if (!isTouchDevice) return // mouse: let the click bubble — opens the team panel
+    e.stopPropagation()
+    if (pinned && activeIdx === i) {
+      setPinned(false)
+      setActiveIdx(null)
+    } else {
+      setPinned(true)
+      setActiveIdx(i)
+    }
+  }
+
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox={`0 0 ${size} ${size}`}
-      role="img"
-      aria-label={`Five-factor composite ${composite}`}
-      className="block transition-transform duration-200 group-hover:scale-105"
-    >
-      {/* Soft white wash under slices so colored fills don't muddy on dark gradients */}
-      <circle cx={cx} cy={cy} r={outerR} fill="rgba(255,255,255,0.55)" />
-      {slices}
-      {/* Inner hole — pure white so the composite number reads cleanly */}
-      <circle cx={cx} cy={cy} r={innerR - 0.5} fill="#ffffff" />
-      <circle cx={cx} cy={cy} r={innerR - 0.5} fill="none" stroke="rgba(15,23,42,0.08)" strokeWidth="0.75" />
-      <text
-        x={cx}
-        y={cy + 0.5}
-        textAnchor="middle"
-        dominantBaseline="middle"
-        style={{ fontSize: '14px', fontWeight: 700, fill: '#0f172a', fontFamily: 'JetBrains Mono, monospace' }}
+    <div ref={rootRef} className="relative" style={{ width: size, height: size }}>
+      <svg
+        width={size}
+        height={size}
+        viewBox={`-${hoverBump} -${hoverBump} ${size + hoverBump * 2} ${size + hoverBump * 2}`}
+        className="block overflow-visible"
+        aria-label="Five-factor breakdown — hover segments for detail"
       >
-        {composite}
-      </text>
-    </svg>
+        {/* Soft white wash so colored segments don't muddy on dark gradients */}
+        <circle cx={cx} cy={cy} r={outerR} fill="rgba(255,255,255,0.45)" />
+        {segments.map((seg, i) => {
+          if (seg.fraction === 0) return null
+          const isActive = activeIdx === i
+          // Full-circle edge case: one factor non-zero; emit a closed ring path.
+          if (seg.fraction >= 0.999) {
+            const r = outerR + (isActive ? hoverBump : 0)
+            return (
+              <path
+                key={seg.key}
+                d={`M ${cx - r} ${cy} A ${r} ${r} 0 1 1 ${cx + r} ${cy} A ${r} ${r} 0 1 1 ${cx - r} ${cy} M ${cx - innerR} ${cy} A ${innerR} ${innerR} 0 1 0 ${cx + innerR} ${cy} A ${innerR} ${innerR} 0 1 0 ${cx - innerR} ${cy} Z`}
+                fill={seg.color}
+                fillOpacity={isActive ? 0.95 : 0.85}
+                fillRule="evenodd"
+                className="cursor-pointer transition-all duration-150"
+                onMouseEnter={() => handlePointerEnter(i)}
+                onMouseLeave={handlePointerLeave}
+                onClick={(e) => handleSegmentClick(e, i)}
+              />
+            )
+          }
+          const oR = outerR + (isActive ? hoverBump : 0)
+          return (
+            <path
+              key={seg.key}
+              d={arcPath(cx, cy, oR, innerR, seg.startA, seg.endA)}
+              fill={seg.color}
+              fillOpacity={isActive ? 0.95 : 0.82}
+              className="cursor-pointer transition-all duration-150"
+              onMouseEnter={() => handlePointerEnter(i)}
+              onMouseLeave={handlePointerLeave}
+              onClick={(e) => handleSegmentClick(e, i)}
+            />
+          )
+        })}
+        {/* Thin hairline along the inner edge for crisper separation against the logo */}
+        <circle cx={cx} cy={cy} r={innerR} fill="none" stroke="rgba(15,23,42,0.08)" strokeWidth="0.75" />
+      </svg>
+
+      {/* Logo overlay — sits inside the ring, centered. pointer-events-none
+          so the SVG segments still receive hover/tap underneath the logo
+          padding zone. */}
+      <div
+        className="absolute flex items-center justify-center pointer-events-none"
+        style={{ inset }}
+        aria-hidden="true"
+      >
+        <TeamLogo team={team} size={logoSize} />
+      </div>
+
+      {/* Tooltip — single per card, positioned above the ring assembly.
+          Pointer-events disabled so it never steals hover from the
+          segments beneath it. */}
+      {active && (
+        <div
+          role="tooltip"
+          className="absolute left-1/2 z-20 pointer-events-none animate-fade-in"
+          style={{ bottom: `calc(100% + 8px)`, transform: 'translateX(-50%)', width: 'max-content', maxWidth: '240px' }}
+        >
+          <div className="bg-ink text-white rounded-sm shadow-modal px-3 py-2">
+            <div className="flex items-baseline justify-between gap-3 mb-1">
+              <span className="font-mono text-[10px] font-bold tracking-widest uppercase" style={{ color: active.color }}>
+                {active.label}
+              </span>
+              <span className="font-mono text-[11px] font-bold text-white">
+                {active.score * 10}<span className="opacity-60">/100</span>
+              </span>
+            </div>
+            <p className="text-[11px] leading-snug text-white/85 font-sans">
+              {firstSentence(active.narrative) || `${active.label}: ${active.score * 10}/100`}
+            </p>
+          </div>
+          {/* Caret pointing down at the ring */}
+          <div
+            aria-hidden="true"
+            className="absolute left-1/2 -translate-x-1/2"
+            style={{
+              top: '100%',
+              width: 0,
+              height: 0,
+              borderLeft: '6px solid transparent',
+              borderRight: '6px solid transparent',
+              borderTop: '6px solid #1a1a1a',
+            }}
+          />
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -606,10 +696,11 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                       {rank}
                     </span>
 
-                    {/* Logo + meta column */}
+                    {/* Logo + factor ring — centerpiece of the card. The ring
+                        owns the upper portion; team meta sits below. */}
                     <div className="relative flex flex-col items-center text-center pt-2">
-                      <TeamLogo team={team} size={80} />
-                      <div className="mt-3 font-serif text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
+                      <FactorRing team={team} size={156} logoSize={112} thickness={16} gap={6} />
+                      <div className="mt-4 font-serif text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
                         {team.name}
                       </div>
                       <div className="mt-2 font-mono text-4xl font-extrabold text-ink tracking-tight">
@@ -621,14 +712,6 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                           {team.fiveYearGrowth >= 0 ? '+' : ''}{team.fiveYearGrowth}% 5Y
                         </div>
                       )}
-
-                      {/* Five-factor donut — present on every card. Slices are
-                          proportional to driver scores; composite avg sits in
-                          the hole. Missing-data teams get a neutral gray ring
-                          instead of a broken element. */}
-                      <div className="mt-3 flex items-center justify-center">
-                        <FiveFactorDonut drivers={team.valuationDrivers} size={70} />
-                      </div>
                     </div>
 
                     {/* Footer row: league badge bottom-left, stadium ownership bottom-right */}
