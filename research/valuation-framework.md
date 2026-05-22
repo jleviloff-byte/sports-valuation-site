@@ -1,6 +1,6 @@
-# What's a Team Worth? — Valuation Framework Primer
+# What's My Team Worth — Valuation Framework Primer
 
-**For internal use — "What's a Team Worth?" editorial research**
+**For internal use — "What's My Team Worth" editorial research**
 *Last updated: May 2026*
 
 ---
