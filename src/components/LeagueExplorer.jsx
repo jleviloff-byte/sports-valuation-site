@@ -212,6 +212,50 @@ function GrowthCell({ value }) {
   )
 }
 
+// Mini sparkline for the grid card — renders the team's valuation trajectory
+// as a line + faint area fill. White at 60%/15% so it reads on top of the
+// gradient backgrounds. Returns null if there isn't enough data to draw.
+function ValuationSparkline({ history, width = 120, height = 30 }) {
+  if (!history || history.length < 2) return null
+  const values = history.map((h) => h.value).filter((v) => typeof v === 'number' && v > 0)
+  if (values.length < 2) return null
+  const min = Math.min(...values)
+  const max = Math.max(...values)
+  const range = max - min || 1
+  const padX = 1
+  const padY = 2
+  const innerW = width - padX * 2
+  const innerH = height - padY * 2
+  const step = innerW / (values.length - 1)
+  const points = values.map((v, i) => {
+    const x = padX + i * step
+    const y = padY + (1 - (v - min) / range) * innerH
+    return [x, y]
+  })
+  const linePath = points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(2)},${y.toFixed(2)}`).join(' ')
+  const areaPath = `${linePath} L${(padX + innerW).toFixed(2)},${(padY + innerH).toFixed(2)} L${padX.toFixed(2)},${(padY + innerH).toFixed(2)} Z`
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
+      role="img"
+      aria-label="Valuation trajectory"
+      className="block transition-opacity duration-200 opacity-80 group-hover:opacity-100"
+    >
+      <path d={areaPath} fill="rgba(255,255,255,0.15)" />
+      <path
+        d={linePath}
+        fill="none"
+        stroke="rgba(255,255,255,0.6)"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // Inline icons — keeps us off lucide-react for two tiny glyphs. Sized to the
 // caller via currentColor + h/w props.
 function ListIcon({ size = 14 }) {
@@ -443,46 +487,61 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                 const isSelected = selectedTeam?.name === team.name
                 const color = primaryColorFor(team)
                 const rank = idx + 1
+                const history = team.valuationHistory
                 return (
                   <button
                     key={team.name}
                     type="button"
                     onClick={() => onSelectTeam(isSelected ? null : team)}
-                    className={`group relative w-full text-left bg-white border rounded-sm pt-6 pb-5 px-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover ${
-                      isSelected ? 'border-accent ring-1 ring-accent-soft' : 'border-rule'
+                    className={`group relative w-full text-left bg-white rounded-sm pt-7 pb-5 px-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover ${
+                      isSelected ? 'ring-1 ring-accent-soft' : ''
                     }`}
                     style={{
-                      backgroundImage: `linear-gradient(135deg, ${hexToRgba(color, 0.14)} 0%, ${hexToRgba(color, 0.02)} 65%, rgba(255,255,255,0) 100%)`,
+                      backgroundImage: `linear-gradient(135deg, ${hexToRgba(color, 0.28)} 0%, ${hexToRgba(color, 0.10)} 55%, ${hexToRgba(color, 0.03)} 100%)`,
+                      border: `1px solid ${isSelected ? 'var(--tw-ring-color, #0a7d2a)' : hexToRgba(color, 0.35)}`,
                     }}
                   >
-                    {/* Magazine-style rank number, top-left, large + faint */}
+                    {/* Magazine-style rank number, top-left, large + assertive.
+                        Sits behind the centered logo at low opacity so it reads
+                        as a watermark rank rather than a footnote. */}
                     <span
                       aria-hidden="true"
-                      className="absolute top-1 left-3 font-serif font-bold leading-none text-ink select-none"
-                      style={{ fontSize: '3.25rem', opacity: 0.09 }}
+                      className="absolute top-1 left-2 font-serif font-bold leading-none text-ink select-none"
+                      style={{ fontSize: '4rem', opacity: 0.13, letterSpacing: '-0.04em' }}
                     >
                       {rank}
                     </span>
 
                     {/* Logo + meta column */}
-                    <div className="flex flex-col items-center text-center pt-2">
+                    <div className="relative flex flex-col items-center text-center pt-2">
                       <TeamLogo team={team} size={80} />
                       <div className="mt-3 font-serif text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
                         {team.name}
                       </div>
-                      <div className="mt-2 font-mono text-3xl font-bold text-ink tracking-tight">
+                      <div className="mt-2 font-mono text-4xl font-extrabold text-ink tracking-tight">
                         ${team.currentValuation}
-                        <span className="text-base text-slate font-semibold">B</span>
+                        <span className="text-lg text-slate font-semibold">B</span>
                       </div>
                       {team.fiveYearGrowth != null && (
                         <div className={`mt-1 font-mono text-[11px] font-semibold ${growthClass(team.fiveYearGrowth)}`}>
                           {team.fiveYearGrowth >= 0 ? '+' : ''}{team.fiveYearGrowth}% 5Y
                         </div>
                       )}
+
+                      {/* Mini valuation sparkline — sits between team meta and
+                          league badge. Hidden on the smallest mobile-grid widths;
+                          falls back to em-dash if history is too sparse. */}
+                      <div className="mt-3 h-[30px] w-full flex items-center justify-center">
+                        {history && history.length >= 2 ? (
+                          <ValuationSparkline history={history} />
+                        ) : (
+                          <span className="font-mono text-[10px] text-slate opacity-60" aria-hidden="true">—</span>
+                        )}
+                      </div>
                     </div>
 
                     {/* Footer row: league badge bottom-left, stadium ownership bottom-right */}
-                    <div className="mt-4 pt-3 border-t border-rule flex items-center justify-between">
+                    <div className="mt-3 pt-3 border-t border-rule/70 flex items-center justify-between">
                       <span className={`font-mono text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}>
                         {team.league}
                       </span>

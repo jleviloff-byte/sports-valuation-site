@@ -11,7 +11,7 @@ export default function TitleBar() {
         </div>
 
         <h1 className="section-title text-4xl sm:text-5xl lg:text-6xl">
-          What's a team worth?
+          What's My Team Worth
         </h1>
 
         <div className="text-base sm:text-lg text-graphite mt-6 leading-relaxed max-w-3xl space-y-4 font-serif">
