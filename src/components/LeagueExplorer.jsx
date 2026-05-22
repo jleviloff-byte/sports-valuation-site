@@ -212,46 +212,141 @@ function GrowthCell({ value }) {
   )
 }
 
-// Mini sparkline for the grid card — renders the team's valuation trajectory
-// as a line + faint area fill. White at 60%/15% so it reads on top of the
-// gradient backgrounds. Returns null if there isn't enough data to draw.
-function ValuationSparkline({ history, width = 120, height = 30 }) {
-  if (!history || history.length < 2) return null
-  const values = history.map((h) => h.value).filter((v) => typeof v === 'number' && v > 0)
-  if (values.length < 2) return null
-  const min = Math.min(...values)
-  const max = Math.max(...values)
-  const range = max - min || 1
-  const padX = 1
-  const padY = 2
-  const innerW = width - padX * 2
-  const innerH = height - padY * 2
-  const step = innerW / (values.length - 1)
-  const points = values.map((v, i) => {
-    const x = padX + i * step
-    const y = padY + (1 - (v - min) / range) * innerH
-    return [x, y]
+// Five-factor donut for the grid card — renders the team's five
+// valuation-driver scores as proportional slices around a hollow ring
+// with the composite (avg) score in the middle. Pure SVG so we don't
+// drag in a chart library for a 70px graphic.
+//
+// Palette is a consistent editorial set across all cards (not team-tinted)
+// so the donut reads cleanly on top of the team's gradient background.
+const DONUT_FACTORS = [
+  { key: 'mediaRights', label: 'Media',  color: '#1d4ed8' }, // blue
+  { key: 'stadium',     label: 'Stadium', color: '#7c3aed' }, // violet
+  { key: 'brand',       label: 'Brand',   color: '#d97706' }, // amber
+  { key: 'marketSize',  label: 'Market',  color: '#0f766e' }, // teal
+  { key: 'onField',     label: 'On-Field', color: '#b91c1c' }, // red
+]
+
+function FiveFactorDonut({ drivers, size = 70 }) {
+  const cx = size / 2
+  const cy = size / 2
+  const outerR = size / 2
+  const innerR = size * 0.34 // hole = ~68% of width
+
+  const scores = DONUT_FACTORS.map((f) => Math.max(0, drivers?.[f.key] ?? 0))
+  const total = scores.reduce((a, b) => a + b, 0)
+  const hasData = total > 0
+  const composite = hasData ? Math.round((total / 5) * 10) / 10 : null
+
+  // No factor data — neutral gray placeholder ring with em-dash.
+  if (!hasData) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox={`0 0 ${size} ${size}`}
+        role="img"
+        aria-label="Five-factor score unavailable"
+        className="block"
+      >
+        <circle
+          cx={cx}
+          cy={cy}
+          r={(outerR + innerR) / 2}
+          fill="none"
+          stroke="rgba(15,23,42,0.12)"
+          strokeWidth={outerR - innerR}
+        />
+        <text
+          x={cx}
+          y={cy + 1}
+          textAnchor="middle"
+          dominantBaseline="middle"
+          style={{ fontSize: '11px', fill: 'rgba(15,23,42,0.45)', fontFamily: 'JetBrains Mono, monospace' }}
+        >
+          —
+        </text>
+      </svg>
+    )
+  }
+
+  let cumulative = 0
+  const slices = DONUT_FACTORS.map((f, i) => {
+    const fraction = scores[i] / total
+    if (fraction === 0) return null
+    const startAngle = cumulative * Math.PI * 2 - Math.PI / 2
+    cumulative += fraction
+    const endAngle = cumulative * Math.PI * 2 - Math.PI / 2
+
+    // Edge case: a single non-zero slice covers the whole ring — emit a
+    // full-circle donut path instead of a degenerate single-arc wedge,
+    // which SVG cannot draw (start == end ⇒ zero-length arc).
+    if (fraction >= 0.999) {
+      return (
+        <path
+          key={f.key}
+          d={`M ${cx - outerR} ${cy}
+              A ${outerR} ${outerR} 0 1 1 ${cx + outerR} ${cy}
+              A ${outerR} ${outerR} 0 1 1 ${cx - outerR} ${cy}
+              M ${cx - innerR} ${cy}
+              A ${innerR} ${innerR} 0 1 0 ${cx + innerR} ${cy}
+              A ${innerR} ${innerR} 0 1 0 ${cx - innerR} ${cy}
+              Z`}
+          fill={f.color}
+          fillOpacity="0.85"
+          fillRule="evenodd"
+        >
+          <title>{`${f.label}: ${scores[i]}`}</title>
+        </path>
+      )
+    }
+
+    const xo1 = cx + outerR * Math.cos(startAngle)
+    const yo1 = cy + outerR * Math.sin(startAngle)
+    const xo2 = cx + outerR * Math.cos(endAngle)
+    const yo2 = cy + outerR * Math.sin(endAngle)
+    const xi1 = cx + innerR * Math.cos(endAngle)
+    const yi1 = cy + innerR * Math.sin(endAngle)
+    const xi2 = cx + innerR * Math.cos(startAngle)
+    const yi2 = cy + innerR * Math.sin(startAngle)
+    const largeArc = fraction > 0.5 ? 1 : 0
+
+    const d = `M ${xo1.toFixed(2)} ${yo1.toFixed(2)}
+               A ${outerR} ${outerR} 0 ${largeArc} 1 ${xo2.toFixed(2)} ${yo2.toFixed(2)}
+               L ${xi1.toFixed(2)} ${yi1.toFixed(2)}
+               A ${innerR} ${innerR} 0 ${largeArc} 0 ${xi2.toFixed(2)} ${yi2.toFixed(2)}
+               Z`
+    return (
+      <path key={f.key} d={d} fill={f.color} fillOpacity="0.85">
+        <title>{`${f.label}: ${scores[i]}`}</title>
+      </path>
+    )
   })
-  const linePath = points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(2)},${y.toFixed(2)}`).join(' ')
-  const areaPath = `${linePath} L${(padX + innerW).toFixed(2)},${(padY + innerH).toFixed(2)} L${padX.toFixed(2)},${(padY + innerH).toFixed(2)} Z`
+
   return (
     <svg
-      width={width}
-      height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      width={size}
+      height={size}
+      viewBox={`0 0 ${size} ${size}`}
       role="img"
-      aria-label="Valuation trajectory"
-      className="block transition-opacity duration-200 opacity-80 group-hover:opacity-100"
+      aria-label={`Five-factor composite ${composite}`}
+      className="block transition-transform duration-200 group-hover:scale-105"
     >
-      <path d={areaPath} fill="rgba(255,255,255,0.15)" />
-      <path
-        d={linePath}
-        fill="none"
-        stroke="rgba(255,255,255,0.6)"
-        strokeWidth="1.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      {/* Soft white wash under slices so colored fills don't muddy on dark gradients */}
+      <circle cx={cx} cy={cy} r={outerR} fill="rgba(255,255,255,0.55)" />
+      {slices}
+      {/* Inner hole — pure white so the composite number reads cleanly */}
+      <circle cx={cx} cy={cy} r={innerR - 0.5} fill="#ffffff" />
+      <circle cx={cx} cy={cy} r={innerR - 0.5} fill="none" stroke="rgba(15,23,42,0.08)" strokeWidth="0.75" />
+      <text
+        x={cx}
+        y={cy + 0.5}
+        textAnchor="middle"
+        dominantBaseline="middle"
+        style={{ fontSize: '14px', fontWeight: 700, fill: '#0f172a', fontFamily: 'JetBrains Mono, monospace' }}
+      >
+        {composite}
+      </text>
     </svg>
   )
 }
@@ -487,7 +582,6 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                 const isSelected = selectedTeam?.name === team.name
                 const color = primaryColorFor(team)
                 const rank = idx + 1
-                const history = team.valuationHistory
                 return (
                   <button
                     key={team.name}
@@ -528,15 +622,12 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                         </div>
                       )}
 
-                      {/* Mini valuation sparkline — sits between team meta and
-                          league badge. Hidden on the smallest mobile-grid widths;
-                          falls back to em-dash if history is too sparse. */}
-                      <div className="mt-3 h-[30px] w-full flex items-center justify-center">
-                        {history && history.length >= 2 ? (
-                          <ValuationSparkline history={history} />
-                        ) : (
-                          <span className="font-mono text-[10px] text-slate opacity-60" aria-hidden="true">—</span>
-                        )}
+                      {/* Five-factor donut — present on every card. Slices are
+                          proportional to driver scores; composite avg sits in
+                          the hole. Missing-data teams get a neutral gray ring
+                          instead of a broken element. */}
+                      <div className="mt-3 flex items-center justify-center">
+                        <FiveFactorDonut drivers={team.valuationDrivers} size={70} />
                       </div>
                     </div>
 
