@@ -285,6 +285,7 @@ function deriveTeam(name, enrichment, league) {
       marketSize: ms === 'large' ? 8 : ms === 'small' ? 3 : 5,
       onField: onFieldScore,
     },
+    valuationHistory: sorted,
     oneLiner: enrichment.analystNotes || '',
     isSynthesized: !RESEARCHED_DRIVERS[name],
   }
@@ -319,6 +320,7 @@ const builtTeams = LEAGUE_FILES.flatMap(([league, baseFile]) =>
         oneYearGrowth:  derived.oneYearGrowth,
         fiveYearGrowth: derived.fiveYearGrowth || curated.fiveYearGrowth,
         tenYearGrowth:  derived.tenYearGrowth,
+        valuationHistory: derived.valuationHistory,
       }
     }
     return derived
