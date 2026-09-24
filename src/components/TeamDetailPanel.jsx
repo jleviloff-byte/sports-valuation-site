@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   XAxis,
   YAxis,
@@ -12,8 +13,13 @@ import {
   Cell,
 } from 'recharts'
 import { getTeamImages } from '../../data/images.js'
-import allTeams from '../../data/allTeams.js'
+import allTeams, { precedentComps } from '../../data/allTeams.js'
 import { trackFactorExpanded } from '../utils/analytics.js'
+import {
+  fmtUSD, fmtDate, fmtStake, fmtPremium, dealAnchor, STATUS_PILL, DRIVER_LABEL,
+} from '../utils/dealFormat.js'
+import { COMP_WINDOW_MONTHS, dealDate } from '../utils/comps.js'
+import InsideForbesNumber from './InsideForbesNumber.jsx'
 
 const OWNERSHIP_COLORS = ['#1a1a1a', '#e8600a', '#5b21b6', '#065f46', '#991b1b', '#075985', '#b45309', '#1e3a8a']
 
@@ -213,6 +219,131 @@ function DriverRow({ label, value, color, narrative, isOpen, onToggle, leagueRan
         </div>
       )}
     </div>
+  )
+}
+
+function LastSaleBadge({ deal }) {
+  if (!deal) return null
+  const pending = deal.status === 'agreed' || deal.status === 'contested'
+  const label = deal.status === 'contested' ? 'Contested' : pending ? 'Pending approval' : 'Last sale'
+  return (
+    <div className="mt-4 inline-flex flex-wrap items-center gap-x-3 gap-y-1 border border-accent bg-accent-soft rounded-sm px-3 py-2">
+      <span className={`font-mono text-[10px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-full ${STATUS_PILL[deal.status] || STATUS_PILL.closed}`}>
+        {label}
+      </span>
+      <span className="font-mono text-sm font-bold text-ink">{fmtUSD(deal.valuation)}</span>
+      <span className="text-xs text-graphite">
+        {fmtDate(dealDate(deal))} · {deal.buyer}
+        {deal.stakePct != null && deal.stakePct !== 100 && ` · ${fmtStake(deal.stakePct)} stake`}
+      </span>
+    </div>
+  )
+}
+
+function MarketCheck({ team }) {
+  const deal = team.lastSale
+  if (!deal) return null
+  const top = (deal.drivers || []).slice(0, 2)
+  return (
+    <section>
+      <SectionHeader>Market check · {deal.type === 'control' ? 'control sale' : 'minority stake'}</SectionHeader>
+      <div className="bg-paper border border-rule rounded-sm">
+        <div className="grid grid-cols-3 divide-x divide-rule border-b border-rule">
+          <div className="p-3">
+            <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">Forbes at sale</div>
+            <div className="font-mono text-lg font-bold text-ink">{fmtUSD(deal.forbesValueAtSale)}</div>
+            {deal.forbesListYear && <div className="font-mono text-[10px] text-ash">{deal.forbesListYear} list</div>}
+          </div>
+          <div className="p-3">
+            <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">
+              {deal.type === 'control' ? 'Price paid' : 'Implied mark'}
+            </div>
+            <div className="font-mono text-lg font-bold text-ink">{fmtUSD(deal.valuation)}</div>
+            <div className="font-mono text-[10px] text-ash">{fmtDate(dealDate(deal))}</div>
+          </div>
+          <div className="p-3 bg-accent-soft">
+            <div className="font-mono text-[9px] text-accent-dark tracking-widest uppercase mb-1">Premium to Forbes</div>
+            <div className="font-mono text-lg font-bold text-accent-dark">{fmtPremium(deal.premiumToForbes)}</div>
+          </div>
+        </div>
+        {top.length > 0 && (
+          <ul className="p-4 space-y-2">
+            {top.map((d) => (
+              <li key={d.id} className="text-sm text-graphite leading-relaxed">
+                <span className="font-mono text-[10px] font-bold tracking-wider uppercase text-ink mr-2">{DRIVER_LABEL[d.id]}</span>
+                {d.text}
+              </li>
+            ))}
+          </ul>
+        )}
+        <div className="px-4 pb-4">
+          <Link
+            to={`/recent-sales#${dealAnchor(deal)}`}
+            className="font-mono text-[10px] tracking-widest uppercase font-bold text-accent hover:text-accent-dark"
+          >
+            Full deal breakdown in Recent Sales →
+          </Link>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function CompStat({ label, set }) {
+  return (
+    <div className="bg-white border border-rule rounded-sm p-3">
+      <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">{label}</div>
+      {set?.n ? (
+        <>
+          <div className="font-mono text-xl font-bold text-ink">{fmtPremium(set.medianPremium)}</div>
+          <div className="font-mono text-[10px] text-slate">median vs Forbes · mean {fmtPremium(set.meanPremium)} · n={set.n}</div>
+        </>
+      ) : (
+        <div className="text-sm text-slate italic">No priced deals in window</div>
+      )}
+    </div>
+  )
+}
+
+function PrecedentTransactions({ team }) {
+  const comps = precedentComps[team.league] || { control: {}, minority: {} }
+  const recent = [...(comps.control.deals || []), ...(comps.minority.deals || [])]
+    .sort((a, b) => dealDate(b).localeCompare(dealDate(a)))
+    .slice(0, 6)
+  return (
+    <section>
+      <SectionHeader>Precedent Transactions · {team.league} · last {COMP_WINDOW_MONTHS} months</SectionHeader>
+      <div className="bg-paper border border-rule rounded-sm p-4 space-y-4">
+        <div className="grid grid-cols-2 gap-3">
+          <CompStat label="Control deals" set={comps.control} />
+          <CompStat label="Minority (LP) marks" set={comps.minority} />
+        </div>
+        <p className="text-xs text-slate leading-relaxed">
+          Where buyers have paid relative to the Forbes number at the time of each deal. Control
+          sales price the whole enterprise. LP stakes carry no control and limited liquidity, so
+          they price a scarcity premium rather than enterprise value. Neither changes the Forbes
+          headline on this page.
+        </p>
+        {recent.length > 0 && (
+          <div>
+            <div className="font-mono text-[10px] text-slate tracking-widest uppercase mb-2">Recent {team.league} deals</div>
+            <ul className="divide-y divide-rule border-y border-rule">
+              {recent.map((d) => (
+                <li key={d.key} className="py-2 flex items-baseline gap-3 text-sm">
+                  <span className="font-mono text-[10px] text-slate w-20 flex-shrink-0">{fmtDate(dealDate(d)).replace(/ \d+,/, '')}</span>
+                  <span className="text-ink truncate flex-1">{d.teamName}</span>
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-slate">{d.type === 'control' ? 'Ctrl' : `${fmtStake(d.stakePct)} LP`}</span>
+                  <span className="font-mono text-xs font-bold text-ink w-16 text-right">{fmtUSD(d.valuation)}</span>
+                  <span className="font-mono text-xs text-accent-dark w-14 text-right" title="Premium to Forbes at time of sale">
+                    {fmtPremium(d.premiumToForbes)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
   )
 }
 
@@ -684,7 +815,9 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
   const nonGameRevenue = venue?.nonGameRevenue ?? venue?.nonArenaRevenue
   const newVenuePlans = venue?.newStadiumPlans ?? venue?.newArenaPlans
   const analystNotes = enrichment?.analystNotes || team.oneLiner
-  const transactions = enrichment?.transactions ?? []
+  const transactions = team.saleHistory?.length
+    ? [...team.saleHistory].reverse()
+    : (enrichment?.transactions ?? [])
   const valuationHistory = (enrichment?.valuationHistory ?? []).slice().sort((a, b) => a.year - b.year)
   const ownership = enrichment?.ownership
   const media = enrichment?.media
@@ -734,6 +867,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
             <p className="text-sm text-graphite mt-3 leading-relaxed">
               {analystNotes || `Among the most valuable franchises in the ${team.league}.`}
             </p>
+            <LastSaleBadge deal={team.lastSale} />
           </div>
 
           {/* KPI strip */}
@@ -741,7 +875,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
             <KpiBlock
               label="Valuation"
               value={`$${team.currentValuation}B`}
-              sub={team.valuationYear?.toString()}
+              sub={`Forbes ${team.valuationYear ?? ''}`.trim()}
               valueClass="text-ink"
             />
             <KpiBlock label="1Y Change" value={fmtGrowth(team.oneYearGrowth)}   valueClass={`${growthColor(team.oneYearGrowth)} text-2xl sm:text-3xl`} />
@@ -757,8 +891,15 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
 
           {/* Body sections */}
           <div className="px-6 sm:px-8 py-8 space-y-10">
+            {/* Forbes' own four-component split, tested against proxies */}
+            <InsideForbesNumber team={team} />
+
             {/* Composition donut — what % of the valuation each driver explains */}
             <ValuationComposition team={team} />
+
+            <MarketCheck team={team} />
+
+            <PrecedentTransactions team={team} />
 
             {/* Valuation history */}
             {valuationHistory.length > 0 && (
@@ -905,15 +1046,17 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
               )}
             </section>
 
-            {/* Transactions */}
+            {/* Transactions — researched control-sale history when available,
+                otherwise the legacy enrichment notes ($B prices). */}
             {transactions.length > 0 && (
               <section>
-                <SectionHeader>Transaction History</SectionHeader>
+                <SectionHeader>{team.saleHistory?.length ? 'Control Sale History' : 'Transaction History'}</SectionHeader>
                 <div className="space-y-3">
                   {transactions.map((tx, i) => (
                     <div key={i} className="border-l-2 border-ink pl-4 py-1">
                       <div className="font-mono text-sm font-bold text-ink">
-                        {tx.year} · {fmtMoney(tx.price)}
+                        {tx.year} · {team.saleHistory?.length ? (tx.price != null ? fmtUSD(tx.price) : 'Price n/a') : fmtMoney(tx.price)}
+                        {tx.isEstimated && <span className="ml-2 font-mono text-[9px] text-accent tracking-wider uppercase">Est.</span>}
                       </div>
                       <div className="text-sm text-graphite mt-1">
                         <span className="text-slate">Buyer:</span> {tx.buyer}

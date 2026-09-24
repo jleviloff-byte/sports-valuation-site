@@ -1,6 +1,148 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { trackMethodologyViewed } from '../utils/analytics.js'
+import { precedentComps } from '../../data/allTeams.js'
+import { transactions, lastUpdated } from '../../data/transactions.js'
+import { COMP_WINDOW_MONTHS } from '../utils/comps.js'
+import { fmtDate, fmtPremium, fmtUSD, DRIVER_LABEL } from '../utils/dealFormat.js'
+
+const LEAGUE_ORDER = ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
+
+const deal = (teamId, type) =>
+  transactions.filter((t) => t.teamId === teamId && t.type === type)
+    .sort((a, b) => (b.dateAnnounced || '').localeCompare(a.dateAnnounced || ''))[0] || null
+
+function PremiumTable() {
+  return (
+    <div className="my-8 overflow-x-auto">
+      <table className="w-full min-w-[520px] font-sans text-sm border-y-2 border-ink">
+        <thead>
+          <tr className="font-mono text-[9px] tracking-[0.18em] uppercase text-slate border-b border-rule">
+            <th className="text-left py-2 pr-3" rowSpan={2}>League</th>
+            <th className="text-center py-2 px-2 border-l border-rule" colSpan={3}>Control deals vs Forbes</th>
+            <th className="text-center py-2 px-2 border-l border-rule" colSpan={3}>LP marks vs Forbes</th>
+          </tr>
+          <tr className="font-mono text-[9px] tracking-[0.18em] uppercase text-slate border-b border-ink">
+            {['Median', 'Mean', 'n', 'Median', 'Mean', 'n'].map((h, i) => (
+              <th key={i} className={`text-right py-1.5 px-2 ${i === 0 || i === 3 ? 'border-l border-rule' : ''}`}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {LEAGUE_ORDER.map((lg) => {
+            const c = precedentComps[lg]?.control
+            const m = precedentComps[lg]?.minority
+            return (
+              <tr key={lg} className="border-b border-rule last:border-0">
+                <td className="py-2 pr-3 font-mono font-bold text-ink">{lg}</td>
+                <td className="py-2 px-2 text-right font-mono font-bold text-ink border-l border-rule">{fmtPremium(c?.medianPremium)}</td>
+                <td className="py-2 px-2 text-right font-mono text-graphite">{fmtPremium(c?.meanPremium)}</td>
+                <td className="py-2 px-2 text-right font-mono text-slate">{c?.n ?? 0}</td>
+                <td className="py-2 px-2 text-right font-mono font-bold text-graphite border-l border-rule">{fmtPremium(m?.medianPremium)}</td>
+                <td className="py-2 px-2 text-right font-mono text-graphite">{fmtPremium(m?.meanPremium)}</td>
+                <td className="py-2 px-2 text-right font-mono text-slate">{m?.n ?? 0}</td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+      <p className="font-mono text-[10px] text-slate tracking-wider uppercase mt-2">
+        Deals announced in the {COMP_WINDOW_MONTHS} months to {fmtDate(lastUpdated)} · premium = price ÷ Forbes value at announcement, minus one
+      </p>
+    </div>
+  )
+}
+
+function SectionHead({ id, children }) {
+  return (
+    <h2 id={id} className="font-serif text-ink text-3xl sm:text-4xl font-bold leading-tight pt-10 scroll-mt-28">
+      {children}
+    </h2>
+  )
+}
+
+function ForbesBreakdownSection() {
+  return (
+    <>
+      <SectionHead id="forbes-breakdown">Reading the Forbes Breakdown</SectionHead>
+      <p>
+        Forbes doesn't just print a total. For the NFL, NBA, MLB, and NHL it splits every team into
+        four pieces. Sport is the value of the league's shared revenue, the national TV and licensing
+        money every club collects in equal measure. Market is what the city is worth: population,
+        TV households, and corporate wallets. Stadium is the value the building adds, from suites to
+        naming rights to the concerts on off nights. Brand is whatever is left that a fan base pays
+        extra for.
+      </p>
+      <p>
+        On every team page, each piece sits on a bar that runs from the league's smallest value to
+        its largest, with a tick at the median and the team's logo where Forbes put it. Then comes
+        the test. For Market, Stadium, and Brand I regress the Forbes figure on the things that
+        should drive it: metro population, TV households, household income, and local competition
+        for Market; venue age, capacity, premium seating, and whether the team controls the building
+        for Stadium; championships since 2001, national TV exposure, social following, and
+        merchandise rank for Brand. A team whose Forbes value sits more than one standard deviation
+        above what those inputs predict gets "Forbes looks generous." More than one below gets
+        "Forbes looks conservative." Everything in between is on the mark. Sport gets a simpler
+        test: it should be flat inside a league, so anything more than 5% from the median gets
+        flagged and explained.
+      </p>
+      <p>
+        The limits are real, so here they are plainly. Proxies are proxies. Forbes sees private
+        data I don't: actual suite revenue, lease terms buried in bond documents, local media
+        contracts that never get disclosed. Thirty teams is a small sample for a regression, so
+        one outlier can move the line. When the test says Forbes looks generous, read it as a
+        question worth asking, backed by numbers, not as proof Forbes got it wrong.{' '}
+        <Link to="/forbes-breakdown" className="font-sans text-base font-semibold text-accent hover:text-accent-dark">
+          See every league →
+        </Link>
+      </p>
+    </>
+  )
+}
+
+function SalePricesSection() {
+  const sea = deal('seattle-seahawks', 'control')
+  const was = deal('washington-commanders', 'control')
+  const mia = deal('miami-dolphins', 'minority')
+  return (
+    <>
+      <SectionHead id="sale-prices">Why sale prices differ from Forbes</SectionHead>
+      <p>
+        Forbes values a team as a going concern. Buyers pay for something else: control, scarcity,
+        a tax shield, and the option on everything the franchise could become. Every deal on the{' '}
+        <Link to="/recent-sales" className="font-sans text-base font-semibold text-accent hover:text-accent-dark">Recent Sales</Link>{' '}
+        page is tagged with the drivers that explain its gap to Forbes, drawn from one fixed list:{' '}
+        {Object.values(DRIVER_LABEL).join(', ').toLowerCase()}.
+      </p>
+      {sea && was && (
+        <p>
+          Start with the summer of 2026. The Seahawks sold for {fmtUSD(sea.valuation)}, about{' '}
+          {sea.impliedRevenueMultiple}x 2025 revenue. When the Commanders sold in 2023 for{' '}
+          {fmtUSD(was.valuation)}, the reported multiple was {was.impliedRevenueMultiple}x. Same
+          league, same shared media money, and buyers paid{' '}
+          {(sea.impliedRevenueMultiple - was.impliedRevenueMultiple).toFixed(1)} more turns of revenue
+          three years later. That is multiple expansion in its purest form, and it is why the Seahawks
+          price landed {fmtPremium(sea.premiumToForbes)} against the Forbes number on the books when
+          the deal was announced. Scarcity did the rest: it was the first NFL control sale in three
+          years.
+        </p>
+      )}
+      {mia && sea && (
+        <p>
+          Now the minority side. In March 2026 a 1% stake in the Dolphins changed hands at an implied{' '}
+          {fmtUSD(mia.valuation)} for the whole, {fmtPremium(mia.premiumToForbes)} to Forbes. Four months
+          later a buyer took full control of the Seahawks at {fmtUSD(sea.valuation)}. On paper the LP
+          mark is the richer number. It isn't. That {fmtUSD(mia.valuation)} covers a holding company with
+          the stadium, the Formula 1 race, and the Miami Open inside it, and a 1% slice buys no vote,
+          no exit, and a seat in a cap table that almost never opens. LP marks price that scarcity.
+          Control prices the enterprise. This site keeps them in separate columns and never lets
+          either one replace the Forbes headline.
+        </p>
+      )}
+      <PremiumTable />
+    </>
+  )
+}
 
 export default function Methodology() {
   useEffect(() => { trackMethodologyViewed() }, [])
@@ -171,6 +313,11 @@ export default function Methodology() {
             more than a great team in a small one, the rest of this site is
             the long answer.
           </p>
+        </div>
+
+        <div className="font-serif text-ink text-lg sm:text-xl leading-[1.7] space-y-6">
+          <ForbesBreakdownSection />
+          <SalePricesSection />
         </div>
 
         {/* Sign-off */}

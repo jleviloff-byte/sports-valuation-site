@@ -1,16 +1,36 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { trackDataSourcesViewed } from '../utils/analytics.js'
+import { transactions, lastUpdated } from '../../data/transactions.js'
+
+// Outlets cited for team sales, most-cited first (computed from transactions.js).
+const TX_OUTLETS = (() => {
+  const counts = {}
+  for (const t of transactions) {
+    for (const url of t.sources) {
+      let host
+      try { host = new URL(url).hostname.replace(/^www\./, '') } catch { continue }
+      counts[host] = (counts[host] || 0) + 1
+    }
+  }
+  return Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([h]) => h)
+})()
 
 const SOURCES = [
-  { name: 'Forbes',                 desc: 'Primary franchise valuation figures' },
+  { name: 'Forbes',                 desc: 'Headline franchise valuations for every team, plus Forbes team pages and league lists for the Sport / Market / Stadium / Brand value breakdown and Forbes value at the time of each sale' },
+  { name: 'Team sale reporting',    desc: `${transactions.length} control and minority transactions, each verified against at least two independent sources (updated ${lastUpdated}). Outlets cited: ${TX_OUTLETS.slice(0, 14).join(', ')}${TX_OUTLETS.length > 14 ? `, and ${TX_OUTLETS.length - 14} more` : ''}. Every deal links its sources on the Recent Sales page.` },
+  { name: 'League & team press releases', desc: 'Ownership approvals and closings (NFL, NBA, MLB, NHL, MLS, Premier League, club announcements)' },
+  { name: 'SABR, Wikipedia & news archives', desc: 'Franchise sale histories from formation to today; uncertain historic prices are marked as estimated' },
+  { name: 'US Census Bureau (CBSA estimates, ACS)', desc: 'Metro population and median household income for the Forbes Market sanity model' },
+  { name: 'Nielsen DMA rankings',   desc: 'TV households for the Forbes Market sanity model' },
+  { name: 'Statistics Canada',      desc: 'Canadian metro population' },
   { name: 'Sportico',               desc: 'Secondary valuation cross-reference and revenue estimates' },
   { name: 'Sports Business Journal',desc: 'Media rights contract values and broadcast deal terms' },
   { name: 'Spotrac',                desc: 'Player contract data and team payroll figures' },
   { name: 'OverTheCap',             desc: 'NFL salary cap and payroll data' },
   { name: 'HoopsHype',              desc: 'NBA payroll data' },
   { name: 'Baseball Reference',     desc: 'MLB historical data' },
-  { name: 'Wikipedia / Wikimedia Commons', desc: 'Stadium information, ownership history, and stadium photography' },
+  { name: 'Wikipedia / Wikimedia Commons', desc: 'Stadium information, venue capacity and opening dates, ownership history, and stadium photography' },
   { name: 'ESPN',                   desc: 'Historical performance data and team context' },
   { name: 'Municipal & government records', desc: 'Stadium financing and public subsidy data' },
   { name: 'US Census / Nielsen DMA data',   desc: 'Market size and demographic estimates' },
