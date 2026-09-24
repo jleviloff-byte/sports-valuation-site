@@ -66,6 +66,19 @@ export function trackCityBubbleClicked(cityName, totalValuation) {
   })
 }
 
+// ────────── Recent Sales ──────────
+export function trackRecentSalesToggle(filter) {
+  _event('recent_sales_toggle', { filter })
+}
+
+export function trackRecentSalesExpand(teamId, type) {
+  _event('recent_sales_expand', { teamId, type })
+}
+
+export function trackRecentSalesOpenProfile(teamId) {
+  _event('recent_sales_open_profile', { teamId })
+}
+
 // ────────── Engagement ──────────
 export function trackMethodologyViewed() {
   _event('methodology_viewed')

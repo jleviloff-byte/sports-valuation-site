@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, useLocation, useSearchParams } from 'react-router-dom'
 import teams from '../data/allTeams.js'
 import { getEnrichment } from '../data/enrichments.js'
 import {
@@ -27,6 +27,8 @@ const Methodology    = lazy(() => import('./pages/Methodology.jsx'))
 const PrivacyPolicy  = lazy(() => import('./pages/PrivacyPolicy.jsx'))
 const TermsOfService = lazy(() => import('./pages/TermsOfService.jsx'))
 const DataSources    = lazy(() => import('./pages/DataSources.jsx'))
+const RecentSales    = lazy(() => import('./pages/RecentSales.jsx'))
+const ForbesBreakdown = lazy(() => import('./pages/ForbesBreakdown.jsx'))
 
 // Scrolls to the in-page anchor when the URL hash changes (since react-router
 // doesn't do this automatically). Also scrolls to top on plain route changes.
@@ -105,6 +107,8 @@ const MOBILE_NAV_LINKS = [
   { to: '/#explorer',     label: 'Explore Teams' },
   { to: '/#compare',      label: 'Compare' },
   { to: '/#cities',       label: 'Cities' },
+  { to: '/recent-sales',  label: 'Recent Sales' },
+  { to: '/forbes-breakdown', label: 'Forbes Breakdown' },
   { to: '/methodology',   label: 'How We Built This' },
   { to: '/data-sources',  label: 'Data Sources' },
   { to: '/privacy',       label: 'Legal' },
@@ -186,6 +190,8 @@ function Nav() {
             <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
             <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
             <span className="w-px h-4 bg-rule" aria-hidden="true" />
+            <Link to="/recent-sales" className="hover:text-accent transition-colors">Recent Sales</Link>
+            <Link to="/forbes-breakdown" className="hover:text-accent transition-colors">Forbes Breakdown</Link>
             <Link to="/methodology"  className="hover:text-accent transition-colors">How We Built This</Link>
             <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
           </div>
@@ -239,6 +245,8 @@ function Footer() {
               <li><Link to="/#macro"     className="text-graphite hover:text-ink transition-colors">Macro</Link></li>
               <li><Link to="/#cities"    className="text-graphite hover:text-ink transition-colors">Cities</Link></li>
               <li><Link to="/#compare"   className="text-graphite hover:text-ink transition-colors">Compare</Link></li>
+              <li><Link to="/recent-sales" className="text-graphite hover:text-ink transition-colors">Recent Sales</Link></li>
+              <li><Link to="/forbes-breakdown" className="text-graphite hover:text-ink transition-colors">Forbes Breakdown</Link></li>
             </ul>
           </div>
 
@@ -330,12 +338,30 @@ function useScrollDepthTracking() {
 }
 
 function HomePage() {
+  const [searchParams, setSearchParams] = useSearchParams()
   const [selectedTeam, setSelectedTeam] = useState(null)
   useScrollDepthTracking()
+
+  // Deep link: /?team=<teamId> opens that team's profile (used by Recent Sales).
+  const deepLinkId = searchParams.get('team')
+  useEffect(() => {
+    if (!deepLinkId) return
+    const team = teams.find((t) => t.id === deepLinkId)
+    if (team) handleSelectTeam(team)
+  }, [deepLinkId])
 
   function handleSelectTeam(team) {
     setSelectedTeam(team)
     if (team) trackTeamViewed(team.name, team.league, team.currentValuation)
+  }
+
+  function handleClosePanel() {
+    setSelectedTeam(null)
+    if (searchParams.has('team')) {
+      const next = new URLSearchParams(searchParams)
+      next.delete('team')
+      setSearchParams(next, { replace: true })
+    }
   }
 
   return (
@@ -392,7 +418,7 @@ function HomePage() {
           <TeamDetailPanel
             team={selectedTeam}
             enrichment={getEnrichment(selectedTeam.name)}
-            onClose={() => setSelectedTeam(null)}
+            onClose={handleClosePanel}
           />
         </Suspense>
       )}
@@ -419,6 +445,8 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/methodology"  element={<Methodology />} />
             <Route path="/data-sources" element={<DataSources />} />
+            <Route path="/recent-sales" element={<RecentSales />} />
+            <Route path="/forbes-breakdown" element={<ForbesBreakdown />} />
             <Route path="/privacy"      element={<PrivacyPolicy />} />
             <Route path="/terms"        element={<TermsOfService />} />
           </Routes>
