@@ -1,0 +1,424 @@
+{
+  "transactions": [
+    {
+      "teamId": "seattle-seahawks",
+      "type": "control",
+      "dateAnnounced": "2026-07-11",
+      "dateApproved": "2026-08-26",
+      "status": "closed",
+      "valuation": 9612000000,
+      "stakePct": 100,
+      "buyer": "Khosla family (Neeru Khosla controlling owner; Vinod Khosla chair; Neal Khosla vice chair) with co-investors incl. Mark Stevens, Penny Pritzker, Carlyle and Dynasty Equity, Sixth Street",
+      "seller": "Estate of Paul G. Allen",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 13.6,
+      "revenueAtDeal": 707000000,
+      "revenueYear": 2025,
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group",
+        "https://www.nfl.com/news/nfl-owners-approve-sale-seattle-seahawks-khosla-family",
+        "https://www.seahawks.com/news/seattle-seahawks-sale-to-the-khosla-family-is-complete",
+        "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/",
+        "https://www.dakota.com/resources/blog/khosla-family-agrees-to-acquire-seattle-seahawks-for-record-9.6-billion-resetting-nfl-valuations"
+      ],
+      "isEstimated": true,
+      "notes": "Seed figures confirmed: $9.612B for 100% of Football Northwest LLC (includes Lumen Field lease through 2032), agreed Jul 11, unanimously approved Aug 26, closed Sep 3 2026 (team release). 13.6x 2025 revenue is Sportico's figure ('just over $700M', from the Allen & Co. sales deck); revenueAtDeal is implied ($9.612B/13.6), hence isEstimated. S&P Global Market Intelligence instead puts the multiple at ~15.0x. Khosla had to divest his 3.1% 49ers stake. Financing not disclosed."
+    },
+    {
+      "teamId": "atlanta-falcons",
+      "type": "minority",
+      "dateAnnounced": "2026-08-20",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 10600000000,
+      "stakePct": 10,
+      "buyer": "Arctos Partners (now owned by KKR)",
+      "seller": "Arthur Blank / Falcons (whether shares come from Blank or existing LPs not disclosed)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2026/08/20/arctos-agrees-to-buy-10percent-of-atlanta-falcons-at-10point6-billion-valuation-sources.html",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arctos-will-buy-10-percent-of-falcons-at-10-6-billion-valuation",
+        "https://www.sportico.com/business/team-sales/2026/nfl-atlanta-falcons-arctos-billion-private-equity-1234942464/",
+        "https://peinsights.substack.com/p/arctos-strikes-deal-for-10-of-atlanta"
+      ],
+      "isEstimated": true,
+      "notes": "Not among the seeds; found in sweep. $10.6B is a blended headline EV: reportedly a first tranche of 7.5% at just over $10B, with the remaining 2.5% ~18 months later at ~$11B (tranche detail from a single source). NFL vote expected in October 2026. Would be Arctos' fourth NFL stake (Bills, Chargers, Browns)."
+    },
+    {
+      "teamId": "las-vegas-raiders",
+      "type": "minority",
+      "dateAnnounced": "2026-05-14",
+      "dateApproved": "2026-05-19",
+      "status": "approved",
+      "valuation": 9900000000,
+      "stakePct": 25.3,
+      "buyer": "Egon Durban-led group: Egon Durban (~11%), Michael Meldman (~5.4%), Michael Dell (5.3%), Joseph Baratta (1.7%), Ari Emanuel (1.4%), Mark Shapiro (0.6%)",
+      "seller": "First Football (Paul Leff, David Abrams, Dan Goldring), exiting its entire stake held since 2007",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2026/05/14/group-led-by-egon-durban-to-buy-25percent-of-las-vegas-raiders-at-9point9-billion-valuation-sources.html",
+        "https://www.reviewjournal.com/sports/raiders/raiders-minority-stake-sale-dell-founder-tko-execs-now-among-owners-3827088/",
+        "https://www.sportcal.com/news/arctos-acquires-browns-stake-raiders-stakeholder-divests-in-nfl-scramble/",
+        "https://variety.com/2026/biz/news/ari-emanuel-mark-shapiro-las-vegas-raiders-owners-1236753941/",
+        "https://www.sportspro.com/news/finance-investment/las-vegas-raiders-tko-shapiro-emanuel-browns-arctosinvestment-may-2026/"
+      ],
+      "isEstimated": true,
+      "notes": "$9.9B is the enterprise value; total consideration was ~$11B including the 10% relocation 'flip tax' paid to the league. The Emanuel/Shapiro stakes are part of this single 25.3% transaction, not separate deals. After closing Durban ~22%, Meldman ~12.9%. Approval 'Tuesday in Orlando' at the May spring meeting = May 19, 2026 (date inferred from meeting timing); closing was expected late May but not confirmed."
+    },
+    {
+      "teamId": "cleveland-browns",
+      "type": "minority",
+      "dateAnnounced": "2026-05-19",
+      "dateApproved": "2026-05-19",
+      "status": "approved",
+      "valuation": 9000000000,
+      "stakePct": 3,
+      "buyer": "Arctos Partners",
+      "seller": "Haslam Sports Group (Jimmy and Dee Haslam)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 13.4,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-05-19/cleveland-browns-said-to-sell-stake-to-private-equity-at-9-billion-valuation",
+        "https://www.crainscleveland.com/sports-recreation/ccl-browns-arctos-20260519/",
+        "https://www.sportcal.com/news/arctos-acquires-browns-stake-raiders-stakeholder-divests-in-nfl-scramble/",
+        "https://sports.yahoo.com/articles/arctos-browns-investment-latest-30-210024104.html"
+      ],
+      "isEstimated": true,
+      "notes": "Seed confirmed. First tranche (~3%; SportsPro says 3.2%) of a planned 10% across three tranches (~$900M total); Bloomberg says 'more than $9B'. Proceeds support the Brook Park stadium. 13.4x revenue multiple is S&P Global Market Intelligence's figure (seen via search snippet only). Later tranches not yet reported approved."
+    },
+    {
+      "teamId": "las-vegas-raiders",
+      "type": "minority",
+      "dateAnnounced": "2026-03-31",
+      "dateApproved": "2026-03-31",
+      "status": "approved",
+      "valuation": 11100000000,
+      "stakePct": 3.5,
+      "buyer": "Egon Durban (some reports also name Michael Meldman)",
+      "seller": "Mark Davis",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2026/03/31/nfl-approves-sale-of-3point5percent-of-las-vegas-raiders-at-over-11-billion-valuation.html",
+        "https://las-vegas-news.com/las-vegas-raiders-hit-11-1-billion-valuation-in-landmark-minority-stake-approval/",
+        "https://www.yardbarker.com/nfl/articles/nfl_approves_11b_raiders_sale_as_franchise_value_soars_669_since_2015/s1_17755_43856181"
+      ],
+      "isEstimated": true,
+      "notes": "CORRECTED from seed (7%): the NFL approved 3.5%, with another 3.5% expected to follow later (not separately confirmed). CNBC says 'over $11 billion'; $11.1B is the most-cited figure, and it appears to include the 10% flip tax paid to the NFL, so ex-tax EV is lower (not reported). Approved alongside Davis's succession plan giving Durban a right of first refusal on control."
+    },
+    {
+      "teamId": "miami-dolphins",
+      "type": "minority",
+      "dateAnnounced": "2026-03-03",
+      "dateApproved": "2026-03-31",
+      "status": "approved",
+      "valuation": 12500000000,
+      "stakePct": 1,
+      "buyer": "Lin Bin (Xiaomi co-founder)",
+      "seller": "Stephen Ross",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-bin-lin",
+        "https://www.bloomberg.com/news/articles/2026-03-03/lin-bin-to-buy-miami-dolphins-stake-at-12-5-billion-valuation",
+        "https://www.sportico.com/business/team-sales/2026/miami-dolphins-stake-sale-lin-bin-record-valuation-1234886169/",
+        "https://www.sportspro.com/news/finance-investment/miami-dolphins-lin-bin-investment-stake-record-valuation-march-2026/"
+      ],
+      "isEstimated": false,
+      "notes": "Seed confirmed. The 1% is in the Ross holding company: Dolphins plus Hard Rock Stadium, the F1 Miami Grand Prix and the Miami Open. So $12.5B is NOT a team-only valuation. Approved by the NFL Mar 31, 2026; the team said closing was expected within days (not confirmed)."
+    },
+    {
+      "teamId": "new-york-giants",
+      "type": "minority",
+      "dateAnnounced": "2025-09-03",
+      "dateApproved": "2025-10-22",
+      "status": "approved",
+      "valuation": 10300000000,
+      "stakePct": 10,
+      "buyer": "Julia Koch and family",
+      "seller": "Mara and Tisch families",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2025/10/22/nfl-sale-minority-stake-giants-koch.html",
+        "https://www.nfl.com/news/nfl-owners-approve-sale-10-percent-giants-julia-koch-family",
+        "https://www.espn.com/nfl/story/_/id/46151970/reports-koch-family-buy-stake-giants-10b-valuation",
+        "https://sports.yahoo.com/articles/giants-valued-10-3-billion-160200600.html"
+      ],
+      "isEstimated": true,
+      "notes": "Seed confirmed; Oct 2025 is the approval date, and Bloomberg first reported the deal Sep 3, 2025. Initial reports said ~$10B. $10.3B at approval (CNBC) is the most cited; a Sportico summary said 'just over $10.5B'. Unanimous approval at the fall meeting."
+    },
+    {
+      "teamId": "new-england-patriots",
+      "type": "minority",
+      "dateAnnounced": "2025-09-25",
+      "dateApproved": "2025-10-22",
+      "status": "closed",
+      "valuation": 9000000000,
+      "stakePct": 8,
+      "buyer": "Dean Metropoulos (5%) and Sixth Street (3%)",
+      "seller": "Kraft family (new equity; proceeds stay on the team balance sheet)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2025/09/25/robert-kraft-agrees-to-sell-new-england-patriots-minority-stake-in-deal-that-values-team-at-9b.html",
+        "https://www.axios.com/2025/09/25/bob-kraft-patriots-sale",
+        "https://www.sportico.com/business/team-sales/2025/new-england-patriots-stake-sale-sixth-street-1234872048/",
+        "https://www.sportcal.com/news/nfl-approves-minority-stake-sales-for-giants-49ers-patriots/"
+      ],
+      "isEstimated": true,
+      "notes": "CORRECTED dates vs seed 'Nov 2025': announced Sep 25, approved Oct 22, reported closed Nov 11, 2025 (closing date from a single source). $9B is pre-money; Sportico gives $9.7B post-money. Proceeds (~$720M) are primary capital. Excludes the New England Revolution. This was Sixth Street's first NFL deal."
+    },
+    {
+      "teamId": "san-francisco-49ers",
+      "type": "minority",
+      "dateAnnounced": "2025-09-24",
+      "dateApproved": "2025-10-22",
+      "status": "approved",
+      "valuation": 8600000000,
+      "stakePct": 3.2,
+      "buyer": "Pete Briger Jr. (Fortress Investment Group) and family",
+      "seller": "San Francisco 49ers / York family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sfchronicle.com/sports/49ers/article/49ers-agree-sell-minority-stake-bay-area-s-pete-21065577.php",
+        "https://www.49erswebzone.com/articles/194600-additional-bringing-new-partner-ownership/",
+        "https://www.almanacnews.com/sports/2025/10/22/menlo-park-resident-buys-275m-stake-in-san-francisco-49ers/",
+        "https://www.sportcal.com/news/nfl-approves-minority-stake-sales-for-giants-49ers-patriots/"
+      ],
+      "isEstimated": true,
+      "notes": "Second 2025 49ers LP sale (not a seed item). About $272–275M for 3.2%, valuation reported as $8.5–8.6B. Approved at the Oct 2025 fall meeting with the Giants and Patriots deals. York family retains ~85%."
+    },
+    {
+      "teamId": "chicago-bears",
+      "type": "minority",
+      "dateAnnounced": "2025-08-07",
+      "dateApproved": "2025-09-24",
+      "status": "closed",
+      "valuation": 8900000000,
+      "stakePct": 2.35,
+      "buyer": "McCaskey family (two-thirds) and Ryan family (one-third)",
+      "seller": "Estate of Andrew McKenna Sr.",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.cnbc.com/2025/09/24/nfl-approves-sale-of-stake-in-chicago-bears-at-8point9-billion-valuation-sources.html",
+        "https://chicago.suntimes.com/bears/2025/09/24/nfl-approval-of-bears-sale-of-minority-stake-raises-valuation-to-8-9-billion-report",
+        "https://www.sportico.com/business/team-sales/2025/chicago-bears-stake-sold-mccaskey-ryan-mckenna-1234866271/",
+        "https://www.bloomberg.com/news/articles/2025-08-08/chicago-bears-reset-board-after-stake-sale-at-8-8-billion-value"
+      ],
+      "isEstimated": true,
+      "notes": "Seed confirmed (2.3–2.35%). Existing owners bought out an estate's stake, so this is a consolidation with no new investor. First reported in August at $8.8B (Sportico/Bloomberg); $8.9B at approval (CNBC/Sun-Times) is the most cited. Reported finalized late Sep 2025."
+    },
+    {
+      "teamId": "san-francisco-49ers",
+      "type": "minority",
+      "dateAnnounced": "2025-05-16",
+      "dateApproved": "2025-05-20",
+      "status": "approved",
+      "valuation": 8600000000,
+      "stakePct": 6.2,
+      "buyer": "Khosla family (3.1%), Deeter family (2.1%), Griffith family (1%)",
+      "seller": "San Francisco 49ers / York family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/49ers-stake-sale-record-billion-khosla-griffith-deeter-1234852610/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sale-of-minority-stake-sets-record-with-8-6-billion-valuation",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-49ers-to-sell-minority-stake-in-team-to-three-families",
+        "https://www.bloomberg.com/news/articles/2025-05-20/nfl-owners-approve-49ers-chargers-sale-of-minority-stakes",
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "isEstimated": true,
+      "notes": "Valuation reported as 'over $8.5B' at announcement and $8.6B at approval (~$533M for 6.2%). Khosla's 3.1% had to be divested in 2026 as a condition of the Seahawks purchase; the buyer of that stake is not reported."
+    },
+    {
+      "teamId": "los-angeles-chargers",
+      "type": "minority",
+      "dateAnnounced": "2025-05-15",
+      "dateApproved": "2025-05-20",
+      "status": "approved",
+      "valuation": null,
+      "stakePct": 8,
+      "buyer": "Arctos Partners",
+      "seller": "Los Angeles Chargers (Spanos family retains ~61%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://sports.yahoo.com/article/chargers-add-equity-firm-arctos-215446936.html",
+        "https://finance.yahoo.com/news/los-angeles-chargers-selling-portion-210949696.html",
+        "https://www.bloomberg.com/news/articles/2025-05-20/nfl-owners-approve-49ers-chargers-sale-of-minority-stakes",
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "isEstimated": true,
+      "notes": "Valuation not disclosed. Sportico's 2025 NFL team values says 'north of $6 billion', a single source and only a floor, so it is left null (see unverified). Arctos' second NFL stake after the Bills."
+    },
+    {
+      "teamId": "washington-commanders",
+      "type": "control",
+      "dateAnnounced": "2023-05-12",
+      "dateApproved": "2023-07-20",
+      "status": "closed",
+      "valuation": 6050000000,
+      "stakePct": 100,
+      "buyer": "Josh Harris-led group (with Mitchell Rales, Magic Johnson, ~20 LPs)",
+      "seller": "Dan and Tanya Snyder",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 11,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/38043528/nfl-owners-approve-605b-sale-commanders-harris-group",
+        "https://www.forbes.com/sites/mikeozanian/2023/07/20/heres-how-much-josh-harris-expects-to-earn-on-6-billion-purchase-of-the-washington-commanders/",
+        "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/"
+      ],
+      "isEstimated": true,
+      "notes": "Reference comp outside the 2025+ scope. Exclusive agreement May 12, 2023; approved Jul 20, 2023; closed shortly after. Price reportedly includes a ~$250M earn-out. The NFL capped acquisition debt at $1.1B, but actual debt used was not disclosed, so amountFinanced is null. The ~11x revenue multiple is cited in Sportico's 2026 Seahawks coverage."
+    }
+  ],
+  "rejected": [
+    {
+      "team": "Las Vegas Raiders",
+      "teamId": "las-vegas-raiders",
+      "description": "Ari Emanuel (1.4%) and Mark Shapiro (0.6%) stakes, May 2026, at $9.9B valuation",
+      "reason": "Not a distinct deal: these stakes are part of the single 25.3% First Football divestiture (Durban-led group), which is recorded as one transaction",
+      "sources": [
+        "https://variety.com/2026/biz/news/ari-emanuel-mark-shapiro-las-vegas-raiders-owners-1236753941/",
+        "https://deadline.com/2026/05/ari-emanuel-mark-shapiro-nfl-las-vegas-raiders-ownership-stakes-1236915934/"
+      ]
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "teamId": "philadelphia-eagles",
+      "description": "8% LP sale (Peskowitz family trust 4.75%, Susan Kim trust 3.25%) at $8.3B (reported as $8.1B+ at signing)",
+      "reason": "Outside scope: approved Dec 11, 2024. No 2025 or 2026 Eagles LP sale found (philadelphia.today items dated Feb/Mar 2025 describe this same deal). Seed item 'Eagles LP sales 2025' is not supported",
+      "sources": [
+        "https://www.cnbc.com/2024/12/11/nfl-philadelphia-eagles-minority-stake-sale.html",
+        "https://frontofficesports.com/eagles-sell-minority-stakes-raise-valuation-more-than-8-billion/"
+      ]
+    },
+    {
+      "team": "Buffalo Bills",
+      "teamId": "buffalo-bills",
+      "description": "~20% LP sale (Arctos 10%, 10.6% to individual investors incl. Vince Carter, Tracy McGrady)",
+      "reason": "Outside scope: approved Dec 2024. No 2025 or 2026 Bills stake sale found",
+      "sources": [
+        "https://frontofficesports.com/minority-sales-bills-eagles-dolphins-approved-owners/",
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ]
+    },
+    {
+      "team": "Miami Dolphins",
+      "teamId": "miami-dolphins",
+      "description": "13% LP sale of the holding company (Ares 10%, Joe Tsai and Bruce Beal/Weisberg 3%) at ~$8.1B",
+      "reason": "Outside scope: approved Dec 11, 2024",
+      "sources": [
+        "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-ares-management",
+        "https://frontofficesports.com/minority-sales-bills-eagles-dolphins-approved-owners/"
+      ]
+    },
+    {
+      "team": "Miami Dolphins",
+      "teamId": "miami-dolphins",
+      "description": "Joe Tsai sold 1.1% of his 2.9% Dolphins holding-company stake to three businessmen (approved ~May 20, 2025)",
+      "reason": "single source; no valuation or buyer names found",
+      "sources": [
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ]
+    },
+    {
+      "team": "Cleveland Browns",
+      "teamId": "cleveland-browns",
+      "description": "Charles Woodson acquired a 0.1% stake (approved ~May 20, 2025)",
+      "reason": "single source; no valuation reported",
+      "sources": [
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ]
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "teamId": "pittsburgh-steelers",
+      "description": "Josh Harris/David Blitzer ~5% LP stake sold to Art Rooney II and Thomas Tull at ~$4B valuation",
+      "reason": "Outside scope: 2024 minority deal (before 2025-01-01)",
+      "sources": [
+        "https://www.forbes.com/sites/mikeozanian/2024/02/28/josh-harris-and-david-blitzer-to-sell-stake-in-pittsburgh-steelers-at-a--4-billion-valuation/",
+        "https://steelersnow.com/steelers-minority-owners-sell-stake-team-valued-at-4-billion/"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "teamId": "san-francisco-49ers",
+      "description": "Feb 2025 reports that the 49ers were exploring a ~10% sale at $9B+",
+      "reason": "not agreed as described; it resulted in the 6.2% (May 2025) and 3.2% (Oct 2025) sales, which are recorded separately",
+      "sources": [
+        "https://www.sportico.com/leagues/football/2025/san-francisco-49ers-owner-sale-investors-rangers-fc-1234828960/",
+        "https://www.cbssports.com/nfl/news/49ers-exploring-possible-sale-10-of-team-could-be-up-for-grabs-at-this-record-setting-price-per-report"
+      ]
+    },
+    {
+      "team": "Indianapolis Colts",
+      "teamId": "indianapolis-colts",
+      "description": "Control passed to Carlie Irsay-Gordon (with sisters) after Jim Irsay's death in 2025",
+      "reason": "Inheritance, not a sale (no price). Belongs in sale history with price null",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ]
+    },
+    {
+      "team": "Chicago Bears",
+      "teamId": "chicago-bears",
+      "description": "George McCaskey became principal owner after Virginia Halas McCaskey's death in 2025",
+      "reason": "Inheritance/family succession, not a sale",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "description": "Raiders second 3.5% tranche expected after the Mar 31, 2026 approval (bringing Durban's March purchase to 7%)",
+      "whatWasMissing": "No confirmation it was signed or approved as a separate deal; it may have been folded into the May 2026 25.3% transaction"
+    },
+    {
+      "description": "Chargers 8% Arctos sale (May 2025): valuation",
+      "whatWasMissing": "Only Sportico's 'north of $6 billion' (a single source and only a floor); no exact figure or second source"
+    },
+    {
+      "description": "Khosla family's 3.1% 49ers stake, which had to be divested as a condition of the Seahawks purchase (2026)",
+      "whatWasMissing": "Buyer, price, valuation and date of the divestiture not found"
+    },
+    {
+      "description": "Browns–Arctos tranches 2 and 3 (to reach 10% at $9B)",
+      "whatWasMissing": "Timing and approval of later tranches not reported"
+    },
+    {
+      "description": "Sweep for 2025–2026 LP sales at Commanders, Texans, Broncos, Vikings, Jaguars, Buccaneers, Jets, Steelers, Cardinals, Titans, Panthers, Saints",
+      "whatWasMissing": "No deals found in searches, but the sweep was cut short when the session's web-search budget (200 calls) ran out. Individual team checks for Bengals, Ravens, Colts, Chiefs, Cowboys, Lions, Rams and Packers were not run. A future check should re-run these and look for any October 2026 fall-meeting approvals."
+    }
+  ]
+}

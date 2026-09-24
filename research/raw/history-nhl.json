@@ -1,0 +1,1790 @@
+[
+ {
+  "teamId": "boston-bruins",
+  "formation": {
+   "year": 1924,
+   "price": 15000,
+   "founder": "Charles Adams",
+   "notes": "NHL expansion fee for the 1924 teams (Bruins, Maroons) was about C$15,000; CAD near par with USD in 1924, so USD figure is approximate.",
+   "isEstimated": true
+  },
+  "saleHistory": [
+   {
+    "year": 1936,
+    "price": null,
+    "buyer": "Weston Adams (with Art Ross, Ralph Burkard)",
+    "seller": "Charles Adams",
+    "stakePct": null,
+    "notes": "Inheritance/transfer: Charles Adams transferred his stock to his son, who became majority owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Weston_Adams_(ice_hockey,_born_1904)"
+    ]
+   },
+   {
+    "year": 1951,
+    "price": null,
+    "buyer": "Boston Garden-Arena Corporation (Walter A. Brown)",
+    "seller": "Weston Adams",
+    "stakePct": null,
+    "notes": "Garden-Arena Corp bought controlling interest; Walter Brown ran the team until 1964. Price not disclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Boston_Bruins",
+     "https://en.wikipedia.org/wiki/Weston_Adams_(ice_hockey,_born_1904)"
+    ]
+   },
+   {
+    "year": 1973,
+    "price": 16500000,
+    "buyer": "Storer Broadcasting",
+    "seller": "Boston Garden-Arena Corporation shareholders",
+    "stakePct": 100,
+    "notes": "Storer merged with Garden-Arena Corp (owner of the Bruins and the Boston Garden) for $16-17 million in stock; agreed Dec 1972, completed Dec 1973. Midpoint used; includes the arena.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Storer_Communications",
+     "https://en.wikipedia.org/wiki/Boston_Bruins"
+    ]
+   },
+   {
+    "year": 1975,
+    "price": 10000000,
+    "buyer": "Sportsystem Corp. (Jeremy Jacobs and brothers; Delaware North)",
+    "seller": "Storer Broadcasting",
+    "stakePct": 100,
+    "notes": "Widely cited as about $10 million; Wikipedia confirms the Aug 1975 sale but not the price.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Boston_Bruins",
+     "https://www.davemanuel.com/nhl-team-ownership-purchase-prices.php"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "buffalo-sabres",
+  "formation": {
+   "year": 1970,
+   "price": 6000000,
+   "founder": "Seymour H. Knox III and Northrup R. Knox",
+   "notes": "1970 NHL expansion; 1970s expansion franchises paid $6 million.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1998,
+    "price": null,
+    "buyer": "John Rigas (Adelphia Communications)",
+    "seller": "Northrup Knox / Knox group",
+    "stakePct": null,
+    "notes": "Sold during 1997-98 season after $32M in losses over three seasons; price not disclosed. NHL took control after Rigas's 2002 indictment.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Buffalo_Sabres",
+     "https://en.wikipedia.org/wiki/John_Rigas"
+    ]
+   },
+   {
+    "year": 2003,
+    "price": 92000000,
+    "buyer": "Tom Golisano / Larry Quinn consortium",
+    "seller": "NHL-controlled Rigas estate (bankruptcy)",
+    "stakePct": 100,
+    "notes": "Bought out of bankruptcy; $92M is from an aggregator, not confirmed by a primary source.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tom_Golisano",
+     "https://www.davemanuel.com/nhl-team-ownership-purchase-prices.php"
+    ]
+   },
+   {
+    "year": 2011,
+    "price": 189000000,
+    "buyer": "Terry and Kim Pegula",
+    "seller": "Tom Golisano, Larry Quinn, Dan DiPofi",
+    "stakePct": 100,
+    "notes": "$175M plus $14M in assumed debt; included the NLL Buffalo Bandits. NHL approved Feb 18, 2011.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Buffalo_Sabres",
+     "https://en.wikipedia.org/wiki/Terry_Pegula"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "detroit-red-wings",
+  "formation": {
+   "year": 1926,
+   "price": null,
+   "founder": "Townsend-Seyburn group (Charles A. Hughes, governor)",
+   "notes": "Expansion Detroit Cougars. The NHL fee is not documented; the group separately paid $100,000 for the Victoria Cougars' players.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1932,
+    "price": 100000,
+    "buyer": "James E. Norris (with Arthur Wirtz)",
+    "seller": "Receiver of Detroit Falcons / Olympia",
+    "stakePct": 100,
+    "notes": "Bought out of receivership with Olympia Stadium for $100,000 (Wirtz bio dates this 1933); renamed Red Wings.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Arthur_Wirtz",
+     "https://en.wikipedia.org/wiki/James_E._Norris"
+    ]
+   },
+   {
+    "year": 1952,
+    "price": null,
+    "buyer": "Marguerite Norris",
+    "seller": "James E. Norris estate",
+    "stakePct": null,
+    "notes": "Inheritance: daughter took over as president after his death.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Detroit_Red_Wings"
+    ]
+   },
+   {
+    "year": 1955,
+    "price": null,
+    "buyer": "Bruce Norris",
+    "seller": "Marguerite Norris",
+    "stakePct": null,
+    "notes": "Intra-family transfer; Bruce later bought out his sister's shares to become sole owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bruce_Norris_(ice_hockey)"
+    ]
+   },
+   {
+    "year": 1982,
+    "price": 8000000,
+    "buyer": "Mike Ilitch (Little Caesars)",
+    "seller": "Bruce Norris",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mike_Ilitch",
+     "https://en.wikipedia.org/wiki/Detroit_Red_Wings"
+    ]
+   },
+   {
+    "year": 2017,
+    "price": null,
+    "buyer": "Christopher Ilitch (Ilitch Holdings)",
+    "seller": "Mike Ilitch estate",
+    "stakePct": null,
+    "notes": "Inheritance after Mike Ilitch's death in Feb 2017.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Detroit_Red_Wings"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "florida-panthers",
+  "formation": {
+   "year": 1992,
+   "price": 50000000,
+   "founder": "Wayne Huizenga",
+   "notes": "Awarded Dec 10, 1992; $50M entry fee. Began play in 1993-94.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2001,
+    "price": 100000000,
+    "buyer": "Alan Cohen group (with Bernie Kosar)",
+    "seller": "Wayne Huizenga",
+    "stakePct": null,
+    "notes": "Reported as about $100 million.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wayne_Huizenga"
+    ]
+   },
+   {
+    "year": 2009,
+    "price": null,
+    "buyer": "Cliff Viner and Stu Siegel",
+    "seller": "Alan Cohen group",
+    "stakePct": null,
+    "notes": "Became majority owners in Nov 2009; price not disclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Florida_Panthers"
+    ]
+   },
+   {
+    "year": 2013,
+    "price": 250000000,
+    "buyer": "Vincent Viola (with Doug Cifu)",
+    "seller": "Sunrise Sports & Entertainment (Viner/Siegel group)",
+    "stakePct": null,
+    "notes": "Purchased Sept 2013.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vincent_Viola"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "montreal-canadiens",
+  "formation": {
+   "year": 1909,
+   "price": null,
+   "founder": "J. Ambrose O'Brien",
+   "notes": "Founded as an NHA club in 1909; NHL founding member in 1917. No franchise fee recorded.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1911,
+    "price": 7500,
+    "buyer": "George Kennedy",
+    "seller": "J. Ambrose O'Brien",
+    "stakePct": 100,
+    "notes": "$7,500 in Canadian dollars, which were near par with USD in 1911.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Montreal_Canadiens"
+    ]
+   },
+   {
+    "year": 1921,
+    "price": null,
+    "buyer": "Leo Dandurand, Joseph Cattarinich, Louis Letourneau",
+    "seller": "Estate of George Kennedy",
+    "stakePct": 100,
+    "notes": "Kennedy's widow sold the team.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Montreal_Canadiens"
+    ]
+   },
+   {
+    "year": 1935,
+    "price": 165000,
+    "buyer": "Ernest Savard, Maurice Forget, Louis Gelinas syndicate (Canadian Arena Company interests)",
+    "seller": "Leo Dandurand, Joseph Cattarinich",
+    "stakePct": 100,
+    "notes": "C$165,000 (CAD near par with USD in 1935). Ownership passed formally to the Canadian Arena Company in 1940.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Montreal_Maroons",
+     "https://en.wikipedia.org/wiki/History_of_the_Montreal_Canadiens"
+    ]
+   },
+   {
+    "year": 1957,
+    "price": null,
+    "buyer": "Hartland Molson and Thomas H. P. Molson",
+    "seller": "Canadian Arena Company (Donat Raymond)",
+    "stakePct": null,
+    "notes": "The Molson brothers bought the Canadian Arena Company (Forum and Canadiens); they owned it 1957-1964. Transfers between 1964 and 1971 are not documented in the sources reviewed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hartland_Molson",
+     "https://en.wikipedia.org/wiki/Molson_family"
+    ]
+   },
+   {
+    "year": 1971,
+    "price": null,
+    "buyer": "Edward and Peter Bronfman",
+    "seller": "Molson family",
+    "stakePct": null,
+    "notes": "The Bronfmans owned the club 1971-1978; price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edward_Bronfman"
+    ]
+   },
+   {
+    "year": 1978,
+    "price": null,
+    "buyer": "Molson Breweries",
+    "seller": "Edward and Peter Bronfman",
+    "stakePct": null,
+    "notes": "Molson owned the Canadiens from 1978 to 2001.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Montreal_Canadiens"
+    ]
+   },
+   {
+    "year": 2001,
+    "price": 185000000,
+    "buyer": "George N. Gillett Jr.",
+    "seller": "Molson Inc.",
+    "stakePct": 80.1,
+    "notes": "US$185M (reported as C$275M) for 80.1% of the team plus 100% of the Molson Centre.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/George_N._Gillett_Jr.",
+     "https://en.wikipedia.org/wiki/History_of_the_Montreal_Canadiens"
+    ]
+   },
+   {
+    "year": 2009,
+    "price": 505000000,
+    "buyer": "Geoff, Andrew and Justin Molson consortium (with Woodbridge, BCE, FTQ, Andlauer and others)",
+    "seller": "George N. Gillett Jr.",
+    "stakePct": 100,
+    "notes": "C$575M per the team page (C$550M per the Gillett bio) for the team, Bell Centre and Gillett Entertainment Group. Converted at about 0.88 USD/CAD (June 2009).",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Montreal_Canadiens",
+     "https://en.wikipedia.org/wiki/George_N._Gillett_Jr."
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "ottawa-senators",
+  "formation": {
+   "year": 1990,
+   "price": 50000000,
+   "founder": "Bruce Firestone (Terrace Corporation)",
+   "notes": "Awarded Dec 1990; US$50M franchise fee; began play in 1992-93.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1993,
+    "price": null,
+    "buyer": "Rod Bryden",
+    "seller": "Bruce Firestone",
+    "stakePct": null,
+    "notes": "Bryden bought 50% of Terrace, then bought out Firestone in Aug 1993 to become majority owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ottawa_Senators",
+     "https://en.wikipedia.org/wiki/History_of_the_Ottawa_Senators_(since_1992)"
+    ]
+   },
+   {
+    "year": 2003,
+    "price": 92000000,
+    "buyer": "Eugene Melnyk",
+    "seller": "Terrace / Rod Bryden (bankruptcy creditors)",
+    "stakePct": 100,
+    "notes": "US$92M (reported as C$130M), including the arena, bought out of bankruptcy.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Eugene_Melnyk",
+     "https://en.wikipedia.org/wiki/Ottawa_Senators"
+    ]
+   },
+   {
+    "year": 2022,
+    "price": null,
+    "buyer": "Anna and Olivia Melnyk",
+    "seller": "Eugene Melnyk estate",
+    "stakePct": null,
+    "notes": "Inheritance after Melnyk's death in March 2022; team then put up for sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Michael_Andlauer"
+    ]
+   },
+   {
+    "year": 2023,
+    "price": 950000000,
+    "buyer": "Michael Andlauer and investor group",
+    "seller": "Melnyk estate (Anna and Olivia Melnyk)",
+    "stakePct": 90,
+    "notes": "Reported US$950M valuation; the Melnyk daughters kept 10%. Closed Sept 21, 2023.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Michael_Andlauer",
+     "https://www.sportico.com/business/team-sales/2023/ottawa-senators-sale-michael-andlauer-1234724226/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "tampa-bay-lightning",
+  "formation": {
+   "year": 1990,
+   "price": 50000000,
+   "founder": "Phil Esposito group (backed by Kokusai Green)",
+   "notes": "Awarded Dec 6, 1990; $50M expansion fee paid up front; began play in 1992-93.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1998,
+    "price": 117000000,
+    "buyer": "Art Williams",
+    "seller": "Kokusai Green",
+    "stakePct": 100,
+    "notes": "Team was $102M in debt at closing.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Arthur_L._Williams_Jr.",
+     "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning"
+    ]
+   },
+   {
+    "year": 1999,
+    "price": 115000000,
+    "buyer": "Bill Davidson (Palace Sports & Entertainment)",
+    "seller": "Art Williams",
+    "stakePct": 100,
+    "notes": "$115M per the team page; the Davidson bio says $100M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning",
+     "https://en.wikipedia.org/wiki/Bill_Davidson_(businessman)"
+    ]
+   },
+   {
+    "year": 2008,
+    "price": 206000000,
+    "buyer": "OK Hockey LLC (Oren Koules and Len Barrie)",
+    "seller": "Palace Sports & Entertainment",
+    "stakePct": 100,
+    "notes": "Agreement signed Feb 2008.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Oren_Koules",
+     "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning"
+    ]
+   },
+   {
+    "year": 2010,
+    "price": 170000000,
+    "buyer": "Jeffrey Vinik",
+    "seller": "OK Hockey LLC (Koules/Barrie)",
+    "stakePct": 100,
+    "notes": "$170M per the Vinik bio; the Koules bio says $160M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jeffrey_Vinik",
+     "https://en.wikipedia.org/wiki/Oren_Koules"
+    ]
+   },
+   {
+    "year": 2024,
+    "price": 1800000000,
+    "buyer": "Doug Ostrover and Marc Lipschultz (Blue Owl co-founders) group",
+    "seller": "Jeffrey Vinik / Vinik Sports Group",
+    "stakePct": null,
+    "notes": "Majority stake finalized Oct 24, 2024. The price is the reported 100% valuation; the exact stake was not disclosed. Vinik stays chairman/governor for a transition period.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jeffrey_Vinik",
+     "https://www.sportico.com/business/team-sales/2026/nhl-approves-penguins-sale-hoffmann-family-1234936872/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "toronto-maple-leafs",
+  "formation": {
+   "year": 1917,
+   "price": null,
+   "founder": "Toronto Arena Company",
+   "notes": "Temporary NHL franchise at the league's founding in 1917. In 1919 the St. Patricks group bought the franchise and paid the NHL $5,000.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1919,
+    "price": 5000,
+    "buyer": "St. Patricks Hockey Club group",
+    "seller": "Toronto Arena Company",
+    "stakePct": 100,
+    "notes": "The group paid $5,000 (CAD) to the NHL for the franchise; NHL approved Dec 13, 1919.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Toronto_Maple_Leafs"
+    ]
+   },
+   {
+    "year": 1927,
+    "price": 160000,
+    "buyer": "Conn Smythe syndicate",
+    "seller": "Toronto St. Patricks owners",
+    "stakePct": 100,
+    "notes": "$75,000 up front plus $75,000 thirty days later, plus Smythe's own $10,000; about C$160,000 total (CAD near par). Smythe got majority control of Maple Leaf Gardens Ltd only in 1947.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Toronto_Maple_Leafs",
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 1961,
+    "price": 2300000,
+    "buyer": "Stafford Smythe, Harold Ballard, John Bassett",
+    "seller": "Conn Smythe",
+    "stakePct": null,
+    "notes": "C$2.3M for 45,000 of Conn Smythe's 50,000 MLGL shares (control). CAD about 0.97-1.0 USD.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment",
+     "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs"
+    ]
+   },
+   {
+    "year": 1972,
+    "price": 7500000,
+    "buyer": "Harold Ballard",
+    "seller": "Stafford Smythe estate",
+    "stakePct": null,
+    "notes": "Ballard bought Stafford's 251,545 shares for C$7.5M in Feb 1972, valuing MLGL at C$22M (CAD about par). Bassett had sold out in 1971 for C$5.4M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 1994,
+    "price": 91000000,
+    "buyer": "MLG Ventures (Steve Stavro with TD Bank and Ontario Teachers' Pension Plan)",
+    "seller": "Harold Ballard estate (60.3%) and Molson (19.9%)",
+    "stakePct": 80.2,
+    "notes": "C$75M for the estate's 60.3% (C$34/share, valuing MLGL at C$125M) plus C$25M for Molson's 19.9%. About US$73M total at ~0.73 USD/CAD; the price shown is the ~US$91M implied 100% valuation. Taken private in 1998.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 2003,
+    "price": null,
+    "buyer": "Ontario Teachers' Pension Plan (58.4% controlling owner)",
+    "seller": "Steve Stavro (stake sold to Bell Globemedia)",
+    "stakePct": 58.4,
+    "notes": "Restructuring: Stavro sold his stake to Bell Globemedia for a reported C$120-150M and Teachers' became controlling owner of MLSE.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 2012,
+    "price": 1320000000,
+    "buyer": "Rogers Communications and BCE Inc. (joint 75%)",
+    "seller": "Ontario Teachers' Pension Plan",
+    "stakePct": 75,
+    "notes": "C$1.32B for OTPP's stake (equity value C$1.66B; EV C$2B). CAD about parity with USD (Dec 2011-2012). Price is for all of MLSE (Leafs, Raptors, TFC, arena), not the Leafs alone. NHL approved June 19, 2012.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 2025,
+    "price": 3430000000,
+    "buyer": "Rogers Communications (to 75%)",
+    "seller": "BCE Inc. (37.5%)",
+    "stakePct": 37.5,
+    "notes": "C$4.7B for BCE's 37.5%, valuing MLSE at C$12.5B; about US$3.43B at ~0.73 USD/CAD. Rogers moved from joint control to sole majority control; closed July 2025. Multi-team MLSE entity. A separate 2026 Rogers purchase of Kilmer/Tanenbaum's 25% is a minority deal, not a control change.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment",
+     "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "carolina-hurricanes",
+  "formation": {
+   "year": 1972,
+   "price": null,
+   "founder": "Howard Baldwin, W. Godfrey Wood, John Coburn, William Barnes (New England Whalers, WHA)",
+   "notes": "WHA franchise awarded Nov 1971. It joined the NHL in 1979 as the Hartford Whalers with a $6M franchise fee, and moved to Carolina in 1997.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1988,
+    "price": null,
+    "buyer": "Local Hartford ownership",
+    "seller": "Howard Baldwin group",
+    "stakePct": null,
+    "notes": "Baldwin was managing general partner until the team was sold to local ownership in 1988 (later Richard Gordon). Price not documented.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Howard_Baldwin"
+    ]
+   },
+   {
+    "year": 1994,
+    "price": 47500000,
+    "buyer": "Peter Karmanos Jr., Thomas Thewes, Jim Rutherford",
+    "seller": "Hartford Whalers owners (deal brokered by Connecticut Development Authority)",
+    "stakePct": 100,
+    "notes": "Relocated to North Carolina in 1997.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Peter_Karmanos_Jr.",
+     "https://en.wikipedia.org/wiki/Hartford_Whalers"
+    ]
+   },
+   {
+    "year": 2018,
+    "price": 420000000,
+    "buyer": "Tom Dundon",
+    "seller": "Peter Karmanos Jr.",
+    "stakePct": 52,
+    "notes": "$420M for 52% plus PNC Arena operating rights per the Dundon bio (the team page says 61%). Closed Jan 11, 2018. Dundon bought the remaining minority shares on June 30, 2021 (price undisclosed). A 2026 sale of 12.5% at a $2.66B valuation was a minority deal.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Thomas_Dundon",
+     "https://en.wikipedia.org/wiki/Carolina_Hurricanes"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "columbus-blue-jackets",
+  "formation": {
+   "year": 1997,
+   "price": 80000000,
+   "founder": "John H. McConnell (Columbus Hockey Limited, with Nationwide)",
+   "notes": "Awarded 1997, began play 2000-01. The $80M fee comes from an aggregator and matches the $80M paid in the same expansion round (Nashville).",
+   "isEstimated": true
+  },
+  "saleHistory": [
+   {
+    "year": 2008,
+    "price": null,
+    "buyer": "John P. McConnell",
+    "seller": "John H. McConnell estate",
+    "stakePct": null,
+    "notes": "Inheritance after the founder's death in 2008. Nationwide's later stake changes were minority moves, not control changes.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "new-jersey-devils",
+  "formation": {
+   "year": 1974,
+   "price": 6000000,
+   "founder": "Kansas City Scouts ownership group",
+   "notes": "Kansas City Scouts, 1974 expansion ($6M 1970s fee plus territorial fees); became the Colorado Rockies in 1976 and moved to New Jersey in 1982.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1976,
+    "price": null,
+    "buyer": "Jack Vickers group (Denver)",
+    "seller": "Kansas City owners",
+    "stakePct": null,
+    "notes": "Relocated to Denver as the Colorado Rockies.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_New_Jersey_Devils",
+     "https://en.wikipedia.org/wiki/Kansas_City_Scouts"
+    ]
+   },
+   {
+    "year": 1978,
+    "price": null,
+    "buyer": "Arthur Imperatore",
+    "seller": "Jack Vickers",
+    "stakePct": null,
+    "notes": "Purchased July 12, 1978.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Arthur_Imperatore_Sr."
+    ]
+   },
+   {
+    "year": 1981,
+    "price": null,
+    "buyer": "Peter Gilbert",
+    "seller": "Arthur Imperatore",
+    "stakePct": null,
+    "notes": "NHL approved Feb 10, 1981.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Arthur_Imperatore_Sr."
+    ]
+   },
+   {
+    "year": 1982,
+    "price": null,
+    "buyer": "John McMullen group",
+    "seller": "Peter Gilbert",
+    "stakePct": null,
+    "notes": "May 27, 1982; moved to New Jersey as the Devils. Price not disclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_New_Jersey_Devils"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": 175000000,
+    "buyer": "Puck Holdings (YankeeNets affiliate)",
+    "seller": "John McMullen",
+    "stakePct": 100,
+    "notes": "$175M ($176M per the main team page).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_New_Jersey_Devils",
+     "https://en.wikipedia.org/wiki/New_Jersey_Devils"
+    ]
+   },
+   {
+    "year": 2004,
+    "price": null,
+    "buyer": "Jeff Vanderbeek",
+    "seller": "Puck Holdings (YankeeNets)",
+    "stakePct": null,
+    "notes": "Minority owner Vanderbeek took control; price not documented in the sources reviewed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jeffrey_Vanderbeek",
+     "https://en.wikipedia.org/wiki/History_of_the_New_Jersey_Devils"
+    ]
+   },
+   {
+    "year": 2013,
+    "price": 320000000,
+    "buyer": "Josh Harris and David Blitzer (HBSE)",
+    "seller": "Jeff Vanderbeek",
+    "stakePct": 100,
+    "notes": "Included Prudential Center operating rights; 'over $320 million'. Aug 15, 2013.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)",
+     "https://en.wikipedia.org/wiki/New_Jersey_Devils"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "new-york-islanders",
+  "formation": {
+   "year": 1972,
+   "price": 6000000,
+   "founder": "Roy Boe",
+   "notes": "$6M franchise fee plus a territorial fee to the Rangers ($5M per the Islanders page, about $4M per the Rangers page). Awarded Nov 8, 1971.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1978,
+    "price": null,
+    "buyer": "John O. Pickett",
+    "seller": "Roy Boe",
+    "stakePct": null,
+    "notes": "Limited partner Pickett took over the financially distressed club.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/John_Pickett_(businessman)",
+     "https://en.wikipedia.org/wiki/Roy_Boe"
+    ]
+   },
+   {
+    "year": 1998,
+    "price": null,
+    "buyer": "Howard Milstein and Steven Gluckstern group",
+    "seller": "John Pickett",
+    "stakePct": null,
+    "notes": "Followed the collapsed 1996-97 John Spano purchase ($165M agreed; voided for fraud). Price not documented.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_New_York_Islanders",
+     "https://en.wikipedia.org/wiki/John_Spano"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": 187500000,
+    "buyer": "Charles Wang and Sanjay Kumar",
+    "seller": "Milstein and Gluckstern",
+    "stakePct": 100,
+    "notes": "Wang later bought Kumar's share (2004).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/New_York_Islanders",
+     "https://en.wikipedia.org/wiki/Charles_Wang"
+    ]
+   },
+   {
+    "year": 2016,
+    "price": 485000000,
+    "buyer": "Jon Ledecky and Scott D. Malkin",
+    "seller": "Charles Wang",
+    "stakePct": null,
+    "notes": "Deal approved Oct 2014 at a reported ~$485M valuation. The buyers were minority owners during a two-year transition and took majority control in 2016.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Scott_D._Malkin",
+     "https://en.wikipedia.org/wiki/Jon_Ledecky",
+     "https://www.espn.com/new-york/nhl/story/_/id/11621147/new-york-islanders-sale-jonathan-ledecky-scott-malkin-approved"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "new-york-rangers",
+  "formation": {
+   "year": 1926,
+   "price": null,
+   "founder": "Tex Rickard / Madison Square Garden Corporation",
+   "notes": "NHL franchise granted to Madison Square Garden in 1926; fee not documented.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1959,
+    "price": 4000000,
+    "buyer": "Graham-Paige Corporation",
+    "seller": "James D. Norris and Arthur Wirtz",
+    "stakePct": 40,
+    "notes": "Bought the controlling 40% block of Madison Square Garden Corp (owner of the Rangers) for $4M.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports",
+     "https://en.wikipedia.org/wiki/James_D._Norris"
+    ]
+   },
+   {
+    "year": 1977,
+    "price": null,
+    "buyer": "Gulf+Western (renamed Paramount Communications 1989)",
+    "seller": "Madison Square Garden Corp shareholders",
+    "stakePct": null,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_New_York_Rangers"
+    ]
+   },
+   {
+    "year": 1994,
+    "price": null,
+    "buyer": "Viacom (via acquisition of Paramount)",
+    "seller": "Paramount Communications",
+    "stakePct": null,
+    "notes": "Corporate acquisition of the parent company.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports"
+    ]
+   },
+   {
+    "year": 1995,
+    "price": null,
+    "buyer": "ITT Corporation and Cablevision (50/50)",
+    "seller": "Viacom",
+    "stakePct": 100,
+    "notes": "MSG (arena, Knicks, Rangers) sold; price not confirmed in the sources reviewed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports",
+     "https://en.wikipedia.org/wiki/History_of_the_New_York_Rangers"
+    ]
+   },
+   {
+    "year": 1997,
+    "price": 650000000,
+    "buyer": "Cablevision (Dolan family)",
+    "seller": "ITT Corporation",
+    "stakePct": 50,
+    "notes": "ITT's 50% of MSG for $650M. Later spin-offs (MSG 2010, MSG Sports 2015/2020) kept Dolan control.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "philadelphia-flyers",
+  "formation": {
+   "year": 1966,
+   "price": 2000000,
+   "founder": "Ed Snider, Jerry Wolman, Bill Putnam, Jerome Schiff",
+   "notes": "1967 expansion; $2M fee. Conditional franchise awarded Feb 8, 1966.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1967,
+    "price": null,
+    "buyer": "Ed Snider (with Bill Putnam and Joe Scott)",
+    "seller": "Jerry Wolman",
+    "stakePct": null,
+    "notes": "Wolman sold his Flyers interest; Snider became majority owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jerry_Wolman",
+     "https://en.wikipedia.org/wiki/Ed_Snider"
+    ]
+   },
+   {
+    "year": 1996,
+    "price": null,
+    "buyer": "Comcast (Comcast Spectacor)",
+    "seller": "Ed Snider / Spectacor",
+    "stakePct": 66,
+    "notes": "66% of Snider's businesses (63% per the Comcast Spectacor page). Comcast bought the remaining 24% in Sept 2016 after Snider's death.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Comcast_Spectacor",
+     "https://en.wikipedia.org/wiki/Ed_Snider"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "pittsburgh-penguins",
+  "formation": {
+   "year": 1966,
+   "price": 2000000,
+   "founder": "Jack McGregor and Peter Block group",
+   "notes": "1967 expansion; $2M fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1971,
+    "price": null,
+    "buyer": "Tad Potter partnership (with Peter Block)",
+    "seller": "Prior owners",
+    "stakePct": null,
+    "notes": "Bought to keep the team in Pittsburgh.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tad_Potter"
+    ]
+   },
+   {
+    "year": 1975,
+    "price": 3800000,
+    "buyer": "Al Savill, Wren Blair, Otto Frenzel",
+    "seller": "Potter/Block group (bankruptcy)",
+    "stakePct": 100,
+    "notes": "Bought out of bankruptcy (Wren Blair bio dates it 1973).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tad_Potter",
+     "https://en.wikipedia.org/wiki/Wren_Blair"
+    ]
+   },
+   {
+    "year": 1977,
+    "price": null,
+    "buyer": "Edward J. DeBartolo Sr. family",
+    "seller": "Savill/Blair/Frenzel",
+    "stakePct": null,
+    "notes": "Owned Feb 1977 - Nov 1991.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Sr."
+    ]
+   },
+   {
+    "year": 1991,
+    "price": null,
+    "buyer": "Howard Baldwin, Morris Belzberg, Tom Ruta group",
+    "seller": "DeBartolo family",
+    "stakePct": null,
+    "notes": "Nov 1991, after the first Stanley Cup.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Sr.",
+     "https://en.wikipedia.org/wiki/Morris_Belzberg"
+    ]
+   },
+   {
+    "year": 1997,
+    "price": 40000000,
+    "buyer": "Roger Marino",
+    "seller": "Morris Belzberg (interest)",
+    "stakePct": null,
+    "notes": "Wikipedia says Marino bought a '100% stake' for $40M, but Baldwin remained a co-owner. Treat the stake and price as uncertain.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Roger_Marino",
+     "https://en.wikipedia.org/wiki/Morris_Belzberg"
+    ]
+   },
+   {
+    "year": 1999,
+    "price": null,
+    "buyer": "Mario Lemieux group (with Ron Burkle)",
+    "seller": "Baldwin/Marino (bankruptcy estate)",
+    "stakePct": null,
+    "notes": "Out of bankruptcy: Lemieux converted $20M of deferred salary to equity plus $5M cash for control. Total deal value not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mario_Lemieux"
+    ]
+   },
+   {
+    "year": 2021,
+    "price": 900000000,
+    "buyer": "Fenway Sports Group",
+    "seller": "Mario Lemieux and Ron Burkle",
+    "stakePct": null,
+    "notes": "Controlling stake; took over Dec 31, 2021. Lemieux and Burkle kept minority stakes.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fenway_Sports_Group",
+     "https://www.nhl.com/news/pittsburgh-penguins-sale-unanimously-approved-nhl-commissioner-gary-bettman-says"
+    ]
+   },
+   {
+    "year": 2026,
+    "price": 1700000000,
+    "buyer": "Hoffmann Family of Companies (Geoff Hoffmann, governor)",
+    "seller": "Fenway Sports Group",
+    "stakePct": null,
+    "notes": "Agreed Dec 2025; NHL Board of Governors approved unanimously in June 2026. $1.7B enterprise value (Bettman: total transaction cost about $1.75B); expected to close before the 2026 draft.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.nhl.com/news/pittsburgh-penguins-sale-unanimously-approved-nhl-commissioner-gary-bettman-says",
+     "https://www.sportico.com/business/team-sales/2026/nhl-approves-penguins-sale-hoffmann-family-1234936872/",
+     "https://www.cbsnews.com/pittsburgh/news/nhl-approves-sale-of-penguins-to-hoffmann-family/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "washington-capitals",
+  "formation": {
+   "year": 1972,
+   "price": 6000000,
+   "founder": "Abe Pollin",
+   "notes": "Awarded June 8, 1972; began play 1974-75; 1970s expansion fee was $6M.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1999,
+    "price": 200000000,
+    "buyer": "Ted Leonsis (Lincoln Holdings)",
+    "seller": "Abe Pollin",
+    "stakePct": 100,
+    "notes": "About $200M for the Capitals plus minority stakes in the Wizards and arena. Leonsis later added the Wizards/arena (2010) under Monumental.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Abe_Pollin",
+     "https://en.wikipedia.org/wiki/Ted_Leonsis"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "utah-hockey-club",
+  "formation": {
+   "year": 2024,
+   "price": 1200000000,
+   "founder": "Ryan Smith / Smith Entertainment Group",
+   "notes": "Treated by the NHL as a new franchise: Smith paid a $1.2B expansion fee, and the NHL paid Alex Meruelo $1B for the deactivated Arizona Coyotes. The $200M difference is effectively a relocation fee. Hockey assets came from the Coyotes. Renamed Utah Mammoth in 2025.",
+   "isEstimated": false
+  },
+  "saleHistory": []
+ },
+ {
+  "teamId": "chicago-blackhawks",
+  "formation": {
+   "year": 1926,
+   "price": null,
+   "founder": "Frederic McLaughlin",
+   "notes": "Franchise awarded May 1926 to a Huntington Hardwick syndicate, which resold it to McLaughlin on June 1, 1926. Fee not documented; $100,000 was paid for the Portland Rosebuds' players.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1946,
+    "price": null,
+    "buyer": "Bill Tobin syndicate (fronted for James E. Norris)",
+    "seller": "Frederic McLaughlin estate",
+    "stakePct": null,
+    "notes": "McLaughlin died Dec 1944.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago_Blackhawks",
+     "https://en.wikipedia.org/wiki/James_E._Norris"
+    ]
+   },
+   {
+    "year": 1950,
+    "price": null,
+    "buyer": "James D. Norris and Arthur Wirtz",
+    "seller": "Tobin/Norris syndicate",
+    "stakePct": null,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago_Blackhawks",
+     "https://en.wikipedia.org/wiki/James_D._Norris"
+    ]
+   },
+   {
+    "year": 1966,
+    "price": null,
+    "buyer": "Arthur Wirtz and Bill Wirtz",
+    "seller": "James D. Norris estate",
+    "stakePct": null,
+    "notes": "Wirtz gained outright ownership after Norris's death.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Rocky_Wirtz",
+     "https://en.wikipedia.org/wiki/Chicago_Blackhawks"
+    ]
+   },
+   {
+    "year": 1983,
+    "price": null,
+    "buyer": "Bill Wirtz",
+    "seller": "Arthur Wirtz estate",
+    "stakePct": null,
+    "notes": "Inheritance.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Rocky_Wirtz"
+    ]
+   },
+   {
+    "year": 2007,
+    "price": null,
+    "buyer": "Rocky Wirtz",
+    "seller": "Bill Wirtz estate",
+    "stakePct": null,
+    "notes": "Inheritance (Bill died Sept 2007).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Wirtz"
+    ]
+   },
+   {
+    "year": 2023,
+    "price": null,
+    "buyer": "Danny Wirtz",
+    "seller": "Rocky Wirtz estate",
+    "stakePct": null,
+    "notes": "Inheritance.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Wirtz",
+     "https://en.wikipedia.org/wiki/Danny_Wirtz"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "colorado-avalanche",
+  "formation": {
+   "year": 1972,
+   "price": null,
+   "founder": "Quebec Nordiques founders (WHA)",
+   "notes": "WHA Quebec Nordiques; joined the NHL in 1979 with a $6M franchise fee. Owned by Carling O'Keefe in the late 1970s/1980s (Marcel Aubut, president).",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1995,
+    "price": 75000000,
+    "buyer": "COMSAT Entertainment Group (later Ascent Entertainment)",
+    "seller": "Nordiques ownership (Marcel Aubut group)",
+    "stakePct": 100,
+    "notes": "Relocated to Denver. The $75M figure is from an aggregator.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Colorado_Avalanche",
+     "https://www.davemanuel.com/nhl-team-ownership-purchase-prices.php"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": null,
+    "buyer": "Liberty Media",
+    "seller": "COMSAT / Ascent shareholders",
+    "stakePct": null,
+    "notes": "Liberty bought all of Ascent but kept the teams on the market.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Colorado_Avalanche"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": 450000000,
+    "buyer": "Stan Kroenke (Kroenke Sports & Entertainment)",
+    "seller": "Liberty Media / Ascent",
+    "stakePct": 93.5,
+    "notes": "July 2000 package: Avalanche, Nuggets and Pepsi Center for $450M; Liberty kept 6.5%. Ownership was transferred to Ann Walton Kroenke in 2015 (NFL cross-ownership rule).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Colorado_Avalanche",
+     "https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "dallas-stars",
+  "formation": {
+   "year": 1966,
+   "price": 2000000,
+   "founder": "Walter Bush group (Minnesota North Stars)",
+   "notes": "1967 expansion; $2M fee. Moved to Dallas in 1993.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1978,
+    "price": null,
+    "buyer": "George Gund III and Gordon Gund",
+    "seller": "North Stars owners",
+    "stakePct": null,
+    "notes": "North Stars merged with the Gunds' Cleveland Barons; the Gunds became majority owners.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Minnesota_North_Stars",
+     "https://en.wikipedia.org/wiki/Gordon_Gund"
+    ]
+   },
+   {
+    "year": 1990,
+    "price": 38100000,
+    "buyer": "Howard Baldwin and Morris Belzberg",
+    "seller": "George and Gordon Gund",
+    "stakePct": 100,
+    "notes": "About $38.1M including liabilities and the Gunds' share of future expansion fees. The Gunds received the San Jose expansion team.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Minnesota_North_Stars"
+    ]
+   },
+   {
+    "year": 1990,
+    "price": null,
+    "buyer": "Norman Green",
+    "seller": "Baldwin and Belzberg",
+    "stakePct": 51,
+    "notes": "Green bought 51% control, then Baldwin's share, and became sole owner by Oct 1990.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Minnesota_North_Stars",
+     "https://en.wikipedia.org/wiki/Norman_Green"
+    ]
+   },
+   {
+    "year": 1995,
+    "price": 82000000,
+    "buyer": "Tom Hicks",
+    "seller": "Norman Green",
+    "stakePct": 100,
+    "notes": "Dec 1995, closed early 1996. $82M per the Hicks bio (the aggregator says $84M).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tom_Hicks",
+     "https://en.wikipedia.org/wiki/Norman_Green"
+    ]
+   },
+   {
+    "year": 2011,
+    "price": 240000000,
+    "buyer": "Tom Gaglardi (Northland Properties)",
+    "seller": "Hicks Sports Group creditors (bankruptcy auction)",
+    "stakePct": 100,
+    "notes": "Enterprise value approved by the bankruptcy court; NHL approved Nov 18, 2011.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Dallas_Stars"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "minnesota-wild",
+  "formation": {
+   "year": 1997,
+   "price": 80000000,
+   "founder": "Bob Naegele Jr.",
+   "notes": "Awarded 1997, began play 2000-01. $80M fee per an aggregator; consistent with the 1997 expansion round.",
+   "isEstimated": true
+  },
+  "saleHistory": [
+   {
+    "year": 2008,
+    "price": 260000000,
+    "buyer": "Craig Leipold (Minnesota Sports & Entertainment)",
+    "seller": "Bob Naegele Jr. group",
+    "stakePct": null,
+    "notes": "Announced Jan 10, 2008. The price is from an aggregator.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Minnesota_Wild",
+     "https://www.davemanuel.com/nhl-team-ownership-purchase-prices.php"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "nashville-predators",
+  "formation": {
+   "year": 1997,
+   "price": 80000000,
+   "founder": "Craig Leipold",
+   "notes": "Awarded 1997, began play 1998-99; $80M fee (city paid 31.5%).",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2007,
+    "price": 193000000,
+    "buyer": "Predators Holdings LLC (local investor group incl. David Freeman, Boots Del Biaggio)",
+    "seller": "Craig Leipold",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nashville_Predators",
+     "https://en.wikipedia.org/wiki/Craig_Leipold"
+    ]
+   },
+   {
+    "year": 2025,
+    "price": null,
+    "buyer": "Bill Haslam",
+    "seller": "Predators Holdings LLC partners",
+    "stakePct": null,
+    "notes": "Four-tranche purchase agreed 2022 at climbing enterprise values from under $775M to over $900M. Haslam became chairman July 2024 and majority owner July 3, 2025. Price per tranche not disclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.sportico.com/leagues/hockey/2022/nashville-predators-valued-775-million-sale-haslam-1234692987/",
+     "https://www.sportspro.com/news/nashville-predators-nhl-bill-haslam-majority-stake-acquisition-deal/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "st-louis-blues",
+  "formation": {
+   "year": 1966,
+   "price": 2000000,
+   "founder": "Sid Salomon Jr., Sid Salomon III, Robert Wolfson",
+   "notes": "1967 expansion; $2M fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1977,
+    "price": null,
+    "buyer": "Ralston Purina",
+    "seller": "Salomon family",
+    "stakePct": 100,
+    "notes": "Ralston took the team, arena and $8.8M of debt (July 27, 1977).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/St._Louis_Blues"
+    ]
+   },
+   {
+    "year": 1983,
+    "price": null,
+    "buyer": "Harry Ornest group",
+    "seller": "Ralston Purina",
+    "stakePct": 100,
+    "notes": "After the NHL rejected a C$12M sale to Bill Hunter (Saskatoon).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/St._Louis_Blues",
+     "https://en.wikipedia.org/wiki/Harry_Ornest"
+    ]
+   },
+   {
+    "year": 1986,
+    "price": null,
+    "buyer": "Michael Shanahan group",
+    "seller": "Harry Ornest",
+    "stakePct": null,
+    "notes": "Dec 1986.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mike_Shanahan_(ice_hockey)"
+    ]
+   },
+   {
+    "year": 1999,
+    "price": 153000000,
+    "buyer": "Bill and Nancy Walton Laurie",
+    "seller": "Kiel Center Partners / Shanahan group",
+    "stakePct": null,
+    "notes": "US$153M per the Bill Laurie bio.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Laurie",
+     "https://en.wikipedia.org/wiki/St._Louis_Blues"
+    ]
+   },
+   {
+    "year": 2006,
+    "price": null,
+    "buyer": "SCP Worldwide (Dave Checketts) and TowerBrook Capital",
+    "seller": "Bill and Nancy Laurie",
+    "stakePct": null,
+    "notes": "Completed Mar 24, 2006; included the arena lease.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/St._Louis_Blues"
+    ]
+   },
+   {
+    "year": 2012,
+    "price": 130000000,
+    "buyer": "SLB Acquisition Holdings LLC (Tom Stillman, chairman)",
+    "seller": "SCP Worldwide",
+    "stakePct": null,
+    "notes": "Included the Peoria Rivermen, arena lease and a Stifel Theatre stake.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/SLB_Acquisition_Holdings_LLC"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "winnipeg-jets",
+  "formation": {
+   "year": 1997,
+   "price": null,
+   "founder": "Ted Turner / Turner Broadcasting (Time Warner) - Atlanta Thrashers",
+   "notes": "Atlanta Thrashers expansion (awarded 1997, began play 1999). The fee is not confirmed in the sources reviewed. The original Winnipeg Jets (1972-96) are a different franchise, now defunct as the Arizona Coyotes.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2004,
+    "price": null,
+    "buyer": "Atlanta Spirit LLC",
+    "seller": "Time Warner (Turner Broadcasting)",
+    "stakePct": 100,
+    "notes": "Package with the Hawks and arena operating rights.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Atlanta_Thrashers",
+     "https://en.wikipedia.org/wiki/Atlanta_Hawks,_LLC"
+    ]
+   },
+   {
+    "year": 2011,
+    "price": 170000000,
+    "buyer": "True North Sports & Entertainment (Mark Chipman, David Thomson)",
+    "seller": "Atlanta Spirit LLC",
+    "stakePct": 100,
+    "notes": "$170M including a $60M relocation fee to the NHL; moved to Winnipeg. NHL approved June 21, 2011.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Winnipeg_Jets",
+     "https://en.wikipedia.org/wiki/True_North_Sports_%26_Entertainment"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "anaheim-ducks",
+  "formation": {
+   "year": 1993,
+   "price": 50000000,
+   "founder": "The Walt Disney Company",
+   "notes": "Awarded Dec 1992; $50M entrance fee, half paid to the LA Kings.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2005,
+    "price": 75000000,
+    "buyer": "Henry and Susan Samueli",
+    "seller": "The Walt Disney Company",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Anaheim_Ducks",
+     "https://en.wikipedia.org/wiki/Henry_Samueli"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "calgary-flames",
+  "formation": {
+   "year": 1972,
+   "price": 6000000,
+   "founder": "Tom Cousins (Atlanta Flames)",
+   "notes": "1972 expansion; the 1970s fee was $6M.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1980,
+    "price": 16000000,
+    "buyer": "Nelson Skalbania-led Calgary group (Seamans, Hotchkiss, Scurfield, Green, Kwong)",
+    "seller": "Tom Cousins",
+    "stakePct": 100,
+    "notes": "A record NHL price at the time; relocated to Calgary. Skalbania later sold his interest. Controlling-shareholder changes within the Calgary group (e.g., N. Murray Edwards) are not documented with prices.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Atlanta_Flames",
+     "https://en.wikipedia.org/wiki/Daryl_Seaman",
+     "https://en.wikipedia.org/wiki/Tom_Cousins"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "edmonton-oilers",
+  "formation": {
+   "year": 1972,
+   "price": null,
+   "founder": "Bill Hunter (with Charles Allard) - Alberta Oilers (WHA)",
+   "notes": "WHA charter team; joined the NHL in 1979 with a $6M franchise fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1976,
+    "price": null,
+    "buyer": "Nelson Skalbania, then Peter Pocklington",
+    "seller": "Bill Hunter and Charles Allard",
+    "stakePct": null,
+    "notes": "Skalbania bought in 1976 and quickly brought in Pocklington, who became sole owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Edmonton_Oilers",
+     "https://en.wikipedia.org/wiki/Peter_Pocklington"
+    ]
+   },
+   {
+    "year": 1998,
+    "price": 75000000,
+    "buyer": "Edmonton Investors Group",
+    "seller": "Peter Pocklington",
+    "stakePct": 100,
+    "notes": "C$107M per the EIG page (the team page says $70M); converted at about 0.70 USD/CAD (1998).",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edmonton_Investors_Group",
+     "https://en.wikipedia.org/wiki/Edmonton_Oilers"
+    ]
+   },
+   {
+    "year": 2008,
+    "price": 195000000,
+    "buyer": "Daryl Katz (Katz Group)",
+    "seller": "Edmonton Investors Group",
+    "stakePct": 100,
+    "notes": "Reported C$200M; converted at about 0.98 USD/CAD (June 2008). NHL approved June 18, 2008.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edmonton_Investors_Group",
+     "https://en.wikipedia.org/wiki/Daryl_Katz"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "los-angeles-kings",
+  "formation": {
+   "year": 1966,
+   "price": 2000000,
+   "founder": "Jack Kent Cooke",
+   "notes": "1967 expansion; $2M fee plus a $1M territorial indemnity to the Blades.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1979,
+    "price": 67500000,
+    "buyer": "Jerry Buss",
+    "seller": "Jack Kent Cooke",
+    "stakePct": 100,
+    "notes": "Package: Lakers, Kings, Forum and a ranch; half cash, half real estate.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jack_Kent_Cooke",
+     "https://en.wikipedia.org/wiki/Jerry_Buss"
+    ]
+   },
+   {
+    "year": 1988,
+    "price": null,
+    "buyer": "Bruce McNall",
+    "seller": "Jerry Buss",
+    "stakePct": null,
+    "notes": "McNall bought 25% (1986) and 24% (1987), then controlling interest in 1988.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bruce_McNall",
+     "https://en.wikipedia.org/wiki/Jerry_Buss"
+    ]
+   },
+   {
+    "year": 1994,
+    "price": null,
+    "buyer": "New investor group",
+    "seller": "Bruce McNall",
+    "stakePct": null,
+    "notes": "McNall sold controlling interest in May 1994 after defaulting on a $90M loan; the team entered bankruptcy in 1995.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bruce_McNall"
+    ]
+   },
+   {
+    "year": 1995,
+    "price": 113500000,
+    "buyer": "Philip Anschutz and Edward P. Roski",
+    "seller": "Kings (bankruptcy estate)",
+    "stakePct": 100,
+    "notes": "Bankruptcy court approved Oct 6, 1995; AEG/Anschutz later principal owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Kings"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "san-jose-sharks",
+  "formation": {
+   "year": 1990,
+   "price": 45000000,
+   "founder": "George Gund III and Gordon Gund",
+   "notes": "Expansion fee of US$45M; approved May 1990 alongside the Gunds' sale of the North Stars; began play 1991-92.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2002,
+    "price": null,
+    "buyer": "San Jose Sports & Entertainment Enterprises (local investors led by Greg Jamison; incl. Hasso Plattner)",
+    "seller": "Gund brothers",
+    "stakePct": null,
+    "notes": "Feb 2002.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/San_Jose_Sharks",
+     "https://en.wikipedia.org/wiki/Gordon_Gund"
+    ]
+   },
+   {
+    "year": 2013,
+    "price": null,
+    "buyer": "Hasso Plattner",
+    "seller": "Two SJS&E partners",
+    "stakePct": null,
+    "notes": "Plattner bought out two partners and became the controlling owner/governor.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hasso_Plattner"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "seattle-kraken",
+  "formation": {
+   "year": 2018,
+   "price": 650000000,
+   "founder": "Seattle Hockey Partners (David Bonderman, Jerry Bruckheimer, Tod Leiweke)",
+   "notes": "Approved Dec 2018; $650M fee, final installment paid Apr 30, 2021; began play 2021-22.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2024,
+    "price": null,
+    "buyer": "Samantha Holloway (principal owner, governor)",
+    "seller": "David Bonderman estate",
+    "stakePct": null,
+    "notes": "Inheritance/transfer after Bonderman's death on Dec 11, 2024; Holloway had been co-owner since 2022.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.seattletimes.com/sports/kraken/seattle-kraken-owner-david-bonderman-dies-at-82/",
+     "https://www.nhl.com/news/david-bonderman-dead-at-age-82"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "vancouver-canucks",
+  "formation": {
+   "year": 1970,
+   "price": 6000000,
+   "founder": "Tom Scallen / Medicor (Minnesota)",
+   "notes": "1970 expansion; $6M fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1974,
+    "price": 9000000,
+    "buyer": "Frank Griffiths (Northwest Sports)",
+    "seller": "Tom Scallen / Medicor",
+    "stakePct": 100,
+    "notes": "$9M (currency not specified; CAD was near par with USD in 1974).",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vancouver_Canucks",
+     "https://en.wikipedia.org/wiki/History_of_the_Vancouver_Canucks"
+    ]
+   },
+   {
+    "year": 1996,
+    "price": null,
+    "buyer": "John McCaw Jr. (Orca Bay)",
+    "seller": "Arthur Griffiths",
+    "stakePct": null,
+    "notes": "McCaw partnered in 1995 and took a majority share by about 1996-97.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vancouver_Canucks",
+     "https://en.wikipedia.org/wiki/Canucks_Sports_%26_Entertainment"
+    ]
+   },
+   {
+    "year": 2006,
+    "price": null,
+    "buyer": "Francesco Aquilini (Aquilini Investment Group)",
+    "seller": "John McCaw Jr.",
+    "stakePct": 100,
+    "notes": "Aquilini bought 50% (Nov 17, 2004) then the remaining 50% (Nov 8, 2006); prices not disclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Francesco_Aquilini",
+     "https://en.wikipedia.org/wiki/Vancouver_Canucks"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "vegas-golden-knights",
+  "formation": {
+   "year": 2016,
+   "price": 500000000,
+   "founder": "Bill Foley (Black Knight Sports & Entertainment)",
+   "notes": "Approved June 22, 2016; $500M fee; began play 2017-18.",
+   "isEstimated": false
+  },
+  "saleHistory": []
+ }
+]

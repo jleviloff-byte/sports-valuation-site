@@ -1,0 +1,2468 @@
+{
+  "out": [
+    {
+      "teamId": "chelsea",
+      "type": "minority",
+      "dateAnnounced": "2026-09-16",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 6728000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 25.6,
+      "tranche": null,
+      "buyer": "Clearlake Capital Group (affiliates)",
+      "seller": "Todd Boehly and Mark Walter",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 3550000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Soccer May 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.8952,
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "Clearlake already held 61.5% but shared power under an unusual governance split with Boehly that had soured by 2024. Buying out the 25.6% hands Clearlake sole final say, so the £950M buys control rights on top of economics.",
+          "source": "https://www.insideworldfootball.com/2026/09/17/boehly-walter-sell-up-handing-control-of-chelsea-to-clearlake/"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "The 40,000-seat Stamford Bridge caps matchday revenue, and the owners were split on redeveloping in place versus relocating. Sole control lets Clearlake unlock the stadium decision, upside a trailing revenue mark does not capture.",
+          "source": "https://www.insideworldfootball.com/2026/09/11/clearlake-set-to-buy-boehly-and-walters-chelsea-stakes-valuing-club-at-5bn/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1406,
+        "leagueTrailingDecade": 0.1001,
+        "text": "Paying $6.73B means the franchise has to be worth $13.23B in 10 years to return 7% a year. Measured from the $3.55B Forbes mark, that requires 14.1% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run falls 4.1 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.chelseafc.com/en/news/article/chelsea-fc-announces-ownership-transition",
+        "https://www.insideworldfootball.com/2026/09/17/boehly-walter-sell-up-handing-control-of-chelsea-to-clearlake/",
+        "https://www.insideworldfootball.com/2026/09/11/clearlake-set-to-buy-boehly-and-walters-chelsea-stakes-valuing-club-at-5bn/"
+      ],
+      "isEstimated": true,
+      "details": "Clearlake (61.5%) bought out Boehly (12.8%) and Walter (12.8%) and now has sole control; Wyss (12.8%) stays. It is classed as minority because Clearlake already held the majority. The £5bn valuation includes debt (Bloomberg via IWF), converted at the 2026-09-16 spot rate of 1.3456 USD/GBP. IWF puts the deal at £950M, which is below a pro-rata 25.6% of £5bn, so the equity value is lower. The club release discloses no price. Boehly stepped down as chairman.",
+      "key": "chelsea:minority:2026-09-16:25.6"
+    },
+    {
+      "teamId": "los-angeles-angels",
+      "type": "control",
+      "dateAnnounced": "2026-09-01",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 4000000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Stan Kroenke / Kroenke Sports & Entertainment",
+      "seller": "Arte Moreno / Moreno family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 2650000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.5094,
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "Angel Stadium sits on public land ringed by about 130 acres of surface parking near three freeways and a train station, next to the OCVibe project at Honda Center. The lease runs to 2032 with options to 2038, giving a new owner leverage over one of the largest redevelopment parcels in Southern California.",
+          "source": "https://frontofficesports.com/article/angels-stadium-plans-post-sale/"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "Kroenke already owns the Rams and built the 3.1-million-square-foot SoFi Stadium as the anchor of an urban village at Hollywood Park, after running the same play with the Nuggets, Avalanche and their Denver arena. His model is buy the team, control the land, build the stadium, then develop around it.",
+          "source": "https://www.si.com/mlb/angels/onsi/stan-kroenke-angels-stadium-real-estate-investment-history"
+        },
+        {
+          "id": "scarcityAndTiming",
+          "text": "Moreno listed the club in August 2022, pulled it nine months later, and said this spring he had no interest in selling. When the 80-year-old owner finally reopened the door, a Los Angeles MLB franchise came to market for the first time since 2003.",
+          "source": "https://www.espn.com/mlb/story/_/id/49795578/kroenke-buy-controlling-interest-angels-moreno"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.115,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $2.65B Forbes mark, that requires 11.5% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 4.1 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno",
+        "https://www.cbssports.com/mlb/news/angels-arte-moreno-sale-stan-kroenke-rams-nuggets/",
+        "https://www.mlbtraderumors.com/2026/09/arte-moreno-sells-angels-rams-owner-stan-kroenke.html",
+        "https://sports.yahoo.com/mlb/breaking-news/article/rams-owner-stan-kroenke-enters-agreement-to-buy-angels-from-arte-moreno-for-reported-mlb-record-4-billion-182211800.html",
+        "https://www.forbes.com/sites/barrymbloom/2026/09/02/stan-kroenke-to-buy-angels-from-arte-moreno-in-second-recent-mlb-sale/"
+      ],
+      "isEstimated": true,
+      "details": "Seed confirmed. MLB.com (team/league release) confirms KSE is buying Moreno's controlling interest, with Moreno keeping an undisclosed minority stake; close expected Q1 2027 pending MLB approval. The $4B valuation (an MLB record) is not official: it comes from The Athletic (Britt Ghiroli), repeated by CBS, Yahoo and MLBTR. The exact % acquired is undisclosed. CBS's '100%' is wrong per MLB.com.",
+      "key": "los-angeles-angels:control:2026-09-01:na"
+    },
+    {
+      "teamId": "minnesota-timberwolves",
+      "type": "control",
+      "dateAnnounced": "2026-08-21",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 4500000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team + assets",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Marc Stad (Dragoneer Investment Group), with Elisa Stad as Timberwolves governor",
+      "seller": "Marc Lore (most of his control stake)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 4000000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Oct 2025",
+      "premiumToForbes": 0.125,
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "Marc Stad was already a minority owner of the Wolves and Lynx, and he runs Dragoneer, a growth investor managing about $35B. An insider who knows the books and has deep capital behind him can pay a 12.5% premium to Forbes with confidence.",
+          "source": "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The $4.5B price triples the $1.5B that Lore and Rodriguez agreed to pay in 2021. It lands in a market reset by the Celtics at $6.1B and the Lakers at $10B and then $12.5B.",
+          "source": "https://hoodline.com/2026/09/stad-s-pending-timberwolves-lynx-deal-carries-4-5-billion-valuation/"
+        },
+        {
+          "id": "mediaRightsCycle",
+          "text": "The NBA's 11-year, $76B national deal with Disney, NBC and Amazon began in 2025-26. It pays about $6.9B a season, 160% more than the old contract, which lifts every small-market team's floor.",
+          "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "Target Center is the NBA's second-oldest arena, and ownership is already working with Minneapolis on a new building. A new arena is revenue upside that the current Forbes number does not capture.",
+          "source": "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0827,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $4.00B Forbes mark, that requires 8.3% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.0 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx",
+        "https://www.sportico.com/business/team-sales/2026/minnesota-timberwolves-lynx-sold-stad-1234942577/",
+        "https://www.axios.com/2026/08/21/minnesota-timberwolves-lynx-stad-lore-arod",
+        "https://kstp.com/kstp-news/top-news/minnesota-timberwolves-lynx-ownership-being-sold-to-businessman-marc-stad/",
+        "https://www.cnn.com/2026/08/21/business/marc-stad-minnesota-timberwolves-lynx-sale",
+        "https://hoodline.com/2026/09/stad-s-pending-timberwolves-lynx-deal-carries-4-5-billion-valuation/"
+      ],
+      "isEstimated": false,
+      "details": "Seed confirmed by ESPN, Sportico, Axios, KSTP (joint statement from Stad, Lore and Rodriguez) and CNN. The $4.5B is enterprise value and includes the WNBA's Lynx. Lore stays on as a minority LP and A-Rod increases his stake, staying co-chairman and Lynx governor. Stake % not disclosed. It was slated for the Sept 15-16, 2026 Board vote, but I found no approval announcement (the NBA owners press page lists none), so status stays 'agreed'.",
+      "key": "minnesota-timberwolves:control:2026-08-21:na"
+    },
+    {
+      "teamId": "atlanta-falcons",
+      "type": "minority",
+      "dateAnnounced": "2026-08-20",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 10600000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 10,
+      "tranche": null,
+      "buyer": "Arctos Partners (now owned by KKR)",
+      "seller": "Arthur Blank / Falcons (whether shares come from Blank or existing LPs not disclosed)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 5500000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.9273,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1426,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $10.60B means the franchise has to be worth $20.85B in 10 years to return 7% a year. Measured from the $5.50B Forbes mark, that requires 14.3% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run falls 1.2 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.cnbc.com/2026/08/20/arctos-agrees-to-buy-10percent-of-atlanta-falcons-at-10point6-billion-valuation-sources.html",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arctos-will-buy-10-percent-of-falcons-at-10-6-billion-valuation",
+        "https://www.sportico.com/business/team-sales/2026/nfl-atlanta-falcons-arctos-billion-private-equity-1234942464/",
+        "https://peinsights.substack.com/p/arctos-strikes-deal-for-10-of-atlanta"
+      ],
+      "isEstimated": true,
+      "details": "Not among the seeds; found in sweep. $10.6B is a blended headline EV: reportedly a first tranche of 7.5% at just over $10B, with the remaining 2.5% ~18 months later at ~$11B (tranche detail from a single source). NFL vote expected in October 2026. Would be Arctos' fourth NFL stake (Bills, Chargers, Browns).",
+      "key": "atlanta-falcons:minority:2026-08-20:10"
+    },
+    {
+      "teamId": "liverpool",
+      "type": "minority",
+      "dateAnnounced": "2026-08-14",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 7445000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 30,
+      "tranche": null,
+      "buyer": "1892 Holdings (led by Amit Bhatia; Mittal Family Trusts, K5 Sports/Jeff Bezos, EE Capital/Eduardo & Elaine Saverin)",
+      "seller": "Fenway Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 5400000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Soccer May 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.3787,
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "1892 Holdings pairs the Mittal Family Trusts with Jeff Bezos (via K5 Sports) and Eduardo Saverin's family office. Trophy capital at that scale pays for access to a global club, not for near-term cash yield.",
+          "source": "https://www.insideworldfootball.com/2026/08/10/fenway-close-to-sale-of-30-of-liverpool-for-6bn/"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "The £1.65bn buys no control and no separate transfer budget: FSG keeps majority ownership and runs sporting and financial strategy. What the stake does buy is a vice-chair seat for Bhatia, board seats, and a position to scale up if FSG later sells down.",
+          "source": "https://www.insideworldfootball.com/2026/08/17/fsg-agrees-1-65bn-sale-of-30-of-liverpool-to-1892-holdings/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1049,
+        "leagueTrailingDecade": 0.1001,
+        "text": "Paying $7.45B means the franchise has to be worth $14.65B in 10 years to return 7% a year. Measured from the $5.40B Forbes mark, that requires 10.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run falls 0.5 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc",
+        "https://www.insideworldfootball.com/2026/08/17/fsg-agrees-1-65bn-sale-of-30-of-liverpool-to-1892-holdings/",
+        "https://www.insideworldfootball.com/2026/08/10/fenway-close-to-sale-of-30-of-liverpool-for-6bn/"
+      ],
+      "isEstimated": true,
+      "details": "£1.65bn for about 30%, valuing the club at about £5.5bn (IWF), converted at the 2026-08-14 spot rate of 1.3537 USD/GBP (ECB via frankfurter.dev). Wikipedia puts the stake at 38%, and the club release gives neither % nor price. Earlier reports cited £1.35bn/30% (£4.6bn) and a $6bn valuation. The deal is subject to regulatory approvals, and FSG keeps majority ownership and operating control. Bhatia becomes vice-chairman; Bezos is passive.",
+      "key": "liverpool:minority:2026-08-14:30"
+    },
+    {
+      "teamId": "los-angeles-lakers",
+      "type": "control",
+      "dateAnnounced": "2026-08-12",
+      "dateApproved": null,
+      "status": "contested",
+      "note": "Jeanie Buss challenging in court; hearing Dec 9, 2026.",
+      "valuation": 12500000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Joshua Kushner and Bob Iger",
+      "seller": "Mark Walter / TWG Global (majority equity)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 20,
+      "revenueAtDeal": null,
+      "revenueYear": 2026,
+      "forbesValueAtSale": 10000000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Oct 2025",
+      "premiumToForbes": 0.25,
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "Josh Kushner (Thrive Capital) and former Disney CEO Bob Iger were pursuing a Las Vegas expansion team before they pivoted to the Lakers. Iger says the deal came together in three days. Trophy buyers with an expansion fee as their fallback paid $12.5B, 25% over Forbes.",
+          "source": "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b"
+        },
+        {
+          "id": "forcedSeller",
+          "text": "Mark Walter sold only 14 months after paying $10B while federal prosecutors reportedly examined about $16B in loans tied to his Guggenheim-linked insurers. A quick, clean exit mattered more to him than running a long auction.",
+          "source": "https://www.cbssports.com/nba/news/lakers-sold-josh-kushner-bob-iger/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The price resets the top of the market at $2.5B above the Lakers' own 2025 record. It also clears the Seahawks' $9.6B and roughly doubles the Celtics' $6.1B.",
+          "source": "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b"
+        },
+        {
+          "id": "taxAmortization",
+          "text": "A control buyer can amortize 100% of the franchise's tax basis over 15 years under Sec. 197. The final One Big Beautiful Bill Act dropped the House proposal to cap that at 50%, so the full write-off on a $12.5B basis remains available.",
+          "source": "https://www.withersworldwide.com/en-gb/insight/read/from-sidelines-to-bottom-lines-how-the-one-big-beautiful-bill-act-hits-the-sports-industry"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0941,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $10.00B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.9 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b",
+        "https://www.cnbc.com/2026/08/12/bob-iger-joshua-kushner-buy-los-angeles-lakers-from-mark-walter.html",
+        "https://www.sportico.com/leagues/basketball/2026/lakers-sale-joshua-kushner-bob-iger-explainer-takeaways-1234941866/",
+        "https://www.forbes.com/sites/hanktucker/2026/08/13/the-los-angeles-lakers-record-125-billion-sale-resets-the-market-for-sports-teams/",
+        "https://www.cbssports.com/nba/news/lakers-sold-josh-kushner-bob-iger/",
+        "https://lakersnation.com/lakers-sale-not-expected-to-be-voted-on-at-upcoming-nba-board-of-governors-meetings/"
+      ],
+      "isEstimated": true,
+      "details": "Seed confirmed by ESPN, CNBC, Sportico, Forbes, CBS. Pending NBA approval; it was not expected to be voted on at the Sept 2026 Board meeting, and no approval appears on the NBA's owner press-release page. Exact stake % not reported. Jeanie Buss's five siblings voted to sell their remaining minority shares to the buyers; Jeanie is opposing (she needs 15% to stay governor), with a court date of Dec 9. Kushner must divest his Miami Heat minority stake. The 20x multiple is Forbes's estimate on 2025-26 revenue (revenueYear = season ending 2026), so it's flagged as estimated. Lakers only; Walter keeps the Dodgers, Sparks and Chelsea.",
+      "key": "los-angeles-lakers:control:2026-08-12:na"
+    },
+    {
+      "teamId": "new-york-yankees",
+      "type": "minority",
+      "dateAnnounced": "2026-08-11",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 10000000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "holding company",
+      "stakePct": 8,
+      "tranche": null,
+      "buyer": "Apollo Sports Capital (Apollo Global Management)",
+      "seller": "Steinbrenner family and some YGE limited partners",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 8200000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.2195,
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "Apollo Sports Capital is buying into Yankee Global Enterprises, which holds YES Network, Legends Hospitality and stakes in NYCFC and AC Milan, and its CEO Al Tylis takes a new board seat. The mark prices a media and hospitality bundle, not the team alone.",
+          "source": "https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "Apollo takes 8% common now plus 8% convertible preferred, a 16% position that exceeds MLB's 15% private equity cap and needs a league waiver. The Steinbrenners keep more than 60% and full control, so Apollo pays a premium for scarce, capped access to the sport's top franchise with no say in operations.",
+          "source": "https://sports.yahoo.com/articles/apollo-set-major-stake-yankees-180117436.html"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0914,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $8.20B Forbes mark, that requires 9.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 1.8 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as",
+        "https://fortune.com/2026/08/11/apollo-inks-2-6-billion-financing-deal-with-ny-yankees/",
+        "https://sports.yahoo.com/articles/apollo-set-major-stake-yankees-180117436.html",
+        "https://bleacherreport.com/articles/25500771-new-yankees-rumors-sale-minority-stake-valuation-amid-26b-deal-apollo",
+        "https://www.sportico.com/business/team-sales/2026/steinbrenner-family-sell-yankees-stake-apollo-1234945365/"
+      ],
+      "isEstimated": true,
+      "details": "A $2.6B debt-plus-equity deal into Yankee Global Enterprises, which holds the Yankees, YES Network, Legends, and stakes in NYCFC and AC Milan; it is not a team-only valuation. Sportico: YGE valued at more than $10B, with the Steinbrenners selling at least 4%. NY Post (Gasparino): 'significantly' more than $12B, with Apollo taking 8% common now plus 8% convertible preferred (16% total). Valuation and stake are uncertain; the equity piece still needs MLB to waive its private-equity cap.",
+      "key": "new-york-yankees:minority:2026-08-11:8"
+    },
+    {
+      "teamId": "oakland-athletics",
+      "type": "minority",
+      "dateAnnounced": "2026-07-23",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 3800000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team + assets",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Harbinger Sports Partners (Mark Cuban GP/president)",
+      "seller": "John Fisher / Athletics (new shares)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1300000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 1.9231,
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "Harbinger's $50M implies about $3.8B post-money for the A's plus their $2B, 33,000-seat domed ballpark on the Las Vegas Strip. The Forbes mark of about $2B covers the team only, so most of the gap is the stadium asset.",
+          "source": "https://www.casino.com/news/las-vegas/mark-cubans-group-buys-50m-stake-in-athletics-ballpark/"
+        },
+        {
+          "id": "forcedSeller",
+          "text": "Fisher is raising about $550M from outside investors to fund his share of the ballpark, alongside Aramark ($100M) and a Korean group including BTS member Suga ($70M). A primary raise tied to a construction bill lets the issuer set a post-money mark that covers the stadium.",
+          "source": "https://www.casino.com/news/las-vegas/mark-cubans-group-buys-50m-stake-in-athletics-ballpark/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Harbinger Sports Partners, with Mark Cuban as GP and president, launched in May 2025 targeting $750M for 10 to 12 stakes across MLB, NBA and NFL, and the A's is its first deal. A new fund deploying its first check buys access, and Cuban said the goal is to make his investors a lot of money.",
+          "source": "https://www.espn.com/mlb/story/_/id/49435620/cuban-investment-group-purchases-minority-stake-athletics"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1912,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $3.80B means the franchise has to be worth $7.48B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 19.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 11.7 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.espn.com/mlb/story/_/id/49435620/cuban-investment-group-purchases-minority-stake-athletics",
+        "https://lvsportsbiz.com/2026/07/23/harbinger-sports-partners-which-includes-mark-cuban-buys-minority-stake-in-john-fishers-athletics/",
+        "https://www.sportcal.com/news/cuban-led-investment-firm-acquires-minority-stake-in-the-as/",
+        "https://www.casino.com/news/las-vegas/mark-cubans-group-buys-50m-stake-in-athletics-ballpark/"
+      ],
+      "isEstimated": true,
+      "details": "ESPN and LVSportsBiz confirm the stake; the % is undisclosed. CNBC (Mike Ozanian) reported about $50M at a ~$3.8B post-money valuation, as cited by Sportcal. That valuation covers the A's and the new Las Vegas ballpark, so it is not comparable to team-only values (Forbes: ~$2B). Part of Fisher's ~$550M raise for the stadium. MLB approval status is unclear.",
+      "key": "oakland-athletics:minority:2026-07-23:na"
+    },
+    {
+      "teamId": "seattle-seahawks",
+      "type": "control",
+      "dateAnnounced": "2026-07-11",
+      "dateApproved": "2026-08-26",
+      "status": "closed",
+      "note": null,
+      "valuation": 9612000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 100,
+      "tranche": null,
+      "buyer": "Khosla family (Neeru Khosla controlling owner; Vinod Khosla chair; Neal Khosla vice chair) with co-investors incl. Mark Stevens, Penny Pritzker, Carlyle and Dynasty Equity, Sixth Street",
+      "seller": "Estate of Paul G. Allen",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 13.6,
+      "revenueAtDeal": 707000000,
+      "revenueYear": 2025,
+      "forbesValueAtSale": 6450000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.4902,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Paul Allen's will required the estate to sell the team and route the proceeds to philanthropy, so the estate launched the sale on February 18, 2026, ten days after the Super Bowl LX win.",
+          "source": "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "Allen & Co. ran a five-month process that drew at least six suitors and four formal bids, and it came down to Khosla against a Wyc Grousbeck and Aditya Mittal group. That head-to-head finish pushed the price to $9.612B, 59% above the Commanders' $6.05B record.",
+          "source": "https://frontofficesports.com/seahawks-set-nfl-record-with-9-612b-sale-to-49ers-minority-investor/"
+        },
+        {
+          "id": "scarcityAndTiming",
+          "text": "NFL control stakes almost never trade, and this one hit the market as the reigning champion. Khosla said it plainly: 'How often do you get to buy a franchise that just won the Super Bowl?'",
+          "source": "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The price works out to roughly 13.6x to 15.0x revenue, the highest multiple ever paid for a team. It beat the 13.4x that Arctos paid for its Browns stake two months earlier and reflects rising national media money and strong demand for live sports.",
+          "source": "https://www.dakota.com/resources/blog/khosla-family-agrees-to-acquire-seattle-seahawks-for-record-9.6-billion-resetting-nfl-valuations"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1135,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $9.61B means the franchise has to be worth $18.91B in 10 years to return 7% a year. Measured from the $6.45B Forbes mark, that requires 11.4% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 1.7 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group",
+        "https://www.nfl.com/news/nfl-owners-approve-sale-seattle-seahawks-khosla-family",
+        "https://www.seahawks.com/news/seattle-seahawks-sale-to-the-khosla-family-is-complete",
+        "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/",
+        "https://www.dakota.com/resources/blog/khosla-family-agrees-to-acquire-seattle-seahawks-for-record-9.6-billion-resetting-nfl-valuations"
+      ],
+      "isEstimated": true,
+      "details": "Seed figures confirmed: $9.612B for 100% of Football Northwest LLC (includes Lumen Field lease through 2032), agreed Jul 11, unanimously approved Aug 26, closed Sep 3 2026 (team release). 13.6x 2025 revenue is Sportico's figure ('just over $700M', from the Allen & Co. sales deck); revenueAtDeal is implied ($9.612B/13.6), hence isEstimated. S&P Global Market Intelligence instead puts the multiple at ~15.0x. Khosla had to divest his 3.1% 49ers stake. Financing not disclosed.",
+      "key": "seattle-seahawks:control:2026-07-11:100"
+    },
+    {
+      "teamId": "toronto-maple-leafs",
+      "type": "minority",
+      "dateAnnounced": "2026-07-06",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 12233418000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "holding company",
+      "stakePct": 25,
+      "tranche": null,
+      "buyer": "Rogers Communications",
+      "seller": "Kilmer Sports Inc. (Larry Tanenbaum; OMERS)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 4250000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Dec 2025",
+      "premiumToForbes": 1.8785,
+      "drivers": [
+        {
+          "id": "portfolioSynergy",
+          "text": "Rogers already owns the Blue Jays, Rogers Centre and Sportsnet, and full MLSE ownership lets it fold the Leafs, Raptors, TFC and Argos into one sports and media entity. The C$17.4B mark covers all of MLSE, not the Leafs alone, which explains most of the gap to the Forbes team value.",
+          "source": "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The implied C$17.4B is 39% above the C$12.5B mark Rogers paid Bell for 37.5% just 12 months earlier. The next step is a minority sale of 20 to 30% of a consolidated entity valued near C$25B, priced off team transaction comps instead of telecom multiples.",
+          "source": "https://fanclubsports.substack.com/p/owners-club-rogers-buys-out-kilmer"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "Rogers held an option to buy out Kilmer's final 25%, and reaching 100% is the precondition for recapitalizing the combined sports assets. Rogers plans to sell a minority stake in that consolidated business within a year, so buying out the last partner clears the cap table first.",
+          "source": "https://ca.news.yahoo.com/rogers-become-sole-owner-mlse-125105321.html"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1893,
+        "leagueTrailingDecade": 0.1328,
+        "text": "Paying $12.23B means the franchise has to be worth $24.06B in 10 years to return 7% a year. Measured from the $4.25B Forbes mark, that requires 18.9% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 5.7 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/",
+        "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583"
+      ],
+      "isEstimated": false,
+      "details": "Rogers is buying the last 25% of MLSE for C$4.35B, which implies C$17.4B for 100%; close expected Q4 2026 pending league approvals. Entity is MLSE (Leafs, Raptors, TFC, Argos, Marlies, arena). Converted at 0.70307 USD/CAD (ECB reference rate via frankfurter.app, 2026-07-06). Rogers also said it plans to sell a minority stake in its combined sports/media assets within a year (not agreed).",
+      "key": "toronto-maple-leafs:minority:2026-07-06:25"
+    },
+    {
+      "teamId": "miami-marlins",
+      "type": "minority",
+      "dateAnnounced": "2026-06-01",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 1550000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 15,
+      "tranche": null,
+      "buyer": "Two unnamed South Florida families",
+      "seller": "Bruce Sherman ownership group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1300000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.1923,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Sherman sold 15% mostly to pay down debt and to cushion against a proposed salary floor of $150M to $171.2M, against a Marlins payroll near $79M. His stake has appreciated only 20 to 25% since the $1.2B purchase in 2017, so this is a liquidity raise, not a market-clearing sale.",
+          "source": "https://www.sportcal.com/news/mlbs-marlins-sell-15-stake-in-debt-payoff-as-salary-floor-prospect-looms/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.089,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $1.55B means the franchise has to be worth $3.05B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 8.9% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 1.5 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/miami-marlins-ownership-stake-value-1234901684/",
+        "https://www.sportcal.com/news/mlbs-marlins-sell-15-stake-in-debt-payoff-as-salary-floor-prospect-looms/"
+      ],
+      "isEstimated": true,
+      "details": "Sportico reported that about 15% was sold 'this spring' (2026) at $1.55B; another source put it closer to $1.4B. Proceeds (~$233M) went to debt paydown. The 2026-06-01 date is Sportcal's publication date; the exact deal date is undisclosed. Sportcal appears to follow Sportico, so the two sources may not be fully independent.",
+      "key": "miami-marlins:minority:2026-06-01:15"
+    },
+    {
+      "teamId": "columbus-crew-sc",
+      "type": "minority",
+      "dateAnnounced": "2026-05-29",
+      "dateApproved": "2026-06-25",
+      "status": "closed",
+      "note": null,
+      "valuation": 900000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 37,
+      "tranche": null,
+      "buyer": "Nationwide Mutual Insurance",
+      "seller": "Haslam Sports Group (30%) and Edwards family (7%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 800000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.125,
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "Nationwide is a Columbus-headquartered insurer, the Crew's jersey sponsor since 2021, and part of the group awarded Columbus's 2028 NWSL franchise. A hometown strategic buyer pays for civic and brand alignment, not just financial return.",
+          "source": "https://www.aol.com/articles/nationwide-officially-joins-columbus-crew-171249786.html"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The $900M mark is six times the $150M the Haslam and Edwards families paid MLS in 2018, and it clears recent MLS comps: Real Salt Lake under $600M in 2025 and Sporting KC's majority stake at $700M earlier in 2026.",
+          "source": "https://fieldlevelmedia.com/mls/reports-nationwide-buying-37-stake-in-crew-at-900m-valuation/"
+        }
+      ],
+      "investmentCase": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/mls-columbus-crew-nationwide-stake-sale-1234901712/",
+        "https://fieldlevelmedia.com/mls/reports-nationwide-buying-37-stake-in-crew-at-900m-valuation/",
+        "https://www.aol.com/articles/nationwide-officially-joins-columbus-crew-171249786.html"
+      ],
+      "isEstimated": false,
+      "details": "Needed MLS Board of Governors approval. Nationwide was announced as a minority owner on 2026-06-25, which is recorded as dateApproved; the team release called it a 'meaningful minority stake' and gave no %. The Haslams remain control owners at 40%. Nationwide is also the Crew's jersey sponsor.",
+      "key": "columbus-crew-sc:minority:2026-05-29:37"
+    },
+    {
+      "teamId": "cleveland-browns",
+      "type": "minority",
+      "dateAnnounced": "2026-05-19",
+      "dateApproved": "2026-05-19",
+      "status": "approved",
+      "note": null,
+      "valuation": 9000000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 3,
+      "tranche": null,
+      "buyer": "Arctos Partners",
+      "seller": "Haslam Sports Group (Jimmy and Dee Haslam)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 13.4,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 5600000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.6071,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.122,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $5.60B Forbes mark, that requires 12.2% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 0.9 points a year."
+      },
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-05-19/cleveland-browns-said-to-sell-stake-to-private-equity-at-9-billion-valuation",
+        "https://www.crainscleveland.com/sports-recreation/ccl-browns-arctos-20260519/",
+        "https://www.sportcal.com/news/arctos-acquires-browns-stake-raiders-stakeholder-divests-in-nfl-scramble/",
+        "https://sports.yahoo.com/articles/arctos-browns-investment-latest-30-210024104.html"
+      ],
+      "isEstimated": true,
+      "details": "Seed confirmed. First tranche (~3%; SportsPro says 3.2%) of a planned 10% across three tranches (~$900M total); Bloomberg says 'more than $9B'. Proceeds support the Brook Park stadium. 13.4x revenue multiple is S&P Global Market Intelligence's figure (seen via search snippet only). Later tranches not yet reported approved.",
+      "key": "cleveland-browns:minority:2026-05-19:3"
+    },
+    {
+      "teamId": "las-vegas-raiders",
+      "type": "minority",
+      "dateAnnounced": "2026-05-14",
+      "dateApproved": "2026-05-19",
+      "status": "approved",
+      "note": null,
+      "valuation": 9900000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 25.3,
+      "tranche": null,
+      "buyer": "Egon Durban-led group: Egon Durban (~11%), Michael Meldman (~5.4%), Michael Dell (5.3%), Joseph Baratta (1.7%), Ari Emanuel (1.4%), Mark Shapiro (0.6%)",
+      "seller": "First Football (Paul Leff, David Abrams, Dan Goldring), exiting its entire stake held since 2007",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 7800000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.2692,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0958,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $9.90B means the franchise has to be worth $19.47B in 10 years to return 7% a year. Measured from the $7.80B Forbes mark, that requires 9.6% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.5 points a year."
+      },
+      "sources": [
+        "https://www.cnbc.com/2026/05/14/group-led-by-egon-durban-to-buy-25percent-of-las-vegas-raiders-at-9point9-billion-valuation-sources.html",
+        "https://www.reviewjournal.com/sports/raiders/raiders-minority-stake-sale-dell-founder-tko-execs-now-among-owners-3827088/",
+        "https://www.sportcal.com/news/arctos-acquires-browns-stake-raiders-stakeholder-divests-in-nfl-scramble/",
+        "https://variety.com/2026/biz/news/ari-emanuel-mark-shapiro-las-vegas-raiders-owners-1236753941/",
+        "https://www.sportspro.com/news/finance-investment/las-vegas-raiders-tko-shapiro-emanuel-browns-arctosinvestment-may-2026/"
+      ],
+      "isEstimated": true,
+      "details": "$9.9B is the enterprise value; total consideration was ~$11B including the 10% relocation 'flip tax' paid to the league. The Emanuel/Shapiro stakes are part of this single 25.3% transaction, not separate deals. After closing Durban ~22%, Meldman ~12.9%. Approval 'Tuesday in Orlando' at the May spring meeting = May 19, 2026 (date inferred from meeting timing); closing was expected late May but not confirmed.",
+      "key": "las-vegas-raiders:minority:2026-05-14:25.3"
+    },
+    {
+      "teamId": "san-diego-padres",
+      "type": "control",
+      "dateAnnounced": "2026-05-02",
+      "dateApproved": "2026-08-17",
+      "status": "closed",
+      "note": null,
+      "valuation": 3900000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 40,
+      "tranche": null,
+      "buyer": "José E. Feliciano and Kwanza Jones (Feliciano is control person); minority partners incl. Joey and Jesse Buss",
+      "seller": "Seidler family (Peter Seidler trust)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 2050000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.9024,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The Seidlers put the club up for sale in November 2024, a year after Peter Seidler's death, and a suit by his widow Sheel against his brothers over the trust had to settle first. An estate-driven sale with a family dispute behind it put a control stake on the market.",
+          "source": "https://www.mlbtraderumors.com/2026/04/seidler-family-nearing-deal-to-sell-padres-to-jose-e-feliciano.html"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "Four finalists each bid more than $3.5B: Feliciano and Jones, Joe Lacob, Tom Gores and Dan Friedkin. That competition pushed the price to $3.9B, well past the $2.4B Mets record, before netting roughly $300M of franchise debt.",
+          "source": "https://www.mlbtraderumors.com/2026/04/seidler-family-nearing-deal-to-sell-padres-to-jose-e-feliciano.html"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Feliciano co-founded Clearlake Capital and is a private equity billionaire. He takes control as baseball's second Latino principal owner with about 40% of the equity, with Joey and Jesse Buss among his minority partners.",
+          "source": "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1411,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $3.90B means the franchise has to be worth $7.67B in 10 years to return 7% a year. Measured from the $2.05B Forbes mark, that requires 14.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 6.7 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.espn.com/mlb/story/_/id/48659063/padres-reach-agreement-sell-group-led-kwanza-jones-jose-e-feliciano",
+        "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres",
+        "https://www.forbes.com/sites/antoniopequenoiv/2026/08/17/billionaire-jos-felicianos-39-billion-san-diego-padres-acquisition-approved/",
+        "https://www.mlb.com/news/padres-sale-to-jose-e-feliciano-and-kwanza-jones-approved-by-mlb",
+        "https://www.mlb.com/padres/news/sale-of-padres-successfully-completed/c-37535650",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_E._Feliciano"
+      ],
+      "isEstimated": true,
+      "details": "Seed corrected on dates: the agreement was announced May 2, 2026 (after an Apr 22 report in The Athletic), not 'early 2026'. MLB owners approved unanimously Aug 17, 2026. A team release titled 'Sale of Padres successfully completed' followed, and the owners were introduced Aug 24; the exact closing date was not captured. The buyers get control with about 40% of the equity (ESPN, The Athletic); the Seidler family keeps some equity. $3.9B is the reported valuation (an MLB record at the time).",
+      "key": "san-diego-padres:control:2026-05-02:40"
+    },
+    {
+      "teamId": "las-vegas-raiders",
+      "type": "minority",
+      "dateAnnounced": "2026-03-31",
+      "dateApproved": "2026-03-31",
+      "status": "approved",
+      "note": null,
+      "valuation": 11100000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 3.5,
+      "tranche": null,
+      "buyer": "Egon Durban (some reports also name Michael Meldman)",
+      "seller": "Mark Davis",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 7800000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.4231,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1084,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $11.10B means the franchise has to be worth $21.84B in 10 years to return 7% a year. Measured from the $7.80B Forbes mark, that requires 10.8% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 2.2 points a year."
+      },
+      "sources": [
+        "https://www.cnbc.com/2026/03/31/nfl-approves-sale-of-3point5percent-of-las-vegas-raiders-at-over-11-billion-valuation.html",
+        "https://las-vegas-news.com/las-vegas-raiders-hit-11-1-billion-valuation-in-landmark-minority-stake-approval/",
+        "https://www.yardbarker.com/nfl/articles/nfl_approves_11b_raiders_sale_as_franchise_value_soars_669_since_2015/s1_17755_43856181"
+      ],
+      "isEstimated": true,
+      "details": "CORRECTED from seed (7%): the NFL approved 3.5%, with another 3.5% expected to follow later (not separately confirmed). CNBC says 'over $11 billion'; $11.1B is the most-cited figure, and it appears to include the 10% flip tax paid to the NFL, so ex-tax EV is lower (not reported). Approved alongside Davis's succession plan giving Durban a right of first refusal on control.",
+      "key": "las-vegas-raiders:minority:2026-03-31:3.5"
+    },
+    {
+      "teamId": "carolina-hurricanes",
+      "type": "minority",
+      "dateAnnounced": "2026-03-05",
+      "dateApproved": "2026-03-10",
+      "status": "approved",
+      "note": null,
+      "valuation": 2660000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 12.5,
+      "tranche": null,
+      "buyer": "Brett Jefferson, Marc Grandisson, Bobby Farnham",
+      "seller": "Tom Dundon",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1300000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Dec 2025",
+      "premiumToForbes": 1.0462,
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "Dundon controls 80 acres around Raleigh's Lenovo Center and is building a mixed-use sports and entertainment district there. Under his ownership season-ticket revenue is up 227% and sponsorships 168%, and the $2.66B mark sits well above Sportico's prior $2B estimate.",
+          "source": "https://www.wunc.org/business-economy/2026-03-05/carolina-hurricanes-tom-dundon-sells-portland-trailblazers-raleigh-lenovo-center"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "The three LPs are Hildene Capital founder Brett Jefferson, a Durham season-ticket holder; former Arch Capital CEO Marc Grandisson, who is moving to Raleigh; and ex-NHL player Bobby Farnham. Wealthy local and hockey-connected individuals pay for the seat, not for control, since Dundon stays lead governor.",
+          "source": "https://www.nhl.com/hurricanes/news/hurricanes-announce-new-ownership-investors"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1494,
+        "leagueTrailingDecade": 0.1328,
+        "text": "Paying $2.66B means the franchise has to be worth $5.23B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 14.9% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 1.7 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/carolina-hurricanes-sale-owners-tom-dundon-1234886395/",
+        "https://www.wral.com/sports/carolina-hurricanes-owner-tom-dundon-sells-stake-in-team-billion-march-2026/",
+        "https://www.wunc.org/business-economy/2026-03-05/carolina-hurricanes-tom-dundon-sells-portland-trailblazers-raleigh-lenovo-center",
+        "https://www.espn.com/nhl/story/_/id/48187704/dundon-sells-stake-hurricanes-three-minority-owners",
+        "https://www.sportico.com/business/team-sales/2026/carolina-hurricanes-stake-sale-approved-nhl-owners-1234886840/",
+        "https://www.nhl.com/hurricanes/news/hurricanes-announce-new-ownership-investors"
+      ],
+      "isEstimated": false,
+      "details": "Seed corrected: the three buyers were named when the club announced them on Mar 12, 2026 (Jefferson, Grandisson and ex-NHL player Farnham), so they are not undisclosed. The 12.5% at $2.66B (Sportico) is confirmed. NHL owners approved on 'Tuesday' (Sportico), which I dated to Mar 10, 2026 (the Tuesday before the Mar 12 announcement). Sportico said it had not closed yet as of then.",
+      "key": "carolina-hurricanes:minority:2026-03-05:12.5"
+    },
+    {
+      "teamId": "miami-dolphins",
+      "type": "minority",
+      "dateAnnounced": "2026-03-03",
+      "dateApproved": "2026-03-31",
+      "status": "approved",
+      "note": null,
+      "valuation": 12500000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team + assets",
+      "stakePct": 1,
+      "tranche": null,
+      "buyer": "Lin Bin (Xiaomi co-founder)",
+      "seller": "Stephen Ross",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 8100000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.5432,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1174,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $8.10B Forbes mark, that requires 11.7% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 1.3 points a year."
+      },
+      "sources": [
+        "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-bin-lin",
+        "https://www.bloomberg.com/news/articles/2026-03-03/lin-bin-to-buy-miami-dolphins-stake-at-12-5-billion-valuation",
+        "https://www.sportico.com/business/team-sales/2026/miami-dolphins-stake-sale-lin-bin-record-valuation-1234886169/",
+        "https://www.sportspro.com/news/finance-investment/miami-dolphins-lin-bin-investment-stake-record-valuation-march-2026/"
+      ],
+      "isEstimated": false,
+      "details": "Seed confirmed. The 1% is in the Ross holding company: Dolphins plus Hard Rock Stadium, the F1 Miami Grand Prix and the Miami Open. So $12.5B is NOT a team-only valuation. Approved by the NFL Mar 31, 2026; the team said closing was expected within days (not confirmed).",
+      "key": "miami-dolphins:minority:2026-03-03:1"
+    },
+    {
+      "teamId": "sporting-kansas-city",
+      "type": "control",
+      "dateAnnounced": "2026-01-20",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 700000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 71,
+      "tranche": null,
+      "buyer": "Peter Mallouk (Creative Planning CEO; existing minority owner since 2022)",
+      "seller": "Illig family (Sporting Club)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 700000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes MLS Nov 2025",
+      "premiumToForbes": 0,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/",
+        "https://www.insideworldfootball.com/2026/01/20/peter-mallouk-takes-control-sporting-kansas-city-sign-times-mls/",
+        "https://africa.espn.com/football/story/_/id/47663817/sporting-kc-majority-stake-sold-700m-valuation"
+      ],
+      "isEstimated": false,
+      "details": "Mallouk bought ~71% from the Illig family, taking him to ~80%; $700M is the reported enterprise value (Forbes/KC Star), called the highest price ever for an MLS majority stake. IWF says the deal was finalized in December 2025 and made public in mid-January 2026 (KC Star reported it ~Jan 16-17). The Illig family (below 10%) keeps day-to-day operations and the MLS board seat, so Mallouk has majority economics but not operating control.",
+      "key": "sporting-kansas-city:control:2026-01-20:71"
+    },
+    {
+      "teamId": "pittsburgh-penguins",
+      "type": "control",
+      "dateAnnounced": "2025-12-18",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 1700000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Hoffmann Family of Companies (David Hoffmann family)",
+      "seller": "Fenway Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1750000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes 2025; sold to Hoffmann Family Dec 2025 at $1.7B enterprise value",
+      "premiumToForbes": -0.0286,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0669,
+        "leagueTrailingDecade": 0.1328,
+        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.75B Forbes mark, that requires 6.7% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.6 points a year."
+      },
+      "sources": [
+        "https://www.sportspro.com/news/finance-investment/pittsburgh-penguins-sale-hoffmann-family-fsg-nhl-ownership-december-2025/",
+        "https://www.floridaweekly.com/articles/fort-myers-arts-and-entertainment-news/fort-myers/bonita-springs/hoffmann-acquires-pittsburgh-penguins/",
+        "https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
+      ],
+      "isEstimated": true,
+      "details": "~US$1.7B was reported by Sportsnet's Elliotte Friedman and is not official. FSG paid ~$900M in 2021. The NHL Board of Governors approved unanimously (Florida Weekly; exact date not captured). Wikipedia says the Hoffmanns took full control June 23, 2026 and lists Mario Lemieux as a remaining minority owner, so stakePct is left null.",
+      "key": "pittsburgh-penguins:control:2025-12-18:na"
+    },
+    {
+      "teamId": "minnesota-twins",
+      "type": "minority",
+      "dateAnnounced": "2025-12-17",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 1750000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 20,
+      "tranche": null,
+      "buyer": "Glick Family Investments, George G. Hicks, Craig Leipold",
+      "seller": "Pohlad family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1550000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025",
+      "premiumToForbes": 0.129,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0831,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $1.75B means the franchise has to be worth $3.44B in 10 years to return 7% a year. Measured from the $1.55B Forbes mark, that requires 8.3% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 0.9 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html",
+        "https://www.si.com/mlb/twins/onsi/minnesota-twins-news/pohalds-set-to-reveal-20-percent-sale-of-twins-to-3-limited-partners-insider-says",
+        "https://www.audacy.com/wccoradio/local-sports/minnesota-twins/twins-new-leadership-with-tom-pohlad-announce-new-investors",
+        "https://www.sportico.com/business/team-sales/2025/minnesota-twins-sale-pohlads-control-minority-partners-1234866859/"
+      ],
+      "isEstimated": true,
+      "details": "The Pohlads ended their control-sale process in Aug 2025 and brought in LPs instead. The Dec 17, 2025 announcement: just over 20% at a reported $1.75B (The Athletic, Dan Hayes), about $350M, used to pay down roughly $400-500M of debt. The valuation is reported, not official. Closing and MLB approval dates were not confirmed.",
+      "key": "minnesota-twins:minority:2025-12-17:20"
+    },
+    {
+      "teamId": "new-england-patriots",
+      "type": "minority",
+      "dateAnnounced": "2025-09-25",
+      "dateApproved": "2025-10-22",
+      "status": "closed",
+      "note": null,
+      "valuation": 9000000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 8,
+      "tranche": null,
+      "buyer": "Dean Metropoulos (5%) and Sixth Street (3%)",
+      "seller": "Kraft family (new equity; proceeds stay on the team balance sheet)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 8000000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.125,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0827,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $8.00B Forbes mark, that requires 8.3% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 4.8 points a year."
+      },
+      "sources": [
+        "https://www.cnbc.com/2025/09/25/robert-kraft-agrees-to-sell-new-england-patriots-minority-stake-in-deal-that-values-team-at-9b.html",
+        "https://www.axios.com/2025/09/25/bob-kraft-patriots-sale",
+        "https://www.sportico.com/business/team-sales/2025/new-england-patriots-stake-sale-sixth-street-1234872048/",
+        "https://www.sportcal.com/news/nfl-approves-minority-stake-sales-for-giants-49ers-patriots/"
+      ],
+      "isEstimated": true,
+      "details": "CORRECTED dates vs seed 'Nov 2025': announced Sep 25, approved Oct 22, reported closed Nov 11, 2025 (closing date from a single source). $9B is pre-money; Sportico gives $9.7B post-money. Proceeds (~$720M) are primary capital. Excludes the New England Revolution. This was Sixth Street's first NFL deal.",
+      "key": "new-england-patriots:minority:2025-09-25:8"
+    },
+    {
+      "teamId": "san-francisco-49ers",
+      "type": "minority",
+      "dateAnnounced": "2025-09-24",
+      "dateApproved": "2025-10-22",
+      "status": "approved",
+      "note": null,
+      "valuation": 8600000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 3.2,
+      "tranche": null,
+      "buyer": "Pete Briger Jr. (Fortress Investment Group) and family",
+      "seller": "San Francisco 49ers / York family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 8500000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.0118,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0713,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $8.50B Forbes mark, that requires 7.1% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 6.0 points a year."
+      },
+      "sources": [
+        "https://www.sfchronicle.com/sports/49ers/article/49ers-agree-sell-minority-stake-bay-area-s-pete-21065577.php",
+        "https://www.49erswebzone.com/articles/194600-additional-bringing-new-partner-ownership/",
+        "https://www.almanacnews.com/sports/2025/10/22/menlo-park-resident-buys-275m-stake-in-san-francisco-49ers/",
+        "https://www.sportcal.com/news/nfl-approves-minority-stake-sales-for-giants-49ers-patriots/"
+      ],
+      "isEstimated": true,
+      "details": "Second 2025 49ers LP sale (not a seed item). About $272–275M for 3.2%, valuation reported as $8.5–8.6B. Approved at the Oct 2025 fall meeting with the Giants and Patriots deals. York family retains ~85%.",
+      "key": "san-francisco-49ers:minority:2025-09-24:3.2"
+    },
+    {
+      "teamId": "portland-trail-blazers",
+      "type": "control",
+      "dateAnnounced": "2025-09-13",
+      "dateApproved": "2026-03-30",
+      "status": "closed",
+      "note": "Tranche 1 of 2. Remaining 19.9% transfers by Sept 1, 2028 at a $4.5B valuation.",
+      "valuation": 4000000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 80.1,
+      "tranche": 1,
+      "buyer": "Tom Dundon-led group (incl. Marc Zahr, Sheel Tyle, Cherng Family Trust)",
+      "seller": "Estate of Paul G. Allen",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 3600000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.1111,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Paul Allen's will required his teams to be sold with the proceeds going to philanthropy. The estate was a motivated seller, which helps explain a price only 11% above Forbes in a hot NBA market.",
+          "source": "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "Oregon passed SB 1501 to borrow $365M for Moda Center renovations, repaid over two decades from tax revenue. That keeps the franchise in Portland and moves arena capex off the buyer's balance sheet.",
+          "source": "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/"
+        },
+        {
+          "id": "mediaRightsCycle",
+          "text": "Dundon bought at the start of the NBA's $76B, 11-year national deal, which pays about $6.9B a season from 2025-26, 160% more than before. That income is shared equally, so it lifts small-market teams like Portland the most.",
+          "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0813,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $3.60B Forbes mark, that requires 8.1% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.1 points a year."
+      },
+      "sources": [
+        "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+        "https://www.espn.com/nba/story/_/id/48350814/nba-board-governors-approves-portland-trail-blazers-sale-group-led-tom-dundon",
+        "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/",
+        "https://www.hoopsrumors.com/2026/03/nba-approves-trail-blazers-sale-to-tom-dundon.html",
+        "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon",
+        "https://www.sportico.com/business/team-sales/2025/dundon-portland-trail-blazers-sale-paul-allen-1234866910/"
+      ],
+      "isEstimated": false,
+      "details": "CORRECTED from seed ($4.25B blended). The deal has two tranches: 80.1% at a $4.0B valuation closed March 31, 2026, and the remaining 19.9% at $4.5B closes no later than Sept 1, 2028 (Portland Tribune, Hoops Rumors, Blazer's Edge). The widely cited '$4.25B' (Sportico and SportsPro, Sept 2025; Hoops Rumors) does not match those tranches, which blend to about $4.10B (ProFootballNetwork reports $4.1B). I record the closed tranche at $4.0B. The formal agreement was announced Sept 13, 2025 (a tentative deal was reported in Aug 2025). The NBA approved it March 30, 2026 (ESPN and KLCC say March 31). Allen bought the team for $70M in 1988.",
+      "key": "portland-trail-blazers:control:2025-09-13:80.1"
+    },
+    {
+      "teamId": "portland-trail-blazers",
+      "type": "control",
+      "dateAnnounced": "2025-09-13",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": "Tranche 2 of 2: remaining 19.9% scheduled to transfer by Sept 1, 2028 at a $4.5B valuation.",
+      "valuation": 4500000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 19.9,
+      "tranche": 2,
+      "buyer": "Tom Dundon-led group (incl. Marc Zahr, Sheel Tyle, Cherng Family Trust)",
+      "seller": "Estate of Paul G. Allen",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 3600000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.25,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The Allen estate, bound by Paul Allen's will to sell and give the proceeds to philanthropy, agreed to sell the last 19.9% at a price fixed in advance. The tranche closes by September 1, 2028.",
+          "source": "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "The deferred tranche is priced at $4.5B, $500M above the first 80.1%, and sits on a franchise that Oregon's $365M Moda Center renovation bill locks into Portland. The step-up prices in value the arena deal creates between now and 2028.",
+          "source": "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0941,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $3.60B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.9 points a year."
+      },
+      "sources": [
+        "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+        "https://www.espn.com/nba/story/_/id/48350814/nba-board-governors-approves-portland-trail-blazers-sale-group-led-tom-dundon",
+        "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/",
+        "https://www.hoopsrumors.com/2026/03/nba-approves-trail-blazers-sale-to-tom-dundon.html",
+        "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon",
+        "https://www.sportico.com/business/team-sales/2025/dundon-portland-trail-blazers-sale-paul-allen-1234866910/"
+      ],
+      "isEstimated": false,
+      "details": "CORRECTED from seed ($4.25B blended). The deal has two tranches: 80.1% at a $4.0B valuation closed March 31, 2026, and the remaining 19.9% at $4.5B closes no later than Sept 1, 2028 (Portland Tribune, Hoops Rumors, Blazer's Edge). The widely cited '$4.25B' (Sportico and SportsPro, Sept 2025; Hoops Rumors) does not match those tranches, which blend to about $4.10B (ProFootballNetwork reports $4.1B). I record the closed tranche at $4.0B. The formal agreement was announced Sept 13, 2025 (a tentative deal was reported in Aug 2025). The NBA approved it March 30, 2026 (ESPN and KLCC say March 31). Allen bought the team for $70M in 1988.",
+      "key": "portland-trail-blazers:control:2025-09-13:19.9"
+    },
+    {
+      "teamId": "new-york-giants",
+      "type": "minority",
+      "dateAnnounced": "2025-09-03",
+      "dateApproved": "2025-10-22",
+      "status": "approved",
+      "note": null,
+      "valuation": 10300000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 10,
+      "tranche": null,
+      "buyer": "Julia Koch and family",
+      "seller": "Mara and Tisch families",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 8000000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025",
+      "premiumToForbes": 0.2875,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0974,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $10.30B means the franchise has to be worth $20.26B in 10 years to return 7% a year. Measured from the $8.00B Forbes mark, that requires 9.7% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.3 points a year."
+      },
+      "sources": [
+        "https://www.cnbc.com/2025/10/22/nfl-sale-minority-stake-giants-koch.html",
+        "https://www.nfl.com/news/nfl-owners-approve-sale-10-percent-giants-julia-koch-family",
+        "https://www.espn.com/nfl/story/_/id/46151970/reports-koch-family-buy-stake-giants-10b-valuation",
+        "https://sports.yahoo.com/articles/giants-valued-10-3-billion-160200600.html"
+      ],
+      "isEstimated": true,
+      "details": "Seed confirmed; Oct 2025 is the approval date, and Bloomberg first reported the deal Sep 3, 2025. Initial reports said ~$10B. $10.3B at approval (CNBC) is the most cited; a Sportico summary said 'just over $10.5B'. Unanimous approval at the fall meeting.",
+      "key": "new-york-giants:minority:2025-09-03:10"
+    },
+    {
+      "teamId": "chicago-bears",
+      "type": "minority",
+      "dateAnnounced": "2025-08-07",
+      "dateApproved": "2025-09-24",
+      "status": "closed",
+      "note": null,
+      "valuation": 8900000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 2.35,
+      "tranche": null,
+      "buyer": "McCaskey family (two-thirds) and Ryan family (one-third)",
+      "seller": "Estate of Andrew McKenna Sr.",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 6400000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.3906,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1059,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $8.90B means the franchise has to be worth $17.51B in 10 years to return 7% a year. Measured from the $6.40B Forbes mark, that requires 10.6% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 2.5 points a year."
+      },
+      "sources": [
+        "https://www.cnbc.com/2025/09/24/nfl-approves-sale-of-stake-in-chicago-bears-at-8point9-billion-valuation-sources.html",
+        "https://chicago.suntimes.com/bears/2025/09/24/nfl-approval-of-bears-sale-of-minority-stake-raises-valuation-to-8-9-billion-report",
+        "https://www.sportico.com/business/team-sales/2025/chicago-bears-stake-sold-mccaskey-ryan-mckenna-1234866271/",
+        "https://www.bloomberg.com/news/articles/2025-08-08/chicago-bears-reset-board-after-stake-sale-at-8-8-billion-value"
+      ],
+      "isEstimated": true,
+      "details": "Seed confirmed (2.3–2.35%). Existing owners bought out an estate's stake, so this is a consolidation with no new investor. First reported in August at $8.8B (Sportico/Bloomberg); $8.9B at approval (CNBC/Sun-Times) is the most cited. Reported finalized late Sep 2025.",
+      "key": "chicago-bears:minority:2025-08-07:2.35"
+    },
+    {
+      "teamId": "austin-fc",
+      "type": "minority",
+      "dateAnnounced": "2025-07-15",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 912000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Jenny Just & Matt Hulsizer (PEAK6), Tench Coxe, Dave Snyderman, Tanuj Gulati; later FirstTracks Sports Ventures (Jon-Erik Borgen)",
+      "seller": "Existing Austin FC investors (not disclosed); Precourt Sports Ventures remains majority owner",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 825000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes (May 2025); $912M implied by minority stake transactions",
+      "premiumToForbes": 0.1055,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/austin-fc-new-investors-valuation-mls-1234862161/",
+        "https://www.sportico.com/business/team-sales/2025/austin-fc-investors-borgen-family-912-million-valuation-1234874796/",
+        "https://communityimpact.com/austin/northwest-austin/arts-entertainment/2025/08/04/austin-fc-welcomes-new-members-to-clubs-ownership-group/",
+        "https://www.austinfc.com/news/firsttracks-sports-ventures-joins-austin-fc-ownership-group-austin-fc-successfully-completes-planned-equity-raise"
+      ],
+      "isEstimated": true,
+      "details": "Two outlets plus a team release confirm the equity raise (5 investors in mid-July 2025, then FirstTracks/Borgen later in 2025, which completed the planned raise). The $912M enterprise value (equity plus debt) comes from Sportico alone, and the date is approximate ('mid-July 2025'). Stake size and sellers were not disclosed.",
+      "key": "austin-fc:minority:2025-07-15:na"
+    },
+    {
+      "teamId": "brentford",
+      "type": "minority",
+      "dateAnnounced": "2025-07-15",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 536000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 10,
+      "tranche": null,
+      "buyer": "Gary Lubner (This Day Sports and Media) and Sir Matthew Vaughn (MARV Bee)",
+      "seller": "Matthew Benham / Best Intentions Analytics (holding company)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": null,
+      "forbesListYear": null,
+      "forbesSource": null,
+      "premiumToForbes": null,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://www.sportspro.com/news/brentford-investment-gary-lubner-matthew-vaughn-benham-july-2025/",
+        "https://www.insideworldfootball.com/2025/07/16/lubner-vaughn-take-minority-stakes-brentford/",
+        "https://www.brentfordfc.com/en/news/article/club-news-brentford-new-investment-gary-lubner-sir-matthew-vaughn"
+      ],
+      "isEstimated": true,
+      "details": "The deal is confirmed by a club release and two outlets. The £400M ($536M per SportsPro, about 1.34 USD/GBP; spot on 2025-07-16 was 1.3399) valuation comes only from Sky News via SportsPro. Stake size is unclear: IWF says the combined stakes are no more than 10%, while SportsPro says up to 25% could change hands over time. It was structured through Best Intentions Analytics (which also owns Merida AD), and Benham stays majority owner.",
+      "key": "brentford:minority:2025-07-15:10"
+    },
+    {
+      "teamId": "columbus-crew-sc",
+      "type": "minority",
+      "dateAnnounced": "2025-07-01",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 900000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 10,
+      "tranche": null,
+      "buyer": "Edwards family (existing co-owner)",
+      "seller": "Haslam Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 800000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes (latest list in site data; newer list not yet loaded)",
+      "premiumToForbes": 0.125,
+      "drivers": [
+        {
+          "id": "multipleExpansion",
+          "text": "Sportico valued the Crew at $730M earlier in 2025, so the $900M mark is a $170M step-up in months. The Crew won the 2023 MLS Cup and 2024 Leagues Cup and has sold out nearly every match since the $314M Lower.com Field opened in 2021.",
+          "source": "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "This was a transfer between existing partners: the Edwards family went from 20% to 30% while Haslam Sports Group, which also owns the Browns and controls the Bucks, kept 70% and control. Insider buyers with full information set the mark, with no auction.",
+          "source": "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report"
+        }
+      ],
+      "investmentCase": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report",
+        "https://www.crainscleveland.com/sports-recreation/haslam-sports-group-sells-stake-columbus-crew/",
+        "https://www.wkyc.com/article/sports/nfl/browns/columbus-crew-owners-sell-10-percent-of-team-at-900m-valuation/530-c1e8063d-ccea-4341-a02e-3dedb4d18064"
+      ],
+      "isEstimated": false,
+      "details": "A sale between existing partners, first reported by Sportico: the Edwards family went from 20% to 30% and Haslam Sports Group from 80% to 70%. Earlier in 2025 Sportico had valued the Crew at $730M.",
+      "key": "columbus-crew-sc:minority:2025-07-01:10"
+    },
+    {
+      "teamId": "crystal-palace",
+      "type": "minority",
+      "dateAnnounced": "2025-06-23",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 591000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 43,
+      "tranche": null,
+      "buyer": "Robert 'Woody' Johnson",
+      "seller": "Eagle Football Holdings (John Textor)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 750000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Aug 2025 (~£595M); Textor stake sale to Woody Johnson at ~£420M implied",
+      "premiumToForbes": -0.212,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0448,
+        "leagueTrailingDecade": 0.1001,
+        "text": "Paying $591M means the franchise has to be worth $1.16B in 10 years to return 7% a year. Measured from the $750M Forbes mark, that requires 4.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run clears that bar by 5.5 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/45567347/ny-jets-owner-woody-johnson-agrees-buy-crystal-palace-stake",
+        "https://www.espn.com/soccer/story/_/id/45813769/jets-owner-johnson-completes-purchase-stake-crystal-palace",
+        "https://www.skysports.com/football/news/11706/13387361/crystal-palaces-europa-league-prospects-improve-after-john-textor-sells-stake-to-new-york-jets-owner-woody-johnson",
+        "https://www.irishtimes.com/business/2026/06/16/us-billionaire-owners-of-crystal-palace-explore-sale/"
+      ],
+      "isEstimated": true,
+      "details": "£190M ($254M per ESPN, i.e. about 1.337 USD/GBP) for 43%, which implies a 100% value of about £442M / $591M. The FT (via the Irish Times, June 2026) instead says the deal valued the club at £550M, which may include debt. Completed 2025-07-24 after the Premier League owners' test. Johnson became the largest shareholder, but this is a minority stake: Parish stays chairman alongside Harris and Blitzer. Palace's 2024-25 revenue was £196.6M (FT), but no source ties it to this deal.",
+      "key": "crystal-palace:minority:2025-06-23:43"
+    },
+    {
+      "teamId": "tampa-bay-rays",
+      "type": "control",
+      "dateAnnounced": "2025-06-18",
+      "dateApproved": "2025-09-22",
+      "status": "closed",
+      "note": null,
+      "valuation": 1700000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 90,
+      "tranche": null,
+      "buyer": "Group led by Patrick Zalupski (with Ken Babby and others)",
+      "seller": "Stuart Sternberg",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1250000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes Mar 2025",
+      "premiumToForbes": 0.36,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1034,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.25B Forbes mark, that requires 10.3% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 3.0 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays",
+        "https://www.cbssports.com/mlb/news/tampa-bay-rays-sale-mlb-owners-unanimously-approve-patrick-zalupski-deal-reportedly-worth-1-7-billion",
+        "https://www.wusf.org/sports/2025-09-22/tampa-bay-rays-sale-approved-mlb-owners-reports-say",
+        "https://baynews9.com/fl/tampa/news/2025/09/30/tampa-bay-rays-officially-sold-to-new-ownership-group"
+      ],
+      "isEstimated": true,
+      "details": "dateAnnounced is June 18, 2025, when the Rays confirmed exclusive talks. An agreement in principle was reported in July 2025 without a precise date. Approved Sept 22 and closed Sept 30, 2025. $1.7B is reported, not official. Sternberg kept a minority stake, reported at about 10% (so ~90% sold; approximate). The deal includes the USL Tampa Bay Rowdies.",
+      "key": "tampa-bay-rays:control:2025-06-18:90"
+    },
+    {
+      "teamId": "los-angeles-lakers",
+      "type": "control",
+      "dateAnnounced": "2025-06-18",
+      "dateApproved": "2025-10-30",
+      "status": "closed",
+      "note": null,
+      "valuation": 10000000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Mark Walter (TWG Global)",
+      "seller": "Buss family (Jerry Buss Family Trusts)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 7090000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.4104,
+      "drivers": [
+        {
+          "id": "portfolioSynergy",
+          "text": "Mark Walter already owned 26% of the Lakers, bought from Phil Anschutz in 2021, along with a right of first refusal on the majority stake. He also controls the Dodgers and the Sparks, so he was the natural buyer.",
+          "source": "https://www.espn.com/nba/story/_/id/45539931/buss-family-agrees-sell-lakers-mark-walter-sources-say"
+        },
+        {
+          "id": "scarcityAndTiming",
+          "text": "This was the first change of control in 46 years of Buss family ownership. The heirs had held the team in trust since Jerry Buss died in 2013, and selling let them divide the proceeds while Jeanie Buss stays governor for at least five years.",
+          "source": "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter"
+        },
+        {
+          "id": "mediaRightsCycle",
+          "text": "The deal was signed weeks before the NBA's $76B, 11-year national package kicked in for 2025-26. That package pays about $6.9B a season, 160% more than the old deal.",
+          "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "At $10B, the Lakers priced 64% above the Celtics' $6.1B sale three months earlier and nearly 3x the Mavericks' $3.5B in 2023. That is how fast the top of the NBA market was rerating.",
+          "source": "https://www.espn.com/nba/story/_/id/45539931/buss-family-agrees-sell-lakers-mark-walter-sources-say"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1074,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $7.09B Forbes mark, that requires 10.7% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 5.5 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/45539931/buss-family-agrees-sell-lakers-mark-walter-sources-say",
+        "https://www.cnbc.com/2025/06/18/lakers-owners-buss-family-sell-majority-stake-valuation.html",
+        "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter",
+        "https://www.sportico.com/business/team-sales/2025/los-angeles-lakers-sale-mark-walter-nba-1234875227/"
+      ],
+      "isEstimated": false,
+      "details": "Agreed June 18, 2025 and unanimously approved by the NBA Board on Oct 30, 2025. The NBA release said it was 'expected to close shortly', and CNBC (Aug 2026) says Walter acquired control in October 2025; the exact close date was not found. Walter (with Todd Boehly) already owned ~26-27% from 2021 (bought at a $5.5B valuation), and the Buss family kept ~15% with Jeanie Buss as governor for at least five years. The exact % bought in this deal was not reported in the sources I opened, so stakePct is null.",
+      "key": "los-angeles-lakers:control:2025-06-18:na"
+    },
+    {
+      "teamId": "san-francisco-49ers",
+      "type": "minority",
+      "dateAnnounced": "2025-05-16",
+      "dateApproved": "2025-05-20",
+      "status": "approved",
+      "note": null,
+      "valuation": 8600000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 6.2,
+      "tranche": null,
+      "buyer": "Khosla family (3.1%), Deeter family (2.1%), Griffith family (1%)",
+      "seller": "San Francisco 49ers / York family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 6860000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.2536,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0945,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $6.86B Forbes mark, that requires 9.4% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.6 points a year."
+      },
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/49ers-stake-sale-record-billion-khosla-griffith-deeter-1234852610/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sale-of-minority-stake-sets-record-with-8-6-billion-valuation",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-49ers-to-sell-minority-stake-in-team-to-three-families",
+        "https://www.bloomberg.com/news/articles/2025-05-20/nfl-owners-approve-49ers-chargers-sale-of-minority-stakes",
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "isEstimated": true,
+      "details": "Valuation reported as 'over $8.5B' at announcement and $8.6B at approval (~$533M for 6.2%). Khosla's 3.1% had to be divested in 2026 as a condition of the Seahawks purchase; the buyer of that stake is not reported.",
+      "key": "san-francisco-49ers:minority:2025-05-16:6.2"
+    },
+    {
+      "teamId": "los-angeles-chargers",
+      "type": "minority",
+      "dateAnnounced": "2025-05-15",
+      "dateApproved": "2025-05-20",
+      "status": "approved",
+      "note": null,
+      "valuation": null,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 8,
+      "tranche": null,
+      "buyer": "Arctos Partners",
+      "seller": "Los Angeles Chargers (Spanos family retains ~61%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 5830000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes (CNBC)",
+      "premiumToForbes": null,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://sports.yahoo.com/article/chargers-add-equity-firm-arctos-215446936.html",
+        "https://finance.yahoo.com/news/los-angeles-chargers-selling-portion-210949696.html",
+        "https://www.bloomberg.com/news/articles/2025-05-20/nfl-owners-approve-49ers-chargers-sale-of-minority-stakes",
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "isEstimated": true,
+      "details": "Valuation not disclosed. Sportico's 2025 NFL team values says 'north of $6 billion', a single source and only a floor, so it is left null (see unverified). Arctos' second NFL stake after the Bills.",
+      "key": "los-angeles-chargers:minority:2025-05-15:8"
+    },
+    {
+      "teamId": "real-salt-lake",
+      "type": "control",
+      "dateAnnounced": "2025-04-18",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 600000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team + assets",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Larry H. Miller family / Miller Sports + Entertainment (Gail Miller)",
+      "seller": "David Blitzer and Ryan Smith (Smith Entertainment Group)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 660000000,
+      "forbesListYear": 2025,
+      "forbesSource": "Forbes MLS Nov 2025",
+      "premiumToForbes": -0.0909,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million",
+        "https://www.sltrib.com/sports/rsl/2025/04/18/larry-h-miller-family-buys-real/",
+        "https://www.sportico.com/business/team-sales/2025/gail-miller-buy-rsl-utah-royals-david-blitzer-1234848983/"
+      ],
+      "isEstimated": false,
+      "details": "$600M covers the whole of Real Salt Lake Holdings: RSL plus the NWSL's Utah Royals, Real Monarchs (MLS Next Pro), the academy, America First Field, Zions Bank Stadium and the training center. The exact controlling % was not disclosed (stakePct null). Blitzer stays on as a minority investor and Smith sold out. Blitzer/Smith had bought the club for about $400M in January 2022.",
+      "key": "real-salt-lake:control:2025-04-18:na"
+    },
+    {
+      "teamId": "boston-celtics",
+      "type": "control",
+      "dateAnnounced": "2025-03-20",
+      "dateApproved": "2025-08-13",
+      "status": "closed",
+      "note": null,
+      "valuation": 6100000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 51,
+      "tranche": null,
+      "buyer": "Group organized by William Chisholm (STG), with Sixth Street, Aditya Mittal, Bruce Beal Jr., Rob Hale and others",
+      "seller": "Boston Basketball Partners (Wyc Grousbeck, Steve Pagliuca et al.)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 6100000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes / validated by 2024 sale",
+      "premiumToForbes": 0,
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The Grousbeck family put the team up for sale for estate planning reasons. As NBA franchises appreciate, they become harder to pass down under estate tax and league ownership rules.",
+          "source": "https://www.sportico.com/business/team-sales/2024/boston-celtics-sale-billion-wyc-grousbeck-1234786262/"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "Existing co-owner Steve Pagliuca lost with what he called a fully guaranteed and financed offer at a record price. Chisholm had to top a real competing bid to get to $6.1B, just above the Commanders' $6.05B record.",
+          "source": "https://www.cbsnews.com/boston/news/boston-celtics-sold-william-chisholm/"
+        },
+        {
+          "id": "mediaRightsCycle",
+          "text": "Buyers were underwriting the NBA's new $76B, 11-year national deal starting in 2025-26. It pays about $6.9B a season, 160% more than the expiring contract.",
+          "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.07,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $6.10B means the franchise has to be worth $12.00B in 10 years to return 7% a year. Measured from the $6.10B Forbes mark, that requires 7.0% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 9.3 points a year."
+      },
+      "sources": [
+        "https://www.businesswire.com/news/home/20250320304302/en/Boston-Basketball-Partners-Announces-Sale-of-Boston-Celtics-to-Group-Organized-by-William-Chisholm-for-$6.1-Billion",
+        "https://www.cnbc.com/2025/03/20/boston-celtics-sold-for-6point1-billion-to-bill-chisholm-sixth-street-group.html",
+        "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-nba-chisholm-approved-1234862991/",
+        "https://frontofficesports.com/celtics-ownership-bill-chisholm-closed/",
+        "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-details-price-financing-structure-1234844123/"
+      ],
+      "isEstimated": false,
+      "details": "Stage 1: 51% at a $6.1B valuation, approved Aug 13, 2025 and closed Aug 19, 2025 (FOS). Stage 2: the remaining stake (Grousbeck ~13%, Pagliuca and others) is bought in 2028 at a formula price of up to ~$7.3B, which gives a blended valuation of ~$6.6-6.7B. That second stage has not happened yet. Sixth Street committed more than $1B in equity. No debt figure or revenue figure was verified; one blog cites $493M revenue and 12x, but that's a single weak source, so it is not used.",
+      "key": "boston-celtics:control:2025-03-20:51"
+    },
+    {
+      "teamId": "chicago-white-sox",
+      "type": "minority",
+      "dateAnnounced": "2025-03-06",
+      "dateApproved": null,
+      "status": "agreed",
+      "note": null,
+      "valuation": 1800000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Justin Ishbia (with Mat and Jeff Ishbia)",
+      "seller": "White Sox limited partners",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 2050000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes",
+      "premiumToForbes": -0.122,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0562,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $1.80B means the franchise has to be worth $3.54B in 10 years to return 7% a year. Measured from the $2.05B Forbes mark, that requires 5.6% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run clears that bar by 1.8 points a year."
+      },
+      "sources": [
+        "https://southsideshowdown.com/white-sox-ownership-transition-window-narrows-after-limited-partners-sell-their-stake-billionaire-justin-ishbia",
+        "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/",
+        "https://www.sportico.com/business/team-sales/2025/chicago-white-sox-sale-ishbia-to-gain-control-over-time-1234855243/"
+      ],
+      "isEstimated": true,
+      "details": "Reported Feb-Mar 2025 (The Athletic, Sportico): a majority of White Sox LPs agreed to sell their shares to Ishbia at a $1.8B valuation. The % is undisclosed. dateAnnounced is a report date, not a formal announcement. The June 5, 2025 agreement adds capital infusions in 2025-26 and a control option from 2029-2034; that option is not a sale (see rejected).",
+      "key": "chicago-white-sox:minority:2025-03-06:na"
+    },
+    {
+      "teamId": "everton",
+      "type": "control",
+      "dateAnnounced": "2024-09-23",
+      "dateApproved": "2024-12-14",
+      "status": "closed",
+      "note": null,
+      "valuation": null,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 94.1,
+      "tranche": null,
+      "buyer": "The Friedkin Group (Dan Friedkin)",
+      "seller": "Farhad Moshiri (Blue Heaven Holdings)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1050000000,
+      "forbesListYear": 2024,
+      "forbesSource": "Forbes / Friedkin Dec 2024 enterprise value implied (~£800M equity + restructured debt approaches £1B EV)",
+      "premiumToForbes": null,
+      "drivers": [],
+      "investmentCase": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/41397704/friedkin-group-farhad-moshiri-agree-deal",
+        "https://www.insideworldfootball.com/2024/09/24/moshiri-exits-friedkin-group-agrees-everton-takeover/",
+        "https://www.insideworldfootball.com/2024/12/19/freidkin-completes-everton-buy-ending-moshiri-era/",
+        "https://www.independent.co.uk/sport/football/everton-friedkin-takeover-owner-news-b2667071.html"
+      ],
+      "isEstimated": true,
+      "details": "Friedkin bought Moshiri's 94.1%. Terms were agreed 2024-09-23, the Premier League approved on 2024-12-14 and the deal completed on 2024-12-19. Valuation is left null because the reported figures conflict: IWF (Dec 2024) says the price was 'approximately £500m' with debt being cut to about £300M and partly converted to equity, while IWF (Sep 2026) says about £331M. Before closing, Friedkin had lent about £200M (including repaying MSP's £158M loan), which could convert to equity. The Bramley-Moore Dock stadium cost about £760M.",
+      "key": "everton:control:2024-09-23:94.1"
+    },
+    {
+      "teamId": "toronto-maple-leafs",
+      "type": "control",
+      "dateAnnounced": "2024-09-18",
+      "dateApproved": null,
+      "status": "closed",
+      "note": null,
+      "valuation": 9222778667,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "holding company",
+      "stakePct": 37.5,
+      "tranche": null,
+      "buyer": "Rogers Communications",
+      "seller": "BCE (Bell)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 2800000000,
+      "forbesListYear": 2023,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 2.2938,
+      "drivers": [
+        {
+          "id": "portfolioSynergy",
+          "text": "Rogers already owned the Blue Jays, Rogers Centre and Sportsnet and had put $14B into Canadian sports over the prior decade. Adding MLSE's Leafs, Raptors, TFC, Argos and arena made it the country's dominant sports content owner, and the C$12.5B implied value covers the whole MLSE bundle.",
+          "source": "https://about.rogers.com/news-ideas/rogers-to-become-majority-owner-of-maple-leaf-sports-entertainment/"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "BCE's 37.5% took Rogers from co-owner to 75% control of MLSE, ending the Bell and Rogers split. Rogers funded part of it with a private investor so the deal would not add to its debt leverage.",
+          "source": "https://about.rogers.com/news-ideas/rogers-to-become-majority-owner-of-maple-leaf-sports-entertainment/"
+        }
+      ],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.2055,
+        "leagueTrailingDecade": 0.1328,
+        "text": "Paying $9.22B means the franchise has to be worth $18.14B in 10 years to return 7% a year. Measured from the $2.80B Forbes mark, that requires 20.5% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 7.3 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-majority-owner-of-maple-leaf-sports-entertainment/",
+        "https://www.cbc.ca/sports/rogers-communications-closes-deal-owner-mlse-1.7575488",
+        "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+      ],
+      "isEstimated": false,
+      "details": "Seed corrected: C$4.7B for BCE's 37.5% of MLSE was announced Sept 18, 2024 and closed July 1, 2025 (CBC), not July 2024. This took Rogers from co-owner to 75% control. Entity is MLSE (Leafs, Raptors, TFC, Argos, Marlies, Scotiabank Arena), not the Leafs alone. Implied 100% value C$12.53B, converted at 0.73586 USD/CAD (ECB reference rate via frankfurter.app, 2024-09-18). Rogers funded it partly with a private investor, amount not stated.",
+      "key": "toronto-maple-leafs:control:2024-09-18:37.5"
+    },
+    {
+      "teamId": "utah-hockey-club",
+      "type": "control",
+      "dateAnnounced": "2024-04-18",
+      "dateApproved": "2024-04-18",
+      "status": "closed",
+      "note": null,
+      "valuation": 1200000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 100,
+      "tranche": null,
+      "buyer": "Smith Entertainment Group (Ryan and Ashley Smith)",
+      "seller": "NHL / Alex Meruelo (Arizona Coyotes hockey assets)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 500000000,
+      "forbesListYear": 2023,
+      "forbesSource": "Forbes (as Arizona Coyotes)",
+      "premiumToForbes": 1.4,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.1679,
+        "leagueTrailingDecade": 0.1328,
+        "text": "Paying $1.20B means the franchise has to be worth $2.36B in 10 years to return 7% a year. Measured from the $500M Forbes mark, that requires 16.8% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 3.5 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.nhl.com/news/nhl-bog-approves-establishment-of-new-franchise-in-utah",
+        "https://en.wikipedia.org/wiki/Utah_Mammoth",
+        "https://www.bloomberg.com/news/articles/2024-04-18/arizona-coyotes-moving-to-salt-lake-city-for-2024-season-approved-by-owners"
+      ],
+      "isEstimated": false,
+      "details": "Structured as a new franchise, not a sale: Smith paid a $1.2B 'expansion' fee and got the Coyotes' hockey assets (roster, reserve list, picks, hockey ops). The NHL paid Meruelo $1B; the $200M gap was effectively a relocation fee shared by the other clubs. Meruelo kept the Coyotes name and a 5-year reactivation right. NHL.com confirms the structure but not the prices, which come from Wikipedia and Bloomberg. Team now called Utah Mammoth.",
+      "key": "utah-hockey-club:control:2024-04-18:100"
+    },
+    {
+      "teamId": "baltimore-orioles",
+      "type": "control",
+      "dateAnnounced": "2024-01-30",
+      "dateApproved": "2024-03-27",
+      "status": "closed",
+      "note": null,
+      "valuation": 1725000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 40,
+      "tranche": null,
+      "buyer": "David Rubenstein and Michael Arougheti-led group (incl. Cal Ripken Jr., Mike Bloomberg, Grant Hill)",
+      "seller": "Angelos family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1600000000,
+      "forbesListYear": 2023,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.0781,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0781,
+        "leagueTrailingDecade": 0.0738,
+        "text": "Paying $1.73B means the franchise has to be worth $3.39B in 10 years to return 7% a year. Measured from the $1.60B Forbes mark, that requires 7.8% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 0.4 points a year short, so the buyer is betting the next decade beats the last one."
+      },
+      "sources": [
+        "https://www.thebanner.com/sports/orioles-mlb/baltimore-orioles-sale-john-angelos-david-rubenstein-JXHAPWXKSNFS7JR3K6KRCC4LEY/",
+        "https://www.thebanner.com/sports/orioles-mlb/mlb-orioles-sale-david-rubenstein-john-angelos-NSJUCTS5TNBOPJ27UQ7IPWUOTM/",
+        "https://www.sportspro.com/news/baltimore-orioles-mlb-david-rubenstein-acquisition-approval/",
+        "https://www.cbssports.com/mlb/news/angelos-family-to-sell-orioles-for-1-725-billion-to-private-equity-moguls-cal-ripken-jr-among-investors/"
+      ],
+      "isEstimated": false,
+      "details": "The $1.725B covers the franchise plus the Orioles' stake in MASN. The group bought about 40% at first, with the Angelos family's ~30% to be bought later; existing LPs have tag-along rights. Owners approved on Wednesday, Mar 27, 2024 (the Banner print says Mar 26, but that was a Tuesday). The sale was finalized within days of Peter Angelos's death on Mar 23.",
+      "key": "baltimore-orioles:control:2024-01-30:40"
+    },
+    {
+      "teamId": "dallas-mavericks",
+      "type": "control",
+      "dateAnnounced": null,
+      "dateApproved": "2023-12-27",
+      "status": "closed",
+      "note": null,
+      "valuation": 3500000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 69,
+      "tranche": null,
+      "buyer": "Miriam Adelson and Sivan & Patrick Dumont families",
+      "seller": "Mark Cuban (retained ~27%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 3300000000,
+      "forbesListYear": 2023,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.0606,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0763,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $3.50B means the franchise has to be worth $6.89B in 10 years to return 7% a year. Measured from the $3.30B Forbes mark, that requires 7.6% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.6 points a year."
+      },
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2023-12-27/dallas-mavericks-3-5-billion-sale-to-adelson-wins-nba-approval",
+        "https://fortune.com/2023/12/27/dallas-mavericks-sold-mark-cuban-adelson-nba",
+        "https://www.nba.com/news/nba-approves-sale-dallas-mavericks-adelson-dumont-families",
+        "https://sports.yahoo.com/nba-approves-sale-of-mavericks-to-adelson-dumont-families-as-mark-cuban-eyes-new-arena-in-dallas-002827355.html"
+      ],
+      "isEstimated": true,
+      "details": "Inside the 36-month comp window. $3.5B is the widely reported price for control (Bloomberg, Fortune, Yahoo/AP). The NBA approved it Dec 27, 2023, with close expected that week. The 69% buyer stake comes from Wikipedia's ownership box (Cuban 27%, Mary Stanton 4%), not a news source, hence isEstimated. The initial agreement date (late Nov 2023) could not be confirmed with the sources I opened, so dateAnnounced is null. Adelson sold ~$2B of LVS stock to fund the purchase.",
+      "key": "dallas-mavericks:control:2023-12-27:69"
+    },
+    {
+      "teamId": "manchester-united",
+      "type": "minority",
+      "dateAnnounced": "2023-12-24",
+      "dateApproved": "2024-02-14",
+      "status": "closed",
+      "note": null,
+      "valuation": 5200000000,
+      "valuationBasis": "implied whole-team mark",
+      "valuationScope": "team",
+      "stakePct": 27.7,
+      "tranche": null,
+      "buyer": "Sir Jim Ratcliffe / INEOS (Trawlers Ltd)",
+      "seller": "Glazer family and Class A public shareholders (tender offer)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 6000000000,
+      "forbesListYear": 2023,
+      "forbesSource": "Forbes / validated by Glazer-Ratcliffe sale process",
+      "premiumToForbes": -0.1333,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0548,
+        "leagueTrailingDecade": 0.1001,
+        "text": "Paying $5.20B means the franchise has to be worth $10.23B in 10 years to return 7% a year. Measured from the $6.00B Forbes mark, that requires 5.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run clears that bar by 4.5 points a year."
+      },
+      "sources": [
+        "https://www.insideworldfootball.com/2024/02/14/premier-league-approves-ratcliffe-1-02bn-stake-man-utd/",
+        "https://www.insideworldfootball.com/2024/02/21/ratcliffe-says-completion-deal-just-start-accelerated-change-man-utd/",
+        "https://www.manutd.com/en/news/detail/man-utd-reaches-agreement-for-sir-jim-ratcliffe-to-acquire-25-per-cent-shareholding"
+      ],
+      "isEstimated": true,
+      "details": "Minority stake with football control: Ratcliffe paid $1.3bn (£1.02bn) for 25%, then bought more shares to reach about 27.7% at completion (2024-02-20/21), and INEOS took over football operations while the Glazers kept the majority. He also committed $300M for infrastructure. The $5.2bn is equity value derived by us ($1.3bn / 25%, at $33/share) and excludes net debt; no source states an enterprise value. He rose to 28.94% in Dec 2024 through a further investment. The manutd.com release did not render when fetched, so the terms are confirmed through IWF.",
+      "key": "manchester-united:minority:2023-12-24:27.7"
+    },
+    {
+      "teamId": "washington-commanders",
+      "type": "control",
+      "dateAnnounced": "2023-05-12",
+      "dateApproved": "2023-07-20",
+      "status": "closed",
+      "note": null,
+      "valuation": 6050000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": 100,
+      "tranche": null,
+      "buyer": "Josh Harris-led group (with Mitchell Rales, Magic Johnson, ~20 LPs)",
+      "seller": "Dan and Tanya Snyder",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 11,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 5600000000,
+      "forbesListYear": 2022,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0.0804,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.0783,
+        "leagueTrailingDecade": 0.1308,
+        "text": "Paying $6.05B means the franchise has to be worth $11.90B in 10 years to return 7% a year. Measured from the $5.60B Forbes mark, that requires 7.8% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 5.2 points a year."
+      },
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/38043528/nfl-owners-approve-605b-sale-commanders-harris-group",
+        "https://www.forbes.com/sites/mikeozanian/2023/07/20/heres-how-much-josh-harris-expects-to-earn-on-6-billion-purchase-of-the-washington-commanders/",
+        "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/"
+      ],
+      "isEstimated": true,
+      "details": "Reference comp outside the 2025+ scope. Exclusive agreement May 12, 2023; approved Jul 20, 2023; closed shortly after. Price reportedly includes a ~$250M earn-out. The NFL capped acquisition debt at $1.1B, but actual debt used was not disclosed, so amountFinanced is null. The ~11x revenue multiple is cited in Sportico's 2026 Seahawks coverage.",
+      "key": "washington-commanders:control:2023-05-12:100"
+    },
+    {
+      "teamId": "minnesota-timberwolves",
+      "type": "control",
+      "dateAnnounced": "2021-04-10",
+      "dateApproved": "2025-06-24",
+      "status": "closed",
+      "note": null,
+      "valuation": 1500000000,
+      "valuationBasis": "enterprise value",
+      "valuationScope": "team",
+      "stakePct": null,
+      "tranche": null,
+      "buyer": "Marc Lore and Alex Rodriguez group",
+      "seller": "Glen Taylor",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "forbesValueAtSale": 1500000000,
+      "forbesListYear": 2020,
+      "forbesSource": "Forbes",
+      "premiumToForbes": 0,
+      "drivers": [],
+      "investmentCase": {
+        "requiredAnnualAppreciation": 0.07,
+        "leagueTrailingDecade": 0.1627,
+        "text": "Paying $1.50B means the franchise has to be worth $2.95B in 10 years to return 7% a year. Measured from the $1.50B Forbes mark, that requires 7.0% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 9.3 points a year."
+      },
+      "sources": [
+        "https://pr.nba.com/nba-board-of-governors-timberwolves-lynx-sale",
+        "https://africa.espn.com/nba/story/_/id/45577217/nba-owners-approve-15-billion-sale-wolves-wnba-lynx",
+        "https://www.sportico.com/business/team-sales/2025/minnesota-timberwolves-sale-arod-lore-approved-nba-1234857876/",
+        "https://www.nbcnews.com/sports/nba/timberwolves-sale-alex-rodriguez-marc-lore-back-track-arbitration-rcna191596"
+      ],
+      "isEstimated": false,
+      "details": "STALE PRICING: this is the final-tranche close of an April 2021 agreement at a $1.5B valuation, completed after the group won arbitration against Taylor. It is not a 2025 market price: ESPN cites Forbes at $3.1B and Sportico at $3.29B for the team at the time. The Board approved it June 24, 2025, with close expected that week. Includes the Lynx. Sources disagree on the ending stake: NBC says ~80% (Taylor keeps ~20%, ~$942M owed for the outstanding portion), while ESPN says the group took full ownership. stakePct is null because of that conflict. Exclude from valuation comps.",
+      "key": "minnesota-timberwolves:control:2021-04-10:na"
+    }
+  ],
+  "rejected": [
+    {
+      "team": "Ottawa Senators",
+      "teamId": "ottawa-senators",
+      "description": "Michael Andlauer bought control from the Melnyk estate (~US$950M reported); purchase agreement June 2023, completed Sept 21, 2023.",
+      "reason": "Outside the 36-month control comp window: closed Sept 21, 2023, three days before the 2023-09-24 cutoff.",
+      "sources": [
+        "https://www.nhl.com/news/ottawa-enters-into-purchase-agreement-with-michael-andlauer-344846748",
+        "https://nationalpost.com/sports/hockey/nhl/ottawa-senators/garrioch-its-official-michael-andlauer-is-the-new-owner-of-the-ottawa-senators"
+      ],
+      "file": "mlb-nhl"
+    },
+    {
+      "team": "Chicago White Sox",
+      "teamId": "chicago-white-sox",
+      "description": "June 5, 2025 framework: Reinsdorf may sell control to Justin Ishbia in 2029-2033, with Ishbia holding an option after the 2034 season.",
+      "reason": "Not agreed: a future option, not a control sale. The team says there is 'no assurance' it will happen. The related LP share purchases are listed as a minority transaction.",
+      "sources": [
+        "https://www.mlb.com/news/white-sox-announce-long-term-ownership-investment-agreement",
+        "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/"
+      ],
+      "file": "mlb-nhl"
+    },
+    {
+      "team": "Minnesota Twins",
+      "teamId": "minnesota-twins",
+      "description": "Pohlad family control-sale process (Allen & Co., Oct 2024 to Aug 2025). Justin Ishbia was the leading bidder but withdrew in Feb 2025.",
+      "reason": "Not agreed: the sale process ended Aug 13, 2025. The Pohlads kept control and sold ~20% to LPs instead (listed as a transaction).",
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/minnesota-twins-sale-pohlads-control-minority-partners-1234866859/",
+        "https://www.espn.com/mlb/story/_/id/41718735/twins-estimated-worth-15-2-billion-put-sale"
+      ],
+      "file": "mlb-nhl"
+    },
+    {
+      "team": "Cleveland Guardians",
+      "teamId": "cleveland-guardians",
+      "description": "David Blitzer's 2022 purchase of 25% came with an option to take majority control around 2028. The owner's brief mentioned Dolan-Haslam, but no Haslam involvement with the Guardians was found.",
+      "reason": "Not agreed: the option has not been exercised and the 2022 stake predates the window. No Dolan-Haslam deal found.",
+      "sources": [
+        "https://www.mlb.com/news/david-blitzer-guardians-minority-owner"
+      ],
+      "file": "mlb-nhl"
+    },
+    {
+      "team": "Toronto Blue Jays / Rogers sports assets",
+      "teamId": "toronto-blue-jays",
+      "description": "Rogers said (July 2026) it plans to sell a minority stake in its combined sports, media and entertainment assets (Blue Jays, MLSE, Sportsnet) within the next year.",
+      "reason": "Not agreed: a stated intention only, with no buyer or terms.",
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/",
+        "https://financialpost.com/fp-finance/rogers-mlse-deal-create-leafs-raptors-jays-ipo"
+      ],
+      "file": "mlb-nhl"
+    },
+    {
+      "team": "Tottenham Hotspur",
+      "teamId": "tottenham-hotspur",
+      "description": "On 2026-06-05, Eight Sports Capital (CEO Brooklyn Earick; Wing Fai Ng; backed by Richard Tsai/Fubon) announced a signed SPA to buy 24.99% of ENIC Sports & Developments Holdings from Daniel Levy's family trust (Oakchester). ENIC owns about 87.6-88.3% of THFC, so this is about 22% of the club, and 24.99% is just under the Premier League's 25% approval threshold. Reported price: about £600M (IWF, implying roughly £2.5-2.8bn for the club). Bloomberg reported that Levy hoped for more than $1bn (about £740M), and Roundtable/Yahoo called it a '£1bn stake sale'. ENIC/THFC said they were 'not aware of any sale'. As of 2026-09-22 (Bloomberg via Roundtable/Yahoo) payment had not arrived, several payment deadlines had passed, and the buyer had set a mid-September deadline and considered walking away. Wikipedia (citing BBC and a 2026-08-24 Telegraph piece) says no transaction had taken place by August. The Lewis family (70.12% of ENIC) also put £100M+ of fresh ENIC equity in during 2026, and Levy was removed as chairman in September 2025.",
+      "reason": "not agreed / not completed: the SPA was announced by the buyer only, ENIC disputes it, it was unpaid and stalled as of 2026-09-22, and the price was reported inconsistently",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/06/05/spurs-on-the-block-eight-sports-capital-buys-daniel-levys-stake-in-enic/",
+        "https://www.football365.com/news/tottenham-daniel-levy-agrees-sale-of-24-99-enic-stake-group-worth-7bn-emerges",
+        "https://theesk.org/2026/06/06/the-analysis-series-the-levy-stake-sale-eight-sports-capital-enic-control-and-the-future-of-spurs-ownership/",
+        "https://www.goal.com/en-gb/lists/tottenham-daniel-levy-sells-35-percent-enic-stake-eight-sports-capital/bltada9f5dccfa90152",
+        "https://www.insideworldfootball.com/2026/06/26/lewis-family-to-raise-another-100m-via-enic-for-spurs-as-sale-rumours-resurface/",
+        "https://roundtable.io/sports/soccer/premier-league/tottenham/news/daniel-levy-s-tottenham-exit-stalls-as-1bn-stake-sale-faces-further-delays",
+        "https://sports.yahoo.com/articles/daniel-levy-tottenham-exit-stalls-160004377.html"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Tottenham Hotspur",
+      "teamId": "tottenham-hotspur",
+      "description": "In September-October 2025 the board rejected two expressions of interest, including a reported £4.5bn approach from a US consortium (PCP/Roger Kennedy). Amanda Staveley's consortium and a US tech consortium looked at bids, and the Takeover Code offer period ran to 2025-10-05. The board said 'Tottenham Hotspur is not for sale.' No deal was agreed.",
+      "reason": "not agreed",
+      "sources": [
+        "https://africa.espn.com/football/story/_/id/46386362/tottenham-not-sale-amid-record-45bn-takeover-report",
+        "https://africa.espn.com/football/story/_/id/46511648/us-tech-consortium-opt-tottenham-bid",
+        "https://www.flashscore.com/news/soccer-premier-league-spurs-unequivocally-reject-4-5-billion-takeover-bid-from-american-consortium/Eo5u1FwB"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Vancouver Whitecaps FC",
+      "teamId": "vancouver-whitecaps-fc",
+      "description": "Not sold. The owners (Kerfoot, Luczo, Mallett, Nash) started a sale in December 2024 with Goldman Sachs. In April 2026 a group led by Grant Gustavson (grandson of Public Storage founder B. Wayne Hughes) made an offer to buy the club and move it to Las Vegas; no price was disclosed and MLS said it would 'evaluate all options'. The club says it has talked with more than 100 parties (30+ got financials) and 'no viable offer has emerged that would keep the club here'. On 2026-09-23, CEO Axel Schuster said 'nothing has changed'. The club does not control BC Place, the 2027 lease is unsigned, provincial talks stalled around a snap election, and a Hastings Park stadium MOU with the city was signed in December 2025.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.tsn.ca/soccer/mls/article/whitecaps-ceo-says-sale-of-mls-team-no-closer-to-reality/",
+        "https://www.tsn.ca/soccer/article/investment-group-comes-forward-to-buy-whitecaps-and-move-team-to-las-vegas/",
+        "https://www.whitecapsfc.com/club/ownership-status",
+        "https://www.si.com/soccer/historic-mls-club-ambitious-stadium-plans-relocation-threat-looms",
+        "https://www.insideworldfootball.com/2026/04/29/vancouver-whitecaps-future-looks-bleak-bc-place-lease-running-mls-demand-change/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "San Jose Earthquakes",
+      "teamId": "san-jose-earthquakes",
+      "description": "On 2025-06-18, John Fisher put the controlling interest up for sale with Moelis & Co. running the process. Sportico valued the club at about $600M in January 2025; Fisher and Lew Wolff paid a $20M expansion fee in 2007. The sale includes PayPal Park, which Bay FC also uses. None of the sources we opened report an agreed buyer or price, and the team's Wikipedia pages still list Fisher as owner.",
+      "reason": "not agreed (no agreed sale found)",
+      "sources": [
+        "https://www.sjearthquakes.com/news/san-jose-earthquakes-announce-start-of-sales-process-for-the-club",
+        "https://www.nbcbayarea.com/news/sports/san-jose-earthquakes-up-for-sale/3895814/",
+        "https://www.yardbarker.com/soccer/articles/controlling_share_in_san_jose_earthquakes_up_for_sale/s1_17064_42344195",
+        "https://en.wikipedia.org/wiki/San_Jose_Earthquakes"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Crystal Palace",
+      "teamId": "crystal-palace",
+      "description": "In June 2026 (FT), the owners (Johnson 43%, Harris/Blitzer about 30%, Parish about 10%) hired Raine Group to look at options including a full sale, possibly at £1bn+ with a control premium. No buyer has been reported as agreed.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.irishtimes.com/business/2026/06/16/us-billionaire-owners-of-crystal-palace-explore-sale/",
+        "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Everton",
+      "teamId": "everton",
+      "description": "In September 2026 The Friedkin Group was sounding out investors for a significant minority stake in Everton. IWF says the process is at an early stage and may not lead to a deal.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/09/04/friedkin-group-eyes-fresh-investment-for-english-premier-league-club-everton/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Portland Timbers",
+      "teamId": "portland-timbers",
+      "description": "We found no sale of the Timbers; Merritt Paulson is still described as owner in August 2026. Paulson sold only the NWSL Portland Thorns (to the Bhathal family/RAJ Sports for about $63M, closed 2024-01-03), which is not in the database and falls outside the window.",
+      "reason": "no transaction (Thorns sale: club not in database)",
+      "sources": [
+        "https://www.opb.org/article/2026/08/18/portland-oregon-moda-center-sports-merritt-paulson/",
+        "https://www.koin.com/sports/portland-thorns-sold-to-raj-sports-by-merritt-paulson/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "San Diego FC",
+      "teamId": "san-diego-fc",
+      "description": "MLS expansion franchise awarded in May 2023 to Mohamed Mansour's group (with the Sycamore Tribe) for a reported $500M fee; the team began play in 2025. Minority additions followed: Juan Mata (Nov 2024) and Tems (Feb 2025), with no amounts disclosed.",
+      "reason": "expansion fee, not a sale of an existing club, announced before the comp window; better used as formation data (formation.price = 500000000, subject to verification). Tems/Mata stakes had no disclosed terms.",
+      "sources": [
+        "https://www.sandiegouniontribune.com/sports/soccer/story/2023-05-16/major-league-soccer-san-diego-expansion-team-franchise-thursday-news-conference-snapdragon-stadium",
+        "https://www.insideworldfootball.com/2024/11/22/mata-follows-beckham-mls-ownership-stake-san-diego-fc/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Toronto FC (Maple Leaf Sports & Entertainment)",
+      "teamId": "toronto-fc",
+      "description": "Rogers agreed on 2024-09-18 to buy BCE's 37.5% of MLSE for C$4.7bn, taking Rogers to 75% control; the deal closed around 2025-07-01/02. MLSE owns the Maple Leafs, Raptors, Toronto FC, Argonauts and venues. Kilmer (Tanenbaum) has a put on its 25% from July 2026 at an agreed fair value, and we did not confirm whether it was exercised.",
+      "reason": "multi-asset conglomerate deal that can't be allocated to Toronto FC; also belongs with the NHL/NBA research. We did not independently verify it with two opened sources in this pass.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment",
+        "https://about.rogers.com/wp-content/uploads/Rogers-Q3-2025-Press-Release.pdf"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Liverpool",
+      "teamId": "liverpool",
+      "description": "In September 2023 FSG raised up to about $200M from Dynasty Equity for a small minority stake in Liverpool.",
+      "reason": "minority deal before 2025-01-01, outside the minority scope",
+      "sources": [
+        "https://www.insideworldfootball.com/2023/09/29/fsg-raise-200m-dynasty-equity-minority-stake-pare-debt/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Ipswich Town",
+      "teamId": "ipswich-town",
+      "description": "Minority investments only in the window: Bright Path Sports Partners paid £100M+ in April 2024, and Ed Sheeran took a small stake in August 2024. ORG/Gamechanger 20 took control in 2021, and we found no control sale since 2023-09-24.",
+      "reason": "minority deals before 2025-01-01; no control sale in window",
+      "sources": [
+        "https://www.insideworldfootball.com/2024/04/02/us-investor-bright-path-sports-pays-100m-buy-ipswich-chase-premier-league-spot/",
+        "https://www.insideworldfootball.com/2024/08/16/ed-sheeran-buys-minority-stake-ipswich-town/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Manchester United",
+      "teamId": "manchester-united",
+      "description": "Leon Cooperman increased his Manchester United shareholding (February 2026). Separately, Ratcliffe went from 27.7% to 28.94% in December 2024 through a further investment.",
+      "reason": "public-market share purchases and a follow-on subscription, not negotiated control or minority sales; the Ratcliffe top-up is also before 2025",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/02/19/cooperman-increases-manchester-united-stake/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Chelsea FC Women",
+      "teamId": null,
+      "description": "In 2025 Chelsea sold its women's team to sister company BlueCo, an internal related-party transfer that turned a £90.2M loss into a £128.4M profit.",
+      "reason": "club not in database (women's team; related-party intra-group transfer)",
+      "sources": [
+        "https://www.insideworldfootball.com/2025/04/02/chelsea-offload-womens-team-boehly-clearlakes-blueco-turning-90-2m-loss-128-4m-profit/"
+      ],
+      "file": "mls-epl"
+    },
+    {
+      "team": "Golden State Warriors",
+      "teamId": "golden-state-warriors",
+      "description": "Seed: minority stake, parent Golden State Group valued at $11B, Jan 2026. Bloomberg (Jan 12, 2026) reported a ~5% stake in Golden State Group was being MARKETED (Citigroup advising) at a valuation above $11B. It includes the Valkyries, Santa Cruz Warriors, Chase Center and Thrive City.",
+      "reason": "not agreed: the stake was being marketed. None of the sources I found named a buyer, a signed deal, NBA approval or a close. Every other outlet is rewriting the single Bloomberg report.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-01-12/warriors-parent-said-to-be-valued-at-11-billion-in-stake-sale",
+        "https://pe-insights.com/golden-state-warriors-parent-tests-11bn-valuation-in-minority-stake-sale/",
+        "https://ministryofsport.com/golden-state-group-seeks-record-breaking-usd11-billion-valuation-in-stake-sale/"
+      ],
+      "file": "nba"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "teamId": "cleveland-cavaliers",
+      "description": "Sportico (2026) reported the Cavaliers were 'nearing a deal' to sell a 5-10% LP stake to Blue Owl, valuing the Cavs plus the 2028 Cleveland WNBA team at $5.5B combined.",
+      "reason": "not agreed / single source: 'nearing a deal' in one Sportico piece (seen only as a search snippet). I could not confirm a signing, approval or second outlet.",
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/cleveland-cavaliers-blue-owl-stake-sale-1234937061/"
+      ],
+      "file": "nba"
+    },
+    {
+      "team": "Las Vegas Raiders",
+      "teamId": "las-vegas-raiders",
+      "description": "Ari Emanuel (1.4%) and Mark Shapiro (0.6%) stakes, May 2026, at $9.9B valuation",
+      "reason": "Not a distinct deal: these stakes are part of the single 25.3% First Football divestiture (Durban-led group), which is recorded as one transaction",
+      "sources": [
+        "https://variety.com/2026/biz/news/ari-emanuel-mark-shapiro-las-vegas-raiders-owners-1236753941/",
+        "https://deadline.com/2026/05/ari-emanuel-mark-shapiro-nfl-las-vegas-raiders-ownership-stakes-1236915934/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "teamId": "philadelphia-eagles",
+      "description": "8% LP sale (Peskowitz family trust 4.75%, Susan Kim trust 3.25%) at $8.3B (reported as $8.1B+ at signing)",
+      "reason": "Outside scope: approved Dec 11, 2024. No 2025 or 2026 Eagles LP sale found (philadelphia.today items dated Feb/Mar 2025 describe this same deal). Seed item 'Eagles LP sales 2025' is not supported",
+      "sources": [
+        "https://www.cnbc.com/2024/12/11/nfl-philadelphia-eagles-minority-stake-sale.html",
+        "https://frontofficesports.com/eagles-sell-minority-stakes-raise-valuation-more-than-8-billion/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Buffalo Bills",
+      "teamId": "buffalo-bills",
+      "description": "~20% LP sale (Arctos 10%, 10.6% to individual investors incl. Vince Carter, Tracy McGrady)",
+      "reason": "Outside scope: approved Dec 2024. No 2025 or 2026 Bills stake sale found",
+      "sources": [
+        "https://frontofficesports.com/minority-sales-bills-eagles-dolphins-approved-owners/",
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Miami Dolphins",
+      "teamId": "miami-dolphins",
+      "description": "13% LP sale of the holding company (Ares 10%, Joe Tsai and Bruce Beal/Weisberg 3%) at ~$8.1B",
+      "reason": "Outside scope: approved Dec 11, 2024",
+      "sources": [
+        "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-ares-management",
+        "https://frontofficesports.com/minority-sales-bills-eagles-dolphins-approved-owners/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Miami Dolphins",
+      "teamId": "miami-dolphins",
+      "description": "Joe Tsai sold 1.1% of his 2.9% Dolphins holding-company stake to three businessmen (approved ~May 20, 2025)",
+      "reason": "single source; no valuation or buyer names found",
+      "sources": [
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Cleveland Browns",
+      "teamId": "cleveland-browns",
+      "description": "Charles Woodson acquired a 0.1% stake (approved ~May 20, 2025)",
+      "reason": "single source; no valuation reported",
+      "sources": [
+        "https://www.sportspro.com/news/nfl-chargers-arctos-49ers-dolphins-browns-investment-flag-football-la-2028-may-2025/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "teamId": "pittsburgh-steelers",
+      "description": "Josh Harris/David Blitzer ~5% LP stake sold to Art Rooney II and Thomas Tull at ~$4B valuation",
+      "reason": "Outside scope: 2024 minority deal (before 2025-01-01)",
+      "sources": [
+        "https://www.forbes.com/sites/mikeozanian/2024/02/28/josh-harris-and-david-blitzer-to-sell-stake-in-pittsburgh-steelers-at-a--4-billion-valuation/",
+        "https://steelersnow.com/steelers-minority-owners-sell-stake-team-valued-at-4-billion/"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "San Francisco 49ers",
+      "teamId": "san-francisco-49ers",
+      "description": "Feb 2025 reports that the 49ers were exploring a ~10% sale at $9B+",
+      "reason": "not agreed as described; it resulted in the 6.2% (May 2025) and 3.2% (Oct 2025) sales, which are recorded separately",
+      "sources": [
+        "https://www.sportico.com/leagues/football/2025/san-francisco-49ers-owner-sale-investors-rangers-fc-1234828960/",
+        "https://www.cbssports.com/nfl/news/49ers-exploring-possible-sale-10-of-team-could-be-up-for-grabs-at-this-record-setting-price-per-report"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Indianapolis Colts",
+      "teamId": "indianapolis-colts",
+      "description": "Control passed to Carlie Irsay-Gordon (with sisters) after Jim Irsay's death in 2025",
+      "reason": "Inheritance, not a sale (no price). Belongs in sale history with price null",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ],
+      "file": "nfl"
+    },
+    {
+      "team": "Chicago Bears",
+      "teamId": "chicago-bears",
+      "description": "George McCaskey became principal owner after Virginia Halas McCaskey's death in 2025",
+      "reason": "Inheritance/family succession, not a sale",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_current_NFL_franchise_owners"
+      ],
+      "file": "nfl"
+    }
+  ],
+  "unverified": [
+    {
+      "description": "Tampa Bay Lightning: Vinik Sports Group sold a majority stake to a group led by Doug Ostrover and Marc Lipschultz (Blue Owl co-CEOs). NHL approved Oct 1, 2024; finalized Oct 24, 2024; control passes to Ostrover/Lipschultz after ~3 years. This is a control sale inside the 36-month window. Sources: https://www.nhl.com/lightning/news/jeff-vinik-announces-expansion-of-tampa-bay-lightning-ownership-group and https://en.wikipedia.org/wiki/Jeffrey_Vinik",
+      "whatWasMissing": "Valuation and stake %: the team release discloses neither, and no source giving a valuation was found before the search budget ran out. The deal itself is confirmed by 2 sources; add it once a reported valuation (e.g. Sportico/Sportsnet) is found.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "San Francisco Giants: Sixth Street bought ~10% (Mar 18, 2025), with proceeds going to Oracle Park, spring training and Mission Rock. Sources: https://www.sportcal.com/news/san-francisco-giants-sell-10-stake-to-sixth-street/ , https://pitchbook.com/news/articles/sixth-street-partners-acquires-stake-in-san-francisco-giants , https://www.bloomberg.com/news/articles/2025-03-18/san-francisco-giants-sells-10-stake-to-sixth-street-partners",
+      "whatWasMissing": "Deal valuation: no financial terms disclosed. The $4.2B (Sportico) and $3.8B (Forbes) figures in coverage are outlet estimates, not deal values.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Washington Capitals (Monumental Sports & Entertainment): Dec 17, 2025, Laurene Powell Jobs sold her MSE stake to Arctos Partners and the Qatar Investment Authority (QIA increased an existing 2023 stake). Sources: https://monumentalsports.com/2025/12/monumental-sports-entertainment-announces-minority-investor-updates-to-accelerate-growth-and-innovation/ and https://www.nytimes.com/athletic/6897257/2025/12/17/laurene-powell-jobs-wizards-mystics-capitals-monumental-qatar/",
+      "whatWasMissing": "Stake % and valuation: not in the MSE release; The Athletic article is paywalled and couldn't be read. MSE also holds the Wizards, Mystics and the arena.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Seattle Kraken: Melinda French Gates to become a minority investor in One Roof Sports & Entertainment (Kraken, Climate Pledge Arena ops), reported June 1, 2026; NHL approval pending. Source: https://komonews.com/news/local/melinda-french-gates-joining-kraken-ownership-fueling-nba-expansion-talk",
+      "whatWasMissing": "Stake %, amount and valuation are undisclosed; only one source was opened.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Athletics: Team61 (Chan Ho Park, Suga, Ken Jeong, Daniel Dae Kim) invested $70M ($55M committed, $15M more on MLB approval), announced ~July 27, 2026. Sources: https://www.espn.com/mlb/story/_/id/49460092/chan-ho-park-becomes-first-korean-buy-stake-mlb-club-joining-athletics-group and https://www.washingtontimes.com/news/2026/jul/27/chan-ho-park-becomes-1st-korean-buy-stake-mlb-club-joining-athletics/",
+      "whatWasMissing": "Valuation and stake %: not disclosed. The dollar amount is confirmed by 2 sources.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Athletics: Aramark Sports + Entertainment reportedly invested $100M (plus $75M in capex) in the A's.",
+      "whatWasMissing": "Seen only in a search-result summary; no article was opened. Date, structure (team equity vs stadium), stake and valuation are all unconfirmed.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Athletics: in March 2025, John Fisher offered new A's shares at a $2B valuation to raise ~$550M for the Las Vegas ballpark; MLB-vetted investors were reportedly willing to put in $200M+. Source: https://www.fieldofschemes.com/2025/03/19/22484/somebody-is-insisting-people-want-to-buy-minority-as-shares-at-top-value-to-fund-vegas-stadium-wonder-who/",
+      "whatWasMissing": "No specific closed 2025 transaction, buyer or stake was confirmed; this was an offering, not a named deal.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Cleveland Guardians: Travis Kelce became a minority owner in May 2026. Source: https://www.mlb.com/news/travis-kelce-joins-guardians-ownership-group (cited on Wikipedia; the page returned HTTP 406 to the fetcher).",
+      "whatWasMissing": "Stake %, amount, valuation and a second source.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Sweep gaps: no 2025-26 stake sale was found for the Mets, Cubs, Brewers, Dodgers, Orioles LPs or any Arctos/Blue Owl MLB fund stake (Arctos already held Cubs, Astros, Dodgers, Padres and Giants stakes before 2025). For the NHL, no 2025-26 deal was found for the Canadiens, Golden Knights, Blues, Sharks, Panthers or Wild. Checked via web search plus a scan of Wikipedia wikitext for all 30 MLB and 32 NHL teams.",
+      "whatWasMissing": "The session's shared WebSearch budget (200 calls) ran out partway through the sweep, so these teams got fewer targeted searches. A follow-up pass on Sportico and CNBC team-sales coverage is recommended.",
+      "file": "mlb-nhl"
+    },
+    {
+      "description": "Brentford, 2026-03-02: further minority investment. Prakash Melwani (Blackstone) and Sir Lucian Grainge (UMG) joined, and Lubner and Vaughn increased their stakes. Wikipedia says Vaughn put in another £40M in February 2026.",
+      "whatWasMissing": "No stake % or valuation disclosed in the club release, Bloomberg (paywalled) or other opened coverage. The £40M figure appears only on Wikipedia, citing a club release that does not state it.",
+      "file": "mls-epl"
+    },
+    {
+      "description": "Aston Villa: Atairos (Comcast-backed) minority investment in parent V Sports, announced 2023-12-15 and closed 2024-04-12. Wikipedia, citing the FT, gives about 20% of V Sports at a Villa valuation above £500M.",
+      "whatWasMissing": "The opened IWF coverage says the stake and amount were not disclosed. The about 20% / £500M+ figures come from paywalled FT/Bloomberg (not opened). It is also a pre-2025 minority deal at the holding-company level.",
+      "file": "mls-epl"
+    },
+    {
+      "description": "Everton: equity interests granted to Christopher Sarofim and Jason Kidd in 2025, per IWF (2026-09-04).",
+      "whatWasMissing": "Only one passing mention, with no stake %, price, valuation or date.",
+      "file": "mls-epl"
+    },
+    {
+      "description": "MLS clubs named in the brief with no deal found: Chicago Fire, Seattle Sounders, Houston Dynamo (only Tim Howard's small July 2024 stake), LAFC (it sold its own Grasshopper Zurich stake in June 2026, which is not a sale of LAFC), Inter Miami, D.C. United, Nashville, Charlotte, Orlando City, Minnesota United, NYCFC, NY Red Bulls, New England, Atlanta, Cincinnati, FC Dallas, LA Galaxy, Colorado, St. Louis, Philadelphia, CF Montreal.",
+      "whatWasMissing": "The web-search budget ran out mid-task, so these clubs were checked only through Wikipedia pages and Inside World Football archives, not a full news search. Some 2025-26 minority deals may be missing.",
+      "file": "mls-epl"
+    },
+    {
+      "description": "Premier League clubs checked with no 2025-26 deal found: Arsenal, Manchester City, Newcastle, Brighton, West Ham, Fulham, Wolves, Bournemouth, Nottingham Forest, Leicester, Southampton. Also possible 2025-26 deals at promoted Premier League clubs outside team-ids (Leeds, Burnley, Sunderland), which would go in rejected as 'club not in database'.",
+      "whatWasMissing": "Same limited check (Wikipedia and IWF archives only) after the search budget ran out. Not exhaustive.",
+      "file": "mls-epl"
+    },
+    {
+      "description": "Toronto Raptors (via MLSE): Rogers Communications bought BCE's 37.5% of Maple Leaf Sports & Entertainment for C$4.7B, valuing MLSE (Raptors, Maple Leafs, TFC, arena interests) at C$12.5B. Rogers now holds 75% (Kilmer/Tanenbaum 20%, OMERS 5%). Wikipedia says it was completed in 2025. This is an NBA-team control change within the 36-month window.",
+      "whatWasMissing": "Only Wikipedia confirmed it. I couldn't open a news or press-release source (CBC and ESPN were blocked or wrong URLs), and the announcement and close dates were not verified. It's also a multi-team entity, so a Raptors-only valuation isn't separable.",
+      "file": "nba"
+    },
+    {
+      "description": "Washington Wizards (via Monumental Sports & Entertainment): Qatar Investment Authority and Arctos bought Laurene Powell Jobs's ~10% Monumental stake in Dec 2025, per a Monumental press release (Dec 18, 2025) cited by Wikipedia.",
+      "whatWasMissing": "Only Wikipedia confirmed it, with no valuation or stake % for the Dec 2025 deal. I could not locate or open a second source.",
+      "file": "nba"
+    },
+    {
+      "description": "Lakers 2026 deal, Buss siblings' minority shares: Jeanie Buss's five siblings voted to sell their remaining shares (part of the ~15% Buss stake) to Kushner/Iger. Jeanie is contesting it, with a court date of Dec 9.",
+      "whatWasMissing": "Not agreed or closed: it's in litigation, and no price or stake % has been reported. It's noted in the Lakers 2026 transaction rather than listed separately.",
+      "file": "nba"
+    },
+    {
+      "description": "Sweep of Grizzlies, Hornets (post-2023 LP sales incl. Blue Owl), Heat (Josh Kushner's 2024 minority stake, which he must now divest), Knicks/MSG Sports, Clippers, Jazz/SEG, Magic, Suns, Spurs LP deals, Pelicans, Hawks, Kings, and NBA-approved PE stakes (Arctos, Dyal, Blue Owl, Sixth Street) in 2025-2026.",
+      "whatWasMissing": "The session's WebSearch budget (200 calls) ran out partway through the sweep. The Wikipedia team pages I could open (Grizzlies, Hornets, Heat, Suns, Spurs) show no 2025-26 stake transactions, and the NBA owners press-release page lists no other approvals since Jan 2025. That isn't proof there were none: LP/PE deals often get no league release. These teams need a follow-up search pass. Hornets (Jordan sale, closed Aug 2023) and Suns (Ishbia, Feb 2023) fall before the 2023-09-24 comp window. The Bucks' Haslam/Lasry stake (2023) is also outside the window and is minority.",
+      "file": "nba"
+    },
+    {
+      "description": "Raiders second 3.5% tranche expected after the Mar 31, 2026 approval (bringing Durban's March purchase to 7%)",
+      "whatWasMissing": "No confirmation it was signed or approved as a separate deal; it may have been folded into the May 2026 25.3% transaction",
+      "file": "nfl"
+    },
+    {
+      "description": "Chargers 8% Arctos sale (May 2025): valuation",
+      "whatWasMissing": "Only Sportico's 'north of $6 billion' (a single source and only a floor); no exact figure or second source",
+      "file": "nfl"
+    },
+    {
+      "description": "Khosla family's 3.1% 49ers stake, which had to be divested as a condition of the Seahawks purchase (2026)",
+      "whatWasMissing": "Buyer, price, valuation and date of the divestiture not found",
+      "file": "nfl"
+    },
+    {
+      "description": "Browns–Arctos tranches 2 and 3 (to reach 10% at $9B)",
+      "whatWasMissing": "Timing and approval of later tranches not reported",
+      "file": "nfl"
+    },
+    {
+      "description": "Sweep for 2025–2026 LP sales at Commanders, Texans, Broncos, Vikings, Jaguars, Buccaneers, Jets, Steelers, Cardinals, Titans, Panthers, Saints",
+      "whatWasMissing": "No deals found in searches, but the sweep was cut short when the session's web-search budget (200 calls) ran out. Individual team checks for Bengals, Ravens, Colts, Chiefs, Cowboys, Lions, Rams and Packers were not run. A future check should re-run these and look for any October 2026 fall-meeting approvals.",
+      "file": "nfl"
+    }
+  ],
+  "leagueCagr": {
+    "NFL": {
+      "rate": 0.13076841020419994,
+      "n": 32
+    },
+    "NBA": {
+      "rate": 0.16272399270155802,
+      "n": 30
+    },
+    "MLB": {
+      "rate": 0.07381694313714937,
+      "n": 30
+    },
+    "NHL": {
+      "rate": 0.13275559275098714,
+      "n": 30
+    },
+    "MLS": null,
+    "EPL": {
+      "rate": 0.1000711168990549,
+      "n": 9
+    }
+  }
+}
