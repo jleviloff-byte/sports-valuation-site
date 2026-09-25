@@ -138,7 +138,7 @@
         },
         {
           "id": "mediaRightsCycle",
-          "text": "The NBA's 11-year, $76B national deal with Disney, NBC and Amazon began in 2025-26. It pays about $6.9B a season, 160% more than the old contract, which lifts every small-market team's floor.",
+          "text": "The NBA's 11-year, $76B national deal with Disney, NBC and Amazon began in 2025-26. It pays about $6.9B a season, 160% more than the old contract.",
           "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
         },
         {
@@ -186,7 +186,28 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.9273,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "The Falcons earned an estimated $800M in 2024 revenue, 8th in the NFL, with more than $100M a year from sponsorship. Mercedes-Benz Stadium ranks first among NFL venues in non-football event gross revenue, and the Forbes team number does not fully capture that.",
+          "source": "https://angelinvestorsnetwork.com/alternative-investments/arctos-partners-atlanta-falcons-private-equity-stake"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "This is Arctos' fourth NFL stake, after the Bills, Chargers and Browns. A repeat buyer with league approval and deal data from three other clubs can underwrite a $10.6B blended valuation.",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arctos-will-buy-10-percent-of-falcons-at-10-6-billion-valuation"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "NFL rules cap approved funds at 10% of a team, which makes LP slots scarce. Several teams have now sold limited stakes above $10B even though no NFL control sale has topped $10B.",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arctos-will-buy-10-percent-of-falcons-at-10-6-billion-valuation"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The Falcons were valued at $8B in September 2025. Eleven months later Arctos priced them at $10.6B, with the second tranche stepping up to about $11B in 18 months.",
+          "source": "https://sports.yahoo.com/articles/arctos-buying-10-stake-atlanta-182520699.html"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1426,
         "leagueTrailingDecade": 0.1308,
@@ -277,11 +298,6 @@
           "id": "buyerProfile",
           "text": "Josh Kushner (Thrive Capital) and former Disney CEO Bob Iger were pursuing a Las Vegas expansion team before they pivoted to the Lakers. Iger says the deal came together in three days. Trophy buyers with an expansion fee as their fallback paid $12.5B, 25% over Forbes.",
           "source": "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b"
-        },
-        {
-          "id": "forcedSeller",
-          "text": "Mark Walter sold only 14 months after paying $10B while federal prosecutors reportedly examined about $16B in loans tied to his Guggenheim-linked insurers. A quick, clean exit mattered more to him than running a long auction.",
-          "source": "https://www.cbssports.com/nba/news/lakers-sold-josh-kushner-bob-iger/"
         },
         {
           "id": "multipleExpansion",
@@ -635,7 +651,28 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.6071,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "Arctos money helps fund the Browns' new $2.6B stadium in Brook Park, with Jimmy and Dee Haslam pledging $1.76B. A new stadium is upside that the Forbes team value does not reflect.",
+          "source": "https://sports.yahoo.com/articles/arctos-browns-investment-latest-30-210024104.html"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "This was Arctos' third NFL stake and its first deal after KKR bought the firm. Arctos manages about $16B and holds stakes in 32 teams, so it brings comps and conviction a one-off buyer lacks.",
+          "source": "https://sports.yahoo.com/articles/arctos-browns-investment-latest-30-210024104.html"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "NFL rules allow passive PE stakes of 3% to 10% per team, with a six-team cap and a six-year minimum hold, and Arctos is the only firm approved across multiple NFL teams. That scarcity of approved capital lets the Haslams sell in tranches at a premium.",
+          "source": "https://sports.yahoo.com/articles/arctos-browns-investment-latest-30-210024104.html"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The $9B valuation equals roughly 13.4x revenue, the highest multiple on record until the Seahawks sale two months later.",
+          "source": "https://www.dakota.com/resources/blog/khosla-family-agrees-to-acquire-seattle-seahawks-for-record-9.6-billion-resetting-nfl-valuations"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.122,
         "leagueTrailingDecade": 0.1308,
@@ -673,7 +710,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.2692,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "The buyers step into a pre-cleared succession: Egon Durban holds a right of first refusal on control when Mark Davis, who has no heir, sells. A minority block with a defined path to control is worth more than a passive LP slice.",
+          "source": "https://fanclubsports.substack.com/p/owners-club-the-raiders-succession"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "The buyer group is Silver Lake co-CEO Durban (taking him to 22%), Michael Dell, Blackstone's Joseph Baratta and TKO executives. First Football paid a weighted valuation of about $700M in 2007 and exits at $9.9B.",
+          "source": "https://fanclubsports.substack.com/p/owners-club-the-raiders-succession"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0958,
         "leagueTrailingDecade": 0.1308,
@@ -768,7 +816,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.4231,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "The deal gave Egon Durban a 10-year right of first refusal on Mark Davis's controlling stake, making him Davis's successor. The $11.1B headline also includes the 10% flip tax paid to the league, so it overstates the value of a pure LP stake.",
+          "source": "https://las-vegas-news.com/las-vegas-raiders-hit-11-1-billion-valuation-in-landmark-minority-stake-approval/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "The 2020 move to Las Vegas, Allegiant Stadium and rising NFL media and venue revenue pushed the valuation to $11.1B, up from earlier estimates of $7.8B.",
+          "source": "https://las-vegas-news.com/las-vegas-raiders-hit-11-1-billion-valuation-in-landmark-minority-stake-approval/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1084,
         "leagueTrailingDecade": 0.1308,
@@ -856,7 +915,28 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.5432,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "The 1% is in Stephen Ross's holding company, which owns the Dolphins plus Hard Rock Stadium, the F1 Miami Grand Prix and the Miami Open. The $12.5B covers a stadium-and-events platform, not just a football team.",
+          "source": "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-bin-lin"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "Ares bought 10% at an $8.1B valuation in December 2024, and Joseph Tsai and Oliver Weisberg bought 3% at the same mark. Fifteen months later the holding company priced 54% higher.",
+          "source": "https://www.sportspro.com/news/finance-investment/miami-dolphins-lin-bin-investment-stake-record-valuation-march-2026/"
+        },
+        {
+          "id": "scarcityAndTiming",
+          "text": "Ross bought the team for $1B in 2009, has no plans to sell, and reportedly turned down offers near $15B. With control off the table, a 1% slice is the only way in, and small slices price richly.",
+          "source": "https://www.sportspro.com/news/finance-investment/miami-dolphins-lin-bin-investment-stake-record-valuation-march-2026/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Xiaomi co-founder Lin Bin called the stake a financial opportunity and 'a wonderful investment and learning opportunity.' He is a trophy buyer writing a small check into a record valuation.",
+          "source": "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-bin-lin"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1174,
         "leagueTrailingDecade": 0.1308,
@@ -894,7 +974,23 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes MLS Nov 2025",
       "premiumToForbes": 0,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "multipleExpansion",
+          "text": "MLS team values are up 121% since 2019 to an average near $690M, with LAFC at $1.25B and Inter Miami at $1.2B. That tide carried Sporting KC to $700M, the highest price ever paid for an MLS majority stake, despite a last-place Western Conference finish in 2025.",
+          "source": "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Mallouk, CEO of Creative Planning, is a Kansas City native, a Sporting KC minority owner since 2022 and a Royals investor. An insider local buyer closed after more than a year of talks and paid right at the market mark.",
+          "source": "https://www.insideworldfootball.com/2026/01/20/peter-mallouk-takes-control-sporting-kansas-city-sign-times-mls/"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "Mallouk moves to about 80% of the economics, but the Illig family, now below 10%, keeps day-to-day operations and the MLS board seat. Majority equity without operating control caps what a buyer pays for the stake.",
+          "source": "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/",
@@ -927,7 +1023,23 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes 2025; sold to Hoffmann Family Dec 2025 at $1.7B enterprise value",
       "premiumToForbes": -0.0286,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "mediaRightsCycle",
+          "text": "Local TV viewership on SportsNet Pittsburgh fell 38% last season, the third-largest drop in the NHL, and the arena ran at 88.4% capacity, third-lowest in the league. A shrinking RSN and fading gate after three straight missed playoffs held the price slightly under the Forbes mark.",
+          "source": "https://frontofficesports.com/penguins-sale-would-end-a-disappointing-4-year-run-under-fsg/"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "FSG ran a formal process that began as a minority raise and turned into a control sale. A Mario Lemieux-led group bid to buy the team back but fell short of the Hoffmann family offer, which still nearly doubled FSG's $900M 2021 entry price.",
+          "source": "https://www.sportspro.com/news/finance-investment/pittsburgh-penguins-sale-hoffmann-family-fsg-nhl-ownership-december-2025/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "Average NHL franchise values reached $2.1B in October 2024, up 17% in a year. League-wide appreciation carried the Penguins to $1.7B to $1.8B despite the on-ice decline.",
+          "source": "https://www.espn.com/nhl/story/_/id/47337429/sources-fenway-sports-group-sell-penguins-hoffman-family"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0669,
         "leagueTrailingDecade": 0.1328,
@@ -964,7 +1076,23 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Mar 2025",
       "premiumToForbes": 0.129,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The Twins carry about $500M of debt, and the Pohlads sold just over 20% to cut it significantly and position the club for a future sale. A liquidity-driven LP sale by a family that could not find a control buyer.",
+          "source": "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html"
+        },
+        {
+          "id": "mediaRightsCycle",
+          "text": "The Pohlads ended their control sale in August 2025 after asking about $1.7B, with front-runner Justin Ishbia leaving for the White Sox and uncertainty over the team's TV rights already forcing payroll cuts. With the local media stream in flux, the LP mark stayed close to Forbes.",
+          "source": "https://www.mlbtraderumors.com/2025/08/pohlad-family-no-longer-pursuing-sale-of-twins.html"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "The three LPs include Craig Leipold, majority owner of the NHL's Minnesota Wild, alongside Glick Family Investments and George G. Hicks. Local, sports-literate buyers took a minority slice at $1.75B while Tom Pohlad becomes control person.",
+          "source": "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0831,
         "leagueTrailingDecade": 0.0738,
@@ -1002,7 +1130,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.125,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "Kraft keeps full control and the proceeds stay in the franchise to be reinvested, so the $9B is a pre-money mark on a passive stake with no path to control. That caps the premium at 12.5% over Forbes.",
+          "source": "https://www.si.com/nfl/patriots/onsi/news/new-england-patriots-robert-kraft-selling-small-ownership-stake"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "Sixth Street already owns pieces of the Celtics, Spurs and San Francisco Giants. Dean Metropoulos is a consumer-brand investor who bought and sold Pabst and Hostess.",
+          "source": "https://www.sportcal.com/news/nfl-approves-minority-stake-sales-for-giants-49ers-patriots/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0827,
         "leagueTrailingDecade": 0.1308,
@@ -1040,7 +1179,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.0118,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "Briger bought at the same valuation as the May 2025 sale, about $8.6B, for roughly $275M. The Yorks keep about 87.8%, so this is a passive slice priced off a fresh comp, not a new negotiation.",
+          "source": "https://www.almanacnews.com/sports/2025/10/22/menlo-park-resident-buys-275m-stake-in-san-francisco-49ers/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Pete Briger is executive chairman of Fortress Investment Group, which oversees more than $53B. He is a Menlo Park local who framed the purchase around the Bay Area rather than returns.",
+          "source": "https://www.almanacnews.com/sports/2025/10/22/menlo-park-resident-buys-275m-stake-in-san-francisco-49ers/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0713,
         "leagueTrailingDecade": 0.1308,
@@ -1081,17 +1231,17 @@
       "drivers": [
         {
           "id": "forcedSeller",
-          "text": "Paul Allen's will required his teams to be sold with the proceeds going to philanthropy. The estate was a motivated seller, which helps explain a price only 11% above Forbes in a hot NBA market.",
+          "text": "Paul Allen's will required his teams to be sold with the proceeds going to philanthropy. The estate was a motivated seller, and the first tranche priced only 11% above Forbes in a hot NBA market.",
           "source": "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon"
         },
         {
           "id": "realEstateOptionality",
-          "text": "Oregon passed SB 1501 to borrow $365M for Moda Center renovations, repaid over two decades from tax revenue. That keeps the franchise in Portland and moves arena capex off the buyer's balance sheet.",
+          "text": "Oregon passed SB 1501 to borrow $365M for Moda Center renovations, repaid over two decades from tax revenue. That keeps the franchise in Portland and puts public money behind the building.",
           "source": "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/"
         },
         {
           "id": "mediaRightsCycle",
-          "text": "Dundon bought at the start of the NBA's $76B, 11-year national deal, which pays about $6.9B a season from 2025-26, 160% more than before. That income is shared equally, so it lifts small-market teams like Portland the most.",
+          "text": "Dundon bought at the start of the NBA's $76B, 11-year national deal, which pays about $6.9B a season from 2025-26, 160% more than before.",
           "source": "https://www.cbssports.com/nba/news/nba-signs-new-tv-deal-details-on-11-year-76-billion-deal-with-espn-nbc-amazon-as-tnt-gets-left-out/"
         }
       ],
@@ -1137,12 +1287,12 @@
       "drivers": [
         {
           "id": "forcedSeller",
-          "text": "The Allen estate, bound by Paul Allen's will to sell and give the proceeds to philanthropy, agreed to sell the last 19.9% at a price fixed in advance. The tranche closes by September 1, 2028.",
+          "text": "The Allen estate, bound by Paul Allen's will to sell and give the proceeds to philanthropy, agreed up front to sell the last 19.9% to the Dundon group. That tranche closes by 2028.",
           "source": "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon"
         },
         {
           "id": "realEstateOptionality",
-          "text": "The deferred tranche is priced at $4.5B, $500M above the first 80.1%, and sits on a franchise that Oregon's $365M Moda Center renovation bill locks into Portland. The step-up prices in value the arena deal creates between now and 2028.",
+          "text": "The deferred 19.9% is priced at $4.5B, $500M above the first 80.1%. It sits on a franchise that Oregon's $365M Moda Center renovation bill now anchors in Portland.",
           "source": "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/"
         }
       ],
@@ -1185,7 +1335,23 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025",
       "premiumToForbes": 0.2875,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "scarcityAndTiming",
+          "text": "This was the first outside investment in a franchise the Mara family has controlled since 1925. A 10% block of a century-old New York franchise had never been available.",
+          "source": "https://www.nfl.com/news/nfl-owners-approve-sale-10-percent-giants-julia-koch-family"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "The Mara and Tisch families hired Moelis & Co. in February 2025 to run the minority sale. The banked process produced a $10B-plus valuation that topped the Commanders' $6.05B control record.",
+          "source": "https://www.nfl.com/news/nfl-owners-approve-sale-10-percent-giants-julia-koch-family"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Julia Koch has a net worth of about $81.2B, and her family bought 15% of BSE Global, owner of the Nets and Liberty, the year before. For that buyer, a $1B-plus check for a trophy New York asset is routine.",
+          "source": "https://www.espn.com/nfl/story/_/id/46151970/reports-koch-family-buy-stake-giants-10b-valuation"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0974,
         "leagueTrailingDecade": 0.1308,
@@ -1223,7 +1389,18 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes",
       "premiumToForbes": 0.3906,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The 2.35% came from the estate of the late Andrew McKenna and was bought by the existing owners. After the deal, the McCaskeys hold 77% and the Ryans 23%.",
+          "source": "https://chicago.suntimes.com/bears/2025/09/24/nfl-approval-of-bears-sale-of-minority-stake-raises-valuation-to-8-9-billion-report"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "The $8.9B valuation includes the Bears' 326-acre Arlington Heights property, where the team planned a new stadium. That land and stadium upside sits outside a team-only Forbes number.",
+          "source": "https://chicago.suntimes.com/bears/2025/09/24/nfl-approval-of-bears-sale-of-minority-stake-raises-valuation-to-8-9-billion-report"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1059,
         "leagueTrailingDecade": 0.1308,
@@ -1261,7 +1438,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes (May 2025); $912M implied by minority stake transactions",
       "premiumToForbes": 0.1055,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "All five new investors are Austin-based wealth: Peak6 co-founders Jenny Just and Matt Hulsizer, Nvidia board member since 1993 Tench Coxe, Securonix CTO Tanuj Gulati and Magnetar's Dave Snyderman. Local tech and finance money pays for civic ownership, and Precourt keeps control.",
+          "source": "https://communityimpact.com/austin/northwest-austin/arts-entertainment/2025/08/04/austin-fc-welcomes-new-members-to-clubs-ownership-group/"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "MLS team values are up 121% since 2019, and Austin's $912M enterprise value sits beside Columbus at $900M among the league's top recent marks. Rising league comps set the price above Forbes.",
+          "source": "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://www.sportico.com/business/team-sales/2025/austin-fc-new-investors-valuation-mls-1234862161/",
@@ -1295,7 +1483,18 @@
       "forbesListYear": null,
       "forbesSource": null,
       "premiumToForbes": null,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "Filmmaker Sir Matthew Vaughn claims a 25-year connection to the club, and Gary Lubner is the former Belron CEO who now runs the This Day Foundation. Affinity buyers paid a £400M mark for a small stake in a Premier League club since 2021/22.",
+          "source": "https://www.insideworldfootball.com/2025/07/16/lubner-vaughn-take-minority-stakes-brentford/"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "The stakes are reportedly no more than 10% combined, bought through Benham's holding company Best Intentions Analytics, and Benham stays majority owner. The club says the money enables greater squad investment, so this is a minority raise with no control attached.",
+          "source": "https://www.insideworldfootball.com/2025/07/16/lubner-vaughn-take-minority-stakes-brentford/"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://www.sportspro.com/news/brentford-investment-gary-lubner-matthew-vaughn-benham-july-2025/",
@@ -1372,7 +1571,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Aug 2025 (~£595M); Textor stake sale to Woody Johnson at ~£420M implied",
       "premiumToForbes": -0.212,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Textor's Eagle Football also controlled Lyon, and UEFA multi-club rules threatened to bar Palace from its first Europa League campaign, earned by winning the FA Cup. With a UEFA ruling due within weeks, Textor had to exit fast, and £190M for 43% priced the club below the Forbes mark.",
+          "source": "https://www.skysports.com/football/news/11706/13387361/crystal-palaces-europa-league-prospects-improve-after-john-textor-sells-stake-to-new-york-jets-owner-woody-johnson"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Johnson, the Jets co-owner and former U.S. ambassador to the UK, had already pursued Chelsea and West Ham. A motivated buyer who had been circling the Premier League was ready to close on Textor's timeline.",
+          "source": "https://www.skysports.com/football/news/11706/13387361/crystal-palaces-europa-league-prospects-improve-after-john-textor-sells-stake-to-new-york-jets-owner-woody-johnson"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0448,
         "leagueTrailingDecade": 0.1001,
@@ -1410,7 +1620,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes Mar 2025",
       "premiumToForbes": 0.36,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Sternberg walked away from a $1.3B stadium deal next to Tropicana Field in March 2025, faced public and political backlash, and sought a buyer with a better path to a regional ballpark. Hurricane Milton had already torn the Trop roof, and St. Petersburg is spending about $59M on repairs.",
+          "source": "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "Zalupski founded homebuilder Dream Finders Homes, and his first job is a new stadium deal with the Trop contract ending in 2028. MLB wants the club to stay in the 11th-largest media market, so a developer buyer is pricing in the ballpark project.",
+          "source": "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1034,
         "leagueTrailingDecade": 0.0738,
@@ -1456,7 +1677,7 @@
         },
         {
           "id": "scarcityAndTiming",
-          "text": "This was the first change of control in 46 years of Buss family ownership. The heirs had held the team in trust since Jerry Buss died in 2013, and selling let them divide the proceeds while Jeanie Buss stays governor for at least five years.",
+          "text": "This was the first change of control in 46 years of Buss family ownership. The family keeps an interest, and Jeanie Buss stays governor for at least five years after closing.",
           "source": "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter"
         },
         {
@@ -1507,7 +1728,23 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes",
       "premiumToForbes": 0.2536,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "multipleExpansion",
+          "text": "The $8.6B mark broke the NFL minority-stake record of $8.3B set by the Eagles a year earlier. The buyers paid $533.2M for 6.2%.",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sale-of-minority-stake-sets-record-with-8-6-billion-valuation"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "The York family still owns 91%, and minority shares carry a discount because they come with no control. That is why the price trails where a control sale would land.",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sale-of-minority-stake-sets-record-with-8-6-billion-valuation"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "The buyers were three Bay Area families, Khosla, Deeter and Griffith, rooted in tech and venture capital. They were local, wealthy LPs, not return-driven funds.",
+          "source": "https://www.49erswebzone.com/articles/194600-additional-bringing-new-partner-ownership/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0945,
         "leagueTrailingDecade": 0.1308,
@@ -1546,7 +1783,18 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes (CNBC)",
       "premiumToForbes": null,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "portfolioSynergy",
+          "text": "This was Arctos' second NFL stake, after it bought 10% of the Bills in January 2025. The firm was building a multi-team NFL book under the new PE rules.",
+          "source": "https://sports.yahoo.com/article/chargers-add-equity-firm-arctos-215446936.html"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "Arctos took a passive 8% while the Spanos family keeps about 61%. It followed Tom and Holly Gores' 27% purchase, which carried no control or path to control, so the price was set for a non-control stake.",
+          "source": "https://finance.yahoo.com/news/los-angeles-chargers-selling-portion-210949696.html"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://sports.yahoo.com/article/chargers-add-equity-firm-arctos-215446936.html",
@@ -1580,7 +1828,18 @@
       "forbesListYear": 2025,
       "forbesSource": "Forbes MLS Nov 2025",
       "premiumToForbes": -0.0909,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "buyerProfile",
+          "text": "The Larry H. Miller family owned the Jazz from 1985 to 2020 and returns to Utah sports as a local steward. The $600M covers RSL, the NWSL Utah Royals, Real Monarchs, the academy, America First Field and Zions Bank Stadium, up from about $400M in 2022.",
+          "source": "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "Smith Entertainment Group sold out to tighten its focus on the NBA and NHL, while the Millers already run the Salt Lake Bees. A seller exiting for strategic focus and a single local buyer kept the price under the Forbes mark.",
+          "source": "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million",
@@ -1668,7 +1927,18 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes",
       "premiumToForbes": -0.122,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "controlVsLP",
+          "text": "Ishbia bought out LP shares at $1.8B, below Forbes's $2B, because LP units carry no control and Reinsdorf keeps running the club. His agreement lets him take control as early as 2029 and no later than the end of the 2034 season.",
+          "source": "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Ishbia, whose brother Mat owns the Suns and Mercury, dropped his pursuit of the Twins to concentrate on the White Sox. A patient buyer accumulating LP units at a discount builds a cheap bridge to eventual control.",
+          "source": "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0562,
         "leagueTrailingDecade": 0.0738,
@@ -1705,7 +1975,23 @@
       "forbesListYear": 2024,
       "forbesSource": "Forbes / Friedkin Dec 2024 enterprise value implied (~£800M equity + restructured debt approaches £1B EV)",
       "premiumToForbes": null,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Moshiri lost most, if not all, of his investment and was left with a failed 777 Partners bid, about £200M owed to that side, £158M to MSP Sports Capital and £225M from Rights and Media Funding at 10.25%. A debt-laden seller with no alternative sold 94.1% on the buyer's terms.",
+          "source": "https://www.insideworldfootball.com/2024/09/24/moshiri-exits-friedkin-group-agrees-everton-takeover/"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "The club was a season away from moving into its new £760M Bramley-Moore Dock stadium, and Friedkin made completing it a stated priority. The buyer inherits a new venue that a pre-move valuation does not capture.",
+          "source": "https://www.insideworldfootball.com/2024/12/19/freidkin-completes-everton-buy-ending-moshiri-era/"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "The Friedkin Group already owns Serie A's AS Roma and arrived with a plan to cut Everton's debt to about £300M, converting some to equity. Multi-club operating experience let it underwrite a distressed turnaround.",
+          "source": "https://www.insideworldfootball.com/2024/12/19/freidkin-completes-everton-buy-ending-moshiri-era/"
+        }
+      ],
       "investmentCase": null,
       "sources": [
         "https://www.espn.com/soccer/story/_/id/41397704/friedkin-group-farhad-moshiri-agree-deal",
@@ -1787,7 +2073,23 @@
       "forbesListYear": 2023,
       "forbesSource": "Forbes (as Arizona Coyotes)",
       "premiumToForbes": 1.4,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "The Coyotes were stuck in 4,600-seat Mullett Arena after the Tempe arena referendum failed, with no timeline for a new building. The NHL paid Meruelo $1B and moved the hockey assets, a league-forced exit rather than a market sale.",
+          "source": "https://en.wikipedia.org/wiki/Utah_Mammoth"
+        },
+        {
+          "id": "scarcityAndTiming",
+          "text": "Smith paid a $1.2B expansion fee for a brand-new franchise in a new market, and the $200M gap to Meruelo's $1B was a de facto relocation fee split by the other 31 clubs. The price reflects the cost of an NHL franchise slot, not the Coyotes' Forbes value.",
+          "source": "https://en.wikipedia.org/wiki/Utah_Mammoth"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "Ryan Smith already owned the Jazz and co-owned Real Salt Lake, so the team launched immediately inside his existing Salt Lake City sports operation.",
+          "source": "https://en.wikipedia.org/wiki/Utah_Mammoth"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1679,
         "leagueTrailingDecade": 0.1328,
@@ -1824,7 +2126,23 @@
       "forbesListYear": 2023,
       "forbesSource": "Forbes",
       "premiumToForbes": 0.0781,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Peter Angelos, 94 with advanced dementia, faced capital gains taxes of hundreds of millions if the family sold before his death, so the group bought about 40% now with the rest to follow after his passing. Estate planning, not price discovery, set the terms.",
+          "source": "https://www.thebanner.com/sports/orioles-mlb/baltimore-orioles-sale-john-angelos-david-rubenstein-JXHAPWXKSNFS7JR3K6KRCC4LEY/"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Rubenstein, a Baltimore native and Carlyle co-founder, brought Ares co-founder Michael Arougheti, Mike Bloomberg and Cal Ripken Jr. into the group. A local, well-capitalized buyer paid $1.725B, the third-highest baseball franchise price at the time, including the Orioles' MASN stake.",
+          "source": "https://www.sportspro.com/news/baltimore-orioles-mlb-david-rubenstein-acquisition-approval/"
+        },
+        {
+          "id": "realEstateOptionality",
+          "text": "The new 30-year Camden Yards lease unlocks $600M in state funding for upgrades, and the team sought the right to develop state-owned buildings and land around the ballpark.",
+          "source": "https://www.sportspro.com/news/baltimore-orioles-mlb-david-rubenstein-acquisition-approval/"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0781,
         "leagueTrailingDecade": 0.0738,
@@ -1862,7 +2180,18 @@
       "forbesListYear": 2023,
       "forbesSource": "Forbes",
       "premiumToForbes": 0.0606,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "realEstateOptionality",
+          "text": "The Adelson family, which controls Las Vegas Sands, wants an integrated casino resort in Dallas, and Cuban had floated a new arena inside such a development. The $3.5B beat Sportico's $2.77B December mark on that development vision.",
+          "source": "https://fortune.com/2023/12/27/dallas-mavericks-sold-mark-cuban-adelson-nba"
+        },
+        {
+          "id": "buyerProfile",
+          "text": "Miriam Adelson funded the deal partly by selling $2B of Sands stock. Cuban put the fit plainly: 'They're not basketball people. I'm not real estate people.'",
+          "source": "https://sports.yahoo.com/nba-approves-sale-of-mavericks-to-adelson-dumont-families-as-mark-cuban-eyes-new-arena-in-dallas-002827355.html"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0763,
         "leagueTrailingDecade": 0.1627,
@@ -1900,7 +2229,18 @@
       "forbesListYear": 2023,
       "forbesSource": "Forbes / validated by Glazer-Ratcliffe sale process",
       "premiumToForbes": -0.1333,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "auctionDynamics",
+          "text": "The Glazers ran a Raine-led process from February to October 2023, but Sheikh Jassim, bidding for 100% at close to £5bn, withdrew on October 14. That left Ratcliffe as the only major bidder, and the full sale shrank to a 25% stake.",
+          "source": "https://www.skysports.com/football/news/13037428/manchester-united-sir-jim-ratcliffes-deal-with-the-glazers-explained-and-what-it-means-for-the-premier-league-club"
+        },
+        {
+          "id": "controlVsLP",
+          "text": "Ratcliffe paid $33 a share for 25% and got control of football operations while the Glazers kept majority ownership. The $5.2B is equity value that excludes net debt, and a minority block priced per share lands below an enterprise mark.",
+          "source": "https://www.skysports.com/football/news/13037428/manchester-united-sir-jim-ratcliffes-deal-with-the-glazers-explained-and-what-it-means-for-the-premier-league-club"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0548,
         "leagueTrailingDecade": 0.1001,
@@ -1937,7 +2277,23 @@
       "forbesListYear": 2022,
       "forbesSource": "Forbes",
       "premiumToForbes": 0.0804,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Dan Snyder sold under heavy pressure from workplace misconduct and financial investigations, which ended in a $60M NFL fine. Owners wanted him out.",
+          "source": "https://www.espn.com/nfl/story/_/id/38043528/nfl-owners-approve-605b-sale-commanders-harris-group"
+        },
+        {
+          "id": "auctionDynamics",
+          "text": "Josh Harris and Steve Apostolopoulos both submitted formal bids. Harris raised his offer to $6.05B to win what Apostolopoulos called a 'head to head' process, and the price beat the Broncos' $4.65B record.",
+          "source": "https://www.cbssports.com/nfl/news/commanders-sale-canadian-billionaire-says-hes-still-in-the-hunt-going-head-to-head-with-josh-harris"
+        },
+        {
+          "id": "portfolioSynergy",
+          "text": "Harris co-founded Apollo and already owned the 76ers and Devils. He assembled a 20-LP group within the NFL's 25-partner limit and met the league's $1.1B debt cap.",
+          "source": "https://www.espn.com/nfl/story/_/id/38043528/nfl-owners-approve-605b-sale-commanders-harris-group"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0783,
         "leagueTrailingDecade": 0.1308,
@@ -1974,7 +2330,18 @@
       "forbesListYear": 2020,
       "forbesSource": "Forbes",
       "premiumToForbes": 0,
-      "drivers": [],
+      "drivers": [
+        {
+          "id": "forcedSeller",
+          "text": "Glen Taylor tried to terminate the sale in March 2024, but an arbitration panel ordered it to proceed. He had to finish at the $1.5B price fixed in April 2021.",
+          "source": "https://www.nbcnews.com/sports/nba/timberwolves-sale-alex-rodriguez-marc-lore-back-track-arbitration-rcna191596"
+        },
+        {
+          "id": "multipleExpansion",
+          "text": "By closing in June 2025, NBA revenue had soared and the team was valued at $3.1B (Forbes) to $3.29B (Sportico). The $1.5B is a stale 2021 price, not a market comp.",
+          "source": "https://africa.espn.com/nba/story/_/id/45577217/nba-owners-approve-15-billion-sale-wolves-wnba-lynx"
+        }
+      ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.07,
         "leagueTrailingDecade": 0.1627,
