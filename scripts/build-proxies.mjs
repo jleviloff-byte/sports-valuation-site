@@ -9,7 +9,11 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace
 const RAW = path.join(ROOT, 'research', 'raw')
 const read = (f) => (fs.existsSync(path.join(RAW, f)) ? JSON.parse(fs.readFileSync(path.join(RAW, f), 'utf8')) : null)
 const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : null)
-const clean = (s) => (typeof s === 'string' ? s.replace(/\s*[–—]\s*/g, ', ') : s)
+// Public copy: no dashes, and drop research caveats ("not asserted here") from notes.
+const clean = (s) => (typeof s === 'string'
+  ? s.replace(/\s*[–—]\s*/g, ', ')
+      .split(/(?<=\.)\s+/).filter((x) => !/not asserted|not officially published|not published/i.test(x)).join(' ').trim() || null
+  : s)
 
 const proxies = {}
 const get = (id) => (proxies[id] ||= {})
@@ -46,7 +50,9 @@ for (const f of ['proxies-nfl-nba.json', 'proxies-mlb-nhl.json']) {
   for (const b of j.brand ?? []) {
     Object.assign(get(b.teamId), {
       titles25: num(b.championships25y),
-      nationalTv: num(b.nationalTvGames),
+      // Canadian NHL clubs: national exposure is Sportsnet/CBC, not ESPN/TNT.
+      nationalTv: num(b.nationalTvGamesCanada) ?? num(b.nationalTvGames),
+      nationalTvScope: num(b.nationalTvGamesCanada) != null ? 'Canada' : 'US',
       socialM: num(b.socialFollowers),
       merchRank: num(b.merchRank),
     })

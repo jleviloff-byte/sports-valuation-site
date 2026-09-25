@@ -275,7 +275,7 @@ export function componentExplanation(team, key) {
   if (key === 'brand') {
     const bits = []
     if (p.titles25 != null) bits.push(`${p.titles25} championship${p.titles25 === 1 ? '' : 's'} since 2001`)
-    if (p.nationalTv != null) bits.push(`${p.nationalTv} national TV games last season`)
+    if (p.nationalTv != null) bits.push(`${p.nationalTv} ${p.nationalTvScope === 'Canada' ? 'Canadian national broadcasts' : 'national TV games'} last season`)
     if (bits.length) parts.push(`${team.name} bring ${bits.join(' and ')}.`)
     if (p.socialM) {
       const sr = leagueRankOf(L, team.id, (x) => x.socialM)
