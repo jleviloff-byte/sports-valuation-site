@@ -131,7 +131,7 @@ function MobileMenu({ open, onClose }) {
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-[70] md:hidden">
+    <div className="fixed inset-0 z-[70] lg:hidden">
       <div
         className="absolute inset-0 bg-ink/55 animate-backdrop-in"
         onClick={onClose}
@@ -182,11 +182,11 @@ function Nav() {
             What's My Team Worth
           </Link>
 
-          {/* Desktop nav (md+) */}
-          <div className="hidden md:flex items-center gap-4 lg:gap-5 text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
+          {/* Desktop nav (lg+) */}
+          <div className="hidden lg:flex items-center gap-4 xl:gap-5 whitespace-nowrap text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
             <Link to="/#explorer"  className="hover:text-ink transition-colors">Explorer</Link>
-            <Link to="/#framework" className="hover:text-ink transition-colors">Framework</Link>
-            <Link to="/#macro"     className="hover:text-ink transition-colors">Macro</Link>
+            <Link to="/#framework" className="hidden xl:inline hover:text-ink transition-colors">Framework</Link>
+            <Link to="/#macro"     className="hidden xl:inline hover:text-ink transition-colors">Macro</Link>
             <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
             <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
             <span className="w-px h-4 bg-rule" aria-hidden="true" />
@@ -196,13 +196,13 @@ function Nav() {
             <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
           </div>
 
-          {/* Mobile hamburger (below md) */}
+          {/* Mobile hamburger (below lg) */}
           <button
             type="button"
             onClick={() => setMenuOpen(true)}
             aria-label="Open navigation menu"
             aria-expanded={menuOpen}
-            className="md:hidden w-11 h-11 flex flex-col items-center justify-center gap-1.5 text-ink hover:bg-paper rounded-sm transition-colors"
+            className="lg:hidden w-11 h-11 flex flex-col items-center justify-center gap-1.5 text-ink hover:bg-paper rounded-sm transition-colors"
           >
             <span className="block w-6 h-0.5 bg-ink" />
             <span className="block w-6 h-0.5 bg-ink" />

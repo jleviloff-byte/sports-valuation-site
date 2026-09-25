@@ -209,7 +209,7 @@ function DealDetail({ deal, team, onOpenProfile }) {
         <div className="p-3 sm:p-4 border-r border-rule">
           <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">{minority ? 'Implied team mark' : 'Price paid'}</div>
           <div className="font-mono text-lg sm:text-2xl font-bold text-ink">{fmtUSD(deal.valuation)}</div>
-          {deal.isEstimated && <div className="font-mono text-[9px] text-accent-dark uppercase tracking-wider">Estimated</div>}
+          {deal.isEstimated && <div className="font-mono text-[9px] text-accent-dark uppercase tracking-wider">Some terms estimated</div>}
         </div>
         <div className="p-3 sm:p-4 border-r border-rule">
           <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">Forbes at time of sale</div>
