@@ -143,9 +143,9 @@ function MobileMenu({ open, onClose }) {
         onClick={onClose}
         aria-hidden="true"
       />
-      <div className="absolute inset-x-0 top-0 bg-white border-b-2 border-ink shadow-modal animate-fade-in">
+      <div className="absolute inset-x-0 top-0 bg-card border-b-2 border-ink shadow-modal animate-fade-in">
         <div className="px-5 py-4 flex items-center justify-between border-b border-rule">
-          <span className="font-serif italic text-lg font-bold text-ink">
+          <span className="italic text-lg font-bold text-ink">
             What's My Team Worth
           </span>
           <button
@@ -162,7 +162,7 @@ function MobileMenu({ open, onClose }) {
               key={link.to}
               to={link.to}
               onClick={onClose}
-              className="block min-h-[56px] flex items-center px-5 py-4 border-b border-rule font-serif text-xl text-ink hover:bg-callout transition-colors"
+              className="block min-h-[56px] flex items-center px-5 py-4 border-b border-rule text-xl text-ink hover:bg-paper transition-colors"
             >
               {link.label}
               <span className="ml-auto text-accent text-base font-sans">→</span>
@@ -183,7 +183,7 @@ function Nav() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <Link
             to="/"
-            className="font-serif italic text-lg sm:text-xl font-bold text-ink hover:text-accent transition-colors"
+            className="italic text-lg sm:text-xl font-bold text-ink hover:text-accent transition-colors"
           >
             What's My Team Worth
           </Link>
@@ -221,14 +221,14 @@ function Nav() {
 
 function Footer() {
   return (
-    <footer className="border-t-2 border-ink mt-16 bg-paper">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <footer className="border-t-2 border-ink mt-8 bg-paper">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Top row — masthead + nav columns */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-10">
           <div className="md:col-span-5">
             <Link
               to="/"
-              className="font-serif italic text-xl font-bold text-ink hover:text-accent transition-colors"
+              className="italic text-xl font-bold text-ink hover:text-accent transition-colors"
             >
               What's My Team Worth
             </Link>
@@ -277,7 +277,7 @@ function Footer() {
 
         {/* Disclaimer row */}
         <div className="border-t border-rule pt-6">
-          <p className="text-xs text-slate leading-relaxed max-w-4xl font-serif italic">
+          <p className="text-xs text-slate leading-relaxed max-w-4xl italic">
             All valuation breakdowns are independent estimates and opinions of{' '}
             <span className="not-italic font-sans font-semibold text-ink">Josh Leviloff</span>.
             Not financial advice. Sources include Forbes, Sportico, and the Sports

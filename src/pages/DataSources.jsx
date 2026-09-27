@@ -41,12 +41,12 @@ export default function DataSources() {
 
   return (
     <main className="bg-paper">
-      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-6">
         <div className="flex items-center gap-3 mb-5">
-          <span className="eyebrow text-accent">Sourcing</span>
+          <span className="eyebrow">Sourcing</span>
           <div className="h-px flex-1 bg-rule" />
         </div>
-        <h1 className="section-title text-4xl sm:text-5xl">Data Sources &amp; Disclaimers</h1>
+        <h1 className="section-title text-3xl sm:text-[32px]">Data Sources &amp; Disclaimers</h1>
         <div className="title-rule mb-10" />
 
         <p className="text-sm text-graphite mb-6">
@@ -65,7 +65,7 @@ export default function DataSources() {
               <div className="font-mono text-sm font-bold tracking-wide text-ink sm:col-span-1">
                 {s.name}
               </div>
-              <div className="font-serif text-base text-graphite leading-relaxed sm:col-span-2">
+              <div className="text-base text-graphite leading-relaxed sm:col-span-2">
                 {s.desc}
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function DataSources() {
               <span className="font-semibold text-ink">±5–15%</span> depending on
               data availability.
             </p>
-            <p className="font-serif italic">
+            <p className="italic">
               They are opinions, not facts.
             </p>
             <p className="border-l-4 border-accent pl-4">

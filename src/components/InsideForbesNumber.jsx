@@ -36,7 +36,7 @@ export function RangeBar({ stats, teamId, logoUrl, teamName }) {
         ))}
         {me && (
           <div
-            className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white border-2 border-accent shadow-card flex items-center justify-center overflow-hidden"
+            className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-card border-2 border-accent shadow-card flex items-center justify-center overflow-hidden"
             style={{ left: pos(me.value) }}
             onMouseEnter={() => setHover(me)}
           >
@@ -49,7 +49,7 @@ export function RangeBar({ stats, teamId, logoUrl, teamName }) {
         )}
         {hover && (
           <div
-            className="absolute -top-8 -translate-x-1/2 bg-ink text-white font-mono text-[10px] px-2 py-1 rounded-sm whitespace-nowrap z-10 pointer-events-none"
+            className="absolute -top-8 -translate-x-1/2 bg-ink text-paper font-mono text-[10px] px-2 py-1 rounded-sm whitespace-nowrap z-10 pointer-events-none"
             style={{ left: pos(hover.value) }}
           >
             {hover.name} · {fmtB(hover.value)}
@@ -113,7 +113,7 @@ function NetSharingReadout({ readout }) {
     <div className="mt-3 bg-paper border border-rule rounded-sm p-3">
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
         <span className="font-mono text-[9px] tracking-widest uppercase text-slate">Net revenue-sharing position</span>
-        <span className={`font-mono text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full border bg-white ${tone}`}>{readout.position}</span>
+        <span className={`font-mono text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full border bg-card ${tone}`}>{readout.position}</span>
         <span className="font-mono text-xs text-graphite">
           {fmtB(readout.value)} vs league median {fmtB(readout.median)} ({readout.gap >= 0 ? '+' : '−'}{fmtB(readout.gap)})
         </span>
@@ -163,7 +163,7 @@ export default function InsideForbesNumber({ team }) {
           return (
             <div key={key} className="border-b border-rule pb-5 last:border-0">
               <div className="flex flex-wrap items-baseline gap-3">
-                <span className="font-serif text-lg font-bold text-ink">{label}</span>
+                <span className="text-lg font-bold text-ink">{label}</span>
                 <span className="font-mono text-base font-bold text-ink">{fmtB(r.value)}</span>
                 <span className="font-mono text-xs text-slate">{sharePct(r.share)}% of total</span>
               </div>
@@ -179,7 +179,7 @@ export default function InsideForbesNumber({ team }) {
         })}
       </div>
       {callouts.map((c) => (
-        <div key={c.rivalId} className="mt-5 bg-callout border-l-4 border-accent p-4 rounded-sm">
+        <div key={c.rivalId} className="mt-5 bg-paper border-l-4 border-accent p-4 rounded-sm">
           <div className="font-mono text-[10px] text-accent-dark tracking-widest uppercase mb-1 font-bold">
             Same market, different number · vs {c.rivalName}
           </div>

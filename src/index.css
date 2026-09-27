@@ -2,81 +2,120 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Design tokens ──────────────────────────────────────────────────────────
+   Two forms of each token: an "r g b" triplet for Tailwind classes (with
+   opacity modifiers) and a plain hex for inline styles, SVG and recharts.
+   Color is semantic: accent for links, active toggles and the team marker on
+   range bars; positive / negative for premiums and deltas; everything else
+   neutral. */
+:root {
+  --c-bg: 245 246 247;        --bg: #F5F6F7;
+  --c-card: 255 255 255;      --card: #FFFFFF;
+  --c-border: 217 222 227;    --border: #D9DEE3;
+  --c-text: 20 24 29;         --ink: #14181D;
+  --c-text2: 91 100 112;      --text2: #5B6470;
+  --c-text3: 138 147 160;     --text3: #8A93A0;
+  --c-accent: 31 58 95;       --accent: #1F3A5F;
+  --c-accent-soft: 232 237 243; --accent-soft: #E8EDF3;
+  --c-positive: 15 110 86;    --pos: #0F6E56;
+  --c-negative: 180 35 24;    --neg: #B42318;
+  /* Monochrome ramp for multi-segment charts (five-driver rings, ownership donut) */
+  --ramp-1: #1F3A5F; --ramp-2: #3F5A80; --ramp-3: #6B82A2; --ramp-4: #9DAEC4; --ramp-5: #CBD5E1;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: 14 17 22;           --bg: #0E1116;
+    --c-card: 22 27 34;         --card: #161B22;
+    --c-border: 42 49 58;       --border: #2A313A;
+    --c-text: 230 232 235;      --ink: #E6E8EB;
+    --c-text2: 160 168 179;     --text2: #A0A8B3;
+    --c-text3: 116 124 136;     --text3: #747C88;
+    --c-accent: 122 156 204;    --accent: #7A9CCC;
+    --c-accent-soft: 27 38 54;  --accent-soft: #1B2636;
+    --c-positive: 61 176 142;   --pos: #3DB08E;
+    --c-negative: 232 98 84;    --neg: #E86254;
+    --ramp-1: #7A9CCC; --ramp-2: #5F7FAE; --ramp-3: #4A6389; --ramp-4: #374A67; --ramp-5: #283548;
+    color-scheme: dark;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    background-color: #fafaf8;
-    color: #1a1a1a;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    font-feature-settings: 'cv11', 'ss01';
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter Tight', system-ui, -apple-system, sans-serif;
+    font-variant-numeric: tabular-nums;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Tabular figures for all .font-mono — keeps columns of numbers aligned */
   .font-mono {
     font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
   }
 
-  /* Newspaper-style scrollbar */
+  h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
   ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #fafaf8;
+    background: var(--bg);
   }
   ::-webkit-scrollbar-thumb {
-    background: #d4d4d4;
+    background: var(--border);
     border-radius: 4px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #9b9b9b;
+    background: var(--text3);
   }
 
   select option {
-    background-color: #ffffff;
-    color: #1a1a1a;
+    background-color: var(--card);
+    color: var(--ink);
   }
   select optgroup {
-    background-color: #fafaf8;
-    color: #6b6b6b;
-    font-weight: 700;
+    background-color: var(--bg);
+    color: var(--text2);
+    font-weight: 600;
   }
 }
 
 @layer components {
-  /* Section eyebrow — small caps, ink color, used above headlines */
+  /* Small label above a block */
   .eyebrow {
-    @apply font-mono text-[10px] tracking-[0.22em] uppercase text-slate;
+    @apply font-mono text-[10px] tracking-[0.18em] uppercase text-slate;
   }
 
-  /* Section headline — large serif over a thin rule, like a newspaper section header */
+  /* Page and section headline: Inter Tight 600, tight tracking, 32px max */
   .section-title {
-    @apply font-serif font-bold text-ink leading-[1.05] tracking-tight;
+    @apply font-sans font-semibold text-ink leading-[1.1] tracking-tight;
   }
 
-  /* Hairline rule below section titles */
   .title-rule {
-    @apply h-px w-full bg-ink mt-4;
+    @apply h-px w-full bg-rule mt-2;
   }
 
-  /* Card — white surface with a 1px hairline border and a barely-there shadow */
   .editorial-card {
-    @apply bg-white border border-rule rounded-sm shadow-card;
+    @apply bg-card border border-rule rounded-sm shadow-card;
   }
 
-  /* Numbers — large tabular figures used for valuations etc. */
   .num {
     @apply font-mono tabular-nums tracking-tight;
   }
 }
 
 @layer utilities {
-  /* Marquee ticker */
   @keyframes ticker-scroll {
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); }
@@ -88,22 +127,20 @@
     animation-play-state: paused;
   }
 
-  /* Fade in on mount */
   @keyframes fade-in-up {
     0%   { opacity: 0; transform: translateY(6px); }
     100% { opacity: 1; transform: translateY(0); }
   }
   .animate-fade-in {
-    animation: fade-in-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: fade-in-up 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
-  /* Modal pop-in */
   @keyframes modal-in {
     0%   { opacity: 0; transform: scale(0.97) translateY(6px); }
     100% { opacity: 1; transform: scale(1) translateY(0); }
   }
   .animate-modal-in {
-    animation: modal-in 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: modal-in 0.24s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
   @keyframes backdrop-in {
@@ -111,15 +148,14 @@
     100% { opacity: 1; }
   }
   .animate-backdrop-in {
-    animation: backdrop-in 0.22s ease-out both;
+    animation: backdrop-in 0.2s ease-out both;
   }
 
-  /* Right-side drawer for the team panel */
   @keyframes drawer-in {
     0%   { opacity: 0; transform: translateX(24px); }
     100% { opacity: 1; transform: translateX(0); }
   }
   .animate-drawer-in {
-    animation: drawer-in 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: drawer-in 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 }

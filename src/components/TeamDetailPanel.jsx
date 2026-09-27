@@ -16,34 +16,34 @@ import { getTeamImages } from '../../data/images.js'
 import allTeams, { precedentComps } from '../../data/allTeams.js'
 import { trackFactorExpanded } from '../utils/analytics.js'
 import {
-  fmtUSD, fmtDate, fmtStake, fmtPremium, dealAnchor, STATUS_PILL, DRIVER_LABEL,
+  fmtUSD, fmtDate, fmtStake, fmtPremium, premiumClass, dealAnchor, STATUS_PILL, DRIVER_LABEL,
 } from '../utils/dealFormat.js'
 import { COMP_WINDOW_MONTHS, dealDate } from '../utils/comps.js'
 import InsideForbesNumber from './InsideForbesNumber.jsx'
 
-const OWNERSHIP_COLORS = ['#1a1a1a', '#e8600a', '#5b21b6', '#065f46', '#991b1b', '#075985', '#b45309', '#1e3a8a']
+const OWNERSHIP_COLORS = ['var(--ink)', 'var(--accent)', 'var(--text2)', 'var(--text2)', 'var(--text2)', 'var(--text2)', 'var(--text2)', 'var(--text2)']
 
 const LEAGUE_ACCENT = {
-  NFL: '#1e3a8a',
-  NBA: '#991b1b',
-  MLB: '#075985',
-  NHL: '#155e75',
-  MLS: '#065f46',
-  EPL: '#581c87',
+  NFL: 'var(--text2)',
+  NBA: 'var(--text2)',
+  MLB: 'var(--text2)',
+  NHL: 'var(--text2)',
+  MLS: 'var(--text2)',
+  EPL: 'var(--text2)',
 }
 
 const DRIVER_DEFS = [
-  { label: 'Media Rights', key: 'mediaRights', color: '#1e3a8a' },
-  { label: 'Stadium',      key: 'stadium',     color: '#5b21b6' },
-  { label: 'Brand',        key: 'brand',       color: '#b45309' },
-  { label: 'Market Size',  key: 'marketSize',  color: '#065f46' },
-  { label: 'On-Field',     key: 'onField',     color: '#991b1b' },
+  { label: 'Media Rights', key: 'mediaRights', color: 'var(--ramp-1)' },
+  { label: 'Stadium',      key: 'stadium',     color: 'var(--ramp-2)' },
+  { label: 'Brand',        key: 'brand',       color: 'var(--ramp-3)' },
+  { label: 'Market Size',  key: 'marketSize',  color: 'var(--ramp-4)' },
+  { label: 'On-Field',     key: 'onField',     color: 'var(--ramp-5)' },
 ]
 
 function growthColor(g) {
   if (g == null) return 'text-ash'
-  if (g >= 0) return 'text-[#0a7d2a]'
-  return 'text-[#b91c1c]'
+  if (g >= 0) return 'text-positive'
+  return 'text-negative'
 }
 
 function fmtGrowth(g) {
@@ -61,11 +61,11 @@ function ValuationTooltip({ active, payload }) {
   if (!active || !payload?.length) return null
   const { year, value, isEstimated } = payload[0].payload
   return (
-    <div className="bg-white border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
+    <div className="bg-card border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
       <div className="font-mono text-[10px] text-slate mb-0.5">{year}</div>
       <div className="font-mono text-base font-bold text-ink">${value.toFixed(2)}B</div>
       {isEstimated && (
-        <div className="font-mono text-[9px] text-accent mt-0.5 tracking-wider uppercase">Estimated</div>
+        <div className="font-mono text-[9px] text-ash mt-0.5 tracking-wider uppercase">Estimated</div>
       )}
     </div>
   )
@@ -75,7 +75,7 @@ function OwnershipTooltip({ active, payload }) {
   if (!active || !payload?.length) return null
   const { name, pct, role } = payload[0].payload
   return (
-    <div className="bg-white border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
+    <div className="bg-card border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
       <div className="text-ink font-semibold mb-0.5">{name}</div>
       <div className="font-mono text-ink font-bold">{pct}%</div>
       {role && <div className="text-[10px] text-slate mt-0.5">{role}</div>}
@@ -95,7 +95,7 @@ function OwnershipDonut({ group }) {
           innerRadius={64}
           outerRadius={100}
           paddingAngle={1}
-          stroke="#ffffff"
+          stroke="var(--card)"
           strokeWidth={2}
         >
           {data.map((_, i) => (
@@ -112,34 +112,34 @@ function ValuationHistoryChart({ history }) {
   const CustomDot = (props) => {
     const { cx, cy, payload } = props
     if (cx == null || cy == null) return null
-    const fill = payload.isEstimated ? '#e8600a' : '#1a1a1a'
+    const fill = payload.isEstimated ? 'var(--text3)' : 'var(--ink)'
     return <circle cx={cx} cy={cy} r={3.5} fill={fill} stroke={fill} />
   }
   return (
     <ResponsiveContainer width="100%" height={320}>
       <LineChart data={history} margin={{ top: 10, right: 18, bottom: 10, left: 6 }}>
-        <CartesianGrid stroke="#e8e8e8" strokeDasharray="2 4" vertical={false} />
+        <CartesianGrid stroke="var(--border)" strokeDasharray="2 4" vertical={false} />
         <XAxis
           dataKey="year"
-          tick={{ fill: '#9b9b9b', fontSize: 11, fontFamily: '"JetBrains Mono", monospace' }}
-          axisLine={{ stroke: '#d4d4d4' }}
+          tick={{ fill: 'var(--text3)', fontSize: 11, fontFamily: '"IBM Plex Mono", monospace' }}
+          axisLine={{ stroke: 'var(--border)' }}
           tickLine={false}
         />
         <YAxis
-          tick={{ fill: '#9b9b9b', fontSize: 11, fontFamily: '"JetBrains Mono", monospace' }}
+          tick={{ fill: 'var(--text3)', fontSize: 11, fontFamily: '"IBM Plex Mono", monospace' }}
           axisLine={false}
           tickLine={false}
           tickFormatter={(v) => `$${v}B`}
           width={50}
         />
-        <Tooltip content={<ValuationTooltip />} cursor={{ stroke: '#9b9b9b', strokeDasharray: '2 4' }} />
+        <Tooltip content={<ValuationTooltip />} cursor={{ stroke: 'var(--text3)', strokeDasharray: '2 4' }} />
         <Line
           type="monotone"
           dataKey="value"
-          stroke="#1a1a1a"
+          stroke="var(--ink)"
           strokeWidth={1.75}
           dot={<CustomDot />}
-          activeDot={{ r: 5, fill: '#e8600a', stroke: '#e8600a' }}
+          activeDot={{ r: 5, fill: 'var(--accent)', stroke: 'var(--accent)' }}
         />
       </LineChart>
     </ResponsiveContainer>
@@ -148,7 +148,7 @@ function ValuationHistoryChart({ history }) {
 
 function rankBadgeClass(rank) {
   if (rank == null) return 'bg-paper text-ash border-rule'
-  if (rank <= 3)  return 'bg-callout text-[#8a6d00] border-[#e6d27a]'
+  if (rank <= 3)  return 'bg-paper text-slate border-rule'
   if (rank <= 10) return 'bg-paper text-graphite border-rule-strong'
   return 'bg-paper text-slate border-rule'
 }
@@ -262,8 +262,8 @@ function MarketCheck({ team }) {
             <div className="font-mono text-[10px] text-ash">{fmtDate(dealDate(deal))}</div>
           </div>
           <div className="p-3 bg-accent-soft">
-            <div className="font-mono text-[9px] text-accent-dark tracking-widest uppercase mb-1">Premium to Forbes</div>
-            <div className="font-mono text-lg font-bold text-accent-dark">{fmtPremium(deal.premiumToForbes)}</div>
+            <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">Premium to Forbes</div>
+            <div className={`font-mono text-lg font-bold ${premiumClass(deal.premiumToForbes)}`}>{fmtPremium(deal.premiumToForbes)}</div>
           </div>
         </div>
         {top.length > 0 && (
@@ -291,7 +291,7 @@ function MarketCheck({ team }) {
 
 function CompStat({ label, set }) {
   return (
-    <div className="bg-white border border-rule rounded-sm p-3">
+    <div className="bg-card border border-rule rounded-sm p-3">
       <div className="font-mono text-[9px] text-slate tracking-widest uppercase mb-1">{label}</div>
       {set?.n ? (
         <>
@@ -334,7 +334,7 @@ function PrecedentTransactions({ team }) {
                   <span className="text-ink truncate flex-1">{d.teamName}</span>
                   <span className="font-mono text-[9px] uppercase tracking-wider text-slate">{d.type === 'control' ? 'Ctrl' : `${fmtStake(d.stakePct)} LP`}</span>
                   <span className="font-mono text-xs font-bold text-ink w-16 text-right">{fmtUSD(d.valuation)}</span>
-                  <span className="font-mono text-xs text-accent-dark w-14 text-right" title="Premium to Forbes at time of sale">
+                  <span className={`font-mono text-xs w-14 text-right ${premiumClass(d.premiumToForbes)}`} title="Premium to Forbes at time of sale">
                     {fmtPremium(d.premiumToForbes)}
                   </span>
                 </li>
@@ -384,7 +384,7 @@ function CompositionTooltip({ active, payload }) {
   if (!active || !payload?.length) return null
   const p = payload[0].payload
   return (
-    <div className="bg-white border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
+    <div className="bg-card border border-rule rounded-sm px-3 py-2 text-xs shadow-card">
       <div className="font-semibold text-ink mb-0.5">{p.name}</div>
       <div className="font-mono text-base font-bold" style={{ color: p.color }}>{p.pct}%</div>
       <div className="font-mono text-[10px] text-slate mt-0.5">Driver score: {p.score}/10</div>
@@ -468,7 +468,7 @@ function ValuationComposition({ team }) {
                 innerRadius={60}
                 outerRadius={100}
                 paddingAngle={1.5}
-                stroke="#ffffff"
+                stroke="var(--card)"
                 strokeWidth={2}
               >
                 {data.map((d, i) => (
@@ -494,7 +494,7 @@ function ValuationComposition({ team }) {
         </div>
       </div>
 
-      <p className="mt-6 text-base text-graphite leading-relaxed font-serif italic border-l-4 border-ink pl-5">
+      <p className="mt-6 text-base text-graphite leading-relaxed italic border-l-4 border-ink pl-5">
         {sentence}
       </p>
     </section>
@@ -568,7 +568,7 @@ function PayrollInvestment({ team, enrichment }) {
 
       {/* Three-up KPI strip */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-px bg-rule mb-6">
-        <div className="bg-white p-4">
+        <div className="bg-card p-4">
           <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
             Total Payroll {year && <span className="text-ash">· {year}</span>}
           </div>
@@ -576,7 +576,7 @@ function PayrollInvestment({ team, enrichment }) {
             {fmtPayroll(payroll)}
           </div>
         </div>
-        <div className="bg-white p-4">
+        <div className="bg-card p-4">
           <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
             Rank in {team.league}
           </div>
@@ -584,13 +584,13 @@ function PayrollInvestment({ team, enrichment }) {
             #{rank}<span className="text-base text-slate font-normal"> of {leaguePeers.length}</span>
           </div>
         </div>
-        <div className="bg-white p-4 col-span-2 sm:col-span-1">
+        <div className="bg-card p-4 col-span-2 sm:col-span-1">
           <div className="font-mono text-[10px] tracking-widest uppercase text-slate mb-2">
             vs League Average
           </div>
           {pctVsAvg != null ? (
             <>
-              <div className={`font-mono text-2xl sm:text-3xl font-bold tracking-tight ${pctVsAvg > 0 ? 'text-[#0a7d2a]' : pctVsAvg < 0 ? 'text-[#b91c1c]' : 'text-ink'}`}>
+              <div className={`font-mono text-2xl sm:text-3xl font-bold tracking-tight ${pctVsAvg > 0 ? 'text-positive' : pctVsAvg < 0 ? 'text-negative' : 'text-ink'}`}>
                 {pctVsAvg > 0 ? '+' : ''}{pctVsAvg}%
               </div>
               <div className="font-mono text-[10px] text-ash mt-1">
@@ -635,7 +635,7 @@ function PayrollInvestment({ team, enrichment }) {
 
       {/* Interpretation sentence */}
       {interpretation && (
-        <p className="text-sm text-graphite leading-relaxed font-serif italic border-l-2 border-ink pl-4 mb-6">
+        <p className="text-sm text-graphite leading-relaxed italic border-l-2 border-ink pl-4 mb-6">
           {interpretation}
         </p>
       )}
@@ -693,7 +693,7 @@ function StadiumHero({ team }) {
   const logoAlt = images?.logoUrlAlt
   const moment = images?.iconicMomentUrl
   const momentCaption = images?.iconicMomentCaption
-  const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
+  const accent = LEAGUE_ACCENT[team.league] || 'var(--ink)'
 
   return (
     <div className="border-b border-rule">
@@ -719,7 +719,7 @@ function StadiumHero({ team }) {
           {/* Logo overlay — circular, anchored bottom-right */}
           {logo && (
             <div
-              className="absolute -bottom-6 right-6 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-full p-2.5 shadow-card border border-rule z-10"
+              className="absolute -bottom-6 right-6 w-20 h-20 sm:w-24 sm:h-24 bg-card rounded-full p-2.5 shadow-card border border-rule z-10"
               style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.12)' }}
             >
               <img
@@ -833,7 +833,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
     const cagr = (mult ** (1 / years) - 1) * 100
     return `${mult.toFixed(1)}x over ${years} yrs (${cagr.toFixed(0)}%/yr)`
   })()
-  const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
+  const accent = LEAGUE_ACCENT[team.league] || 'var(--ink)'
 
   return (
     <div className="fixed inset-0 z-[60] flex justify-end">
@@ -849,12 +849,12 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
         role="dialog"
         aria-label={`${team.name} valuation profile`}
         aria-modal="true"
-        className="relative w-full md:max-w-[680px] lg:max-w-[820px] h-full bg-white md:border-l md:border-rule md:shadow-modal overflow-hidden flex flex-col animate-drawer-in"
+        className="relative w-full md:max-w-[680px] lg:max-w-[820px] h-full bg-card md:border-l md:border-rule md:shadow-modal overflow-hidden flex flex-col animate-drawer-in"
       >
         {/* Floating close button (top-right) — sits over the photo */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center text-ink bg-white/90 hover:bg-white rounded-full transition-colors text-lg border border-rule shadow-card"
+          className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center text-ink bg-card/90 hover:bg-card rounded-full transition-colors text-lg border border-rule shadow-card"
           aria-label="Close panel"
         >
           ✕
@@ -873,7 +873,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
             >
               {team.league} Franchise
             </div>
-            <h2 className="section-title text-3xl sm:text-4xl lg:text-5xl">
+            <h2 className="section-title text-3xl sm:text-3xl lg:text-[32px]">
               {team.name}
             </h2>
             <p className="text-sm text-graphite mt-3 leading-relaxed">
@@ -897,12 +897,12 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
               label={isVenueArena ? 'Arena' : 'Stadium'}
               value={team.ownsStadium ? 'Owned' : 'Tenant'}
               sub={team.ownsStadium ? '↑ Real estate upside' : 'Lease structure'}
-              valueClass={team.ownsStadium ? 'text-[#0a7d2a] text-xl sm:text-2xl' : 'text-graphite text-xl sm:text-2xl'}
+              valueClass={team.ownsStadium ? 'text-positive text-xl sm:text-2xl' : 'text-graphite text-xl sm:text-2xl'}
             />
           </div>
 
           {/* Body sections */}
-          <div className="px-6 sm:px-8 py-8 space-y-10">
+          <div className="px-6 sm:px-8 py-8 space-y-6">
             {/* Forbes' own four-component split, tested against proxies */}
             <InsideForbesNumber team={team} />
 
@@ -918,14 +918,14 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
             {valuationHistory.length > 0 && (
               <section>
                 <SectionHeader>Valuation History · Forbes ($B)</SectionHeader>
-                <div className="bg-white">
+                <div className="bg-card">
                   <ValuationHistoryChart history={valuationHistory} />
                   <div className="mt-3 flex items-center gap-5 text-[10px] font-mono text-slate tracking-wider uppercase">
                     <span className="flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-ink" /> Cited
                     </span>
                     <span className="flex items-center gap-1.5">
-                      <span className="w-2 h-2 rounded-full bg-accent" /> Estimated
+                      <span className="w-2 h-2 rounded-full bg-ash" /> Estimated
                     </span>
                   </div>
                 </div>
@@ -1050,7 +1050,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                 <p className="text-sm text-graphite leading-relaxed mt-4">{nonGameRevenue}</p>
               )}
               {newVenuePlans && (
-                <div className="mt-4 bg-callout border-l-4 border-accent p-4 rounded-sm">
+                <div className="mt-4 bg-paper border-l-4 border-accent p-4 rounded-sm">
                   <div className="font-mono text-[10px] text-accent-dark tracking-widest uppercase mb-1 font-bold">
                     New {isVenueArena ? 'arena' : 'stadium'} plans
                   </div>
@@ -1069,7 +1069,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                     <div key={i} className="border-l-2 border-ink pl-4 py-1">
                       <div className="font-mono text-sm font-bold text-ink">
                         {tx.year} · {team.saleHistory?.length ? (tx.price != null ? fmtUSD(tx.price) : 'Price n/a') : fmtMoney(tx.price)}
-                        {tx.isEstimated && <span className="ml-2 font-mono text-[9px] text-accent tracking-wider uppercase">Est.</span>}
+                        {tx.isEstimated && <span className="ml-2 font-mono text-[9px] text-ash tracking-wider uppercase">Est.</span>}
                       </div>
                       <div className="text-sm text-graphite mt-1">
                         <span className="text-slate">Buyer:</span> {tx.buyer}

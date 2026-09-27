@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 export default function TermsOfService() {
   return (
     <main className="bg-paper">
-      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-6">
         <div className="flex items-center gap-3 mb-5">
-          <span className="eyebrow text-accent">Terms</span>
+          <span className="eyebrow">Terms</span>
           <div className="h-px flex-1 bg-rule" />
         </div>
-        <h1 className="section-title text-4xl sm:text-5xl">Terms of Service</h1>
+        <h1 className="section-title text-3xl sm:text-[32px]">Terms of Service</h1>
         <div className="title-rule mb-10" />
 
-        <div className="text-base sm:text-lg leading-relaxed text-graphite space-y-5 font-serif">
+        <div className="text-base sm:text-lg leading-relaxed text-graphite space-y-5 ">
           <p>
             All content on this site is for{' '}
             <span className="font-sans not-italic font-semibold text-ink">

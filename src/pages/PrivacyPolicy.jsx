@@ -4,15 +4,15 @@ import { trackOutboundLink } from '../utils/analytics.js'
 export default function PrivacyPolicy() {
   return (
     <main className="bg-paper">
-      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-6">
         <div className="flex items-center gap-3 mb-5">
-          <span className="eyebrow text-accent">Privacy</span>
+          <span className="eyebrow">Privacy</span>
           <div className="h-px flex-1 bg-rule" />
         </div>
-        <h1 className="section-title text-4xl sm:text-5xl">Privacy Policy</h1>
+        <h1 className="section-title text-3xl sm:text-[32px]">Privacy Policy</h1>
         <div className="title-rule mb-10" />
 
-        <div className="text-base sm:text-lg leading-relaxed text-graphite space-y-5 font-serif">
+        <div className="text-base sm:text-lg leading-relaxed text-graphite space-y-5 ">
           <p>
             This site uses{' '}
             <span className="font-sans font-semibold text-ink">Google Analytics</span>{' '}

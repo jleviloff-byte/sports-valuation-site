@@ -55,7 +55,7 @@ function PremiumTable() {
 
 function SectionHead({ id, children }) {
   return (
-    <h2 id={id} className="font-serif text-ink text-3xl sm:text-4xl font-bold leading-tight pt-10 scroll-mt-28">
+    <h2 id={id} className="text-ink text-3xl sm:text-3xl font-bold leading-tight pt-6 scroll-mt-28">
       {children}
     </h2>
   )
@@ -233,7 +233,7 @@ export default function Methodology() {
 
   return (
     <main className="bg-paper">
-      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+      <article className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <h1 className="section-title text-2xl sm:text-3xl">Methodology</h1>
         <p className="text-sm text-graphite mt-1 mb-2">
           How the Forbes breakdown is read, why sale prices differ from Forbes, and where every number comes from.

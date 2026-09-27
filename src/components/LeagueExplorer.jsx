@@ -3,73 +3,20 @@ import { trackLeagueFiltered, trackSortChanged } from '../utils/analytics.js'
 import { getTeamImages } from '../../data/images.js'
 
 const LEAGUE_HEX = {
-  NFL: '#1e3a8a',
-  NBA: '#991b1b',
-  MLB: '#075985',
-  NHL: '#155e75',
-  MLS: '#065f46',
-  EPL: '#581c87',
+  NFL: 'var(--text2)',
+  NBA: 'var(--text2)',
+  MLB: 'var(--text2)',
+  NHL: 'var(--text2)',
+  MLS: 'var(--text2)',
+  EPL: 'var(--text2)',
 }
 
 // Hand-picked primary brand colors for the most storied franchises. Used in
 // the grid view's subtle gradient. Anything not in this map falls back to its
 // league color, so every card still gets a tinted background.
-const TEAM_PRIMARY_COLOR = {
-  // NFL
-  "Dallas Cowboys":         '#003594',
-  "New England Patriots":   '#002244',
-  "New York Giants":        '#0B2265',
-  "Green Bay Packers":      '#203731',
-  "San Francisco 49ers":    '#AA0000',
-  "Pittsburgh Steelers":    '#FFB612',
-  "Kansas City Chiefs":     '#E31837',
-  "Los Angeles Rams":       '#003594',
-  "Chicago Bears":          '#0B162A',
-  "Philadelphia Eagles":    '#004C54',
-  "Las Vegas Raiders":      '#000000',
-  "Miami Dolphins":         '#008E97',
-  "Denver Broncos":         '#FB4F14',
-  "Seattle Seahawks":       '#002244',
-  // NBA
-  "Los Angeles Lakers":     '#552583',
-  "Boston Celtics":         '#007A33',
-  "New York Knicks":        '#006BB6',
-  "Golden State Warriors":  '#1D428A',
-  "Chicago Bulls":          '#CE1141',
-  "Brooklyn Nets":          '#000000',
-  "Philadelphia 76ers":     '#006BB6',
-  "Miami Heat":             '#98002E',
-  // MLB
-  "New York Yankees":       '#003087',
-  "Boston Red Sox":         '#BD3039',
-  "Los Angeles Dodgers":    '#005A9C',
-  "Chicago Cubs":           '#0E3386',
-  "San Francisco Giants":   '#FD5A1E',
-  "St. Louis Cardinals":    '#C41E3A',
-  // NHL
-  "Montreal Canadiens":     '#AF1E2D',
-  "Toronto Maple Leafs":    '#00205B',
-  "New York Rangers":       '#0038A8',
-  "Detroit Red Wings":      '#CE1126',
-  "Boston Bruins":          '#FFB81C',
-  // MLS
-  "LAFC":                   '#000000',
-  "LA Galaxy":              '#00245D',
-  "Inter Miami CF":         '#F7B5CD',
-  "Atlanta United FC":      '#80000B',
-  "Seattle Sounders FC":    '#5D9741',
-  // EPL
-  "Manchester United":      '#DA291C',
-  "Liverpool":              '#C8102E',
-  "Arsenal":                '#EF0107',
-  "Chelsea":                '#034694',
-  "Manchester City":        '#6CABDD',
-  "Tottenham Hotspur":      '#132257',
-  "Newcastle United":       '#241F20',
-}
 
-function primaryColorFor(team) {
-  return TEAM_PRIMARY_COLOR[team.name] || LEAGUE_HEX[team.league] || '#1a1a1a'
+function primaryColorFor() {
+  return 'var(--border)'
 }
 
 // Returns last 1-2 word initials. "Dallas Cowboys" → "DC", "LAFC" → "LA".
@@ -100,13 +47,13 @@ function TeamLogo({ team, size = 40 }) {
         loading="lazy"
         decoding="async"
         onError={() => setStage((s) => s + 1)}
-        className="rounded-full bg-white border border-rule object-contain p-0.5 flex-shrink-0"
+        className="rounded-full bg-card border border-rule object-contain p-0.5 flex-shrink-0"
         style={{ width: px, height: px }}
       />
     )
   }
   // Fallback — colored circle with team initials
-  const bg = LEAGUE_HEX[team.league] || '#1a1a1a'
+  const bg = LEAGUE_HEX[team.league] || 'var(--ink)'
   return (
     <div
       className="rounded-full flex items-center justify-center text-white font-bold flex-shrink-0"
@@ -127,30 +74,30 @@ function TeamLogo({ team, size = 40 }) {
 const LEAGUES = ['ALL', 'NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']
 
 const LEAGUE_BADGE = {
-  NFL: 'text-[#1e3a8a] border-[#1e3a8a]/30 bg-[#1e3a8a]/[0.06]',
-  NBA: 'text-[#991b1b] border-[#991b1b]/30 bg-[#991b1b]/[0.06]',
-  MLB: 'text-[#075985] border-[#075985]/30 bg-[#075985]/[0.06]',
-  NHL: 'text-[#155e75] border-[#155e75]/30 bg-[#155e75]/[0.06]',
-  MLS: 'text-[#065f46] border-[#065f46]/30 bg-[#065f46]/[0.06]',
-  EPL: 'text-[#581c87] border-[#581c87]/30 bg-[#581c87]/[0.06]',
+  NFL: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  NBA: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  MLB: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  NHL: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  MLS: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  EPL: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
 }
 
 const LEAGUE_ACTIVE = {
-  ALL: 'bg-ink text-white',
-  NFL: 'bg-[#1e3a8a] text-white',
-  NBA: 'bg-[#991b1b] text-white',
-  MLB: 'bg-[#075985] text-white',
-  NHL: 'bg-[#155e75] text-white',
-  MLS: 'bg-[#065f46] text-white',
-  EPL: 'bg-[#581c87] text-white',
+  ALL: 'bg-ink text-paper',
+  NFL: 'bg-ink text-paper',
+  NBA: 'bg-ink text-paper',
+  MLB: 'bg-ink text-paper',
+  NHL: 'bg-ink text-paper',
+  MLS: 'bg-ink text-paper',
+  EPL: 'bg-ink text-paper',
 }
 
 const DRIVER_COLOR = {
-  mediaRights: '#1e3a8a',
-  stadium:     '#5b21b6',
-  brand:       '#b45309',
-  marketSize:  '#065f46',
-  onField:     '#991b1b',
+  mediaRights: 'var(--ramp-1)',
+  stadium:     'var(--ramp-2)',
+  brand:       'var(--ramp-3)',
+  marketSize:  'var(--ramp-4)',
+  onField:     'var(--ramp-5)',
 }
 
 const DRIVER_KEYS = new Set(Object.keys(DRIVER_COLOR))
@@ -185,7 +132,7 @@ function DriverCell({ value, color }) {
       <div className="flex justify-center">
         <span
           className="inline-flex items-center justify-center font-mono font-semibold text-[12px] w-8 h-7 rounded-sm text-ink"
-          style={{ background: hexToRgba(color, a) }}
+          style={{ background: `color-mix(in srgb, ${color} ${Math.round((a) * 100)}%, transparent)` }}
         >
           {value}
         </span>
@@ -196,17 +143,17 @@ function DriverCell({ value, color }) {
 
 function growthClass(g) {
   if (g == null) return 'text-ash'
-  if (g >= 0) return 'text-[#0a7d2a]'
-  return 'text-[#b91c1c]'
+  if (g >= 0) return 'text-positive'
+  return 'text-negative'
 }
 
 function GrowthCell({ value }) {
   if (value == null) {
-    return <td className="py-2.5 px-2 text-right font-mono text-[12px] text-ash">—</td>
+    return <td className="h-10 py-0 px-2 align-middle text-right font-mono text-[12px] text-ash">—</td>
   }
   const positive = value >= 0
   return (
-    <td className={`py-2.5 px-2 text-right font-mono text-[12px] font-semibold whitespace-nowrap ${growthClass(value)}`}>
+    <td className={`h-10 py-0 px-2 align-middle text-right font-mono text-[12px] font-semibold whitespace-nowrap ${growthClass(value)}`}>
       {positive ? '+' : ''}{value}%
     </td>
   )
@@ -218,11 +165,11 @@ function GrowthCell({ value }) {
 // hover. On touch devices the segment is tap-to-show / tap-elsewhere-to-
 // dismiss, handled by a document click listener inside the component.
 const RING_FACTORS = [
-  { key: 'mediaRights', label: 'Media Rights', color: '#1d4ed8' }, // blue
-  { key: 'stadium',     label: 'Stadium',      color: '#7c3aed' }, // violet
-  { key: 'brand',       label: 'Brand',        color: '#d97706' }, // amber
-  { key: 'marketSize',  label: 'Market Size',  color: '#0f766e' }, // teal
-  { key: 'onField',     label: 'On-Field',     color: '#b91c1c' }, // red
+  { key: 'mediaRights', label: 'Media Rights', color: 'var(--ramp-1)' }, // blue
+  { key: 'stadium',     label: 'Stadium',      color: 'var(--ramp-2)' }, // violet
+  { key: 'brand',       label: 'Brand',        color: 'var(--ramp-3)' }, // amber
+  { key: 'marketSize',  label: 'Market Size',  color: 'var(--ramp-4)' }, // teal
+  { key: 'onField',     label: 'On-Field',     color: 'var(--ramp-5)' }, // red
 ]
 
 // First-sentence extractor so the tooltip stays short. Falls back to the
@@ -409,7 +356,7 @@ function FactorRing({ team, size = 156, logoSize = 112, thickness = 16, gap = 6 
           className="absolute left-1/2 z-20 pointer-events-none animate-fade-in"
           style={{ bottom: `calc(100% + 8px)`, transform: 'translateX(-50%)', width: 'max-content', maxWidth: '240px' }}
         >
-          <div className="bg-ink text-white rounded-sm shadow-modal px-3 py-2">
+          <div className="bg-ink text-paper rounded-sm shadow-modal px-3 py-2">
             <div className="flex items-baseline justify-between gap-3 mb-1">
               <span className="font-mono text-[10px] font-bold tracking-widest uppercase" style={{ color: active.color }}>
                 {active.label}
@@ -432,7 +379,7 @@ function FactorRing({ team, size = 156, logoSize = 112, thickness = 16, gap = 6 
               height: 0,
               borderLeft: '6px solid transparent',
               borderRight: '6px solid transparent',
-              borderTop: '6px solid #1a1a1a',
+              borderTop: '6px solid var(--ink)',
             }}
           />
         </div>
@@ -526,7 +473,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               className={`text-[10px] font-mono font-bold tracking-widest uppercase px-3 py-1.5 rounded-sm transition-all ${
                 leagueFilter === l
                   ? LEAGUE_ACTIVE[l]
-                  : 'bg-white text-slate hover:text-ink border border-rule hover:border-rule-strong'
+                  : 'bg-card text-slate hover:text-ink border border-rule hover:border-rule-strong'
               }`}
             >
               {l}
@@ -534,14 +481,14 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
             </button>
           ))}
           {/* List/Grid view toggle — desktop only; mobile is always card-list */}
-          <div className="ml-auto hidden md:inline-flex items-center bg-white border border-rule rounded-sm overflow-hidden">
+          <div className="ml-auto hidden md:inline-flex items-center bg-card border border-rule rounded-sm overflow-hidden">
             <button
               type="button"
               onClick={() => setViewMode('list')}
               aria-pressed={viewMode === 'list'}
               aria-label="List view"
               className={`flex items-center gap-1.5 font-mono text-[10px] font-bold tracking-widest uppercase px-2.5 py-1.5 transition-colors ${
-                viewMode === 'list' ? 'bg-ink text-white' : 'text-slate hover:text-ink'
+                viewMode === 'list' ? 'bg-ink text-paper' : 'text-slate hover:text-ink'
               }`}
             >
               <ListIcon size={12} />
@@ -553,7 +500,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               aria-pressed={viewMode === 'grid'}
               aria-label="Grid view"
               className={`flex items-center gap-1.5 font-mono text-[10px] font-bold tracking-widest uppercase px-2.5 py-1.5 border-l border-rule transition-colors ${
-                viewMode === 'grid' ? 'bg-ink text-white' : 'text-slate hover:text-ink'
+                viewMode === 'grid' ? 'bg-ink text-paper' : 'text-slate hover:text-ink'
               }`}
             >
               <GridIcon size={12} />
@@ -567,7 +514,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
       </div>
 
       {/* Mobile card list — below md, single-column readable cards */}
-      <div className="md:hidden max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-16 space-y-3">
+      <div className="md:hidden max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-8 space-y-3">
         {filtered.map((team) => {
           const isSelected = selectedTeam?.name === team.name
           return (
@@ -575,8 +522,8 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               key={team.name}
               type="button"
               onClick={() => onSelectTeam(isSelected ? null : team)}
-              className={`w-full text-left bg-white border rounded-sm p-4 transition-colors ${
-                isSelected ? 'border-accent bg-accent-soft' : 'border-rule active:bg-callout'
+              className={`w-full text-left bg-card border rounded-sm p-4 transition-colors ${
+                isSelected ? 'border-accent bg-accent-soft' : 'border-rule active:bg-paper'
               }`}
             >
               {/* Top row: logo + badge + 5Y growth */}
@@ -593,13 +540,13 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               </div>
 
               {/* Name + city */}
-              <div className="font-serif text-2xl font-bold text-ink leading-tight">{team.name}</div>
+              <div className="text-2xl font-bold text-ink leading-tight">{team.name}</div>
               {team.city && (
                 <div className="text-xs text-slate font-mono mt-0.5 mb-3">{team.city}</div>
               )}
 
               {/* Valuation */}
-              <div className="font-mono text-4xl font-bold text-ink tracking-tight mb-4">
+              <div className="font-mono text-3xl font-bold text-ink tracking-tight mb-4">
                 ${team.currentValuation}
                 <span className="text-xl text-slate">B</span>
               </div>
@@ -635,7 +582,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                     <div
                       key={key}
                       className="flex-1 rounded-sm border border-rule px-1.5 py-1 text-center"
-                      style={{ background: hexToRgba(DRIVER_COLOR[key], a) }}
+                      style={{ background: `color-mix(in srgb, ${DRIVER_COLOR[key]} ${Math.round((a) * 100)}%, transparent)` }}
                     >
                       <div className="font-mono text-[9px] tracking-widest uppercase text-slate">{label}</div>
                       <div className="font-mono text-sm font-bold text-ink">{score}</div>
@@ -646,7 +593,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
 
               {/* Stadium owned + tap-affordance */}
               <div className="flex items-center justify-between mt-3 pt-3 border-t border-rule">
-                <span className={`font-mono text-[10px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-[#0a7d2a]' : 'text-ash'}`}>
+                <span className={`font-mono text-[10px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-positive' : 'text-ash'}`}>
                   {team.ownsStadium ? '● Stadium owned' : '○ Tenant'}
                 </span>
                 <span className="font-mono text-[10px] tracking-widest uppercase text-accent">
@@ -657,14 +604,14 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
           )
         })}
         {filtered.length === 0 && (
-          <div className="text-center py-12 text-slate text-sm">No franchises match this filter.</div>
+          <div className="text-center py-6 text-slate text-sm">No franchises match this filter.</div>
         )}
       </div>
 
       {/* Grid view — md+, opt-in via header toggle. Sorted by valuation
           descending so the magazine-rank order matches the headline narrative. */}
       {viewMode === 'grid' && (
-        <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 animate-fade-in">
+        <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8 animate-fade-in">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {[...filtered]
               .sort((a, b) => (b.currentValuation ?? 0) - (a.currentValuation ?? 0))
@@ -677,12 +624,12 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                     key={team.name}
                     type="button"
                     onClick={() => onSelectTeam(isSelected ? null : team)}
-                    className={`group relative w-full text-left bg-white rounded-sm pt-7 pb-5 px-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover ${
+                    className={`group relative w-full text-left bg-card rounded-sm pt-7 pb-5 px-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover ${
                       isSelected ? 'ring-1 ring-accent-soft' : ''
                     }`}
                     style={{
-                      backgroundImage: `linear-gradient(135deg, ${hexToRgba(color, 0.28)} 0%, ${hexToRgba(color, 0.10)} 55%, ${hexToRgba(color, 0.03)} 100%)`,
-                      border: `1px solid ${isSelected ? 'var(--tw-ring-color, #0a7d2a)' : hexToRgba(color, 0.35)}`,
+                      backgroundImage: `linear-gradient(135deg, ${`color-mix(in srgb, ${color} ${Math.round((0.28) * 100)}%, transparent)`} 0%, ${`color-mix(in srgb, ${color} ${Math.round((0.10) * 100)}%, transparent)`} 55%, ${`color-mix(in srgb, ${color} ${Math.round((0.03) * 100)}%, transparent)`} 100%)`,
+                      border: `1px solid ${isSelected ? 'var(--tw-ring-color, var(--pos))' : `color-mix(in srgb, ${color} ${Math.round((0.35) * 100)}%, transparent)`}`,
                     }}
                   >
                     {/* Magazine-style rank number, top-left, large + assertive.
@@ -690,7 +637,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                         as a watermark rank rather than a footnote. */}
                     <span
                       aria-hidden="true"
-                      className="absolute top-1 left-2 font-serif font-bold leading-none text-ink select-none"
+                      className="absolute top-1 left-2 font-bold leading-none text-ink select-none"
                       style={{ fontSize: '4rem', opacity: 0.13, letterSpacing: '-0.04em' }}
                     >
                       {rank}
@@ -700,10 +647,10 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                         owns the upper portion; team meta sits below. */}
                     <div className="relative flex flex-col items-center text-center pt-2">
                       <FactorRing team={team} size={156} logoSize={112} thickness={16} gap={6} />
-                      <div className="mt-4 font-serif text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
+                      <div className="mt-4 text-base font-bold text-ink leading-tight line-clamp-2 min-h-[2.5rem]">
                         {team.name}
                       </div>
-                      <div className="mt-2 font-mono text-4xl font-extrabold text-ink tracking-tight">
+                      <div className="mt-2 font-mono text-3xl font-extrabold text-ink tracking-tight">
                         ${team.currentValuation}
                         <span className="text-lg text-slate font-semibold">B</span>
                       </div>
@@ -719,7 +666,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                       <span className={`font-mono text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}>
                         {team.league}
                       </span>
-                      <span className={`font-mono text-[9px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-[#0a7d2a]' : 'text-ash'}`}>
+                      <span className={`font-mono text-[9px] tracking-widest uppercase font-bold ${team.ownsStadium ? 'text-positive' : 'text-ash'}`}>
                         {team.ownsStadium ? '● Stadium' : '○ Tenant'}
                       </span>
                     </div>
@@ -728,7 +675,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
               })}
           </div>
           {filtered.length === 0 && (
-            <div className="text-center py-16 text-slate text-sm">
+            <div className="text-center py-8 text-slate text-sm">
               No franchises match this filter.
             </div>
           )}
@@ -737,7 +684,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
 
       {/* Table — md+, default view */}
       {viewMode === 'list' && (
-      <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 animate-fade-in">
+      <div className="hidden md:block max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8 animate-fade-in">
         <div className="overflow-x-auto -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
           <table className="w-full border-collapse min-w-[980px]">
             <thead>
@@ -777,17 +724,17 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                     className={`border-b border-rule cursor-pointer transition-colors ${
                       isSelected
                         ? 'bg-accent-soft'
-                        : 'hover:bg-callout/60'
+                        : 'hover:bg-paper/60'
                     }`}
                   >
-                    <td className="py-2.5 px-2">
+                    <td className="h-10 py-0 px-2 align-middle">
                       <span
                         className={`font-mono text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm border ${LEAGUE_BADGE[team.league]}`}
                       >
                         {team.league}
                       </span>
                     </td>
-                    <td className="py-2.5 px-2 max-w-[320px]">
+                    <td className="h-10 py-0 px-2 align-middle max-w-[320px]">
                       <div className="flex items-center gap-3">
                         <TeamLogo team={team} size={32} />
                         <div className="min-w-0">
@@ -800,7 +747,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                         </div>
                       </div>
                     </td>
-                    <td className="py-2.5 px-2 text-right font-mono text-[15px] font-bold text-ink whitespace-nowrap">
+                    <td className="h-10 py-0 px-2 align-middle text-right font-mono text-[15px] font-bold text-ink whitespace-nowrap">
                       ${team.currentValuation}
                       <span className="text-slate font-semibold">B</span>
                     </td>
@@ -812,9 +759,9 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
                     <DriverCell value={team.valuationDrivers?.brand ?? 0}       color={DRIVER_COLOR.brand} />
                     <DriverCell value={team.valuationDrivers?.marketSize ?? 0}  color={DRIVER_COLOR.marketSize} />
                     <DriverCell value={team.valuationDrivers?.onField ?? 0}     color={DRIVER_COLOR.onField} />
-                    <td className="py-2.5 px-2 text-center text-sm">
+                    <td className="h-10 py-0 px-2 align-middle text-center text-sm">
                       {team.ownsStadium ? (
-                        <span className="text-[#0a7d2a] font-bold">●</span>
+                        <span className="text-positive font-bold">●</span>
                       ) : (
                         <span className="text-rule-strong">○</span>
                       )}
@@ -827,7 +774,7 @@ export default function LeagueExplorer({ teams, onSelectTeam, selectedTeam }) {
         </div>
 
         {filtered.length === 0 && (
-          <div className="text-center py-16 text-slate text-sm">
+          <div className="text-center py-8 text-slate text-sm">
             No franchises match this filter.
           </div>
         )}
