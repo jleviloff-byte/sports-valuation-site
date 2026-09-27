@@ -821,6 +821,18 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
   const valuationHistory = (enrichment?.valuationHistory ?? []).slice().sort((a, b) => a.year - b.year)
   const ownership = enrichment?.ownership
   const media = enrichment?.media
+  const hasForbesSplit = !!team.forbesBreakdown?.componentsPublished
+  // Return on the controlling owner's purchase, computed from the live headline
+  // rather than the typed-in string: multiple, years held, and annualized rate.
+  const impliedReturn = (() => {
+    const price = ownership?.acquisitionPrice
+    const year = ownership?.acquisitionYear
+    if (!price || !year || !team.currentValuation) return null
+    const years = Math.max(1, (team.valuationYear ?? new Date().getFullYear()) - year)
+    const mult = team.currentValuation / price
+    const cagr = (mult ** (1 / years) - 1) * 100
+    return `${mult.toFixed(1)}x over ${years} yrs (${cagr.toFixed(0)}%/yr)`
+  })()
   const accent = LEAGUE_ACCENT[team.league] || '#1a1a1a'
 
   return (
@@ -894,8 +906,9 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
             {/* Forbes' own four-component split, tested against proxies */}
             <InsideForbesNumber team={team} />
 
-            {/* Composition donut — what % of the valuation each driver explains */}
-            <ValuationComposition team={team} />
+            {/* Five-driver composition only where Forbes publishes no component split
+                (MLS, EPL); elsewhere the four Forbes components cover the same ground. */}
+            {!hasForbesSplit && <ValuationComposition team={team} />}
 
             <MarketCheck team={team} />
 
@@ -919,7 +932,8 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
               </section>
             )}
 
-            {/* Driver breakdown */}
+            {/* Driver breakdown (five-driver scores and narratives), only without a Forbes split */}
+            {!hasForbesSplit && (
             <section>
               <SectionHeader>Valuation Drivers · Click for detail</SectionHeader>
               <div>
@@ -944,14 +958,13 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                 ))}
               </div>
             </section>
+            )}
 
-            {/* Analyst thesis */}
+            {/* Overview (rewritten against September 2026 facts where the refresh covers the team) */}
             {analystNotes && (
               <section>
-                <SectionHeader>Analyst Thesis</SectionHeader>
-                <blockquote className="border-l-4 pl-5 py-1 text-base text-graphite leading-relaxed font-serif italic" style={{ borderColor: accent }}>
-                  "{analystNotes}"
-                </blockquote>
+                <SectionHeader>Overview{enrichment?.refreshedAsOf ? ` · verified ${enrichment.refreshedAsOf}` : ''}</SectionHeader>
+                <p className="text-base text-graphite leading-relaxed">{analystNotes}</p>
               </section>
             )}
 
@@ -961,7 +974,7 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                 <SectionHeader>Ownership</SectionHeader>
                 <div className="text-base font-semibold text-ink mb-1">{ownership.primaryOwner}</div>
                 {ownership.ownerNetWorth && (
-                  <div className="text-xs text-slate mb-3">Net worth: {ownership.ownerNetWorth}</div>
+                  <div className="text-xs text-slate mb-3">Net worth: {ownership.ownerNetWorth} (estimate)</div>
                 )}
                 {ownership.ownerBackground && (
                   <p className="text-sm text-graphite leading-relaxed mb-4">{ownership.ownerBackground}</p>
@@ -969,8 +982,8 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                 <div className="bg-paper border border-rule rounded-sm p-4">
                   <StatRow label="Acquired" value={ownership.acquisitionYear} />
                   <StatRow label="Purchase price" value={fmtMoney(ownership.acquisitionPrice)} />
-                  <StatRow label="Current value" value={fmtMoney(ownership.currentValuation)} />
-                  <StatRow label="Implied return" value={ownership.impliedReturn} />
+                  <StatRow label={`Forbes value (${team.valuationYear})`} value={fmtMoney(team.currentValuation)} />
+                  <StatRow label="Implied return" value={impliedReturn} />
                 </div>
 
                 {ownership.ownershipGroup?.length > 0 && (() => {
