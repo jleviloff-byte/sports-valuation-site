@@ -1,0 +1,3004 @@
+[
+  {
+    "teamId": "buffalo-bills",
+    "team": "Buffalo Bills",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.2,
+        "new": 8.15,
+        "fact": "Forbes NFL list September 2026: $8.15B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 552,
+        "new": 617,
+        "fact": "Forbes Sept 2026 revenue $617M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 101,
+        "new": 58,
+        "fact": "Forbes Sept 2026 operating income $58M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoff seasons 2021-2025: 2021, 2022, 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Highmark Stadium",
+        "new": "Highmark Stadium (new, opened 2026)",
+        "fact": "New $2.1B+ Highmark Stadium in Orchard Park opened June 23, 2026; first regular-season game Sept 17, 2026 vs Detroit",
+        "source": "https://www.espn.com/nfl/story/_/id/49953191/nfl-new-stadiums-debut-notable-games"
+      },
+      {
+        "field": "stadium.yearBuilt",
+        "old": 1973,
+        "new": 2026,
+        "fact": "New building replaced the 1973 stadium for the 2026 season",
+        "source": "https://en.wikipedia.org/wiki/Highmark_Stadium"
+      },
+      {
+        "field": "stadium.capacity",
+        "old": 71608,
+        "new": 60108,
+        "fact": "Seating capacity 60,108, smallest in the NFL (up to ~63,000-66,000 with standing room depending on event)",
+        "source": "https://en.wikipedia.org/wiki/Highmark_Stadium"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New $1.54B Highmark Stadium under construction in Orchard Park, opening 2026; ~$850M public funding ($600M state + $250M Erie County), $550M private; 30-year lease; state-owned",
+        "new": "Completed: new state-owned Highmark Stadium opened June 2026 at a final cost of roughly $2.1-2.2B (above the original $1.54B budget); ~$850M public ($600M state + $250M Erie County) with the Pegulas covering the overruns; 30-year lease",
+        "fact": "Final cost reported at $2.1-2.2B, the largest construction project in Western New York history",
+        "source": "https://sports.yahoo.com/articles/bills-stadium-details-inside-cost-070002757.html"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Minority stake sale under exploration as of 2024",
+        "new": "Arctos Partners bought ~10% (approved Dec 11, 2024) as part of a 20.6% limited-partner sale to 10 new LPs at a ~$5.1B valuation; Pegulas remain controlling owners",
+        "fact": "Bills and Dolphins were the first NFL teams to add PE investors under the 2024 rule; NFL approved Dec 11, 2024",
+        "source": "https://www.buffalobills.com/news/buffalo-bills-welcome-10-new-limited-partners-to-ownership-group"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: value of the Highmark deal on the new building not disclosed in any 2026 source found",
+      "stadium.nonGameRevenue: no 2026 event-slate data found for the new building"
+    ],
+    "analystNotes": "The Bills open the 2026 season in a new $2.1B Highmark Stadium, and Forbes' September 2026 list already prices it in at $8.15B on $617M of revenue. The building holds only 60,108 seats, the smallest in the NFL, so the model is premium density and pricing rather than volume, and the Arctos-led LP sale at roughly $5.1B in December 2024 now looks cheap. Josh Allen's $55M AAV deal runs through 2030 and the team has made the playoffs five straight years, losing the 2025 divisional round in overtime at Denver. The number moves if a full season of new-stadium premium revenue pushes operating income back above $100M.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.15B, $617M revenue, $58M OI); new stadium opening June 2026; Arctos LP sale Dec 2024; 2025 playoffs (lost divisional round at Denver in OT)."
+  },
+  {
+    "teamId": "miami-dolphins",
+    "team": "Miami Dolphins",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 7.1,
+        "new": 10.4,
+        "fact": "Forbes NFL list September 2026: $10.4B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 656,
+        "new": 810,
+        "fact": "Forbes Sept 2026 revenue $810M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 63,
+        "new": 198,
+        "fact": "Forbes Sept 2026 operating income $198M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Tua Tagovailoa — 4yr/$212.4M extension signed July 2024, $53.1M AAV, $167.2M guaranteed",
+        "new": "Malik Willis — 3yr/$67.5M signed March 12, 2026, $45M fully guaranteed at signing; Tua Tagovailoa released March 2026 (post-June 1 designation) with an NFL-record $99M dead cap over 2026-27",
+        "fact": "Dolphins released Tagovailoa in March 2026 and signed Willis as the presumptive starter",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-officially-release-tua-tagovailoa-with-post-june-1-designation"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Tua Tagovailoa",
+            "position": "QB",
+            "aav": 53.1,
+            "contractNote": "4yr/$212.4M (July 2024), runs through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Malik Willis",
+            "position": "QB",
+            "aav": 22.5,
+            "contractNote": "3yr/$67.5M (March 2026), $45M guaranteed at signing incl. $22.25M signing bonus; runs through 2028"
+          }
+        ],
+        "fact": "Willis signed 3yr/$67.5M with $45M fully guaranteed",
+        "source": "https://www.thephinsider.com/nfl-free-agency/116223/nfl-free-agents-2026-miami-dolphins-contract-malik-willis-guaranteed-money-three-years-saalry-cap"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "Forbes values the Dolphins at $10.4B in September 2026, with the stadium component alone at $2.7B, because Hard Rock Stadium is privately owned, debt free, and books Super Bowls, the Miami Grand Prix and 2026 World Cup matches. The 1% sale to Lin Bin at a $12.5B mark covers the whole Ross platform (team, stadium, F1 race, Miami Open), not the team alone. Miami cut Tua Tagovailoa in March 2026 and absorbed a record $99M dead cap charge, then handed the job to Malik Willis on a 3yr/$67.5M deal, so the football side is a reset. Revenue of $810M and $198M of operating income carry the number until the quarterback answer arrives.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.4B, $810M revenue, $198M OI, $2.7B stadium component); Lin Bin 1% at $12.5B (transactions.js); Tua release and Willis signing March 2026."
+  },
+  {
+    "teamId": "new-england-patriots",
+    "team": "New England Patriots",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 7.4,
+        "new": 10.6,
+        "fact": "Forbes NFL list September 2026: $10.6B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 712,
+        "new": 784,
+        "fact": "Forbes Sept 2026 revenue $784M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 261,
+        "new": 186,
+        "fact": "Forbes Sept 2026 operating income $186M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Playoff seasons 2021-2025: 2021, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Super Bowl wins for seasons 2016-2025: 2",
+        "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Drake Maye — 4yr/$36.6M rookie contract (2024 draft pick No. 3), fully guaranteed; eligible for extension 2026",
+        "new": "Drake Maye — 4yr/$36.6M rookie contract (2024 No. 3 pick), fully guaranteed; 2025 NFL MVP runner-up and Super Bowl LX starter; extension-eligible after the 2026 season, no deal in place",
+        "fact": "Maye finished second in 2025 MVP voting; extension eligibility opens after 2026",
+        "source": "https://www.boston.com/sports/new-england-patriots/2026/08/05/new-england-patriots-drake-maye-contract-christian-gonzalez/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Minority stake sold in 2025 at ~$9B implied team valuation (per CNBC report)",
+        "new": "Sold 8% of new equity (Dean Metropoulos 5%, Sixth Street 3%) at a $9.0B pre-money valuation, approved Oct 22, 2025 and closed Nov 2025; ~$720M of primary capital stays on the team balance sheet",
+        "fact": "Deal announced Sept 25, 2025 and approved Oct 22, 2025 at $9B pre-money",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "New England reached Super Bowl LX in February 2026 with Drake Maye on a $9.2M AAV rookie deal, and Forbes marked the team at $10.6B in September 2026 on $784M of revenue. The Kraft Group model still does the work: privately financed Gillette Stadium, Patriot Place, and $186M of operating income, plus $720M of fresh primary capital from the 8% sale to Metropoulos and Sixth Street at $9.0B in October 2025. Maye becomes extension-eligible after the 2026 season and a $60M AAV deal will compress margins. A second Super Bowl run before that contract lands is the upside case.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.6B, $784M revenue, $186M OI); Super Bowl LX loss Feb 2026; Metropoulos/Sixth Street 8% at $9.0B (transactions.js)."
+  },
+  {
+    "teamId": "new-york-jets",
+    "team": "New York Jets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.9,
+        "new": 10.35,
+        "fact": "Forbes NFL list September 2026: $10.35B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 620,
+        "new": 716,
+        "fact": "Forbes Sept 2026 revenue $716M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 138,
+        "new": 216,
+        "fact": "Forbes Sept 2026 operating income $216M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Justin Fields — 2yr/$40M deal signed March 2025, $20M AAV; traded to Kansas City mid-2025-season; franchise QB situation unresolved as of 2026",
+        "new": "Geno Smith — acquired from the Raiders in March 2026 for a swap of late-round picks; $26.5M base salary in 2026 ($18.5M guaranteed) with Las Vegas covering $16.2M; named 2026 starter by Aaron Glenn; rookie Cade Klubnik (4th round) is QB2",
+        "fact": "Jets traded a 2026 sixth-round pick for Smith and a seventh; Glenn confirmed Smith as the 2026 starter",
+        "source": "https://www.espn.com/nfl/story/_/id/48164552/sources-jets-get-their-qb-trade-raiders-geno-smith"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Justin Fields",
+            "position": "QB",
+            "aav": 20,
+            "contractNote": "2yr/$40M (March 2025); traded to Chiefs Nov 2025; Jets carrying dead cap"
+          }
+        ],
+        "new": [
+          {
+            "player": "Geno Smith",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "2yr/$75M extension signed with Las Vegas (April 2025), runs through 2027; traded to the Jets March 2026 with the Raiders paying $16.2M of his 2026 salary"
+          }
+        ],
+        "fact": "Smith 2026 pay split: Raiders $16.2M, Jets remainder plus $1M raise",
+        "source": "https://sports.yahoo.com/articles/jets-agree-geno-smith-contract-141845246.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "The Jets are the purest market premium in the league: $10.35B on Forbes' September 2026 list with no playoff appearance since 2010 and $216M of operating income from a half share of privately financed MetLife Stadium. Forbes assigns $6.8B of the value to the sport itself, so the New York market and stadium add roughly $3.5B on top of a generic NFL franchise. Geno Smith arrived from Las Vegas in March 2026 as a bridge starter with rookie Cade Klubnik behind him, so there is still no franchise quarterback on the books. A real answer at the position is the one thing that would let the Jets close the gap to the Giants at $12B.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.35B, $716M revenue, $216M OI, $6.8B sport component); Geno Smith trade March 2026; no playoffs 2021-2025."
+  },
+  {
+    "teamId": "baltimore-ravens",
+    "team": "Baltimore Ravens",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.03,
+        "new": 8.2,
+        "fact": "Forbes NFL list September 2026: $8.2B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 570,
+        "new": 656,
+        "fact": "Forbes Sept 2026 revenue $656M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 95,
+        "new": 77,
+        "fact": "Forbes Sept 2026 operating income $77M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Playoff seasons 2021-2025: 2022, 2023, 2024",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Major renovation (up to ~$489M) under negotiation, with Maryland and Ravens splitting costs; no new build announced",
+        "new": "Three-year, roughly $450-489M \"Next Evolution\" renovation of M&T Bank Stadium completed for the 2026 season (Maryland Stadium Authority joint venture); no new build planned",
+        "fact": "Ravens announced the renovation complete ahead of the 2026 season",
+        "source": "https://www.baltimoreravens.com/news/ravens-renovation-project-mt-bank-stadium-complete-north-plaza-gate-a"
+      },
+      {
+        "field": "stadium.nonGameRevenue",
+        "old": "Limited — primarily football and select concerts; $430-489M renovation proposal under negotiation as of 2023-2024",
+        "new": "Renovation added the Bud Light Talon open-air music venue, new club spaces and 29 video displays; still primarily football plus concerts",
+        "fact": "New open-air venue with music stage added in 2026",
+        "source": "https://www.baltimoreravens.com/news/ravens-renovation-project-mt-bank-stadium-complete-north-plaza-gate-a"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Lamar Jackson — 5yr/$260M extension signed May 2023, $52M AAV, $185M guaranteed",
+        "new": "Lamar Jackson — 5yr/$260M (May 2023), $52M AAV, runs through 2027; extension talks paused before Week 1 2026 with no in-season deal expected; 2027 cap hit $84.3M",
+        "fact": "Ravens and Jackson did not reach an extension before Week 1 2026",
+        "source": "https://www.profootballrumors.com/2026/09/ravens-lamar-jackson-will-not-reach-extension-agreement-prior-to-week-1"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: current M&T annual value not disclosed"
+    ],
+    "analystNotes": "Baltimore sits at $8.2B on Forbes' September 2026 list with $656M of revenue, and the just-completed $450M-plus renovation of M&T Bank Stadium removes the facility discount that hung over the franchise. The open question is Lamar Jackson: his $52M AAV deal runs through 2027 with an $84.3M cap hit that year, and the Ravens paused extension talks before Week 1 2026. The team missed the 2025 playoffs after three straight appearances, and operating income fell to $77M. A third contract for Jackson at $65M-plus per year resets the cost base but also locks in the asset that drives ticket and sponsorship demand.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.2B, $656M revenue, $77M OI); M&T renovation complete 2026; Lamar extension talks paused Sept 2026; missed 2025 playoffs."
+  },
+  {
+    "teamId": "cincinnati-bengals",
+    "team": "Cincinnati Bengals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.25,
+        "new": 8,
+        "fact": "Forbes NFL list September 2026: $8B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 498,
+        "new": 613,
+        "fact": "Forbes Sept 2026 revenue $613M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 70,
+        "new": 71,
+        "fact": "Forbes Sept 2026 operating income $71M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 2,
+        "fact": "Playoff seasons 2021-2025: 2021, 2022",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": null,
+        "new": "New lease through June 2036 (options to 2046) plus a phased renovation of Paycor Stadium agreed with Hamilton County in 2025: $470M core program, first phase $184.5M (Bengals $120M incl. a $60M NFL loan, county $64.5M) substantially complete for the 2026 season; full program estimated at ~$830M over four years",
+        "fact": "Lease finalized 2025; phase one began Feb 2026",
+        "source": "https://www.bengals.com/news/bengals-hamilton-county-finalize-new-lease-paycor-stadium-2025"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Joe Burrow",
+            "position": "QB",
+            "aav": 55,
+            "contractNote": "5yr/$275M (Sept 2023), runs through 2028"
+          },
+          {
+            "player": "Ja'Marr Chase",
+            "position": "WR",
+            "aav": null,
+            "contractNote": "Extension expected; one of NFL's top WR assets"
+          }
+        ],
+        "new": [
+          {
+            "player": "Joe Burrow",
+            "position": "QB",
+            "aav": 55,
+            "contractNote": "5yr/$275M (Sept 2023), runs through 2028"
+          },
+          {
+            "player": "Ja'Marr Chase",
+            "position": "WR",
+            "aav": 40.25,
+            "contractNote": "4yr/$161M extension (March 2025), $73.9M guaranteed, runs through 2029; highest-paid non-QB at signing"
+          }
+        ],
+        "fact": "Chase signed 4yr/$161M in March 2025",
+        "source": "https://www.nfl.com/news/bengals-agree-to-terms-with-wrs-ja-marr-chase-tee-higgins-on-four-year-contract-extensions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.nonGameRevenue: no 2026 source on event revenue under the new lease"
+    ],
+    "analystNotes": "Cincinnati is the NFL's floor at $8.0B on Forbes' September 2026 list, and even the floor has risen 52% since 2024 because the league's national revenue now runs about $453M per team. The 2025 lease deal with Hamilton County keeps the Bengals at Paycor Stadium through at least 2036 and starts a $470M renovation that the team is funding largely with an NFL loan, the first real capital commitment from the Brown family in a generation. Joe Burrow at $55M AAV and Ja'Marr Chase at $40.25M AAV are locked through 2028 and 2029. The team has missed the playoffs three straight years; a return is what separates the Bengals from the rest of the $8B cluster.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.0B, last in NFL; $613M revenue, $71M OI); 2025 Hamilton County lease and renovation; Chase extension March 2025; missed playoffs 2023-2025."
+  },
+  {
+    "teamId": "cleveland-browns",
+    "team": "Cleveland Browns",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.02,
+        "new": 9,
+        "fact": "Forbes NFL list September 2026: $9B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 540,
+        "new": 720,
+        "fact": "Forbes Sept 2026 revenue $720M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 80,
+        "new": 110,
+        "fact": "Forbes Sept 2026 operating income $110M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New domed stadium planned in Brook Park near Cleveland Hopkins Airport, targeting 2029 opening; Haslams seeking public-private financing; city offered ~$550M toward ~$1.1B proposal",
+        "new": "New enclosed Huntington Bank Field in Brook Park under construction: mass excavation began March 2, 2026 and the official groundbreaking was April 30, 2026; ~$2.6B stadium (Haslams ~$1.8B, State of Ohio $600M, Brook Park $245M); ~67,500 seats; opening 2029 with phase one of an adjoining mixed-use district",
+        "fact": "Groundbreaking April 30, 2026; cost $2.6B; 2029 opening",
+        "source": "https://www.cleveland19.com/2026/04/30/browns-hold-official-groundbreaking-new-brook-park-dome/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Arctos Partners bought 3% at a $9.0B valuation (announced and approved May 19, 2026); proceeds help fund the Brook Park stadium",
+        "fact": "Arctos 3% at $9B, May 2026",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Deshaun Watson — 5yr/$230M fully guaranteed signed 2022, $46M AAV; has missed extensive time due to injury and suspension; contract a significant cap liability",
+        "new": "Deshaun Watson — named Week 1 2026 starter over Shedeur Sanders by new coach Todd Monken; releasing him now would trigger a record $127M dead cap, a post-June 1 release in March 2027 splits ~$86M over 2027-28; $200M becomes guaranteed if he is on the roster March 13, 2027",
+        "fact": "Watson named 2026 starter; contract structure forces a March 2027 decision",
+        "source": "https://www.cbssports.com/nfl/news/browns-deshaun-watson-contract-release-2027/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Deshaun Watson",
+            "position": "QB",
+            "aav": 46,
+            "contractNote": "5yr/$230M (2022), fully guaranteed; runs through 2026; extensive cap dead money exposure"
+          }
+        ],
+        "new": [
+          {
+            "player": "Deshaun Watson",
+            "position": "QB",
+            "aav": 46,
+            "contractNote": "5yr/$230M (2022), fully guaranteed and restructured repeatedly; final contract year 2026; release expected before March 13, 2027 when $200M would guarantee"
+          }
+        ],
+        "fact": "Contract poison pill dated March 13, 2027",
+        "source": "https://www.cbssports.com/nfl/news/browns-deshaun-watson-contract-release-2027/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Huntington terms for the new building still undisclosed"
+    ],
+    "analystNotes": "The Browns were priced at $9.0B two independent ways in 2026: Forbes' September list and Arctos' purchase of 3% in May. The value driver is the $2.6B enclosed stadium in Brook Park that broke ground April 30, 2026, with the Haslams putting in roughly $1.8B against $845M of state and local money, opening in 2029 with a mixed-use district around it. Deshaun Watson is still the Week 1 starter in 2026 only because cutting him now costs a record $127M in dead cap; the practical exit is March 2027. A clean quarterback slate in 2027 plus a domed building in 2029 is the re-rating path.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.0B, $720M revenue, $110M OI); Arctos 3% at $9.0B May 2026; Brook Park groundbreaking April 2026; Watson 2026 starter."
+  },
+  {
+    "teamId": "pittsburgh-steelers",
+    "team": "Pittsburgh Steelers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.08,
+        "new": 8.7,
+        "fact": "Forbes NFL list September 2026: $8.7B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 548,
+        "new": 653,
+        "fact": "Forbes Sept 2026 revenue $653M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 96,
+        "new": 74,
+        "fact": "Forbes Sept 2026 operating income $74M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoff seasons 2021-2025: 2021, 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Aaron Rodgers — 1yr/$13.65M base deal signed June 2025 ($19.5M max with incentives); team holds UFA tender for 2026",
+        "new": "Aaron Rodgers — re-signed for 2026 on a one-year deal worth up to $25M under new head coach Mike McCarthy; Rodgers, 42, has said 2026 is his final season",
+        "fact": "Rodgers returned for 2026 and confirmed he will retire after the season",
+        "source": "https://www.cbssports.com/nfl/news/aaron-rodgers-steelers-qb-retiring-after-2026-season/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Aaron Rodgers",
+            "position": "QB",
+            "aav": 13.65,
+            "contractNote": "1yr/$13.65M base (June 2025), up to $19.5M with incentives; 2026 UFA tender in place"
+          }
+        ],
+        "new": [
+          {
+            "player": "Aaron Rodgers",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "1yr deal for 2026 worth up to $25M (second Steelers contract); retiring after 2026"
+          }
+        ],
+        "fact": "One-year contract worth up to $25M",
+        "source": "https://www.steelers.com/news/steelers-sign-rodgers"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Rodgers 2026 base salary vs. incentives split not found"
+    ],
+    "analystNotes": "Pittsburgh carries an $8.7B Forbes mark (September 2026) on $653M of revenue, and Forbes credits $539M to brand, the most of any team outside the top six, which is the Terrible Towel effect in a metro of 2.4M people. The football side is a one-year bridge: Aaron Rodgers returned on a deal worth up to $25M under Mike McCarthy and has said 2026 is his last season, after a 2025 wild card exit that extended the playoff-win drought to nine years. Operating income of $74M is thin for a team with no stadium debt. The quarterback succession decision in spring 2027 is the whole story.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.7B, $653M revenue, $74M OI, $539M brand component); Rodgers 2026 return and retirement statement; 2025 wild card loss to Houston."
+  },
+  {
+    "teamId": "houston-texans",
+    "team": "Houston Texans",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.01,
+        "new": 9.65,
+        "fact": "Forbes NFL list September 2026: $9.65B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 663,
+        "new": 722,
+        "fact": "Forbes Sept 2026 revenue $722M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 195,
+        "new": 160,
+        "fact": "Forbes Sept 2026 operating income $160M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Playoff seasons 2021-2025: 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.name",
+        "old": "NRG Stadium",
+        "new": "Reliant Stadium (renamed from NRG Stadium, August 2026)",
+        "fact": "NRG Stadium and NRG Park renamed Reliant Stadium and Reliant Park in August 2026 after a temporary \"Houston Stadium\" period for the World Cup",
+        "source": "https://www.nrg.com/about/newsroom/2026/r1912.html"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Reliant Energy (NRG Energy 2014-2026, reverting to Reliant)",
+          "annualValue_M": 10,
+          "totalValue_M": 300,
+          "expiryYear": 2032,
+          "notes": "Original 30-year, $300M deal signed 2000; stadium renamed back to Reliant Stadium starting 2026 season"
+        },
+        "new": {
+          "sponsor": "Reliant Energy (NRG Energy brand 2014-2026, reverted to Reliant August 2026)",
+          "annualValue_M": 10,
+          "totalValue_M": 300,
+          "expiryYear": 2032,
+          "notes": "Original 30-year, $300M deal signed 2000; renamed Reliant Stadium in August 2026 with Harris County Sports & Convention Corp. approval; Texans lease runs through the 2032 season"
+        },
+        "fact": "Rename approved and effective August 2026",
+        "source": "https://abc13.com/post/nrg-stadium-home-houston-texans-rodeo-renamed-reliant-august-2026-company-announces/18893525/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "As of May 2026, Cal McNair committed to staying at NRG Park site; renovation vs. new build under discussion with Harris County",
+        "new": "Texans committed to staying at Reliant Park beyond the 2032 lease expiry with renovations rather than a new build; no demolition or replacement planned",
+        "fact": "Team and county pursuing renovation of the 2002 building",
+        "source": "https://www.chron.com/sports/texans/article/texans-reliant-stadium-future-2032-lease-22240510.php"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "C.J. Stroud",
+        "new": "C.J. Stroud — final year of 4yr/$36.3M rookie deal in 2026; $25.9M fully guaranteed fifth-year option for 2027 exercised; extension talks tabled until after the 2026 season",
+        "fact": "Texans and Stroud agreed to wait on an extension until after 2026",
+        "source": "https://www.espn.com/nfl/story/_/id/49917836/sources-cj-stroud-texans-table-extension-talks"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "C.J. Stroud",
+            "position": "QB",
+            "aav": 9.1,
+            "contractNote": "4-year, $36.3M rookie deal (2023 draft, #2 overall); extension negotiations expected 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "C.J. Stroud",
+            "position": "QB",
+            "aav": 9.1,
+            "contractNote": "4yr/$36.3M rookie deal (2023 No. 2 pick); $25.9M fifth-year option exercised for 2027; extension deferred to 2027 offseason"
+          }
+        ],
+        "fact": "Fifth-year option exercised; talks deferred",
+        "source": "https://www.espn.com/nfl/story/_/id/49917836/sources-cj-stroud-texans-table-extension-talks"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.capacity",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: renovation cost and scope not yet published"
+    ],
+    "analystNotes": "Houston is the fourth largest U.S. metro and Forbes prices it that way: $9.65B in September 2026, seventh in the league, on $722M of revenue and $160M of operating income. The stadium went back to the Reliant Stadium name in August 2026 and the McNairs have committed to renovating rather than replacing it past the 2032 lease, which caps the upside a new building would bring. C.J. Stroud is playing out his rookie deal with a $25.9M option exercised for 2027 and extension talks pushed to next offseason, so the cost base stays cheap for one more year. Three straight playoff trips and a $70M AAV quarterback contract next spring are the two forces pulling on the number.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.65B, $722M revenue, $160M OI); Reliant rename Aug 2026; Stroud extension deferred; 2025 divisional-round loss at New England."
+  },
+  {
+    "teamId": "indianapolis-colts",
+    "team": "Indianapolis Colts",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.99,
+        "new": 8.08,
+        "fact": "Forbes NFL list September 2026: $8.08B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 591,
+        "new": 626,
+        "fact": "Forbes Sept 2026 revenue $626M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 101,
+        "new": 81,
+        "fact": "Forbes Sept 2026 operating income $81M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Anthony Richardson",
+        "new": "Daniel Jones — re-signed March 2026 on 2yr/$88M (up to $100M), ~$49.4M guaranteed at signing, the largest two-year contract in NFL history; named 2026 starter; Anthony Richardson is the backup after a denied trade request",
+        "fact": "Colts re-signed Jones after his 2025 breakout ended with an Achilles injury",
+        "source": "https://www.nfl.com/news/colts-qb-daniel-jones-finalizing-two-year-88-million-deal"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Anthony Richardson",
+            "position": "QB",
+            "aav": 8.5,
+            "contractNote": "4-year, $33.99M rookie deal (2023 draft, #4 overall); 5th-year option declined; free agent after 2026"
+          }
+        ],
+        "new": [
+          {
+            "player": "Daniel Jones",
+            "position": "QB",
+            "aav": 44,
+            "contractNote": "2yr/$88M (March 2026), up to $100M with incentives; ~$49.4M guaranteed at signing; runs through 2027"
+          },
+          {
+            "player": "Anthony Richardson",
+            "position": "QB",
+            "aav": 8.5,
+            "contractNote": "4yr/$33.99M rookie deal (2023 No. 4 pick); 5th-year option declined; expires after 2026; backup to Jones"
+          }
+        ],
+        "fact": "Steichen named Jones the starter; Richardson backup",
+        "source": "https://www.colts.com/news/daniel-jones-starting-quarterback-qb1-shane-steichen-anthony-richardson"
+      },
+      {
+        "field": "ownership.ownerBackground",
+        "old": "Jim Irsay (d. 2024) inherited franchise from father Robert Irsay in 1997; three daughters now operate as co-owners",
+        "new": "Jim Irsay (died May 21, 2025) inherited the franchise from father Robert Irsay in 1997; his three daughters now operate as co-owners",
+        "fact": "Correction: Jim Irsay died in May 2025, not 2024",
+        "source": "https://en.wikipedia.org/wiki/Jim_Irsay"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Lucas Oil deal expires ~2026 and no renewal announcement was found"
+    ],
+    "analystNotes": "Indianapolis moved from $4.99B to $8.08B on the Forbes list between 2024 and September 2026 without a single playoff game, which shows how much of NFL value is the shared $453M national check rather than anything local. The Irsay daughters made their first big bet in March 2026: Daniel Jones on a two-year, $88M deal, the largest two-year contract in league history, after his 2025 breakout ended with an Achilles tear. The Lucas Oil naming deal expires around now and no renewal has been announced, which is the one open item on the revenue side. Jones staying healthy behind a rebuilt line is what turns a $626M revenue base into playoff gate.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.08B, $626M revenue, $81M OI); Daniel Jones 2yr/$88M March 2026; no playoffs 2021-2025."
+  },
+  {
+    "teamId": "jacksonville-jaguars",
+    "team": "Jacksonville Jaguars",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.6,
+        "new": 8.05,
+        "fact": "Forbes NFL list September 2026: $8.05B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 567,
+        "new": 591,
+        "fact": "Forbes Sept 2026 revenue $591M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 139,
+        "new": 31,
+        "fact": "Forbes Sept 2026 operating income $31M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$1.4B 'Stadium of the Future' renovation (City $625M + Jaguars $625M + $150M maintenance); approved Oct 2024; re-opens 2028; Jaguars playing 2027 home games in Orlando",
+        "new": "$1.4B Stadium of the Future renovation ~15% complete and on schedule as of spring 2026; 2026 home capacity reduced to 42,507 during construction; Jaguars play 2027 home games at Camping World Stadium in Orlando; reopens 2028 at 63,000 seats (expandable to 70,000)",
+        "fact": "2026 capacity 42,507; Orlando in 2027; 2028 reopening",
+        "source": "https://www.nfl.com/news/jaguars-everbank-stadium-renovation-2026-season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: EverBank extension beyond 2027 not found"
+    ],
+    "analystNotes": "Jacksonville went 13-4 and won the AFC South in 2025, and Forbes still has it at $8.05B (September 2026), 29th in the league, because the market is the smallest in the NFL and the stadium is mid-renovation. Operating income collapsed to $31M with 2026 home capacity cut to 42,507 and the whole 2027 season moving to Orlando, which is the price of the $1.4B Stadium of the Future that reopens in 2028 at 63,000 seats with Shad Khan covering overruns. Trevor Lawrence's $55M AAV runs through 2029. The 2028 reopening, with premium inventory a 1995 building never had, is the catalyst.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.05B, 29th; $591M revenue, $31M OI); renovation progress 2026; 13-4 AFC South title and 2025 wild card loss to Buffalo."
+  },
+  {
+    "teamId": "tennessee-titans",
+    "team": "Tennessee Titans",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.01,
+        "new": 8.5,
+        "fact": "Forbes NFL list September 2026: $8.5B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 561,
+        "new": 607,
+        "fact": "Forbes Sept 2026 revenue $607M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 123,
+        "new": 85,
+        "fact": "Forbes Sept 2026 operating income $85M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New enclosed $2.1B Nissan Stadium under construction on East Bank of Cumberland River; on track for Feb 2027 completion; 60,000 seats; largest public stadium subsidy in U.S. history ($1.26B public)",
+        "new": "New enclosed $2.1B Nissan Stadium on track for February 2027 completion; roof cable-net system finished Aug 2026 with full enclosure expected by fall 2026; ~60,000 seats; 70% of the building sold via season-ticket carryover; awarded Super Bowl LXIV (2030) in May 2026; 2026 is the last season in the 1999 stadium; $1.26B public funding remains the largest U.S. stadium subsidy",
+        "fact": "Construction progress Aug 2026; Feb 2027 opening; Super Bowl LXIV awarded May 2026",
+        "source": "https://www.wsmv.com/2026/08/12/its-starting-feel-like-stadium-titans-share-construction-progress-new-nissan-stadium/"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Will Levis",
+        "new": "Cam Ward — 2025 No. 1 overall pick, 4yr/$48.7M fully guaranteed rookie deal with fifth-year option; second-year starter under head coach Robert Saleh",
+        "fact": "Ward signed a fully guaranteed $48.7M rookie contract in May 2025 and started as a rookie",
+        "source": "https://www.espn.com/nfl/story/_/id/45258215/titans-sign-no-1-pick-cam-ward-four-year-rookie-deal"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Will Levis",
+            "position": "QB",
+            "aav": 2.4,
+            "contractNote": "4-year, $9.54M rookie deal (2023 draft, #33 overall 2nd round); 5th-year option available 2027"
+          }
+        ],
+        "new": [
+          {
+            "player": "Cam Ward",
+            "position": "QB",
+            "aav": 12.2,
+            "contractNote": "4yr/$48.7M rookie deal (May 2025), fully guaranteed, $32.1M signing bonus; runs through 2028 plus 5th-year option"
+          }
+        ],
+        "fact": "Replaces stale Will Levis entry; Ward is the franchise QB",
+        "source": "https://www.tennesseetitans.com/news/titans-sign-qb-cam-ward-to-rookie-contract"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Nissan annual value still undisclosed"
+    ],
+    "analystNotes": "Tennessee is at $8.5B on the September 2026 Forbes list on just $607M of revenue because the market is pricing the building that opens in February 2027: a $2.1B enclosed Nissan Stadium with $1.26B of public money, 70% of it already sold through season-ticket carryover, and Super Bowl LXIV in 2030 awarded in May 2026. Forbes' brand component of $308M is the lowest in the league, so this is a stadium and Nashville-growth story, not a fan-equity story. Cam Ward, the 2025 No. 1 pick, is in year two on a fully guaranteed $48.7M rookie deal. Twelve months of new-building revenue in the FY2027 numbers is the next step change.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.5B, $607M revenue, $85M OI, $308M brand component); new stadium Feb 2027; Cam Ward rookie deal; Super Bowl LXIV award."
+  },
+  {
+    "teamId": "denver-broncos",
+    "team": "Denver Broncos",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.2,
+        "new": 9.4,
+        "fact": "Forbes NFL list September 2026: $9.4B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 608,
+        "new": 695,
+        "fact": "Forbes Sept 2026 revenue $695M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 114,
+        "new": 97,
+        "fact": "Forbes Sept 2026 operating income $97M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 2,
+        "fact": "Playoff seasons 2021-2025: 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$4B new stadium at Burnham Yard site in Denver advancing; targeting 2031 opening; financing and public subsidy structure TBD",
+        "new": "Burnham Yard stadium and mixed-use district still targeting a 2031 opening; updated master-plan renderings released Aug 4, 2026 with four neighborhood districts and transit stops; team acknowledges the project has moved slower than hoped; financing and public-subsidy structure still unresolved",
+        "fact": "Aug 2026 renderings; 2031 target; timeline questions",
+        "source": "https://www.cbsnews.com/colorado/news/denver-broncos-burnham-yard-stadium-plans-questions/"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Bo Nix",
+        "new": "Bo Nix — year three of 4yr/$18.6M rookie deal; extension-eligible January 2027 (Spotrac market value ~$53.4M AAV); led Denver to 14-3 and the AFC No. 1 seed in 2025 before a 10-7 AFC Championship loss to New England",
+        "fact": "Nix extension eligibility opens Jan 2027",
+        "source": "https://www.espn.com/nfl/story/_/id/49576234/bo-nix-denver-broncos-2026-season-super-bowl-expectations-long-term-contract-extension"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "Denver has doubled from the $4.65B Walton-Penner purchase price in 2022 to $9.4B on Forbes' September 2026 list, and the 2025 season, 14-3 with the AFC's top seed and a 10-7 conference title game loss, finally gave the ownership group an on-field story to sell. Bo Nix is still on a $4.7M AAV rookie deal through 2027 with extension eligibility opening in January 2027, the cheapest elite-tier quarterback window in the league. The Burnham Yard stadium keeps a 2031 target but the team admits it is behind schedule and financing is unresolved. Locking the stadium deal is worth more than any single season.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.4B, $695M revenue, $97M OI); 2025 AFC No. 1 seed and AFC title game loss; Burnham Yard Aug 2026 update; Nix extension timeline."
+  },
+  {
+    "teamId": "kansas-city-chiefs",
+    "team": "Kansas City Chiefs",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.85,
+        "new": 8.8,
+        "fact": "Forbes NFL list September 2026: $8.8B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 591,
+        "new": 644,
+        "fact": "Forbes Sept 2026 revenue $644M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 115,
+        "new": 51,
+        "fact": "Forbes Sept 2026 operating income $51M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Playoff seasons 2021-2025: 2021, 2022, 2023, 2024",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Super Bowl wins for seasons 2016-2025: 3",
+        "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Dec 2025: Chiefs announced intent to build new $3B stadium in Wyandotte County, Kansas; $1.8B public subsidy (Kansas STAR Bond legislation); target opening 2031",
+        "new": "New $3B enclosed stadium near Kansas Speedway in Wyandotte County, Kansas: county approved STAR bonds Feb 2026; most stadium land under team control as of May 2026; first renderings released July 22, 2026 (~70,000 seats, ETFE roof); paired with a $300M Olathe practice facility and $1.2B of ancillary development; target opening for the 2031 season",
+        "fact": "STAR bonds approved Feb 2026; renderings July 2026; 2031 opening",
+        "source": "https://www.kctv5.com/2026/07/22/espn-insider-drops-first-look-chiefs-new-3-billion-kansas-stadium/"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Patrick Mahomes",
+        "new": "Patrick Mahomes — reworked in June 2026 into an 8yr/$504.75M deal through 2033 (up to $522.25M), $397M guaranteed, $64M AAV on new money, the first NFL contract over $500M; returned for Week 1 2026 in a knee brace after a Dec 14, 2025 ACL/LCL tear",
+        "fact": "First $500M NFL contract, June 2026",
+        "source": "https://www.nfl.com/news/chiefs-add-two-years-to-patrick-mahomes-contract-making-it-first-nfl-deal-valued-at-over-500-million"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Patrick Mahomes",
+            "position": "QB",
+            "aav": 45,
+            "contractNote": "10-year, $450M extension signed July 2020; restructured multiple times; effectively runs through 2031 season"
+          }
+        ],
+        "new": [
+          {
+            "player": "Patrick Mahomes",
+            "position": "QB",
+            "aav": 64,
+            "contractNote": "8yr/$504.75M through 2033 (June 2026 extension), $397M guaranteed, first four years guaranteed at signing; NFL-record $64M new-money AAV"
+          }
+        ],
+        "fact": "Extension through 2033 signed June 2026",
+        "source": "https://www.profootballrumors.com/2026/06/chiefs-patrick-mahomes-sign-extension-through-2033"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: whether GEHA follows the team to Kansas not reported"
+    ],
+    "analystNotes": "Kansas City is worth $8.8B on Forbes' September 2026 list even after a 6-11 season with Patrick Mahomes lost to a torn ACL in December 2025, the first missed playoffs since 2014. The Chiefs then made Mahomes the first $500M player in June 2026, a $504.75M deal through 2033 at $64M per year, which is why operating income fell to $51M, lowest in the AFC West. The $3B Wyandotte County dome has STAR bonds approved, land secured and renderings out, with a 2031 opening that finally gives a three-time champion of the last decade a modern building. Mahomes healthy in 2026 restores the sport premium; the Kansas stadium restores the stadium premium.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.8B, $644M revenue, $51M OI); Mahomes ACL tear Dec 2025 and 6-11 season; $504.75M contract June 2026; Wyandotte County stadium progress."
+  },
+  {
+    "teamId": "las-vegas-raiders",
+    "team": "Las Vegas Raiders",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.7,
+        "new": 10.3,
+        "fact": "Forbes NFL list September 2026: $10.3B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 779,
+        "new": 887,
+        "fact": "Forbes Sept 2026 revenue $887M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 115,
+        "new": 191,
+        "fact": "Forbes Sept 2026 operating income $191M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Mark Davis",
+            "role": "majority owner / managing general partner",
+            "pct": null
+          },
+          {
+            "name": "Tom Brady",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Tom Wagner",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Michael Meldman",
+            "role": "limited partner",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Mark Davis",
+            "role": "majority owner / managing general partner",
+            "pct": null
+          },
+          {
+            "name": "Egon Durban",
+            "role": "limited partner (~14.5% combined: 3.5% from Davis in March 2026 plus ~11% via the May 2026 First Football purchase); holds a 10-year right of first refusal on Davis's control stake",
+            "pct": null
+          },
+          {
+            "name": "Tom Brady",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Tom Wagner",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Michael Meldman",
+            "role": "limited partner (added ~5.4% in May 2026)",
+            "pct": null
+          },
+          {
+            "name": "Michael Dell",
+            "role": "limited partner",
+            "pct": 5.3
+          },
+          {
+            "name": "Joseph Baratta, Ari Emanuel, Mark Shapiro",
+            "role": "limited partners (1.7%, 1.4%, 0.6%)",
+            "pct": null
+          }
+        ],
+        "fact": "Two 2026 LP transactions: Durban 3.5% from Davis at $11.1B (approved Mar 31, 2026) and a Durban-led group buying First Football's 25.3% at $9.9B (approved May 19, 2026)",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Egon Durban bought 3.5% from Mark Davis at an $11.1B headline mark (approved March 31, 2026; figure includes the 10% league transfer fee) with a right of first refusal on control; a Durban-led group then bought First Football's 25.3% at a $9.9B mark (approved May 19, 2026)",
+        "fact": "Durban is the pre-cleared successor to Davis",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Geno Smith",
+        "new": "Kirk Cousins — signed April 2026 ($20M fully guaranteed for 2026, Atlanta paying $8.7M of it; club option for 2027-28 at $80M; up to $172M over five years), named Week 1 2026 starter by Klint Kubiak; Fernando Mendoza, the 2026 No. 1 overall pick (4yr/$57.27M fully guaranteed), is the backup and long-term answer",
+        "fact": "Cousins named Week 1 starter over Mendoza",
+        "source": "https://www.nfl.com/news/raiders-name-kirk-cousins-starting-fernando-mendoza-officially-backup"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Geno Smith",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "Acquired as bridge starter for 2025 season; franchise QB identity unresolved post-Carr departure"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kirk Cousins",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "Signed April 2026; $20M guaranteed for 2026 (Falcons cover $8.7M); $10M roster bonus due March 2027; two-year $80M club option"
+          },
+          {
+            "player": "Fernando Mendoza",
+            "position": "QB",
+            "aav": 14.3,
+            "contractNote": "4yr/$57.27M rookie deal (July 2026), fully guaranteed, $38M signing bonus, 5th-year option"
+          }
+        ],
+        "fact": "Mendoza signed $57.27M rookie deal July 2026",
+        "source": "https://www.nfl.com/news/raiders-sign-2026-no-1-overall-pick-qb-fernando-mendoza-to-rookie-contract"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 update on Mark Davis net worth found"
+    ],
+    "analystNotes": "Las Vegas is a $10.3B franchise on Forbes' September 2026 list with $887M of revenue, second in the league, and a $2.8B stadium component from Allegiant Stadium that only Dallas, Miami and the Rams exceed. Two 2026 LP trades put real prices on it: Egon Durban paid an $11.1B mark for 3.5% in March, with a right of first refusal on Mark Davis's control stake, and his group bought First Football's 25.3% at $9.9B in May. The football side is a handoff: Kirk Cousins starts 2026 on a $20M guarantee while No. 1 pick Fernando Mendoza waits on a $57.27M rookie deal. Davis's eventual control sale, already pre-cleared to Durban, is the transaction the whole league is watching.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.3B, $887M revenue, $191M OI, $2.8B stadium component); Durban LP deals March and May 2026 (transactions.js); Cousins signing and Mendoza No. 1 pick 2026."
+  },
+  {
+    "teamId": "los-angeles-chargers",
+    "team": "Los Angeles Chargers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.83,
+        "new": 8.3,
+        "fact": "Forbes NFL list September 2026: $8.3B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 518,
+        "new": 623,
+        "fact": "Forbes Sept 2026 revenue $623M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2022,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 65,
+        "new": 57,
+        "fact": "Forbes Sept 2026 operating income $57M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Playoff seasons 2021-2025: 2022, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Spanos family (Dean, Michael, Alexandria)",
+            "role": "majority controlling group",
+            "pct": null
+          },
+          {
+            "name": "Tom Gores",
+            "role": "limited partner 27%",
+            "pct": 27
+          }
+        ],
+        "new": [
+          {
+            "name": "Spanos family (Dean, Michael, Alexandria)",
+            "role": "majority controlling group (~61%)",
+            "pct": 61
+          },
+          {
+            "name": "Tom Gores",
+            "role": "limited partner",
+            "pct": 27
+          },
+          {
+            "name": "Arctos Partners",
+            "role": "limited partner (passive, approved May 20, 2025)",
+            "pct": 8
+          }
+        ],
+        "fact": "Arctos bought 8% in May 2025; Spanos family retains ~61%",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Arctos Partners bought a passive 8% stake (approved May 20, 2025; valuation not disclosed, reported \"north of $6B\"); Spanos family retains ~61%, Tom Gores 27%",
+        "fact": "Arctos second NFL stake after the Bills",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "ownership.institutionalInvestors: Arctos deal valuation never disclosed"
+    ],
+    "analystNotes": "The Chargers are $8.3B on Forbes' September 2026 list, 24th, in the second largest U.S. market, because their SoFi Stadium lease sends naming rights and non-NFL event money to Stan Kroenke's StadCo. Forbes gives them a $755M stadium component against $3.6B for the Rams in the same building. Justin Herbert's $52.5M AAV runs through 2029 and the team has made three playoff trips in four years, all wild card exits. Ownership has become a cap table: Spanos family ~61%, Tom Gores 27%, Arctos 8% since May 2025, and a Gores-led control transfer is the event that would reprice the franchise.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.3B, 24th; $623M revenue, $57M OI, $755M stadium component vs $3.6B for the Rams); Arctos 8% May 2025; 2025 wild card loss at New England."
+  },
+  {
+    "teamId": "dallas-cowboys",
+    "team": "Dallas Cowboys",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 10.1,
+        "new": 17,
+        "fact": "Forbes NFL list September 2026: $17B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 1100,
+        "new": 1278,
+        "fact": "Forbes Sept 2026 revenue $1278M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 350,
+        "new": 677,
+        "fact": "Forbes Sept 2026 operating income $677M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: AT&T renewal status beyond ~2029 not found",
+      "ownership.ownerNetWorth: no 2026 update found"
+    ],
+    "analystNotes": "Dallas is the first $17B franchise on Forbes' September 2026 list, $5B clear of the Giants, on $1.28B of revenue and $677M of operating income that no other team comes within $340M of. Forbes splits the value almost evenly between market ($3.8B), stadium ($3.2B) and brand ($3.3B), so the football component is only 39% of the total, the lowest share in the league. The Cowboys have not made the playoffs since 2023 and have not won a Super Bowl since 1995, and it has not mattered to the number. Dak Prescott's $60M AAV runs through 2028; the AT&T naming deal expiring around 2029 is the next revenue reset.",
+    "analystNotesBasis": "Forbes Sept 2026 ($17.0B, $1.278B revenue, $677M OI; market $3.8B, stadium $3.2B, brand $3.3B); no playoffs 2024-2025."
+  },
+  {
+    "teamId": "new-york-giants",
+    "team": "New York Giants",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 7.8,
+        "new": 12,
+        "fact": "Forbes NFL list September 2026: $12B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 620,
+        "new": 769,
+        "fact": "Forbes Sept 2026 revenue $769M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 185,
+        "new": 181,
+        "fact": "Forbes Sept 2026 operating income $181M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "John Mara",
+            "role": "president, CEO, 50% ownership (Mara family)",
+            "pct": 50
+          },
+          {
+            "name": "Steve Tisch",
+            "role": "chairman, EVP, 50% ownership (Tisch family)",
+            "pct": 50
+          }
+        ],
+        "new": [
+          {
+            "name": "John Mara",
+            "role": "president, CEO (Mara family; ~half of the family-held 90%)",
+            "pct": null
+          },
+          {
+            "name": "Steve Tisch",
+            "role": "chairman, EVP (Tisch family; ~half of the family-held 90%)",
+            "pct": null
+          },
+          {
+            "name": "Julia Koch and family",
+            "role": "limited partner (approved Oct 22, 2025 at a $10.3B valuation)",
+            "pct": 10
+          }
+        ],
+        "fact": "Koch family bought 10% from the Mara and Tisch families in 2025",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Julia Koch and family bought 10% at a $10.3B valuation (announced Sept 3, approved Oct 22, 2025); first outside investment since the Mara family took control in 1925",
+        "fact": "Koch 10% at $10.3B",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "No established franchise QB as of 2025; Tommy DeVito re-signed on 1-year/$1.03M deal; team actively seeking franchise solution via draft or trade",
+        "new": "Jaxson Dart — 2025 first-round pick, replaced Russell Wilson as starter in Week 4 of 2025 and is the 2026 starter under new head coach John Harbaugh; Jameis Winston is the backup; Wilson has left the team",
+        "fact": "Dart named starter Sept 2025; 2026 QB room Dart/Winston/Allen",
+        "source": "https://sports.yahoo.com/articles/giants-quarterback-room-projection-2026-211955953.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [],
+        "new": [
+          {
+            "player": "Jaxson Dart",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "2025 first-round rookie contract; starter since Week 4 of 2025"
+          }
+        ],
+        "fact": "Replaces empty list; Dart is the franchise QB",
+        "source": "https://www.espn.com/nfl/story/_/id/46356208/giants-bench-qb-russell-wilson-start-jaxson-dart"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Dart rookie contract value not pulled",
+      "ownership.ownershipGroup: exact post-Koch split between the Mara and Tisch families not disclosed"
+    ],
+    "analystNotes": "The Giants are $12B on Forbes' September 2026 list, second in the league, and the Koch family paid a $10.3B mark for 10% in October 2025, so the private market and Forbes agree within 15%. Forbes' $7.3B sport component is the highest in the NFL, which is what a century of Mara ownership in New York and a debt-light half of MetLife Stadium buys. The football product is a rebuild: Jaxson Dart, a 2025 first-round pick, is the starter under John Harbaugh after one playoff trip in the last five years. Dart becoming a top-ten quarterback is the only lever that moves a number already fully valued on market and stadium.",
+    "analystNotesBasis": "Forbes Sept 2026 ($12.0B, 2nd; $769M revenue, $181M OI, $7.3B sport component); Koch 10% at $10.3B Oct 2025; Dart as starter."
+  },
+  {
+    "teamId": "philadelphia-eagles",
+    "team": "Philadelphia Eagles",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.6,
+        "new": 10.25,
+        "fact": "Forbes NFL list September 2026: $10.25B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 688,
+        "new": 713,
+        "fact": "Forbes Sept 2026 revenue $713M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 158,
+        "new": 154,
+        "fact": "Forbes Sept 2026 operating income $154M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoff seasons 2021-2025: 2021, 2022, 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Super Bowl wins for seasons 2016-2025: 2",
+        "source": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Sold 8% to two family groups (Susan Kim; Zack Peskowitz and Olivia Peskowitz Suter) at an $8.3B valuation, approved Dec 11, 2024; Lurie retains ~85%",
+        "fact": "NFL approved the 8% sale at $8.3B in Dec 2024",
+        "source": "https://www.cnbc.com/2024/12/11/nfl-philadelphia-eagles-minority-stake-sale.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: Lincoln Financial Field renovation scope and cost not found in 2026 sources"
+    ],
+    "analystNotes": "Philadelphia won Super Bowl LIX in February 2025, made the playoffs for a fifth straight year in 2025, and sits at $10.25B on Forbes' September 2026 list on $713M of revenue. The December 2024 sale of 8% at $8.3B was the NFL minority record for five months and now looks like a 20% discount to the Forbes mark. Jalen Hurts' $51M AAV runs through 2028 and the Lincoln Financial naming deal through 2032, so both big line items are fixed. Lurie's $185M entry in 1994 is now a 55x return; the next move is whatever a Lincoln Financial Field renovation adds to premium revenue.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.25B, $713M revenue, $154M OI); Super Bowl LIX title (Feb 2025); five straight playoff seasons 2021-2025; 8% sale at $8.3B Dec 2024."
+  },
+  {
+    "teamId": "washington-commanders",
+    "team": "Washington Commanders",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.3,
+        "new": 9.8,
+        "fact": "Forbes NFL list September 2026: $9.8B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 670,
+        "new": 694,
+        "fact": "Forbes Sept 2026 revenue $694M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 149,
+        "new": 121,
+        "fact": "Forbes Sept 2026 operating income $121M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New stadium planned at RFK Stadium site in Washington D.C., targeting 2030 opening; pending D.C. Council approvals",
+        "new": "$3.7B RFK-site project: D.C. Council gave final approval Sept 17, 2025 (District ~$1B for demolition and site prep, Commanders ~$2.7B for a 65,000-seat domed stadium); federal planning commission cleared preliminary plans April 2026; District master plan for the 180-acre campus submitted Sept 24, 2026; construction bids Nov-Dec 2026 and foundation work spring 2027; opening 2030",
+        "fact": "Master plan filed Sept 24, 2026; bids this fall; foundations spring 2027",
+        "source": "https://www.axios.com/local/washington-dc/2026/09/24/rfk-stadium-development-commanders"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Jayden Daniels — 4yr/$37.7M fully guaranteed rookie contract (2024 #2 overall pick), $9.4M AAV; extension-eligible after 2025",
+        "new": "Jayden Daniels — year three of 4yr/$37.7M fully guaranteed rookie deal (2024 No. 2 pick); extension-eligible after 2026, but a second dislocated left elbow in 2026 has Washington leaning toward the fifth-year option and franchise tag rather than an early extension",
+        "fact": "Daniels re-injured his left elbow in 2026",
+        "source": "https://sports.yahoo.com/articles/jayden-daniels-injury-might-ominous-181619088.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: seat count reported as both 65,000 and 70,000+ across sources"
+    ],
+    "analystNotes": "Josh Harris paid $6.05B in 2023 and Forbes has the Commanders at $9.8B in September 2026, a 62% gain in three years, almost all of it the RFK stadium deal: $3.7B total, final D.C. Council approval in September 2025, master plan filed September 24, 2026, foundations in spring 2027, doors open in 2030. Forbes already assigns $1.35B of stadium value to a building that does not exist, on par with the Eagles' actual one. Jayden Daniels is on a $9.4M AAV rookie deal but a second dislocated elbow in 2026 makes the extension a 2027 question. Getting shovels in the ground on schedule is the whole thesis.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.8B, $694M revenue, $121M OI, $1.35B stadium component); RFK approvals Sept 2025 and master plan Sept 2026; Daniels injury 2026."
+  },
+  {
+    "teamId": "chicago-bears",
+    "team": "Chicago Bears",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.4,
+        "new": 9.7,
+        "fact": "Forbes NFL list September 2026: $9.7B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 627,
+        "new": 656,
+        "fact": "Forbes Sept 2026 revenue $656M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 74,
+        "new": 73,
+        "fact": "Forbes Sept 2026 operating income $73M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Playoff seasons 2021-2025: 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Bears pursuing new domed stadium; Arlington Heights and Hammond, IN remain as final two candidate sites as of May 2026; Illinois House passed property tax relief bill May 2026, awaiting Senate vote",
+        "new": "Bears have shifted focus from Arlington Heights to Hammond, Indiana: Indiana enacted a Northwest Indiana Stadium Authority and a ~$1B public tax package on Feb 26, 2026; the Bears said June 5, 2026 they will advance plans on the Hammond site with ~$2B of team money committed; Gov. Braun cites 2029 as the build target; nothing signed, and the team still owns the $197M Arlington Park parcel",
+        "fact": "Bears advancing Hammond plans as of June 2026; Indiana package signed Feb 2026",
+        "source": "https://indianacapitalchronicle.com/2026/06/05/chicago-bears-say-they-will-advance-stadium-plans-for-northwest-indiana-site/"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "George H. McCaskey",
+            "role": "chairman",
+            "pct": null
+          },
+          {
+            "name": "McCaskey family",
+            "role": "majority ownership (~80%)",
+            "pct": 80
+          }
+        ],
+        "new": [
+          {
+            "name": "George H. McCaskey",
+            "role": "chairman",
+            "pct": null
+          },
+          {
+            "name": "McCaskey family",
+            "role": "majority ownership (~77% after buying two-thirds of the McKenna estate's 2.35% in 2025)",
+            "pct": 77
+          },
+          {
+            "name": "Ryan family",
+            "role": "minority (~23%)",
+            "pct": 23
+          }
+        ],
+        "fact": "Post-2025 split: McCaskeys 77%, Ryans 23%",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Minority stake (est. $235M for ~3.8% stake) sold to PE-affiliated group in 2024 as part of NFL's private equity rule expansion",
+        "new": "No private-equity investor; the late Andrew McKenna's 2.35% stake was bought by the McCaskey (two-thirds) and Ryan (one-third) families at an $8.9B valuation (approved Sept 24, 2025)",
+        "fact": "Corrects the earlier note about a 2024 PE stake; the 2025 deal was intra-ownership",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Caleb Williams — 4yr/$39.5M fully guaranteed rookie contract (#1 overall pick 2024), ~$9.9M AAV",
+        "new": "Caleb Williams — year three of 4yr/$39.5M fully guaranteed rookie deal (2024 No. 1 pick); led Chicago to 11-6 and the 2025 NFC North title; extension-eligible after the 2026 season with the Bears already modeling a deal that could top the $64M Mahomes benchmark",
+        "fact": "Extension eligible after 2026; Poles says planning under way",
+        "source": "https://chicago.suntimes.com/bears/2026/09/01/money-isnt-everything-with-a-big-contract-in-reach-qb-caleb-williams-wants-to-make-sure-bears-keep-winning"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: total Hammond project cost not yet published"
+    ],
+    "analystNotes": "The Bears jumped to $9.7B on Forbes' September 2026 list, and Forbes' $7.0B sport component is the second highest in the league, which is what a 2025 NFC North title with Caleb Williams on a $9.9M AAV rookie deal does for an original franchise. The stadium is finally moving: Indiana passed a roughly $1B public package on February 26, 2026, the Bears said in June they will advance the Hammond site with $2B of their own money, and 2029 is the target, all while they still own the Arlington Park land. Operating income of $73M reflects Soldier Field's 62,500 seats and no naming rights. A signed Hammond deal, or an Illinois counter, adds the stadium value Forbes currently caps at $877M.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.7B, $656M revenue, $73M OI, $7.0B sport component); Hammond stadium developments Feb-June 2026; 2025 NFC North title; McKenna stake at $8.9B."
+  },
+  {
+    "teamId": "detroit-lions",
+    "team": "Detroit Lions",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.15,
+        "new": 8.04,
+        "fact": "Forbes NFL list September 2026: $8.04B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 501,
+        "new": 617,
+        "fact": "Forbes Sept 2026 revenue $617M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 56,
+        "new": 53,
+        "fact": "Forbes Sept 2026 operating income $53M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Ford extension terms through 2036 still undisclosed"
+    ],
+    "analystNotes": "Detroit has nearly doubled from $4.15B in 2024 to $8.04B on the September 2026 Forbes list, but that puts it 30th of 32, which says the market is still treating the Campbell era as a run rather than a re-rating. Revenue of $617M and $53M of operating income are bottom-five, with Ford Field's naming deal extended through 2036 on undisclosed terms and Jared Goff's $53M AAV running through 2028. The Lions missed the 2025 playoffs after back-to-back trips. A deep January run with a full house of Ford Field premium sales is what moves a mid-size Midwest market above the $8B cluster.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.04B, 30th; $617M revenue, $53M OI); missed 2025 playoffs after 2023-2024 appearances; Goff through 2028."
+  },
+  {
+    "teamId": "green-bay-packers",
+    "team": "Green Bay Packers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.65,
+        "new": 8.6,
+        "fact": "Forbes NFL list September 2026: $8.6B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoff seasons 2021-2025: 2021, 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 654,
+        "new": 753,
+        "fact": "Packers FY2026 report (April 2025-March 2026): $753M total revenue, up 4.7%; $453.2M national share; $299.8M local",
+        "source": "https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2026,
+        "fact": "Fiscal year ended March 2026",
+        "source": "https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 60,
+        "new": -1.1,
+        "fact": "Packers reported a $1.1M operating loss for FY2026 (Forbes Sept 2026 estimates $73M); total profit $132.5M",
+        "source": "https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Micah Parsons trade/contract (Aug 2025) not verified in this pass"
+    ],
+    "analystNotes": "Green Bay's FY2026 report (year to March 2026) shows $753M of revenue, $453.2M of it the national share, and a $1.1M operating loss, while Forbes' September 2026 list carries the team at $8.6B. That gap between accounting profit and asset value is the NFL in one line: the shares are worthless paper, the franchise cannot be sold, and it is still priced off comparable transactions. Four playoff trips in five years with Jordan Love at $55M AAV through 2028 keep the sport component at $5.4B, the lowest in the league because Forbes discounts the non-transferable structure. Nothing here moves on a sale; it moves only as the league's national contracts step up.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.6B, $5.4B sport component); Packers FY2026 report July 2026; four playoff seasons 2021-2025 (2025 wild card loss at Chicago)."
+  },
+  {
+    "teamId": "minnesota-vikings",
+    "team": "Minnesota Vikings",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.3,
+        "new": 8.25,
+        "fact": "Forbes NFL list September 2026: $8.25B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 569,
+        "new": 640,
+        "fact": "Forbes Sept 2026 revenue $640M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 70,
+        "new": 25,
+        "fact": "Forbes Sept 2026 operating income $25M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "J.J. McCarthy — 4yr/$21.85M fully guaranteed rookie contract (2024 #10 overall pick), ~$5.46M AAV; missed 2024 season with knee injury, expected starter 2025",
+        "new": "Kyler Murray — signed a 1yr league-minimum ($1.3M) deal in March 2026 after Arizona released him (Arizona still pays his $36.8M 2026 guarantee); no-tag clause for 2027; named 2026 starter over J.J. McCarthy in August",
+        "fact": "Vikings signed Murray for the minimum; O'Connell named him starter in camp",
+        "source": "https://www.nfl.com/news/vikings-sign-kyler-murray-one-year-deal-release-cardinals"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "J.J. McCarthy",
+            "position": "QB",
+            "aav": 5.46,
+            "contractNote": "4yr/$21.85M rookie deal (2024), fully guaranteed, 5th-year option; missed 2024 with knee injury"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kyler Murray",
+            "position": "QB",
+            "aav": 1.3,
+            "contractNote": "1yr/$1.3M (March 2026), no-tag clause, free agent in 2027; Arizona pays $36.8M of 2026 guarantees"
+          },
+          {
+            "player": "J.J. McCarthy",
+            "position": "QB",
+            "aav": 5.46,
+            "contractNote": "4yr/$21.85M rookie deal (2024), fully guaranteed; lost the starting job to Murray Aug 2026; Vikings denied all trade calls"
+          }
+        ],
+        "fact": "McCarthy demoted to QB2 Aug 2026",
+        "source": "https://www.espn.com/nfl/story/_/id/49594059/jj-mccarthy-says-vikings-qb-decision-control-wants-remain-minnesota"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "Minnesota is an $8.25B franchise on Forbes' September 2026 list with $640M of revenue and only $25M of operating income, the lowest in the league, and the quarterback plan has been rewritten twice in eighteen months. Kyler Murray, cut by Arizona in March 2026 with his $36.8M guarantee still on Arizona's books, signed for the $1.3M minimum and beat out J.J. McCarthy for the 2026 job, which means the 2024 first-round pick is now a backup on a guaranteed deal the Vikings refused to trade. U.S. Bank Stadium's indoor economics and the $8.8M-per-year naming deal through 2040 are the durable part. The 2027 quarterback decision, with Murray on a no-tag clause, is the swing factor.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.25B, $640M revenue, $25M OI, lowest in NFL); Murray signing March 2026 and starter decision Aug 2026."
+  },
+  {
+    "teamId": "atlanta-falcons",
+    "team": "Atlanta Falcons",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.9,
+        "new": 10.1,
+        "fact": "Forbes NFL list September 2026: $10.1B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 585,
+        "new": 805,
+        "fact": "Forbes Sept 2026 revenue $805M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 94,
+        "new": 240,
+        "fact": "Forbes Sept 2026 operating income $240M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "Playoff seasons 2021-2025: none",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Arctos Partners agreed in Aug 2026 to buy 10% at a blended $10.6B valuation (reported first tranche of 7.5% at just over $10B, remaining 2.5% ~18 months later at ~$11B); NFL vote expected Oct 2026; would be Arctos' fourth NFL stake",
+        "fact": "Announced Aug 20, 2026; pending league approval",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Kirk Cousins",
+        "new": "Michael Penix Jr. — 2024 No. 8 pick on his rookie deal, returned from a partially torn ACL to start in Week 3 of 2026; Tua Tagovailoa (1yr/$1.215M, signed March 2026 after Miami released him) was the planned Week 1 starter; Kirk Cousins left for the Raiders in April 2026 with Atlanta still paying $8.7M of his 2026 salary",
+        "fact": "Penix named starter for Week 3 2026; Cousins gone; Tua on a minimum deal",
+        "source": "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kirk Cousins",
+            "position": "QB",
+            "aav": 45,
+            "contractNote": "4yr/$180M signed 2024; $100M guaranteed"
+          }
+        ],
+        "new": [
+          {
+            "player": "Michael Penix Jr.",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "2024 first-round rookie deal (No. 8 overall); starter from Week 3 2026 after ACL recovery"
+          },
+          {
+            "player": "Tua Tagovailoa",
+            "position": "QB",
+            "aav": 1.215,
+            "contractNote": "1yr/$1.215M (March 2026)"
+          }
+        ],
+        "fact": "Cousins signed with Las Vegas April 2026",
+        "source": "https://www.nfl.com/news/former-falcons-qb-kirk-cousins-signing-with-raiders"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Penix rookie contract value not pulled"
+    ],
+    "analystNotes": "Atlanta is the NFL's best example of stadium economics outrunning football: $10.1B on Forbes' September 2026 list with a $2.6B stadium component, $805M of revenue and $240M of operating income, second only to Dallas, from a Mercedes-Benz Stadium that leads the league in non-football event gross. Arctos agreed in August 2026 to pay a blended $10.6B mark for 10%, pending an October league vote, which is above Forbes on a team that has not made the playoffs since 2017. The quarterback room is Michael Penix Jr. back from an ACL tear since Week 3 2026 with Tua Tagovailoa on a minimum deal behind him, and Kirk Cousins gone to Las Vegas. A playoff appearance would add sport value to a franchise priced entirely on its building.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.1B, $805M revenue, $240M OI, $2.6B stadium component); Arctos 10% at $10.6B Aug 2026 (transactions.js); QB changes 2026; no playoffs 2021-2025."
+  },
+  {
+    "teamId": "carolina-panthers",
+    "team": "Carolina Panthers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.13,
+        "new": 8.1,
+        "fact": "Forbes NFL list September 2026: $8.1B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 574,
+        "new": 646,
+        "fact": "Forbes Sept 2026 revenue $646M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 72,
+        "new": 88,
+        "fact": "Forbes Sept 2026 operating income $88M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Playoff seasons 2021-2025: 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Bryce Young",
+        "new": "Bryce Young — final year of 4yr/$37.96M rookie deal in 2026; fifth-year option exercised for 2027; no 2026 extension expected, with Carolina waiting until the 2027 offseason",
+        "fact": "Panthers waiting until 2027 on a Young extension",
+        "source": "https://www.profootballrumors.com/2026/08/no-2026-extension-expected-between-panthers-qb-bryce-young"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: 2026 renovation phase progress not found"
+    ],
+    "analystNotes": "Carolina won the NFC South at 8-9 in 2025 for its first playoff trip since 2017, and Forbes lists the Panthers at $8.1B in September 2026 on $646M of revenue, 3.6x David Tepper's $2.275B entry in 2018. The $800M Bank of America Stadium renovation, 81% publicly funded, is being phased in through 2029, and Charlotte FC shares the building, which keeps the stadium component at $884M with room to grow. Bryce Young plays out his rookie deal in 2026 with the fifth-year option already picked up and no extension until 2027. Whether Young earns a $50M-plus deal or Carolina goes back to the draft decides the next three years of cost.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.1B, $646M revenue, $88M OI); 2025 NFC South title at 8-9 and wild card loss to the Rams; Young extension deferred."
+  },
+  {
+    "teamId": "new-orleans-saints",
+    "team": "New Orleans Saints",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.4,
+        "new": 8.02,
+        "fact": "Forbes NFL list September 2026: $8.02B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 587,
+        "new": 642,
+        "fact": "Forbes Sept 2026 revenue $642M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 115,
+        "new": 165,
+        "fact": "Forbes Sept 2026 operating income $165M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "Playoff seasons 2021-2025: none",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Derek Carr",
+        "new": "Tyler Shough — 2025 second-round pick, went 5-4 in nine starts as a rookie and enters 2026 as the unquestioned starter and a team captain; Derek Carr retired in May 2025",
+        "fact": "Saints committed to Shough as 2026 starter",
+        "source": "https://www.espn.com/nfl/story/_/id/47541318/saints-committed-tyler-shough-starting-qb-2026"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Derek Carr",
+            "position": "QB",
+            "aav": 37.5,
+            "contractNote": "4yr/$150M signed 2023; Carr retired in 2024; large dead cap remains on books"
+          }
+        ],
+        "new": [
+          {
+            "player": "Tyler Shough",
+            "position": "QB",
+            "aav": null,
+            "contractNote": "2025 second-round rookie deal; 2026 starter and captain"
+          }
+        ],
+        "fact": "Replaces Carr entry (Carr retired May 2025, not 2024)",
+        "source": "https://www.espn.com/nfl/story/_/id/47541318/saints-committed-tyler-shough-starting-qb-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Shough rookie contract value not pulled",
+      "stadium.newStadiumPlans: Superdome renovation completion status not re-verified"
+    ],
+    "analystNotes": "New Orleans is $8.02B on Forbes' September 2026 list, 31st, but it runs one of the better margins in the league at $165M of operating income on $642M of revenue because the Caesars Superdome renovation was paid by the state and the naming rights, not the team. The football side has been reset for free: Derek Carr retired in May 2025, and Tyler Shough, a 2025 second-round pick, went 5-4 as a rookie and owns the 2026 job on a rookie contract. Five straight years without a playoff game and no arm's-length sale since 1985 leave the Forbes number untested by any transaction. A Shough breakout is the cheapest path to a higher sport component in the league.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.02B, 31st; $642M revenue, $165M OI); Shough as 2026 starter; no playoffs 2021-2025."
+  },
+  {
+    "teamId": "tampa-bay-buccaneers",
+    "team": "Tampa Bay Buccaneers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.5,
+        "new": 9.1,
+        "fact": "Forbes NFL list September 2026: $9.1B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 629,
+        "new": 657,
+        "fact": "Forbes Sept 2026 revenue $657M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 130,
+        "new": 95,
+        "fact": "Forbes Sept 2026 operating income $95M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoff seasons 2021-2025: 2021, 2022, 2023, 2024",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$1B+ modernization project underway as of 2026",
+        "new": "Bucs seeking roughly $1B in Raymond James Stadium upgrades including a sunshade, offering to fund about one-third with two-thirds public; tied to a lease-extension decision due January 2027; talks with the Tampa Sports Authority began spring 2026",
+        "fact": "$1B upgrade ask; lease decision Jan 2027",
+        "source": "https://www.fox13news.com/news/tampa-bay-buccaneers-raymond-james-stadium-upgrades-2027-lease-decision"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Baker Mayfield",
+        "new": "Baker Mayfield — 3yr/$165M extension signed Sept 8, 2026, $55M AAV, runs through 2029",
+        "fact": "Extension agreed five days before the 2026 opener",
+        "source": "https://www.nfl.com/news/nfl-network-buccaneers-qb-baker-mayfield-agree-to-three-year-contract-extension"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Baker Mayfield",
+            "position": "QB",
+            "aav": 33.3,
+            "contractNote": "3yr/$100M signed 2024; $50M guaranteed"
+          }
+        ],
+        "new": [
+          {
+            "player": "Baker Mayfield",
+            "position": "QB",
+            "aav": 55,
+            "contractNote": "3yr/$165M extension (Sept 2026), runs through 2029; replaces the 3yr/$100M deal signed 2024"
+          }
+        ],
+        "fact": "Mayfield 3yr/$165M Sept 2026",
+        "source": "https://www.nfl.com/news/nfl-network-buccaneers-qb-baker-mayfield-agree-to-three-year-contract-extension"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: no Raymond James extension beyond 2027 announced"
+    ],
+    "analystNotes": "Tampa Bay is $9.1B on Forbes' September 2026 list, 47x the Glazers' 1995 expansion fee, and the September 8, 2026 extension for Baker Mayfield, three years and $165M at $55M per year, ends the discount the team carried as a bridge-quarterback franchise. The building is the open item: the Bucs want roughly $1B of Raymond James Stadium upgrades with two-thirds public money and must decide on a lease extension by January 2027, while the Raymond James naming deal runs out after 2027. Four straight playoff trips ended in 2025 when the Panthers took the division. A signed renovation and a renewed naming deal are the two events that lift a stadium component stuck at $1.0B.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.1B, $657M revenue, $95M OI); Mayfield extension Sept 2026; stadium upgrade talks 2026; missed 2025 playoffs after four straight."
+  },
+  {
+    "teamId": "arizona-cardinals",
+    "team": "Arizona Cardinals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 4.3,
+        "new": 8.06,
+        "fact": "Forbes NFL list September 2026: $8.06B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 546,
+        "new": 600,
+        "fact": "Forbes Sept 2026 revenue $600M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 112,
+        "new": 119,
+        "fact": "Forbes Sept 2026 operating income $119M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Kyler Murray",
+        "new": "Jacoby Brissett — year two of a 2yr/$12.5M deal, Week 1 2026 starter and team captain after a 3,366-yard 2025 fill-in season; Kyler Murray released March 2026 with a post-June 1 designation (~$47.5M dead cap in 2026, $7.2M in 2027); rookie Carson Beck (3rd round, 2026) behind him",
+        "fact": "Cardinals released Murray March 2026; Brissett starts 2026",
+        "source": "https://www.azcardinals.com/news/cardinals-officially-release-kyler-murray-after-7-seasons"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kyler Murray",
+            "position": "QB",
+            "aav": 46.1,
+            "contractNote": "5yr/$230.5M extension through 2028 signed 2022; $160M guaranteed; Murray missed 2022 due to ACL injury"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jacoby Brissett",
+            "position": "QB",
+            "aav": 6.25,
+            "contractNote": "2yr/$12.5M (2025), runs through 2026; 2026 starter"
+          }
+        ],
+        "fact": "Murray removed; ~$55M of dead cap split over 2026-27",
+        "source": "https://www.azcardinals.com/news/cardinals-roster-reset-quarterback"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: State Farm terms still confidential"
+    ],
+    "analystNotes": "Arizona is $8.06B on Forbes' September 2026 list, 28th, and the Bidwills just ended the Kyler Murray era by releasing him in March 2026 and absorbing about $55M of dead cap across two years with no trade market for the contract. Jacoby Brissett, who threw for 3,366 yards as the 2025 fill-in on a $6.25M AAV deal, starts a 2026 season that follows a 3-14 finish. State Farm Stadium keeps operating income at a healthy $119M through Super Bowls and neutral-site events, and Phoenix remains one of the fastest growing large metros. The next franchise quarterback, likely from a high 2027 pick, is the only thing that changes the trajectory.",
+    "analystNotesBasis": "Forbes Sept 2026 ($8.06B, 28th; $600M revenue, $119M OI); Murray release March 2026; 3-14 in 2025."
+  },
+  {
+    "teamId": "los-angeles-rams",
+    "team": "Los Angeles Rams",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 7.6,
+        "new": 13.5,
+        "fact": "Forbes NFL list September 2026: $13.5B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 756,
+        "new": 898,
+        "fact": "Forbes Sept 2026 revenue $898M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 125,
+        "new": 335,
+        "fact": "Forbes Sept 2026 operating income $335M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 4,
+        "fact": "Playoff seasons 2021-2025: 2021, 2023, 2024, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Matthew Stafford",
+        "new": "Matthew Stafford — 2025 NFL MVP (league-leading 4,707 yards and 46 TD); signed a 1yr/$55M extension (up to $60M with incentives) in April 2026 tying him to the Rams through 2027 with $105M remaining",
+        "fact": "Stafford extension April 2026",
+        "source": "https://www.nfl.com/news/report-rams-qb-matthew-stafford-agree-to-one-year-55-million-contract-extension"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Matthew Stafford",
+            "position": "QB",
+            "aav": 42,
+            "contractNote": "2yr/$84M extension (2023); $80M guaranteed; extension talks progressing as of April 2026"
+          }
+        ],
+        "new": [
+          {
+            "player": "Matthew Stafford",
+            "position": "QB",
+            "aav": 55,
+            "contractNote": "1yr/$55M extension (April 2026), up to $60M; signed through 2027 with $105M remaining"
+          }
+        ],
+        "fact": "Replaces 2023 deal note",
+        "source": "https://www.therams.com/news/matthew-stafford-signs-contract-extension-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "media.streamingNotes: no 2026 source found"
+    ],
+    "analystNotes": "The Rams are $13.5B on Forbes' September 2026 list, third in the league, with a $3.6B stadium component, $898M of revenue and $335M of operating income, because Stan Kroenke owns SoFi Stadium outright and keeps the Chargers' share of it. Matthew Stafford won the 2025 MVP at 37 with 46 touchdowns, took Los Angeles to the NFC title game, and signed a one-year $55M extension in April 2026 that runs through 2027. Kroenke's $750M consolidation in 2010 is now an 18x return, the best in the league over that span. Stafford's succession, not the building, is the only real risk to the number.",
+    "analystNotesBasis": "Forbes Sept 2026 ($13.5B, 3rd; $898M revenue, $335M OI, $3.6B stadium component); Stafford MVP and April 2026 extension; 2025 NFC title game loss at Seattle."
+  },
+  {
+    "teamId": "san-francisco-49ers",
+    "team": "San Francisco 49ers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 6.86,
+        "new": 10.5,
+        "fact": "Forbes NFL list September 2026: $10.5B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 723,
+        "new": 752,
+        "fact": "Forbes Sept 2026 revenue $752M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2023,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 115,
+        "new": 126,
+        "fact": "Forbes Sept 2026 operating income $126M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Two 2025 LP sales at an $8.6B valuation: the Khosla, Deeter and Griffith families bought 6.2% for $533M (approved May 20, 2025, then an NFL minority record) and Pete Briger Jr. (Fortress) bought 3.2% for ~$275M (approved Oct 22, 2025); Yorks retain ~87.8%",
+        "fact": "Two 2025 minority sales at $8.6B",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.acquisitionYear",
+      "ownership.acquisitionPrice",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.currentFranchiseQB",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal.annualValue: proxies list null; enrichment $17M/yr from the 2024 extension retained"
+    ],
+    "analystNotes": "San Francisco is $10.5B on Forbes' September 2026 list, and two 2025 LP sales at $8.6B, 6.2% to the Khosla, Deeter and Griffith families in May and 3.2% to Pete Briger in October, put real money about 18% below that mark with the Yorks still holding 87.8%. Levi's Stadium hosted Super Bowl LX in February 2026 and the naming deal runs at $17M per year through 2043, which underpins $752M of revenue and Silicon Valley's suite demand. Brock Purdy's $53M AAV runs through 2029 and the team went 12-5 in 2025 before a 41-6 divisional loss in Seattle. Four playoff trips in five years keep the sport component at $6.6B; a title is what pushes the Yorks' 1977 entry past a 1,000x return.",
+    "analystNotesBasis": "Forbes Sept 2026 ($10.5B, $752M revenue, $126M OI); 2025 LP sales at $8.6B; Super Bowl LX host Feb 2026; 2025 divisional loss at Seattle."
+  },
+  {
+    "teamId": "seattle-seahawks",
+    "team": "Seattle Seahawks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.59,
+        "new": 9.6,
+        "fact": "Forbes NFL list September 2026: $9.6B",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.estimate",
+        "old": 624,
+        "new": 659,
+        "fact": "Forbes Sept 2026 revenue $659M (2025 season)",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.year",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Forbes Sept 2026 list reports 2025-season revenue",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "revenue.operatingIncome",
+        "old": 104,
+        "new": 130,
+        "fact": "Forbes Sept 2026 operating income $130M",
+        "source": "data/forbes-breakdown.js (Forbes NFL valuations, September 2026)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Playoff seasons 2021-2025: 2022, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Super Bowl wins for seasons 2016-2025: 1",
+        "source": "https://www.espn.com/nfl/game/_/gameId/401772988/seahawks-patriots"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$340M/year from NFL national deal (2023-2033)",
+        "new": "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide, $453.2M to Green Bay)",
+        "fact": "Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M",
+        "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Jody Allen (trustee of Paul Allen estate)",
+        "new": "Khosla family (Neeru Khosla, controlling owner; Vinod Khosla, chair; Neal Khosla, vice chair)",
+        "fact": "NFL owners unanimously approved the sale to the Khosla family Aug 26, 2026",
+        "source": "https://www.seahawks.com/news/nfl-owners-approve-sale-of-seahawks-to-khosla-family"
+      },
+      {
+        "field": "ownership.ownerBackground",
+        "old": "Paul Allen (Microsoft co-founder) purchased team in 1997 for $200M; died October 2018; sister Jody Allen serves as trustee of Vulcan Inc. estate; sale process announced",
+        "new": "Vinod Khosla co-founded Sun Microsystems and Khosla Ventures; the family bought the team from the Paul G. Allen estate in 2026 with co-investors including Mark Stevens, Penny Pritzker, Carlyle, Dynasty Equity and Sixth Street; Allen's will required the estate to sell and route proceeds to philanthropy, and the sale launched Feb 18, 2026, ten days after Super Bowl LX",
+        "fact": "Estate sale process Feb-Aug 2026",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.acquisitionYear",
+        "old": 1997,
+        "new": 2026,
+        "fact": "Sale approved Aug 26, 2026",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.acquisitionPrice",
+        "old": 0.2,
+        "new": 9.612,
+        "fact": "$9.612B enterprise value, record for an NFL control sale",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.impliedReturn",
+        "old": "~28x since 1997 (~12% CAGR); proceeds to philanthropy per estate plan",
+        "new": "Purchased Aug 2026 at $9.612B, 13.6x 2025 revenue of $707M and a 43% premium to Forbes' 2025 mark of $6.7B",
+        "fact": "From transactions.js",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Jody Allen (Paul Allen Estate / Vulcan Inc.)",
+            "role": "trustee/majority",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Neeru Khosla",
+            "role": "controlling owner",
+            "pct": null
+          },
+          {
+            "name": "Vinod Khosla",
+            "role": "chair",
+            "pct": null
+          },
+          {
+            "name": "Neal Khosla",
+            "role": "vice chair",
+            "pct": null
+          },
+          {
+            "name": "Mark Stevens",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Penny Pritzker",
+            "role": "limited partner",
+            "pct": null
+          },
+          {
+            "name": "Sixth Street",
+            "role": "limited partner",
+            "pct": 3
+          },
+          {
+            "name": "Carlyle and Dynasty Equity",
+            "role": "limited partners (combined)",
+            "pct": 3
+          }
+        ],
+        "fact": "Ownership group per the 2026 sale",
+        "source": "data/transactions.js (verified 2025-2026 NFL transactions)"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": null,
+        "new": "Sixth Street 3%; Carlyle and Dynasty Equity a combined 3%, all part of the 2026 Khosla purchase",
+        "fact": "PE co-investors in the control sale",
+        "source": "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/"
+      },
+      {
+        "field": "onField.currentFranchiseQB",
+        "old": "Sam Darnold",
+        "new": "Sam Darnold — 3yr/$100.5M (2025), earned all $4M of 2025 incentives; $27.5M in 2026 with nothing guaranteed beyond 2026; Super Bowl LX champion; extension talk deferred to spring 2027",
+        "fact": "No extension before the 2026 season",
+        "source": "https://heavy.com/sports/nfl/seattle-seahawks/sam-darnold-contract-decision-extension/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sam Darnold",
+            "position": "QB",
+            "aav": 33.5,
+            "contractNote": "3yr/$100.5M signed 2025; $55M guaranteed; signed after Geno Smith trade to Las Vegas Raiders"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sam Darnold",
+            "position": "QB",
+            "aav": 33.5,
+            "contractNote": "3yr/$100.5M (2025), $55M guaranteed at signing, no guarantees past 2026; won Super Bowl LX; runs through 2027"
+          }
+        ],
+        "fact": "Contract status Sept 2026",
+        "source": "https://www.spotrac.com/nfl/player/_/id/25098/sam-darnold"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: Khosla family net worth not verified; old Allen-estate figure retained"
+    ],
+    "analystNotes": "Seattle won Super Bowl LX on February 8, 2026, then sold for $9.612B to the Khosla family in a deal approved August 26, 2026, the highest price ever paid for an NFL control stake and 13.6x 2025 revenue of $707M. Forbes' September 2026 list sits at $9.6B, so the auction, driven by a forced estate sale ten days after the title, set the mark. Sam Darnold delivered the championship on a $33.5M AAV deal with nothing guaranteed past 2026, and Lumen Field's Sounders tenancy and World Cup matches fill the calendar. Darnold's next contract and the Khoslas' plans for the 2002 building are the two open questions on a franchise that just got fully repriced.",
+    "analystNotesBasis": "Forbes Sept 2026 ($9.6B, $659M revenue, $130M OI); Super Bowl LX win Feb 8, 2026; $9.612B Khosla sale approved Aug 26, 2026 (transactions.js)."
+  }
+]

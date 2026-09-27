@@ -1,0 +1,2275 @@
+[
+  {
+    "teamId": "manchester-united",
+    "team": "Manchester United",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Ratcliffe announced March 2025 plan for new ~100,000-capacity 'world's greatest stadium' adjacent to Old Trafford; estimated £2B cost; design by Foster + Partners; would be the largest UK club stadium",
+        "new": "100,000-seat new stadium confirmed for the Wharfside site about 350m north-west of Old Trafford; club secured the required land from a local freight company in July 2026 and entered Trafford Council public consultation (sessions July to September 2026); Foster + Partners umbrella design, estimated £2B, roughly five-year build; no final decision yet on the future of Old Trafford itself",
+        "fact": "July 9, 2026: United confirmed the site and land acquisition for the 100,000-seat stadium; consultation sessions ran through September 2026",
+        "source": "https://www.foxsports.com/articles/soccer/man-utd-reveal-where-new-100000-seater-stadium-will-be-built-as-red-devils-prepare-to-leave-old-trafford"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Bruno Fernandes — captain, ~£300K/wk, contract through 2026 with extension option",
+        "new": "Bruno Fernandes, captain, contract through June 2027; 2025-26 Premier League Player of the Season and FWA Footballer of the Year, broke the Premier League single-season assists record",
+        "fact": "Fernandes' deal was extended to 30 June 2027 (August 2024) and he won the 2025-26 Premier League Player of the Season award",
+        "source": "https://en.wikipedia.org/wiki/Bruno_Fernandes"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bruno Fernandes",
+            "position": "AM",
+            "aav": 19.5,
+            "contractNote": "~£300K/wk; signed 2022 extension; 2nd-highest paid in squad"
+          },
+          {
+            "player": "Marcus Rashford",
+            "position": "FW",
+            "aav": 22,
+            "contractNote": "5yr extension signed 2023; ~£325K/wk; loaned to Aston Villa Feb 2025"
+          },
+          {
+            "player": "Casemiro",
+            "position": "DM",
+            "aav": 18,
+            "contractNote": "Signed 2022 from Real Madrid for £70M; ~£350K/wk"
+          }
+        ],
+        "new": [
+          {
+            "player": "Bruno Fernandes",
+            "position": "AM",
+            "aav": 19.5,
+            "contractNote": "~£300K/wk; captain; contract through June 2027; 2025-26 PL Player of the Season"
+          },
+          {
+            "player": "Bryan Mbeumo",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Brentford summer 2025 for ~£65M plus add-ons (~£71M)"
+          },
+          {
+            "player": "Benjamin Sesko",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from RB Leipzig summer 2025 for £66.3M plus add-ons (~£73.7M)"
+          },
+          {
+            "player": "Carlos Baleba",
+            "position": "DM",
+            "aav": null,
+            "contractNote": "Signed from Brighton 25 Aug 2026 on a five-year deal, reported £70M including add-ons"
+          }
+        ],
+        "fact": "Rashford (loaned to Barcelona) and Casemiro (left as a free agent summer 2026) no longer anchor the squad; Mbeumo, Sesko (2025) and Baleba (Aug 2026) are the new headline contracts",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Manchester_United_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years (Finished 3rd in 2025-26 (71 pts) and returned to the Champions League for 2026-27; window 2021-22 to 2025-26 still counts four European qualifications (no Europe after 2024-25))"
+    ],
+    "unverified": [
+      "revenue.estimate: FY2025-26 accounts (June 2026 year end) not yet published; Forbes 2026 shows revenue $865M and operating income $237M",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Manchester United is worth $7.2B on the Forbes 2026 list, the most valuable club in football, on $865M of revenue and $237M of operating income even after a decade without a league title. The 2025-26 recovery under Michael Carrick, third place and a Champions League return, restores the UEFA money that was missing from 2024-25, and the new 100,000-seat stadium moved from concept to a secured site at Wharfside in July 2026 with the Trafford Council consultation underway. The number now turns on whether the roughly £2B stadium gets financed without diluting the Glazer and Ratcliffe equity, and on Old Trafford's replacement lifting matchday revenue past the £160M it already generates.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($7.2B, revenue $0.865B, operating income $0.237B); 2025-26 final table (3rd); July 2026 stadium land acquisition; Carrick permanent appointment May 2026."
+  },
+  {
+    "teamId": "manchester-city",
+    "team": "Manchester City",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.capacity",
+        "old": 53400,
+        "new": 61000,
+        "fact": "Expanded North Stand (named The Pep Guardiola Stand) opened at full capacity for the final home match of 2025-26 against Aston Villa, taking the Etihad past 61,000",
+        "source": "https://www.thestadiumbusiness.com/2026/05/21/etihad-stadiums-expanded-north-stand-set-to-open-for-final-game/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "£300M+ Etihad expansion approved 2023: North Stand expansion to ~61,000 capacity by 2026, plus hotel, museum, fan zone; financed by club / ADUG",
+        "new": "£300M+ North Stand expansion complete: stand opened May 2026 as The Pep Guardiola Stand, capacity now above 61,000; hotel, museum, fan zone, new club shop and food and beverage spaces due to open late 2026",
+        "fact": "North Stand expansion opened May 2026; remaining hospitality and hotel components scheduled for late 2026",
+        "source": "https://stadiumdb.com/news/2026/05/england_the_pep_guardiola_stand_manchester_city_honours_its_manager_and_opens_new_north_stand"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Etihad Airways",
+          "annualValue_M": 28,
+          "totalValue_M": 400,
+          "expiryYear": 2025,
+          "notes": "10-year deal signed 2011 covered stadium + Etihad Campus + sleeve + extensive UAE-linked commercial integration; PSR / fair-value scrutiny by Premier League pending in 115 charges; deal renewed/extended"
+        },
+        "new": {
+          "sponsor": "Etihad Airways",
+          "annualValue_M": 28,
+          "totalValue_M": 400,
+          "expiryYear": 2025,
+          "notes": "10-year deal signed 2011 covered stadium + Etihad Campus + sleeve + extensive UAE-linked commercial integration; Etihad remains stadium and front-of-shirt partner in 2026-27; an independent commission reportedly found City in breach on 114 of 115 Premier League charges (reported 25 Sept 2026), sanction not yet set, club intends to appeal"
+        },
+        "fact": "Etihad is still the stadium and shirt sponsor for 2026-27; the 115-charges case moved from pending to a reported adverse finding in September 2026",
+        "source": "https://www.beinsports.com/en-us/soccer/premier-league/articles/manchester-city-receives-verdict-on-115-premier-league-charges-2026-09-25"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Erling Haaland — 9.5yr / £390K/wk extension signed Jan 2025, contract through 2034",
+        "new": "Erling Haaland, contract through 2034 (~£390K/wk); 2025-26 Premier League Golden Boot with 27 goals; Enzo Maresca replaced Pep Guardiola as manager in June 2026 on a three-year deal",
+        "fact": "Haaland was 2025-26 top scorer (27); Guardiola left at the end of 2025-26 and became a City Football Group global ambassador; Maresca appointed 29 June 2026",
+        "source": "https://en.wikipedia.org/wiki/Enzo_Maresca"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Erling Haaland",
+            "position": "FW",
+            "aav": 26.4,
+            "contractNote": "Jan 2025 extension; ~£390K/wk; through 2034; record-breaking £51M release clause from Dortmund 2022"
+          },
+          {
+            "player": "Kevin De Bruyne",
+            "position": "AM",
+            "aav": 26,
+            "contractNote": "~£385K/wk; departing summer 2025 free transfer announced"
+          },
+          {
+            "player": "Phil Foden",
+            "position": "AM/W",
+            "aav": 19,
+            "contractNote": "Local academy product; ~£300K/wk; through 2027; PFA Player of Season 2023-24"
+          }
+        ],
+        "new": [
+          {
+            "player": "Erling Haaland",
+            "position": "FW",
+            "aav": 26.4,
+            "contractNote": "Jan 2025 extension; ~£390K/wk; through 2034; 27 PL goals in 2025-26"
+          },
+          {
+            "player": "Enzo Fernandez",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from Chelsea summer 2026 for a reported £125M"
+          },
+          {
+            "player": "Elliot Anderson",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from Nottingham Forest July 2026 for £116M on a five-year deal, then a record for an English player"
+          },
+          {
+            "player": "Antoine Semenyo",
+            "position": "RW",
+            "aav": null,
+            "contractNote": "Signed from Bournemouth Jan 2026 for £62.5M plus £1.5M add-ons; contract to 2031"
+          },
+          {
+            "player": "Phil Foden",
+            "position": "AM/W",
+            "aav": 19,
+            "contractNote": "Academy product; ~£300K/wk; through 2027"
+          }
+        ],
+        "fact": "De Bruyne left in 2025; Rodri was sold to Barcelona in summer 2026; City spent over £400M in summer 2026 on Fernandez, Anderson and others",
+        "source": "https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee tier 1 due to title dominance",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup",
+      "stadium.name",
+      "stadium.ownershipModel",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years (2nd in 2025-26 (78 pts) with an EFL Cup and FA Cup double; Champions League exit in the round of 16 to Real Madrid)"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "stadium.namingRightsDeal.expiryYear: Etihad deal continues into 2026-27 but renewal terms and new expiry not published",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $900M"
+    ],
+    "analystNotes": "Manchester City carries a $5.5B Forbes 2026 mark on $900M of revenue, the highest in the league, and the Etihad now seats more than 61,000 after the Pep Guardiola Stand opened in May 2026 with a hotel and fan zone following late this year. The sporting engine is being rebuilt at once: Guardiola left after ten years and 20 trophies, Enzo Maresca arrived in June 2026, and the club spent over £400M in one window on Enzo Fernandez and Elliot Anderson. The single item that moves this number is the sanction on the 115 charges: an independent commission reportedly upheld 114 of them in September 2026, the penalty is unset and City will appeal, so a points deduction or worse is the live downside against a 2025-26 domestic cup double and second place.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($5.5B, revenue $0.9B, operating income $0.115B); 2025-26 table (2nd, EFL Cup and FA Cup winners); Etihad North Stand opening May 2026; 115-charges verdict reports 25 Sept 2026; Maresca appointment June 2026."
+  },
+  {
+    "teamId": "liverpool",
+    "team": "Liverpool",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Fenway Sports Group (John W. Henry chairman, Tom Werner co-owner)",
+        "new": "Fenway Sports Group (John W. Henry chairman, Tom Werner co-owner), majority; 1892 Holdings (Amit Bhatia, Mittal Family Trusts, Jeff Bezos via K5 Sports, Eduardo and Elaine Saverin via EE Capital) agreed August 2026 to buy 30% at a $7.445B implied valuation",
+        "fact": "FSG agreed on 14 Aug 2026 to sell a 30% minority stake to 1892 Holdings for £1.65B; FSG retains control and runs sporting and financial strategy",
+        "source": "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Fenway Sports Group",
+            "role": "majority owner of Liverpool FC",
+            "pct": null
+          },
+          {
+            "name": "RedBird Capital Partners",
+            "role": "minority FSG holding-co (~11% acquired 2021 for $750M)",
+            "pct": null
+          },
+          {
+            "name": "Dynasty Equity",
+            "role": "Liverpool FC direct minority injection $200M Sept 2023",
+            "pct": null
+          },
+          {
+            "name": "LeBron James",
+            "role": "FSG minority partner via Maverick Carter",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Fenway Sports Group",
+            "role": "majority owner of Liverpool FC",
+            "pct": null
+          },
+          {
+            "name": "1892 Holdings (Amit Bhatia; Mittal Family Trusts, K5 Sports/Jeff Bezos, EE Capital/Eduardo and Elaine Saverin)",
+            "role": "30% minority agreed Aug 2026 at £1.65B ($7.445B implied); Bhatia vice-chair, board seats",
+            "pct": 30
+          },
+          {
+            "name": "RedBird Capital Partners",
+            "role": "minority FSG holding-co (~11% acquired 2021 for $750M)",
+            "pct": null
+          },
+          {
+            "name": "Dynasty Equity",
+            "role": "Liverpool FC direct minority injection $200M Sept 2023",
+            "pct": null
+          },
+          {
+            "name": "LeBron James",
+            "role": "FSG minority partner via Maverick Carter",
+            "pct": null
+          }
+        ],
+        "fact": "1892 Holdings added as a 30% direct minority holder (agreed, per transactions.js)",
+        "source": "https://www.insideworldfootball.com/2026/08/17/fsg-agrees-1-65bn-sale-of-30-of-liverpool-to-1892-holdings/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "RedBird Capital (US PE), Dynasty Equity (US sports PE), Salem Partners minority",
+        "new": "1892 Holdings (Mittal family, Bezos, Saverin family offices) 30% at club level from Aug 2026; RedBird Capital (US PE) and Dynasty Equity (US sports PE) at FSG/club level; Salem Partners minority",
+        "fact": "August 2026 minority sale brought trophy family-office capital into the club at a $7.4B mark",
+        "source": "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc"
+      },
+      {
+        "field": "ownership.currentValuation",
+        "old": 5.37,
+        "new": 7.445,
+        "fact": "Implied whole-club valuation from the 1892 Holdings deal (30% for £1.65B)",
+        "source": "https://www.insideworldfootball.com/2026/08/17/fsg-agrees-1-65bn-sale-of-30-of-liverpool-to-1892-holdings/"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Premier League titles in the ten seasons 2016-17 to 2025-26: 2019-20 and 2024-25",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Mohamed Salah — 2yr extension signed April 2025, ~£400K/wk through 2027",
+        "new": "Alexander Isak, British-record £125M signing from Newcastle (Sept 2025) on a six-year contract; Mohamed Salah left on a free transfer to Trabzonspor in July 2026 after announcing his exit in March 2026",
+        "fact": "Salah departed at the end of 2025-26; Isak is the record signing; Arne Slot left 30 May 2026 and Andoni Iraola was appointed 4 June 2026 on a two-year deal",
+        "source": "https://en.wikipedia.org/wiki/Mohamed_Salah"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mohamed Salah",
+            "position": "FW",
+            "aav": 27,
+            "contractNote": "April 2025 extension after long uncertainty; through 2027; ~£400K/wk; club's top earner"
+          },
+          {
+            "player": "Virgil van Dijk",
+            "position": "CB",
+            "aav": 21,
+            "contractNote": "April 2025 extension as captain; through 2027; ~£310K/wk"
+          },
+          {
+            "player": "Trent Alexander-Arnold",
+            "position": "RB",
+            "aav": 0,
+            "contractNote": "Departed June 2025 free transfer to Real Madrid (signed pre-bosman in May)"
+          }
+        ],
+        "new": [
+          {
+            "player": "Alexander Isak",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Newcastle 1 Sept 2025 for a British-record £125M; six-year contract; injury-hit first season"
+          },
+          {
+            "player": "Florian Wirtz",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed from Bayer Leverkusen summer 2025 for £100M rising to £116.5M"
+          },
+          {
+            "player": "Virgil van Dijk",
+            "position": "CB",
+            "aav": 21,
+            "contractNote": "April 2025 extension as captain; through 2027; ~£310K/wk"
+          },
+          {
+            "player": "Mohamed Salah",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Left on a free transfer to Trabzonspor July 2026 after nine seasons"
+          }
+        ],
+        "fact": "Salah and Alexander-Arnold gone; Isak and Wirtz are the new anchor contracts",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Liverpool_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee tier 1 (most-televised tier)",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "stadium.newStadiumPlans",
+      "onField.playoffAppearancesLast5Years (5th in 2025-26 (60 pts) took the Premier League's fifth Champions League place; Champions League quarter-final)"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $911M"
+    ],
+    "analystNotes": "Liverpool is valued at $6.2B on the Forbes 2026 list, second in football, on a league-high $911M of revenue, and the market then went higher: FSG agreed in August 2026 to sell 30% to 1892 Holdings, the Mittal, Bezos and Saverin vehicle, for £1.65B, a $7.4B implied mark that is a 20% premium to Forbes. That price was paid after a flat 2025-26, fifth place and a Champions League quarter-final, the exit of Arne Slot and the free-transfer departure of Mohamed Salah, so it prices the brand and Anfield's 61,276 seats rather than the season. What moves the number next is whether Andoni Iraola turns £125M Alexander Isak and £100M Florian Wirtz into titles, because the buyers paid for a club that had just fallen from champion to fifth.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($6.2B, revenue $0.911B, operating income $0.133B); 1892 Holdings 30% stake at $7.445B implied (Aug 2026, transactions.js); 2025-26 table (5th); Salah exit and Iraola appointment June 2026."
+  },
+  {
+    "teamId": "arsenal",
+    "team": "Arsenal",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Arsenal won the 2025-26 Premier League with 85 points, seven clear of Manchester City, clinched 19 May 2026; first league title since 2003-04",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 5,
+        "fact": "European qualification earned in each of 2021-22 (5th, Europa League) through 2025-26 (champions); also 2025-26 Champions League runners-up and EFL Cup runners-up",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Arsenal_F.C._season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Bukayo Saka — 4yr extension signed 2023, £200K/wk through 2027",
+        "new": "Bukayo Saka, new five-year contract agreed January 2026 through 2031; Bruno Guimaraes signed from Newcastle August 2026 for ~£75M on a four-year deal",
+        "fact": "Saka agreed a new deal to 2031 on 9 Jan 2026 (previous deal ran to 2027); Guimaraes joined 8 Aug 2026",
+        "source": "https://www.skysports.com/football/news/11670/13492493/bukayo-saka-new-contract-arsenal-winger-agrees-new-long-term-deal-at-emirates-stadium"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bukayo Saka",
+            "position": "RW",
+            "aav": 13.5,
+            "contractNote": "Academy product; £200K/wk; through 2027; star of Arteta rebuild"
+          },
+          {
+            "player": "Martin Ødegaard",
+            "position": "AM",
+            "aav": 14.2,
+            "contractNote": "Captain; signed 2022 from Real Madrid £30M; £210K/wk through 2028"
+          },
+          {
+            "player": "Declan Rice",
+            "position": "DM",
+            "aav": 16.2,
+            "contractNote": "Signed 2023 from West Ham £105M club record; £240K/wk through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Bukayo Saka",
+            "position": "RW",
+            "aav": null,
+            "contractNote": "Academy product; new five-year deal agreed Jan 2026 through 2031"
+          },
+          {
+            "player": "Declan Rice",
+            "position": "DM",
+            "aav": 16.2,
+            "contractNote": "Signed 2023 from West Ham £105M; £240K/wk through 2028"
+          },
+          {
+            "player": "Martin Odegaard",
+            "position": "AM",
+            "aav": 14.2,
+            "contractNote": "Captain; £210K/wk through 2028"
+          },
+          {
+            "player": "Bruno Guimaraes",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from Newcastle 8 Aug 2026 for ~£75M; four-year contract"
+          },
+          {
+            "player": "Eberechi Eze",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed from Crystal Palace summer 2025 for £60M plus £7.5M add-ons"
+          }
+        ],
+        "fact": "Saka extended to 2031; Eze (2025) and Guimaraes (2026) added; Martinelli sold to Al-Hilal for a club-record £60M in summer 2026",
+        "source": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Emirates Airline",
+          "annualValue_M": 31,
+          "totalValue_M": 200,
+          "expiryYear": 2028,
+          "notes": "Emirates 5-year extension signed 2018 covered shirt + stadium combined ~£200M total; one of largest single-sponsor packages in football; predecessor 'Ashburton Grove' development name"
+        },
+        "new": {
+          "sponsor": "Emirates Airline",
+          "annualValue_M": 31,
+          "totalValue_M": 200,
+          "expiryYear": 2028,
+          "notes": "Emirates 5-year extension signed 2018 covered shirt + stadium combined ~£200M total; in July-August 2026 the club and Emirates were reported to have agreed a renewal covering stadium naming, front-of-shirt and training kit through 2033, reported at ~£70M/yr and up to ~£500M over the term; annual and expiry figures kept at 2018 terms until the club publishes the new deal"
+        },
+        "fact": "Reported Emirates renewal to 2033 (summer 2026); club has not published terms so the numeric fields are unchanged and the note records the report",
+        "source": "https://footballgroundguide.com/news/emirates-stadium-expansion.html"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Kroenke considering Emirates expansion to ~70,000 capacity; planning study underway 2024-25; no firm timeline; would require redevelopment of east stand",
+        "new": "Expansion of the 60,704-seat Emirates in a formal planning phase since June 2026 with advisers and original architects Populous engaged and board member Otto Maly (SoFi Stadium) overseeing; most likely option reported as roughly 5,000 additional premium seats rather than a 70,000 to 80,000 rebuild, to avoid a temporary move to Wembley; no application filed",
+        "fact": "June 2026: Arsenal entered a formal planning phase; a premium-seat remodel is the reported favoured option",
+        "source": "https://dailycannon.com/2026/06/emirates-stadium-expansion-options/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee tier 1",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup",
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal annual value and expiry: 2026 Emirates renewal reported (to 2033, ~£70M/yr) but not confirmed by the club in a source I could read",
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $895M"
+    ],
+    "analystNotes": "Arsenal is worth $5.4B on the Forbes 2026 list, up from $3.4B a year earlier, on $895M of revenue and $185M of operating income, the best margin of the big clubs. The 2025-26 season is the reason: a first league title since 2004 with 85 points, a Champions League final, and a January 2026 Saka contract to 2031 that locks the brand's face in place, followed by a reported Emirates renewal to 2033 at around £70M a year. The next move in the number comes from the Emirates Stadium decision, where the club entered formal planning in June 2026 and is leaning toward roughly 5,000 premium seats rather than an 80,000-seat rebuild, and from whether Kroenke ever sells a minority piece at the new price.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($5.4B, revenue $0.895B, operating income $0.185B); 2025-26 title and Champions League final; Saka contract Jan 2026; reported Emirates renewal summer 2026; stadium planning phase June 2026."
+  },
+  {
+    "teamId": "chelsea",
+    "team": "Chelsea",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "BlueCo 22 Ltd: Clearlake Capital (~61.5%) + Boehly consortium (~38.5%, includes Mark Walter, Hansjörg Wyss)",
+        "new": "BlueCo 22 Ltd: Clearlake Capital (Behdad Eghbali, Jose E. Feliciano) with sole control after buying out Todd Boehly and Mark Walter's 25.6% in September 2026 at a $6.73B implied valuation; Hansjorg Wyss retains a minority",
+        "fact": "Clearlake affiliates bought Boehly and Walter's stakes (closed 16 Sept 2026, ~£950M for 25.6%), ending the shared governance; Boehly left as chairman",
+        "source": "https://www.chelseafc.com/en/news/article/chelsea-fc-announces-ownership-transition"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Clearlake Capital",
+            "role": "majority equity (~61.5% via BlueCo)",
+            "pct": 61.5
+          },
+          {
+            "name": "Todd Boehly / Eldridge Industries",
+            "role": "co-control / governor",
+            "pct": 13
+          },
+          {
+            "name": "Mark Walter / Guggenheim",
+            "role": "minority (~13% within Boehly group)",
+            "pct": 13
+          },
+          {
+            "name": "Hansjörg Wyss",
+            "role": "minority",
+            "pct": 12
+          }
+        ],
+        "new": [
+          {
+            "name": "Clearlake Capital",
+            "role": "controlling owner via BlueCo (~87% after Sept 2026 buyout of Boehly and Walter)",
+            "pct": 87.1
+          },
+          {
+            "name": "Hansjorg Wyss",
+            "role": "minority",
+            "pct": 12
+          },
+          {
+            "name": "Todd Boehly / Eldridge Industries",
+            "role": "sold stake to Clearlake Sept 2026",
+            "pct": 0
+          },
+          {
+            "name": "Mark Walter / Guggenheim",
+            "role": "sold stake to Clearlake Sept 2026",
+            "pct": 0
+          }
+        ],
+        "fact": "Clearlake 61.5% plus the 25.6% acquired from Boehly and Walter; Wyss's ~12% is unchanged per prior enrichment",
+        "source": "https://www.insideworldfootball.com/2026/09/17/boehly-walter-sell-up-handing-control-of-chelsea-to-clearlake/"
+      },
+      {
+        "field": "ownership.currentValuation",
+        "old": 3.25,
+        "new": 6.728,
+        "fact": "Implied whole-club valuation from the September 2026 Clearlake buyout of 25.6%",
+        "source": "https://www.insideworldfootball.com/2026/09/11/clearlake-set-to-buy-boehly-and-walters-chelsea-stakes-valuing-club-at-5bn/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Boehly-Clearlake exploring £2B+ new stadium or major Stamford Bridge redevelopment; site constraints from CPO ownership and West London property prices remain obstacles; Earl's Court redevelopment site one option floated",
+        "new": "Decision now sits solely with Clearlake after the Sept 2026 buyout; two options remain: full demolition and rebuild of Stamford Bridge (about eight years, temporary move to Wembley) or a new £3B+ stadium at Earl's Court; stand-by-stand redevelopment ruled out; Chelsea Pitch Owners freehold, rail lines and Fulham Broadway access still constrain the site; no decision announced",
+        "fact": "Clearlake's sole control removes the owner split that stalled the stadium call; options narrowed to rebuild or Earl's Court",
+        "source": "https://footballgroundguide.com/news/chelseas-two-options-for-new-stadium-made-clear-as-clearlake-face-major-stamford-bridge-decision.html"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Premier League titles in the ten seasons 2016-17 to 2025-26: 2016-17 only (2014-15 has dropped out of the window)",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Cole Palmer — 9yr contract through 2033, club's young franchise player",
+        "new": "Cole Palmer, contract through 2033; Morgan Rogers signed from Aston Villa July 2026 for £117M, a record fee for an English player; Xabi Alonso appointed manager 1 July 2026 on a four-year contract",
+        "fact": "Rogers joined 21 July 2026 for £117M; Alonso replaced the Maresca (resigned 1 Jan 2026) and Rosenior (Jan to Apr 2026) interregnum",
+        "source": "https://en.wikipedia.org/wiki/Morgan_Rogers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Cole Palmer",
+            "position": "AM",
+            "aav": 9.3,
+            "contractNote": "Signed 9yr deal Sept 2024 (long-term amortization tactic) through 2033; ~£140K/wk; surprise £40M signing from City 2023"
+          },
+          {
+            "player": "Enzo Fernández",
+            "position": "CM",
+            "aav": 11,
+            "contractNote": "Signed 2023 from Benfica £107M British record at time; 8.5yr deal through 2032"
+          },
+          {
+            "player": "Moises Caicedo",
+            "position": "DM",
+            "aav": 9.5,
+            "contractNote": "Signed 2023 from Brighton £115M British record (eclipsing Fernández); 8yr deal through 2031"
+          }
+        ],
+        "new": [
+          {
+            "player": "Cole Palmer",
+            "position": "AM",
+            "aav": 9.3,
+            "contractNote": "Nine-year deal signed Aug 2024 through 2033"
+          },
+          {
+            "player": "Morgan Rogers",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed from Aston Villa 21 July 2026 for £117M, record for an English player"
+          },
+          {
+            "player": "Moises Caicedo",
+            "position": "DM",
+            "aav": 9.5,
+            "contractNote": "Signed 2023 from Brighton £115M; eight-year deal through 2031"
+          },
+          {
+            "player": "Enzo Fernandez",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City summer 2026 for a reported £125M"
+          }
+        ],
+        "fact": "Enzo Fernandez sold to City in summer 2026; Rogers is the new record signing",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Chelsea_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee tier 1",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.ownershipModel",
+      "onField.playoffAppearancesLast5Years (10th in 2025-26 (52 pts) with no European place; FA Cup runners-up; Champions League round of 16; window 2021-22 to 2025-26 still counts three (2021-22, 2023-24, 2024-25))"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup percentages for Wyss: carried from prior enrichment, not re-sourced in 2026",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $637M",
+      "2025 Club World Cup win: reported by ESPN in the Maresca exit coverage but not separately verified"
+    ],
+    "analystNotes": "Chelsea's Forbes 2026 mark is $4.2B on $637M of revenue with a $26M operating loss, and in September 2026 Clearlake paid about £950M for Todd Boehly and Mark Walter's 25.6%, a $6.7B implied valuation that is 60% above Forbes and a full turn above the £4.25B 2022 purchase price. The premium bought control rights, not a better season: 10th place in 2025-26 with no European football, three managers in a year, and now Xabi Alonso on a four-year deal with a £117M Morgan Rogers as the headline hire. What moves the number is the stadium call that only Clearlake can now make, a full Stamford Bridge rebuild with a Wembley exile or a £3B Earl's Court move, because 41,631 seats cap matchday revenue near £100M against £160M-plus at Arsenal and Tottenham.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($4.2B, revenue $0.637B, operating income -$0.026B); Clearlake buyout of Boehly and Walter (closed 16 Sept 2026, $6.728B implied, transactions.js); 2025-26 table (10th); Alonso appointment July 2026; Rogers transfer July 2026."
+  },
+  {
+    "teamId": "tottenham-hotspur",
+    "team": "Tottenham Hotspur",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "ENIC International Ltd (Lewis Family Trust 60.7% effective + Daniel Levy 25.9% effective)",
+        "new": "ENIC International Ltd (Lewis Family Trust ~60.7% effective; Daniel Levy family trust ~25.9% effective); Levy left as executive chairman 4 Sept 2025, Peter Charrington non-executive chairman, Vinai Venkatesham CEO; Eight Sports Capital claimed on 5 June 2026 to have agreed to buy 24.99% of ENIC from Levy's trust, which ENIC said it was unaware of",
+        "fact": "Levy exited the board in September 2025; the June 2026 Eight Sports Capital claim on Levy's stake is disputed by ENIC and unconfirmed",
+        "source": "https://www.football365.com/news/tottenham-daniel-levy-agrees-sale-of-24-99-enic-stake-group-worth-7bn-emerges"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "None significant; ENIC actively explored minority stake sale 2023-2024 with US PE/sovereign wealth interest; no deal closed",
+        "new": "None closed; club rejected two expressions of interest in Sept 2025 and stated it is not for sale; Lewis family members and separately a Ng Wing-Fai / Brooklyn Earick group pursued Levy's ~£1B stake in early 2026; Eight Sports Capital (Earick, Ng, Richard Tsai) announced a signed purchase of 24.99% of ENIC on 5 June 2026 at a reported £3B to £3.85B implied club value, which ENIC and THFC said they had no knowledge of",
+        "fact": "2026 activity centres on Levy's minority stake, not the Lewis controlling stake; nothing confirmed as completed",
+        "source": "https://theesk.org/2026/06/06/the-analysis-series-the-levy-stake-sale-eight-sports-capital-enic-control-and-the-future-of-spurs-ownership/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Son Heung-min — captain, contract through 2025-26 ~£200K/wk; James Maddison ~£170K/wk through 2028",
+        "new": "Sandro Tonali, signed from Newcastle July 2026 for £100M; Son Heung-min sold to LAFC in August 2025 (~£20M); Roberto De Zerbi head coach since 31 March 2026 after Thomas Frank (sacked 11 Feb 2026) and Igor Tudor (interim)",
+        "fact": "Son left in 2025; Tonali is the club-record signing; three head coaches in 2025-26",
+        "source": "https://en.wikipedia.org/wiki/Sandro_Tonali"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Son Heung-min",
+            "position": "FW",
+            "aav": 13.5,
+            "contractNote": "~£200K/wk (~$13.5M USD), contract through June 2026; captain since 2023"
+          },
+          {
+            "player": "James Maddison",
+            "position": "AM",
+            "aav": 11.5,
+            "contractNote": "~£170K/wk; signed from Leicester 2023 for £40M; contract through 2028"
+          },
+          {
+            "player": "Cristian Romero",
+            "position": "CB",
+            "aav": 10,
+            "contractNote": "~£150K/wk; vice-captain; contract through 2027"
+          },
+          {
+            "player": "Dominic Solanke",
+            "position": "FW",
+            "aav": 9,
+            "contractNote": "~£140K/wk; signed from Bournemouth Aug 2024 for £55M club-record fee; through 2030"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sandro Tonali",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from Newcastle 6 July 2026 for £100M"
+          },
+          {
+            "player": "Mohammed Kudus",
+            "position": "AM/FW",
+            "aav": null,
+            "contractNote": "Signed from West Ham summer 2025 for £55M"
+          },
+          {
+            "player": "Xavi Simons",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed from RB Leipzig summer 2025 for £51.8M"
+          },
+          {
+            "player": "James Maddison",
+            "position": "AM",
+            "aav": 11.5,
+            "contractNote": "~£170K/wk; contract through 2028"
+          },
+          {
+            "player": "Son Heung-min",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to LAFC August 2025 for ~£20M after a decade"
+          }
+        ],
+        "fact": "Son and Romero (to Atletico, £34.2M, summer 2026) gone; Tonali, Kudus, Simons are the current top contracts",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Tottenham_Hotspur_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal (no naming partner as of Sept 2026)",
+      "stadium.nonGameRevenue",
+      "onField.playoffAppearancesLast5Years (17th in 2025-26 (41 pts), two points above relegation; Champions League round of 16 exit to Atletico Madrid; window still counts 2021-22, 2023-24 and the 2024-25 Europa League win)"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup percentages: Levy's effective stake may have changed if the Eight Sports Capital deal completed; ENIC denies knowledge, so the old split is retained",
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $733M"
+    ],
+    "analystNotes": "Tottenham's Forbes 2026 value is $3.0B, down from $3.4B, even though revenue of $733M and operating income of $139M show the £1.2B stadium and its NFL and concert calendar still print cash. The drop is sporting and governance risk: 17th place in 2025-26, two points from relegation, three head coaches in a season, Daniel Levy gone in September 2025 after 25 years, and a disputed June 2026 claim by Eight Sports Capital to have bought Levy's ENIC stake that the club says it knows nothing about. The number moves when the Lewis family either sells or lands a credible minority partner at the £3B-plus marks being floated, and when Roberto De Zerbi's £100M Sandro Tonali squad turns the stadium's economics back into top-six finishes.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($3.0B, revenue $0.733B, operating income $0.139B); 2025-26 table (17th); Levy exit Sept 2025; Eight Sports Capital claim June 2026 (disputed); Tonali signing July 2026."
+  },
+  {
+    "teamId": "newcastle-united",
+    "team": "Newcastle United",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Active exploration of new ~70,000-seat stadium (Leazes Park or expanded current site); early cost estimates £1.5-2B; Bloomberg reports PIF reluctant to fully fund — exploring long-term debt-financing model; decision expected 2025-26",
+        "new": "Still undecided as of April 2026: options are a new 65,000 to 70,000-seat stadium (Leazes Park, Hunters Moor or Nuns Moor sites) or a constrained expansion of St James' Park; owners expected to fund only about half of any build with the rest borrowed against the club; Leazes Park faces protected-land and environmental objections; independent analysts do not expect a new or expanded ground before 2030",
+        "fact": "The 'early 2025' decision promised to fans slipped through 2026 with no announcement",
+        "source": "https://stadiumdb.com/news/2026/04/england_a_1_billion_opportunity_still_on_hold_what_future_awaits_st_james_park"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Bruno Guimarães — midfield captain, ~£180K/wk through 2028; Alexander Isak ~£140K/wk through 2028 (subject to summer transfer interest)",
+        "new": "Squad rebuilt through sales: Isak sold to Liverpool Sept 2025 for a British-record £125M, Tonali to Tottenham July 2026 for £100M, Guimaraes to Arsenal Aug 2026 for ~£75M, Gordon to Barcelona summer 2026; Nick Woltemade (£65M from Stuttgart, 2025) leads the current group; Matthias Jaissle replaced Eddie Howe, who left 31 July 2026",
+        "fact": "Newcastle sold its three biggest contracts for roughly £300M between Sept 2025 and Aug 2026 and changed head coach in July 2026",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Newcastle_United_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bruno Guimarães",
+            "position": "CM",
+            "aav": 12,
+            "contractNote": "~£180K/wk; signed from Lyon Jan 2022 for £40M; new deal 2024 through 2028"
+          },
+          {
+            "player": "Alexander Isak",
+            "position": "FW",
+            "aav": 9.5,
+            "contractNote": "~£140K/wk; signed from Real Sociedad 2022 for club-record £63M; through 2028"
+          },
+          {
+            "player": "Sandro Tonali",
+            "position": "CM",
+            "aav": 9,
+            "contractNote": "~£135K/wk; signed from AC Milan 2023 for £55M; betting ban 2023-24 served; through 2028"
+          },
+          {
+            "player": "Anthony Gordon",
+            "position": "FW",
+            "aav": 8,
+            "contractNote": "~£120K/wk; signed from Everton 2023 for £45M; through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Nick Woltemade",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from VfB Stuttgart summer 2025 for £65M plus £4.3M add-ons"
+          },
+          {
+            "player": "Anthony Elanga",
+            "position": "RW",
+            "aav": null,
+            "contractNote": "Signed from Nottingham Forest summer 2025 for £52M plus £3M add-ons"
+          },
+          {
+            "player": "Yoane Wissa",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Brentford summer 2025 for £50M plus £5M add-ons"
+          },
+          {
+            "player": "Alexander Isak",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to Liverpool 1 Sept 2025 for £125M, British record"
+          },
+          {
+            "player": "Bruno Guimaraes",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Arsenal 8 Aug 2026 for ~£75M"
+          },
+          {
+            "player": "Sandro Tonali",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Tottenham 6 July 2026 for £100M"
+          }
+        ],
+        "fact": "Isak, Tonali, Guimaraes and Gordon all sold between Sept 2025 and Aug 2026",
+        "source": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup (PIF 85%, RB Sports & Media 15%)",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.playoffAppearancesLast5Years (12th in 2025-26 (49 pts), no European place; Champions League round of 16; EFL Cup semi-final; window still counts 2022-23 and 2024-25)"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: PIF AUM not re-checked in 2026",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $435M",
+      "Matthias Jaissle appointment: taken from the 2026-27 season page, not a club announcement I could read"
+    ],
+    "analystNotes": "Newcastle carries a $1.25B Forbes 2026 value on $435M of revenue, roughly flat at the operating line, and the year since has been one of monetising the squad rather than growing the club: Isak (£125M), Tonali (£100M) and Guimaraes (£75M) were sold between September 2025 and August 2026, Eddie Howe left in July 2026, and the team finished 12th with no European place. The £305M PIF entry in 2021 still shows a 3x-plus mark, but the stadium decision that would justify a £1B-plus valuation, a 70,000-seat build or a St James' Park expansion, has slipped past every promised date and the owners now want half of it debt-funded. The number moves only when that decision lands and when PIF shows it will fund a squad rather than trade one.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($1.25B, revenue $0.435B, operating income -$0.002B); 2025-26 table (12th); Isak, Tonali and Guimaraes sales; Howe departure July 2026; stadium status April 2026."
+  },
+  {
+    "teamId": "aston-villa",
+    "team": "Aston Villa",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "£100M+ North Stand redevelopment to expand Villa Park capacity from 42,682 to ~50,000 by 2027-28; planning permission secured 2023; aimed at meeting demand from Champions League / European matchday revenue uplift",
+        "new": "£100M North Stand redevelopment under way: corner demolition began March 2026, the North Stand (5,000 to 12,000 seats) is closed for the whole 2026-27 season, and completion is targeted before 2027-28 to take Villa Park to about 50,000 in time for Euro 2028, where it is a host venue; architects Grimshaw and Trivandi",
+        "fact": "Construction started March 2026; North Stand closed for 2026-27; completion before 2027-28",
+        "source": "https://stadiumdb.com/constructions/eng/villa_park"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 4,
+        "fact": "European qualification earned in 2022-23 (7th), 2023-24 (4th), 2024-25 (6th) and 2025-26 (4th, 65 pts); Villa also won the 2025-26 Europa League, beating Freiburg 3-0 on 20 May 2026, its first major trophy since 1996",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Aston_Villa_F.C._season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Ollie Watkins — top scorer; Emiliano Martínez (World Cup 2022 winner, Argentine #1 GK); Morgan Rogers (£8M 2024 acquisition exploded into England starter)",
+        "new": "Core sold in summer 2026: Morgan Rogers to Chelsea for £117M (record fee for an English player), Ollie Watkins to Al-Hilal for ~£51M, Ezri Konsa to Arsenal (~£51M), Emiliano Martinez to Chelsea; Unai Emery remains manager; Nicolas Jackson (£47.5M) and Johan Manzambi (£52M) among the replacements",
+        "fact": "Villa realised well over £250M of player sales in summer 2026 after the Europa League win and fourth place",
+        "source": "https://en.wikipedia.org/wiki/Morgan_Rogers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Ollie Watkins",
+            "position": "FW",
+            "aav": 8.5,
+            "contractNote": "~£125K/wk; new deal Aug 2024 through 2028; club-record sale interest from Arsenal 2024 rebuffed"
+          },
+          {
+            "player": "Emiliano Martínez",
+            "position": "GK",
+            "aav": 8,
+            "contractNote": "~£120K/wk; through 2027; 2x World Cup Golden Glove winner"
+          },
+          {
+            "player": "Pau Torres",
+            "position": "CB",
+            "aav": 7.5,
+            "contractNote": "~£110K/wk; signed from Villarreal 2023 for £33M; through 2028"
+          },
+          {
+            "player": "Morgan Rogers",
+            "position": "AM",
+            "aav": 5,
+            "contractNote": "~£75K/wk; signed from Middlesbrough Jan 2024 for £8M; through 2030"
+          }
+        ],
+        "new": [
+          {
+            "player": "Morgan Rogers",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Sold to Chelsea 21 July 2026 for £117M, 14x the £8M paid to Middlesbrough in Jan 2024"
+          },
+          {
+            "player": "Ollie Watkins",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to Al-Hilal 30 Aug 2026 for ~£51M after refusing to play the season opener"
+          },
+          {
+            "player": "Nicolas Jackson",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Chelsea summer 2026 for £47.5M"
+          },
+          {
+            "player": "Johan Manzambi",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from SC Freiburg summer 2026 for £52M"
+          },
+          {
+            "player": "Pau Torres",
+            "position": "CB",
+            "aav": 7.5,
+            "contractNote": "~£110K/wk; signed from Villarreal 2023 for £33M; through 2028"
+          }
+        ],
+        "fact": "Rogers, Watkins, Konsa and Martinez sold in summer 2026",
+        "source": "https://en.wikipedia.org/wiki/Ollie_Watkins"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup (Sawiris 34.4%, Edens 34.4%, Atairos ~31%)",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "July 2026 reports that Villa put academy players up for sale to meet spending rules: headline seen, article not read",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $490M"
+    ],
+    "analystNotes": "Aston Villa is now a $1.4B club on the Forbes 2026 list, first time on the list at that level, on $490M of revenue and a small operating loss, and the 2025-26 season is the best in 30 years: fourth place, a second Champions League qualification in three seasons and the Europa League trophy, the club's first major silverware since 1996. The owners then cashed the squad to stay inside the spending rules, selling Morgan Rogers to Chelsea for £117M, Ollie Watkins to Al-Hilal and Ezri Konsa to Arsenal for over £250M combined, while the £100M North Stand build closes a quarter of Villa Park for 2026-27 on the way to 50,000 seats and Euro 2028. The number moves on whether Emery keeps Villa in the Champions League with a rebuilt squad, and on the Atairos-backed owners finding a minority buyer at the new mark.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($1.4B, revenue $0.49B, operating income -$0.03B); 2025-26 table (4th) and Europa League win 20 May 2026; summer 2026 sales; Villa Park works from March 2026."
+  },
+  {
+    "teamId": "brighton-and-hove-albion",
+    "team": "Brighton & Hove Albion",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Carlos Baleba — central midfielder, £25M+ valuation; Kaoru Mitoma — Japanese international winger; Joël Veltman — veteran defender",
+        "new": "Player-trading engine continues: Carlos Baleba sold to Manchester United Aug 2026 for a reported £70M including add-ons, Jan Paul van Hecke to Tottenham for £52M, Joao Pedro to Chelsea (2025, £55M); Luka Vuskovic (£46M from Tottenham) is the record purchase; Fabian Hurzeler remains head coach",
+        "fact": "Baleba (£70M) and van Hecke (£52M) sold in summer 2026",
+        "source": "https://en.wikipedia.org/wiki/Carlos_Baleba"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Carlos Baleba",
+            "position": "CM",
+            "aav": 5.5,
+            "contractNote": "~£80K/wk; signed from Lille 2023 for £23M; through 2028; reported transfer interest from top-six clubs at £80M+"
+          },
+          {
+            "player": "Kaoru Mitoma",
+            "position": "LW",
+            "aav": 5,
+            "contractNote": "~£75K/wk; signed from Kawasaki Frontale 2021 for ~£3M; through 2027"
+          },
+          {
+            "player": "Lewis Dunk",
+            "position": "CB",
+            "aav": 4.5,
+            "contractNote": "~£65K/wk; club captain, academy graduate; through 2027"
+          },
+          {
+            "player": "Bart Verbruggen",
+            "position": "GK",
+            "aav": 3.5,
+            "contractNote": "~£50K/wk; signed from Anderlecht 2023 for £16M; Netherlands #1; through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Carlos Baleba",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Manchester United 25 Aug 2026, reported £70M including add-ons; bought from Lille 2023 for £23M"
+          },
+          {
+            "player": "Luka Vuskovic",
+            "position": "CB",
+            "aav": null,
+            "contractNote": "Signed from Tottenham summer 2026 for £46M, club record"
+          },
+          {
+            "player": "Kaoru Mitoma",
+            "position": "LW",
+            "aav": 5,
+            "contractNote": "~£75K/wk; signed from Kawasaki Frontale 2021 for ~£3M; through 2027"
+          },
+          {
+            "player": "Bart Verbruggen",
+            "position": "GK",
+            "aav": 3.5,
+            "contractNote": "~£50K/wk; Netherlands #1; through 2028"
+          }
+        ],
+        "fact": "Baleba and Dunk-era core turned over; Vuskovic is the new record signing",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Brighton_%26_Hove_Albion_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Tony Bloom, owner and chairman)",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.playoffAppearancesLast5Years (8th in 2025-26 (53 pts) earned the Conference League play-off round for 2026-27; window counts 2022-23 (6th) and 2025-26)"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: no 2026 source found on Amex expansion",
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $295M"
+    ],
+    "analystNotes": "Brighton is a $910M club on the Forbes 2026 list, on $295M of revenue, and the model has not changed: buy at £3M to £25M, develop, sell at £50M-plus. The 2025-26 season produced an 8th-place finish and a Conference League place, then summer 2026 turned Carlos Baleba (£23M in, £70M out to Manchester United) and Jan Paul van Hecke (£52M to Tottenham) into the next round of reinvestment, with £46M Luka Vuskovic the record purchase. The ceiling is still the 31,876-seat Amex and Tony Bloom's sole ownership; the number moves if Bloom ever sells a piece, or if the club grows the ground.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($0.91B, revenue $0.295B, operating income -$0.015B); 2025-26 table (8th); Baleba and van Hecke sales summer 2026."
+  },
+  {
+    "teamId": "west-ham-united",
+    "team": "West Ham United",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "David Sullivan (~38.8%) and Daniel Křetínský (~27%, increasing toward 38-40% as Gold shares acquired)",
+        "new": "Daniel Kretinsky (~46%, largest shareholder after buying Gold family shares, Sept 2026) and David Sullivan (~40%); Sullivan resigned as chairman June 2026 after historical misconduct allegations relating to his previous businesses; Vanessa Gold chairwoman",
+        "fact": "Bloomberg (4 Sept 2026) and West Ham trackers report Kretinsky at 46% and Sullivan at 40% after the Gold family's 25.1% was split between them rather than sold to Amanda Staveley's consortium; Staveley has reportedly offered ~£600M for Sullivan's stake",
+        "source": "https://www.westhamzone.com/finance/west-ham-ownership-twist-on-the-cards-as-jim-white-details-interesting-development"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "David Sullivan",
+            "role": "co-chairman / majority",
+            "pct": 38.8
+          },
+          {
+            "name": "Daniel Křetínský (via 1890s Holdings)",
+            "role": "vice-chairman / minority growing",
+            "pct": 27
+          },
+          {
+            "name": "Gold family estate",
+            "role": "minority (selling down 2024-26)",
+            "pct": 25.1
+          },
+          {
+            "name": "Tripp Smith / Pavel Horský / others",
+            "role": "minority",
+            "pct": 9.1
+          }
+        ],
+        "new": [
+          {
+            "name": "Daniel Kretinsky (via 1890s Holdings)",
+            "role": "largest shareholder after Sept 2026 Gold share purchase",
+            "pct": 46
+          },
+          {
+            "name": "David Sullivan",
+            "role": "shareholder; resigned as chairman June 2026",
+            "pct": 40
+          },
+          {
+            "name": "WHU LLC (Tripp Smith)",
+            "role": "minority",
+            "pct": 11
+          },
+          {
+            "name": "Other minority holders",
+            "role": "minority",
+            "pct": 3
+          }
+        ],
+        "fact": "Gold family exited; percentages per Bloomberg and westhamzone reporting Sept 2026 (Tripp Smith reported at 8% to 11% across sources)",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-04/west-ham-takeover-saga-sees-sullivan-and-kretinsky-raise-stakes"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Relegated to the EFL Championship for 2026-27 (18th in 2025-26, 39 pts); receives Premier League parachute payments (~£44M year one, declining over three years) on top of EFL central distribution; returns to the £6.7B Sky/TNT Premier League cycle (2025-26 to 2028-29) only on promotion",
+        "fact": "West Ham finished 18th and were relegated, their first drop since 2010-11",
+        "source": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jarrod Bowen — England forward, captain since Declan Rice's 2023 sale; Lucas Paquetá — Brazilian international; Mohammed Kudus drew major transfer interest summer 2025",
+        "new": "Jarrod Bowen, captain, in the Championship; Kudus (£55M to Tottenham, 2025), Paqueta (£35.75M to Flamengo, 2025), Mateus Fernandes (£85M to Tottenham, summer 2026) and Summerville (£55M to Al-Hilal) all sold; Nuno Espirito Santo head coach since 27 Sept 2025",
+        "fact": "Post-relegation fire sale in summer 2026 after Kudus and Paqueta left in 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Ham_United_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jarrod Bowen",
+            "position": "FW",
+            "aav": 8,
+            "contractNote": "~£120K/wk; new deal 2024 through 2030; captain; club's all-time PL goalscorer"
+          },
+          {
+            "player": "Lucas Paquetá",
+            "position": "AM",
+            "aav": 9.5,
+            "contractNote": "~£140K/wk; signed from Lyon 2022 for £51M; FA spot-fixing investigation cleared 2024-25; through 2027"
+          },
+          {
+            "player": "Mohammed Kudus",
+            "position": "AM/FW",
+            "aav": 8,
+            "contractNote": "~£120K/wk; signed from Ajax 2023 for £38M; through 2028 (subject to ongoing transfer interest from top-six)"
+          },
+          {
+            "player": "Niclas Füllkrug",
+            "position": "FW",
+            "aav": 6.5,
+            "contractNote": "~£100K/wk; signed from Borussia Dortmund 2024 for £27M; through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jarrod Bowen",
+            "position": "FW",
+            "aav": 8,
+            "contractNote": "~£120K/wk; deal through 2030; captain; stayed after relegation"
+          },
+          {
+            "player": "Mateus Fernandes",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Signed from Southampton 2025 for £38M; sold to Tottenham summer 2026 for £85M"
+          },
+          {
+            "player": "Mohammed Kudus",
+            "position": "AM/FW",
+            "aav": 0,
+            "contractNote": "Sold to Tottenham summer 2025 for £55M"
+          },
+          {
+            "player": "Lucas Paqueta",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Sold to Flamengo 2025 for £35.75M"
+          }
+        ],
+        "fact": "Kudus, Paqueta, Fernandes and Summerville sold; Bowen remains",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_West_Ham_United_F.C._season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.ownershipModel (LLDC lease)",
+      "onField.playoffAppearancesLast5Years (Relegated in 2025-26; window still counts 2021-22 and 2022-23 (Conference League winners))"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup exact percentages: Bloomberg article is paywalled; figures from secondary reporting (Kretinsky 46%, Sullivan 40%)",
+      "Kretinsky reportedly exploring buying the London Stadium: unconfirmed",
+      "revenue.estimate: FY2025-26 accounts not yet published; relegation cuts broadcast income from 2026-27"
+    ],
+    "analystNotes": "West Ham's last Forbes mark is $1.25B from the May 2025 list, and everything since then argues for less: an 18th-place finish and relegation in 2025-26, the first since 2011, a summer 2026 sale of Mateus Fernandes (£85M), Summerville (£55M) after Kudus and Paqueta went in 2025, and a Championship season on £44M of parachute money instead of £150M-plus of Premier League television. The ownership is finally consolidating: Daniel Kretinsky bought into the Gold family's 25% to reach about 46% and became the largest shareholder in September 2026, David Sullivan resigned as chairman in June under historical misconduct allegations and sits on 40% with Amanda Staveley reportedly offering £600M for it. The number moves on immediate promotion and on whether Kretinsky, or Staveley, ends up with control and a plan for the London Stadium lease.",
+    "analystNotesBasis": "Forbes May 2025 list ($1.25B, per valuations-2025.js; not on the 2026 list); 2025-26 table (18th, relegated); Sept 2026 Kretinsky 46% / Sullivan 40% reporting; Sullivan resignation June 2026."
+  },
+  {
+    "teamId": "crystal-palace",
+    "team": "Crystal Palace",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Harris/Blitzer hold via HBSE — institutional family office structure",
+        "new": "Harris/Blitzer hold via HBSE; in June 2026 the US owners (Johnson, Harris, Blitzer) engaged Raine Group to explore options including a sale of a controlling stake of more than 50% (Financial Times, 16 June 2026)",
+        "fact": "Sale process opened June 2026 after the Conference League win",
+        "source": "https://www.irishtimes.com/business/2026/06/16/us-billionaire-owners-of-crystal-palace-explore-sale/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Main Stand redevelopment plans approved by Croydon Council 2018 — would add ~8,000 seats and modern hospitality. Project repeatedly delayed; revived under Textor; Woody Johnson era expected to refocus capital on the build (~£150-200M)",
+        "new": "Main Stand redevelopment under construction: major works began January 2026 after a multi-million loan was secured in December 2025; the new stand grows from ~5,200 to ~13,500 seats, taking Selhurst Park above 34,000; completion expected during the 2027-28 season (just over two years)",
+        "fact": "Construction started January 2026",
+        "source": "https://www.cpfc.co.uk/news/stadium/update-on-the-main-stand-redevelopment/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "2024-25 FA Cup win and the 2025-26 Conference League title (1-0 v Rayo Vallecano, Leipzig, 27 May 2026) each earned European football; 15th in the 2025-26 league (45 pts); 2025 Community Shield also won",
+        "source": "https://www.uefa.com/uefaconferenceleague/match/2047744--crystal-palace-vs-rayo-vallecano/final/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Eberechi Eze — sold to Arsenal summer 2025 ~£60M; replacement core: Adam Wharton (England midfielder)",
+        "new": "Jean-Philippe Mateta (scored the Conference League final winner) and Jorgen Strand Larsen (club-record £43M from Wolves, 2025); Marc Guehi sold to Manchester City Jan 2026 for ~£20M, Lacroix to Chelsea summer 2026 for £52M; Pierre Sage appointed manager summer 2026 after Oliver Glasner left for Nottingham Forest",
+        "fact": "Guehi (Jan 2026) and Lacroix (summer 2026) sold; Glasner departed at contract end and joined Forest 6 July 2026",
+        "source": "https://en.wikipedia.org/wiki/Oliver_Glasner"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Marc Guéhi",
+            "position": "CB",
+            "aav": 6,
+            "contractNote": "England international centre-back; £55M+ valuation; contract negotiations ongoing 2025-26"
+          },
+          {
+            "player": "Jean-Philippe Mateta",
+            "position": "ST",
+            "aav": 4.5,
+            "contractNote": "France international striker; signed extension through 2027"
+          },
+          {
+            "player": "Adam Wharton",
+            "position": "CM",
+            "aav": 3.5,
+            "contractNote": "Signed from Blackburn 2024; long-term contract; emerging England midfielder"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jean-Philippe Mateta",
+            "position": "ST",
+            "aav": 4.5,
+            "contractNote": "France international; scored the 2026 Conference League final winner; extension through 2027"
+          },
+          {
+            "player": "Jorgen Strand Larsen",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Signed from Wolves summer 2025 for £43M, club-record fee paid"
+          },
+          {
+            "player": "Adam Wharton",
+            "position": "CM",
+            "aav": 3.5,
+            "contractNote": "Signed from Blackburn 2024; long-term contract; England midfielder"
+          },
+          {
+            "player": "Marc Guehi",
+            "position": "CB",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City Jan 2026 for ~£20M in the last six months of his contract"
+          }
+        ],
+        "fact": "Guehi and Eze cashed; Strand Larsen and Mateta anchor the attack",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Crystal_Palace_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup (Johnson 43-45%, Harris/Blitzer, Parish 10%)",
+      "stadium.name"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: Harris and Blitzer's combined stake reported as 30% by the FT versus 36% in the enrichment; not resolved",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked",
+      "Forbes 2026 list: Palace absent; last Forbes figure $750M (2025)"
+    ],
+    "analystNotes": "Crystal Palace's last Forbes mark is $750M from 2025, and the club has since won two trophies in twelve months, the FA Cup in May 2025 and the Conference League in May 2026, making it the most decorated period in its history. Woody Johnson paid £190M for 43% in June 2025 at a $591M implied value, and by June 2026 he, Josh Harris and David Blitzer had Raine Group exploring a sale of a controlling stake, so the next print will come from a control buyer. The Main Stand rebuild that started in January 2026 lifts Selhurst Park past 34,000 seats by 2027-28, which is the one structural lever; the risk is a 15th-place league finish and the loss of Guehi, Eze and manager Oliver Glasner, all gone by summer 2026.",
+    "analystNotesBasis": "Last Forbes figure $750M (2025, per valuationHistory; not on the 2026 list); Woody Johnson 43% at $591M implied (June 2025, transactions.js); Conference League win 27 May 2026; Raine sale exploration June 2026; Main Stand works from Jan 2026."
+  },
+  {
+    "teamId": "everton",
+    "team": "Everton",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.capacity",
+        "old": 52888,
+        "new": 52769,
+        "fact": "Hill Dickinson Stadium capacity listed at 52,769; 2025-26 average league attendance 52,132, peak 52,590 v Sunderland (17 May 2026)",
+        "source": "https://en.wikipedia.org/wiki/Hill_Dickinson_Stadium"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Stadium opened 2025; commissioning season 2025-26; Goodison Park redevelopment plans for women's team facility and mixed-use community space",
+        "new": "First full season complete: first competitive match 24 Aug 2025 v Brighton after a Feb 2025 test-event opening; 2025-26 average attendance 52,132 (sell-out level); previous regime modelled matchday income of just under £44M in year one versus ~£20M at Goodison; Goodison Park now used by the women's team",
+        "fact": "2025-26 was the first full season at Hill Dickinson Stadium with near-capacity crowds",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Everton_F.C._season"
+      },
+      {
+        "field": "stadium.privateFinancing",
+        "old": 950,
+        "new": 750,
+        "fact": "Construction cost estimated at about £750M per the stadium record (prior enrichment carried a higher all-in figure)",
+        "source": "https://en.wikipedia.org/wiki/Hill_Dickinson_Stadium"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jordan Pickford — England #1 goalkeeper; signed contract through 2027 at ~£100K/week",
+        "new": "Jordan Pickford, England goalkeeper, contract through 2027; Tyler Dibling (£35M from Southampton, Aug 2025) is the record signing; Iliman Ndiaye sold to Manchester City 1 Sept 2026 for a reported £60M-plus",
+        "fact": "Ndiaye sold for £60M-65M in Sept 2026; Dibling bought for £35M in 2025",
+        "source": "https://en.wikipedia.org/wiki/Iliman_Ndiaye"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jordan Pickford",
+            "position": "GK",
+            "aav": 6.5,
+            "contractNote": "England international; ~£100K/week through 2027"
+          },
+          {
+            "player": "Iliman Ndiaye",
+            "position": "AM",
+            "aav": 4.5,
+            "contractNote": "Senegal international; signed 2024 from Marseille for ~£15M"
+          },
+          {
+            "player": "Beto",
+            "position": "ST",
+            "aav": 3.8,
+            "contractNote": "Guinea-Bissau international; £25M from Udinese 2023"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jordan Pickford",
+            "position": "GK",
+            "aav": 6.5,
+            "contractNote": "England international; ~£100K/week through 2027"
+          },
+          {
+            "player": "Tyler Dibling",
+            "position": "RW",
+            "aav": null,
+            "contractNote": "Signed from Southampton 25 Aug 2025 for £35M"
+          },
+          {
+            "player": "Thierno Barry",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Signed from Villarreal July 2025 for £26M"
+          },
+          {
+            "player": "Iliman Ndiaye",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City 1 Sept 2026, reported £60M base fee"
+          }
+        ],
+        "fact": "Ndiaye and Beto sold in summer 2026; Dibling, Barry, Dewsbury-Hall bought in 2025",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Everton_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (The Friedkin Group, Dan Friedkin chairman)",
+      "stadium.name",
+      "stadium.namingRightsDeal (Hill Dickinson)",
+      "onField.playoffAppearancesLast5Years (13th in 2025-26 (49 pts) under David Moyes; no European qualification)"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal.annualValue_M: £10M/yr figure not re-confirmed in 2026",
+      "revenue.estimate: FY2025-26 accounts (first stadium season) due spring 2027; Forbes 2026 revenue $255M",
+      "Dibling fee: enrichment for Southampton said £42M, Everton season page says £35M; £35M used"
+    ],
+    "analystNotes": "Everton debuts on the Forbes 2026 list at $930M on $255M of revenue, and the driver is the Hill Dickinson Stadium: 52,769 seats, a first full season in 2025-26 at an average of 52,132, and matchday income modelled near £44M against £20M at Goodison. The Friedkin Group's December 2024 takeover and the stadium's roughly £750M cost turned a distressed asset into a mid-table platform, and a 13th-place finish under David Moyes plus a £60M sale of Iliman Ndiaye to Manchester City in September 2026 show the club now trading from strength. The number moves when the FY2025-26 accounts land in 2027 and show what a waterfront stadium actually earns, and if Friedkin pushes the club into Europe.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($0.93B, revenue $0.255B, operating income -$0.015B); 2025-26 table (13th); stadium attendance data 2025-26; Ndiaye sale Sept 2026."
+  },
+  {
+    "teamId": "fulham",
+    "team": "Fulham",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Raúl Jiménez — Mexico international striker; £5.5M from Wolves 2023; signed extension through 2027",
+        "new": "Kevin (£34.6M from Shakhtar, 2025) and Gonzalo Garcia (£34.2M from Real Madrid, 2026) are the record-level signings; Raul Jimenez left for Wolves on a free in summer 2026; Alvaro Arbeloa replaced Marco Silva, who left 2 June 2026 at the end of his contract after five years",
+        "fact": "Silva departed June 2026; Arbeloa appointed on a three-year contract",
+        "source": "https://en.wikipedia.org/wiki/Marco_Silva"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Raúl Jiménez",
+            "position": "ST",
+            "aav": 4.5,
+            "contractNote": "Mexico international; extension to 2027"
+          },
+          {
+            "player": "Andreas Pereira",
+            "position": "AM",
+            "aav": 3.8,
+            "contractNote": "Brazil international; signed permanently from Man United 2022"
+          },
+          {
+            "player": "Antonee Robinson",
+            "position": "LB",
+            "aav": 3.5,
+            "contractNote": "USMNT regular; signed extension 2024"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kevin",
+            "position": "LW",
+            "aav": null,
+            "contractNote": "Signed from Shakhtar Donetsk summer 2025 for £34.6M"
+          },
+          {
+            "player": "Gonzalo Garcia",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Real Madrid summer 2026 for £34.2M"
+          },
+          {
+            "player": "Antonee Robinson",
+            "position": "LB",
+            "aav": 3.5,
+            "contractNote": "USMNT regular; extension 2024"
+          },
+          {
+            "player": "Raul Jimenez",
+            "position": "ST",
+            "aav": 0,
+            "contractNote": "Left for Wolves on a free transfer summer 2026"
+          }
+        ],
+        "fact": "Pereira sold to Palmeiras (£8.65M, 2025); Jimenez left 2026",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fulham_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Shahid Khan, sole owner and chairman)",
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal",
+      "onField.playoffAppearancesLast5Years (11th in 2025-26 (52 pts); no European qualification)"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 source checked",
+      "stadium.newStadiumPlans: no 2026 update on further Craven Cottage works found",
+      "revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $253M"
+    ],
+    "analystNotes": "Fulham is a $920M club on the Forbes 2026 list, on $253M of revenue and a $25M operating loss, and the value is Shahid Khan's Riverside Stand: a 29,600-seat Thames-side ground with hotel rooms, restaurants and a rooftop pool that no other mid-table club can match. Five straight Premier League seasons ended with an 11th-place finish in 2025-26 and the June 2026 exit of Marco Silva after five years, with Alvaro Arbeloa hired on a three-year deal and £34M spent on Gonzalo Garcia from Real Madrid. The number moves on whether Arbeloa keeps the club up while the new signings settle, since the land value holds but the broadcast money that makes up two-thirds of revenue does not survive relegation.",
+    "analystNotesBasis": "Forbes 2026 soccer list ($0.92B, revenue $0.253B, operating income -$0.025B); 2025-26 table (11th); Silva exit and Arbeloa appointment June 2026."
+  },
+  {
+    "teamId": "wolverhampton-wanderers",
+    "team": "Wolverhampton Wanderers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Fosun International (Guo Guangchang)",
+        "new": "Fosun International (Guo Guangchang, Wang Qunbin); executive chairman Jeff Shi left 19 Dec 2025, Nathan Shi interim then permanent executive chairman from 11 May 2026",
+        "fact": "Board change at Fosun-owned Wolves during the relegation season",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wolverhampton_Wanderers_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Relegated to the EFL Championship for 2026-27 (20th in 2025-26 with 20 points, relegated 20 April 2026); parachute payments (~£44M year one, declining over three years) plus EFL central distribution; rejoins the £6.7B Sky/TNT cycle (2025-26 to 2028-29) only on promotion",
+        "fact": "Wolves finished bottom with 20 points after a record 19-game winless start",
+        "source": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Phased stadium expansion plans periodically discussed (Steve Bull stand redevelopment) but capital constrained under recent Fosun strategic review; no committed timeline",
+        "new": "The 2019 plan to grow Molineux to 50,000 is shelved indefinitely; no expansion work under way after relegation",
+        "fact": "Expansion shelved as of the end of 2025-26",
+        "source": "https://lastwordonsports.com/football/2026/04/21/wolves-relegation-lessons-club-decline/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Matheus Cunha — Brazil international; sold to Manchester United summer 2025 ~£62.5M; current core: Jørgen Strand Larsen (Norway striker)",
+        "new": "Squad sold down: Cunha to Man United (£62.5M, 2025), Strand Larsen to Crystal Palace (£43M, 2025), Ait-Nouri to Man City (£31M, 2025), Joao Gomes to Aston Villa (~£34M to £38M, summer 2026); Cesar Peixoto head coach for the Championship after Rob Edwards left",
+        "fact": "About £180M of player sales in 2025-26 and Gomes sold in 2026; three head coaches in 2025-26 (Pereira, Collins interim, Edwards)",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Wolverhampton_Wanderers_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jørgen Strand Larsen",
+            "position": "ST",
+            "aav": 4,
+            "contractNote": "Norway international; signed permanently from Celta Vigo 2024 for ~£23M; primary striker post-Cunha"
+          },
+          {
+            "player": "Rayan Aït-Nouri",
+            "position": "LB",
+            "aav": 3.5,
+            "contractNote": "Algeria international; signed extension; ~£40M+ market value but recurring transfer speculation"
+          },
+          {
+            "player": "João Gomes",
+            "position": "CM",
+            "aav": 3.5,
+            "contractNote": "Brazil international; £15M from Flamengo 2023; emerging midfield core"
+          }
+        ],
+        "new": [
+          {
+            "player": "Joao Gomes",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Aston Villa summer 2026 for ~£34M to £38M plus add-ons; bought from Flamengo 2023 for £15M"
+          },
+          {
+            "player": "Jorgen Strand Larsen",
+            "position": "ST",
+            "aav": 0,
+            "contractNote": "Sold to Crystal Palace summer 2025 for £43M, a year after the £23M purchase"
+          },
+          {
+            "player": "Rayan Ait-Nouri",
+            "position": "LB",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City summer 2025 for £31M"
+          },
+          {
+            "player": "Tolu Arokodare",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Signed from Genk summer 2025 for £24M"
+          }
+        ],
+        "fact": "Gomes, Strand Larsen and Ait-Nouri all sold",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wolverhampton_Wanderers_F.C._season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.ownershipGroup (Fosun 100%)",
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "Sale rumours: the SportsPro report of Fosun seeking to sell 20% at £350M dates from 2019, not 2026; no 2026 sale process sourced",
+      "revenue.estimate: FY2024-25 accounts reported a £15.3M loss and record £117M player profits per secondary reporting; primary source not read"
+    ],
+    "analystNotes": "Wolves' last Forbes figure is $600M from the 2024 list, and the club has since suffered the worst season in its Premier League history: bottom with 20 points, relegated on 20 April 2026 after a record 19-game winless start, with executive chairman Jeff Shi out in December 2025 and Fosun leaning on player sales, roughly £180M in 2025-26 plus Joao Gomes to Villa in 2026, to hold losses to £15M. A 2026-27 Championship season on parachute money with the 50,000-seat Molineux plan shelved is a business at maybe half the broadcast income. The number moves on immediate promotion under Cesar Peixoto, and on Fosun finally selling, which is the exit that would reprice the club against the £500M-plus paid for peers.",
+    "analystNotesBasis": "Last Forbes figure $600M (2024 list, per valuationHistory; not on the 2026 list); 2025-26 table (20th, relegated 20 April 2026); Fosun board change Dec 2025 / May 2026; 2025-26 player sales."
+  },
+  {
+    "teamId": "afc-bournemouth",
+    "team": "AFC Bournemouth",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.ownershipModel",
+        "old": "smallest stadium in Premier League by capacity; club-owned operations; freehold ownership history complex (long lease historically); training ground at Canford Magna",
+        "new": "Ground bought back in April 2025 by Black Knight Stadium Limited (a Black Knight Football Club vehicle) from Structadene, so the club's ownership group now holds the freehold; smallest Premier League stadium until the current expansion completes",
+        "fact": "Foley's group repurchased the Vitality Stadium from Structadene at the end of April 2025 to enable the expansion",
+        "source": "https://www.sportcal.com/news/bournemouth-secure-local-approval-for-stadium-expansion-plans/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Foley has publicly committed to expansion / new stadium evaluation since 2023; site studies for ~25,000-capacity replacement at Canford Magna training ground or expanded Dean Court ongoing; no committed timeline as of 2025",
+        "new": "Vitality Stadium redevelopment under construction since 4 July 2026 after unanimous BCP Council approval: new 6,800-seat South Stand, filled-in corners and expanded North and East stands take capacity from ~11,300 to 20,196, with phased delivery around fixtures and completion expected summer 2027; south-east corner targeted for the first Europa League home tie (Sturm Graz, 15 Oct 2026)",
+        "fact": "Construction began July 2026; capacity to 20,196 by summer 2027",
+        "source": "https://stadiumdb.com/news/2026/07/england_afc_bournemouth_begins_historic_redevelopment_of_vitality_stadium"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "6th in 2025-26 (57 pts), the club's highest finish, qualifying for the Europa League league phase, its first European competition",
+        "source": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Antoine Semenyo — Ghana international winger; signed extension through 2030; transfer interest at £60M+",
+        "new": "Antoine Semenyo sold to Manchester City Jan 2026 for £62.5M plus £1.5M add-ons, the club-record sale; head coach Andoni Iraola left for Liverpool June 2026 after taking the club to 6th; Bafode Diakite (£34.6M from Lille, 2025) is the record purchase",
+        "fact": "Semenyo (Jan 2026), Huijsen (£50M), Zabarnyi (£54.5M), Kerkez (£40M) and Ouattara (£42.5M) all sold in 2025-26; Iraola departed June 2026",
+        "source": "https://www.skysports.com/football/news/11095/13491956/antoine-semenyo-joins-man-city-bournemouth-forward-signs-in-lb64m-transfer-to-take-city-spending-over-lb425m-in-12-months"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Antoine Semenyo",
+            "position": "RW",
+            "aav": 4.5,
+            "contractNote": "Ghana international; new long-term deal 2025; £60M+ transfer interest from Liverpool/Spurs"
+          },
+          {
+            "player": "Evanilson",
+            "position": "ST",
+            "aav": 4,
+            "contractNote": "Brazil international; £40M from Porto 2024 (club record)"
+          },
+          {
+            "player": "Justin Kluivert",
+            "position": "AM",
+            "aav": 3.5,
+            "contractNote": "Netherlands international; signed from Roma 2024"
+          }
+        ],
+        "new": [
+          {
+            "player": "Antoine Semenyo",
+            "position": "RW",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City Jan 2026 for £62.5M plus £1.5M add-ons and a 10% sell-on; club-record sale"
+          },
+          {
+            "player": "Evanilson",
+            "position": "ST",
+            "aav": 4,
+            "contractNote": "Brazil international; £40M from Porto 2024"
+          },
+          {
+            "player": "Bafode Diakite",
+            "position": "CB",
+            "aav": null,
+            "contractNote": "Signed from Lille summer 2025 for £34.6M"
+          },
+          {
+            "player": "Justin Kluivert",
+            "position": "AM",
+            "aav": 3.5,
+            "contractNote": "Netherlands international; signed from Roma 2024"
+          }
+        ],
+        "fact": "Semenyo, Huijsen, Zabarnyi and Kerkez sold for over £200M combined",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_AFC_Bournemouth_season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Bill Foley / Black Knight Football Club)",
+      "stadium.name"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal.expiryYear 2026: Vitality renewal status not found",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; Forbes 2026 list does not include Bournemouth (last Forbes-listed figure $420M, 2024)",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Bournemouth's last Forbes figure is $420M from the 2024 list, and the club has since delivered the two things that reprice a small ground: a 6th-place finish in 2025-26, the best in its history, with a first European campaign in the Europa League, and a stadium finally under construction, with the Vitality growing from 11,300 to 20,196 seats by summer 2027 after Bill Foley's group bought back the freehold in April 2025. The player-trading side funded it, with Semenyo (£64M to Manchester City), Zabarnyi, Huijsen and Kerkez sold for over £200M in one season, though head coach Andoni Iraola left for Liverpool in June 2026. The number moves on whether the club stays European-level without Iraola and on the extra 9,000 seats turning a £16M matchday line into something closer to peers.",
+    "analystNotesBasis": "Last Forbes-listed figure $420M (2024, per valuationHistory; absent from the 2026 list); 2025-26 table (6th, Europa League); stadium construction start 4 July 2026; Semenyo sale Jan 2026; Iraola departure June 2026."
+  },
+  {
+    "teamId": "brentford",
+    "team": "Brentford",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Matthew Benham (100% via Best Intentions Analytics)",
+        "new": "Matthew Benham, majority owner via Best Intentions Analytics; minority investors Gary Lubner and Sir Matthew Vaughn (10% combined, July 2025, $536M implied), who increased their holdings in March 2026 when Prakash Melwani (Blackstone) and Sir Lucian Grainge (Universal Music) also bought in and joined the board",
+        "fact": "Benham is no longer the sole owner; two rounds of minority investment in July 2025 and March 2026",
+        "source": "https://www.brentfordfc.com/en/news/club-news-brentford-announces-further-investment-prakash-melwani-sir-lucian-grainge-cbe"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Matthew Benham (Best Intentions Analytics)",
+            "role": "100% owner / chairman",
+            "pct": 100
+          }
+        ],
+        "new": [
+          {
+            "name": "Matthew Benham (Best Intentions Analytics)",
+            "role": "majority owner",
+            "pct": null
+          },
+          {
+            "name": "Gary Lubner (This Day Sports and Media)",
+            "role": "minority since July 2025; increased March 2026",
+            "pct": null
+          },
+          {
+            "name": "Sir Matthew Vaughn (MARV Bee)",
+            "role": "minority since July 2025; increased March 2026",
+            "pct": null
+          },
+          {
+            "name": "Prakash Melwani",
+            "role": "minority and board member since March 2026",
+            "pct": null
+          },
+          {
+            "name": "Sir Lucian Grainge",
+            "role": "minority and board member since March 2026",
+            "pct": null
+          }
+        ],
+        "fact": "Lubner and Vaughn took 10% combined in July 2025; stakes after the March 2026 round were not disclosed",
+        "source": "https://www.sportspro.com/news/brentford-investment-gary-lubner-matthew-vaughn-benham-july-2025/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "None as of 2025; Rothschild engaged late 2023 to source minority or majority investors at £400-500M valuation",
+        "new": "Minority capital from Lubner, Vaughn (July 2025, 10% at a $536M implied value), Melwani and Grainge (March 2026); Benham retains majority control",
+        "fact": "The 2023 Rothschild process ended in minority rounds rather than a control sale",
+        "source": "https://www.brentfordfc.com/en/news/club-news-brentford-announces-further-investment-prakash-melwani-sir-lucian-grainge-cbe"
+      },
+      {
+        "field": "ownership.currentValuation",
+        "old": 0.5,
+        "new": 0.536,
+        "fact": "Implied by the July 2025 Lubner/Vaughn 10% investment",
+        "source": "https://www.insideworldfootball.com/2025/07/16/lubner-vaughn-take-minority-stakes-brentford/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Bryan Mbeumo — Cameroon international forward; key player in Brentford's recruitment-driven model; sold to Manchester United summer 2025 for ~£65M",
+        "new": "Mbeumo (£65M to Man United) and Wissa (£50M plus £5M to Newcastle) both sold in summer 2025; Dango Ouattara (£42.5M from Bournemouth, 2025) and Mamadou Sangare (£41M from Lens, 2026) are the record purchases; Keith Andrews head coach since summer 2025 after Thomas Frank left for Tottenham",
+        "fact": "Wissa sold 2025; Ouattara and Sangare bought; Andrews in second season",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Brentford_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bryan Mbeumo",
+            "position": "FW",
+            "aav": 5.5,
+            "contractNote": "~£90K/wk wages; ~£65M sale to Man Utd summer 2025"
+          },
+          {
+            "player": "Yoane Wissa",
+            "position": "FW",
+            "aav": 4.5,
+            "contractNote": "Congolese forward; high goal output post-Toney"
+          },
+          {
+            "player": "Ivan Toney",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Sold to Al-Ahli (Saudi Pro League) August 2024 for ~£40M after 8-month FA betting ban"
+          }
+        ],
+        "new": [
+          {
+            "player": "Bryan Mbeumo",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to Manchester United summer 2025 for ~£65M plus add-ons"
+          },
+          {
+            "player": "Yoane Wissa",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to Newcastle summer 2025 for £50M plus £5M add-ons"
+          },
+          {
+            "player": "Dango Ouattara",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Bournemouth summer 2025 for £42.5M"
+          },
+          {
+            "player": "Mamadou Sangare",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Signed from RC Lens summer 2026 for £41M"
+          }
+        ],
+        "fact": "Toney, Mbeumo and Wissa converted into about £155M of sales across 2024-25",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Brentford_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity",
+      "stadium.namingRightsDeal (Gtech to 2032)",
+      "onField.playoffAppearancesLast5Years (9th in 2025-26 (53 pts) under Keith Andrews, one place outside Europe; EFL Cup quarter-final)"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup percentages after March 2026: undisclosed",
+      "revenue.estimate: FY2025-26 accounts not yet published; not on the Forbes 2026 list",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Brentford has no Forbes mark; the reference price is the July 2025 sale of 10% to Gary Lubner and Sir Matthew Vaughn at a $536M implied value, followed by a March 2026 round that brought Blackstone's Prakash Melwani and Universal Music's Sir Lucian Grainge onto the board while Matthew Benham kept control. The model keeps working without Thomas Frank: 9th place in 2025-26 under Keith Andrews after selling Mbeumo (£65M) and Wissa (£55M) and buying Ouattara and Sangare at £41M to £42.5M. The 17,250-seat Gtech is the ceiling; the number moves if Benham sells control, since the two minority rounds have now set a floor around £400M to £450M.",
+    "analystNotesBasis": "No Forbes figure (absent from 2026 list; prior enrichment carried a $500M 2025 market estimate); Lubner/Vaughn 10% at $536M implied (July 2025, transactions.js); March 2026 investment round; 2025-26 table (9th)."
+  },
+  {
+    "teamId": "nottingham-forest",
+    "team": "Nottingham Forest",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "£200M+ redevelopment proposed to expand capacity from ~30K to ~52K via new Peter Taylor Stand; planning application in detailed stage 2024-25; alternative new-build site explored if council freehold dispute unresolved",
+        "new": "Rushcliffe Borough Council granted planning permission on 16 Sept 2026 (subject to Section 106) to rebuild the Peter Taylor Stand and fill in corners, taking the City Ground to about 45,000; the club describes a £550M construction investment over three years and £63.6M a year of economic output; freehold purchase from Nottingham City Council still not completed",
+        "fact": "Planning approval September 2026 for a ~45,000-seat City Ground",
+        "source": "https://www.vavel.com/en/football/2026/09/16/premier-league/1271719-nottingham-forest-stadium-expansion-plans-approved.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "7th in 2024-25 earned European football (played the 2025-26 Europa League, reaching the semi-final, lost 0-4 to Aston Villa); 16th in 2025-26 (44 pts), no Europe for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Nottingham_Forest_F.C._season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Murillo — Brazilian centre-back; signed from Corinthians 2023 for ~£10M; reportedly subject of 2025 Bayern Munich interest at £60M+ valuation",
+        "new": "Morgan Gibbs-White, captain, signed a new three-year deal July 2025 after Tottenham triggered his £60M release clause; Elliot Anderson sold to Manchester City July 2026 for £116M; Oliver Glasner head coach since 6 July 2026, the fifth in 13 months after Nuno, Postecoglou, Dyche and Pereira",
+        "fact": "Anderson sale is the club-record fee received; Glasner is the fifth head coach since Sept 2025",
+        "source": "https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Anthony Elanga",
+            "position": "RW/FW",
+            "aav": null,
+            "contractNote": "Sold to Newcastle summer 2025 for £52M + £3M add-ons (£55M total); had joined from Man Utd 2023 on 5-year deal"
+          },
+          {
+            "player": "Morgan Gibbs-White",
+            "position": "AM",
+            "aav": 6.5,
+            "contractNote": "Signed from Wolves 2022 for ~£42M; long-running club captain; subject of Spurs interest summer 2025"
+          },
+          {
+            "player": "Nikola Milenković",
+            "position": "CB",
+            "aav": 5,
+            "contractNote": "Signed from Fiorentina 2024 for ~£12M; key 2024-25 defensive performer"
+          }
+        ],
+        "new": [
+          {
+            "player": "Elliot Anderson",
+            "position": "CM",
+            "aav": 0,
+            "contractNote": "Sold to Manchester City July 2026 for £116M, then a record for an English player"
+          },
+          {
+            "player": "Morgan Gibbs-White",
+            "position": "AM",
+            "aav": 6.5,
+            "contractNote": "Captain; new three-year contract 26 July 2025 after Spurs triggered his £60M clause"
+          },
+          {
+            "player": "Liam Delap",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Chelsea summer 2026 for £50M"
+          },
+          {
+            "player": "Omari Hutchinson",
+            "position": "AM/RW",
+            "aav": null,
+            "contractNote": "Signed from Ipswich summer 2025 for £37.5M"
+          },
+          {
+            "player": "Anthony Elanga",
+            "position": "RW",
+            "aav": 0,
+            "contractNote": "Sold to Newcastle summer 2025 for £52M plus £3M add-ons"
+          }
+        ],
+        "fact": "Anderson and Elanga sold for £171M; Delap, Hutchinson, Ndoye, Kalimuendo bought",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Nottingham_Forest_F.C._season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility fee based on UK TV appearances",
+        "new": "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four seasons (~£1.67B/yr), Sky Sports 215+ live matches per season and TNT Sports 52; equal share ~£85M per club in 2025-26 plus facility fees and merit payments",
+        "fact": "The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club",
+        "source": "https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Evangelos Marinakis)",
+      "stadium.name",
+      "stadium.ownershipModel (council freehold, club lease)"
+    ],
+    "unverified": [
+      "£550M stadium cost figure: club/council-cited investment figure in secondary reporting; no primary document read",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; not on the Forbes 2026 list (last figure a $900M 2025 market estimate, not Forbes)",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Nottingham Forest has no Forbes mark; the enrichment carries a $900M 2025 estimate made after Champions League-level finishes, and the year since has cut both ways. The club went from 7th to 16th in 2025-26 through five head coaches in 13 months, finishing with Oliver Glasner hired from Crystal Palace in July 2026, but reached a Europa League semi-final and then sold Elliot Anderson to Manchester City for £116M, the largest fee ever received by an English club for an English player at that date. The real asset event is the City Ground: planning permission arrived on 16 September 2026 for a rebuilt Peter Taylor Stand taking capacity to about 45,000 at a cited £550M, though the council freehold is still unsettled, and that is what moves the number next.",
+    "analystNotesBasis": "No Forbes figure (absent from the 2026 list; enrichment carries a $900M 2025 estimate); 2025-26 table (16th) and Europa League semi-final; Anderson sale July 2026; City Ground planning approval 16 Sept 2026."
+  },
+  {
+    "teamId": "ipswich-town",
+    "team": "Ipswich Town",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective deal 2024-25 only; relegation back to Championship returns club to EFL deal (~£15M central distribution + parachute payments)",
+        "new": "Promoted back to the Premier League for 2026-27 as 2025-26 Championship runners-up (84 pts, clinched 2 May 2026); rejoins the £6.7B Sky/TNT domestic cycle (2025-26 to 2028-29) with an equal share of about £85M per club plus facility and merit payments",
+        "fact": "Ipswich finished 2nd behind Coventry and went straight back up after one Championship season",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "EPL distributes via equal share + facility fee + merit payment; relegated clubs receive parachute payments (~£44M Y1, declining over 3yrs) — Ipswich relegated 2025 after one EPL season",
+        "new": "EPL distributes via equal share + facility fee + merit payment; Ipswich relegated 2025 after one EPL season, promoted again for 2026-27 so parachute payments stop and full Premier League distribution resumes",
+        "fact": "Promotion in May 2026",
+        "source": "https://www.premierleague.com/en/news/4673099/the-202627-premier-league-season-officially-starts/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Liam Delap — sold to Chelsea June 2025 for £30M (six-year deal); had been club's top scorer with 12 goals in first EPL season",
+        "new": "Promotion built on Jack Clarke (16 Championship goals) and Sindre Walle Egeli (£17.5M from Nordsjaelland); Omari Hutchinson sold to Nottingham Forest for £37.5M (2025) after Delap's £30M sale to Chelsea; Kieran McKenna stepped down 10 June 2026 and Gary O'Neil was appointed 23 June 2026 on a three-year deal; about £176M spent in summer 2026 including Julio Enciso (£26.1M) and Exequiel Palacios (£19.2M)",
+        "fact": "McKenna left after a third promotion in four seasons; O'Neil hired from Strasbourg",
+        "source": "https://en.wikipedia.org/wiki/Kieran_McKenna"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Liam Delap",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Sold to Chelsea June 2025 for £30M; had been signed from Manchester City in July 2024 for ~£20M with sell-on"
+          },
+          {
+            "player": "Omari Hutchinson",
+            "position": "AM/RW",
+            "aav": 4,
+            "contractNote": "Signed permanently from Chelsea 2024 for £20M after promotion-season loan"
+          },
+          {
+            "player": "Jack Clarke",
+            "position": "LW",
+            "aav": 3.5,
+            "contractNote": "Signed from Sunderland 2024 for £15M+"
+          }
+        ],
+        "new": [
+          {
+            "player": "Omari Hutchinson",
+            "position": "AM/RW",
+            "aav": 0,
+            "contractNote": "Sold to Nottingham Forest summer 2025 for £37.5M, a year after the £20M purchase from Chelsea"
+          },
+          {
+            "player": "Liam Delap",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "Sold to Chelsea June 2025 for £30M"
+          },
+          {
+            "player": "Julio Enciso",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "Signed from Strasbourg summer 2026 for £26.1M"
+          },
+          {
+            "player": "Jack Clarke",
+            "position": "LW",
+            "aav": 3.5,
+            "contractNote": "Signed from Sunderland 2024 for £15M+; 16 Championship goals in 2025-26"
+          }
+        ],
+        "fact": "Hutchinson and Delap sold for £67.5M; 2026 spending funded the return",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ipswich_Town_F.C._season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "ownership.primaryOwner: enrichment says 'Portman Holdings LLC (US consortium consolidated December 2025)'; the 2025-26 and 2026-27 season records list the club owner as Gamechanger 20 Ltd with Mark Ashton as chairman and no ownership change; could not verify the December 2025 restructuring",
+      "stadium.newStadiumPlans: no 2026 update on the Portman Road expansion land found",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (last figure a $350M 2025 Athletic-sourced estimate)"
+    ],
+    "analystNotes": "Ipswich has no Forbes mark; the enrichment carries a $350M 2025 figure from the Portman Holdings restructuring, and the club has since done the one thing that doubles a Championship valuation: gone straight back up, finishing 2nd in 2025-26 with 84 points and clinching promotion on 2 May 2026. Kieran McKenna then stepped down in June after three promotions in four years, Gary O'Neil arrived from Strasbourg on a three-year deal, and the owners spent about £176M in the summer window after banking £67.5M for Hutchinson and Delap. A freehold 30,311-seat Portman Road and a 2026-27 season on roughly £85M of equal-share television money put the club back at Premier League economics; the number moves on survival, since a second immediate relegation would reset it to parachute-payment value.",
+    "analystNotesBasis": "No Forbes figure (enrichment carries a $350M 2025 estimate); 2025-26 Championship table (2nd, promoted); McKenna exit and O'Neil appointment June 2026; summer 2026 spending."
+  },
+  {
+    "teamId": "leicester-city",
+    "team": "Leicester City",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "EFL Championship deal 2024+ (~£8M central distribution) post-relegation; Sky Sports primary; one of largest parachute-payment recipients",
+        "new": "Relegated to EFL League One for 2026-27 after finishing 23rd in the 2025-26 Championship (46 pts after a six-point PSR deduction imposed 5 Feb 2026); final year of Premier League parachute payments in 2026-27 on League One central distribution",
+        "fact": "Second relegation in two seasons; League One for the first time since 2008-09",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Leicester_City_F.C._season"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "EPL distributes via equal share + facility fee + merit payment; relegated clubs receive parachute payments (~£44M Y1, declining over 3yrs) — Leicester relegated 2023, promoted 2024, relegated 2025",
+        "new": "EPL distributes via equal share + facility fee + merit payment; relegated clubs receive parachute payments (~£44M Y1, declining over 3yrs); Leicester relegated 2023, promoted 2024, relegated 2025, relegated again to League One 2026 with a six-point PSR deduction",
+        "fact": "Back-to-back relegations 2025 and 2026",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 0,
+        "fact": "The 2015-16 title falls outside the ten seasons 2016-17 to 2025-26",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Wilfred Ndidi — Nigerian midfielder; long-tenured club captain figure; major asset-sale candidate post-relegation",
+        "new": "Squad stripped: Ndidi sold to Besiktas (£8M, 2025), Hermansen to West Ham (£20M, 2025), Vardy left on a free (2025), Abdul Fatawu to Ipswich (£20M, 2026), El Khannouss to Stuttgart (£15.3M, 2026); Russell Martin appointed manager 15 June 2026 on a three-year deal, the fifth manager since June 2025",
+        "fact": "Player sales and five managers in a year (van Nistelrooy, Cifuentes, King interim, Rowett, Martin)",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Leicester_City_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mads Hermansen",
+            "position": "GK",
+            "aav": 3,
+            "contractNote": "Signed from Brøndby 2023 for £5M; key 2023-24 promotion player"
+          },
+          {
+            "player": "Wilfred Ndidi",
+            "position": "DM",
+            "aav": 4.5,
+            "contractNote": "Long-term club fixture; contract running"
+          },
+          {
+            "player": "Stephy Mavididi",
+            "position": "LW",
+            "aav": 3.5,
+            "contractNote": "Signed from Montpellier 2023 for £8M"
+          }
+        ],
+        "new": [
+          {
+            "player": "Mads Hermansen",
+            "position": "GK",
+            "aav": 0,
+            "contractNote": "Sold to West Ham summer 2025 for £20M"
+          },
+          {
+            "player": "Wilfred Ndidi",
+            "position": "DM",
+            "aav": 0,
+            "contractNote": "Sold to Besiktas summer 2025 for £8M"
+          },
+          {
+            "player": "Abdul Fatawu",
+            "position": "RW",
+            "aav": 0,
+            "contractNote": "Sold to Ipswich summer 2026 for £20M"
+          },
+          {
+            "player": "Bilal El Khannouss",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Sold to VfB Stuttgart summer 2026 for £15.3M"
+          }
+        ],
+        "fact": "All prior star contracts sold",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Leicester_City_F.C._season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (King Power, Aiyawatt Srivaddhanaprabha chairman)",
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: East Stand expansion status in 2026 not found; deadline to commence remains end-2028 per the 2023 consent",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $400M 2025 estimate)",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Leicester has no Forbes mark; the enrichment carries a $400M 2025 estimate, and the club has since fallen through the floor of that number: a six-point PSR deduction on 5 February 2026, a 23rd-place Championship finish and relegation to League One on 21 April 2026, ten years to the month after the Premier League title. The King Power family still owns the club and the freehold 32,259-seat stadium, but 2026-27 is a third-tier season on the last year of parachute money, with Ndidi, Hermansen, Fatawu and El Khannouss sold and Russell Martin the fifth manager in twelve months. The number moves only on an immediate promotion and a stabilised cost base; until then the stadium and the 40,000-seat expansion consent are the value, not the football.",
+    "analystNotesBasis": "No Forbes figure (enrichment carries a $400M 2025 estimate); 2025-26 Championship table (23rd, relegated, six-point deduction Feb 2026); Russell Martin appointment June 2026; 2025-26 player sales."
+  },
+  {
+    "teamId": "southampton",
+    "team": "Southampton",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Premier League collective 2024-25 then EFL Championship 2025-26+ post-relegation",
+        "new": "EFL Championship for 2026-27 (second season since relegation) with year-two parachute payments; finished 4th in 2025-26 but was expelled from the play-offs by the EFL in May 2026 for unauthorised filming of opponents' training, with a four-point deduction applied to the 2026-27 table and an appeal dismissed 20 May 2026",
+        "fact": "Play-off expulsion cost a promotion shot; four-point deduction carried into 2026-27",
+        "source": "https://www.skysports.com/football/news/11095/13544383/southamptons-appeal-against-championship-play-off-final-explusion-dismissed-after-spygate-scandal"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Tyler Dibling — sold to Everton summer 2025 for £42M (record sale of a Saints academy product)",
+        "new": "Tyler Dibling sold to Everton Aug 2025 (reported £35M); Mateus Fernandes sold to West Ham for £38M (2025); Tonda Eckert head coach since Nov 2025 (contract to 2027) after Will Still was sacked 2 Nov 2025; James Ward-Prowse returned from West Ham summer 2026",
+        "fact": "Two record academy and squad sales in 2025; Eckert replaced Still",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Southampton_F.C._season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Tyler Dibling",
+            "position": "RW",
+            "aav": null,
+            "contractNote": "Sold to Everton summer 2025 for £42M; had been homegrown academy graduate, became one of EPL's most-watched teen prospects in 2024-25"
+          },
+          {
+            "player": "Mateus Fernandes",
+            "position": "AM",
+            "aav": 3.5,
+            "contractNote": "Signed from Sporting Lisbon 2024 for £15M"
+          },
+          {
+            "player": "Aaron Ramsdale",
+            "position": "GK",
+            "aav": 5.5,
+            "contractNote": "Signed from Arsenal 2024 for £25M; loaned out 2025 post-relegation"
+          }
+        ],
+        "new": [
+          {
+            "player": "Tyler Dibling",
+            "position": "RW",
+            "aav": 0,
+            "contractNote": "Sold to Everton 25 Aug 2025; reported £35M (Everton record); academy product"
+          },
+          {
+            "player": "Mateus Fernandes",
+            "position": "AM",
+            "aav": 0,
+            "contractNote": "Sold to West Ham summer 2025 for £38M; West Ham resold him to Tottenham in 2026 for £85M"
+          },
+          {
+            "player": "Adam Armstrong",
+            "position": "FW",
+            "aav": 0,
+            "contractNote": "11 Championship goals in 2025-26 then sold to Wolves 2 Feb 2026"
+          },
+          {
+            "player": "James Ward-Prowse",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Returned from West Ham summer 2026"
+          }
+        ],
+        "fact": "Dibling and Fernandes sales; Armstrong sold Feb 2026",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Southampton_F.C._season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Sport Republic, Dragan Solak chairman; Katharina Liebherr 20%)",
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "Dibling fee: enrichment says £42M, Everton season record says £35M; recorded as reported £35M",
+      "revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $450M 2025 estimate)",
+      "ownership.ownerNetWorth: no 2026 source checked"
+    ],
+    "analystNotes": "Southampton has no Forbes mark; the enrichment carries a $450M 2025 estimate that assumed a quick return to the Premier League, and the club came within a play-off final of it before the EFL expelled it in May 2026 for filming opponents' training, then docked four points from the 2026-27 table. The assets are unchanged, a freehold 32,384-seat St Mary's, year-two parachute money and an academy that sold Tyler Dibling to Everton and Mateus Fernandes to West Ham for over £70M in 2025, and Tonda Eckert has the side competitive again. The number moves on promotion in 2026-27 despite the deduction; a second full Championship cycle would pull the mark toward the £200M level of a mid-table EFL club.",
+    "analystNotesBasis": "No Forbes figure (enrichment carries a $450M 2025 estimate); 2025-26 Championship table (4th, play-off expulsion May 2026, four-point deduction for 2026-27); Dibling and Fernandes sales 2025; Eckert appointment Nov 2025."
+  }
+]

@@ -1,0 +1,2564 @@
+[
+  {
+    "teamId": "boston-celtics",
+    "team": "Boston Celtics",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.acquisitionYear",
+        "old": 2024,
+        "new": 2025,
+        "fact": "Chisholm group sale agreed March 20, 2025 (51% control at $6.1B) per transactions.js; 2024 was the announcement of intent to sell",
+        "source": "data/transactions.js"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jayson Tatum",
+            "position": "SF/PF",
+            "aav": 63,
+            "contractNote": "5yr/$315M supermax (Oct 2023), through 2029-30"
+          },
+          {
+            "player": "Jaylen Brown",
+            "position": "SG/SF",
+            "aav": 60.8,
+            "contractNote": "5yr/$304M supermax (Aug 2023), through 2028-29"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jayson Tatum",
+            "position": "SF/PF",
+            "aav": 63,
+            "contractNote": "5yr/$315M supermax (Oct 2023), through 2029-30; $58.5M in 2026-27 rising to $71.4M in 2029-30"
+          },
+          {
+            "player": "Paul George",
+            "position": "SF",
+            "aav": 53,
+            "contractNote": "Acquired from Philadelphia July 6, 2026 for Jaylen Brown plus 2028 and 2031 (PHI) first-round picks; $54.1M in 2026-27, $56.6M in 2027-28 (through 2027-28)"
+          }
+        ],
+        "fact": "Jaylen Brown was traded to the 76ers on July 6, 2026 for Paul George and picks; George is on the books at $54.1M/$56.6M",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/BOS.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jayson Tatum — 5yr/$315M supermax extension signed Oct 2023, $63M AAV, runs through 2029-30",
+        "new": "Jayson Tatum, 5yr/$315M supermax (Oct 2023), $63M AAV, through 2029-30; Jaylen Brown traded to Philadelphia July 2026 for Paul George",
+        "fact": "Brown-for-George swap July 6, 2026",
+        "source": "https://www.nba.com/news/nba-offseason-deals-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: Wikipedia's owners list shows Chisholm 51% with Grousbeck, Mittal, Beal, Hale and Sixth Street as minority holders; percentages beyond 51/49 not sourced",
+      "arena.namingRightsDeal: no 2026 TD Garden renewal terms found"
+    ],
+    "analystNotes": "Forbes put the Celtics at $6.7B in October 2025 on $458M of revenue, and the March 2025 Chisholm purchase at $6.1B for control remains the cleanest arm's-length comp for a top-tier market that is not New York or Los Angeles. Boston lost in the first round to Philadelphia in seven games in 2026, then swapped Jaylen Brown for Paul George and two first-round picks, cutting the long-dated supermax load while keeping Tatum's deal that climbs to $71.4M by 2029-30. The 2026 season also brought Joe Mazzulla Coach of the Year honors on a roster that still sits at $204M for 2026-27. Whether George's two remaining years plus the recovered picks convert into another Finals run around Tatum is what moves the number from here.",
+    "analystNotesBasis": "Forbes 2025 ($6.7B, $458M revenue); transactions.js Chisholm deal; 2026 playoffs (BBR); July 2026 Brown/George trade; BBR 2026-27 payroll."
+  },
+  {
+    "teamId": "brooklyn-nets",
+    "team": "Brooklyn Nets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Cam Thomas — emerging franchise player; contract extension expected",
+        "new": "Julius Randle, acquired from Minnesota in the July 10, 2026 four-team LaMelo Ball trade; $33.3M in 2026-27, $35.8M in 2027-28",
+        "fact": "Randle arrived with the draft rights to No. 28 pick Joshua Jefferson; he is the highest-paid Net for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/BRK.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Cam Thomas",
+            "position": "SG",
+            "aav": 33,
+            "contractNote": "Extension expected; primary franchise asset in rebuild"
+          }
+        ],
+        "new": [
+          {
+            "player": "Julius Randle",
+            "position": "PF",
+            "aav": 34.6,
+            "contractNote": "Acquired from Minnesota July 10, 2026; $33.3M (2026-27) and $35.8M (2027-28)"
+          }
+        ],
+        "fact": "Randle is the only Net above $16M for 2026-27; Nic Claxton was sent to Chicago in the same trade",
+        "source": "https://www.basketball-reference.com/contracts/BRK.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "Cam Thomas status: not on the Nets' 2026-27 contract table at Basketball-Reference; his 2026 destination was not sourced",
+      "ownership.ownershipGroup: no 2026 change to the Tsai/Koch structure found, but not re-verified"
+    ],
+    "analystNotes": "Forbes valued the Nets at $5.6B in October 2025 on $402M of revenue, and the number is really a Barclays Center and BSE Global story: the 2024 Koch purchase of 15% at a $6B BSE valuation still prices the bundle above the team-only figure. Brooklyn has not made the playoffs since 2023, and the July 2026 four-team trade that brought Julius Randle at $33.3M while sending Nic Claxton to Chicago is a reset around draft capital rather than a contention move. The arena runs 320-plus events a year, so the franchise value floor is the building and the New York market. A credible young core turning the lottery picks into a playoff team is what would move Brooklyn toward the Knicks-style market premium.",
+    "analystNotesBasis": "Forbes 2025 ($5.6B, $402M revenue); Koch stake from enrichment; 2022-2026 playoff record; July 2026 Randle trade (Wikipedia transactions, BBR contracts)."
+  },
+  {
+    "teamId": "new-york-knicks",
+    "team": "New York Knicks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Knicks beat the Spurs 4-1 in the 2026 NBA Finals (June 3-13, 2026), their third title and first since 1973; Jalen Brunson Finals MVP at 32.6 ppg",
+        "source": "https://www.basketball-reference.com/playoffs/2026-nba-finals-knicks-vs-spurs.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoffs in 2023, 2024, 2025 and 2026 (window 2022-2026); swept Cleveland in the 2026 East finals and Philadelphia in the second round",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jalen Brunson — 4yr/$156.5M extension signed July 2023, $39.1M AAV, runs through 2026-27",
+        "new": "Jalen Brunson, 2026 Finals MVP; $37.7M in 2026-27 rising to $43.3M in 2028-29",
+        "fact": "Brunson is under contract through 2028-29 per Basketball-Reference ($37.7M, $40.5M, $43.3M)",
+        "source": "https://www.basketball-reference.com/contracts/NYK.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jalen Brunson",
+            "position": "PG",
+            "aav": 39.1,
+            "contractNote": "4yr/$156.5M extension (July 2023), through 2026-27"
+          },
+          {
+            "player": "Karl-Anthony Towns",
+            "position": "C",
+            "aav": 49.1,
+            "contractNote": "3yr/$147.5M signed 2024 after trade from Timberwolves; through 2026-27"
+          },
+          {
+            "player": "OG Anunoby",
+            "position": "SF",
+            "aav": 36,
+            "contractNote": "5yr extension signed 2024; key defensive anchor"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jalen Brunson",
+            "position": "PG",
+            "aav": 40.5,
+            "contractNote": "2026 Finals MVP; $37.7M (2026-27), $40.5M (2027-28), $43.3M (2028-29)"
+          },
+          {
+            "player": "Karl-Anthony Towns",
+            "position": "C",
+            "aav": 59,
+            "contractNote": "$57.1M (2026-27), $61.0M (2027-28); through 2027-28"
+          },
+          {
+            "player": "OG Anunoby",
+            "position": "SF",
+            "aav": 45.4,
+            "contractNote": "$42.5M (2026-27) rising to $48.4M (2028-29)"
+          },
+          {
+            "player": "Mikal Bridges",
+            "position": "SF",
+            "aav": 37.5,
+            "contractNote": "$33.5M (2026-27) rising to $41.5M (2029-30)"
+          }
+        ],
+        "fact": "Salary figures per Basketball-Reference contracts table; Knicks 2026-27 payroll $230.2M",
+        "source": "https://www.basketball-reference.com/contracts/NYK.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "arena.newArenaPlans"
+    ],
+    "unverified": [
+      "media.localTVDeal: MSG Network still carries the team per Wikipedia 2026-27 season page, but no 2026 rights-fee update found",
+      "The Knicks also won the 2025 NBA Cup per Wikipedia; not added as a field"
+    ],
+    "analystNotes": "Forbes ranked the Knicks second in the NBA at $9.75B in October 2025 on $532M of revenue, and that was before the 2026 championship, the franchise's first since 1973, which removes the one argument that always capped the number: no titles. Jalen Brunson's Finals MVP run at 32.6 points a game came on a $37.7M salary that rises only to $43.3M by 2028-29, the most efficient star contract in the league relative to output. The payroll is $230M for 2026-27 with Towns at $57.1M and Anunoby at $42.5M, so the tax bill is real but MSG Network and the Garden absorb it. A repeat, or even a second Finals, would push New York past the Warriors' $11B as the most valuable NBA franchise.",
+    "analystNotesBasis": "Forbes 2025 ($9.75B, $532M revenue); 2026 Finals result and Finals MVP (BBR); BBR 2026-27 contracts."
+  },
+  {
+    "teamId": "philadelphia-76ers",
+    "team": "Philadelphia 76ers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.newArenaPlans",
+        "old": "Original '76 Place at Market East' arena plan (Center City) abandoned January 2025; new plan is a 50/50 joint venture with Comcast Spectacor to build a new South Philly arena housing both 76ers and Flyers, estimated $1.5B+; would be adjacent to existing stadium complex",
+        "new": "New South Philadelphia Arena: 50/50 HBSE and Comcast Spectacor joint venture on the former Spectrum site at Broad and Pattison, fully privately funded (billed as the largest privately funded project in city history); site announced April 2026, first renderings September 8, 2026; construction to start in the first half of 2027 pending regulatory and legislative approval; opening targeted for 2030 for the 76ers, Flyers and Philadelphia's 2030 WNBA expansion team",
+        "fact": "Site and renderings released 2026; 2030 opening target; WNBA expansion team joins as third tenant",
+        "source": "https://www.inquirer.com/news/philadelphia/sixers-new-arena-philly-flyers-renderings-date-20260908.html ; https://en.wikipedia.org/wiki/New_South_Philadelphia_Arena"
+      },
+      {
+        "field": "arena.name",
+        "old": "Wells Fargo Center",
+        "new": "Xfinity Mobile Arena",
+        "fact": "Arena renamed Xfinity Mobile Arena (already reflected in forbes-proxies.js venue field); 76ers' 2026-27 home per Wikipedia season page",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Philadelphia_76ers_season"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoffs in 2022, 2023, 2024 and 2026; beat Boston 4-3 in the 2026 first round, swept by New York in round two",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Joel Embiid — max extension signed 2024, $64.3M AAV, through 2028-29",
+        "new": "Joel Embiid ($58.1M in 2026-27, through 2028-29) and Jaylen Brown, acquired from Boston July 6, 2026 for Paul George and two first-round picks ($57.1M in 2026-27, through 2028-29); LeBron James signed a 2yr/$8M deal July 27, 2026",
+        "fact": "Brown-for-George trade and LeBron's two-year, $8M signing with a player option",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Joel Embiid",
+            "position": "C",
+            "aav": 64.3,
+            "contractNote": "3yr/$192.9M max extension (2024), through 2028-29; highest AAV in NBA at signing"
+          },
+          {
+            "player": "Tyrese Maxey",
+            "position": "PG",
+            "aav": 40.8,
+            "contractNote": "5yr/$204M max extension (2024), through 2028-29"
+          },
+          {
+            "player": "Paul George",
+            "position": "SF",
+            "aav": 53,
+            "contractNote": "4yr/$212M signed 2024 (free agent from Clippers), through 2027-28"
+          }
+        ],
+        "new": [
+          {
+            "player": "Joel Embiid",
+            "position": "C",
+            "aav": 62.7,
+            "contractNote": "$58.1M (2026-27), $62.7M (2027-28), $67.4M (2028-29)"
+          },
+          {
+            "player": "Jaylen Brown",
+            "position": "SG/SF",
+            "aav": 61,
+            "contractNote": "Acquired from Boston July 6, 2026; $57.1M (2026-27), $61.0M (2027-28), $65.0M (2028-29)"
+          },
+          {
+            "player": "Tyrese Maxey",
+            "position": "PG",
+            "aav": 43.6,
+            "contractNote": "$40.8M (2026-27) rising to $46.4M (2028-29)"
+          },
+          {
+            "player": "LeBron James",
+            "position": "SF",
+            "aav": 4,
+            "contractNote": "2yr/$8M signed July 27, 2026 with a player option; $3.9M in 2026-27"
+          }
+        ],
+        "fact": "Paul George traded to Boston; Brown and LeBron added; figures per Basketball-Reference",
+        "source": "https://www.basketball-reference.com/contracts/PHI.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "arena.namingRightsDeal: Xfinity Mobile naming sponsor value not sourced (enrichment still lists Wells Fargo)",
+      "New arena cost: reported only as undisclosed and privately funded"
+    ],
+    "analystNotes": "Forbes valued the 76ers at $5.45B in October 2025 on $472M of revenue and a $203M operating profit, the best margin in the East outside New York, and the 2026 offseason turned a tenant franchise into a future landlord: HBSE and Comcast Spectacor will co-own the privately funded South Philadelphia arena on the old Spectrum site, with construction slated for 2027 and opening in 2030 alongside a WNBA expansion team. On the court Philadelphia beat Boston in seven in the 2026 first round, then swapped Paul George for Jaylen Brown and added LeBron James on a two-year, $8M deal, putting $156M into Embiid, Brown and Maxey for 2026-27. The number moves on two things: Embiid's availability, and the 2027 legislative approvals that let the arena break ground on time.",
+    "analystNotesBasis": "Forbes 2025 ($5.45B, $472M revenue, $203M operating income); Sept 2026 arena renderings (Inquirer, Wikipedia); 2026 playoffs (BBR); July 2026 trades and signings (Wikipedia transactions, ESPN, BBR contracts)."
+  },
+  {
+    "teamId": "toronto-raptors",
+    "team": "Toronto Raptors",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Rogers Communications",
+            "role": "majority shareholder (75%) of MLSE",
+            "pct": "75%"
+          },
+          {
+            "name": "Larry Tanenbaum / Kilmer Sports",
+            "role": "minority shareholder (25%) of MLSE; option for Rogers to buy by 2026",
+            "pct": "25%"
+          }
+        ],
+        "new": [
+          {
+            "name": "Rogers Communications",
+            "role": "majority shareholder (75%) of MLSE",
+            "pct": "75%"
+          },
+          {
+            "name": "Kilmer Sports (Larry Tanenbaum 20%, OMERS 5%)",
+            "role": "minority shareholder (25%) of MLSE; Rogers option purchase expected to close Q4 2026",
+            "pct": "25%"
+          }
+        ],
+        "fact": "Wikipedia's MLSE page (April 2026) lists Kilmer Sports at 25% split Tanenbaum 20% / OMERS 5%, with an editor note that the Rogers buyout is expected to close in Q4 2026; MLSE equity value listed at CA$17.4B (2026) vs CA$12.5B (2024)",
+        "source": "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Scottie Barnes — 5yr/$225M supermax extension signed July 2024, $45M AAV, effective 2025-26 through 2029-30 (eligible for $270M with performance bonuses)",
+        "new": "Scottie Barnes ($41.8M in 2026-27, through 2029-30) plus Kawhi Leonard, reacquired from the Clippers September 14, 2026 for Brandon Ingram, Gradey Dick and five draft picks; Leonard signed a 2yr/$115M extension covering 2027-28 and 2028-29",
+        "fact": "Kawhi trade agreed June 30, 2026 but held until September 14 during the NBA's Clippers cap-circumvention investigation; extension per Hoops Rumors",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Toronto_Raptors_season ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Scottie Barnes",
+            "position": "PF/SF",
+            "aav": 45,
+            "contractNote": "5yr/$225M supermax (July 2024), effective 2025-26 through 2029-30; could reach $270M with bonuses"
+          },
+          {
+            "player": "RJ Barrett",
+            "position": "SG/SF",
+            "aav": 24,
+            "contractNote": "Acquired from Knicks in 2023 trade; on existing max extension"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kawhi Leonard",
+            "position": "SF",
+            "aav": 55.1,
+            "contractNote": "Reacquired from LA Clippers Sept 14, 2026; $50.3M (2026-27), then 2yr/$115M extension: $56.1M (2027-28), $58.9M (2028-29, player option)"
+          },
+          {
+            "player": "Scottie Barnes",
+            "position": "PF/SF",
+            "aav": 46.4,
+            "contractNote": "$41.8M (2026-27) rising to $51.0M (2029-30)"
+          },
+          {
+            "player": "Immanuel Quickley",
+            "position": "PG",
+            "aav": 32.5,
+            "contractNote": "$32.5M per year through 2028-29"
+          },
+          {
+            "player": "RJ Barrett",
+            "position": "SG/SF",
+            "aav": 29.6,
+            "contractNote": "$29.6M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Figures per Basketball-Reference; Raptors 2026-27 payroll $205.1M",
+        "source": "https://www.basketball-reference.com/contracts/TOR.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.localTVDeal: Wikipedia 2026-27 page lists TSN and Sportsnet; no 2026 Canadian rights renewal terms found",
+      "MLSE CA$17.4B 2026 equity figure is from the Wikipedia infobox and was not traced to its underlying source"
+    ],
+    "analystNotes": "Forbes valued the Raptors at $5.4B in October 2025 on $380M of revenue, and the real asset is the MLSE bundle, now carried at CA$17.4B on the 2026 books versus CA$12.5B when Rogers bought Bell's stake, with Rogers' option on Kilmer Sports' remaining 25% expected to close in the fourth quarter of 2026. Toronto returned to the playoffs in 2026 and lost a seven-game first-round series to Cleveland, then reacquired Kawhi Leonard in September for Brandon Ingram, Gradey Dick and five picks, pairing a $50.3M Leonard with Scottie Barnes at $41.8M. Rogers owning the team, the arena and Sportsnet gives Toronto a closed media loop no US franchise can copy. The 2026 Kilmer closing and a Leonard-Barnes playoff run are what move a Canada-wide franchise past $6B.",
+    "analystNotesBasis": "Forbes 2025 ($5.4B, $380M revenue); MLSE Wikipedia ownership and equity figures; 2026 playoffs (BBR); Sept 2026 Kawhi trade (Wikipedia season page, BBR contracts, Hoops Rumors extension tracker)."
+  },
+  {
+    "teamId": "chicago-bulls",
+    "team": "Chicago Bulls",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Only the 2022 playoffs fall in the 2022-2026 window; Chicago missed the 2026 playoffs",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Zach LaVine — 5yr/$215.2M max signed July 2022, $43M AAV, through 2026-27",
+        "new": "Josh Giddey ($25M per year through 2028-29); Zach LaVine was traded to Sacramento in February 2025 and Nic Claxton arrived from Brooklyn in the July 10, 2026 four-team trade",
+        "fact": "LaVine is on Sacramento's books at $49.0M for 2026-27; Giddey is Chicago's highest-paid player",
+        "source": "https://www.basketball-reference.com/contracts/CHI.html ; https://www.basketball-reference.com/contracts/SAC.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Zach LaVine",
+            "position": "SG",
+            "aav": 43,
+            "contractNote": "5yr/$215.2M max (July 2022), through 2026-27; frequent subject of trade speculation"
+          },
+          {
+            "player": "Nikola Vucevic",
+            "position": "C",
+            "aav": 22,
+            "contractNote": "Extended; veteran anchor"
+          }
+        ],
+        "new": [
+          {
+            "player": "Josh Giddey",
+            "position": "PG",
+            "aav": 25,
+            "contractNote": "$25M per year through 2028-29"
+          },
+          {
+            "player": "Nic Claxton",
+            "position": "C",
+            "aav": 22,
+            "contractNote": "Acquired from Brooklyn July 10, 2026; $23.1M (2026-27), $20.9M (2027-28)"
+          },
+          {
+            "player": "Norman Powell",
+            "position": "SG",
+            "aav": 22,
+            "contractNote": "$21.5M (2026-27), $22.6M (2027-28)"
+          }
+        ],
+        "fact": "Per Basketball-Reference 2026-27 contracts; Vucevic and LaVine no longer on the roster",
+        "source": "https://www.basketball-reference.com/contracts/CHI.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Head coach Billy Donovan stepped down April 21, 2026 per Wikipedia; successor not sourced",
+      "ownership: no 2026 Reinsdorf succession or sale news found"
+    ],
+    "analystNotes": "Forbes valued the Bulls at $6.0B in October 2025 on $434M of revenue, the highest number in the league for a team with one playoff trip in five years, because the Jordan-era brand and the 50/50 United Center ownership with the Blackhawks carry the valuation regardless of results. Chicago missed the 2026 playoffs, Billy Donovan stepped down in April, and the roster now tops out at Josh Giddey's $25M with Nic Claxton added in July, a $161.5M payroll that leaves real cap room. Chicago Sports Network remains the post-RSN experiment worth watching for every mid-market team. A genuine contender, or clarity on Reinsdorf family succession, is what would move a brand this large toward the Knicks and Lakers tier.",
+    "analystNotesBasis": "Forbes 2025 ($6.0B, $434M revenue); 2022-2026 playoff record (BBR); BBR 2026-27 contracts; Wikipedia 2026-27 season page."
+  },
+  {
+    "teamId": "cleveland-cavaliers",
+    "team": "Cleveland Cavaliers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Ohio (Sinclair Broadcast Group / Diamond Sports Group regional network; RSN industry in flux post-Diamond bankruptcy)",
+        "new": "DAZN (multi-year streaming deal announced Sept 1, 2026; all non-national games, $19.99/month or $119.99/season, 15 games free) with the 15 free games simulcast over the air on Gray Media's WOIO/WUAB in Cleveland and statewide on Rock Entertainment Sports Network; team-produced broadcasts replace FanDuel Sports Network Ohio, which shut down after the 2025-26 regular season",
+        "fact": "Cavaliers left pay-TV for DAZN plus an over-the-air simulcast after Main Street Sports Group's wind-down",
+        "source": "https://www.si.com/nba/cavaliers/onsi/cleveland-cavaliers-announce-new-television-deal-for-2026-27-season-01m1ehwyps9p ; https://www.cleveland19.com/2026/09/15/cleveland-cavaliers-games-return-free-over-the-air-television-19-news/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass; Diamond Sports Group RSN availability subject to ongoing bankruptcy/restructuring",
+        "new": "DAZN carries in-market games from 2026-27 (Monthly Pass $19.99, Season Pass $119.99, Ultimate tiers $24.99/$139.99); the NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "Pricing per SI; league streaming plan per Hoops Rumors",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoffs 2023-2026; reached the 2026 Eastern Conference finals (beat Toronto 4-3 and Detroit 4-3, swept by New York)",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Donovan Mitchell — extension signed 2023, $32.7M AAV; Evan Mobley max extension $53.8M AAV effective 2024-25",
+        "new": "Donovan Mitchell, 4yr/$273M max extension signed July 2026 starting 2027-28 (35% of cap, $60.9M to $75.5M, fourth-year player option); Evan Mobley $50.1M in 2026-27 through 2029-30",
+        "fact": "Mitchell extension per Hoops Rumors ($275.968M projected) and ESPN ($273M)",
+        "source": "https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Donovan Mitchell",
+            "position": "SG/PG",
+            "aav": 32.7,
+            "contractNote": "5yr/$163.5M supermax (2023), player option 2027-28; acquired from Jazz in 2022 trade"
+          },
+          {
+            "player": "Evan Mobley",
+            "position": "C/PF",
+            "aav": 53.8,
+            "contractNote": "5yr/$269M max extension (effective 2024-25), through 2028-29; highest-upside young big in the East"
+          },
+          {
+            "player": "Darius Garland",
+            "position": "PG",
+            "aav": 33,
+            "contractNote": "Max extension; through 2026-27"
+          }
+        ],
+        "new": [
+          {
+            "player": "Donovan Mitchell",
+            "position": "SG/PG",
+            "aav": 68.2,
+            "contractNote": "$50.1M in 2026-27, then 4yr/$273M extension (July 2026) from $60.9M (2027-28) to $75.5M (2030-31), player option on year four"
+          },
+          {
+            "player": "Evan Mobley",
+            "position": "C/PF",
+            "aav": 55.7,
+            "contractNote": "$50.1M (2026-27) rising to $61.2M (2029-30)"
+          },
+          {
+            "player": "James Harden",
+            "position": "PG",
+            "aav": 32.2,
+            "contractNote": "Acquired from LA Clippers in February 2026 for Darius Garland; re-signed 3yr/$97M in Sept 2026: $30.6M, $32.2M, $33.7M"
+          },
+          {
+            "player": "Jarrett Allen",
+            "position": "C",
+            "aav": 30.2,
+            "contractNote": "$28.0M (2026-27) rising to $32.5M (2028-29)"
+          }
+        ],
+        "fact": "Garland traded to the Clippers Feb 2026; Harden acquired and re-signed; figures per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/CLE.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "DAZN rights fee: not disclosed; league guidance was that former FanDuel teams recover up to roughly 60% of lost 2025-26 fees from the Main Street wind-down"
+    ],
+    "analystNotes": "Forbes valued the Cavaliers at $4.8B in October 2025 on $440M of revenue, and Cleveland then went to the 2026 Eastern Conference finals before being swept by the champion Knicks, its fourth straight playoff trip. The July 2026 Mitchell extension at $273M over four years from 2027-28 stacks with Mobley's deal to put two max contracts on a roster that already carries $209M for 2026-27, with James Harden re-signed for three years after the February Garland trade. The media line is the new variable: FanDuel Sports Network Ohio is gone, and the Cavs moved to DAZN at $19.99 a month with 15 games free over the air on Gray stations, a team-produced model built to slot into the league's 2027-28 local streaming package. Whether DAZN subscriptions replace the lost RSN check is the swing factor on Cleveland's local revenue.",
+    "analystNotesBasis": "Forbes 2025 ($4.8B, $440M revenue); 2026 playoffs (BBR); Sept 2026 DAZN deal (SI, Cleveland 19); Mitchell extension (Hoops Rumors); BBR 2026-27 contracts."
+  },
+  {
+    "teamId": "detroit-pistons",
+    "team": "Detroit Pistons",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Detroit (Sinclair/Diamond Sports Group regional network; RSN industry in flux post-Diamond bankruptcy)",
+        "new": "WMYD (Scripps Sports) over-the-air for 2026-27 after FanDuel Sports Network Detroit shut down at the end of the 2025-26 regular season; Detroit is one of the OTA-only teams among the 13 former FanDuel clubs",
+        "fact": "Wikipedia 2026-27 season page lists WMYD (Scripps Sports); Sports Media Watch groups the Pistons with Hawks, Heat and Bucks as OTA-only",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Detroit_Pistons_season ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass; Diamond Sports Group RSN availability subject to ongoing bankruptcy/restructuring",
+        "new": "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 2,
+        "fact": "Playoffs in 2025 and 2026; beat Orlando 4-3 in the 2026 first round, lost 4-3 to Cleveland in round two; won the Central Division in 2025-26",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Cade Cunningham",
+            "position": "PG",
+            "aav": 44.8,
+            "contractNote": "5yr/$224M max extension (summer 2024); franchise cornerstone through 2028-29"
+          },
+          {
+            "player": "Jalen Duren",
+            "position": "C",
+            "aav": 18,
+            "contractNote": "Extension; young anchor in frontcourt"
+          }
+        ],
+        "new": [
+          {
+            "player": "Cade Cunningham",
+            "position": "PG",
+            "aav": 55.7,
+            "contractNote": "$50.1M (2026-27) rising to $61.2M (2029-30); through 2029-30"
+          },
+          {
+            "player": "Ausar Thompson",
+            "position": "SF",
+            "aav": 31,
+            "contractNote": "5yr/$155M rookie-scale extension signed July 2026, starting 2027-28 ($26.7M to $35.3M through 2031-32)"
+          },
+          {
+            "player": "John Collins",
+            "position": "PF",
+            "aav": 17,
+            "contractNote": "Sign-and-trade from the Clippers July 8, 2026; $17M in 2026-27"
+          }
+        ],
+        "fact": "Cunningham figures and Thompson extension per Basketball-Reference and Hoops Rumors; Duren not among the top contracts on the 2026-27 table",
+        "source": "https://www.basketball-reference.com/contracts/DET.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.newArenaPlans",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Scripps rights fee and deal length not disclosed",
+      "Jalen Duren contract status: not visible on BBR top rows for 2026-27; not re-verified"
+    ],
+    "analystNotes": "Forbes valued the Pistons at $3.65B in October 2025, up from the $2.4B floor a year earlier, on $321M of revenue, and the on-court turnaround is now two straight playoff trips including a 2026 second-round loss to Cleveland in seven games after a Central Division title. Cade Cunningham's max deal runs from $50.1M to $61.2M through 2029-30, and Ausar Thompson's 5yr/$155M July 2026 extension locks the second piece, on a payroll of just $153M for 2026-27. The structural problems are unchanged: the Ilitch family owns Little Caesars Arena and its naming and event revenue, and the local TV deal collapsed with FanDuel Sports Network, leaving games on Scripps' WMYD over the air for 2026-27. A Detroit conference finals run and the league's 2027-28 local streaming package are what would close the gap to the $4.5B mid-market peers.",
+    "analystNotesBasis": "Forbes 2025 ($3.65B, $321M revenue); 2026 playoffs (BBR); Scripps WMYD per Wikipedia 2026-27 page; BBR contracts; Hoops Rumors extension tracker."
+  },
+  {
+    "teamId": "indiana-pacers",
+    "team": "Indiana Pacers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Indiana / FanDuel Sports Network, ~$12M/yr",
+        "new": "FanDuel Sports Network Indiana shut down after the 2025-26 regular season; for 2026-27 the Pacers are expected to sell exclusive in-market rights to DAZN (streaming), with CEO Mel Raines saying the team looked at both over-the-air and direct-to-consumer partners",
+        "fact": "Yahoo/Hoops Rumors report DAZN near exclusive local deals with Indiana, Minnesota, Cleveland, San Antonio and Memphis; Pacers deal not formally announced in sources found",
+        "source": "https://sports.yahoo.com/articles/pacers-expected-move-local-broadcasts-201055030.html ; https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 2,
+        "fact": "Playoffs in 2024 and 2025 within the 2022-2026 window; missed the 2026 playoffs after Tyrese Haliburton's Achilles injury in Game 7 of the 2025 Finals",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Indiana_Pacers_season ; https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Tyrese Haliburton — 5yr/$224M max extension (2023), $44.8M AAV, through 2027-28; led Pacers to 2024 Eastern Conference Finals",
+        "new": "Tyrese Haliburton, $48.9M in 2026-27 rising to $55.7M in 2028-29; missed 2025-26 after a torn Achilles in Game 7 of the 2025 NBA Finals; Pascal Siakam on the same $48.9M/$52.3M schedule through 2027-28",
+        "fact": "Salary schedule per Basketball-Reference; Haliburton injury and 2026 playoff miss per Wikipedia",
+        "source": "https://www.basketball-reference.com/contracts/IND.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Tyrese Haliburton",
+            "position": "PG",
+            "aav": 44.8,
+            "contractNote": "5yr/$224M max (2023), through 2027-28; 2024 All-Star"
+          },
+          {
+            "player": "Myles Turner",
+            "position": "C",
+            "aav": 30,
+            "contractNote": "4yr/$120M (2024), through 2027-28"
+          }
+        ],
+        "new": [
+          {
+            "player": "Tyrese Haliburton",
+            "position": "PG",
+            "aav": 52.3,
+            "contractNote": "$48.9M (2026-27), $52.3M (2027-28), $55.7M (2028-29); returned from 2025 Finals Achilles tear"
+          },
+          {
+            "player": "Pascal Siakam",
+            "position": "PF",
+            "aav": 50.6,
+            "contractNote": "$48.9M (2026-27), $52.3M (2027-28)"
+          },
+          {
+            "player": "Ivica Zubac",
+            "position": "C",
+            "aav": 21.1,
+            "contractNote": "$20.3M (2026-27), $21.8M (2027-28); Myles Turner left for Milwaukee in 2025 free agency"
+          }
+        ],
+        "fact": "Turner signed with the Bucks in July 2025; Zubac is Indiana's center per the 2026-27 contract table",
+        "source": "https://www.basketball-reference.com/contracts/IND.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "DAZN Pacers deal: reported as expected, not announced; fee unknown",
+      "ownership.ownershipGroup: Steven Rales stake listed as pending in enrichment; closing not re-verified"
+    ],
+    "analystNotes": "Forbes valued the Pacers at $4.2B in October 2025 on $342M of revenue, a number earned by the 2025 Finals run that ended in Game 7 with Tyrese Haliburton's torn Achilles, and 2025-26 showed the cost: Indiana missed the playoffs without him. Haliburton and Pascal Siakam each earn $48.9M in 2026-27 on a $206M payroll, so the franchise is paying contention prices for a gap year. The local TV line is reset to zero after FanDuel Sports Network Indiana shut down, with an exclusive DAZN streaming deal reported as the 2026-27 stopgap before the league's 2027-28 package. Haliburton's return to All-NBA form is the single input that decides whether Indianapolis holds the $4B-plus valuation.",
+    "analystNotesBasis": "Forbes 2025 ($4.2B, $342M revenue); Wikipedia 2026-27 Pacers page (Haliburton injury, playoff miss); BBR contracts; Yahoo DAZN report."
+  },
+  {
+    "teamId": "atlanta-hawks",
+    "team": "Atlanta Hawks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southeast / FanDuel Sports Network, ~$15M/yr",
+        "new": "WANF (Gray Media's former Atlanta CBS affiliate, now independent) over the air for 2026-27 after FanDuel Sports Network Southeast shut down at the end of the 2025-26 regular season; Atlanta is one of the OTA-only teams among the 13 former FanDuel clubs",
+        "fact": "Sports Media Watch: Hawks games available over the air on WANF for 2026-27",
+        "source": "https://www.sportsmediawatch.com/tv-schedules/nba-tv-schedule/atlanta-hawks/ ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Atlanta_Hawks_season"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Trae Young — 5yr/$215M max extension (2021), $43M AAV, through 2025-26; Jalen Johnson emerging as co-star",
+        "new": "Jalen Johnson ($30M per year through 2029-30); Trae Young was traded to Washington on January 9, 2026 for CJ McCollum and Corey Kispert",
+        "fact": "Trae Young trade per Wikipedia 2025-26 transactions; Johnson is the highest-paid Hawk for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/ATL.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Trae Young",
+            "position": "PG",
+            "aav": 43,
+            "contractNote": "5yr/$215M max (2021), through 2025-26; frequent trade speculation"
+          },
+          {
+            "player": "Jalen Johnson",
+            "position": "SF",
+            "aav": 32.5,
+            "contractNote": "4yr/$130M (2024), through 2027-28; emerging franchise co-star"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jalen Johnson",
+            "position": "SF",
+            "aav": 30,
+            "contractNote": "$30M per year through 2029-30"
+          },
+          {
+            "player": "Dyson Daniels",
+            "position": "SG",
+            "aav": 25,
+            "contractNote": "$25M per year through 2029-30"
+          },
+          {
+            "player": "CJ McCollum",
+            "position": "PG",
+            "aav": 21,
+            "contractNote": "Acquired from Washington Jan 9, 2026 in the Trae Young trade; $21M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Per Basketball-Reference; Jonathan Kuminga (acquired Feb 2026) is on Minnesota's 2026-27 books, not Atlanta's",
+        "source": "https://www.basketball-reference.com/contracts/ATL.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "WANF rights fee and term not disclosed"
+    ],
+    "analystNotes": "Forbes valued the Hawks at $5.0B in October 2025 on $477M of revenue and a $203M operating profit, numbers that owe more to State Farm Arena's event calendar and the ninth-largest DMA than to the roster. Atlanta traded Trae Young to Washington in January 2026 for CJ McCollum and Corey Kispert, still made the playoffs, and lost to the eventual champion Knicks in six; the core is now Jalen Johnson and Dyson Daniels at $30M and $25M a year through 2029-30 on a lean $198M payroll. The local TV check disappeared with FanDuel Sports Network Southeast, and 2026-27 games air free on WANF, which trades rights fees for reach until the league's 2027-28 streaming package. Attendance and a post-Young identity that wins a series are what move Atlanta from a market-and-building valuation to a basketball one.",
+    "analystNotesBasis": "Forbes 2025 ($5.0B, $477M revenue, $203M operating income); Jan 2026 Trae Young trade (Wikipedia); 2026 playoffs (BBR); WANF per Sports Media Watch; BBR contracts."
+  },
+  {
+    "teamId": "charlotte-hornets",
+    "team": "Charlotte Hornets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southeast / FanDuel Sports Network, ~$13M/yr",
+        "new": "One-year over-the-air deal with Cox Media Group (WSOC-TV Channel 9 and TV64) for 2026-27, reported at roughly $7-8M, plus a DAZN direct-to-consumer stream (roughly $1-2M) after FanDuel Sports Network Southeast shut down",
+        "fact": "Announced August 2026; 'beam and stream' hybrid model",
+        "source": "https://www.hoopsrumors.com/2026/08/hornets-magic-announce-local-tv-broadcast-plans-for-2026-27.html ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "DAZN direct-to-consumer stream for in-market games from 2026-27 alongside the Cox over-the-air package; one-year structure follows NBA guidance ahead of a league local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "Per Hoops Rumors and Sports Media Watch",
+        "source": "https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "No playoff appearances 2022-2026; Charlotte reached the 2026 play-in tournament (first since 2022) but did not advance",
+        "source": "https://en.wikipedia.org/wiki/2026_NBA_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "LaMelo Ball — 5yr/$204M max extension (2023), $40.8M AAV, through 2027-28",
+        "new": "LaMelo Ball was traded to Minnesota on July 10, 2026 in a four-team deal that returned Naz Reid, three Minnesota first-round swap rights, a 2033 MIN first-round pick and second-rounders; Naz Reid ($23.3M in 2026-27, through 2029-30) and Coby White ($22.8M) lead the roster",
+        "fact": "Ball trade per Wikipedia 2026-27 transactions; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/CHO.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "LaMelo Ball",
+            "position": "PG",
+            "aav": 40.8,
+            "contractNote": "5yr/$204M max (2023), through 2027-28; injury history the primary risk"
+          }
+        ],
+        "new": [
+          {
+            "player": "Naz Reid",
+            "position": "C/PF",
+            "aav": 25.9,
+            "contractNote": "Acquired from Minnesota July 10, 2026 in the LaMelo Ball trade; $23.3M (2026-27) rising to $28.4M (2029-30)"
+          },
+          {
+            "player": "Coby White",
+            "position": "PG",
+            "aav": 24.7,
+            "contractNote": "Re-signed July 2026; $22.8M (2026-27) rising to $26.5M (2028-29)"
+          },
+          {
+            "player": "Brandon Miller",
+            "position": "SF",
+            "aav": 15.1,
+            "contractNote": "$15.1M in 2026-27 (final rookie-scale year)"
+          }
+        ],
+        "fact": "Per Basketball-Reference 2026-27 contracts",
+        "source": "https://www.basketball-reference.com/contracts/CHO.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.newArenaPlans",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Spectrum Center renovation completion status in 2026 not sourced"
+    ],
+    "analystNotes": "Forbes valued the Hornets at $3.8B in October 2025 on $328M of revenue, and the 2023 Plotkin and Schnall purchase at $3B looks fine on paper even though the basketball product has not produced a playoff series since 2016. The July 2026 four-team trade sent LaMelo Ball to Minnesota for Naz Reid, three first-round swap rights and a 2033 first, a decision to sell the injury-prone max contract for optionality, leaving Charlotte with a $173M payroll and no player above $23.3M. Local TV reset hard: FanDuel Sports Network Southeast is gone, and the 2026-27 package is a one-year Cox Media Group over-the-air deal at roughly $7-8M plus a DAZN stream at $1-2M, about two-thirds of the old RSN money. A rookie-scale core that converts the Minnesota picks into a playoff team is what moves a fast-growing market past $4B.",
+    "analystNotesBasis": "Forbes 2025 ($3.8B, $328M revenue); July 2026 LaMelo trade (Wikipedia transactions, BBR); Aug 2026 Cox/DAZN deals (Hoops Rumors, Sports Media Watch); 2026 play-in (Wikipedia)."
+  },
+  {
+    "teamId": "miami-heat",
+    "team": "Miami Heat",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Sun / FanDuel Sports Network, ~$20M/yr",
+        "new": "WPLG Local 10 (Berkshire Hathaway-owned Miami station) over the air for 2026-27, announced June 8, 2026, after FanDuel Sports Network Sun shut down at the end of the 2025-26 regular season; Miami is one of the OTA-only teams among the 13 former FanDuel clubs",
+        "fact": "WPLG becomes the Heat's broadcast home; Sports Media Watch lists Miami as OTA-only",
+        "source": "https://www.local10.com/sports/local/2026/06/08/wplg-local-10-becomes-the-home-of-the-miami-heat/ ; https://www.sportsmediawatch.com/tv-schedules/nba-tv-schedule/miami-heat/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Bam Adebayo — 5yr/$195M (2021), $39M AAV; Jimmy Butler traded to Golden State January 2025",
+        "new": "Giannis Antetokounmpo, acquired from Milwaukee July 6, 2026 with Bobby Portis for Tyler Herro, Jaime Jaquez Jr., Kel'el Ware, Kasparas Jakucionis, the No. 13 pick (Nate Ament), 2031 and 2033 first-round picks and a 2030 swap; $58.5M in 2026-27, $62.8M in 2027-28; Bam Adebayo $49.8M through 2028-29",
+        "fact": "Giannis trade per Wikipedia 2026-27 transactions and NBA.com; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Miami_Heat_season ; https://www.basketball-reference.com/contracts/MIA.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bam Adebayo",
+            "position": "C",
+            "aav": 39,
+            "contractNote": "5yr/$195M (2021), through 2025-26; franchise anchor through transition"
+          },
+          {
+            "player": "Tyler Herro",
+            "position": "SG",
+            "aav": 32.5,
+            "contractNote": "4yr/$130M (2022), through 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Giannis Antetokounmpo",
+            "position": "PF",
+            "aav": 60.6,
+            "contractNote": "Acquired from Milwaukee July 6, 2026; $58.5M (2026-27), $62.8M (2027-28); free agency after 2027-28"
+          },
+          {
+            "player": "Bam Adebayo",
+            "position": "C",
+            "aav": 53.8,
+            "contractNote": "$49.8M (2026-27), $53.8M (2027-28), $57.8M (2028-29)"
+          },
+          {
+            "player": "Andrew Wiggins",
+            "position": "SF",
+            "aav": 21.4,
+            "contractNote": "$30.2M in 2026-27, then 2yr/$33.8M extension (2027-29) per Hoops Rumors"
+          }
+        ],
+        "fact": "Herro traded to Milwaukee; figures per Basketball-Reference and the Hoops Rumors extension tracker",
+        "source": "https://www.basketball-reference.com/contracts/MIA.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "WPLG rights fee and deal length not disclosed"
+    ],
+    "analystNotes": "Forbes valued the Heat at $5.7B in October 2025 on $417M of revenue, a number built on Kaseya Center's rent-free county deal and a Miami brand that had not been to a Finals since 2023, and in July 2026 Pat Riley bought the star: Giannis Antetokounmpo arrived from Milwaukee for Tyler Herro, three young players, the No. 13 pick and two future firsts. Giannis at $58.5M and Bam Adebayo at $49.8M put $210M on the 2026-27 payroll with Giannis eligible for free agency after 2027-28, so the window is two seasons. Local TV moved to WPLG over the air after FanDuel Sports Network Sun closed, which costs rights fees but keeps every game free in market during a title push. A Giannis-era Finals appearance and a long-term extension are what would carry Miami toward the $6.5B-plus tier.",
+    "analystNotesBasis": "Forbes 2025 ($5.7B, $417M revenue); July 2026 Giannis trade (Wikipedia, NBA.com, BBR contracts); WPLG deal (Local 10, Sports Media Watch); 2026 play-in (Wikipedia)."
+  },
+  {
+    "teamId": "orlando-magic",
+    "team": "Orlando Magic",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Florida / FanDuel Sports Network, ~$15M/yr",
+        "new": "Cox Media Group over-the-air deal for 2026-27 (WRDQ TV 27 primary, select games on WFTV Channel 9, plus Jacksonville stations), reported at about $8M a year, with a DAZN direct-to-consumer stream (roughly $1-2M) after FanDuel Sports Network Florida shut down",
+        "fact": "Announced August 2026; Magic and Hornets pioneered the hybrid over-the-air plus streaming model",
+        "source": "https://www.hoopsrumors.com/2026/08/hornets-magic-announce-local-tv-broadcast-plans-for-2026-27.html ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "DAZN direct-to-consumer stream for in-market games from 2026-27 alongside the Cox over-the-air package, ahead of a league local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "Per Hoops Rumors and Sports Media Watch",
+        "source": "https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Playoffs in 2024, 2025 and 2026; lost 4-3 to Detroit in the 2026 first round; head coach Jamahl Mosley fired May 4, 2026",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Orlando_Magic_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Paolo Banchero",
+            "position": "SF",
+            "aav": 47.8,
+            "contractNote": "5yr/$239M max extension (2025), through 2029-30; 2023 Rookie of the Year"
+          },
+          {
+            "player": "Franz Wagner",
+            "position": "SG",
+            "aav": 44.8,
+            "contractNote": "5yr/$224M (2024), through 2028-29"
+          }
+        ],
+        "new": [
+          {
+            "player": "Paolo Banchero",
+            "position": "SF",
+            "aav": 48.1,
+            "contractNote": "$41.5M (2026-27) rising to $54.8M (2030-31); through 2030-31"
+          },
+          {
+            "player": "Franz Wagner",
+            "position": "SF",
+            "aav": 46.4,
+            "contractNote": "$41.8M (2026-27) rising to $51.0M (2029-30)"
+          },
+          {
+            "player": "Desmond Bane",
+            "position": "SG",
+            "aav": 42.2,
+            "contractNote": "Acquired from Memphis in June 2025; $39.4M (2026-27) rising to $44.9M (2028-29)"
+          },
+          {
+            "player": "Jalen Suggs",
+            "position": "PG",
+            "aav": 28.9,
+            "contractNote": "$32.4M (2026-27) declining to $26.7M (2029-30)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; Orlando's 2026-27 payroll is $223.3M",
+        "source": "https://www.basketball-reference.com/contracts/ORL.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "New head coach after Mosley's May 2026 dismissal not sourced",
+      "Cox deal length not announced"
+    ],
+    "analystNotes": "Forbes valued the Magic at $3.9B in October 2025 on $318M of revenue, and Orlando is now paying contender money for first-round exits: Banchero, Wagner, Bane and Suggs put the 2026-27 payroll at $223M, and the 2026 season ended with a seven-game first-round loss to Detroit and Jamahl Mosley's firing. Kia Center's city financing keeps capex near zero, which is why the DeVos family can carry that payroll on Orlando's revenue base. The FanDuel Sports Network Florida shutdown cut local media to a roughly $8M Cox over-the-air deal plus a $1-2M DAZN stream, about half the old RSN fee. A second-round series win with this core, or the league's 2027-28 local streaming package restoring media income, is what moves Orlando past $4.5B.",
+    "analystNotesBasis": "Forbes 2025 ($3.9B, $318M revenue); 2026 playoffs and coaching change (BBR, Wikipedia); Aug 2026 Cox/DAZN deals (Hoops Rumors, Sports Media Watch); BBR contracts."
+  },
+  {
+    "teamId": "washington-wizards",
+    "team": "Washington Wizards",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.newArenaPlans",
+        "old": "$800M renovation underway (2025-2028): $515M DC public + $285M Monumental; completing in phases; anchors franchise's Washington presence through 2030s+",
+        "new": "Capital One Arena renovation now budgeted at more than $1B ($515M from the District, remainder from Monumental); phase 2 underway in fall 2026 with concourse work done before the 2026-27 season, interior premium work through 2026-27, and the exterior and Grand Pavilion finished before the 2027-28 season; Monumental and Capital One extended the naming-rights deal by 20 years (announced 2026)",
+        "fact": "Updated renderings and budget released August 2026; naming rights extended 20 years",
+        "source": "https://russianmachineneverbreaks.com/2026/08/12/capital-one-arena-renovations-renderings-monumental-1-billion-visibowl/ ; https://wjla.com/newsletter-daily/phase-2-of-construction-underway-at-capital-one-arena-fall-and-winter-events-to-continue-garth-brooks-capitals-wizards-events-september-2026"
+      },
+      {
+        "field": "arena.namingRightsDeal",
+        "old": {
+          "sponsor": "Capital One Financial",
+          "annualValue_M": 8,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Capital One naming began 2017 (from Verizon Center 2006-2017, MCI Center 1997-2006); paid to Monumental Sports & Entertainment"
+        },
+        "new": {
+          "sponsor": "Capital One Financial",
+          "annualValue_M": 8,
+          "totalValue_M": null,
+          "expiryYear": 2046,
+          "notes": "Capital One naming began 2017 (from Verizon Center 2006-2017, MCI Center 1997-2006); paid to Monumental Sports & Entertainment; extended by 20 years in 2026 alongside the $1B renovation, value undisclosed; expiry year is an estimate based on a 2026 extension"
+        },
+        "fact": "20-year naming-rights extension announced with the August 2026 renovation update; annual value not disclosed so the prior $8M figure is kept",
+        "source": "https://russianmachineneverbreaks.com/2026/08/12/capital-one-arena-renovations-renderings-monumental-1-billion-visibowl/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "No playoffs 2022-2026",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Alexandre Sarr (#2 pick 2024) — on rookie contract; full franchise rebuild underway",
+        "new": "Trae Young, acquired from Atlanta January 9, 2026 and re-signed in July 2026 on a four-year deal worth about $212.8M ($49.5M in 2026-27 to $58.4M in 2029-30); Anthony Davis acquired from Dallas in February 2026 ($58.5M in 2026-27, through 2027-28); AJ Dybantsa drafted 2026 ($14.7M rookie scale)",
+        "fact": "Young trade per Wikipedia 2025-26 transactions; four-year re-signing per NBA.com; salary schedule per Basketball-Reference; Davis trade per Wikipedia (Feb 2026 multi-team deal)",
+        "source": "https://www.nba.com/news/nba-offseason-deals-2026 ; https://www.basketball-reference.com/contracts/WAS.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kyle Kuzma",
+            "position": "SF",
+            "aav": 25.5,
+            "contractNote": "4yr/$102M (2022), through 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Anthony Davis",
+            "position": "C/PF",
+            "aav": 60.6,
+            "contractNote": "Acquired from Dallas Feb 2026; $58.5M (2026-27), $62.8M (2027-28)"
+          },
+          {
+            "player": "Trae Young",
+            "position": "PG",
+            "aav": 53.2,
+            "contractNote": "Acquired from Atlanta Jan 9, 2026; re-signed July 2026, 4 years about $212.8M: $49.5M, $50.5M, $54.4M, $58.4M through 2029-30"
+          },
+          {
+            "player": "AJ Dybantsa",
+            "position": "SF",
+            "aav": 16.7,
+            "contractNote": "2026 draft pick on rookie scale; $14.7M in 2026-27"
+          }
+        ],
+        "fact": "Kuzma was traded to Milwaukee in 2025; figures per Basketball-Reference",
+        "source": "https://www.basketball-reference.com/contracts/WAS.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Monumental's exact share of the $1B-plus renovation budget not stated in 2026 sources (prior figure $285M)",
+      "Dybantsa draft slot not sourced beyond the contract table"
+    ],
+    "analystNotes": "Forbes valued the Wizards at $4.7B in October 2025 on $389M of revenue, a market-and-building number for a team with zero playoff trips in five years, and Monumental spent 2026 doubling down on the building: Capital One Arena's renovation is now a $1B-plus project with $515M from the District, phase 2 underway this fall, completion before 2027-28, and a 20-year Capital One naming extension. Washington also stopped tanking, trading for Trae Young in January and Anthony Davis in February 2026 and then re-signing Young for four years and roughly $213M, so $108M of the 2026-27 payroll sits in two veterans next to 2026 draftee AJ Dybantsa. Monumental Sports Network means the FanDuel collapse never touched this team's local media. A playoff berth in the sixth-largest DMA inside a rebuilt arena is what unlocks the $5B-plus number the market already supports.",
+    "analystNotesBasis": "Forbes 2025 ($4.7B, $389M revenue); Aug/Sept 2026 renovation updates (RMNB, WJLA); Jan/Feb 2026 trades and July 2026 Young deal (Wikipedia, NBA.com, BBR contracts)."
+  },
+  {
+    "teamId": "milwaukee-bucks",
+    "team": "Milwaukee Bucks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Wisconsin / FanDuel Sports Network, ~$15M/yr",
+        "new": "WVTV-DT2 (Sinclair, Milwaukee) over the air for 2026-27 after FanDuel Sports Network Wisconsin shut down at the end of the 2025-26 regular season; Milwaukee is one of the OTA-only teams among the 13 former FanDuel clubs",
+        "fact": "Wikipedia 2026-27 season page lists WVTV-DT2; Sports Media Watch groups the Bucks as OTA-only",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Milwaukee_Bucks_season ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass; Deer District digital content expands fan engagement",
+        "new": "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Playoffs 2022-2025; missed the 2026 playoffs",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Giannis Antetokounmpo — 3yr/$186M extension (2023), $62M AAV, through 2027-28; Damian Lillard — 4yr/$220M (2023), $55M AAV",
+        "new": "Giannis Antetokounmpo was traded to Miami on July 6, 2026 for Tyler Herro, Jaime Jaquez Jr., Kel'el Ware, Kasparas Jakucionis, the No. 13 pick (Nate Ament), Miami's 2031 and 2033 first-round picks and a 2030 swap; Damian Lillard was waived in July 2025 and signed with Portland; 2026-27 is the first season since 2012-13 without Giannis",
+        "fact": "Trade per Wikipedia 2026-27 transactions; Lillard waiver per Wikipedia 2025-26 transactions",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Milwaukee_Bucks_season ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Giannis Antetokounmpo",
+            "position": "PF",
+            "aav": 62,
+            "contractNote": "3yr/$186M extension (2023), through 2027-28; free agency decision post-2028 is the franchise's most consequential event"
+          },
+          {
+            "player": "Damian Lillard",
+            "position": "PG",
+            "aav": 55,
+            "contractNote": "4yr/$220M (2023), through 2026-27; acquired from Portland in 2023 trade"
+          }
+        ],
+        "new": [
+          {
+            "player": "Tyler Herro",
+            "position": "SG",
+            "aav": 33,
+            "contractNote": "Acquired from Miami July 6, 2026 in the Giannis trade; $33M in 2026-27, expiring"
+          },
+          {
+            "player": "Myles Turner",
+            "position": "C",
+            "aav": 27.9,
+            "contractNote": "Signed from Indiana July 2025; $26.6M (2026-27) rising to $29.1M (2028-29)"
+          },
+          {
+            "player": "Kyle Kuzma",
+            "position": "SF",
+            "aav": 20.3,
+            "contractNote": "$20.3M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Per Basketball-Reference; Bucks 2026-27 payroll $193.8M with only $116.8M committed for 2027-28",
+        "source": "https://www.basketball-reference.com/contracts/MIL.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "WVTV rights fee and term not disclosed",
+      "ownership.ownershipGroup: Edens/Haslam split not re-verified in 2026"
+    ],
+    "analystNotes": "Forbes valued the Bucks at $4.3B in October 2025 on $355M of revenue with just $26M of operating income, and the two events that defined the enrichment have both resolved against Milwaukee: Damian Lillard was waived and stretched in July 2025, and on July 6, 2026 Giannis Antetokounmpo was traded to Miami for Tyler Herro, three young players, the No. 13 pick and two future firsts. What remains is Fiserv Forum and the Deer District, a $194M payroll that drops to $117M in 2027-28, and a local TV line that fell from FanDuel Sports Network Wisconsin to an over-the-air deal on WVTV. The franchise missed the 2026 playoffs and enters 2026-27 without Giannis for the first time since 2012-13. How fast the Miami picks and the cap space become a new core is the whole valuation question for the league's 40th-ranked market.",
+    "analystNotesBasis": "Forbes 2025 ($4.3B, $355M revenue, $26M operating income); July 2026 Giannis trade and July 2025 Lillard waiver (Wikipedia); BBR contracts; WVTV per Wikipedia 2026-27 page."
+  },
+  {
+    "teamId": "denver-nuggets",
+    "team": "Denver Nuggets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Nikola Jokic — 5yr/$270M supermax (2022), $54M AAV, through 2026-27; 3× MVP, 2023 champion and Finals MVP",
+        "new": "Nikola Jokic, $59.0M in 2026-27 and $62.8M in 2027-28 (contract runs through 2027-28); 3x MVP, 2023 champion and Finals MVP",
+        "fact": "Salary schedule per Basketball-Reference shows Jokic under contract through 2027-28",
+        "source": "https://www.basketball-reference.com/contracts/DEN.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Nikola Jokic",
+            "position": "C",
+            "aav": 54,
+            "contractNote": "5yr/$270M supermax (2022), through 2026-27; highest win-shares per game in NBA history"
+          },
+          {
+            "player": "Jamal Murray",
+            "position": "PG",
+            "aav": 29.3,
+            "contractNote": "5yr/$207M max extension effective 2021-22, through 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Nikola Jokic",
+            "position": "C",
+            "aav": 60.9,
+            "contractNote": "$59.0M (2026-27), $62.8M (2027-28); through 2027-28"
+          },
+          {
+            "player": "Jamal Murray",
+            "position": "PG",
+            "aav": 53.8,
+            "contractNote": "$50.1M (2026-27), $53.8M (2027-28), $57.5M (2028-29)"
+          },
+          {
+            "player": "Aaron Gordon",
+            "position": "PF",
+            "aav": 36.4,
+            "contractNote": "$33.7M (2026-27) rising to $39.0M (2028-29)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; Denver's 2026-27 payroll is $221.1M, with DeMar DeRozan added Sept 8, 2026",
+        "source": "https://www.basketball-reference.com/contracts/DEN.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "No 2026 Jokic extension found in the Hoops Rumors tracker; his 2027-28 season remains the last under contract",
+      "Wikipedia lists Ann Walton Kroenke as the Nuggets' owner of record (long-standing KSE structure); enrichment's Stan Kroenke/KSE framing left as is"
+    ],
+    "analystNotes": "Forbes valued the Nuggets at $4.6B in October 2025 on $364M of revenue, and the asset base is unchanged: Kroenke owns Ball Arena outright, shares it with the Avalanche, and owns Altitude, so Denver never had a FanDuel Sports Network problem. Jokic is signed through 2027-28 at $59.0M and $62.8M with no extension yet on file, and the 2026 season ended in a six-game first-round loss to Minnesota despite a fifth straight playoff trip and a $221M payroll that added DeMar DeRozan in September. The 17th-ranked DMA caps sponsorship and gate upside, which is why Denver sits below Cleveland and Houston on Forbes despite the 2023 title. A Jokic extension in summer 2027 is the single event that protects the number; a decline to sign would reprice the franchise immediately.",
+    "analystNotesBasis": "Forbes 2025 ($4.6B, $364M revenue); 2026 playoffs (BBR); BBR 2026-27 contracts; Hoops Rumors extension tracker (no Jokic entry)."
+  },
+  {
+    "teamId": "minnesota-timberwolves",
+    "team": "Minnesota Timberwolves",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Marc Lore & Alex Rodriguez (co-owners)",
+        "new": "Marc Lore & Alex Rodriguez (co-owners); Lore agreed August 21, 2026 to sell most of his control stake to Marc Stad (Dragoneer Investment Group) at a $4.5B valuation, with Elisa Stad to serve as governor; pending league approval",
+        "fact": "Control sale agreed Aug 21, 2026 at $4.5B per transactions.js (verified there); Wikipedia's 2026-27 season page still lists Rodriguez and Lore as owners pending close",
+        "source": "data/transactions.js ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Minnesota_Timberwolves_season"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Marc Lore",
+            "role": "co-owner",
+            "pct": null
+          },
+          {
+            "name": "Alex Rodriguez",
+            "role": "co-owner",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Marc Stad (Dragoneer Investment Group)",
+            "role": "incoming control owner; agreed Aug 2026 at $4.5B valuation, pending approval",
+            "pct": null
+          },
+          {
+            "name": "Elisa Stad",
+            "role": "incoming governor",
+            "pct": null
+          },
+          {
+            "name": "Marc Lore",
+            "role": "co-owner (selling most of his stake)",
+            "pct": null
+          },
+          {
+            "name": "Alex Rodriguez",
+            "role": "co-owner",
+            "pct": null
+          }
+        ],
+        "fact": "Per transactions.js agreed control transaction dated 2026-08-21",
+        "source": "data/transactions.js"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Amazon Prime Video (regional streaming deal, 2024), ~$15M/yr — one of NBA's first streaming-primary local broadcast agreements",
+        "new": "DAZN exclusive in-market streaming home for 2026-27, announced July 30, 2026, with 15 games free; reported as a five-year deal with a mutual opt-out after year one; replaces FanDuel Sports Network North, which shut down after the 2025-26 regular season",
+        "fact": "Minnesota was the first of the 13 former FanDuel teams to go streaming-only; Star Tribune reported five years with a mutual opt-out after one",
+        "source": "https://minnesotasnewcountry.com/timberwolves-dazn-local-broadcast-deal/ ; https://www.sportsmediawatch.com/tv-schedules/nba-tv-schedule/minnesota-timberwolves/ ; https://www.startribune.com/minnesota-timberwolves-how-to-watch-games-dazn-tv-channel-streaming-pricing-nba-schedule-2026-27/601873174"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Wolves broke new ground as one of first NBA teams to pivot to streaming-first local distribution as RSN landscape collapsed; NBA League Pass also available",
+        "new": "Streaming-exclusive local distribution on DAZN from 2026-27 (team-branded subscription, 15 free games); structured with a year-one opt-out to fit the NBA's planned 2027-28 league-wide local streaming package; NBA League Pass unchanged",
+        "fact": "Per DAZN announcement coverage and Hoops Rumors league guidance",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; beat Denver 4-2 in the 2026 first round, lost 4-2 to San Antonio in round two",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Anthony Edwards — 5yr/$245M max extension (2023), $49M AAV, through 2027-28",
+        "new": "Anthony Edwards, $48.9M in 2026-27 rising to $55.7M in 2028-29, paired with LaMelo Ball, acquired from Charlotte July 10, 2026 in a four-team trade ($40.8M in 2026-27, through 2028-29)",
+        "fact": "Ball trade cost Julius Randle, Naz Reid, three first-round swaps and a 2033 first; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/MIN.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Anthony Edwards",
+            "position": "SG",
+            "aav": 49,
+            "contractNote": "5yr/$245M max (2023), through 2027-28; supermax eligible with All-NBA trigger"
+          }
+        ],
+        "new": [
+          {
+            "player": "Anthony Edwards",
+            "position": "SG",
+            "aav": 52.3,
+            "contractNote": "$48.9M (2026-27), $52.3M (2027-28), $55.7M (2028-29)"
+          },
+          {
+            "player": "LaMelo Ball",
+            "position": "PG",
+            "aav": 43.6,
+            "contractNote": "Acquired from Charlotte July 10, 2026; $40.8M (2026-27) rising to $46.4M (2028-29)"
+          },
+          {
+            "player": "Rudy Gobert",
+            "position": "C",
+            "aav": 37.3,
+            "contractNote": "$36.5M (2026-27), $38.0M (2027-28)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; 2026-27 payroll $215.3M",
+        "source": "https://www.basketball-reference.com/contracts/MIN.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "DAZN rights fee not disclosed; five-year term with opt-out is from the Star Tribune (page returned 429 on direct fetch, relied on search summary)",
+      "arena.newArenaPlans: no 2026 Target Center replacement announcement found"
+    ],
+    "analystNotes": "Forbes valued the Timberwolves at $3.6B in October 2025 with a $41M operating loss, and fourteen months later Marc Lore agreed to sell most of his control stake to Dragoneer's Marc Stad at a $4.5B valuation, a 25% step-up over Forbes and three times the $1.5B Taylor purchase price. The basketball case is real: five straight playoff trips, a 2026 second-round run, Anthony Edwards at $48.9M, and LaMelo Ball added in July for Randle, Reid and future swaps. Minnesota also became the league's first streaming-only local team, moving to DAZN with 15 free games after FanDuel Sports Network North closed, on a deal built to roll into the NBA's 2027-28 package. Closing the Stad transaction and a Target Center replacement plan from the new owners are the two items that carry the number past $4.5B.",
+    "analystNotesBasis": "Forbes 2025 ($3.6B, -$41M operating income); transactions.js Stad deal ($4.5B, Aug 2026); 2026 playoffs (BBR); July 2026 DAZN deal; July 2026 LaMelo trade; BBR contracts."
+  },
+  {
+    "teamId": "oklahoma-city-thunder",
+    "team": "Oklahoma City Thunder",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.newArenaPlans",
+        "old": "New $900M Continental Coliseum breaking ground March 2026; fully public-funded via OKC MAPS 4 sales tax; opening 2028; Paycom Center to be replaced; modern facility will dramatically increase premium seating capacity",
+        "new": "Continental Coliseum broke ground March 26, 2026 on the former Myriad Convention Center site: $900M funded by a 72-month one-cent sales tax that starts when MAPS 4 ends, $78M from MAPS 4 and $50M from Thunder ownership; Continental Resources signed a 15-year naming-rights deal (announced March 24, 2026); opening targeted for late summer 2028 with a contractual deadline of June 2029; Thunder signed a 25-year lease that runs through at least 2053",
+        "fact": "Groundbreaking, funding split, naming partner and lease term per the City of Oklahoma City",
+        "source": "https://www.okc.gov/News-articles/Oklahoma-City-and-Thunder-break-ground-on-Continental-Coliseum ; https://en.wikipedia.org/wiki/Continental_Coliseum"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Oklahoma / FanDuel Sports Network, ~$12M/yr",
+        "new": "Griffin Media (Oklahoma broadcast group) over the air for 2026-27 after FanDuel Sports Network Oklahoma shut down at the end of the 2025-26 regular season; Sports Media Watch listed the Thunder among teams expected to focus on over-the-air distribution",
+        "fact": "Wikipedia 2026-27 season page lists Griffin Media as television partner",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Oklahoma_City_Thunder_season ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Playoffs 2024, 2025 and 2026; swept Phoenix and the Lakers in 2026, then lost the West finals 4-3 to San Antonio",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Shai Gilgeous-Alexander — 4yr/$285M supermax extension (2025), $71.25M AAV — richest single-season contract in NBA history",
+        "new": "Shai Gilgeous-Alexander, 2025-26 MVP (second straight); $40.8M in 2026-27, then the 4yr/$285M supermax runs $61.0M (2027-28) to $75.6M (2030-31)",
+        "fact": "MVP per Wikipedia 2025-26 season page; salary schedule per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season ; https://www.basketball-reference.com/contracts/OKC.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Shai Gilgeous-Alexander",
+            "position": "PG",
+            "aav": 71.25,
+            "contractNote": "4yr/$285M supermax (2025), $71.25M AAV — highest single-season contract in NBA history at signing; 2024-25 MVP"
+          },
+          {
+            "player": "Chet Holmgren",
+            "position": "C/PF",
+            "aav": 11,
+            "contractNote": "On rookie scale through 2025-26; max extension expected"
+          }
+        ],
+        "new": [
+          {
+            "player": "Shai Gilgeous-Alexander",
+            "position": "PG",
+            "aav": 71.25,
+            "contractNote": "4yr/$285M supermax (2025) starting 2027-28: $61.0M to $75.6M; 2024-25 and 2025-26 MVP"
+          },
+          {
+            "player": "Chet Holmgren",
+            "position": "C/PF",
+            "aav": 48.1,
+            "contractNote": "Rookie-scale max extension (2025); $41.5M (2026-27) rising to $54.8M (2030-31)"
+          },
+          {
+            "player": "Jalen Williams",
+            "position": "SF",
+            "aav": 48.1,
+            "contractNote": "Rookie-scale max extension (2025); $41.5M (2026-27) rising to $54.8M (2030-31)"
+          }
+        ],
+        "fact": "Holmgren and Williams extensions are now on the books at identical $41.5M-to-$54.8M schedules; 2026-27 payroll $216.2M, 2027-28 $237.7M",
+        "source": "https://www.basketball-reference.com/contracts/OKC.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Griffin Media deal terms not disclosed; primary announcement not retrieved"
+    ],
+    "analystNotes": "Forbes valued the Thunder at $4.35B in October 2025 on $357M of revenue, and the two things that were promises then are now signed: Continental Coliseum broke ground March 26, 2026 with $900M of mostly public money plus $50M from ownership, a 15-year Continental Resources naming deal and a 25-year lease that keeps the team in Oklahoma City through at least 2053, opening in summer 2028. Shai Gilgeous-Alexander won a second straight MVP, and the payroll now reflects the dynasty price, with Holmgren and Jalen Williams at $41.5M each and SGA's $285M supermax starting in 2027-28 for a $238M bill that year. The 2026 defense ended in a seven-game West finals loss to San Antonio, and local TV dropped from FanDuel Sports Network Oklahoma to over-the-air on Griffin Media. Whether a smallest-market team can keep three max players together under the second apron through the arena opening is the question that sets the ceiling.",
+    "analystNotesBasis": "Forbes 2025 ($4.35B, $357M revenue); okc.gov groundbreaking release (March 2026); 2026 playoffs and 2025-26 MVP (BBR, Wikipedia); BBR contracts; Griffin Media per Wikipedia 2026-27 page."
+  },
+  {
+    "teamId": "portland-trail-blazers",
+    "team": "Portland Trail Blazers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Root Sports Northwest (AT&T Sports Networks), ~$12M/yr",
+        "new": "Rip City Television Network, the team's own over-the-air affiliate network, per the 2026-27 season page; Root Sports Northwest is no longer the Blazers' carrier",
+        "fact": "Wikipedia 2026-27 Trail Blazers page lists Rip City Television Network as the television partner",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Portland_Trail_Blazers_season"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "One appearance in the 2022-2026 window: lost 4-1 to San Antonio in the 2026 first round",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Scoot Henderson (#3 pick 2023) — on rookie scale; full franchise rebuild underway",
+        "new": "Ja Morant, acquired from Memphis June 29, 2026 for Jerami Grant and Kris Murray; $42.2M in 2026-27 and $44.9M in 2027-28; Damian Lillard returned to Portland in July 2025 after Milwaukee waived him ($13.4M in 2026-27)",
+        "fact": "Morant trade per Wikipedia 2026-27 transactions; Lillard signing per 2025-26 transactions; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/POR.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Scoot Henderson",
+            "position": "PG",
+            "aav": 10.5,
+            "contractNote": "Rookie scale contract through 2026-27; franchise cornerstone of rebuild"
+          }
+        ],
+        "new": [
+          {
+            "player": "Ja Morant",
+            "position": "PG",
+            "aav": 43.5,
+            "contractNote": "Acquired from Memphis June 29, 2026; $42.2M (2026-27), $44.9M (2027-28)"
+          },
+          {
+            "player": "Jrue Holiday",
+            "position": "PG",
+            "aav": 36,
+            "contractNote": "$34.8M (2026-27), $37.2M (2027-28)"
+          },
+          {
+            "player": "Shaedon Sharpe",
+            "position": "SG",
+            "aav": 22.5,
+            "contractNote": "$20.1M (2026-27) rising to $24.9M (2029-30)"
+          },
+          {
+            "player": "Scoot Henderson",
+            "position": "PG",
+            "aav": 13.6,
+            "contractNote": "$13.6M in 2026-27, final rookie-scale year"
+          }
+        ],
+        "fact": "Per Basketball-Reference; 2026-27 payroll $194.5M",
+        "source": "https://www.basketball-reference.com/contracts/POR.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "ownership.acquisitionYear: transactions.js dates the Dundon tranche-1 close 2025-09-13, while Wikipedia's Moda Center and owners pages say the purchase closed in March 2026; transactions.js kept as the established record, flagged for review",
+      "arena.newArenaPlans: Wikipedia says Dundon's representatives secured state and local commitments to finance Moda Center renovations in 2025, but the $365M Oregon approval status in 2026 was not sourced",
+      "New head coach Micah Nori listed on the 2026-27 season page; hire date not sourced"
+    ],
+    "analystNotes": "Forbes valued the Trail Blazers at $4.25B in October 2025, matching the Dundon group's price for the Allen estate stake ($4.0B for 80.1% closed, $4.5B on the remaining 19.9% due by 2028), on $361M of revenue. The new owner moved fast: Portland returned to the playoffs in 2026, then traded Jerami Grant and Kris Murray for Ja Morant at $42.2M, pairing him with Jrue Holiday and a returned Damian Lillard, and the local broadcast is now the team-run Rip City Television Network rather than Root Sports. The unresolved item is the building, a 1995 arena whose renovation depends on the state and local financing Dundon's side lined up before closing. A funded Moda Center overhaul is what turns the only major-league team in the Pacific Northwest outside Seattle into a $5B franchise.",
+    "analystNotesBasis": "Forbes 2025 ($4.25B, $361M revenue); transactions.js Dundon tranches; 2026 playoffs (BBR); June 2026 Morant trade and BBR contracts; Wikipedia 2026-27 season and Moda Center pages."
+  },
+  {
+    "teamId": "utah-jazz",
+    "team": "Utah Jazz",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.newArenaPlans",
+        "old": "$525M Utah state/city infrastructure earmarked for Delta Center upgrades shared between Jazz and Utah Hockey Club; retractable seating and dual-sport configuration enhancements",
+        "new": "Multi-phase Delta Center rebuild into a dual-sport arena for the Jazz and Utah Mammoth: Phase 2 finished after 143 days of summer 2026 construction with re-sloped seating (SEG calls them the steepest sightlines of any dual-sport arena), a 439-space parking garage and 18 local food vendors; the south-end dynamic slope and full seat replacement are scheduled for the 2027-28 season; $525M state/city infrastructure package still the public component",
+        "fact": "Phase 2 completion and 2027-28 finish per Deseret News and SEG release",
+        "source": "https://www.deseret.com/sports/2026/09/25/delta-center-renovations-revealed-for-2026-2027-utah-jazz-season/ ; https://www.nhl.com/utah/news/smith-entertainment-group-unveils-next-steps-on-the-transformation-of-the-delta-center-into-a-world-class-dual-sport-venue-release-5-8-26"
+      },
+      {
+        "field": "arena.capacity",
+        "old": 18305,
+        "new": 17867,
+        "fact": "Official Jazz seating capacity for 2026-27 is 17,867 after the Phase 2 reconfiguration",
+        "source": "https://www.deseret.com/sports/2026/09/25/delta-center-renovations-revealed-for-2026-2027-utah-jazz-season/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Only 2022 falls in the 2022-2026 window; Utah missed the 2026 playoffs and holds the No. 2 pick of the 2026 draft (Darryn Peterson)",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Utah_Jazz_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Lauri Markkanen — 5yr/$238M (2023), $47.6M AAV, through 2027-28; franchise in rebuild with strong draft assets",
+        "new": "Jaren Jackson Jr., acquired from Memphis February 3, 2026 for three first-round picks and role players ($49.0M in 2026-27, through 2029-30), alongside Lauri Markkanen ($46.1M in 2026-27, through 2028-29); Keyonte George signed a 5yr/$155M extension in July 2026",
+        "fact": "Jackson trade per Wikipedia 2025-26 transactions; George extension per Hoops Rumors; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Lauri Markkanen",
+            "position": "PF",
+            "aav": 47.6,
+            "contractNote": "5yr/$238M (2023), through 2027-28"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jaren Jackson Jr.",
+            "position": "PF/C",
+            "aav": 51.3,
+            "contractNote": "Acquired from Memphis Feb 3, 2026; $49.0M (2026-27) rising to $53.5M (2029-30)"
+          },
+          {
+            "player": "Lauri Markkanen",
+            "position": "PF",
+            "aav": 49.8,
+            "contractNote": "$46.1M (2026-27), $49.8M (2027-28), $53.5M (2028-29)"
+          },
+          {
+            "player": "Keyonte George",
+            "position": "PG",
+            "aav": 31,
+            "contractNote": "5yr/$155M rookie-scale extension (July 2026) starting 2027-28: $28.7M to $33.6M through 2031-32"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Hoops Rumors; Walker Kessler was sign-and-traded to the Lakers July 8, 2026 for two first-round picks and two swaps",
+        "source": "https://www.basketball-reference.com/contracts/UTA.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Total private cost of the Delta Center rebuild not stated in 2026 coverage",
+      "media.localTVDeal: Wikipedia lists KJZZ-TV, KUTV, Jazz+ (Kiswe) and Root Sports Northwest; the enrichment's ~$15M in-house figure not re-verified"
+    ],
+    "analystNotes": "Forbes valued the Jazz at $4.1B in October 2025 on $340M of revenue, and Ryan Smith's case rests on owning the building: Delta Center's Phase 2 rebuild finished in 143 days this summer, re-sloping the bowl for both the Jazz and the NHL's Utah Mammoth at a reduced 17,867 basketball capacity, with the full seat replacement due for 2027-28 on top of $525M in state and city infrastructure money. The roster stopped tanking in February 2026 when Utah sent three first-round picks to Memphis for Jaren Jackson Jr. at $49M, kept Lauri Markkanen at $46.1M, extended Keyonte George for $155M and drafted Darryn Peterson second overall, while flipping Walker Kessler to the Lakers for two more firsts. Salt Lake City is still a bottom-five DMA, so the number depends on the dual-sport building throwing off NHL-plus-NBA event revenue. A finished arena and a playoff return in 2027 are what lift Utah toward the $4.5B small-market ceiling set by Oklahoma City.",
+    "analystNotesBasis": "Forbes 2025 ($4.1B, $340M revenue); Sept 2026 Delta Center Phase 2 coverage (Deseret, SEG); Feb 2026 Jackson trade and July 2026 Kessler trade (Wikipedia); BBR contracts; Hoops Rumors extension tracker."
+  },
+  {
+    "teamId": "golden-state-warriors",
+    "team": "Golden State Warriors",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Titles in 2017, 2018 and 2022 fall inside the 2017-2026 window; the 2015 title no longer does",
+        "source": "https://www.basketball-reference.com/playoffs/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Stephen Curry — 3yr extension signed Aug 2023, $55.8M AAV, through 2028-29",
+        "new": "Stephen Curry, $62.6M in 2026-27, then a 2yr/$116M extension signed July 2026 covering 2027-28 and 2028-29 (second-year player option); Jimmy Butler on an expiring $56.8M",
+        "fact": "Extension per Hoops Rumors and ESPN; 2026-27 salary per Basketball-Reference",
+        "source": "https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://www.basketball-reference.com/contracts/GSW.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Stephen Curry",
+            "position": "PG",
+            "aav": 55.8,
+            "contractNote": "3yr extension (Aug 2023), ~$167M total through 2028-29; all-time 3-point record holder"
+          },
+          {
+            "player": "Draymond Green",
+            "position": "PF",
+            "aav": 22.3,
+            "contractNote": "4yr/$100M extension (Oct 2022), through 2026-27"
+          }
+        ],
+        "new": [
+          {
+            "player": "Stephen Curry",
+            "position": "PG",
+            "aav": 58,
+            "contractNote": "$62.6M (2026-27), then 2yr/$116M extension (July 2026) for 2027-28 and 2028-29 with a player option"
+          },
+          {
+            "player": "Jimmy Butler",
+            "position": "SF",
+            "aav": 56.8,
+            "contractNote": "Acquired from Miami Jan 2025; $56.8M in 2026-27, expiring"
+          },
+          {
+            "player": "Draymond Green",
+            "position": "PF",
+            "aav": 27.7,
+            "contractNote": "Re-signed July 30, 2026; $27.7M in 2026-27"
+          },
+          {
+            "player": "Kristaps Porzingis",
+            "position": "C",
+            "aav": 20,
+            "contractNote": "Acquired from Atlanta Feb 5, 2026 for Jonathan Kuminga and Buddy Hield; $19.5M (2026-27), $20.5M (2027-28)"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Wikipedia transactions; only $60.8M is committed for 2027-28 before the Curry extension",
+        "source": "https://www.basketball-reference.com/contracts/GSW.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: no 2026 Arctos or other minority stake transaction found; not re-verified"
+    ],
+    "analystNotes": "Forbes ranked the Warriors first in the NBA at $11.0B in October 2025 on $880M of revenue and $409M of operating income, both league highs, and every dollar of that gap over the Knicks and Lakers comes from owning Chase Center and its Mission Bay district outright with no public debt. The basketball side is in its final Curry chapter: Golden State missed the 2026 playoffs out of the play-in, then extended Curry for two years and $116M through 2028-29 with Jimmy Butler on an expiring $56.8M and only $61M otherwise committed for 2027-28. The 2017-2026 window now holds three titles rather than four, and the brand premium is still priced as if the dynasty were current. What moves the number is whether the 2027 cap space rebuilds a contender around Curry's last contract or the franchise enters a post-Curry reset at a $900M revenue base.",
+    "analystNotesBasis": "Forbes 2025 ($11.0B, $880M revenue, $409M operating income); 2026 play-in (Wikipedia); Curry extension (Hoops Rumors); BBR contracts; Feb 2026 Porzingis trade (Wikipedia)."
+  },
+  {
+    "teamId": "los-angeles-clippers",
+    "team": "Los Angeles Clippers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Steve Ballmer (former Microsoft CEO, sole owner)",
+        "new": "Steve Ballmer (sole owner), suspended without pay for one year by the NBA on September 2, 2026 following the Kawhi Leonard/Aspiration salary-cap circumvention investigation; the team was fined $30M and forfeited its 2029-2033 first-round picks plus a 2029 Pacers first",
+        "fact": "Sanctions announced Sept 2, 2026: one-year suspensions for Ballmer and president of business operations Gillian Zucker, six months for Lawrence Frank, $30M team fine, $700K fine for Leonard",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Los_Angeles_Clippers_season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "NBC Sports California / streaming hybrid, ~$30M/yr",
+        "new": "FanDuel Sports Network SoCal carried the Clippers through 2025-26 and shut down with Main Street Sports Group in April 2026; the 2026-27 local partner is listed as TBA, with Sports Media Watch reporting an expected over-the-air focus",
+        "fact": "Clippers were one of the 13 former FanDuel Sports Network teams; no 2026-27 deal announced in sources found",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Los_Angeles_Clippers_season ; https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Clippers exploring DTC distribution options leveraging Ballmer's tech background; NBA League Pass available",
+        "new": "No pay-TV RSN for 2026-27 after the FanDuel Sports Network SoCal shutdown; NBA asked the 13 affected teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Kawhi Leonard — 3yr/$153M (2023), $51M AAV, through 2025-26; James Harden on 2yr/$70M (2023)",
+        "new": "Darius Garland, acquired from Cleveland in February 2026 for James Harden ($42.2M in 2026-27, through 2027-28), and Brandon Ingram, acquired from Toronto September 14, 2026 in the Kawhi Leonard trade ($40.0M, through 2027-28)",
+        "fact": "Leonard was traded to Toronto for Ingram, Gradey Dick and five draft picks once the NBA investigation concluded",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/LAC.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kawhi Leonard",
+            "position": "SF",
+            "aav": 51,
+            "contractNote": "3yr/$153M (2023), through 2025-26; chronic load management/injury risk"
+          },
+          {
+            "player": "James Harden",
+            "position": "PG",
+            "aav": 35,
+            "contractNote": "2yr/$70M (2023), through 2024-25"
+          }
+        ],
+        "new": [
+          {
+            "player": "Darius Garland",
+            "position": "PG",
+            "aav": 43.5,
+            "contractNote": "Acquired from Cleveland Feb 2026 for James Harden; $42.2M (2026-27), $44.9M (2027-28)"
+          },
+          {
+            "player": "Brandon Ingram",
+            "position": "SF",
+            "aav": 41,
+            "contractNote": "Acquired from Toronto Sept 14, 2026 in the Kawhi Leonard trade; $40.0M (2026-27), $41.9M (2027-28)"
+          },
+          {
+            "player": "Bradley Beal",
+            "position": "SG",
+            "aav": 6.6,
+            "contractNote": "Re-signed Aug 13, 2026; $6.4M (2026-27), $6.7M (2027-28)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; 2026-27 payroll $193.7M with only $26.7M committed for 2028-29",
+        "source": "https://www.basketball-reference.com/contracts/LAC.html"
+      },
+      {
+        "field": "arena.newArenaPlans",
+        "old": null,
+        "new": "Intuit Dome hosted the 2026 NBA All-Star Game on February 15, 2026; two hotels (a Fairfield by Marriott and a 15-story Arya Hotel) were slated to open adjacent to the arena in June 2026",
+        "fact": "Per Wikipedia Intuit Dome page",
+        "source": "https://en.wikipedia.org/wiki/Intuit_Dome"
+      }
+    ],
+    "verifiedUnchanged": [
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "2026-27 local TV partner not announced as of late September 2026",
+      "Interim governor during Ballmer's suspension not sourced"
+    ],
+    "analystNotes": "Forbes valued the Clippers at $7.5B in October 2025 on $569M of revenue, a number that is almost entirely Intuit Dome: Ballmer's $2B privately built arena hosted the 2026 All-Star Game and throws off event income no other NBA tenant in Los Angeles controls. The basketball and governance picture then broke: a 42-40 team lost its play-in game, and on September 2, 2026 the NBA suspended Ballmer for a year without pay, fined the team $30M and stripped its 2029-2033 first-round picks over the Kawhi Leonard cap-circumvention case, with Leonard shipped to Toronto twelve days later for Brandon Ingram and Gradey Dick. The roster is Darius Garland and Ingram at $42.2M and $40.0M on a $194M payroll with almost nothing committed past 2027-28, and the local TV deal died with FanDuel Sports Network SoCal. The building keeps the floor near $7B; a decade without tradable firsts is what caps the ceiling.",
+    "analystNotesBasis": "Forbes 2025 ($7.5B, $569M revenue); Sept 2026 NBA sanctions and Kawhi trade (Wikipedia 2026-27 season page); 2025-26 record and play-in (Wikipedia); BBR contracts; Intuit Dome All-Star Game."
+  },
+  {
+    "teamId": "los-angeles-lakers",
+    "team": "Los Angeles Lakers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Mark Walter (majority, Guggenheim Partners CEO) / Jeanie Buss (governor)",
+        "new": "Mark Walter (majority, TWG Global) / Jeanie Buss (governor); Walter agreed August 12, 2026 to sell his majority stake, together with the Buss family's remaining 17.8%, to Joshua Kushner and Bob Iger at a $12.5B valuation, the largest North American team sale on record; Jeanie Buss has petitioned to block the family-stake sale (hearing set for December 2026) and NBA approval is pending",
+        "fact": "Sale terms and Buss challenge per transactions.js (contested, hearing Dec 9, 2026), SI (Dec 8 court date, approval not on the September board agenda) and The Ringer",
+        "source": "data/transactions.js ; https://www.si.com/nba/lakers/onsi/lakers-record-ownership-sale-faces-longer-wait-for-nba-approval ; https://www.theringer.com/2026/08/12/nba/lakers-sale-josh-kushner-bob-iger-12-billion-nba-owners"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Mark Walter",
+            "role": "majority owner",
+            "pct": "majority"
+          },
+          {
+            "name": "Jeanie Buss",
+            "role": "governor / minority owner",
+            "pct": null
+          },
+          {
+            "name": "Magic Johnson",
+            "role": "small passive minority",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Mark Walter (TWG Global)",
+            "role": "majority owner; agreed Aug 2026 to sell to Kushner and Iger at $12.5B, pending approval",
+            "pct": "majority"
+          },
+          {
+            "name": "Joshua Kushner and Bob Iger",
+            "role": "incoming majority owners (contested; NBA approval pending)",
+            "pct": null
+          },
+          {
+            "name": "Jeanie Buss",
+            "role": "governor; Buss family trusts hold about 17.8%, sale contested by Jeanie Buss",
+            "pct": "~17.8% (family)"
+          },
+          {
+            "name": "Todd Boehly, Edward P. Roski, Patrick Soon-Shiong",
+            "role": "minority owners",
+            "pct": null
+          }
+        ],
+        "fact": "Minority holders per Wikipedia's NBA owners list; Buss family percentage per SI",
+        "source": "https://en.wikipedia.org/wiki/List_of_NBA_team_owners ; https://www.si.com/nba/lakers/onsi/lakers-record-ownership-sale-faces-longer-wait-for-nba-approval"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoffs 2023-2026; beat Houston 4-2 in the 2026 first round, swept by Oklahoma City in round two",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Luka Doncic — acquired from Dallas Mavericks Feb 2025; 5yr/$346M (2024), $69.2M AAV; LeBron James on $52.6M option through 2025-26",
+        "new": "Luka Doncic, $49.8M in 2026-27 rising to $57.8M in 2028-29; LeBron James left for Philadelphia on July 27, 2026 after the Lakers renounced his rights; Walker Kessler acquired from Utah in a July 8, 2026 sign-and-trade for two first-round picks and two swaps",
+        "fact": "Per Wikipedia 2026-27 transactions and Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/LAL.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Luka Doncic",
+            "position": "PG",
+            "aav": 69.2,
+            "contractNote": "5yr/$346M (2024), $69.2M AAV; acquired from Dallas Feb 2025 for Anthony Davis; 5× All-Star under age 26"
+          },
+          {
+            "player": "LeBron James",
+            "position": "SF",
+            "aav": 52.6,
+            "contractNote": "$52.6M player option exercised for 2025-26; playing into age 41 as NBA all-time scoring leader"
+          }
+        ],
+        "new": [
+          {
+            "player": "Luka Doncic",
+            "position": "PG",
+            "aav": 53.8,
+            "contractNote": "$49.8M (2026-27), $53.8M (2027-28), $57.8M (2028-29)"
+          },
+          {
+            "player": "Austin Reaves",
+            "position": "SG",
+            "aav": 46.2,
+            "contractNote": "$41.2M (2026-27) rising to $51.1M (2029-30)"
+          },
+          {
+            "player": "Walker Kessler",
+            "position": "C",
+            "aav": 32.5,
+            "contractNote": "Sign-and-trade from Utah July 8, 2026; $30.2M (2026-27) rising to $34.8M (2029-30)"
+          }
+        ],
+        "fact": "LeBron James signed a 2yr/$8M deal with Philadelphia; figures per Basketball-Reference; 2026-27 payroll $204.0M",
+        "source": "https://www.basketball-reference.com/contracts/LAL.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "media.localTVDeal",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "arena.newArenaPlans",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "The Wikipedia 2026-27 season page cites 'potential tax fraud issues' with Walter as a reason for the sale; not corroborated by SI or The Ringer, so not recorded",
+      "ownership.acquisitionPrice: stays $10B (2025 Walter deal) until the $12.5B sale closes"
+    ],
+    "analystNotes": "Forbes valued the Lakers at $10.0B in October 2025 on $551M of revenue, and in August 2026 Mark Walter agreed to sell his majority stake plus the Buss family's 17.8% to Joshua Kushner and Bob Iger at $12.5B, a $2.5B gain in fourteen months and the largest price ever paid for a North American team. The deal is not done: Jeanie Buss has petitioned to block the family-stake sale with a December hearing, and the NBA did not take it up at its September board meeting. On the court the Lakers won a 2026 first-round series before being swept by Oklahoma City, then let LeBron James walk to Philadelphia and paid two firsts and two swaps for Walker Kessler around Luka Doncic at $49.8M and Austin Reaves at $41.2M. The Spectrum SportsNet contract through 2032 and AEG's control of Crypto.com Arena are unchanged, so the $12.5B print, if approved, becomes the new ceiling for every trophy franchise.",
+    "analystNotesBasis": "Forbes 2025 ($10.0B, $551M revenue); transactions.js and SI/Ringer on the Aug 2026 Kushner-Iger deal and Buss challenge; 2026 playoffs (BBR); July 2026 LeBron departure and Kessler trade (Wikipedia, BBR contracts)."
+  },
+  {
+    "teamId": "phoenix-suns",
+    "team": "Phoenix Suns",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Arizona / FanDuel Sports Network, ~$20M/yr",
+        "new": "Arizona's Family Sports (Gray Media over-the-air stations KTVK/KPHO and statewide affiliates) under the five-year deal signed April 28, 2023 that replaced Bally Sports Arizona, plus Fubo in Albuquerque and the Kiswe-powered Suns Live stream; Phoenix was not among the 13 teams hit by the 2026 FanDuel Sports Network shutdown",
+        "fact": "Gray deal per Wikipedia FanDuel Sports Network history; 2026-27 carriers per Wikipedia season page",
+        "source": "https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Phoenix_Suns_season"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "Suns Live direct-to-consumer stream (Kiswe) alongside the Gray over-the-air package; NBA League Pass unchanged",
+        "fact": "Per Wikipedia 2026-27 season page",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Phoenix_Suns_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Devin Booker — 4yr/$224M (2023), $56M AAV, through 2026-27; Kevin Durant age 36",
+        "new": "Devin Booker, $57.1M in 2026-27 rising to $69.2M in 2029-30 (extended in 2025); Kevin Durant traded to Houston in June 2025 for Jalen Green, Dillon Brooks and picks; Bradley Beal waived in 2025",
+        "fact": "Durant trade per Wikipedia 2025-26 transactions; Booker schedule per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/PHO.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Devin Booker",
+            "position": "SG",
+            "aav": 56,
+            "contractNote": "4yr/$224M (2023), through 2026-27; 4× All-Star"
+          },
+          {
+            "player": "Kevin Durant",
+            "position": "SF",
+            "aav": 56.5,
+            "contractNote": "2yr/$113M (2023); age 36+ entering 2025-26; injury risk increasing"
+          },
+          {
+            "player": "Bradley Beal",
+            "position": "SG",
+            "aav": 50.2,
+            "contractNote": "5yr/$251M (2022), through 2026-27; no-trade clause; $56.3M in 2025-26 — most constrained cap item in Western Conference"
+          }
+        ],
+        "new": [
+          {
+            "player": "Devin Booker",
+            "position": "SG",
+            "aav": 62.8,
+            "contractNote": "$57.1M (2026-27), $61.0M (2027-28), $64.1M (2028-29), $69.2M (2029-30)"
+          },
+          {
+            "player": "Jalen Green",
+            "position": "SG",
+            "aav": 36.1,
+            "contractNote": "Acquired from Houston June 2025 in the Durant trade; $36.3M (2026-27), $36.0M (2027-28)"
+          },
+          {
+            "player": "Dillon Brooks",
+            "position": "SF",
+            "aav": 24.3,
+            "contractNote": "$20.0M in 2026-27, then 3yr/$73M extension (July 2026) through 2029-30"
+          },
+          {
+            "player": "Miles Bridges",
+            "position": "SF",
+            "aav": 22.8,
+            "contractNote": "Acquired from Charlotte July 13, 2026 for Grayson Allen, Royce O'Neale and a 2033 first; $22.8M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $216.2M",
+        "source": "https://www.basketball-reference.com/contracts/PHO.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: no 2026 renovation or replacement agreement with the City of Phoenix found; the arena did host the 2026 women's Final Four",
+      "arena.namingRightsDeal value for Mortgage Matchup still undisclosed"
+    ],
+    "analystNotes": "Forbes valued the Suns at $5.425B in October 2025 on $455M of revenue with a $33M operating loss, the price of the Durant-Booker-Beal experiment that Mat Ishbia unwound in 2025 by trading Durant to Houston and waiving Beal. The 2026 team made the playoffs and was swept by Oklahoma City, and the rebuild-on-the-fly now carries Booker's extension from $57.1M to $69.2M through 2029-30, Jalen Green at $36.3M, a Dillon Brooks extension and Miles Bridges, a $216M payroll for a first-round exit. Phoenix dodged the FanDuel collapse because Ishbia moved to Gray's over-the-air stations in 2023, and the 1992 Mortgage Matchup Center remains the second-oldest building in the league with no replacement deal on record. A playoff series win and a signed arena agreement with the city are what would turn the fourth-fastest-growing DMA's valuation from a market bet into an operating one.",
+    "analystNotesBasis": "Forbes 2025 ($5.425B, $455M revenue, -$33M operating income); 2026 playoffs (BBR); June 2025 Durant trade and July 2026 Bridges trade (Wikipedia); BBR contracts; Gray deal per Wikipedia FanDuel Sports Network page."
+  },
+  {
+    "teamId": "sacramento-kings",
+    "team": "Sacramento Kings",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Domantas Sabonis — 4yr/$218M (2022), $54.5M AAV; Zach LaVine acquired from Chicago 2025",
+        "new": "Domantas Sabonis, $45.5M in 2026-27 and $48.6M in 2027-28; Zach LaVine on an expiring $49.0M for 2026-27; De'Andre Hunter acquired from Cleveland in February 2026",
+        "fact": "Salary schedule per Basketball-Reference; Hunter trade per Wikipedia 2025-26 transactions",
+        "source": "https://www.basketball-reference.com/contracts/SAC.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Domantas Sabonis",
+            "position": "C",
+            "aav": 54.5,
+            "contractNote": "4yr/$218M (2022), through 2025-26; 3× All-Star; franchise anchor"
+          },
+          {
+            "player": "Zach LaVine",
+            "position": "SG",
+            "aav": 46,
+            "contractNote": "Acquired from Chicago Bulls 2025 along with picks; 3yr/$138M through 2024-25"
+          }
+        ],
+        "new": [
+          {
+            "player": "Zach LaVine",
+            "position": "SG",
+            "aav": 49,
+            "contractNote": "$49.0M in 2026-27, expiring"
+          },
+          {
+            "player": "Domantas Sabonis",
+            "position": "C",
+            "aav": 47,
+            "contractNote": "$45.5M (2026-27), $48.6M (2027-28)"
+          },
+          {
+            "player": "Keegan Murray",
+            "position": "SF",
+            "aav": 28,
+            "contractNote": "Rookie-scale extension; $24.1M (2026-27) rising to $31.9M (2030-31)"
+          },
+          {
+            "player": "De'Andre Hunter",
+            "position": "SF",
+            "aav": 24.9,
+            "contractNote": "Acquired from Cleveland Feb 2026; $24.9M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Per Basketball-Reference; DeMar DeRozan was waived July 6, 2026; 2026-27 payroll $191.8M falling to $124.4M in 2027-28",
+        "source": "https://www.basketball-reference.com/contracts/SAC.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.localTVDeal: Wikipedia lists NBC Sports California plus CBS 13 for 2026-27; over-the-air component and fee not sourced",
+      "No 2026 ownership or Golden 1 Center news found; coach Doug Christie, GM Scott Perry per Wikipedia"
+    ],
+    "analystNotes": "Forbes valued the Kings at $4.45B in October 2025 on $354M of revenue, an 8.3x mark on Ranadive's $534M 2013 purchase that rests on Golden 1 Center, the DOCO district and a captive single-team market rather than on results. Sacramento has one playoff trip in five years and missed again in 2026 while paying Zach LaVine $49.0M and Domantas Sabonis $45.5M for a lottery finish, then waived DeMar DeRozan in July. The real asset is the 2027 ledger: LaVine and De'Andre Hunter expire, and committed payroll drops from $192M to $124M with Keegan Murray extended through 2030-31. NBC Sports California kept the local TV line intact through the RSN collapse, so the swing factor is purely whether the 2027 cap room produces a playoff team in the largest one-team market in the country.",
+    "analystNotesBasis": "Forbes 2025 ($4.45B, $354M revenue); 2022-2026 playoff record (BBR); BBR 2026-27 contracts; Wikipedia 2026-27 season page."
+  },
+  {
+    "teamId": "dallas-mavericks",
+    "team": "Dallas Mavericks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southwest / FanDuel Sports Network, ~$12M/yr",
+        "new": "Tegna over-the-air stations (KFAA-led affiliate network) carry the Mavericks; Dallas left Bally Sports Southwest before the 2024-25 season and was not among the 13 teams hit by the 2026 FanDuel Sports Network shutdown",
+        "fact": "Wikipedia 2026-27 season page lists TEGNA Inc. as television partner; FanDuel Sports Network Southwest history per Wikipedia",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Dallas_Mavericks_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network"
+      },
+      {
+        "field": "arena.newArenaPlans",
+        "old": "Active discussions between Stars, Mavs, and city/county on renovation or new arena; AAC naming rights expire 2031, triggering natural decision point",
+        "new": "Mavericks' American Airlines Center lease runs through 2031; Wikipedia notes the team could move afterward to a new arena in Irving proposed as part of a Las Vegas Sands integrated resort; the WNBA Dallas Wings move into AAC for at least the 2027 season",
+        "fact": "Per Wikipedia American Airlines Center page (updated June 2026)",
+        "source": "https://en.wikipedia.org/wiki/American_Airlines_Center"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 2,
+        "fact": "Playoffs in 2022 and 2024 within the 2022-2026 window; missed 2025 and 2026",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Anthony Davis — acquired from Lakers in Luka Doncic trade Feb 2025; 3yr/$186M (2023), $62M AAV; Cooper Flagg selected #1 overall pick 2025",
+        "new": "Cooper Flagg, 2025-26 Rookie of the Year, on a rookie scale deal ($14.5M in 2026-27); Anthony Davis was traded to Washington in February 2026; Kyrie Irving re-signed in 2025 ($39.5M in 2026-27, through 2027-28)",
+        "fact": "Flagg ROY per Wikipedia 2025-26 season page; Davis trade per Wikipedia 2025-26 transactions; salaries per Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/DAL.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Anthony Davis",
+            "position": "C",
+            "aav": 62,
+            "contractNote": "3yr/$186M (2023), through 2025-26; acquired from Lakers in blockbuster Doncic trade Feb 2025"
+          },
+          {
+            "player": "Kyrie Irving",
+            "position": "PG",
+            "aav": 42,
+            "contractNote": "3yr/$126M (2023), through 2025-26"
+          },
+          {
+            "player": "Cooper Flagg",
+            "position": "SF",
+            "aav": 14,
+            "contractNote": "#1 overall pick 2025; on rookie scale through 2028-29"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kyrie Irving",
+            "position": "PG",
+            "aav": 41,
+            "contractNote": "$39.5M (2026-27), $42.4M (2027-28)"
+          },
+          {
+            "player": "Cooper Flagg",
+            "position": "SF",
+            "aav": 16.3,
+            "contractNote": "2025-26 Rookie of the Year; $14.5M (2026-27), $15.2M (2027-28), $19.2M (2028-29 team option year)"
+          },
+          {
+            "player": "Zaccharie Risacher",
+            "position": "SF",
+            "aav": 15.6,
+            "contractNote": "Acquired from Atlanta July 19, 2026 (2024 No. 1 pick); $13.8M (2026-27), $17.4M (2027-28)"
+          },
+          {
+            "player": "P.J. Washington",
+            "position": "PF",
+            "aav": 22.2,
+            "contractNote": "$19.8M (2026-27) rising to $24.6M (2029-30)"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Wikipedia 2026-27 transactions; 2026-27 payroll $197.9M",
+        "source": "https://www.basketball-reference.com/contracts/DAL.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Tegna rights fee not sourced",
+      "Irving arena: a proposal noted on Wikipedia, no 2026 agreement found"
+    ],
+    "analystNotes": "Forbes valued the Mavericks at $5.1B in October 2025 on $407M of revenue, and the Adelson-Dumont thesis is still a Texas gaming and real estate play: the AAC lease runs to 2031, and the exit ramp on record is a Las Vegas Sands integrated resort in Irving with a new arena attached. The post-Doncic roster reset finished in February 2026 when Anthony Davis went to Washington, leaving Cooper Flagg, the 2025-26 Rookie of the Year on $14.5M, and 2024 No. 1 pick Zaccharie Risacher, acquired in July, as the core next to Kyrie Irving at $39.5M. Dallas missed the playoffs in 2025 and 2026 and its local TV moved to Tegna over-the-air stations before the RSN collapse, so media income is already reset. Flagg's development and a Texas casino bill are the two variables, and only one of them is about basketball.",
+    "analystNotesBasis": "Forbes 2025 ($5.1B, $407M revenue); Wikipedia AAC page (lease, Irving proposal); Feb 2026 Davis trade and July 2026 Risacher trade (Wikipedia); 2025-26 ROY (Wikipedia); BBR contracts."
+  },
+  {
+    "teamId": "houston-rockets",
+    "team": "Houston Rockets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Playoffs in 2025 and 2026; lost 4-2 to the Lakers in the 2026 first round",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jalen Green — 5yr/$165M (2023), $33M AAV; Kevin Durant acquired from Phoenix Suns 2025",
+        "new": "Kevin Durant ($43.9M in 2026-27, $46.1M in 2027-28) and Alperen Sengun ($35.6M in 2026-27, through 2029-30); Amen Thompson signed a 5yr/$208M rookie-scale extension in July 2026; Jalen Green went to Phoenix in the June 2025 Durant trade",
+        "fact": "Thompson extension per Hoops Rumors; salaries per Basketball-Reference",
+        "source": "https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://www.basketball-reference.com/contracts/HOU.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jalen Green",
+            "position": "SG",
+            "aav": 33,
+            "contractNote": "5yr/$165M (2023), through 2027-28; franchise cornerstone"
+          },
+          {
+            "player": "Kevin Durant",
+            "position": "SF",
+            "aav": 56.5,
+            "contractNote": "Acquired from Phoenix Suns 2025; age 36+; global brand extends Houston's reach"
+          },
+          {
+            "player": "Fred VanVleet",
+            "position": "PG",
+            "aav": 43.3,
+            "contractNote": "3yr/$130M (2023), through 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kevin Durant",
+            "position": "SF",
+            "aav": 45,
+            "contractNote": "Acquired from Phoenix June 2025; $43.9M (2026-27), $46.1M (2027-28)"
+          },
+          {
+            "player": "Alperen Sengun",
+            "position": "C",
+            "aav": 37.8,
+            "contractNote": "$35.6M (2026-27) rising to $39.0M (2028-29 and 2029-30)"
+          },
+          {
+            "player": "Amen Thompson",
+            "position": "SF",
+            "aav": 41.6,
+            "contractNote": "$12.3M in 2026-27, then 5yr/$208M extension (July 2026): $35.9M (2027-28) to $47.3M (2031-32)"
+          },
+          {
+            "player": "Fred VanVleet",
+            "position": "PG",
+            "aav": 25,
+            "contractNote": "$25M in 2026-27, expiring"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $205.5M",
+        "source": "https://www.basketball-reference.com/contracts/HOU.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: $180M Toyota Center renovation was slated to complete in 2026; completion not sourced",
+      "Fertitta's status as US ambassador to Italy (2025) and any resulting governance change not researched"
+    ],
+    "analystNotes": "Forbes valued the Rockets at $5.9B in October 2025 on $467M of revenue and $191M of operating income, the third-best margin in the league, and the Space City Home Network bet means Houston's local media line never touched FanDuel Sports Network. The Durant trade produced two straight playoff trips but a six-game first-round loss to the Lakers in 2026, and the franchise then paid for its future rather than its present: Amen Thompson's 5yr/$208M extension starts in 2027-28 next to Sengun's deal through 2029-30, while Durant's $43.9M and VanVleet's expiring $25M carry the 2026-27 season. The $180M Toyota Center renovation was due this year and locks in the building for a decade. Whether the Thompson-Sengun core wins a series before Durant's contract ends in 2028 is what decides if Houston holds the No. 6 valuation in the league.",
+    "analystNotesBasis": "Forbes 2025 ($5.9B, $467M revenue, $191M operating income); 2026 playoffs (BBR); Hoops Rumors extension tracker; BBR contracts."
+  },
+  {
+    "teamId": "memphis-grizzlies",
+    "team": "Memphis Grizzlies",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southeast / FanDuel Sports Network, ~$12M/yr",
+        "new": "Gray Media over-the-air affiliates for 2026-27 after FanDuel Sports Network Southeast shut down at the end of the 2025-26 regular season, with DAZN reported near an exclusive in-market streaming agreement",
+        "fact": "Wikipedia 2026-27 season page lists Gray Media; Yahoo/Hoops Rumors report DAZN near a deal with Memphis",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Memphis_Grizzlies_season ; https://sports.yahoo.com/articles/pacers-expected-move-local-broadcasts-201055030.html"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "DAZN streaming deal reported but not confirmed in sources found; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Playoffs 2022, 2023 and 2025 within the 2022-2026 window; missed 2026",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Ja Morant — 5yr/$231M (2022), $46.2M AAV, through 2026-27; multiple gun-related suspensions create ongoing reputational risk",
+        "new": "Full teardown: Ja Morant traded to Portland June 29, 2026 for Jerami Grant and Kris Murray; Jaren Jackson Jr. traded to Utah February 3, 2026 for three first-round picks; Desmond Bane traded to Orlando June 2025; 2026 draftee Cameron Boozer ($11.8M) is the new centerpiece",
+        "fact": "Per Wikipedia 2025-26 and 2026-27 transactions and Basketball-Reference",
+        "source": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/MEM.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Ja Morant",
+            "position": "PG",
+            "aav": 46.2,
+            "contractNote": "5yr/$231M (2022), through 2026-27; two gun-related suspensions (2022-23 and 2023-24); trade speculation active"
+          },
+          {
+            "player": "Jaren Jackson Jr.",
+            "position": "C/PF",
+            "aav": 60,
+            "contractNote": "4yr/$240M (2024), through 2027-28; 2023 Defensive Player of the Year"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jerami Grant",
+            "position": "PF",
+            "aav": 35.3,
+            "contractNote": "Acquired from Portland June 29, 2026 in the Morant trade; $34.2M (2026-27), $36.4M (2027-28)"
+          },
+          {
+            "player": "Isaiah Stewart",
+            "position": "C",
+            "aav": 15,
+            "contractNote": "Acquired from Detroit July 8, 2026; $15M per year through 2027-28"
+          },
+          {
+            "player": "Cameron Boozer",
+            "position": "PF",
+            "aav": 13.4,
+            "contractNote": "2026 first-round pick; $11.8M (2026-27) rising to $16.5M (2029-30 option year)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; 2026-27 payroll $161.1M, the lowest in the league among teams sampled, with $119M committed for 2027-28",
+        "source": "https://www.basketball-reference.com/contracts/MEM.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Gray Media and DAZN rights fees not disclosed",
+      "arena.namingRightsDeal: FedExForum renewal status not sourced"
+    ],
+    "analystNotes": "Forbes valued the Grizzlies at $3.5B in October 2025 on $306M of revenue with $28M of operating income, the thinnest margin in the West, and in the twelve months since Memphis has sold every star: Desmond Bane to Orlando, Jaren Jackson Jr. to Utah for three firsts in February 2026, and Ja Morant to Portland in June for Jerami Grant and Kris Murray. The result is a $161M payroll built around 2026 draftee Cameron Boozer and a pile of picks, in the 45th DMA, with the local TV line reduced to Gray over-the-air stations and a pending DAZN stream after FanDuel Sports Network Southeast closed. Pera's $377M 2012 entry is still a 9x mark, but this is now the purest national-revenue-pool franchise in the league. Converting the Jackson and Morant picks into the next star is the only path back above $4B.",
+    "analystNotesBasis": "Forbes 2025 ($3.5B, $306M revenue, $28M operating income); Feb and June 2026 trades (Wikipedia); BBR contracts; Gray/DAZN per Wikipedia and Yahoo."
+  },
+  {
+    "teamId": "new-orleans-pelicans",
+    "team": "New Orleans Pelicans",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports New Orleans / FanDuel Sports Network, ~$12M/yr",
+        "new": "Gulf Coast Sports & Entertainment Network, a Gray Media over-the-air network across Louisiana, Mississippi and Alabama launched October 2, 2024 after Diamond dropped the Pelicans; New Orleans was not among the 13 teams hit by the 2026 FanDuel Sports Network shutdown",
+        "fact": "Per Wikipedia Gulf Coast Sports & Entertainment Network and 2026-27 season pages",
+        "source": "https://en.wikipedia.org/wiki/Gulf_Coast_Sports_%26_Entertainment_Network ; https://en.wikipedia.org/wiki/2026%E2%80%9327_New_Orleans_Pelicans_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Zion Williamson — 5yr/$197M (2022), $39.4M AAV, through 2026-27; Brandon Ingram requested trade 2025",
+        "new": "Zion Williamson, $42.2M in 2026-27 and $44.9M in 2027-28; Brandon Ingram was traded to Toronto in February 2025 and CJ McCollum to Washington in 2025; Jamahl Mosley hired as head coach May 18, 2026",
+        "fact": "Salary schedule per Basketball-Reference; Mosley hire per Wikipedia 2026-27 season page",
+        "source": "https://www.basketball-reference.com/contracts/NOP.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_New_Orleans_Pelicans_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Zion Williamson",
+            "position": "PF",
+            "aav": 39.4,
+            "contractNote": "5yr/$197M (2022), through 2026-27; chronic injury history limits availability; $39.4M guaranteed regardless"
+          },
+          {
+            "player": "Brandon Ingram",
+            "position": "SF",
+            "aav": 31.6,
+            "contractNote": "5yr/$158M (2021), through 2025-26; submitted trade request 2025"
+          },
+          {
+            "player": "CJ McCollum",
+            "position": "PG",
+            "aav": 29.3,
+            "contractNote": "3yr/$88M (2022), through 2024-25"
+          }
+        ],
+        "new": [
+          {
+            "player": "Zion Williamson",
+            "position": "PF",
+            "aav": 43.5,
+            "contractNote": "$42.2M (2026-27), $44.9M (2027-28)"
+          },
+          {
+            "player": "Jordan Poole",
+            "position": "SG",
+            "aav": 34,
+            "contractNote": "$34.0M in 2026-27, expiring"
+          },
+          {
+            "player": "Dejounte Murray",
+            "position": "PG",
+            "aav": 31.8,
+            "contractNote": "$32.8M (2026-27), $30.8M (2027-28)"
+          },
+          {
+            "player": "Trey Murphy III",
+            "position": "SF",
+            "aav": 29,
+            "contractNote": "$27.0M (2026-27) rising to $31.0M (2028-29)"
+          }
+        ],
+        "fact": "Per Basketball-Reference; 2026-27 payroll $204.3M",
+        "source": "https://www.basketball-reference.com/contracts/NOP.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: no 2026 decision on a Smoothie King Center renovation versus a new downtown arena found",
+      "arena.namingRightsDeal renewal terms not sourced"
+    ],
+    "analystNotes": "Forbes valued the Pelicans at $3.55B in October 2025 on $302M of revenue, the lowest revenue base in the league, and the operating story has not changed: New Orleans missed the playoffs in 2025 and 2026, changed coaches to Jamahl Mosley in May, and still pays Zion Williamson $42.2M on a $204M payroll with Jordan Poole's $34M expiring. The one structural fix already happened in 2024, when the team left Diamond for Gray's over-the-air Gulf Coast network, so the 2026 FanDuel collapse passed New Orleans by. The Smoothie King Center decision, a $250M renovation or a $1B-plus new arena, is still open with the building past its 25th year. Zion's availability and a signed arena plan are the two inputs; without both the franchise stays anchored to the national revenue pool at the bottom of the West.",
+    "analystNotesBasis": "Forbes 2025 ($3.55B, $302M revenue); 2022-2026 playoff record (BBR); BBR contracts; Wikipedia GCSEN and 2026-27 season pages."
+  },
+  {
+    "teamId": "san-antonio-spurs",
+    "team": "San Antonio Spurs",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southwest / FanDuel Sports Network, ~$15M/yr",
+        "new": "Tegna over-the-air affiliates for 2026-27 after FanDuel Sports Network Southwest shut down at the end of the 2025-26 regular season, with DAZN reported near an exclusive in-market streaming agreement",
+        "fact": "Wikipedia 2026-27 season page lists Tegna Inc.; Yahoo/Hoops Rumors report DAZN near a deal with San Antonio",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_San_Antonio_Spurs_season ; https://sports.yahoo.com/articles/pacers-expected-move-local-broadcasts-201055030.html"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Standard NBA League Pass",
+        "new": "DAZN streaming deal reported but not confirmed in sources found; NBA asked the 13 former FanDuel teams for one-year or opt-out deals ahead of a league-run local streaming package targeted for 2027-28; NBA League Pass unchanged",
+        "fact": "League guidance per Hoops Rumors (April 2026)",
+        "source": "https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "2026 playoffs: beat Portland 4-1, Minnesota 4-2 and Oklahoma City 4-3 to win the Western Conference, then lost the Finals 4-1 to New York",
+        "source": "https://www.basketball-reference.com/playoffs/NBA_2026.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Victor Wembanyama — rookie scale contract ($13.75M AAV through 2026-27); 2024 Rookie of the Year; #1 pick 2023; supermax extension eligible 2026",
+        "new": "Victor Wembanyama, 2025-26 Defensive Player of the Year and All-NBA; signed a 5yr/$252M rookie-scale max extension in July 2026 (25% of cap, fifth-year player option, 15% trade kicker) running 2027-28 through 2031-32 after declining the 30% Rose Rule structure that could have reached $303M; $16.9M in 2026-27",
+        "fact": "Largest rookie extension in NBA history; terms per Hoops Rumors, ESPN and Yahoo; DPOY per Wikipedia 2025-26 season page",
+        "source": "https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://sports.yahoo.com/articles/san-antonio-spurs-sign-victor-225912820.html ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Victor Wembanyama",
+            "position": "C/PF",
+            "aav": 13.75,
+            "contractNote": "Rookie scale through 2026-27; 7'4\" wingspan; considered once-in-generation talent; max extension ~$280M eligible summer 2026"
+          },
+          {
+            "player": "De'Aaron Fox",
+            "position": "PG",
+            "aav": 30,
+            "contractNote": "Acquired from Sacramento Kings in 3-team trade Feb 2025; established All-Star guard to complement Wembanyama's development"
+          }
+        ],
+        "new": [
+          {
+            "player": "Victor Wembanyama",
+            "position": "C/PF",
+            "aav": 50.5,
+            "contractNote": "$16.9M in 2026-27, then 5yr/$252M extension (July 2026): $43.5M (2027-28) to $57.4M (2031-32), fifth-year player option; 2025-26 DPOY"
+          },
+          {
+            "player": "De'Aaron Fox",
+            "position": "PG",
+            "aav": 55.8,
+            "contractNote": "$49.8M (2026-27) rising to $61.8M (2029-30)"
+          },
+          {
+            "player": "Devin Vassell",
+            "position": "SG",
+            "aav": 26.2,
+            "contractNote": "$27.0M (2026-27), $24.7M (2027-28), $27.0M (2028-29)"
+          }
+        ],
+        "fact": "Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $198.3M",
+        "source": "https://www.basketball-reference.com/contracts/SAS.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "arena.name",
+      "arena.newArenaPlans",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "Hemisfair arena construction status in 2026 not sourced (2030 target unchanged in enrichment)",
+      "Tegna and DAZN rights fees not disclosed"
+    ],
+    "analystNotes": "Forbes valued the Spurs at $4.4B in October 2025 on $401M of revenue, and the number is already stale: San Antonio won the 2026 Western Conference, beating Oklahoma City in seven before losing the Finals to New York in five, with Victor Wembanyama taking Defensive Player of the Year and then signing a 5yr/$252M extension at 25% of the cap, leaving roughly $50M on the table versus the Rose Rule maximum to keep the roster together. De'Aaron Fox's deal runs to $61.8M by 2029-30, so the Spurs carry two max contracts into the 2030 opening of the $1.3B Hemisfair arena that gives them venue economics for the first time. Local TV reset to Tegna over-the-air stations plus a pending DAZN stream after FanDuel Sports Network Southwest closed. The first Wembanyama title, and the arena on schedule, would push a small-market franchise past $6B on brand alone.",
+    "analystNotesBasis": "Forbes 2025 ($4.4B, $401M revenue); 2026 Finals run (BBR); Wembanyama extension and DPOY (Hoops Rumors, Yahoo, Wikipedia); BBR contracts; Tegna/DAZN per Wikipedia and Yahoo."
+  }
+]
