@@ -35,3 +35,8 @@ Thumbs.db
 
 # Vercel
 .vercel/
+
+# Forbes list exports are saved by hand for local parsing only; never publish them.
+research/forbes-raw/*.json
+research/forbes-raw/*-20*
+!research/forbes-raw/empty-leagues.json
