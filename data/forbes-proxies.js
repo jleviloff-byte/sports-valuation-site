@@ -21,7 +21,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 5.5,
     "merchRank": null,
-    "sportNote": "MetLife Stadium is run by a 50/50 Jets-Giants joint venture (New Meadowlands Stadium Co.), so stadium revenue is split with the Giants."
+    "sportNote": "MetLife Stadium is run by a 50/50 Jets-Giants joint venture (New Meadowlands Stadium Co.), so stadium revenue is split with the Giants.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 18.5,
+    "namingRightsSponsor": "MetLife Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 800
   },
   "new-york-giants": {
     "metro": "New York",
@@ -42,7 +48,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 10,
     "merchRank": null,
-    "sportNote": "MetLife Stadium is run by a 50/50 Jets-Giants joint venture (New Meadowlands Stadium Co.), so stadium revenue is split with the Jets."
+    "sportNote": "MetLife Stadium is run by a 50/50 Jets-Giants joint venture (New Meadowlands Stadium Co.), so stadium revenue is split with the Jets.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 18.5,
+    "namingRightsSponsor": "MetLife Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 1600
   },
   "brooklyn-nets": {
     "metro": "New York",
@@ -62,7 +74,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 13,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "Barclays Bank",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 511,
+    "privateFinancingM": 600
   },
   "new-york-knicks": {
     "metro": "New York",
@@ -82,7 +100,13 @@ export const forbesProxies = {
     "nationalTv": 34,
     "nationalTvScope": "US",
     "socialM": 14.2,
-    "merchRank": 1
+    "merchRank": 1,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "No external naming rights — 'Madison Square Garden' is a permanent legacy brand; MSG Entertainment derives venue revenue through concerts",
+    "realEstateDistrict": false,
+    "publicSubsidyM": null,
+    "privateFinancingM": null
   },
   "new-york-yankees": {
     "metro": "New York",
@@ -103,7 +127,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 competitive balance tax payer ($61.8M)."
+    "sportNote": "2025 competitive balance tax payer ($61.8M).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": false,
+    "publicSubsidyM": 220,
+    "privateFinancingM": 1380
   },
   "new-york-mets": {
     "metro": "New York",
@@ -124,7 +154,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($91.6M, second-highest)."
+    "sportNote": "2025 CBT payer ($91.6M, second-highest).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 20,
+    "namingRightsSponsor": "Citigroup",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 615,
+    "privateFinancingM": 235
   },
   "new-jersey-devils": {
     "metro": "New York",
@@ -144,7 +180,13 @@ export const forbesProxies = {
     "nationalTv": 9,
     "nationalTvScope": "US",
     "socialM": 2.18,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Prudential Financial",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 210,
+    "privateFinancingM": 165
   },
   "new-york-islanders": {
     "metro": "New York",
@@ -164,7 +206,13 @@ export const forbesProxies = {
     "nationalTv": 6,
     "nationalTvScope": "US",
     "socialM": 1.72,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 7,
+    "namingRightsSponsor": "UBS (Union Bank of Switzerland)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 1100
   },
   "new-york-rangers": {
     "metro": "New York",
@@ -184,7 +232,13 @@ export const forbesProxies = {
     "nationalTv": 15,
     "nationalTvScope": "US",
     "socialM": 5.05,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 0,
+    "namingRightsSponsor": "No naming rights deal",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 1100
   },
   "los-angeles-chargers": {
     "metro": "Los Angeles",
@@ -205,7 +259,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 5.6,
     "merchRank": null,
-    "sportNote": "Tenant at SoFi Stadium, which is controlled by Rams owner Kroenke's StadCo LA; both teams pay $1/yr rent. Stadium-side revenue (naming rights, non-NFL events) accrues to StadCo, not the Chargers."
+    "sportNote": "Tenant at SoFi Stadium, which is controlled by Rams owner Kroenke's StadCo LA; both teams pay $1/yr rent. Stadium-side revenue (naming rights, non-NFL events) accrues to StadCo, not the Chargers.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 20,
+    "namingRightsSponsor": "SoFi Technologies",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 200
   },
   "los-angeles-rams": {
     "metro": "Los Angeles",
@@ -225,7 +285,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "SoFi Technologies",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 5500
   },
   "los-angeles-clippers": {
     "metro": "Los Angeles",
@@ -246,7 +312,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 12.3,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 22,
+    "namingRightsSponsor": "Intuit Inc.",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 2000
   },
   "los-angeles-lakers": {
     "metro": "Los Angeles",
@@ -266,7 +338,13 @@ export const forbesProxies = {
     "nationalTv": 34,
     "nationalTvScope": "US",
     "socialM": 63.8,
-    "merchRank": 2
+    "merchRank": 2,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 35,
+    "namingRightsSponsor": "Crypto.com",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 375
   },
   "los-angeles-angels": {
     "metro": "Los Angeles",
@@ -287,7 +365,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "After FanDuel Sports Network dropped MLB (Feb 2026) the Angels acquired FanDuel Sports Network West outright (renamed Angels Broadcast Television)."
+    "sportNote": "After FanDuel Sports Network dropped MLB (Feb 2026) the Angels acquired FanDuel Sports Network West outright (renamed Angels Broadcast Television).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 0
   },
   "los-angeles-dodgers": {
     "metro": "Los Angeles",
@@ -308,7 +392,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($169.4M, record; highest in MLB)."
+    "sportNote": "2025 CBT payer ($169.4M, record; highest in MLB).",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 23
   },
   "anaheim-ducks": {
     "metro": "Los Angeles",
@@ -328,7 +418,13 @@ export const forbesProxies = {
     "nationalTv": 6,
     "nationalTvScope": "US",
     "socialM": 1.96,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 2.1,
+    "namingRightsSponsor": "Honda (American Honda Motor Co.)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 123
   },
   "los-angeles-kings": {
     "metro": "Los Angeles",
@@ -349,7 +445,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 2.84,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network West closed April 2026; Kings move to Angels-owned ABTV from 2026-27."
+    "sportNote": "FanDuel Sports Network West closed April 2026; Kings move to Angels-owned ABTV from 2026-27.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 35,
+    "namingRightsSponsor": "Crypto.com",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 375
   },
   "chicago-bears": {
     "metro": "Chicago",
@@ -369,7 +471,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 9,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "No corporate naming rights — Soldier Field is a designated war memorial",
+    "realEstateDistrict": false,
+    "publicSubsidyM": null,
+    "privateFinancingM": null
   },
   "chicago-bulls": {
     "metro": "Chicago",
@@ -389,7 +497,13 @@ export const forbesProxies = {
     "nationalTv": 3,
     "nationalTvScope": "US",
     "socialM": 34.5,
-    "merchRank": 7
+    "merchRank": 7,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 9,
+    "namingRightsSponsor": "United Airlines",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 18,
+    "privateFinancingM": 175
   },
   "chicago-white-sox": {
     "metro": "Chicago",
@@ -409,7 +523,13 @@ export const forbesProxies = {
     "nationalTv": 0,
     "nationalTvScope": "US",
     "socialM": null,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5.2,
+    "namingRightsSponsor": "Guaranteed Rate (mortgage company)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 167,
+    "privateFinancingM": 137
   },
   "chicago-cubs": {
     "metro": "Chicago",
@@ -429,7 +549,13 @@ export const forbesProxies = {
     "nationalTv": 19,
     "nationalTvScope": "US",
     "socialM": null,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": true,
+    "publicSubsidyM": 22,
+    "privateFinancingM": 978
   },
   "chicago-blackhawks": {
     "metro": "Chicago",
@@ -449,7 +575,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 7.4,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "United Airlines",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 175
   },
   "san-francisco-49ers": {
     "metro": "San Francisco Bay Area",
@@ -469,7 +601,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 12.7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Levi Strauss & Co.",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 114,
+    "privateFinancingM": 1186
   },
   "golden-state-warriors": {
     "metro": "San Francisco Bay Area",
@@ -489,7 +627,13 @@ export const forbesProxies = {
     "nationalTv": 34,
     "nationalTvScope": "US",
     "socialM": 62,
-    "merchRank": 4
+    "merchRank": 4,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 15,
+    "namingRightsSponsor": "JPMorgan Chase Bank (Chase brand)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 1400
   },
   "san-francisco-giants": {
     "metro": "San Francisco Bay Area",
@@ -509,7 +653,13 @@ export const forbesProxies = {
     "nationalTv": 12,
     "nationalTvScope": "US",
     "socialM": null,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "Oracle Corporation",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 357
   },
   "san-jose-sharks": {
     "metro": "San Francisco Bay Area",
@@ -529,7 +679,13 @@ export const forbesProxies = {
     "nationalTv": 3,
     "nationalTvScope": "US",
     "socialM": 2.95,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3,
+    "namingRightsSponsor": "SAP SE",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 162,
+    "privateFinancingM": 0
   },
   "dallas-cowboys": {
     "metro": "Dallas-Fort Worth",
@@ -549,7 +705,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 20.1,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 18,
+    "namingRightsSponsor": "AT&T",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 325,
+    "privateFinancingM": 675
   },
   "dallas-mavericks": {
     "metro": "Dallas-Fort Worth",
@@ -569,7 +731,13 @@ export const forbesProxies = {
     "nationalTv": 23,
     "nationalTvScope": "US",
     "socialM": 14.3,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "American Airlines",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 125,
+    "privateFinancingM": 295
   },
   "texas-rangers": {
     "metro": "Dallas-Fort Worth",
@@ -590,7 +758,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer (~$190K). Team-owned Rangers Sports Network. Qualified for 2025 media disruption distribution."
+    "sportNote": "2025 CBT payer (~$190K). Team-owned Rangers Sports Network. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 25,
+    "namingRightsSponsor": "Globe Life (Liberty National Life Insurance)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 500,
+    "privateFinancingM": 700
   },
   "dallas-stars": {
     "metro": "Dallas-Fort Worth",
@@ -610,7 +784,13 @@ export const forbesProxies = {
     "nationalTv": 11,
     "nationalTvScope": "US",
     "socialM": 2.67,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 6.5,
+    "namingRightsSponsor": "American Airlines",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 125,
+    "privateFinancingM": 295
   },
   "houston-texans": {
     "metro": "Houston",
@@ -630,7 +810,13 @@ export const forbesProxies = {
     "nationalTv": 4,
     "nationalTvScope": "US",
     "socialM": 6.98,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "Reliant Energy (NRG Energy 2014-2026, reverting to Reliant)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 215,
+    "privateFinancingM": 137
   },
   "houston-rockets": {
     "metro": "Houston",
@@ -650,7 +836,13 @@ export const forbesProxies = {
     "nationalTv": 28,
     "nationalTvScope": "US",
     "socialM": 26.5,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 9,
+    "namingRightsSponsor": "Toyota Motor North America",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 140,
+    "privateFinancingM": 95
   },
   "houston-astros": {
     "metro": "Houston",
@@ -671,7 +863,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($1.5M). Qualified for 2025 media disruption distribution."
+    "sportNote": "2025 CBT payer ($1.5M). Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Daikin Comfort Technologies North America (Daikin)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 250,
+    "privateFinancingM": 68
   },
   "washington-commanders": {
     "metro": "Washington, D.C.",
@@ -691,7 +889,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 5.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 7.5,
+    "namingRightsSponsor": "Northwest Federal Credit Union",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 70,
+    "privateFinancingM": 180
   },
   "washington-wizards": {
     "metro": "Washington, D.C.",
@@ -711,7 +915,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 8.4,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Capital One Financial",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 515,
+    "privateFinancingM": 485
   },
   "washington-nationals": {
     "metro": "Washington, D.C.",
@@ -732,7 +942,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 (left MASN)."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 (left MASN).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": false,
+    "publicSubsidyM": 611,
+    "privateFinancingM": 82
   },
   "washington-capitals": {
     "metro": "Washington, D.C.",
@@ -752,7 +968,13 @@ export const forbesProxies = {
     "nationalTv": 14,
     "nationalTvScope": "US",
     "socialM": 3.16,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Capital One",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 79,
+    "privateFinancingM": 200
   },
   "philadelphia-eagles": {
     "metro": "Philadelphia",
@@ -772,7 +994,13 @@ export const forbesProxies = {
     "nationalTv": 7,
     "nationalTvScope": "US",
     "socialM": 18,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 15.5,
+    "namingRightsSponsor": "Lincoln Financial Group",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 188,
+    "privateFinancingM": 330
   },
   "philadelphia-76ers": {
     "metro": "Philadelphia",
@@ -792,7 +1020,13 @@ export const forbesProxies = {
     "nationalTv": 14,
     "nationalTvScope": "US",
     "socialM": 10,
-    "merchRank": 6
+    "merchRank": 6,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Wells Fargo",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 210
   },
   "philadelphia-phillies": {
     "metro": "Philadelphia",
@@ -813,7 +1047,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($56.1M)."
+    "sportNote": "2025 CBT payer ($56.1M).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3.8,
+    "namingRightsSponsor": "Citizens Bank (Citizens Financial Group)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 229,
+    "privateFinancingM": 229
   },
   "philadelphia-flyers": {
     "metro": "Philadelphia",
@@ -833,7 +1073,13 @@ export const forbesProxies = {
     "nationalTv": 13,
     "nationalTvScope": "US",
     "socialM": 3.61,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Xfinity Mobile (Comcast subsidiary)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 522
   },
   "miami-dolphins": {
     "metro": "Miami",
@@ -853,7 +1099,13 @@ export const forbesProxies = {
     "nationalTv": 6,
     "nationalTvScope": "US",
     "socialM": 7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 13.9,
+    "namingRightsSponsor": "Hard Rock International",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 755
   },
   "miami-heat": {
     "metro": "Miami",
@@ -874,7 +1126,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 27.4,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 7,
+    "namingRightsSponsor": "Kaseya (IT management software)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 213,
+    "privateFinancingM": 0
   },
   "miami-marlins": {
     "metro": "Miami",
@@ -895,7 +1153,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3.69,
+    "namingRightsSponsor": "LoanDepot",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 515,
+    "privateFinancingM": 120
   },
   "florida-panthers": {
     "metro": "Miami",
@@ -915,7 +1179,13 @@ export const forbesProxies = {
     "nationalTv": 10,
     "nationalTvScope": "US",
     "socialM": 1.88,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Amerant Bank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 185,
+    "privateFinancingM": 0
   },
   "atlanta-falcons": {
     "metro": "Atlanta",
@@ -935,7 +1205,13 @@ export const forbesProxies = {
     "nationalTv": 6,
     "nationalTvScope": "US",
     "socialM": 7.2,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Mercedes-Benz",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 200,
+    "privateFinancingM": 1400
   },
   "atlanta-hawks": {
     "metro": "Atlanta",
@@ -956,7 +1232,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 7.1,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 15,
+    "namingRightsSponsor": "State Farm Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 143,
+    "privateFinancingM": 271
   },
   "atlanta-braves": {
     "metro": "Atlanta",
@@ -977,7 +1259,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Terminated FanDuel Sports Network deal Jan 2026; launched in-house BravesVision for 2026."
+    "sportNote": "Terminated FanDuel Sports Network deal Jan 2026; launched in-house BravesVision for 2026.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "Truist Financial (successor to SunTrust after BB&T merger)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 392,
+    "privateFinancingM": 330
   },
   "new-england-patriots": {
     "metro": "Boston (New England)",
@@ -997,7 +1285,13 @@ export const forbesProxies = {
     "nationalTv": 3,
     "nationalTvScope": "US",
     "socialM": 17.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Procter & Gamble (Gillette brand)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 325
   },
   "boston-celtics": {
     "metro": "Boston (New England)",
@@ -1017,7 +1311,13 @@ export const forbesProxies = {
     "nationalTv": 25,
     "nationalTvScope": "US",
     "socialM": 23.4,
-    "merchRank": 3
+    "merchRank": 3,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "TD Bank (TD Group)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 160
   },
   "boston-red-sox": {
     "metro": "Boston (New England)",
@@ -1038,7 +1338,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($1.5M, first-time payor)."
+    "sportNote": "2025 CBT payer ($1.5M, first-time payor).",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 400
   },
   "boston-bruins": {
     "metro": "Boston (New England)",
@@ -1058,7 +1364,13 @@ export const forbesProxies = {
     "nationalTv": 18,
     "nationalTvScope": "US",
     "socialM": 6.13,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "TD Bank (TD Group)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 160
   },
   "arizona-cardinals": {
     "metro": "Phoenix (Arizona)",
@@ -1078,7 +1390,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 4.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "State Farm",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 302,
+    "privateFinancingM": 143
   },
   "phoenix-suns": {
     "metro": "Phoenix (Arizona)",
@@ -1098,7 +1416,13 @@ export const forbesProxies = {
     "nationalTv": 9,
     "nationalTvScope": "US",
     "socialM": 8.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Mortgage Matchup (UWM Holdings/Ishbia affiliate)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 239,
+    "privateFinancingM": 80
   },
   "arizona-diamondbacks": {
     "metro": "Phoenix (Arizona)",
@@ -1119,7 +1443,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution."
+    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3,
+    "namingRightsSponsor": "Chase (JPMorgan Chase Bank)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 238,
+    "privateFinancingM": 117
   },
   "detroit-lions": {
     "metro": "Detroit",
@@ -1139,7 +1469,13 @@ export const forbesProxies = {
     "nationalTv": 7,
     "nationalTvScope": "US",
     "socialM": 9.1,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Ford Motor Company",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 255,
+    "privateFinancingM": 245
   },
   "detroit-pistons": {
     "metro": "Detroit",
@@ -1160,7 +1496,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 5.4,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Little Caesars Pizza",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 324,
+    "privateFinancingM": 539
   },
   "detroit-tigers": {
     "metro": "Detroit",
@@ -1181,7 +1523,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network Detroit contract terminated Jan 2026; 2026 games on new Detroit SportsNet, produced under MLB media umbrella."
+    "sportNote": "FanDuel Sports Network Detroit contract terminated Jan 2026; 2026 games on new Detroit SportsNet, produced under MLB media umbrella.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 2.2,
+    "namingRightsSponsor": "Comerica Bank (will become Fifth Third after 2026)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 145,
+    "privateFinancingM": 140
   },
   "detroit-red-wings": {
     "metro": "Detroit",
@@ -1202,7 +1550,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 4.51,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network Detroit closed April 2026; Red Wings move to Detroit SportsNet from 2026-27."
+    "sportNote": "FanDuel Sports Network Detroit closed April 2026; Red Wings move to Detroit SportsNet from 2026-27.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Little Caesars (Ilitch Holdings)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 324,
+    "privateFinancingM": 539
   },
   "seattle-seahawks": {
     "metro": "Seattle",
@@ -1222,7 +1576,13 @@ export const forbesProxies = {
     "nationalTv": 4,
     "nationalTvScope": "US",
     "socialM": 10.9,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Lumen Technologies (CenturyLink rebranded)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 251,
+    "privateFinancingM": 109
   },
   "seattle-mariners": {
     "metro": "Seattle",
@@ -1243,7 +1603,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media (2026) after team-owned ROOT Sports Northwest arrangement. Qualified for 2025 media disruption distribution."
+    "sportNote": "Local TV moved to MLB Local Media (2026) after team-owned ROOT Sports Northwest arrangement. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "T-Mobile (Deutsche Telekom subsidiary)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 372,
+    "privateFinancingM": 45
   },
   "seattle-kraken": {
     "metro": "Seattle",
@@ -1263,7 +1629,13 @@ export const forbesProxies = {
     "nationalTv": 7,
     "nationalTvScope": "US",
     "socialM": 1.74,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Amazon (Climate Pledge)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 1150
   },
   "minnesota-vikings": {
     "metro": "Minneapolis-St. Paul (Minnesota)",
@@ -1283,7 +1655,13 @@ export const forbesProxies = {
     "nationalTv": 7,
     "nationalTvScope": "US",
     "socialM": 6.7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8.8,
+    "namingRightsSponsor": "U.S. Bank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 498,
+    "privateFinancingM": 551
   },
   "minnesota-timberwolves": {
     "metro": "Minneapolis-St. Paul (Minnesota)",
@@ -1304,7 +1682,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 8.3,
     "merchRank": 9,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 13,
+    "namingRightsSponsor": "Target Corporation",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 147,
+    "privateFinancingM": 66
   },
   "minnesota-twins": {
     "metro": "Minneapolis-St. Paul (Minnesota)",
@@ -1325,7 +1709,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution."
+    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 15,
+    "namingRightsSponsor": "Target Corporation",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 350,
+    "privateFinancingM": 185
   },
   "minnesota-wild": {
     "metro": "Minneapolis-St. Paul (Minnesota)",
@@ -1346,7 +1736,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 2.59,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network closed April 2026; team-owned network with NHL Productions support from 2026-27."
+    "sportNote": "FanDuel Sports Network closed April 2026; team-owned network with NHL Productions support from 2026-27.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 3.6,
+    "namingRightsSponsor": "Xcel Energy",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 65,
+    "privateFinancingM": 105
   },
   "tampa-bay-buccaneers": {
     "metro": "Tampa Bay",
@@ -1366,7 +1762,13 @@ export const forbesProxies = {
     "nationalTv": 4,
     "nationalTvScope": "US",
     "socialM": 5.7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Raymond James Financial",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 169,
+    "privateFinancingM": 0
   },
   "tampa-bay-rays": {
     "metro": "Tampa Bay",
@@ -1387,7 +1789,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network (Main Street) terminated MLB coverage."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network (Main Street) terminated MLB coverage.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 2,
+    "namingRightsSponsor": "Tropicana (PepsiCo brand)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 138,
+    "privateFinancingM": 0
   },
   "tampa-bay-lightning": {
     "metro": "Tampa Bay",
@@ -1407,7 +1815,13 @@ export const forbesProxies = {
     "nationalTv": 11,
     "nationalTvScope": "US",
     "socialM": 2.55,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Amalie Oil Company",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 139,
+    "privateFinancingM": 47
   },
   "san-diego-padres": {
     "metro": "San Diego",
@@ -1428,7 +1842,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer (just under $7M). Local TV produced by MLB Local Media since 2023 Diamond exit. Qualified for 2025 media disruption distribution."
+    "sportNote": "2025 CBT payer (just under $7M). Local TV produced by MLB Local Media since 2023 Diamond exit. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 7.7,
+    "namingRightsSponsor": "Petco (pet supply retail)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 301,
+    "privateFinancingM": 153
   },
   "denver-broncos": {
     "metro": "Denver",
@@ -1448,7 +1868,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 9.1,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6.2,
+    "namingRightsSponsor": "Empower Retirement (Great-West Life & Annuity)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 249,
+    "privateFinancingM": 115
   },
   "denver-nuggets": {
     "metro": "Denver",
@@ -1468,7 +1894,13 @@ export const forbesProxies = {
     "nationalTv": 26,
     "nationalTvScope": "US",
     "socialM": 8.1,
-    "merchRank": 10
+    "merchRank": 10,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Ball Corporation",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 185
   },
   "colorado-rockies": {
     "metro": "Denver",
@@ -1489,7 +1921,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution."
+    "sportNote": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 1.5,
+    "namingRightsSponsor": "Coors Brewing Company (Molson Coors)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 168,
+    "privateFinancingM": 47
   },
   "colorado-avalanche": {
     "metro": "Denver",
@@ -1509,7 +1947,13 @@ export const forbesProxies = {
     "nationalTv": 17,
     "nationalTvScope": "US",
     "socialM": 2.87,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Ball Corporation",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 160
   },
   "st-louis-cardinals": {
     "metro": "St. Louis",
@@ -1530,7 +1974,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Anheuser-Busch InBev (Busch brand)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 45,
+    "privateFinancingM": 320
   },
   "st-louis-blues": {
     "metro": "St. Louis",
@@ -1551,7 +2001,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 2.51,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network closed April 2026; ~70 regional games produced with NHL Productions from 2026-27, Blues control distribution/ad sales."
+    "sportNote": "FanDuel Sports Network closed April 2026; ~70 regional games produced with NHL Productions from 2026-27, Blues control distribution/ad sales.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5.6,
+    "namingRightsSponsor": "Enterprise Holdings (Rent-A-Car)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 135,
+    "privateFinancingM": 35
   },
   "baltimore-ravens": {
     "metro": "Baltimore",
@@ -1571,7 +2027,13 @@ export const forbesProxies = {
     "nationalTv": 4,
     "nationalTvScope": "US",
     "socialM": 8.7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "M&T Bank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 200,
+    "privateFinancingM": 22
   },
   "baltimore-orioles": {
     "metro": "Baltimore",
@@ -1591,7 +2053,13 @@ export const forbesProxies = {
     "nationalTv": 11,
     "nationalTvScope": "US",
     "socialM": null,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": false,
+    "publicSubsidyM": 235,
+    "privateFinancingM": 75
   },
   "orlando-magic": {
     "metro": "Orlando",
@@ -1612,7 +2080,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 8.5,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 7,
+    "namingRightsSponsor": "Kia Motors America",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 430,
+    "privateFinancingM": 50
   },
   "carolina-panthers": {
     "metro": "Charlotte",
@@ -1632,7 +2106,13 @@ export const forbesProxies = {
     "nationalTv": 1,
     "nationalTvScope": "US",
     "socialM": 8.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Bank of America",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 56,
+    "privateFinancingM": 186
   },
   "charlotte-hornets": {
     "metro": "Charlotte",
@@ -1653,7 +2133,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 7.2,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 13,
+    "namingRightsSponsor": "Charter Communications (Spectrum brand)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 265,
+    "privateFinancingM": 215
   },
   "san-antonio-spurs": {
     "metro": "San Antonio",
@@ -1674,7 +2160,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 16.5,
     "merchRank": 5,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Frost Bank (Cullen/Frost Bankers Inc.)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 186,
+    "privateFinancingM": 0
   },
   "portland-trail-blazers": {
     "metro": "Portland",
@@ -1694,7 +2186,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 8.1,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 4,
+    "namingRightsSponsor": "Moda Health (Oregon regional health insurer)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 35,
+    "privateFinancingM": 227
   },
   "sacramento-kings": {
     "metro": "Sacramento",
@@ -1714,7 +2212,13 @@ export const forbesProxies = {
     "nationalTv": 9,
     "nationalTvScope": "US",
     "socialM": 11.7,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Golden 1 Credit Union",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 255,
+    "privateFinancingM": 304
   },
   "oakland-athletics": {
     "metro": "Sacramento",
@@ -1734,7 +2238,13 @@ export const forbesProxies = {
     "nationalTv": 0,
     "nationalTvScope": "US",
     "socialM": null,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Sutter Health",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 0
   },
   "pittsburgh-steelers": {
     "metro": "Pittsburgh",
@@ -1754,7 +2264,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 16.1,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 11,
+    "namingRightsSponsor": "Acrisure (insurance brokerage)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 171,
+    "privateFinancingM": 110
   },
   "pittsburgh-pirates": {
     "metro": "Pittsburgh",
@@ -1775,7 +2291,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Qualified for 2025 media disruption distribution (up to $15M)."
+    "sportNote": "Qualified for 2025 media disruption distribution (up to $15M).",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 2,
+    "namingRightsSponsor": "PNC Financial Services Group (PNC Bank)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 172,
+    "privateFinancingM": 44
   },
   "pittsburgh-penguins": {
     "metro": "Pittsburgh",
@@ -1795,7 +2317,13 @@ export const forbesProxies = {
     "nationalTv": 16,
     "nationalTvScope": "US",
     "socialM": 6.99,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3.8,
+    "namingRightsSponsor": "PPG Industries",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 290,
+    "privateFinancingM": 31
   },
   "las-vegas-raiders": {
     "metro": "Las Vegas (Vegas)",
@@ -1815,7 +2343,13 @@ export const forbesProxies = {
     "nationalTv": 3,
     "nationalTvScope": "US",
     "socialM": 8.46,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 22.5,
+    "namingRightsSponsor": "Allegiant Travel Company (Allegiant Air)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 750,
+    "privateFinancingM": 1100
   },
   "vegas-golden-knights": {
     "metro": "Las Vegas (Vegas)",
@@ -1835,7 +2369,13 @@ export const forbesProxies = {
     "nationalTv": 12,
     "nationalTvScope": "US",
     "socialM": 2.11,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6.5,
+    "namingRightsSponsor": "T-Mobile",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 375
   },
   "cincinnati-bengals": {
     "metro": "Cincinnati",
@@ -1855,7 +2395,13 @@ export const forbesProxies = {
     "nationalTv": 4,
     "nationalTvScope": "US",
     "socialM": 7.2,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 4.16,
+    "namingRightsSponsor": "Paycor HCM",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 555,
+    "privateFinancingM": 25
   },
   "cincinnati-reds": {
     "metro": "Cincinnati",
@@ -1876,7 +2422,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 2.5,
+    "namingRightsSponsor": "Great American Insurance Company",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 280,
+    "privateFinancingM": 50
   },
   "kansas-city-chiefs": {
     "metro": "Kansas City",
@@ -1896,7 +2448,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 15.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "GEHA (Government Employees Health Association)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 250,
+    "privateFinancingM": 125
   },
   "kansas-city-royals": {
     "metro": "Kansas City",
@@ -1917,7 +2475,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": null,
+    "realEstateDistrict": false,
+    "publicSubsidyM": 250,
+    "privateFinancingM": 0
   },
   "columbus-blue-jackets": {
     "metro": "Columbus",
@@ -1938,7 +2502,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 1.55,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network Ohio closed April 2026; NHL Productions produces regional telecasts from 2026-27."
+    "sportNote": "FanDuel Sports Network Ohio closed April 2026; NHL Productions produces regional telecasts from 2026-27.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Nationwide Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 42,
+    "privateFinancingM": 175
   },
   "indianapolis-colts": {
     "metro": "Indianapolis",
@@ -1958,7 +2528,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 5.4,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6.1,
+    "namingRightsSponsor": "Lucas Oil Products",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 620,
+    "privateFinancingM": 100
   },
   "indiana-pacers": {
     "metro": "Indianapolis",
@@ -1979,7 +2555,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 8.8,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5,
+    "namingRightsSponsor": "Gainbridge (Global Indemnity/OneAmerica affiliate)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 79,
+    "privateFinancingM": 464
   },
   "cleveland-browns": {
     "metro": "Cleveland",
@@ -1999,7 +2581,13 @@ export const forbesProxies = {
     "nationalTv": 1,
     "nationalTvScope": "US",
     "socialM": 6.2,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Huntington Bank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 283,
+    "privateFinancingM": null
   },
   "cleveland-cavaliers": {
     "metro": "Cleveland",
@@ -2020,7 +2608,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 28.5,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 10,
+    "namingRightsSponsor": "Rocket Companies (Dan Gilbert's company)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 185,
+    "privateFinancingM": 185
   },
   "cleveland-guardians": {
     "metro": "Cleveland",
@@ -2041,7 +2635,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV produced/distributed by MLB Local Media (since Diamond Sports exit). Qualified for 2025 MLB \"media disruption distribution\" (up to $15M) for lost local TV fees."
+    "sportNote": "Local TV produced/distributed by MLB Local Media (since Diamond Sports exit). Qualified for 2025 MLB \"media disruption distribution\" (up to $15M) for lost local TV fees.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 3.6,
+    "namingRightsSponsor": "Progressive Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 175,
+    "privateFinancingM": 91
   },
   "tennessee-titans": {
     "metro": "Nashville",
@@ -2061,7 +2661,13 @@ export const forbesProxies = {
     "nationalTv": 0,
     "nationalTvScope": "US",
     "socialM": 4.4,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Nissan North America",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 1260,
+    "privateFinancingM": 840
   },
   "nashville-predators": {
     "metro": "Nashville",
@@ -2082,7 +2688,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 1.71,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network closed April 2026; multi-year Scripps Sports deal from 2026-27."
+    "sportNote": "FanDuel Sports Network closed April 2026; multi-year Scripps Sports deal from 2026-27.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Bridgestone Americas (tire manufacturer)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 144,
+    "privateFinancingM": 60
   },
   "jacksonville-jaguars": {
     "metro": "Jacksonville",
@@ -2102,7 +2714,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 3.36,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 4.3,
+    "namingRightsSponsor": "EverBank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 700,
+    "privateFinancingM": 625
   },
   "carolina-hurricanes": {
     "metro": "Raleigh (Carolina)",
@@ -2123,7 +2741,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 2.03,
     "merchRank": null,
-    "sportNote": "FanDuel Sports Network closed April 2026; team-owned network run by Hurricanes Holdings from 2026-27."
+    "sportNote": "FanDuel Sports Network closed April 2026; team-owned network run by Hurricanes Holdings from 2026-27.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Lenovo",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 158,
+    "privateFinancingM": 60
   },
   "milwaukee-bucks": {
     "metro": "Milwaukee",
@@ -2144,7 +2768,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 12.2,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 6,
+    "namingRightsSponsor": "Fiserv Inc.",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 250,
+    "privateFinancingM": 274
   },
   "milwaukee-brewers": {
     "metro": "Milwaukee",
@@ -2165,7 +2795,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit."
+    "sportNote": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 4.7,
+    "namingRightsSponsor": "American Family Insurance",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 310,
+    "privateFinancingM": 90
   },
   "utah-jazz": {
     "metro": "Salt Lake City (Utah)",
@@ -2185,7 +2821,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 9.9,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 7,
+    "namingRightsSponsor": "Delta Air Lines",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 93
   },
   "utah-hockey-club": {
     "metro": "Salt Lake City (Utah)",
@@ -2205,7 +2847,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 0.62,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 5.5,
+    "namingRightsSponsor": "Delta Air Lines",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 525,
+    "privateFinancingM": 375
   },
   "oklahoma-city-thunder": {
     "metro": "Oklahoma City",
@@ -2226,7 +2874,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 16,
     "merchRank": 8,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Paycom Software",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 89,
+    "privateFinancingM": 0
   },
   "memphis-grizzlies": {
     "metro": "Memphis",
@@ -2247,7 +2901,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 7.4,
     "merchRank": null,
-    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset."
+    "sportNote": "Local TV was on FanDuel Sports Network (Main Street Sports Group, formerly Diamond), which stopped broadcasting after the 2025-26 regular season. The NBA told these 13 teams (Apr 2026) to sign one-year or opt-out local deals (over-the-air or streaming) before a league streaming RSN hub planned for 2027-28 at the earliest. 2026-27 local rights income is at risk or reset.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5,
+    "namingRightsSponsor": "FedEx Corporation",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 200,
+    "privateFinancingM": 50
   },
   "new-orleans-saints": {
     "metro": "New Orleans",
@@ -2267,7 +2927,13 @@ export const forbesProxies = {
     "nationalTv": 0,
     "nationalTvScope": "US",
     "socialM": 8.9,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Caesars Entertainment",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 450,
+    "privateFinancingM": 0
   },
   "new-orleans-pelicans": {
     "metro": "New Orleans",
@@ -2287,7 +2953,13 @@ export const forbesProxies = {
     "nationalTv": 2,
     "nationalTvScope": "US",
     "socialM": 6.9,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 4,
+    "namingRightsSponsor": "Smoothie King (Franchise Group)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 114,
+    "privateFinancingM": 0
   },
   "buffalo-bills": {
     "metro": "Buffalo",
@@ -2307,7 +2979,13 @@ export const forbesProxies = {
     "nationalTv": 5,
     "nationalTvScope": "US",
     "socialM": 8.3,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5.5,
+    "namingRightsSponsor": "Highmark Blue Cross Blue Shield of Western New York",
+    "realEstateDistrict": false,
+    "publicSubsidyM": null,
+    "privateFinancingM": null
   },
   "buffalo-sabres": {
     "metro": "Buffalo",
@@ -2327,7 +3005,13 @@ export const forbesProxies = {
     "nationalTv": 8,
     "nationalTvScope": "US",
     "socialM": 2.25,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5,
+    "namingRightsSponsor": "KeyBank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 122,
+    "privateFinancingM": 45
   },
   "green-bay-packers": {
     "metro": "Green Bay",
@@ -2347,7 +3031,13 @@ export const forbesProxies = {
     "nationalTv": 6,
     "nationalTvScope": "US",
     "socialM": 11.6,
-    "merchRank": null
+    "merchRank": null,
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "No naming rights — Lambeau Field named for founder Curly Lambeau; naming rights not currently being pursued",
+    "realEstateDistrict": false,
+    "publicSubsidyM": null,
+    "privateFinancingM": null
   },
   "toronto-raptors": {
     "metro": "Toronto",
@@ -2368,7 +3058,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": 10.1,
     "merchRank": null,
-    "sportNote": "Raptors' U.S. national TV count (2) excludes Canadian national broadcasts. Owner MLSE also owns and operates Scotiabank Arena."
+    "sportNote": "Raptors' U.S. national TV count (2) excludes Canadian national broadcasts. Owner MLSE also owns and operates Scotiabank Arena.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 30,
+    "namingRightsSponsor": "Scotiabank (Bank of Nova Scotia)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 265
   },
   "toronto-blue-jays": {
     "metro": "Toronto",
@@ -2389,7 +3085,13 @@ export const forbesProxies = {
     "nationalTvScope": "US",
     "socialM": null,
     "merchRank": null,
-    "sportNote": "2025 CBT payer ($13.6M). Local TV on Sportsnet, owned by team parent Rogers."
+    "sportNote": "2025 CBT payer ($13.6M). Local TV on Sportsnet, owned by team parent Rogers.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Rogers Communications (internal)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 300
   },
   "toronto-maple-leafs": {
     "metro": "Toronto",
@@ -2410,7 +3112,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 5.71,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 32,
+    "namingRightsSponsor": "Scotiabank (Bank of Nova Scotia)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 40,
+    "privateFinancingM": 265
   },
   "montreal-canadiens": {
     "metro": "Montreal",
@@ -2431,7 +3139,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 5.18,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Bell Canada (BCE Inc.)",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 190
   },
   "ottawa-senators": {
     "metro": "Ottawa",
@@ -2452,7 +3166,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 1.49,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": null,
+    "namingRightsSponsor": "Canadian Tire Corporation",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 6,
+    "privateFinancingM": 182
   },
   "winnipeg-jets": {
     "metro": "Winnipeg",
@@ -2473,7 +3193,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 2.03,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 3.5,
+    "namingRightsSponsor": "Canada Life Assurance Company (Great-West Lifeco subsidiary)",
+    "realEstateDistrict": true,
+    "publicSubsidyM": 40,
+    "privateFinancingM": 130
   },
   "calgary-flames": {
     "metro": "Calgary",
@@ -2494,7 +3220,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 1.76,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5,
+    "namingRightsSponsor": "Scotiabank",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 97,
+    "privateFinancingM": 180
   },
   "edmonton-oilers": {
     "metro": "Edmonton",
@@ -2515,7 +3247,13 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 3.3,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": false,
+    "namingRightsAnnualM": 5.5,
+    "namingRightsSponsor": "Rogers Communications",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 226,
+    "privateFinancingM": 154
   },
   "vancouver-canucks": {
     "metro": "Vancouver",
@@ -2536,6 +3274,12 @@ export const forbesProxies = {
     "nationalTvScope": "Canada",
     "socialM": 3.19,
     "merchRank": null,
-    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights."
+    "sportNote": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+    "teamOwnsLand": true,
+    "namingRightsAnnualM": 8,
+    "namingRightsSponsor": "Rogers Communications",
+    "realEstateDistrict": false,
+    "publicSubsidyM": 0,
+    "privateFinancingM": 160
   }
 }

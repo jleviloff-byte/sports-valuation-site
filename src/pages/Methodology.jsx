@@ -66,33 +66,46 @@ function ForbesBreakdownSection() {
     <>
       <SectionHead id="forbes-breakdown">Reading the Forbes Breakdown</SectionHead>
       <p>
-        Forbes doesn't just print a total. For the NFL, NBA, MLB, and NHL it splits every team into
-        four pieces. The NHL split here is as of Dec 2024, the latest one Forbes has published, and
-        Forbes publishes no split for MLS or the Premier League. Sport is the value of the league's shared revenue, the national TV and licensing
-        money every club collects in equal measure. Market is what the city is worth: population,
-        TV households, and corporate wallets. Stadium is the value the building adds, from suites to
-        naming rights to the concerts on off nights. Brand is whatever is left that a fan base pays
-        extra for.
+        Two rules govern everything under "Inside the Forbes Number." The numbers are Forbes'.
+        The commentary is ours. For the NFL, NBA, MLB, and NHL, Forbes splits every team into
+        four pieces. Sport is the value of the league's shared revenue, the national TV and
+        licensing money the clubs divide. Market is what the city is worth to the team:
+        population, TV households, and corporate wallets. Stadium is what the building adds,
+        from suites to naming rights to the concerts on off nights. Brand is whatever is left
+        that a fan base pays extra for. The NHL split here is as of Dec 2024, the latest one
+        Forbes has published. Forbes publishes no split for MLS or the Premier League, and I
+        don't estimate one.
       </p>
       <p>
-        On every team page, each piece sits on a bar that runs from the league's smallest value to
-        its largest, with a tick at the median and the team's logo where Forbes put it. Then comes
-        the test. For Market, Stadium, and Brand I regress the Forbes figure on the things that
-        should drive it: metro population, TV households, household income, and local competition
-        for Market; venue age, capacity, premium seating, and whether the team controls the building
-        for Stadium; championships since 2001, national TV exposure, social following, and
-        merchandise rank for Brand. A team whose Forbes value sits more than one standard deviation
-        above what those inputs predict gets "Forbes looks generous." More than one below gets
-        "Forbes looks conservative." Everything in between is on the mark. Sport gets a simpler
-        test: it should be flat inside a league, so anything more than 5% from the median gets
-        flagged and explained.
+        On every team page, each piece sits on a bar that runs from the league's smallest value
+        to its largest, with a tick at the median and the team's logo where Forbes put it. Under
+        the bar is the rank, the gap to the median, and three short paragraphs: why the number is
+        what it is, how it compares to the two or three most relevant peers, and what it tells
+        us. Peers means the team that shares the market, the strongest team in the division on
+        that component, and a team in a metro of similar size. Every comparison is against league
+        peers, not against a model. Where the facts say Forbes has it right, or has it off, the
+        prose says so with the supporting numbers. There are no scores, labels, or verdicts on
+        this site that a formula produced.
       </p>
       <p>
-        The limits are real, so here they are plainly. Proxies are proxies. Forbes sees private
-        data I don't: actual suite revenue, lease terms buried in bond documents, local media
-        contracts that never get disclosed. Thirty teams is a small sample for a regression, so
-        one outlier can move the line. When the test says Forbes looks generous, read it as a
-        question worth asking, backed by numbers, not as proof Forbes got it wrong.{' '}
+        Sport needs its own rule. In the NFL and NBA, the national pool is split evenly, so Sport
+        should be nearly flat across the league; where a team sits more than 5% from the median,
+        the commentary says so and says why. In MLB and the NHL it is not flat, and it isn't meant
+        to be read that way. Forbes appears to report Sport net of revenue sharing: the pool is
+        credited after each club's contribution to it or draw from it. Big-market clubs fund the
+        pool, so they show low Sport values; small-market clubs draw from it and show high ones.
+        The Dodgers at $35M and the Yankees at $393M are not being shortchanged on TV money. They
+        are the league's biggest payers. So for those two leagues the profile shows a net
+        revenue-sharing position instead, labeled net payer or net receiver against the league
+        median.
+      </p>
+      <p>
+        The limits, plainly. Forbes sees private data I don't: actual suite revenue, lease terms
+        buried in bond documents, local media contracts that never get disclosed. The facts I
+        bring to each component are public ones, from Census population to venue ownership to
+        championship counts, and they are proxies for what Forbes is measuring, not the thing
+        itself. When the commentary argues with a number, it is an argument from those facts,
+        and you can check every one of them.{' '}
         <Link to="/forbes-breakdown" className="font-sans text-base font-semibold text-accent hover:text-accent-dark">
           See every league →
         </Link>

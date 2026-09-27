@@ -4,6 +4,7 @@
 
 import fs from 'fs'
 import path from 'path'
+import { pathToFileURL } from 'url'
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1')), '..')
 const RAW = path.join(ROOT, 'research', 'raw')
@@ -59,6 +60,38 @@ for (const f of ['proxies-nfl-nba.json', 'proxies-mlb-nhl.json']) {
   }
   for (const n of j.sportNotes ?? []) {
     if (n.note) get(n.teamId).sportNote = clean(n.note)
+  }
+}
+
+// Stadium extras from the site's own researched enrichments: land ownership,
+// naming-rights value, and whether the team controls adjacent real estate.
+const slug = (n) => n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+const parseNaming = (d) => {
+  if (!d) return null
+  if (typeof d === 'object') return num(d.annualValue_M)
+  const m = d.match(/\$(\d+(?:\.\d+)?)(?:\s*[-–]\s*\$?(\d+(?:\.\d+)?))?\s*M\s*(?:\/|per\s+)(?:year|yr)/i)
+  if (!m) return null
+  return m[2] ? (parseFloat(m[1]) + parseFloat(m[2])) / 2 : parseFloat(m[1])
+}
+const DISTRICT_RE = /mixed-use|entertainment district|stadium district|ballpark village|\bacres?\b|real[- ]estate|development rights|surrounding (?:land|property|development)|\bdistrict\b/i
+for (const l of ['nfl', 'nba', 'mlb', 'nhl']) {
+  const mod = await import(pathToFileURL(path.join(ROOT, 'data', `enrichments-${l}.js`)).href)
+  for (const [name, e] of Object.entries(Object.values(mod)[0])) {
+    const id = slug(name)
+    if (!proxies[id]) continue
+    const v = e.stadium || e.arena || {}
+    const text = [v.ownershipModel, v.nonGameRevenue, v.nonArenaRevenue, v.newStadiumPlans, v.newArenaPlans, e.analystNotes].filter(Boolean).join(' ')
+    Object.assign(proxies[id], {
+      teamOwnsLand: typeof v.teamOwnsLand === 'boolean' ? v.teamOwnsLand : null,
+      namingRightsAnnualM: parseNaming(v.namingRightsDeal),
+      namingRightsSponsor: typeof v.namingRightsDeal === 'object' ? v.namingRightsDeal?.sponsor ?? null
+        : typeof v.namingRightsDeal === 'string' ? v.namingRightsDeal.split(',')[0].trim() : null,
+      // true when the team's own entity controls adjacent land or a development district
+      realEstateDistrict: DISTRICT_RE.test(text) && (v.teamOwnsLand === true || /team[- ]owned|owned by the team|owns the .{0,40}(land|district|acres)|team-controlled/i.test(text)),
+      publicSubsidyM: num(v.publicSubsidy),
+      privateFinancingM: num(v.privateFinancing),
+    })
   }
 }
 
