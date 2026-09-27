@@ -146,7 +146,7 @@ function MobileMenu({ open, onClose }) {
       <div className="absolute inset-x-0 top-0 bg-card border-b-2 border-ink shadow-modal animate-fade-in">
         <div className="px-5 py-4 flex items-center justify-between border-b border-rule">
           <span className="italic text-lg font-bold text-ink">
-            What's My Team Worth
+            Franchise Math
           </span>
           <button
             onClick={onClose}
@@ -185,7 +185,7 @@ function Nav() {
             to="/"
             className="italic text-lg sm:text-xl font-bold text-ink hover:text-accent transition-colors"
           >
-            What's My Team Worth
+            Franchise Math
           </Link>
 
           {/* Desktop nav (lg+) */}
@@ -230,7 +230,7 @@ function Footer() {
               to="/"
               className="italic text-xl font-bold text-ink hover:text-accent transition-colors"
             >
-              What's My Team Worth
+              Franchise Math
             </Link>
             <p className="text-sm text-graphite mt-3 leading-relaxed max-w-md">
               An interactive guide to the value of every major professional sports
@@ -289,7 +289,7 @@ function Footer() {
         {/* Bottom row — colophon */}
         <div className="border-t border-rule mt-6 pt-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <span className="font-mono text-[10px] text-slate tracking-widest uppercase">
-            What's My Team Worth &nbsp;·&nbsp; Data: Forbes {DATA_YEARS} lists &nbsp;·&nbsp; {teams.length} franchises &nbsp;·&nbsp; 6 leagues
+            Franchise Math &nbsp;·&nbsp; Data: Forbes {DATA_YEARS} lists &nbsp;·&nbsp; {teams.length} franchises &nbsp;·&nbsp; 6 leagues
           </span>
           <span className="font-mono text-[10px] text-ash tracking-widest uppercase">
             © 2026 Josh Leviloff

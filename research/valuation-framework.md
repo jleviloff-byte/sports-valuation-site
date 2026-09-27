@@ -1,6 +1,6 @@
-# What's My Team Worth — Valuation Framework Primer
+# Franchise Math — Valuation Framework Primer
 
-**For internal use — "What's My Team Worth" editorial research**
+**For internal use — "Franchise Math" editorial research**
 *Last updated: May 2026*
 
 ---
