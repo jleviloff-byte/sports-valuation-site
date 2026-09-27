@@ -8,7 +8,13 @@ import path from 'path'
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1')), '..')
 const RAW = path.join(ROOT, 'research', 'raw')
 const LEAGUES = ['nfl', 'nba', 'mlb', 'nhl', 'mls', 'epl']
-const noDash = (s) => (typeof s === 'string' ? s.replace(/\s*[–—]\s*/g, ', ') : s)
+// Strips em/en dashes from strings, recursively through objects and arrays.
+const noDash = (v) => {
+  if (typeof v === 'string') return v.replace(/\s*[–—]\s*/g, ', ')
+  if (Array.isArray(v)) return v.map(noDash)
+  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, noDash(x)]))
+  return v
+}
 const HEDGES = /\b(perhaps|might|arguably|possibly|could be|may be)\b/i
 
 const overlay = {}
