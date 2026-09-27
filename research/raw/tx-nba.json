@@ -1,0 +1,212 @@
+{
+  "transactions": [
+    {
+      "teamId": "los-angeles-lakers",
+      "type": "control",
+      "dateAnnounced": "2026-08-12",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 12500000000,
+      "stakePct": null,
+      "buyer": "Joshua Kushner and Bob Iger",
+      "seller": "Mark Walter / TWG Global (majority equity)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": 20,
+      "revenueAtDeal": null,
+      "revenueYear": 2026,
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b",
+        "https://www.cnbc.com/2026/08/12/bob-iger-joshua-kushner-buy-los-angeles-lakers-from-mark-walter.html",
+        "https://www.sportico.com/leagues/basketball/2026/lakers-sale-joshua-kushner-bob-iger-explainer-takeaways-1234941866/",
+        "https://www.forbes.com/sites/hanktucker/2026/08/13/the-los-angeles-lakers-record-125-billion-sale-resets-the-market-for-sports-teams/",
+        "https://www.cbssports.com/nba/news/lakers-sold-josh-kushner-bob-iger/",
+        "https://lakersnation.com/lakers-sale-not-expected-to-be-voted-on-at-upcoming-nba-board-of-governors-meetings/"
+      ],
+      "isEstimated": true,
+      "notes": "Seed confirmed by ESPN, CNBC, Sportico, Forbes, CBS. Pending NBA approval; it was not expected to be voted on at the Sept 2026 Board meeting, and no approval appears on the NBA's owner press-release page. Exact stake % not reported. Jeanie Buss's five siblings voted to sell their remaining minority shares to the buyers; Jeanie is opposing (she needs 15% to stay governor), with a court date of Dec 9. Kushner must divest his Miami Heat minority stake. The 20x multiple is Forbes's estimate on 2025-26 revenue (revenueYear = season ending 2026), so it's flagged as estimated. Lakers only; Walter keeps the Dodgers, Sparks and Chelsea."
+    },
+    {
+      "teamId": "los-angeles-lakers",
+      "type": "control",
+      "dateAnnounced": "2025-06-18",
+      "dateApproved": "2025-10-30",
+      "status": "closed",
+      "valuation": 10000000000,
+      "stakePct": null,
+      "buyer": "Mark Walter (TWG Global)",
+      "seller": "Buss family (Jerry Buss Family Trusts)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/45539931/buss-family-agrees-sell-lakers-mark-walter-sources-say",
+        "https://www.cnbc.com/2025/06/18/lakers-owners-buss-family-sell-majority-stake-valuation.html",
+        "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter",
+        "https://www.sportico.com/business/team-sales/2025/los-angeles-lakers-sale-mark-walter-nba-1234875227/"
+      ],
+      "isEstimated": false,
+      "notes": "Agreed June 18, 2025 and unanimously approved by the NBA Board on Oct 30, 2025. The NBA release said it was 'expected to close shortly', and CNBC (Aug 2026) says Walter acquired control in October 2025; the exact close date was not found. Walter (with Todd Boehly) already owned ~26-27% from 2021 (bought at a $5.5B valuation), and the Buss family kept ~15% with Jeanie Buss as governor for at least five years. The exact % bought in this deal was not reported in the sources I opened, so stakePct is null."
+    },
+    {
+      "teamId": "minnesota-timberwolves",
+      "type": "control",
+      "dateAnnounced": "2026-08-21",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 4500000000,
+      "stakePct": null,
+      "buyer": "Marc Stad (Dragoneer Investment Group), with Elisa Stad as Timberwolves governor",
+      "seller": "Marc Lore (most of his control stake)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx",
+        "https://www.sportico.com/business/team-sales/2026/minnesota-timberwolves-lynx-sold-stad-1234942577/",
+        "https://www.axios.com/2026/08/21/minnesota-timberwolves-lynx-stad-lore-arod",
+        "https://kstp.com/kstp-news/top-news/minnesota-timberwolves-lynx-ownership-being-sold-to-businessman-marc-stad/",
+        "https://www.cnn.com/2026/08/21/business/marc-stad-minnesota-timberwolves-lynx-sale",
+        "https://hoodline.com/2026/09/stad-s-pending-timberwolves-lynx-deal-carries-4-5-billion-valuation/"
+      ],
+      "isEstimated": false,
+      "notes": "Seed confirmed by ESPN, Sportico, Axios, KSTP (joint statement from Stad, Lore and Rodriguez) and CNN. The $4.5B is enterprise value and includes the WNBA's Lynx. Lore stays on as a minority LP and A-Rod increases his stake, staying co-chairman and Lynx governor. Stake % not disclosed. It was slated for the Sept 15-16, 2026 Board vote, but I found no approval announcement (the NBA owners press page lists none), so status stays 'agreed'."
+    },
+    {
+      "teamId": "minnesota-timberwolves",
+      "type": "control",
+      "dateAnnounced": "2021-04-10",
+      "dateApproved": "2025-06-24",
+      "status": "closed",
+      "valuation": 1500000000,
+      "stakePct": null,
+      "buyer": "Marc Lore and Alex Rodriguez group",
+      "seller": "Glen Taylor",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://pr.nba.com/nba-board-of-governors-timberwolves-lynx-sale",
+        "https://africa.espn.com/nba/story/_/id/45577217/nba-owners-approve-15-billion-sale-wolves-wnba-lynx",
+        "https://www.sportico.com/business/team-sales/2025/minnesota-timberwolves-sale-arod-lore-approved-nba-1234857876/",
+        "https://www.nbcnews.com/sports/nba/timberwolves-sale-alex-rodriguez-marc-lore-back-track-arbitration-rcna191596"
+      ],
+      "isEstimated": false,
+      "notes": "STALE PRICING: this is the final-tranche close of an April 2021 agreement at a $1.5B valuation, completed after the group won arbitration against Taylor. It is not a 2025 market price: ESPN cites Forbes at $3.1B and Sportico at $3.29B for the team at the time. The Board approved it June 24, 2025, with close expected that week. Includes the Lynx. Sources disagree on the ending stake: NBC says ~80% (Taylor keeps ~20%, ~$942M owed for the outstanding portion), while ESPN says the group took full ownership. stakePct is null because of that conflict. Exclude from valuation comps."
+    },
+    {
+      "teamId": "portland-trail-blazers",
+      "type": "control",
+      "dateAnnounced": "2025-09-13",
+      "dateApproved": "2026-03-30",
+      "status": "closed",
+      "valuation": 4000000000,
+      "stakePct": 80.1,
+      "buyer": "Tom Dundon-led group (incl. Marc Zahr, Sheel Tyle, Cherng Family Trust)",
+      "seller": "Estate of Paul G. Allen",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
+        "https://www.espn.com/nba/story/_/id/48350814/nba-board-governors-approves-portland-trail-blazers-sale-group-led-tom-dundon",
+        "https://portlandtribune.com/2026/03/30/portland-trail-blazers-sold-tom-dundon-nba-033026/",
+        "https://www.hoopsrumors.com/2026/03/nba-approves-trail-blazers-sale-to-tom-dundon.html",
+        "https://www.klcc.org/sports/2025-09-13/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon",
+        "https://www.sportico.com/business/team-sales/2025/dundon-portland-trail-blazers-sale-paul-allen-1234866910/"
+      ],
+      "isEstimated": false,
+      "notes": "CORRECTED from seed ($4.25B blended). The deal has two tranches: 80.1% at a $4.0B valuation closed March 31, 2026, and the remaining 19.9% at $4.5B closes no later than Sept 1, 2028 (Portland Tribune, Hoops Rumors, Blazer's Edge). The widely cited '$4.25B' (Sportico and SportsPro, Sept 2025; Hoops Rumors) does not match those tranches, which blend to about $4.10B (ProFootballNetwork reports $4.1B). I record the closed tranche at $4.0B. The formal agreement was announced Sept 13, 2025 (a tentative deal was reported in Aug 2025). The NBA approved it March 30, 2026 (ESPN and KLCC say March 31). Allen bought the team for $70M in 1988."
+    },
+    {
+      "teamId": "boston-celtics",
+      "type": "control",
+      "dateAnnounced": "2025-03-20",
+      "dateApproved": "2025-08-13",
+      "status": "closed",
+      "valuation": 6100000000,
+      "stakePct": 51,
+      "buyer": "Group organized by William Chisholm (STG), with Sixth Street, Aditya Mittal, Bruce Beal Jr., Rob Hale and others",
+      "seller": "Boston Basketball Partners (Wyc Grousbeck, Steve Pagliuca et al.)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.businesswire.com/news/home/20250320304302/en/Boston-Basketball-Partners-Announces-Sale-of-Boston-Celtics-to-Group-Organized-by-William-Chisholm-for-$6.1-Billion",
+        "https://www.cnbc.com/2025/03/20/boston-celtics-sold-for-6point1-billion-to-bill-chisholm-sixth-street-group.html",
+        "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-nba-chisholm-approved-1234862991/",
+        "https://frontofficesports.com/celtics-ownership-bill-chisholm-closed/",
+        "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-details-price-financing-structure-1234844123/"
+      ],
+      "isEstimated": false,
+      "notes": "Stage 1: 51% at a $6.1B valuation, approved Aug 13, 2025 and closed Aug 19, 2025 (FOS). Stage 2: the remaining stake (Grousbeck ~13%, Pagliuca and others) is bought in 2028 at a formula price of up to ~$7.3B, which gives a blended valuation of ~$6.6-6.7B. That second stage has not happened yet. Sixth Street committed more than $1B in equity. No debt figure or revenue figure was verified; one blog cites $493M revenue and 12x, but that's a single weak source, so it is not used."
+    },
+    {
+      "teamId": "dallas-mavericks",
+      "type": "control",
+      "dateAnnounced": null,
+      "dateApproved": "2023-12-27",
+      "status": "closed",
+      "valuation": 3500000000,
+      "stakePct": 69,
+      "buyer": "Miriam Adelson and Sivan & Patrick Dumont families",
+      "seller": "Mark Cuban (retained ~27%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2023-12-27/dallas-mavericks-3-5-billion-sale-to-adelson-wins-nba-approval",
+        "https://fortune.com/2023/12/27/dallas-mavericks-sold-mark-cuban-adelson-nba",
+        "https://www.nba.com/news/nba-approves-sale-dallas-mavericks-adelson-dumont-families",
+        "https://sports.yahoo.com/nba-approves-sale-of-mavericks-to-adelson-dumont-families-as-mark-cuban-eyes-new-arena-in-dallas-002827355.html"
+      ],
+      "isEstimated": true,
+      "notes": "Inside the 36-month comp window. $3.5B is the widely reported price for control (Bloomberg, Fortune, Yahoo/AP). The NBA approved it Dec 27, 2023, with close expected that week. The 69% buyer stake comes from Wikipedia's ownership box (Cuban 27%, Mary Stanton 4%), not a news source, hence isEstimated. The initial agreement date (late Nov 2023) could not be confirmed with the sources I opened, so dateAnnounced is null. Adelson sold ~$2B of LVS stock to fund the purchase."
+    }
+  ],
+  "rejected": [
+    {
+      "team": "Golden State Warriors",
+      "teamId": "golden-state-warriors",
+      "description": "Seed: minority stake, parent Golden State Group valued at $11B, Jan 2026. Bloomberg (Jan 12, 2026) reported a ~5% stake in Golden State Group was being MARKETED (Citigroup advising) at a valuation above $11B. It includes the Valkyries, Santa Cruz Warriors, Chase Center and Thrive City.",
+      "reason": "not agreed: the stake was being marketed. None of the sources I found named a buyer, a signed deal, NBA approval or a close. Every other outlet is rewriting the single Bloomberg report.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-01-12/warriors-parent-said-to-be-valued-at-11-billion-in-stake-sale",
+        "https://pe-insights.com/golden-state-warriors-parent-tests-11bn-valuation-in-minority-stake-sale/",
+        "https://ministryofsport.com/golden-state-group-seeks-record-breaking-usd11-billion-valuation-in-stake-sale/"
+      ]
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "teamId": "cleveland-cavaliers",
+      "description": "Sportico (2026) reported the Cavaliers were 'nearing a deal' to sell a 5-10% LP stake to Blue Owl, valuing the Cavs plus the 2028 Cleveland WNBA team at $5.5B combined.",
+      "reason": "not agreed / single source: 'nearing a deal' in one Sportico piece (seen only as a search snippet). I could not confirm a signing, approval or second outlet.",
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/cleveland-cavaliers-blue-owl-stake-sale-1234937061/"
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "description": "Toronto Raptors (via MLSE): Rogers Communications bought BCE's 37.5% of Maple Leaf Sports & Entertainment for C$4.7B, valuing MLSE (Raptors, Maple Leafs, TFC, arena interests) at C$12.5B. Rogers now holds 75% (Kilmer/Tanenbaum 20%, OMERS 5%). Wikipedia says it was completed in 2025. This is an NBA-team control change within the 36-month window.",
+      "whatWasMissing": "Only Wikipedia confirmed it. I couldn't open a news or press-release source (CBC and ESPN were blocked or wrong URLs), and the announcement and close dates were not verified. It's also a multi-team entity, so a Raptors-only valuation isn't separable."
+    },
+    {
+      "description": "Washington Wizards (via Monumental Sports & Entertainment): Qatar Investment Authority and Arctos bought Laurene Powell Jobs's ~10% Monumental stake in Dec 2025, per a Monumental press release (Dec 18, 2025) cited by Wikipedia.",
+      "whatWasMissing": "Only Wikipedia confirmed it, with no valuation or stake % for the Dec 2025 deal. I could not locate or open a second source."
+    },
+    {
+      "description": "Lakers 2026 deal, Buss siblings' minority shares: Jeanie Buss's five siblings voted to sell their remaining shares (part of the ~15% Buss stake) to Kushner/Iger. Jeanie is contesting it, with a court date of Dec 9.",
+      "whatWasMissing": "Not agreed or closed: it's in litigation, and no price or stake % has been reported. It's noted in the Lakers 2026 transaction rather than listed separately."
+    },
+    {
+      "description": "Sweep of Grizzlies, Hornets (post-2023 LP sales incl. Blue Owl), Heat (Josh Kushner's 2024 minority stake, which he must now divest), Knicks/MSG Sports, Clippers, Jazz/SEG, Magic, Suns, Spurs LP deals, Pelicans, Hawks, Kings, and NBA-approved PE stakes (Arctos, Dyal, Blue Owl, Sixth Street) in 2025-2026.",
+      "whatWasMissing": "The session's WebSearch budget (200 calls) ran out partway through the sweep. The Wikipedia team pages I could open (Grizzlies, Hornets, Heat, Suns, Spurs) show no 2025-26 stake transactions, and the NBA owners press-release page lists no other approvals since Jan 2025. That isn't proof there were none: LP/PE deals often get no league release. These teams need a follow-up search pass. Hornets (Jordan sale, closed Aug 2023) and Suns (Ishbia, Feb 2023) fall before the 2023-09-24 comp window. The Bucks' Haslam/Lasry stake (2023) is also outside the window and is minority."
+    }
+  ]
+}

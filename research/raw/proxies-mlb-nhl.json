@@ -1,0 +1,3382 @@
+{
+ "stadium": [
+  {
+   "teamId": "new-york-yankees",
+   "league": "MLB",
+   "venue": "Yankee Stadium",
+   "yearOpened": 2009,
+   "yearRenovated": null,
+   "capacity": 46537,
+   "premiumSeats": 4368,
+   "suites": 68,
+   "clubSeats": 4300,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of New York; operated by Yankee Stadium LLC (team affiliate). Stadium privately financed by team; land/structure city-owned. Wikipedia body also says \"over 56 suites\" (conflict).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "yearOpened": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "capacity": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "suites": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "clubSeats": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "ownership": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Yankee_Stadium (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "boston-red-sox",
+   "league": "MLB",
+   "venue": "Fenway Park",
+   "yearOpened": 1912,
+   "yearRenovated": 2017,
+   "capacity": 37755,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned and operated by Fenway Sports Group. Capacity = night game figure (37,305 day). Renovations 1988, 2002-2011, 2017; expanded 2022.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "suites": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Fenway_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Fenway_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "toronto-blue-jays",
+   "league": "MLB",
+   "venue": "Rogers Centre",
+   "yearOpened": 1989,
+   "yearRenovated": 2024,
+   "capacity": 39150,
+   "premiumSeats": 5861,
+   "suites": 161,
+   "clubSeats": 5700,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned by Rogers Communications (team parent). Suite/club counts from Wikipedia body may pre-date the 2022-2024 renovation.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "yearOpened": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "capacity": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "suites": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "clubSeats": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "ownership": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Rogers_Centre (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "tampa-bay-rays",
+   "league": "MLB",
+   "venue": "Tropicana Field",
+   "yearOpened": 1990,
+   "yearRenovated": 2025,
+   "capacity": 25025,
+   "premiumSeats": 2846,
+   "suites": 70,
+   "clubSeats": 2776,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of St. Petersburg; operator Tampa Bay Rays Ltd. Roof destroyed by Hurricane Milton (Oct 2024); team played 2025 at Steinbrenner Field; roof replaced before 2026 season. Capacity is 2019-present listed figure.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "suites": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Tropicana_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Tropicana_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "baltimore-orioles",
+   "league": "MLB",
+   "venue": "Oriole Park at Camden Yards",
+   "yearOpened": 1992,
+   "yearRenovated": null,
+   "capacity": 42455,
+   "premiumSeats": 4703,
+   "suites": 72,
+   "clubSeats": 4631,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner/operator Maryland Stadium Authority. Capacity 42,455 (2026-present) after left-field reconfiguration.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "yearOpened": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "capacity": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "suites": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "clubSeats": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "ownership": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "chicago-white-sox",
+   "league": "MLB",
+   "venue": "Rate Field",
+   "yearOpened": 1991,
+   "yearRenovated": 2019,
+   "capacity": 40615,
+   "premiumSeats": null,
+   "suites": 103,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner and operator Illinois Sports Facilities Authority. Renamed from Guaranteed Rate Field in 2025. Renovations 2001-2012, 2015-2019.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Rate_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Rate_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Rate_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Rate_Field",
+    "suites": "https://en.wikipedia.org/wiki/Rate_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Rate_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Rate_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Rate_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "cleveland-guardians",
+   "league": "MLB",
+   "venue": "Progressive Field",
+   "yearOpened": 1994,
+   "yearRenovated": 2025,
+   "capacity": 34820,
+   "premiumSeats": null,
+   "suites": 115,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Cuyahoga County; operator Gateway Economic Development Corporation. Renovations Oct 2014-Apr 2016 and Oct 2023-Apr 2025.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "suites": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Progressive_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Progressive_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "detroit-tigers",
+   "league": "MLB",
+   "venue": "Comerica Park",
+   "yearOpened": 2000,
+   "yearRenovated": null,
+   "capacity": 41083,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Detroit-Wayne County Stadium Authority; operator 313 Presents (Ilitch affiliate).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "suites": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Comerica_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Comerica_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "kansas-city-royals",
+   "league": "MLB",
+   "venue": "Kauffman Stadium",
+   "yearOpened": 1973,
+   "yearRenovated": 2009,
+   "capacity": 38053,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Publicly owned (Truman Sports Complex); operator Jackson Sports Complex Authority. Renovated 2007-2009. Capacity 38,053 (2026-present).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "yearOpened": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "capacity": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "suites": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "clubSeats": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "ownership": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Kauffman_Stadium (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "minnesota-twins",
+   "league": "MLB",
+   "venue": "Target Field",
+   "yearOpened": 2010,
+   "yearRenovated": null,
+   "capacity": 38544,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Minnesota Ballpark Authority; operator Twins Ballpark LLC.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Target_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Target_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Target_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Target_Field",
+    "suites": "https://en.wikipedia.org/wiki/Target_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Target_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Target_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Target_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "houston-astros",
+   "league": "MLB",
+   "venue": "Daikin Park",
+   "yearOpened": 2000,
+   "yearRenovated": 2017,
+   "capacity": 41168,
+   "premiumSeats": 5260,
+   "suites": 63,
+   "clubSeats": 5197,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner and listed operator Harris County-Houston Sports Authority. Renamed from Minute Maid Park Jan 2025.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "suites": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Daikin_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Daikin_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "los-angeles-angels",
+   "league": "MLB",
+   "venue": "Angel Stadium",
+   "yearOpened": 1966,
+   "yearRenovated": 1998,
+   "capacity": 45517,
+   "premiumSeats": 5153,
+   "suites": 78,
+   "clubSeats": 5075,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Anaheim; operator Angels Baseball LP.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "yearOpened": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "capacity": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "suites": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "clubSeats": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "ownership": "https://en.wikipedia.org/wiki/Angel_Stadium",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Angel_Stadium (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "oakland-athletics",
+   "league": "MLB",
+   "venue": "Sutter Health Park (temporary, Sacramento)",
+   "yearOpened": 2000,
+   "yearRenovated": null,
+   "capacity": 14014,
+   "premiumSeats": 2834,
+   "suites": 36,
+   "clubSeats": 2798,
+   "ownership": "public",
+   "teamControlsRevenue": false,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Minor-league park; A's are temporary tenants 2025-2027 pending Las Vegas ballpark. Owner River City Regional Stadium Financing Authority; operator River City Stadium Management (Sacramento River Cats). Capacity 14,014 total incl. lawn (10,624 fixed). Suite figure is 36 suites / 750 suite seats.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "suites": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Sutter_Health_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "seattle-mariners",
+   "league": "MLB",
+   "venue": "T-Mobile Park",
+   "yearOpened": 1999,
+   "yearRenovated": null,
+   "capacity": 47368,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner and listed operator Washington State Major League Baseball Stadium Public Facilities District.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "capacity": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "suites": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "ownership": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/T-Mobile_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "texas-rangers",
+   "league": "MLB",
+   "venue": "Globe Life Field",
+   "yearOpened": 2020,
+   "yearRenovated": null,
+   "capacity": null,
+   "premiumSeats": null,
+   "suites": 120,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Arlington; operator Rangers Baseball Express LLC. Capacity not stated in fetched Wikipedia text.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "suites": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Globe_Life_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "atlanta-braves",
+   "league": "MLB",
+   "venue": "Truist Park",
+   "yearOpened": 2017,
+   "yearRenovated": null,
+   "capacity": 41108,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Cobb-Marietta Coliseum and Exhibit Hall Authority; operator Atlanta National League Baseball Club (Braves).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Truist_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Truist_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Truist_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Truist_Park",
+    "suites": "https://en.wikipedia.org/wiki/Truist_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Truist_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Truist_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Truist_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "miami-marlins",
+   "league": "MLB",
+   "venue": "loanDepot park",
+   "yearOpened": 2012,
+   "yearRenovated": null,
+   "capacity": 36742,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Miami-Dade County; operator Miami Marlins LP.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "capacity": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "suites": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "ownership": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/LoanDepot_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "new-york-mets",
+   "league": "MLB",
+   "venue": "Citi Field",
+   "yearOpened": 2009,
+   "yearRenovated": null,
+   "capacity": 41922,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "mixed",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Wikipedia: owner New York Mets (stadium) / City of New York (land); operator Mets.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Citi_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Citi_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Citi_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Citi_Field",
+    "suites": "https://en.wikipedia.org/wiki/Citi_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Citi_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Citi_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Citi_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "philadelphia-phillies",
+   "league": "MLB",
+   "venue": "Citizens Bank Park",
+   "yearOpened": 2004,
+   "yearRenovated": null,
+   "capacity": 42901,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Philadelphia; Wikipedia lists operator Global Spectrum but flags it as possibly outdated.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "suites": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Citizens_Bank_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "washington-nationals",
+   "league": "MLB",
+   "venue": "Nationals Park",
+   "yearOpened": 2008,
+   "yearRenovated": null,
+   "capacity": 41373,
+   "premiumSeats": null,
+   "suites": 79,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner District of Columbia (Events DC); operator Washington Nationals. 79 suites as of 2017.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "suites": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Nationals_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Nationals_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "chicago-cubs",
+   "league": "MLB",
+   "venue": "Wrigley Field",
+   "yearOpened": 1914,
+   "yearRenovated": 2019,
+   "capacity": 41649,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned by Ricketts family; operator Chicago Cubs. Renovations 1937, 1988, 2014-2019 (1060 Project).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "suites": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Wrigley_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Wrigley_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "cincinnati-reds",
+   "league": "MLB",
+   "venue": "Great American Ball Park",
+   "yearOpened": 2003,
+   "yearRenovated": null,
+   "capacity": 43500,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Hamilton County; operator Cincinnati Reds.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "suites": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Great_American_Ball_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "milwaukee-brewers",
+   "league": "MLB",
+   "venue": "American Family Field",
+   "yearOpened": 2001,
+   "yearRenovated": null,
+   "capacity": 41900,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Southeast Wisconsin Professional Baseball Park District; operator not captured.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "capacity": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "suites": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "ownership": "https://en.wikipedia.org/wiki/American_Family_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/American_Family_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "pittsburgh-pirates",
+   "league": "MLB",
+   "venue": "PNC Park",
+   "yearOpened": 2001,
+   "yearRenovated": null,
+   "capacity": 38747,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Sports & Exhibition Authority of Pittsburgh and Allegheny County; operator Pittsburgh Pirates.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/PNC_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/PNC_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/PNC_Park",
+    "capacity": "https://en.wikipedia.org/wiki/PNC_Park",
+    "suites": "https://en.wikipedia.org/wiki/PNC_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/PNC_Park",
+    "ownership": "https://en.wikipedia.org/wiki/PNC_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/PNC_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "st-louis-cardinals",
+   "league": "MLB",
+   "venue": "Busch Stadium",
+   "yearOpened": 2006,
+   "yearRenovated": null,
+   "capacity": 44383,
+   "premiumSeats": 3767,
+   "suites": 61,
+   "clubSeats": 3706,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned and operated by St. Louis Cardinals.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "yearOpened": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "capacity": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "suites": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "clubSeats": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "ownership": "https://en.wikipedia.org/wiki/Busch_Stadium",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Busch_Stadium (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "los-angeles-dodgers",
+   "league": "MLB",
+   "venue": "Dodger Stadium",
+   "yearOpened": 1962,
+   "yearRenovated": null,
+   "capacity": 56000,
+   "premiumSeats": 2166,
+   "suites": 68,
+   "clubSeats": 2098,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Guggenheim Baseball Management (team owner); operator Dodgers. Suite/club counts are \"as of 2010\" (stale); 2020-21 renovation not reflected.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "yearOpened": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "capacity": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "suites": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "clubSeats": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "ownership": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Dodger_Stadium (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "san-francisco-giants",
+   "league": "MLB",
+   "venue": "Oracle Park",
+   "yearOpened": 2000,
+   "yearRenovated": 2020,
+   "capacity": 41331,
+   "premiumSeats": 5268,
+   "suites": 68,
+   "clubSeats": 5200,
+   "ownership": "mixed",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Privately financed by Giants; Wikipedia lists owner Port of San Francisco (land) and operator San Francisco Baseball Associates LP. Wikipedia notes an additional 1,500 club seats elsewhere (not added).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "suites": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Oracle_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Oracle_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "san-diego-padres",
+   "league": "MLB",
+   "venue": "Petco Park",
+   "yearOpened": 2004,
+   "yearRenovated": null,
+   "capacity": 39860,
+   "premiumSeats": 5070,
+   "suites": 70,
+   "clubSeats": 5000,
+   "ownership": "mixed",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of San Diego 70% / Padres 30%; operator Padres LP. Infobox lists 75 suites vs body text 70 (conflict).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Petco_Park",
+    "yearOpened": "https://en.wikipedia.org/wiki/Petco_Park",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Petco_Park",
+    "capacity": "https://en.wikipedia.org/wiki/Petco_Park",
+    "suites": "https://en.wikipedia.org/wiki/Petco_Park",
+    "clubSeats": "https://en.wikipedia.org/wiki/Petco_Park",
+    "ownership": "https://en.wikipedia.org/wiki/Petco_Park",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Petco_Park (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "colorado-rockies",
+   "league": "MLB",
+   "venue": "Coors Field",
+   "yearOpened": 1995,
+   "yearRenovated": null,
+   "capacity": 46897,
+   "premiumSeats": 4589,
+   "suites": 63,
+   "clubSeats": 4526,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned by public stadium district (funded by 0.1% metro sales tax); operator Colorado Rockies Baseball Club Ltd.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Coors_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Coors_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Coors_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Coors_Field",
+    "suites": "https://en.wikipedia.org/wiki/Coors_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Coors_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Coors_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Coors_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "arizona-diamondbacks",
+   "league": "MLB",
+   "venue": "Chase Field",
+   "yearOpened": 1998,
+   "yearRenovated": null,
+   "capacity": 48330,
+   "premiumSeats": 4457,
+   "suites": 57,
+   "clubSeats": 4400,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Maricopa County Stadium District; listed operator SMG. Also 6 party suites (not counted).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Chase_Field",
+    "yearOpened": "https://en.wikipedia.org/wiki/Chase_Field",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Chase_Field",
+    "capacity": "https://en.wikipedia.org/wiki/Chase_Field",
+    "suites": "https://en.wikipedia.org/wiki/Chase_Field",
+    "clubSeats": "https://en.wikipedia.org/wiki/Chase_Field",
+    "ownership": "https://en.wikipedia.org/wiki/Chase_Field",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Chase_Field (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "boston-bruins",
+   "league": "NHL",
+   "venue": "TD Garden",
+   "yearOpened": 1995,
+   "yearRenovated": 2019,
+   "capacity": 17850,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned and operated by Delaware North (Jacobs family, Bruins owner).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/TD_Garden",
+    "yearOpened": "https://en.wikipedia.org/wiki/TD_Garden",
+    "yearRenovated": "https://en.wikipedia.org/wiki/TD_Garden",
+    "capacity": "https://en.wikipedia.org/wiki/TD_Garden",
+    "suites": "https://en.wikipedia.org/wiki/TD_Garden",
+    "clubSeats": "https://en.wikipedia.org/wiki/TD_Garden",
+    "ownership": "https://en.wikipedia.org/wiki/TD_Garden",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/TD_Garden (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "buffalo-sabres",
+   "league": "NHL",
+   "venue": "KeyBank Center",
+   "yearOpened": 1996,
+   "yearRenovated": null,
+   "capacity": 19070,
+   "premiumSeats": null,
+   "suites": 80,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Erie County (land City of Buffalo); operator Buffalo Sabres.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "capacity": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "suites": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "ownership": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/KeyBank_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "detroit-red-wings",
+   "league": "NHL",
+   "venue": "Little Caesars Arena",
+   "yearOpened": 2017,
+   "yearRenovated": null,
+   "capacity": 19515,
+   "premiumSeats": null,
+   "suites": 62,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Downtown Development Authority; operator 313 Presents (Ilitch affiliate).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Little_Caesars_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "florida-panthers",
+   "league": "NHL",
+   "venue": "Amerant Bank Arena",
+   "yearOpened": 1998,
+   "yearRenovated": null,
+   "capacity": 19250,
+   "premiumSeats": 2693,
+   "suites": 70,
+   "clubSeats": 2623,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Broward County; operator Arena Operating Company Ltd. (Panthers affiliate).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "montreal-canadiens",
+   "league": "NHL",
+   "venue": "Bell Centre",
+   "yearOpened": 1996,
+   "yearRenovated": null,
+   "capacity": 20962,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Groupe CH (Molson family); operator Evenko (Groupe CH). Capacity 20,962 (2025-present).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "yearOpened": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "capacity": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "suites": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "clubSeats": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "ownership": "https://en.wikipedia.org/wiki/Bell_Centre",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Bell_Centre (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "ottawa-senators",
+   "league": "NHL",
+   "venue": "Canadian Tire Centre",
+   "yearOpened": 1996,
+   "yearRenovated": 2025,
+   "capacity": 17010,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Capital Sports Properties Inc. (Senators ownership affiliate). Hockey capacity 17,010 (2026-present).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "yearOpened": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "capacity": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "suites": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "clubSeats": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "ownership": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "tampa-bay-lightning",
+   "league": "NHL",
+   "venue": "Benchmark International Arena",
+   "yearOpened": 1996,
+   "yearRenovated": null,
+   "capacity": 19092,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Hillsborough County; operator Tampa Bay Entertainment Properties (Vinik Sports Group). Renamed from Amalie Arena 2025.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Benchmark_International_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "toronto-maple-leafs",
+   "league": "NHL",
+   "venue": "Scotiabank Arena",
+   "yearOpened": 1999,
+   "yearRenovated": null,
+   "capacity": 18819,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned and operated by MLSE.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Scotiabank_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "carolina-hurricanes",
+   "league": "NHL",
+   "venue": "Lenovo Center",
+   "yearOpened": 1999,
+   "yearRenovated": 2025,
+   "capacity": 18547,
+   "premiumSeats": 2106,
+   "suites": 61,
+   "clubSeats": 2045,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Centennial Authority; operator Hurricanes Holdings LLC. Also 13 luxury boxes (not counted). Capacity 18,547 (2026-present).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "capacity": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "suites": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "ownership": "https://en.wikipedia.org/wiki/Lenovo_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Lenovo_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "columbus-blue-jackets",
+   "league": "NHL",
+   "venue": "Nationwide Arena",
+   "yearOpened": 2000,
+   "yearRenovated": null,
+   "capacity": 18500,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Franklin County Convention Facilities Authority; operator Columbus Arena Management (Blue Jackets-affiliated).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Nationwide_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "new-jersey-devils",
+   "league": "NHL",
+   "venue": "Prudential Center",
+   "yearOpened": 2007,
+   "yearRenovated": null,
+   "capacity": 16514,
+   "premiumSeats": 2406,
+   "suites": 76,
+   "clubSeats": 2330,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Newark Housing Authority; operator Harris Blitzer Sports & Entertainment (Devils owner).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "capacity": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "suites": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "ownership": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Prudential_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "new-york-islanders",
+   "league": "NHL",
+   "venue": "UBS Arena",
+   "yearOpened": 2021,
+   "yearRenovated": null,
+   "capacity": 17255,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "mixed",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner New York Arena Partners (JV of Islanders, Oak View Group, Sterling Equities); operator Islanders; state-owned Belmont Park land.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "suites": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/UBS_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/UBS_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "new-york-rangers",
+   "league": "NHL",
+   "venue": "Madison Square Garden",
+   "yearOpened": 1968,
+   "yearRenovated": 2013,
+   "capacity": 18006,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "mixed",
+   "teamControlsRevenue": false,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Madison Square Garden Entertainment, a separate public company under common Dolan control with MSG Sports (Rangers owner); Rangers are licensees. \"mixed\" used because owner is a non-team private affiliate.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "yearOpened": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "capacity": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "suites": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "clubSeats": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "ownership": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Madison_Square_Garden (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "philadelphia-flyers",
+   "league": "NHL",
+   "venue": "Xfinity Mobile Arena",
+   "yearOpened": 1996,
+   "yearRenovated": null,
+   "capacity": 19173,
+   "premiumSeats": 2006,
+   "suites": 126,
+   "clubSeats": 1880,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Comcast Spectacor (Flyers owner); operator OVG360. Renamed from Wells Fargo Center 2025. Club figure is \"club-box seats\".",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "pittsburgh-penguins",
+   "league": "NHL",
+   "venue": "PPG Paints Arena",
+   "yearOpened": 2010,
+   "yearRenovated": null,
+   "capacity": 18187,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Sports & Exhibition Authority; operator AEG.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "suites": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/PPG_Paints_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "washington-capitals",
+   "league": "NHL",
+   "venue": "Capital One Arena",
+   "yearOpened": 1997,
+   "yearRenovated": null,
+   "capacity": 18573,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Monumental Sports & Entertainment (Capitals owner).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Capital_One_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "utah-hockey-club",
+   "league": "NHL",
+   "venue": "Delta Center",
+   "yearOpened": 1991,
+   "yearRenovated": 2024,
+   "capacity": 16020,
+   "premiumSeats": 724,
+   "suites": 56,
+   "clubSeats": 668,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Ryan Smith / Smith Entertainment Group (team owner). Team renamed Utah Mammoth (2025). Upgrades May-Sept 2024; full renovation April 2025-present, so capacity/premium figures are in flux.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Delta_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/Delta_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Delta_Center",
+    "capacity": "https://en.wikipedia.org/wiki/Delta_Center",
+    "suites": "https://en.wikipedia.org/wiki/Delta_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/Delta_Center",
+    "ownership": "https://en.wikipedia.org/wiki/Delta_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Delta_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "chicago-blackhawks",
+   "league": "NHL",
+   "venue": "United Center",
+   "yearOpened": 1994,
+   "yearRenovated": 2017,
+   "capacity": 19717,
+   "premiumSeats": 3169,
+   "suites": 169,
+   "clubSeats": 3000,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner United Center Joint Venture (Bulls 50% / Blackhawks 50%). Club seats = original construction figure (stale). 169 executive suites after 2009-10 renovation; atrium expansion 2016-17.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/United_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/United_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/United_Center",
+    "capacity": "https://en.wikipedia.org/wiki/United_Center",
+    "suites": "https://en.wikipedia.org/wiki/United_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/United_Center",
+    "ownership": "https://en.wikipedia.org/wiki/United_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/United_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "colorado-avalanche",
+   "league": "NHL",
+   "venue": "Ball Arena",
+   "yearOpened": 1999,
+   "yearRenovated": null,
+   "capacity": 17809,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Kroenke Sports & Entertainment (Avalanche owner).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Ball_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Ball_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "dallas-stars",
+   "league": "NHL",
+   "venue": "American Airlines Center",
+   "yearOpened": 2001,
+   "yearRenovated": null,
+   "capacity": 18532,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Dallas; operator Center Operating Company LP (Mavericks/Stars JV).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "capacity": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "suites": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "ownership": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/American_Airlines_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "minnesota-wild",
+   "league": "NHL",
+   "venue": "Grand Casino Arena",
+   "yearOpened": 2000,
+   "yearRenovated": null,
+   "capacity": 17954,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Saint Paul; operator Minnesota Sports & Entertainment (Wild). Renamed from Xcel Energy Center 2025.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Grand_Casino_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "nashville-predators",
+   "league": "NHL",
+   "venue": "Bridgestone Arena",
+   "yearOpened": 1996,
+   "yearRenovated": 2015,
+   "capacity": 17159,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Sports Authority of Nashville and Davidson County; operator Powers Management Company (Predators).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Bridgestone_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "st-louis-blues",
+   "league": "NHL",
+   "venue": "Enterprise Center",
+   "yearOpened": 1994,
+   "yearRenovated": null,
+   "capacity": 18096,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of St. Louis; operator SLB Acquisition Holdings (Blues).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "capacity": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "suites": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "ownership": "https://en.wikipedia.org/wiki/Enterprise_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Enterprise_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "winnipeg-jets",
+   "league": "NHL",
+   "venue": "Canada Life Centre",
+   "yearOpened": 2004,
+   "yearRenovated": null,
+   "capacity": 15225,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owned and operated by True North Sports & Entertainment (Jets owner). Hockey capacity listed 8,812-15,225; 15,225 used.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "yearOpened": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "capacity": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "suites": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "clubSeats": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "ownership": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Canada_Life_Centre (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "anaheim-ducks",
+   "league": "NHL",
+   "venue": "Honda Center",
+   "yearOpened": 1993,
+   "yearRenovated": null,
+   "capacity": 17174,
+   "premiumSeats": null,
+   "suites": 84,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Anaheim; operator Anaheim Arena Management (Samueli-controlled). Existing site data said privately owned; Wikipedia says city-owned.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Honda_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/Honda_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Honda_Center",
+    "capacity": "https://en.wikipedia.org/wiki/Honda_Center",
+    "suites": "https://en.wikipedia.org/wiki/Honda_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/Honda_Center",
+    "ownership": "https://en.wikipedia.org/wiki/Honda_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Honda_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "calgary-flames",
+   "league": "NHL",
+   "venue": "Scotiabank Saddledome",
+   "yearOpened": 1983,
+   "yearRenovated": 1994,
+   "capacity": 19289,
+   "premiumSeats": null,
+   "suites": 72,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Calgary; operators Saddledome Foundation / Calgary Sports and Entertainment. Replacement arena (Scotia Place) under construction.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "yearOpened": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "capacity": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "suites": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "clubSeats": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "ownership": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "edmonton-oilers",
+   "league": "NHL",
+   "venue": "Rogers Place",
+   "yearOpened": 2016,
+   "yearRenovated": null,
+   "capacity": 18347,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Edmonton; operator Oilers Entertainment Group.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "yearOpened": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "capacity": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "suites": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "clubSeats": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "ownership": "https://en.wikipedia.org/wiki/Rogers_Place",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Rogers_Place (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "los-angeles-kings",
+   "league": "NHL",
+   "venue": "Crypto.com Arena",
+   "yearOpened": 1999,
+   "yearRenovated": null,
+   "capacity": 18145,
+   "premiumSeats": 2660,
+   "suites": 160,
+   "clubSeats": 2500,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner AEG (Anschutz), which also owns the Kings. 160 suites includes 15 event suites.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Crypto.com_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "san-jose-sharks",
+   "league": "NHL",
+   "venue": "SAP Center",
+   "yearOpened": 1993,
+   "yearRenovated": null,
+   "capacity": 17435,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of San Jose; operator San Jose Sports & Entertainment Enterprises (Sharks).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/SAP_Center",
+    "yearOpened": "https://en.wikipedia.org/wiki/SAP_Center",
+    "yearRenovated": "https://en.wikipedia.org/wiki/SAP_Center",
+    "capacity": "https://en.wikipedia.org/wiki/SAP_Center",
+    "suites": "https://en.wikipedia.org/wiki/SAP_Center",
+    "clubSeats": "https://en.wikipedia.org/wiki/SAP_Center",
+    "ownership": "https://en.wikipedia.org/wiki/SAP_Center",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/SAP_Center (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "seattle-kraken",
+   "league": "NHL",
+   "venue": "Climate Pledge Arena",
+   "yearOpened": 1962,
+   "yearRenovated": 2021,
+   "capacity": 17151,
+   "premiumSeats": null,
+   "suites": 58,
+   "clubSeats": null,
+   "ownership": "public",
+   "teamControlsRevenue": null,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner City of Seattle; operator Oak View Group. Rebuilt 2018-21 inside 1962 roof. 58 suites is the planned count in the redevelopment description. Kraken stake in arena operations not verified.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "vancouver-canucks",
+   "league": "NHL",
+   "venue": "Rogers Arena",
+   "yearOpened": 1995,
+   "yearRenovated": null,
+   "capacity": 18871,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "team",
+   "teamControlsRevenue": true,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owner Aquilini Investment Group (Canucks owner).",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "suites": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/Rogers_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/Rogers_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  },
+  {
+   "teamId": "vegas-golden-knights",
+   "league": "NHL",
+   "venue": "T-Mobile Arena",
+   "yearOpened": 2016,
+   "yearRenovated": null,
+   "capacity": 17500,
+   "premiumSeats": null,
+   "suites": null,
+   "clubSeats": null,
+   "ownership": "mixed",
+   "teamControlsRevenue": false,
+   "nonLeagueEventRevenueM": null,
+   "nonLeagueEventsPerYear": null,
+   "note": "Owners AEG 42.5% / MGM Resorts 42.5% / Bill Foley 15%; operator MGM Resorts.",
+   "sources": {
+    "venue": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "yearOpened": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "yearRenovated": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "capacity": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "suites": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "clubSeats": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "ownership": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+    "teamControlsRevenue": "https://en.wikipedia.org/wiki/T-Mobile_Arena (owner/operator per infobox; true = team or team affiliate is operator)"
+   }
+  }
+ ],
+ "brand": [
+  {
+   "teamId": "new-york-yankees",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2009
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 22,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "ESPN/ESPN App": 6,
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 6,
+    "TBS/HBO MAX": 5,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "boston-red-sox",
+   "league": "MLB",
+   "championships25y": 4,
+   "championshipYears": [
+    2004,
+    2007,
+    2013,
+    2018
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 17,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "ESPN/ESPN App": 5,
+    "FOX/ FOX ONE": 6,
+    "Apple TV": 4,
+    "TBS/HBO MAX": 1,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "toronto-blue-jays",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 7,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 6,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 0,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "tampa-bay-rays",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 4,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 3,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "baltimore-orioles",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 11,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "TBS/HBO MAX": 1,
+    "FOX/ FOX ONE": 4,
+    "Roku": 2
+   },
+   "nationalTvGamesFS1NotCounted": 4,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "chicago-white-sox",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2005
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 0,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {},
+   "nationalTvGamesFS1NotCounted": 0,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "cleveland-guardians",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 14,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "TBS/HBO MAX": 3,
+    "ESPN/ESPN App": 2,
+    "FOX/ FOX ONE": 6,
+    "Roku": 2,
+    "Apple TV": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "detroit-tigers",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 16,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "ESPN/ESPN App": 4,
+    "Apple TV": 5,
+    "FOX/ FOX ONE": 4,
+    "Roku": 2,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 4,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "kansas-city-royals",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2015
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 11,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "FOX/ FOX ONE": 6,
+    "TBS/HBO MAX": 1,
+    "Apple TV": 3,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "minnesota-twins",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 11,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 3,
+    "FOX/ FOX ONE": 5,
+    "ESPN/ESPN App": 1,
+    "Roku": 2
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "houston-astros",
+   "league": "MLB",
+   "championships25y": 2,
+   "championshipYears": [
+    2017,
+    2022
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 15,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 6,
+    "ESPN/ESPN App": 2,
+    "Roku": 2,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "los-angeles-angels",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2002
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 5,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 1,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "oakland-athletics",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 0,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {},
+   "nationalTvGamesFS1NotCounted": 0,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "seattle-mariners",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 10,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 2,
+    "Roku": 2,
+    "ESPN/ESPN App": 2
+   },
+   "nationalTvGamesFS1NotCounted": 6,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "texas-rangers",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2023
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 14,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 6,
+    "Roku": 2,
+    "ESPN/ESPN App": 2
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "atlanta-braves",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2021
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 15,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "FOX/ FOX ONE": 5,
+    "ESPN/ESPN App": 3,
+    "Apple TV": 4,
+    "TBS/HBO MAX": 1,
+    "Roku": 2
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "miami-marlins",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2003
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 0,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {},
+   "nationalTvGamesFS1NotCounted": 1,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "new-york-mets",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 20,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 6,
+    "Roku": 1,
+    "ESPN/ESPN App": 6,
+    "TBS/HBO MAX": 3
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "philadelphia-phillies",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2008
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 19,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 6,
+    "ESPN/ESPN App": 6,
+    "TBS/HBO MAX": 2,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 2,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "washington-nationals",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2019
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 4,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 3,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "chicago-cubs",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2016
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 19,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "FOX/ FOX ONE": 7,
+    "ESPN/ESPN App": 6,
+    "Apple TV": 4,
+    "Roku": 1,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "cincinnati-reds",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 8,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "Roku": 1,
+    "FOX/ FOX ONE": 3
+   },
+   "nationalTvGamesFS1NotCounted": 5,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "milwaukee-brewers",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 11,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "ESPN/ESPN App": 1,
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 4,
+    "Roku": 1,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 5,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "pittsburgh-pirates",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 5,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 6,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "st-louis-cardinals",
+   "league": "MLB",
+   "championships25y": 2,
+   "championshipYears": [
+    2006,
+    2011
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 15,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "ESPN/ESPN App": 3,
+    "FOX/ FOX ONE": 6,
+    "Apple TV": 4,
+    "Roku": 2
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "los-angeles-dodgers",
+   "league": "MLB",
+   "championships25y": 3,
+   "championshipYears": [
+    2020,
+    2024,
+    2025
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 21,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "FOX/ FOX ONE": 7,
+    "ESPN/ESPN App": 6,
+    "Apple TV": 4,
+    "TBS/HBO MAX": 3,
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "san-francisco-giants",
+   "league": "MLB",
+   "championships25y": 3,
+   "championshipYears": [
+    2010,
+    2012,
+    2014
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 12,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 4,
+    "ESPN/ESPN App": 2,
+    "Roku": 2
+   },
+   "nationalTvGamesFS1NotCounted": 4,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "san-diego-padres",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 15,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "FOX/ FOX ONE": 5,
+    "ESPN/ESPN App": 3,
+    "Apple TV": 4,
+    "Roku": 2,
+    "TBS/HBO MAX": 1
+   },
+   "nationalTvGamesFS1NotCounted": 3,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "colorado-rockies",
+   "league": "MLB",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 1,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Roku": 1
+   },
+   "nationalTvGamesFS1NotCounted": 1,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "arizona-diamondbacks",
+   "league": "MLB",
+   "championships25y": 1,
+   "championshipYears": [
+    2001
+   ],
+   "championshipsDefinition": "World Series titles 2001-2025 (25 Series)",
+   "nationalTvGames": 6,
+   "socialFollowers": null,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025 MLB regular season",
+   "nationalTvGamesByNetwork": {
+    "Apple TV": 4,
+    "FOX/ FOX ONE": 2
+   },
+   "nationalTvGamesFS1NotCounted": 6,
+   "socialFollowersNote": "No sourced all-team MLB total for Instagram+X+Facebook+TikTok found (Hyperset Mar-2026 tally uses different platforms; Zoomph May-2026 table not readable). Left null rather than estimated.",
+   "merchRankNote": "MLB/Fanatics publish player jersey rankings (2025 top-20, Fanatics network) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_World_Series_champions ; 2025: https://www.mlb.com/news/takeaways-2025-world-series-game-7",
+    "nationalTvGames": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&season=2025&gameType=R&hydrate=broadcasts(all) (MLB Stats API, retrieved 2026-09-24; games with isNational broadcast on FOX, ESPN, TBS exclusive, Apple TV, Roku; FS1, MLB Network and \"out-of-market only\" TBS/ESPN windows excluded; postponed duplicates removed)",
+    "merchRank": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "boston-bruins",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2011
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 18,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 6.13,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 18,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/BOS/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "buffalo-sabres",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 8,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.25,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 11,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/BUF/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "detroit-red-wings",
+   "league": "NHL",
+   "championships25y": 2,
+   "championshipYears": [
+    2002,
+    2008
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 14,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 4.51,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 16,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/DET/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "florida-panthers",
+   "league": "NHL",
+   "championships25y": 2,
+   "championshipYears": [
+    2024,
+    2025
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 10,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.88,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 13,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/FLA/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "montreal-canadiens",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 0,
+   "nationalTvGamesCanada": 32,
+   "socialFollowers": 5.18,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 0,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 16,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/MTL/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/MTL/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "ottawa-senators",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 0,
+   "nationalTvGamesCanada": 27,
+   "socialFollowers": 1.49,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 0,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 26,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/OTT/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/OTT/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "tampa-bay-lightning",
+   "league": "NHL",
+   "championships25y": 3,
+   "championshipYears": [
+    2004,
+    2020,
+    2021
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 11,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.55,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 15,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/TBL/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "toronto-maple-leafs",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 7,
+   "nationalTvGamesCanada": 43,
+   "socialFollowers": 5.71,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 13,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 43,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/TOR/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/TOR/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "carolina-hurricanes",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2006
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 3,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.03,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 9,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/CAR/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "columbus-blue-jackets",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 2,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.55,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 7,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/CBJ/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "new-jersey-devils",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2003
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 9,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.18,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 13,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/NJD/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "new-york-islanders",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 6,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.72,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 11,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/NYI/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "new-york-rangers",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 15,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 5.05,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 15,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "philadelphia-flyers",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 13,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 3.61,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 15,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/PHI/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "pittsburgh-penguins",
+   "league": "NHL",
+   "championships25y": 3,
+   "championshipYears": [
+    2009,
+    2016,
+    2017
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 16,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 6.99,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 17,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/PIT/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "washington-capitals",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2018
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 14,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 3.16,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 17,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/WSH/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "utah-hockey-club",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 5,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 0.62,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 11,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/UTA/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "chicago-blackhawks",
+   "league": "NHL",
+   "championships25y": 3,
+   "championshipYears": [
+    2010,
+    2013,
+    2015
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 8,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 7.4,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 15,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/CHI/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "colorado-avalanche",
+   "league": "NHL",
+   "championships25y": 2,
+   "championshipYears": [
+    2001,
+    2022
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 17,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.87,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 17,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/COL/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "dallas-stars",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 11,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.67,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 16,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/DAL/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "minnesota-wild",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 10,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.59,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 16,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/MIN/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "nashville-predators",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 1,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.71,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 3,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/NSH/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "st-louis-blues",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2019
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 8,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.51,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 13,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/STL/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "winnipeg-jets",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 0,
+   "nationalTvGamesCanada": 22,
+   "socialFollowers": 2.03,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 0,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 16,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/WPG/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/WPG/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "anaheim-ducks",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2007
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 6,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.96,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 6,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/ANA/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "calgary-flames",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 0,
+   "nationalTvGamesCanada": 56,
+   "socialFollowers": 1.76,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 0,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 44,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/CGY/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/CGY/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "edmonton-oilers",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 9,
+   "nationalTvGamesCanada": 58,
+   "socialFollowers": 3.3,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 16,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 55,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/EDM/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/EDM/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "los-angeles-kings",
+   "league": "NHL",
+   "championships25y": 2,
+   "championshipYears": [
+    2012,
+    2014
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 9,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.84,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 13,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/LAK/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "san-jose-sharks",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 3,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.95,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 7,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/SJS/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "seattle-kraken",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 7,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 1.74,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 10,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/SEA/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "vancouver-canucks",
+   "league": "NHL",
+   "championships25y": 0,
+   "championshipYears": [],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 0,
+   "nationalTvGamesCanada": 37,
+   "socialFollowers": 3.19,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 0,
+   "nationalTvGamesCanadaDefinition": "Games with an English national-flagged (market N) Rogers-package broadcast: Sportsnet (incl. regional Hockey Night in Canada splits SNE/SNO/SNW/SNP), SN1, SN360, CBC, Citytv, Amazon Prime. Stricter count (SN/SN1/SN360/CBC/Prime only) in nationalTvGamesCanadaStrict. French TVA Sports excluded.",
+   "nationalTvGamesCanadaStrict": 33,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/VAN/20252026 (NHL API, retrieved 2026-09-24)",
+    "nationalTvGamesCanada": "https://api-web.nhle.com/v1/club-schedule-season/VAN/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  },
+  {
+   "teamId": "vegas-golden-knights",
+   "league": "NHL",
+   "championships25y": 1,
+   "championshipYears": [
+    2023
+   ],
+   "championshipsDefinition": "Stanley Cups awarded 2001-2025 (24 Cups; 2004-05 season cancelled)",
+   "nationalTvGames": 12,
+   "nationalTvGamesCanada": null,
+   "socialFollowers": 2.11,
+   "merchRank": null,
+   "nationalTvGamesSeason": "2025-26 NHL regular season",
+   "nationalTvGamesDefinition": "US national broadcasts on ESPN/ABC/TNT/truTV (HBO Max simulcast); NHL Network excluded",
+   "nationalTvGamesInclUSStreaming": 15,
+   "socialFollowersAsOf": "2026-08-04 (publication date)",
+   "socialFollowersEst": true,
+   "merchRankNote": "NHL released a 2025-26 top-10 player jersey list (April 2026) but no team merchandise ranking was found.",
+   "sources": {
+    "championships25y": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions ; 2025: https://en.wikipedia.org/wiki/2025_Stanley_Cup_Final",
+    "nationalTvGames": "https://api-web.nhle.com/v1/club-schedule-season/VGK/20252026 (NHL API, retrieved 2026-09-24)",
+    "socialFollowers": "https://www.ginohard.com/nhl-social-media-standings-blackhawks-rankings/ (published 2026-08-04; Facebook+X+Instagram+TikTok combined; third-party blog tally, no per-platform breakdown or collection date given)",
+    "merchRank": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season (player-only list)"
+   }
+  }
+ ],
+ "sportNotes": [
+  {
+   "teamId": "new-york-yankees",
+   "note": "2025 competitive balance tax payer ($61.8M). Revenue-sharing payer/receiver status is not officially published; not asserted here.",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "boston-red-sox",
+   "note": "2025 CBT payer ($1.5M, first-time payor).",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "toronto-blue-jays",
+   "note": "2025 CBT payer ($13.6M). Local TV on Sportsnet, owned by team parent Rogers.",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "tampa-bay-rays",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network (Main Street) terminated MLB coverage.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "cleveland-guardians",
+   "note": "Local TV produced/distributed by MLB Local Media (since Diamond Sports exit). Qualified for 2025 MLB \"media disruption distribution\" (up to $15M) for lost local TV fees.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "detroit-tigers",
+   "note": "FanDuel Sports Network Detroit contract terminated Jan 2026; 2026 games on new Detroit SportsNet, produced under MLB media umbrella.",
+   "source": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/03/02/what-you-need-to-know-to-watch-detroit-tigers-on-tv-in-2026/88939766007/ ; https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "kansas-city-royals",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "minnesota-twins",
+   "note": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "houston-astros",
+   "note": "2025 CBT payer ($1.5M). Qualified for 2025 media disruption distribution.",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "los-angeles-angels",
+   "note": "After FanDuel Sports Network dropped MLB (Feb 2026) the Angels acquired FanDuel Sports Network West outright (renamed Angels Broadcast Television).",
+   "source": "https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "seattle-mariners",
+   "note": "Local TV moved to MLB Local Media (2026) after team-owned ROOT Sports Northwest arrangement. Qualified for 2025 media disruption distribution.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "texas-rangers",
+   "note": "2025 CBT payer (~$190K). Team-owned Rangers Sports Network. Qualified for 2025 media disruption distribution.",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "atlanta-braves",
+   "note": "Terminated FanDuel Sports Network deal Jan 2026; launched in-house BravesVision for 2026.",
+   "source": "https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "miami-marlins",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "new-york-mets",
+   "note": "2025 CBT payer ($91.6M, second-highest).",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "philadelphia-phillies",
+   "note": "2025 CBT payer ($56.1M).",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "washington-nationals",
+   "note": "Local TV moved to MLB Local Media for 2026 (left MASN).",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "cincinnati-reds",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "milwaukee-brewers",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "pittsburgh-pirates",
+   "note": "Qualified for 2025 media disruption distribution (up to $15M).",
+   "source": "https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "st-louis-cardinals",
+   "note": "Local TV moved to MLB Local Media for 2026 after FanDuel Sports Network exit.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group"
+  },
+  {
+   "teamId": "los-angeles-dodgers",
+   "note": "2025 CBT payer ($169.4M, record; highest in MLB).",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html"
+  },
+  {
+   "teamId": "san-diego-padres",
+   "note": "2025 CBT payer (just under $7M). Local TV produced by MLB Local Media since 2023 Diamond exit. Qualified for 2025 media disruption distribution.",
+   "source": "https://www.mlbtraderumors.com/2025/12/nine-teams-exceeded-luxury-tax-threshold-in-2025.html ; https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "colorado-rockies",
+   "note": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "arizona-diamondbacks",
+   "note": "Local TV produced by MLB Local Media. Qualified for 2025 media disruption distribution.",
+   "source": "https://wtop.com/mlb/2026/02/mlb-to-produce-local-broadcasts-for-6-more-teams-with-fate-of-fanduel-sports-network-uncertain/ (AP, 2026-02-02); https://en.wikipedia.org/wiki/Main_Street_Sports_Group ; https://awfulannouncing.com/mlb/teams-payments-lost-media-rights-revenue-15-million.html (2024-12-10, citing The Athletic)"
+  },
+  {
+   "teamId": "los-angeles-kings",
+   "note": "FanDuel Sports Network West closed April 2026; Kings move to Angels-owned ABTV from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "detroit-red-wings",
+   "note": "FanDuel Sports Network Detroit closed April 2026; Red Wings move to Detroit SportsNet from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "nashville-predators",
+   "note": "FanDuel Sports Network closed April 2026; multi-year Scripps Sports deal from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "st-louis-blues",
+   "note": "FanDuel Sports Network closed April 2026; ~70 regional games produced with NHL Productions from 2026-27, Blues control distribution/ad sales.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "minnesota-wild",
+   "note": "FanDuel Sports Network closed April 2026; team-owned network with NHL Productions support from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "carolina-hurricanes",
+   "note": "FanDuel Sports Network closed April 2026; team-owned network run by Hurricanes Holdings from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "columbus-blue-jackets",
+   "note": "FanDuel Sports Network Ohio closed April 2026; NHL Productions produces regional telecasts from 2026-27.",
+   "source": "https://streamdiag.com/streaming-services/fanduel-sports-network-changes-where-each-nhl-team-moved-20564/ ; https://www.espn.com/espn/story/_/id/48388773/nba-nhl-teams-told-main-street-sports-network-end-operations"
+  },
+  {
+   "teamId": "toronto-maple-leafs",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "montreal-canadiens",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "ottawa-senators",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "winnipeg-jets",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "calgary-flames",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "edmonton-oilers",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  },
+  {
+   "teamId": "vancouver-canucks",
+   "note": "Canadian team: national Canadian rights are pooled under the NHL-Rogers deal (new 12-year, C$11B deal from 2026-27, about 2.5x the prior deal), separate from the US national deals. Team keeps regional Canadian TV rights.",
+   "source": "https://www.nhl.com/news/nhl-rogers-announce-12-year-rights-deal"
+  }
+ ]
+}

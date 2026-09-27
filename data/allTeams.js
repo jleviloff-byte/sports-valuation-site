@@ -16,6 +16,9 @@ import { mlbDriverScores } from './driver-scores-mlb.js'
 import { nhlDriverScores } from './driver-scores-nhl.js'
 import { mlsDriverScores } from './driver-scores-mls.js'
 import { eplDriverScores } from './driver-scores-epl.js'
+import { saleHistory } from './sale-history.js'
+import { buildComps, latestSale } from '../src/utils/comps.js'
+import { forbesBreakdown } from './forbes-breakdown.js'
 
 const RESEARCHED_DRIVERS = {
   ...nflDriverScores,
@@ -354,6 +357,34 @@ for (const t of builtTeams) {
   ;(teamsByLeague[t.league] ||= []).push(t)
   if (t.city) (teamsByCity[t.city] ||= []).push(t)
 }
+
+// ────────── Ids, sale history, market check, Forbes breakdown ──────────
+// Headline valuation stays the Forbes figure; nothing here overrides it.
+// Stable slug id per team (matches teamId in transactions.js / sale-history.js).
+export function teamIdFor(name) {
+  return name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+}
+
+for (const t of builtTeams) {
+  t.id = teamIdFor(t.name)
+  t.revenue = enrichments[t.name]?.revenue ?? null
+  t.saleHistory = saleHistory[t.id]?.saleHistory ?? []
+  t.formation = saleHistory[t.id]?.formation ?? null
+  t.lastSale = latestSale(t.id)
+  t.forbesBreakdown = forbesBreakdown[t.id] ?? null
+  // A newer Forbes list (from the owner's export) replaces the older Forbes headline.
+  const fb = t.forbesBreakdown
+  if (fb?.total && fb.year >= (t.valuationYear ?? 0)) {
+    t.currentValuation = +fb.total.toFixed(2)
+    t.valuationYear = fb.year
+    if (!t.valuationHistory?.some((h) => h.year === fb.year)) {
+      t.valuationHistory = [...(t.valuationHistory ?? []), { year: fb.year, value: t.currentValuation, source: fb.source }]
+    }
+  }
+}
+const teamsById = Object.fromEntries(builtTeams.map((t) => [t.id, t]))
+export const precedentComps = buildComps(teamsById)
 
 const allTeams = builtTeams.map(team => {
   const rankings = { league: {}, city: {} }

@@ -1,0 +1,300 @@
+[
+{
+ "teamId": "atlanta-hawks",
+ "formation": {"year": 1946, "price": null, "founder": "Ben Kerner and Leo Ferris", "notes": "Founded as the Buffalo Bisons (NBL) in 1946; moved to Moline as the Tri-Cities Blackhawks after 38 days, then Milwaukee (1951), St. Louis (1955), Atlanta (1968). Entry fee not found.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1968, "price": 3500000, "buyer": "Tom Cousins and Carl Sanders", "seller": "Ben Kerner", "stakePct": 100, "notes": "Sold May 3, 1968 and moved from St. Louis to Atlanta.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ben_Kerner", "https://retrosimba.com/2018/05/01/the-story-of-why-hawks-took-flight-from-st-louis/"]},
+  {"year": 1977, "price": null, "buyer": "Ted Turner", "seller": "Tom Cousins group", "stakePct": 100, "notes": "Turner, who already owned the Braves, bought the team in January 1977. No verified price found.", "isEstimated": false, "sources": ["https://www.nytimes.com/1977/01/04/archives/turner-buys-the-hawks-day-after-baseball-ban.html", "https://en.wikipedia.org/wiki/Atlanta_Hawks"]},
+  {"year": 1996, "price": null, "buyer": "Time Warner", "seller": "Turner Broadcasting System", "stakePct": 100, "notes": "Corporate transfer, not a team sale: Time Warner took over the Hawks when it merged with Turner Broadcasting on October 10, 1996.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Atlanta_Hawks"]},
+  {"year": 2004, "price": null, "buyer": "Atlanta Spirit LLC (Bruce Levenson, Michael Gearon Jr. and partners)", "seller": "Time Warner / Turner Broadcasting", "stakePct": 100, "notes": "Sold March 31, 2004 together with the Atlanta Thrashers (NHL) and the operating rights to Philips Arena. No verified price for the Hawks alone.", "isEstimated": false, "sources": ["http://www.nba.com/hawks/news/atlanta_spirit_sale_040331.html", "https://en.wikipedia.org/wiki/Atlanta_Spirit"]},
+  {"year": 2015, "price": 850000000, "buyer": "Tony Ressler group", "seller": "Atlanta Spirit LLC", "stakePct": 100, "notes": "Agreed April 22, 2015 and approved June 24, 2015, including the arena operating rights. WSJ and Wikipedia report $850M; the Atlanta Business Chronicle reported $730M, so the price may exclude debt or arena items.", "isEstimated": true, "sources": ["http://www.nba.com/2015/news/06/24/sale-of-hawks-unanimously-approved/index.html", "https://www.wsj.com/articles/atlanta-hawks-selling-for-850-million-1429732095", "http://www.bizjournals.com/atlanta/news/2015/04/22/atlanta-hawks-sold-to-ares-ressler-for-730-million.html"]}
+ ]
+},
+{
+ "teamId": "boston-celtics",
+ "formation": {"year": 1946, "price": null, "founder": "Walter A. Brown / Boston Garden-Arena Corporation", "notes": "BAA charter franchise, owned by the Boston Garden-Arena Corp from June 6, 1946.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1950, "price": null, "buyer": "Walter A. Brown and Lou Pieri", "seller": "Boston Garden-Arena Corporation", "stakePct": 100, "notes": "Brown bought the team in his own name on July 31, 1950, with Pieri as partner.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics", "https://en.wikipedia.org/wiki/Walter_A._Brown"]},
+  {"year": 1964, "price": null, "buyer": "Marjorie Brown and Lou Pieri", "seller": "Estate of Walter A. Brown", "stakePct": null, "notes": "Inheritance: Brown's share passed to his widow on September 7, 1964.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Walter_A._Brown"]},
+  {"year": 1965, "price": null, "buyer": "Marvin Kratter / National Equities (Knickerbocker Brewing)", "seller": "Marjorie Brown and Lou Pieri", "stakePct": 100, "notes": "June 24, 1965. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 1968, "price": null, "buyer": "Ballantine Brewery (Investors Funding Corp)", "seller": "National Equities", "stakePct": 100, "notes": "No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 1969, "price": null, "buyer": "Trans-National Communications", "seller": "Ballantine / Investors Funding Corp", "stakePct": 100, "notes": "Control went back to Ballantine / Investors Funding from 1971 to 1972. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 1972, "price": 3950000, "buyer": "Robert Schmertz / Leisure Technology", "seller": "Investors Funding Corp (after the Irv Levin / Harold Lipton deal fell through)", "stakePct": 100, "notes": "In April 1972 Levin and Lipton bought the team for $3.7M, but the NBA did not approve the sale. In May 1972 they sold their shares to Schmertz for $3.95M, keeping an option to buy back half.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Irv_Levin", "https://www.nytimes.com/2014/05/11/sports/basketball/clippers-for-sale-and-the-owner-who-was-desperate.html"]},
+  {"year": 1975, "price": null, "buyer": "Irv Levin and Harold Lipton", "seller": "Robert Schmertz / Leisure Technology", "stakePct": 100, "notes": "Levin and Lipton became co-owners in January 1975 and bought the remaining stock ten months later, in November 1975.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Irv_Levin", "https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 1978, "price": null, "buyer": "John Y. Brown Jr. and Harry Mangurian", "seller": "Irv Levin", "stakePct": 100, "notes": "Franchise swap: Levin traded the Celtics for the Buffalo Braves, which later became the Clippers. No cash price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics", "https://www.si.com/vault/1978/07/17/822808/will-red-and-brown-harmonize-the-celtics-smoothly-changed-hands-but-the-new-owner-and-old-gm-have-yet-to-shake-on-it"]},
+  {"year": 1979, "price": null, "buyer": "Harry Mangurian", "seller": "John Y. Brown Jr.", "stakePct": null, "notes": "Brown sold his interest to co-owner Mangurian. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/John_Y._Brown_Jr."]},
+  {"year": 1983, "price": null, "buyer": "Don Gaston, Alan Cohen and Paul Dupee", "seller": "Harry Mangurian", "stakePct": 100, "notes": "No verified price found. The team was partly floated as Boston Celtics LP in 1986.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 1993, "price": null, "buyer": "Paul Gaston", "seller": "Alan Cohen and partners", "stakePct": null, "notes": "Paul Gaston took control and Cohen left (Boston Globe, September 2, 1993). No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Boston_Celtics"]},
+  {"year": 2002, "price": 360000000, "buyer": "Boston Basketball Partners LLC (Wyc Grousbeck, Irving Grousbeck, Steve Pagliuca)", "seller": "Paul Gaston", "stakePct": 100, "notes": "Agreed September 2002, took over December 31, 2002. A record NBA price at the time.", "isEstimated": false, "sources": ["http://sportsillustrated.cnn.com/basketball/news/2002/09/27/celtics_sale_ap/", "https://www.espn.com/nba/columns/story?id=3399631"]},
+  {"year": 2025, "price": 6100000000, "buyer": "William Chisholm group (with Aditya Mittal and Sixth Street)", "seller": "Boston Basketball Partners (Wyc Grousbeck group)", "stakePct": 51, "notes": "Agreed March 20, 2025, NBA-approved mid-August and closed about August 19, 2025. $6.1B is the valuation for the first stage. Chisholm is due to buy out the remaining holders in 2028 at a $7.3B valuation (blended about $6.7B). The 51% first-stage stake is as reported.", "isEstimated": false, "sources": ["https://www.businesswire.com/news/home/20250320304302/en/Boston-Basketball-Partners-Announces-Sale-of-Boston-Celtics-to-Group-Organized-by-William-Chisholm-for-%246.1-Billion", "https://www.nba.com/celtics/news/081925-chisholm-group-takes-control-of-the-boston-celtics", "https://www.cnn.com/2025/08/14/sport/basketball-nba-boston-celtics-sale-intl", "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-chisholm-closes-billion-1234867472/"]}
+ ]
+},
+{
+ "teamId": "brooklyn-nets",
+ "formation": {"year": 1967, "price": null, "founder": "Arthur J. Brown", "notes": "ABA charter franchise, the New Jersey Americans. On joining the NBA in 1976 the team paid the $3.2M NBA entry fee plus a $4.8M territorial 'invasion fee' to the Knicks.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1969, "price": 1100000, "buyer": "Roy Boe", "seller": "Arthur J. Brown", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brooklyn_Nets", "https://www.nytimes.com/1989/12/24/obituaries/arthur-j-brown-78-former-owner-of-nets.html"]},
+  {"year": 1978, "price": null, "buyer": "'Secaucus Seven' group (Joe Taub, Alan Cohen and others)", "seller": "Roy Boe", "stakePct": 100, "notes": "No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brooklyn_Nets", "https://www.espn.com/nba/news/story?id=4242513"]},
+  {"year": 1998, "price": null, "buyer": "Raymond Chambers and Lewis Katz group (later YankeeNets, 1999)", "seller": "'Secaucus Seven' group", "stakePct": 100, "notes": "No verified price found. YankeeNets was the holding company formed with George Steinbrenner in 1999.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brooklyn_Nets", "https://en.wikipedia.org/wiki/YankeeNets"]},
+  {"year": 2004, "price": 300000000, "buyer": "Bruce Ratner (Brooklyn Basketball LLC)", "seller": "YankeeNets", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bruce_Ratner", "https://www.nytimes.com/2004/01/21/sports/basketball/21CND-NETS.html"]},
+  {"year": 2010, "price": 200000000, "buyer": "Mikhail Prokhorov (Onexim)", "seller": "Bruce Ratner group", "stakePct": 80, "notes": "$200M paid for an 80% stake; the deal also included a stake in the Barclays Center project and arena financing commitments. Approved May 11, 2010.", "isEstimated": false, "sources": ["https://www.nytimes.com/2009/09/24/sports/basketball/24nets.html", "https://www.bloomberg.com/news/2010-05-11/prokhorov-s-200-million-purchase-of-nets-gains-approval-from-nba-owners.html"]},
+  {"year": 2019, "price": 2350000000, "buyer": "Joseph Tsai", "seller": "Mikhail Prokhorov", "stakePct": 100, "notes": "Tsai bought 49% in 2018 and exercised his option for the remaining 51% in August 2019, closing September 18, 2019. $2.35B is the reported team valuation. Tsai separately bought Barclays Center for nearly $1B.", "isEstimated": false, "sources": ["http://www.nba.com/article/2019/08/14/report-joseph-tsai-buy-nets-23-billion", "https://www.nba.com/nets/news/2019/09/18/joe-tsai-completes-acquisition"]}
+ ]
+},
+{
+ "teamId": "charlotte-hornets",
+ "formation": {"year": 2004, "price": 300000000, "founder": "Robert L. Johnson", "notes": "Expansion franchise, awarded December 2002 and approved January 10, 2003; played as the Charlotte Bobcats from 2004. Renamed Hornets in 2014 and took over the records of the 1988-2002 Charlotte Hornets. The legal franchise of the original Hornets is today's New Orleans Pelicans.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 2010, "price": 275000000, "buyer": "Michael Jordan", "seller": "Robert L. Johnson", "stakePct": null, "notes": "Controlling stake; approved March 17, 2010. Jordan also assumed about $150M of debt.", "isEstimated": false, "sources": ["https://www.espn.com/nba/news/story?id=5003048", "http://www.cnn.com/2010/SPORT/02/27/michael.jordan.bobcats/index.html"]},
+  {"year": 2023, "price": 3000000000, "buyer": "Gabe Plotkin and Rick Schnall group", "seller": "Michael Jordan", "stakePct": null, "notes": "$3B valuation for a majority stake; approved July 23, 2023 and finalized August 2023. Jordan kept a minority stake.", "isEstimated": false, "sources": ["https://www.cbssports.com/nba/news/hornets-sale-approved-michael-jordans-13-year-run-as-nba-team-owner-ends-per-report/", "https://www.espn.com/nba/story/_/id/38127251/hornets-sale-michael-jordan-gabe-plotkin-rick-schnall-finalized"]}
+ ]
+},
+{
+ "teamId": "chicago-bulls",
+ "formation": {"year": 1966, "price": null, "founder": "Dick Klein", "notes": "NBA expansion franchise granted January 16, 1966. Expansion fee not verified.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1972, "price": null, "buyer": "Investor group led by Arthur Wirtz and Lester Crown (with Lamar Hunt, Philip Klutznick and others)", "seller": "Dick Klein", "stakePct": null, "notes": "Controlling stake bought from Klein. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Arthur_Wirtz", "https://en.wikipedia.org/wiki/Chicago_Bulls"]},
+  {"year": 1985, "price": 16000000, "buyer": "Jerry Reinsdorf syndicate", "seller": "Group including the Wirtz estate, Jonathan Kovler, Lester Crown, Lamar Hunt, George Steinbrenner", "stakePct": null, "notes": "The syndicate bought the team for $16M; Reinsdorf's own controlling interest was $9.2M. Control acquired March 11, 1985, rising to 63% in 1986.", "isEstimated": false, "sources": ["https://www.chicagotribune.com/1985/02/09/reinsdorf-buys-bulls/", "https://en.wikipedia.org/wiki/Jerry_Reinsdorf"]}
+ ]
+},
+{
+ "teamId": "cleveland-cavaliers",
+ "formation": {"year": 1970, "price": 3700000, "founder": "Nick Mileti", "notes": "NBA expansion entry fee of $3.7M.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1979, "price": null, "buyer": "Joe Zingale (via Louis Mitchell)", "seller": "Nick Mileti", "stakePct": null, "notes": "Mileti sold his shares to Louis Mitchell, who sold them to minority owner Joe Zingale. Mileti later said he sold his 20% interest for $1.4M.", "isEstimated": false, "sources": ["https://www.latimes.com/archives/la-xpm-1987-03-08-me-13419-story.html", "https://en.wikipedia.org/wiki/Nick_Mileti"]},
+  {"year": 1980, "price": null, "buyer": "Ted Stepien", "seller": "Joe Zingale", "stakePct": null, "notes": "April 12, 1980. Stepien first bought a 38% interest for $2M, then took control. No verified price for 100%.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ted_Stepien", "https://news.google.com/newspapers?id=hklPAAAAIBAJ&sjid=IwMEAAAAIBAJ&pg=7118%2C6256145"]},
+  {"year": 1983, "price": 20000000, "buyer": "George and Gordon Gund", "seller": "Ted Stepien", "stakePct": null, "notes": "Majority interest bought April 7, 1983.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Gordon_Gund"]},
+  {"year": 2005, "price": 375000000, "buyer": "Dan Gilbert", "seller": "Gordon Gund", "stakePct": null, "notes": "Agreed January 3, 2005, finalized March 1, 2005; included the arena operating business. Gund kept a minority stake, which Gilbert bought in 2021.", "isEstimated": false, "sources": ["https://www.washingtonpost.com/archive/sports/2005/01/04/cavaliers-their-arena-are-sold-for-375-million/5d94fc46-fbd1-4a4c-b17f-d8b817157d6f/", "https://www.cleveland.com/cavs/2021/04/dan-gilbert-acquires-remaining-minority-share-of-cleveland-cavaliers-from-former-owner-gordon-gund.html"]}
+ ]
+},
+{
+ "teamId": "dallas-mavericks",
+ "formation": {"year": 1980, "price": 12500000, "founder": "Don Carter (with Norm Sonju)", "notes": "Expansion fee of $12.5M per the Mavericks Wikipedia article; the Don Carter article says $12M.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1996, "price": 125000000, "buyer": "Ross Perot Jr. group (with David McDavid)", "seller": "Don Carter", "stakePct": 67, "notes": "67% interest bought May 1, 1996; $125M is the implied team valuation.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Dallas_Mavericks", "http://www.star-telegram.com/sports/nba/dallas-mavericks/article5394174.html"]},
+  {"year": 2000, "price": 285000000, "buyer": "Mark Cuban", "seller": "Ross Perot Jr. group", "stakePct": null, "notes": "Majority stake bought January 14, 2000.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Dallas_Mavericks", "https://en.wikipedia.org/wiki/Ross_Perot_Jr."]},
+  {"year": 2023, "price": 3500000000, "buyer": "Miriam Adelson and Sivan and Patrick Dumont", "seller": "Mark Cuban", "stakePct": 69, "notes": "Approved December 27, 2023. NBC reports a valuation of about $3.5B; Wikipedia cites $3.8-3.9B. Reports put the stake at 69% or 73%. Cuban kept about 27%.", "isEstimated": true, "sources": ["https://www.nbcnews.com/news/sports/mark-cuban-explains-sold-majority-stake-dallas-mavericks-rcna131499", "https://www.dallasnews.com/sports/mavericks/2024/02/10/dallas-mavericks-sale-nba-governor-patrick-dumont-first-interview-miriam-adelson-mark-cuban/"]}
+ ]
+},
+{
+ "teamId": "denver-nuggets",
+ "formation": {"year": 1967, "price": null, "founder": "James Trindle", "notes": "ABA charter franchise (Denver Larks, then Rockets). On joining the NBA in 1976 the team paid a $2M entry fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1967, "price": 350000, "buyer": "Bill Ringsby and son", "seller": "James Trindle", "stakePct": 67, "notes": "Two-thirds controlling interest bought for $350,000 before the first season.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denver_Nuggets"]},
+  {"year": 1972, "price": null, "buyer": "Frank Goldberg and Bud Fischer", "seller": "Ringsby family", "stakePct": 100, "notes": "No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denver_Nuggets"]},
+  {"year": 1974, "price": null, "buyer": "Nuggets Management Inc. (local investment group)", "seller": "Frank Goldberg and Bud Fischer", "stakePct": 100, "notes": "Sold in stages in 1974 and 1975. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denver_Nuggets"]},
+  {"year": 1978, "price": null, "buyer": "Red McCombs", "seller": "Nuggets Management Inc.", "stakePct": 100, "notes": "No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denver_Nuggets"]},
+  {"year": 1985, "price": 20000000, "buyer": "Sidney Shlenker", "seller": "Red McCombs", "stakePct": 100, "notes": "May 1985.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Sidney_Shlenker"]},
+  {"year": 1989, "price": 65000000, "buyer": "COMSAT (later Ascent Entertainment)", "seller": "Sidney Shlenker", "stakePct": 100, "notes": "November 1989.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Sidney_Shlenker", "https://en.wikipedia.org/wiki/Denver_Nuggets"]},
+  {"year": 2000, "price": 450000000, "buyer": "Stan Kroenke", "seller": "Ascent Entertainment / Liberty Media", "stakePct": 100, "notes": "July 2000 package of the Nuggets, the Colorado Avalanche (NHL) and the Pepsi Center; this is not a Nuggets-only price. Earlier deals with Bill Laurie ($400M) and Donald Sturm ($461M) fell through.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denver_Nuggets", "http://www.allbusiness.com/north-america/united-states-colorado/1181899-1.html"]}
+ ]
+},
+{
+ "teamId": "detroit-pistons",
+ "formation": {"year": 1941, "price": null, "founder": "Fred Zollner", "notes": "Founded in 1937 as the semi-pro Fort Wayne Zollner Pistons; joined the NBL in 1941, then the BAA/NBA in 1948, and moved to Detroit in 1957.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1974, "price": 8100000, "buyer": "Bill Davidson", "seller": "Fred Zollner", "stakePct": 100, "notes": "Figures conflict: the NYT headline of July 30, 1974 gives $8.1M; Wikipedia's Zollner article says $7M and its Davidson article says $6M. This entry uses the contemporary NYT figure.", "isEstimated": true, "sources": ["https://www.nytimes.com/1974/07/30/archives/pistons-are-sold-for-81million2-pistons-sold-to-detroit-group-by.html", "https://en.wikipedia.org/wiki/Fred_Zollner"]},
+  {"year": 2009, "price": null, "buyer": "Karen Davidson", "seller": "Estate of Bill Davidson", "stakePct": null, "notes": "Inheritance after Davidson's death in March 2009.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Davidson_(businessman)"]},
+  {"year": 2011, "price": 325000000, "buyer": "Tom Gores / Platinum Equity", "seller": "Karen Davidson", "stakePct": 100, "notes": "Covers all of Palace Sports & Entertainment (the Pistons plus arena and venue assets). Agreed April 2011, approved May 2011.", "isEstimated": false, "sources": ["https://www.nba.com/pistons/news/gores_110408.html", "http://www.crainsdetroit.com/article/20110605/FREE/306059954/-shocking-bargain-gores-pays-325-million-for-pistons"]}
+ ]
+},
+{
+ "teamId": "golden-state-warriors",
+ "formation": {"year": 1946, "price": null, "founder": "Peter A. Tyrrell (Philadelphia Arena)", "notes": "BAA charter franchise, the Philadelphia Warriors; moved to San Francisco in 1962.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1952, "price": 25000, "buyer": "Eddie Gottlieb", "seller": "Peter A. Tyrrell / Philadelphia Arena", "stakePct": 100, "notes": "The Warriors article dates the purchase to 1951; the Gottlieb article says 1952 for $25,000.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Eddie_Gottlieb"]},
+  {"year": 1962, "price": 850000, "buyer": "Diners Club-led group with Franklin Mieuli", "seller": "Eddie Gottlieb", "stakePct": 100, "notes": "Moved to San Francisco. Mieuli later bought out the other holders and became sole owner.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Franklin_Mieuli", "https://en.wikipedia.org/wiki/Eddie_Gottlieb"]},
+  {"year": 1986, "price": null, "buyer": "Jim Fitzgerald and Dan Finnane", "seller": "Franklin Mieuli", "stakePct": 100, "notes": "May 23, 1986. No verified price found.", "isEstimated": false, "sources": ["https://web.archive.org/web/20121108195044/http://www.nba.com/media/warriors/07MGHistory_A.pdf", "https://en.wikipedia.org/wiki/Franklin_Mieuli"]},
+  {"year": 1994, "price": null, "buyer": "Chris Cohan", "seller": "Jim Fitzgerald and Dan Finnane", "stakePct": 100, "notes": "Cohan bought out Fitzgerald and Finnane ahead of the 1994-95 season. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Golden_State_Warriors", "https://en.wikipedia.org/wiki/Jim_Fitzgerald_(businessman)"]},
+  {"year": 2010, "price": 450000000, "buyer": "Joe Lacob and Peter Guber group", "seller": "Chris Cohan", "stakePct": 100, "notes": "Agreed July 15, 2010; a record price at the time.", "isEstimated": false, "sources": ["http://sportsillustrated.cnn.com/2010/writers/frank_hughes/07/15/warriors.sale/", "https://www.espn.com/nba/news/story?id=5383261"]}
+ ]
+},
+{
+ "teamId": "houston-rockets",
+ "formation": {"year": 1967, "price": 1750000, "founder": "Robert Breitbard", "notes": "Expansion franchise, the San Diego Rockets; moved to Houston in 1971.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1971, "price": 5600000, "buyer": "Texas Sports Investments (Wayne Duddleston, Billy Goldberg)", "seller": "Robert Breitbard", "stakePct": 100, "notes": "Sold June 23, 1971 and moved to Houston.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Houston_Rockets", "http://www.nba.com/history/uniforms_rockets.html"]},
+  {"year": 1979, "price": 9000000, "buyer": "George Maloof", "seller": "Previous ownership group (not identified in sources checked)", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Houston_Rockets"]},
+  {"year": 1982, "price": 11000000, "buyer": "Charlie Thomas (with Sidney Shlenker)", "seller": "Maloof family", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Houston_Rockets", "https://en.wikipedia.org/wiki/Maloof_family"]},
+  {"year": 1993, "price": 85000000, "buyer": "Leslie Alexander", "seller": "Charlie Thomas", "stakePct": 100, "notes": "July 30, 1993.", "isEstimated": false, "sources": ["http://www.chron.com/CDA/archives/archive.mpl?id=1993_1144426", "https://en.wikipedia.org/wiki/Houston_Rockets"]},
+  {"year": 2017, "price": 2200000000, "buyer": "Tilman Fertitta", "seller": "Leslie Alexander", "stakePct": 100, "notes": "Agreed September 5, 2017, closed October 2017. A record price for a US team at the time; included Toyota Center operating rights.", "isEstimated": false, "sources": ["https://www.washingtonpost.com/news/sports/wp/2017/09/05/teams-like-the-rockets-rarely-come-available-thats-why-theyre-being-sold-for-2-2-billion/", "http://www.nba.com/rockets/news/tilman-j-fertitta-new-owner-houston-rockets"]}
+ ]
+},
+{
+ "teamId": "indiana-pacers",
+ "formation": {"year": 1967, "price": null, "founder": "Six investors: Richard Tinkham, John DeVoe, Chuck DeVoe, Lyn Treece, Chuck Barnes, Bob Collins", "notes": "ABA charter franchise. On joining the NBA in 1976 the team paid a $3.2M entry fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1979, "price": 11000000, "buyer": "Sam Nassi (with Frank Mariani)", "seller": "Previous local ownership group", "stakePct": 100, "notes": "The reported $11M deal included assumption of significant team debt.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Indiana_Pacers"]},
+  {"year": 1983, "price": null, "buyer": "Melvin and Herb Simon", "seller": "Sam Nassi and Frank Mariani", "stakePct": 100, "notes": "Approved May 9, 1983. No verified price found. Herb Simon became sole principal owner after Mel Simon died in 2009.", "isEstimated": false, "sources": ["https://www.upi.com/Archives/1983/04/16/Indiana-Pacers-owners-Sam-Nassi-and-Frank-Mariani-have/7554419317200/", "https://en.wikipedia.org/wiki/History_of_the_Indiana_Pacers"]}
+ ]
+},
+{
+ "teamId": "los-angeles-clippers",
+ "formation": {"year": 1970, "price": 3700000, "founder": "Paul Snyder", "notes": "Expansion franchise, the Buffalo Braves. The 1970 expansion entrance fee was $3.7M. Wikipedia says Snyder had bought the franchise for $4M by opening night.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1977, "price": null, "buyer": "John Y. Brown Jr.", "seller": "Paul Snyder", "stakePct": 100, "notes": "Brown bought a stake in 1976 and the remaining share in 1977. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/John_Y._Brown_Jr.", "https://en.wikipedia.org/wiki/Buffalo_Braves"]},
+  {"year": 1978, "price": null, "buyer": "Irv Levin (with Harold Lipton)", "seller": "John Y. Brown Jr.", "stakePct": 100, "notes": "Franchise swap with the Celtics; no cash price. The team moved to San Diego as the Clippers.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Clippers"]},
+  {"year": 1981, "price": 12500000, "buyer": "Donald Sterling", "seller": "Irv Levin", "stakePct": 100, "notes": "The Clippers and Sterling articles say $12.5M; the Levin article says $13.5M (May 4, 1981).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Clippers", "https://en.wikipedia.org/wiki/Irv_Levin"]},
+  {"year": 2014, "price": 2000000000, "buyer": "Steve Ballmer", "seller": "Sterling Family Trust (Shelly Sterling)", "stakePct": 100, "notes": "Forced sale after the league acted against Donald Sterling. Closed August 12, 2014.", "isEstimated": false, "sources": ["https://www.usatoday.com/story/sports/nba/clippers/2014/05/30/donald-sterling-mental-health-shelly-los-angeles-sale-steve-ballmer/9754549/", "http://www.latimes.com/sports/sportsnow/la-sp-sn-nba-steve-ballmer-owner-clippers-20140812-story.html"]}
+ ]
+},
+{
+ "teamId": "los-angeles-lakers",
+ "formation": {"year": 1946, "price": null, "founder": "Morris Winston and C. King Boring", "notes": "Founded as the NBL's Detroit Gems. Became the Minneapolis Lakers in 1947 and moved to Los Angeles in 1960.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1947, "price": 15000, "buyer": "Ben Berger and Morris Chalfen", "seller": "Detroit Gems owners (Morris Winston, C. King Boring)", "stakePct": 100, "notes": "Moved to Minneapolis and renamed the Lakers.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Lakers", "https://web.archive.org/web/20240908165218/https://www.latimes.com/archives/la-xpm-2009-apr-27-sp-crowe-nest27-story.html"]},
+  {"year": 1957, "price": 150000, "buyer": "Bob Short-led group of 117 Minnesota investors", "seller": "Ben Berger", "stakePct": 100, "notes": "The group raised $200,000 in total: $150,000 for the team and $50,000 for operations. Short moved the team to Los Angeles in 1960.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Lakers", "https://from-way-downtown.com/2021/05/25/the-new-lakers/"]},
+  {"year": 1965, "price": 5175000, "buyer": "Jack Kent Cooke", "seller": "Bob Short", "stakePct": 100, "notes": "A league-record price at the time. Some sources round it to $5M.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Los_Angeles_Lakers", "https://en.wikipedia.org/wiki/Jack_Kent_Cooke"]},
+  {"year": 1979, "price": 16000000, "buyer": "Jerry Buss", "seller": "Jack Kent Cooke", "stakePct": 100, "notes": "$16M is the Lakers' share of a $67.5M package that also included the NHL Kings, The Forum and real estate.", "isEstimated": false, "sources": ["https://www.nytimes.com/1979/05/30/archives/cooke-buss-confirm-sale-of-coast-teams.html", "https://www.nytimes.com/2013/02/19/sports/basketball/jerry-buss-longtime-lakers-owner-is-dead-at-80.html"]},
+  {"year": 2013, "price": null, "buyer": "Jerry Buss family trusts (six children; Jeanie Buss controlling owner)", "seller": "Estate of Jerry Buss", "stakePct": 66, "notes": "Inheritance after Buss's death in February 2013. The family held a 66% controlling stake.", "isEstimated": false, "sources": ["https://www.espn.com/los-angeles/nba/story/_/id/8960441/family-jerry-buss-maintain-los-angeles-lakers-ownership", "https://www.latimes.com/sports/sportsnow/la-sp-jim-jeanie-buss-trust-20170326-story.html"]},
+  {"year": 2025, "price": 10000000000, "buyer": "Mark Walter", "seller": "Buss family trusts", "stakePct": null, "notes": "Agreed June 2025; NBA approved it unanimously and it closed on October 30, 2025, at a $10B valuation. The Buss family kept a minority stake and Jeanie Buss stayed on as governor. Walter already held about 20% from 2021. The August 2026 resale to Josh Kushner and Bob Iger at $12.5B is left out per coordinator instruction (reported as contested and not approved).", "isEstimated": false, "sources": ["https://www.espn.com/nba/story/_/id/46782684/nba-approves-mark-walter-purchase-majority-stake-lakers", "https://www.nba.com/news/nba-approves-sale-majority-interest-lakers-mark-walter", "https://variety.com/2025/biz/news/nba-approves-mark-walter-la-lakers-deal-1236565890/"]}
+ ]
+},
+{
+ "teamId": "memphis-grizzlies",
+ "formation": {"year": 1995, "price": 125000000, "founder": "Arthur Griffiths (Northwest Sports Enterprises)", "notes": "Expansion franchise, the Vancouver Grizzlies (fee US$125M); moved to Memphis in 2001.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1995, "price": null, "buyer": "John McCaw Jr. (Orca Bay Sports & Entertainment)", "seller": "Arthur Griffiths", "stakePct": null, "notes": "McCaw bought majority control of the holding company (also owning the Canucks and GM Place) in 1995 and 1996. No team-level price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Vancouver_Grizzlies", "http://www.thefreelibrary.com/McCaw+Agrees+to+Purchase+Griffiths%27+Shares+in+Orca+Bay+Sports+%26...-a018852274"]},
+  {"year": 2000, "price": 160000000, "buyer": "Michael Heisley", "seller": "John McCaw Jr. / Orca Bay", "stakePct": 100, "notes": "Came after a failed $200M sale to Bill Laurie; the team moved to Memphis for 2001-02.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Vancouver_Grizzlies", "http://slam.canoe.com/BasketballVancouverArchive/oct20_daniels.html"]},
+  {"year": 2012, "price": 350000000, "buyer": "Robert Pera", "seller": "Michael Heisley", "stakePct": null, "notes": "Approved October 25, 2012. Wikipedia describes the price as 'in the $350 million range'; other reports differ.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Memphis_Grizzlies", "http://www.nba.com/grizzlies/news/grizzlies_sale_to_robert_pera_approved_121025"]}
+ ]
+},
+{
+ "teamId": "miami-heat",
+ "formation": {"year": 1988, "price": 32500000, "founder": "Ted Arison (majority), with Billy Cunningham and Lewis Schaffel", "notes": "1988-89 expansion franchise at the $32.5M fee paid in that expansion.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1995, "price": null, "buyer": "Micky Arison", "seller": "Arison family / founding partners", "stakePct": null, "notes": "Micky Arison bought a controlling interest on February 13, 1995, putting control within the family. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Miami_Heat"]}
+ ]
+},
+{
+ "teamId": "milwaukee-bucks",
+ "formation": {"year": 1968, "price": 2000000, "founder": "Wes Pavalon and Marvin Fishman", "notes": "Expansion franchise granted January 22, 1968 with Phoenix, at a $2M entry fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1976, "price": null, "buyer": "Jim Fitzgerald and partners", "seller": "Founding ownership group", "stakePct": null, "notes": "No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Milwaukee_Bucks"]},
+  {"year": 1985, "price": 18000000, "buyer": "Herb Kohl", "seller": "Jim Fitzgerald", "stakePct": 100, "notes": "Bought to keep the team in Milwaukee.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Herb_Kohl"]},
+  {"year": 2014, "price": 550000000, "buyer": "Wes Edens and Marc Lasry", "seller": "Herb Kohl", "stakePct": null, "notes": "Majority interest; agreed April 16, 2014 and approved May 16, 2014. Kohl kept a minority stake and contributed $100M toward the new arena. In 2023 the Haslams bought Lasry's ~25% at a reported $3.5B valuation; that was a minority transfer, not a control change.", "isEstimated": false, "sources": ["http://www.jsonline.com/sports/bucks/milwaukee-bucks-sold-by-herb-kohl-for-550-million-to-billionaire-investors-b99249475z1-255535471.html", "https://en.wikipedia.org/wiki/Milwaukee_Bucks"]}
+ ]
+},
+{
+ "teamId": "minnesota-timberwolves",
+ "formation": {"year": 1989, "price": 32500000, "founder": "Harvey Ratner and Marv Wolfenson", "notes": "Expansion franchise awarded April 22, 1987, at the $32.5M 1988-89 expansion fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1994, "price": 88500000, "buyer": "Glen Taylor group", "seller": "Harvey Ratner and Marv Wolfenson", "stakePct": 100, "notes": "Kept the team from moving to New Orleans after the NBA rejected that sale. The price is the $88.5M the investor group raised to buy the team.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Minnesota_Timberwolves"]},
+  {"year": 2025, "price": 1500000000, "buyer": "Marc Lore and Alex Rodriguez", "seller": "Glen Taylor", "stakePct": 100, "notes": "Agreed in 2021 at a $1.5B valuation, with 20% bought in 2021 and 20% in 2022. Taylor tried to cancel in March 2024; arbitration ruled for Lore and Rodriguez in February 2025 and NBA owners approved in June 2025. Includes the WNBA Lynx. The August 2026 sale of Lore's control stake to Marc Stad at $4.5B is left out because it awaits NBA approval.", "isEstimated": false, "sources": ["https://www.espn.com/nba/story/_/id/44504541/sources-rodriguez-lore-own-timberwolves-standoff", "https://www.cbssports.com/nba/news/sale-of-timberwolves-to-marc-lore-alex-rodriguez-for-1-5b-officially-approved-by-nba-board-of-governors", "https://www.sportico.com/business/team-sales/2025/arod-lore-win-timberwolves-lynx-arbitration-taylor-1234825589/"]}
+ ]
+},
+{
+ "teamId": "new-orleans-pelicans",
+ "formation": {"year": 1988, "price": 32500000, "founder": "George Shinn", "notes": "Founded as the Charlotte Hornets (1988-89 expansion, $32.5M). Moved to New Orleans in 2002 and renamed Pelicans in 2013. The 1988-2002 Charlotte records were handed to today's Charlotte Hornets in 2014.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 2010, "price": 300000000, "buyer": "NBA (league-owned)", "seller": "George Shinn and Gary Chouest", "stakePct": 100, "notes": "The league took over the team in December 2010 after Chouest's buyout collapsed. The price is estimated.", "isEstimated": true, "sources": ["http://www.nba.com/2010/news/12/20/hornets-sale.ap/index.html", "https://en.wikipedia.org/wiki/George_Shinn"]},
+  {"year": 2012, "price": 338000000, "buyer": "Tom Benson", "seller": "NBA", "stakePct": 100, "notes": "Bought April 13, 2012.", "isEstimated": false, "sources": ["http://www.nba.com/2012/news/04/13/hornets-sale.ap/index.html", "https://en.wikipedia.org/wiki/Tom_Benson"]},
+  {"year": 2018, "price": null, "buyer": "Gayle Benson", "seller": "Estate of Tom Benson", "stakePct": 100, "notes": "Inheritance after Tom Benson's death in March 2018.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/New_Orleans_Pelicans", "https://en.wikipedia.org/wiki/Tom_Benson"]}
+ ]
+},
+{
+ "teamId": "new-york-knicks",
+ "formation": {"year": 1946, "price": null, "founder": "Ned Irish / Madison Square Garden Corporation", "notes": "BAA charter franchise, owned by Madison Square Garden since founding. Every control change below happened at the parent-company level; no Knicks-only price has ever been reported.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1959, "price": null, "buyer": "Graham-Paige", "seller": "James Norris and Arthur Wirtz", "stakePct": null, "notes": "Graham-Paige paid $4M for Norris and Wirtz's controlling 40% of Madison Square Garden Corp (which owned the Knicks, arena and Rangers). That is a parent-company price, not a team price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports"]},
+  {"year": 1977, "price": null, "buyer": "Gulf and Western Industries (renamed Paramount Communications in 1989)", "seller": "Madison Square Garden Corp public shareholders", "stakePct": 100, "notes": "G&W began buying MSG stock in 1969 and took complete control on August 19, 1977.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports"]},
+  {"year": 1994, "price": null, "buyer": "Cablevision and ITT Corporation (50/50)", "seller": "Viacom (after acquiring Paramount)", "stakePct": 100, "notes": "Covers all of MSG (arena, Knicks, Rangers, MSG Network). No Knicks-only price.", "isEstimated": false, "sources": ["https://www.nytimes.com/1994/08/28/nyregion/itt-cablevision-deal-reported-to-buy-madison-square-garden.html", "https://en.wikipedia.org/wiki/Madison_Square_Garden_Sports"]},
+  {"year": 1997, "price": null, "buyer": "Cablevision (Dolan family)", "seller": "ITT Corporation", "stakePct": 50, "notes": "ITT sold its half of MSG to Cablevision for $650M, a multi-asset parent-level price. The Dolan family has controlled the team since, through later spin-offs (MSG Company, then Madison Square Garden Sports).", "isEstimated": false, "sources": ["https://www.nytimes.com/1997/03/07/business/itt-sells-cablevision-control-over-madison-square-garden.html"]}
+ ]
+},
+{
+ "teamId": "oklahoma-city-thunder",
+ "formation": {"year": 1967, "price": 1750000, "founder": "Sam Schulman and Eugene V. Klein", "notes": "Expansion franchise, the Seattle SuperSonics ($1.75M entry fee); moved to Oklahoma City in 2008.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1983, "price": null, "buyer": "Barry Ackerley", "seller": "Sam Schulman", "stakePct": 100, "notes": "October 1983. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Barry_Ackerley", "http://www.seattlepi.com/basketball/126714_obit14.html"]},
+  {"year": 2001, "price": 200000000, "buyer": "Howard Schultz (Basketball Club of Seattle)", "seller": "Ackerley Group", "stakePct": 100, "notes": "Included the WNBA Seattle Storm.", "isEstimated": false, "sources": ["https://archive.seattletimes.com/archive/20010112/sale120/sonics-sale-a-dream-deal-for-schultz", "https://en.wikipedia.org/wiki/Howard_Schultz"]},
+  {"year": 2006, "price": 350000000, "buyer": "Clay Bennett (Professional Basketball Club LLC)", "seller": "Howard Schultz / Basketball Club of Seattle", "stakePct": 100, "notes": "Agreed July 18, 2006 and approved October 24, 2006; included the Storm. The team moved to Oklahoma City in 2008 after a $45M settlement with Seattle.", "isEstimated": false, "sources": ["http://www.nba.com/sonics/news/sale_060718.html", "http://www.nba.com/sonics/news/pbc061024.html"]}
+ ]
+},
+{
+ "teamId": "orlando-magic",
+ "formation": {"year": 1989, "price": 32500000, "founder": "Jim Hewitt group (with William duPont III and Pat Williams)", "notes": "1988-89 expansion round; the Magic began play in 1989. Fee reported as $32.5M.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1991, "price": 85000000, "buyer": "Richard DeVos (DeVos family)", "seller": "Founding ownership group", "stakePct": 100, "notes": "September 19, 1991.", "isEstimated": false, "sources": ["https://www.nytimes.com/1991/09/20/sports/nba-orlando-team-sold.html", "https://en.wikipedia.org/wiki/Orlando_Magic"]},
+  {"year": 2007, "price": null, "buyer": "DeVos children (Bob Vander Weide as owner of record; later Dan DeVos as chairman)", "seller": "Richard DeVos", "stakePct": null, "notes": "Family transfer, no sale; the owner-of-record change took effect November 15, 2007.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Orlando_Magic"]}
+ ]
+},
+{
+ "teamId": "philadelphia-76ers",
+ "formation": {"year": 1946, "price": null, "founder": "Danny Biasone", "notes": "Founded as the Syracuse Nationals (NBL, 1946); moved to Philadelphia in 1963.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1963, "price": null, "buyer": "Irv Kosloff and Ike Richman", "seller": "Danny Biasone", "stakePct": 100, "notes": "Moved to Philadelphia. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Irv_Kosloff"]},
+  {"year": 1976, "price": 8000000, "buyer": "Fitz Eugene Dixon Jr.", "seller": "Irv Kosloff", "stakePct": 90, "notes": "May 28, 1976. Kosloff kept 10%.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Irv_Kosloff", "https://web.archive.org/web/20220301212428/https://www.nytimes.com/1976/05/29/archives/motta-to-coach-bullets-76ers-sold-motta-hired-by-bullets-76ers-sold.html"]},
+  {"year": 1981, "price": null, "buyer": "Harold Katz", "seller": "Fitz Eugene Dixon Jr.", "stakePct": 100, "notes": "July 1981. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Harold_Katz"]},
+  {"year": 1996, "price": null, "buyer": "Comcast Spectacor (Ed Snider / Comcast)", "seller": "Harold Katz", "stakePct": 100, "notes": "April 1996. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Harold_Katz", "https://en.wikipedia.org/wiki/Comcast_Spectacor"]},
+  {"year": 2011, "price": 280000000, "buyer": "Josh Harris-led group (with David Blitzer)", "seller": "Comcast Spectacor", "stakePct": 100, "notes": "Agreed July 13, 2011.", "isEstimated": false, "sources": ["https://www.espn.com/nba/story/_/id/6767259/sale-philadelphia-76ers-joshua-harris-group"]}
+ ]
+},
+{
+ "teamId": "phoenix-suns",
+ "formation": {"year": 1968, "price": 2000000, "founder": "Group led by Karl Eller and Richard Bloch (with Donald Pitt, Don Diamond and others)", "notes": "Expansion franchise granted January 22, 1968, at a $2M entry fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1987, "price": 44000000, "buyer": "Jerry Colangelo group", "seller": "Founding ownership group", "stakePct": 100, "notes": "A record price at the time.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Phoenix_Suns", "https://en.wikipedia.org/wiki/Jerry_Colangelo"]},
+  {"year": 2004, "price": 401000000, "buyer": "Robert Sarver group", "seller": "Jerry Colangelo group", "stakePct": 100, "notes": "Included the WNBA Mercury and the Arena Football League Rattlers. A then-record price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jerry_Colangelo", "https://cronkitenews.azpbs.org/2020/04/27/sarver-purchased-phoenix-suns/"]},
+  {"year": 2023, "price": 4000000000, "buyer": "Mat and Justin Ishbia", "seller": "Robert Sarver", "stakePct": null, "notes": "Agreed December 20, 2022, official February 7, 2023; included the Mercury. Sarver sold after a league workplace investigation.", "isEstimated": false, "sources": ["https://www.espn.com/nba/story/_/id/35523911/mat-ishbia-purchase-suns-mercury-official-soon", "https://en.wikipedia.org/wiki/Phoenix_Suns"]}
+ ]
+},
+{
+ "teamId": "portland-trail-blazers",
+ "formation": {"year": 1970, "price": 3700000, "founder": "Harry Glickman, Herman Sarkowsky, Robert Schmertz, Larry Weinberg", "notes": "Expansion franchise at the $3.7M 1970 entrance fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1975, "price": null, "buyer": "Larry Weinberg", "seller": "Herman Sarkowsky and Robert Schmertz", "stakePct": null, "notes": "Weinberg bought out his partners and became managing partner and majority owner. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Herman_Sarkowsky", "https://en.wikipedia.org/wiki/Harry_Glickman"]},
+  {"year": 1988, "price": 70000000, "buyer": "Paul Allen", "seller": "Larry Weinberg", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://www.forbes.com/forbes/2008/1222/083.html", "https://en.wikipedia.org/wiki/Paul_Allen"]},
+  {"year": 2018, "price": null, "buyer": "Estate of Paul Allen (Jody Allen, trustee)", "seller": "Paul Allen", "stakePct": 100, "notes": "Inheritance/estate transfer after Allen's death in October 2018.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Paul_Allen"]},
+  {"year": 2026, "price": 4000000000, "buyer": "Tom Dundon group ('Rip City Rising': Marc Zahr, Sheel Tyle, Cherng Family Trust)", "seller": "Estate of Paul Allen", "stakePct": 80.1, "notes": "First tranche: 80.1% at a $4.0B valuation. Agreement signed September 2025, approved March 30, 2026, closed March 31, 2026. The remaining 19.9% is to be bought at $4.5B by September 1, 2028 (the $4.25B headline is the blended figure).", "isEstimated": false, "sources": ["https://www.espn.com/nba/story/_/id/48350814/nba-board-governors-approves-portland-trail-blazers-sale-group-led-tom-dundon", "https://www.nba.com/news/blazers-sale-tom-dundon-ok-nba-board-governors", "https://www.sportico.com/business/team-sales/2025/trail-blazers-sale-signed-dundon-group-billion-1234870717/"]}
+ ]
+},
+{
+ "teamId": "sacramento-kings",
+ "formation": {"year": 1945, "price": 25000, "founder": "Les and Jack Harrison", "notes": "The Rochester Royals entered the NBL in 1945 for a $25,000 entry fee. The team later moved to Cincinnati (1957), Kansas City-Omaha (1972) and Sacramento (1985).", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1958, "price": null, "buyer": "Local Cincinnati group headed by Thomas Woods (with Cincinnati Gardens management)", "seller": "Les and Jack Harrison", "stakePct": 100, "notes": "The year is approximate: the sale followed the move to Cincinnati. No verified price found. Louis Jacobs became owner by early 1963.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Sacramento_Kings"]},
+  {"year": 1983, "price": 10500000, "buyer": "Sacramento group led by Joseph Benvenuti and Gregg Lukenbill", "seller": "Kansas City Kings ownership", "stakePct": 100, "notes": "June 8, 1983; the team moved to Sacramento in 1985.", "isEstimated": false, "sources": ["https://web.archive.org/web/20220227110939/https://www.upi.com/Archives/1983/06/08/The-Kansas-City-Kings-of-the-National-Basketball-Association/9348423892800/", "https://en.wikipedia.org/wiki/Sacramento_Kings"]},
+  {"year": 1999, "price": null, "buyer": "Maloof family (Joe and Gavin Maloof)", "seller": "Previous majority owners", "stakePct": null, "notes": "The Maloofs bought a minority stake in 1998 and majority control in 1999. The intermediate 1992 change (Jim Thomas) is not itemized because it could not be verified in the sources checked. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Maloof_family"]},
+  {"year": 2013, "price": 534000000, "buyer": "Vivek Ranadivé group", "seller": "Maloof family (and Bob Hernreich)", "stakePct": 65, "notes": "Record $534M team valuation; the 65% stake cost about $347M. Escrow closed May 31, 2013. This deal replaced the Hansen/Ballmer plan to move the team to Seattle.", "isEstimated": false, "sources": ["http://www.sacbee.com/2013/05/16/5427622/kings.html", "http://probasketballtalk.nbcsports.com/2013/05/31/kings-sale-closes-escrow-final-price-is-record-534-million/"]}
+ ]
+},
+{
+ "teamId": "san-antonio-spurs",
+ "formation": {"year": 1967, "price": null, "founder": "Dallas Chaparrals ownership group", "notes": "ABA charter franchise, the Dallas Chaparrals; moved to San Antonio in 1973. On joining the NBA in 1976 the team paid a $3.2M entry fee.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1973, "price": null, "buyer": "Group of 35 San Antonio investors led by Angelo Drossos, John Schaefer and Red McCombs", "seller": "Dallas Chaparrals ownership group", "stakePct": 100, "notes": "A three-year lease with an option to buy, which the group exercised. No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/San_Antonio_Spurs"]},
+  {"year": 1988, "price": null, "buyer": "Red McCombs", "seller": "Angelo Drossos-led ownership group", "stakePct": 100, "notes": "McCombs took full ownership around 1988-89 (his article says 1989). No verified price found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/San_Antonio_Spurs", "https://en.wikipedia.org/wiki/Red_McCombs"]},
+  {"year": 1993, "price": 75000000, "buyer": "Peter Holt and 22 investors", "seller": "Red McCombs", "stakePct": 100, "notes": "The Holt family has controlled the team since; Peter J. Holt is now chairman.", "isEstimated": false, "sources": ["https://www.newspapers.com/image/1279056605/", "https://en.wikipedia.org/wiki/San_Antonio_Spurs"]}
+ ]
+},
+{
+ "teamId": "toronto-raptors",
+ "formation": {"year": 1993, "price": 125000000, "founder": "John Bitove (with Allan Slaight)", "notes": "Expansion franchise awarded November 4, 1993 at a then-record US$125M fee; began play in 1995.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1996, "price": null, "buyer": "Allan Slaight", "seller": "John Bitove", "stakePct": 79, "notes": "Slaight triggered a shotgun clause and bought Bitove's interest for $65M (for his stake, not the whole team), taking 79% control.", "isEstimated": false, "sources": ["http://www.sportsbusinessdaily.com/Daily/Issues/1996/10/21/Franchises/RAPTORS-UP-FOR-GRABS-AS-SLAIGHT-ENACTS-BUYOUT-CLAUSE.aspx", "https://en.wikipedia.org/wiki/Toronto_Raptors"]},
+  {"year": 1998, "price": 125000000, "buyer": "Maple Leaf Gardens Ltd. (became MLSE; majority held by Ontario Teachers' Pension Plan)", "seller": "Allan Slaight and Bank of Nova Scotia", "stakePct": 100, "notes": "February 12, 1998; included the unfinished Air Canada Centre. Wikipedia gives US$125M for the franchise.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Toronto_Raptors"]},
+  {"year": 2012, "price": null, "buyer": "Rogers Communications and BCE (joint venture, with Larry Tanenbaum)", "seller": "Ontario Teachers' Pension Plan", "stakePct": null, "notes": "OTPP sold its majority of MLSE (Raptors, Maple Leafs, TFC and other assets). This is a parent-company deal with no Raptors-only price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"]},
+  {"year": 2025, "price": null, "buyer": "Rogers Communications", "seller": "BCE (Bell)", "stakePct": 37.5, "notes": "Rogers bought BCE's 37.5% of MLSE for CA$4.7B (agreed September 2024, closed July 2025), giving it 75% control; Tanenbaum keeps 25%. This is a parent-company deal (MLSE also owns the Leafs, TFC and Argonauts), so no team-level price in USD is given.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"]}
+ ]
+},
+{
+ "teamId": "utah-jazz",
+ "formation": {"year": 1974, "price": null, "founder": "Sam Battistone-led group", "notes": "Expansion franchise, the New Orleans Jazz; moved to Utah in 1979. Expansion fee not verified.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1985, "price": 8000000, "buyer": "Larry H. Miller", "seller": "Sam Battistone", "stakePct": 50, "notes": "$8M paid for 50%, implying a team value of about $16M.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Utah_Jazz", "https://en.wikipedia.org/wiki/Larry_H._Miller"]},
+  {"year": 1986, "price": 14000000, "buyer": "Larry H. Miller", "seller": "Sam Battistone", "stakePct": 50, "notes": "June 16, 1986: $14M for the remaining 50%, giving Miller 100%. Outside offers of up to $28M would have moved the team to Minnesota.", "isEstimated": false, "sources": ["https://www.deseret.com/2010/5/6/20113011/late-jazz-owner-larry-miller-spurned-huge-payday-to-keep-team-in-utah", "https://en.wikipedia.org/wiki/Larry_H._Miller"]},
+  {"year": 2009, "price": null, "buyer": "Gail Miller / Miller family", "seller": "Estate of Larry H. Miller", "stakePct": 100, "notes": "Inheritance after Larry Miller's death in 2009.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Utah_Jazz"]},
+  {"year": 2020, "price": 1660000000, "buyer": "Ryan Smith (Smith Entertainment Group)", "seller": "Miller family", "stakePct": 100, "notes": "Announced October 28, 2020. $1.66B covers the Jazz plus Vivint Arena and related assets.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Larry_H._Miller", "https://en.wikipedia.org/wiki/Utah_Jazz"]}
+ ]
+},
+{
+ "teamId": "washington-wizards",
+ "formation": {"year": 1961, "price": null, "founder": "Dave Trager group", "notes": "Expansion franchise, the Chicago Packers (renamed Zephyrs, then the Baltimore Bullets in 1963, Washington in the 1970s, Wizards in 1997). Expansion fee not verified.", "isEstimated": false},
+ "saleHistory": [
+  {"year": 1964, "price": 1100000, "buyer": "Abe Pollin, Earl Foreman and Arnold Heft", "seller": "Dave Trager", "stakePct": 100, "notes": "November 23, 1964. Pollin later became majority owner.", "isEstimated": false, "sources": ["https://web.archive.org/web/20230306002631/https://news.google.com/newspapers?id=OCEiAAAAIBAJ&sjid=BnQFAAAAIBAJ&pg=926,3632741", "https://en.wikipedia.org/wiki/Abe_Pollin"]},
+  {"year": 2009, "price": null, "buyer": "Irene Pollin", "seller": "Estate of Abe Pollin", "stakePct": null, "notes": "Inheritance after Pollin's death in November 2009.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Washington_Wizards"]},
+  {"year": 2010, "price": null, "buyer": "Ted Leonsis (Lincoln Holdings, now Monumental Sports & Entertainment)", "seller": "Pollin family", "stakePct": null, "notes": "Leonsis bought the remaining interests (Wizards and Verizon Center) in June 2010. He had bought a minority stake in 1999 as part of an ~$200M deal that also included the Capitals. No verified 2010 price found.", "isEstimated": false, "sources": ["https://www.nba.com/wizards/news/leonsis_acquisition_100610.html", "https://en.wikipedia.org/wiki/Abe_Pollin"]}
+ ]
+}
+]

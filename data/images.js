@@ -547,6 +547,14 @@ const ESPN_LOGO = {
   "Manchester City": ESPN_SOC(382),
   "Manchester United": ESPN_SOC(360),
   "Tottenham Hotspur": ESPN_SOC(367),
+  "Brentford": ESPN_SOC(337),
+  "Crystal Palace": ESPN_SOC(384),
+  "Everton": ESPN_SOC(368),
+
+  // ── MLS — ESPN soccer team IDs (verified against ESPN team pages 2026-09-27) ──
+  "Austin FC": ESPN_SOC(20906),
+  "Real Salt Lake": ESPN_SOC(4771),
+  "Sporting Kansas City": ESPN_SOC(186),
 }
 
 export function getTeamImages(teamName) {

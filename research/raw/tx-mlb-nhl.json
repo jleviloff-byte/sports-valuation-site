@@ -1,0 +1,413 @@
+{
+  "transactions": [
+    {
+      "teamId": "los-angeles-angels",
+      "type": "control",
+      "dateAnnounced": "2026-09-01",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 4000000000,
+      "stakePct": null,
+      "buyer": "Stan Kroenke / Kroenke Sports & Entertainment",
+      "seller": "Arte Moreno / Moreno family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno",
+        "https://www.cbssports.com/mlb/news/angels-arte-moreno-sale-stan-kroenke-rams-nuggets/",
+        "https://www.mlbtraderumors.com/2026/09/arte-moreno-sells-angels-rams-owner-stan-kroenke.html",
+        "https://sports.yahoo.com/mlb/breaking-news/article/rams-owner-stan-kroenke-enters-agreement-to-buy-angels-from-arte-moreno-for-reported-mlb-record-4-billion-182211800.html",
+        "https://www.forbes.com/sites/barrymbloom/2026/09/02/stan-kroenke-to-buy-angels-from-arte-moreno-in-second-recent-mlb-sale/"
+      ],
+      "isEstimated": true,
+      "notes": "Seed confirmed. MLB.com (team/league release) confirms KSE is buying Moreno's controlling interest, with Moreno keeping an undisclosed minority stake; close expected Q1 2027 pending MLB approval. The $4B valuation (an MLB record) is not official: it comes from The Athletic (Britt Ghiroli), repeated by CBS, Yahoo and MLBTR. The exact % acquired is undisclosed. CBS's '100%' is wrong per MLB.com."
+    },
+    {
+      "teamId": "san-diego-padres",
+      "type": "control",
+      "dateAnnounced": "2026-05-02",
+      "dateApproved": "2026-08-17",
+      "status": "closed",
+      "valuation": 3900000000,
+      "stakePct": 40,
+      "buyer": "José E. Feliciano and Kwanza Jones (Feliciano is control person); minority partners incl. Joey and Jesse Buss",
+      "seller": "Seidler family (Peter Seidler trust)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/mlb/story/_/id/48659063/padres-reach-agreement-sell-group-led-kwanza-jones-jose-e-feliciano",
+        "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres",
+        "https://www.forbes.com/sites/antoniopequenoiv/2026/08/17/billionaire-jos-felicianos-39-billion-san-diego-padres-acquisition-approved/",
+        "https://www.mlb.com/news/padres-sale-to-jose-e-feliciano-and-kwanza-jones-approved-by-mlb",
+        "https://www.mlb.com/padres/news/sale-of-padres-successfully-completed/c-37535650",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_E._Feliciano"
+      ],
+      "isEstimated": true,
+      "notes": "Seed corrected on dates: the agreement was announced May 2, 2026 (after an Apr 22 report in The Athletic), not 'early 2026'. MLB owners approved unanimously Aug 17, 2026. A team release titled 'Sale of Padres successfully completed' followed, and the owners were introduced Aug 24; the exact closing date was not captured. The buyers get control with about 40% of the equity (ESPN, The Athletic); the Seidler family keeps some equity. $3.9B is the reported valuation (an MLB record at the time)."
+    },
+    {
+      "teamId": "tampa-bay-rays",
+      "type": "control",
+      "dateAnnounced": "2025-06-18",
+      "dateApproved": "2025-09-22",
+      "status": "closed",
+      "valuation": 1700000000,
+      "stakePct": 90,
+      "buyer": "Group led by Patrick Zalupski (with Ken Babby and others)",
+      "seller": "Stuart Sternberg",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays",
+        "https://www.cbssports.com/mlb/news/tampa-bay-rays-sale-mlb-owners-unanimously-approve-patrick-zalupski-deal-reportedly-worth-1-7-billion",
+        "https://www.wusf.org/sports/2025-09-22/tampa-bay-rays-sale-approved-mlb-owners-reports-say",
+        "https://baynews9.com/fl/tampa/news/2025/09/30/tampa-bay-rays-officially-sold-to-new-ownership-group"
+      ],
+      "isEstimated": true,
+      "notes": "dateAnnounced is June 18, 2025, when the Rays confirmed exclusive talks. An agreement in principle was reported in July 2025 without a precise date. Approved Sept 22 and closed Sept 30, 2025. $1.7B is reported, not official. Sternberg kept a minority stake, reported at about 10% (so ~90% sold; approximate). The deal includes the USL Tampa Bay Rowdies."
+    },
+    {
+      "teamId": "baltimore-orioles",
+      "type": "control",
+      "dateAnnounced": "2024-01-30",
+      "dateApproved": "2024-03-27",
+      "status": "closed",
+      "valuation": 1725000000,
+      "stakePct": 40,
+      "buyer": "David Rubenstein and Michael Arougheti-led group (incl. Cal Ripken Jr., Mike Bloomberg, Grant Hill)",
+      "seller": "Angelos family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.thebanner.com/sports/orioles-mlb/baltimore-orioles-sale-john-angelos-david-rubenstein-JXHAPWXKSNFS7JR3K6KRCC4LEY/",
+        "https://www.thebanner.com/sports/orioles-mlb/mlb-orioles-sale-david-rubenstein-john-angelos-NSJUCTS5TNBOPJ27UQ7IPWUOTM/",
+        "https://www.sportspro.com/news/baltimore-orioles-mlb-david-rubenstein-acquisition-approval/",
+        "https://www.cbssports.com/mlb/news/angelos-family-to-sell-orioles-for-1-725-billion-to-private-equity-moguls-cal-ripken-jr-among-investors/"
+      ],
+      "isEstimated": false,
+      "notes": "The $1.725B covers the franchise plus the Orioles' stake in MASN. The group bought about 40% at first, with the Angelos family's ~30% to be bought later; existing LPs have tag-along rights. Owners approved on Wednesday, Mar 27, 2024 (the Banner print says Mar 26, but that was a Tuesday). The sale was finalized within days of Peter Angelos's death on Mar 23."
+    },
+    {
+      "teamId": "minnesota-twins",
+      "type": "minority",
+      "dateAnnounced": "2025-12-17",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 1750000000,
+      "stakePct": 20,
+      "buyer": "Glick Family Investments, George G. Hicks, Craig Leipold",
+      "seller": "Pohlad family",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html",
+        "https://www.si.com/mlb/twins/onsi/minnesota-twins-news/pohalds-set-to-reveal-20-percent-sale-of-twins-to-3-limited-partners-insider-says",
+        "https://www.audacy.com/wccoradio/local-sports/minnesota-twins/twins-new-leadership-with-tom-pohlad-announce-new-investors",
+        "https://www.sportico.com/business/team-sales/2025/minnesota-twins-sale-pohlads-control-minority-partners-1234866859/"
+      ],
+      "isEstimated": true,
+      "notes": "The Pohlads ended their control-sale process in Aug 2025 and brought in LPs instead. The Dec 17, 2025 announcement: just over 20% at a reported $1.75B (The Athletic, Dan Hayes), about $350M, used to pay down roughly $400-500M of debt. The valuation is reported, not official. Closing and MLB approval dates were not confirmed."
+    },
+    {
+      "teamId": "chicago-white-sox",
+      "type": "minority",
+      "dateAnnounced": "2025-03-06",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 1800000000,
+      "stakePct": null,
+      "buyer": "Justin Ishbia (with Mat and Jeff Ishbia)",
+      "seller": "White Sox limited partners",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://southsideshowdown.com/white-sox-ownership-transition-window-narrows-after-limited-partners-sell-their-stake-billionaire-justin-ishbia",
+        "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/",
+        "https://www.sportico.com/business/team-sales/2025/chicago-white-sox-sale-ishbia-to-gain-control-over-time-1234855243/"
+      ],
+      "isEstimated": true,
+      "notes": "Reported Feb-Mar 2025 (The Athletic, Sportico): a majority of White Sox LPs agreed to sell their shares to Ishbia at a $1.8B valuation. The % is undisclosed. dateAnnounced is a report date, not a formal announcement. The June 5, 2025 agreement adds capital infusions in 2025-26 and a control option from 2029-2034; that option is not a sale (see rejected)."
+    },
+    {
+      "teamId": "miami-marlins",
+      "type": "minority",
+      "dateAnnounced": "2026-06-01",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 1550000000,
+      "stakePct": 15,
+      "buyer": "Two unnamed South Florida families",
+      "seller": "Bruce Sherman ownership group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/miami-marlins-ownership-stake-value-1234901684/",
+        "https://www.sportcal.com/news/mlbs-marlins-sell-15-stake-in-debt-payoff-as-salary-floor-prospect-looms/"
+      ],
+      "isEstimated": true,
+      "notes": "Sportico reported that about 15% was sold 'this spring' (2026) at $1.55B; another source put it closer to $1.4B. Proceeds (~$233M) went to debt paydown. The 2026-06-01 date is Sportcal's publication date; the exact deal date is undisclosed. Sportcal appears to follow Sportico, so the two sources may not be fully independent."
+    },
+    {
+      "teamId": "oakland-athletics",
+      "type": "minority",
+      "dateAnnounced": "2026-07-23",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 3800000000,
+      "stakePct": null,
+      "buyer": "Harbinger Sports Partners (Mark Cuban GP/president)",
+      "seller": "John Fisher / Athletics (new shares)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/mlb/story/_/id/49435620/cuban-investment-group-purchases-minority-stake-athletics",
+        "https://lvsportsbiz.com/2026/07/23/harbinger-sports-partners-which-includes-mark-cuban-buys-minority-stake-in-john-fishers-athletics/",
+        "https://www.sportcal.com/news/cuban-led-investment-firm-acquires-minority-stake-in-the-as/",
+        "https://www.casino.com/news/las-vegas/mark-cubans-group-buys-50m-stake-in-athletics-ballpark/"
+      ],
+      "isEstimated": true,
+      "notes": "ESPN and LVSportsBiz confirm the stake; the % is undisclosed. CNBC (Mike Ozanian) reported about $50M at a ~$3.8B post-money valuation, as cited by Sportcal. That valuation covers the A's and the new Las Vegas ballpark, so it is not comparable to team-only values (Forbes: ~$2B). Part of Fisher's ~$550M raise for the stadium. MLB approval status is unclear."
+    },
+    {
+      "teamId": "new-york-yankees",
+      "type": "minority",
+      "dateAnnounced": "2026-08-11",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 10000000000,
+      "stakePct": 8,
+      "buyer": "Apollo Sports Capital (Apollo Global Management)",
+      "seller": "Steinbrenner family and some YGE limited partners",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as",
+        "https://fortune.com/2026/08/11/apollo-inks-2-6-billion-financing-deal-with-ny-yankees/",
+        "https://sports.yahoo.com/articles/apollo-set-major-stake-yankees-180117436.html",
+        "https://bleacherreport.com/articles/25500771-new-yankees-rumors-sale-minority-stake-valuation-amid-26b-deal-apollo",
+        "https://www.sportico.com/business/team-sales/2026/steinbrenner-family-sell-yankees-stake-apollo-1234945365/"
+      ],
+      "isEstimated": true,
+      "notes": "A $2.6B debt-plus-equity deal into Yankee Global Enterprises, which holds the Yankees, YES Network, Legends, and stakes in NYCFC and AC Milan; it is not a team-only valuation. Sportico: YGE valued at more than $10B, with the Steinbrenners selling at least 4%. NY Post (Gasparino): 'significantly' more than $12B, with Apollo taking 8% common now plus 8% convertible preferred (16% total). Valuation and stake are uncertain; the equity piece still needs MLB to waive its private-equity cap."
+    },
+    {
+      "teamId": "carolina-hurricanes",
+      "type": "minority",
+      "dateAnnounced": "2026-03-05",
+      "dateApproved": "2026-03-10",
+      "status": "approved",
+      "valuation": 2660000000,
+      "stakePct": 12.5,
+      "buyer": "Brett Jefferson, Marc Grandisson, Bobby Farnham",
+      "seller": "Tom Dundon",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/carolina-hurricanes-sale-owners-tom-dundon-1234886395/",
+        "https://www.wral.com/sports/carolina-hurricanes-owner-tom-dundon-sells-stake-in-team-billion-march-2026/",
+        "https://www.wunc.org/business-economy/2026-03-05/carolina-hurricanes-tom-dundon-sells-portland-trailblazers-raleigh-lenovo-center",
+        "https://www.espn.com/nhl/story/_/id/48187704/dundon-sells-stake-hurricanes-three-minority-owners",
+        "https://www.sportico.com/business/team-sales/2026/carolina-hurricanes-stake-sale-approved-nhl-owners-1234886840/",
+        "https://www.nhl.com/hurricanes/news/hurricanes-announce-new-ownership-investors"
+      ],
+      "isEstimated": false,
+      "notes": "Seed corrected: the three buyers were named when the club announced them on Mar 12, 2026 (Jefferson, Grandisson and ex-NHL player Farnham), so they are not undisclosed. The 12.5% at $2.66B (Sportico) is confirmed. NHL owners approved on 'Tuesday' (Sportico), which I dated to Mar 10, 2026 (the Tuesday before the Mar 12 announcement). Sportico said it had not closed yet as of then."
+    },
+    {
+      "teamId": "pittsburgh-penguins",
+      "type": "control",
+      "dateAnnounced": "2025-12-18",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 1700000000,
+      "stakePct": null,
+      "buyer": "Hoffmann Family of Companies (David Hoffmann family)",
+      "seller": "Fenway Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportspro.com/news/finance-investment/pittsburgh-penguins-sale-hoffmann-family-fsg-nhl-ownership-december-2025/",
+        "https://www.floridaweekly.com/articles/fort-myers-arts-and-entertainment-news/fort-myers/bonita-springs/hoffmann-acquires-pittsburgh-penguins/",
+        "https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
+      ],
+      "isEstimated": true,
+      "notes": "~US$1.7B was reported by Sportsnet's Elliotte Friedman and is not official. FSG paid ~$900M in 2021. The NHL Board of Governors approved unanimously (Florida Weekly; exact date not captured). Wikipedia says the Hoffmanns took full control June 23, 2026 and lists Mario Lemieux as a remaining minority owner, so stakePct is left null."
+    },
+    {
+      "teamId": "toronto-maple-leafs",
+      "type": "control",
+      "dateAnnounced": "2024-09-18",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 9222778667,
+      "stakePct": 37.5,
+      "buyer": "Rogers Communications",
+      "seller": "BCE (Bell)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-majority-owner-of-maple-leaf-sports-entertainment/",
+        "https://www.cbc.ca/sports/rogers-communications-closes-deal-owner-mlse-1.7575488",
+        "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+      ],
+      "isEstimated": false,
+      "notes": "Seed corrected: C$4.7B for BCE's 37.5% of MLSE was announced Sept 18, 2024 and closed July 1, 2025 (CBC), not July 2024. This took Rogers from co-owner to 75% control. Entity is MLSE (Leafs, Raptors, TFC, Argos, Marlies, Scotiabank Arena), not the Leafs alone. Implied 100% value C$12.53B, converted at 0.73586 USD/CAD (ECB reference rate via frankfurter.app, 2024-09-18). Rogers funded it partly with a private investor, amount not stated."
+    },
+    {
+      "teamId": "toronto-maple-leafs",
+      "type": "minority",
+      "dateAnnounced": "2026-07-06",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 12233418000,
+      "stakePct": 25,
+      "buyer": "Rogers Communications",
+      "seller": "Kilmer Sports Inc. (Larry Tanenbaum; OMERS)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/",
+        "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583"
+      ],
+      "isEstimated": false,
+      "notes": "Rogers is buying the last 25% of MLSE for C$4.35B, which implies C$17.4B for 100%; close expected Q4 2026 pending league approvals. Entity is MLSE (Leafs, Raptors, TFC, Argos, Marlies, arena). Converted at 0.70307 USD/CAD (ECB reference rate via frankfurter.app, 2026-07-06). Rogers also said it plans to sell a minority stake in its combined sports/media assets within a year (not agreed)."
+    },
+    {
+      "teamId": "utah-hockey-club",
+      "type": "control",
+      "dateAnnounced": "2024-04-18",
+      "dateApproved": "2024-04-18",
+      "status": "closed",
+      "valuation": 1200000000,
+      "stakePct": 100,
+      "buyer": "Smith Entertainment Group (Ryan and Ashley Smith)",
+      "seller": "NHL / Alex Meruelo (Arizona Coyotes hockey assets)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.nhl.com/news/nhl-bog-approves-establishment-of-new-franchise-in-utah",
+        "https://en.wikipedia.org/wiki/Utah_Mammoth",
+        "https://www.bloomberg.com/news/articles/2024-04-18/arizona-coyotes-moving-to-salt-lake-city-for-2024-season-approved-by-owners"
+      ],
+      "isEstimated": false,
+      "notes": "Structured as a new franchise, not a sale: Smith paid a $1.2B 'expansion' fee and got the Coyotes' hockey assets (roster, reserve list, picks, hockey ops). The NHL paid Meruelo $1B; the $200M gap was effectively a relocation fee shared by the other clubs. Meruelo kept the Coyotes name and a 5-year reactivation right. NHL.com confirms the structure but not the prices, which come from Wikipedia and Bloomberg. Team now called Utah Mammoth."
+    }
+  ],
+  "rejected": [
+    {
+      "team": "Ottawa Senators",
+      "teamId": "ottawa-senators",
+      "description": "Michael Andlauer bought control from the Melnyk estate (~US$950M reported); purchase agreement June 2023, completed Sept 21, 2023.",
+      "reason": "Outside the 36-month control comp window: closed Sept 21, 2023, three days before the 2023-09-24 cutoff.",
+      "sources": [
+        "https://www.nhl.com/news/ottawa-enters-into-purchase-agreement-with-michael-andlauer-344846748",
+        "https://nationalpost.com/sports/hockey/nhl/ottawa-senators/garrioch-its-official-michael-andlauer-is-the-new-owner-of-the-ottawa-senators"
+      ]
+    },
+    {
+      "team": "Chicago White Sox",
+      "teamId": "chicago-white-sox",
+      "description": "June 5, 2025 framework: Reinsdorf may sell control to Justin Ishbia in 2029-2033, with Ishbia holding an option after the 2034 season.",
+      "reason": "Not agreed: a future option, not a control sale. The team says there is 'no assurance' it will happen. The related LP share purchases are listed as a minority transaction.",
+      "sources": [
+        "https://www.mlb.com/news/white-sox-announce-long-term-ownership-investment-agreement",
+        "https://www.sportspro.com/news/chicago-white-sox-mlb-justin-ishbia-takeover-reinsdorf-june-2025/"
+      ]
+    },
+    {
+      "team": "Minnesota Twins",
+      "teamId": "minnesota-twins",
+      "description": "Pohlad family control-sale process (Allen & Co., Oct 2024 to Aug 2025). Justin Ishbia was the leading bidder but withdrew in Feb 2025.",
+      "reason": "Not agreed: the sale process ended Aug 13, 2025. The Pohlads kept control and sold ~20% to LPs instead (listed as a transaction).",
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/minnesota-twins-sale-pohlads-control-minority-partners-1234866859/",
+        "https://www.espn.com/mlb/story/_/id/41718735/twins-estimated-worth-15-2-billion-put-sale"
+      ]
+    },
+    {
+      "team": "Cleveland Guardians",
+      "teamId": "cleveland-guardians",
+      "description": "David Blitzer's 2022 purchase of 25% came with an option to take majority control around 2028. The owner's brief mentioned Dolan-Haslam, but no Haslam involvement with the Guardians was found.",
+      "reason": "Not agreed: the option has not been exercised and the 2022 stake predates the window. No Dolan-Haslam deal found.",
+      "sources": [
+        "https://www.mlb.com/news/david-blitzer-guardians-minority-owner"
+      ]
+    },
+    {
+      "team": "Toronto Blue Jays / Rogers sports assets",
+      "teamId": "toronto-blue-jays",
+      "description": "Rogers said (July 2026) it plans to sell a minority stake in its combined sports, media and entertainment assets (Blue Jays, MLSE, Sportsnet) within the next year.",
+      "reason": "Not agreed: a stated intention only, with no buyer or terms.",
+      "sources": [
+        "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/",
+        "https://financialpost.com/fp-finance/rogers-mlse-deal-create-leafs-raptors-jays-ipo"
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "description": "Tampa Bay Lightning: Vinik Sports Group sold a majority stake to a group led by Doug Ostrover and Marc Lipschultz (Blue Owl co-CEOs). NHL approved Oct 1, 2024; finalized Oct 24, 2024; control passes to Ostrover/Lipschultz after ~3 years. This is a control sale inside the 36-month window. Sources: https://www.nhl.com/lightning/news/jeff-vinik-announces-expansion-of-tampa-bay-lightning-ownership-group and https://en.wikipedia.org/wiki/Jeffrey_Vinik",
+      "whatWasMissing": "Valuation and stake %: the team release discloses neither, and no source giving a valuation was found before the search budget ran out. The deal itself is confirmed by 2 sources; add it once a reported valuation (e.g. Sportico/Sportsnet) is found."
+    },
+    {
+      "description": "San Francisco Giants: Sixth Street bought ~10% (Mar 18, 2025), with proceeds going to Oracle Park, spring training and Mission Rock. Sources: https://www.sportcal.com/news/san-francisco-giants-sell-10-stake-to-sixth-street/ , https://pitchbook.com/news/articles/sixth-street-partners-acquires-stake-in-san-francisco-giants , https://www.bloomberg.com/news/articles/2025-03-18/san-francisco-giants-sells-10-stake-to-sixth-street-partners",
+      "whatWasMissing": "Deal valuation: no financial terms disclosed. The $4.2B (Sportico) and $3.8B (Forbes) figures in coverage are outlet estimates, not deal values."
+    },
+    {
+      "description": "Washington Capitals (Monumental Sports & Entertainment): Dec 17, 2025, Laurene Powell Jobs sold her MSE stake to Arctos Partners and the Qatar Investment Authority (QIA increased an existing 2023 stake). Sources: https://monumentalsports.com/2025/12/monumental-sports-entertainment-announces-minority-investor-updates-to-accelerate-growth-and-innovation/ and https://www.nytimes.com/athletic/6897257/2025/12/17/laurene-powell-jobs-wizards-mystics-capitals-monumental-qatar/",
+      "whatWasMissing": "Stake % and valuation: not in the MSE release; The Athletic article is paywalled and couldn't be read. MSE also holds the Wizards, Mystics and the arena."
+    },
+    {
+      "description": "Seattle Kraken: Melinda French Gates to become a minority investor in One Roof Sports & Entertainment (Kraken, Climate Pledge Arena ops), reported June 1, 2026; NHL approval pending. Source: https://komonews.com/news/local/melinda-french-gates-joining-kraken-ownership-fueling-nba-expansion-talk",
+      "whatWasMissing": "Stake %, amount and valuation are undisclosed; only one source was opened."
+    },
+    {
+      "description": "Athletics: Team61 (Chan Ho Park, Suga, Ken Jeong, Daniel Dae Kim) invested $70M ($55M committed, $15M more on MLB approval), announced ~July 27, 2026. Sources: https://www.espn.com/mlb/story/_/id/49460092/chan-ho-park-becomes-first-korean-buy-stake-mlb-club-joining-athletics-group and https://www.washingtontimes.com/news/2026/jul/27/chan-ho-park-becomes-1st-korean-buy-stake-mlb-club-joining-athletics/",
+      "whatWasMissing": "Valuation and stake %: not disclosed. The dollar amount is confirmed by 2 sources."
+    },
+    {
+      "description": "Athletics: Aramark Sports + Entertainment reportedly invested $100M (plus $75M in capex) in the A's.",
+      "whatWasMissing": "Seen only in a search-result summary; no article was opened. Date, structure (team equity vs stadium), stake and valuation are all unconfirmed."
+    },
+    {
+      "description": "Athletics: in March 2025, John Fisher offered new A's shares at a $2B valuation to raise ~$550M for the Las Vegas ballpark; MLB-vetted investors were reportedly willing to put in $200M+. Source: https://www.fieldofschemes.com/2025/03/19/22484/somebody-is-insisting-people-want-to-buy-minority-as-shares-at-top-value-to-fund-vegas-stadium-wonder-who/",
+      "whatWasMissing": "No specific closed 2025 transaction, buyer or stake was confirmed; this was an offering, not a named deal."
+    },
+    {
+      "description": "Cleveland Guardians: Travis Kelce became a minority owner in May 2026. Source: https://www.mlb.com/news/travis-kelce-joins-guardians-ownership-group (cited on Wikipedia; the page returned HTTP 406 to the fetcher).",
+      "whatWasMissing": "Stake %, amount, valuation and a second source."
+    },
+    {
+      "description": "Sweep gaps: no 2025-26 stake sale was found for the Mets, Cubs, Brewers, Dodgers, Orioles LPs or any Arctos/Blue Owl MLB fund stake (Arctos already held Cubs, Astros, Dodgers, Padres and Giants stakes before 2025). For the NHL, no 2025-26 deal was found for the Canadiens, Golden Knights, Blues, Sharks, Panthers or Wild. Checked via web search plus a scan of Wikipedia wikitext for all 30 MLB and 32 NHL teams.",
+      "whatWasMissing": "The session's shared WebSearch budget (200 calls) ran out partway through the sweep, so these teams got fewer targeted searches. A follow-up pass on Sportico and CNBC team-sales coverage is recommended."
+    }
+  ]
+}

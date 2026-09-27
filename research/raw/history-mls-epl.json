@@ -1,0 +1,373 @@
+[
+ {
+  "teamId": "atlanta-united-fc",
+  "formation": { "year": 2014, "price": 70000000, "founder": "Arthur Blank (AMB Group)", "notes": "MLS expansion awarded April 2014; began play 2017. Fee as listed in MLS expansion history.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "charlotte-fc",
+  "formation": { "year": 2019, "price": 325000000, "founder": "David Tepper (Tepper Sports & Entertainment)", "notes": "MLS expansion awarded December 2019; record fee at the time; began play 2022.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "chicago-fire-fc",
+  "formation": { "year": 1997, "price": 5000000, "founder": "Anschutz Entertainment Group (Philip Anschutz), league investor-operator", "notes": "Founded 8 Oct 1997 as MLS expansion club, began play 1998; $5M fee per MLS expansion history. AEG listed as the investor-operator.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2007, "price": 35000000, "buyer": "Andell Holdings (Andrew Hauptman)", "seller": "Anschutz Entertainment Group", "stakePct": 100, "notes": "Announced 6 Sep 2007; price reported as 'upwards of $35 million'.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Chicago_Fire_FC"] },
+   { "year": 2019, "price": null, "buyer": "Joe Mansueto", "seller": "Andrew Hauptman / Andell Holdings", "stakePct": 51, "notes": "Mansueto bought 49% in July 2018 (minority), then Hauptman's remaining 51% on 13 Sep 2019 to become sole owner. Price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chicago_Fire_FC"] }
+  ]
+ },
+ {
+  "teamId": "fc-cincinnati",
+  "formation": { "year": 2018, "price": 150000000, "founder": "Carl H. Lindner III and ownership group", "notes": "MLS expansion awarded May 2018; began MLS play 2019.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "columbus-crew-sc",
+  "formation": { "year": 1994, "price": null, "founder": "Lamar Hunt (Hunt Sports Group)", "notes": "MLS charter club (franchise established 1994, began play 1996); Hunt was the founding investor-operator. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2006, "price": null, "buyer": "Hunt family / Hunt Sports Group (Clark Hunt)", "seller": "Lamar Hunt (died 14 Dec 2006)", "stakePct": 100, "notes": "inheritance", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Columbus_Crew"] },
+   { "year": 2013, "price": null, "buyer": "Precourt Sports Ventures (Anthony Precourt)", "seller": "Hunt Sports Group", "stakePct": 100, "notes": "30 Jul 2013; Precourt became the club's second investor-operator. Price not given in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Columbus_Crew"] },
+   { "year": 2019, "price": null, "buyer": "Haslam Sports Group (Jimmy & Dee Haslam) and Dr. Pete Edwards", "seller": "Precourt Sports Ventures", "stakePct": 100, "notes": "Sale announced 28 Dec 2018, control transferred 1 Jan 2019 ('Save the Crew'); Precourt received Austin expansion rights. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Columbus_Crew"] }
+  ]
+ },
+ {
+  "teamId": "d-c-united",
+  "formation": { "year": 1995, "price": null, "founder": "Washington Soccer L.P. (primary financial backer George Soros)", "notes": "MLS charter club, began play 1996. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2001, "price": null, "buyer": "Anschutz Entertainment Group", "seller": "Washington Soccer L.P.", "stakePct": 100, "notes": "AEG acquired the team 15 Feb 2001, sole operator by 8 Jan 2002. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/D.C._United"] },
+   { "year": 2007, "price": 33000000, "buyer": "D.C. United Holdings (Victor MacFarlane, William Chang et al.)", "seller": "Anschutz Entertainment Group", "stakePct": 100, "notes": "Operating rights transferred 8 Jan 2007; record fee for MLS operating rights at the time.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/D.C._United_Holdings"] },
+   { "year": 2009, "price": null, "buyer": "William Chang", "seller": "Victor MacFarlane (and minority holders Brian Davis, Christian Laettner)", "stakePct": 100, "notes": "May 2009 Chang bought MacFarlane's stake (to 98%), then the remaining 2% by Oct 2009.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/D.C._United_Holdings"] },
+   { "year": 2012, "price": null, "buyer": "Erick Thohir and Jason Levien", "seller": "William Chang (retained minority)", "stakePct": null, "notes": "July 2012; Thohir/Levien acquired control with Chang remaining a minority partner. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/D.C._United_Holdings", "https://en.wikipedia.org/wiki/D.C._United"] },
+   { "year": 2018, "price": null, "buyer": "Jason Levien (with Steven Kaplan)", "seller": "Erick Thohir", "stakePct": null, "notes": "August 2018 Levien bought Thohir's majority stake (Thohir had bought Chang's 35% in Oct 2016). Price/valuation not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/D.C._United", "https://www.dcunited.com/news/dc-united-announce-consolidation-ownership"] }
+  ]
+ },
+ {
+  "teamId": "inter-miami-cf",
+  "formation": { "year": 2018, "price": 25000000, "founder": "Miami Beckham United (David Beckham, Simon Fuller, Marcelo Claure, Masayoshi Son, Jorge & José Mas)", "notes": "$25M option price was written into Beckham's 2007 LA Galaxy contract; option exercised 5 Feb 2014; MLS formally awarded the club 29 Jan 2018; began play 2020.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2021, "price": null, "buyer": "Jorge Mas and José Mas", "seller": "Marcelo Claure and Masayoshi Son", "stakePct": null, "notes": "Mas brothers bought out Claure and Son to take majority ownership (Beckham had bought out Fuller in May 2019). Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Inter_Miami_CF"] }
+  ]
+ },
+ {
+  "teamId": "cf-montreal",
+  "formation": { "year": 2010, "price": 40000000, "founder": "Joey Saputo", "notes": "MLS expansion awarded 2010 (as Montreal Impact); began MLS play 2012.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "nashville-sc",
+  "formation": { "year": 2017, "price": 150000000, "founder": "John R. Ingram-led ownership group", "notes": "MLS expansion awarded December 2017; began play 2020.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "new-england-revolution",
+  "formation": { "year": 1995, "price": null, "founder": "Robert Kraft (Kraft Group)", "notes": "Kraft became founding investor-operator 6 Jun 1995; MLS charter club, began play 1996. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "new-york-city-fc",
+  "formation": { "year": 2013, "price": 100000000, "founder": "City Football Group (Manchester City owners) and New York Yankees", "notes": "MLS expansion awarded May 2013; began play 2015.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "new-york-red-bulls",
+  "formation": { "year": 1994, "price": null, "founder": "John Kluge and Stuart Subotnick (Metromedia) - NY/NJ MetroStars", "notes": "Established October 1994 as MLS charter club, began play 1996. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2006, "price": null, "buyer": "Red Bull GmbH", "seller": "Anschutz Entertainment Group (investor-operator at the time)", "stakePct": 100, "notes": "Announced 9 Mar 2006; club rebranded New York Red Bulls. Intermediate transfer from Metromedia to AEG (early 2000s) not dated in sources reviewed. Price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/New_York_Red_Bulls", "https://en.wikipedia.org/wiki/Anschutz_Entertainment_Group"] }
+  ]
+ },
+ {
+  "teamId": "orlando-city-sc",
+  "formation": { "year": 2013, "price": 70000000, "founder": "Flávio Augusto da Silva (majority) with Phil Rawlins", "notes": "MLS expansion awarded November 2013; began play 2015.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2021, "price": null, "buyer": "Wilf family (Zygi, Mark and Leonard Wilf)", "seller": "Flávio Augusto da Silva", "stakePct": null, "notes": "Announced 12 May 2021, completed 21 Jul 2021; included Orlando Pride (NWSL), stadium and related assets. Combined value estimated at $400-450M (range only; no single figure).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Orlando_City_SC"] }
+  ]
+ },
+ {
+  "teamId": "philadelphia-union",
+  "formation": { "year": 2008, "price": 30000000, "founder": "Keystone Sports & Entertainment (Jay Sugarman, managing partner)", "notes": "Awarded 28 Feb 2008; began play 2010.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "toronto-fc",
+  "formation": { "year": 2005, "price": 10000000, "founder": "Maple Leaf Sports & Entertainment (MLSE)", "notes": "US$10M expansion fee; began play 2007. Ownership changes below are at the MLSE parent level (Leafs, Raptors, Argonauts etc.), so no club-level price exists.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2012, "price": null, "buyer": "Rogers Communications and BCE (Bell) joint venture", "seller": "Ontario Teachers' Pension Plan", "stakePct": null, "notes": "Parent-level: OTPP sold its majority of MLSE to Rogers/BCE. Parent price not captured here; no Toronto FC-specific price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"] },
+   { "year": 2025, "price": null, "buyer": "Rogers Communications (to 75% of MLSE)", "seller": "BCE (Bell)", "stakePct": 37.5, "notes": "Parent-level: Rogers bought BCE's 37.5% for C$4.7B, valuing MLSE at C$12.5B and giving Rogers majority control; Kilmer Sports (Tanenbaum) holds the other 25%. No Toronto FC-specific price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"] }
+  ]
+ },
+ {
+  "teamId": "austin-fc",
+  "formation": { "year": 2019, "price": 150000000, "founder": "Anthony Precourt (Precourt Sports Ventures, renamed Two Oak Ventures)", "notes": "Officially announced 15 Jan 2019; began play 2021. The $150M fee is listed in MLS expansion histories. The club's own Wikipedia article gives no fee, so treat it as approximate.", "isEstimated": true },
+  "saleHistory": []
+ },
+ {
+  "teamId": "colorado-rapids",
+  "formation": { "year": 1995, "price": null, "founder": "Anschutz Corporation (Philip Anschutz)", "notes": "MLS charter club, began play 1996; Anschutz was investor-operator. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2003, "price": null, "buyer": "Kroenke Sports & Entertainment (Stan Kroenke)", "seller": "Philip Anschutz", "stakePct": 100, "notes": "Price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment"] }
+  ]
+ },
+ {
+  "teamId": "fc-dallas",
+  "formation": { "year": 1995, "price": null, "founder": "Major League Soccer (league-financed Dallas Burn; no outside investor-operator)", "notes": "MLS charter club, began play 1996. The Burn initially attracted no investors and was financed by the league.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2003, "price": null, "buyer": "Hunt Sports Group (Lamar Hunt)", "seller": "Major League Soccer", "stakePct": 100, "notes": "Operating rights acquired by Hunt Sports Group; renamed FC Dallas in 2005. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/FC_Dallas"] },
+   { "year": 2006, "price": null, "buyer": "Hunt family (Clark Hunt, Dan Hunt)", "seller": "Lamar Hunt (died 14 Dec 2006)", "stakePct": 100, "notes": "inheritance", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/FC_Dallas"] }
+  ]
+ },
+ {
+  "teamId": "houston-dynamo-fc",
+  "formation": { "year": 2005, "price": null, "founder": "Anschutz Entertainment Group", "notes": "Established 15 Dec 2005 when AEG moved the San Jose Earthquakes operation to Houston; began play 2006. No expansion fee (relocation).", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2015, "price": null, "buyer": "Gabriel Brener (Brener International Group)", "seller": "Anschutz Entertainment Group", "stakePct": 50, "notes": "Brener and Oscar De La Hoya each bought 25% in Feb 2008 while AEG kept 50%. After the 2015 season Brener bought out AEG's remaining stake and became majority owner. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Houston_Dynamo_FC"] },
+   { "year": 2021, "price": null, "impliedValuation": 400000000, "buyer": "Ted Segal", "seller": "Gabriel Brener and partners", "stakePct": null, "notes": "Completed 22 Jun 2021. Majority stake in the Dynamo and NWSL Houston Dash; transaction reportedly valued at $400M.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Houston_Dynamo_FC", "https://www.mlssoccer.com/news/houston-dynamo-fc-announce-ted-segal-as-new-majority-owner"] }
+  ]
+ },
+ {
+  "teamId": "la-galaxy",
+  "formation": { "year": 1994, "price": null, "founder": "MLS charter club; current owner Anschutz Entertainment Group", "notes": "Founded 1994, began play 1996. The original 1995-96 investor-operator, and the date and price of AEG's takeover, could not be verified in this pass, so no sale entries are recorded.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "los-angeles-fc",
+  "formation": { "year": 2014, "price": 110000000, "founder": "Consortium led by Henry Nguyen and Peter Guber (with Magic Johnson, Mia Hamm and others); later managed by Bennett Rosenthal, Larry Berg and Brandon Beck", "notes": "Awarded Oct 2014; began play 2018.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "minnesota-united-fc",
+  "formation": { "year": 2015, "price": 100000000, "founder": "Bill McGuire (with Pohlad family, Glen Taylor, Wendy Carlson Nelson)", "notes": "MLS expansion awarded 2015; began play 2017.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "portland-timbers",
+  "formation": { "year": 2009, "price": 35000000, "founder": "Merritt Paulson (Peregrine Sports)", "notes": "Announced 20 Mar 2009; began MLS play 2011.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "real-salt-lake",
+  "formation": { "year": 2004, "price": 7500000, "founder": "Dave Checketts (SCP Worldwide)", "notes": "Founded 14 Jul 2004; began play 2005.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2013, "price": null, "buyer": "Dell Loy Hansen", "seller": "Dave Checketts", "stakePct": null, "notes": "Minority owner Hansen took controlling interest. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Real_Salt_Lake"] },
+   { "year": 2022, "price": null, "buyer": "Ryan Smith (Smith Entertainment Group) and David Blitzer", "seller": "Dell Loy Hansen", "stakePct": null, "notes": "Acquired before the 2022 season after Hansen agreed in 2020 to sell. Price not given in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Real_Salt_Lake"] },
+   { "year": 2025, "price": 600000000, "buyer": "Miller Sports + Entertainment (Gail Miller family)", "seller": "Ryan Smith and David Blitzer (Blitzer retained minority)", "stakePct": null, "notes": "Announced 18 Apr 2025. Controlling interest in RSL, Utah Royals (NWSL) and America First Field for $600M, so the price covers more than the MLS club.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Real_Salt_Lake", "https://en.wikipedia.org/wiki/Miller_Sports_%2B_Entertainment"] }
+  ]
+ },
+ {
+  "teamId": "san-diego-fc",
+  "formation": { "year": 2023, "price": 500000000, "founder": "Mohamed Mansour and Sycuan Band of the Kumeyaay Nation", "notes": "Awarded 18 May 2023; record fee; began play 2025.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "san-jose-earthquakes",
+  "formation": { "year": 2007, "price": 20000000, "founder": "Lewis Wolff and John Fisher", "notes": "Formally awarded 18 Jul 2007; began play 2008. The club keeps the history of the 1996 San Jose Clash/Earthquakes charter club, which was league-owned and later operated by AEG before relocating to Houston in 2005. John Fisher put the club up for sale on 18 Jun 2025 (Moelis), but as of Sep 2026 no sale had been completed.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "seattle-sounders-fc",
+  "formation": { "year": 2007, "price": 30000000, "founder": "Joe Roth (majority), Adrian Hanauer, Paul Allen, Drew Carey", "notes": "Awarded 13 Nov 2007; began play 2009.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2015, "price": null, "buyer": "Adrian Hanauer", "seller": "Joe Roth", "stakePct": null, "notes": "November 2015 Hanauer became majority owner, succeeding Roth. Price not disclosed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Seattle_Sounders_FC"] }
+  ]
+ },
+ {
+  "teamId": "sporting-kansas-city",
+  "formation": { "year": 1995, "price": null, "founder": "Lamar Hunt", "notes": "MLS charter club (Kansas City Wiz/Wizards), began play 1996. Charter fee not documented.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2006, "price": null, "buyer": "OnGoal LLC (Cliff Illig, Neal Patterson and partners)", "seller": "Lamar Hunt / Hunt Sports Group", "stakePct": 100, "notes": "August 2006. Price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Sporting_Kansas_City"] },
+   { "year": 2026, "price": null, "impliedValuation": 700000000, "buyer": "Peter Mallouk", "seller": "Illig family", "stakePct": 71, "notes": "Deal finalized December 2025 and reported January 2026. Mallouk bought 71%, taking him to 80% at a reported $700M valuation, an MLS record for a majority stake. The Illig family keeps day-to-day control and the Board of Governors seat. The price paid for the 71% was not reported.", "isEstimated": true, "sources": ["https://www.espn.com/soccer/story/_/id/47663817/sporting-kc-majority-stake-sold-700m-valuation", "https://www.forbes.com/sites/justinbirnbaum/2026/01/16/sporting-kansas-city-is-being-sold-for-roughly-700-million-an-mls-record/", "https://www.kshb.com/sports/sporting-kc/local-ceo-kansas-city-native-peter-mallouk-becomes-new-sporting-kc-majority-owner"] }
+  ]
+ },
+ {
+  "teamId": "st-louis-city-sc",
+  "formation": { "year": 2019, "price": 200000000, "founder": "Carolyn Kindle Betz and the Taylor family (with Jim Kavanaugh)", "notes": "Awarded August 2019; began play 2023.", "isEstimated": false },
+  "saleHistory": []
+ },
+ {
+  "teamId": "vancouver-whitecaps-fc",
+  "formation": { "year": 2009, "price": 35000000, "founder": "Greg Kerfoot, Steve Luczo, Jeff Mallett, Steve Nash", "notes": "Awarded March 2009; began MLS play 2011. The owners began a sale process in Dec 2024 but later said they were seeking a partner instead. As of Sep 2026 the CEO said nothing had changed, so no control sale is recorded.", "isEstimated": false },
+  "saleHistory": []
+ },
+
+ {
+  "teamId": "manchester-united",
+  "formation": { "year": 1878, "price": null, "founder": "Newton Heath LYR F.C. (Lancashire & Yorkshire Railway workers)", "notes": "Renamed Manchester United in 1902.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1902, "price": null, "buyer": "John Henry Davies and three other local businessmen", "seller": "Newton Heath (facing a winding-up order)", "stakePct": null, "notes": "Rescue in which each of four businessmen invested GBP 500; club reborn as Manchester United on 24 Apr 1902. This was an investment, not a purchase price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Manchester_United_F.C."] },
+   { "year": 1931, "price": null, "buyer": "James W. Gibson", "seller": "n/a (rescue investment)", "stakePct": null, "notes": "December 1931 Gibson invested GBP 2,000 and took control to avert bankruptcy. This was an investment, not a purchase price. Later Edwards family control (Louis, then Martin Edwards) is not dated in sources reviewed. Floated on LSE 1991.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Manchester_United_F.C."] },
+   { "year": 2005, "price": 1460000000, "buyer": "Malcolm Glazer (Red Football)", "seller": "Manchester United plc public shareholders", "stakePct": 98, "notes": "Takeover at 300p/share: 75.7% on 16 May 2005 and 98% by 28 Jun 2005. Total almost GBP 790M, converted at ~1.85 USD/GBP (source says about $1.5B at the time). Largely debt-financed. INEOS's 2024 ~28-29% stake with football operations control is a minority stake and is not recorded as a control sale.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Glazer_ownership_of_Manchester_United"] }
+  ]
+ },
+ {
+  "teamId": "manchester-city",
+  "formation": { "year": 1880, "price": null, "founder": "St. Mark's (West Gorton) church team", "notes": "Became Ardwick AFC in 1887 and Manchester City in 1894.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2007, "price": 164000000, "buyer": "Thaksin Shinawatra (UK Sports Investments)", "seller": "Manchester City plc shareholders", "stakePct": 75, "notes": "Board accepted offer 21 Jun 2007; 75% (enough for full control) reached 6 Jul 2007. Deal GBP 81.6M, converted at ~2.01 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_Manchester_City_F.C._(2001%E2%80%93present)"] },
+   { "year": 2008, "price": 356000000, "buyer": "Abu Dhabi United Group (Sheikh Mansour bin Zayed Al Nahyan)", "seller": "Thaksin Shinawatra", "stakePct": 100, "notes": "Agreed 1 Sep 2008 and completed by 23 Sep 2008. Reported GBP 200M (GBP 210M is also widely cited), converted at ~1.78 USD/GBP. Later City Football Group minority sales (CMC 2015, Silver Lake 2019) are not control changes.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/2008%E2%80%9309_Manchester_City_F.C._season", "https://en.wikipedia.org/wiki/Abu_Dhabi_United_Group"] }
+  ]
+ },
+ {
+  "teamId": "liverpool",
+  "formation": { "year": 1892, "price": null, "founder": "John Houlding", "notes": "Founded after Everton left Anfield.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2007, "price": 429000000, "buyer": "George Gillett Jr. and Tom Hicks", "seller": "David Moores and other shareholders", "stakePct": 100, "notes": "February 2007 deal valuing the club and its outstanding debts at GBP 218.9M, converted at ~1.96 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_Liverpool_F.C._(1985%E2%80%93present)"] },
+   { "year": 2010, "price": 477000000, "buyer": "Fenway Sports Group (John W. Henry, Tom Werner)", "seller": "George Gillett Jr. and Tom Hicks (court-backed sale forced by creditors RBS)", "stakePct": 100, "notes": "Agreed 6 Oct 2010 and completed 15 Oct 2010 for GBP 300M, converted at ~1.59 USD/GBP. RedBird (2021) and Dynasty (2023) investments are minority. FSG's agreed sale of 38% to 1892 Holdings (14 Aug 2026) leaves FSG with 62% and control, so it is not recorded as a control sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Fenway_Sports_Group", "https://en.wikipedia.org/wiki/History_of_Liverpool_F.C._(1985%E2%80%93present)"] }
+  ]
+ },
+ {
+  "teamId": "arsenal",
+  "formation": { "year": 1886, "price": null, "founder": "Dial Square (Woolwich munitions workers led by David Danskin)", "notes": "Later Royal Arsenal and Woolwich Arsenal.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1910, "price": null, "buyer": "Henry Norris (with William Hall)", "seller": "n/a (financially troubled Woolwich Arsenal)", "stakePct": null, "notes": "Norris took over the club around 1910. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Arsenal_F.C."] },
+   { "year": 2011, "price": null, "impliedValuation": 1192000000, "buyer": "Stan Kroenke (Kroenke Sports & Entertainment)", "seller": "Danny Fiszman estate and Lady Nina Bracewell-Smith", "stakePct": null, "notes": "11 Apr 2011; KSE raised its holding to 62.89% (majority control) at GBP 11,750/share, valuing the club at GBP 731M, converted at ~1.63 USD/GBP. Total paid for the purchased stakes not stated in the source.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment"] },
+   { "year": 2018, "price": 710000000, "buyer": "Kroenke Sports & Entertainment", "seller": "Alisher Usmanov (Red & White Holdings)", "stakePct": 30, "notes": "August 2018. Usmanov accepted GBP 550M for his ~30%, converted at ~1.29 USD/GBP; KSE moved above 90% and then to full ownership. This consolidated control Kroenke already held.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Alisher_Usmanov", "https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment"] }
+  ]
+ },
+ {
+  "teamId": "chelsea",
+  "formation": { "year": 1905, "price": null, "founder": "Gus Mears", "notes": "Founded 10 Mar 1905; Mears family controlled the club until 1982.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1982, "price": 2, "buyer": "Ken Bates", "seller": "Brian Mears / Mears family", "stakePct": null, "notes": "Nominal GBP 1 (about US$2 at ~1.78 USD/GBP); Bates took on the club's debts.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chelsea_F.C."] },
+   { "year": 2003, "price": 227000000, "buyer": "Roman Abramovich", "seller": "Ken Bates and Chelsea Village plc shareholders", "stakePct": 100, "notes": "July 2003. GBP 60M for the shares plus responsibility for GBP 80M of debt, GBP 140M in total, converted at ~1.62 USD/GBP. The equity alone was ~$97M.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chelsea_F.C."] },
+   { "year": 2022, "price": 5310000000, "buyer": "BlueCo 22 Ltd (Clearlake Capital majority; Todd Boehly, Mark Walter, Hansjörg Wyss)", "seller": "Roman Abramovich (UK-sanctions-mandated sale)", "stakePct": 100, "notes": "Completed 30 May 2022. Headline GBP 4.25B, converted at ~1.25 USD/GBP. The headline includes committed future investment on top of the share purchase price. Abramovich wrote off GBP 1.5B of loans before the sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/BlueCo", "https://en.wikipedia.org/wiki/Chelsea_F.C."] },
+   { "year": 2026, "price": null, "buyer": "Clearlake Capital", "seller": "Todd Boehly and Mark Walter", "stakePct": null, "notes": "Announced 16 Sep 2026: Clearlake acquired Boehly's and Walter's interests and 'full control' (Wyss remains a stakeholder). Clearlake was already BlueCo's majority shareholder, so this consolidates control rather than changing it. Price not disclosed. Single-source (Wikipedia citing the club announcement); verify.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/BlueCo"] }
+  ]
+ },
+ {
+  "teamId": "tottenham-hotspur",
+  "formation": { "year": 1882, "price": null, "founder": "Hotspur F.C. (schoolboys of the Hotspur Cricket Club)", "notes": "Became a limited company in 1898.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1982, "price": null, "buyer": "Irving Scholar (with Paul Bobroff)", "seller": "Previous board/shareholders", "stakePct": null, "notes": "Scholar took over in the early 1980s. The year is not stated in the source reviewed, so treat it as approximate. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."] },
+   { "year": 1991, "price": null, "buyer": "Alan Sugar and Terry Venables", "seller": "Tottenham Hotspur plc (Scholar era)", "stakePct": null, "notes": "June 1991, after a takeover battle with Robert Maxwell. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.", "https://en.wikipedia.org/wiki/Alan_Sugar"] },
+   { "year": 2001, "price": 32000000, "buyer": "ENIC Sports plc (Joe Lewis, Daniel Levy)", "seller": "Alan Sugar", "stakePct": 27, "notes": "February 2001: controlling 27% for GBP 22M, converted at ~1.46 USD/GBP. ENIC bought Sugar's remaining 12% in Jun 2007 for GBP 25M and reached ~85-87%. Later Lewis Family Trust restructuring and 2025-26 cash injections are not sales of control.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Alan_Sugar", "https://en.wikipedia.org/wiki/ENIC_Group"] }
+  ]
+ },
+ {
+  "teamId": "newcastle-united",
+  "formation": { "year": 1892, "price": null, "founder": "Merger of Newcastle East End and Newcastle West End", "notes": "Incorporated as a limited company 6 Sep 1895.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1991, "price": 5300000, "buyer": "John Hall", "seller": "Previous shareholders", "stakePct": 79.2, "notes": "GBP 3M for 79.2% per Wikipedia, converted at ~1.77 USD/GBP. The takeover battle ran 1990-92, so the year is approximate.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Newcastle_United_F.C."] },
+   { "year": 2007, "price": 110000000, "buyer": "Mike Ashley (St James Holdings)", "seller": "Sir John Hall and Douglas Hall (plus Freddy Shepherd and public shareholders via the offer)", "stakePct": 41.6, "notes": "7 Jun 2007: Hall family's 41.6% for GBP 55.34M, converted at ~1.99 USD/GBP. Ashley went to 95%+ by 11 Jul 2007 and then 100%. Total paid for 100% is widely reported at about GBP 134M, but sources are inconsistent.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Mike_Ashley_(businessman)", "https://en.wikipedia.org/wiki/Newcastle_United_F.C."] },
+   { "year": 2021, "price": 415000000, "buyer": "Public Investment Fund (80-85%), RB Sports & Media, PCP Capital Partners", "seller": "Mike Ashley", "stakePct": 100, "notes": "Completed 7 Oct 2021. Reported GBP 305M (GBP 300M in some sources), converted at ~1.36 USD/GBP. PCP (Staveley) exited in 2024, leaving PIF 85% and RB 15%.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Newcastle_United_F.C.", "https://en.wikipedia.org/wiki/Mike_Ashley_(businessman)"] }
+  ]
+ },
+ {
+  "teamId": "aston-villa",
+  "formation": { "year": 1874, "price": null, "founder": "Members of the Villa Cross Wesleyan Chapel, Handsworth", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1968, "price": null, "buyer": "Doug Ellis", "seller": "Previous board/shareholders", "stakePct": null, "notes": "December 1968. Ellis was later chairman and majority shareholder (~38%). Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Aston_Villa_F.C."] },
+   { "year": 2006, "price": 117000000, "buyer": "Randy Lerner", "seller": "Doug Ellis and other shareholders", "stakePct": 100, "notes": "August-September 2006 for GBP 62.6M, converted at ~1.87 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Randy_Lerner", "https://en.wikipedia.org/wiki/Aston_Villa_F.C."] },
+   { "year": 2016, "price": 109000000, "buyer": "Tony Xia (Recon Group)", "seller": "Randy Lerner", "stakePct": 100, "notes": "June 2016 for GBP 76M, converted at ~1.44 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Aston_Villa_F.C."] },
+   { "year": 2018, "price": null, "buyer": "NSWE (Nassef Sawiris, Wes Edens), later V Sports", "seller": "Tony Xia (Recon Group)", "stakePct": 55, "notes": "20 Jul 2018: controlling 55% investment, and Xia was later bought out. Price not disclosed. Atairos's 2024 stake is minority.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Aston_Villa_F.C."] }
+  ]
+ },
+ {
+  "teamId": "brighton-and-hove-albion",
+  "formation": { "year": 1901, "price": null, "founder": "Brighton & Hove Albion F.C. (founded 1901)", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1997, "price": null, "buyer": "Dick Knight", "seller": "Bill Archer and board", "stakePct": null, "notes": "Knight took control after fan pressure removed the Archer/Bellotti board. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."] },
+   { "year": 2009, "price": null, "buyer": "Tony Bloom", "seller": "Dick Knight and shareholders", "stakePct": 75, "notes": "May 2009: Bloom became chairman with a 75% shareholding and secured GBP 93M funding for the Falmer stadium. This was an investment, not a share purchase price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."] }
+  ]
+ },
+ {
+  "teamId": "west-ham-united",
+  "formation": { "year": 1895, "price": null, "founder": "Thames Ironworks F.C. (Arnold Hills and Dave Taylor)", "notes": "Re-formed as West Ham United in 1900.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2006, "price": 163000000, "buyer": "Icelandic consortium (Eggert Magnússon; Björgólfur Guðmundsson majority)", "seller": "Terence Brown and West Ham United plc shareholders", "stakePct": 100, "notes": "November 2006 for GBP 85M, converted at ~1.92 USD/GBP. The source does not say whether debt is included.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Eggert_Magn%C3%BAsson"] },
+   { "year": 2009, "price": null, "buyer": "CB Holding (creditor-led vehicle)", "seller": "Björgólfur Guðmundsson (Hansa)", "stakePct": null, "notes": "Creditors took control after the Icelandic banking collapse. No purchase price. Date approximate.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/David_Sullivan_(businessman)"] },
+   { "year": 2010, "price": null, "impliedValuation": 170000000, "buyer": "David Sullivan and David Gold", "seller": "CB Holding", "stakePct": 50, "notes": "January 2010: 50% with operational and commercial control, valuing the club at GBP 105M, converted at ~1.62 USD/GBP. Combined stake rose to 60% in May 2010. Kretinsky bought ~27% in 2021 (minority).", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/David_Sullivan_(businessman)"] },
+   { "year": 2026, "price": null, "buyer": "Daniel Kretinsky (1890s Holdings) - becomes largest shareholder", "seller": "Gold family (Vanessa Gold's ~25.1%, shared among existing holders under pre-emption rights)", "stakePct": 19, "notes": "Reported 4 Sep 2026: Kretinsky 27% to 46%, Sullivan ~40%, Tripp Smith ~11%. This changes the largest shareholder but no one holds a majority, so it may not count as a sale of a controlling interest. Price not disclosed. Amanda Staveley's ~GBP 150M bid for the Gold stake was blocked.", "isEstimated": false, "sources": ["https://www.insideworldfootball.com/2026/09/04/daniel-kretinsky-ups-west-ham-united-shareholding-to-46", "https://www.bloomberg.com/news/articles/2026-09-04/west-ham-takeover-saga-sees-sullivan-and-kretinsky-raise-stakes"] }
+  ]
+ },
+ {
+  "teamId": "crystal-palace",
+  "formation": { "year": 1905, "price": null, "founder": "The Crystal Palace Company", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1949, "price": null, "buyer": "Consortium incl. Arthur Wait", "seller": "The Crystal Palace Company", "stakePct": null, "notes": "Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Crystal_Palace_F.C."] },
+   { "year": 1981, "price": null, "buyer": "Ron Noades", "seller": "Previous owners", "stakePct": null, "notes": "26 Jan 1981. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Crystal_Palace_F.C."] },
+   { "year": 1998, "price": null, "buyer": "Mark Goldberg", "seller": "Ron Noades", "stakePct": null, "notes": "5 Jun 1998; Noades kept Selhurst Park. The club entered administration in March 1999. Price not documented in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Crystal_Palace_F.C."] },
+   { "year": 2000, "price": null, "buyer": "Simon Jordan (CPFC 2000)", "seller": "Administrators", "stakePct": null, "notes": "Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Crystal_Palace_F.C."] },
+   { "year": 2010, "price": null, "buyer": "CPFC 2010 (Steve Parish, Martin Long, Stephen Browett, Jeremy Hosking; 25% each)", "seller": "Administrators", "stakePct": 100, "notes": "June 2010. Selhurst Park bought back from Lloyds. Later deals are not control sales: Harris/Blitzer 2015 (GBP 50M), Textor 40% 2021 (GBP 87.5M) and Woody Johnson's ~43% from Textor (Jul 2025, ~GBP 190M) are all non-majority, and Parish retains day-to-day control.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Crystal_Palace_F.C.", "https://www.espn.com/soccer/story/_/id/45813769/jets-owner-johnson-completes-purchase-stake-crystal-palace"] }
+  ]
+ },
+ {
+  "teamId": "everton",
+  "formation": { "year": 1878, "price": null, "founder": "St Domingo's F.C. (St Domingo Methodist New Connexion Chapel)", "notes": "Renamed Everton in 1879.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1994, "price": null, "buyer": "Peter Johnson", "seller": "Moores family", "stakePct": null, "notes": "Bid accepted over Kenwright's rival consortium. Price not documented in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Kenwright"] },
+   { "year": 1999, "price": 32000000, "buyer": "Bill Kenwright consortium (True Blue Holdings, formed Jan 2000)", "seller": "Peter Johnson", "stakePct": 68, "notes": "GBP 20M for 68%, converted at ~1.61 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Kenwright"] },
+   { "year": 2016, "price": null, "buyer": "Farhad Moshiri", "seller": "Kenwright group / existing shareholders", "stakePct": 49.9, "notes": "Confirmed 27 Feb 2016 as largest shareholder (de facto control); raised to 68.6% (Jan 2022) and then ~94.1%. Price not stated in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Farhad_Moshiri", "https://en.wikipedia.org/wiki/Everton_F.C."] },
+   { "year": 2024, "price": null, "buyer": "The Friedkin Group (Dan Friedkin)", "seller": "Farhad Moshiri", "stakePct": 94.1, "notes": "Agreed September 2024 and completed 19 Dec 2024 (holding ~99.5%). Followed 777 Partners' collapsed bid. Headline price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/The_Friedkin_Group", "https://www.premierleague.com/en/news/4199784", "https://www.skysports.com/football/news/11095/13275439/everton-takeover-the-friedkin-group-complete-deal-to-become-clubs-new-owners"] }
+  ]
+ },
+ {
+  "teamId": "fulham",
+  "formation": { "year": 1879, "price": null, "founder": "Fulham St Andrew's Church Sunday School F.C.", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1997, "price": 11000000, "buyer": "Mohamed Al-Fayed", "seller": "Muddyman Group (Bill Muddyman) and shareholders", "stakePct": 100, "notes": "Summer 1997 for GBP 6.75M per Wikipedia (GBP 6.25M also cited), converted at ~1.63 USD/GBP.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Fulham_F.C."] },
+   { "year": 2013, "price": null, "buyer": "Shahid Khan", "seller": "Mohamed Al-Fayed", "stakePct": 100, "notes": "Finalized 12 Jul 2013. Price undisclosed; estimates range from GBP 150-200M (~$228-304M at ~1.52 USD/GBP), so no single figure is recorded.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Shahid_Khan"] }
+  ]
+ },
+ {
+  "teamId": "wolverhampton-wanderers",
+  "formation": { "year": 1877, "price": null, "founder": "St Luke's F.C. (Blakenhall school team)", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 1990, "price": null, "buyer": "Sir Jack Hayward", "seller": "Previous owners", "stakePct": 100, "notes": "Price not stated in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C."] },
+   { "year": 2007, "price": null, "buyer": "Steve Morgan (Bridgemere)", "seller": "Sir Jack Hayward", "stakePct": 100, "notes": "Widely reported as a nominal GBP 10 plus a commitment to invest GBP 30M, but that figure was not confirmed in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C."] },
+   { "year": 2016, "price": 59000000, "buyer": "Fosun International", "seller": "Steve Morgan / Bridgemere Group", "stakePct": 100, "notes": "21 Jul 2016. Parent W.W. (1990) Ltd for a reported GBP 45M, converted at ~1.31 USD/GBP. As of Sep 2026 Fosun still owns the club after the 2026 relegation, with no completed sale.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.", "https://www.skysports.com/football/news/11699/10508468/wolves-confirm-takeover-by-chinese-group-fosun-international"] }
+  ]
+ },
+ {
+  "teamId": "afc-bournemouth",
+  "formation": { "year": 1899, "price": null, "founder": "Boscombe F.C. (first president J. C. Nutt)", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2009, "price": null, "buyer": "Consortium incl. Eddie Mitchell, Adam Murray, Jeff Mostyn, Steve Sly, Neill Blake", "seller": "Previous owners", "stakePct": null, "notes": "June 2009. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/AFC_Bournemouth"] },
+   { "year": 2011, "price": null, "buyer": "Maxim Demin", "seller": "Eddie Mitchell consortium", "stakePct": null, "notes": "Demin's ownership began in 2011 and he later became sole owner. The staging and price are not documented in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/AFC_Bournemouth"] },
+   { "year": 2022, "price": 122000000, "buyer": "Black Knight Football Club (Bill Foley, Cannae Holdings; minority incl. Michael B. Jordan)", "seller": "Maxim Demin", "stakePct": 100, "notes": "Completed 13 Dec 2022 for 'over GBP 100M', converted at ~1.22 USD/GBP.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Black_Knight_Football_Club", "https://en.wikipedia.org/wiki/AFC_Bournemouth"] }
+  ]
+ },
+ {
+  "teamId": "brentford",
+  "formation": { "year": 1889, "price": null, "founder": "Members of Brentford Rowing Club", "notes": "Founded 10 Oct 1889.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2006, "price": null, "buyer": "Bees United (supporters' trust)", "seller": "Ron Noades era owners", "stakePct": null, "notes": "The fan trust took control after Noades left. Timing approximate (2002-2006) and price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brentford_F.C."] },
+   { "year": 2012, "price": null, "buyer": "Matthew Benham", "seller": "Bees United", "stakePct": 100, "notes": "June 2012 under the 2009 'Gecko' option deal (GBP 1M/year for 35% plus an option to full ownership). Minority investments, such as Matthew Vaughn's additional GBP 40M in Feb 2026, are not control changes.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Brentford_F.C."] }
+  ]
+ },
+ {
+  "teamId": "nottingham-forest",
+  "formation": { "year": 1865, "price": null, "founder": "Shinty players meeting at the Clinton Arms, Nottingham", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2012, "price": null, "buyer": "Al-Hasawi family (Fawaz Al-Hasawi 75%)", "seller": "Estate of Nigel Doughty", "stakePct": 100, "notes": "July 2012 following Doughty's death in Feb 2012. Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."] },
+   { "year": 2017, "price": null, "buyer": "Evangelos Marinakis (NF Football Investments)", "seller": "Fawaz Al-Hasawi", "stakePct": null, "notes": "Completed 18 May 2017. Price not disclosed in sources reviewed. Placing Marinakis's shares in a blind trust in April 2025 (UEFA multi-club rules) was not a sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.", "https://www.skysports.com/football/news/11727/13358618/nottingham-forest-evangelos-marinakis-withdraws-control-of-club-but-will-remain-as-owner"] }
+  ]
+ },
+ {
+  "teamId": "ipswich-town",
+  "formation": { "year": 1878, "price": null, "founder": "Ipswich Association F.C.", "notes": "Cobbold family were long-time owners.", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2007, "price": 88000000, "buyer": "Marcus Evans", "seller": "Previous shareholders", "stakePct": 87.5, "notes": "December 2007: ~GBP 44M including purchase of GBP 32M existing debt, converted at ~2.01 USD/GBP.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Ipswich_Town_F.C."] },
+   { "year": 2021, "price": null, "buyer": "Gamechanger 20 Ltd (ORG Portfolio Management and Three Lions Fund)", "seller": "Marcus Evans (retained minority)", "stakePct": null, "notes": "7 Apr 2021 majority stake. Price not disclosed in sources reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ipswich_Town_F.C."] }
+  ]
+ },
+ {
+  "teamId": "leicester-city",
+  "formation": { "year": 1884, "price": null, "founder": "Leicester Fosse F.C. (former Wyggeston School pupils)", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2002, "price": null, "buyer": "Gary Lineker-led consortium", "seller": "Administrators", "stakePct": null, "notes": "Rescue from administration (GBP 30M debts). Price not documented.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Leicester_City_F.C."] },
+   { "year": 2007, "price": 12000000, "buyer": "Milan Mandarić", "seller": "Lineker consortium shareholders", "stakePct": 100, "notes": "About GBP 6M, converted at ~1.96 USD/GBP.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Leicester_City_F.C."] },
+   { "year": 2010, "price": null, "buyer": "Asian Football Investments (Vichai Srivaddhanaprabha / King Power)", "seller": "Milan Mandarić (retained stake in AFI)", "stakePct": null, "notes": "Price not disclosed in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Leicester_City_F.C."] },
+   { "year": 2018, "price": null, "buyer": "Aiyawatt Srivaddhanaprabha / Srivaddhanaprabha family", "seller": "Vichai Srivaddhanaprabha (died 27 Oct 2018)", "stakePct": 100, "notes": "inheritance", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Leicester_City_F.C."] }
+  ]
+ },
+ {
+  "teamId": "southampton",
+  "formation": { "year": 1885, "price": null, "founder": "St. Mary's Young Men's Association", "notes": "", "isEstimated": false },
+  "saleHistory": [
+   { "year": 2009, "price": null, "buyer": "Markus Liebherr", "seller": "Administrators", "stakePct": 100, "notes": "June 2009. Price not stated in the source reviewed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Southampton_F.C."] },
+   { "year": 2010, "price": null, "buyer": "Katharina Liebherr", "seller": "Markus Liebherr (died Aug 2010)", "stakePct": 100, "notes": "inheritance", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Southampton_F.C."] },
+   { "year": 2017, "price": 271000000, "buyer": "Gao Jisheng (Lander Sports)", "seller": "Katharina Liebherr", "stakePct": 80, "notes": "August 2017: 80% for ~GBP 210M, converted at ~1.29 USD/GBP.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Southampton_F.C."] },
+   { "year": 2022, "price": 135000000, "buyer": "Sport Republic (Dragan Šolak, Henrik Kraft, Rasmus Ankersen)", "seller": "Gao Jisheng", "stakePct": 80, "notes": "4 Jan 2022: 80% for GBP 100M, converted at ~1.35 USD/GBP.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Southampton_F.C.", "https://www.skysports.com/football/news/11700/12509028/southampton-takeover-club-confirm-serbian-born-businessman-dragan-solak-has-completed-lb100m-deal"] }
+  ]
+ }
+]

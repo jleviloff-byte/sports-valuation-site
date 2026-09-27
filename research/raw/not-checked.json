@@ -1,0 +1,26 @@
+{
+  "NFL": {
+    "teams": ["Cincinnati Bengals", "Baltimore Ravens", "Indianapolis Colts", "Kansas City Chiefs", "Dallas Cowboys", "Detroit Lions", "Los Angeles Rams", "Green Bay Packers"],
+    "why": "Web-search budget ran out mid-sweep; these teams were not searched individually for 2025-26 LP or PE stake sales."
+  },
+  "NBA": {
+    "teams": ["Memphis Grizzlies", "Charlotte Hornets", "Miami Heat", "New York Knicks", "Los Angeles Clippers", "Utah Jazz", "Orlando Magic", "Phoenix Suns", "San Antonio Spurs", "New Orleans Pelicans", "Atlanta Hawks", "Sacramento Kings"],
+    "why": "Only league owner releases and Wikipedia were checked after the search budget ran out. Minority and PE stakes (Arctos, Dyal, Blue Owl) often get no league announcement."
+  },
+  "MLB": {
+    "teams": ["New York Mets", "Chicago Cubs", "Milwaukee Brewers", "Los Angeles Dodgers"],
+    "why": "Fewer targeted searches after the search cap; nothing found, but coverage was thin."
+  },
+  "NHL": {
+    "teams": [],
+    "why": "Swept, but minority stakes after the search cap were checked through Wikipedia only. The Lightning 2024 control sale has no published valuation."
+  },
+  "MLS": {
+    "teams": ["Chicago Fire FC", "Seattle Sounders FC", "Houston Dynamo FC", "Los Angeles FC", "Inter Miami CF"],
+    "why": "Checked through Wikipedia and Inside World Football only after the search cap; 2025-26 minority stakes may be missed."
+  },
+  "EPL": {
+    "teams": ["Aston Villa"],
+    "why": "The Atairos stake is reported only in paywalled FT and Bloomberg articles; other clubs were checked through Wikipedia and Inside World Football after the search cap."
+  }
+}

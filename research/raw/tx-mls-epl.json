@@ -1,0 +1,410 @@
+{
+  "transactions": [
+    {
+      "teamId": "sporting-kansas-city",
+      "type": "control",
+      "dateAnnounced": "2026-01-20",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 700000000,
+      "stakePct": 71,
+      "buyer": "Peter Mallouk (Creative Planning CEO; existing minority owner since 2022)",
+      "seller": "Illig family (Sporting Club)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/",
+        "https://www.insideworldfootball.com/2026/01/20/peter-mallouk-takes-control-sporting-kansas-city-sign-times-mls/",
+        "https://africa.espn.com/football/story/_/id/47663817/sporting-kc-majority-stake-sold-700m-valuation"
+      ],
+      "isEstimated": false,
+      "notes": "Mallouk bought ~71% from the Illig family, taking him to ~80%; $700M is the reported enterprise value (Forbes/KC Star), called the highest price ever for an MLS majority stake. IWF says the deal was finalized in December 2025 and made public in mid-January 2026 (KC Star reported it ~Jan 16-17). The Illig family (below 10%) keeps day-to-day operations and the MLS board seat, so Mallouk has majority economics but not operating control."
+    },
+    {
+      "teamId": "real-salt-lake",
+      "type": "control",
+      "dateAnnounced": "2025-04-18",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 600000000,
+      "stakePct": null,
+      "buyer": "Larry H. Miller family / Miller Sports + Entertainment (Gail Miller)",
+      "seller": "David Blitzer and Ryan Smith (Smith Entertainment Group)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million",
+        "https://www.sltrib.com/sports/rsl/2025/04/18/larry-h-miller-family-buys-real/",
+        "https://www.sportico.com/business/team-sales/2025/gail-miller-buy-rsl-utah-royals-david-blitzer-1234848983/"
+      ],
+      "isEstimated": false,
+      "notes": "$600M covers the whole of Real Salt Lake Holdings: RSL plus the NWSL's Utah Royals, Real Monarchs (MLS Next Pro), the academy, America First Field, Zions Bank Stadium and the training center. The exact controlling % was not disclosed (stakePct null). Blitzer stays on as a minority investor and Smith sold out. Blitzer/Smith had bought the club for about $400M in January 2022."
+    },
+    {
+      "teamId": "columbus-crew-sc",
+      "type": "minority",
+      "dateAnnounced": "2025-07-01",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 900000000,
+      "stakePct": 10,
+      "buyer": "Edwards family (existing co-owner)",
+      "seller": "Haslam Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report",
+        "https://www.crainscleveland.com/sports-recreation/haslam-sports-group-sells-stake-columbus-crew/",
+        "https://www.wkyc.com/article/sports/nfl/browns/columbus-crew-owners-sell-10-percent-of-team-at-900m-valuation/530-c1e8063d-ccea-4341-a02e-3dedb4d18064"
+      ],
+      "isEstimated": false,
+      "notes": "A sale between existing partners, first reported by Sportico: the Edwards family went from 20% to 30% and Haslam Sports Group from 80% to 70%. Earlier in 2025 Sportico had valued the Crew at $730M."
+    },
+    {
+      "teamId": "columbus-crew-sc",
+      "type": "minority",
+      "dateAnnounced": "2026-05-29",
+      "dateApproved": "2026-06-25",
+      "status": "closed",
+      "valuation": 900000000,
+      "stakePct": 37,
+      "buyer": "Nationwide Mutual Insurance",
+      "seller": "Haslam Sports Group (30%) and Edwards family (7%)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2026/mls-columbus-crew-nationwide-stake-sale-1234901712/",
+        "https://fieldlevelmedia.com/mls/reports-nationwide-buying-37-stake-in-crew-at-900m-valuation/",
+        "https://www.aol.com/articles/nationwide-officially-joins-columbus-crew-171249786.html"
+      ],
+      "isEstimated": false,
+      "notes": "Needed MLS Board of Governors approval. Nationwide was announced as a minority owner on 2026-06-25, which is recorded as dateApproved; the team release called it a 'meaningful minority stake' and gave no %. The Haslams remain control owners at 40%. Nationwide is also the Crew's jersey sponsor."
+    },
+    {
+      "teamId": "austin-fc",
+      "type": "minority",
+      "dateAnnounced": "2025-07-15",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 912000000,
+      "stakePct": null,
+      "buyer": "Jenny Just & Matt Hulsizer (PEAK6), Tench Coxe, Dave Snyderman, Tanuj Gulati; later FirstTracks Sports Ventures (Jon-Erik Borgen)",
+      "seller": "Existing Austin FC investors (not disclosed); Precourt Sports Ventures remains majority owner",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportico.com/business/team-sales/2025/austin-fc-new-investors-valuation-mls-1234862161/",
+        "https://www.sportico.com/business/team-sales/2025/austin-fc-investors-borgen-family-912-million-valuation-1234874796/",
+        "https://communityimpact.com/austin/northwest-austin/arts-entertainment/2025/08/04/austin-fc-welcomes-new-members-to-clubs-ownership-group/",
+        "https://www.austinfc.com/news/firsttracks-sports-ventures-joins-austin-fc-ownership-group-austin-fc-successfully-completes-planned-equity-raise"
+      ],
+      "isEstimated": true,
+      "notes": "Two outlets plus a team release confirm the equity raise (5 investors in mid-July 2025, then FirstTracks/Borgen later in 2025, which completed the planned raise). The $912M enterprise value (equity plus debt) comes from Sportico alone, and the date is approximate ('mid-July 2025'). Stake size and sellers were not disclosed."
+    },
+    {
+      "teamId": "crystal-palace",
+      "type": "minority",
+      "dateAnnounced": "2025-06-23",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 591000000,
+      "stakePct": 43,
+      "buyer": "Robert 'Woody' Johnson",
+      "seller": "Eagle Football Holdings (John Textor)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/45567347/ny-jets-owner-woody-johnson-agrees-buy-crystal-palace-stake",
+        "https://www.espn.com/soccer/story/_/id/45813769/jets-owner-johnson-completes-purchase-stake-crystal-palace",
+        "https://www.skysports.com/football/news/11706/13387361/crystal-palaces-europa-league-prospects-improve-after-john-textor-sells-stake-to-new-york-jets-owner-woody-johnson",
+        "https://www.irishtimes.com/business/2026/06/16/us-billionaire-owners-of-crystal-palace-explore-sale/"
+      ],
+      "isEstimated": true,
+      "notes": "£190M ($254M per ESPN, i.e. about 1.337 USD/GBP) for 43%, which implies a 100% value of about £442M / $591M. The FT (via the Irish Times, June 2026) instead says the deal valued the club at £550M, which may include debt. Completed 2025-07-24 after the Premier League owners' test. Johnson became the largest shareholder, but this is a minority stake: Parish stays chairman alongside Harris and Blitzer. Palace's 2024-25 revenue was £196.6M (FT), but no source ties it to this deal."
+    },
+    {
+      "teamId": "brentford",
+      "type": "minority",
+      "dateAnnounced": "2025-07-15",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 536000000,
+      "stakePct": 10,
+      "buyer": "Gary Lubner (This Day Sports and Media) and Sir Matthew Vaughn (MARV Bee)",
+      "seller": "Matthew Benham / Best Intentions Analytics (holding company)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.sportspro.com/news/brentford-investment-gary-lubner-matthew-vaughn-benham-july-2025/",
+        "https://www.insideworldfootball.com/2025/07/16/lubner-vaughn-take-minority-stakes-brentford/",
+        "https://www.brentfordfc.com/en/news/article/club-news-brentford-new-investment-gary-lubner-sir-matthew-vaughn"
+      ],
+      "isEstimated": true,
+      "notes": "The deal is confirmed by a club release and two outlets. The £400M ($536M per SportsPro, about 1.34 USD/GBP; spot on 2025-07-16 was 1.3399) valuation comes only from Sky News via SportsPro. Stake size is unclear: IWF says the combined stakes are no more than 10%, while SportsPro says up to 25% could change hands over time. It was structured through Best Intentions Analytics (which also owns Merida AD), and Benham stays majority owner."
+    },
+    {
+      "teamId": "liverpool",
+      "type": "minority",
+      "dateAnnounced": "2026-08-14",
+      "dateApproved": null,
+      "status": "agreed",
+      "valuation": 7445000000,
+      "stakePct": 30,
+      "buyer": "1892 Holdings (led by Amit Bhatia; Mittal Family Trusts, K5 Sports/Jeff Bezos, EE Capital/Eduardo & Elaine Saverin)",
+      "seller": "Fenway Sports Group",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc",
+        "https://www.insideworldfootball.com/2026/08/17/fsg-agrees-1-65bn-sale-of-30-of-liverpool-to-1892-holdings/",
+        "https://www.insideworldfootball.com/2026/08/10/fenway-close-to-sale-of-30-of-liverpool-for-6bn/"
+      ],
+      "isEstimated": true,
+      "notes": "£1.65bn for about 30%, valuing the club at about £5.5bn (IWF), converted at the 2026-08-14 spot rate of 1.3537 USD/GBP (ECB via frankfurter.dev). Wikipedia puts the stake at 38%, and the club release gives neither % nor price. Earlier reports cited £1.35bn/30% (£4.6bn) and a $6bn valuation. The deal is subject to regulatory approvals, and FSG keeps majority ownership and operating control. Bhatia becomes vice-chairman; Bezos is passive."
+    },
+    {
+      "teamId": "chelsea",
+      "type": "minority",
+      "dateAnnounced": "2026-09-16",
+      "dateApproved": null,
+      "status": "closed",
+      "valuation": 6728000000,
+      "stakePct": 25.6,
+      "buyer": "Clearlake Capital Group (affiliates)",
+      "seller": "Todd Boehly and Mark Walter",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.chelseafc.com/en/news/article/chelsea-fc-announces-ownership-transition",
+        "https://www.insideworldfootball.com/2026/09/17/boehly-walter-sell-up-handing-control-of-chelsea-to-clearlake/",
+        "https://www.insideworldfootball.com/2026/09/11/clearlake-set-to-buy-boehly-and-walters-chelsea-stakes-valuing-club-at-5bn/"
+      ],
+      "isEstimated": true,
+      "notes": "Clearlake (61.5%) bought out Boehly (12.8%) and Walter (12.8%) and now has sole control; Wyss (12.8%) stays. It is classed as minority because Clearlake already held the majority. The £5bn valuation includes debt (Bloomberg via IWF), converted at the 2026-09-16 spot rate of 1.3456 USD/GBP. IWF puts the deal at £950M, which is below a pro-rata 25.6% of £5bn, so the equity value is lower. The club release discloses no price. Boehly stepped down as chairman."
+    },
+    {
+      "teamId": "everton",
+      "type": "control",
+      "dateAnnounced": "2024-09-23",
+      "dateApproved": "2024-12-14",
+      "status": "closed",
+      "valuation": null,
+      "stakePct": 94.1,
+      "buyer": "The Friedkin Group (Dan Friedkin)",
+      "seller": "Farhad Moshiri (Blue Heaven Holdings)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/41397704/friedkin-group-farhad-moshiri-agree-deal",
+        "https://www.insideworldfootball.com/2024/09/24/moshiri-exits-friedkin-group-agrees-everton-takeover/",
+        "https://www.insideworldfootball.com/2024/12/19/freidkin-completes-everton-buy-ending-moshiri-era/",
+        "https://www.independent.co.uk/sport/football/everton-friedkin-takeover-owner-news-b2667071.html"
+      ],
+      "isEstimated": true,
+      "notes": "Friedkin bought Moshiri's 94.1%. Terms were agreed 2024-09-23, the Premier League approved on 2024-12-14 and the deal completed on 2024-12-19. Valuation is left null because the reported figures conflict: IWF (Dec 2024) says the price was 'approximately £500m' with debt being cut to about £300M and partly converted to equity, while IWF (Sep 2026) says about £331M. Before closing, Friedkin had lent about £200M (including repaying MSP's £158M loan), which could convert to equity. The Bramley-Moore Dock stadium cost about £760M."
+    },
+    {
+      "teamId": "manchester-united",
+      "type": "minority",
+      "dateAnnounced": "2023-12-24",
+      "dateApproved": "2024-02-14",
+      "status": "closed",
+      "valuation": 5200000000,
+      "stakePct": 27.7,
+      "buyer": "Sir Jim Ratcliffe / INEOS (Trawlers Ltd)",
+      "seller": "Glazer family and Class A public shareholders (tender offer)",
+      "amountFinanced": null,
+      "impliedRevenueMultiple": null,
+      "revenueAtDeal": null,
+      "revenueYear": null,
+      "sources": [
+        "https://www.insideworldfootball.com/2024/02/14/premier-league-approves-ratcliffe-1-02bn-stake-man-utd/",
+        "https://www.insideworldfootball.com/2024/02/21/ratcliffe-says-completion-deal-just-start-accelerated-change-man-utd/",
+        "https://www.manutd.com/en/news/detail/man-utd-reaches-agreement-for-sir-jim-ratcliffe-to-acquire-25-per-cent-shareholding"
+      ],
+      "isEstimated": true,
+      "notes": "Minority stake with football control: Ratcliffe paid $1.3bn (£1.02bn) for 25%, then bought more shares to reach about 27.7% at completion (2024-02-20/21), and INEOS took over football operations while the Glazers kept the majority. He also committed $300M for infrastructure. The $5.2bn is equity value derived by us ($1.3bn / 25%, at $33/share) and excludes net debt; no source states an enterprise value. He rose to 28.94% in Dec 2024 through a further investment. The manutd.com release did not render when fetched, so the terms are confirmed through IWF."
+    }
+  ],
+  "rejected": [
+    {
+      "team": "Tottenham Hotspur",
+      "teamId": "tottenham-hotspur",
+      "description": "On 2026-06-05, Eight Sports Capital (CEO Brooklyn Earick; Wing Fai Ng; backed by Richard Tsai/Fubon) announced a signed SPA to buy 24.99% of ENIC Sports & Developments Holdings from Daniel Levy's family trust (Oakchester). ENIC owns about 87.6-88.3% of THFC, so this is about 22% of the club, and 24.99% is just under the Premier League's 25% approval threshold. Reported price: about £600M (IWF, implying roughly £2.5-2.8bn for the club). Bloomberg reported that Levy hoped for more than $1bn (about £740M), and Roundtable/Yahoo called it a '£1bn stake sale'. ENIC/THFC said they were 'not aware of any sale'. As of 2026-09-22 (Bloomberg via Roundtable/Yahoo) payment had not arrived, several payment deadlines had passed, and the buyer had set a mid-September deadline and considered walking away. Wikipedia (citing BBC and a 2026-08-24 Telegraph piece) says no transaction had taken place by August. The Lewis family (70.12% of ENIC) also put £100M+ of fresh ENIC equity in during 2026, and Levy was removed as chairman in September 2025.",
+      "reason": "not agreed / not completed: the SPA was announced by the buyer only, ENIC disputes it, it was unpaid and stalled as of 2026-09-22, and the price was reported inconsistently",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/06/05/spurs-on-the-block-eight-sports-capital-buys-daniel-levys-stake-in-enic/",
+        "https://www.football365.com/news/tottenham-daniel-levy-agrees-sale-of-24-99-enic-stake-group-worth-7bn-emerges",
+        "https://theesk.org/2026/06/06/the-analysis-series-the-levy-stake-sale-eight-sports-capital-enic-control-and-the-future-of-spurs-ownership/",
+        "https://www.goal.com/en-gb/lists/tottenham-daniel-levy-sells-35-percent-enic-stake-eight-sports-capital/bltada9f5dccfa90152",
+        "https://www.insideworldfootball.com/2026/06/26/lewis-family-to-raise-another-100m-via-enic-for-spurs-as-sale-rumours-resurface/",
+        "https://roundtable.io/sports/soccer/premier-league/tottenham/news/daniel-levy-s-tottenham-exit-stalls-as-1bn-stake-sale-faces-further-delays",
+        "https://sports.yahoo.com/articles/daniel-levy-tottenham-exit-stalls-160004377.html"
+      ]
+    },
+    {
+      "team": "Tottenham Hotspur",
+      "teamId": "tottenham-hotspur",
+      "description": "In September-October 2025 the board rejected two expressions of interest, including a reported £4.5bn approach from a US consortium (PCP/Roger Kennedy). Amanda Staveley's consortium and a US tech consortium looked at bids, and the Takeover Code offer period ran to 2025-10-05. The board said 'Tottenham Hotspur is not for sale.' No deal was agreed.",
+      "reason": "not agreed",
+      "sources": [
+        "https://africa.espn.com/football/story/_/id/46386362/tottenham-not-sale-amid-record-45bn-takeover-report",
+        "https://africa.espn.com/football/story/_/id/46511648/us-tech-consortium-opt-tottenham-bid",
+        "https://www.flashscore.com/news/soccer-premier-league-spurs-unequivocally-reject-4-5-billion-takeover-bid-from-american-consortium/Eo5u1FwB"
+      ]
+    },
+    {
+      "team": "Vancouver Whitecaps FC",
+      "teamId": "vancouver-whitecaps-fc",
+      "description": "Not sold. The owners (Kerfoot, Luczo, Mallett, Nash) started a sale in December 2024 with Goldman Sachs. In April 2026 a group led by Grant Gustavson (grandson of Public Storage founder B. Wayne Hughes) made an offer to buy the club and move it to Las Vegas; no price was disclosed and MLS said it would 'evaluate all options'. The club says it has talked with more than 100 parties (30+ got financials) and 'no viable offer has emerged that would keep the club here'. On 2026-09-23, CEO Axel Schuster said 'nothing has changed'. The club does not control BC Place, the 2027 lease is unsigned, provincial talks stalled around a snap election, and a Hastings Park stadium MOU with the city was signed in December 2025.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.tsn.ca/soccer/mls/article/whitecaps-ceo-says-sale-of-mls-team-no-closer-to-reality/",
+        "https://www.tsn.ca/soccer/article/investment-group-comes-forward-to-buy-whitecaps-and-move-team-to-las-vegas/",
+        "https://www.whitecapsfc.com/club/ownership-status",
+        "https://www.si.com/soccer/historic-mls-club-ambitious-stadium-plans-relocation-threat-looms",
+        "https://www.insideworldfootball.com/2026/04/29/vancouver-whitecaps-future-looks-bleak-bc-place-lease-running-mls-demand-change/"
+      ]
+    },
+    {
+      "team": "San Jose Earthquakes",
+      "teamId": "san-jose-earthquakes",
+      "description": "On 2025-06-18, John Fisher put the controlling interest up for sale with Moelis & Co. running the process. Sportico valued the club at about $600M in January 2025; Fisher and Lew Wolff paid a $20M expansion fee in 2007. The sale includes PayPal Park, which Bay FC also uses. None of the sources we opened report an agreed buyer or price, and the team's Wikipedia pages still list Fisher as owner.",
+      "reason": "not agreed (no agreed sale found)",
+      "sources": [
+        "https://www.sjearthquakes.com/news/san-jose-earthquakes-announce-start-of-sales-process-for-the-club",
+        "https://www.nbcbayarea.com/news/sports/san-jose-earthquakes-up-for-sale/3895814/",
+        "https://www.yardbarker.com/soccer/articles/controlling_share_in_san_jose_earthquakes_up_for_sale/s1_17064_42344195",
+        "https://en.wikipedia.org/wiki/San_Jose_Earthquakes"
+      ]
+    },
+    {
+      "team": "Crystal Palace",
+      "teamId": "crystal-palace",
+      "description": "In June 2026 (FT), the owners (Johnson 43%, Harris/Blitzer about 30%, Parish about 10%) hired Raine Group to look at options including a full sale, possibly at £1bn+ with a control premium. No buyer has been reported as agreed.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.irishtimes.com/business/2026/06/16/us-billionaire-owners-of-crystal-palace-explore-sale/",
+        "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/"
+      ]
+    },
+    {
+      "team": "Everton",
+      "teamId": "everton",
+      "description": "In September 2026 The Friedkin Group was sounding out investors for a significant minority stake in Everton. IWF says the process is at an early stage and may not lead to a deal.",
+      "reason": "not agreed",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/09/04/friedkin-group-eyes-fresh-investment-for-english-premier-league-club-everton/"
+      ]
+    },
+    {
+      "team": "Portland Timbers",
+      "teamId": "portland-timbers",
+      "description": "We found no sale of the Timbers; Merritt Paulson is still described as owner in August 2026. Paulson sold only the NWSL Portland Thorns (to the Bhathal family/RAJ Sports for about $63M, closed 2024-01-03), which is not in the database and falls outside the window.",
+      "reason": "no transaction (Thorns sale: club not in database)",
+      "sources": [
+        "https://www.opb.org/article/2026/08/18/portland-oregon-moda-center-sports-merritt-paulson/",
+        "https://www.koin.com/sports/portland-thorns-sold-to-raj-sports-by-merritt-paulson/"
+      ]
+    },
+    {
+      "team": "San Diego FC",
+      "teamId": "san-diego-fc",
+      "description": "MLS expansion franchise awarded in May 2023 to Mohamed Mansour's group (with the Sycamore Tribe) for a reported $500M fee; the team began play in 2025. Minority additions followed: Juan Mata (Nov 2024) and Tems (Feb 2025), with no amounts disclosed.",
+      "reason": "expansion fee, not a sale of an existing club, announced before the comp window; better used as formation data (formation.price = 500000000, subject to verification). Tems/Mata stakes had no disclosed terms.",
+      "sources": [
+        "https://www.sandiegouniontribune.com/sports/soccer/story/2023-05-16/major-league-soccer-san-diego-expansion-team-franchise-thursday-news-conference-snapdragon-stadium",
+        "https://www.insideworldfootball.com/2024/11/22/mata-follows-beckham-mls-ownership-stake-san-diego-fc/"
+      ]
+    },
+    {
+      "team": "Toronto FC (Maple Leaf Sports & Entertainment)",
+      "teamId": "toronto-fc",
+      "description": "Rogers agreed on 2024-09-18 to buy BCE's 37.5% of MLSE for C$4.7bn, taking Rogers to 75% control; the deal closed around 2025-07-01/02. MLSE owns the Maple Leafs, Raptors, Toronto FC, Argonauts and venues. Kilmer (Tanenbaum) has a put on its 25% from July 2026 at an agreed fair value, and we did not confirm whether it was exercised.",
+      "reason": "multi-asset conglomerate deal that can't be allocated to Toronto FC; also belongs with the NHL/NBA research. We did not independently verify it with two opened sources in this pass.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment",
+        "https://about.rogers.com/wp-content/uploads/Rogers-Q3-2025-Press-Release.pdf"
+      ]
+    },
+    {
+      "team": "Liverpool",
+      "teamId": "liverpool",
+      "description": "In September 2023 FSG raised up to about $200M from Dynasty Equity for a small minority stake in Liverpool.",
+      "reason": "minority deal before 2025-01-01, outside the minority scope",
+      "sources": [
+        "https://www.insideworldfootball.com/2023/09/29/fsg-raise-200m-dynasty-equity-minority-stake-pare-debt/"
+      ]
+    },
+    {
+      "team": "Ipswich Town",
+      "teamId": "ipswich-town",
+      "description": "Minority investments only in the window: Bright Path Sports Partners paid £100M+ in April 2024, and Ed Sheeran took a small stake in August 2024. ORG/Gamechanger 20 took control in 2021, and we found no control sale since 2023-09-24.",
+      "reason": "minority deals before 2025-01-01; no control sale in window",
+      "sources": [
+        "https://www.insideworldfootball.com/2024/04/02/us-investor-bright-path-sports-pays-100m-buy-ipswich-chase-premier-league-spot/",
+        "https://www.insideworldfootball.com/2024/08/16/ed-sheeran-buys-minority-stake-ipswich-town/"
+      ]
+    },
+    {
+      "team": "Manchester United",
+      "teamId": "manchester-united",
+      "description": "Leon Cooperman increased his Manchester United shareholding (February 2026). Separately, Ratcliffe went from 27.7% to 28.94% in December 2024 through a further investment.",
+      "reason": "public-market share purchases and a follow-on subscription, not negotiated control or minority sales; the Ratcliffe top-up is also before 2025",
+      "sources": [
+        "https://www.insideworldfootball.com/2026/02/19/cooperman-increases-manchester-united-stake/"
+      ]
+    },
+    {
+      "team": "Chelsea FC Women",
+      "teamId": null,
+      "description": "In 2025 Chelsea sold its women's team to sister company BlueCo, an internal related-party transfer that turned a £90.2M loss into a £128.4M profit.",
+      "reason": "club not in database (women's team; related-party intra-group transfer)",
+      "sources": [
+        "https://www.insideworldfootball.com/2025/04/02/chelsea-offload-womens-team-boehly-clearlakes-blueco-turning-90-2m-loss-128-4m-profit/"
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "description": "Brentford, 2026-03-02: further minority investment. Prakash Melwani (Blackstone) and Sir Lucian Grainge (UMG) joined, and Lubner and Vaughn increased their stakes. Wikipedia says Vaughn put in another £40M in February 2026.",
+      "whatWasMissing": "No stake % or valuation disclosed in the club release, Bloomberg (paywalled) or other opened coverage. The £40M figure appears only on Wikipedia, citing a club release that does not state it."
+    },
+    {
+      "description": "Aston Villa: Atairos (Comcast-backed) minority investment in parent V Sports, announced 2023-12-15 and closed 2024-04-12. Wikipedia, citing the FT, gives about 20% of V Sports at a Villa valuation above £500M.",
+      "whatWasMissing": "The opened IWF coverage says the stake and amount were not disclosed. The about 20% / £500M+ figures come from paywalled FT/Bloomberg (not opened). It is also a pre-2025 minority deal at the holding-company level."
+    },
+    {
+      "description": "Everton: equity interests granted to Christopher Sarofim and Jason Kidd in 2025, per IWF (2026-09-04).",
+      "whatWasMissing": "Only one passing mention, with no stake %, price, valuation or date."
+    },
+    {
+      "description": "MLS clubs named in the brief with no deal found: Chicago Fire, Seattle Sounders, Houston Dynamo (only Tim Howard's small July 2024 stake), LAFC (it sold its own Grasshopper Zurich stake in June 2026, which is not a sale of LAFC), Inter Miami, D.C. United, Nashville, Charlotte, Orlando City, Minnesota United, NYCFC, NY Red Bulls, New England, Atlanta, Cincinnati, FC Dallas, LA Galaxy, Colorado, St. Louis, Philadelphia, CF Montreal.",
+      "whatWasMissing": "The web-search budget ran out mid-task, so these clubs were checked only through Wikipedia pages and Inside World Football archives, not a full news search. Some 2025-26 minority deals may be missing."
+    },
+    {
+      "description": "Premier League clubs checked with no 2025-26 deal found: Arsenal, Manchester City, Newcastle, Brighton, West Ham, Fulham, Wolves, Bournemouth, Nottingham Forest, Leicester, Southampton. Also possible 2025-26 deals at promoted Premier League clubs outside team-ids (Leeds, Burnley, Sunderland), which would go in rejected as 'club not in database'.",
+      "whatWasMissing": "Same limited check (Wikipedia and IWF archives only) after the search budget ran out. Not exhaustive."
+    }
+  ]
+}

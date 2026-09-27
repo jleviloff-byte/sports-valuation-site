@@ -1,0 +1,3079 @@
+[
+ {
+  "teamId": "new-york-yankees",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Baltimore Orioles (AL) ownership; John McGraw manager/part-owner",
+   "notes": "AL charter franchise in Baltimore (1901-02); franchise moved to New York 1903. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1903,
+    "price": 18000,
+    "buyer": "Frank Farrell & William Devery",
+    "seller": "American League (defunct Baltimore franchise)",
+    "stakePct": 100,
+    "notes": "Bought the defunct Baltimore AL franchise and moved it to Manhattan (Highlanders).",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_New_York_Yankees_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1915,
+    "price": 460000,
+    "buyer": "Jacob Ruppert & Tillinghast L. Huston",
+    "seller": "Frank Farrell & William Devery",
+    "stakePct": 100,
+    "notes": "Widely cited $460,000; SABR notes Huston papers give $463,000.",
+    "isEstimated": false,
+    "sources": [
+     "https://thisdayinbaseball.com/1915-jacob-ruppert-and-tillinghast-lhommedieu-huston-buy-the-new-york-yankees-from-frank-farrell-and-bill-devery-for-460000-ruppert-who-ow/",
+     "https://sabr.org/bioproj/topic/new-york-yankees-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1923,
+    "price": 1250000,
+    "buyer": "Jacob Ruppert (sole owner)",
+    "seller": "Tillinghast L. Huston (50%)",
+    "stakePct": 50,
+    "notes": "Buyout of Huston's half, finalized May 1923. Press reported $1.25M; SABR puts negotiated price at $1.175M ($450K cash + notes).",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-yankees-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/List_of_New_York_Yankees_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1939,
+    "price": null,
+    "buyer": "Jacob Ruppert estate",
+    "seller": "Jacob Ruppert (died Jan 1939)",
+    "stakePct": 100,
+    "notes": "inheritance; estate controlled club until 1945 sale",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-yankees-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1945,
+    "price": 2800000,
+    "buyer": "Dan Topping, Del Webb & Larry MacPhail",
+    "seller": "Jacob Ruppert estate",
+    "stakePct": 96.88,
+    "notes": "Bought 96.88% for ~$2.8M in Jan 1945 (remaining 3.12% in March); estate needed cash for taxes. Some accounts cite $2.89M total.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/person/dan-topping/",
+     "https://bronxpinstripes.com/yankees/history/topping-webb-macphail-buy-yankees-1945"
+    ]
+   },
+   {
+    "year": 1964,
+    "price": 11200000,
+    "buyer": "CBS (Columbia Broadcasting System)",
+    "seller": "Dan Topping & Del Webb",
+    "stakePct": 80,
+    "notes": "CBS bought 80% for $11.2M (agreed Aug 14, 1964); Topping and Webb kept 10% each and sold later (Webb 1965 for $1.4M, Topping 1966).",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/person/dan-topping/",
+     "https://sabr.org/bioproj/topic/new-york-yankees-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1973,
+    "price": 10000000,
+    "buyer": "George Steinbrenner-led group (12 investors)",
+    "seller": "CBS",
+    "stakePct": 100,
+    "notes": "Announced Jan 3, 1973. $10M included two parking garages CBS bought back for $1.2M, so net ~$8.8M. Steinbrenner initially held under 2% and increased his stake over time.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.history.com/this-day-in-history/january-3/yankees-george-steinbrenner-mlb-owners",
+     "https://sabr.org/bioproj/topic/new-york-yankees-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2010,
+    "price": null,
+    "buyer": "Hal Steinbrenner (Steinbrenner family / Yankee Global Enterprises)",
+    "seller": "George Steinbrenner (died July 2010)",
+    "stakePct": 100,
+    "notes": "inheritance; Hal became managing general partner/control person in 2008; no outside sale",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_New_York_Yankees_owners_and_executives"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "boston-red-sox",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Charles Somers (with Joseph C. Pelletier as early front)",
+   "notes": "AL charter franchise (Boston Americans). Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1903,
+    "price": null,
+    "buyer": "Henry Killilea",
+    "seller": "Charles Somers",
+    "stakePct": 100,
+    "notes": "Price not stated in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Boston_Red_Sox_owners_and_executives",
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1904,
+    "price": 145000,
+    "buyer": "Gen. Charles H. Taylor (Boston Globe publisher; son John I. Taylor ran club)",
+    "seller": "Henry Killilea",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1911,
+    "price": 150000,
+    "buyer": "Jimmy McAleer & Robert McRoy (with Ban Johnson-arranged investors)",
+    "seller": "Taylor family (half interest)",
+    "stakePct": 50,
+    "notes": "Half-interest sale; Taylors kept 50%, so control was shared.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1913,
+    "price": 200000,
+    "buyer": "Joseph Lannin",
+    "seller": "Jimmy McAleer / Robert McRoy (half interest)",
+    "stakePct": 50,
+    "notes": "Lannin then bought the Taylors' half in 1914 to become sole owner (price for that half not captured).",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1916,
+    "price": 662000,
+    "buyer": "Harry Frazee & Hugh Ward",
+    "seller": "Joseph Lannin",
+    "stakePct": 100,
+    "notes": "Nov 1916. $662K for the club ($400K cash + $262K note); total capital obligation incl. Fenway Park about $1M.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/",
+     "https://sabr.org/bioproj/person/harry-frazee/"
+    ]
+   },
+   {
+    "year": 1923,
+    "price": 1150000,
+    "buyer": "Bob Quinn-led group (Columbus investors incl. Palmer Winslow)",
+    "seller": "Harry Frazee",
+    "stakePct": 100,
+    "notes": "Aug 1923.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/person/bob-quinn/",
+     "https://en.wikipedia.org/wiki/Bob_Quinn_(baseball,_born_1870)"
+    ]
+   },
+   {
+    "year": 1933,
+    "price": 1250000,
+    "buyer": "Tom Yawkey",
+    "seller": "Bob Quinn group",
+    "stakePct": 100,
+    "notes": "Feb 25, 1933; price included Fenway Park.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/",
+     "https://thisdayinbaseball.com/tom-yawkey-buys-the-boston-red-sox-from-robert-quinn/"
+    ]
+   },
+   {
+    "year": 1976,
+    "price": null,
+    "buyer": "Jean R. Yawkey / Yawkey estate",
+    "seller": "Tom Yawkey (died July 1976)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Boston_Red_Sox_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1978,
+    "price": 20500000,
+    "buyer": "Buddy LeRoux, Haywood Sullivan & Jean Yawkey (general partners)",
+    "seller": "Tom Yawkey estate",
+    "stakePct": 100,
+    "notes": "Sale announced Sept 1977 (reported $15M), approved May 23, 1978. SABR: $15M from 30 limited-partner shares plus ballpark valued at $5.5M = $20.5M; The Sporting News headline said $20.2M.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-red-sox-team-ownership-history/",
+     "https://www.bostonglobe.com/sports/1978/05/24/red-sox-sold-group-led-jean-yawkey/5GIRVPlX2uH4Tuupt9cCKJ/story.html"
+    ]
+   },
+   {
+    "year": 1992,
+    "price": null,
+    "buyer": "JRY Trust (John Harrington, CEO)",
+    "seller": "Jean R. Yawkey (died Feb 1992)",
+    "stakePct": 100,
+    "notes": "inheritance; Trust bought out Haywood Sullivan in Nov 1993",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Boston_Red_Sox_owners_and_executives",
+     "https://en.wikipedia.org/wiki/JRY_Trust"
+    ]
+   },
+   {
+    "year": 2002,
+    "price": 660000000,
+    "buyer": "John Henry, Tom Werner & Larry Lucchino (New England Sports Ventures, now Fenway Sports Group)",
+    "seller": "JRY Trust (Yawkey Trust, ~54%) and limited partners",
+    "stakePct": 100,
+    "notes": "Agreed Dec 2001, approved Jan 16, 2002, closed Feb 27, 2002. $660M plus ~$40M assumed debt (~$700M total); included Fenway Park and 80% of NESN.",
+    "isEstimated": false,
+    "sources": [
+     "http://www.espn.com/mlb/news/2002/0227/1341320.html",
+     "https://pbn.com/red-sox-sold-to-henrys-group-for-record-700m8088/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "toronto-blue-jays",
+  "formation": {
+   "year": 1976,
+   "price": 7000000,
+   "founder": "Labatt Breweries (45%), Howard Webster / Imperial Trust (45%), CIBC (10%)",
+   "notes": "AL expansion franchise awarded 1976 (began play 1977); SABR says Labatt was awarded the franchise for US$7 million.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1991,
+    "price": 67500000,
+    "buyer": "Labatt Breweries (to 90%)",
+    "seller": "Howard Webster (45%)",
+    "stakePct": 45,
+    "notes": "Nov 1, 1991. SABR reports $67.5M without naming the currency (likely CAD; not converted). This was a 45% stake that gave Labatt sole control.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/toronto-blue-jays-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1995,
+    "price": null,
+    "buyer": "Interbrew (Belgium)",
+    "seller": "Labatt shareholders (indirect)",
+    "stakePct": 90,
+    "notes": "Interbrew took over Labatt, the club's 90% owner, so control of the Blue Jays moved through a corporate takeover. Not a direct sale of the team.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/toronto-blue-jays-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": null,
+    "buyer": "Rogers Communications",
+    "seller": "Interbrew (70%) and CIBC (10%)",
+    "stakePct": 80,
+    "notes": "Sept 2000: 80% bought. SABR states $165 million without naming the currency (widely reported in CAD), so price left null. Rogers bought the remaining 20% in 2004 after Interbrew became InBev.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/toronto-blue-jays-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "tampa-bay-rays",
+  "formation": {
+   "year": 1995,
+   "price": 130000000,
+   "founder": "Vince Naimoli-led group",
+   "notes": "Expansion franchise awarded March 1995 (began play 1998). MLB raised the fee from $110M to $130M.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2004,
+    "price": 65000000,
+    "buyer": "Stuart Sternberg (general partnership)",
+    "seller": "Naimoli-era partnership",
+    "stakePct": 48,
+    "notes": "May 2004: Sternberg bought a 48% stake for $65M. He took control in Oct 2005 after reportedly paying Naimoli ~$5M to become controlling general partner.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/tampa-bay-rays-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Tampa_Bay_Rays"
+    ]
+   },
+   {
+    "year": 2025,
+    "price": 1700000000,
+    "buyer": "Patrick Zalupski-led group (Dream Finders Homes founder)",
+    "seller": "Stuart Sternberg group",
+    "stakePct": 100,
+    "notes": "Reported deal July 2025; MLB owners approved unanimously in Sept 2025; closed Sept 30, 2025. Widely reported price ~$1.7B, not officially disclosed.",
+    "isEstimated": true,
+    "sources": [
+     "https://www.mlb.com/news/rays-sale-finalized-to-ownership-group-led-by-patrick-zalupski",
+     "https://www.sportico.com/leagues/baseball/2025/tampa-bay-rays-sale-mlb-patrick-zalupski-1234871544/",
+     "https://www.espn.com/mlb/story/_/id/46349044/mlb-owners-ok-sale-rays-group-headed-patrick-zalupski",
+     "https://www.cbssports.com/mlb/news/tampa-bay-rays-sale-mlb-owners-unanimously-approve-patrick-zalupski-deal-reportedly-worth-1-7-billion"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "baltimore-orioles",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Henry & Matthew Killilea (Milwaukee Brewers, AL)",
+   "notes": "AL charter franchise in Milwaukee (1901); moved to St. Louis as the Browns in 1902 and to Baltimore in 1954.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1902,
+    "price": 50000,
+    "buyer": "Robert Lee Hedges (majority) with minority partners",
+    "seller": "Matthew Killilea & Fred Gross",
+    "stakePct": 100,
+    "notes": "Moved to St. Louis. St. Louis Republic (Jan 28, 1902) put the price \"in the range of $50,000\".",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1916,
+    "price": 525000,
+    "buyer": "Phil Ball (with Otto Stifel)",
+    "seller": "Robert Hedges",
+    "stakePct": 100,
+    "notes": "Jan 1916. Reports ranged from $425,000 to $525,000.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1933,
+    "price": null,
+    "buyer": "Phil Ball estate",
+    "seller": "Phil Ball (died Oct 1933)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1936,
+    "price": 325000,
+    "buyer": "Donald Lee Barnes syndicate (with Bill DeWitt)",
+    "seller": "Phil Ball estate",
+    "stakePct": 100,
+    "notes": "Nov 1936. Part of the money came from a public stock offering.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Donald_Lee_Barnes"
+    ]
+   },
+   {
+    "year": 1944,
+    "price": null,
+    "buyer": "Richard Muckerman",
+    "seller": "Donald Barnes",
+    "stakePct": 100,
+    "notes": "Muckerman got majority control in 1944-45. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Baltimore_Orioles",
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1949,
+    "price": 1000000,
+    "buyer": "Bill & Charles DeWitt",
+    "seller": "Richard Muckerman",
+    "stakePct": 100,
+    "notes": "Bought with ~$1M in notes; \"approximately $1 million\" per SABR.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Bill_DeWitt"
+    ]
+   },
+   {
+    "year": 1951,
+    "price": 1750000,
+    "buyer": "Bill Veeck syndicate (~80%)",
+    "seller": "Bill & Charles DeWitt",
+    "stakePct": 80,
+    "notes": "July 1951. Contemporary accounts put the purchase at $1.75M.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1953,
+    "price": 2400000,
+    "buyer": "Baltimore group led by Clarence Miles (incl. Jerold Hoffberger)",
+    "seller": "Bill Veeck syndicate",
+    "stakePct": 100,
+    "notes": "Moved to Baltimore for 1954. Baltimore investors met Veeck's $2.4M asking price for his interest. Some accounts give ~$2.5M.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-browns-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/History_of_the_Baltimore_Orioles"
+    ]
+   },
+   {
+    "year": 1979,
+    "price": 12000000,
+    "buyer": "Edward Bennett Williams",
+    "seller": "Jerold Hoffberger",
+    "stakePct": 100,
+    "notes": "Agreement signed Aug 2, 1979.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.washingtonpost.com/archive/politics/1979/08/03/hoffberger-sells-orioles-to-williams/b8b2e662-ef0a-478b-9243-7c799e9e1caf/",
+     "https://en.wikipedia.org/wiki/Edward_Bennett_Williams"
+    ]
+   },
+   {
+    "year": 1988,
+    "price": 70000000,
+    "buyer": "Eli Jacobs (with Larry Lucchino, Sargent Shriver)",
+    "seller": "Edward Bennett Williams estate",
+    "stakePct": 100,
+    "notes": "Announced Dec 5, 1988; AL approved Apr 18, 1989.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.upi.com/Archives/1988/12/08/New-York-investor-Eli-Jacobs-the-new-majority-owner/5417597560400/",
+     "https://en.wikipedia.org/wiki/Eli_Jacobs"
+    ]
+   },
+   {
+    "year": 1993,
+    "price": 173000000,
+    "buyer": "Peter Angelos-led group",
+    "seller": "Eli Jacobs (bankruptcy auction)",
+    "stakePct": 100,
+    "notes": "Oct 4, 1993, via bankruptcy-court auction; highest price paid for a sports franchise at the time.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Peter_Angelos",
+     "https://en.wikipedia.org/wiki/History_of_the_Baltimore_Orioles"
+    ]
+   },
+   {
+    "year": 2024,
+    "price": 1725000000,
+    "buyer": "David Rubenstein-led group",
+    "seller": "Angelos family (John & Louis Angelos)",
+    "stakePct": 100,
+    "notes": "Agreement Jan 2024. MLB approved unanimously Mar 27, 2024 (initial ~40% stake plus control). The group bought the remainder and took full ownership Aug 1, 2024. Valuation $1.725B.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.nbcwashington.com/mlb/baltimore-orioles-sale-david-rubenstein-new-owner/3577489/",
+     "https://www.mlb.com/news/orioles-ownership-deal-closes",
+     "https://www.sportico.com/leagues/baseball/2024/orioles-rubenstein-mlb-team-sale-1234772774/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "chicago-white-sox",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Charles Comiskey",
+   "notes": "Comiskey moved his Western/American League St. Paul club to Chicago in 1900; AL became major in 1901. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1931,
+    "price": null,
+    "buyer": "J. Louis Comiskey",
+    "seller": "Charles Comiskey (died Oct 1931)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Chicago_White_Sox_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1940,
+    "price": null,
+    "buyer": "Grace Comiskey",
+    "seller": "J. Louis Comiskey (died 1939)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Chicago_White_Sox_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1956,
+    "price": null,
+    "buyer": "Dorothy Comiskey Rigney & Chuck Comiskey",
+    "seller": "Grace Comiskey (died 1956)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Chicago_White_Sox_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1959,
+    "price": null,
+    "buyer": "Bill Veeck-led group",
+    "seller": "Dorothy Comiskey Rigney (controlling interest)",
+    "stakePct": 100,
+    "notes": "Veeck's group bought controlling interest in 1959. Price not confirmed in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Veeck"
+    ]
+   },
+   {
+    "year": 1961,
+    "price": 2500000,
+    "buyer": "Arthur Allyn Jr. & John Allyn",
+    "seller": "Bill Veeck",
+    "stakePct": 100,
+    "notes": "Veeck sold his share for health reasons.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Veeck"
+    ]
+   },
+   {
+    "year": 1969,
+    "price": null,
+    "buyer": "John Allyn (sole owner)",
+    "seller": "Arthur Allyn Jr.",
+    "stakePct": 100,
+    "notes": "Brother buyout; price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Chicago_White_Sox_owners_and_executives",
+     "https://en.wikipedia.org/wiki/Bill_Veeck"
+    ]
+   },
+   {
+    "year": 1975,
+    "price": null,
+    "buyer": "Bill Veeck-led group",
+    "seller": "John Allyn",
+    "stakePct": 100,
+    "notes": "Veeck bought the team back in Dec 1975, heading off a proposed move to Seattle. Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Veeck"
+    ]
+   },
+   {
+    "year": 1981,
+    "price": 20000000,
+    "buyer": "Jerry Reinsdorf & Eddie Einhorn group",
+    "seller": "Bill Veeck group",
+    "stakePct": 100,
+    "notes": "Reinsdorf remains control person (sole principal from 2017 listing). June 2025: Justin Ishbia agreed a framework to take control after 2029. That is not a completed control change as of Sept 2026, so it is not listed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_Veeck",
+     "https://en.wikipedia.org/wiki/Justin_Ishbia"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "cleveland-guardians",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Charles W. Somers & Jack Kilfoyl",
+   "notes": "AL charter franchise (Blues/Naps/Indians/Guardians). Founding price unknown; the owners bought League Park for $10,000.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1916,
+    "price": 500000,
+    "buyer": "Jim Dunn-led Chicago syndicate",
+    "seller": "Charles Somers",
+    "stakePct": 100,
+    "notes": "Price tag was $500,000; Dunn relied on loans from Ban Johnson and Charles Comiskey.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1922,
+    "price": null,
+    "buyer": "Dunn estate (Edith Dunn)",
+    "seller": "Jim Dunn (died 1922)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1927,
+    "price": 1000000,
+    "buyer": "Alva Bradley syndicate",
+    "seller": "Dunn estate",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1946,
+    "price": 1539000,
+    "buyer": "Bill Veeck syndicate",
+    "seller": "Alva Bradley group",
+    "stakePct": 100,
+    "notes": "Closed June 22, 1946.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1949,
+    "price": 2200000,
+    "buyer": "Ellis W. Ryan syndicate",
+    "seller": "Bill Veeck syndicate",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1953,
+    "price": null,
+    "buyer": "Myron H. Wilson (control within shareholder group)",
+    "seller": "Ellis Ryan",
+    "stakePct": 100,
+    "notes": "Change of control within the local shareholder group; no outside sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1956,
+    "price": null,
+    "buyer": "William R. Daley (control within group)",
+    "seller": "Myron H. Wilson",
+    "stakePct": 100,
+    "notes": "Daley and other directors bought out Greenberg and the Baxters at $400/share. No full-franchise price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1963,
+    "price": null,
+    "buyer": "Gabe Paul-led group",
+    "seller": "William R. Daley",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1966,
+    "price": 8000000,
+    "buyer": "Vernon Stouffer (80%)",
+    "seller": "William R. Daley group",
+    "stakePct": 80,
+    "notes": "Aug 1966: $5.5M cash for 80% plus a $2.5M assumed bank loan.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1972,
+    "price": 9750000,
+    "buyer": "Nick Mileti syndicate",
+    "seller": "Vernon Stouffer",
+    "stakePct": 100,
+    "notes": "March 1972 offer of $9.75M to buy the club and keep it in Cleveland.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1977,
+    "price": null,
+    "buyer": "Ted Bonda (control within Mileti group)",
+    "seller": "Nick Mileti",
+    "stakePct": 100,
+    "notes": "Interim control shift; no outside sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1978,
+    "price": null,
+    "buyer": "Steve O'Neill-led group",
+    "seller": "Ted Bonda / Mileti group",
+    "stakePct": 100,
+    "notes": "Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives",
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1983,
+    "price": null,
+    "buyer": "Steve O'Neill estate",
+    "seller": "Steve O'Neill (died 1983)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1986,
+    "price": 35500000,
+    "buyer": "Richard & David Jacobs",
+    "seller": "Steve O'Neill estate and other owners",
+    "stakePct": 100,
+    "notes": "The Jacobs brothers bought out all owners and assumed debts (SABR: $35.5M; Wikipedia: $35M).",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Larry_Dolan"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": 323000000,
+    "buyer": "Larry Dolan (family trust)",
+    "seller": "Richard E. Jacobs (public company since 1998)",
+    "stakePct": 100,
+    "notes": "Included buying back publicly traded stock. Wikipedia says $323M; SABR says $320M.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Larry_Dolan",
+     "https://sabr.org/bioproj/topic/cleveland-guardians-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2025,
+    "price": null,
+    "buyer": "Paul Dolan (Dolan family)",
+    "seller": "Larry Dolan (died Feb 23, 2025)",
+    "stakePct": 100,
+    "notes": "inheritance; Paul Dolan had been chairman/CEO since 2013 and is now controlling owner. Minority sale to David Blitzer (2022) was not a control change",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Larry_Dolan",
+     "https://en.wikipedia.org/wiki/List_of_Cleveland_Guardians_owners_and_executives"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "detroit-tigers",
+  "formation": {
+   "year": 1894,
+   "price": null,
+   "founder": "George Vanderbeck",
+   "notes": "Western League club from 1894; AL charter member when the league went major in 1901. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1901,
+    "price": null,
+    "buyer": "James D. Burns",
+    "seller": "George Vanderbeck",
+    "stakePct": 100,
+    "notes": "Price not stated.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1902,
+    "price": null,
+    "buyer": "Samuel F. Angus",
+    "seller": "James D. Burns",
+    "stakePct": 100,
+    "notes": "Price not stated.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1904,
+    "price": null,
+    "buyer": "William H. Yawkey",
+    "seller": "Samuel F. Angus",
+    "stakePct": 100,
+    "notes": "Frank Navin brokered the deal and became a partner in 1908. Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives",
+     "https://en.wikipedia.org/wiki/William_H._Yawkey"
+    ]
+   },
+   {
+    "year": 1919,
+    "price": null,
+    "buyer": "Frank Navin (with Walter Briggs & John Kelsey)",
+    "seller": "William Yawkey estate",
+    "stakePct": 50,
+    "notes": "After Yawkey died, Navin bought more stock from the estate and reached 50%.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/William_H._Yawkey",
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1935,
+    "price": null,
+    "buyer": "Walter Briggs Sr. (sole control)",
+    "seller": "Frank Navin estate",
+    "stakePct": 100,
+    "notes": "Navin died in 1935; Briggs bought his interest. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives",
+     "https://en.wikipedia.org/wiki/Walter_Briggs_Sr."
+    ]
+   },
+   {
+    "year": 1952,
+    "price": null,
+    "buyer": "Walter \"Spike\" Briggs Jr.",
+    "seller": "Walter Briggs Sr. (died Jan 1952)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives"
+    ]
+   },
+   {
+    "year": 1956,
+    "price": null,
+    "buyer": "Fred Knorr & John Fetzer syndicate",
+    "seller": "Briggs family",
+    "stakePct": 100,
+    "notes": "Price not confirmed in sources consulted. Fetzer became sole principal owner around 1960-61.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives",
+     "https://en.wikipedia.org/wiki/John_Fetzer"
+    ]
+   },
+   {
+    "year": 1983,
+    "price": 53000000,
+    "buyer": "Tom Monaghan (Domino's founder)",
+    "seller": "John Fetzer",
+    "stakePct": 100,
+    "notes": "Late 1983.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Detroit_Tigers"
+    ]
+   },
+   {
+    "year": 1992,
+    "price": null,
+    "buyer": "Mike Ilitch (Little Caesars founder)",
+    "seller": "Tom Monaghan",
+    "stakePct": 100,
+    "notes": "Price commonly reported as ~$82-85M but not confirmed in sources consulted, so left null.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mike_Ilitch",
+     "https://en.wikipedia.org/wiki/Tom_Monaghan"
+    ]
+   },
+   {
+    "year": 2017,
+    "price": null,
+    "buyer": "Christopher Ilitch / Ilitch Holdings",
+    "seller": "Mike Ilitch (died Feb 2017)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Detroit_Tigers_owners_and_executives"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "kansas-city-royals",
+  "formation": {
+   "year": 1968,
+   "price": 6000000,
+   "founder": "Ewing Kauffman",
+   "notes": "AL expansion franchise awarded Jan 1968 (began play 1969). SABR: initial cost roughly $6M, made up of $5.25M for expansion-draft players, $50,000 for franchise rights and ~$600K to the pension fund.",
+   "isEstimated": true
+  },
+  "saleHistory": [
+   {
+    "year": 1993,
+    "price": null,
+    "buyer": "Kauffman succession plan (board / Greater Kansas City Community Foundation)",
+    "seller": "Ewing Kauffman (died Aug 1993)",
+    "stakePct": 100,
+    "notes": "inheritance-like transfer: Kauffman's succession plan put the team under a board and foundation until it was sold to local ownership. Not a sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/kansas-city-royals-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Ewing_Kauffman"
+    ]
+   },
+   {
+    "year": 2000,
+    "price": 96000000,
+    "buyer": "David Glass",
+    "seller": "Kauffman estate / Greater Kansas City Community Foundation",
+    "stakePct": 100,
+    "notes": "Apr 18, 2000. Board picked Glass over a higher Miles Prentice bid ($115-120M) that MLB rejected.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/David_Glass_(businessman)",
+     "https://en.wikipedia.org/wiki/Kansas_City_Royals",
+     "https://sabr.org/bioproj/topic/kansas-city-royals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2019,
+    "price": 1000000000,
+    "buyer": "John Sherman-led group",
+    "seller": "David Glass family",
+    "stakePct": 100,
+    "notes": "Announced Aug 30, 2019; approved Nov 21, 2019. Reported at about or over $1B.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/John_Sherman_(businessman)",
+     "https://en.wikipedia.org/wiki/Kansas_City_Royals"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "minnesota-twins",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Ban Johnson & Fred Postal (Washington Senators)",
+   "notes": "AL charter franchise in Washington; moved to Minnesota in 1961. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1904,
+    "price": null,
+    "buyer": "Thomas C. Noyes group",
+    "seller": "Postal / AL interests",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Carl_Pohlad"
+    ]
+   },
+   {
+    "year": 1919,
+    "price": null,
+    "buyer": "Clark Griffith (with William Richardson)",
+    "seller": "Noyes/Minor-era stockholders",
+    "stakePct": 100,
+    "notes": "Griffith bought a 10% stake in 1912 for $27,000 and got controlling interest around 1919-20. Price for control not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Calvin_Griffith",
+     "https://sabr.org/bioproj/topic/washington-senators-i-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1955,
+    "price": null,
+    "buyer": "Calvin Griffith (with Thelma Griffith Haynes)",
+    "seller": "Clark Griffith (died Oct 1955)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Calvin_Griffith"
+    ]
+   },
+   {
+    "year": 1984,
+    "price": 43500000,
+    "buyer": "Carl Pohlad",
+    "seller": "Calvin Griffith & Thelma Haynes (52%); H. Gabriel Murphy (40.4%)",
+    "stakePct": 100,
+    "notes": "Aug 1984: $32M for the Griffiths' controlling 52% plus $11.5M for Murphy's 40.4%. SABR says the Griffith shares were bought over time for $24M.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Carl_Pohlad",
+     "https://en.wikipedia.org/wiki/Calvin_Griffith",
+     "https://sabr.org/bioproj/topic/minnesota-twins-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2009,
+    "price": null,
+    "buyer": "Jim Pohlad (Pohlad family)",
+    "seller": "Carl Pohlad (died Jan 2009)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Carl_Pohlad"
+    ]
+   },
+   {
+    "year": 2025,
+    "price": null,
+    "buyer": "Tom Pohlad (control person, Pohlad family)",
+    "seller": "Joe Pohlad (previous control person)",
+    "stakePct": null,
+    "notes": "Not a sale. The family explored a sale (announced Oct 2024) and ended it in Aug 2025. It instead sold non-controlling stakes to Glick Family Investments, a George Hicks-led Minnesota group and Craig Leipold, and moved control within the family from Joe to Tom Pohlad. I found no 2026 control sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://www.espn.com/mlb/story/_/id/47336092/twins-finalize-sales-name-tom-pohlad-new-controlling-owner",
+     "https://www.mlb.com/news/pohlad-family-to-remain-principal-owner-of-twins",
+     "https://www.startribune.com/minnesota-twins-owners-tom-joe-pohlad-limited-partners-glick-leipold-hicks/601548390"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "houston-astros",
+  "formation": {
+   "year": 1960,
+   "price": null,
+   "founder": "Houston Sports Association (Roy Hofheinz, R.E. \"Bob\" Smith, Craig Cullinan)",
+   "notes": "NL expansion franchise awarded Oct 1960; began play 1962 as the Colt .45s. Fee not confirmed in sources consulted.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1965,
+    "price": null,
+    "buyer": "Roy Hofheinz (sole control)",
+    "seller": "Houston Sports Association partners",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Houston_Astros"
+    ]
+   },
+   {
+    "year": 1975,
+    "price": null,
+    "buyer": "GE Credit & Ford Motor Credit (creditors)",
+    "seller": "Roy Hofheinz",
+    "stakePct": 100,
+    "notes": "Creditors took control over ~$38M of Astrodome-related debt. Not a sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Houston_Astros"
+    ]
+   },
+   {
+    "year": 1979,
+    "price": 19000000,
+    "buyer": "John McMullen-led partnership (McMullen ~33%, managing partner)",
+    "seller": "Ford Motor Credit / GE Credit",
+    "stakePct": 100,
+    "notes": "July 1979; Wikipedia says \"an estimated total of $19 million\".",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/John_McMullen_(engineer)",
+     "https://en.wikipedia.org/wiki/Houston_Astros"
+    ]
+   },
+   {
+    "year": 1992,
+    "price": 117000000,
+    "buyer": "Drayton McLane Jr.",
+    "seller": "John McMullen",
+    "stakePct": 100,
+    "notes": "Announced July 24, 1992 (included the Astrodome lease); owners approved in the fall.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/John_McMullen_(engineer)",
+     "https://en.wikipedia.org/wiki/Drayton_McLane_Jr.",
+     "https://sabr.org/bioproj/topic/kansas-city-royals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2011,
+    "price": 680000000,
+    "buyer": "Jim Crane-led group",
+    "seller": "Drayton McLane Jr.",
+    "stakePct": 100,
+    "notes": "Agreed May 2011; closed Nov 17, 2011. Crane got $35M concessions each from McLane and MLB for the move to the AL, so the net price was ~$610-615M.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jim_Crane",
+     "https://en.wikipedia.org/wiki/Drayton_McLane_Jr."
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "los-angeles-angels",
+  "formation": {
+   "year": 1960,
+   "price": null,
+   "founder": "Gene Autry (with Bob Reynolds)",
+   "notes": "AL expansion franchise awarded Dec 1960 (began play 1961). Wikipedia says Autry paid Walter O'Malley $350,000 for rights to the name/territory. Expansion fee not confirmed.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1996,
+    "price": null,
+    "buyer": "The Walt Disney Company",
+    "seller": "Gene Autry",
+    "stakePct": 100,
+    "notes": "Disney took operating control around 1996-97 (Wikipedia dates it to 1997) and bought the rest after Autry died in 1998. Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Angels"
+    ]
+   },
+   {
+    "year": 2003,
+    "price": 180000000,
+    "buyer": "Arte Moreno",
+    "seller": "The Walt Disney Company",
+    "stakePct": 100,
+    "notes": "Announced Apr 2003; approved May 15, 2003. Some outlets cite $183.5M.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Arte_Moreno"
+    ]
+   },
+   {
+    "year": 2026,
+    "price": 4000000000,
+    "buyer": "Stan Kroenke / Kroenke Sports & Entertainment (controlling interest)",
+    "seller": "Moreno family",
+    "stakePct": null,
+    "notes": "Definitive agreement announced Sept 1-2, 2026. Price ~$4B reported by The Athletic (not officially disclosed). Pending MLB approval; closing expected Q1 2027. Moreno keeps an undisclosed minority stake. Status: agreed, not closed.",
+    "isEstimated": true,
+    "sources": [
+     "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno",
+     "https://sports.yahoo.com/mlb/breaking-news/article/rams-owner-stan-kroenke-enters-agreement-to-buy-angels-from-arte-moreno-for-reported-mlb-record-4-billion-182211800.html",
+     "https://www.espn.com/mlb/story/_/id/49795749/mlb-2026-los-angeles-angels-sale-arte-moreno-stan-kroenke-kse-future-faq",
+     "https://www.mlbtraderumors.com/2026/09/arte-moreno-sells-angels-rams-owner-stan-kroenke.html"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "oakland-athletics",
+  "formation": {
+   "year": 1901,
+   "price": null,
+   "founder": "Ben Shibe (50%), Connie Mack (25%), Sam Jones & Frank Hough (25%)",
+   "notes": "AL charter franchise in Philadelphia; moved to Kansas City (1955), Oakland (1968), and Sacramento (2025, temporary, as the Athletics). Shibe bought 50% from Charles Somers in 1901. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1912,
+    "price": null,
+    "buyer": "Connie Mack (to 50%, equal partner with Shibe)",
+    "seller": "Sam Jones & Frank Hough (25%)",
+    "stakePct": 25,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Athletics"
+    ]
+   },
+   {
+    "year": 1922,
+    "price": null,
+    "buyer": "Tom & John Shibe (with Connie Mack)",
+    "seller": "Ben Shibe (died 1922)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Athletics"
+    ]
+   },
+   {
+    "year": 1937,
+    "price": null,
+    "buyer": "Connie Mack (majority)",
+    "seller": "John Shibe estate",
+    "stakePct": 100,
+    "notes": "Mack bought enough shares from the Shibe estate to become majority owner.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Athletics"
+    ]
+   },
+   {
+    "year": 1950,
+    "price": null,
+    "buyer": "Roy & Earle Mack (with Connie Mack)",
+    "seller": "Connie Mack Jr. / Shibe-heir faction",
+    "stakePct": 100,
+    "notes": "Intra-family buyout. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Athletics"
+    ]
+   },
+   {
+    "year": 1954,
+    "price": 3500000,
+    "buyer": "Arnold Johnson",
+    "seller": "Mack family",
+    "stakePct": 100,
+    "notes": "Nov 1954: $1.5M for the Macks' shares plus $2M of debt. Moved to Kansas City for 1955.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Athletics",
+     "https://en.wikipedia.org/wiki/Connie_Mack"
+    ]
+   },
+   {
+    "year": 1960,
+    "price": null,
+    "buyer": "Arnold Johnson estate",
+    "seller": "Arnold Johnson (died Mar 1960)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kansas_City_Athletics"
+    ]
+   },
+   {
+    "year": 1960,
+    "price": null,
+    "buyer": "Charles O. Finley (controlling interest)",
+    "seller": "Arnold Johnson estate",
+    "stakePct": 100,
+    "notes": "Dec 19, 1960. Price not confirmed; Finley bought out the minority later.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charles_O._Finley"
+    ]
+   },
+   {
+    "year": 1980,
+    "price": 12700000,
+    "buyer": "Walter A. Haas Jr. family",
+    "seller": "Charles O. Finley",
+    "stakePct": 100,
+    "notes": "Aug 1980; the local sale kept the team from moving to Denver.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charles_O._Finley",
+     "https://en.wikipedia.org/wiki/Walter_A._Haas_Jr."
+    ]
+   },
+   {
+    "year": 1995,
+    "price": null,
+    "buyer": "Steve Schott & Ken Hofmann",
+    "seller": "Walter A. Haas Jr. estate",
+    "stakePct": 100,
+    "notes": "Price not confirmed in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Steve_Schott"
+    ]
+   },
+   {
+    "year": 2005,
+    "price": 180000000,
+    "buyer": "John J. Fisher & Lewis Wolff",
+    "seller": "Steve Schott & Ken Hofmann",
+    "stakePct": 100,
+    "notes": "Mar 30, 2005: $100M equity plus $80M assumed debt. Fisher held the majority economic stake; Wolff was managing partner until 2016.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lewis_Wolff",
+     "https://en.wikipedia.org/wiki/Oakland_Athletics"
+    ]
+   },
+   {
+    "year": 2016,
+    "price": null,
+    "buyer": "John J. Fisher (sole control person)",
+    "seller": "Lewis Wolff (~10%)",
+    "stakePct": 10,
+    "notes": "Control-person change: Fisher bought Wolff's stake. Price undisclosed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lewis_Wolff",
+     "https://en.wikipedia.org/wiki/John_J._Fisher"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "seattle-mariners",
+  "formation": {
+   "year": 1976,
+   "price": null,
+   "founder": "Lester Smith, Danny Kaye and local investors (Stanley Golub, Walter Schoenfeld, James Walsh, James Stillwell)",
+   "notes": "AL expansion franchise awarded 1976 (began play 1977). SABR says investors financed the team with $6.5M, which covered more than the franchise fee; the fee itself was not isolated.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1981,
+    "price": 10200000,
+    "buyer": "George Argyros (90%)",
+    "seller": "Original ownership group",
+    "stakePct": 90,
+    "notes": "Jan 14, 1981: $10.2M for 90%; he later bought the other 10% for $2.9M (total $13.1M).",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/seattle-mariners-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1989,
+    "price": 76000000,
+    "buyer": "Jeff Smulyan & Michael Browning",
+    "seller": "George Argyros",
+    "stakePct": 100,
+    "notes": "Announced Aug 22, 1989.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/seattle-mariners-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1992,
+    "price": 125000000,
+    "buyer": "Baseball Club of Seattle (Hiroshi Yamauchi/Nintendo-backed group with local investors)",
+    "seller": "Jeff Smulyan",
+    "stakePct": 100,
+    "notes": "Yamauchi contributed $75M; local investors covered the rest of the $125M price. The team stayed in Seattle.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/seattle-mariners-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2016,
+    "price": 1400000000,
+    "buyer": "John Stanton-led local group (17 members)",
+    "seller": "Nintendo of America (majority)",
+    "stakePct": null,
+    "notes": "Apr 27, 2016. The majority interest was sold at a $1.4B valuation for the whole team; Nintendo kept 10%.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/seattle-mariners-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "texas-rangers",
+  "formation": {
+   "year": 1960,
+   "price": null,
+   "founder": "Elwood R. \"Pete\" Quesada group (Washington Senators expansion)",
+   "notes": "AL expansion franchise awarded 1960 (began play 1961 as the second Washington Senators); moved to Texas in 1972. Fee not confirmed in sources consulted.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1963,
+    "price": null,
+    "buyer": "James M. Johnston & James Lemon",
+    "seller": "Elwood Quesada",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/washington-senators-ii-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Elwood_Richard_Quesada"
+    ]
+   },
+   {
+    "year": 1968,
+    "price": 9400000,
+    "buyer": "Bob Short",
+    "seller": "Johnston estate / James Lemon",
+    "stakePct": 100,
+    "notes": "Late 1968; Short outbid Bob Hope.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bob_Short",
+     "https://sabr.org/bioproj/topic/washington-senators-ii-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1974,
+    "price": 9500000,
+    "buyer": "Brad Corbett-led group",
+    "seller": "Bob Short",
+    "stakePct": 100,
+    "notes": "May 29, 1974.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Brad_Corbett",
+     "https://en.wikipedia.org/wiki/Bob_Short"
+    ]
+   },
+   {
+    "year": 1980,
+    "price": null,
+    "buyer": "Eddie Chiles",
+    "seller": "Brad Corbett",
+    "stakePct": 100,
+    "notes": "Price not confirmed in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Eddie_Chiles"
+    ]
+   },
+   {
+    "year": 1989,
+    "price": 89000000,
+    "buyer": "George W. Bush / Rusty Rose investor group",
+    "seller": "Eddie Chiles",
+    "stakePct": 100,
+    "notes": "Wikipedia (Texas Rangers article) gives $89M total.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Texas_Rangers_(baseball)"
+    ]
+   },
+   {
+    "year": 1998,
+    "price": 250000000,
+    "buyer": "Tom Hicks (Hicks Sports Group)",
+    "seller": "Bush/Rose investor group",
+    "stakePct": 100,
+    "notes": "Announced Jan 1998.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tom_Hicks",
+     "https://en.wikipedia.org/wiki/Texas_Rangers_(baseball)"
+    ]
+   },
+   {
+    "year": 2010,
+    "price": 570000000,
+    "buyer": "Rangers Baseball Express (Chuck Greenberg, Nolan Ryan; Ray Davis & Bob Simpson primary funders)",
+    "seller": "Hicks Sports Group (bankruptcy auction)",
+    "stakePct": 100,
+    "notes": "Aug 2010 bankruptcy auction. Wikipedia says \"about $570 million\"; other reports cite ~$593M including assumed obligations. Greenberg left in 2011 and Ryan in 2013; Davis and Simpson became co-chairmen.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Texas_Rangers_(baseball)",
+     "https://en.wikipedia.org/wiki/Ray_Davis_(businessman)"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "atlanta-braves",
+  "formation": {
+   "year": 1871,
+   "price": null,
+   "founder": "Ivers Whitney Adams (Boston Red Stockings, National Association)",
+   "notes": "Founded 1871 in the National Association; NL charter member 1876; moved to Milwaukee in 1953 and Atlanta in 1966. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1877,
+    "price": null,
+    "buyer": "Arthur Soden (with William Conant & James Billings, \"the Triumvirs\")",
+    "seller": "Boston Base Ball Association stockholders",
+    "stakePct": 100,
+    "notes": "Control consolidated gradually; no single sale price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1906,
+    "price": 75000,
+    "buyer": "George B. & John S.C. Dovey",
+    "seller": "Soden, Conant & Billings",
+    "stakePct": 100,
+    "notes": "Oct 1906: $75,000 plus an assumed $200,000 mortgage on the South End Grounds.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1909,
+    "price": null,
+    "buyer": "John S.C. Dovey",
+    "seller": "George B. Dovey (died 1909)",
+    "stakePct": 100,
+    "notes": "inheritance; John P. Harris then became principal holder",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1911,
+    "price": 100000,
+    "buyer": "William Hepburn Russell (with Frederick Murphy)",
+    "seller": "John P. Harris (765 of 1,000 shares)",
+    "stakePct": 76.5,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1912,
+    "price": 187000,
+    "buyer": "James Gaffney (with John Montgomery Ward)",
+    "seller": "William H. Russell estate",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1916,
+    "price": 400000,
+    "buyer": "Percy Haughton / Arthur Wise group",
+    "seller": "James Gaffney",
+    "stakePct": 100,
+    "notes": "Reported $400,000; did not include Braves Field, which Gaffney kept.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1919,
+    "price": 400000,
+    "buyer": "George Washington Grant",
+    "seller": "Percy Haughton group",
+    "stakePct": 100,
+    "notes": "Reported $400,000 in cash, team only.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1923,
+    "price": null,
+    "buyer": "Christy Mathewson & Emil Fuchs group",
+    "seller": "George Washington Grant",
+    "stakePct": 100,
+    "notes": "Feb 20, 1923. Fuchs later said he paid $450,000 cash; press reports differ, so price left null. Fuchs took control after Mathewson died in 1925.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Atlanta_Braves"
+    ]
+   },
+   {
+    "year": 1935,
+    "price": null,
+    "buyer": "Charles F. Adams (control)",
+    "seller": "Emil Fuchs (defaulted on loans)",
+    "stakePct": 100,
+    "notes": "Fuchs resigned Aug 1, 1935 and control passed to creditor/shareholder Adams.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1936,
+    "price": null,
+    "buyer": "Bob Quinn-led reorganized company",
+    "seller": "Charles F. Adams group",
+    "stakePct": 100,
+    "notes": "Assets moved to a new company; Adams kept a majority stock position until 1941.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1941,
+    "price": null,
+    "buyer": "Bob Quinn-led syndicate (incl. Lou Perini, Casey Stengel)",
+    "seller": "Charles F. Adams (73%)",
+    "stakePct": 73,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1944,
+    "price": null,
+    "buyer": "Lou Perini, Guido Rugo & C. Joseph Maney",
+    "seller": "Other stockholders",
+    "stakePct": 100,
+    "notes": "The trio bought out other stockholders to get majority control. Perini later bought out the minority, and the team moved to Milwaukee in 1953.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/boston-braves-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1962,
+    "price": 5500000,
+    "buyer": "William Bartholomay / LaSalle Corp. group",
+    "seller": "Lou Perini",
+    "stakePct": 90,
+    "notes": "Nov 1962; Perini kept 10%. Team moved to Atlanta in 1966.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lou_Perini",
+     "https://en.wikipedia.org/wiki/William_Bartholomay"
+    ]
+   },
+   {
+    "year": 1976,
+    "price": null,
+    "buyer": "Ted Turner (Turner Broadcasting)",
+    "seller": "Bartholomay group",
+    "stakePct": 100,
+    "notes": "Price not confirmed in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ted_Turner"
+    ]
+   },
+   {
+    "year": 1996,
+    "price": null,
+    "buyer": "Time Warner",
+    "seller": "Turner Broadcasting shareholders (corporate merger)",
+    "stakePct": 100,
+    "notes": "Control passed when Time Warner acquired TBS. No separate team price.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Atlanta_Braves"
+    ]
+   },
+   {
+    "year": 2007,
+    "price": null,
+    "buyer": "Liberty Media",
+    "seller": "Time Warner",
+    "stakePct": 100,
+    "notes": "Asset swap agreed Feb 2007. The whole package (Braves, ~$980M cash and other assets for Liberty's Time Warner shares) was valued at about $1.48B; the Braves' own value is not separated in the source.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Atlanta_Braves"
+    ]
+   },
+   {
+    "year": 2023,
+    "price": null,
+    "buyer": "Atlanta Braves Holdings (public company, BATRA/BATRK)",
+    "seller": "Liberty Media (split-off)",
+    "stakePct": 100,
+    "notes": "July 2023 split-off to Liberty shareholders; no cash sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Atlanta_Braves"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "miami-marlins",
+  "formation": {
+   "year": 1991,
+   "price": 95000000,
+   "founder": "H. Wayne Huizenga",
+   "notes": "NL expansion franchise awarded 1991 (began play 1993); Huizenga paid the $95M franchise fee himself.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1998,
+    "price": 150000000,
+    "buyer": "John W. Henry",
+    "seller": "H. Wayne Huizenga",
+    "stakePct": 100,
+    "notes": "Nov 1998; Henry also paid $8M for stadium renovations.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/miami-marlins-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2002,
+    "price": 158500000,
+    "buyer": "Jeffrey Loria",
+    "seller": "John W. Henry",
+    "stakePct": 100,
+    "notes": "Part of a three-way swap: Loria sold the Expos to MLB for $120M and received a $38.5M interest-free MLB loan; Henry bought the Red Sox.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/montreal-expos-team-ownership-history/",
+     "https://sabr.org/bioproj/topic/miami-marlins-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2017,
+    "price": 1200000000,
+    "buyer": "Bruce Sherman-led group (incl. Derek Jeter)",
+    "seller": "Jeffrey Loria",
+    "stakePct": 100,
+    "notes": "Owners approved Sept 2017; closed Oct 2017.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/miami-marlins-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "new-york-mets",
+  "formation": {
+   "year": 1960,
+   "price": null,
+   "founder": "Joan Whitney Payson (~85%) with M. Donald Grant",
+   "notes": "NL expansion franchise awarded Oct 1960 (began play 1962). SABR says Payson paid $1M for her primary investment; the expansion fee itself was not confirmed.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1975,
+    "price": null,
+    "buyer": "Charles Payson / Lorinda de Roulet (Payson family)",
+    "seller": "Joan Whitney Payson (died Oct 1975)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-mets-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1980,
+    "price": 21100000,
+    "buyer": "Doubleday & Co. (Nelson Doubleday Jr., 80%) and Fred Wilpon",
+    "seller": "Payson family",
+    "stakePct": 100,
+    "notes": "Jan 24, 1980.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-mets-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1986,
+    "price": null,
+    "buyer": "Nelson Doubleday & Fred Wilpon (personally, 50/50)",
+    "seller": "Doubleday & Co. (sold to Bertelsmann)",
+    "stakePct": 100,
+    "notes": "Team moved from the publishing company to its two principals. SABR says the Mets were valued at ~$100M in 1986; exact price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-mets-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2002,
+    "price": 135000000,
+    "buyer": "Fred Wilpon / Sterling Equities (sole principal owner)",
+    "seller": "Nelson Doubleday (50%)",
+    "stakePct": 50,
+    "notes": "The buyout implied a franchise value of ~$391M.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-mets-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2020,
+    "price": 2420000000,
+    "buyer": "Steve & Alex Cohen",
+    "seller": "Wilpon & Katz families",
+    "stakePct": 100,
+    "notes": "Closed Nov 2020; record MLB price at the time (Wikipedia rounds to $2.4B). Cohen already held a ~4% minority stake from 2012.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/New_York_Mets",
+     "https://www.cbssports.com/mlb/news/padres-sale-mlb-record-3-9-billion-jose-e-feliciano/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "philadelphia-phillies",
+  "formation": {
+   "year": 1883,
+   "price": null,
+   "founder": "Al Reach & John Rogers",
+   "notes": "NL franchise founded 1883. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1903,
+    "price": 180000,
+    "buyer": "James Potter syndicate",
+    "seller": "Al Reach & John Rogers",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1905,
+    "price": null,
+    "buyer": "Israel W. Durham group",
+    "seller": "James Potter syndicate",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1909,
+    "price": null,
+    "buyer": "Horace Fogel (backed by Charles P. Taft)",
+    "seller": "Durham group",
+    "stakePct": 100,
+    "notes": "The club was said to be worth $350,000; exact price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1913,
+    "price": null,
+    "buyer": "William Baker (after William H. Locke)",
+    "seller": "Fogel/Taft interests",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1930,
+    "price": null,
+    "buyer": "Baker estate (Charlie Ruch, then Gerald Nugent from 1932)",
+    "seller": "William Baker (died 1930)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1943,
+    "price": 240000,
+    "buyer": "William D. Cox syndicate",
+    "seller": "Gerald Nugent / National League",
+    "stakePct": 99,
+    "notes": "Mar 15, 1943: $190,000 cash plus a $50,000 note for 4,950 of 5,000 shares.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1943,
+    "price": 400000,
+    "buyer": "Robert R.M. Carpenter Sr. (duPont family)",
+    "seller": "William D. Cox (banned by Landis)",
+    "stakePct": 100,
+    "notes": "Nov 23, 1943; estimated $400,000.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1972,
+    "price": null,
+    "buyer": "Ruly Carpenter",
+    "seller": "Bob Carpenter Jr. (family transfer)",
+    "stakePct": 100,
+    "notes": "Family transfer, not a sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 1981,
+    "price": 30000000,
+    "buyer": "Bill Giles-led group (with Taft Broadcasting, Dixon family, Buck family)",
+    "seller": "Ruly Carpenter / Carpenter family",
+    "stakePct": 100,
+    "notes": "Finalized Oct 29, 1981. SABR reports $30M; Wikipedia gives $32.5M.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/Philadelphia_Phillies"
+    ]
+   },
+   {
+    "year": 2016,
+    "price": null,
+    "buyer": "John Middleton (control person)",
+    "seller": "Bill Giles-era partnership",
+    "stakePct": null,
+    "notes": "MLB owners named Middleton control person in 2016. He first bought ~15% for $18M in 1994 and increased his stake later. No full-franchise sale price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/philadelphia-phillies-team-ownership-history/",
+     "https://en.wikipedia.org/wiki/John_Middleton_(businessman)"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "washington-nationals",
+  "formation": {
+   "year": 1968,
+   "price": 10000000,
+   "founder": "Charles Bronfman-led group (Montreal Expos)",
+   "notes": "NL expansion franchise awarded May 1968 (began play 1969); the NL set the expansion fee at $10M. Moved to Washington in 2005.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1991,
+    "price": null,
+    "buyer": "Claude Brochu-led consortium (with City of Montreal, Quebec province and 11 corporate partners)",
+    "seller": "Charles Bronfman",
+    "stakePct": 100,
+    "notes": "Price not confirmed in sources consulted.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/montreal-expos-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1999,
+    "price": 12000000,
+    "buyer": "Jeffrey Loria (managing general partner)",
+    "seller": "Claude Brochu (24%)",
+    "stakePct": 24,
+    "notes": "Dec 9, 1999: $12M for Brochu's 24%. Loria later diluted partners through cash calls to ~94%.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/montreal-expos-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2002,
+    "price": 120000000,
+    "buyer": "Major League Baseball (Expos Baseball LP)",
+    "seller": "Jeffrey Loria",
+    "stakePct": 100,
+    "notes": "Part of the Marlins/Red Sox three-way swap; MLB also lent Loria $38.5M interest-free.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/montreal-expos-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2006,
+    "price": 450000000,
+    "buyer": "Lerner Enterprises group (Ted Lerner)",
+    "seller": "Major League Baseball",
+    "stakePct": 100,
+    "notes": "Announced July 2006; official July 24, 2006.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/montreal-expos-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2023,
+    "price": null,
+    "buyer": "Mark Lerner (Lerner family)",
+    "seller": "Ted Lerner (died Feb 2023)",
+    "stakePct": 100,
+    "notes": "inheritance; Mark Lerner had been public-facing principal owner since 2018. No 2025-26 sale found",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Washington_Nationals"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "chicago-cubs",
+  "formation": {
+   "year": 1870,
+   "price": null,
+   "founder": "Chicago White Stockings stock association (Chicago businessmen; George Gage president)",
+   "notes": "Founded 1870, National Association from 1871; NL charter member 1876. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1876,
+    "price": null,
+    "buyer": "William A. Hulbert",
+    "seller": "Chicago association stockholders",
+    "stakePct": 100,
+    "notes": "Hulbert collected shares in 1875-76 and reorganized the club. No single price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1882,
+    "price": null,
+    "buyer": "Albert G. Spalding",
+    "seller": "William Hulbert (died Apr 1882)",
+    "stakePct": 100,
+    "notes": "Succession to control, not a priced sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1902,
+    "price": null,
+    "buyer": "James A. Hart",
+    "seller": "Albert Spalding & John Walsh",
+    "stakePct": 100,
+    "notes": "Hart bought out Spalding and Walsh. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1905,
+    "price": 105500,
+    "buyer": "Charles W. Murphy (financed by Charles P. Taft)",
+    "seller": "James A. Hart",
+    "stakePct": 100,
+    "notes": "Reported as $105,000 at the time; a 1916 lawsuit showed $105,500.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1914,
+    "price": 500000,
+    "buyer": "Charles P. Taft",
+    "seller": "Charles W. Murphy (53%)",
+    "stakePct": 53,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1916,
+    "price": 500000,
+    "buyer": "Charles Weeghman & William Walker group (incl. William Wrigley Jr., Albert Lasker)",
+    "seller": "Charles P. Taft",
+    "stakePct": 100,
+    "notes": "Announced Jan 6, 1916 as part of the Federal League settlement.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/chicago-cubs-team-ownership-history-part1/"
+    ]
+   },
+   {
+    "year": 1921,
+    "price": null,
+    "buyer": "William Wrigley Jr.",
+    "seller": "Charles Weeghman (by 1918) and Albert Lasker (1921)",
+    "stakePct": 100,
+    "notes": "Wrigley gradually bought out Weeghman and then Lasker's controlling block. Prices not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Chicago_Cubs"
+    ]
+   },
+   {
+    "year": 1932,
+    "price": null,
+    "buyer": "Philip K. Wrigley",
+    "seller": "William Wrigley Jr. (died Jan 1932)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Chicago_Cubs"
+    ]
+   },
+   {
+    "year": 1977,
+    "price": null,
+    "buyer": "William Wrigley III",
+    "seller": "Philip K. Wrigley (died Apr 1977)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago_Cubs"
+    ]
+   },
+   {
+    "year": 1981,
+    "price": 20500000,
+    "buyer": "Tribune Company",
+    "seller": "Wrigley family",
+    "stakePct": 100,
+    "notes": "June 1981.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago_Cubs",
+     "https://en.wikipedia.org/wiki/History_of_the_Chicago_Cubs"
+    ]
+   },
+   {
+    "year": 2009,
+    "price": 845000000,
+    "buyer": "Ricketts family (Tom Ricketts)",
+    "seller": "Tribune Company",
+    "stakePct": 95,
+    "notes": "Closed Oct 2009. Covered ~95% of the Cubs, Wrigley Field and 25% of Comcast SportsNet Chicago; record MLB price at the time.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "cincinnati-reds",
+  "formation": {
+   "year": 1881,
+   "price": null,
+   "founder": "Justus Thorner (president)",
+   "notes": "Current franchise formed 1881; American Association charter member 1882; moved to the NL in 1890. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1884,
+    "price": null,
+    "buyer": "Aaron S. Stern",
+    "seller": "Justus Thorner",
+    "stakePct": 100,
+    "notes": "A string of 1880s owners followed (Stern, Herancourt, Hauck, Stern, Al Johnson). Prices not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1891,
+    "price": null,
+    "buyer": "John T. Brush",
+    "seller": "Al Johnson / Stern interests",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1902,
+    "price": null,
+    "buyer": "Julius & Max Fleischmann, George B. Cox & August \"Garry\" Herrmann",
+    "seller": "John T. Brush",
+    "stakePct": 100,
+    "notes": "Brush sold to fund his purchase of the NY Giants. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1927,
+    "price": null,
+    "buyer": "Sidney Weil",
+    "seller": "Herrmann / C.J. McDiarmid-era group",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1933,
+    "price": null,
+    "buyer": "Powel Crosley Jr.",
+    "seller": "Sidney Weil / Central Trust Co. (bankruptcy)",
+    "stakePct": 100,
+    "notes": "Crosley bought the Reds out of bankruptcy (Wikipedia says 1933; often dated Feb 1934). Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds",
+     "https://en.wikipedia.org/wiki/History_of_the_Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1961,
+    "price": null,
+    "buyer": "Crosley estate / foundation",
+    "seller": "Powel Crosley Jr. (died Mar 1961)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_DeWitt"
+    ]
+   },
+   {
+    "year": 1962,
+    "price": 4270000,
+    "buyer": "Bill DeWitt Sr. (100%)",
+    "seller": "Crosley estate",
+    "stakePct": 100,
+    "notes": "Mar 23, 1962.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_DeWitt"
+    ]
+   },
+   {
+    "year": 1966,
+    "price": 8000000,
+    "buyer": "Francis L. Dale-led 13-person syndicate",
+    "seller": "Bill DeWitt Sr.",
+    "stakePct": 100,
+    "notes": "Dec 5, 1966.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_DeWitt"
+    ]
+   },
+   {
+    "year": 1973,
+    "price": null,
+    "buyer": "Louis Nippert (control)",
+    "seller": "Dale syndicate partners",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1981,
+    "price": null,
+    "buyer": "William & James Williams",
+    "seller": "Louis Nippert",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cincinnati_Reds"
+    ]
+   },
+   {
+    "year": 1984,
+    "price": 11000000,
+    "buyer": "Marge Schott (controlling interest)",
+    "seller": "Williams brothers group",
+    "stakePct": 100,
+    "notes": "Dec 21, 1984; \"reported $11M\".",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Marge_Schott"
+    ]
+   },
+   {
+    "year": 1999,
+    "price": 67000000,
+    "buyer": "Carl Lindner Jr.-led group",
+    "seller": "Marge Schott (controlling interest)",
+    "stakePct": 100,
+    "notes": "Agreed Apr 20, 1999.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Marge_Schott"
+    ]
+   },
+   {
+    "year": 2006,
+    "price": 270000000,
+    "buyer": "Bob Castellini-led group",
+    "seller": "Carl Lindner Jr. group",
+    "stakePct": 100,
+    "notes": "Castellini became CEO Jan 2006.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bob_Castellini"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "milwaukee-brewers",
+  "formation": {
+   "year": 1968,
+   "price": 5350000,
+   "founder": "Dewey & Max Soriano with William R. Daley (Seattle Pilots)",
+   "notes": "AL expansion franchise awarded 1968 (Seattle Pilots, one season in 1969); $5.35M franchise fee per SABR. Moved to Milwaukee in 1970.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1970,
+    "price": 10800000,
+    "buyer": "Bud Selig-led group",
+    "seller": "Pilots owners (Soriano/Daley; in bankruptcy)",
+    "stakePct": 100,
+    "notes": "Deal agreed Oct 1969 and completed via bankruptcy court in spring 1970; moved to Milwaukee.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Seattle_Pilots",
+     "https://sabr.org/bioproj/topic/seattle-pilots-ownership-history/"
+    ]
+   },
+   {
+    "year": 1998,
+    "price": null,
+    "buyer": "Wendy Selig-Prieb (Selig family trust)",
+    "seller": "Bud Selig (became commissioner)",
+    "stakePct": 100,
+    "notes": "Family transfer, not a sale.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bud_Selig"
+    ]
+   },
+   {
+    "year": 2005,
+    "price": 223000000,
+    "buyer": "Mark Attanasio-led group",
+    "seller": "Selig family trust",
+    "stakePct": 100,
+    "notes": "Approved Jan 2005.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mark_Attanasio"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "pittsburgh-pirates",
+  "formation": {
+   "year": 1882,
+   "price": null,
+   "founder": "H. Denny McKnight (Allegheny club, American Association)",
+   "notes": "AA charter member 1882; joined the NL in 1887. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1887,
+    "price": null,
+    "buyer": "William Nimick",
+    "seller": "Denny McKnight-era ownership",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Barney_Dreyfuss"
+    ]
+   },
+   {
+    "year": 1892,
+    "price": null,
+    "buyer": "William Kerr & Phil Auten",
+    "seller": "William Nimick",
+    "stakePct": 100,
+    "notes": "Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Barney_Dreyfuss"
+    ]
+   },
+   {
+    "year": 1900,
+    "price": null,
+    "buyer": "Barney Dreyfuss",
+    "seller": "Kerr & Auten",
+    "stakePct": 100,
+    "notes": "Dreyfuss merged his Louisville club into Pittsburgh and used that leverage to buy out his partners. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Barney_Dreyfuss",
+     "https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates"
+    ]
+   },
+   {
+    "year": 1932,
+    "price": null,
+    "buyer": "Florence Dreyfuss (Bill Benswanger president)",
+    "seller": "Barney Dreyfuss (died Feb 1932)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Barney_Dreyfuss"
+    ]
+   },
+   {
+    "year": 1946,
+    "price": 2250000,
+    "buyer": "Frank E. McKinney, John W. Galbreath, Bing Crosby & Thomas P. Johnson",
+    "seller": "Florence Dreyfuss",
+    "stakePct": 100,
+    "notes": "Aug 8, 1946 (NYT: \"Sold It in 1946 for $2,250,000\").",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Barney_Dreyfuss",
+     "https://en.wikipedia.org/wiki/John_W._Galbreath"
+    ]
+   },
+   {
+    "year": 1950,
+    "price": null,
+    "buyer": "John W. Galbreath (majority)",
+    "seller": "Frank E. McKinney (50%)",
+    "stakePct": 50,
+    "notes": "Galbreath, Crosby and Johnson bought out McKinney. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates",
+     "https://en.wikipedia.org/wiki/John_W._Galbreath"
+    ]
+   },
+   {
+    "year": 1985,
+    "price": null,
+    "buyer": "Pittsburgh Associates (public-private consortium)",
+    "seller": "Galbreath family",
+    "stakePct": 100,
+    "notes": "Late 1985 sale to keep the team in Pittsburgh. Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates"
+    ]
+   },
+   {
+    "year": 1996,
+    "price": 95000000,
+    "buyer": "Kevin McClatchy-led group (Nutting family as minority investors)",
+    "seller": "Pittsburgh Associates",
+    "stakePct": 100,
+    "notes": "",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates",
+     "https://en.wikipedia.org/wiki/Kevin_McClatchy"
+    ]
+   },
+   {
+    "year": 2007,
+    "price": null,
+    "buyer": "Bob Nutting / Nutting family (Ogden Newspapers)",
+    "seller": "Kevin McClatchy",
+    "stakePct": 100,
+    "notes": "Nuttings became plurality and then majority owners by ~2005; Bob Nutting replaced McClatchy as controlling owner in 2007. No disclosed price.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/History_of_the_Pittsburgh_Pirates",
+     "https://en.wikipedia.org/wiki/Kevin_McClatchy",
+     "https://en.wikipedia.org/wiki/Bob_Nutting"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "st-louis-cardinals",
+  "formation": {
+   "year": 1882,
+   "price": null,
+   "founder": "Chris von der Ahe (St. Louis Brown Stockings, American Association)",
+   "notes": "AA charter member 1882; joined the NL in 1892. SABR says von der Ahe bought out his original partners for $1,800; the franchise founding price is not separately known.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1899,
+    "price": null,
+    "buyer": "Frank & Stanley Robison",
+    "seller": "Chris von der Ahe (forced sale)",
+    "stakePct": 100,
+    "notes": "Von der Ahe lost the club through a forced sale. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1911,
+    "price": null,
+    "buyer": "Helene Hathaway Robison Britton",
+    "seller": "Stanley Robison (died 1911)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1917,
+    "price": 350000,
+    "buyer": "\"Cardinal Idea\" fan-stock group led by James C. Jones (Sam Breadon an early investor)",
+    "seller": "Helene Britton",
+    "stakePct": 100,
+    "notes": "The group held a $350,000 purchase option; SABR also cites a $390,000 total paid in a related transaction.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1920,
+    "price": null,
+    "buyer": "Sam Breadon (majority)",
+    "seller": "Cardinal Idea shareholders",
+    "stakePct": 100,
+    "notes": "Breadon built up majority control. No single price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1947,
+    "price": null,
+    "buyer": "Fred Saigh & Robert Hannegan",
+    "seller": "Sam Breadon (81%) and other shareholders",
+    "stakePct": 100,
+    "notes": "Nov 1947. SABR: Breadon (81%) received $3,289,248; the deal also included cash and property. Total not stated cleanly, so price is null.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1949,
+    "price": null,
+    "buyer": "Fred Saigh (sole)",
+    "seller": "Robert Hannegan",
+    "stakePct": 100,
+    "notes": "Hannegan received at least $1M for his shares.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1953,
+    "price": 3750000,
+    "buyer": "Anheuser-Busch (August A. \"Gussie\" Busch Jr.)",
+    "seller": "Fred Saigh",
+    "stakePct": 100,
+    "notes": "Feb 1953; Saigh was under a tax-evasion conviction. Included assumption of $1.25M of team debt.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1996,
+    "price": 150000000,
+    "buyer": "William DeWitt Jr.-led group (incl. Fred Hanser, Andrew Baur)",
+    "seller": "Anheuser-Busch",
+    "stakePct": 100,
+    "notes": "Agreement Dec 22, 1995; closed Mar 1996. Price covered team, Busch Stadium and parking garages.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/st-louis-cardinals-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "los-angeles-dodgers",
+  "formation": {
+   "year": 1883,
+   "price": null,
+   "founder": "Charles Byrne, Joseph Doyle & Ferdinand Abell",
+   "notes": "Brooklyn club founded 1883; AA 1884, NL 1890; moved to Los Angeles in 1958. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1902,
+    "price": null,
+    "buyer": "Charles Ebbets (majority)",
+    "seller": "Ferdinand Abell / Harry von der Horst interests",
+    "stakePct": 100,
+    "notes": "Ebbets built control after Byrne died in 1898 by buying shares and options (one block reported at $25,000). No single control price.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1912,
+    "price": null,
+    "buyer": "Ed & Steve McKeever (50%)",
+    "seller": "Charles Ebbets",
+    "stakePct": 50,
+    "notes": "Ebbets sold half to the McKeevers to finance Ebbets Field, so control was shared. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1925,
+    "price": null,
+    "buyer": "Ebbets and McKeever estates (Brooklyn Trust Co. as trustee)",
+    "seller": "Charles Ebbets & Ed McKeever (both died 1925)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1945,
+    "price": null,
+    "buyer": "Branch Rickey, Walter O'Malley & John L. Smith (75%)",
+    "seller": "Ed McKeever estate and Ebbets estate",
+    "stakePct": 75,
+    "notes": "1944-45. Each partner paid ~$346,667 per SABR; the McKeever block cost $240,000 inside a $1,046,000 financing package.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1950,
+    "price": 1050000,
+    "buyer": "Walter O'Malley (control)",
+    "seller": "Branch Rickey (25%)",
+    "stakePct": 25,
+    "notes": "Sept-Oct 1950. O'Malley matched the Zeckendorf offer for Rickey's 25% and took control.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1979,
+    "price": null,
+    "buyer": "Peter O'Malley & Terry O'Malley Seidler",
+    "seller": "Walter O'Malley (died Aug 1979)",
+    "stakePct": 100,
+    "notes": "inheritance; Peter had been president since 1970",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1998,
+    "price": 311000000,
+    "buyer": "Fox Group / News Corporation (Rupert Murdoch)",
+    "seller": "O'Malley family",
+    "stakePct": 100,
+    "notes": "Approved Mar 19, 1998. $311M (LA Times) covered team, Dodger Stadium and ~300 acres; AP reported $350M and NYT $320M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2004,
+    "price": 430000000,
+    "buyer": "Frank & Jamie McCourt",
+    "seller": "News Corporation / Fox",
+    "stakePct": 100,
+    "notes": "Approved Jan 29, 2004. Almost entirely debt-financed (Fox loans reportedly $330M). Price reported variously as $421-431M; net $371M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2012,
+    "price": 2150000000,
+    "buyer": "Guggenheim Baseball Management (Mark Walter; Stan Kasten, Magic Johnson, Todd Boehly, Peter Guber)",
+    "seller": "Frank McCourt (Chapter 11)",
+    "stakePct": 100,
+    "notes": "Bankruptcy court approved in April; closed May 1, 2012. Record at the time.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers",
+     "https://sabr.org/bioproj/topic/los-angeles-brooklyn-dodgers-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "san-francisco-giants",
+  "formation": {
+   "year": 1883,
+   "price": null,
+   "founder": "John B. Day (New York Gothams)",
+   "notes": "NL franchise founded 1883 in New York; moved to San Francisco in 1958. Founding price unknown.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1895,
+    "price": 48000,
+    "buyer": "Andrew Freedman (majority)",
+    "seller": "Edward Talcott / Day-era stockholders",
+    "stakePct": 100,
+    "notes": "SABR: bargain price estimated at $48,000-54,000.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1902,
+    "price": 200000,
+    "buyer": "John T. Brush",
+    "seller": "Andrew Freedman (majority interest)",
+    "stakePct": 100,
+    "notes": "Reported $200,000; some sources say $150,000. Brush raised the money by selling the Reds.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1912,
+    "price": null,
+    "buyer": "Harry Hempstead (Brush estate / Eleanor Brush Hempstead)",
+    "seller": "John T. Brush (died Nov 1912)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1919,
+    "price": 1000000,
+    "buyer": "Charles Stoneham (with John McGraw & Francis McQuade)",
+    "seller": "Hempstead / Brush estate",
+    "stakePct": 100,
+    "notes": "Generally reported as $1M; later histories say $1.3M.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/new-york-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1936,
+    "price": null,
+    "buyer": "Horace Stoneham",
+    "seller": "Charles Stoneham (died Jan 1936)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-francisco-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1976,
+    "price": 8000000,
+    "buyer": "Bob Lurie & Arthur \"Bud\" Herseth",
+    "seller": "Horace Stoneham",
+    "stakePct": 100,
+    "notes": "Lurie and Herseth each put up half of the $8M, keeping the team from moving to Toronto.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-francisco-giants-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1993,
+    "price": 100000000,
+    "buyer": "Peter Magowan-led group (Larry Baer, Walter Shorenstein, Charles Schwab, others)",
+    "seller": "Bob Lurie",
+    "stakePct": 100,
+    "notes": "NL owners blocked a sale to a Tampa-St. Petersburg group. Later managing-partner changes (Bill Neukom 2008, Larry Baer 2012 with the Charles Johnson family as largest holder) and the 2025 Sixth Street minority stake were not sales of control.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-francisco-giants-team-ownership-history/"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "san-diego-padres",
+  "formation": {
+   "year": 1968,
+   "price": 10000000,
+   "founder": "C. Arnholt Smith",
+   "notes": "NL expansion franchise awarded May 1968 (began play 1969); the NL set the fee at $10M.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1974,
+    "price": 12000000,
+    "buyer": "Ray Kroc",
+    "seller": "C. Arnholt Smith",
+    "stakePct": 100,
+    "notes": "Agreement Jan 23, 1974, all cash; kept the team from moving to Washington.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-diego-padres-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1984,
+    "price": null,
+    "buyer": "Joan Kroc",
+    "seller": "Ray Kroc (died Jan 1984)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-diego-padres-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1990,
+    "price": 90000000,
+    "buyer": "Tom Werner-led group",
+    "seller": "Joan Kroc",
+    "stakePct": 100,
+    "notes": "Agreed Apr 2, 1990.",
+    "isEstimated": false,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-diego-padres-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 1994,
+    "price": 80000000,
+    "buyer": "John Moores (with Larry Lucchino)",
+    "seller": "Tom Werner group",
+    "stakePct": 100,
+    "notes": "\"Approximately $80 million\" per SABR.",
+    "isEstimated": true,
+    "sources": [
+     "https://sabr.org/bioproj/topic/san-diego-padres-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2012,
+    "price": 800000000,
+    "buyer": "Ron Fowler with Peter Seidler / O'Malley-family heirs group",
+    "seller": "John Moores (and Jeff Moorad faction)",
+    "stakePct": 100,
+    "notes": "Aug 2012. Wikipedia (John Moores) gives $800M.",
+    "isEstimated": true,
+    "sources": [
+     "https://en.wikipedia.org/wiki/John_Moores_(baseball)",
+     "https://sabr.org/bioproj/topic/san-diego-padres-team-ownership-history/"
+    ]
+   },
+   {
+    "year": 2023,
+    "price": null,
+    "buyer": "Seidler family / Peter Seidler trust (John Seidler approved as control person Feb 6, 2025)",
+    "seller": "Peter Seidler (died Nov 14, 2023)",
+    "stakePct": 100,
+    "notes": "inheritance",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/San_Diego_Padres"
+    ]
+   },
+   {
+    "year": 2026,
+    "price": 3900000000,
+    "buyer": "José E. Feliciano & Kwanza Jones (control person; ~40% reported)",
+    "seller": "Seidler family (Peter Seidler trust kept a minority stake)",
+    "stakePct": 40,
+    "notes": "Definitive agreement announced May 2, 2026 at a reported $3.9B valuation (WSJ), an MLB record. Owners approved unanimously Aug 17, 2026, contingent on closing \"in the weeks ahead\". I did not find an explicit closing confirmation.",
+    "isEstimated": true,
+    "sources": [
+     "https://www.cbssports.com/mlb/news/padres-sale-mlb-record-3-9-billion-jose-e-feliciano/",
+     "https://www.mlb.com/news/padres-sale-to-jose-e-feliciano-and-kwanza-jones-approved-by-mlb",
+     "https://www.sportico.com/business/team-sales/2026/san-diego-padres-sale-feliciano-jones-1234942104/",
+     "https://www.mlbtraderumors.com/2026/08/mlb-owners-approve-sale-of-padres-to-jose-e-feliciano-kwanza-jones.html"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "colorado-rockies",
+  "formation": {
+   "year": 1991,
+   "price": 95000000,
+   "founder": "Colorado Baseball Partnership (Mickey Monus & John Antonucci; Coors Brewing as investor)",
+   "notes": "NL expansion franchise awarded 1991 (began play 1993); $95M expansion fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 1992,
+    "price": null,
+    "buyer": "Jerry McMorris (with Charlie Monfort & Oren Benton)",
+    "seller": "Mickey Monus & John Antonucci",
+    "stakePct": 100,
+    "notes": "Sept 2, 1992: McMorris group bought controlling interest after Monus's Phar-Mor accounting scandal. Price not captured.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charlie_Monfort",
+     "https://en.wikipedia.org/wiki/Colorado_Rockies",
+     "https://en.wikipedia.org/wiki/Jerry_McMorris"
+    ]
+   },
+   {
+    "year": 2005,
+    "price": null,
+    "buyer": "Dick & Charlie Monfort",
+    "seller": "Jerry McMorris",
+    "stakePct": 100,
+    "notes": "Monforts bought out McMorris and became principal owners. Price not captured. A reported 2025 Walton-Penner minority stake was not verified and would not be a control change.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charlie_Monfort"
+    ]
+   }
+  ]
+ },
+ {
+  "teamId": "arizona-diamondbacks",
+  "formation": {
+   "year": 1995,
+   "price": 130000000,
+   "founder": "Jerry Colangelo-led group",
+   "notes": "NL expansion franchise awarded Mar 9, 1995 (began play 1998); $130M franchise fee.",
+   "isEstimated": false
+  },
+  "saleHistory": [
+   {
+    "year": 2004,
+    "price": null,
+    "buyer": "Ken Kendrick (managing general partner) with Jeff Royer & Mike Chipman",
+    "seller": "Jerry Colangelo",
+    "stakePct": 100,
+    "notes": "Summer 2004: Colangelo was forced out as managing general partner and sold his interest; Kendrick succeeded him. Price not confirmed.",
+    "isEstimated": false,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jerry_Colangelo",
+     "https://en.wikipedia.org/wiki/Ken_Kendrick"
+    ]
+   }
+  ]
+ }
+]

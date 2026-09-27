@@ -1,0 +1,26 @@
+{
+  "files": [
+    "mlb-2026.json: mlb-valuations 2026 (30 rows) -> MLB",
+    "nba-2025.json: nba-valuations 2025 (30 rows) -> NBA",
+    "nfl-2026.json: nfl-valuations 2026 (32 rows) -> NFL",
+    "nhl-2024.json: nhl-valuations 2024 (32 rows) -> NHL",
+    "soccer-2026.json: soccer-valuations 2026 (30 rows) -> EPL"
+  ],
+  "sumFlags": [],
+  "noComponents": {
+    "EPL": [
+      "Manchester United",
+      "Liverpool",
+      "Manchester City",
+      "Arsenal",
+      "Chelsea",
+      "Tottenham Hotspur",
+      "Aston Villa",
+      "Newcastle United",
+      "Everton",
+      "Fulham FC",
+      "Brighton & Hove Albion"
+    ]
+  },
+  "unmatched": []
+}

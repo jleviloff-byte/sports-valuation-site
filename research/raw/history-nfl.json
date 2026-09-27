@@ -1,0 +1,300 @@
+[
+  {
+    "teamId": "buffalo-bills",
+    "formation": { "year": 1959, "price": 25000, "founder": "Ralph Wilson", "notes": "AFL charter franchise; each original AFL owner paid a $25,000 franchise fee.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2014, "price": null, "buyer": "Ralph C. Wilson Jr. estate/trust", "seller": "Ralph Wilson", "stakePct": 100, "notes": "inheritance. Wilson died March 25, 2014; his estate held the team in trust until the sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ralph_Wilson"] },
+      { "year": 2014, "price": 1400000000, "buyer": "Terry & Kim Pegula", "seller": "Ralph C. Wilson Jr. estate/trust", "stakePct": 100, "notes": "Unanimously approved and closed October 8, 2014. The 2024 sale of 20.6% to Arctos and others at a $5.6B valuation was a minority deal, so it is not listed here.", "isEstimated": false, "sources": ["https://www.espn.com/nfl/story/_/id/11663100/buffalo-bills-sale-unanimously-approved-owners", "https://en.wikipedia.org/wiki/Buffalo_Bills"] }
+    ]
+  },
+  {
+    "teamId": "miami-dolphins",
+    "formation": { "year": 1965, "price": 7500000, "founder": "Joe Robbie and Danny Thomas", "notes": "AFL expansion franchise fee. Thomas later sold his stake to Robbie.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1990, "price": null, "buyer": "Robbie family", "seller": "Joe Robbie", "stakePct": null, "notes": "inheritance. Joe Robbie died in January 1990. Later in 1990 Wayne Huizenga bought 15% of the team and 50% of the stadium (a minority deal).", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Wayne_Huizenga"] },
+      { "year": 1994, "price": 138000000, "buyer": "Wayne Huizenga", "seller": "Robbie family", "stakePct": 85, "notes": "The NFL approved the transfer of majority interest on March 23, 1994. Price reports conflict: $138M is the most-cited figure (it may include stadium interests), Huizenga's Wikipedia page says $115M for the remaining team shares, and $168M has also been reported.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/1994_Miami_Dolphins_season", "https://en.wikipedia.org/wiki/Wayne_Huizenga"] },
+      { "year": 2009, "price": 1100000000, "buyer": "Stephen M. Ross", "seller": "Wayne Huizenga", "stakePct": 95, "notes": "Bought in two phases. In February 2008 Ross paid $550M for 50% of the team, Dolphin Stadium and the surrounding land. On January 20, 2009 he closed on another 45%, taking control. The $1.1B total covers 95% of the team plus the stadium.", "isEstimated": false, "sources": ["https://www.espn.com/nfl/news/story?id=3847012", "https://en.wikipedia.org/wiki/Stephen_M._Ross"] }
+    ]
+  },
+  {
+    "teamId": "new-england-patriots",
+    "formation": { "year": 1959, "price": 25000, "founder": "Billy Sullivan", "notes": "Eighth and final AFL charter franchise (Boston Patriots), awarded November 16, 1959. Each founder put in $25,000.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1988, "price": 84000000, "buyer": "Victor Kiam (with Fran Murray)", "seller": "Billy Sullivan / Sullivan family", "stakePct": null, "notes": "$84M is the most-cited figure; the Wikipedia history page says $90M. Robert Kraft separately bought Foxboro Stadium out of bankruptcy in 1988 for $22M.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Victor_Kiam", "https://en.wikipedia.org/wiki/History_of_the_New_England_Patriots"] },
+      { "year": 1992, "price": 106000000, "buyer": "James Orthwein", "seller": "Victor Kiam", "stakePct": 51, "notes": "Orthwein bought Kiam's 51% majority interest in May 1992. The $106M figure comes from Orthwein's Wikipedia page (single source).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/James_Orthwein"] },
+      { "year": 1994, "price": 172000000, "buyer": "Robert Kraft", "seller": "James Orthwein", "stakePct": 100, "notes": "Announced January 21, 1994; a then-NFL record. Figures vary ($160M, $172M, $175M). $172M is Kraft's reported offer and the most-cited figure.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Robert_Kraft", "https://en.wikipedia.org/wiki/1994_New_England_Patriots_season"] }
+    ]
+  },
+  {
+    "teamId": "new-york-jets",
+    "formation": { "year": 1959, "price": 25000, "founder": "Harry Wismer", "notes": "AFL charter franchise, the Titans of New York.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1963, "price": 1000000, "buyer": "Sonny Werblin, Leon Hess, Townsend Martin, Donald Lillis, Philip Iselin", "seller": "Harry Wismer (bankrupt Titans)", "stakePct": 100, "notes": "Bought out of bankruptcy in February 1963 and renamed the Jets.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/New_York_Jets", "https://en.wikipedia.org/wiki/Sonny_Werblin"] },
+      { "year": 1968, "price": null, "buyer": "Remaining partners (Lillis, Iselin, Hess, Martin)", "seller": "Sonny Werblin", "stakePct": null, "notes": "Werblin's partners bought him out. He reportedly made about $1.4M profit on his $250,000 1963 investment. Hess became majority owner in the 1970s.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Sonny_Werblin", "https://en.wikipedia.org/wiki/Leon_Hess"] },
+      { "year": 1984, "price": 5000000, "buyer": "Leon Hess", "seller": "Helen Dillon", "stakePct": 25, "notes": "The purchase of Dillon's 25% made Hess sole owner. He had bought Townsend Martin's 25% for $5M in 1981. The price is for the 25% stake only.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/New_York_Jets", "https://en.wikipedia.org/wiki/Leon_Hess"] },
+      { "year": 2000, "price": 635000000, "buyer": "Woody Johnson", "seller": "Leon Hess estate", "stakePct": 100, "notes": "Bought in January 2000; an NFL record at the time. Hess died in 1999.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Woody_Johnson"] }
+    ]
+  },
+  {
+    "teamId": "baltimore-ravens",
+    "formation": { "year": 1996, "price": null, "founder": "Art Modell", "notes": "Modell moved the Cleveland Browns franchise to Baltimore. Under the 1996 settlement the Browns' name and history stayed in Cleveland, so the Ravens count as a new franchise from 1996. No fee was paid.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2004, "price": 600000000, "buyer": "Steve Bisciotti", "seller": "Art Modell", "stakePct": 99, "notes": "Bought in two stages. On March 27, 2000 Bisciotti paid $275M for 49% with an option on more. On April 9, 2004 he paid $325M for another 50% and took control. Modell kept 1%.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Baltimore_Ravens", "https://en.wikipedia.org/wiki/Steve_Bisciotti"] }
+    ]
+  },
+  {
+    "teamId": "cincinnati-bengals",
+    "formation": { "year": 1967, "price": null, "founder": "Paul Brown (with Austin Knowlton, John Sawyer and others)", "notes": "AFL expansion franchise, awarded September 1967. Reported fees conflict ($7.7M, 'an $8 million franchise', and $10M in the Wikipedia history), so price is null. Brown held about 10% but had operating control.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1991, "price": null, "buyer": "Mike Brown / Brown family", "seller": "Paul Brown", "stakePct": null, "notes": "inheritance. Paul Brown died in August 1991.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Mike_Brown_(American_football_executive)", "https://www.espn.com/blog/cincinnati-bengals/post/_/id/16125/cincinnati-bengals-ownership-at-a-glance"] }
+    ]
+  },
+  {
+    "teamId": "cleveland-browns",
+    "formation": { "year": 1946, "price": null, "founder": "Arthur B. 'Mickey' McBride", "notes": "All-America Football Conference charter team (first season 1946); joined the NFL in 1950. Founding fee unknown.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1953, "price": 600000, "buyer": "Group led by David R. Jones (with Ellis Ryan, Homer Marshman, Saul Silberman)", "seller": "Mickey McBride and partners", "stakePct": 100, "notes": "Sold June 9, 1953 for a then-unheard-of $600,000.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Cleveland_Browns", "https://case.edu/ech/articles/c/cleveland-browns"] },
+      { "year": 1961, "price": 3925000, "buyer": "Art Modell group", "seller": "David Jones group", "stakePct": null, "notes": "Completed March 1961. Reported as $3.925M, 'roughly $4 million' (Art Modell Wikipedia) and $4.3M (Homer Marshman Wikipedia).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Art_Modell", "https://en.wikipedia.org/wiki/History_of_the_Cleveland_Browns"] },
+      { "year": 1998, "price": 530000000, "buyer": "Al Lerner", "seller": "NFL (reactivated franchise)", "stakePct": 100, "notes": "The franchise was inactive in 1996-98 after Modell moved his team to Baltimore; the Browns' name and history stayed in Cleveland. Lerner paid a then-record $530M for the rights, and play resumed in 1999.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Al_Lerner"] },
+      { "year": 2002, "price": null, "buyer": "Randy Lerner", "seller": "Al Lerner estate", "stakePct": null, "notes": "inheritance. Al Lerner died in October 2002.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Al_Lerner"] },
+      { "year": 2012, "price": 1050000000, "buyer": "Jimmy & Dee Haslam", "seller": "Randy Lerner", "stakePct": 100, "notes": "Agreed in 2012, approved October 2012 (sale finalized August 2, 2012 per Wikipedia). Reported as '$1 billion', 'in excess of $1 billion' and about $1.05B.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Jimmy_Haslam", "https://en.wikipedia.org/wiki/History_of_the_Cleveland_Browns"] }
+    ]
+  },
+  {
+    "teamId": "pittsburgh-steelers",
+    "formation": { "year": 1933, "price": 2500, "founder": "Art Rooney", "notes": "NFL franchise fee (Pittsburgh Pirates, renamed Steelers in 1940).", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1940, "price": 160000, "buyer": "Alexis Thompson", "seller": "Art Rooney", "stakePct": 100, "notes": "Sold in December 1940. Rooney used half the proceeds to buy a half-interest in the Eagles. This was the first step of the 'Pennsylvania Polka'.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Pennsylvania_Polka_(American_football)", "https://www.nfl.com/news/steelers-founder-had-his-own-ownership-struggles-09000d5d8094af62"] },
+      { "year": 1941, "price": null, "buyer": "Art Rooney & Bert Bell", "seller": "Alexis Thompson", "stakePct": 100, "notes": "Franchise swap: Thompson took the Eagles, and Rooney and Bell took the Pittsburgh franchise. The Rooneys have controlled it ever since.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Pennsylvania_Polka_(American_football)"] },
+      { "year": 1988, "price": null, "buyer": "Dan Rooney / Rooney family", "seller": "Art Rooney Sr. estate", "stakePct": null, "notes": "inheritance. Art Rooney died August 25, 1988, and Dan Rooney took control.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Art_Rooney", "https://en.wikipedia.org/wiki/Pittsburgh_Steelers"] },
+      { "year": 2017, "price": null, "buyer": "Art Rooney II", "seller": "Dan Rooney estate", "stakePct": null, "notes": "inheritance. Dan Rooney died in 2017 and control passed to his son. A 2008 restructuring bought out other Rooney brothers' stakes but kept family control.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Pittsburgh_Steelers"] }
+    ]
+  },
+  {
+    "teamId": "houston-texans",
+    "formation": { "year": 1999, "price": 700000000, "founder": "Bob McNair", "notes": "NFL expansion fee; owners voted 29-0 on October 6, 1999.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2018, "price": null, "buyer": "Janice McNair (with Cal McNair as chairman/CEO)", "seller": "Bob McNair estate", "stakePct": null, "notes": "inheritance. Bob McNair died in November 2018.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bob_McNair"] }
+    ]
+  },
+  {
+    "teamId": "indianapolis-colts",
+    "formation": { "year": 1953, "price": null, "founder": "Carroll Rosenbloom", "notes": "Baltimore franchise, granted January 1953 using the assets of the defunct 1952 Dallas Texans. A secondary source says Rosenbloom's personal share cost $13,000, but the total franchise price is unverified.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1972, "price": null, "buyer": "Robert Irsay", "seller": "Carroll Rosenbloom", "stakePct": 100, "notes": "Franchise swap completed July 1972. Irsay bought the Rams from the Dan Reeves estate (reported $19M; some sources say $12M) and traded them to Rosenbloom for the Colts plus cash. No separate Colts price. The team moved to Indianapolis in 1984.", "isEstimated": false, "sources": ["https://www.nfl.com/news/digging-into-the-colts-and-rams-1972-franchise-swap-was-the-greatest-biggest-tra", "https://www.colts.com/team/history/ownership/robert-irsay"] },
+      { "year": 1997, "price": null, "buyer": "Jim Irsay", "seller": "Robert Irsay estate", "stakePct": 100, "notes": "inheritance. Robert Irsay died in January 1997.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Indianapolis_Colts"] },
+      { "year": 2025, "price": null, "buyer": "Carlie Irsay-Gordon, Casey Foyt, Kalen Jackson", "seller": "Jim Irsay estate", "stakePct": null, "notes": "inheritance. Jim Irsay died May 21, 2025. Carlie Irsay-Gordon is now the listed principal owner.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jim_Irsay", "https://en.wikipedia.org/wiki/Indianapolis_Colts"] }
+    ]
+  },
+  {
+    "teamId": "jacksonville-jaguars",
+    "formation": { "year": 1993, "price": null, "founder": "Wayne Weaver (Touchdown Jacksonville! group)", "notes": "NFL expansion franchise, awarded November 30, 1993. No reliable fee figure found: one aggregator cites $206M (the figure Wikipedia gives for Carolina), and the often-quoted $140M league fee could not be confirmed.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2012, "price": 770000000, "buyer": "Shahid (Shad) Khan", "seller": "Wayne Weaver ownership group", "stakePct": 100, "notes": "Announced November 29, 2011, approved by NFL owners December 14, 2011, closed January 4, 2012. All-cash deal. Weaver's Wikipedia page says $760M for the majority share.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Shahid_Khan", "https://en.wikipedia.org/wiki/Jacksonville_Jaguars"] }
+    ]
+  },
+  {
+    "teamId": "tennessee-titans",
+    "formation": { "year": 1959, "price": 25000, "founder": "K.S. 'Bud' Adams", "notes": "AFL charter franchise (Houston Oilers). Relocated to Tennessee in 1997 and renamed the Titans in 1999.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2013, "price": null, "buyer": "Adams heirs (Susie Adams Smith as controlling owner; Amy Adams Strunk; family of Kenneth Adams III)", "seller": "Bud Adams estate", "stakePct": null, "notes": "inheritance. Bud Adams died October 21, 2013.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bud_Adams", "https://en.wikipedia.org/wiki/Amy_Adams_Strunk"] },
+      { "year": 2015, "price": null, "buyer": "Amy Adams Strunk", "seller": "Susie Adams Smith (intra-family)", "stakePct": 50, "notes": "Controlling-owner role moved within the family; Strunk holds half of the franchise. No sale price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Amy_Adams_Strunk"] }
+    ]
+  },
+  {
+    "teamId": "denver-broncos",
+    "formation": { "year": 1959, "price": 25000, "founder": "Bob Howsam", "notes": "AFL charter franchise.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1961, "price": null, "buyer": "Rocky Mountain Empire Sports group (incl. Gerald Phipps, Cal Kunz)", "seller": "Bob Howsam", "stakePct": null, "notes": "Howsam sold after the first season. Price not confirmed (the Gerald Phipps Wikipedia page says 'less than $1 million').", "isEstimated": false, "sources": ["https://www.denverbroncos.com/news/sacco-sez-the-history-of-broncos-owners", "https://en.wikipedia.org/wiki/Gerald_Phipps"] },
+      { "year": 1965, "price": 1500000, "buyer": "Gerald & Allan Phipps", "seller": "Other Rocky Mountain Empire Sports shareholders", "stakePct": null, "notes": "Buyout on February 14, 1965 blocked a sale to Atlanta interests. Price derived from a $250,000 down payment plus $1.25M due June 1.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Gerald_Phipps", "https://www.denverbroncos.com/news/sacco-sez-the-history-of-broncos-owners"] },
+      { "year": 1981, "price": null, "buyer": "Edgar Kaiser Jr.", "seller": "Phipps family", "stakePct": null, "notes": "Sold February 1981. Wikipedia pages conflict ($29M on Edgar Kaiser Jr.'s page, $40M on Gerald Phipps' page), so price is null.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Edgar_Kaiser_Jr.", "https://en.wikipedia.org/wiki/Gerald_Phipps"] },
+      { "year": 1984, "price": 78000000, "buyer": "Pat Bowlen (with siblings)", "seller": "Edgar Kaiser Jr.", "stakePct": 60.8, "notes": "Bowlen bought Kaiser's 60.8% in March 1984. His own Wikipedia page says about $70M.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Edgar_Kaiser_Jr.", "https://en.wikipedia.org/wiki/Pat_Bowlen"] },
+      { "year": 2019, "price": null, "buyer": "Pat Bowlen Trust", "seller": "Pat Bowlen estate", "stakePct": null, "notes": "inheritance. Bowlen stepped away in 2014 and died in June 2019; trustees ran the team until the sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Pat_Bowlen"] },
+      { "year": 2022, "price": 4650000000, "buyer": "Walton-Penner family ownership group (led by Rob Walton)", "seller": "Pat Bowlen Trust", "stakePct": 100, "notes": "Agreement June 2022; NFL approval August 9-10, 2022. At the time, a record price for a sports team.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Denver_Broncos", "https://en.wikipedia.org/wiki/Denver_Broncos"] }
+    ]
+  },
+  {
+    "teamId": "kansas-city-chiefs",
+    "formation": { "year": 1959, "price": 25000, "founder": "Lamar Hunt", "notes": "AFL charter franchise (Dallas Texans); moved to Kansas City in 1963.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 2006, "price": null, "buyer": "Hunt family (Norma Hunt and children; Clark Hunt chairman/CEO)", "seller": "Lamar Hunt estate", "stakePct": 100, "notes": "inheritance. Lamar Hunt died in 2006. After Norma Hunt died in 2023, her stake passed to the Hunt children.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Kansas_City_Chiefs"] }
+    ]
+  },
+  {
+    "teamId": "las-vegas-raiders",
+    "formation": { "year": 1960, "price": 25000, "founder": "Limited partnership led by Y. Charles 'Chet' Soda (with Wayne Valley, Ed McGah and others)", "notes": "Eighth AFL charter franchise, awarded January 30, 1960.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1972, "price": null, "buyer": "Al Davis", "seller": "Wayne Valley (displaced as managing general partner)", "stakePct": null, "notes": "No sale: Davis took control through a revised partnership agreement. He had bought 10% for $18,000 in 1966, and Valley sold his stake in 1976. The team moved to Los Angeles (1982), back to Oakland (1995) and to Las Vegas (2020).", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Al_Davis", "https://en.wikipedia.org/wiki/F._Wayne_Valley"] },
+      { "year": 2011, "price": null, "buyer": "Mark Davis & Carol Davis", "seller": "Al Davis estate", "stakePct": null, "notes": "inheritance. Al Davis died October 2011. The 2024 minority sales (Brady/Wagner and others at about a $6.5B valuation) are not control changes.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Mark_Davis_(American_football)"] }
+    ]
+  },
+  {
+    "teamId": "los-angeles-chargers",
+    "formation": { "year": 1959, "price": 25000, "founder": "Barron Hilton", "notes": "AFL charter franchise (Los Angeles Chargers); moved to San Diego in 1961 and back to Los Angeles in 2017.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1966, "price": 10000000, "buyer": "Gene Klein & Sam Schulman group", "seller": "Barron Hilton", "stakePct": null, "notes": "Hilton sold his majority interest for $10M, a record for a pro sports franchise at the time.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Barron_Hilton", "https://en.wikipedia.org/wiki/Gene_Klein"] },
+      { "year": 1984, "price": 70000000, "buyer": "Alex Spanos", "seller": "Gene Klein", "stakePct": 60, "notes": "August 1984. ESPN reports $70M for 60%; Alex Spanos' Wikipedia page says $48.3M. The family later built up to about 97%.", "isEstimated": true, "sources": ["https://www.espn.com/blog/los-angeles-chargers/post/_/id/10178/san-diego-chargers-ownership-at-a-glance", "https://en.wikipedia.org/wiki/Alex_Spanos"] },
+      { "year": 2018, "price": null, "buyer": "Dean Spanos / Spanos family", "seller": "Alex Spanos estate", "stakePct": null, "notes": "inheritance. Alex Spanos died October 2018. Dean had run the team since the 1990s. The 2024 sale of Dea Berberian's stake to Tom Gores was a minority deal.", "isEstimated": false, "sources": ["https://www.espn.com/nfl/story/_/id/24941255/los-angeles-chargers-owner-alex-spanos-dies-95", "https://en.wikipedia.org/wiki/Dean_Spanos"] }
+    ]
+  },
+  {
+    "teamId": "dallas-cowboys",
+    "formation": { "year": 1960, "price": 600000, "founder": "Clint Murchison Jr. and Bedford Wynne", "notes": "NFL expansion franchise. The $600,000 is commonly reported as a $50,000 franchise fee plus $550,000 for expansion-draft players. Aggregator source only.", "isEstimated": true },
+    "saleHistory": [
+      { "year": 1984, "price": 85000000, "buyer": "H.R. 'Bum' Bright (limited partnership)", "seller": "Clint Murchison Jr.", "stakePct": 100, "notes": "Reported as $83M or $85M; some reports include the Texas Stadium lease.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Bum_Bright", "https://en.wikipedia.org/wiki/Clint_Murchison_Jr."] },
+      { "year": 1989, "price": 140000000, "buyer": "Jerry Jones", "seller": "H.R. 'Bum' Bright", "stakePct": 100, "notes": "February 25, 1989. The deal included the Texas Stadium lease; it is sometimes quoted as $150M with the stadium.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jerry_Jones", "https://www.cbs19.tv/article/news/on-this-day-jerry-jones-buys-dallas-cowboys-in-1989-for-140m/501-102f1d71-5152-4174-91db-2ee72f4e0f7b"] }
+    ]
+  },
+  {
+    "teamId": "new-york-giants",
+    "formation": { "year": 1925, "price": 500, "founder": "Tim Mara", "notes": "NFL franchise fee.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1930, "price": null, "buyer": "Jack Mara & Wellington Mara", "seller": "Tim Mara", "stakePct": 100, "notes": "Transfer without sale: Tim Mara handed ownership to his sons.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Mara_family"] },
+      { "year": 1965, "price": null, "buyer": "Tim J. Mara (Jack's son)", "seller": "Jack Mara estate", "stakePct": 50, "notes": "inheritance. Jack Mara's half passed to his son; Wellington kept the other half.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Mara_family"] },
+      { "year": 1991, "price": 75000000, "buyer": "Preston Robert (Bob) Tisch", "seller": "Tim J. Mara", "stakePct": 50, "notes": "Announced February 1991, creating 50/50 co-control with Wellington Mara. Also reported as $80M (Wikipedia) and $70M.", "isEstimated": true, "sources": ["https://www.forbes.com/2003/08/29/cz_mb_0829giants.html", "https://www.espn.com/blog/nflnation/post/_/id/164371/new-york-giants-ownership-at-a-glance"] },
+      { "year": 2005, "price": null, "buyer": "John Mara (Mara family) & Steve Tisch (Tisch family)", "seller": "Wellington Mara estate & Bob Tisch estate", "stakePct": 100, "notes": "inheritance. Both co-owners died in 2005. The 2025 Koch family minority stake at a valuation above $10B is not a control change.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/New_York_Giants", "https://en.wikipedia.org/wiki/Mara_family"] }
+    ]
+  },
+  {
+    "teamId": "philadelphia-eagles",
+    "formation": { "year": 1933, "price": 2500, "founder": "Bert Bell and Lud Wray", "notes": "Entry fee for the assets of the defunct Frankford Yellow Jackets. The Eagles Wikipedia page gives $3,500 plus $11,000 of assumed debts.", "isEstimated": true },
+    "saleHistory": [
+      { "year": 1936, "price": null, "buyer": "Bert Bell", "seller": "Lud Wray", "stakePct": null, "notes": "Bell bought out Wray at auction and became sole owner. Price not confirmed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Eagles"] },
+      { "year": 1941, "price": null, "buyer": "Alexis Thompson", "seller": "Bert Bell & Art Rooney", "stakePct": 100, "notes": "'Pennsylvania Polka' franchise swap: Thompson traded the Pittsburgh franchise for the Eagles.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Pennsylvania_Polka_(American_football)"] },
+      { "year": 1949, "price": 250000, "buyer": "'Happy Hundred' syndicate (led by James P. Clark)", "seller": "Alexis Thompson", "stakePct": 100, "notes": "100 investors each paid $3,000 per share, which implies $300,000. $250,000 is also commonly cited as the price.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Happy_Hundred", "https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Eagles"] },
+      { "year": 1963, "price": 5505000, "buyer": "Jerry Wolman", "seller": "Happy Hundred syndicate", "stakePct": 100, "notes": "December 1963; described as 'unprecedented' for control of the club.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Eagles", "https://en.wikipedia.org/wiki/Jerry_Wolman"] },
+      { "year": 1969, "price": 16155000, "buyer": "Leonard Tose", "seller": "Jerry Wolman", "stakePct": 100, "notes": "Distressed sale during Wolman's bankruptcy; a pro sports record at the time. Also reported as $16.1M or $16.115M.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Leonard_Tose", "https://en.wikipedia.org/wiki/Jerry_Wolman"] },
+      { "year": 1985, "price": 65000000, "buyer": "Norman Braman & Ed Leibowitz", "seller": "Leonard Tose", "stakePct": 100, "notes": "Reported $65M; Tose sold to pay off gambling debts.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Philadelphia_Eagles", "https://en.wikipedia.org/wiki/Norman_Braman"] },
+      { "year": 1994, "price": 185000000, "buyer": "Jeffrey Lurie", "seller": "Norman Braman", "stakePct": 100, "notes": "May 6, 1994; partly financed with a $190M Bank of Boston loan. Lurie's Wikipedia page says $195M; $185M is the most-cited figure.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Norman_Braman", "https://en.wikipedia.org/wiki/Jeffrey_Lurie"] }
+    ]
+  },
+  {
+    "teamId": "washington-commanders",
+    "formation": { "year": 1932, "price": null, "founder": "George Preston Marshall (with three partners)", "notes": "NFL franchise for Boston (Braves, renamed Redskins in 1933); moved to Washington in 1937. Fee unknown; one aggregator claims $100, unverified.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1933, "price": null, "buyer": "George Preston Marshall", "seller": "Marshall's three partners", "stakePct": null, "notes": "After a $46,000 first-season loss, the partners sold their interests to Marshall. Price unknown.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/George_Preston_Marshall"] },
+      { "year": 1974, "price": null, "buyer": "Jack Kent Cooke", "seller": "Edward Bennett Williams / Marshall estate shareholders", "stakePct": null, "notes": "Cooke had bought 25% in 1960-61 for $300,000-$350,000. He bought majority interest in 1974 (price unknown), became operating owner in 1979, and became sole owner in 1985 by buying Williams' remaining shares for about $9M.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jack_Kent_Cooke", "https://en.wikipedia.org/wiki/History_of_the_Washington_Commanders"] },
+      { "year": 1997, "price": null, "buyer": "Jack Kent Cooke estate (John Kent Cooke, president)", "seller": "Jack Kent Cooke", "stakePct": 100, "notes": "inheritance. Cooke died April 1997.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jack_Kent_Cooke"] },
+      { "year": 1999, "price": 800000000, "buyer": "Daniel Snyder", "seller": "Jack Kent Cooke estate", "stakePct": 100, "notes": "May 1999; included Jack Kent Cooke Stadium (FedExField). A record for a sports franchise at the time.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Daniel_Snyder", "https://sports.yahoo.com/24-years-ago-daniel-snyder-094006436.html"] },
+      { "year": 2023, "price": 6050000000, "buyer": "Josh Harris group (with Mitchell Rales, Magic Johnson, Mark Ein and others)", "seller": "Daniel Snyder", "stakePct": 100, "notes": "Unanimously approved July 20, 2023 and closed July 21; a record sports team sale at the time.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Daniel_Snyder", "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"] }
+    ]
+  },
+  {
+    "teamId": "chicago-bears",
+    "formation": { "year": 1920, "price": 100, "founder": "A.E. Staley (A.E. Staley Manufacturing Co.)", "notes": "Decatur Staleys, a charter APFA member. $100 was the 1920 APFA franchise fee (per the Chicago Cardinals Wikipedia page); unclear whether it was actually collected.", "isEstimated": true },
+    "saleHistory": [
+      { "year": 1921, "price": null, "buyer": "George Halas & Edward 'Dutch' Sternaman", "seller": "A.E. Staley", "stakePct": 100, "notes": "Staley handed the team to Halas and Sternaman and paid them $5,000 to keep the Staleys name for one more season. Moved to Chicago; became the Bears in 1922.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chicago_Bears"] },
+      { "year": 1932, "price": 38000, "buyer": "George Halas", "seller": "Dutch Sternaman", "stakePct": 50, "notes": "Sternaman offered his stake for $38,000 in 1931; Halas completed the buyout in 1932-33 with investor help, including Charles Bidwill.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chicago_Bears"] },
+      { "year": 1983, "price": null, "buyer": "Virginia Halas McCaskey / McCaskey family", "seller": "George Halas estate", "stakePct": null, "notes": "inheritance. Halas died October 1983.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/George_Halas"] },
+      { "year": 2025, "price": null, "buyer": "McCaskey family (George McCaskey, chairman)", "seller": "Virginia Halas McCaskey estate", "stakePct": null, "notes": "inheritance. Virginia McCaskey died February 2025. The September 2025 sale of the McKenna family's 2.35% at an $8.9B valuation is a minority deal.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Chicago_Bears"] }
+    ]
+  },
+  {
+    "teamId": "detroit-lions",
+    "formation": { "year": 1929, "price": null, "founder": "Portsmouth, Ohio community ownership (Portsmouth Spartans)", "notes": "Independent team founded in Portsmouth, Ohio; joined the NFL in 1930. Fee unknown.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1934, "price": 8000, "buyer": "George A. Richards", "seller": "Portsmouth Spartans shareholders", "stakePct": 100, "notes": "Moved to Detroit and renamed the Lions. Some sources give $7,952.08 plus assumed debts.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Detroit_Lions"] },
+      { "year": 1940, "price": 225000, "buyer": "Fred L. Mandel Jr.", "seller": "George A. Richards", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Detroit_Lions", "https://www.fundinguniverse.com/company-histories/the-detroit-lions-inc-history/"] },
+      { "year": 1948, "price": 165000, "buyer": "Detroit Football Company (syndicate led by D. Lyle Fife and Edwin J. Anderson)", "seller": "Fred L. Mandel Jr.", "stakePct": 100, "notes": "Approved January 15, 1948.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Detroit_Football_Company", "https://www.fundinguniverse.com/company-histories/the-detroit-lions-inc-history/"] },
+      { "year": 1964, "price": 4500000, "buyer": "William Clay Ford Sr.", "seller": "Detroit Football Company shareholders", "stakePct": null, "notes": "Agreed November 22, 1963, closed January 10, 1964. $4.5M is the most-cited figure; the Wikipedia history pages say $6M.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Detroit_Football_Company", "https://en.wikipedia.org/wiki/History_of_the_Detroit_Lions"] },
+      { "year": 2014, "price": null, "buyer": "Martha Firestone Ford", "seller": "William Clay Ford Sr. estate", "stakePct": null, "notes": "inheritance. Ford died March 2014.", "isEstimated": false, "sources": ["https://www.espn.com/nfl/story/_/id/10582662/family-william-clay-ford-sr-retain-controlling-interest-detroit-lions", "https://en.wikipedia.org/wiki/Martha_Firestone_Ford"] },
+      { "year": 2020, "price": null, "buyer": "Sheila Ford Hamp", "seller": "Martha Firestone Ford (intra-family)", "stakePct": null, "notes": "Martha Ford stepped down June 23, 2020 and her daughter took control. No sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Detroit_Lions"] }
+    ]
+  },
+  {
+    "teamId": "green-bay-packers",
+    "formation": { "year": 1919, "price": null, "founder": "Curly Lambeau and George Calhoun (sponsored by Indian Packing Co.)", "notes": "Town team founded August 11, 1919.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1921, "price": null, "buyer": "Clair brothers (Acme Packing)", "seller": "Lambeau/Calhoun town team", "stakePct": null, "notes": "The Clair brothers bought the team and joined the APFA on August 27, 1921. Price unknown.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Green_Bay_Packers"] },
+      { "year": 1922, "price": 50, "buyer": "Curly Lambeau", "seller": "NFL (franchise re-granted)", "stakePct": 100, "notes": "The franchise was revoked after the 1921 season. Lambeau paid a $50 league entry fee for a technically new franchise.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Green_Bay_Packers"] },
+      { "year": 1923, "price": null, "buyer": "Green Bay Football Corporation (publicly owned non-profit; 'Hungry Five')", "seller": "Curly Lambeau", "stakePct": 100, "notes": "Community ownership formed to avoid bankruptcy. The team has never been sold since; later stock sales (for example 1997-98 at $200/share) raised capital without changing control.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Green_Bay_Packers"] }
+    ]
+  },
+  {
+    "teamId": "minnesota-vikings",
+    "formation": { "year": 1960, "price": 600000, "founder": "Max Winter, Bill Boyer, H.P. Skoglund, Ole Haugsrud, Bernard Ridder Jr.", "notes": "NFL expansion franchise, awarded January 28, 1960; began play in 1961.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1991, "price": 50000000, "buyer": "Mike Lynn, Wheelock Whitney, Jaye Dyer group", "seller": "Carl Pohlad & Irwin Jacobs", "stakePct": null, "notes": "December 16, 1991. Settled a control fight: Pohlad and Jacobs had bought majority (non-controlling) interest in 1986. Ownership then went to a 10-member consortium in early 1992.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ownership_of_the_Minnesota_Vikings"] },
+      { "year": 1998, "price": 250000000, "buyer": "Red McCombs", "seller": "10-member ownership group", "stakePct": 100, "notes": "Agreed July 2, 1998, after Tom Clancy's $200M deal collapsed.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Ownership_of_the_Minnesota_Vikings", "https://en.wikipedia.org/wiki/Red_McCombs"] },
+      { "year": 2005, "price": 600000000, "buyer": "Zygi Wilf group (Wilf family)", "seller": "Red McCombs", "stakePct": 100, "notes": "Unanimously approved May 25, 2005; closed June 13, 2005.", "isEstimated": false, "sources": ["https://www.deseret.com/2005/5/26/19894328/nfl-approves-sale-of-vikings/", "https://www.upi.com/Sports_News/2005/05/25/NFL-owners-approve-sale-of-Vikings/34661117043118/"] }
+    ]
+  },
+  {
+    "teamId": "atlanta-falcons",
+    "formation": { "year": 1965, "price": 8500000, "founder": "Rankin M. Smith Sr.", "notes": "NFL expansion franchise, granted June 30, 1965; the highest franchise price in NFL history at the time.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1997, "price": null, "buyer": "Taylor Smith / Smith family", "seller": "Rankin Smith Sr. estate", "stakePct": null, "notes": "inheritance. Rankin Smith died in 1997.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Atlanta_Falcons"] },
+      { "year": 2002, "price": 545000000, "buyer": "Arthur Blank", "seller": "Taylor Smith / Smith family", "stakePct": 100, "notes": "Preliminary agreement December 2001; approved and closed February 2002. Reported price.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Atlanta_Falcons", "https://en.wikipedia.org/wiki/Arthur_Blank"] }
+    ]
+  },
+  {
+    "teamId": "carolina-panthers",
+    "formation": { "year": 1993, "price": 206000000, "founder": "Jerry Richardson", "notes": "NFL expansion franchise, awarded October 26, 1993. Wikipedia says Richardson and investors paid $206M for the rights. A $140M league fee is also often quoted but was not verified here.", "isEstimated": true },
+    "saleHistory": [
+      { "year": 2018, "price": 2275000000, "buyer": "David Tepper", "seller": "Jerry Richardson", "stakePct": 100, "notes": "Agreed May 2018, approved May 22, 2018, closed July 9, 2018; an NFL record at the time. Reported as about $2.2B-$2.3B; $2.275B is the most-cited figure.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Carolina_Panthers", "https://en.wikipedia.org/wiki/Jerry_Richardson"] }
+    ]
+  },
+  {
+    "teamId": "new-orleans-saints",
+    "formation": { "year": 1966, "price": 8500000, "founder": "John W. Mecom Jr.", "notes": "NFL expansion franchise; Mecom's winning bid on December 15, 1966.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1985, "price": 70204000, "buyer": "Tom Benson", "seller": "John W. Mecom Jr.", "stakePct": 100, "notes": "Ownership transferred May 31, 1985.", "isEstimated": false, "sources": ["https://www.neworleanssaints.com/news/this-day-in-new-orleans-saints-history-may-31-17143001", "https://en.wikipedia.org/wiki/Tom_Benson"] },
+      { "year": 2018, "price": null, "buyer": "Gayle Benson", "seller": "Tom Benson estate", "stakePct": 100, "notes": "inheritance. Tom Benson died March 2018.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Gayle_Benson"] }
+    ]
+  },
+  {
+    "teamId": "tampa-bay-buccaneers",
+    "formation": { "year": 1974, "price": 16000000, "founder": "Hugh Culverhouse", "notes": "NFL expansion franchise, first awarded October 30, 1974 to Tom McCloskey, who backed out; it then went to Culverhouse.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1994, "price": null, "buyer": "Culverhouse estate trust", "seller": "Hugh Culverhouse", "stakePct": 100, "notes": "inheritance. Culverhouse died August 1994; trustees ran the team until the sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Hugh_Culverhouse"] },
+      { "year": 1995, "price": 192000000, "buyer": "Malcolm Glazer", "seller": "Culverhouse estate trust", "stakePct": 100, "notes": "Then the highest price ever paid for a pro sports franchise. (The earlier note calling this an expansion award was wrong.)", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Hugh_Culverhouse", "https://en.wikipedia.org/wiki/Malcolm_Glazer"] },
+      { "year": 2014, "price": null, "buyer": "Glazer family (Bryan, Joel, Edward Glazer et al.)", "seller": "Malcolm Glazer estate", "stakePct": 100, "notes": "inheritance. Malcolm Glazer died May 2014.", "isEstimated": false, "sources": ["https://www.nfl.com/news/malcolm-glazer-left-winning-stamp-on-tampa-bay-buccaneers-0ap2000000354139"] }
+    ]
+  },
+  {
+    "teamId": "arizona-cardinals",
+    "formation": { "year": 1898, "price": null, "founder": "Chris O'Brien (Morgan Athletic Club, Chicago)", "notes": "Charter APFA member in 1920 for a $100 franchise fee. Moved to St. Louis in 1960 and to Arizona in 1988.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1929, "price": 25000, "buyer": "Dr. David Jones", "seller": "Chris O'Brien", "stakePct": 100, "notes": "", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/David_Jones_(Cardinals_owner)", "https://en.wikipedia.org/wiki/Chris_O'Brien_(American_football)"] },
+      { "year": 1932, "price": 50000, "buyer": "Charles Bidwill", "seller": "Dr. David Jones", "stakePct": 100, "notes": "Agreed in 1932 but announced in 1933, which gave Bidwill time to sell his Bears stock.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Charles_Bidwill", "https://en.wikipedia.org/wiki/Bill_Bidwill"] },
+      { "year": 1947, "price": null, "buyer": "Violet Bidwill (later Wolfner)", "seller": "Charles Bidwill estate", "stakePct": 100, "notes": "inheritance. Charles Bidwill died April 1947.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Arizona_Cardinals"] },
+      { "year": 1962, "price": null, "buyer": "Charles 'Stormy' Bidwill Jr. & Bill Bidwill", "seller": "Violet Bidwill Wolfner estate", "stakePct": 100, "notes": "inheritance. Violet died January 1962.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Bidwill"] },
+      { "year": 1972, "price": null, "buyer": "Bill Bidwill", "seller": "Charles Bidwill Jr.", "stakePct": 50, "notes": "Bill bought out his brother and became sole owner in September 1972. Price not found.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Bidwill"] },
+      { "year": 2019, "price": null, "buyer": "Michael Bidwill / Bidwill family", "seller": "Bill Bidwill estate", "stakePct": null, "notes": "inheritance. Bill Bidwill died October 2, 2019.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Bill_Bidwill", "https://en.wikipedia.org/wiki/Arizona_Cardinals"] }
+    ]
+  },
+  {
+    "teamId": "los-angeles-rams",
+    "formation": { "year": 1936, "price": 10000, "founder": "Homer Marshman (Cleveland Rams)", "notes": "Founded in the second AFL (1936); joined the NFL in 1937 for a $10,000 franchise fee, plus $55,000 of capital. Moved to Los Angeles in 1946, St. Louis in 1995, and back to Los Angeles in 2016.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1941, "price": 100000, "buyer": "Dan Reeves & Fred Levy Jr.", "seller": "Homer Marshman and partners", "stakePct": 100, "notes": "June 1941. Reported as about $100,000 (Marshman Wikipedia) and $135,000 (Rams history).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Homer_Marshman", "https://en.wikipedia.org/wiki/History_of_the_Los_Angeles_Rams"] },
+      { "year": 1962, "price": 7100000, "buyer": "Dan Reeves", "seller": "Rams partners (incl. Edwin Pauley, Fred Levy)", "stakePct": null, "notes": "A league-run closed auction settled a partnership dispute. Reeves' bid valued the team at about $7.1M, and he secured majority control. Stake and cash paid are reported inconsistently.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Dan_Reeves_(American_football_executive)"] },
+      { "year": 1972, "price": 19000000, "buyer": "Robert Irsay", "seller": "Dan Reeves estate", "stakePct": 100, "notes": "Reeves died in 1971. Irsay bought the Rams (reported $19M; some sources say $12M) and immediately traded them for the Colts.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Los_Angeles_Rams", "https://en.wikipedia.org/wiki/Robert_Irsay"] },
+      { "year": 1972, "price": null, "buyer": "Carroll Rosenbloom", "seller": "Robert Irsay", "stakePct": 100, "notes": "Franchise swap: Rosenbloom traded the Baltimore Colts (plus cash) for the Rams.", "isEstimated": false, "sources": ["https://www.nfl.com/news/digging-into-the-colts-and-rams-1972-franchise-swap-was-the-greatest-biggest-tra"] },
+      { "year": 1979, "price": null, "buyer": "Georgia Frontiere", "seller": "Carroll Rosenbloom estate", "stakePct": 70, "notes": "inheritance. Rosenbloom drowned April 1979; his widow inherited 70%. Stan Kroenke bought a 40% minority stake in 1995.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/History_of_the_Los_Angeles_Rams", "https://en.wikipedia.org/wiki/Georgia_Frontiere"] },
+      { "year": 2008, "price": null, "buyer": "Chip Rosenbloom & Lucia Rodriguez", "seller": "Georgia Frontiere estate", "stakePct": 60, "notes": "inheritance. Frontiere died January 2008.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Georgia_Frontiere"] },
+      { "year": 2010, "price": 450000000, "buyer": "Stan Kroenke", "seller": "Chip Rosenbloom & Lucia Rodriguez", "stakePct": 60, "notes": "Kroenke used his right of first refusal to match Shahid Khan's agreed deal. Values 100% at $750M; approved August 2010.", "isEstimated": false, "sources": ["https://www.espn.com/nfl/news/story?id=5496516", "https://www.sportspro.com/news/arsenals_stan_kroenke_completes_lucrative_sale_of_sports_franchise/"] }
+    ]
+  },
+  {
+    "teamId": "san-francisco-49ers",
+    "formation": { "year": 1946, "price": 25000, "founder": "Tony Morabito (with brother Vic Morabito and lumber-business partners)", "notes": "AAFC charter team (first season 1946); joined the NFL in 1950. The $25,000 founding figure comes from secondary sources.", "isEstimated": true },
+    "saleHistory": [
+      { "year": 1957, "price": null, "buyer": "Josephine Morabito & Vic Morabito", "seller": "Tony Morabito estate", "stakePct": null, "notes": "inheritance. Tony Morabito died October 27, 1957.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Tony_Morabito"] },
+      { "year": 1964, "price": null, "buyer": "Josephine & Jane Morabito (widows)", "seller": "Vic Morabito estate", "stakePct": null, "notes": "inheritance. Vic Morabito died in 1964; the widows kept majority ownership until 1977.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Tony_Morabito"] },
+      { "year": 1977, "price": 17500000, "buyer": "Edward J. DeBartolo Jr. (DeBartolo family)", "seller": "Morabito widows", "stakePct": 85, "notes": "$17.5M for 85% (often rounded to $17M).", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Jr.", "https://www.washingtonpost.com/archive/sports/1977/03/01/purchaser-found-to-buy-49ers/4ba74531-8e6c-48d1-9ca2-23ad3a4c2bda/"] },
+      { "year": 2000, "price": null, "buyer": "Denise DeBartolo York & John York", "seller": "Edward J. DeBartolo Jr.", "stakePct": null, "notes": "Control moved to his sister through a family asset settlement, not a cash sale; Eddie received other family holdings.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Denise_DeBartolo_York", "https://www.sfgate.com/sports/article/DeBartolo-is-officially-out-of-the-49ers-family-2565257.php"] },
+      { "year": 2024, "price": null, "buyer": "Jed York", "seller": "Denise DeBartolo York (intra-family)", "stakePct": null, "notes": "Jed York bought equity from his mother to become principal owner (approval expected at the March 2024 league meeting); terms undisclosed. The 2025 sales of 9.2% at an $8.5B valuation were minority deals.", "isEstimated": false, "sources": ["https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/source-jed-york-principal-owner/1716767/", "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/jed-york-49ers-ownership-decision-reason/1717527/"] }
+    ]
+  },
+  {
+    "teamId": "seattle-seahawks",
+    "formation": { "year": 1974, "price": 16000000, "founder": "Nordstrom family (Lloyd W. Nordstrom) with Herman Sarkowsky and partners", "notes": "NFL expansion franchise, awarded June 1974; began play in 1976.", "isEstimated": false },
+    "saleHistory": [
+      { "year": 1988, "price": 80000000, "buyer": "Ken Behring & Ken Hofmann", "seller": "Nordstrom family / Sarkowsky group", "stakePct": 100, "notes": "Reported $80M; $79M and $99M have also been reported.", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Ken_Behring", "https://en.wikipedia.org/wiki/Seattle_Seahawks"] },
+      { "year": 1997, "price": 200000000, "buyer": "Paul Allen", "seller": "Ken Behring & Ken Hofmann", "stakePct": 100, "notes": "Allen took an option in 1996 and completed the purchase in 1997 after the stadium referendum. Reported as $200M (some sources say about $194M).", "isEstimated": true, "sources": ["https://en.wikipedia.org/wiki/Seattle_Seahawks", "https://en.wikipedia.org/wiki/Paul_Allen"] },
+      { "year": 2018, "price": null, "buyer": "Paul G. Allen estate (Jody Allen, trustee/chair)", "seller": "Paul Allen", "stakePct": 100, "notes": "inheritance. Allen died October 2018; the estate held the team until the 2026 sale.", "isEstimated": false, "sources": ["https://en.wikipedia.org/wiki/Jody_Allen", "https://en.wikipedia.org/wiki/Seattle_Seahawks"] },
+      { "year": 2026, "price": 9612000000, "buyer": "Khosla family group (Vinod Khosla chair; Neeru Khosla controlling owner; Neal Khosla vice chair)", "seller": "Paul G. Allen estate", "stakePct": 100, "notes": "Agreement announced July 11, 2026; unanimously approved by NFL owners August 26, 2026; closed September 3, 2026. An NFL record price. Co-investors include Carlyle, Sixth Street, Dynasty Equity and Penny Pritzker. The Khoslas had to give up their San Francisco 49ers stake.", "isEstimated": false, "sources": ["https://www.seahawks.com/news/estate-of-paul-g-allen-reaches-agreement-to-sell-seattle-seahawks", "https://www.nfl.com/news/nfl-owners-approve-sale-seattle-seahawks-khosla-family", "https://www.nfl.com/news/khosla-family-closes-purchase-seahawks", "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group"] }
+    ]
+  }
+]

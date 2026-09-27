@@ -1,0 +1,4 @@
+{
+  "MLS": "Every mls-valuations year returned an empty list when saved manually on 2026-09-27; Forbes publishes no MLS component breakdown in its list data.",
+  "NHL-note": "nhl-valuations 2025 and 2026 returned empty lists on 2026-09-27; the latest available NHL list is December 2024."
+}

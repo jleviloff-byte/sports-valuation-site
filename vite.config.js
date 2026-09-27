@@ -28,5 +28,8 @@ export default defineConfig({
     // Quiet the 500 KB warning — we accept a recharts chunk in the
     // 400-500 KB range since it's lazy-loaded after first paint.
     chunkSizeWarningLimit: 600,
+    // Source maps for the production bundle. The repo is public, so the maps
+    // expose nothing new, and they satisfy Lighthouse's valid-source-maps audit.
+    sourcemap: true,
   },
 })
