@@ -1,5 +1,5 @@
 // Parses Forbes list JSON files saved by hand into research/forbes-raw/
-// (see the README there; nothing here touches forbes.com).
+// (see research/FORBES_IMPORT.md; nothing here touches forbes.com).
 // Writes:
 //   data/forbes-breakdown.js          { teamId: { total, sport, market, stadium, brand, year, month, source, sumCheck } }
 //   research/raw/forbes-values.json   { teamId: [{ year, value }] }  ($B, list years)
@@ -67,7 +67,7 @@ const values = {}
 const unmatched = []
 const report = { files: [], sumFlags: [], noComponents: {} }
 
-const files = fs.existsSync(RAW_DIR) ? fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json') && f !== 'empty-leagues.json') : []
+const files = fs.existsSync(RAW_DIR) ? fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json')) : []
 for (const f of files) {
   const j = JSON.parse(fs.readFileSync(path.join(RAW_DIR, f), 'utf8'))
   const rows = j.organizationList?.organizationsLists ?? []
@@ -123,10 +123,10 @@ for (const [id, b] of Object.entries(breakdown)) out[id] = b.sport == null ? { .
 
 // Per league: 'loaded' (components present), 'no-components' (list saved, Forbes
 // publishes no split), or 'not-loaded' (no export saved yet).
-// research/forbes-raw/empty-leagues.json records leagues whose Forbes list came back
+// research/raw/forbes-empty-leagues.json records leagues whose Forbes list came back
 // empty for every year when saved by hand; those are treated as "no components".
 let emptyLeagues = {}
-try { emptyLeagues = JSON.parse(fs.readFileSync(path.join(RAW_DIR, 'empty-leagues.json'), 'utf8')) } catch {}
+try { emptyLeagues = JSON.parse(fs.readFileSync(path.join(ROOT, 'research', 'raw', 'forbes-empty-leagues.json'), 'utf8')) } catch {}
 
 const leagueStatus = {}
 for (const L of ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']) {
