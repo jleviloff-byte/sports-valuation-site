@@ -124,19 +124,10 @@ export default function ValuationsOverTime({ teams }) {
   return (
     <section className="border-t border-rule py-24">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow text-accent">The Macro Picture</span>
-          <div className="h-px flex-1 bg-rule" />
+        <div className="mb-6">
+          <h2 className="section-title text-2xl sm:text-3xl">Franchise values over time</h2>
+          <p className="text-sm text-graphite mt-1">Average Forbes valuation by league and list year.</p>
         </div>
-
-        <h2 className="section-title text-4xl sm:text-5xl lg:text-6xl max-w-4xl">
-          Franchise values over time.
-        </h2>
-        <div className="title-rule mb-6" />
-        <p className="text-base sm:text-lg text-graphite max-w-3xl mb-12 leading-relaxed">
-          Average franchise valuation by league, 2000–2024. The four major US leagues moved
-          together for two decades — then the NFL's media deals pulled it away.
-        </p>
 
         <div>
           <ResponsiveContainer width="100%" height={500}>

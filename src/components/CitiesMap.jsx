@@ -316,23 +316,16 @@ export default function CitiesMap({ teams }) {
   return (
     <section className="border-t border-rule py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow text-accent">Franchise Wealth by Metro</span>
-          <div className="h-px flex-1 bg-rule" />
-        </div>
-
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-2">
-          <h2 className="section-title text-4xl sm:text-5xl lg:text-6xl">Cities.</h2>
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-6">
+          <div>
+            <h2 className="section-title text-2xl sm:text-3xl">Cities</h2>
+            <p className="text-sm text-graphite mt-1">Combined franchise value by US metro across NFL, NBA, MLB, NHL and MLS. Click a bubble for the breakdown.</p>
+          </div>
           <div className="font-mono text-[10px] text-slate tracking-widest uppercase">
             <span className="text-ink font-bold">${totalLeagues.toFixed(0)}B</span> total ·{' '}
             <span className="text-ink font-bold">{cities.length}</span> metros
           </div>
         </div>
-        <div className="title-rule mb-6" />
-        <p className="text-base sm:text-lg text-graphite max-w-3xl mb-12 leading-relaxed">
-          Every US sports city plotted by combined franchise valuation across NFL, NBA, MLB, NHL,
-          and MLS. Click any bubble for the full breakdown.
-        </p>
 
         {/* Map — wrapped in a zoom/pan container with touch handlers */}
         <div

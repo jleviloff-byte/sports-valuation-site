@@ -215,14 +215,10 @@ export default function CompareTool({ teams }) {
   return (
     <section className="border-t border-rule py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow text-accent">Franchise Comparison</span>
-          <div className="h-px flex-1 bg-rule" />
-        </div>
-
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-2">
           <div>
-            <h2 className="section-title text-4xl sm:text-5xl lg:text-6xl">Compare teams.</h2>
+            <h2 className="section-title text-2xl sm:text-3xl">Compare teams</h2>
+            <p className="text-sm text-graphite mt-1">Up to {MAX_TEAMS} teams side by side on valuation, growth and the five-driver scores.</p>
           </div>
           {teamNames.length < MAX_TEAMS && (
             <button

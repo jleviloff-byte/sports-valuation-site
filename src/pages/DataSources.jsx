@@ -49,9 +49,8 @@ export default function DataSources() {
         <h1 className="section-title text-4xl sm:text-5xl">Data Sources &amp; Disclaimers</h1>
         <div className="title-rule mb-10" />
 
-        <p className="font-serif italic text-lg sm:text-xl leading-relaxed text-graphite border-l-4 border-accent pl-5 mb-10">
-          The model is built on hundreds of inputs assembled from publicly available
-          sources. The list below is what was used, and what each one was used for.
+        <p className="text-sm text-graphite mb-6">
+          Every source used on the site and what it was used for.
         </p>
 
         {/* Sources table — bordered rows, mono name + serif description */}

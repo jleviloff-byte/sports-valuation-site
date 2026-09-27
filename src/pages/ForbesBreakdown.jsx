@@ -67,13 +67,9 @@ export default function ForbesBreakdown() {
         </div>
         <h1 className="section-title text-4xl sm:text-5xl">Inside the Forbes Number</h1>
         <div className="title-rule mb-8" />
-        <p className="font-serif italic text-lg leading-relaxed text-graphite max-w-3xl mb-8">
-          Forbes splits every franchise into Sport, Market, Stadium, and Brand. The numbers on this
-          page are Forbes'. The notes under each chart are ours: where the top and bottom sit, where
-          the pack clusters, and why.{' '}
-          <Link to="/methodology#forbes-breakdown" className="not-italic font-sans text-sm font-semibold text-accent hover:text-accent-dark">
-            How to read it →
-          </Link>
+        <p className="text-sm text-graphite max-w-3xl mb-6">
+          Forbes' Sport, Market, Stadium and Brand values for every team in a league, with league notes under each chart.{' '}
+          <Link to="/methodology#forbes-breakdown" className="font-semibold text-accent hover:text-accent-dark">How to read it →</Link>
         </p>
 
         <div className="flex flex-wrap items-center gap-4 mb-10">

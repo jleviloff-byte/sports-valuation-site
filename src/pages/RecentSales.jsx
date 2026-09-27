@@ -384,13 +384,9 @@ export default function RecentSales() {
           Last updated: {fmtDate(lastUpdated)}
         </p>
         <div className="title-rule mb-8" />
-        <p className="font-serif italic text-lg leading-relaxed text-graphite max-w-3xl mb-8">
-          Forbes publishes a number. Buyers write a check. This is the gap between them: the{' '}
-          {PER_TYPE} most recent control sales and {PER_TYPE} most recent minority (LP) stakes
-          across the six leagues, each measured against the Forbes value on the day it was announced.{' '}
-          <Link to="/methodology#sale-prices" className="not-italic font-sans text-sm font-semibold text-accent hover:text-accent-dark">
-            Why prices differ →
-          </Link>
+        <p className="text-sm text-graphite max-w-3xl mb-6">
+          The {PER_TYPE} most recent control sales and {PER_TYPE} most recent minority stakes, each against the Forbes value on the day it was announced.{' '}
+          <Link to="/methodology#sale-prices" className="font-semibold text-accent hover:text-accent-dark">Why prices differ →</Link>
         </p>
         <PremiumSummary />
 

@@ -10,7 +10,6 @@ import {
 } from './utils/analytics.js'
 import TitleBar from './components/TitleBar.jsx'
 import LeagueExplorer from './components/LeagueExplorer.jsx'
-import { DriversExplainer, ProblemStats } from './components/Hero.jsx'
 import Ticker from './components/Ticker.jsx'
 
 // Heavy / below-the-fold components — lazy-loaded so the recharts + d3
@@ -103,13 +102,20 @@ function ScrollManager() {
   return null
 }
 
+// Span of Forbes list years behind the headline valuations (e.g. "2024–2026").
+const DATA_YEARS = (() => {
+  const ys = teams.map((t) => t.valuationYear).filter(Boolean)
+  const lo = Math.min(...ys)
+  const hi = Math.max(...ys)
+  return lo === hi ? String(hi) : `${lo}–${hi}`
+})()
+
 const MOBILE_NAV_LINKS = [
   { to: '/#explorer',     label: 'Explore Teams' },
   { to: '/#compare',      label: 'Compare' },
   { to: '/#cities',       label: 'Cities' },
   { to: '/recent-sales',  label: 'Recent Sales' },
   { to: '/forbes-breakdown', label: 'Forbes Breakdown' },
-  { to: '/methodology',   label: 'How We Built This' },
   { to: '/data-sources',  label: 'Data Sources' },
   { to: '/privacy',       label: 'Legal' },
 ]
@@ -185,14 +191,12 @@ function Nav() {
           {/* Desktop nav (lg+) */}
           <div className="hidden lg:flex items-center gap-4 xl:gap-5 whitespace-nowrap text-[10px] font-mono font-bold tracking-[0.18em] uppercase text-slate">
             <Link to="/#explorer"  className="hover:text-ink transition-colors">Explorer</Link>
-            <Link to="/#framework" className="hidden xl:inline hover:text-ink transition-colors">Framework</Link>
             <Link to="/#macro"     className="hidden xl:inline hover:text-ink transition-colors">Macro</Link>
             <Link to="/#cities"    className="hover:text-ink transition-colors">Cities</Link>
             <Link to="/#compare"   className="hover:text-ink transition-colors">Compare</Link>
             <span className="w-px h-4 bg-rule" aria-hidden="true" />
             <Link to="/recent-sales" className="hover:text-accent transition-colors">Recent Sales</Link>
             <Link to="/forbes-breakdown" className="hover:text-accent transition-colors">Forbes Breakdown</Link>
-            <Link to="/methodology"  className="hover:text-accent transition-colors">How We Built This</Link>
             <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
           </div>
 
@@ -241,7 +245,6 @@ function Footer() {
             </div>
             <ul className="space-y-2 text-sm">
               <li><Link to="/#explorer"  className="text-graphite hover:text-ink transition-colors">Explorer</Link></li>
-              <li><Link to="/#framework" className="text-graphite hover:text-ink transition-colors">Framework</Link></li>
               <li><Link to="/#macro"     className="text-graphite hover:text-ink transition-colors">Macro</Link></li>
               <li><Link to="/#cities"    className="text-graphite hover:text-ink transition-colors">Cities</Link></li>
               <li><Link to="/#compare"   className="text-graphite hover:text-ink transition-colors">Compare</Link></li>
@@ -286,7 +289,7 @@ function Footer() {
         {/* Bottom row — colophon */}
         <div className="border-t border-rule mt-6 pt-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <span className="font-mono text-[10px] text-slate tracking-widest uppercase">
-            What's My Team Worth &nbsp;·&nbsp; Data: Forbes 2024–2025 estimates &nbsp;·&nbsp; 174 franchises &nbsp;·&nbsp; 6 leagues
+            What's My Team Worth &nbsp;·&nbsp; Data: Forbes {DATA_YEARS} lists &nbsp;·&nbsp; {teams.length} franchises &nbsp;·&nbsp; 6 leagues
           </span>
           <span className="font-mono text-[10px] text-ash tracking-widest uppercase">
             © 2026 Josh Leviloff
@@ -294,25 +297,6 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
-}
-
-// Subtle banner under the hero linking to /methodology
-function MethodologyCallout() {
-  return (
-    <div className="border-b border-rule px-4 sm:px-6 lg:px-8 py-4 bg-paper">
-      <div className="max-w-7xl mx-auto">
-        <p className="font-serif italic text-sm text-graphite">
-          Wondering how we calculated these numbers?{' '}
-          <Link
-            to="/methodology"
-            className="font-sans not-italic font-semibold text-accent hover:text-accent-dark transition-colors tracking-wide"
-          >
-            Here's our methodology →
-          </Link>
-        </p>
-      </div>
-    </div>
   )
 }
 
@@ -367,19 +351,12 @@ function HomePage() {
   return (
     <>
       <main>
-        <TitleBar />
-        <MethodologyCallout />
+        <TitleBar teamCount={teams.length} />
         <LeagueExplorer
           teams={teams}
           onSelectTeam={handleSelectTeam}
           selectedTeam={selectedTeam}
         />
-
-        {/* Explanation & insights below the data */}
-        <div id="framework">
-          <DriversExplainer />
-        </div>
-        <ProblemStats />
 
         <div id="macro">
           <LazyOnVisible minHeight={620}>
