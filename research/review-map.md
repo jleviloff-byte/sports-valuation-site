@@ -2,6 +2,8 @@
 
 Every page and section that changed in this branch, with a URL to open it and what to look at. URLs are production; swap the host for `http://localhost:5173` on a dev server.
 
+Host note (2026-09-27): `whatsmyteamworth.com` has no DNS records in the .com zone right now (NXDOMAIN from the gTLD servers), so the links below only work with the host swapped to `https://sports-valuation-site.vercel.app` until the domain is fixed at the registrar.
+
 ## New pages
 
 | URL | What to look at |
