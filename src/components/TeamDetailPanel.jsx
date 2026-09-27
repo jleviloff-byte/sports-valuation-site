@@ -822,6 +822,10 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
   const ownership = enrichment?.ownership
   const media = enrichment?.media
   const hasForbesSplit = !!team.forbesBreakdown?.componentsPublished
+  // Typed figures the September 2026 refresh could not verify keep their value
+  // and say when they were last researched.
+  const asOf = (field) => (enrichment?.unverifiedAsOf?.[field] ? ` (as of ${enrichment.unverifiedAsOf[field]})` : '')
+  const venueKey = enrichment?.arena ? 'arena' : 'stadium'
   // Return on the controlling owner's purchase, computed from the live headline
   // rather than the typed-in string: multiple, years held, and annualized rate.
   const impliedReturn = (() => {
@@ -974,14 +978,14 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
                 <SectionHeader>Ownership</SectionHeader>
                 <div className="text-base font-semibold text-ink mb-1">{ownership.primaryOwner}</div>
                 {ownership.ownerNetWorth && (
-                  <div className="text-xs text-slate mb-3">Net worth: {ownership.ownerNetWorth} (estimate)</div>
+                  <div className="text-xs text-slate mb-3">Net worth: {ownership.ownerNetWorth} (estimate{asOf('ownership.ownerNetWorth') ? `, ${asOf('ownership.ownerNetWorth').trim().slice(1, -1)}` : ''})</div>
                 )}
                 {ownership.ownerBackground && (
                   <p className="text-sm text-graphite leading-relaxed mb-4">{ownership.ownerBackground}</p>
                 )}
                 <div className="bg-paper border border-rule rounded-sm p-4">
-                  <StatRow label="Acquired" value={ownership.acquisitionYear} />
-                  <StatRow label="Purchase price" value={fmtMoney(ownership.acquisitionPrice)} />
+                  <StatRow label="Acquired" value={ownership.acquisitionYear != null ? `${ownership.acquisitionYear}${asOf('ownership.acquisitionYear')}` : null} />
+                  <StatRow label="Purchase price" value={ownership.acquisitionPrice != null ? `${fmtMoney(ownership.acquisitionPrice)}${asOf('ownership.acquisitionPrice')}` : null} />
                   <StatRow label={`Forbes value (${team.valuationYear})`} value={fmtMoney(team.currentValuation)} />
                   <StatRow label="Implied return" value={impliedReturn} />
                 </div>
@@ -1034,14 +1038,14 @@ export default function TeamDetailPanel({ team, enrichment, onClose }) {
               </div>
               {venue && (
                 <div className="bg-paper border border-rule rounded-sm p-4">
-                  <StatRow label="Opened" value={venueYearOpened} />
-                  <StatRow label="Capacity" value={venue.capacity?.toLocaleString()} />
-                  {venue.publicSubsidy != null && <StatRow label="Public subsidy" value={`$${venue.publicSubsidy}M`} />}
-                  {venue.privateFinancing != null && <StatRow label="Private financing" value={`$${venue.privateFinancing}M`} />}
+                  <StatRow label="Opened" value={venueYearOpened != null ? `${venueYearOpened}${asOf(`${venueKey}.yearBuilt`) || asOf(`${venueKey}.yearOpened`)}` : null} />
+                  <StatRow label="Capacity" value={venue.capacity != null ? `${venue.capacity.toLocaleString()}${asOf(`${venueKey}.capacity`)}` : null} />
+                  {venue.publicSubsidy != null && <StatRow label="Public subsidy" value={`$${venue.publicSubsidy}M${asOf(`${venueKey}.publicSubsidy`)}`} />}
+                  {venue.privateFinancing != null && <StatRow label="Private financing" value={`$${venue.privateFinancing}M${asOf(`${venueKey}.privateFinancing`)}`} />}
                   {venue.namingRightsDeal && (
                     <StatRow
                       label="Naming rights"
-                      value={typeof venue.namingRightsDeal === 'string' ? venue.namingRightsDeal : `${venue.namingRightsDeal.sponsor}${venue.namingRightsDeal.annualValue_M ? ` · $${venue.namingRightsDeal.annualValue_M}M/yr` : ''}`}
+                      value={`${typeof venue.namingRightsDeal === 'string' ? venue.namingRightsDeal : `${venue.namingRightsDeal.sponsor}${venue.namingRightsDeal.annualValue_M ? ` · $${venue.namingRightsDeal.annualValue_M}M/yr` : ''}`}${asOf(`${venueKey}.namingRightsDeal`)}`}
                     />
                   )}
                 </div>

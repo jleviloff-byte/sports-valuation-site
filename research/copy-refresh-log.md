@@ -1,8 +1,8 @@
 # Copy refresh log
 
-Generated 2026-09-27 by `scripts/build-refresh.mjs`. Every team overview (analystNotes) rewritten and every fact changed in the September 2026 refresh, with the fact that changed it. Applied as an overlay in `data/enrichments.js`; the original enrichment files are untouched.
+Generated 2026-09-27 by `scripts/build-refresh.mjs`. Every team overview (analystNotes) rewritten and every fact changed in the September 2026 refresh, with the fact that changed it. Applied as an overlay in `data/enrichments.js`; the original enrichment files are untouched. Hand corrections live in `research/raw/refresh-fixes.json`.
 
-Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left unverified.
+Totals: 174 teams, 174 overviews rewritten, 990 field changes, 321 unverified items (77 kept with an "as of" label, 54 sentences removed, 3 resolved by hand, 187 listed for follow-up).
 
 ## NFL (32 teams)
 
@@ -19,8 +19,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.capacity`: 71608 → 60108. Seating capacity 60,108, smallest in the NFL (up to ~63,000-66,000 with standing room depending on event) [source](https://en.wikipedia.org/wiki/Highmark_Stadium)
 - `stadium.newStadiumPlans`: "New $1.54B Highmark Stadium under construction in Orchard Park, opening 2026; ~$850M pu..." → "Completed: new state-owned Highmark Stadium opened June 2026 at a final cost of roughly...". Final cost reported at $2.1-2.2B, the largest construction project in Western New York history [source](https://sports.yahoo.com/articles/bills-stadium-details-inside-cost-070002757.html)
 - `ownership.institutionalInvestors`: "Minority stake sale under exploration as of 2024" → "Arctos Partners bought ~10% (approved Dec 11, 2024) as part of a 20.6% limited-partner ...". Bills and Dolphins were the first NFL teams to add PE investors under the 2024 rule; NFL approved Dec 11, 2024 [source](https://www.buffalobills.com/news/buffalo-bills-welcome-10-new-limited-partners-to-ownership-group)
-- Unverified: stadium.namingRightsDeal: value of the Highmark deal on the new building not disclosed in any 2026 source found
-- Unverified: stadium.nonGameRevenue: no 2026 event-slate data found for the new building
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` value of the Highmark deal on the new building not disclosed in any 2026 source found
+- Unverified (listed for follow-up): `stadium.nonGameRevenue` no 2026 event-slate data found for the new building
 
 ### Miami Dolphins
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.4B, $810M revenue, $198M OI, $2.7B stadium component); Lin Bin 1% at $12.5B (transactions.js); Tua release and Willis signing March 2026.
@@ -31,7 +31,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Tua Tagovailoa — 4yr/$212.4M extension signed July 2024, $53.1M AAV, $167.2M guaranteed" → "Malik Willis, 3yr/$67.5M signed March 12, 2026, $45M fully guaranteed at signing; Tua T...". Dolphins released Tagovailoa in March 2026 and signed Willis as the presumptive starter [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-officially-release-tua-tagovailoa-with-post-june-1-designation)
 - `onField.starContracts`: "[{"player":"Tua Tagovailoa","position":"QB","aav":53.1,"contractNote":"4yr/$212.4M (Jul..." → "[{"player":"Malik Willis","position":"QB","aav":22.5,"contractNote":"3yr/$67.5M (March ...". Willis signed 3yr/$67.5M with $45M fully guaranteed [source](https://www.thephinsider.com/nfl-free-agency/116223/nfl-free-agents-2026-miami-dolphins-contract-malik-willis-guaranteed-money-three-years-saalry-cap)
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "Standard NFL package" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### New England Patriots
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.6B, $784M revenue, $186M OI); Super Bowl LX loss Feb 2026; Metropoulos/Sixth Street 8% at $9.0B (transactions.js).
@@ -44,7 +45,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Drake Maye — 4yr/$36.6M rookie contract (2024 draft pick No. 3), fully guaranteed; elig..." → "Drake Maye, 4yr/$36.6M rookie contract (2024 No. 3 pick), fully guaranteed; 2025 NFL MV...". Maye finished second in 2025 MVP voting; extension eligibility opens after 2026 [source](https://www.boston.com/sports/new-england-patriots/2026/08/05/new-england-patriots-drake-maye-contract-christian-gonzalez/)
 - `ownership.institutionalInvestors`: "Minority stake sold in 2025 at ~$9B implied team valuation (per CNBC report)" → "Sold 8% of new equity (Dean Metropoulos 5%, Sixth Street 3%) at a $9.0B pre-money valua...". Deal announced Sept 25, 2025 and approved Oct 22, 2025 at $9B pre-money [source](data/transactions.js (verified 2025-2026 NFL transactions))
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "Standard NFL package" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### New York Jets
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.35B, $716M revenue, $216M OI, $6.8B sport component); Geno Smith trade March 2026; no playoffs 2021-2025.
@@ -55,7 +57,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Justin Fields — 2yr/$40M deal signed March 2025, $20M AAV; traded to Kansas City mid-20..." → "Geno Smith, acquired from the Raiders in March 2026 for a swap of late-round picks; $26...". Jets traded a 2026 sixth-round pick for Smith and a seventh; Glenn confirmed Smith as the 2026 starter [source](https://www.espn.com/nfl/story/_/id/48164552/sources-jets-get-their-qb-trade-raiders-geno-smith)
 - `onField.starContracts`: "[{"player":"Justin Fields","position":"QB","aav":20,"contractNote":"2yr/$40M (March 202..." → "[{"player":"Geno Smith","position":"QB","aav":null,"contractNote":"2yr/$75M extension s...". Smith 2026 pay split: Raiders $16.2M, Jets remainder plus $1M raise [source](https://sports.yahoo.com/articles/jets-agree-geno-smith-contract-141845246.html)
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "Standard NFL package" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### Baltimore Ravens
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.2B, $656M revenue, $77M OI); M&T renovation complete 2026; Lamar extension talks paused Sept 2026; missed 2025 playoffs.
@@ -68,7 +71,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "Major renovation (up to ~$489M) under negotiation, with Maryland and Ravens splitting c..." → "Three-year, roughly $450-489M "Next Evolution" renovation of M&T Bank Stadium completed...". Ravens announced the renovation complete ahead of the 2026 season [source](https://www.baltimoreravens.com/news/ravens-renovation-project-mt-bank-stadium-complete-north-plaza-gate-a)
 - `stadium.nonGameRevenue`: "Limited — primarily football and select concerts; $430-489M renovation proposal under n..." → "Renovation added the Bud Light Talon open-air music venue, new club spaces and 29 video...". New open-air venue with music stage added in 2026 [source](https://www.baltimoreravens.com/news/ravens-renovation-project-mt-bank-stadium-complete-north-plaza-gate-a)
 - `onField.currentFranchiseQB`: "Lamar Jackson — 5yr/$260M extension signed May 2023, $52M AAV, $185M guaranteed" → "Lamar Jackson, 5yr/$260M (May 2023), $52M AAV, runs through 2027; extension talks pause...". Ravens and Jackson did not reach an extension before Week 1 2026 [source](https://www.profootballrumors.com/2026/09/ravens-lamar-jackson-will-not-reach-extension-agreement-prior-to-week-1)
-- Unverified: stadium.namingRightsDeal: current M&T annual value not disclosed
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` current M&T annual value not disclosed
 
 ### Cincinnati Bengals
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.0B, last in NFL; $613M revenue, $71M OI); 2025 Hamilton County lease and renovation; Chase extension March 2025; missed playoffs 2023-2025.
@@ -80,7 +83,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `stadium.newStadiumPlans`: null → "New lease through June 2036 (options to 2046) plus a phased renovation of Paycor Stadiu...". Lease finalized 2025; phase one began Feb 2026 [source](https://www.bengals.com/news/bengals-hamilton-county-finalize-new-lease-paycor-stadium-2025)
 - `onField.starContracts`: "[{"player":"Joe Burrow","position":"QB","aav":55,"contractNote":"5yr/$275M (Sept 2023),..." → "[{"player":"Joe Burrow","position":"QB","aav":55,"contractNote":"5yr/$275M (Sept 2023),...". Chase signed 4yr/$161M in March 2025 [source](https://www.nfl.com/news/bengals-agree-to-terms-with-wrs-ja-marr-chase-tee-higgins-on-four-year-contract-extensions)
-- Unverified: stadium.nonGameRevenue: no 2026 source on event revenue under the new lease
+- Unverified (listed for follow-up): `stadium.nonGameRevenue` no 2026 source on event revenue under the new lease
 
 ### Cleveland Browns
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.0B, $720M revenue, $110M OI); Arctos 3% at $9.0B May 2026; Brook Park groundbreaking April 2026; Watson 2026 starter.
@@ -93,7 +96,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: null → "Arctos Partners bought 3% at a $9.0B valuation (announced and approved May 19, 2026); p...". Arctos 3% at $9B, May 2026 [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `onField.currentFranchiseQB`: "Deshaun Watson — 5yr/$230M fully guaranteed signed 2022, $46M AAV; has missed extensive..." → "Deshaun Watson, named Week 1 2026 starter over Shedeur Sanders by new coach Todd Monken...". Watson named 2026 starter; contract structure forces a March 2027 decision [source](https://www.cbssports.com/nfl/news/browns-deshaun-watson-contract-release-2027/)
 - `onField.starContracts`: "[{"player":"Deshaun Watson","position":"QB","aav":46,"contractNote":"5yr/$230M (2022), ..." → "[{"player":"Deshaun Watson","position":"QB","aav":46,"contractNote":"5yr/$230M (2022), ...". Contract poison pill dated March 13, 2027 [source](https://www.cbssports.com/nfl/news/browns-deshaun-watson-contract-release-2027/)
-- Unverified: stadium.namingRightsDeal: Huntington terms for the new building still undisclosed
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Huntington terms for the new building still undisclosed
 
 ### Pittsburgh Steelers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.7B, $653M revenue, $74M OI, $539M brand component); Rodgers 2026 return and retirement statement; 2025 wild card loss to Houston.
@@ -105,7 +108,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Aaron Rodgers — 1yr/$13.65M base deal signed June 2025 ($19.5M max with incentives); te..." → "Aaron Rodgers, re-signed for 2026 on a one-year deal worth up to $25M under new head co...". Rodgers returned for 2026 and confirmed he will retire after the season [source](https://www.cbssports.com/nfl/news/aaron-rodgers-steelers-qb-retiring-after-2026-season/)
 - `onField.starContracts`: "[{"player":"Aaron Rodgers","position":"QB","aav":13.65,"contractNote":"1yr/$13.65M base..." → "[{"player":"Aaron Rodgers","position":"QB","aav":null,"contractNote":"1yr deal for 2026...". One-year contract worth up to $25M [source](https://www.steelers.com/news/steelers-sign-rodgers)
-- Unverified: onField.starContracts: Rodgers 2026 base salary vs. incentives split not found
+- Unverified (listed for follow-up): `onField.starContracts` Rodgers 2026 base salary vs. incentives split not found
 
 ### Houston Texans
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.65B, $722M revenue, $160M OI); Reliant rename Aug 2026; Stroud extension deferred; 2025 divisional-round loss at New England.
@@ -120,7 +123,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "As of May 2026, Cal McNair committed to staying at NRG Park site; renovation vs. new bu..." → "Texans committed to staying at Reliant Park beyond the 2032 lease expiry with renovatio...". Team and county pursuing renovation of the 2002 building [source](https://www.chron.com/sports/texans/article/texans-reliant-stadium-future-2032-lease-22240510.php)
 - `onField.currentFranchiseQB`: "C.J. Stroud" → "C.J. Stroud, final year of 4yr/$36.3M rookie deal in 2026; $25.9M fully guaranteed fift...". Texans and Stroud agreed to wait on an extension until after 2026 [source](https://www.espn.com/nfl/story/_/id/49917836/sources-cj-stroud-texans-table-extension-talks)
 - `onField.starContracts`: "[{"player":"C.J. Stroud","position":"QB","aav":9.1,"contractNote":"4-year, $36.3M rooki..." → "[{"player":"C.J. Stroud","position":"QB","aav":9.1,"contractNote":"4yr/$36.3M rookie de...". Fifth-year option exercised; talks deferred [source](https://www.espn.com/nfl/story/_/id/49917836/sources-cj-stroud-texans-table-extension-talks)
-- Unverified: stadium.newStadiumPlans: renovation cost and scope not yet published
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` renovation cost and scope not yet published
 
 ### Indianapolis Colts
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.08B, $626M revenue, $81M OI); Daniel Jones 2yr/$88M March 2026; no playoffs 2021-2025.
@@ -132,7 +135,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchiseQB`: "Anthony Richardson" → "Daniel Jones, re-signed March 2026 on 2yr/$88M (up to $100M), ~$49.4M guaranteed at sig...". Colts re-signed Jones after his 2025 breakout ended with an Achilles injury [source](https://www.nfl.com/news/colts-qb-daniel-jones-finalizing-two-year-88-million-deal)
 - `onField.starContracts`: "[{"player":"Anthony Richardson","position":"QB","aav":8.5,"contractNote":"4-year, $33.9..." → "[{"player":"Daniel Jones","position":"QB","aav":44,"contractNote":"2yr/$88M (March 2026...". Steichen named Jones the starter; Richardson backup [source](https://www.colts.com/news/daniel-jones-starting-quarterback-qb1-shane-steichen-anthony-richardson)
 - `ownership.ownerBackground`: "Jim Irsay (d. 2024) inherited franchise from father Robert Irsay in 1997; three daughte..." → "Jim Irsay (died May 21, 2025) inherited the franchise from father Robert Irsay in 1997;...". Correction: Jim Irsay died in May 2025, not 2024 [source](https://en.wikipedia.org/wiki/Jim_Irsay)
-- Unverified: stadium.namingRightsDeal: Lucas Oil deal expires ~2026 and no renewal announcement was found
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Lucas Oil deal expires ~2026 and no renewal announcement was found
 
 ### Jacksonville Jaguars
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.05B, 29th; $591M revenue, $31M OI); renovation progress 2026; 13-4 AFC South title and 2025 wild card loss to Buffalo.
@@ -142,7 +145,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `revenue.operatingIncome`: 139 → 31. Forbes Sept 2026 operating income $31M [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `stadium.newStadiumPlans`: "$1.4B 'Stadium of the Future' renovation (City $625M + Jaguars $625M + $150M maintenanc..." → "$1.4B Stadium of the Future renovation ~15% complete and on schedule as of spring 2026;...". 2026 capacity 42,507; Orlando in 2027; 2028 reopening [source](https://www.nfl.com/news/jaguars-everbank-stadium-renovation-2026-season)
-- Unverified: stadium.namingRightsDeal: EverBank extension beyond 2027 not found
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` EverBank extension beyond 2027 not found
 
 ### Tennessee Titans
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.5B, $607M revenue, $85M OI, $308M brand component); new stadium Feb 2027; Cam Ward rookie deal; Super Bowl LXIV award.
@@ -154,7 +157,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "New enclosed $2.1B Nissan Stadium under construction on East Bank of Cumberland River; ..." → "New enclosed $2.1B Nissan Stadium on track for February 2027 completion; roof cable-net...". Construction progress Aug 2026; Feb 2027 opening; Super Bowl LXIV awarded May 2026 [source](https://www.wsmv.com/2026/08/12/its-starting-feel-like-stadium-titans-share-construction-progress-new-nissan-stadium/)
 - `onField.currentFranchiseQB`: "Will Levis" → "Cam Ward, 2025 No. 1 overall pick, 4yr/$48.7M fully guaranteed rookie deal with fifth-y...". Ward signed a fully guaranteed $48.7M rookie contract in May 2025 and started as a rookie [source](https://www.espn.com/nfl/story/_/id/45258215/titans-sign-no-1-pick-cam-ward-four-year-rookie-deal)
 - `onField.starContracts`: "[{"player":"Will Levis","position":"QB","aav":2.4,"contractNote":"4-year, $9.54M rookie..." → "[{"player":"Cam Ward","position":"QB","aav":12.2,"contractNote":"4yr/$48.7M rookie deal...". Replaces stale Will Levis entry; Ward is the franchise QB [source](https://www.tennesseetitans.com/news/titans-sign-qb-cam-ward-to-rookie-contract)
-- Unverified: stadium.namingRightsDeal: Nissan annual value still undisclosed
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Nissan annual value still undisclosed
 
 ### Denver Broncos
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.4B, $695M revenue, $97M OI); 2025 AFC No. 1 seed and AFC title game loss; Burnham Yard Aug 2026 update; Nix extension timeline.
@@ -166,7 +169,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `stadium.newStadiumPlans`: "$4B new stadium at Burnham Yard site in Denver advancing; targeting 2031 opening; finan..." → "Burnham Yard stadium and mixed-use district still targeting a 2031 opening; updated mas...". Aug 2026 renderings; 2031 target; timeline questions [source](https://www.cbsnews.com/colorado/news/denver-broncos-burnham-yard-stadium-plans-questions/)
 - `onField.currentFranchiseQB`: "Bo Nix" → "Bo Nix, year three of 4yr/$18.6M rookie deal; extension-eligible January 2027 (Spotrac ...". Nix extension eligibility opens Jan 2027 [source](https://www.espn.com/nfl/story/_/id/49576234/bo-nix-denver-broncos-2026-season-super-bowl-expectations-long-term-contract-extension)
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### Kansas City Chiefs
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.8B, $644M revenue, $51M OI); Mahomes ACL tear Dec 2025 and 6-11 season; $504.75M contract June 2026; Wyandotte County stadium progress.
@@ -180,7 +184,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "Dec 2025: Chiefs announced intent to build new $3B stadium in Wyandotte County, Kansas;..." → "New $3B enclosed stadium near Kansas Speedway in Wyandotte County, Kansas: county appro...". STAR bonds approved Feb 2026; renderings July 2026; 2031 opening [source](https://www.kctv5.com/2026/07/22/espn-insider-drops-first-look-chiefs-new-3-billion-kansas-stadium/)
 - `onField.currentFranchiseQB`: "Patrick Mahomes" → "Patrick Mahomes, reworked in June 2026 into an 8yr/$504.75M deal through 2033 (up to $5...". First $500M NFL contract, June 2026 [source](https://www.nfl.com/news/chiefs-add-two-years-to-patrick-mahomes-contract-making-it-first-nfl-deal-valued-at-over-500-million)
 - `onField.starContracts`: "[{"player":"Patrick Mahomes","position":"QB","aav":45,"contractNote":"10-year, $450M ex..." → "[{"player":"Patrick Mahomes","position":"QB","aav":64,"contractNote":"8yr/$504.75M thro...". Extension through 2033 signed June 2026 [source](https://www.profootballrumors.com/2026/06/chiefs-patrick-mahomes-sign-extension-through-2033)
-- Unverified: stadium.namingRightsDeal: whether GEHA follows the team to Kansas not reported
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` whether GEHA follows the team to Kansas not reported
 
 ### Las Vegas Raiders
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.3B, $887M revenue, $191M OI, $2.8B stadium component); Durban LP deals March and May 2026 (transactions.js); Cousins signing and Mendoza No. 1 pick 2026.
@@ -193,7 +197,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: null → "Egon Durban bought 3.5% from Mark Davis at an $11.1B headline mark (approved March 31, ...". Durban is the pre-cleared successor to Davis [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `onField.currentFranchiseQB`: "Geno Smith" → "Kirk Cousins, signed April 2026 ($20M fully guaranteed for 2026, Atlanta paying $8.7M o...". Cousins named Week 1 starter over Mendoza [source](https://www.nfl.com/news/raiders-name-kirk-cousins-starting-fernando-mendoza-officially-backup)
 - `onField.starContracts`: "[{"player":"Geno Smith","position":"QB","aav":null,"contractNote":"Acquired as bridge s..." → "[{"player":"Kirk Cousins","position":"QB","aav":null,"contractNote":"Signed April 2026;...". Mendoza signed $57.27M rookie deal July 2026 [source](https://www.nfl.com/news/raiders-sign-2026-no-1-overall-pick-qb-fernando-mendoza-to-rookie-contract)
-- Unverified: ownership.ownerNetWorth: no 2026 update on Mark Davis net worth found
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 update on Mark Davis net worth found
 
 ### Los Angeles Chargers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.3B, 24th; $623M revenue, $57M OI, $755M stadium component vs $3.6B for the Rams); Arctos 8% May 2025; 2025 wild card loss at New England.
@@ -205,7 +209,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `ownership.ownershipGroup`: "[{"name":"Spanos family (Dean, Michael, Alexandria)","role":"majority controlling group..." → "[{"name":"Spanos family (Dean, Michael, Alexandria)","role":"majority controlling group...". Arctos bought 8% in May 2025; Spanos family retains ~61% [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `ownership.institutionalInvestors`: null → "Arctos Partners bought a passive 8% stake (approved May 20, 2025; valuation not disclos...". Arctos second NFL stake after the Bills [source](data/transactions.js (verified 2025-2026 NFL transactions))
-- Unverified: ownership.institutionalInvestors: Arctos deal valuation never disclosed
+- Unverified (listed for follow-up): `ownership.institutionalInvestors` Arctos deal valuation never disclosed
 
 ### Dallas Cowboys
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($17.0B, $1.278B revenue, $677M OI; market $3.8B, stadium $3.2B, brand $3.3B); no playoffs 2024-2025.
@@ -214,8 +218,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `revenue.year`: 2023 → 2025. Forbes Sept 2026 list reports 2025-season revenue [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `revenue.operatingIncome`: 350 → 677. Forbes Sept 2026 operating income $677M [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
-- Unverified: stadium.namingRightsDeal: AT&T renewal status beyond ~2029 not found
-- Unverified: ownership.ownerNetWorth: no 2026 update found
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` AT&T renewal status beyond ~2029 not found
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 update found
 
 ### New York Giants
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($12.0B, 2nd; $769M revenue, $181M OI, $7.3B sport component); Koch 10% at $10.3B Oct 2025; Dart as starter.
@@ -228,8 +232,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: null → "Julia Koch and family bought 10% at a $10.3B valuation (announced Sept 3, approved Oct ...". Koch 10% at $10.3B [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `onField.currentFranchiseQB`: "No established franchise QB as of 2025; Tommy DeVito re-signed on 1-year/$1.03M deal; t..." → "Jaxson Dart, 2025 first-round pick, replaced Russell Wilson as starter in Week 4 of 202...". Dart named starter Sept 2025; 2026 QB room Dart/Winston/Allen [source](https://sports.yahoo.com/articles/giants-quarterback-room-projection-2026-211955953.html)
 - `onField.starContracts`: [] → "[{"player":"Jaxson Dart","position":"QB","aav":null,"contractNote":"2025 first-round ro...". Replaces empty list; Dart is the franchise QB [source](https://www.espn.com/nfl/story/_/id/46356208/giants-bench-qb-russell-wilson-start-jaxson-dart)
-- Unverified: onField.starContracts: Dart rookie contract value not pulled
-- Unverified: ownership.ownershipGroup: exact post-Koch split between the Mara and Tisch families not disclosed
+- Unverified (listed for follow-up): `onField.starContracts` Dart rookie contract value not pulled
+- Unverified (listed for follow-up): `ownership.ownershipGroup` exact post-Koch split between the Mara and Tisch families not disclosed
 
 ### Philadelphia Eagles
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.25B, $713M revenue, $154M OI); Super Bowl LIX title (Feb 2025); five straight playoff seasons 2021-2025; 8% sale at $8.3B Dec 2024.
@@ -241,7 +245,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.championshipsLast10Years`: 1 → 2. Super Bowl wins for seasons 2016-2025: 2 [source](https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions)
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `ownership.institutionalInvestors`: null → "Sold 8% to two family groups (Susan Kim; Zack Peskowitz and Olivia Peskowitz Suter) at ...". NFL approved the 8% sale at $8.3B in Dec 2024 [source](https://www.cnbc.com/2024/12/11/nfl-philadelphia-eagles-minority-stake-sale.html)
-- Unverified: stadium.newStadiumPlans: Lincoln Financial Field renovation scope and cost not found in 2026 sources
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` Lincoln Financial Field renovation scope and cost not found in 2026 sources
 
 ### Washington Commanders
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.8B, $694M revenue, $121M OI, $1.35B stadium component); RFK approvals Sept 2025 and master plan Sept 2026; Daniels injury 2026.
@@ -252,7 +256,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `stadium.newStadiumPlans`: "New stadium planned at RFK Stadium site in Washington D.C., targeting 2030 opening; pen..." → "$3.7B RFK-site project: D.C. Council gave final approval Sept 17, 2025 (District ~$1B f...". Master plan filed Sept 24, 2026; bids this fall; foundations spring 2027 [source](https://www.axios.com/local/washington-dc/2026/09/24/rfk-stadium-development-commanders)
 - `onField.currentFranchiseQB`: "Jayden Daniels — 4yr/$37.7M fully guaranteed rookie contract (2024 #2 overall pick), $9..." → "Jayden Daniels, year three of 4yr/$37.7M fully guaranteed rookie deal (2024 No. 2 pick)...". Daniels re-injured his left elbow in 2026 [source](https://sports.yahoo.com/articles/jayden-daniels-injury-might-ominous-181619088.html)
-- Unverified: stadium.newStadiumPlans: seat count reported as both 65,000 and 70,000+ across sources
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` seat count reported as both 65,000 and 70,000+ across sources
 
 ### Chicago Bears
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.7B, $656M revenue, $73M OI, $7.0B sport component); Hammond stadium developments Feb-June 2026; 2025 NFC North title; McKenna stake at $8.9B.
@@ -266,7 +270,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.ownershipGroup`: "[{"name":"George H. McCaskey","role":"chairman","pct":null},{"name":"McCaskey family","..." → "[{"name":"George H. McCaskey","role":"chairman","pct":null},{"name":"McCaskey family","...". Post-2025 split: McCaskeys 77%, Ryans 23% [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `ownership.institutionalInvestors`: "Minority stake (est. $235M for ~3.8% stake) sold to PE-affiliated group in 2024 as part..." → "No private-equity investor; the late Andrew McKenna's 2.35% stake was bought by the McC...". Corrects the earlier note about a 2024 PE stake; the 2025 deal was intra-ownership [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `onField.currentFranchiseQB`: "Caleb Williams — 4yr/$39.5M fully guaranteed rookie contract (#1 overall pick 2024), ~$..." → "Caleb Williams, year three of 4yr/$39.5M fully guaranteed rookie deal (2024 No. 1 pick)...". Extension eligible after 2026; Poles says planning under way [source](https://chicago.suntimes.com/bears/2026/09/01/money-isnt-everything-with-a-big-contract-in-reach-qb-caleb-williams-wants-to-make-sure-bears-keep-winning)
-- Unverified: stadium.newStadiumPlans: total Hammond project cost not yet published
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` total Hammond project cost not yet published
 
 ### Detroit Lions
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.04B, 30th; $617M revenue, $53M OI); missed 2025 playoffs after 2023-2024 appearances; Goff through 2028.
@@ -275,7 +279,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `revenue.year`: 2024 → 2025. Forbes Sept 2026 list reports 2025-season revenue [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `revenue.operatingIncome`: 56 → 53. Forbes Sept 2026 operating income $53M [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
-- Unverified: stadium.namingRightsDeal: Ford extension terms through 2036 still undisclosed
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Ford extension terms through 2036 still undisclosed
 
 ### Green Bay Packers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.6B, $5.4B sport component); Packers FY2026 report July 2026; four playoff seasons 2021-2025 (2025 wild card loss at Chicago).
@@ -285,7 +289,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `revenue.estimate`: 654 → 753. Packers FY2026 report (April 2025-March 2026): $753M total revenue, up 4.7%; $453.2M national share; $299.8M local [source](https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy)
 - `revenue.year`: 2023 → 2026. Fiscal year ended March 2026 [source](https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy)
 - `revenue.operatingIncome`: 60 → -1.1. Packers reported a $1.1M operating loss for FY2026 (Forbes Sept 2026 estimates $73M); total profit $132.5M [source](https://fox11online.com/sports/packers-and-nfl/green-bay-financial-report-fiscal-year-2026-total-revenue-operating-income-network-sale-broadcasting-act-president-ceo-ed-policy)
-- Unverified: onField.starContracts: Micah Parsons trade/contract (Aug 2025) not verified in this pass
+- Unverified (listed for follow-up): `onField.starContracts` Micah Parsons trade/contract (Aug 2025) not verified in this pass
 
 ### Minnesota Vikings
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.25B, $640M revenue, $25M OI, lowest in NFL); Murray signing March 2026 and starter decision Aug 2026.
@@ -296,7 +300,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "J.J. McCarthy — 4yr/$21.85M fully guaranteed rookie contract (2024 #10 overall pick), ~..." → "Kyler Murray, signed a 1yr league-minimum ($1.3M) deal in March 2026 after Arizona rele...". Vikings signed Murray for the minimum; O'Connell named him starter in camp [source](https://www.nfl.com/news/vikings-sign-kyler-murray-one-year-deal-release-cardinals)
 - `onField.starContracts`: "[{"player":"J.J. McCarthy","position":"QB","aav":5.46,"contractNote":"4yr/$21.85M rooki..." → "[{"player":"Kyler Murray","position":"QB","aav":1.3,"contractNote":"1yr/$1.3M (March 20...". McCarthy demoted to QB2 Aug 2026 [source](https://www.espn.com/nfl/story/_/id/49594059/jj-mccarthy-says-vikings-qb-decision-control-wants-remain-minnesota)
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "Standard NFL package" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### Atlanta Falcons
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.1B, $805M revenue, $240M OI, $2.6B stadium component); Arctos 10% at $10.6B Aug 2026 (transactions.js); QB changes 2026; no playoffs 2021-2025.
@@ -309,7 +314,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: null → "Arctos Partners agreed in Aug 2026 to buy 10% at a blended $10.6B valuation (reported f...". Announced Aug 20, 2026; pending league approval [source](data/transactions.js (verified 2025-2026 NFL transactions))
 - `onField.currentFranchiseQB`: "Kirk Cousins" → "Michael Penix Jr., 2024 No. 8 pick on his rookie deal, returned from a partially torn A...". Penix named starter for Week 3 2026; Cousins gone; Tua on a minimum deal [source](https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers)
 - `onField.starContracts`: "[{"player":"Kirk Cousins","position":"QB","aav":45,"contractNote":"4yr/$180M signed 202..." → "[{"player":"Michael Penix Jr.","position":"QB","aav":null,"contractNote":"2024 first-ro...". Cousins signed with Las Vegas April 2026 [source](https://www.nfl.com/news/former-falcons-qb-kirk-cousins-signing-with-raiders)
-- Unverified: onField.starContracts: Penix rookie contract value not pulled
+- Unverified (listed for follow-up): `onField.starContracts` Penix rookie contract value not pulled
 
 ### Carolina Panthers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.1B, $646M revenue, $88M OI); 2025 NFC South title at 8-9 and wild card loss to the Rams; Young extension deferred.
@@ -320,7 +325,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 0 → 1. Playoff seasons 2021-2025: 2025 [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_NFL_playoffs)
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Bryce Young" → "Bryce Young, final year of 4yr/$37.96M rookie deal in 2026; fifth-year option exercised...". Panthers waiting until 2027 on a Young extension [source](https://www.profootballrumors.com/2026/08/no-2026-extension-expected-between-panthers-qb-bryce-young)
-- Unverified: stadium.newStadiumPlans: 2026 renovation phase progress not found
+- Unverified (kept; rendered "as of May 2026"): `stadium.newStadiumPlans` 2026 renovation phase progress not found
 
 ### New Orleans Saints
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.02B, 31st; $642M revenue, $165M OI); Shough as 2026 starter; no playoffs 2021-2025.
@@ -332,8 +337,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Derek Carr" → "Tyler Shough, 2025 second-round pick, went 5-4 in nine starts as a rookie and enters 20...". Saints committed to Shough as 2026 starter [source](https://www.espn.com/nfl/story/_/id/47541318/saints-committed-tyler-shough-starting-qb-2026)
 - `onField.starContracts`: "[{"player":"Derek Carr","position":"QB","aav":37.5,"contractNote":"4yr/$150M signed 202..." → "[{"player":"Tyler Shough","position":"QB","aav":null,"contractNote":"2025 second-round ...". Replaces Carr entry (Carr retired May 2025, not 2024) [source](https://www.espn.com/nfl/story/_/id/47541318/saints-committed-tyler-shough-starting-qb-2026)
-- Unverified: onField.starContracts: Shough rookie contract value not pulled
-- Unverified: stadium.newStadiumPlans: Superdome renovation completion status not re-verified
+- Unverified (listed for follow-up): `onField.starContracts` Shough rookie contract value not pulled
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` Superdome renovation completion status not re-verified
 
 ### Tampa Bay Buccaneers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.1B, $657M revenue, $95M OI); Mayfield extension Sept 2026; stadium upgrade talks 2026; missed 2025 playoffs after four straight.
@@ -346,7 +351,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "$1B+ modernization project underway as of 2026" → "Bucs seeking roughly $1B in Raymond James Stadium upgrades including a sunshade, offeri...". $1B upgrade ask; lease decision Jan 2027 [source](https://www.fox13news.com/news/tampa-bay-buccaneers-raymond-james-stadium-upgrades-2027-lease-decision)
 - `onField.currentFranchiseQB`: "Baker Mayfield" → "Baker Mayfield, 3yr/$165M extension signed Sept 8, 2026, $55M AAV, runs through 2029". Extension agreed five days before the 2026 opener [source](https://www.nfl.com/news/nfl-network-buccaneers-qb-baker-mayfield-agree-to-three-year-contract-extension)
 - `onField.starContracts`: "[{"player":"Baker Mayfield","position":"QB","aav":33.3,"contractNote":"3yr/$100M signed..." → "[{"player":"Baker Mayfield","position":"QB","aav":55,"contractNote":"3yr/$165M extensio...". Mayfield 3yr/$165M Sept 2026 [source](https://www.nfl.com/news/nfl-network-buccaneers-qb-baker-mayfield-agree-to-three-year-contract-extension)
-- Unverified: stadium.namingRightsDeal: no Raymond James extension beyond 2027 announced
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` no Raymond James extension beyond 2027 announced
 
 ### Arizona Cardinals
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($8.06B, 28th; $600M revenue, $119M OI); Murray release March 2026; 3-14 in 2025.
@@ -357,7 +362,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Kyler Murray" → "Jacoby Brissett, year two of a 2yr/$12.5M deal, Week 1 2026 starter and team captain af...". Cardinals released Murray March 2026; Brissett starts 2026 [source](https://www.azcardinals.com/news/cardinals-officially-release-kyler-murray-after-7-seasons)
 - `onField.starContracts`: "[{"player":"Kyler Murray","position":"QB","aav":46.1,"contractNote":"5yr/$230.5M extens..." → "[{"player":"Jacoby Brissett","position":"QB","aav":6.25,"contractNote":"2yr/$12.5M (202...". Murray removed; ~$55M of dead cap split over 2026-27 [source](https://www.azcardinals.com/news/cardinals-roster-reset-quarterback)
-- Unverified: stadium.namingRightsDeal: State Farm terms still confidential
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` State Farm terms still confidential
 
 ### Los Angeles Rams
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($13.5B, 3rd; $898M revenue, $335M OI, $3.6B stadium component); Stafford MVP and April 2026 extension; 2025 NFC title game loss at Seattle.
@@ -369,7 +374,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `onField.currentFranchiseQB`: "Matthew Stafford" → "Matthew Stafford, 2025 NFL MVP (league-leading 4,707 yards and 46 TD); signed a 1yr/$55...". Stafford extension April 2026 [source](https://www.nfl.com/news/report-rams-qb-matthew-stafford-agree-to-one-year-55-million-contract-extension)
 - `onField.starContracts`: "[{"player":"Matthew Stafford","position":"QB","aav":42,"contractNote":"2yr/$84M extensi..." → "[{"player":"Matthew Stafford","position":"QB","aav":55,"contractNote":"1yr/$55M extensi...". Replaces 2023 deal note [source](https://www.therams.com/news/matthew-stafford-signs-contract-extension-2026)
-- Unverified: media.streamingNotes: no 2026 source found
+- `media.streamingNotes`: "" → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (sentence removed from the profile): `media.streamingNotes` no 2026 source found
 
 ### San Francisco 49ers
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($10.5B, $752M revenue, $126M OI); 2025 LP sales at $8.6B; Super Bowl LX host Feb 2026; 2025 divisional loss at Seattle.
@@ -379,7 +385,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `revenue.operatingIncome`: 115 → 126. Forbes Sept 2026 operating income $126M [source](data/forbes-breakdown.js (Forbes NFL valuations, September 2026))
 - `media.nationalShareNote`: "~$340M/year from NFL national deal (2023-2033)" → "~$453M/year national revenue per team (Packers FY2026 report: $14.5B shared league-wide...". Packers FY2026 annual report (year to March 2026) puts the per-team national share at $453.2M [source](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-annual-report-reveals-14-5-billion-in-shared-nfl-revenue)
 - `ownership.institutionalInvestors`: null → "Two 2025 LP sales at an $8.6B valuation: the Khosla, Deeter and Griffith families bough...". Two 2025 minority sales at $8.6B [source](data/transactions.js (verified 2025-2026 NFL transactions))
-- Unverified: stadium.namingRightsDeal.annualValue: proxies list null; enrichment $17M/yr from the 2024 extension retained
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal.annualValue` proxies list null; enrichment $17M/yr from the 2024 extension retained
 
 ### Seattle Seahawks
 - **Overview rewritten.** Basis: Forbes Sept 2026 ($9.6B, $659M revenue, $130M OI); Super Bowl LX win Feb 8, 2026; $9.612B Khosla sale approved Aug 26, 2026 (transactions.js).
@@ -399,7 +405,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: null → "Sixth Street 3%; Carlyle and Dynasty Equity a combined 3%, all part of the 2026 Khosla ...". PE co-investors in the control sale [source](https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/)
 - `onField.currentFranchiseQB`: "Sam Darnold" → "Sam Darnold, 3yr/$100.5M (2025), earned all $4M of 2025 incentives; $27.5M in 2026 with...". No extension before the 2026 season [source](https://heavy.com/sports/nfl/seattle-seahawks/sam-darnold-contract-decision-extension/)
 - `onField.starContracts`: "[{"player":"Sam Darnold","position":"QB","aav":33.5,"contractNote":"3yr/$100.5M signed ..." → "[{"player":"Sam Darnold","position":"QB","aav":33.5,"contractNote":"3yr/$100.5M (2025),...". Contract status Sept 2026 [source](https://www.spotrac.com/nfl/player/_/id/25098/sam-darnold)
-- Unverified: ownership.ownerNetWorth: Khosla family net worth not verified; old Allen-estate figure retained
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` Khosla family net worth not verified; old Allen-estate figure retained
 
 ## NBA (30 teams)
 
@@ -408,15 +414,15 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.acquisitionYear`: 2024 → 2025. Chisholm group sale agreed March 20, 2025 (51% control at $6.1B) per transactions.js; 2024 was the announcement of intent to sell [source](data/transactions.js)
 - `onField.starContracts`: "[{"player":"Jayson Tatum","position":"SF/PF","aav":63,"contractNote":"5yr/$315M superma..." → "[{"player":"Jayson Tatum","position":"SF/PF","aav":63,"contractNote":"5yr/$315M superma...". Jaylen Brown was traded to the 76ers on July 6, 2026 for Paul George and picks; George is on the books at $54.1M/$56.6M [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/BOS.html)
 - `onField.currentFranchisePlayer`: "Jayson Tatum — 5yr/$315M supermax extension signed Oct 2023, $63M AAV, runs through 202..." → "Jayson Tatum, 5yr/$315M supermax (Oct 2023), $63M AAV, through 2029-30; Jaylen Brown tr...". Brown-for-George swap July 6, 2026 [source](https://www.nba.com/news/nba-offseason-deals-2026)
-- Unverified: ownership.ownershipGroup: Wikipedia's owners list shows Chisholm 51% with Grousbeck, Mittal, Beal, Hale and Sixth Street as minority holders; percentages beyond 51/49 not sourced
-- Unverified: arena.namingRightsDeal: no 2026 TD Garden renewal terms found
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Wikipedia's owners list shows Chisholm 51% with Grousbeck, Mittal, Beal, Hale and Sixth Street as minority holders; percentages beyond 51/49 not sourced
+- Unverified (kept; rendered "as of May 2026"): `arena.namingRightsDeal` no 2026 TD Garden renewal terms found
 
 ### Brooklyn Nets
 - **Overview rewritten.** Basis: Forbes 2025 ($5.6B, $402M revenue); Koch stake from enrichment; 2022-2026 playoff record; July 2026 Randle trade (Wikipedia transactions, BBR contracts).
 - `onField.currentFranchisePlayer`: "Cam Thomas — emerging franchise player; contract extension expected" → "Julius Randle, acquired from Minnesota in the July 10, 2026 four-team LaMelo Ball trade...". Randle arrived with the draft rights to No. 28 pick Joshua Jefferson; he is the highest-paid Net for 2026-27 [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/BRK.html)
 - `onField.starContracts`: "[{"player":"Cam Thomas","position":"SG","aav":33,"contractNote":"Extension expected; pr..." → "[{"player":"Julius Randle","position":"PF","aav":34.6,"contractNote":"Acquired from Min...". Randle is the only Net above $16M for 2026-27; Nic Claxton was sent to Chicago in the same trade [source](https://www.basketball-reference.com/contracts/BRK.html)
-- Unverified: Cam Thomas status: not on the Nets' 2026-27 contract table at Basketball-Reference; his 2026 destination was not sourced
-- Unverified: ownership.ownershipGroup: no 2026 change to the Tsai/Koch structure found, but not re-verified
+- Unverified (listed for follow-up): Cam Thomas status: not on the Nets' 2026-27 contract table at Basketball-Reference; his 2026 destination was not sourced
+- Unverified (listed for follow-up): `ownership.ownershipGroup` no 2026 change to the Tsai/Koch structure found, but not re-verified
 
 ### New York Knicks
 - **Overview rewritten.** Basis: Forbes 2025 ($9.75B, $532M revenue); 2026 Finals result and Finals MVP (BBR); BBR 2026-27 contracts.
@@ -424,8 +430,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Playoffs in 2023, 2024, 2025 and 2026 (window 2022-2026); swept Cleveland in the 2026 East finals and Philadelphia in the second round [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Jalen Brunson — 4yr/$156.5M extension signed July 2023, $39.1M AAV, runs through 2026-27" → "Jalen Brunson, 2026 Finals MVP; $37.7M in 2026-27 rising to $43.3M in 2028-29". Brunson is under contract through 2028-29 per Basketball-Reference ($37.7M, $40.5M, $43.3M) [source](https://www.basketball-reference.com/contracts/NYK.html)
 - `onField.starContracts`: "[{"player":"Jalen Brunson","position":"PG","aav":39.1,"contractNote":"4yr/$156.5M exten..." → "[{"player":"Jalen Brunson","position":"PG","aav":40.5,"contractNote":"2026 Finals MVP; ...". Salary figures per Basketball-Reference contracts table; Knicks 2026-27 payroll $230.2M [source](https://www.basketball-reference.com/contracts/NYK.html)
-- Unverified: media.localTVDeal: MSG Network still carries the team per Wikipedia 2026-27 season page, but no 2026 rights-fee update found
-- Unverified: The Knicks also won the 2025 NBA Cup per Wikipedia; not added as a field
+- `media.localTVDeal`: "MSG Network (owned by MSG Sports Corp — same entity as the Knicks; vertically integrate..." → null. Removed: not verifiable as of September 2026 (MSG Network still carries the team per Wikipedia 2026-27 season page, but no 2026 rights-fee update found)
+- Unverified (sentence removed from the profile): `media.localTVDeal` MSG Network still carries the team per Wikipedia 2026-27 season page, but no 2026 rights-fee update found
+- Unverified (listed for follow-up): The Knicks also won the 2025 NBA Cup per Wikipedia; not added as a field
 
 ### Philadelphia 76ers
 - **Overview rewritten.** Basis: Forbes 2025 ($5.45B, $472M revenue, $203M operating income); Sept 2026 arena renderings (Inquirer, Wikipedia); 2026 playoffs (BBR); July 2026 trades and signings (Wikipedia transactions, ESPN, BBR contracts).
@@ -434,24 +441,25 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Playoffs in 2022, 2023, 2024 and 2026; beat Boston 4-3 in the 2026 first round, swept by New York in round two [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Joel Embiid — max extension signed 2024, $64.3M AAV, through 2028-29" → "Joel Embiid ($58.1M in 2026-27, through 2028-29) and Jaylen Brown, acquired from Boston...". Brown-for-George trade and LeBron's two-year, $8M signing with a player option [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts)
 - `onField.starContracts`: "[{"player":"Joel Embiid","position":"C","aav":64.3,"contractNote":"3yr/$192.9M max exte..." → "[{"player":"Joel Embiid","position":"C","aav":62.7,"contractNote":"$58.1M (2026-27), $6...". Paul George traded to Boston; Brown and LeBron added; figures per Basketball-Reference [source](https://www.basketball-reference.com/contracts/PHI.html)
-- Unverified: arena.namingRightsDeal: Xfinity Mobile naming sponsor value not sourced (enrichment still lists Wells Fargo)
-- Unverified: New arena cost: reported only as undisclosed and privately funded
+- Unverified (kept; rendered "as of May 2026"): `arena.namingRightsDeal` Xfinity Mobile naming sponsor value not sourced (enrichment still lists Wells Fargo)
+- Unverified (listed for follow-up): New arena cost: reported only as undisclosed and privately funded
 
 ### Toronto Raptors
 - **Overview rewritten.** Basis: Forbes 2025 ($5.4B, $380M revenue); MLSE Wikipedia ownership and equity figures; 2026 playoffs (BBR); Sept 2026 Kawhi trade (Wikipedia season page, BBR contracts, Hoops Rumors extension tracker).
 - `ownership.ownershipGroup`: "[{"name":"Rogers Communications","role":"majority shareholder (75%) of MLSE","pct":"75%..." → "[{"name":"Rogers Communications","role":"majority shareholder (75%) of MLSE","pct":"75%...". Wikipedia's MLSE page (April 2026) lists Kilmer Sports at 25% split Tanenbaum 20% / OMERS 5%, with an editor note that the Rogers buyout is expected to close in Q4 2026; MLSE equity value listed at CA$17.4B (2026) vs CA$12.5B (2024) [source](https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment)
 - `onField.currentFranchisePlayer`: "Scottie Barnes — 5yr/$225M supermax extension signed July 2024, $45M AAV, effective 202..." → "Scottie Barnes ($41.8M in 2026-27, through 2029-30) plus Kawhi Leonard, reacquired from...". Kawhi trade agreed June 30, 2026 but held until September 14 during the NBA's Clippers cap-circumvention investigation; extension per Hoops Rumors [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Toronto_Raptors_season ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
 - `onField.starContracts`: "[{"player":"Scottie Barnes","position":"PF/SF","aav":45,"contractNote":"5yr/$225M super..." → "[{"player":"Kawhi Leonard","position":"SF","aav":55.1,"contractNote":"Reacquired from L...". Figures per Basketball-Reference; Raptors 2026-27 payroll $205.1M [source](https://www.basketball-reference.com/contracts/TOR.html)
-- Unverified: media.localTVDeal: Wikipedia 2026-27 page lists TSN and Sportsnet; no 2026 Canadian rights renewal terms found
-- Unverified: MLSE CA$17.4B 2026 equity figure is from the Wikipedia infobox and was not traced to its underlying source
+- `media.localTVDeal`: "Sportsnet (Rogers Communications regional network — same parent as majority MLSE owner;..." → null. Removed: not verifiable as of September 2026 (Wikipedia 2026-27 page lists TSN and Sportsnet; no 2026 Canadian rights renewal terms found)
+- Unverified (sentence removed from the profile): `media.localTVDeal` Wikipedia 2026-27 page lists TSN and Sportsnet; no 2026 Canadian rights renewal terms found
+- Unverified (listed for follow-up): MLSE CA$17.4B 2026 equity figure is from the Wikipedia infobox and was not traced to its underlying source
 
 ### Chicago Bulls
 - **Overview rewritten.** Basis: Forbes 2025 ($6.0B, $434M revenue); 2022-2026 playoff record (BBR); BBR 2026-27 contracts; Wikipedia 2026-27 season page.
 - `onField.playoffAppearancesLast5Years`: 2 → 1. Only the 2022 playoffs fall in the 2022-2026 window; Chicago missed the 2026 playoffs [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Zach LaVine — 5yr/$215.2M max signed July 2022, $43M AAV, through 2026-27" → "Josh Giddey ($25M per year through 2028-29); Zach LaVine was traded to Sacramento in Fe...". LaVine is on Sacramento's books at $49.0M for 2026-27; Giddey is Chicago's highest-paid player [source](https://www.basketball-reference.com/contracts/CHI.html ; https://www.basketball-reference.com/contracts/SAC.html)
 - `onField.starContracts`: "[{"player":"Zach LaVine","position":"SG","aav":43,"contractNote":"5yr/$215.2M max (July..." → "[{"player":"Josh Giddey","position":"PG","aav":25,"contractNote":"$25M per year through...". Per Basketball-Reference 2026-27 contracts; Vucevic and LaVine no longer on the roster [source](https://www.basketball-reference.com/contracts/CHI.html)
-- Unverified: Head coach Billy Donovan stepped down April 21, 2026 per Wikipedia; successor not sourced
-- Unverified: ownership: no 2026 Reinsdorf succession or sale news found
+- Unverified (listed for follow-up): Head coach Billy Donovan stepped down April 21, 2026 per Wikipedia; successor not sourced
+- Unverified (listed for follow-up): ownership: no 2026 Reinsdorf succession or sale news found
 
 ### Cleveland Cavaliers
 - **Overview rewritten.** Basis: Forbes 2025 ($4.8B, $440M revenue); 2026 playoffs (BBR); Sept 2026 DAZN deal (SI, Cleveland 19); Mitchell extension (Hoops Rumors); BBR 2026-27 contracts.
@@ -460,7 +468,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Playoffs 2023-2026; reached the 2026 Eastern Conference finals (beat Toronto 4-3 and Detroit 4-3, swept by New York) [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Donovan Mitchell — extension signed 2023, $32.7M AAV; Evan Mobley max extension $53.8M ..." → "Donovan Mitchell, 4yr/$273M max extension signed July 2026 starting 2027-28 (35% of cap...". Mitchell extension per Hoops Rumors ($275.968M projected) and ESPN ($273M) [source](https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
 - `onField.starContracts`: "[{"player":"Donovan Mitchell","position":"SG/PG","aav":32.7,"contractNote":"5yr/$163.5M..." → "[{"player":"Donovan Mitchell","position":"SG/PG","aav":68.2,"contractNote":"$50.1M in 2...". Garland traded to the Clippers Feb 2026; Harden acquired and re-signed; figures per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/CLE.html)
-- Unverified: DAZN rights fee: not disclosed; league guidance was that former FanDuel teams recover up to roughly 60% of lost 2025-26 fees from the Main Street wind-down
+- Unverified (listed for follow-up): DAZN rights fee: not disclosed; league guidance was that former FanDuel teams recover up to roughly 60% of lost 2025-26 fees from the Main Street wind-down
 
 ### Detroit Pistons
 - **Overview rewritten.** Basis: Forbes 2025 ($3.65B, $321M revenue); 2026 playoffs (BBR); Scripps WMYD per Wikipedia 2026-27 page; BBR contracts; Hoops Rumors extension tracker.
@@ -468,8 +476,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Standard NBA League Pass; Diamond Sports Group RSN availability subject to ongoing bank..." → "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-ou...". League guidance per Hoops Rumors (April 2026) [source](https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html)
 - `onField.playoffAppearancesLast5Years`: 0 → 2. Playoffs in 2025 and 2026; beat Orlando 4-3 in the 2026 first round, lost 4-3 to Cleveland in round two; won the Central Division in 2025-26 [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.starContracts`: "[{"player":"Cade Cunningham","position":"PG","aav":44.8,"contractNote":"5yr/$224M max e..." → "[{"player":"Cade Cunningham","position":"PG","aav":55.7,"contractNote":"$50.1M (2026-27...". Cunningham figures and Thompson extension per Basketball-Reference and Hoops Rumors; Duren not among the top contracts on the 2026-27 table [source](https://www.basketball-reference.com/contracts/DET.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
-- Unverified: Scripps rights fee and deal length not disclosed
-- Unverified: Jalen Duren contract status: not visible on BBR top rows for 2026-27; not re-verified
+- Unverified (listed for follow-up): Scripps rights fee and deal length not disclosed
+- Unverified (listed for follow-up): Jalen Duren contract status: not visible on BBR top rows for 2026-27; not re-verified
 
 ### Indiana Pacers
 - **Overview rewritten.** Basis: Forbes 2025 ($4.2B, $342M revenue); Wikipedia 2026-27 Pacers page (Haliburton injury, playoff miss); BBR contracts; Yahoo DAZN report.
@@ -477,8 +485,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 2. Playoffs in 2024 and 2025 within the 2022-2026 window; missed the 2026 playoffs after Tyrese Haliburton's Achilles injury in Game 7 of the 2025 Finals [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Indiana_Pacers_season ; https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Tyrese Haliburton — 5yr/$224M max extension (2023), $44.8M AAV, through 2027-28; led Pa..." → "Tyrese Haliburton, $48.9M in 2026-27 rising to $55.7M in 2028-29; missed 2025-26 after ...". Salary schedule per Basketball-Reference; Haliburton injury and 2026 playoff miss per Wikipedia [source](https://www.basketball-reference.com/contracts/IND.html)
 - `onField.starContracts`: "[{"player":"Tyrese Haliburton","position":"PG","aav":44.8,"contractNote":"5yr/$224M max..." → "[{"player":"Tyrese Haliburton","position":"PG","aav":52.3,"contractNote":"$48.9M (2026-...". Turner signed with the Bucks in July 2025; Zubac is Indiana's center per the 2026-27 contract table [source](https://www.basketball-reference.com/contracts/IND.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions)
-- Unverified: DAZN Pacers deal: reported as expected, not announced; fee unknown
-- Unverified: ownership.ownershipGroup: Steven Rales stake listed as pending in enrichment; closing not re-verified
+- Unverified (listed for follow-up): DAZN Pacers deal: reported as expected, not announced; fee unknown
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Steven Rales stake listed as pending in enrichment; closing not re-verified
 
 ### Atlanta Hawks
 - **Overview rewritten.** Basis: Forbes 2025 ($5.0B, $477M revenue, $203M operating income); Jan 2026 Trae Young trade (Wikipedia); 2026 playoffs (BBR); WANF per Sports Media Watch; BBR contracts.
@@ -486,7 +494,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Standard NBA League Pass" → "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-ou...". League guidance per Hoops Rumors (April 2026) [source](https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html)
 - `onField.currentFranchisePlayer`: "Trae Young — 5yr/$215M max extension (2021), $43M AAV, through 2025-26; Jalen Johnson e..." → "Jalen Johnson ($30M per year through 2029-30); Trae Young was traded to Washington on J...". Trae Young trade per Wikipedia 2025-26 transactions; Johnson is the highest-paid Hawk for 2026-27 [source](https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/ATL.html)
 - `onField.starContracts`: "[{"player":"Trae Young","position":"PG","aav":43,"contractNote":"5yr/$215M max (2021), ..." → "[{"player":"Jalen Johnson","position":"SF","aav":30,"contractNote":"$30M per year throu...". Per Basketball-Reference; Jonathan Kuminga (acquired Feb 2026) is on Minnesota's 2026-27 books, not Atlanta's [source](https://www.basketball-reference.com/contracts/ATL.html)
-- Unverified: WANF rights fee and term not disclosed
+- Unverified (listed for follow-up): WANF rights fee and term not disclosed
 
 ### Charlotte Hornets
 - **Overview rewritten.** Basis: Forbes 2025 ($3.8B, $328M revenue); July 2026 LaMelo trade (Wikipedia transactions, BBR); Aug 2026 Cox/DAZN deals (Hoops Rumors, Sports Media Watch); 2026 play-in (Wikipedia).
@@ -495,7 +503,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 1 → 0. No playoff appearances 2022-2026; Charlotte reached the 2026 play-in tournament (first since 2022) but did not advance [source](https://en.wikipedia.org/wiki/2026_NBA_playoffs)
 - `onField.currentFranchisePlayer`: "LaMelo Ball — 5yr/$204M max extension (2023), $40.8M AAV, through 2027-28" → "LaMelo Ball was traded to Minnesota on July 10, 2026 in a four-team deal that returned ...". Ball trade per Wikipedia 2026-27 transactions; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/CHO.html)
 - `onField.starContracts`: "[{"player":"LaMelo Ball","position":"PG","aav":40.8,"contractNote":"5yr/$204M max (2023..." → "[{"player":"Naz Reid","position":"C/PF","aav":25.9,"contractNote":"Acquired from Minnes...". Per Basketball-Reference 2026-27 contracts [source](https://www.basketball-reference.com/contracts/CHO.html)
-- Unverified: Spectrum Center renovation completion status in 2026 not sourced
+- Unverified (listed for follow-up): Spectrum Center renovation completion status in 2026 not sourced
 
 ### Miami Heat
 - **Overview rewritten.** Basis: Forbes 2025 ($5.7B, $417M revenue); July 2026 Giannis trade (Wikipedia, NBA.com, BBR contracts); WPLG deal (Local 10, Sports Media Watch); 2026 play-in (Wikipedia).
@@ -503,7 +511,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Standard NBA League Pass" → "No pay-TV RSN for 2026-27; NBA asked the 13 former FanDuel teams for one-year or opt-ou...". League guidance per Hoops Rumors (April 2026) [source](https://www.hoopsrumors.com/2026/04/nba-tells-13-teams-to-look-for-new-regional-tv-deals.html)
 - `onField.currentFranchisePlayer`: "Bam Adebayo — 5yr/$195M (2021), $39M AAV; Jimmy Butler traded to Golden State January 2025" → "Giannis Antetokounmpo, acquired from Milwaukee July 6, 2026 with Bobby Portis for Tyler...". Giannis trade per Wikipedia 2026-27 transactions and NBA.com; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Miami_Heat_season ; https://www.basketball-reference.com/contracts/MIA.html)
 - `onField.starContracts`: "[{"player":"Bam Adebayo","position":"C","aav":39,"contractNote":"5yr/$195M (2021), thro..." → "[{"player":"Giannis Antetokounmpo","position":"PF","aav":60.6,"contractNote":"Acquired ...". Herro traded to Milwaukee; figures per Basketball-Reference and the Hoops Rumors extension tracker [source](https://www.basketball-reference.com/contracts/MIA.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
-- Unverified: WPLG rights fee and deal length not disclosed
+- Unverified (listed for follow-up): WPLG rights fee and deal length not disclosed
 
 ### Orlando Magic
 - **Overview rewritten.** Basis: Forbes 2025 ($3.9B, $318M revenue); 2026 playoffs and coaching change (BBR, Wikipedia); Aug 2026 Cox/DAZN deals (Hoops Rumors, Sports Media Watch); BBR contracts.
@@ -511,8 +519,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Standard NBA League Pass" → "DAZN direct-to-consumer stream for in-market games from 2026-27 alongside the Cox over-...". Per Hoops Rumors and Sports Media Watch [source](https://www.sportsmediawatch.com/2026/08/hornets-magic-new-local-rights-deals-streaming-ota/)
 - `onField.playoffAppearancesLast5Years`: 2 → 3. Playoffs in 2024, 2025 and 2026; lost 4-3 to Detroit in the 2026 first round; head coach Jamahl Mosley fired May 4, 2026 [source](https://www.basketball-reference.com/playoffs/NBA_2026.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Orlando_Magic_season)
 - `onField.starContracts`: "[{"player":"Paolo Banchero","position":"SF","aav":47.8,"contractNote":"5yr/$239M max ex..." → "[{"player":"Paolo Banchero","position":"SF","aav":48.1,"contractNote":"$41.5M (2026-27)...". Per Basketball-Reference; Orlando's 2026-27 payroll is $223.3M [source](https://www.basketball-reference.com/contracts/ORL.html)
-- Unverified: New head coach after Mosley's May 2026 dismissal not sourced
-- Unverified: Cox deal length not announced
+- Unverified (listed for follow-up): New head coach after Mosley's May 2026 dismissal not sourced
+- Unverified (listed for follow-up): Cox deal length not announced
 
 ### Washington Wizards
 - **Overview rewritten.** Basis: Forbes 2025 ($4.7B, $389M revenue); Aug/Sept 2026 renovation updates (RMNB, WJLA); Jan/Feb 2026 trades and July 2026 Young deal (Wikipedia, NBA.com, BBR contracts).
@@ -521,8 +529,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 1 → 0. No playoffs 2022-2026 [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Alexandre Sarr (#2 pick 2024) — on rookie contract; full franchise rebuild underway" → "Trae Young, acquired from Atlanta January 9, 2026 and re-signed in July 2026 on a four-...". Young trade per Wikipedia 2025-26 transactions; four-year re-signing per NBA.com; salary schedule per Basketball-Reference; Davis trade per Wikipedia (Feb 2026 multi-team deal) [source](https://www.nba.com/news/nba-offseason-deals-2026 ; https://www.basketball-reference.com/contracts/WAS.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions)
 - `onField.starContracts`: "[{"player":"Kyle Kuzma","position":"SF","aav":25.5,"contractNote":"4yr/$102M (2022), th..." → "[{"player":"Anthony Davis","position":"C/PF","aav":60.6,"contractNote":"Acquired from D...". Kuzma was traded to Milwaukee in 2025; figures per Basketball-Reference [source](https://www.basketball-reference.com/contracts/WAS.html)
-- Unverified: Monumental's exact share of the $1B-plus renovation budget not stated in 2026 sources (prior figure $285M)
-- Unverified: Dybantsa draft slot not sourced beyond the contract table
+- Unverified (listed for follow-up): Monumental's exact share of the $1B-plus renovation budget not stated in 2026 sources (prior figure $285M)
+- Unverified (listed for follow-up): Dybantsa draft slot not sourced beyond the contract table
 
 ### Milwaukee Bucks
 - **Overview rewritten.** Basis: Forbes 2025 ($4.3B, $355M revenue, $26M operating income); July 2026 Giannis trade and July 2025 Lillard waiver (Wikipedia); BBR contracts; WVTV per Wikipedia 2026-27 page.
@@ -531,15 +539,15 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 5 → 4. Playoffs 2022-2025; missed the 2026 playoffs [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Giannis Antetokounmpo — 3yr/$186M extension (2023), $62M AAV, through 2027-28; Damian L..." → "Giannis Antetokounmpo was traded to Miami on July 6, 2026 for Tyler Herro, Jaime Jaquez...". Trade per Wikipedia 2026-27 transactions; Lillard waiver per Wikipedia 2025-26 transactions [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Milwaukee_Bucks_season ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions)
 - `onField.starContracts`: "[{"player":"Giannis Antetokounmpo","position":"PF","aav":62,"contractNote":"3yr/$186M e..." → "[{"player":"Tyler Herro","position":"SG","aav":33,"contractNote":"Acquired from Miami J...". Per Basketball-Reference; Bucks 2026-27 payroll $193.8M with only $116.8M committed for 2027-28 [source](https://www.basketball-reference.com/contracts/MIL.html)
-- Unverified: WVTV rights fee and term not disclosed
-- Unverified: ownership.ownershipGroup: Edens/Haslam split not re-verified in 2026
+- Unverified (listed for follow-up): WVTV rights fee and term not disclosed
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Edens/Haslam split not re-verified in 2026
 
 ### Denver Nuggets
 - **Overview rewritten.** Basis: Forbes 2025 ($4.6B, $364M revenue); 2026 playoffs (BBR); BBR 2026-27 contracts; Hoops Rumors extension tracker (no Jokic entry).
 - `onField.currentFranchisePlayer`: "Nikola Jokic — 5yr/$270M supermax (2022), $54M AAV, through 2026-27; 3× MVP, 2023 champ..." → "Nikola Jokic, $59.0M in 2026-27 and $62.8M in 2027-28 (contract runs through 2027-28); ...". Salary schedule per Basketball-Reference shows Jokic under contract through 2027-28 [source](https://www.basketball-reference.com/contracts/DEN.html)
 - `onField.starContracts`: "[{"player":"Nikola Jokic","position":"C","aav":54,"contractNote":"5yr/$270M supermax (2..." → "[{"player":"Nikola Jokic","position":"C","aav":60.9,"contractNote":"$59.0M (2026-27), $...". Per Basketball-Reference; Denver's 2026-27 payroll is $221.1M, with DeMar DeRozan added Sept 8, 2026 [source](https://www.basketball-reference.com/contracts/DEN.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions)
-- Unverified: No 2026 Jokic extension found in the Hoops Rumors tracker; his 2027-28 season remains the last under contract
-- Unverified: Wikipedia lists Ann Walton Kroenke as the Nuggets' owner of record (long-standing KSE structure); enrichment's Stan Kroenke/KSE framing left as is
+- Unverified (listed for follow-up): No 2026 Jokic extension found in the Hoops Rumors tracker; his 2027-28 season remains the last under contract
+- Unverified (listed for follow-up): Wikipedia lists Ann Walton Kroenke as the Nuggets' owner of record (long-standing KSE structure); enrichment's Stan Kroenke/KSE framing left as is
 
 ### Minnesota Timberwolves
 - **Overview rewritten.** Basis: Forbes 2025 ($3.6B, -$41M operating income); transactions.js Stad deal ($4.5B, Aug 2026); 2026 playoffs (BBR); July 2026 DAZN deal; July 2026 LaMelo trade; BBR contracts.
@@ -550,8 +558,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 5. Playoffs every year 2022-2026; beat Denver 4-2 in the 2026 first round, lost 4-2 to San Antonio in round two [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Anthony Edwards — 5yr/$245M max extension (2023), $49M AAV, through 2027-28" → "Anthony Edwards, $48.9M in 2026-27 rising to $55.7M in 2028-29, paired with LaMelo Ball...". Ball trade cost Julius Randle, Naz Reid, three first-round swaps and a 2033 first; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/MIN.html)
 - `onField.starContracts`: "[{"player":"Anthony Edwards","position":"SG","aav":49,"contractNote":"5yr/$245M max (20..." → "[{"player":"Anthony Edwards","position":"SG","aav":52.3,"contractNote":"$48.9M (2026-27...". Per Basketball-Reference; 2026-27 payroll $215.3M [source](https://www.basketball-reference.com/contracts/MIN.html)
-- Unverified: DAZN rights fee not disclosed; five-year term with opt-out is from the Star Tribune (page returned 429 on direct fetch, relied on search summary)
-- Unverified: arena.newArenaPlans: no 2026 Target Center replacement announcement found
+- Unverified (listed for follow-up): DAZN rights fee not disclosed; five-year term with opt-out is from the Star Tribune (page returned 429 on direct fetch, relied on search summary)
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 Target Center replacement announcement found
 
 ### Oklahoma City Thunder
 - **Overview rewritten.** Basis: Forbes 2025 ($4.35B, $357M revenue); okc.gov groundbreaking release (March 2026); 2026 playoffs and 2025-26 MVP (BBR, Wikipedia); BBR contracts; Griffin Media per Wikipedia 2026-27 page.
@@ -561,7 +569,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 3. Playoffs 2024, 2025 and 2026; swept Phoenix and the Lakers in 2026, then lost the West finals 4-3 to San Antonio [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Shai Gilgeous-Alexander — 4yr/$285M supermax extension (2025), $71.25M AAV — richest si..." → "Shai Gilgeous-Alexander, 2025-26 MVP (second straight); $40.8M in 2026-27, then the 4yr...". MVP per Wikipedia 2025-26 season page; salary schedule per Basketball-Reference [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season ; https://www.basketball-reference.com/contracts/OKC.html)
 - `onField.starContracts`: "[{"player":"Shai Gilgeous-Alexander","position":"PG","aav":71.25,"contractNote":"4yr/$2..." → "[{"player":"Shai Gilgeous-Alexander","position":"PG","aav":71.25,"contractNote":"4yr/$2...". Holmgren and Williams extensions are now on the books at identical $41.5M-to-$54.8M schedules; 2026-27 payroll $216.2M, 2027-28 $237.7M [source](https://www.basketball-reference.com/contracts/OKC.html)
-- Unverified: Griffin Media deal terms not disclosed; primary announcement not retrieved
+- Unverified (listed for follow-up): Griffin Media deal terms not disclosed; primary announcement not retrieved
 
 ### Portland Trail Blazers
 - **Overview rewritten.** Basis: Forbes 2025 ($4.25B, $361M revenue); transactions.js Dundon tranches; 2026 playoffs (BBR); June 2026 Morant trade and BBR contracts; Wikipedia 2026-27 season and Moda Center pages.
@@ -569,9 +577,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 1. One appearance in the 2022-2026 window: lost 4-1 to San Antonio in the 2026 first round [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Scoot Henderson (#3 pick 2023) — on rookie scale; full franchise rebuild underway" → "Ja Morant, acquired from Memphis June 29, 2026 for Jerami Grant and Kris Murray; $42.2M...". Morant trade per Wikipedia 2026-27 transactions; Lillard signing per 2025-26 transactions; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/POR.html)
 - `onField.starContracts`: "[{"player":"Scoot Henderson","position":"PG","aav":10.5,"contractNote":"Rookie scale co..." → "[{"player":"Ja Morant","position":"PG","aav":43.5,"contractNote":"Acquired from Memphis...". Per Basketball-Reference; 2026-27 payroll $194.5M [source](https://www.basketball-reference.com/contracts/POR.html)
-- Unverified: ownership.acquisitionYear: transactions.js dates the Dundon tranche-1 close 2025-09-13, while Wikipedia's Moda Center and owners pages say the purchase closed in March 2026; transactions.js kept as the established record, flagged for review
-- Unverified: arena.newArenaPlans: Wikipedia says Dundon's representatives secured state and local commitments to finance Moda Center renovations in 2025, but the $365M Oregon approval status in 2026 was not sourced
-- Unverified: New head coach Micah Nori listed on the 2026-27 season page; hire date not sourced
+- Unverified (resolved in refresh-fixes.json): `ownership.acquisitionYear` transactions.js dates the Dundon tranche-1 close 2025-09-13, while Wikipedia's Moda Center and owners pages say the purchase closed in March 2026; transactions.js kept as the established record, flagged for review
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` Wikipedia says Dundon's representatives secured state and local commitments to finance Moda Center renovations in 2025, but the $365M Oregon approval status in 2026 was not sourced
+- Unverified (listed for follow-up): New head coach Micah Nori listed on the 2026-27 season page; hire date not sourced
 
 ### Utah Jazz
 - **Overview rewritten.** Basis: Forbes 2025 ($4.1B, $340M revenue); Sept 2026 Delta Center Phase 2 coverage (Deseret, SEG); Feb 2026 Jackson trade and July 2026 Kessler trade (Wikipedia); BBR contracts; Hoops Rumors extension tracker.
@@ -580,15 +588,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 1. Only 2022 falls in the 2022-2026 window; Utah missed the 2026 playoffs and holds the No. 2 pick of the 2026 draft (Darryn Peterson) [source](https://www.basketball-reference.com/playoffs/NBA_2026.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_Utah_Jazz_season)
 - `onField.currentFranchisePlayer`: "Lauri Markkanen — 5yr/$238M (2023), $47.6M AAV, through 2027-28; franchise in rebuild w..." → "Jaren Jackson Jr., acquired from Memphis February 3, 2026 for three first-round picks a...". Jackson trade per Wikipedia 2025-26 transactions; George extension per Hoops Rumors; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
 - `onField.starContracts`: "[{"player":"Lauri Markkanen","position":"PF","aav":47.6,"contractNote":"5yr/$238M (2023..." → "[{"player":"Jaren Jackson Jr.","position":"PF/C","aav":51.3,"contractNote":"Acquired fr...". Per Basketball-Reference and Hoops Rumors; Walker Kessler was sign-and-traded to the Lakers July 8, 2026 for two first-round picks and two swaps [source](https://www.basketball-reference.com/contracts/UTA.html)
-- Unverified: Total private cost of the Delta Center rebuild not stated in 2026 coverage
-- Unverified: media.localTVDeal: Wikipedia lists KJZZ-TV, KUTV, Jazz+ (Kiswe) and Root Sports Northwest; the enrichment's ~$15M in-house figure not re-verified
+- `media.localTVDeal`: "Smith Entertainment Group in-house media operations, ~$15M/yr — integrates Jazz and Uta..." → null. Removed: not verifiable as of September 2026 (Wikipedia lists KJZZ-TV, KUTV, Jazz+ (Kiswe) and Root Sports Northwest; the enrichment's ~$15M in-house figure not re-verified)
+- Unverified (listed for follow-up): Total private cost of the Delta Center rebuild not stated in 2026 coverage
+- Unverified (sentence removed from the profile): `media.localTVDeal` Wikipedia lists KJZZ-TV, KUTV, Jazz+ (Kiswe) and Root Sports Northwest; the enrichment's ~$15M in-house figure not re-verified
 
 ### Golden State Warriors
 - **Overview rewritten.** Basis: Forbes 2025 ($11.0B, $880M revenue, $409M operating income); 2026 play-in (Wikipedia); Curry extension (Hoops Rumors); BBR contracts; Feb 2026 Porzingis trade (Wikipedia).
 - `onField.championshipsLast10Years`: 4 → 3. Titles in 2017, 2018 and 2022 fall inside the 2017-2026 window; the 2015 title no longer does [source](https://www.basketball-reference.com/playoffs/)
 - `onField.currentFranchisePlayer`: "Stephen Curry — 3yr extension signed Aug 2023, $55.8M AAV, through 2028-29" → "Stephen Curry, $62.6M in 2026-27, then a 2yr/$116M extension signed July 2026 covering ...". Extension per Hoops Rumors and ESPN; 2026-27 salary per Basketball-Reference [source](https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://www.basketball-reference.com/contracts/GSW.html)
 - `onField.starContracts`: "[{"player":"Stephen Curry","position":"PG","aav":55.8,"contractNote":"3yr extension (Au..." → "[{"player":"Stephen Curry","position":"PG","aav":58,"contractNote":"$62.6M (2026-27), t...". Per Basketball-Reference and Wikipedia transactions; only $60.8M is committed for 2027-28 before the Curry extension [source](https://www.basketball-reference.com/contracts/GSW.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions)
-- Unverified: ownership.ownershipGroup: no 2026 Arctos or other minority stake transaction found; not re-verified
+- Unverified (listed for follow-up): `ownership.ownershipGroup` no 2026 Arctos or other minority stake transaction found; not re-verified
 
 ### Los Angeles Clippers
 - **Overview rewritten.** Basis: Forbes 2025 ($7.5B, $569M revenue); Sept 2026 NBA sanctions and Kawhi trade (Wikipedia 2026-27 season page); 2025-26 record and play-in (Wikipedia); BBR contracts; Intuit Dome All-Star Game.
@@ -598,8 +607,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Kawhi Leonard — 3yr/$153M (2023), $51M AAV, through 2025-26; James Harden on 2yr/$70M (..." → "Darius Garland, acquired from Cleveland in February 2026 for James Harden ($42.2M in 20...". Leonard was traded to Toronto for Ingram, Gradey Dick and five draft picks once the NBA investigation concluded [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/LAC.html)
 - `onField.starContracts`: "[{"player":"Kawhi Leonard","position":"SF","aav":51,"contractNote":"3yr/$153M (2023), t..." → "[{"player":"Darius Garland","position":"PG","aav":43.5,"contractNote":"Acquired from Cl...". Per Basketball-Reference; 2026-27 payroll $193.7M with only $26.7M committed for 2028-29 [source](https://www.basketball-reference.com/contracts/LAC.html)
 - `arena.newArenaPlans`: null → "Intuit Dome hosted the 2026 NBA All-Star Game on February 15, 2026; two hotels (a Fairf...". Per Wikipedia Intuit Dome page [source](https://en.wikipedia.org/wiki/Intuit_Dome)
-- Unverified: 2026-27 local TV partner not announced as of late September 2026
-- Unverified: Interim governor during Ballmer's suspension not sourced
+- Unverified (listed for follow-up): 2026-27 local TV partner not announced as of late September 2026
+- Unverified (listed for follow-up): Interim governor during Ballmer's suspension not sourced
 
 ### Los Angeles Lakers
 - **Overview rewritten.** Basis: Forbes 2025 ($10.0B, $551M revenue); transactions.js and SI/Ringer on the Aug 2026 Kushner-Iger deal and Buss challenge; 2026 playoffs (BBR); July 2026 LeBron departure and Kessler trade (Wikipedia, BBR contracts).
@@ -608,8 +617,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Playoffs 2023-2026; beat Houston 4-2 in the 2026 first round, swept by Oklahoma City in round two [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Luka Doncic — acquired from Dallas Mavericks Feb 2025; 5yr/$346M (2024), $69.2M AAV; Le..." → "Luka Doncic, $49.8M in 2026-27 rising to $57.8M in 2028-29; LeBron James left for Phila...". Per Wikipedia 2026-27 transactions and Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://www.basketball-reference.com/contracts/LAL.html)
 - `onField.starContracts`: "[{"player":"Luka Doncic","position":"PG","aav":69.2,"contractNote":"5yr/$346M (2024), $..." → "[{"player":"Luka Doncic","position":"PG","aav":53.8,"contractNote":"$49.8M (2026-27), $...". LeBron James signed a 2yr/$8M deal with Philadelphia; figures per Basketball-Reference; 2026-27 payroll $204.0M [source](https://www.basketball-reference.com/contracts/LAL.html)
-- Unverified: The Wikipedia 2026-27 season page cites 'potential tax fraud issues' with Walter as a reason for the sale; not corroborated by SI or The Ringer, so not recorded
-- Unverified: ownership.acquisitionPrice: stays $10B (2025 Walter deal) until the $12.5B sale closes
+- Unverified (listed for follow-up): The Wikipedia 2026-27 season page cites 'potential tax fraud issues' with Walter as a reason for the sale; not corroborated by SI or The Ringer, so not recorded
+- Unverified (kept; rendered "as of May 2026"): `ownership.acquisitionPrice` stays $10B (2025 Walter deal) until the $12.5B sale closes
 
 ### Phoenix Suns
 - **Overview rewritten.** Basis: Forbes 2025 ($5.425B, $455M revenue, -$33M operating income); 2026 playoffs (BBR); June 2025 Durant trade and July 2026 Bridges trade (Wikipedia); BBR contracts; Gray deal per Wikipedia FanDuel Sports Network page.
@@ -617,15 +626,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Standard NBA League Pass" → "Suns Live direct-to-consumer stream (Kiswe) alongside the Gray over-the-air package; NB...". Per Wikipedia 2026-27 season page [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Phoenix_Suns_season)
 - `onField.currentFranchisePlayer`: "Devin Booker — 4yr/$224M (2023), $56M AAV, through 2026-27; Kevin Durant age 36" → "Devin Booker, $57.1M in 2026-27 rising to $69.2M in 2029-30 (extended in 2025); Kevin D...". Durant trade per Wikipedia 2025-26 transactions; Booker schedule per Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/PHO.html)
 - `onField.starContracts`: "[{"player":"Devin Booker","position":"SG","aav":56,"contractNote":"4yr/$224M (2023), th..." → "[{"player":"Devin Booker","position":"SG","aav":62.8,"contractNote":"$57.1M (2026-27), ...". Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $216.2M [source](https://www.basketball-reference.com/contracts/PHO.html ; https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html)
-- Unverified: arena.newArenaPlans: no 2026 renovation or replacement agreement with the City of Phoenix found; the arena did host the 2026 women's Final Four
-- Unverified: arena.namingRightsDeal value for Mortgage Matchup still undisclosed
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 renovation or replacement agreement with the City of Phoenix found; the arena did host the 2026 women's Final Four
+- Unverified (listed for follow-up): arena.namingRightsDeal value for Mortgage Matchup still undisclosed
 
 ### Sacramento Kings
 - **Overview rewritten.** Basis: Forbes 2025 ($4.45B, $354M revenue); 2022-2026 playoff record (BBR); BBR 2026-27 contracts; Wikipedia 2026-27 season page.
 - `onField.currentFranchisePlayer`: "Domantas Sabonis — 4yr/$218M (2022), $54.5M AAV; Zach LaVine acquired from Chicago 2025" → "Domantas Sabonis, $45.5M in 2026-27 and $48.6M in 2027-28; Zach LaVine on an expiring $...". Salary schedule per Basketball-Reference; Hunter trade per Wikipedia 2025-26 transactions [source](https://www.basketball-reference.com/contracts/SAC.html ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions)
 - `onField.starContracts`: "[{"player":"Domantas Sabonis","position":"C","aav":54.5,"contractNote":"4yr/$218M (2022..." → "[{"player":"Zach LaVine","position":"SG","aav":49,"contractNote":"$49.0M in 2026-27, ex...". Per Basketball-Reference; DeMar DeRozan was waived July 6, 2026; 2026-27 payroll $191.8M falling to $124.4M in 2027-28 [source](https://www.basketball-reference.com/contracts/SAC.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions)
-- Unverified: media.localTVDeal: Wikipedia lists NBC Sports California plus CBS 13 for 2026-27; over-the-air component and fee not sourced
-- Unverified: No 2026 ownership or Golden 1 Center news found; coach Doug Christie, GM Scott Perry per Wikipedia
+- `media.localTVDeal`: "NBC Sports California, ~$15M/yr" → null. Removed: not verifiable as of September 2026 (Wikipedia lists NBC Sports California plus CBS 13 for 2026-27; over-the-air component and fee not sourced)
+- Unverified (sentence removed from the profile): `media.localTVDeal` Wikipedia lists NBC Sports California plus CBS 13 for 2026-27; over-the-air component and fee not sourced
+- Unverified (listed for follow-up): No 2026 ownership or Golden 1 Center news found; coach Doug Christie, GM Scott Perry per Wikipedia
 
 ### Dallas Mavericks
 - **Overview rewritten.** Basis: Forbes 2025 ($5.1B, $407M revenue); Wikipedia AAC page (lease, Irving proposal); Feb 2026 Davis trade and July 2026 Risacher trade (Wikipedia); 2025-26 ROY (Wikipedia); BBR contracts.
@@ -634,16 +644,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 4 → 2. Playoffs in 2022 and 2024 within the 2022-2026 window; missed 2025 and 2026 [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Anthony Davis — acquired from Lakers in Luka Doncic trade Feb 2025; 3yr/$186M (2023), $..." → "Cooper Flagg, 2025-26 Rookie of the Year, on a rookie scale deal ($14.5M in 2026-27); A...". Flagg ROY per Wikipedia 2025-26 season page; Davis trade per Wikipedia 2025-26 transactions; salaries per Basketball-Reference [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/DAL.html)
 - `onField.starContracts`: "[{"player":"Anthony Davis","position":"C","aav":62,"contractNote":"3yr/$186M (2023), th..." → "[{"player":"Kyrie Irving","position":"PG","aav":41,"contractNote":"$39.5M (2026-27), $4...". Per Basketball-Reference and Wikipedia 2026-27 transactions; 2026-27 payroll $197.9M [source](https://www.basketball-reference.com/contracts/DAL.html ; https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions)
-- Unverified: Tegna rights fee not sourced
-- Unverified: Irving arena: a proposal noted on Wikipedia, no 2026 agreement found
+- Unverified (listed for follow-up): Tegna rights fee not sourced
+- Unverified (listed for follow-up): Irving arena: a proposal noted on Wikipedia, no 2026 agreement found
 
 ### Houston Rockets
 - **Overview rewritten.** Basis: Forbes 2025 ($5.9B, $467M revenue, $191M operating income); 2026 playoffs (BBR); Hoops Rumors extension tracker; BBR contracts.
 - `onField.playoffAppearancesLast5Years`: 1 → 2. Playoffs in 2025 and 2026; lost 4-2 to the Lakers in the 2026 first round [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Jalen Green — 5yr/$165M (2023), $33M AAV; Kevin Durant acquired from Phoenix Suns 2025" → "Kevin Durant ($43.9M in 2026-27, $46.1M in 2027-28) and Alperen Sengun ($35.6M in 2026-...". Thompson extension per Hoops Rumors; salaries per Basketball-Reference [source](https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://www.basketball-reference.com/contracts/HOU.html)
 - `onField.starContracts`: "[{"player":"Jalen Green","position":"SG","aav":33,"contractNote":"5yr/$165M (2023), thr..." → "[{"player":"Kevin Durant","position":"SF","aav":45,"contractNote":"Acquired from Phoeni...". Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $205.5M [source](https://www.basketball-reference.com/contracts/HOU.html)
-- Unverified: arena.newArenaPlans: $180M Toyota Center renovation was slated to complete in 2026; completion not sourced
-- Unverified: Fertitta's status as US ambassador to Italy (2025) and any resulting governance change not researched
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` $180M Toyota Center renovation was slated to complete in 2026; completion not sourced
+- Unverified (listed for follow-up): Fertitta's status as US ambassador to Italy (2025) and any resulting governance change not researched
 
 ### Memphis Grizzlies
 - **Overview rewritten.** Basis: Forbes 2025 ($3.5B, $306M revenue, $28M operating income); Feb and June 2026 trades (Wikipedia); BBR contracts; Gray/DAZN per Wikipedia and Yahoo.
@@ -652,16 +662,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 3. Playoffs 2022, 2023 and 2025 within the 2022-2026 window; missed 2026 [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Ja Morant — 5yr/$231M (2022), $46.2M AAV, through 2026-27; multiple gun-related suspens..." → "Full teardown: Ja Morant traded to Portland June 29, 2026 for Jerami Grant and Kris Mur...". Per Wikipedia 2025-26 and 2026-27 transactions and Basketball-Reference [source](https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions ; https://en.wikipedia.org/wiki/List_of_2025%E2%80%9326_NBA_season_transactions ; https://www.basketball-reference.com/contracts/MEM.html)
 - `onField.starContracts`: "[{"player":"Ja Morant","position":"PG","aav":46.2,"contractNote":"5yr/$231M (2022), thr..." → "[{"player":"Jerami Grant","position":"PF","aav":35.3,"contractNote":"Acquired from Port...". Per Basketball-Reference; 2026-27 payroll $161.1M, the lowest in the league among teams sampled, with $119M committed for 2027-28 [source](https://www.basketball-reference.com/contracts/MEM.html)
-- Unverified: Gray Media and DAZN rights fees not disclosed
-- Unverified: arena.namingRightsDeal: FedExForum renewal status not sourced
+- Unverified (listed for follow-up): Gray Media and DAZN rights fees not disclosed
+- Unverified (kept; rendered "as of May 2026"): `arena.namingRightsDeal` FedExForum renewal status not sourced
 
 ### New Orleans Pelicans
 - **Overview rewritten.** Basis: Forbes 2025 ($3.55B, $302M revenue); 2022-2026 playoff record (BBR); BBR contracts; Wikipedia GCSEN and 2026-27 season pages.
 - `media.localTVDeal`: "Bally Sports New Orleans / FanDuel Sports Network, ~$12M/yr" → "Gulf Coast Sports & Entertainment Network, a Gray Media over-the-air network across Lou...". Per Wikipedia Gulf Coast Sports & Entertainment Network and 2026-27 season pages [source](https://en.wikipedia.org/wiki/Gulf_Coast_Sports_%26_Entertainment_Network ; https://en.wikipedia.org/wiki/2026%E2%80%9327_New_Orleans_Pelicans_season)
 - `onField.currentFranchisePlayer`: "Zion Williamson — 5yr/$197M (2022), $39.4M AAV, through 2026-27; Brandon Ingram request..." → "Zion Williamson, $42.2M in 2026-27 and $44.9M in 2027-28; Brandon Ingram was traded to ...". Salary schedule per Basketball-Reference; Mosley hire per Wikipedia 2026-27 season page [source](https://www.basketball-reference.com/contracts/NOP.html ; https://en.wikipedia.org/wiki/2026%E2%80%9327_New_Orleans_Pelicans_season)
 - `onField.starContracts`: "[{"player":"Zion Williamson","position":"PF","aav":39.4,"contractNote":"5yr/$197M (2022..." → "[{"player":"Zion Williamson","position":"PF","aav":43.5,"contractNote":"$42.2M (2026-27...". Per Basketball-Reference; 2026-27 payroll $204.3M [source](https://www.basketball-reference.com/contracts/NOP.html)
-- Unverified: arena.newArenaPlans: no 2026 decision on a Smoothie King Center renovation versus a new downtown arena found
-- Unverified: arena.namingRightsDeal renewal terms not sourced
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` no 2026 decision on a Smoothie King Center renovation versus a new downtown arena found
+- Unverified (listed for follow-up): arena.namingRightsDeal renewal terms not sourced
 
 ### San Antonio Spurs
 - **Overview rewritten.** Basis: Forbes 2025 ($4.4B, $401M revenue); 2026 Finals run (BBR); Wembanyama extension and DPOY (Hoops Rumors, Yahoo, Wikipedia); BBR contracts; Tegna/DAZN per Wikipedia and Yahoo.
@@ -670,8 +680,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 0 → 1. 2026 playoffs: beat Portland 4-1, Minnesota 4-2 and Oklahoma City 4-3 to win the Western Conference, then lost the Finals 4-1 to New York [source](https://www.basketball-reference.com/playoffs/NBA_2026.html)
 - `onField.currentFranchisePlayer`: "Victor Wembanyama — rookie scale contract ($13.75M AAV through 2026-27); 2024 Rookie of..." → "Victor Wembanyama, 2025-26 Defensive Player of the Year and All-NBA; signed a 5yr/$252M...". Largest rookie extension in NBA history; terms per Hoops Rumors, ESPN and Yahoo; DPOY per Wikipedia 2025-26 season page [source](https://www.hoopsrumors.com/2026/07/2026-27-nba-contract-extension-tracker.html ; https://sports.yahoo.com/articles/san-antonio-spurs-sign-victor-225912820.html ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season)
 - `onField.starContracts`: "[{"player":"Victor Wembanyama","position":"C/PF","aav":13.75,"contractNote":"Rookie sca..." → "[{"player":"Victor Wembanyama","position":"C/PF","aav":50.5,"contractNote":"$16.9M in 2...". Per Basketball-Reference and Hoops Rumors; 2026-27 payroll $198.3M [source](https://www.basketball-reference.com/contracts/SAS.html)
-- Unverified: Hemisfair arena construction status in 2026 not sourced (2030 target unchanged in enrichment)
-- Unverified: Tegna and DAZN rights fees not disclosed
+- Unverified (listed for follow-up): Hemisfair arena construction status in 2026 not sourced (2030 target unchanged in enrichment)
+- Unverified (listed for follow-up): Tegna and DAZN rights fees not disclosed
 
 ## MLB (30 teams)
 
@@ -681,15 +691,17 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: "None — wholly family-owned; Yankees have consistently rejected partial sales. YES Netwo..." → "Apollo Sports Capital agreed (Aug 11, 2026) to a ~$2.6B debt-plus-equity investment in ...". Apollo Sports Capital investment in YGE announced Aug 11, 2026 (verified in transactions.js) [source](https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as)
 - `onField.currentFranchisePlayer`: "Aaron Judge — 9yr/$360M extension signed Dec 2022, $40M AAV, through 2031" → "Aaron Judge, 9yr/$360M extension signed Dec 2022, $40M AAV, through 2031; won his third...". Judge won 2025 AL MVP [source](https://www.mlbtraderumors.com/2026/03/offseason-in-review-new-york-yankees-17.html)
 - `onField.starContracts`: "[{"player":"Aaron Judge","position":"CF/RF","aav":40,"contractNote":"9yr/$360M (Dec 202..." → "[{"player":"Aaron Judge","position":"CF/RF","aav":40,"contractNote":"9yr/$360M (Dec 202...". Bellinger re-signed 5yr/$162.5M in Jan 2026; Cole, Rodón and Schmidt opened 2026 recovering from surgeries [source](https://www.mlbtraderumors.com/2026/01/yankees-to-re-sign-cody-bellinger.html)
-- Unverified: media.localTVDeal: YES Network arrangement not re-checked with a 2026 source
-- Unverified: media.streamingNotes: Apple TV+ Friday package status for 2026 not re-checked
+- `media.localTVDeal`: "YES Network — Yankees own ~26% equity stake (reacquired 2019 from Fox/Sinclair group); ..." → null. Removed: not verifiable as of September 2026 (YES Network arrangement not re-checked with a 2026 source)
+- `media.streamingNotes`: "Apple TV+ Friday Game of the Week; ESPN/Fox national packages; YES available on streami..." → null. Removed: not verifiable as of September 2026 (Apple TV+ Friday package status for 2026 not re-checked)
+- Unverified (sentence removed from the profile): `media.localTVDeal` YES Network arrangement not re-checked with a 2026 source
+- Unverified (sentence removed from the profile): `media.streamingNotes` Apple TV+ Friday package status for 2026 not re-checked
 
 ### Boston Red Sox
 - **Overview rewritten.** Basis: Forbes 2026 ($5.25B, rev $0.567B, OI $0.078B); 2026 record 87-74 wild card (CBS/Wikipedia); Crochet and Suárez contracts (Wikipedia).
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.currentFranchisePlayer`: "Triston Casas — pre-arb; team in rebuilding mode following Devers trade (Jan 2025)" → "Garrett Crochet, 6yr/$170M extension signed Mar 31, 2025, through 2030; 2025 AL strikeo...". Crochet extension Mar 2025; Devers traded June 2025; Bregman left for the Cubs Jan 2026 [source](https://en.wikipedia.org/wiki/Garrett_Crochet)
 - `onField.starContracts`: "[{"player":"Rafael Devers","position":"3B","aav":30.1,"contractNote":"11yr/$331M extens..." → "[{"player":"Garrett Crochet","position":"SP","aav":28.3,"contractNote":"6yr/$170M exten...". Devers traded to Giants June 2025; Crochet 6yr/$170M; Suárez 5yr/$150M Jan 2026; Sonny Gray (Nov 25, 2025) and Willson Contreras (Dec 21, 2025) acquired from St. Louis [source](https://en.wikipedia.org/wiki/2026_Boston_Red_Sox_season)
-- Unverified: ownership.ownerNetWorth: no 2026 refresh of Henry net worth
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 refresh of Henry net worth
 
 ### Toronto Blue Jays
 - **Overview rewritten.** Basis: Forbes 2026 ($2.5B, rev $0.445B, OI -$0.071B); 2025 WS result (Wikipedia); 2026 record 78-83 (CBS); Rogers/MLSE plan (FOS July 2026).
@@ -697,8 +709,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 3. Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Toronto won the 2025 AL pennant and lost World Series Game 7 to the Dodgers [source](https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason)
 - `ownership.institutionalInvestors`: "Rogers Communications is publicly traded; Rogers Control Trust (family) controls majori..." → "Rogers Communications is publicly traded; Rogers Control Trust (family) controls the vo...". Rogers to complete MLSE buyout in Q4 2026 and sell a minority stake in the combined sports group including the Blue Jays in H1 2027 [source](https://frontofficesports.com/blue-jays-maple-leafs-owner-to-put-stake-in-sports-empire-up-for-sale/)
 - `onField.starContracts`: "[{"player":"Vladimir Guerrero Jr.","position":"1B","aav":35.7,"contractNote":"14yr/$500..." → "[{"player":"Vladimir Guerrero Jr.","position":"1B","aav":35.7,"contractNote":"14yr/$500...". Cease 7yr/$210M (Dec 2025), Okamoto 4yr/$60M (Jan 2026), Tyler Rogers 3yr/$37M; Bichette signed with the Mets [source](https://en.wikipedia.org/wiki/Dylan_Cease)
-- Unverified: stadium.newStadiumPlans: no 2026 source on a new Toronto ballpark
-- Unverified: media.localTVDeal: Sportsnet arrangement assumed unchanged under Rogers ownership; not separately checked
+- `media.localTVDeal`: "Sportsnet (Rogers Media subsidiary) — fully owned by parent Rogers Communications; no a..." → null. Removed: not verifiable as of September 2026 (Sportsnet arrangement assumed unchanged under Rogers ownership; not separately checked)
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 source on a new Toronto ballpark
+- Unverified (sentence removed from the profile): `media.localTVDeal` Sportsnet arrangement assumed unchanged under Rogers ownership; not separately checked
 
 ### Tampa Bay Rays
 - **Overview rewritten.** Basis: Forbes 2026 ($1.7B, rev $0.29B); Zalupski close Sept 2025 (transactions.js); Tampa stadium approvals Aug 2026 (CBS); 2026 record 98-63 (CBS/Wikipedia).
@@ -711,7 +724,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Sun — carrier affected by Diamond Sports Group bankruptcy (2023); Rays neg..." → "Rays.tv produced and distributed by MLB Local Media from 2026 after the Rays terminated...". Rays moved to MLB Local Media for 2026 [source](https://en.wikipedia.org/wiki/MLB_Local_Media)
 - `media.streamingNotes`: "Apple TV+ Friday games; some Rays games moved to direct streaming during RSN transition..." → "In-market streaming through MLB.TV / the MLB app and the ESPN app under the 2026 ESPN-M...". MLB Local Media teams stream in-market via MLB.TV and ESPN [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
 - `onField.currentFranchisePlayer`: "Wander Franco — suspended; team in transition under new ownership" → "Junior Caminero, 3B, club control through 2030; extension talks open as of Feb 2026 but...". Caminero is the franchise player; no extension yet [source](https://www.mlbtraderumors.com/2026/02/junior-caminero-open-to-extension-talks-with-rays.html)
-- Unverified: onField.starContracts: Díaz and McClanahan contract status for 2026 not re-checked; Freddy Peralta acquired from the Mets Aug 2, 2026 (Wikipedia) but his contract terms not sourced
+- Unverified (listed for follow-up): `onField.starContracts` Díaz and McClanahan contract status for 2026 not re-checked; Freddy Peralta acquired from the Mets Aug 2, 2026 (Wikipedia) but his contract terms not sourced
 
 ### Baltimore Orioles
 - **Overview rewritten.** Basis: Forbes 2026 ($2.1B, rev $0.355B, OI $0.023B); Rubenstein ~97% (Baltimore Banner, 2024); MASN settlement (Wikipedia); 2026 record 79-82 (Wikipedia).
@@ -720,7 +733,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "MASN (Mid-Atlantic Sports Network) — Orioles own 67% of MASN, Nationals own 33%; long-r..." → "MASN (Mid-Atlantic Sports Network), now wholly controlled by the Orioles after the Nati...". MASN dispute settled March 2025; Nationals exited after 2025 [source](https://en.wikipedia.org/wiki/Mid-Atlantic_Sports_Network)
 - `media.streamingNotes`: "MASN available on streaming platforms; Apple TV+ Friday games; legal uncertainty around..." → "MASN carried on cable and vMVPDs; the settled Nationals dispute removes the litigation ...". MASN is an Orioles-only network from 2026 [source](https://en.wikipedia.org/wiki/Mid-Atlantic_Sports_Network)
 - `onField.starContracts`: "[{"player":"Adley Rutschman","position":"C","aav":15,"contractNote":"6yr/$90M extension..." → "[{"player":"Adley Rutschman","position":"C","aav":15,"contractNote":"6yr/$90M extension...". Henderson declined a spring 2025 extension offer; no deal as of 2026 [source](https://www.mlbtraderumors.com/2026/03/orioles-made-gunnar-henderson-an-extension-offer-last-spring.html)
-- Unverified: ownership.ownershipGroup: exact post-2024 stake split among Rubenstein, Arougheti, Bloomberg and the Angelos family not sourced
+- Unverified (listed for follow-up): `ownership.ownershipGroup` exact post-2024 stake split among Rubenstein, Arougheti, Bloomberg and the Angelos family not sourced
 
 ### Chicago White Sox
 - **Overview rewritten.** Basis: Forbes 2026 ($1.94B, rev $0.239B, OI -$0.04B); Ishbia LP deal (transactions.js); Railyards plan Sept 2026 (The Real Deal); 2026 record 83-78 wild card (Wikipedia/CBS).
@@ -728,8 +741,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.name`: "Guaranteed Rate Field" → "Rate Field". Guaranteed Rate Field was shortened to Rate Field in Dec 2024 after the sponsor's rebrand [source](https://en.wikipedia.org/wiki/Rate_Field)
 - `stadium.namingRightsDeal`: "{"sponsor":"Guaranteed Rate (mortgage company)","annualValue_M":5.2,"totalValue_M":null..." → "{"sponsor":"Rate (formerly Guaranteed Rate)","annualValue_M":5.2,"totalValue_M":null,"e...". Naming deal is the 2016 13-year Guaranteed Rate agreement; Rate Field since Dec 2024; lease through 2029 [source](https://en.wikipedia.org/wiki/Rate_Field)
 - `stadium.newStadiumPlans`: "White Sox seeking public support for new stadium in Chicago's South Loop/Near South Sid..." → "Justin Ishbia unveiled 'The Railyards' in Sept 2026: an ~80-acre mixed-use district on ...". Ishbia Railyards plan presented Sept 2026 [source](https://therealdeal.com/chicago/2026/09/08/ishbias-vision-for-white-sox-stadium-development-revealed/)
-- Unverified: onField.starContracts: 2026 roster contracts (Jiménez departed; Colson Montgomery, Luis Robert Jr. traded to the Mets per Mets 2026 page) not fully sourced; array left as is
-- Unverified: ownership.ownershipGroup: Ishbia's LP percentage after the 2025 buyouts is undisclosed
+- Unverified (listed for follow-up): `onField.starContracts` 2026 roster contracts (Jiménez departed; Colson Montgomery, Luis Robert Jr. traded to the Mets per Mets 2026 page) not fully sourced; array left as is
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Ishbia's LP percentage after the 2025 buyouts is undisclosed
 
 ### Cleveland Guardians
 - **Overview rewritten.** Basis: Forbes 2026 ($1.66B, rev $0.337B, OI $0.053B); 2026 record 85-76 division title (Wikipedia/CBS); MLB Local Media since 2025 (Wikipedia); renovation completion (Crain's, Mar 2026).
@@ -737,8 +750,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Great Lakes (Diamond Sports Group) — affected by Diamond's 2023 bankruptcy..." → "CLEGuardians.tv produced and distributed by MLB Local Media since 2025 (post-Diamond Sp...". Guardians joined MLB Local Media in 2025 [source](https://en.wikipedia.org/wiki/MLB_Local_Media)
 - `media.streamingNotes`: "Apple TV+ Friday games; MLB.TV; local streaming future uncertain post-Diamond bankruptc..." → "In-market streaming through MLB.TV / MLB app and, from 2026, the ESPN app under the ESP...". MLB Local Media in-market streaming via MLB.TV and ESPN [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
 - `stadium.ownershipModel`: "owned by Gateway Economic Development Corporation (public); Guardians hold long-term le..." → "owned by Gateway Economic Development Corporation (public); Guardians hold a long-term ...". Third and final renovation phase completed before 2026 [source](https://www.crainscleveland.com/sports-recreation/ccl-guardians-progressive-20260331/)
-- Unverified: ownership.ownershipGroup: secondary sources put Blitzer at ~35% with a control option exercisable after the 2027 season (vs. 27% / 2028 in the enrichment); no primary source found, left unchanged
-- Unverified: stadium.namingRightsDeal: Progressive extension term not re-checked
+- `ownership.ownerBackground`: "Larry Dolan (media attorney, brother of Cablevision's Charles Dolan) bought franchise i..." → "Larry Dolan (media attorney, brother of Cablevision's Charles Dolan) bought the franchi...". The June 2022 announcement was a 25% stake with an option for control in six years (2028). Later reports of ~35% are treated as an increase, not a conflicting figure. [source](https://www.mlb.com/news/david-blitzer-guardians-minority-owner)
+- `ownership.ownershipGroup`: "[{"name":"Paul Dolan","role":"majority owner / chairman / CEO","pct":null},{"name":"Dav..." → "[{"name":"Paul Dolan","role":"majority owner / chairman / CEO","pct":null},{"name":"Dav...". Stake set to the 25% from the 2022 announcement; the 2026 ~35% reports noted as an increase. [source](https://www.espn.com/mlb/story/_/id/34102163/minority-stake-cleveland-guardians-goes-david-blitzer-future-option-controlling-interest-per-reports)
+- Unverified (resolved in refresh-fixes.json): `ownership.ownershipGroup` secondary sources put Blitzer at ~35% with a control option exercisable after the 2027 season (vs. 27% / 2028 in the enrichment); no primary source found, left unchanged
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Progressive extension term not re-checked
 
 ### Detroit Tigers
 - **Overview rewritten.** Basis: Forbes 2026 ($1.8B, rev $0.363B, OI $0.027B); Skubal trade (ESPN, Aug 2026); Valdez and McGonigle deals (MLBTR/Wikipedia); Fifth Third Park (MLB.com, Sept 21, 2026); 2026 record 76-85 (CBS).
@@ -757,7 +772,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "New $1.9B ballpark at Crown Center (85-acre mixed-use development totaling $3B) announc..." → "New ~$1.9B ballpark at Crown Center on the site of Hallmark's headquarters, part of a $...". Crown Center site announced Apr 2026; council framework approved Aug 2026 [source](https://www.kcur.org/sports/2026-04-22/kansas-city-royals-stadium-location-crown-center)
 - `media.localTVDeal`: "Bally Sports Kansas City (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 20..." → "Royals.tv produced and distributed by MLB Local Media from 2026 after the Royals termin...". Royals moved to MLB Local Media for 2026 [source](https://en.wikipedia.org/wiki/MLB_Local_Media)
 - `media.streamingNotes`: "MLB.TV nationally; Royals exploring direct-to-consumer streaming options as RSN landsca..." → "In-market streaming through MLB.TV / MLB app and the ESPN app; MLB.TV nationally". MLB Local Media in-market streaming [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
-- Unverified: ownership.ownershipGroup: ESPN lists Patrick Mahomes and Eric Stonestreet among Sherman's investors; group composition not otherwise re-checked
+- Unverified (listed for follow-up): `ownership.ownershipGroup` ESPN lists Patrick Mahomes and Eric Stonestreet among Sherman's investors; group composition not otherwise re-checked
 
 ### Minnesota Twins
 - **Overview rewritten.** Basis: Forbes 2026 ($1.71B, rev $0.315B, OI $0.011B); Dec 2025 LP sale (transactions.js); 2026 record 76-85 (Wikipedia); Twins.tv (Wikipedia).
@@ -773,8 +788,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.currentFranchisePlayer`: "Jose Altuve — 5yr/$125M extension signed 2019, through 2024; re-signed on new deal; fra..." → "Jose Altuve, 5yr/$125M extension (2024) through 2029; Jeremy Peña (Boras client) reject...". Altuve 5yr/$125M 2024 extension; Peña extension talks failed [source](https://sports.yahoo.com/articles/astros-news-ex-gm-makes-225322861.html)
 - `onField.starContracts`: "[{"player":"Jose Altuve","position":"2B","aav":29,"contractNote":"Multi-year extension;..." → "[{"player":"Jose Altuve","position":"2B/LF","aav":25,"contractNote":"5yr/$125M extensio...". Valdez left for Detroit; Imai signed 3yr/$54M; Peña unextended [source](https://en.wikipedia.org/wiki/2026_Houston_Astros_season)
-- Unverified: stadium.namingRightsDeal: Daikin fee still undisclosed; no 2026 source
-- Unverified: onField.starContracts: Peña's exact free-agency year not sourced
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Daikin fee still undisclosed; no 2026 source
+- Unverified (listed for follow-up): `onField.starContracts` Peña's exact free-agency year not sourced
 
 ### Los Angeles Angels
 - **Overview rewritten.** Basis: Forbes 2026 ($2.8B, rev $0.377B, OI -$0.014B); Kroenke deal Sept 2026 (transactions.js / MLB.com); ABTV (Wikipedia); Rendon restructure (MLBTR); 2026 record 62-98 (CBS).
@@ -784,7 +799,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports West (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023; Ang..." → "Angels Broadcast Television (ABTV), after terminating with Main Street Sports in Jan 20...". Angels bought out and renamed their RSN in 2026 [source](https://en.wikipedia.org/wiki/Angels_Broadcast_Television)
 - `media.streamingNotes`: "MLB.TV nationally; Angels exploring streaming deals as Diamond restructures; LA market ..." → "Direct-to-consumer streaming through MLB's platform (MLB.TV / ESPN app) for in-market f...". In-market DTC via MLB for ABTV [source](https://www.sportsmediawatch.com/2026/03/angels-own-operate-fanduel-sports-network-buyout-main-street/)
 - `onField.starContracts`: "[{"player":"Mike Trout","position":"CF","aav":35.5,"contractNote":"12yr/$426.5M (2019),..." → "[{"player":"Mike Trout","position":"CF/DH","aav":35.5,"contractNote":"12yr/$426.5M (201...". Rendon's 2026 salary deferred over five years; he is not playing in 2026 [source](https://www.mlbtraderumors.com/2026/01/anthony-rendons-2026-salary-to-be-paid-over-five-years.html)
-- Unverified: stadium.newStadiumPlans: transactions.js notes the lease runs to 2032 with options to 2038 (vs. 2029 in the enrichment) and ~130 acres of parking; no primary lease source fetched, left unchanged
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` transactions.js notes the lease runs to 2032 with options to 2038 (vs. 2029 in the enrichment) and ~130 acres of parking; no primary lease source fetched, left unchanged
 
 ### Oakland Athletics
 - **Overview rewritten.** Basis: Forbes 2026 ($2B, rev $0.32B, OI $0.045B); Harbinger stake July 2026 (transactions.js); Vegas construction (Ballpark Digest May 2026, Las Vegas Sun Feb 2026); 2026 record 64-97 (Wikipedia).
@@ -796,8 +811,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "NBC Sports California (AT&T SportsNet) went dark in 2023; A's playing games without a l..." → "NBC Sports California carries A's telecasts during the Sacramento years (2026 season br...". 2026 TV on NBC Sports California (the enrichment's 'went dark in 2023' claim conflicted with the AT&T SportsNet history and current carriage) [source](https://en.wikipedia.org/wiki/2026_Athletics_season)
 - `onField.currentFranchisePlayer`: "Brent Rooker — breakout 2023-24 seasons; signed multi-year extension; represents the sc..." → "Brent Rooker, 5yr/$60M extension (Jan 7, 2025); out for the rest of 2026 after knee sur...". Rooker extension Jan 2025; season-ending surgery 2026 [source](https://en.wikipedia.org/wiki/Brent_Rooker)
 - `onField.starContracts`: "[{"player":"Brent Rooker","position":"LF/DH","aav":10,"contractNote":"Multi-year extens..." → "[{"player":"Brent Rooker","position":"DH/LF","aav":12,"contractNote":"5yr/$60M extensio...". Rooker 5yr/$60M [source](https://en.wikipedia.org/wiki/Brent_Rooker)
-- Unverified: onField.starContracts: Lawrence Butler and Luis Severino contracts not sourced (Wikipedia disambiguation only)
-- Unverified: media.streamingNotes: in-market streaming arrangement for Sacramento not sourced
+- `media.streamingNotes`: "MLB.TV nationally; A's broadcasting some games on local OTA affiliates during Sacrament..." → null. Removed: not verifiable as of September 2026 (in-market streaming arrangement for Sacramento not sourced)
+- Unverified (listed for follow-up): `onField.starContracts` Lawrence Butler and Luis Severino contracts not sourced (Wikipedia disambiguation only)
+- Unverified (sentence removed from the profile): `media.streamingNotes` in-market streaming arrangement for Sacramento not sourced
 
 ### Seattle Mariners
 - **Overview rewritten.** Basis: Forbes 2026 ($2.35B, rev $0.39B, OI $0.024B); 2025 postseason (Wikipedia); ROOT shutdown (Awful Announcing); Raleigh extension (MLB.com); 2026 record 74-86 (CBS).
@@ -807,7 +823,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ROOT Sports streaming app; MLB.TV nationally; Apple TV+ Friday games; Mariners among th..." → "In-market streaming through MLB.TV / MLB app and the ESPN app; MLB.TV nationally; Apple...". MLB Local Media in-market streaming [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
 - `onField.currentFranchisePlayer`: "Julio Rodríguez — 12yr guaranteed/$210M (up to $470M with options), signed Aug 2022 as ..." → "Cal Raleigh, C, 6yr/$105M extension (Mar 2025) through 2030 with a full no-trade clause...". Raleigh extension and 60-HR 2025 [source](https://www.mlb.com/news/cal-raleigh-mariners-extension)
 - `onField.starContracts`: "[{"player":"Julio Rodríguez","position":"CF","aav":17.5,"contractNote":"12yr/$210M guar..." → "[{"player":"Julio Rodríguez","position":"CF","aav":17.5,"contractNote":"12yr/$210M guar...". Raleigh 6yr/$105M added [source](https://www.mlb.com/news/cal-raleigh-mariners-extension)
-- Unverified: onField.starContracts: Gilbert extension terms carried from the enrichment, not re-sourced
+- Unverified (listed for follow-up): `onField.starContracts` Gilbert extension terms carried from the enrichment, not re-sourced
 
 ### Texas Rangers
 - **Overview rewritten.** Basis: Forbes 2026 ($2.7B, rev $0.398B, OI -$0.044B); final-day standings (CBS, Sept 27); RSN/Bzzr (Wikipedia); Gore trade (Wikipedia); Cunningham stake (ESPN owners list).
@@ -816,7 +832,7 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Southwest (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023..." → "Rangers Sports Network, team-owned network launched Jan 2025 by Rangers Sports Media & ...". Rangers Sports Network operating in 2026; streaming partner switched to Bzzr July 2026 [source](https://en.wikipedia.org/wiki/Rangers_Sports_Network)
 - `media.streamingNotes`: "MLB.TV nationally; Apple TV+ Friday games; Rangers 2023 World Series drives national vi..." → "Bzzr direct-to-consumer subscription (replaced Victory+ July 15, 2026) plus MLB.TV nati...". DTC platform change July 2026 [source](https://en.wikipedia.org/wiki/Rangers_Sports_Network)
 - `onField.starContracts`: "[{"player":"Corey Seager","position":"SS","aav":32.5,"contractNote":"10yr/$325M (Dec 20..." → "[{"player":"Corey Seager","position":"SS","aav":32.5,"contractNote":"10yr/$325M (Dec 20...". Gore trade Jan 2026 [source](https://en.wikipedia.org/wiki/MacKenzie_Gore)
-- Unverified: onField.starContracts: Eovaldi's current contract not re-checked
+- Unverified (listed for follow-up): `onField.starContracts` Eovaldi's current contract not re-checked
 
 ### Atlanta Braves
 - **Overview rewritten.** Basis: Forbes 2026 ($3.35B, rev $0.524B, OI $0.027B); 2026 record 94-67 (CBS); BravesVision (Wikipedia); offseason moves (MLBTR).
@@ -825,8 +841,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports South / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2023-..." → "BravesVision, in-house regional network launched March 27, 2026 with Raycom Sports (Gra...". BravesVision replaced FDSN South for 2026 [source](https://en.wikipedia.org/wiki/BravesVision)
 - `media.streamingNotes`: "Apple TV+ (Friday night games), Peacock (select games), MLB.TV blackout rules apply; te..." → "Braves.tv direct-to-consumer package through MLB.TV; BravesVision on Fubo and DirecTV S...". BravesVision DTC via MLB.TV [source](https://en.wikipedia.org/wiki/BravesVision)
 - `onField.starContracts`: "[{"player":"Ronald Acuña Jr.","position":"OF","aav":17,"contractNote":"8yr/$100M (2019 ..." → "[{"player":"Ronald Acuña Jr.","position":"OF","aav":17,"contractNote":"8yr/$100M (2019 ...". Suarez 3yr/$45M added; Braves also signed Ha-Seong Kim and Mike Yastrzemski and re-signed Raisel Iglesias [source](https://www.mlbtraderumors.com/2026/03/offseason-in-review-atlanta-braves-17.html)
-- Unverified: ownership.ownerNetWorth: BATRA/BATRK market cap not refreshed for 2026
-- Unverified: onField.starContracts: Acuña option years carried from public contract data, not a 2026 source
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` BATRA/BATRK market cap not refreshed for 2026
+- Unverified (listed for follow-up): `onField.starContracts` Acuña option years carried from public contract data, not a 2026 source
 
 ### Miami Marlins
 - **Overview rewritten.** Basis: Forbes 2026 ($1.5B, rev $0.32B, OI $0.053B); 15% stake sale 2026 (transactions.js); 2026 record 79-82 (Wikipedia); Marlins.tv (Wikipedia).
@@ -842,15 +858,15 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.currentFranchisePlayer`: "Francisco Lindor — 10yr/$341M (2021), $34.1M AAV through 2031; plus Juan Soto 15yr/$765..." → "Juan Soto, 15yr/$765M (Dec 2024), $51M AAV through 2039; Francisco Lindor 10yr/$341M th...". Soto and Lindor injuries in 2026 [source](https://www.espn.com/mlb/story/_/id/49895199/mlb-2026-new-york-mets-lessons-2027-soto-benge-ewing-lindor-senga-cohen-stearns)
 - `onField.starContracts`: "[{"player":"Juan Soto","position":"OF","aav":51,"contractNote":"15yr/$765M (Jan 2025) —..." → "[{"player":"Juan Soto","position":"OF","aav":51,"contractNote":"15yr/$765M (Dec 2024), ...". Bichette 3yr/$126M, Williams 3yr/$51M, Peralta in and out in 2026 [source](https://en.wikipedia.org/wiki/2026_New_York_Mets_season)
-- Unverified: stadium.namingRightsDeal: Citi extension terms beyond 2028 not sourced
-- Unverified: ownership.ownershipGroup: ESPN lists Cohen at ~95% vs 97% in the enrichment; not resolved
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Citi extension terms beyond 2028 not sourced
+- Unverified (listed for follow-up): `ownership.ownershipGroup` ESPN lists Cohen at ~95% vs 97% in the enrichment; not resolved
 
 ### Philadelphia Phillies
 - **Overview rewritten.** Basis: Forbes 2026 ($3.4B, rev $0.539B, OI -$0.052B); final-day standings (CBS, Sept 27); Schwarber/Realmuto deals (MLB.com/Wikipedia); 2025 CBT (forbes-proxies.js).
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.starContracts`: "[{"player":"Bryce Harper","position":"1B/OF","aav":25.4,"contractNote":"13yr/$330M (201..." → "[{"player":"Bryce Harper","position":"1B","aav":25.4,"contractNote":"13yr/$330M (2019),...". Schwarber 5yr/$150M and Realmuto 3yr/$45M re-signed; Suárez left [source](https://www.mlb.com/news/kyle-schwarber-phillies-free-agent-contract)
-- Unverified: onField.starContracts: Wheeler's 2024 extension figure drawn from public contract data, not a 2026 source
-- Unverified: ownership.institutionalInvestors: 2024 institutional raise not re-checked
+- Unverified (listed for follow-up): `onField.starContracts` Wheeler's 2024 extension figure drawn from public contract data, not a 2026 source
+- Unverified (kept; rendered "as of May 2026"): `ownership.institutionalInvestors` 2024 institutional raise not re-checked
 
 ### Washington Nationals
 - **Overview rewritten.** Basis: Forbes 2026 ($2.15B, rev $0.3B, OI -$0.015B); MASN settlement and Nationals.tv (Wikipedia); Gore trade (Wikipedia); 2026 record 76-85 (Wikipedia).
@@ -860,7 +876,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Apple TV+ (Friday night games), MLB.TV; MASN streaming via cable packages; legal disput..." → "Nationals.tv in-market streaming through MLB.TV / MLB app and the ESPN app, plus an ove...". Nationals.tv distribution [source](https://en.wikipedia.org/wiki/2026_Washington_Nationals_season)
 - `onField.currentFranchisePlayer`: "MacKenzie Gore — emerging ace; James Wood — 2024 debut, considered top-5 MLB prospect; ..." → "James Wood, OF, arbitration-eligible after 2027, free agent after 2030; Boras client wi...". Gore traded Jan 2026; Wood unextended [source](https://en.wikipedia.org/wiki/MacKenzie_Gore)
 - `onField.starContracts`: "[{"player":"MacKenzie Gore","position":"SP","aav":4.5,"contractNote":"Pre-arb; consider..." → "[{"player":"James Wood","position":"OF","aav":0.7,"contractNote":"Pre-arbitration; Bora...". Gore trade Jan 2026 [source](https://en.wikipedia.org/wiki/MacKenzie_Gore)
-- Unverified: ownership.institutionalInvestors: no 2026 source on a Lerner sale process; ESPN lists the Lerner family as owner
+- `ownership.institutionalInvestors`: "Fully family-owned; no PE or institutional investors as of 2024" → null. Removed: not verifiable as of September 2026 (no 2026 source on a Lerner sale process; ESPN lists the Lerner family as owner)
+- Unverified (sentence removed from the profile): `ownership.institutionalInvestors` no 2026 source on a Lerner sale process; ESPN lists the Lerner family as owner
 
 ### Chicago Cubs
 - **Overview rewritten.** Basis: Forbes 2026 ($5B, rev $0.599B, OI $0.058B); 2025 postseason (Wikipedia); 2026 record 88-73 (CBS); Bregman/Hoerner/PCA deals (Wikipedia/MLBTR).
@@ -868,8 +885,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 1. Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Cubs went 92-70 in 2025 and lost the NLDS to Milwaukee, then clinched a 2026 wild card at 88-73 [source](https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason)
 - `onField.currentFranchisePlayer`: "Dansby Swanson — 7yr/$177M (2023), $25.3M AAV through 2029" → "Pete Crow-Armstrong, CF, 6yr/$115M extension (Mar 2026) covering 2027-2032; first Cubs ...". PCA extension Mar 2026 [source](https://www.mlbtraderumors.com/2026/03/cubs-extend-pete-crow-armstrong.html)
 - `onField.starContracts`: "[{"player":"Dansby Swanson","position":"SS","aav":25.3,"contractNote":"7yr/$177M (Dec 2..." → "[{"player":"Alex Bregman","position":"3B","aav":35,"contractNote":"5yr/$175M (Jan 14, 2...". Bregman 5yr/$175M, Hoerner 6yr/$141M, PCA 6yr/$115M; Tucker and Bellinger departed [source](https://en.wikipedia.org/wiki/Alex_Bregman)
-- Unverified: media.localTVDeal: Marquee/Comcast carriage status in 2026 not re-checked
-- Unverified: media.streamingNotes: not re-checked
+- `media.localTVDeal`: "Marquee Sports Network — Cubs-owned regional sports network launched Feb 2020; Cubs own..." → null. Removed: not verifiable as of September 2026 (Marquee/Comcast carriage status in 2026 not re-checked)
+- `media.streamingNotes`: "Apple TV+ (Friday night games), MLB.TV; Marquee available via cable/streaming; Cubs exp..." → null. Removed: not verifiable as of September 2026 (not re-checked)
+- Unverified (sentence removed from the profile): `media.localTVDeal` Marquee/Comcast carriage status in 2026 not re-checked
+- Unverified (sentence removed from the profile): `media.streamingNotes` not re-checked
 
 ### Cincinnati Reds
 - **Overview rewritten.** Basis: Forbes 2026 ($1.6B, rev $0.336B, OI $0.026B); 2025 postseason (Wikipedia); 2026 record 75-86 (Wikipedia); Castellini succession (ESPN owners list); Reds.tv (Wikipedia).
@@ -878,7 +897,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Ohio / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2023-2..." → "Reds.tv produced and distributed by MLB Local Media from 2026 after the Reds terminated...". Reds moved to MLB Local Media for 2026 [source](https://en.wikipedia.org/wiki/MLB_Local_Media)
 - `media.streamingNotes`: "Apple TV+ (Friday night games), MLB.TV; local TV situation under restructuring" → "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games n...". MLB Local Media in-market streaming [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
 - `onField.currentFranchisePlayer`: "Elly De La Cruz — 10yr/$175M extension (2025), $17.5M AAV through 2034; 2023-24 breakou..." → "Elly De La Cruz, 10yr/$175M extension (2025), $17.5M AAV through 2034; 30-30 season in ...". EDLC 30-30 in 2026 [source](https://en.wikipedia.org/wiki/2026_Cincinnati_Reds_season)
-- Unverified: ownership.ownerBackground: the enrichment says Bob Castellini died in Jan 2024, but the 2026 Reds season page still lists Bob Castellini as owner and ESPN describes a Feb 2026 succession; the death claim looks wrong and should be re-checked before publishing
+- `ownership.primaryOwner`: "Phil Castellini (president / managing partner) / Castellini family" → "Phil Castellini (controlling owner since February 2026) / Castellini family". MLB clubs approved the transfer of control from Bob Castellini to his son Phil on February 12, 2026. [source](https://www.fox19.com/2026/02/13/phil-castellini-takes-over-control-reds-bob-castellini/)
+- `ownership.ownerBackground`: "Bob Castellini was a major produce distribution businessman (Castellini Company) who le..." → "Bob Castellini, a produce-distribution businessman (Castellini Company), led the Januar...". Corrects an earlier claim that Bob Castellini died in January 2024; he is alive, and control passed to Phil Castellini by MLB approval on February 12, 2026. [source](https://www.redlegnation.com/2026/02/12/the-cincinnati-reds-have-a-new-controlling-owner-phil-castellini/)
+- `ownership.ownershipGroup`: "[{"name":"Phil Castellini","role":"president / managing partner","pct":null},{"name":"C..." → "[{"name":"Phil Castellini","role":"controlling owner and CEO (since February 2026)","pc...". Succession approved by MLB on February 12, 2026. [source](https://www.si.com/mlb/reds/onsi/news/mlb-officially-approves-reds-owner-bob-castellini-successor-01kha7v3454m)
+- Unverified (resolved in refresh-fixes.json): `ownership.ownerBackground` the enrichment says Bob Castellini died in Jan 2024, but the 2026 Reds season page still lists Bob Castellini as owner and ESPN describes a Feb 2026 succession; the death claim looks wrong and should be re-checked before publishing
 
 ### Milwaukee Brewers
 - **Overview rewritten.** Basis: Forbes 2026 ($1.9B, rev $0.354B, OI $0.047B); 2025 postseason (Wikipedia); 2026 record 102-59 (Wikipedia/CBS); Peralta trade (Wikipedia Mets 2026); Brewers.tv (Wikipedia).
@@ -886,14 +908,15 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Wisconsin / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2..." → "Brewers.tv produced and distributed by MLB Local Media from 2026 after the Brewers term...". Brewers moved to MLB Local Media for 2026 [source](https://en.wikipedia.org/wiki/MLB_Local_Media)
 - `media.streamingNotes`: "Apple TV+ (Friday night games), MLB.TV; Wisconsin market has limited regional broadcast..." → "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games n...". MLB Local Media in-market streaming [source](https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/)
 - `onField.starContracts`: "[{"player":"Christian Yelich","position":"LF","aav":23.9,"contractNote":"9yr/$215M exte..." → "[{"player":"Christian Yelich","position":"LF/DH","aav":23.9,"contractNote":"9yr/$215M e...". Peralta traded to the Mets Jan 2026; Chourio 20-20 again in 2026 [source](https://en.wikipedia.org/wiki/2026_New_York_Mets_season)
-- Unverified: ownership.ownershipGroup: ESPN notes Giannis Antetokounmpo as a minority investor since 2021; not added without a primary source
+- Unverified (listed for follow-up): `ownership.ownershipGroup` ESPN notes Giannis Antetokounmpo as a minority investor since 2021; not added without a primary source
 
 ### Pittsburgh Pirates
 - **Overview rewritten.** Basis: Forbes 2026 ($1.62B, rev $0.33B, OI $0.048B); 2026 record 81-80 (Wikipedia); Griffin extension (Wikipedia); Skenes status (SI/Spotrac).
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.currentFranchisePlayer`: "Paul Skenes — service-time controlled through ~2029; no extension signed as of 2025; 20..." → "Paul Skenes, 2025 NL Cy Young; final pre-arbitration year in 2026 at a record $1.085M; ...". Skenes unextended; Griffin record rookie extension [source](https://www.si.com/mlb/pirates/onsi/news/pittsburgh-pirates-paul-skenes-2026-salary-revealed)
 - `onField.starContracts`: "[{"player":"Bryan Reynolds","position":"CF/LF","aav":17.75,"contractNote":"6yr/$106.5M ..." → "[{"player":"Konnor Griffin","position":"SS","aav":15.6,"contractNote":"9yr/$140M extens...". Griffin 9yr/$140M added; Skenes still unextended [source](https://en.wikipedia.org/wiki/Konnor_Griffin)
-- Unverified: onField.starContracts: Ke'Bryan Hayes' status (reported 2025 trade to Cincinnati) not sourced; dropped from the array pending confirmation
+- `onField.starContracts`: "[{"player":"Bryan Reynolds","position":"CF/LF","aav":17.75,"contractNote":"6yr/$106.5M ..." → "[{"player":"Bryan Reynolds","position":"CF/LF","aav":17.75,"contractNote":"6yr/$106.5M ...". Removed unverified contract line(s): Ke'Bryan Hayes
+- Unverified (removed contract line(s): Ke'Bryan Hayes): `onField.starContracts` Ke'Bryan Hayes' status (reported 2025 trade to Cincinnati) not sourced; dropped from the array pending confirmation
 
 ### St. Louis Cardinals
 - **Overview rewritten.** Basis: Forbes 2026 ($2.75B, rev $0.35B, OI $0.033B); 2026 record 77-84 (CBS); trades (MLBTR/CBS/Wikipedia Red Sox 2026); Cardinals.tv (Wikipedia).
@@ -910,15 +933,17 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.championshipsLast10Years`: 1 → 3. World Series titles in 2020, 2024 and 2025 (beat Toronto 5-4 in 11 innings in Game 7 on Nov 1, 2025, the first repeat since the 1998-2000 Yankees) [source](https://www.espn.com/mlb/story/_/id/46796786/world-series-2025-los-angeles-dodgers-champions-repeat-dynasty)
 - `onField.currentFranchisePlayer`: "Shohei Ohtani — 10yr/$700M (Dec 2023), $70M AAV, through 2033; largest contract in prof..." → "Shohei Ohtani, 10yr/$700M (Dec 2023), $70M AAV through 2033 with $680M deferred; two st...". Repeat champions 2025 [source](https://www.espn.com/mlb/story/_/id/46796786/world-series-2025-los-angeles-dodgers-champions-repeat-dynasty)
 - `onField.starContracts`: "[{"player":"Shohei Ohtani","position":"DH/SP","aav":70,"contractNote":"10yr/$700M (Dec ..." → "[{"player":"Shohei Ohtani","position":"DH/SP","aav":70,"contractNote":"10yr/$700M (Dec ...". Tucker signed as a free agent Jan 2026 (the enrichment's 'acquired via trade from Houston, 5yr/$240M, 2025' was wrong); Skubal acquired Aug 2026 [source](https://www.mlbtraderumors.com/2026/01/dodgers-to-sign-kyle-tucker.html)
-- Unverified: media.localTVDeal: SportsNet LA / Charter arrangement not re-checked with a 2026 source
+- `media.localTVDeal`: "SportsNet LA (Spectrum Sports/Charter Communications); 25-year deal signed 2013 totalin..." → null. Removed: not verifiable as of September 2026 (SportsNet LA / Charter arrangement not re-checked with a 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` SportsNet LA / Charter arrangement not re-checked with a 2026 source
 
 ### San Francisco Giants
 - **Overview rewritten.** Basis: Forbes 2026 ($4.05B, rev $0.477B, OI $0.054B); 2026 record 65-96 (CBS/Yahoo); Devers/Chapman/Webb status (CBS/MLBTR/SF Standard).
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `onField.currentFranchisePlayer`: "Logan Webb — 5yr/$90M extension (Mar 2022), $18M AAV, through 2026; Giants ace and home..." → "Logan Webb, 5yr/$90M extension (2023), $18M AAV through 2028; Buster Posey (president o...". Webb runs through 2028, not 2026 [source](https://www.mlbtraderumors.com/2026/06/posey-discusses-giants-deadline-no-plans-to-trade-logan-webb.html)
 - `onField.starContracts`: "[{"player":"Logan Webb","position":"SP","aav":18,"contractNote":"5yr/$90M extension (Ma..." → "[{"player":"Rafael Devers","position":"DH/1B","aav":30.1,"contractNote":"11yr/$331M (Bo...". Devers acquired June 2025; Chapman extended Sept 2024; Webb runs to 2028 [source](https://www.cbssports.com/mlb/news/regrading-rafael-devers-trade-red-sox-giants-one-year-later/)
-- Unverified: media.localTVDeal: NBC Sports Bay Area JV not re-checked for 2026
-- Unverified: ownership.ownershipGroup: ESPN lists Greg Johnson as chairman with 30-plus partners incl. Buster Posey; not restructured without a fuller source
+- `media.localTVDeal`: "NBC Sports Bay Area (Giants co-own the RSN with NBCUniversal via a joint venture); gene..." → null. Removed: not verifiable as of September 2026 (NBC Sports Bay Area JV not re-checked for 2026)
+- Unverified (sentence removed from the profile): `media.localTVDeal` NBC Sports Bay Area JV not re-checked for 2026
+- Unverified (listed for follow-up): `ownership.ownershipGroup` ESPN lists Greg Johnson as chairman with 30-plus partners incl. Buster Posey; not restructured without a fuller source
 
 ### San Diego Padres
 - **Overview rewritten.** Basis: Forbes 2026 ($3.1B, rev $0.452B, OI -$0.0013B); sale (transactions.js / ESPN Aug 2026); 2026 record 90-71 (CBS); Petco naming (Wikipedia).
@@ -935,8 +960,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ..." → "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribu...". MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026 [source](https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html)
 - `ownership.institutionalInvestors`: "Walton-Penner group (Walmart family / PE background) has ~40% stake" → "Greg Penner and Carrie Walton Penner's group (Denver Broncos owners) completed the purc...". Walton-Penner 40% stake closed April 2026 [source](https://en.wikipedia.org/wiki/2026_Colorado_Rockies_season)
 - `onField.starContracts`: "[{"player":"Kris Bryant","position":"OF/3B","aav":26,"contractNote":"7yr/$182M (Mar 202..." → "[{"player":"Kris Bryant","position":"OF/3B","aav":26,"contractNote":"7yr/$182M (Mar 202...". Bryant has not played since April 2025 [source](https://www.si.com/mlb/rockies/colorado-rockies-four-100-loss-seasons-historic-levels-losing)
-- Unverified: onField.starContracts: McMahon's reported 2025 trade to the Yankees not sourced; entry left as is
-- Unverified: ownership.ownershipGroup: Penner stake pct left at 40 pending the closing source (April 2026 per Wikipedia; enrichment said 2025)
+- Unverified (listed for follow-up): `onField.starContracts` McMahon's reported 2025 trade to the Yankees not sourced; entry left as is
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Penner stake pct left at 40 pending the closing source (April 2026 per Wikipedia; enrichment said 2025)
 
 ### Arizona Diamondbacks
 - **Overview rewritten.** Basis: Forbes 2026 ($1.96B, rev $0.324B, OI -$0.031B); Chase Field funding (ESPN, June 2025) and lease status (Axios/KJZZ, Sept 2026); Arenado trade (MLBTR); final-day standings (CBS, Sept 27).
@@ -945,25 +970,27 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.ownershipModel`: "owned by Maricopa County; Diamondbacks lease under agreement expiring 2027; retractable..." → "owned by Maricopa County through the Arizona Sports and Tourism Authority-era stadium d...". Renovation funding signed 2025; lease extension unresolved Sept 2026 [source](https://www.axios.com/local/phoenix/2026/09/01/diamondbacks-chase-field-lease)
 - `stadium.newStadiumPlans`: "$500M Arizona state public funding bill for new stadium cleared the Arizona House in 20..." → "No new stadium: the June 2025 state law funds up to $500M of Chase Field renovations (r...". Chase Field renovation path replaced the new-stadium bill; lease extension pending [source](https://www.espn.com/mlb/story/_/id/45599472/gov-katie-hobbs-signs-upgrades-d-backs-chase-field)
 - `onField.starContracts`: "[{"player":"Ketel Marte","position":"2B/CF","aav":19.4,"contractNote":"6yr/$116.5M (Mar..." → "[{"player":"Corbin Carroll","position":"CF/LF","aav":13.875,"contractNote":"8yr/$111M (...". Arenado acquired Jan 2026; Carroll's deal dates from March 2023 [source](https://www.mlbtraderumors.com/2026/01/cardinals-trade-nolan-arenado-diamondbacks.html)
-- Unverified: onField.starContracts: Marte's extension terms and Zac Gallen's status (free agent after 2025) not sourced with a 2026 link
-- Unverified: stadium.namingRightsDeal: Chase deal term not re-checked
+- `onField.starContracts`: "[{"player":"Ketel Marte","position":"2B/CF","aav":19.4,"contractNote":"6yr/$116.5M (Mar..." → "[{"player":"Ketel Marte","position":"2B/CF","aav":19.4,"contractNote":"6yr/$116.5M (Mar...". Removed unverified contract line(s): Zac Gallen
+- Unverified (removed contract line(s): Zac Gallen): `onField.starContracts` Marte's extension terms and Zac Gallen's status (free agent after 2025) not sourced with a 2026 link
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` Chase deal term not re-checked
 
 ## NHL (32 teams)
 
 ### Boston Bruins
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.7B, $268M revenue, $69M operating income); 2025 and 2026 playoff results from Wikipedia; contracts from CapWages 2026-27.
 - No factual changes; overview regenerated against current numbers.
-- Unverified: onField.starContracts: CapWages lists JJ Peterka ($7.7M) and Elias Lindholm ($7.75M) on the 2026-27 Bruins; the Peterka move was not second-sourced so it is not added
-- Unverified: arena.nonArenaRevenue / Hub on Causeway: no 2026 source checked
+- Unverified (listed for follow-up): `onField.starContracts` CapWages lists JJ Peterka ($7.7M) and Elias Lindholm ($7.75M) on the 2026-27 Bruins; the Peterka move was not second-sourced so it is not added
+- Unverified (listed for follow-up): `arena.nonArenaRevenue` Hub on Causeway: no 2026 source checked
 
 ### Buffalo Sabres
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.1B, $169M revenue); 2026 division title and playoff run from Wikipedia; KeyBank extension July 30, 2025; contracts from CapWages.
 - `onField.playoffAppearancesLast5Years`: 0 → 1. Sabres clinched a playoff spot April 4, 2026, ending a 14-year drought, won the Atlantic Division April 13, 2026 (first since 2010), beat Boston in 6 and lost Game 7 in overtime to Montreal in the second round [source](https://en.wikipedia.org/wiki/Buffalo_Sabres ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs)
 - `arena.namingRightsDeal`: "{"sponsor":"KeyBank","annualValue_M":5,"totalValue_M":null,"expiryYear":null,"notes":"K..." → "{"sponsor":"KeyBank","annualValue_M":5,"totalValue_M":null,"expiryYear":2036,"notes":"N...". Sabres and KeyBank announced a new naming-rights contract on July 30, 2025 running through 2035-36 [source](https://en.wikipedia.org/wiki/Buffalo_Sabres ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
 - `onField.starContracts`: "[{"player":"Tage Thompson","position":"C","aav":7.14,"contractNote":"7yr/$50M signed Au..." → "[{"player":"Josh Norris","position":"C","aav":7.95,"contractNote":"$7.95M AAV, four sea...". 2026-27 cap sheet: Norris $7.95M, Benson $7.5M, Thompson $7.14M, Doan $6.95M; Zucker's 2023-24 one-year deal is long expired [source](https://capwages.com/teams/buffalo_sabres)
-- Unverified: onField.starContracts: Rasmus Dahlin (captain per Wikipedia) and Owen Power did not appear in the CapWages excerpt returned, so their current cap hits were not confirmed
-- Unverified: media.localTVDeal (MSG Network): no 2026 source found
-- Unverified: arena.newArenaPlans: no 2026 source found on state renovation funding
+- `media.localTVDeal`: "MSG Network (MSG Sports & Entertainment); Sabres games broadcast regionally on MSG Netw..." → null. Removed: not verifiable as of September 2026 (no 2026 source found)
+- Unverified (listed for follow-up): `onField.starContracts` Rasmus Dahlin (captain per Wikipedia) and Owen Power did not appear in the CapWages excerpt returned, so their current cap hits were not confirmed
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source found
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on state renovation funding
 
 ### Detroit Red Wings
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.125B, $229M revenue); playoff drought and front-office change from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages.
@@ -971,8 +998,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Detroit (Diamond Sports Group / Sinclair Broadcast Group); Red Wings regio..." → "Detroit SportsNet, a channel built with MLB Local Media (the Tigers' partner), carries ...". Main Street Sports Group (FanDuel Sports Network) ceased operations April 30, 2026; Red Wings moved to Detroit SportsNet via an MLB Local Media partnership for 2026-27 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified))
 - `media.streamingNotes`: "Bally Sports+ streaming; ESPN+ for national games; Diamond Sports restructuring may acc..." → "Detroit SportsNet in-market streaming via the MLB app; ESPN+/Hulu and TNT/Max for US na...". Local streaming now runs through the MLB app under the Detroit SportsNet arrangement [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.starContracts`: "[{"player":"Dylan Larkin","position":"C","aav":8.7,"contractNote":"8yr/$69.6M signed Ma..." → "[{"player":"Dylan Larkin","position":"C","aav":8.7,"contractNote":"8yr/$69.6M signed Ma...". CapWages 2026-27: Larkin $8.7M, Seider $8.55M, Raymond $8.075M (not $8.0M) [source](https://capwages.com/teams/detroit_red_wings)
-- Unverified: Wikipedia infobox shows the captaincy vacant and Shawn Horcoff as interim GM (named Sept 15, 2026) while CapWages still lists Larkin at $8.7M; Larkin's status and Steve Yzerman's departure were not second-sourced, so currentFranchisePlayer is left as is
-- Unverified: arena.nonArenaRevenue (District Detroit): no 2026 source checked
+- Unverified (listed for follow-up): Wikipedia infobox shows the captaincy vacant and Shawn Horcoff as interim GM (named Sept 15, 2026) while CapWages still lists Larkin at $8.7M; Larkin's status and Steve Yzerman's departure were not second-sourced, so currentFranchisePlayer is left as is
+- Unverified (listed for follow-up): `arena.nonArenaRevenue` no 2026 source checked
 
 ### Florida Panthers
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.4B, $189M revenue); 2025 Cup and 2026 miss from Wikipedia; Brady Tkachuk trade June 21, 2026 from the Senators page; contracts from CapWages.
@@ -981,8 +1008,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Bally Sports Florida (Diamond Sports Group / Sinclair); regional rights through ~2030; ..." → "Scripps Sports over-the-air deal (WSFL-TV) in place since 2024-25, so the April 30, 202...". Panthers moved local broadcasts to Scripps Sports / WSFL-TV for 2024-25; FanDuel Sports Network ceased operations April 30, 2026 [source](https://en.wikipedia.org/wiki/Florida_Panthers ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network)
 - `media.streamingNotes`: "Bally Sports+ streaming; NHL.tv for out-of-market; ESPN+ for national games" → "Over-the-air Scripps model with team-arranged in-market streaming; ESPN+/Hulu and TNT/M...". Local rights are broadcast-first under Scripps since 2024-25 [source](https://en.wikipedia.org/wiki/Florida_Panthers)
 - `onField.starContracts`: "[{"player":"Matthew Tkachuk","position":"LW","aav":9.5,"contractNote":"8yr/$76M signed ..." → "[{"player":"Aleksander Barkov","position":"C","aav":10,"contractNote":"$10M AAV captain...". Brady Tkachuk joined Florida June 21, 2026; Bennett re-signed at $8M after the 2025 Cup; Bobrovsky left for Toronto as a free agent in 2026 [source](https://capwages.com/teams/florida_panthers ; https://en.wikipedia.org/wiki/Ottawa_Senators ; https://en.wikipedia.org/wiki/Florida_Panthers)
-- Unverified: arena.newArenaPlans: the 2033 lease extension and $51.5M debt payoff were not re-sourced in 2026
-- Unverified: arena.namingRightsDeal (Amerant Bank): terms still undisclosed
+- Unverified (listed for follow-up): `arena.newArenaPlans` the 2033 lease extension and $51.5M debt payoff were not re-sourced in 2026
+- Unverified (kept; rendered "as of May 2026"): `arena.namingRightsDeal` terms still undisclosed
 
 ### Montreal Canadiens
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($3.0B, $321M revenue, $142M operating income); 2026 conference final from Wikipedia; Rogers deal from NHL on Sportsnet page; contracts from CapWages and the Dobson page.
@@ -990,8 +1017,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "TVA Sports (French-language; Groupe TVA / Quebecor, major rights-holder for francophone..." → "RDS (Bell Media) holds French regional rights and TSN2 English regional rights under a ...". Wikipedia lists Bell Media (TSN2) for regional English and RDS for French under a 12-year deal that began 2014-15 [source](https://en.wikipedia.org/wiki/Montreal_Canadiens ; https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
 - `onField.currentFranchisePlayer`: "Cole Caufield — 8yr/$62.8M ($7.85M AAV), signed June 2023, through 2030-31" → "Nick Suzuki (captain) $7.875M AAV through 2029-30 and Cole Caufield $7.85M AAV through ...". Dobson was acquired from the Islanders on June 27, 2025 for Emil Heineman and two 2025 first-round picks and signed an eight-year, $76M deal the same day [source](https://en.wikipedia.org/wiki/Noah_Dobson ; https://capwages.com/teams/montreal_canadiens)
 - `onField.starContracts`: "[{"player":"Cole Caufield","position":"RW","aav":7.85,"contractNote":"8yr/$62.8M signed..." → "[{"player":"Noah Dobson","position":"D","aav":9.5,"contractNote":"8yr/$76M signed June ...". CapWages 2026-27: Dobson $9.5M, Hutson $8.85M, Suzuki $7.875M, Caufield $7.85M, Slafkovsky $7.6M [source](https://capwages.com/teams/montreal_canadiens ; https://en.wikipedia.org/wiki/Noah_Dobson)
-- Unverified: arena.nonArenaRevenue: the $600M Bell Centre refinancing in early 2026 was not found on Wikipedia; left as is
-- Unverified: Lane Hutson extension date and total (8yr/$70.8M) rely on CapWages plus prior knowledge; not second-sourced
+- Unverified (listed for follow-up): `arena.nonArenaRevenue` the $600M Bell Centre refinancing in early 2026 was not found on Wikipedia; left as is
+- Unverified (listed for follow-up): Lane Hutson extension date and total (8yr/$70.8M) rely on CapWages plus prior knowledge; not second-sourced
 
 ### Ottawa Senators
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.15B, $154M revenue); LeBreton land deal and Tkachuk trade from the Senators page; Rogers deal; contracts from CapWages.
@@ -1001,8 +1028,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `arena.newArenaPlans`: "The Senators have long sought a new downtown Ottawa arena at LeBreton Flats; discussion..." → "LeBreton Flats downtown arena: NCC selected the Senators' proposal June 23, 2022, expan...". Land sale agreement with the National Capital Commission finalized August 2025; site now 10 acres [source](https://en.wikipedia.org/wiki/Ottawa_Senators)
 - `media.localTVDeal`: "Sportsnet (Rogers; English); TSN (English); TVA Sports (French-language Quebec market);..." → "TSN5 (Bell Media) carries English regional games; TVA Sports French; national Canadian ...". Wikipedia infobox lists TSN5 as the English regional broadcaster [source](https://en.wikipedia.org/wiki/Ottawa_Senators)
 - `media.nationalShareNote`: "~$19M/team/year from US national deals (ESPN/TNT); Canadian national deal with Rogers S..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: LeBreton Flats arena cost and opening year: not published
-- Unverified: Return for Brady Tkachuk beyond 'a package of draft picks' not itemized in the source
+- Unverified (listed for follow-up): LeBreton Flats arena cost and opening year: not published
+- Unverified (listed for follow-up): Return for Brady Tkachuk beyond 'a package of draft picks' not itemized in the source
 
 ### Tampa Bay Lightning
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.8B, $220M revenue, $44M operating income); arena rename and Hart/Vezina from the 2025-26 season page; local TV from the Lightning page; contracts from CapWages.
@@ -1012,8 +1039,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "Bally Sports+ streaming; ESPN+ for national games; NHL.tv for out-of-market" → "Over-the-air Scripps model with in-market streaming arranged by the team; ESPN+/Hulu an...". Local rights moved from the RSN to Scripps broadcast television [source](https://en.wikipedia.org/wiki/Tampa_Bay_Lightning)
 - `onField.currentFranchisePlayer`: "Nikita Kucherov — 8yr/$76M ($9.5M AAV), through 2027-28; 2024 Hart Trophy winner" → "Nikita Kucherov, 8yr/$76M ($9.5M AAV), final season 2026-27 (UFA July 2027); Hart Troph...". CapWages shows one season left on Kucherov's deal; the 2025-26 Hart Trophy went to Kucherov [source](https://capwages.com/teams/tampa_bay_lightning ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
 - `onField.starContracts`: "[{"player":"Nikita Kucherov","position":"RW","aav":9.5,"contractNote":"8yr/$76M, throug..." → "[{"player":"Nikita Kucherov","position":"RW","aav":9.5,"contractNote":"8yr/$76M, expire...". Four $9M+ contracts; Vasilevskiy won the 2025-26 Vezina [source](https://capwages.com/teams/tampa_bay_lightning ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
-- Unverified: Benchmark International naming-rights value and length: undisclosed
-- Unverified: Timing of the governor handoff from Vinik to Ostrover/Lipschultz (enrichment says ~2027): no 2026 source
+- Unverified (listed for follow-up): Benchmark International naming-rights value and length: undisclosed
+- Unverified (listed for follow-up): Timing of the governor handoff from Vinik to Ostrover/Lipschultz (enrichment says ~2027): no 2026 source
 
 ### Toronto Maple Leafs
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($3.8B, $308M revenue, $125M operating income); Rogers-Kilmer deal from transactions.js; Marner sign-and-trade from Wikipedia; playoff qualifiers from the 2025 and 2026 playoff pages; contracts from CapWages.
@@ -1022,9 +1049,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 5 → 4. Playoffs in 2022, 2023, 2024 and 2025 (lost to Florida in seven in the second round); Toronto was not among the 16 qualifiers in 2026 [source](https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Auston Matthews","position":"C","aav":13.25,"contractNote":"4yr/$53M signed..." → "[{"player":"Auston Matthews","position":"C","aav":13.25,"contractNote":"4yr/$53M signed...". Mitch Marner left via sign-and-trade to Vegas June 30, 2025 (8yr/$96M, for Nicolas Roy); Knies and Bobrovsky are now top-four cap hits [source](https://capwages.com/teams/toronto_maple_leafs ; https://en.wikipedia.org/wiki/Mitch_Marner ; https://en.wikipedia.org/wiki/Florida_Panthers)
 - `media.nationalShareNote`: "~$19M/team/year from US national deals (ESPN/TNT); Canadian national deal with Rogers S..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: Wikipedia infobox lists John Chayka as general manager; not second-sourced
-- Unverified: arena.newArenaPlans: status of the $350M Scotiabank Arena renovation not found in a 2026 source
-- Unverified: Bobrovsky contract length and date rely on CapWages (three seasons at $7M) and the Panthers page
+- Unverified (listed for follow-up): Wikipedia infobox lists John Chayka as general manager; not second-sourced
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` status of the $350M Scotiabank Arena renovation not found in a 2026 source
+- Unverified (listed for follow-up): Bobrovsky contract length and date rely on CapWages (three seasons at $7M) and the Panthers page
 
 ### Carolina Hurricanes
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.25B, $183M revenue); March 2026 minority sale from transactions.js; 2026 Cup from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages.
@@ -1033,8 +1060,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Carolina Hurricanes TV (team-owned regional broadcast); after Bally Sports/Diamond Spor..." → "Hurricanes Hockey Network, a team-owned regional network run by Hurricanes Holdings fro...". FanDuel Sports Network shut down April 30, 2026; Carolina moved to a team-owned network produced through the NHL hub with Prime Video streaming [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified) ; https://en.wikipedia.org/wiki/Carolina_Hurricanes)
 - `media.streamingNotes`: "HockeyTV / team-owned streaming direct to fans; NHL.TV League Pass; national games on E..." → "Amazon Prime Video carries in-market streaming for the team-owned network from 2026-27;...". Prime Video is the in-market streaming home for the NHL-hub direct-to-distributor teams in 2026-27 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.starContracts`: "[{"player":"Sebastian Aho","position":"C","aav":9.75,"contractNote":"8yr/$78M extension..." → "[{"player":"Sebastian Aho","position":"C","aav":9.75,"contractNote":"8yr/$78M (2023), t...". CapWages 2026-27: Aho $9.75M, Ehlers $8.5M, Svechnikov $7.75M, Miller $7.5M, Jarvis $7.42M, Slavin $6.396M; team cap hit $95.5M against a $104M cap [source](https://capwages.com/teams/carolina_hurricanes ; https://en.wikipedia.org/wiki/Carolina_Hurricanes)
-- Unverified: arena.newArenaPlans: no 2026 source found on the 80-acre Lenovo Center district timeline
-- Unverified: Ehlers and Miller signing dates and totals rely on CapWages plus prior knowledge; not second-sourced
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on the 80-acre Lenovo Center district timeline
+- Unverified (listed for follow-up): Ehlers and Miller signing dates and totals rely on CapWages plus prior knowledge; not second-sourced
 
 ### Columbus Blue Jackets
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.0B, $150M revenue); 2025 and 2026 records and Norris from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages.
@@ -1042,56 +1069,56 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "NHL.TV League Pass; national ESPN+/Hulu and TNT/Max; local streaming via Bally Sports a..." → "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national". Prime Video carries in-market games for the hub-produced teams [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.starContracts`: "[{"player":"Zach Werenski","position":"D","aav":9,"contractNote":"7yr/$63M extension si..." → "[{"player":"Zach Werenski","position":"D","aav":9.583,"contractNote":"6yr/$57.5M (2022)...". Werenski's cap hit is $9,583,333 through 2027-28 and he won the 2025-26 Norris; Marchenko's bridge deal is $3.85M, not $6.5M [source](https://capwages.com/teams/columbus_blue_jackets ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
 - `onField.currentFranchisePlayer`: "Zach Werenski — franchise D-man; Kirill Marchenko emerging as offensive cornerstone" → "Zach Werenski, 2026 Norris Trophy winner, $9.58M AAV through 2027-28; Adam Fantilli and...". Werenski won the 2025-26 Norris Trophy [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
-- Unverified: CapWages shows Adam Fantilli at a $13.75M cap hit for 2026-27 alongside an entry-level bonus note; contradictory, not added
-- Unverified: Wikipedia infobox shows the captaincy vacant; no 2026 source on a captain
+- Unverified (listed for follow-up): CapWages shows Adam Fantilli at a $13.75M cap hit for 2026-27 alongside an entry-level bonus note; contradictory, not added
+- Unverified (listed for follow-up): Wikipedia infobox shows the captaincy vacant; no 2026 source on a captain
 
 ### New Jersey Devils
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.1B, $265M revenue, $67M operating income); playoff results from Wikipedia; contracts from CapWages 2026-27.
 - `onField.currentFranchisePlayer`: "Jack Hughes — 8yr/$9.75M AAV extension signed 2023, through 2030-31; Nico Hischier captain" → "Jack Hughes, 8yr/$64M ($8.0M AAV) signed Nov 2021, through 2029-30; Nico Hischier capta...". CapWages 2026-27: Jack Hughes $8.0M (four seasons left), Luke Hughes $9.0M, Hamilton $9.0M, Meier $8.8M, Bratt $7.875M, Hischier $7.25M [source](https://capwages.com/teams/new_jersey_devils)
 - `onField.starContracts`: "[{"player":"Jack Hughes","position":"C","aav":9.75,"contractNote":"8yr/$78M extension s..." → "[{"player":"Luke Hughes","position":"D","aav":9,"contractNote":"7yr/$63M signed Oct 202...". Prior AAVs for Jack Hughes ($9.75M), Hischier ($8.25M) and Bratt ($8.25M) were wrong; corrected to $8.0M, $7.25M and $7.875M [source](https://capwages.com/teams/new_jersey_devils)
-- Unverified: Nico Hischier extension: CapWages shows six seasons remaining at $7.25M but no date or total was found
-- Unverified: Luke Hughes contract date and total rely on CapWages plus prior knowledge
-- Unverified: GM listed as Sunny Mehta on Wikipedia (front-office change not second-sourced)
+- Unverified (listed for follow-up): Nico Hischier extension: CapWages shows six seasons remaining at $7.25M but no date or total was found
+- Unverified (listed for follow-up): Luke Hughes contract date and total rely on CapWages plus prior knowledge
+- Unverified (listed for follow-up): GM listed as Sunny Mehta on Wikipedia (front-office change not second-sourced)
 
 ### New York Islanders
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.9B, $200M revenue); Dobson trade from Wikipedia; Calder from the 2025-26 season page; contracts from CapWages.
 - `onField.currentFranchisePlayer`: "Matt Barzal — 5yr/$7.75M AAV through 2026-27; franchise face" → "Mathew Barzal, 8yr/$73.2M ($9.15M AAV) through 2030-31; Bo Horvat captain ($8.5M throug...". Barzal's cap hit is $9.15M through 2030-31; Horvat is captain; Schaefer won the 2025-26 Calder [source](https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/New_York_Islanders ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season)
 - `onField.starContracts`: "[{"player":"Matt Barzal","position":"C","aav":7.75,"contractNote":"5yr/$38.75M signed 2..." → "[{"player":"Mathew Barzal","position":"C/RW","aav":9.15,"contractNote":"8yr/$73.2M (202...". Noah Dobson was traded to Montreal June 27, 2025 for Emil Heineman and two 2025 first-round picks; Barzal's 2022 extension is $9.15M, not $7.75M [source](https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/Noah_Dobson)
-- Unverified: ownership.ownershipGroup: Wikipedia infobox lists Scott Malkin as governor (enrichment lists Jon Ledecky); single source, not changed
-- Unverified: GM Mathieu Darche and coach Peter DeBoer (Wikipedia infobox) not second-sourced
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Wikipedia infobox lists Scott Malkin as governor (enrichment lists Jon Ledecky); single source, not changed
+- Unverified (listed for follow-up): GM Mathieu Darche and coach Peter DeBoer (Wikipedia infobox) not second-sourced
 
 ### New York Rangers
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($3.5B, $315M revenue, $104M operating income); playoff misses and Panarin trade from Wikipedia; contracts from CapWages.
 - `onField.playoffAppearancesLast5Years`: 4 → 3. Playoffs in 2022, 2023 and 2024; missed in 2025 and 2026 [source](https://en.wikipedia.org/wiki/New_York_Rangers ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Adam Fox — 7yr/$9.5M AAV signed 2021, through 2027-28; Norris Trophy winner 2021" → "Igor Shesterkin, 8yr/$92M ($11.57M AAV) signed Dec 2024, through 2033-34; J.T. Miller c...". Shesterkin's cap hit is $11,567,857 with an NMC; Miller (acquired from Vancouver Jan 2025) is captain [source](https://capwages.com/teams/new_york_rangers ; https://en.wikipedia.org/wiki/New_York_Rangers)
 - `onField.starContracts`: "[{"player":"Adam Fox","position":"D","aav":9.5,"contractNote":"7yr/$66.5M signed 2021, ..." → "[{"player":"Igor Shesterkin","position":"G","aav":11.568,"contractNote":"8yr/$92M signe...". Kreider is no longer on the roster; Panarin was traded to the Kings at the 2026 deadline for Liam Greentree and two picks; Dorofeyev added in the 2026 offseason [source](https://capwages.com/teams/new_york_rangers ; https://en.wikipedia.org/wiki/New_York_Rangers)
-- Unverified: Pavel Dorofeyev acquisition date, mechanism and contract terms (CapWages roster and a Wikipedia sentence only)
-- Unverified: Any MSG Sports / Sphere Entertainment / MSG Networks corporate restructuring: not found on the Rangers page
+- Unverified (listed for follow-up): Pavel Dorofeyev acquisition date, mechanism and contract terms (CapWages roster and a Wikipedia sentence only)
+- Unverified (listed for follow-up): Any MSG Sports / Sphere Entertainment / MSG Networks corporate restructuring: not found on the Rangers page
 
 ### Philadelphia Flyers
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.3B, $260M revenue, $71M operating income); 2026 playoff results from Wikipedia; Carlsson offer sheet from CapWages; contracts from CapWages.
 - `onField.playoffAppearancesLast5Years`: 0 → 1. Flyers qualified in 2026, beat Pittsburgh in six in the first round and were swept by Carolina in the second round [source](https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Pittsburgh_Penguins)
 - `onField.currentFranchisePlayer`: "Matvei Michkov — No. 7 overall pick 2023; Cam Atkinson veteran presence" → "Matvei Michkov (ELC through 2026-27, RFA in 2027) with Trevor Zegras ($9.125M AAV, acqu...". CapWages 2026-27: Zegras $9.125M, Konecny $8.75M, Couturier $7.75M, Michkov $950K ELC with one season left [source](https://capwages.com/teams/philadelphia_flyers ; https://en.wikipedia.org/wiki/Philadelphia_Flyers)
 - `onField.starContracts`: "[{"player":"Sean Couturier","position":"C","aav":7.75,"contractNote":"8yr/$62M signed 2..." → "[{"player":"Trevor Zegras","position":"C/LW","aav":9.125,"contractNote":"$9.125M AAV ex...". Konecny's extension is $8.75M (not $7M); Michkov's ELC ends after 2026-27; Zegras is now the top cap hit [source](https://capwages.com/teams/philadelphia_flyers)
-- Unverified: arena.newArenaPlans: no 2026 source found on the $1.3B South Philadelphia arena timeline with the 76ers
-- Unverified: Zegras extension date and length (CapWages cap hit only)
-- Unverified: The Flyers tendered a 5yr/$90M offer sheet to Anaheim's Leo Carlsson on July 3, 2026 (CapWages article); Anaheim's match is inferred from Carlsson appearing on the Ducks' 2026-27 sheet
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on the $1.3B South Philadelphia arena timeline with the 76ers
+- Unverified (listed for follow-up): Zegras extension date and length (CapWages cap hit only)
+- Unverified (listed for follow-up): The Flyers tendered a 5yr/$90M offer sheet to Anaheim's Leo Carlsson on July 3, 2026 (CapWages article); Anaheim's match is inferred from Carlsson appearing on the Ducks' 2026-27 sheet
 
 ### Pittsburgh Penguins
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.75B, $223M revenue); Hoffmann sale from transactions.js and the 2025-26 season page; 2026 playoff series from Wikipedia; contracts from CapWages.
 - `onField.championshipsLast10Years`: 2 → 1. Only the 2017 Cup falls inside the 2017-2026 window; the 2016 title has aged out [source](https://en.wikipedia.org/wiki/Pittsburgh_Penguins)
 - `onField.playoffAppearancesLast5Years`: 1 → 2. Playoffs in 2022 and 2026; Pittsburgh fell behind 3-0 to Philadelphia in the 2026 first round, won two, then lost Game 6 in overtime [source](https://en.wikipedia.org/wiki/Pittsburgh_Penguins ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Sidney Crosby","position":"C","aav":8.7,"contractNote":"2yr/$17.4M signed S..." → "[{"player":"Erik Karlsson","position":"D","aav":10,"contractNote":"$10M cap hit (San Jo...". CapWages 2026-27: Karlsson $10M (one season left), Crosby $8.7M (one season left), Letang $6.1M (two seasons left), Malkin $5.5M (one season left) [source](https://capwages.com/teams/pittsburgh_penguins ; https://en.wikipedia.org/wiki/Pittsburgh_Penguins)
-- Unverified: ownership.ownershipGroup: Wikipedia lists Mario Lemieux as the only minority owner; Sidney Crosby's minority stake (in the enrichment) was not confirmed
-- Unverified: Malkin's 2026-27 one-year deal date and bonuses (CapWages cap hit only)
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Wikipedia lists Mario Lemieux as the only minority owner; Sidney Crosby's minority stake (in the enrichment) was not confirmed
+- Unverified (listed for follow-up): Malkin's 2026-27 one-year deal date and bonuses (CapWages cap hit only)
 
 ### Washington Capitals
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.15B, $244M revenue, $81M operating income); Ovechkin contract and records from Wikipedia; 2025-26 finish from the Capitals page; contracts from CapWages.
 - `onField.currentFranchisePlayer`: "Alex Ovechkin — 5yr/$47.5M ($9.5M AAV) signed July 2021, through 2025-26; broke Gordie ..." → "Alex Ovechkin re-signed July 2, 2026 on a one-year deal ($4.25M cap hit plus $4.75M in ...". Ovechkin signed a one-year, $4.25M contract (plus $4.75M bonus) on July 2, 2026 [source](https://en.wikipedia.org/wiki/Alexander_Ovechkin ; https://capwages.com/teams/washington_capitals)
 - `onField.starContracts`: "[{"player":"Alex Ovechkin","position":"LW","aav":9.5,"contractNote":"5yr/$47.5M signed ..." → "[{"player":"Alex Tuch","position":"RW","aav":10.5,"contractNote":"$10.5M AAV; joined Wa...". CapWages 2026-27: Tuch $10.5M, Chychrun $9.0M, Dubois $8.5M, Kyrou $8.125M, Wilson $6.54M, Strome $5.0M, Ovechkin $4.25M; prior Strome ($7.35M) and Wilson ($7.25M) figures were wrong [source](https://capwages.com/teams/washington_capitals ; https://en.wikipedia.org/wiki/Alexander_Ovechkin)
-- Unverified: Alex Tuch and Jordan Kyrou acquisition dates and returns (CapWages rosters only)
-- Unverified: arena.newArenaPlans: no 2026 source found on Capital One Arena renovation progress or cost
-- Unverified: Any Monumental minority stake sale: not found on the Capitals page
+- Unverified (listed for follow-up): Alex Tuch and Jordan Kyrou acquisition dates and returns (CapWages rosters only)
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on Capital One Arena renovation progress or cost
+- Unverified (listed for follow-up): Any Monumental minority stake sale: not found on the Capitals page
 
 ### Utah Hockey Club
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.2B, $123M revenue); rename and 2026 playoffs from the Utah Mammoth page; renovation phases from the Delta Center page; contracts from CapWages.
@@ -1102,24 +1129,24 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu for national games; Utah HC leaning into streaming distribution as first-yea..." → "Mammoth+ direct-to-consumer stream for in-market fans; ESPN+/Hulu and TNT/Max national". Utah HC+ rebranded as Mammoth+ after the name change [source](https://en.wikipedia.org/wiki/Utah_Mammoth)
 - `onField.currentFranchisePlayer`: "Clayton Keller — 8yr/$67.2M ($8.4M AAV) signed 2023, inherited as top scorer from Arizo..." → "Clayton Keller (first captain, named Oct 4, 2024), $7.15M AAV through 2027-28; Logan Co...". Keller's cap hit is $7.15M with two seasons left; Cooley's eight-year, $10M AAV deal begins 2026-27 [source](https://capwages.com/teams/utah_mammoth ; https://en.wikipedia.org/wiki/Utah_Mammoth)
 - `onField.starContracts`: "[{"player":"Clayton Keller","position":"C/LW","aav":8.4,"contractNote":"8yr/$67.2M, sig..." → "[{"player":"Logan Cooley","position":"C","aav":10,"contractNote":"8yr/$80M signed Augus...". CapWages 2026-27: Cooley $10M, Sergachev $8.5M, Schmaltz $8M, Keller $7.15M, Guenther $7.14M; JJ Peterka no longer on the roster [source](https://capwages.com/teams/utah_mammoth)
-- Unverified: Public share of the $900M Delta Center package: Wikipedia does not break out the sales-tax contribution
-- Unverified: Nick Schmaltz extension date and total (CapWages cap hit only)
+- Unverified (listed for follow-up): Public share of the $900M Delta Center package: Wikipedia does not break out the sales-tax contribution
+- Unverified (listed for follow-up): Nick Schmaltz extension date and total (CapWages cap hit only)
 
 ### Chicago Blackhawks
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.45B, $260M revenue, $100M operating income); Bedard extension from Wikipedia and CapWages; playoff qualifiers from the 2025 and 2026 playoff pages.
 - `onField.championshipsLast10Years`: 1 → 0. The 2015 Cup has aged out of the 2017-2026 window; Chicago has no title since [source](https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Connor Bedard — 3yr ELC at $950K cap hit (signed July 2023), ELC expires after 2025-26;..." → "Connor Bedard, captain, signed a 5yr/$75M ($15M AAV) extension July 17, 2026 running 20...". Bedard extension: July 17, 2026, five years, $75M, $15M AAV, full NMC [source](https://en.wikipedia.org/wiki/Connor_Bedard ; https://capwages.com/teams/chicago_blackhawks)
 - `onField.starContracts`: "[{"player":"Connor Bedard","position":"C","aav":0.95,"contractNote":"3yr ELC, $950K cap..." → "[{"player":"Connor Bedard","position":"C","aav":15,"contractNote":"5yr/$75M signed July...". Seth Jones was traded to Florida in March 2025 with Chicago retaining $2.5M; Bedard now carries $15M [source](https://capwages.com/teams/chicago_blackhawks ; https://en.wikipedia.org/wiki/Connor_Bedard)
-- Unverified: CapWages lists Patrick Kane on the 2026-27 Blackhawks at $8M; not second-sourced, not added
-- Unverified: arena.newArenaPlans: no 2026 source found on the $7B United Center district (1901 Project) progress
+- Unverified (listed for follow-up): CapWages lists Patrick Kane on the 2026-27 Blackhawks at $8M; not second-sourced, not added
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` no 2026 source found on the $7B United Center district (1901 Project) progress
 
 ### Colorado Avalanche
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.7B, $198M revenue); Makar extension from Wikipedia; 2025 and 2026 playoff paths from the playoff pages; contracts from CapWages.
 - `onField.playoffAppearancesLast5Years`: 4 → 5. Playoffs every year 2022-2026; lost in seven to Dallas in 2025; won the 2025-26 Presidents' Trophy, swept Los Angeles and beat Minnesota before losing the 2026 Western final to Vegas in six [source](https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/An%C5%BEe_Kopitar)
 - `onField.currentFranchisePlayer`: "Nathan MacKinnon — 8yr/$100.8M ($12.6M AAV) signed 2022, through 2030-31; 2024 Hart Tro..." → "Nathan MacKinnon, 8yr/$100.8M ($12.6M AAV) through 2030-31, 2024 Hart Trophy; Cale Maka...". Makar extension August 28, 2026: eight years, $163.2M, $20.4M AAV [source](https://en.wikipedia.org/wiki/Cale_Makar ; https://capwages.com/teams/colorado_avalanche)
 - `onField.starContracts`: "[{"player":"Nathan MacKinnon","position":"C","aav":12.6,"contractNote":"8yr/$100.8M sig..." → "[{"player":"Nathan MacKinnon","position":"C","aav":12.6,"contractNote":"8yr/$100.8M (20...". Rantanen was traded to Carolina in January 2025 and is now in Dallas; Necas extended at $11.5M; Makar's record extension signed Aug 28, 2026 [source](https://capwages.com/teams/colorado_avalanche ; https://en.wikipedia.org/wiki/Cale_Makar)
-- Unverified: Necas extension date and total (CapWages cap hit only)
-- Unverified: arena.newArenaPlans: no 2026 source found on Ball Arena district construction
+- Unverified (listed for follow-up): Necas extension date and total (CapWages cap hit only)
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on Ball Arena district construction
 
 ### Dallas Stars
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.0B, $230M revenue, $59M operating income); playoff paths from the playoff pages; Prime Video from the 2026-27 season page; contracts from CapWages; Robertson stats from Wikipedia.
@@ -1128,9 +1155,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu for national games; Victory+ direct streaming replaces traditional RSN; cost..." → "Amazon Prime Video is the in-market streaming home from 2026-27; ESPN+/Hulu and TNT/Max...". Prime Video regional rights from 2026-27 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.currentFranchisePlayer`: "Jason Robertson — 4yr bridge deal at $7.75M AAV (through 2025-26); extension at $11-13M..." → "Jason Robertson signed a one-year, $12M deal for 2026-27 (UFA in July 2027) after 45 go...". CapWages shows Robertson at $12M with one season left; Wikipedia records his 45-goal, 96-point 2025-26 [source](https://capwages.com/teams/dallas_stars ; https://en.wikipedia.org/wiki/Jason_Robertson)
 - `onField.starContracts`: "[{"player":"Jason Robertson","position":"LW","aav":7.75,"contractNote":"4yr/$31M bridge..." → "[{"player":"Jason Robertson","position":"LW","aav":12,"contractNote":"One-year $12M for...". CapWages 2026-27: Robertson $12M, Rantanen $12M, Harley $10.587M, Seguin $9.85M, Hintz and Heiskanen $8.45M, Johnston $8.4M, Oettinger $8.25M [source](https://capwages.com/teams/dallas_stars)
-- Unverified: Robertson's one-year $12M deal: date and structure rest on CapWages only
-- Unverified: Victory+ status after the Prime Video deal: not confirmed
-- Unverified: arena.newArenaPlans: no 2026 source found on the 2031 lease or a new arena
+- Unverified (listed for follow-up): Robertson's one-year $12M deal: date and structure rest on CapWages only
+- Unverified (listed for follow-up): Victory+ status after the Prime Video deal: not confirmed
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on the 2031 lease or a new arena
 
 ### Minnesota Wild
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.55B, $200M revenue); arena rename and ownership from the Grand Casino Arena page; Hughes trade from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages.
@@ -1142,17 +1169,17 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Playoffs in 2022, 2023, 2025 (lost to Vegas in six) and 2026 (beat Dallas in six, lost to Colorado in five) [source](https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Minnesota_Wild)
 - `onField.currentFranchisePlayer`: "Kirill Kaprizov — 8yr/$136M ($17M AAV) signed Sept 2025, begins 2026-27 through 2033-34..." → "Kirill Kaprizov, 8yr/$136M ($17M AAV) from 2026-27 through 2033-34, richest contract at...". Quinn Hughes traded to Minnesota December 12, 2025 for Marco Rossi, Zeev Buium, Liam Öhgren and a 2026 first-round pick [source](https://en.wikipedia.org/wiki/Quinn_Hughes ; https://capwages.com/teams/minnesota_wild)
 - `onField.starContracts`: "[{"player":"Kirill Kaprizov","position":"LW","aav":17,"contractNote":"8yr/$136M signed ..." → "[{"player":"Kirill Kaprizov","position":"LW","aav":17,"contractNote":"8yr/$136M signed ...". CapWages 2026-27: Kaprizov $17M, Faber $8.5M, Quinn Hughes $7.85M, Spurgeon $7.575M, Boldy $7M, Gustavsson $6.8M [source](https://capwages.com/teams/minnesota_wild ; https://en.wikipedia.org/wiki/Quinn_Hughes)
-- Unverified: arena.newArenaPlans: the $362M state renovation ask (March 2026) was not found on Wikipedia; left as is
-- Unverified: Grand Casino naming-rights value and length: undisclosed
-- Unverified: Gustavsson extension date and total (CapWages cap hit only)
+- Unverified (listed for follow-up): `arena.newArenaPlans` the $362M state renovation ask (March 2026) was not found on Wikipedia; left as is
+- Unverified (listed for follow-up): Grand Casino naming-rights value and length: undisclosed
+- Unverified (listed for follow-up): Gustavsson extension date and total (CapWages cap hit only)
 
 ### Nashville Predators
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.5B, $195M revenue); records, GM change and Scripps deal from the Predators page; contracts from CapWages.
 - `media.localTVDeal`: "Bally Sports South (Diamond Sports / Sinclair) — facing disruption from Diamond Chapter..." → "Multi-year Scripps Sports deal from 2026-27 with the new independent station WNPX-TV as...". Scripps Sports holds Predators local rights beginning 2026-27 via WNPX-TV and WTVF [source](https://en.wikipedia.org/wiki/Nashville_Predators ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified))
 - `media.streamingNotes`: "ESPN+/Hulu for national games; post-Bally streaming transition in progress for local ga..." → "Over-the-air Scripps model with a direct-to-consumer platform pending; ESPN+/Hulu and T...". Scripps over-the-air deal with DTC platform pending for 2026-27 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.starContracts`: "[{"player":"Roman Josi","position":"D","aav":9.06,"contractNote":"8yr/$72.5M signed 201..." → "[{"player":"Roman Josi","position":"D","aav":9.059,"contractNote":"8yr/$72.5M (2019), t...". Josi's deal runs through 2027-28 (two seasons left), not 2026-27; Stamkos and Saros added [source](https://capwages.com/teams/nashville_predators)
-- Unverified: Nick Saban / Joe Agresti minority stake (December 2025 in the enrichment): not found on the Predators page
-- Unverified: arena.newArenaPlans: no 2026 source found on Bridgestone Arena lease talks
+- Unverified (listed for follow-up): Nick Saban / Joe Agresti minority stake (December 2025 in the enrichment): not found on the Predators page
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on Bridgestone Arena lease talks
 
 ### St. Louis Blues
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.45B, $192M revenue); 2025 playoff series from the playoff page; local TV from the 2026-27 season page and proxies; contracts from CapWages.
@@ -1160,9 +1187,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu for national games; Blues Direct streaming offered for local games as Bally ..." → "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national". Prime Video in-market streaming for hub-produced teams [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.currentFranchisePlayer`: "Jordan Kyrou — 8yr/$65M ($8.125M AAV) signed 2023, through 2030-31; breakout star after..." → "Robert Thomas, captain, 8yr/$65M ($8.125M AAV) through 2030-31; Jordan Kyrou was traded...". Kyrou appears on Washington's 2026-27 sheet and Schenn on the Islanders'; Thomas is listed as Blues captain [source](https://capwages.com/teams/st_louis_blues ; https://capwages.com/teams/washington_capitals ; https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/St._Louis_Blues)
 - `onField.starContracts`: "[{"player":"Jordan Kyrou","position":"RW","aav":8.125,"contractNote":"8yr/$65M signed 2..." → "[{"player":"Robert Thomas","position":"C","aav":8.125,"contractNote":"8yr/$65M (2023), ...". CapWages 2026-27: Thomas $8.125M, Buchnevich $8M, Broberg $8M, Holloway $7.75M, McTavish $7M, Parayko $6.5M, Binnington $6M; Kyrou and Schenn are gone [source](https://capwages.com/teams/st_louis_blues)
-- Unverified: Kyrou, Schenn and McTavish trade dates and returns (CapWages rosters only)
-- Unverified: Broberg and Holloway extension dates and totals (CapWages cap hits only)
-- Unverified: GM Alexander Steen (Wikipedia infobox) not second-sourced
+- Unverified (listed for follow-up): Kyrou, Schenn and McTavish trade dates and returns (CapWages rosters only)
+- Unverified (listed for follow-up): Broberg and Holloway extension dates and totals (CapWages cap hits only)
+- Unverified (listed for follow-up): GM Alexander Steen (Wikipedia infobox) not second-sourced
 
 ### Winnipeg Jets
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.05B, $170M revenue); Presidents' Trophy and 2026 miss from the Jets page; Connor extension from Wikipedia; Rogers deal; contracts from CapWages.
@@ -1170,8 +1197,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Mark Scheifele — 8yr/$49.6M ($6.125M AAV, signed 2016) through 2023-24 + new extension;..." → "Kyle Connor, 8yr/$96M ($12M AAV) signed October 8, 2025, 2026-27 through 2033-34; Mark ...". Connor extension October 8, 2025: eight years, $96M, $12M cap hit, through 2033-34 [source](https://en.wikipedia.org/wiki/Kyle_Connor ; https://capwages.com/teams/winnipeg_jets)
 - `onField.starContracts`: "[{"player":"Mark Scheifele","position":"C","aav":8.5,"contractNote":"Multi-year extensi..." → "[{"player":"Kyle Connor","position":"LW","aav":12,"contractNote":"8yr/$96M signed Oct 8...". Connor is now $12M; Morrissey's cap hit is $6.25M (not $9M); Scheifele is not captain (Adam Lowry is) [source](https://capwages.com/teams/winnipeg_jets ; https://en.wikipedia.org/wiki/Winnipeg_Jets)
 - `media.nationalShareNote`: "Canadian teams (including Jets) receive meaningful premium from Rogers Sportsnet 12yr/$..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: David Thomson's role: not named on the Jets page; left as in the enrichment
-- Unverified: arena.newArenaPlans: no 2026 source found on Canada Life Centre upgrades
+- Unverified (listed for follow-up): David Thomson's role: not named on the Jets page; left as in the enrichment
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on Canada Life Centre upgrades
 
 ### Anaheim Ducks
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.3B, $175M revenue); 2026 playoff results from the playoff page; Carlsson offer sheet from CapWages; Prime Video from the 2026-27 season page; contracts from CapWages.
@@ -1180,10 +1207,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu NHL streaming; NHL.tv League Pass; impacted by Diamond Sports bankruptcy" → "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national". Prime Video regional rights from 2026-27 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.currentFranchisePlayer`: "Trevor Zegras — entry-level deal expired; RFA 2023; Mason McTavish emerging as co-franc..." → "Leo Carlsson, 5yr/$90M ($18M AAV) from 2026-27 after Anaheim matched Philadelphia's Jul...". Philadelphia tendered Carlsson a five-year, $90M offer sheet July 3, 2026; Carlsson appears on Anaheim's 2026-27 sheet at $18M [source](https://capwages.com/articles/leo-carlsson-offer-sheet-sign-and-trade ; https://capwages.com/teams/anaheim_ducks ; https://en.wikipedia.org/wiki/Anaheim_Ducks)
 - `onField.starContracts`: "[{"player":"Mason McTavish","position":"C","aav":6.625,"contractNote":"7yr/$46.375M sig..." → "[{"player":"Leo Carlsson","position":"C","aav":18,"contractNote":"5yr/$90M matched offe...". CapWages 2026-27: Carlsson $18M, Gauthier $13.5M, LaCombe $9M, Terry $7M; McTavish and Zegras no longer on the roster [source](https://capwages.com/teams/anaheim_ducks)
-- Unverified: Anaheim's match of the Carlsson offer sheet is inferred from CapWages (offer-sheet article plus team page); no second source
-- Unverified: Gauthier contract date and total (CapWages cap hit only)
-- Unverified: arena.newArenaPlans: no 2026 source found on Honda Center renovation or OCVibe milestones
-- Unverified: Chris Kreider not on the CapWages 2026-27 roster; status unconfirmed
+- Unverified (listed for follow-up): Anaheim's match of the Carlsson offer sheet is inferred from CapWages (offer-sheet article plus team page); no second source
+- Unverified (listed for follow-up): Gauthier contract date and total (CapWages cap hit only)
+- Unverified (kept; rendered "as of May 2026"): `arena.newArenaPlans` no 2026 source found on Honda Center renovation or OCVibe milestones
+- Unverified (listed for follow-up): Chris Kreider not on the CapWages 2026-27 roster; status unconfirmed
 
 ### Calgary Flames
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.65B, $191M revenue, $37M operating income); Scotia Place terms and timing from Wikipedia; 2025-26 record from the Flames page; Rogers deal; contracts from CapWages.
@@ -1194,17 +1221,18 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.starContracts`: "[{"player":"Nazem Kadri","position":"C","aav":7,"contractNote":"7yr/$49M signed July 20..." → "[{"player":"Jonathan Huberdeau","position":"LW","aav":10.5,"contractNote":"8yr/$84M (20...". Kadri (Colorado) and Andersson (Vegas, $8.5M) are gone; Wolf, Nemec and Coronato are the new top cap hits [source](https://capwages.com/teams/calgary_flames ; https://capwages.com/teams/vegas_golden_knights)
 - `media.nationalShareNote`: "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal th..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
 - `media.localTVDeal`: "Sportsnet (Rogers Media) regional broadcasts; Rogers holds national Canadian rights for..." → "Sportsnet West (Rogers) regional broadcasts; Rogers' national Canadian rights renewed f...". Sportsnet West regional; national deal renewed through 2037-38 [source](https://en.wikipedia.org/wiki/Calgary_Flames ; https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: Kadri and Andersson trade dates and returns (CapWages rosters only)
-- Unverified: Wolf and Nemec contract dates and totals (CapWages cap hits only)
-- Unverified: ownership.institutionalInvestors: no 2026 source on a CSEC minority stake sale
+- `ownership.institutionalInvestors`: "Minority stake sale explored in 2024 per reports; no deal announced" → null. Removed: not verifiable as of September 2026 (no 2026 source on a CSEC minority stake sale)
+- Unverified (listed for follow-up): Kadri and Andersson trade dates and returns (CapWages rosters only)
+- Unverified (listed for follow-up): Wolf and Nemec contract dates and totals (CapWages cap hits only)
+- Unverified (sentence removed from the profile): `ownership.institutionalInvestors` no 2026 source on a CSEC minority stake sale
 
 ### Edmonton Oilers
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.65B, $388M revenue, $213M operating income); playoff results from the playoff pages; Rogers deal; contracts from CapWages.
 - `onField.playoffAppearancesLast5Years`: 4 → 5. Playoffs every year 2022-2026; lost the 2025 Stanley Cup Final to Florida in six (second straight Final loss); lost the 2026 first round to Anaheim in six [source](https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Edmonton_Oilers)
 - `onField.starContracts`: "[{"player":"Connor McDavid","position":"C","aav":12.5,"contractNote":"2yr/$25M signed 2..." → "[{"player":"Leon Draisaitl","position":"C/LW","aav":14,"contractNote":"8yr/$112M (2024)...". Bouchard's cap hit is $10.5M on a four-year deal signed in 2025; McDavid has two seasons left at $12.5M [source](https://capwages.com/teams/edmonton_oilers)
 - `media.nationalShareNote`: "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal; R..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: Wikipedia infobox lists Stan Bowman as GM and Mike Babcock as head coach; coaching change not second-sourced
-- Unverified: Darnell Nurse appears on San Jose's 2026-27 sheet at $9.25M; trade not second-sourced
+- Unverified (listed for follow-up): Wikipedia infobox lists Stan Bowman as GM and Mike Babcock as head coach; coaching change not second-sourced
+- Unverified (listed for follow-up): Darnell Nurse appears on San Jose's 2026-27 sheet at $9.25M; trade not second-sourced
 
 ### Los Angeles Kings
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($2.9B, $344M revenue, $143M operating income); Kopitar retirement and Kempe extension from Wikipedia; local TV from the 2026-27 season page and proxies; contracts from the CapWages depth chart.
@@ -1213,16 +1241,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu NHL; Scripps/KCAL on connected TV; NHL.tv" → "Standalone DAZN streaming service for in-market Kings games from 2026-27; ESPN+/Hulu an...". DAZN listed as the Kings' streaming outlet [source](https://en.wikipedia.org/wiki/Los_Angeles_Kings ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season)
 - `onField.currentFranchisePlayer`: "Anze Kopitar — 8yr/$80M ($10M AAV) signed 2016, nearing end; Quinton Byfield emerging a..." → "Anze Kopitar retired after 2025-26 (announced September 18, 2025; final game April 26, ...". Kopitar retirement dates and Kempe extension from Wikipedia; Doughty captaincy from the Kings page [source](https://en.wikipedia.org/wiki/An%C5%BEe_Kopitar ; https://en.wikipedia.org/wiki/Adrian_Kempe ; https://en.wikipedia.org/wiki/Los_Angeles_Kings)
 - `onField.starContracts`: "[{"player":"Anze Kopitar","position":"C","aav":10,"contractNote":"8yr/$80M through 2025..." → "[{"player":"Drew Doughty","position":"D","aav":11,"contractNote":"8yr/$88M (2018), fina...". CapWages depth chart 2026-27: Doughty $11.0M, Kempe $10.6M, Fiala $7.9M, Clarke $7.4M, Byfield $6.3M; Kopitar absent (retired) [source](https://capwages.com/teams/los_angeles_kings/depth-charts ; https://en.wikipedia.org/wiki/Adrian_Kempe)
-- Unverified: Artemi Panarin, acquired from the Rangers at the 2026 deadline, did not appear in the CapWages depth-chart excerpt; his 2026-27 status is unconfirmed
-- Unverified: Brandt Clarke extension date and total (CapWages cap hit only)
-- Unverified: Ken Holland as GM (Wikipedia) not second-sourced
+- Unverified (listed for follow-up): Artemi Panarin, acquired from the Rangers at the 2026 deadline, did not appear in the CapWages depth-chart excerpt; his 2026-27 status is unconfirmed
+- Unverified (listed for follow-up): Brandt Clarke extension date and total (CapWages cap hit only)
+- Unverified (listed for follow-up): Ken Holland as GM (Wikipedia) not second-sourced
 
 ### San Jose Sharks
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.35B, $169M revenue); Celebrini record and captaincy from the Sharks page; contracts from CapWages.
 - `onField.currentFranchisePlayer`: "Macklin Celebrini — #1 overall pick 2024 NHL Draft; entry-level contract $3.875M AAV; f..." → "Macklin Celebrini, named captain before 2026-27, broke Joe Thornton's franchise single-...". Celebrini passed Thornton's 114-point record on April 16, 2026 and was named captain for 2026-27; CapWages shows a $975K ELC cap hit [source](https://en.wikipedia.org/wiki/San_Jose_Sharks ; https://capwages.com/teams/san_jose_sharks)
 - `onField.starContracts`: "[{"player":"Macklin Celebrini","position":"C","aav":3.875,"contractNote":"#1 overall pi..." → "[{"player":"Darnell Nurse","position":"D","aav":9.25,"contractNote":"8yr/$74M (2021), t...". Hertl was traded to Vegas in 2024 (San Jose retains $1.39M); Nurse, Couture and Marchment are the top 2026-27 cap hits [source](https://capwages.com/teams/san_jose_sharks ; https://capwages.com/teams/vegas_golden_knights)
-- Unverified: Darnell Nurse acquisition date and return (CapWages roster only)
-- Unverified: Marchment contract details (CapWages cap hit only)
+- Unverified (listed for follow-up): Darnell Nurse acquisition date and return (CapWages roster only)
+- Unverified (listed for follow-up): Marchment contract details (CapWages cap hit only)
 
 ### Seattle Kraken
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.6B, $194M revenue); ownership group, arena ownership and KHN from the Kraken page; contracts from CapWages.
@@ -1233,8 +1261,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.streamingNotes`: "ESPN+/Hulu NHL; ROOT Sports+ streaming; Kraken direct digital content" → "Amazon Prime Video in-market streaming under KHN; ESPN+/Hulu and TNT/Max national". Prime Video carries KHN games locally [source](https://en.wikipedia.org/wiki/Seattle_Kraken)
 - `onField.currentFranchisePlayer`: "Matty Beniers — 2024 Calder Trophy winner (2021-22); entry-level through 2023-24; RFA e..." → "Matty Beniers, 2023 Calder Trophy winner, 7yr/$50M ($7.14M AAV) through 2030-31; Jordan...". Beniers $7,142,857 cap hit with five seasons left; Eberle captain [source](https://capwages.com/teams/seattle_kraken ; https://en.wikipedia.org/wiki/Seattle_Kraken)
 - `onField.starContracts`: "[{"player":"Vince Dunn","position":"D","aav":7.35,"contractNote":"5yr/$36.75M signed 20..." → "[{"player":"Vince Dunn","position":"D","aav":7.35,"contractNote":"4yr/$29.4M (2023), fi...". CapWages 2026-27: Dunn $7.35M, Beniers and Montour $7.143M, Stephenson $6.25M, Grubauer $5.9M, McCann $5M [source](https://capwages.com/teams/seattle_kraken)
-- Unverified: David Bonderman's death (December 2024) and the formal chair title: not stated on the Kraken page
-- Unverified: Melinda French Gates stake size and date: not given
+- Unverified (listed for follow-up): David Bonderman's death (December 2024) and the formal chair title: not stated on the Kraken page
+- Unverified (listed for follow-up): Melinda French Gates stake size and date: not given
 
 ### Vancouver Canucks
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.95B, $226M revenue); Hughes trade from Wikipedia; playoff qualifiers from the playoff pages; Rogers deal; contracts from CapWages.
@@ -1242,16 +1270,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Quinn Hughes — franchise defenseman; Elias Pettersson — 8yr/$92.8M ($11.6M AAV) signed ..." → "Elias Pettersson, 8yr/$92.8M ($11.6M AAV) through 2031-32; Quinn Hughes was traded to M...". Quinn Hughes trade December 12, 2025; Canucks captaincy listed as vacant [source](https://en.wikipedia.org/wiki/Quinn_Hughes ; https://en.wikipedia.org/wiki/Vancouver_Canucks)
 - `onField.starContracts`: "[{"player":"Elias Pettersson","position":"C","aav":11.6,"contractNote":"8yr/$92.8M exte..." → "[{"player":"Elias Pettersson","position":"C","aav":11.6,"contractNote":"8yr/$92.8M (202...". Hughes (Minnesota) and Miller (Rangers, January 2025) are gone; Demko, Boeser and Hronek follow Pettersson on the 2026-27 sheet [source](https://capwages.com/teams/vancouver_canucks ; https://en.wikipedia.org/wiki/Quinn_Hughes ; https://en.wikipedia.org/wiki/New_York_Rangers)
 - `media.nationalShareNote`: "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal th..." → "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national ri...". Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26 [source](https://en.wikipedia.org/wiki/NHL_on_Sportsnet)
-- Unverified: Wikipedia infobox lists Ryan Johnson as GM, Manny Malhotra as coach and Daniel and Henrik Sedin as co-presidents of hockey operations; front-office changes not second-sourced
-- Unverified: Demko and Boeser contract dates and totals (CapWages cap hits only)
+- Unverified (listed for follow-up): Wikipedia infobox lists Ryan Johnson as GM, Manny Malhotra as coach and Daniel and Henrik Sedin as co-presidents of hockey operations; front-office changes not second-sourced
+- Unverified (listed for follow-up): Demko and Boeser contract dates and totals (CapWages cap hits only)
 
 ### Vegas Golden Knights
 - **Overview rewritten.** Basis: Forbes Dec 2024 ($1.85B, $231M revenue, $59M operating income); Marner and Eichel deals from Wikipedia; 2026 Final from the playoff page; contracts from CapWages.
 - `onField.currentFranchisePlayer`: "Jack Eichel — 8yr/$80M ($10M AAV) signed 2022, through 2029-30; franchise center acquir..." → "Jack Eichel signed an 8yr/$108M ($13.5M AAV) extension October 8, 2025 running 2026-27 ...". Eichel extension October 8, 2025; Marner sign-and-trade June 30, 2025 for Nicolas Roy [source](https://en.wikipedia.org/wiki/Jack_Eichel ; https://en.wikipedia.org/wiki/Mitch_Marner ; https://capwages.com/teams/vegas_golden_knights)
 - `onField.starContracts`: "[{"player":"Jack Eichel","position":"C","aav":10,"contractNote":"8yr/$80M through 2029-..." → "[{"player":"Jack Eichel","position":"C","aav":13.5,"contractNote":"8yr/$108M signed Oct...". CapWages 2026-27: Eichel $13.5M, Marner $12M, Pietrangelo $8.8M (LTIR), Andersson $8.5M, Theodore $7.425M, Hertl $6.75M, Hill $6.25M, Karlsson $5.9M (final season) [source](https://capwages.com/teams/vegas_golden_knights)
 - `media.localTVDeal`: "Vegas 34 (KLAS, CBS affiliate); historically on AT&T SportsNet Rocky Mountain; transiti..." → "KMCC (Vegas 34), a Scripps Sports station, is the flagship of the team-produced Golden ...". Wikipedia: KMCC (Scripps Sports division) multi-year deal from 2023-24 as flagship of the Golden Knights' network [source](https://en.wikipedia.org/wiki/Vegas_Golden_Knights)
-- Unverified: Rasmus Andersson acquisition date and contract total (CapWages only)
-- Unverified: arena.newArenaPlans: no 2026 source found on a T-Mobile Arena renovation or NBA-related upgrade
+- Unverified (listed for follow-up): Rasmus Andersson acquisition date and contract total (CapWages only)
+- Unverified (listed for follow-up): `arena.newArenaPlans` no 2026 source found on a T-Mobile Arena renovation or NBA-related upgrade
 
 ## MLS (30 teams)
 
@@ -1261,8 +1289,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment, $50M more than the original terms over the same period [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.currentFranchisePlayer`: "Emmanuel Latte Lath — DP striker signed Feb 2025 from Middlesbrough for ~$22M club-reco..." → "Breel Embolo, Swiss DP striker signed Aug 23, 2026 from Rennes for a reported $18M, con...". Atlanta signed Embolo as a DP on Aug 23, 2026 for a reported $18M; Latte Lath is on loan at Union Berlin [source](https://www.atlutd.com/news/breel-embolo-designated-player-transfer-switzerland-august-2026)
 - `onField.starContracts`: "[{"player":"Thiago Almada","position":"AM","aav":1.5,"contractNote":"Young DP from 2022..." → "[{"player":"Breel Embolo","position":"ST","aav":null,"contractNote":"DP signed Aug 2026...". 2026 DPs are Embolo, Almirón and Miranchuk; Latte Lath is on loan; Almada left in 2024 [source](https://www.atlutd.com/news/starting-xi-roster-notes-brennan-embolo-new-york-city-fc-september-26-2026)
-- Unverified: media.localTVDeal: no 2026 source on the post-Bally regional arrangement
-- Unverified: ownership.ownerNetWorth: no 2026 figure checked
+- `media.localTVDeal`: "Bally Sports South / Gray Television regional broadcasts; transitioning post-Diamond Sp..." → null. Removed: not verifiable as of September 2026 (no 2026 source on the post-Bally regional arrangement)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source on the post-Bally regional arrangement
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 figure checked
 
 ### Charlotte FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js); renovation and naming extension per WCNC, Axios and Panthers releases July 2026; 2025 standings per Wikipedia.
@@ -1273,8 +1302,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.namingRightsDeal`: "{"sponsor":"Bank of America","annualValue_M":7,"totalValue_M":140,"expiryYear":2034,"no..." → "{"sponsor":"Bank of America","annualValue_M":null,"totalValue_M":null,"expiryYear":null...". Bank of America and the Panthers extended the naming rights on July 23, 2026 without releasing terms [source](https://www.panthers.com/news/bank-of-america-and-carolina-panthers-extend-naming-rights-for-bank-of-america-stadium-reinforcing-long-term-commitment-to-charlotte-and-the-carolinas)
 - `stadium.newStadiumPlans`: "$800M renovation underway through 2027; no plans for soccer-specific stadium given dual..." → "$1.3B renovation underway: back-of-house work began 2026, fan-facing phases 2027-2030; ...". Fan-facing renovation work starts in 2027 with completion scheduled for 2030 [source](https://www.axios.com/local/charlotte/2026/07/23/bank-of-america-stadium-renovation-renderings)
 - `onField.playoffAppearancesLast5Years`: 1 → 3. Charlotte qualified in 2023, 2024 and 2025 (4th seed East in 2025 with 59 points); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
-- Unverified: onField.currentFranchisePlayer (Pep Biel): no 2026 source checked
-- Unverified: media.localTVDeal: no 2026 source
+- `onField.currentFranchisePlayer`: "Pep Biel — DP signed January 2024 as creative midfielder; key playmaker post-Świderski" → null. Removed: not verifiable as of September 2026 (no 2026 source checked)
+- `media.localTVDeal`: "WCNC / Telemundo Charlotte regional broadcasts" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` no 2026 source checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Chicago Fire FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.72B (valuations-2025.js); stadium per WTTW and CBS Chicago March 2026, naming per Wikipedia (McDonald's Park); Lewandowski per MLSSoccer.com; 2026 standings as of Sept 27.
@@ -1284,16 +1315,18 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 0 → 1. Chicago qualified as the 8th seed in the East in 2025 and won its wild card 3-1 over Orlando; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Hugo Cuypers — DP striker signed Feb 2024 from KAA Gent for club-record $12M+$2M; team ..." → "Robert Lewandowski, DP striker signed June 29, 2026 as a free agent from Barcelona, con...". Chicago signed Lewandowski on June 29, 2026 through 2027-28 as a Designated Player [source](https://www.mlssoccer.com/news/chicago-fire-sign-iconic-striker-robert-lewandowski)
 - `onField.starContracts`: "[{"player":"Hugo Cuypers","position":"ST","aav":3.5,"contractNote":"Designated Player F..." → "[{"player":"Robert Lewandowski","position":"ST","aav":null,"contractNote":"DP signed Ju...". Lewandowski added as the headline DP in June 2026 [source](https://www.mlssoccer.com/news/chicago-fire-fc-set-club-attendance-record-vs-inter-miami-cf)
-- Unverified: media.localTVDeal: no 2026 source
-- Unverified: onField.starContracts: Cuypers and Bamba 2026 status not checked
+- `media.localTVDeal`: "WGN-TV / NBC Sports Chicago regional broadcasts; transitioning post-Diamond Sports coll..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (listed for follow-up): `onField.starContracts` Cuypers and Bamba 2026 status not checked
 
 ### FC Cincinnati
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js); 2025 standings and playoffs per Wikipedia; 2026 standings as of Sept 27, 2026.
 - `media.streamingNotes`: "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)" → "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscrip...". MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29 [source](https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources)
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Cincinnati qualified in 2022, 2023, 2024 and 2025 (2nd seed East with 65 points in 2025); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
-- Unverified: media.localTVDeal: no 2026 source
-- Unverified: ownership.ownershipGroup: no 2026 check
+- `media.localTVDeal`: "WSTR/CW Cincinnati regional broadcasts" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (listed for follow-up): `ownership.ownershipGroup` no 2026 check
 
 ### Columbus Crew SC
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js); $900M per data/transactions.js (Nationwide 37%, June 2026; Edwards 10%, July 2025); stadium rename per NBC4; 2026 standings as of Sept 27.
@@ -1306,8 +1339,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: "Privately held by Haslam and Edwards family offices" → "Nationwide Mutual Insurance holds a 37% minority stake (2026); balance held by Haslam a...". Nationwide joined the ownership group in June 2026 [source](https://news.nationwide.com/nationwide-joins-columbus-crew-ownership-group/)
 - `onField.playoffAppearancesLast5Years`: 4 → 3. Columbus qualified in 2023, 2024 and 2025 (7th seed East in 2025) and missed 2021 and 2022; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Diego Rossi — DP forward; led 2024 with high goal/assist totals after Cucho Hernández d..." → "Santiago Rodríguez, Uruguayan DP playmaker acquired from Botafogo on Sept 2, 2026 (form...". Columbus acquired Santiago Rodríguez as a Designated Player from Botafogo on Sept 2, 2026 [source](https://www.hudsonriverblue.com/nycfc-transfer-tracker-rodriguez/)
-- Unverified: onField.starContracts: 2026 status of Rossi and Nagbe not checked
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Bally Sports Ohio successor (Sinclair regional sports network)" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` 2026 status of Rossi and Nagbe not checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### D.C. United
 - **Overview rewritten.** Basis: Forbes 2025 $0.74B (valuations-2025.js); Munteanu per MLSSoccer.com Jan 2026; Audi Field bill per 2026 coverage; 2026 standings as of Sept 27.
@@ -1316,8 +1350,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "Feb 2025: announced Audi Field expansion plans + roof addition; capacity expansion unde..." → "Audi Field roof and seating expansion proposed under the Soccer Stadium Redevelopment a...". Levien's roof-and-seating proposal seeks $300M from the District and went to a Council Committee of the Whole hearing in 2026 [source](https://www.foxessellfaster.com/blog/dc-united-wants-a-roof-on-audi-field-but-can-the-district-afford-another-billion-dollar-sports-project/)
 - `onField.currentFranchisePlayer`: "Christian Benteke — DP striker, 2024 MLS Golden Boot; declined 2026 option, free agent ..." → "Louis Munteanu, Romanian DP striker signed Jan 2026 from CFR Cluj for a club-record ini...". D.C. signed Munteanu as a DP in January 2026 for a club-record fee after declining Benteke's option [source](https://www.mlssoccer.com/news/dc-united-sign-romanian-forward-louis-munteanu-in-club-record-deal)
 - `onField.starContracts`: "[{"player":"Christian Benteke","position":"ST","aav":4.5,"contractNote":"DP from Crysta..." → "[{"player":"Louis Munteanu","position":"ST","aav":null,"contractNote":"DP from CFR Cluj...". Munteanu replaces Benteke as the headline forward [source](https://www.dcunited.com/news/d-c-united-signs-romanian-international-louis-munteanu-from-cfr-cluj-as-a-designated-player)
-- Unverified: onField.starContracts: Klich 2026 status not checked
-- Unverified: media.localTVDeal (Monumental): no 2026 source
+- `media.localTVDeal`: "Monumental Sports Network (MSN) regional broadcasts; Monumental owned by Ted Leonsis bu..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` Klich 2026 status not checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Inter Miami CF
 - **Overview rewritten.** Basis: Forbes 2025 $1.50B (valuations-2025.js; valuationHistory carries $1.35B Forbes 2025); MLS Cup per MLSSoccer.com; Nu Stadium per Wikipedia and Sportico; Messi salary per Spotrac 2026; 2026 standings as of Sept 27.
@@ -1334,16 +1369,18 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 3. Qualified in 2022, 2024 and 2025; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Lionel Messi — DP since July 2023; signed 3-year contract extension Oct 2025 through 20..." → "Lionel Messi, DP since July 2023; extended Oct 2025 through 2028; 2026 base salary $25M...". 2026 MLSPA salary release shows Messi at $25M base and $28.33M guaranteed [source](https://www.spotrac.com/mls/player/contracts/_/id/84437/lionel-messi)
 - `onField.starContracts`: "[{"player":"Lionel Messi","position":"RW/CAM","aav":20.5,"contractNote":"Originally Jul..." → "[{"player":"Lionel Messi","position":"RW/CAM","aav":28.3,"contractNote":"Extended Oct 2...". Busquets and Alba retired after MLS Cup 2025; De Paul signed permanently for ~$17M and takes a DP slot [source](https://www.mlssoccer.com/news/inter-miami-permanently-acquire-rodrigo-de-paul-from-atletico-madrid)
-- Unverified: stadium.publicSubsidy: $8M state road grant and $20M/yr park payments to the city noted but not netted into the field
-- Unverified: ownership.institutionalInvestors: Ares Management is in the stadium financing partnership; equity stake in the club not confirmed
+- `ownership.institutionalInvestors`: "Marcelo Claure exited 2022; Ares Management has explored minority investment; ownership..." → null. Removed: not verifiable as of September 2026 (Ares Management is in the stadium financing partnership; equity stake in the club not confirmed)
+- Unverified (kept; rendered "as of May 2026"): `stadium.publicSubsidy` $8M state road grant and $20M/yr park payments to the city noted but not netted into the field
+- Unverified (sentence removed from the profile): `ownership.institutionalInvestors` Ares Management is in the stadium financing partnership; equity stake in the club not confirmed
 
 ### CF Montréal
 - **Overview rewritten.** Basis: Forbes 2025 $0.60B (valuations-2025.js; valuationHistory carries $0.43B for 2025); stadium per club release 2026; 2026 standings as of Sept 27.
 - `media.streamingNotes`: "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)" → "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscrip...". MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29 [source](https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources)
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `stadium.newStadiumPlans`: "Sept 2025 reports: club seeking municipal/provincial support for upgrades; not relocati..." → "Renovated premium seating and concessions unveiled at Stade Saputo before the 2026 home...". Club unveiled upgraded premium areas for 2026; the stadium's lack of winterproofing remains the constraint ahead of the calendar change [source](https://en.cfmontreal.com/news/cf-montreal-unveils-new-and-improved-features-at-stade-saputo)
-- Unverified: onField.currentFranchisePlayer and starContracts: no 2026 roster source checked
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "TVA Sports (French-language Quebec) and CTV/TSN secondary; Apple TV+ MLS Season Pass fo..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): onField.currentFranchisePlayer and starContracts: no 2026 roster source checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Nashville SC
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends at $0.57B Forbes 2024); 2026 standings per Fox Sports as of Sept 27; Open Cup per Wikipedia; CCC semifinal per Wikipedia 2026 final page.
@@ -1351,8 +1388,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.currentFranchisePlayer`: "Hany Mukhtar — Designated Player ~$3M/yr; 2022 MLS MVP; rumored extension under negotia..." → "Sam Surridge, DP striker, club-record 31 goals in 2025, new contract through 2027-28 ma...". Surridge signed a new deal through 2027-28 after 31 goals in 2025; Mukhtar's option was exercised through 2027 [source](https://www.sixonefivesoccer.com/hany-mukhtar-contract-option-triggered-nashville-sc/)
 - `onField.starContracts`: "[{"player":"Hany Mukhtar","position":"AM","aav":3,"contractNote":"Designated Player; 20..." → "[{"player":"Sam Surridge","position":"ST","aav":null,"contractNote":"DP; club-record 31...". 2026 salary guide values for Mukhtar; Surridge new contract [source](https://sports.yahoo.com/articles/see-much-nashville-sc-players-201032433.html)
-- Unverified: media.localTVDeal: no 2026 source
-- Unverified: stadium.namingRightsDeal: no updated GEODIS terms
+- `media.localTVDeal`: "Streaming-only via Apple TV+ MLS Season Pass; selective games on Bally Sports South / T..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` no updated GEODIS terms
 
 ### New England Revolution
 - **Overview rewritten.** Basis: Forbes 2025 $0.72B (valuations-2025.js; valuationHistory ends at $0.53B Sportico Jan 2025); Everett per Construction Dive Jan 7, 2026; 2026 standings as of Sept 27.
@@ -1360,8 +1398,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `stadium.newStadiumPlans`: "Long-discussed Everett, MA soccer-specific stadium has stalled multiple times since 201..." → "Kraft Group reached agreement with Boston and Everett in Jan 2026 for a privately funde...". Agreement with both cities announced Jan 2026; $500M cost; 24,000 seats; $100M Kraft remediation commitment [source](https://www.constructiondive.com/news/new-england-revolution-soccer-stadium-project/809039/)
 - `onField.playoffAppearancesLast5Years`: 3 → 2. New England qualified in 2021 and 2023 and missed 2022, 2024 and 2025; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
-- Unverified: onField.currentFranchisePlayer (Carles Gil): 2026 status not checked
-- Unverified: stadium.newStadiumPlans: opening year beyond 'earliest 2027' not confirmed
+- `onField.currentFranchisePlayer`: "Carles Gil — Designated Player ~$3M/yr; 2021 Landon Donovan MVP" → null. Removed: not verifiable as of September 2026 (2026 status not checked)
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` 2026 status not checked
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` opening year beyond 'earliest 2027' not confirmed
 
 ### New York City FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.85B (valuations-2025.js and valuationHistory 2024); Etihad Park per club release and CBS New York; 2025 playoffs per Wikipedia; 2026 standings as of Sept 27.
@@ -1371,8 +1410,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "Etihad Park: 25,000-seat soccer-specific stadium in Willets Point, Queens; $780M total ..." → "Etihad Park: 25,000-seat, 100% privately financed, fully electric stadium in Willets Po...". Structural frame completed March 25, 2026; opening date set for July 17, 2027 [source](https://www.newyorkcityfc.com/news/a-new-era-begins-new-york-city-fc-to-start-2027-28-season-at-etihad-park)
 - `onField.playoffAppearancesLast5Years`: 5 → 4. NYCFC qualified in 2021, 2022, 2024 and 2025 (5th seed East, reached the 2025 Eastern Conference final) and missed 2023; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Santiago Rodríguez","position":"AM","aav":2.8,"contractNote":"Designated Pl..." → "[{"player":"Alonso Martínez","position":"ST","aav":1.5,"contractNote":"Costa Rican DP; ...". Santiago Rodríguez is no longer with NYCFC; the club filled all three DP slots for 2026 for the first time [source](https://www.hudsonriverblue.com/nycfc-transfer-tracker-rodriguez/)
-- Unverified: onField.currentFranchisePlayer: Rodríguez departed; 2026 franchise player not identified from a source
-- Unverified: ownership.ownershipGroup: no 2026 change found
+- `onField.currentFranchisePlayer`: "Santiago Rodríguez — Designated Player ~$2.8M/yr; Uruguayan playmaker" → null. Removed: not verifiable as of September 2026 (Rodríguez departed; 2026 franchise player not identified from a source)
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` Rodríguez departed; 2026 franchise player not identified from a source
+- Unverified (listed for follow-up): `ownership.ownershipGroup` no 2026 change found
 
 ### New York Red Bulls
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.525B Forbes 2024); Ruvalcaba per club release Feb 2026; 2025 playoffs per Wikipedia; 2026 standings as of Sept 27.
@@ -1380,7 +1420,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.playoffAppearancesLast5Years`: 5 → 4. Red Bulls qualified 2021-2024 and missed the 2025 playoffs, ending the league-record streak that began in 2010; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Emil Forsberg","position":"AM","aav":5,"contractNote":"Designated Player; a..." → "[{"player":"Jorge Ruvalcaba","position":"W","aav":null,"contractNote":"Mexico internati...". Ruvalcaba signed as a DP for a club-record $6.5M in Feb 2026; Choupo-Moting is a DP [source](https://www.newyorkredbulls.com/news/red-bull-new-york-completes-transfer-of-mexico-international-jorge-ruvalcaba-as-designated-player-from-unam-pumas)
-- Unverified: media.localTVDeal (MSG): no 2026 source
+- `media.localTVDeal`: "Streaming-only via Apple TV+ MLS Season Pass; selective games on MSG Network" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Orlando City SC
 - **Overview rewritten.** Basis: Forbes 2025 $0.75B (valuations-2025.js; valuationHistory ends $0.52B Forbes 2024); Griezmann per club and ESPN; playoffs per Wikipedia; 2026 standings as of Sept 27.
@@ -1389,8 +1430,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 4 → 5. Orlando qualified every year 2021-2025 (9th seed East in 2025, lost the wild card at Chicago); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Facundo Torres — Designated Player ~$3M/yr; Uruguayan international; sold to Palmeiras ..." → "Antoine Griezmann, French DP forward, 2018 World Cup winner, signed March 24, 2026 from...". Orlando announced Griezmann on March 24, 2026; he joined in the July 2026 window [source](https://www.orlandocitysc.com/news/global-soccer-icon-and-world-cup-winner-antoine-griezmann-to-join-orlando-city-sc)
 - `onField.starContracts`: "[{"player":"Martín Ojeda","position":"AM","aav":3,"contractNote":"Designated Player; Ar..." → "[{"player":"Antoine Griezmann","position":"FW","aav":null,"contractNote":"DP from Atlét...". Griezmann added as the headline DP in 2026 [source](https://www.espn.com/soccer/story/_/id/48287915/antoine-griezmann-completes-summer-transfer-atletico-madrid-orlando-city)
-- Unverified: onField.starContracts: Jansson 2026 status not checked
-- Unverified: stadium.namingRightsDeal (Inter&Co): no updated terms
+- Unverified (listed for follow-up): `onField.starContracts` Jansson 2026 status not checked
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` no updated terms
 
 ### Philadelphia Union
 - **Overview rewritten.** Basis: Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.685B Forbes 2024); Shield per Wikipedia 2025 season; Alladoh per club release; 2026 standings as of Sept 27.
@@ -1398,8 +1439,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.playoffAppearancesLast5Years`: 5 → 4. Philadelphia qualified in 2021, 2022, 2023 and 2025 (won the 2025 Supporters' Shield with 66 points) and missed 2024; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season)
 - `onField.starContracts`: "[{"player":"Mikael Uhre","position":"ST","aav":2.5,"contractNote":"Designated Player; k..." → "[{"player":"Ezekiel Alladoh","position":"ST","aav":null,"contractNote":"Club-record ~$4...". Alladoh is the club's record signing (Dec 2025) [source](https://www.philadelphiaunion.com/news/philadelphia-union-sign-forward-ezekiel-alladoh)
-- Unverified: onField.starContracts: Gazdag and Uhre 2026 status not checked
-- Unverified: onField.currentFranchisePlayer: no 2026 source
+- `onField.currentFranchisePlayer`: "Mikael Uhre — Designated Player ~$2.5M/yr; Danish striker" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` Gazdag and Uhre 2026 status not checked
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` no 2026 source
 
 ### Toronto FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.725B Forbes 2024); MLSE per data/transactions.js and CBC July 2026; Sargent per ESPN Sept 9, 2026; BMO Field per Wikipedia; 2026 standings as of Sept 27.
@@ -1413,8 +1455,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 2 → 0. Toronto missed the playoffs every year 2021-2025; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Federico Bernardeschi — Designated Player ~$6.5M/yr; Italian international; under-deliv..." → "Josh Sargent, USMNT striker signed from Norwich City in 2026 for a club-record initial ...". Toronto paid an initial $22M for Sargent, the top incoming fee in MLS in 2026 [source](https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026)
 - `onField.starContracts`: "[{"player":"Federico Bernardeschi","position":"AM","aav":6.5,"contractNote":"Designated..." → "[{"player":"Josh Sargent","position":"ST","aav":null,"contractNote":"Club-record initia...". Insigne and Bernardeschi were bought out in 2025; Sargent is the new record signing [source](https://www.torontofc.ca/news/toronto-fc-and-italian-winger-lorenzo-insigne-agree-on-mutual-contract-termination)
-- Unverified: stadium.capacity: permanent post-World Cup capacity not confirmed
-- Unverified: stadium.namingRightsDeal (BMO, expiry 2027): no renewal found
+- Unverified (kept; rendered "as of May 2026"): `stadium.capacity` permanent post-World Cup capacity not confirmed
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` no renewal found
 
 ### Austin FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.95B (valuations-2025.js; valuationHistory carries Forbes May 2025 $0.825B and the $912M implied mark); raise per data/transactions.js; playoffs per Wikipedia; 2026 standings as of Sept 27.
@@ -1423,8 +1465,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 1 → 2. Austin qualified in 2022 and 2025 (6th seed West); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Sebastián Driussi — Designated Player, ~$3M base/$4.5M total comp through 2026; Argenti..." → "Sebastián Driussi transferred to River Plate in Jan 2025 for $10M plus an 8.25% sell-on...". Austin sold Driussi to River Plate in January 2025 for $10M with an 8.25% sell-on fee [source](https://en.wikipedia.org/wiki/2025_Austin_FC_season)
 - `onField.starContracts`: "[{"player":"Sebastián Driussi","position":"AM/CF","aav":4.5,"contractNote":"Designated ..." → "[{"player":"Sebastián Driussi","position":"AM/CF","aav":4.5,"contractNote":"DP 2021-202...". Driussi departed in January 2025 [source](https://en.wikipedia.org/wiki/2025_Austin_FC_season)
-- Unverified: onField.currentFranchisePlayer: 2026 headline player not identified from a source
-- Unverified: media.localTVDeal: no 2026 source
+- `onField.currentFranchisePlayer`: "Sebastián Driussi — Designated Player, ~$3M base/$4.5M total comp through 2026; Argenti..." → null. Removed: not verifiable as of September 2026 (2026 headline player not identified from a source)
+- `media.localTVDeal`: "Local English-language broadcasts via CW Austin (selected matches outside Apple package)" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` 2026 headline player not identified from a source
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Colorado Rapids
 - **Overview rewritten.** Basis: Forbes 2025 $0.62B (valuations-2025.js; valuationHistory ends $0.35B Forbes 2024); Whittaker per MLSSoccer.com Sept 2026; 2026 standings as of Sept 27.
@@ -1432,8 +1476,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.currentFranchisePlayer`: "Djordje Mihailovic — DP-level CAM acquired from CF Montréal (2024); ~$2M base, $3M tota..." → "Morgan Whittaker, English DP winger signed Sept 2026 from Middlesbrough for a club-reco...". Colorado's record incoming transfer, confirmed Sept 4, 2026, topping the $8M paid for Paxten Aaronson in 2025 [source](https://www.mlssoccer.com/news/morgan-whittaker-announces-himself-with-colorado-rapids-brace)
 - `onField.starContracts`: "[{"player":"Djordje Mihailovic","position":"CAM","aav":3,"contractNote":"Designated Pla..." → "[{"player":"Morgan Whittaker","position":"W","aav":null,"contractNote":"DP; club-record...". Whittaker and Aaronson are the two record fees; Rafael Navarro moved to St. Louis City in 2026 [source](https://burgundywave.com/2026/09/04/colorado-rapids-dp-winger-morgan-whittaker-middlesborough-record-signing/)
-- Unverified: stadium.namingRightsDeal (Dick's, expiry 2027): no renewal found
-- Unverified: stadium.newStadiumPlans: no 2026 Kroenke announcement found
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal` no renewal found
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 Kroenke announcement found
 
 ### FC Dallas
 - **Overview rewritten.** Basis: Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.50B Forbes 2024); renovation per The Real Deal and Big D Soccer March 2026; 2026 standings as of Sept 27.
@@ -1441,8 +1485,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `stadium.newStadiumPlans`: "$182M renovation underway 2025-2027 — North End enclosure, suite expansion, Hall of Fam..." → "$182M Toyota Stadium renovation began March 26, 2026 with Moss Construction: east side ...". Construction started March 26, 2026; full completion expected first quarter of 2028 [source](https://therealdeal.com/texas/dallas/2026/03/05/fc-dallas-ramps-up-182m-toyota-stadium-overhaul/)
 - `onField.currentFranchisePlayer`: "Petar Musa — Croatian DP striker signed from Benfica 2024; $5M+ AAV; emerging franchise..." → "Petar Musa, Croatian DP striker signed from Benfica 2024; 18 league goals in 2026 leads...". Musa is FC Dallas's top scorer in 2026 with 18 league goals [source](https://en.wikipedia.org/wiki/2026_FC_Dallas_season)
-- Unverified: onField.starContracts: Illarramendi 2026 status not checked
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Selected matches on local broadcast partners outside Apple package" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` Illarramendi 2026 status not checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Houston Dynamo FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.70B (valuations-2025.js and valuationHistory 2024); roster per MLSSoccer.com 2026 preview; Dash per Sportico March 2026; 2026 standings as of Sept 27.
@@ -1451,8 +1496,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.institutionalInvestors`: "PJT Partners hired by Segal Jan 2025 to explore NWSL Dash sale (~$120M)" → "Dash sale process relaunched in March 2026 after ~$120M talks with RHC Group ended amid...". Talks to sell the Dash to RHC for about $120M ended; process relaunched March 2026 [source](https://www.sportico.com/business/team-sales/2026/houston-dash-sale-relaunch-nwsl-rhc-group-1234886045/)
 - `onField.starContracts`: "[{"player":"Sebastian Ferreira","position":"ST","aav":3.5,"contractNote":"Designated Pl..." → "[{"player":"Mateusz Bogusz","position":"AM","aav":null,"contractNote":"Signed for 2026 ...". 2026 roster overhaul: Bogusz (up to $10M), DP Guilherme, Bouzat, Halter and Herrera's return [source](https://www.mlssoccer.com/news/houston-dynamo-fc-2026-season-preview)
 - `onField.currentFranchisePlayer`: "Sebastian Ferreira — Designated Player Paraguayan striker; club's record signing era" → "Mateusz Bogusz, Polish playmaker signed for 2026 from Cruz Azul for reportedly up to $10M". Bogusz is the headline 2026 acquisition [source](https://www.mlssoccer.com/news/houston-dynamo-fc-2026-season-preview)
-- Unverified: onField.starContracts: Ferreira 2026 status not confirmed
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Local Spanish-language broadcast partnerships; selected matches outside Apple package" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` Ferreira 2026 status not confirmed
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### LA Galaxy
 - **Overview rewritten.** Basis: Forbes 2025 $1.05B (valuations-2025.js; valuationHistory carries $1.08B Forbes/Sportico 2024); Pec per club release July 2026; Lozano per ESPN; 2026 standings as of Sept 27.
@@ -1460,7 +1506,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.playoffAppearancesLast5Years`: 3 → 2. Galaxy qualified in 2022 and 2024 (MLS Cup champions) and missed 2021, 2023 and 2025; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Riqui Puig","position":"AM","aav":2.5,"contractNote":"Designated Player thr..." → "[{"player":"Riqui Puig","position":"AM","aav":2.5,"contractNote":"Designated Player thr...". Pec sold for a club-record fee in July 2026; Lozano arrived on loan from San Diego as a DP [source](https://www.lagalaxy.com/news/la-galaxy-set-club-transfer-fee-record-with-forward-gabriel-pec-to-cruzeiro-esporte-clube)
-- Unverified: media.localTVDeal (Spectrum SportsNet): no 2026 source
+- `media.localTVDeal`: "Spectrum SportsNet (Charter) regional broadcasts; selected matches outside Apple package" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Los Angeles FC
 - **Overview rewritten.** Basis: Forbes 2025 $1.55B (valuations-2025.js; valuationHistory carries $1.32B Sportico May 2025 and the $1.25B implied by the Tsai exit); stake sales per Sportico 2026; Son fee per ESPN; 2026 standings as of Sept 27.
@@ -1471,15 +1518,17 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 5 → 4. LAFC qualified 2022-2025 (3rd seed West in 2025) and missed 2021; window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Denis Bouanga — French-Gabonese DP winger; 18+ goals/season; ~$3M base / $4.5M total" → "Son Heung-min, Korean DP forward signed Aug 2025 from Tottenham for an MLS-record ~$26M...". Son joined for a record ~$26M fee in Aug 2025 [source](https://www.espn.com/soccer/story/_/id/45905249/son-heung-min-tottenham-hotspur-joins-lafc-mls-record-deal)
 - `onField.starContracts`: "[{"player":"Denis Bouanga","position":"LW/CF","aav":4.5,"contractNote":"Designated Play..." → "[{"player":"Son Heung-min","position":"LW/CF","aav":11,"contractNote":"DP signed Aug 20...". Giroud departed in 2025; Son is the headline DP [source](https://www.lafc.com/news/lafc-signs-global-football-icon-son-heung-min)
-- Unverified: media.localTVDeal (TUDN): no 2026 source
-- Unverified: revenue: no 2025 or 2026 revenue figure sourced
+- `media.localTVDeal`: "Spanish-language broadcasts via TUDN; selected matches outside Apple package" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (listed for follow-up): revenue: no 2025 or 2026 revenue figure sourced
 
 ### Minnesota United FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.52B Forbes 2024); 2025 playoffs per Wikipedia; Midway per Star Tribune 2026; 2026 standings as of Sept 27.
 - `media.streamingNotes`: "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)" → "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscrip...". MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29 [source](https://www.mnufc.com/news/major-league-soccer-moves-to-apple-tv-starting-2026)
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
-- Unverified: media.localTVDeal (Bally Sports North): no 2026 source on the post-Diamond arrangement
-- Unverified: stadium.nonGameRevenue: Midway development timeline not sourced beyond McGuire comments
+- `media.localTVDeal`: "Bally Sports North (selected matches outside Apple package); RSN distribution disrupted..." → null. Removed: not verifiable as of September 2026 (no 2026 source on the post-Diamond arrangement)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source on the post-Diamond arrangement
+- Unverified (listed for follow-up): `stadium.nonGameRevenue` Midway development timeline not sourced beyond McGuire comments
 
 ### Portland Timbers
 - **Overview rewritten.** Basis: Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.685B Forbes 2024); Kelsy per MLSSoccer.com Aug 2026; Paulson investment and lease per OPB Aug 2026; 2026 standings as of Sept 27.
@@ -1489,8 +1538,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Portland qualified in 2021, 2023, 2024 and 2025 (8th seed West, won the wild card 3-1 over RSL); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Evander — Brazilian DP attacking mid signed from FC Midtjylland 2023; club-record signi..." → "Evander was sold to FC Cincinnati in Feb 2025 for ~$12M; Kevin Kelsy, the 2026 top scor...". Kelsy sale to Rangers agreed Aug 26, 2026 for a club-record $13M; Evander went to Cincinnati in 2025 [source](https://www.mlssoccer.com/news/portland-timbers-transfer-kevin-kelsy-to-rangers-fc)
 - `onField.starContracts`: "[{"player":"Evander","position":"AM","aav":3.5,"contractNote":"Designated Player; club-..." → "[{"player":"Kevin Kelsy","position":"ST","aav":null,"contractNote":"Bought Jan 2025 for...". Two record outbound sales in 18 months [source](https://katu.com/sports/timbers/portland-timbers-sell-star-forward-kevin-kelsy-soccer-mls-local-europe-sctoland-glasgow-oregon-rose-city-futbol)
-- Unverified: onField.starContracts: Chara 2026 status not checked
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Local broadcast partnerships outside Apple package; KPDX (Fox affiliate) has historic r..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `onField.starContracts` Chara 2026 status not checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Real Salt Lake
 - **Overview rewritten.** Basis: Forbes 2025 $0.66B (valuations-2025.js; valuationHistory ends $0.58B Forbes 2024); sale per data/transactions.js and ESPN April 2025; Gozo per MLSSoccer.com Aug 2026; 2026 standings as of Sept 27.
@@ -1504,8 +1554,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.ownershipModel`: "team-owned / SEG-owned; located in Sandy, Utah on team-owned land; renamed from Rio Tin..." → "team-owned (Miller Sports + Entertainment via RSL Football Holdings since 2025); locate...". Stadium included in the $600M Miller purchase [source](https://www.rsl.com/utahroyals/news/miller-sports-entertainment-purchases-controlling-interest-in-rsl-football-holdings)
 - `onField.playoffAppearancesLast5Years`: 3 → 5. RSL qualified every year 2021-2025 (9th seed West in 2025); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.starContracts`: "[{"player":"Cristian Arango","position":"Forward","aav":2.5,"contractNote":"Designated ..." → "[{"player":"Cristian Arango","position":"Forward","aav":2.5,"contractNote":"Designated ...". Gozo sale completed Aug 2026 for $15M [source](https://www.mlssoccer.com/news/real-salt-lake-transfer-zavier-gozo-to-crystal-palace)
-- Unverified: ownership.institutionalInvestors: whether Arctos and Dwyane Wade kept stakes after the 2025 sale is not sourced
-- Unverified: media.localTVDeal: no 2026 source
+- `ownership.institutionalInvestors`: "Arctos Sports Partners (sports-focused PE)" → null. Removed: not verifiable as of September 2026 (whether Arctos and Dwyane Wade kept stakes after the 2025 sale is not sourced)
+- `media.localTVDeal`: "KMYU/KJZZ-TV (Sinclair) regional broadcast partner for select matches not on Apple" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `ownership.institutionalInvestors` whether Arctos and Dwyane Wade kept stakes after the 2025 sale is not sourced
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### San Diego FC
 - **Overview rewritten.** Basis: Sportico Oct 2025 $0.85B (valuations-2025.js and valuationHistory 2025; no Forbes figure loaded); 2025 standings and playoffs per Wikipedia; Lozano per ESPN Aug 2026; 2026 standings as of Sept 27.
@@ -1513,25 +1565,27 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.currentFranchisePlayer`: "Hirving 'Chucky' Lozano — Designated Player, Mexican international, ~$8M AAV" → "Hirving 'Chucky' Lozano was frozen out of the 2026 plans after an October 2025 dispute ...". Lozano last played for SDFC in Nov 2025, was declared not part of the sporting plan for 2026, and joined the Galaxy on loan in Aug 2026 [source](https://www.espn.com/soccer/story/_/id/49548687/lozano-joining-galaxy-season-long-loan)
 - `onField.starContracts`: "[{"player":"Hirving 'Chucky' Lozano","position":"Forward / Winger","aav":8,"contractNot..." → "[{"player":"Hirving 'Chucky' Lozano","position":"Forward / Winger","aav":8,"contractNot...". Lozano loaned out; Bombino was the club's record sale in 2026 [source](https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026)
-- Unverified: stadium.newStadiumPlans: no 2026 announcement found on a soccer-specific venue
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Limited local TV — most matches on Apple TV+ MLS Season Pass; selective broadcast partn..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 announcement found on a soccer-specific venue
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### San Jose Earthquakes
 - **Overview rewritten.** Basis: Forbes 2025 $0.60B (valuations-2025.js; valuationHistory ends $0.54B Forbes 2024); sale process per club and ESPN June 2025; 2026 standings as of Sept 27.
 - `media.streamingNotes`: "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)" → "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscrip...". MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29 [source](https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources)
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `onField.playoffAppearancesLast5Years`: 1 → 0. San Jose missed the playoffs every year 2021-2025 (the old count included 2020); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
-- Unverified: ownership: no buyer or price for the Fisher sale (Moelis, launched June 2025) found as of Sept 2026
-- Unverified: onField.starContracts: Espinoza and López Muñoz 2026 status not checked
+- Unverified (listed for follow-up): ownership: no buyer or price for the Fisher sale (Moelis, launched June 2025) found as of Sept 2026
+- Unverified (listed for follow-up): `onField.starContracts` Espinoza and López Muñoz 2026 status not checked
 
 ### Seattle Sounders FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.85B (valuations-2025.js; valuationHistory carries $0.825B Sportico 2024); Leagues Cup per Wikipedia; Moelis raise per ESPN Oct 2025; 2026 standings as of Sept 27.
 - `media.streamingNotes`: "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)" → "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscrip...". MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29 [source](https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources)
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `ownership.institutionalInvestors`: "None disclosed; 2025 Moelis-led raise specifically targeting institutional/strategic mi..." → "Moelis-led strategic capital raise launched Oct 2025 seeking a large minority partner (...". Sounders retained Moelis in Oct 2025 for a strategic capital raise tied to Longacres [source](https://www.espn.com/soccer/story/_/id/46788164/seattle-sounders-seek-investment-fund-potential-soccer-stadium)
-- Unverified: ownership: outcome of the Moelis raise not found
-- Unverified: onField.starContracts: 2026 status not checked
-- Unverified: media.localTVDeal: no 2026 source
+- `media.localTVDeal`: "Local broadcast rights via Apple-MLS deal exclusively for matches; pre-Apple deal had l..." → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (listed for follow-up): ownership: outcome of the Moelis raise not found
+- Unverified (listed for follow-up): `onField.starContracts` 2026 status not checked
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Sporting Kansas City
 - **Overview rewritten.** Basis: Forbes 2025 $0.70B (valuations-2025.js and data/transactions.js forbesValueAtSale); sale per data/transactions.js; stadium per Fox4KC; André Luiz per club release Aug 2026; 2026 standings as of Sept 27.
@@ -1542,8 +1596,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `ownership.acquisitionPrice`: 0.5 → 0.7. Mallouk's ~71% purchase was at a $700M enterprise value, the highest price for an MLS majority stake, finalized Dec 2025 and public Jan 2026 (per data/transactions.js) [source](https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/)
 - `onField.currentFranchisePlayer`: "Dániel Sallói — Hungarian international forward, longtime franchise player, ~$1.5M AAV" → "André Luiz, Brazilian DP forward signed Aug 18, 2026 from Olympiacos for a club-record ...". Club-record $18M transfer, more than double the previous $7.5M record for Alan Pulido [source](https://www.sportingkc.com/news/sporting-kc-acquires-forward-andre-luiz-in-club-record-transfer-from-olympiacos-fc)
 - `onField.starContracts`: "[{"player":"Dániel Sallói","position":"Forward","aav":1.5,"contractNote":"TAM/Designate..." → "[{"player":"André Luiz","position":"Forward","aav":null,"contractNote":"DP; club-record...". André Luiz added as the record DP [source](https://www.espn.com/soccer/story/_/id/49649637/sporting-kc-transfer-andre-luiz-record-olympiacos)
-- Unverified: media.localTVDeal (KSHB): no 2026 source
-- Unverified: onField.starContracts: Sallói and Thommy 2026 status not checked
+- `media.localTVDeal`: "KSHB / E.W. Scripps regional partner for select matches not on Apple" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (listed for follow-up): `onField.starContracts` Sallói and Thommy 2026 status not checked
 
 ### St. Louis City SC
 - **Overview rewritten.** Basis: Forbes 2025 $0.85B (valuations-2025.js; valuationHistory carries $0.78B Sportico 2025); transfers per ESPN Sept 9, 2026; 2026 standings as of Sept 27.
@@ -1551,8 +1606,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Su..." → "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season...". Revised Apple payment schedule under the Nov 2025 amendment [source](https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/)
 - `stadium.name`: "CITYPARK (Energizer Park as of 2024 — naming rights renamed)" → "Energizer Park". Stadium has carried the Energizer Park name since 2024 [source](https://www.mlssoccer.com/news/st-louis-city-sc-stadium-renamed-energizer-park)
 - `onField.starContracts`: "[{"player":"Eduard Löwen","position":"Midfielder","aav":2.5,"contractNote":"Designated ..." → "[{"player":"Carlo Holse","position":"Winger","aav":null,"contractNote":"Club-record inc...". Holse and Navarro set the club's incoming records and Klauss its outgoing record in 2026 per ESPN's league summary [source](https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026)
-- Unverified: onField.currentFranchisePlayer (Löwen): 2026 role not confirmed
-- Unverified: media.localTVDeal (FanDuel Sports Network Midwest): no 2026 source
+- `onField.currentFranchisePlayer`: "Eduard Löwen — German Designated Player midfielder, ~$2.5M AAV" → null. Removed: not verifiable as of September 2026 (2026 role not confirmed)
+- `media.localTVDeal`: "FanDuel Sports Network Midwest regional partner for select matches not on Apple" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `onField.currentFranchisePlayer` 2026 role not confirmed
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
 
 ### Vancouver Whitecaps FC
 - **Overview rewritten.** Basis: Forbes 2025 $0.60B (valuations-2025.js; valuationHistory ends $0.45B Sportico 2024); sale status per TSN/Canadian Press Sept 23, 2026; Gustavson bid per ESPN May 2026; MLS Cup and 2026 standings per Wikipedia and Fox Sports as of Sept 27.
@@ -1564,8 +1621,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.playoffAppearancesLast5Years`: 3 → 4. Vancouver qualified in 2021, 2023, 2024 and 2025 (2nd seed West with 63 points, reached MLS Cup 2025 and lost 3-1 at Inter Miami); window is 2021-2025 [source](https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs)
 - `onField.currentFranchisePlayer`: "Brian White — American forward, ~$1.2M AAV; club has lacked marquee Designated Player c..." → "Thomas Müller, Bayern Munich and Germany legend signed Aug 2025; 2026 option exercised ...". Whitecaps exercised Müller's 2026 option and made him a DP [source](https://www.mlssoccer.com/news/vancouver-whitecaps-roster-thomas-muller-contract-option-exercised)
 - `onField.starContracts`: "[{"player":"Brian White","position":"Forward","aav":1.2,"contractNote":"TAM contract; U..." → "[{"player":"Thomas Müller","position":"AM/FW","aav":null,"contractNote":"Signed Aug 202...". Müller is the headline DP [source](https://www.mlssoccer.com/news/vancouver-whitecaps-roster-thomas-muller-contract-option-exercised)
-- Unverified: media.localTVDeal (TSN): no 2026 source
-- Unverified: revenue: no post-2023 figure sourced
+- `media.localTVDeal`: "TSN regional rights for select matches not on Apple" → null. Removed: not verifiable as of September 2026 (no 2026 source)
+- Unverified (sentence removed from the profile): `media.localTVDeal` no 2026 source
+- Unverified (listed for follow-up): revenue: no post-2023 figure sourced
 
 ## EPL (20 teams)
 
@@ -1575,8 +1633,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Bruno Fernandes — captain, ~£300K/wk, contract through 2026 with extension option" → "Bruno Fernandes, captain, contract through June 2027; 2025-26 Premier League Player of ...". Fernandes' deal was extended to 30 June 2027 (August 2024) and he won the 2025-26 Premier League Player of the Season award [source](https://en.wikipedia.org/wiki/Bruno_Fernandes)
 - `onField.starContracts`: "[{"player":"Bruno Fernandes","position":"AM","aav":19.5,"contractNote":"~£300K/wk; sign..." → "[{"player":"Bruno Fernandes","position":"AM","aav":19.5,"contractNote":"~£300K/wk; capt...". Rashford (loaned to Barcelona) and Casemiro (left as a free agent summer 2026) no longer anchor the squad; Mbeumo, Sesko (2025) and Baleba (Aug 2026) are the new headline contracts [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Manchester_United_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: revenue.estimate: FY2025-26 accounts (June 2026 year end) not yet published; Forbes 2026 shows revenue $865M and operating income $237M
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts (June 2026 year end) not yet published; Forbes 2026 shows revenue $865M and operating income $237M
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 
 ### Manchester City
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($5.5B, revenue $0.9B, operating income $0.115B); 2025-26 table (2nd, EFL Cup and FA Cup winners); Etihad North Stand opening May 2026; 115-charges verdict reports 25 Sept 2026; Maresca appointment June 2026.
@@ -1586,9 +1644,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Erling Haaland — 9.5yr / £390K/wk extension signed Jan 2025, contract through 2034" → "Erling Haaland, contract through 2034 (~£390K/wk); 2025-26 Premier League Golden Boot w...". Haaland was 2025-26 top scorer (27); Guardiola left at the end of 2025-26 and became a City Football Group global ambassador; Maresca appointed 29 June 2026 [source](https://en.wikipedia.org/wiki/Enzo_Maresca)
 - `onField.starContracts`: "[{"player":"Erling Haaland","position":"FW","aav":26.4,"contractNote":"Jan 2025 extensi..." → "[{"player":"Erling Haaland","position":"FW","aav":26.4,"contractNote":"Jan 2025 extensi...". De Bruyne left in 2025; Rodri was sold to Barcelona in summer 2026; City spent over £400M in summer 2026 on Fernandez, Anderson and others [source](https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer))
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: stadium.namingRightsDeal.expiryYear: Etihad deal continues into 2026-27 but renewal terms and new expiry not published
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $900M
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal.expiryYear` Etihad deal continues into 2026-27 but renewal terms and new expiry not published
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $900M
 
 ### Liverpool
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($6.2B, revenue $0.911B, operating income $0.133B); 1892 Holdings 30% stake at $7.445B implied (Aug 2026, transactions.js); 2025-26 table (5th); Salah exit and Iraola appointment June 2026.
@@ -1600,8 +1658,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Mohamed Salah — 2yr extension signed April 2025, ~£400K/wk through 2027" → "Alexander Isak, British-record £125M signing from Newcastle (Sept 2025) on a six-year c...". Salah departed at the end of 2025-26; Isak is the record signing; Arne Slot left 30 May 2026 and Andoni Iraola was appointed 4 June 2026 on a two-year deal [source](https://en.wikipedia.org/wiki/Mohamed_Salah)
 - `onField.starContracts`: "[{"player":"Mohamed Salah","position":"FW","aav":27,"contractNote":"April 2025 extensio..." → "[{"player":"Alexander Isak","position":"FW","aav":null,"contractNote":"Signed from Newc...". Salah and Alexander-Arnold gone; Isak and Wirtz are the new anchor contracts [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Liverpool_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $911M
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $911M
 
 ### Arsenal
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($5.4B, revenue $0.895B, operating income $0.185B); 2025-26 title and Champions League final; Saka contract Jan 2026; reported Emirates renewal summer 2026; stadium planning phase June 2026.
@@ -1612,9 +1670,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.namingRightsDeal`: "{"sponsor":"Emirates Airline","annualValue_M":31,"totalValue_M":200,"expiryYear":2028,"..." → "{"sponsor":"Emirates Airline","annualValue_M":31,"totalValue_M":200,"expiryYear":2028,"...". Reported Emirates renewal to 2033 (summer 2026); club has not published terms so the numeric fields are unchanged and the note records the report [source](https://footballgroundguide.com/news/emirates-stadium-expansion.html)
 - `stadium.newStadiumPlans`: "Kroenke considering Emirates expansion to ~70,000 capacity; planning study underway 202..." → "Expansion of the 60,704-seat Emirates in a formal planning phase since June 2026 with a...". June 2026: Arsenal entered a formal planning phase; a premium-seat remodel is the reported favoured option [source](https://dailycannon.com/2026/06/emirates-stadium-expansion-options/)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: stadium.namingRightsDeal annual value and expiry: 2026 Emirates renewal reported (to 2033, ~£70M/yr) but not confirmed by the club in a source I could read
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $895M
+- Unverified (listed for follow-up): stadium.namingRightsDeal annual value and expiry: 2026 Emirates renewal reported (to 2033, ~£70M/yr) but not confirmed by the club in a source I could read
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $895M
 
 ### Chelsea
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($4.2B, revenue $0.637B, operating income -$0.026B); Clearlake buyout of Boehly and Walter (closed 16 Sept 2026, $6.728B implied, transactions.js); 2025-26 table (10th); Alonso appointment July 2026; Rogers transfer July 2026.
@@ -1626,9 +1684,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Cole Palmer — 9yr contract through 2033, club's young franchise player" → "Cole Palmer, contract through 2033; Morgan Rogers signed from Aston Villa July 2026 for...". Rogers joined 21 July 2026 for £117M; Alonso replaced the Maresca (resigned 1 Jan 2026) and Rosenior (Jan to Apr 2026) interregnum [source](https://en.wikipedia.org/wiki/Morgan_Rogers)
 - `onField.starContracts`: "[{"player":"Cole Palmer","position":"AM","aav":9.3,"contractNote":"Signed 9yr deal Sept..." → "[{"player":"Cole Palmer","position":"AM","aav":9.3,"contractNote":"Nine-year deal signe...". Enzo Fernandez sold to City in summer 2026; Rogers is the new record signing [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Chelsea_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownershipGroup percentages for Wyss: carried from prior enrichment, not re-sourced in 2026
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $637M
-- Unverified: 2025 Club World Cup win: reported by ESPN in the Maresca exit coverage but not separately verified
+- Unverified (listed for follow-up): ownership.ownershipGroup percentages for Wyss: carried from prior enrichment, not re-sourced in 2026
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $637M
+- Unverified (listed for follow-up): 2025 Club World Cup win: reported by ESPN in the Maresca exit coverage but not separately verified
 
 ### Tottenham Hotspur
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($3.0B, revenue $0.733B, operating income $0.139B); 2025-26 table (17th); Levy exit Sept 2025; Eight Sports Capital claim June 2026 (disputed); Tonali signing July 2026.
@@ -1637,9 +1695,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Son Heung-min — captain, contract through 2025-26 ~£200K/wk; James Maddison ~£170K/wk t..." → "Sandro Tonali, signed from Newcastle July 2026 for £100M; Son Heung-min sold to LAFC in...". Son left in 2025; Tonali is the club-record signing; three head coaches in 2025-26 [source](https://en.wikipedia.org/wiki/Sandro_Tonali)
 - `onField.starContracts`: "[{"player":"Son Heung-min","position":"FW","aav":13.5,"contractNote":"~£200K/wk (~$13.5..." → "[{"player":"Sandro Tonali","position":"CM","aav":null,"contractNote":"Signed from Newca...". Son and Romero (to Atletico, £34.2M, summer 2026) gone; Tonali, Kudus, Simons are the current top contracts [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Tottenham_Hotspur_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownershipGroup percentages: Levy's effective stake may have changed if the Eight Sports Capital deal completed; ENIC denies knowledge, so the old split is retained
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $733M
+- Unverified (listed for follow-up): ownership.ownershipGroup percentages: Levy's effective stake may have changed if the Eight Sports Capital deal completed; ENIC denies knowledge, so the old split is retained
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $733M
 
 ### Newcastle United
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($1.25B, revenue $0.435B, operating income -$0.002B); 2025-26 table (12th); Isak, Tonali and Guimaraes sales; Howe departure July 2026; stadium status April 2026.
@@ -1647,9 +1705,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Bruno Guimarães — midfield captain, ~£180K/wk through 2028; Alexander Isak ~£140K/wk th..." → "Squad rebuilt through sales: Isak sold to Liverpool Sept 2025 for a British-record £125...". Newcastle sold its three biggest contracts for roughly £300M between Sept 2025 and Aug 2026 and changed head coach in July 2026 [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Newcastle_United_F.C._season)
 - `onField.starContracts`: "[{"player":"Bruno Guimarães","position":"CM","aav":12,"contractNote":"~£180K/wk; signed..." → "[{"player":"Nick Woltemade","position":"FW","aav":null,"contractNote":"Signed from VfB ...". Isak, Tonali, Guimaraes and Gordon all sold between Sept 2025 and Aug 2026 [source](https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownerNetWorth: PIF AUM not re-checked in 2026
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $435M
-- Unverified: Matthias Jaissle appointment: taken from the 2026-27 season page, not a club announcement I could read
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` PIF AUM not re-checked in 2026
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $435M
+- Unverified (listed for follow-up): Matthias Jaissle appointment: taken from the 2026-27 season page, not a club announcement I could read
 
 ### Aston Villa
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($1.4B, revenue $0.49B, operating income -$0.03B); 2025-26 table (4th) and Europa League win 20 May 2026; summer 2026 sales; Villa Park works from March 2026.
@@ -1658,18 +1716,18 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Ollie Watkins — top scorer; Emiliano Martínez (World Cup 2022 winner, Argentine #1 GK);..." → "Core sold in summer 2026: Morgan Rogers to Chelsea for £117M (record fee for an English...". Villa realised well over £250M of player sales in summer 2026 after the Europa League win and fourth place [source](https://en.wikipedia.org/wiki/Morgan_Rogers)
 - `onField.starContracts`: "[{"player":"Ollie Watkins","position":"FW","aav":8.5,"contractNote":"~£125K/wk; new dea..." → "[{"player":"Morgan Rogers","position":"AM","aav":0,"contractNote":"Sold to Chelsea 21 J...". Rogers, Watkins, Konsa and Martinez sold in summer 2026 [source](https://en.wikipedia.org/wiki/Ollie_Watkins)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: July 2026 reports that Villa put academy players up for sale to meet spending rules: headline seen, article not read
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $490M
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (listed for follow-up): July 2026 reports that Villa put academy players up for sale to meet spending rules: headline seen, article not read
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $490M
 
 ### Brighton & Hove Albion
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($0.91B, revenue $0.295B, operating income -$0.015B); 2025-26 table (8th); Baleba and van Hecke sales summer 2026.
 - `onField.currentFranchisePlayer`: "Carlos Baleba — central midfielder, £25M+ valuation; Kaoru Mitoma — Japanese internatio..." → "Player-trading engine continues: Carlos Baleba sold to Manchester United Aug 2026 for a...". Baleba (£70M) and van Hecke (£52M) sold in summer 2026 [source](https://en.wikipedia.org/wiki/Carlos_Baleba)
 - `onField.starContracts`: "[{"player":"Carlos Baleba","position":"CM","aav":5.5,"contractNote":"~£80K/wk; signed f..." → "[{"player":"Carlos Baleba","position":"CM","aav":0,"contractNote":"Sold to Manchester U...". Baleba and Dunk-era core turned over; Vuskovic is the new record signing [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Brighton_%26_Hove_Albion_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: stadium.newStadiumPlans: no 2026 source found on Amex expansion
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $295M
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 source found on Amex expansion
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $295M
 
 ### West Ham United
 - **Overview rewritten.** Basis: Forbes May 2025 list ($1.25B, per valuations-2025.js; not on the 2026 list); 2025-26 table (18th, relegated); Sept 2026 Kretinsky 46% / Sullivan 40% reporting; Sullivan resignation June 2026.
@@ -1678,9 +1736,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Relegated to the EFL Championship for 2026-27 (18th in 2025-26, 39 pts); receives Premi...". West Ham finished 18th and were relegated, their first drop since 2010-11 [source](https://www.nbcsports.com/premier-league-table-2025-26-season-standings)
 - `onField.currentFranchisePlayer`: "Jarrod Bowen — England forward, captain since Declan Rice's 2023 sale; Lucas Paquetá — ..." → "Jarrod Bowen, captain, in the Championship; Kudus (£55M to Tottenham, 2025), Paqueta (£...". Post-relegation fire sale in summer 2026 after Kudus and Paqueta left in 2025 [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Ham_United_F.C._season)
 - `onField.starContracts`: "[{"player":"Jarrod Bowen","position":"FW","aav":8,"contractNote":"~£120K/wk; new deal 2..." → "[{"player":"Jarrod Bowen","position":"FW","aav":8,"contractNote":"~£120K/wk; deal throu...". Kudus, Paqueta, Fernandes and Summerville sold; Bowen remains [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_West_Ham_United_F.C._season)
-- Unverified: ownership.ownershipGroup exact percentages: Bloomberg article is paywalled; figures from secondary reporting (Kretinsky 46%, Sullivan 40%)
-- Unverified: Kretinsky reportedly exploring buying the London Stadium: unconfirmed
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; relegation cuts broadcast income from 2026-27
+- Unverified (listed for follow-up): ownership.ownershipGroup exact percentages: Bloomberg article is paywalled; figures from secondary reporting (Kretinsky 46%, Sullivan 40%)
+- Unverified (listed for follow-up): Kretinsky reportedly exploring buying the London Stadium: unconfirmed
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; relegation cuts broadcast income from 2026-27
 
 ### Crystal Palace
 - **Overview rewritten.** Basis: Last Forbes figure $750M (2025, per valuationHistory; not on the 2026 list); Woody Johnson 43% at $591M implied (June 2025, transactions.js); Conference League win 27 May 2026; Raine sale exploration June 2026; Main Stand works from Jan 2026.
@@ -1690,9 +1748,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Eberechi Eze — sold to Arsenal summer 2025 ~£60M; replacement core: Adam Wharton (Engla..." → "Jean-Philippe Mateta (scored the Conference League final winner) and Jorgen Strand Lars...". Guehi (Jan 2026) and Lacroix (summer 2026) sold; Glasner departed at contract end and joined Forest 6 July 2026 [source](https://en.wikipedia.org/wiki/Oliver_Glasner)
 - `onField.starContracts`: "[{"player":"Marc Guéhi","position":"CB","aav":6,"contractNote":"England international c..." → "[{"player":"Jean-Philippe Mateta","position":"ST","aav":4.5,"contractNote":"France inte...". Guehi and Eze cashed; Strand Larsen and Mateta anchor the attack [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Crystal_Palace_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownershipGroup: Harris and Blitzer's combined stake reported as 30% by the FT versus 36% in the enrichment; not resolved
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked
-- Unverified: Forbes 2026 list: Palace absent; last Forbes figure $750M (2025)
+- Unverified (listed for follow-up): `ownership.ownershipGroup` Harris and Blitzer's combined stake reported as 30% by the FT versus 36% in the enrichment; not resolved
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked
+- Unverified (listed for follow-up): Forbes 2026 list: Palace absent; last Forbes figure $750M (2025)
 
 ### Everton
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($0.93B, revenue $0.255B, operating income -$0.015B); 2025-26 table (13th); stadium attendance data 2025-26; Ndiaye sale Sept 2026.
@@ -1702,18 +1760,18 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Jordan Pickford — England #1 goalkeeper; signed contract through 2027 at ~£100K/week" → "Jordan Pickford, England goalkeeper, contract through 2027; Tyler Dibling (£35M from So...". Ndiaye sold for £60M-65M in Sept 2026; Dibling bought for £35M in 2025 [source](https://en.wikipedia.org/wiki/Iliman_Ndiaye)
 - `onField.starContracts`: "[{"player":"Jordan Pickford","position":"GK","aav":6.5,"contractNote":"England internat..." → "[{"player":"Jordan Pickford","position":"GK","aav":6.5,"contractNote":"England internat...". Ndiaye and Beto sold in summer 2026; Dibling, Barry, Dewsbury-Hall bought in 2025 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Everton_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: stadium.namingRightsDeal.annualValue_M: £10M/yr figure not re-confirmed in 2026
-- Unverified: revenue.estimate: FY2025-26 accounts (first stadium season) due spring 2027; Forbes 2026 revenue $255M
-- Unverified: Dibling fee: enrichment for Southampton said £42M, Everton season page says £35M; £35M used
+- Unverified (kept; rendered "as of May 2026"): `stadium.namingRightsDeal.annualValue_M` £10M/yr figure not re-confirmed in 2026
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts (first stadium season) due spring 2027; Forbes 2026 revenue $255M
+- Unverified (listed for follow-up): Dibling fee: enrichment for Southampton said £42M, Everton season page says £35M; £35M used
 
 ### Fulham
 - **Overview rewritten.** Basis: Forbes 2026 soccer list ($0.92B, revenue $0.253B, operating income -$0.025B); 2025-26 table (11th); Silva exit and Arbeloa appointment June 2026.
 - `onField.currentFranchisePlayer`: "Raúl Jiménez — Mexico international striker; £5.5M from Wolves 2023; signed extension t..." → "Kevin (£34.6M from Shakhtar, 2025) and Gonzalo Garcia (£34.2M from Real Madrid, 2026) a...". Silva departed June 2026; Arbeloa appointed on a three-year contract [source](https://en.wikipedia.org/wiki/Marco_Silva)
 - `onField.starContracts`: "[{"player":"Raúl Jiménez","position":"ST","aav":4.5,"contractNote":"Mexico internationa..." → "[{"player":"Kevin","position":"LW","aav":null,"contractNote":"Signed from Shakhtar Done...". Pereira sold to Palmeiras (£8.65M, 2025); Jimenez left 2026 [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Fulham_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
-- Unverified: stadium.newStadiumPlans: no 2026 update on further Craven Cottage works found
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; Forbes 2026 revenue $253M
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 update on further Craven Cottage works found
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; Forbes 2026 revenue $253M
 
 ### Wolverhampton Wanderers
 - **Overview rewritten.** Basis: Last Forbes figure $600M (2024 list, per valuationHistory; not on the 2026 list); 2025-26 table (20th, relegated 20 April 2026); Fosun board change Dec 2025 / May 2026; 2025-26 player sales.
@@ -1722,8 +1780,8 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `stadium.newStadiumPlans`: "Phased stadium expansion plans periodically discussed (Steve Bull stand redevelopment) ..." → "The 2019 plan to grow Molineux to 50,000 is shelved indefinitely; no expansion work und...". Expansion shelved as of the end of 2025-26 [source](https://lastwordonsports.com/football/2026/04/21/wolves-relegation-lessons-club-decline/)
 - `onField.currentFranchisePlayer`: "Matheus Cunha — Brazil international; sold to Manchester United summer 2025 ~£62.5M; cu..." → "Squad sold down: Cunha to Man United (£62.5M, 2025), Strand Larsen to Crystal Palace (£...". About £180M of player sales in 2025-26 and Gomes sold in 2026; three head coaches in 2025-26 (Pereira, Collins interim, Edwards) [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Wolverhampton_Wanderers_F.C._season)
 - `onField.starContracts`: "[{"player":"Jørgen Strand Larsen","position":"ST","aav":4,"contractNote":"Norway intern..." → "[{"player":"Joao Gomes","position":"CM","aav":0,"contractNote":"Sold to Aston Villa sum...". Gomes, Strand Larsen and Ait-Nouri all sold [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Wolverhampton_Wanderers_F.C._season)
-- Unverified: Sale rumours: the SportsPro report of Fosun seeking to sell 20% at £350M dates from 2019, not 2026; no 2026 sale process sourced
-- Unverified: revenue.estimate: FY2024-25 accounts reported a £15.3M loss and record £117M player profits per secondary reporting; primary source not read
+- Unverified (listed for follow-up): Sale rumours: the SportsPro report of Fosun seeking to sell 20% at £350M dates from 2019, not 2026; no 2026 sale process sourced
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 accounts reported a £15.3M loss and record £117M player profits per secondary reporting; primary source not read
 
 ### AFC Bournemouth
 - **Overview rewritten.** Basis: Last Forbes-listed figure $420M (2024, per valuationHistory; absent from the 2026 list); 2025-26 table (6th, Europa League); stadium construction start 4 July 2026; Semenyo sale Jan 2026; Iraola departure June 2026.
@@ -1733,9 +1791,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Antoine Semenyo — Ghana international winger; signed extension through 2030; transfer i..." → "Antoine Semenyo sold to Manchester City Jan 2026 for £62.5M plus £1.5M add-ons, the clu...". Semenyo (Jan 2026), Huijsen (£50M), Zabarnyi (£54.5M), Kerkez (£40M) and Ouattara (£42.5M) all sold in 2025-26; Iraola departed June 2026 [source](https://www.skysports.com/football/news/11095/13491956/antoine-semenyo-joins-man-city-bournemouth-forward-signs-in-lb64m-transfer-to-take-city-spending-over-lb425m-in-12-months)
 - `onField.starContracts`: "[{"player":"Antoine Semenyo","position":"RW","aav":4.5,"contractNote":"Ghana internatio..." → "[{"player":"Antoine Semenyo","position":"RW","aav":0,"contractNote":"Sold to Manchester...". Semenyo, Huijsen, Zabarnyi and Kerkez sold for over £200M combined [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_AFC_Bournemouth_season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: stadium.namingRightsDeal.expiryYear 2026: Vitality renewal status not found
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; Forbes 2026 list does not include Bournemouth (last Forbes-listed figure $420M, 2024)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (listed for follow-up): stadium.namingRightsDeal.expiryYear 2026: Vitality renewal status not found
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked; Forbes 2026 list does not include Bournemouth (last Forbes-listed figure $420M, 2024)
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 
 ### Brentford
 - **Overview rewritten.** Basis: No Forbes figure (absent from 2026 list; prior enrichment carried a $500M 2025 market estimate); Lubner/Vaughn 10% at $536M implied (July 2025, transactions.js); March 2026 investment round; 2025-26 table (9th).
@@ -1746,9 +1804,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Bryan Mbeumo — Cameroon international forward; key player in Brentford's recruitment-dr..." → "Mbeumo (£65M to Man United) and Wissa (£50M plus £5M to Newcastle) both sold in summer ...". Wissa sold 2025; Ouattara and Sangare bought; Andrews in second season [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Brentford_F.C._season)
 - `onField.starContracts`: "[{"player":"Bryan Mbeumo","position":"FW","aav":5.5,"contractNote":"~£90K/wk wages; ~£6..." → "[{"player":"Bryan Mbeumo","position":"FW","aav":0,"contractNote":"Sold to Manchester Un...". Toney, Mbeumo and Wissa converted into about £155M of sales across 2024-25 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Brentford_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: ownership.ownershipGroup percentages after March 2026: undisclosed
-- Unverified: revenue.estimate: FY2025-26 accounts not yet published; not on the Forbes 2026 list
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (listed for follow-up): ownership.ownershipGroup percentages after March 2026: undisclosed
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2025-26 accounts not yet published; not on the Forbes 2026 list
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 
 ### Nottingham Forest
 - **Overview rewritten.** Basis: No Forbes figure (absent from the 2026 list; enrichment carries a $900M 2025 estimate); 2025-26 table (16th) and Europa League semi-final; Anderson sale July 2026; City Ground planning approval 16 Sept 2026.
@@ -1757,9 +1815,9 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.currentFranchisePlayer`: "Murillo — Brazilian centre-back; signed from Corinthians 2023 for ~£10M; reportedly sub..." → "Morgan Gibbs-White, captain, signed a new three-year deal July 2025 after Tottenham tri...". Anderson sale is the club-record fee received; Glasner is the fifth head coach since Sept 2025 [source](https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer))
 - `onField.starContracts`: "[{"player":"Anthony Elanga","position":"RW/FW","aav":null,"contractNote":"Sold to Newca..." → "[{"player":"Elliot Anderson","position":"CM","aav":0,"contractNote":"Sold to Manchester...". Anderson and Elanga sold for £171M; Delap, Hutchinson, Ndoye, Kalimuendo bought [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Nottingham_Forest_F.C._season)
 - `media.localTVDeal`: "Premier League collective deal — UK domestic 2025-28: ~£6.7B/4yr (~£1.67B/yr); facility..." → "Premier League collective deal, UK domestic cycle 2025-26 to 2028-29: £6.7B over four s...". The £6.7B Sky/TNT domestic cycle runs 2025-26 through 2028-29 (four seasons), not 2025-28; 2025-26 was its first season with an equal share of about £85M per club [source](https://www.sportspro.com/news/premier-league-tv-rights-deal-sky-tnt-amazon-2025-2029/)
-- Unverified: £550M stadium cost figure: club/council-cited investment figure in secondary reporting; no primary document read
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; not on the Forbes 2026 list (last figure a $900M 2025 market estimate, not Forbes)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (listed for follow-up): £550M stadium cost figure: club/council-cited investment figure in secondary reporting; no primary document read
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked; not on the Forbes 2026 list (last figure a $900M 2025 market estimate, not Forbes)
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 
 ### Ipswich Town
 - **Overview rewritten.** Basis: No Forbes figure (enrichment carries a $350M 2025 estimate); 2025-26 Championship table (2nd, promoted); McKenna exit and O'Neil appointment June 2026; summer 2026 spending.
@@ -1767,9 +1825,10 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `media.nationalShareNote`: "EPL distributes via equal share + facility fee + merit payment; relegated clubs receive..." → "EPL distributes via equal share + facility fee + merit payment; Ipswich relegated 2025 ...". Promotion in May 2026 [source](https://www.premierleague.com/en/news/4673099/the-202627-premier-league-season-officially-starts/)
 - `onField.currentFranchisePlayer`: "Liam Delap — sold to Chelsea June 2025 for £30M (six-year deal); had been club's top sc..." → "Promotion built on Jack Clarke (16 Championship goals) and Sindre Walle Egeli (£17.5M f...". McKenna left after a third promotion in four seasons; O'Neil hired from Strasbourg [source](https://en.wikipedia.org/wiki/Kieran_McKenna)
 - `onField.starContracts`: "[{"player":"Liam Delap","position":"FW","aav":null,"contractNote":"Sold to Chelsea June..." → "[{"player":"Omari Hutchinson","position":"AM/RW","aav":0,"contractNote":"Sold to Nottin...". Hutchinson and Delap sold for £67.5M; 2026 spending funded the return [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Ipswich_Town_F.C._season)
-- Unverified: ownership.primaryOwner: enrichment says 'Portman Holdings LLC (US consortium consolidated December 2025)'; the 2025-26 and 2026-27 season records list the club owner as Gamechanger 20 Ltd with Mark Ashton as chairman and no ownership change; could not verify the December 2025 restructuring
-- Unverified: stadium.newStadiumPlans: no 2026 update on the Portman Road expansion land found
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (last figure a $350M 2025 Athletic-sourced estimate)
+- `ownership.primaryOwner`: "Portman Holdings LLC (US consortium consolidated December 2025)" → null. Removed: not verifiable as of September 2026 (enrichment says 'Portman Holdings LLC (US consortium consolidated December 2025)'; the 2025-26 and 2026-27 season records list the club owner as Gamechanger 20 Ltd with Mark Ashton as chairman and no ownership change; could not verify the December 2025 restructuring)
+- Unverified (sentence removed from the profile): `ownership.primaryOwner` enrichment says 'Portman Holdings LLC (US consortium consolidated December 2025)'; the 2025-26 and 2026-27 season records list the club owner as Gamechanger 20 Ltd with Mark Ashton as chairman and no ownership change; could not verify the December 2025 restructuring
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` no 2026 update on the Portman Road expansion land found
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (last figure a $350M 2025 Athletic-sourced estimate)
 
 ### Leicester City
 - **Overview rewritten.** Basis: No Forbes figure (enrichment carries a $400M 2025 estimate); 2025-26 Championship table (23rd, relegated, six-point deduction Feb 2026); Russell Martin appointment June 2026; 2025-26 player sales.
@@ -1778,16 +1837,16 @@ Totals: 174 teams, 174 overviews rewritten, 931 field changes, 321 items left un
 - `onField.championshipsLast10Years`: 1 → 0. The 2015-16 title falls outside the ten seasons 2016-17 to 2025-26 [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League)
 - `onField.currentFranchisePlayer`: "Wilfred Ndidi — Nigerian midfielder; long-tenured club captain figure; major asset-sale..." → "Squad stripped: Ndidi sold to Besiktas (£8M, 2025), Hermansen to West Ham (£20M, 2025),...". Player sales and five managers in a year (van Nistelrooy, Cifuentes, King interim, Rowett, Martin) [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Leicester_City_F.C._season)
 - `onField.starContracts`: "[{"player":"Mads Hermansen","position":"GK","aav":3,"contractNote":"Signed from Brøndby..." → "[{"player":"Mads Hermansen","position":"GK","aav":0,"contractNote":"Sold to West Ham su...". All prior star contracts sold [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Leicester_City_F.C._season)
-- Unverified: stadium.newStadiumPlans: East Stand expansion status in 2026 not found; deadline to commence remains end-2028 per the 2023 consent
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $400M 2025 estimate)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (listed for follow-up): `stadium.newStadiumPlans` East Stand expansion status in 2026 not found; deadline to commence remains end-2028 per the 2023 consent
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $400M 2025 estimate)
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 
 ### Southampton
 - **Overview rewritten.** Basis: No Forbes figure (enrichment carries a $450M 2025 estimate); 2025-26 Championship table (4th, play-off expulsion May 2026, four-point deduction for 2026-27); Dibling and Fernandes sales 2025; Eckert appointment Nov 2025.
 - `media.localTVDeal`: "Premier League collective 2024-25 then EFL Championship 2025-26+ post-relegation" → "EFL Championship for 2026-27 (second season since relegation) with year-two parachute p...". Play-off expulsion cost a promotion shot; four-point deduction carried into 2026-27 [source](https://www.skysports.com/football/news/11095/13544383/southamptons-appeal-against-championship-play-off-final-explusion-dismissed-after-spygate-scandal)
 - `onField.currentFranchisePlayer`: "Tyler Dibling — sold to Everton summer 2025 for £42M (record sale of a Saints academy p..." → "Tyler Dibling sold to Everton Aug 2025 (reported £35M); Mateus Fernandes sold to West H...". Two record academy and squad sales in 2025; Eckert replaced Still [source](https://en.wikipedia.org/wiki/2025%E2%80%9326_Southampton_F.C._season)
 - `onField.starContracts`: "[{"player":"Tyler Dibling","position":"RW","aav":null,"contractNote":"Sold to Everton s..." → "[{"player":"Tyler Dibling","position":"RW","aav":0,"contractNote":"Sold to Everton 25 A...". Dibling and Fernandes sales; Armstrong sold Feb 2026 [source](https://en.wikipedia.org/wiki/2026%E2%80%9327_Southampton_F.C._season)
-- Unverified: Dibling fee: enrichment says £42M, Everton season record says £35M; recorded as reported £35M
-- Unverified: revenue.estimate: FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $450M 2025 estimate)
-- Unverified: ownership.ownerNetWorth: no 2026 source checked
+- Unverified (listed for follow-up): Dibling fee: enrichment says £42M, Everton season record says £35M; recorded as reported £35M
+- Unverified (kept; rendered "as of May 2026"): `revenue.estimate` FY2024-25 and FY2025-26 accounts not checked; no Forbes figure (enrichment carries a $450M 2025 estimate)
+- Unverified (kept; rendered "as of May 2026"): `ownership.ownerNetWorth` no 2026 source checked
 

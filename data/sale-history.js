@@ -6194,7 +6194,7 @@ export const saleHistory = {
         "buyer": "Tom Dundon group ('Rip City Rising': Marc Zahr, Sheel Tyle, Cherng Family Trust)",
         "seller": "Estate of Paul Allen",
         "stakePct": 80.1,
-        "notes": "First tranche: 80.1% at a $4.0B valuation. Agreement signed September 2025, approved March 30, 2026, closed March 31, 2026. The remaining 19.9% is to be bought at $4.5B by September 1, 2028 (the $4.25B headline is the blended figure).",
+        "notes": "First tranche: 80.1% at a $4.0B valuation. Per data/transactions.js (the authoritative deal record): agreed September 13, 2025; approved by the NBA March 30, 2026; closed March 31, 2026. The remaining 19.9% is to be bought at $4.5B by September 1, 2028 (the $4.25B headline is the blended figure).",
         "isEstimated": false,
         "sources": [
           "https://www.espn.com/nba/story/_/id/48350814/nba-board-governors-approves-portland-trail-blazers-sale-group-led-tom-dundon",

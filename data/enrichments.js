@@ -103,6 +103,7 @@ for (const [teamName, base] of Object.entries(baseEnrichments)) {
       e.analystNotes = r.analystNotes
     }
     e.refreshedAsOf = r.asOf ?? null
+    e.unverifiedAsOf = r.unverifiedAsOf ?? {}
   }
 
   enrichments[teamName] = e
