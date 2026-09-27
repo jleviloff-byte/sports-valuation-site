@@ -17,18 +17,18 @@ import { trackCityBubbleClicked } from '../utils/analytics.js'
 const US_LEAGUES = new Set(['NFL', 'NBA', 'MLB', 'NHL', 'MLS'])
 
 const LEAGUE_BADGE = {
-  NFL: 'text-[#1e3a8a] border-[#1e3a8a]/30 bg-[#1e3a8a]/[0.06]',
-  NBA: 'text-[#991b1b] border-[#991b1b]/30 bg-[#991b1b]/[0.06]',
-  MLB: 'text-[#075985] border-[#075985]/30 bg-[#075985]/[0.06]',
-  NHL: 'text-[#155e75] border-[#155e75]/30 bg-[#155e75]/[0.06]',
-  MLS: 'text-[#065f46] border-[#065f46]/30 bg-[#065f46]/[0.06]',
+  NFL: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  NBA: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  MLB: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  NHL: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
+  MLS: 'text-slate border-rule-strong/30 bg-ink/[0.06]',
 }
 const LEAGUE_BAR_COLOR = {
-  NFL: '#1e3a8a',
-  NBA: '#991b1b',
-  MLB: '#075985',
-  NHL: '#155e75',
-  MLS: '#065f46',
+  NFL: 'var(--text2)',
+  NBA: 'var(--text2)',
+  MLB: 'var(--text2)',
+  NHL: 'var(--text2)',
+  MLS: 'var(--text2)',
 }
 
 const VIEW = { width: 975, height: 610 }
@@ -60,8 +60,8 @@ function scaleRadius(value, max) {
 
 function growthClass(g) {
   if (g == null) return 'text-ash'
-  if (g >= 0) return 'text-[#0a7d2a]'
-  return 'text-[#b91c1c]'
+  if (g >= 0) return 'text-positive'
+  return 'text-negative'
 }
 
 function CityModal({ city, onClose }) {
@@ -87,7 +87,7 @@ function CityModal({ city, onClose }) {
         role="dialog"
         aria-label={`${city.name} sports valuation summary`}
         aria-modal="true"
-        className="relative w-full max-w-3xl max-h-[90vh] bg-white border border-rule rounded-sm shadow-modal overflow-hidden flex flex-col animate-modal-in"
+        className="relative w-full max-w-3xl max-h-[90vh] bg-card border border-rule rounded-sm shadow-modal overflow-hidden flex flex-col animate-modal-in"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -96,7 +96,7 @@ function CityModal({ city, onClose }) {
             <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-accent font-bold mb-1">
               Sports Metro
             </div>
-            <h2 className="section-title text-3xl sm:text-4xl">{city.name}</h2>
+            <h2 className="section-title text-3xl sm:text-3xl">{city.name}</h2>
             <div className="flex items-baseline gap-3 mt-3">
               <span className="font-mono text-3xl font-bold text-ink">
                 ${city.total.toFixed(2)}B
@@ -127,29 +127,29 @@ function CityModal({ city, onClose }) {
               <BarChart data={barData} layout="vertical" margin={{ top: 4, right: 18, bottom: 4, left: 0 }}>
                 <XAxis
                   type="number"
-                  tick={{ fill: '#9b9b9b', fontSize: 10, fontFamily: '"JetBrains Mono", monospace' }}
-                  axisLine={{ stroke: '#d4d4d4' }}
+                  tick={{ fill: 'var(--text3)', fontSize: 10, fontFamily: '"IBM Plex Mono", monospace' }}
+                  axisLine={{ stroke: 'var(--border)' }}
                   tickLine={false}
                   tickFormatter={(v) => `$${v}B`}
                 />
                 <YAxis
                   type="category"
                   dataKey="name"
-                  tick={{ fill: '#1a1a1a', fontSize: 11 }}
+                  tick={{ fill: 'var(--ink)', fontSize: 11 }}
                   axisLine={false}
                   tickLine={false}
                   width={150}
                 />
                 <Tooltip
-                  contentStyle={{ background: '#ffffff', border: '1px solid #e8e8e8', borderRadius: 2, fontSize: 12 }}
-                  labelStyle={{ color: '#1a1a1a', fontWeight: 700 }}
-                  itemStyle={{ color: '#3d3d3d' }}
+                  contentStyle={{ background: 'var(--card)', border: '1px solid var(--border)', borderRadius: 2, fontSize: 12 }}
+                  labelStyle={{ color: 'var(--ink)', fontWeight: 700 }}
+                  itemStyle={{ color: 'var(--text2)' }}
                   formatter={(v) => [`$${v}B`, 'Valuation']}
-                  cursor={{ fill: '#fff9e6' }}
+                  cursor={{ fill: 'var(--card)' }}
                 />
                 <Bar dataKey="valuation" radius={[0, 2, 2, 0]} maxBarSize={26}>
                   {barData.map((d, i) => (
-                    <Cell key={i} fill={LEAGUE_BAR_COLOR[d.league] || '#9b9b9b'} />
+                    <Cell key={i} fill={LEAGUE_BAR_COLOR[d.league] || 'var(--text3)'} />
                   ))}
                 </Bar>
               </BarChart>
@@ -166,7 +166,7 @@ function CityModal({ city, onClose }) {
               {sortedTeams.map((t, i) => (
                 <div
                   key={t.name}
-                  className="bg-white p-4 flex items-center gap-4"
+                  className="bg-card p-4 flex items-center gap-4"
                 >
                   <div className="font-mono text-xs font-bold text-slate w-6 flex-shrink-0">
                     {String(i + 1).padStart(2, '0')}
@@ -314,36 +314,29 @@ export default function CitiesMap({ teams }) {
   }, [teams])
 
   return (
-    <section className="border-t border-rule py-24">
+    <section className="border-t border-rule py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow text-accent">Franchise Wealth by Metro</span>
-          <div className="h-px flex-1 bg-rule" />
-        </div>
-
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-2">
-          <h2 className="section-title text-4xl sm:text-5xl lg:text-6xl">Cities.</h2>
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-6">
+          <div>
+            <h2 className="section-title text-2xl sm:text-3xl">Cities</h2>
+            <p className="text-sm text-graphite mt-1">Combined franchise value by US metro across NFL, NBA, MLB, NHL and MLS. Click a bubble for the breakdown.</p>
+          </div>
           <div className="font-mono text-[10px] text-slate tracking-widest uppercase">
             <span className="text-ink font-bold">${totalLeagues.toFixed(0)}B</span> total ·{' '}
             <span className="text-ink font-bold">{cities.length}</span> metros
           </div>
         </div>
-        <div className="title-rule mb-6" />
-        <p className="text-base sm:text-lg text-graphite max-w-3xl mb-12 leading-relaxed">
-          Every US sports city plotted by combined franchise valuation across NFL, NBA, MLB, NHL,
-          and MLS. Click any bubble for the full breakdown.
-        </p>
 
         {/* Map — wrapped in a zoom/pan container with touch handlers */}
         <div
-          className="relative overflow-hidden border border-rule rounded-sm bg-white"
+          className="relative overflow-hidden border border-rule rounded-sm bg-card"
           onTouchStart={zoom.onTouchStart}
           onTouchMove={zoom.onTouchMove}
           onTouchEnd={zoom.onTouchEnd}
           style={{ touchAction: zoom.scale > 1 ? 'none' : 'pan-y' }}
         >
           {/* Zoom controls — top-right of the map container */}
-          <div className="absolute top-3 right-3 z-10 flex flex-col gap-1 bg-white border border-rule rounded-sm shadow-card">
+          <div className="absolute top-3 right-3 z-10 flex flex-col gap-1 bg-card border border-rule rounded-sm shadow-card">
             <button
               type="button"
               onClick={zoom.zoomIn}
@@ -380,8 +373,8 @@ export default function CitiesMap({ teams }) {
               <path
                 key={s.id}
                 d={pathGen(s)}
-                fill="#ffffff"
-                stroke="#d4d4d4"
+                fill="var(--card)"
+                stroke="var(--border)"
                 strokeWidth={0.6}
               />
             ))}
@@ -409,7 +402,7 @@ export default function CitiesMap({ teams }) {
                     r={r}
                     fill={color}
                     fillOpacity={0.78}
-                    stroke="#1a1a1a"
+                    stroke="var(--ink)"
                     strokeOpacity={0.5}
                     strokeWidth={0.8}
                     className="transition-[fill-opacity] group-hover:[fill-opacity:1]"
@@ -422,7 +415,7 @@ export default function CitiesMap({ teams }) {
                         textAnchor="middle"
                         fontSize={11}
                         fontWeight={700}
-                        fill="#1a1a1a"
+                        fill="var(--ink)"
                       >
                         {c.name}
                       </text>
@@ -432,8 +425,8 @@ export default function CitiesMap({ teams }) {
                         textAnchor="middle"
                         fontSize={10}
                         fontWeight={700}
-                        fill="#1a1a1a"
-                        fontFamily='"JetBrains Mono", monospace'
+                        fill="var(--ink)"
+                        fontFamily='"IBM Plex Mono", monospace'
                       >
                         ${c.total.toFixed(0)}B
                       </text>
@@ -444,10 +437,10 @@ export default function CitiesMap({ teams }) {
                       y={y + 3}
                       fontSize={10}
                       fontWeight={500}
-                      fill="#3d3d3d"
+                      fill="var(--text2)"
                       className="pointer-events-none"
                     >
-                      {c.name} <tspan fill="#9b9b9b" fontFamily='"JetBrains Mono", monospace'>${c.total.toFixed(1)}B</tspan>
+                      {c.name} <tspan fill="var(--text3)" fontFamily='"IBM Plex Mono", monospace'>${c.total.toFixed(1)}B</tspan>
                     </text>
                   )}
                 </g>
@@ -456,7 +449,7 @@ export default function CitiesMap({ teams }) {
           </g>
         </svg>
         {zoom.scale > 1 && (
-          <div className="absolute bottom-3 left-3 font-mono text-[9px] tracking-widest uppercase text-ink bg-white/90 border border-rule rounded-sm px-2 py-1">
+          <div className="absolute bottom-3 left-3 font-mono text-[9px] tracking-widest uppercase text-ink bg-card/90 border border-rule rounded-sm px-2 py-1">
             {Math.round(zoom.scale * 100)}% · drag to pan
           </div>
         )}

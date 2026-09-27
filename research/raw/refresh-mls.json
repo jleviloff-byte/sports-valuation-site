@@ -1,0 +1,2694 @@
+[
+  {
+    "teamId": "atlanta-united-fc",
+    "team": "Atlanta United FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the $2.5B deal to run through 2028-29 with higher payments",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment, $50M more than the original terms over the same period",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Emmanuel Latte Lath — DP striker signed Feb 2025 from Middlesbrough for ~$22M club-record incoming transfer",
+        "new": "Breel Embolo — Swiss DP striker signed Aug 23, 2026 from Rennes for a reported $18M, contract through 2029-30; Latte Lath loaned to Union Berlin",
+        "fact": "Atlanta signed Embolo as a DP on Aug 23, 2026 for a reported $18M; Latte Lath is on loan at Union Berlin",
+        "source": "https://www.atlutd.com/news/breel-embolo-designated-player-transfer-switzerland-august-2026"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Thiago Almada",
+            "position": "AM",
+            "aav": 1.5,
+            "contractNote": "Young DP from 2022; transferred to Botafogo July 2024 for MLS-record $21M (up to $30M) — opened DP slot"
+          },
+          {
+            "player": "Miguel Almirón",
+            "position": "AM",
+            "aav": 4,
+            "contractNote": "Returned to Atlanta from Newcastle as DP for 2025; club legend reacquired"
+          },
+          {
+            "player": "Brad Guzan",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "Veteran USMNT keeper, franchise face since 2017"
+          }
+        ],
+        "new": [
+          {
+            "player": "Breel Embolo",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "DP signed Aug 2026 from Rennes for reported $18M, through 2029-30; scored twice at the 2026 World Cup for Switzerland"
+          },
+          {
+            "player": "Miguel Almirón",
+            "position": "AM",
+            "aav": 4,
+            "contractNote": "Returned from Newcastle as DP for 2025; still a DP in 2026"
+          },
+          {
+            "player": "Alexey Miranchuk",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Russian DP; one of three DPs in 2026 alongside Embolo and Almirón"
+          },
+          {
+            "player": "Emmanuel Latte Lath",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Club-record ~$22M signing Feb 2025; on loan at Union Berlin for 2026-27"
+          }
+        ],
+        "fact": "2026 DPs are Embolo, Almirón and Miranchuk; Latte Lath is on loan; Almada left in 2024",
+        "source": "https://www.atlutd.com/news/starting-xi-roster-notes-brennan-embolo-new-york-city-fc-september-26-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.localTVDeal: no 2026 source on the post-Bally regional arrangement",
+      "ownership.ownerNetWorth: no 2026 figure checked"
+    ],
+    "analystNotes": "Atlanta United carries a $1.0B Forbes 2025 mark on the strength of Mercedes-Benz Stadium and Arthur Blank's AMB platform, not on results: the club sits 27th of 30 in the 2026 table after finishing outside the 2025 playoffs. Ownership keeps writing checks anyway, paying a reported $18M for Breel Embolo in August 2026 on top of the $22M Latte Lath fee, while the amended Apple deal lifts the national payout to $275M a year from 2027-28. The number moves when attendance returns toward the 65,520 that filled the building for the 2025 opener against Montreal, which needs a playoff team.",
+    "analystNotesBasis": "Forbes 2025 $1.00B (valuations-2025.js; valuationHistory carries $1.14B Sportico 2025); 2026 standings as of Sept 27, 2026; Embolo fee per club and ESPN; Apple schedule per SportsPro."
+  },
+  {
+    "teamId": "charlotte-fc",
+    "team": "Charlotte FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by Tepper Sports & Entertainment (privately by David Tepper); shared with Carolina Panthers (NFL); reduced lower-bowl-only configuration for MLS matches (~38K capped); $800M renovation 2024-27 with $650M public subsidy",
+        "new": "owned by Tepper Sports & Entertainment (privately by David Tepper); shared with Carolina Panthers (NFL); reduced lower-bowl-only configuration for MLS matches (~38K capped); renovation expanded to $1.3B through 2030 with $650M from the City of Charlotte and TSE covering the rest plus overages; lease commitment keeps Panthers and Charlotte FC in the stadium through 2045",
+        "fact": "TSE raised the renovation to more than $1.3B in July 2026, with the city's share fixed at $650M and completion in 2030",
+        "source": "https://www.wcnc.com/article/sports/nfl/panthers/bank-of-america-stadium-renovations-updated-renderings-tepper-sports-investment/275-56ef1a11-aa30-45cb-bc7c-239b385e1c5a"
+      },
+      {
+        "field": "stadium.privateFinancing",
+        "old": 688,
+        "new": 650,
+        "fact": "TSE covers the balance of the $1.3B project beyond the city's $650M, so private financing is at least $650M plus overages",
+        "source": "https://www.wcnc.com/article/sports/nfl/panthers/bank-of-america-stadium-renovations-updated-renderings-tepper-sports-investment/275-56ef1a11-aa30-45cb-bc7c-239b385e1c5a"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Bank of America",
+          "annualValue_M": 7,
+          "totalValue_M": 140,
+          "expiryYear": 2034,
+          "notes": "Original 20-year deal signed 2004 (~$140M); inherited by Charlotte FC as co-tenant"
+        },
+        "new": {
+          "sponsor": "Bank of America",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Long-term extension announced July 23, 2026 alongside the $1.3B renovation; terms not disclosed. Original 20-year, $140M deal signed 2004"
+        },
+        "fact": "Bank of America and the Panthers extended the naming rights on July 23, 2026 without releasing terms",
+        "source": "https://www.panthers.com/news/bank-of-america-and-carolina-panthers-extend-naming-rights-for-bank-of-america-stadium-reinforcing-long-term-commitment-to-charlotte-and-the-carolinas"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$800M renovation underway through 2027; no plans for soccer-specific stadium given dual-use synergies with Panthers",
+        "new": "$1.3B renovation underway: back-of-house work began 2026, fan-facing phases 2027-2030; no plans for a soccer-specific stadium",
+        "fact": "Fan-facing renovation work starts in 2027 with completion scheduled for 2030",
+        "source": "https://www.axios.com/local/charlotte/2026/07/23/bank-of-america-stadium-renovation-renderings"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 3,
+        "fact": "Charlotte qualified in 2023, 2024 and 2025 (4th seed East in 2025 with 59 points); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer (Pep Biel): no 2026 source checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Charlotte FC's $780M Forbes 2025 value is a Bank of America Stadium story: Tepper Sports lifted the renovation to $1.3B in July 2026 with the city capped at $650M, extended the Bank of America naming rights, and locked both tenants in through 2045. The club has now made three straight playoffs, finishing fourth in the East with 59 points in 2025, and sits ninth in the 2026 table. The gap to the $1B tier closes only if the renovated bowl converts the NFL-sized market into MLS-specific premium revenue rather than borrowed Panthers infrastructure.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js); renovation and naming extension per WCNC, Axios and Panthers releases July 2026; 2025 standings per Wikipedia."
+  },
+  {
+    "teamId": "chicago-fire-fc",
+    "team": "Chicago Fire FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Mansueto unveiled June 2025 plans for $650-750M, 22,000-seat soccer-specific stadium at 'The 78' development site in South Loop in partnership with Related Midwest; targeted opening late 2020s",
+        "new": "McDonald's Park: $750M privately funded 22,000-seat stadium at The 78 in the South Loop; groundbreaking March 3, 2026; opening targeted for the 2028 MLS season; McDonald's naming rights announced May 13, 2026",
+        "fact": "Construction began March 3, 2026 with no taxpayer money; McDonald's naming rights announced May 13, 2026; opening ahead of the 2028 season",
+        "source": "https://news.wttw.com/2026/03/03/chicago-fire-break-ground-new-750m-stadium-site-amid-gentrification-concerns"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Chicago qualified as the 8th seed in the East in 2025 and won its wild card 3-1 over Orlando; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Hugo Cuypers — DP striker signed Feb 2024 from KAA Gent for club-record $12M+$2M; team top scorer 2024 with 10 goals; contract through 2026 + 2027 option",
+        "new": "Robert Lewandowski — DP striker signed June 29, 2026 as a free agent from Barcelona, contract through the 2027-28 season; six goals in his first seven league starts",
+        "fact": "Chicago signed Lewandowski on June 29, 2026 through 2027-28 as a Designated Player",
+        "source": "https://www.mlssoccer.com/news/chicago-fire-sign-iconic-striker-robert-lewandowski"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Hugo Cuypers",
+            "position": "ST",
+            "aav": 3.5,
+            "contractNote": "Designated Player Feb 2024; club-record $12M+$2M transfer fee; 2025 guaranteed $3.53M"
+          },
+          {
+            "player": "Jonathan Bamba",
+            "position": "LW",
+            "aav": 4,
+            "contractNote": "DP signed July 2024 from Celta Vigo on free transfer"
+          },
+          {
+            "player": "Brian Gutiérrez",
+            "position": "AM",
+            "aav": 0.6,
+            "contractNote": "Homegrown midfielder; USMNT call-up; building block"
+          }
+        ],
+        "new": [
+          {
+            "player": "Robert Lewandowski",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "DP signed June 2026 on a free transfer from Barcelona through 2027-28; drew a club-record 63,094 to Soldier Field vs Inter Miami on Sept 9, 2026"
+          },
+          {
+            "player": "Hugo Cuypers",
+            "position": "ST",
+            "aav": 3.5,
+            "contractNote": "Designated Player Feb 2024; club-record $12M+$2M transfer fee; 2025 guaranteed $3.53M"
+          },
+          {
+            "player": "Jonathan Bamba",
+            "position": "LW",
+            "aav": 4,
+            "contractNote": "DP signed July 2024 from Celta Vigo on free transfer"
+          },
+          {
+            "player": "Brian Gutiérrez",
+            "position": "AM",
+            "aav": 0.6,
+            "contractNote": "Homegrown midfielder; USMNT call-up; building block"
+          }
+        ],
+        "fact": "Lewandowski added as the headline DP in June 2026",
+        "source": "https://www.mlssoccer.com/news/chicago-fire-fc-set-club-attendance-record-vs-inter-miami-cf"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "media.localTVDeal: no 2026 source",
+      "onField.starContracts: Cuypers and Bamba 2026 status not checked"
+    ],
+    "analystNotes": "Chicago Fire's $720M Forbes 2025 mark is priced on Soldier Field tenancy, and the catalyst is now in the ground: Mansueto broke ground on the $750M, 22,000-seat McDonald's Park on March 3, 2026, fully private, opening for 2028. Robert Lewandowski's June 2026 arrival has done the marketing work early, with a club-record 63,094 at Soldier Field against Inter Miami in September and the Fire in tenth place after the 2025 playoff return. The number rerates when the club moves from renting Soldier Field dates to owning every dollar of a South Loop building.",
+    "analystNotesBasis": "Forbes 2025 $0.72B (valuations-2025.js); stadium per WTTW and CBS Chicago March 2026, naming per Wikipedia (McDonald's Park); Lewandowski per MLSSoccer.com; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "fc-cincinnati",
+    "team": "FC Cincinnati",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Cincinnati qualified in 2022, 2023, 2024 and 2025 (2nd seed East with 65 points in 2025); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.currentFranchisePlayer"
+    ],
+    "unverified": [
+      "media.localTVDeal: no 2026 source",
+      "ownership.ownershipGroup: no 2026 check"
+    ],
+    "analystNotes": "FC Cincinnati's $780M Forbes 2025 value rests on TQL Stadium sellouts and a player-trading engine that turned the $150M expansion fee into a top-half MLS asset. The 2025 season delivered 65 points and the second seed in the East, a fourth straight playoff berth, before a 2026 slide to 19th with Evander injured early. Sustaining the mark depends on the Denkey and Evander outlay producing a deep playoff run, because the West End building is already at capacity and the Apple payout only steps up to $275M a year in 2027-28.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js); 2025 standings and playoffs per Wikipedia; 2026 standings as of Sept 27, 2026."
+  },
+  {
+    "teamId": "columbus-crew-sc",
+    "team": "Columbus Crew SC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Lower.com Field",
+        "new": "ScottsMiracle-Gro Field",
+        "fact": "Lower.com let its naming rights expire; the stadium was renamed ScottsMiracle-Gro Field on Nov 25, 2025",
+        "source": "https://www.nbc4i.com/sports/mls/columbus-crew-stadium-lower-com-field-to-get-new-name-for-2026/"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Lower.com (mortgage tech)",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": 2031,
+          "notes": "10-year naming rights signed 2021; financial terms undisclosed but estimated $50-80M total"
+        },
+        "new": {
+          "sponsor": "Scotts Miracle-Gro",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Naming rights moved to Columbus-area Scotts Miracle-Gro from the 2026 season after Lower.com allowed its 2021 deal to lapse; terms undisclosed"
+        },
+        "fact": "Scotts Miracle-Gro holds the naming rights from 2026",
+        "source": "https://en.wikipedia.org/wiki/ScottsMiracle-Gro_Field"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Haslam Sports Group (Jimmy and Dee Haslam) — 70% / Edwards family — 30%",
+        "new": "Haslam Sports Group (Jimmy and Dee Haslam) — 40% control owner / Nationwide Mutual Insurance — 37% / Edwards family — 23%",
+        "fact": "Nationwide bought 37% (30% from Haslam, 7% from Edwards) at a $900M mark, announced May 29, 2026 and approved June 25, 2026; Haslams remain control owners at 40%",
+        "source": "https://www.sportico.com/business/team-sales/2026/mls-columbus-crew-nationwide-stake-sale-1234901712/"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Haslam Sports Group",
+            "role": "majority owner",
+            "pct": 70
+          },
+          {
+            "name": "Edwards family",
+            "role": "minority partner",
+            "pct": 30
+          }
+        ],
+        "new": [
+          {
+            "name": "Haslam Sports Group",
+            "role": "control owner",
+            "pct": 40
+          },
+          {
+            "name": "Nationwide Mutual Insurance",
+            "role": "minority owner (June 2026); also jersey sponsor",
+            "pct": 37
+          },
+          {
+            "name": "Edwards family",
+            "role": "minority partner",
+            "pct": 23
+          }
+        ],
+        "fact": "Per data/transactions.js: Nationwide 37% at $900M implied; Haslams 40%; Edwards family reduced from 30% to 23%",
+        "source": "https://news.nationwide.com/nationwide-joins-columbus-crew-ownership-group/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Privately held by Haslam and Edwards family offices",
+        "new": "Nationwide Mutual Insurance holds a 37% minority stake (2026); balance held by Haslam and Edwards family offices",
+        "fact": "Nationwide joined the ownership group in June 2026",
+        "source": "https://news.nationwide.com/nationwide-joins-columbus-crew-ownership-group/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Columbus qualified in 2023, 2024 and 2025 (7th seed East in 2025) and missed 2021 and 2022; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Diego Rossi — DP forward; led 2024 with high goal/assist totals after Cucho Hernández departure",
+        "new": "Santiago Rodríguez — Uruguayan DP playmaker acquired from Botafogo on Sept 2, 2026 (formerly NYCFC)",
+        "fact": "Columbus acquired Santiago Rodríguez as a Designated Player from Botafogo on Sept 2, 2026",
+        "source": "https://www.hudsonriverblue.com/nycfc-transfer-tracker-rodriguez/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.championshipsLast10Years",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "onField.starContracts: 2026 status of Rossi and Nagbe not checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Columbus Crew's $900M mark, set twice in twelve months by the Edwards family's July 2025 buy-in and Nationwide's 37% purchase approved June 25, 2026, clears the $780M Forbes 2025 value by 15% for a club that paid $150M in 2018. The Haslams keep control at 40% while Nationwide, already the jersey sponsor, becomes a corporate co-owner, and Scotts Miracle-Gro took over the stadium name for 2026. The 2026 season is the problem, 28th of 30 with Santiago Rodríguez brought in as a September DP, and the next number depends on whether a small-market club can hold a $900M comp without a playoff team.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js); $900M per data/transactions.js (Nationwide 37%, June 2026; Edwards 10%, July 2025); stadium rename per NBC4; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "d-c-united",
+    "team": "D.C. United",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Feb 2025: announced Audi Field expansion plans + roof addition; capacity expansion under study",
+        "new": "Audi Field roof and seating expansion proposed under the Soccer Stadium Redevelopment and Maintenance Act of 2026, seeking $300M in District funding (double the original stadium commitment); D.C. Council hearing held 2026, not yet approved",
+        "fact": "Levien's roof-and-seating proposal seeks $300M from the District and went to a Council Committee of the Whole hearing in 2026",
+        "source": "https://www.foxessellfaster.com/blog/dc-united-wants-a-roof-on-audi-field-but-can-the-district-afford-another-billion-dollar-sports-project/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Christian Benteke — DP striker, 2024 MLS Golden Boot; declined 2026 option, free agent in 2025-26 cycle",
+        "new": "Louis Munteanu — Romanian DP striker signed Jan 2026 from CFR Cluj for a club-record initial ~$7M (EUR 6M), contract through 2028-29 with a 2029-30 option",
+        "fact": "D.C. signed Munteanu as a DP in January 2026 for a club-record fee after declining Benteke's option",
+        "source": "https://www.mlssoccer.com/news/dc-united-sign-romanian-forward-louis-munteanu-in-club-record-deal"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Christian Benteke",
+            "position": "ST",
+            "aav": 4.5,
+            "contractNote": "DP from Crystal Palace Aug 2022; 2024 MLS Golden Boot; 47G/10A in 93 league matches; option declined for 2026"
+          },
+          {
+            "player": "Mateusz Klich",
+            "position": "AM",
+            "aav": 1.8,
+            "contractNote": "DP from Leeds United Jan 2023; veteran Polish playmaker"
+          }
+        ],
+        "new": [
+          {
+            "player": "Louis Munteanu",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "DP from CFR Cluj Jan 2026; club-record initial ~$7M fee; through 2028-29 plus option"
+          },
+          {
+            "player": "Christian Benteke",
+            "position": "ST",
+            "aav": 4.5,
+            "contractNote": "DP 2022-2025; 2024 MLS Golden Boot; 2026 option declined, departed"
+          },
+          {
+            "player": "Mateusz Klich",
+            "position": "AM",
+            "aav": 1.8,
+            "contractNote": "DP from Leeds United Jan 2023; veteran Polish playmaker"
+          }
+        ],
+        "fact": "Munteanu replaces Benteke as the headline forward",
+        "source": "https://www.dcunited.com/news/d-c-united-signs-romanian-international-louis-munteanu-from-cfr-cluj-as-a-designated-player"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Klich 2026 status not checked",
+      "media.localTVDeal (Monumental): no 2026 source"
+    ],
+    "analystNotes": "D.C. United's $740M Forbes 2025 value is a legacy-brand-plus-owned-stadium number carried by Audi Field, not by the team, which has missed the playoffs every year since 2019 and sits 24th in the 2026 table. Levien's answer is a roof and seating expansion that asks the District for $300M under a 2026 Council bill, pitched around the winter-heavy calendar MLS adopts in 2027, alongside a club-record ~$7M for Romanian striker Louis Munteanu. The number moves on the Council vote: a subsidized all-weather Audi Field is the one lever that changes the club's economics without a winning roster.",
+    "analystNotesBasis": "Forbes 2025 $0.74B (valuations-2025.js); Munteanu per MLSSoccer.com Jan 2026; Audi Field bill per 2026 coverage; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "inter-miami-cf",
+    "team": "Inter Miami CF",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032); Inter Miami matches drove ~50% of MLS Season Pass subscriber growth post-Messi",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season; Inter Miami matches drove the bulk of Season Pass growth post-Messi",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games; Inter Miami matches command premium Apple TV traffic",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package; Inter Miami matches command premium Apple TV traffic",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Chase Stadium (formerly DRV PNK Stadium)",
+        "new": "Nu Stadium (Miami Freedom Park)",
+        "fact": "Nu Stadium opened April 4, 2026 with a 2-2 draw vs Austin FC before 26,412",
+        "source": "https://en.wikipedia.org/wiki/Nu_Stadium"
+      },
+      {
+        "field": "stadium.yearBuilt",
+        "old": 2020,
+        "new": 2026,
+        "fact": "Opened April 4, 2026",
+        "source": "https://en.wikipedia.org/wiki/Nu_Stadium"
+      },
+      {
+        "field": "stadium.capacity",
+        "old": 21500,
+        "new": 26700,
+        "fact": "26,700 capacity; sold to capacity for Peru vs Haiti on June 5, 2026",
+        "source": "https://en.wikipedia.org/wiki/Nu_Stadium"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by Inter Miami CF / Mas Group; built on former Lockhart Stadium site in Fort Lauderdale; team operates and controls all economics; transitional venue until Miami Freedom Park (Nu Stadium) opens 2026",
+        "new": "privately built and operated by Inter Miami CF (Mas family, Beckham, Ares Management partnership) on City of Miami land at the former Melreese golf course under a long-term lease; anchor of the 131-acre, ~$1B Miami Freedom Park development with hotel, retail, office and a 58-acre public park; team controls all venue economics",
+        "fact": "Stadium anchors the $1B Miami Freedom Park development on city-leased land; team is owner-operator",
+        "source": "https://www.mlssoccer.com/news/inter-miami-stadium-miami-freedom-park-to-open-in-2026"
+      },
+      {
+        "field": "stadium.privateFinancing",
+        "old": 70,
+        "new": 350,
+        "fact": "Stadium construction cost reported at ~$350M within the ~$1B development; a $450M construction loan led by J.P. Morgan financed the build",
+        "source": "https://www.brgintl.com/inter-miamis-new-stadium-scores-450m-loan-biggest-in-south-florida-this-year/"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "JPMorgan Chase",
+          "annualValue_M": 3,
+          "totalValue_M": 18,
+          "expiryYear": 2026,
+          "notes": "Transitional naming rights through Chase Stadium; replaces DRV PNK; ends when Nu Stadium opens 2026"
+        },
+        "new": {
+          "sponsor": "Nu (Nubank)",
+          "annualValue_M": 19,
+          "totalValue_M": 190,
+          "expiryYear": 2035,
+          "notes": "Announced March 3, 2026; reported 10-year deal at ~$19M/yr (~$190M), one of the largest naming deals in MLS; club did not disclose terms; Nu also takes back-of-jersey branding from Aug 2026"
+        },
+        "fact": "Nubank naming rights announced March 3, 2026; ~$19M/yr over 10 years per reports",
+        "source": "https://www.sportico.com/business/sponsorship/2026/nu-bank-inter-miami-mls-stadium-naming-rights-1234886243/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Miami Freedom Park ('Nu Stadium' per March 2026 Bloomberg announcement) — 25,000-seat privately financed $1B+ stadium near Miami International Airport; J.P. Morgan provided $650M financing package including $450M senior construction loan; opens 2026; Brazilian fintech Nu (Nubank) naming rights",
+        "new": "Nu Stadium opened April 4, 2026; remaining Miami Freedom Park phases (retail from April 2026, civic center from July 2026, hotel and office) continue through the late 2020s",
+        "fact": "Retail construction started April 2026 and the civic center in July 2026",
+        "source": "https://therealdeal.com/miami/2026/07/16/miami-civic-center-construction-starts-at-miami-freedom-park/"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Inter Miami won MLS Cup 2025, beating Vancouver 3-1 at Chase Stadium on Dec 6, 2025; Messi was MLS Cup MVP",
+        "source": "https://www.mlssoccer.com/news/inter-miami-cf-win-2025-mls-cup-presented-by-audi"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Qualified in 2022, 2024 and 2025; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Lionel Messi — DP since July 2023; signed 3-year contract extension Oct 2025 through 2028; total package ~$150M including club equity at retirement",
+        "new": "Lionel Messi — DP since July 2023; extended Oct 2025 through 2028; 2026 base salary $25M and cap hit $28.3M, more than double any other MLS player; MLS Cup 2025 MVP",
+        "fact": "2026 MLSPA salary release shows Messi at $25M base and $28.33M guaranteed",
+        "source": "https://www.spotrac.com/mls/player/contracts/_/id/84437/lionel-messi"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Lionel Messi",
+            "position": "RW/CAM",
+            "aav": 20.5,
+            "contractNote": "Originally July 2023 free transfer; extended Oct 2025 through 2028 — covers Nu Stadium opening; $20.4M guaranteed compensation 2024; Apple/Adidas equity components; equity in Inter Miami at retirement"
+          },
+          {
+            "player": "Sergio Busquets",
+            "position": "DM",
+            "aav": 8.8,
+            "contractNote": "DP signed 2023 alongside Messi; contract through 2025; veteran Spanish midfielder"
+          },
+          {
+            "player": "Luis Suárez",
+            "position": "ST",
+            "aav": 1.5,
+            "contractNote": "Signed Dec 2023 below DP threshold via TAM; rejoined Messi from Gremio; contract structured to preserve DP slot"
+          },
+          {
+            "player": "Jordi Alba",
+            "position": "LB",
+            "aav": 6,
+            "contractNote": "Signed July 2023 alongside Messi; not a DP slot — paid via TAM; contract through 2025"
+          }
+        ],
+        "new": [
+          {
+            "player": "Lionel Messi",
+            "position": "RW/CAM",
+            "aav": 28.3,
+            "contractNote": "Extended Oct 2025 through 2028; 2026 base $25M, guaranteed $28.33M; Apple/Adidas equity components; equity in Inter Miami at retirement"
+          },
+          {
+            "player": "Rodrigo De Paul",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Loan from Atlético Madrid July 2025 made permanent for ~$17M (EUR 15M), second-largest fee in MLS history at the time; DP through 2029"
+          },
+          {
+            "player": "Luis Suárez",
+            "position": "ST",
+            "aav": 1.5,
+            "contractNote": "Signed Dec 2023 below DP threshold via TAM; still on the 2026 roster"
+          },
+          {
+            "player": "Sergio Busquets",
+            "position": "DM",
+            "aav": 8.8,
+            "contractNote": "Retired after winning MLS Cup 2025"
+          },
+          {
+            "player": "Jordi Alba",
+            "position": "LB",
+            "aav": 6,
+            "contractNote": "Retired after winning MLS Cup 2025"
+          }
+        ],
+        "fact": "Busquets and Alba retired after MLS Cup 2025; De Paul signed permanently for ~$17M and takes a DP slot",
+        "source": "https://www.mlssoccer.com/news/inter-miami-permanently-acquire-rodrigo-de-paul-from-atletico-madrid"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "stadium.publicSubsidy: $8M state road grant and $20M/yr park payments to the city noted but not netted into the field",
+      "ownership.institutionalInvestors: Ares Management is in the stadium financing partnership; equity stake in the club not confirmed"
+    ],
+    "analystNotes": "Inter Miami's $1.5B Forbes 2025 value, top of MLS, now has the two things it was priced on: the first MLS Cup, won 3-1 over Vancouver on Dec 6, 2025 with Messi as MVP, and Nu Stadium, opened April 4, 2026 with 26,700 seats, a reported ~$19M-a-year Nubank naming deal and every dollar of venue revenue in-house. Messi is signed through 2028 at a $28.3M cap hit, De Paul was bought for ~$17M, and the ~$1B Miami Freedom Park build-out adds hotel, retail and office income the club controls. The 2026 team is fifth in the Shield table after Busquets and Alba retired; the number moves on whether the building and the brand hold when Messi's contract ends after 2028.",
+    "analystNotesBasis": "Forbes 2025 $1.50B (valuations-2025.js; valuationHistory carries $1.35B Forbes 2025); MLS Cup per MLSSoccer.com; Nu Stadium per Wikipedia and Sportico; Messi salary per Spotrac 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "cf-montreal",
+    "team": "CF Montréal",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Sept 2025 reports: club seeking municipal/provincial support for upgrades; not relocating but pressing for public investment in either Saputo expansion or new venue",
+        "new": "Renovated premium seating and concessions unveiled at Stade Saputo before the 2026 home opener; no winterproofing, which forces early-season matches away or restricted, an issue that grows under the July-May calendar from 2027; no new-venue project announced",
+        "fact": "Club unveiled upgraded premium areas for 2026; the stadium's lack of winterproofing remains the constraint ahead of the calendar change",
+        "source": "https://en.cfmontreal.com/news/cf-montreal-unveils-new-and-improved-features-at-stade-saputo"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.capacity",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer and starContracts: no 2026 roster source checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "CF Montréal's $600M Forbes 2025 value is the floor of MLS, and the 2026 season, 29th of 30, does nothing to lift it. The constraint is physical: Stade Saputo is the family's own building but it is not winterproof, so the July-to-May calendar that starts in 2027 pushes more home dates into months the stadium cannot host, and the 2026 premium-seat refresh does not solve that. The Apple step-up to $275M a year from 2027-28 helps every club equally; only a heated, covered venue or a sale by the Saputo family changes this one's relative position.",
+    "analystNotesBasis": "Forbes 2025 $0.60B (valuations-2025.js; valuationHistory carries $0.43B for 2025); stadium per club release 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "nashville-sc",
+    "team": "Nashville SC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Hany Mukhtar — Designated Player ~$3M/yr; 2022 MLS MVP; rumored extension under negotiation 2025",
+        "new": "Sam Surridge — DP striker, club-record 31 goals in 2025, new contract through 2027-28 makes him the club's highest-paid player; Hany Mukhtar's option triggered through 2027 at $4M base / $5.41M guaranteed",
+        "fact": "Surridge signed a new deal through 2027-28 after 31 goals in 2025; Mukhtar's option was exercised through 2027",
+        "source": "https://www.sixonefivesoccer.com/hany-mukhtar-contract-option-triggered-nashville-sc/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Hany Mukhtar",
+            "position": "AM",
+            "aav": 3,
+            "contractNote": "Designated Player; 2022 MLS MVP; central to Nashville attack"
+          },
+          {
+            "player": "Walker Zimmerman",
+            "position": "CB",
+            "aav": 1.5,
+            "contractNote": "TAM/DP; USMNT veteran; defensive cornerstone"
+          },
+          {
+            "player": "Sam Surridge",
+            "position": "ST",
+            "aav": 2.5,
+            "contractNote": "Designated Player; key signing post-Mukhtar dependency"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sam Surridge",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "DP; club-record 31 goals in 2025; new contract through 2027-28 with a $2.7M raise, now highest-paid at the club"
+          },
+          {
+            "player": "Hany Mukhtar",
+            "position": "AM",
+            "aav": 5.4,
+            "contractNote": "DP; 2022 MLS MVP; option triggered through 2027; 2026 base $4M, guaranteed $5.41M"
+          },
+          {
+            "player": "Walker Zimmerman",
+            "position": "CB",
+            "aav": 1.5,
+            "contractNote": "USMNT veteran; defensive cornerstone"
+          }
+        ],
+        "fact": "2026 salary guide values for Mukhtar; Surridge new contract",
+        "source": "https://sports.yahoo.com/articles/see-much-nashville-sc-players-201032433.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.localTVDeal: no 2026 source",
+      "stadium.namingRightsDeal: no updated GEODIS terms"
+    ],
+    "analystNotes": "Nashville SC is the best team in MLS in 2026, 60 points and an 11-point Supporters' Shield lead on Sept 27, after winning the 2025 U.S. Open Cup and reaching the 2026 Concacaf Champions Cup semifinal, and it does it from GEODIS Park, the largest soccer-specific stadium in North America. The $780M Forbes 2025 mark still prices the club as a mid-market operation; Sam Surridge's club-record 31 goals in 2025 and a new contract through 2027-28 plus Mukhtar locked through 2027 give the roster continuity. A first MLS Cup in December 2026 is the event that moves Nashville from the $780M tier toward the $1B clubs.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends at $0.57B Forbes 2024); 2026 standings per Fox Sports as of Sept 27; Open Cup per Wikipedia; CCC semifinal per Wikipedia 2026 final page."
+  },
+  {
+    "teamId": "new-england-revolution",
+    "team": "New England Revolution",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Long-discussed Everett, MA soccer-specific stadium has stalled multiple times since 2019; Kraft Group has not committed land or capital; current expectation is Revolution remain at Gillette indefinitely; 2023 $225M Gillette renovation cements that",
+        "new": "Kraft Group reached agreement with Boston and Everett in Jan 2026 for a privately funded ~$500M, 24,000-25,000-seat soccer stadium on the former Mystic River power plant site opposite Encore Boston Harbor; Kraft committed at least $100M to remediation and a waterfront park and ~$48M to Boston over 15 years; no construction start date announced; earliest opening cited as 2027",
+        "fact": "Agreement with both cities announced Jan 2026; $500M cost; 24,000 seats; $100M Kraft remediation commitment",
+        "source": "https://www.constructiondive.com/news/new-england-revolution-soccer-stadium-project/809039/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 2,
+        "fact": "New England qualified in 2021 and 2023 and missed 2022, 2024 and 2025; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer (Carles Gil): 2026 status not checked",
+      "stadium.newStadiumPlans: opening year beyond 'earliest 2027' not confirmed"
+    ],
+    "analystNotes": "New England's $720M Forbes 2025 value finally has a stadium catalyst attached: in January 2026 the Kraft Group signed agreements with Boston and Everett for a privately funded ~$500M, 24,000-seat waterfront stadium, with at least $100M of Kraft money going to site remediation and a park and roughly $48M to Boston over 15 years. On the field the Revolution are fourth in the 2026 Shield table with 46 points after missing the playoffs in 2024 and 2025. The number moves the day shovels go in at Everett, because an owned soccer building in the fifth-largest US media market is the difference between a $720M tenant and a $1B club.",
+    "analystNotesBasis": "Forbes 2025 $0.72B (valuations-2025.js; valuationHistory ends at $0.53B Sportico Jan 2025); Everett per Construction Dive Jan 7, 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "new-york-city-fc",
+    "team": "New York City FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Yankee Stadium (current); Etihad Park (2027)",
+        "new": "Yankee Stadium and Citi Field (through the Feb-May 2027 transition season); Etihad Park (opens July 17, 2027)",
+        "fact": "Etihad Park opens July 17, 2027 for the 2027-28 season; transition-season home matches at Yankee Stadium and Citi Field",
+        "source": "https://www.cbsnews.com/newyork/news/etihad-park-opening-july-2027-nycfc/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Etihad Park: 25,000-seat soccer-specific stadium in Willets Point, Queens; $780M total cost; construction began Dec 2024; expected open for 2027 MLS season; first new sports venue in NYC five boroughs in years",
+        "new": "Etihad Park: 25,000-seat, 100% privately financed, fully electric stadium in Willets Point, Queens; $780M cost; topped out March 25, 2026, first seats installed Aug 21, 2026; opening July 17, 2027 for the 2027-28 season after the club pushed the date back in Feb 2026 to match the MLS calendar change",
+        "fact": "Structural frame completed March 25, 2026; opening date set for July 17, 2027",
+        "source": "https://www.newyorkcityfc.com/news/a-new-era-begins-new-york-city-fc-to-start-2027-28-season-at-etihad-park"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "NYCFC qualified in 2021, 2022, 2024 and 2025 (5th seed East, reached the 2025 Eastern Conference final) and missed 2023; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Santiago Rodríguez",
+            "position": "AM",
+            "aav": 2.8,
+            "contractNote": "Designated Player; central creative force; signed permanent 2024"
+          },
+          {
+            "player": "Maxime Chanot",
+            "position": "CB",
+            "aav": 1,
+            "contractNote": "TAM; longtime club captain; defensive leader"
+          },
+          {
+            "player": "Alonso Martínez",
+            "position": "ST",
+            "aav": 1.5,
+            "contractNote": "Young DP; Costa Rican international; key 2024 signing"
+          }
+        ],
+        "new": [
+          {
+            "player": "Alonso Martínez",
+            "position": "ST",
+            "aav": 1.5,
+            "contractNote": "Costa Rican DP; under contract for 2026"
+          },
+          {
+            "player": "Santiago Rodríguez",
+            "position": "AM",
+            "aav": 2.8,
+            "contractNote": "Former DP; left for Botafogo and rejoined MLS with Columbus as a DP on Sept 2, 2026"
+          },
+          {
+            "player": "Maxime Chanot",
+            "position": "CB",
+            "aav": 1,
+            "contractNote": "TAM; longtime club captain"
+          }
+        ],
+        "fact": "Santiago Rodríguez is no longer with NYCFC; the club filled all three DP slots for 2026 for the first time",
+        "source": "https://www.hudsonriverblue.com/nycfc-transfer-tracker-rodriguez/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.privateFinancing",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer: Rodríguez departed; 2026 franchise player not identified from a source",
+      "ownership.ownershipGroup: no 2026 change found"
+    ],
+    "analystNotes": "NYCFC's $850M Forbes 2025 mark is a pre-opening price for Etihad Park: the $780M, 25,000-seat, fully private Queens stadium topped out on March 25, 2026, seats went in on Aug 21, and the doors open July 17, 2027 for the first season of the new July-to-May calendar. Until then the club rents Yankee Stadium and Citi Field and sits 18th in the 2026 table after reaching the 2025 Eastern Conference final. The step-change is dated: the first full season with owned venue revenue in New York City is 2027-28, and that is when the number should cross $1B.",
+    "analystNotesBasis": "Forbes 2025 $0.85B (valuations-2025.js and valuationHistory 2024); Etihad Park per club release and CBS New York; 2025 playoffs per Wikipedia; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "new-york-red-bulls",
+    "team": "New York Red Bulls",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Red Bulls qualified 2021-2024 and missed the 2025 playoffs, ending the league-record streak that began in 2010; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Emil Forsberg",
+            "position": "AM",
+            "aav": 5,
+            "contractNote": "Designated Player; arrived from sister-club RB Leipzig Jan 2024; central attacking force"
+          },
+          {
+            "player": "Cory Burke",
+            "position": "ST",
+            "aav": 1,
+            "contractNote": "TAM; veteran Jamaican international"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jorge Ruvalcaba",
+            "position": "W",
+            "aav": null,
+            "contractNote": "Mexico international DP signed Feb 2, 2026 from Pumas for a club-record $6.5M; contract through 2029-30 with a 2030-31 option"
+          },
+          {
+            "player": "Emil Forsberg",
+            "position": "AM",
+            "aav": 5,
+            "contractNote": "Designated Player; arrived from RB Leipzig Jan 2024; captain of the 2024 MLS Cup final run"
+          },
+          {
+            "player": "Eric Maxim Choupo-Moting",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "DP striker; on the 2026 roster"
+          }
+        ],
+        "fact": "Ruvalcaba signed as a DP for a club-record $6.5M in Feb 2026; Choupo-Moting is a DP",
+        "source": "https://www.newyorkredbulls.com/news/red-bull-new-york-completes-transfer-of-mexico-international-jorge-ruvalcaba-as-designated-player-from-unam-pumas"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years",
+      "onField.currentFranchisePlayer"
+    ],
+    "unverified": [
+      "media.localTVDeal (MSG): no 2026 source"
+    ],
+    "analystNotes": "The Red Bulls' $780M Forbes 2025 value holds up on an owned 25,000-seat stadium with a $100M-plus Sports Illustrated naming deal and Red Bull GmbH's balance sheet, but the on-field franchise that defined the club is gone: the 2025 season ended the playoff streak that ran from 2010, and the 2026 team is 17th. Ownership answered with a club-record $6.5M for Mexico winger Jorge Ruvalcaba in February 2026 alongside Forsberg and Choupo-Moting. The valuation gap to NYCFC widens in 2027 when Etihad Park opens, and only a return to the top of the East keeps Red Bull's Harrison asset from drifting.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.525B Forbes 2024); Ruvalcaba per club release Feb 2026; 2025 playoffs per Wikipedia; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "orlando-city-sc",
+    "team": "Orlando City SC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Orlando qualified every year 2021-2025 (9th seed East in 2025, lost the wild card at Chicago); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Facundo Torres — Designated Player ~$3M/yr; Uruguayan international; sold to Palmeiras 2025 for ~$15M club-record fee",
+        "new": "Antoine Griezmann — French DP forward, 2018 World Cup winner, signed March 24, 2026 from Atlético Madrid; contract runs July 2026 through 2027-28 with a 2028-29 option",
+        "fact": "Orlando announced Griezmann on March 24, 2026; he joined in the July 2026 window",
+        "source": "https://www.orlandocitysc.com/news/global-soccer-icon-and-world-cup-winner-antoine-griezmann-to-join-orlando-city-sc"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Martín Ojeda",
+            "position": "AM",
+            "aav": 3,
+            "contractNote": "Designated Player; Argentine playmaker; central to attack"
+          },
+          {
+            "player": "Pedro Gallese",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "TAM; Peruvian international; longtime starter"
+          },
+          {
+            "player": "Robin Jansson",
+            "position": "CB",
+            "aav": 1.2,
+            "contractNote": "TAM; Swedish defender; defensive captain"
+          }
+        ],
+        "new": [
+          {
+            "player": "Antoine Griezmann",
+            "position": "FW",
+            "aav": null,
+            "contractNote": "DP from Atlético Madrid, joined July 2026; through 2027-28 plus 2028-29 option"
+          },
+          {
+            "player": "Martín Ojeda",
+            "position": "AM",
+            "aav": 3,
+            "contractNote": "Designated Player; Argentine playmaker"
+          },
+          {
+            "player": "Pedro Gallese",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "TAM; Peruvian international; longtime starter"
+          }
+        ],
+        "fact": "Griezmann added as the headline DP in 2026",
+        "source": "https://www.espn.com/soccer/story/_/id/48287915/antoine-griezmann-completes-summer-transfer-atletico-madrid-orlando-city"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Jansson 2026 status not checked",
+      "stadium.namingRightsDeal (Inter&Co): no updated terms"
+    ],
+    "analystNotes": "Orlando City's $750M Forbes 2025 value is about to be tested by the club's first true global signing: Antoine Griezmann, announced March 24, 2026 and on the field since July on a deal through 2027-28, playing in a team-owned downtown stadium with an NWSL sister club under the same Wilf roof. The Lions have made five straight playoffs through 2025 but sit 16th in 2026, and the Torres sale to Palmeiras showed the trading model works. Griezmann's effect on gate, jersey and Latin American reach over the next 18 months is the single input that decides whether Orlando reaches the $1B group.",
+    "analystNotesBasis": "Forbes 2025 $0.75B (valuations-2025.js; valuationHistory ends $0.52B Forbes 2024); Griezmann per club and ESPN; playoffs per Wikipedia; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "philadelphia-union",
+    "team": "Philadelphia Union",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Philadelphia qualified in 2021, 2022, 2023 and 2025 (won the 2025 Supporters' Shield with 66 points) and missed 2024; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mikael Uhre",
+            "position": "ST",
+            "aav": 2.5,
+            "contractNote": "Designated Player; key goalscorer since 2022"
+          },
+          {
+            "player": "Daniel Gazdag",
+            "position": "AM",
+            "aav": 2.2,
+            "contractNote": "Designated Player; Hungarian international; 2022 MLS Cup runner-up campaign hero"
+          },
+          {
+            "player": "Andre Blake",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "TAM; multi-time MLS Goalkeeper of the Year; Jamaican international"
+          }
+        ],
+        "new": [
+          {
+            "player": "Ezekiel Alladoh",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Club-record ~$4.5M signing from IF Brommapojkarna, Dec 2025; guaranteed through 2028 with options for 2029 and 2030"
+          },
+          {
+            "player": "Mikael Uhre",
+            "position": "ST",
+            "aav": 2.5,
+            "contractNote": "Designated Player; key goalscorer since 2022"
+          },
+          {
+            "player": "Andre Blake",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "TAM; multi-time MLS Goalkeeper of the Year; Jamaican international"
+          }
+        ],
+        "fact": "Alladoh is the club's record signing (Dec 2025)",
+        "source": "https://www.philadelphiaunion.com/news/philadelphia-union-sign-forward-ezekiel-alladoh"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Gazdag and Uhre 2026 status not checked",
+      "onField.currentFranchisePlayer: no 2026 source"
+    ],
+    "analystNotes": "Philadelphia won the 2025 Supporters' Shield with 66 points, the league's best record, and did it the Union way: no marquee DP, a club-record fee of only ~$4.5M for 20-year-old Ezekiel Alladoh, and academy sales funding the roster. The $700M Forbes 2025 value prices exactly that discipline, an 18,500-seat Subaru Park on Port Authority land and a mid-tier market with no stadium catalyst. The 2026 team is 12th, and the number stays in the $700M band until Sugarman's group either expands the venue or spends on a DP the market can see.",
+    "analystNotesBasis": "Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.685B Forbes 2024); Shield per Wikipedia 2025 season; Alladoh per club release; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "toronto-fc",
+    "team": "Toronto FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); Canadian teams receive additional Canadian Soccer Business / domestic distribution; Rogers ownership creates intracompany media leverage",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); Canadian teams receive additional domestic distribution; Rogers ownership creates intracompany media leverage",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Maple Leaf Sports & Entertainment (MLSE) — Rogers Communications 75% / Larry Tanenbaum 25%",
+        "new": "Maple Leaf Sports & Entertainment (MLSE) — Rogers Communications 100% (Tanenbaum's final 25% bought for C$4.35B, announced July 6, 2026, subject to league approvals)",
+        "fact": "Rogers agreed to buy Kilmer Sports' remaining 25% of MLSE for C$4.35B on July 6, 2026, implying C$17.4B for all of MLSE; close expected Q4 2026 pending league approvals",
+        "source": "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Rogers Communications",
+            "role": "majority via MLSE",
+            "pct": 75
+          },
+          {
+            "name": "Larry Tanenbaum (Kilmer Sports Inc.)",
+            "role": "minority via MLSE",
+            "pct": 25
+          }
+        ],
+        "new": [
+          {
+            "name": "Rogers Communications",
+            "role": "sole owner via MLSE (100% on close of the July 2026 Tanenbaum purchase)",
+            "pct": 100
+          }
+        ],
+        "fact": "Per data/transactions.js: Rogers buying the last 25% of MLSE from Kilmer Sports, agreed July 2026; Rogers also plans to sell a minority stake in its combined sports and media assets",
+        "source": "https://ca.news.yahoo.com/rogers-completes-purchase-mlse-officially-140411877.html"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "BMO Field renovation 2024-26: expansion from 30,991 to ~45,500 capacity (17K temporary seats for World Cup), upgraded broadcast/Wi-Fi/hospitality; total cost ~C$130M; partial public funding from Ontario/federal/Toronto",
+        "new": "BMO Field renovation completed for the 2026 World Cup: C$157.9M total (C$132.9M City of Toronto, C$25M MLSE); Phase 1 (LED boards, systems, premium) done Aug 2025, Phase 2 (Dec 2025-Mar 2026) added ~17,756 temporary seats and expanded player facilities",
+        "fact": "Renovation cost C$157.9M with the city funding C$132.9M; temporary seats installed for the World Cup",
+        "source": "https://en.wikipedia.org/wiki/BMO_Field"
+      },
+      {
+        "field": "stadium.publicSubsidy",
+        "old": 18,
+        "new": 133,
+        "fact": "City of Toronto funded C$132.9M of the C$157.9M World Cup renovation",
+        "source": "https://en.wikipedia.org/wiki/BMO_Field"
+      },
+      {
+        "field": "stadium.privateFinancing",
+        "old": 45,
+        "new": 25,
+        "fact": "MLSE contributed C$25M to the World Cup renovation",
+        "source": "https://en.wikipedia.org/wiki/BMO_Field"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 0,
+        "fact": "Toronto missed the playoffs every year 2021-2025; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Federico Bernardeschi — Designated Player ~$6.5M/yr; Italian international; under-delivered relative to contract since 2022",
+        "new": "Josh Sargent — USMNT striker signed from Norwich City in 2026 for a club-record initial $22M, the largest incoming MLS fee of the 2026 windows",
+        "fact": "Toronto paid an initial $22M for Sargent, the top incoming fee in MLS in 2026",
+        "source": "https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Federico Bernardeschi",
+            "position": "AM",
+            "aav": 6.5,
+            "contractNote": "Designated Player since 2022; ex-Juventus/Italy; controversial deal given output"
+          },
+          {
+            "player": "Lorenzo Insigne",
+            "position": "W",
+            "aav": 15.4,
+            "contractNote": "Designated Player since 2022; ex-Napoli/Italy; massive contract through 2026 — among MLS's largest; salary reset/release in 2025 widely reported"
+          },
+          {
+            "player": "Sean Johnson",
+            "position": "GK",
+            "aav": 1.5,
+            "contractNote": "TAM; veteran USMNT goalkeeper"
+          }
+        ],
+        "new": [
+          {
+            "player": "Josh Sargent",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Club-record initial $22M transfer from Norwich City, 2026; potentially more than GBP 20M with add-ons"
+          },
+          {
+            "player": "Lorenzo Insigne",
+            "position": "W",
+            "aav": 15.4,
+            "contractNote": "DP 2022-2025; contract mutually terminated in 2025 using a guaranteed-contract buyout"
+          },
+          {
+            "player": "Federico Bernardeschi",
+            "position": "AM",
+            "aav": 6.5,
+            "contractNote": "DP 2022-2025; bought out in 2025"
+          }
+        ],
+        "fact": "Insigne and Bernardeschi were bought out in 2025; Sargent is the new record signing",
+        "source": "https://www.torontofc.ca/news/toronto-fc-and-italian-winger-lorenzo-insigne-agree-on-mutual-contract-termination"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "stadium.capacity: permanent post-World Cup capacity not confirmed",
+      "stadium.namingRightsDeal (BMO, expiry 2027): no renewal found"
+    ],
+    "analystNotes": "Toronto FC's $780M Forbes 2025 value now sits inside a 100% Rogers-owned MLSE after the July 2026 agreement to buy Tanenbaum's last 25% for C$4.35B, a C$17.4B mark for the Leafs, Raptors, TFC and Scotiabank Arena bundle. The club cleared the Insigne and Bernardeschi contracts in 2025 and put a club-record initial $22M into Josh Sargent in 2026, while a C$157.9M World Cup renovation of BMO Field was paid almost entirely by the City of Toronto. Five straight seasons outside the playoffs through 2025 and 26th place in 2026 mean the media leverage of Rogers plus Sportsnet is worth nothing until the team is watchable; Rogers' planned minority sale of its sports assets is the next price signal.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.725B Forbes 2024); MLSE per data/transactions.js and CBC July 2026; Sargent per ESPN Sept 9, 2026; BMO Field per Wikipedia; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "austin-fc",
+    "team": "Austin FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Austin qualified in 2022 and 2025 (6th seed West); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Sebastián Driussi — Designated Player, ~$3M base/$4.5M total comp through 2026; Argentine attacking mid",
+        "new": "Sebastián Driussi transferred to River Plate in Jan 2025 for $10M plus an 8.25% sell-on; no single franchise player identified for 2026",
+        "fact": "Austin sold Driussi to River Plate in January 2025 for $10M with an 8.25% sell-on fee",
+        "source": "https://en.wikipedia.org/wiki/2025_Austin_FC_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sebastián Driussi",
+            "position": "AM/CF",
+            "aav": 4.5,
+            "contractNote": "Designated Player through 2026; signed from Zenit St. Petersburg"
+          },
+          {
+            "player": "Brad Stuver",
+            "position": "GK",
+            "aav": 0.7,
+            "contractNote": "TAM-level deal; longtime starter"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sebastián Driussi",
+            "position": "AM/CF",
+            "aav": 4.5,
+            "contractNote": "DP 2021-2024; sold to River Plate Jan 2025 for $10M plus 8.25% sell-on"
+          },
+          {
+            "player": "Brad Stuver",
+            "position": "GK",
+            "aav": 0.7,
+            "contractNote": "TAM-level deal; longtime starter"
+          }
+        ],
+        "fact": "Driussi departed in January 2025",
+        "source": "https://en.wikipedia.org/wiki/2025_Austin_FC_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer: 2026 headline player not identified from a source",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Austin FC's $950M Forbes 2025 value is anchored by the $912M enterprise value set in the July 2025 minority raise that brought in PEAK6's Jenny Just and Matt Hulsizer and later FirstTracks' Jon-Erik Borgen, with Precourt keeping control of a privately funded Q2 Stadium in a growing tech market. The club opened Nu Stadium as Inter Miami's first opponent in April 2026 and made the 2025 playoffs, but sits 23rd in 2026 after selling Driussi to River Plate for $10M. The number is a stadium-and-market number; a sustained playoff team is what turns the 2025 raise into a $1B print.",
+    "analystNotesBasis": "Forbes 2025 $0.95B (valuations-2025.js; valuationHistory carries Forbes May 2025 $0.825B and the $912M implied mark); raise per data/transactions.js; playoffs per Wikipedia; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "colorado-rapids",
+    "team": "Colorado Rapids",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Djordje Mihailovic — DP-level CAM acquired from CF Montréal (2024); ~$2M base, $3M total comp",
+        "new": "Morgan Whittaker — English DP winger signed Sept 2026 from Middlesbrough for a club-record ~$10.7M, contract through 2029-30 with a 2030-31 option; scored twice in his first MLS start",
+        "fact": "Colorado's record incoming transfer, confirmed Sept 4, 2026, topping the $8M paid for Paxten Aaronson in 2025",
+        "source": "https://www.mlssoccer.com/news/morgan-whittaker-announces-himself-with-colorado-rapids-brace"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Djordje Mihailovic",
+            "position": "CAM",
+            "aav": 3,
+            "contractNote": "Designated Player; signed from CF Montréal Jan 2024"
+          },
+          {
+            "player": "Rafael Navarro",
+            "position": "ST",
+            "aav": 1.5,
+            "contractNote": "TAM-level Brazilian forward"
+          }
+        ],
+        "new": [
+          {
+            "player": "Morgan Whittaker",
+            "position": "W",
+            "aav": null,
+            "contractNote": "DP; club-record ~$10.7M from Middlesbrough, Sept 2026; through 2029-30 plus option"
+          },
+          {
+            "player": "Paxten Aaronson",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed summer 2025 for a then-record $8M"
+          },
+          {
+            "player": "Djordje Mihailovic",
+            "position": "CAM",
+            "aav": 3,
+            "contractNote": "Designated Player; signed from CF Montréal Jan 2024"
+          }
+        ],
+        "fact": "Whittaker and Aaronson are the two record fees; Rafael Navarro moved to St. Louis City in 2026",
+        "source": "https://burgundywave.com/2026/09/04/colorado-rapids-dp-winger-morgan-whittaker-middlesborough-record-signing/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal (Dick's, expiry 2027): no renewal found",
+      "stadium.newStadiumPlans: no 2026 Kroenke announcement found"
+    ],
+    "analystNotes": "Colorado's $620M Forbes 2025 value is the second-lowest in MLS and still reads as Kroenke's least-tended asset: a Commerce City stadium built in 2007, a $2M-a-year naming deal expiring in 2027 and no new-venue plan. The 2026 window is the first real signal of intent, a club-record ~$10.7M for Morgan Whittaker in September on top of $8M for Paxten Aaronson in 2025, and the team is 13th with a shot at the playoffs. The number moves on a Kroenke decision about a Denver-proximate development, not on any roster.",
+    "analystNotesBasis": "Forbes 2025 $0.62B (valuations-2025.js; valuationHistory ends $0.35B Forbes 2024); Whittaker per MLSSoccer.com Sept 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "fc-dallas",
+    "team": "FC Dallas",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$182M renovation underway 2025-2027 — North End enclosure, suite expansion, Hall of Fame upgrade; first phase of broader $1.1-1.3B mixed-use Frisco district (office, hotel, multifamily)",
+        "new": "$182M Toyota Stadium renovation began March 26, 2026 with Moss Construction: east side reopens summer 2026 as work shifts west; added seating, shade canopy, premium clubs and suites; completion expected Q1 2028; first phase of the $1.1-1.3B Frisco mixed-use district",
+        "fact": "Construction started March 26, 2026; full completion expected first quarter of 2028",
+        "source": "https://therealdeal.com/texas/dallas/2026/03/05/fc-dallas-ramps-up-182m-toyota-stadium-overhaul/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Petar Musa — Croatian DP striker signed from Benfica 2024; $5M+ AAV; emerging franchise centerpiece",
+        "new": "Petar Musa — Croatian DP striker signed from Benfica 2024; 18 league goals in 2026 leads the club; contract through 2027",
+        "fact": "Musa is FC Dallas's top scorer in 2026 with 18 league goals",
+        "source": "https://en.wikipedia.org/wiki/2026_FC_Dallas_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Illarramendi 2026 status not checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "FC Dallas is having its best season in years, third in the 2026 Shield table with 47 points behind Petar Musa's 18 league goals, while the $182M Toyota Stadium rebuild that started March 26, 2026 reshapes the Frisco venue through early 2028 as the first piece of a $1.1-1.3B Hunt district. The $700M Forbes 2025 value gives little credit for that real estate or for the academy that keeps producing sales. The rerating comes in 2028 when the enclosed stadium, hotel and office income show up in the P&L; a 2026 playoff run would pull it forward.",
+    "analystNotesBasis": "Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.50B Forbes 2024); renovation per The Real Deal and Big D Soccer March 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "houston-dynamo-fc",
+    "team": "Houston Dynamo FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "PJT Partners hired by Segal Jan 2025 to explore NWSL Dash sale (~$120M)",
+        "new": "Dash sale process relaunched in March 2026 after ~$120M talks with RHC Group ended amid NWSL approval concerns; PJT Partners advising; Dynamo ownership unchanged",
+        "fact": "Talks to sell the Dash to RHC for about $120M ended; process relaunched March 2026",
+        "source": "https://www.sportico.com/business/team-sales/2026/houston-dash-sale-relaunch-nwsl-rhc-group-1234886045/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sebastian Ferreira",
+            "position": "ST",
+            "aav": 3.5,
+            "contractNote": "Designated Player through 2025"
+          },
+          {
+            "player": "Héctor Herrera",
+            "position": "CM",
+            "aav": 5.5,
+            "contractNote": "Mexican international DP signed from Atletico Madrid"
+          }
+        ],
+        "new": [
+          {
+            "player": "Mateusz Bogusz",
+            "position": "AM",
+            "aav": null,
+            "contractNote": "Signed for 2026 from Cruz Azul for reportedly up to $10M; former LAFC standout"
+          },
+          {
+            "player": "Guilherme",
+            "position": "W",
+            "aav": null,
+            "contractNote": "DP winger acquired from Santos FC for 2026"
+          },
+          {
+            "player": "Héctor Herrera",
+            "position": "CM",
+            "aav": null,
+            "contractNote": "Returned as a free agent for 2026 after a season at Toluca; reserve/leadership role"
+          }
+        ],
+        "fact": "2026 roster overhaul: Bogusz (up to $10M), DP Guilherme, Bouzat, Halter and Herrera's return",
+        "source": "https://www.mlssoccer.com/news/houston-dynamo-fc-2026-season-preview"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Sebastian Ferreira — Designated Player Paraguayan striker; club's record signing era",
+        "new": "Mateusz Bogusz — Polish playmaker signed for 2026 from Cruz Azul for reportedly up to $10M",
+        "fact": "Bogusz is the headline 2026 acquisition",
+        "source": "https://www.mlssoccer.com/news/houston-dynamo-fc-2026-season-preview"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.starContracts: Ferreira 2026 status not confirmed",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Houston's $700M Forbes 2025 value already prices the Segal turnaround from a $400M 2021 purchase, and 2026 is the year the roster caught up: a rebuilt squad around Mateusz Bogusz, DP Guilherme and a returning Héctor Herrera has the Dynamo seventh in the Shield table after missing the 2025 playoffs, and Shell Energy Stadium hosted the 2026 Leagues Cup final. Segal's attempt to sell the Dash at ~$120M collapsed and was relaunched in March 2026, which keeps the NWSL asset unmonetized. A playoff run in a World Cup host city with an owned downtown stadium is what pushes this toward $800M.",
+    "analystNotesBasis": "Forbes 2025 $0.70B (valuations-2025.js and valuationHistory 2024); roster per MLSSoccer.com 2026 preview; Dash per Sportico March 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "la-galaxy",
+    "team": "LA Galaxy",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 2,
+        "fact": "Galaxy qualified in 2022 and 2024 (MLS Cup champions) and missed 2021, 2023 and 2025; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Riqui Puig",
+            "position": "AM",
+            "aav": 2.5,
+            "contractNote": "Designated Player through 2026; 2024 MLS Cup MVP"
+          },
+          {
+            "player": "Joseph Paintsil",
+            "position": "RW",
+            "aav": 4.2,
+            "contractNote": "Designated Player Ghanaian winger signed from Genk 2024"
+          },
+          {
+            "player": "Gabriel Pec",
+            "position": "LW",
+            "aav": 3.8,
+            "contractNote": "Designated Player Brazilian winger from Vasco da Gama"
+          }
+        ],
+        "new": [
+          {
+            "player": "Riqui Puig",
+            "position": "AM",
+            "aav": 2.5,
+            "contractNote": "Designated Player through 2026; 2024 MLS Cup MVP"
+          },
+          {
+            "player": "Joseph Paintsil",
+            "position": "RW",
+            "aav": 4.2,
+            "contractNote": "Designated Player Ghanaian winger signed from Genk 2024"
+          },
+          {
+            "player": "Hirving 'Chucky' Lozano",
+            "position": "W",
+            "aav": null,
+            "contractNote": "DP on loan from San Diego FC for the rest of 2026 with an option to buy"
+          },
+          {
+            "player": "Gabriel Pec",
+            "position": "LW",
+            "aav": 3.8,
+            "contractNote": "Sold to Cruzeiro July 7, 2026 for a club-record ~$12M (up to $13.5M) after a ~$10M purchase in Jan 2024"
+          }
+        ],
+        "fact": "Pec sold for a club-record fee in July 2026; Lozano arrived on loan from San Diego as a DP",
+        "source": "https://www.lagalaxy.com/news/la-galaxy-set-club-transfer-fee-record-with-forward-gabriel-pec-to-cruzeiro-esporte-clube"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.currentFranchisePlayer"
+    ],
+    "unverified": [
+      "media.localTVDeal (Spectrum SportsNet): no 2026 source"
+    ],
+    "analystNotes": "LA Galaxy's $1.05B Forbes 2025 value is the 2024 MLS Cup and the AEG brand, and both are fading in the rear-view: the club missed the 2025 playoffs and sits 14th in 2026. The business still works, a club-record ~$12M sale of Gabriel Pec to Cruzeiro in July 2026 on a ~$10M buy and a Chucky Lozano loan to keep the Mexican-American market engaged at Dignity Health Sports Park. What limits the number is structural: AEG owns the venue, so the campus economics do not flow to the team P&L, and the gap to LAFC's $1.55B widens each year the Galaxy are not a playoff side.",
+    "analystNotesBasis": "Forbes 2025 $1.05B (valuations-2025.js; valuationHistory carries $1.08B Forbes/Sportico 2024); Pec per club release July 2026; Lozano per ESPN; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "los-angeles-fc",
+    "team": "Los Angeles FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Bennett Rosenthal",
+            "role": "lead managing owner / governor",
+            "pct": null
+          },
+          {
+            "name": "Larry Berg",
+            "role": "co-managing owner",
+            "pct": null
+          },
+          {
+            "name": "Brandon Beck",
+            "role": "co-managing owner / president",
+            "pct": null
+          },
+          {
+            "name": "Will Ferrell",
+            "role": "celebrity owner / brand",
+            "pct": null
+          },
+          {
+            "name": "Magic Johnson",
+            "role": "minority owner",
+            "pct": null
+          },
+          {
+            "name": "Mia Hamm / Nomar Garciaparra",
+            "role": "minority owners",
+            "pct": null
+          },
+          {
+            "name": "Giorgio Chiellini",
+            "role": "former player turned minority",
+            "pct": null
+          },
+          {
+            "name": "Carlos Vela",
+            "role": "minority (added 2026)",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Bennett Rosenthal",
+            "role": "lead managing owner / governor",
+            "pct": null
+          },
+          {
+            "name": "Larry Berg",
+            "role": "co-managing owner",
+            "pct": null
+          },
+          {
+            "name": "Brandon Beck",
+            "role": "co-managing owner / president",
+            "pct": null
+          },
+          {
+            "name": "Will Ferrell",
+            "role": "celebrity owner / brand",
+            "pct": null
+          },
+          {
+            "name": "Magic Johnson",
+            "role": "minority owner",
+            "pct": null
+          },
+          {
+            "name": "Mia Hamm / Nomar Garciaparra",
+            "role": "minority owners",
+            "pct": null
+          },
+          {
+            "name": "Giorgio Chiellini",
+            "role": "former player turned minority",
+            "pct": null
+          },
+          {
+            "name": "Carlos Vela",
+            "role": "minority (added 2026)",
+            "pct": null
+          },
+          {
+            "name": "Juan Domingo Beckmann Legorreta (Becle CEO)",
+            "role": "minority (added 2026)",
+            "pct": null
+          },
+          {
+            "name": "James Cha",
+            "role": "minority (added 2026)",
+            "pct": null
+          }
+        ],
+        "fact": "Joe Tsai and Mike Mahan exited in 2026; Vela, Becle CEO Beckmann and Korean American investor James Cha bought about 6% combined at a ~$1.25B valuation",
+        "source": "https://www.sportico.com/business/team-sales/2026/lafc-sale-beckmann-becle-cha-spring-oak-partners-1234941046/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Ares Management partners broadly represented in LP roster; multiple HNW families",
+        "new": "2026 minority sales valued LAFC at ~$1.25B: Joe Tsai and Mike Mahan sold, with Carlos Vela, Becle CEO Juan Domingo Beckmann and James Cha buying ~6% combined; Ares Management partners remain in the LP roster",
+        "fact": "Sportico reported the ~$1.25B valuation and ~6% stake sale",
+        "source": "https://www.sportico.com/business/team-sales/2026/lafc-sale-beckmann-becle-cha-spring-oak-partners-1234941046/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "LAFC qualified 2022-2025 (3rd seed West in 2025) and missed 2021; window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Denis Bouanga — French-Gabonese DP winger; 18+ goals/season; ~$3M base / $4.5M total",
+        "new": "Son Heung-min — Korean DP forward signed Aug 2025 from Tottenham for an MLS-record ~$26M transfer fee; anchor of the club's Korean-community commercial strategy",
+        "fact": "Son joined for a record ~$26M fee in Aug 2025",
+        "source": "https://www.espn.com/soccer/story/_/id/45905249/son-heung-min-tottenham-hotspur-joins-lafc-mls-record-deal"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Denis Bouanga",
+            "position": "LW/CF",
+            "aav": 4.5,
+            "contractNote": "Designated Player through 2026; one of MLS's top scorers"
+          },
+          {
+            "player": "Hugo Lloris",
+            "position": "GK",
+            "aav": 3,
+            "contractNote": "Former France/Tottenham captain; signed 2024 as DP"
+          },
+          {
+            "player": "Olivier Giroud",
+            "position": "CF",
+            "aav": 3.5,
+            "contractNote": "DP signed 2024; departed 2025 — replaced by Son Heung-min"
+          },
+          {
+            "player": "Son Heung-min",
+            "position": "LW/CF",
+            "aav": 11,
+            "contractNote": "Designated Player signed 2025 from Tottenham; record MLS DP salary at signing"
+          }
+        ],
+        "new": [
+          {
+            "player": "Son Heung-min",
+            "position": "LW/CF",
+            "aav": 11,
+            "contractNote": "DP signed Aug 2025 from Tottenham for an MLS-record ~$26M fee; record DP salary at signing"
+          },
+          {
+            "player": "Denis Bouanga",
+            "position": "LW/CF",
+            "aav": 4.5,
+            "contractNote": "Designated Player through 2026; one of MLS's top scorers"
+          },
+          {
+            "player": "Hugo Lloris",
+            "position": "GK",
+            "aav": 3,
+            "contractNote": "Former France captain; signed 2024"
+          }
+        ],
+        "fact": "Giroud departed in 2025; Son is the headline DP",
+        "source": "https://www.lafc.com/news/lafc-signs-global-football-icon-son-heung-min"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "media.localTVDeal (TUDN): no 2026 source",
+      "revenue: no 2025 or 2026 revenue figure sourced"
+    ],
+    "analystNotes": "LAFC's $1.55B Forbes 2025 value, the highest in MLS, was tested in 2026 by real trades: Joe Tsai and Mike Mahan sold out and Carlos Vela, Becle CEO Juan Domingo Beckmann and James Cha bought about 6% at a ~$1.25B mark, a discount to the list price that reflects minority illiquidity rather than doubt about the asset. The commercial engine is intact, BMO Stadium fully owned with a $10M-a-year naming deal and Son Heung-min bought for a record ~$26M to activate the largest Korean community outside Korea. The club reached the 2026 Concacaf semifinal but sits 11th domestically; the next number depends on Son converting into a title while the Apple payout steps up to $275M in 2027-28.",
+    "analystNotesBasis": "Forbes 2025 $1.55B (valuations-2025.js; valuationHistory carries $1.32B Sportico May 2025 and the $1.25B implied by the Tsai exit); stake sales per Sportico 2026; Son fee per ESPN; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "minnesota-united-fc",
+    "team": "Minnesota United FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.mnufc.com/news/major-league-soccer-moves-to-apple-tv-starting-2026"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years",
+      "onField.starContracts"
+    ],
+    "unverified": [
+      "media.localTVDeal (Bally Sports North): no 2026 source on the post-Diamond arrangement",
+      "stadium.nonGameRevenue: Midway development timeline not sourced beyond McGuire comments"
+    ],
+    "analystNotes": "Minnesota United's $700M Forbes 2025 value is a clean owned-stadium story: Allianz Field, a 2025 fourth seed in the West that reached the conference semifinal, and Bill McGuire's land bank around the Midway site he keeps pressing St. Paul to improve before the winter-heavy calendar arrives in 2027. The 2026 team has fallen to 25th, and the DP pair of Yeboah and Pereyra has not produced a star the market outside Minnesota recognizes. The number moves on the Midway development actually breaking ground, which is the one asset McGuire controls that rivals do not have.",
+    "analystNotesBasis": "Forbes 2025 $0.70B (valuations-2025.js; valuationHistory ends $0.52B Forbes 2024); 2025 playoffs per Wikipedia; Midway per Star Tribune 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "portland-timbers",
+    "team": "Portland Timbers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 0,
+        "fact": "Portland's only MLS Cup was 2015, which falls outside the 2016-2025 window",
+        "source": "https://en.wikipedia.org/wiki/MLS_Cup"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Portland qualified in 2021, 2023, 2024 and 2025 (8th seed West, won the wild card 3-1 over RSL); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Evander — Brazilian DP attacking mid signed from FC Midtjylland 2023; club-record signing era",
+        "new": "Evander was sold to FC Cincinnati in Feb 2025 for ~$12M; Kevin Kelsy, the 2026 top scorer, was sold to Rangers in Aug 2026 for a club-record $13M plus add-ons and a sell-on",
+        "fact": "Kelsy sale to Rangers agreed Aug 26, 2026 for a club-record $13M; Evander went to Cincinnati in 2025",
+        "source": "https://www.mlssoccer.com/news/portland-timbers-transfer-kevin-kelsy-to-rangers-fc"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Evander",
+            "position": "AM",
+            "aav": 3.5,
+            "contractNote": "Designated Player; club-record signing; led Timbers in goals + assists 2024"
+          },
+          {
+            "player": "Diego Chara",
+            "position": "DM",
+            "aav": 1.5,
+            "contractNote": "Longtime franchise figure since 2011; near end of career"
+          },
+          {
+            "player": "Felipe Mora",
+            "position": "ST",
+            "aav": 2,
+            "contractNote": "Chilean DP striker through 2026"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kevin Kelsy",
+            "position": "ST",
+            "aav": null,
+            "contractNote": "Bought Jan 2025 for just under $6M; 16 goals in 43 MLS games; sold to Rangers Aug 2026 for club-record $13M plus add-ons and sell-on"
+          },
+          {
+            "player": "Evander",
+            "position": "AM",
+            "aav": 3.5,
+            "contractNote": "Club-record signing 2023; sold to FC Cincinnati Feb 2025 for ~$12M"
+          },
+          {
+            "player": "Felipe Mora",
+            "position": "ST",
+            "aav": 2,
+            "contractNote": "Chilean DP striker through 2026"
+          }
+        ],
+        "fact": "Two record outbound sales in 18 months",
+        "source": "https://katu.com/sports/timbers/portland-timbers-sell-star-forward-kevin-kelsy-soccer-mls-local-europe-sctoland-glasgow-oregon-rose-city-futbol"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.capacity"
+    ],
+    "unverified": [
+      "onField.starContracts: Chara 2026 status not checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Portland's $780M Forbes 2025 value is the Timbers Army premium on a 100-year-old, city-owned Providence Park where Merritt Paulson has put $145M of private money and holds a lease to 2035. The club has become a seller: Evander went to Cincinnati for ~$12M in 2025 and Kevin Kelsy to Rangers for a club-record $13M in August 2026, which is good business and bad for a team now 20th after four playoff trips in five years. With no room to expand the stadium footprint, the number only moves if Paulson turns the Moda Center fight into a broader venue deal with the city.",
+    "analystNotesBasis": "Forbes 2025 $0.78B (valuations-2025.js; valuationHistory ends $0.685B Forbes 2024); Kelsy per MLSSoccer.com Aug 2026; Paulson investment and lease per OPB Aug 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "real-salt-lake",
+    "team": "Real Salt Lake",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Smith Entertainment Group (Ryan Smith) + David Blitzer",
+        "new": "Larry H. Miller family / Miller Sports + Entertainment (Gail Miller)",
+        "fact": "Miller Sports + Entertainment bought controlling interest in RSL Football Holdings (RSL, Utah Royals, Real Monarchs, America First Field, Zions Bank Stadium, training center) for $600M, announced April 18, 2025; Blitzer stays as a minority investor, Smith sold out",
+        "source": "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million"
+      },
+      {
+        "field": "ownership.ownerNetWorth",
+        "old": "Smith ~$2B (Qualtrics co-founder); Blitzer multi-billionaire (Blackstone senior MD)",
+        "new": "Miller family (Larry H. Miller Company; former Utah Jazz owners); Blitzer remains a minority investor",
+        "fact": "Miller family are the former Jazz owners; net worth figure not sourced",
+        "source": "https://www.deseret.com/sports/2025/04/18/larry-h-miller-sports-purchase-real-salt-lake-soccer-utah-royals-david-blitzer/"
+      },
+      {
+        "field": "ownership.acquisitionYear",
+        "old": 2022,
+        "new": 2025,
+        "fact": "Miller purchase announced April 18, 2025",
+        "source": "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million"
+      },
+      {
+        "field": "ownership.acquisitionPrice",
+        "old": 0.4,
+        "new": 0.6,
+        "fact": "$600M enterprise value for the whole RSL Football Holdings bundle (per data/transactions.js)",
+        "source": "https://www.espn.com/soccer/story/_/id/44732641/real-salt-lake-utah-royals-sold-miller-family-jazz-600-million"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "David Blitzer",
+            "role": "majority / Governor",
+            "pct": null
+          },
+          {
+            "name": "Smith Entertainment Group (Ryan Smith)",
+            "role": "majority / alternate Governor",
+            "pct": null
+          },
+          {
+            "name": "Arctos Sports Partners",
+            "role": "institutional minority LP",
+            "pct": null
+          },
+          {
+            "name": "Dwyane Wade",
+            "role": "minority investor",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Miller Sports + Entertainment (Gail Miller / Larry H. Miller family)",
+            "role": "controlling owner (2025)",
+            "pct": null
+          },
+          {
+            "name": "David Blitzer",
+            "role": "minority investor (retained stake after 2025 sale)",
+            "pct": null
+          }
+        ],
+        "fact": "Controlling stake to Miller; Blitzer minority; Ryan Smith exited",
+        "source": "https://www.rsl.com/utahroyals/news/miller-sports-entertainment-purchases-controlling-interest-in-rsl-football-holdings"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "team-owned / SEG-owned; located in Sandy, Utah on team-owned land; renamed from Rio Tinto Stadium to America First Field in March 2022",
+        "new": "team-owned (Miller Sports + Entertainment via RSL Football Holdings since 2025); located in Sandy, Utah on team-owned land; renamed from Rio Tinto Stadium to America First Field in March 2022",
+        "fact": "Stadium included in the $600M Miller purchase",
+        "source": "https://www.rsl.com/utahroyals/news/miller-sports-entertainment-purchases-controlling-interest-in-rsl-football-holdings"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 5,
+        "fact": "RSL qualified every year 2021-2025 (9th seed West in 2025); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Cristian Arango",
+            "position": "Forward",
+            "aav": 2.5,
+            "contractNote": "Designated Player; signed 2024 from LAFC; Colombian international"
+          },
+          {
+            "player": "Diego Luna",
+            "position": "Midfielder",
+            "aav": 1.2,
+            "contractNote": "Young Designated Player; US international; homegrown system product"
+          }
+        ],
+        "new": [
+          {
+            "player": "Cristian Arango",
+            "position": "Forward",
+            "aav": 2.5,
+            "contractNote": "Designated Player; signed 2024 from LAFC; Colombian international"
+          },
+          {
+            "player": "Diego Luna",
+            "position": "Midfielder",
+            "aav": 1.2,
+            "contractNote": "Young Designated Player; US international; homegrown"
+          },
+          {
+            "player": "Zavier Gozo",
+            "position": "Winger",
+            "aav": null,
+            "contractNote": "Homegrown; sold to Crystal Palace Aug 2026 for a club-record $15M, second-largest homegrown fee in MLS history; RSL keeps a 20-25% sell-on"
+          }
+        ],
+        "fact": "Gozo sale completed Aug 2026 for $15M",
+        "source": "https://www.mlssoccer.com/news/real-salt-lake-transfer-zavier-gozo-to-crystal-palace"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.currentFranchisePlayer"
+    ],
+    "unverified": [
+      "ownership.institutionalInvestors: whether Arctos and Dwyane Wade kept stakes after the 2025 sale is not sourced",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Real Salt Lake is the cleanest control comp in MLS: the Miller family paid $600M in April 2025 for the whole RSL Football Holdings bundle, RSL plus the Utah Royals, Real Monarchs, America First Field and Zions Bank Stadium, below the $660M Forbes 2025 value for the club alone, and 50% above the ~$400M Blitzer and Smith paid in 2022. The academy is the cash engine, with Zavier Gozo sold to Crystal Palace for a club-record $15M in August 2026 after five straight playoff seasons through 2025. The 2026 team is 21st; the number moves on the Millers applying Jazz-era operating scale to a fully owned Sandy venue.",
+    "analystNotesBasis": "Forbes 2025 $0.66B (valuations-2025.js; valuationHistory ends $0.58B Forbes 2024); sale per data/transactions.js and ESPN April 2025; Gozo per MLSSoccer.com Aug 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "san-diego-fc",
+    "team": "San Diego FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Hirving 'Chucky' Lozano — Designated Player, Mexican international, ~$8M AAV",
+        "new": "Hirving 'Chucky' Lozano was frozen out of the 2026 plans after an October 2025 dispute with the coaching staff and loaned to LA Galaxy for the rest of 2026 with a purchase option; no replacement franchise player identified",
+        "fact": "Lozano last played for SDFC in Nov 2025, was declared not part of the sporting plan for 2026, and joined the Galaxy on loan in Aug 2026",
+        "source": "https://www.espn.com/soccer/story/_/id/49548687/lozano-joining-galaxy-season-long-loan"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Hirving 'Chucky' Lozano",
+            "position": "Forward / Winger",
+            "aav": 8,
+            "contractNote": "Designated Player; signed 2024 from PSV Eindhoven; Mexican national team star — anchor of cross-border marketing strategy"
+          },
+          {
+            "player": "Onni Valakari",
+            "position": "Midfielder",
+            "aav": 1.5,
+            "contractNote": "Designated Player; Finnish international; signed from Pafos FC"
+          }
+        ],
+        "new": [
+          {
+            "player": "Hirving 'Chucky' Lozano",
+            "position": "Forward / Winger",
+            "aav": 8,
+            "contractNote": "DP under contract through 2028; excluded from 2026 plans; loaned to LA Galaxy Aug 2026 with option to buy"
+          },
+          {
+            "player": "Onni Valakari",
+            "position": "Midfielder",
+            "aav": 1.5,
+            "contractNote": "Designated Player; Finnish international; signed from Pafos FC"
+          },
+          {
+            "player": "Luca Bombino",
+            "position": "Defender",
+            "aav": null,
+            "contractNote": "Sold in 2026 for a club-record outgoing fee"
+          }
+        ],
+        "fact": "Lozano loaned out; Bombino was the club's record sale in 2026",
+        "source": "https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.ownershipModel",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: no 2026 announcement found on a soccer-specific venue",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "San Diego FC's $850M Sportico 2025 value on a $500M expansion fee was earned in one season: 63 points, the 2025 Western Conference top seed with a record for an expansion side, and a run to the conference final. Year two is the correction, 22nd in 2026 after the club pushed out its ~$8M DP Chucky Lozano and loaned him to the rival Galaxy, and Snapdragon Stadium still belongs to SDSU. The Mansour-Sycuan group and the Right to Dream pipeline give it a durable model, but the number stalls until there is a plan for a venue the club controls.",
+    "analystNotesBasis": "Sportico Oct 2025 $0.85B (valuations-2025.js and valuationHistory 2025; no Forbes figure loaded); 2025 standings and playoffs per Wikipedia; Lozano per ESPN Aug 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "san-jose-earthquakes",
+    "team": "San Jose Earthquakes",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "San Jose missed the playoffs every year 2021-2025 (the old count included 2020); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "ownership: no buyer or price for the Fisher sale (Moelis, launched June 2025) found as of Sept 2026",
+      "onField.starContracts: Espinoza and López Muñoz 2026 status not checked"
+    ],
+    "analystNotes": "San Jose is the cheapest owned soccer stadium in a top-10 US market, $600M on the Forbes 2025 list, and it has been for sale since John Fisher hired Moelis in June 2025 with no buyer announced fifteen months later. The irony is the team: after five straight seasons outside the playoffs the Quakes are sixth in the 2026 Shield table with 45 points, the best pitch to a buyer the club has made in years. The number is set by the sale print, and a playoff run in the fall of 2026 is the seller's best leverage.",
+    "analystNotesBasis": "Forbes 2025 $0.60B (valuations-2025.js; valuationHistory ends $0.54B Forbes 2024); sale process per club and ESPN June 2025; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "seattle-sounders-fc",
+    "team": "Seattle Sounders FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "None disclosed; 2025 Moelis-led raise specifically targeting institutional/strategic minority partner",
+        "new": "Moelis-led strategic capital raise launched Oct 2025 seeking a large minority partner (majority not ruled out) to fund a possible Longacres stadium before the Lumen Field lease ends in 2032; no investor announced as of Sept 2026",
+        "fact": "Sounders retained Moelis in Oct 2025 for a strategic capital raise tied to Longacres",
+        "source": "https://www.espn.com/soccer/story/_/id/46788164/seattle-sounders-seek-investment-fund-potential-soccer-stadium"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "ownership: outcome of the Moelis raise not found",
+      "onField.starContracts: 2026 status not checked",
+      "media.localTVDeal: no 2026 source"
+    ],
+    "analystNotes": "Seattle's $850M Forbes 2025 value prices the most complete trophy case in MLS, and 2025 added to it: the Sounders beat Inter Miami 3-0 before a Leagues Cup record 69,314 at Lumen Field to become the first club to win all five domestic trophies, and made a fourth playoff in five years. The structural problem is unchanged, Lumen is a tenant deal that expires in 2032, so Hanauer hired Moelis in October 2025 to raise minority capital for a Longacres stadium. The 2026 team is 15th; the number moves when the raise closes and names a partner and a site.",
+    "analystNotesBasis": "Forbes 2025 $0.85B (valuations-2025.js; valuationHistory carries $0.825B Sportico 2024); Leagues Cup per Wikipedia; Moelis raise per ESPN Oct 2025; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "sporting-kansas-city",
+    "team": "Sporting Kansas City",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Children's Mercy Park (reverting to 'Sporting Park' after 2025)",
+        "new": "Sporting Park",
+        "fact": "The Children's Mercy deal ended after 2025 and the stadium plays 2026 as Sporting Park with no naming partner",
+        "source": "https://fox4kc.com/sports/sporting-kc/sporting-kc-to-rename-stadium-as-childrens-mercy-partnership-ends/"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Children's Mercy Hospital (expiring entering 2026)",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": 2025,
+          "notes": "10-year deal signed Nov 2015 expiring entering 2026 season; club has no replacement deal announced and reverts to 'Sporting Park'; original deal financial terms undisclosed but estimated $20-30M total"
+        },
+        "new": {
+          "sponsor": null,
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "No naming partner for 2026; Children's Mercy's 10-year deal (2015-2025) expired and the venue reverted to Sporting Park"
+        },
+        "fact": "No naming rights deal entering 2026",
+        "source": "https://en.wikipedia.org/wiki/Sporting_Park"
+      },
+      {
+        "field": "ownership.acquisitionPrice",
+        "old": 0.5,
+        "new": 0.7,
+        "fact": "Mallouk's ~71% purchase was at a $700M enterprise value, the highest price for an MLS majority stake, finalized Dec 2025 and public Jan 2026 (per data/transactions.js)",
+        "source": "https://www.sportspro.com/news/finance-investment/sporting-kansas-city-sale-peter-mallouk-illig-ownership-valuation-mls-january-2026/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Dániel Sallói — Hungarian international forward, longtime franchise player, ~$1.5M AAV",
+        "new": "André Luiz — Brazilian DP forward signed Aug 18, 2026 from Olympiacos for a club-record $18M plus up to $4M in add-ons",
+        "fact": "Club-record $18M transfer, more than double the previous $7.5M record for Alan Pulido",
+        "source": "https://www.sportingkc.com/news/sporting-kc-acquires-forward-andre-luiz-in-club-record-transfer-from-olympiacos-fc"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Dániel Sallói",
+            "position": "Forward",
+            "aav": 1.5,
+            "contractNote": "TAM/Designated Player; Hungarian international; longtime franchise scorer"
+          },
+          {
+            "player": "Erik Thommy",
+            "position": "Midfielder",
+            "aav": 2,
+            "contractNote": "Designated Player; German midfielder; signed 2023 from Stuttgart"
+          }
+        ],
+        "new": [
+          {
+            "player": "André Luiz",
+            "position": "Forward",
+            "aav": null,
+            "contractNote": "DP; club-record $18M (+$4M add-ons) from Olympiacos, Aug 2026"
+          },
+          {
+            "player": "Dániel Sallói",
+            "position": "Forward",
+            "aav": 1.5,
+            "contractNote": "Hungarian international; longtime franchise scorer"
+          },
+          {
+            "player": "Erik Thommy",
+            "position": "Midfielder",
+            "aav": 2,
+            "contractNote": "Designated Player; German midfielder; signed 2023 from Stuttgart"
+          }
+        ],
+        "fact": "André Luiz added as the record DP",
+        "source": "https://www.espn.com/soccer/story/_/id/49649637/sporting-kc-transfer-andre-luiz-record-olympiacos"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "ownership.ownershipGroup",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "media.localTVDeal (KSHB): no 2026 source",
+      "onField.starContracts: Sallói and Thommy 2026 status not checked"
+    ],
+    "analystNotes": "Sporting Kansas City's $700M Forbes 2025 value was printed by Peter Mallouk's purchase of ~71% from the Illig family at exactly that enterprise value, the highest ever for an MLS majority stake, with the Illigs keeping operations and the board seat. What Mallouk bought is a team-owned stadium with no naming partner for 2026 and the worst record in MLS, 30th with 21 points and a minus-32 goal difference, three seasons out of the playoffs. His first move was a club-record $18M for André Luiz in August 2026; the number moves on a new stadium sponsor and a roster that stops being last, and the record price already assumes both.",
+    "analystNotesBasis": "Forbes 2025 $0.70B (valuations-2025.js and data/transactions.js forbesValueAtSale); sale per data/transactions.js; stadium per Fox4KC; André Luiz per club release Aug 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "st-louis-city-sc",
+    "team": "St. Louis City SC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.name",
+        "old": "CITYPARK (Energizer Park as of 2024 — naming rights renamed)",
+        "new": "Energizer Park",
+        "fact": "Stadium has carried the Energizer Park name since 2024",
+        "source": "https://www.mlssoccer.com/news/st-louis-city-sc-stadium-renamed-energizer-park"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Eduard Löwen",
+            "position": "Midfielder",
+            "aav": 2.5,
+            "contractNote": "Designated Player; signed 2022 from Hertha Berlin; German Bundesliga pedigree"
+          },
+          {
+            "player": "Cedric Teuchert",
+            "position": "Forward",
+            "aav": 1.5,
+            "contractNote": "Designated Player; German forward; signed 2024 from Hannover"
+          }
+        ],
+        "new": [
+          {
+            "player": "Carlo Holse",
+            "position": "Winger",
+            "aav": null,
+            "contractNote": "Club-record incoming signing for 2026; scored in three straight home matches at Energizer Park"
+          },
+          {
+            "player": "Rafael Navarro",
+            "position": "Forward",
+            "aav": null,
+            "contractNote": "Club-record incoming signing for 2026 (from Colorado)"
+          },
+          {
+            "player": "João Klauss",
+            "position": "Forward",
+            "aav": null,
+            "contractNote": "Sold in 2026 for a club-record outgoing fee"
+          },
+          {
+            "player": "Eduard Löwen",
+            "position": "Midfielder",
+            "aav": 2.5,
+            "contractNote": "Designated Player; signed 2022 from Hertha Berlin"
+          }
+        ],
+        "fact": "Holse and Navarro set the club's incoming records and Klauss its outgoing record in 2026 per ESPN's league summary",
+        "source": "https://www.espn.com/soccer/story/_/id/49882716/mls-league-sets-record-incoming-outgoing-transfers-2026"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "onField.championshipsLast10Years",
+      "onField.playoffAppearancesLast5Years"
+    ],
+    "unverified": [
+      "onField.currentFranchisePlayer (Löwen): 2026 role not confirmed",
+      "media.localTVDeal (FanDuel Sports Network Midwest): no 2026 source"
+    ],
+    "analystNotes": "St. Louis City SC's $850M Forbes 2025 value on a $200M 2019 entry is the model expansion return: a fully private ~$667M downtown campus at Energizer Park, Taylor-family capital, and full venue economics. The 2025 season was a miss after the 2023 top-seed debut, and 2026 has been a rebuild that reset both transfer records, Carlo Holse and Rafael Navarro in, João Klauss out, with the team eighth in the Shield table on Sept 27 and back in playoff position. Sustaining an $850M number in a mid-sized market requires the downtown building to be a playoff venue most years, and 2026 is the first test of that since year one.",
+    "analystNotesBasis": "Forbes 2025 $0.85B (valuations-2025.js; valuationHistory carries $0.78B Sportico 2025); transfers per ESPN Sept 9, 2026; 2026 standings as of Sept 27."
+  },
+  {
+    "teamId": "vancouver-whitecaps-fc",
+    "team": "Vancouver Whitecaps FC",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.streamingNotes",
+        "old": "All MLS matches available via Apple TV+ MLS Season Pass (10yr $2.5B deal 2023-2032)",
+        "new": "All MLS matches on Apple TV; MLS Season Pass was folded into the base Apple TV subscription for 2026, and the Apple deal was amended in Nov 2025 to end after the 2028-29 season",
+        "fact": "MLS and Apple scrapped the Season Pass add-on for 2026 and shortened the deal to run through 2028-29",
+        "source": "https://www.espn.com/soccer/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$8M/team/year from MLS-Apple deal (~$250M/yr ÷ 30 teams); plus selective Fox Sports Sunday games",
+        "new": "Apple pays $200M for 2026 (~$6.7M/team), $107.5M for the Feb-May 2027 transition season and $275M for each of 2027-28 and 2028-29 (~$9.2M/team); plus Fox Sports linear package",
+        "fact": "Revised Apple payment schedule under the Nov 2025 amendment",
+        "source": "https://www.sportspro.com/news/mls-apple-tv-broadcast-deal-season-pass-contract-november-2025/"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by BC Pavilion Corporation (PavCo, BC Crown corporation); Whitecaps are tenants alongside BC Lions (CFL); club lease is widely regarded as MLS's worst — Whitecaps capture only ~12% of matchday revenue compared to ~100% for stadium-owning MLS clubs",
+        "new": "owned by BC Pavilion Corporation (PavCo, BC Crown corporation); Whitecaps are tenants alongside BC Lions (CFL); lease extended only through the 2026 season and as of Sept 23, 2026 there is no formal agreement for 2027; club captures only ~12% of matchday revenue",
+        "fact": "CEO Axel Schuster said on Sept 23, 2026 there is no formal BC Place agreement for 2027, only near-term security on some dates",
+        "source": "https://www.tsn.ca/soccer/mls/article/whitecaps-ceo-says-sale-of-mls-team-no-closer-to-reality/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Long-discussed soccer-specific stadium for Whitecaps but no announced project; sale process likely conditioned on relocation or new venue plan",
+        "new": "No Vancouver stadium project; the only formal bid, from Las Vegas investor Grant Gustavson (May 2026), includes a new Las Vegas stadium with an interim venue; a Vancouver-based group was reported interested but no viable local offer had emerged as of Sept 23, 2026",
+        "fact": "Gustavson's formal offer includes a Las Vegas stadium commitment; the club says no viable offer to stay in Vancouver has emerged",
+        "source": "https://www.espn.com/soccer/story/_/id/48640019/las-vegas-group-offer-buy-relocate-mls-vancouver-whitecaps"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Greg Kerfoot (largest shareholder; ownership group selling)",
+        "new": "Greg Kerfoot (largest shareholder); Kerfoot, Luczo, Mallett and Nash have had the club for sale since Dec 2024 with over 100 parties contacted and 30-plus given financials; only formal bid is Grant Gustavson's Las Vegas relocation offer (May 2026); CEO said on Sept 23, 2026 'nothing has changed'",
+        "fact": "Sale unresolved as of Sept 23, 2026; asking price not released",
+        "source": "https://www.tsn.ca/soccer/mls/article/whitecaps-ceo-says-sale-of-mls-team-no-closer-to-reality/"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Vancouver qualified in 2021, 2023, 2024 and 2025 (2nd seed West with 63 points, reached MLS Cup 2025 and lost 3-1 at Inter Miami); window is 2021-2025",
+        "source": "https://en.wikipedia.org/wiki/2025_MLS_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Brian White — American forward, ~$1.2M AAV; club has lacked marquee Designated Player commitment",
+        "new": "Thomas Müller — Bayern Munich and Germany legend signed Aug 2025; 2026 option exercised and converted to a Designated Player contract",
+        "fact": "Whitecaps exercised Müller's 2026 option and made him a DP",
+        "source": "https://www.mlssoccer.com/news/vancouver-whitecaps-roster-thomas-muller-contract-option-exercised"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Brian White",
+            "position": "Forward",
+            "aav": 1.2,
+            "contractNote": "TAM contract; US international; longtime franchise scorer"
+          },
+          {
+            "player": "Andrés Cubas",
+            "position": "Defensive Midfielder",
+            "aav": 1.5,
+            "contractNote": "Designated Player; Paraguayan international; signed 2022 from Nîmes (Ligue 1)"
+          }
+        ],
+        "new": [
+          {
+            "player": "Thomas Müller",
+            "position": "AM/FW",
+            "aav": null,
+            "contractNote": "Signed Aug 2025; 2026 option exercised; Designated Player for 2026"
+          },
+          {
+            "player": "Brian White",
+            "position": "Forward",
+            "aav": 1.2,
+            "contractNote": "TAM contract; US international; longtime franchise scorer"
+          },
+          {
+            "player": "Andrés Cubas",
+            "position": "Defensive Midfielder",
+            "aav": 1.5,
+            "contractNote": "Designated Player; Paraguayan international; signed 2022 from Nîmes"
+          }
+        ],
+        "fact": "Müller is the headline DP",
+        "source": "https://www.mlssoccer.com/news/vancouver-whitecaps-roster-thomas-muller-contract-option-exercised"
+      }
+    ],
+    "verifiedUnchanged": [
+      "stadium.name",
+      "onField.championshipsLast10Years"
+    ],
+    "unverified": [
+      "media.localTVDeal (TSN): no 2026 source",
+      "revenue: no post-2023 figure sourced"
+    ],
+    "analystNotes": "Vancouver is the strangest asset in MLS in 2026: the $600M Forbes 2025 value is the joint-lowest in the league, yet the Whitecaps reached MLS Cup 2025 with 63 points, lead the Western Conference with 50 points on Sept 27 behind Thomas Müller, and still cannot find a buyer after 21 months, more than 100 inquiries and 30-plus data-room visits. The only formal offer is Grant Gustavson's May 2026 bid to move the club to Las Vegas with a new stadium, the BC Place tenancy captures about 12% of matchday revenue, and there is no signed 2027 lease. The number is set by whether the province and a local group produce a Vancouver stadium answer before the relocation offer becomes the only one on the table.",
+    "analystNotesBasis": "Forbes 2025 $0.60B (valuations-2025.js; valuationHistory ends $0.45B Sportico 2024); sale status per TSN/Canadian Press Sept 23, 2026; Gustavson bid per ESPN May 2026; MLS Cup and 2026 standings per Wikipedia and Fox Sports as of Sept 27."
+  }
+]

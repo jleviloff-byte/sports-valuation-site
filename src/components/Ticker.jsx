@@ -1,18 +1,18 @@
 import { useMemo } from 'react'
 
 const LEAGUE_COLORS = {
-  NFL: '#1e3a8a',  // navy
-  NBA: '#991b1b',  // brick
-  MLB: '#075985',  // sky
-  NHL: '#155e75',  // teal
-  MLS: '#065f46',  // forest
-  EPL: '#581c87',  // plum
+  NFL: 'var(--text2)',  // navy
+  NBA: 'var(--text2)',  // brick
+  MLB: 'var(--text2)',  // sky
+  NHL: 'var(--text2)',  // teal
+  MLS: 'var(--text2)',  // forest
+  EPL: 'var(--text2)',  // plum
 }
 
 function growthSign(g) {
-  if (g > 0) return { color: '#0a7d2a', symbol: '▲' }
-  if (g < 0) return { color: '#b91c1c', symbol: '▼' }
-  return { color: '#9b9b9b', symbol: '·' }
+  if (g > 0) return { color: 'var(--pos)', symbol: '▲' }
+  if (g < 0) return { color: 'var(--neg)', symbol: '▼' }
+  return { color: 'var(--text3)', symbol: '·' }
 }
 
 function TickerItem({ team }) {
@@ -46,8 +46,8 @@ export default function Ticker({ teams }) {
       <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-paper to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-paper to-transparent z-10 pointer-events-none" />
       <div className="absolute left-3 top-0 bottom-0 z-20 flex items-center gap-1.5">
-        <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-        <span className="font-mono text-[9px] font-bold tracking-widest uppercase text-accent">Live</span>
+        <span className="w-1.5 h-1.5 rounded-full bg-positive animate-pulse" />
+        <span className="font-mono text-[9px] font-bold tracking-widest uppercase text-slate">Live</span>
       </div>
 
       <div className="flex animate-ticker pl-32">

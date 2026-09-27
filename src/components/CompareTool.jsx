@@ -24,7 +24,7 @@ const DRIVER_ENTRIES = [
 const DRIVER_KEYS = DRIVER_ENTRIES.map(([k]) => k)
 
 // One distinct ink-friendly color per slot
-const TEAM_COLORS = ['#1a1a1a', '#e8600a', '#1e3a8a', '#5b21b6', '#065f46']
+const TEAM_COLORS = ['var(--ink)', 'var(--accent)', 'var(--ramp-3)', 'var(--ramp-4)', 'var(--text3)']
 
 const MIN_TEAMS = 2
 const MAX_TEAMS = 5
@@ -36,7 +36,7 @@ const SLOT_GRID_CLASS = {
   5: 'grid-cols-1 md:grid-cols-2 lg:grid-cols-5',
 }
 
-const WINNER_CELL = 'bg-callout text-[#8a6d00] font-bold border border-[#e6d27a]'
+const WINNER_CELL = 'bg-paper text-slate font-bold border border-rule'
 
 // Builds the short explanation shown on hover/tap of a winning cell. Uses
 // real dollar contributions, the runner-up team for context, and the
@@ -66,7 +66,7 @@ function ExplanationTooltip({ children, content }) {
       {children}
       <span
         role="tooltip"
-        className="pointer-events-none absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-64 sm:w-72 bg-ink text-white text-[11px] leading-relaxed font-sans font-normal normal-case tracking-normal text-left px-3 py-2 rounded-sm shadow-modal opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-150 z-50"
+        className="pointer-events-none absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-64 sm:w-72 bg-ink text-paper text-[11px] leading-relaxed font-sans font-normal normal-case tracking-normal text-left px-3 py-2 rounded-sm shadow-modal opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-150 z-50"
       >
         {content}
         <span className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-ink" />
@@ -96,7 +96,7 @@ function CompareTooltip({ active, payload, label }) {
   if (!active || !payload?.length) return null
   const sorted = [...payload].sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
   return (
-    <div className="bg-white border border-rule rounded-sm px-4 py-3 text-xs shadow-card">
+    <div className="bg-card border border-rule rounded-sm px-4 py-3 text-xs shadow-card">
       <div className="font-semibold text-ink mb-2">{label}</div>
       {sorted.map((p, i) => (
         <div key={i} className="flex items-center gap-2 mb-1 min-w-[200px]">
@@ -112,7 +112,7 @@ function CompareTooltip({ active, payload, label }) {
 function TeamSlot({ idx, value, onChange, onRemove, canRemove, team, teams, otherSelected }) {
   const color = TEAM_COLORS[idx]
   return (
-    <div className={`flex-1 min-w-0 rounded-sm p-4 border bg-white ${team ? 'border-rule' : 'border-rule border-dashed'}`} style={team ? { borderTopColor: color, borderTopWidth: 3 } : undefined}>
+    <div className={`flex-1 min-w-0 rounded-sm p-4 border bg-card ${team ? 'border-rule' : 'border-rule border-dashed'}`} style={team ? { borderTopColor: color, borderTopWidth: 3 } : undefined}>
       <div className="flex items-center justify-between mb-3">
         <div className="font-mono text-[10px] font-bold tracking-widest uppercase" style={{ color }}>
           Team {String(idx + 1).padStart(2, '0')}
@@ -149,7 +149,7 @@ function TeamSlot({ idx, value, onChange, onRemove, canRemove, team, teams, othe
 
       {team ? (
         <div>
-          <div className="font-serif text-xl font-bold text-ink truncate leading-tight">{team.name}</div>
+          <div className="text-xl font-bold text-ink truncate leading-tight">{team.name}</div>
           <div className="text-[10px] text-slate font-mono mb-2 mt-1 uppercase tracking-wider">{team.league} · {team.city}</div>
           <div className="font-mono text-2xl font-bold text-ink">${team.currentValuation}B</div>
         </div>
@@ -213,22 +213,18 @@ export default function CompareTool({ teams }) {
   const allTotalsEqual = totals.every((v) => v === maxTotal)
 
   return (
-    <section className="border-t border-rule py-24 bg-white">
+    <section className="border-t border-rule py-6 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow text-accent">Franchise Comparison</span>
-          <div className="h-px flex-1 bg-rule" />
-        </div>
-
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-2">
           <div>
-            <h2 className="section-title text-4xl sm:text-5xl lg:text-6xl">Compare teams.</h2>
+            <h2 className="section-title text-2xl sm:text-3xl">Compare teams</h2>
+            <p className="text-sm text-graphite mt-1">Up to {MAX_TEAMS} teams side by side on valuation, growth and the five-driver scores.</p>
           </div>
           {teamNames.length < MAX_TEAMS && (
             <button
               type="button"
               onClick={addSlot}
-              className="self-start lg:self-end flex items-center gap-2 bg-ink hover:bg-graphite text-white text-xs font-bold tracking-widest uppercase px-5 py-2.5 rounded-sm transition-colors"
+              className="self-start lg:self-end flex items-center gap-2 bg-ink hover:bg-graphite text-paper text-xs font-bold tracking-widest uppercase px-5 py-2.5 rounded-sm transition-colors"
             >
               + Add Team
               <span className="font-mono text-[10px] opacity-70">
@@ -281,12 +277,12 @@ export default function CompareTool({ teams }) {
               </p>
               <ResponsiveContainer width="100%" height={460}>
                 <RadarChart data={radarData} outerRadius="72%">
-                  <PolarGrid stroke="#e8e8e8" />
-                  <PolarAngleAxis dataKey="driver" tick={{ fill: '#3d3d3d', fontSize: 12, fontWeight: 600 }} />
+                  <PolarGrid stroke="var(--border)" />
+                  <PolarAngleAxis dataKey="driver" tick={{ fill: 'var(--text2)', fontSize: 12, fontWeight: 600 }} />
                   <PolarRadiusAxis
                     angle={90}
                     domain={[0, radarMax]}
-                    tick={{ fill: '#9b9b9b', fontSize: 9, fontFamily: '"JetBrains Mono", monospace' }}
+                    tick={{ fill: 'var(--text3)', fontSize: 9, fontFamily: '"IBM Plex Mono", monospace' }}
                     axisLine={false}
                     tickCount={5}
                     tickFormatter={(v) => `$${v}B`}
@@ -310,7 +306,7 @@ export default function CompareTool({ teams }) {
                   <Legend
                     wrapperStyle={{ paddingTop: 14 }}
                     formatter={(value) => (
-                      <span style={{ color: '#3d3d3d', fontSize: 12, fontWeight: 600 }}>{value}</span>
+                      <span style={{ color: 'var(--text2)', fontSize: 12, fontWeight: 600 }}>{value}</span>
                     )}
                   />
                 </RadarChart>
@@ -421,7 +417,7 @@ export default function CompareTool({ teams }) {
               </table>
               <div className="px-4 py-3 border-t border-rule bg-paper font-mono text-[10px] text-slate tracking-wider uppercase flex flex-wrap items-center gap-4">
                 <span className="inline-flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-sm bg-callout border border-[#e6d27a]" />
+                  <span className="w-2 h-2 rounded-sm bg-paper border border-rule" />
                   Gold = leader · hover for why
                 </span>
                 <span className="text-ash normal-case tracking-normal italic">
@@ -431,8 +427,8 @@ export default function CompareTool({ teams }) {
             </div>
           </>
         ) : (
-          <div className="bg-paper border border-dashed border-rule rounded-sm py-20 flex flex-col items-center justify-center text-center">
-            <div className="text-4xl mb-4 text-graphite">⚖</div>
+          <div className="bg-paper border border-dashed border-rule rounded-sm py-6 flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-4 text-graphite">⚖</div>
             <div className="text-graphite text-sm mb-1">Select at least two teams to compare</div>
             <div className="text-slate text-xs">
               Up to {MAX_TEAMS} franchises · radar profile + driver-by-driver dollar contributions

@@ -21,6 +21,13 @@ export function fmtStake(pct) {
   return `${Number.isInteger(pct) ? pct : pct.toFixed(1)}%`
 }
 
+// Green for a premium to Forbes, red for a discount, neutral when flat or unknown.
+export function premiumClass(p) {
+  if (p == null) return 'text-slate'
+  const v = Math.round(p * 100)
+  return v > 0 ? 'text-positive' : v < 0 ? 'text-negative' : 'text-ink'
+}
+
 export function fmtPremium(p) {
   if (p == null) return '—'
   const v = Math.round(p * 100)
@@ -36,10 +43,10 @@ export const STATUS_LABEL = { agreed: 'Agreed', approved: 'Approved', closed: 'C
 
 // Orange family only (site palette): outline → soft fill → solid; contested = dashed ink.
 export const STATUS_PILL = {
-  agreed:    'border border-accent text-accent-dark bg-white',
+  agreed:    'border border-accent text-accent-dark bg-card',
   approved:  'border border-accent bg-accent-soft text-accent-dark',
   closed:    'border border-accent bg-accent text-white',
-  contested: 'border border-dashed border-ink text-ink bg-white',
+  contested: 'border border-dashed border-ink text-ink bg-card',
 }
 
 export const DRIVER_LABEL = {
@@ -56,10 +63,10 @@ export const DRIVER_LABEL = {
 }
 
 export const LEAGUE_ACCENT = {
-  NFL: '#1e3a8a',
-  NBA: '#991b1b',
-  MLB: '#075985',
-  NHL: '#155e75',
-  MLS: '#065f46',
-  EPL: '#581c87',
+  NFL: 'var(--text2)',
+  NBA: 'var(--text2)',
+  MLB: 'var(--text2)',
+  NHL: 'var(--text2)',
+  MLS: 'var(--text2)',
+  EPL: 'var(--text2)',
 }

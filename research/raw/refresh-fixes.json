@@ -1,0 +1,75 @@
+[
+  {
+    "teamId": "cincinnati-reds",
+    "team": "Cincinnati Reds",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Phil Castellini (president / managing partner) / Castellini family",
+        "new": "Phil Castellini (controlling owner since February 2026) / Castellini family",
+        "fact": "MLB clubs approved the transfer of control from Bob Castellini to his son Phil on February 12, 2026.",
+        "source": "https://www.fox19.com/2026/02/13/phil-castellini-takes-over-control-reds-bob-castellini/"
+      },
+      {
+        "field": "ownership.ownerBackground",
+        "old": "Bob Castellini was a major produce distribution businessman (Castellini Company) who led the 2006 acquisition for $270M. Bob Castellini served as managing general partner and chairman until his passing in January 2024. Son Phil Castellini (president/COO since 2016) assumed managing partner role. Carl Lindner Jr. (Great American Insurance) was a co-investor. The Reds are historically one of baseball's oldest franchises (1882 NL charter member) but have struggled to compete as a small-market team without significant payroll investment",
+        "new": "Bob Castellini, a produce-distribution businessman (Castellini Company), led the January 2006 purchase of 70% of the club from Carl Lindner Jr. for $270M and ran it as principal owner for twenty years. MLB clubs approved the transfer of control to his son Phil Castellini, the club's president and CEO since July 2024, on February 12, 2026; Bob Castellini remains part of the ownership group. The Reds, an 1882 NL charter member, compete as a small-market club without significant payroll investment.",
+        "fact": "Corrects an earlier claim that Bob Castellini died in January 2024; he is alive, and control passed to Phil Castellini by MLB approval on February 12, 2026.",
+        "source": "https://www.redlegnation.com/2026/02/12/the-cincinnati-reds-have-a-new-controlling-owner-phil-castellini/"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          { "name": "Phil Castellini", "role": "president / managing partner", "pct": null },
+          { "name": "Castellini family", "role": "majority ownership group", "pct": null },
+          { "name": "Carl Lindner III (Great American Insurance)", "role": "minority investor", "pct": null }
+        ],
+        "new": [
+          { "name": "Phil Castellini", "role": "controlling owner and CEO (since February 2026)", "pct": null },
+          { "name": "Bob Castellini", "role": "principal owner 2006 to 2026; remains in the ownership group", "pct": null },
+          { "name": "Castellini family", "role": "majority ownership group", "pct": null },
+          { "name": "Carl Lindner III (Great American Insurance)", "role": "minority investor", "pct": null }
+        ],
+        "fact": "Succession approved by MLB on February 12, 2026.",
+        "source": "https://www.si.com/mlb/reds/onsi/news/mlb-officially-approves-reds-owner-bob-castellini-successor-01kha7v3454m"
+      }
+    ],
+    "resolveUnverified": ["ownership.ownerBackground"]
+  },
+  {
+    "teamId": "cleveland-guardians",
+    "team": "Cleveland Guardians",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.ownerBackground",
+        "old": "Larry Dolan (media attorney, brother of Cablevision's Charles Dolan) bought franchise in 2000 for $323M. Larry died 2025; son Paul Dolan assumed principal role. David Blitzer, a Blackstone executive and multi-sport franchise investor, acquired 25-30% stake in 2022 with a 2028 option for majority — the likely future ownership transition point.",
+        "new": "Larry Dolan (media attorney, brother of Cablevision's Charles Dolan) bought the franchise in 2000 for $323M; his son Paul Dolan is the principal owner. David Blitzer, a Blackstone executive and multi-sport franchise investor, bought a 25% stake in June 2022 with an option to become controlling owner in 2028. Secondary reports in 2026 put his stake nearer 35%, which would be an increase on the 2022 purchase rather than a different deal; the 2028 path to control is the ownership transition point.",
+        "fact": "The June 2022 announcement was a 25% stake with an option for control in six years (2028). Later reports of ~35% are treated as an increase, not a conflicting figure.",
+        "source": "https://www.mlb.com/news/david-blitzer-guardians-minority-owner"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          { "name": "Paul Dolan", "role": "majority owner / chairman / CEO", "pct": null },
+          { "name": "David Blitzer", "role": "minority investor (~25-30%); option for majority in 2028", "pct": 27 }
+        ],
+        "new": [
+          { "name": "Paul Dolan", "role": "majority owner / chairman / CEO", "pct": null },
+          { "name": "David Blitzer", "role": "minority owner; 25% at the June 2022 purchase, reported nearer 35% by 2026; option for control in 2028", "pct": 25 }
+        ],
+        "fact": "Stake set to the 25% from the 2022 announcement; the 2026 ~35% reports noted as an increase.",
+        "source": "https://www.espn.com/mlb/story/_/id/34102163/minority-stake-cleveland-guardians-goes-david-blitzer-future-option-controlling-interest-per-reports"
+      }
+    ],
+    "resolveUnverified": ["ownership.ownershipGroup"]
+  },
+  {
+    "teamId": "portland-trail-blazers",
+    "team": "Portland Trail Blazers",
+    "asOf": "2026-09",
+    "changes": [],
+    "resolveUnverified": ["ownership.acquisitionYear"]
+  }
+]

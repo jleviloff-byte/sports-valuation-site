@@ -1,0 +1,2666 @@
+[
+  {
+    "teamId": "new-york-yankees",
+    "team": "New York Yankees",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "None — wholly family-owned; Yankees have consistently rejected partial sales. YES Network (26% stake) is the only external structural complexity.",
+        "new": "Apollo Sports Capital agreed (Aug 11, 2026) to a ~$2.6B debt-plus-equity investment in Yankee Global Enterprises (team, YES Network, Legends, NYCFC and AC Milan stakes) at a reported $10B+ holding-company mark; Apollo takes ~8% common plus convertible preferred (up to 16%), which needs an MLB waiver of the 15% PE cap; Steinbrenners keep 60%+ and control",
+        "fact": "Apollo Sports Capital investment in YGE announced Aug 11, 2026 (verified in transactions.js)",
+        "source": "https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Aaron Judge — 9yr/$360M extension signed Dec 2022, $40M AAV, through 2031",
+        "new": "Aaron Judge — 9yr/$360M extension signed Dec 2022, $40M AAV, through 2031; won his third AL MVP in 2025",
+        "fact": "Judge won 2025 AL MVP",
+        "source": "https://www.mlbtraderumors.com/2026/03/offseason-in-review-new-york-yankees-17.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Aaron Judge",
+            "position": "CF/RF",
+            "aav": 40,
+            "contractNote": "9yr/$360M (Dec 2022), through 2031; 2022 AL MVP, 62 HR record"
+          },
+          {
+            "player": "Gerrit Cole",
+            "position": "SP",
+            "aav": 36,
+            "contractNote": "9yr/$324M (Dec 2019), through 2028; 2023 AL Cy Young"
+          },
+          {
+            "player": "Carlos Rodón",
+            "position": "SP",
+            "aav": 27,
+            "contractNote": "6yr/$162M (Dec 2022), through 2028"
+          }
+        ],
+        "new": [
+          {
+            "player": "Aaron Judge",
+            "position": "CF/RF",
+            "aav": 40,
+            "contractNote": "9yr/$360M (Dec 2022), through 2031; 2022, 2024 and 2025 AL MVP"
+          },
+          {
+            "player": "Cody Bellinger",
+            "position": "OF/1B",
+            "aav": 32.5,
+            "contractNote": "5yr/$162.5M (Jan 2026) after opting out of his 2026 option; re-signed with New York"
+          },
+          {
+            "player": "Gerrit Cole",
+            "position": "SP",
+            "aav": 36,
+            "contractNote": "9yr/$324M (Dec 2019), through 2028; 2023 AL Cy Young; began 2026 recovering from surgery"
+          },
+          {
+            "player": "Carlos Rodón",
+            "position": "SP",
+            "aav": 27,
+            "contractNote": "6yr/$162M (Dec 2022), through 2028"
+          }
+        ],
+        "fact": "Bellinger re-signed 5yr/$162.5M in Jan 2026; Cole, Rodón and Schmidt opened 2026 recovering from surgeries",
+        "source": "https://www.mlbtraderumors.com/2026/01/yankees-to-re-sign-cody-bellinger.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "media.localTVDeal: YES Network arrangement not re-checked with a 2026 source",
+      "media.streamingNotes: Apple TV+ Friday package status for 2026 not re-checked"
+    ],
+    "analystNotes": "The Yankees are the first MLB franchise Forbes marks above $8B, at $8.5B on the March 2026 list with $710M of revenue and a $53M operating loss after a $61.8M luxury tax bill. Apollo's August 2026 investment in Yankee Global Enterprises reportedly values the holding company, which bundles YES Network and Legends with the team, above $10B, a 17% premium to the Forbes mark that prices the media and hospitality stack rather than the club alone. A 93-68 wild card berth in 2026 follows a 2025 season that ended with Judge's third MVP but no pennant; the 2009 title remains the last one. The number moves on whether MLB waives its 15% private equity cap for Apollo and on how the December 2026 CBA fight resets payroll economics for the sport's biggest spender.",
+    "analystNotesBasis": "Forbes 2026 ($8.5B, rev $0.71B, OI -$0.053B); Apollo/YGE deal Aug 2026 (transactions.js); 2026 record 93-68 (CBS, Sept 27, 2026); Bellinger 5yr/$162.5M (MLBTR)."
+  },
+  {
+    "teamId": "boston-red-sox",
+    "team": "Boston Red Sox",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Triston Casas — pre-arb; team in rebuilding mode following Devers trade (Jan 2025)",
+        "new": "Garrett Crochet — 6yr/$170M extension signed Mar 31, 2025, through 2030; 2025 AL strikeout leader (255 K, 2.59 ERA); Devers traded to San Francisco June 15, 2025",
+        "fact": "Crochet extension Mar 2025; Devers traded June 2025; Bregman left for the Cubs Jan 2026",
+        "source": "https://en.wikipedia.org/wiki/Garrett_Crochet"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Rafael Devers",
+            "position": "3B",
+            "aav": 30.1,
+            "contractNote": "11yr/$331M extension (signed Jan 2023); traded to San Francisco Giants Jan 2025 — contract transferred in deal"
+          },
+          {
+            "player": "Masataka Yoshida",
+            "position": "DH/OF",
+            "aav": 21,
+            "contractNote": "5yr/$90M (Dec 2022); through 2027"
+          }
+        ],
+        "new": [
+          {
+            "player": "Garrett Crochet",
+            "position": "SP",
+            "aav": 28.3,
+            "contractNote": "6yr/$170M extension (Mar 31, 2025), through 2030; 18-5, 2.59 ERA, 255 K in 2025; lat strain limited 2026"
+          },
+          {
+            "player": "Ranger Suárez",
+            "position": "SP",
+            "aav": 30,
+            "contractNote": "5yr/$150M free-agent deal (Jan 2026) from Philadelphia"
+          },
+          {
+            "player": "Masataka Yoshida",
+            "position": "DH/OF",
+            "aav": 21,
+            "contractNote": "5yr/$90M (Dec 2022); through 2027"
+          },
+          {
+            "player": "Rafael Devers",
+            "position": "3B/DH",
+            "aav": 30.1,
+            "contractNote": "11yr/$331M extension (Jan 2023); traded to San Francisco Giants June 15, 2025 for Kyle Harrison, Jordan Hicks and prospects; Alex Bregman (3yr/$120M, Feb 2025) opted out and signed with the Cubs Jan 2026"
+          }
+        ],
+        "fact": "Devers traded to Giants June 2025; Crochet 6yr/$170M; Suárez 5yr/$150M Jan 2026; Sonny Gray (Nov 25, 2025) and Willson Contreras (Dec 21, 2025) acquired from St. Louis",
+        "source": "https://en.wikipedia.org/wiki/2026_Boston_Red_Sox_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "media.localTVDeal",
+      "stadium.name"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: no 2026 refresh of Henry net worth"
+    ],
+    "analystNotes": "Forbes values the Red Sox at $5.25B on the 2026 list with $567M of revenue and $78M of operating income, and Boston backed that up on the field with an 87-74 wild card season, its second straight playoff trip, after sitting 14 games under .500 in the spring. The structural pieces are unchanged: FSG owns 80% of NESN and owns Fenway Park outright, so the club keeps rights fees, distribution economics and every non-game dollar at a 37,755-seat park that stays full. The Devers trade to San Francisco in June 2025 and the pivot to pitching, Crochet at 6yr/$170M and Ranger Suárez at 5yr/$150M, define the current window. What moves the number is a Bregman-style star bat or a deeper October run; the NESN and Fenway floor already prices in the downside.",
+    "analystNotesBasis": "Forbes 2026 ($5.25B, rev $0.567B, OI $0.078B); 2026 record 87-74 wild card (CBS/Wikipedia); Crochet and Suárez contracts (Wikipedia)."
+  },
+  {
+    "teamId": "toronto-blue-jays",
+    "team": "Toronto Blue Jays",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 3,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Toronto won the 2025 AL pennant and lost World Series Game 7 to the Dodgers",
+        "source": "https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Rogers Communications is publicly traded; Rogers Control Trust (family) controls majority of voting shares. Sportico's 2026 reporting indicates Rogers exploring partial sale of sports assets at implied ~$18B total valuation for sports portfolio.",
+        "new": "Rogers Communications is publicly traded; Rogers Control Trust (family) controls the voting shares. Rogers is buying the final 25% of MLSE for $3.1B (close expected Q4 2026), then plans to fold the Blue Jays into a consolidated sports group and sell a minority stake, targeted for the first half of 2027 (Front Office Sports, July 2026); Sportico has reported an ~$18B implied sports-portfolio valuation",
+        "fact": "Rogers to complete MLSE buyout in Q4 2026 and sell a minority stake in the combined sports group including the Blue Jays in H1 2027",
+        "source": "https://frontofficesports.com/blue-jays-maple-leafs-owner-to-put-stake-in-sports-empire-up-for-sale/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Vladimir Guerrero Jr.",
+            "position": "1B",
+            "aav": 35.7,
+            "contractNote": "14yr/$500M extension (2025), through 2038; third-largest contract in MLB history; $325M signing bonus"
+          },
+          {
+            "player": "George Springer",
+            "position": "CF",
+            "aav": 25,
+            "contractNote": "6yr/$150M (Nov 2020), through 2026; postseason presence"
+          }
+        ],
+        "new": [
+          {
+            "player": "Vladimir Guerrero Jr.",
+            "position": "1B",
+            "aav": 35.7,
+            "contractNote": "14yr/$500M extension (2025), through 2038; $325M signing bonus"
+          },
+          {
+            "player": "Dylan Cease",
+            "position": "SP",
+            "aav": 30,
+            "contractNote": "7yr/$210M free-agent deal (Dec 2, 2025); largest free-agent contract in Blue Jays history"
+          },
+          {
+            "player": "Kazuma Okamoto",
+            "position": "3B/1B",
+            "aav": 15,
+            "contractNote": "4yr/$60M (Jan 4, 2026) from NPB"
+          },
+          {
+            "player": "George Springer",
+            "position": "CF",
+            "aav": 25,
+            "contractNote": "6yr/$150M (Nov 2020), through 2026; Bo Bichette left for the Mets (3yr/$126M, Jan 2026)"
+          }
+        ],
+        "fact": "Cease 7yr/$210M (Dec 2025), Okamoto 4yr/$60M (Jan 2026), Tyler Rogers 3yr/$37M; Bichette signed with the Mets",
+        "source": "https://en.wikipedia.org/wiki/Dylan_Cease"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: no 2026 source on a new Toronto ballpark",
+      "media.localTVDeal: Sportsnet arrangement assumed unchanged under Rogers ownership; not separately checked"
+    ],
+    "analystNotes": "The Blue Jays sit at $2.5B on the 2026 Forbes list with $445M of revenue and a $71M operating loss, the price of a 2025 pennant run that ended in a World Series Game 7 loss to the Dodgers and a payroll that paid $13.6M in luxury tax. Toronto then spent again, Dylan Cease at 7yr/$210M and Kazuma Okamoto at 4yr/$60M, lost Bo Bichette to the Mets, and finished 78-83 and out of the 2026 race. The ownership story now matters more than the roster: Rogers closes its $3.1B buyout of the last quarter of MLSE in Q4 2026, then plans to fold the Blue Jays and Rogers Centre into one sports group and sell a minority stake in the first half of 2027. That process will put a third-party mark on a franchise Forbes has never valued above $2.5B, and it is the single event that resets the number.",
+    "analystNotesBasis": "Forbes 2026 ($2.5B, rev $0.445B, OI -$0.071B); 2025 WS result (Wikipedia); 2026 record 78-83 (CBS); Rogers/MLSE plan (FOS July 2026)."
+  },
+  {
+    "teamId": "tampa-bay-rays",
+    "team": "Tampa Bay Rays",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Patrick Zalupski (pending, ~2025); Stuart Sternberg (outgoing)",
+        "new": "Patrick Zalupski (control person; group closed on ~90% of the club Sept 30, 2025 at a reported $1.7B); Bill Cosgrove co-chair; Ken Babby CEO; Stuart Sternberg retains ~10%",
+        "fact": "Zalupski group approved Sept 22 and closed Sept 30, 2025 (transactions.js); Cosgrove co-chair and Babby CEO per ESPN owners list",
+        "source": "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Patrick Zalupski",
+            "role": "incoming majority owner / principal",
+            "pct": null
+          },
+          {
+            "name": "Stuart Sternberg",
+            "role": "outgoing majority / seller",
+            "pct": null
+          },
+          {
+            "name": "Matthew Silverman",
+            "role": "president (operational continuity)",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Patrick Zalupski",
+            "role": "control person / co-chair (Dream Finders Homes CEO)",
+            "pct": null
+          },
+          {
+            "name": "Bill Cosgrove",
+            "role": "co-chair (Union Home Mortgage CEO)",
+            "pct": null
+          },
+          {
+            "name": "Ken Babby",
+            "role": "CEO / partner",
+            "pct": null
+          },
+          {
+            "name": "Stuart Sternberg",
+            "role": "minority (retained ~10%)",
+            "pct": 10
+          }
+        ],
+        "fact": "Ownership group after the Sept 2025 close",
+        "source": "https://www.espn.com/mlb/story/_/id/47979684/who-current-mlb-team-owners"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Tropicana Field (damaged; team playing at Steinbrenner Field 2025)",
+        "new": "Tropicana Field",
+        "fact": "Rays returned to a rebuilt Tropicana Field for the 2026 home opener after ~$60M of hurricane repairs and a new roof; 2025 was played at Steinbrenner Field",
+        "source": "https://frontofficesports.com/rays-return-to-rebuilt-tropicana-field-but-bigger-questions-remain/"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by St. Petersburg / city of Tampa Bay; Rays are tenants under long-term lease; Tropicana Field roof destroyed by Hurricane Milton Oct 2024 — team displaced to Steinbrenner Field (Yankees spring training facility) for 2025 season",
+        "new": "owned by the City of St. Petersburg; Rays lease runs through 2028; Tropicana Field roof was destroyed by Hurricane Milton (Oct 2024), the team played 2025 at Steinbrenner Field, and returned to the repaired dome in April 2026",
+        "fact": "Trop lease through 2028; 2026 return",
+        "source": "https://www.cbssports.com/mlb/news/tampa-bay-rays-new-stadium-mlb/"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "Pre-hurricane: Rays and St. Petersburg had agreed on $1.3B stadium development project adjacent to Tropicana Field site. Post-Hurricane Milton (Oct 2024): Sternberg withdrew from the agreement in early 2025; new ownership group (Zalupski) will need to negotiate fresh stadium solution. Future unclear as of mid-2025.",
+        "new": "$2.3B ballpark and mixed-use entertainment district on the Hillsborough College site across from Raymond James Stadium in Tampa; ~$880M public (Hillsborough County ~$800M, City of Tampa ~$80M) and ~$1.4B private plus overruns; county owns the stadium, Rays pay $4M/yr rent on a projected 35-year lease; ~31,000 seats; target opening 2029; Tampa City Council approved 4-3 on Aug 27, 2026 and Hillsborough County approved 5-2 on Aug 28, 2026",
+        "fact": "Tampa stadium financing approved Aug 27-28, 2026",
+        "source": "https://www.cbssports.com/mlb/news/tampa-bay-rays-new-stadium-mlb/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Sun — carrier affected by Diamond Sports Group bankruptcy (2023); Rays negotiating post-Diamond local broadcast arrangement; among the MLB franchises most affected by RSN collapse due to small market and limited local alternatives",
+        "new": "Rays.tv produced and distributed by MLB Local Media from 2026 after the Rays terminated their FanDuel Sports Network Sun deal in Jan 2026 when Main Street Sports missed rights payments; FDSN shut down April 14, 2026",
+        "fact": "Rays moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ Friday games; some Rays games moved to direct streaming during RSN transition; MLB.TV blackout restrictions complicate in-market access",
+        "new": "In-market streaming through MLB.TV / the MLB app and the ESPN app under the 2026 ESPN-MLB.TV arrangement; no blackout-based RSN model remains",
+        "fact": "MLB Local Media teams stream in-market via MLB.TV and ESPN",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Wander Franco — suspended; team in transition under new ownership",
+        "new": "Junior Caminero — 3B, club control through 2030; extension talks open as of Feb 2026 but no deal; his Sept 11, 2026 walk-off clinched the playoff berth",
+        "fact": "Caminero is the franchise player; no extension yet",
+        "source": "https://www.mlbtraderumors.com/2026/02/junior-caminero-open-to-extension-talks-with-rays.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.acquisitionYear",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Díaz and McClanahan contract status for 2026 not re-checked; Freddy Peralta acquired from the Mets Aug 2, 2026 (Wikipedia) but his contract terms not sourced"
+    ],
+    "analystNotes": "The Rays finally have both halves of the story: a 98-63 team that won the 2026 AL East and the AL's top seed, and a $2.3B Tampa ballpark deal that Hillsborough County and the City of Tampa approved on Aug 27-28, 2026 with roughly $880M of public money and a 2029 opening. Forbes marked the club at $1.7B in March 2026 on $290M of revenue, exactly the price Patrick Zalupski's group paid when it closed on Sept 30, 2025, so the new owner is already playing with house money on the stadium optionality he bought. Local TV moved to MLB-produced Rays.tv after FanDuel Sports Network collapsed, which stabilizes distribution but not the rights fee. Shovels in the ground in Tampa, and a first World Series run from this roster, are what push the number toward the $2B-plus small-market comps.",
+    "analystNotesBasis": "Forbes 2026 ($1.7B, rev $0.29B); Zalupski close Sept 2025 (transactions.js); Tampa stadium approvals Aug 2026 (CBS); 2026 record 98-63 (CBS/Wikipedia)."
+  },
+  {
+    "teamId": "baltimore-orioles",
+    "team": "Baltimore Orioles",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "David Rubenstein (Carlyle Group co-founder, majority purchaser)",
+        "new": "David Rubenstein (control person; his group bought ~40% in March 2024 and completed the second-stage purchase of the Angelos family stake in 2024, taking the group to ~97%)",
+        "fact": "Rubenstein group completed the Angelos buyout in 2024 and owns ~97%",
+        "source": "https://www.thebanner.com/sports/orioles-mlb/orioles-sale-david-rubenstein-angelos-XSZ43VGRU5GPDJ5FI5U3JHP6TE/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "MASN (Mid-Atlantic Sports Network) — Orioles own 67% of MASN, Nationals own 33%; long-running revenue dispute with Nationals over rights fees paid by MASN to both teams in arbitration since 2012; district court ruled in 2023 that Nationals owed ~$100M+ in underpaid fees from Orioles-advantaged MASN arrangement",
+        "new": "MASN (Mid-Atlantic Sports Network) — now wholly controlled by the Orioles after the Nationals left for MLB-produced Nationals.tv in 2026; the 13-year rights-fee dispute was settled March 3, 2025 and the Nationals' MASN agreement ended after the 2025 season; MASN2 shut down March 3, 2026",
+        "fact": "MASN dispute settled March 2025; Nationals exited after 2025",
+        "source": "https://en.wikipedia.org/wiki/Mid-Atlantic_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "MASN available on streaming platforms; Apple TV+ Friday games; legal uncertainty around MASN rights fee dispute creates ongoing revenue risk",
+        "new": "MASN carried on cable and vMVPDs; the settled Nationals dispute removes the litigation overhang but also removes the Nationals' programming from the network",
+        "fact": "MASN is an Orioles-only network from 2026",
+        "source": "https://en.wikipedia.org/wiki/Mid-Atlantic_Sports_Network"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Adley Rutschman",
+            "position": "C",
+            "aav": 15,
+            "contractNote": "6yr/$90M extension (Mar 2023), through 2028; franchise catcher"
+          },
+          {
+            "player": "Gunnar Henderson",
+            "position": "SS",
+            "aav": null,
+            "contractNote": "Pre-arbitration through 2026; extension discussions expected; comps suggest $200M+ deal"
+          }
+        ],
+        "new": [
+          {
+            "player": "Adley Rutschman",
+            "position": "C",
+            "aav": 15,
+            "contractNote": "6yr/$90M extension (Mar 2023), through 2028"
+          },
+          {
+            "player": "Gunnar Henderson",
+            "position": "SS",
+            "aav": null,
+            "contractNote": "Turned down an Orioles extension offer in spring 2025 (Boras client); arbitration years through 2028; Rubenstein says the club is 'open for business' on a deal"
+          }
+        ],
+        "fact": "Henderson declined a spring 2025 extension offer; no deal as of 2026",
+        "source": "https://www.mlbtraderumors.com/2026/03/orioles-made-gunnar-henderson-an-extension-offer-last-spring.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: exact post-2024 stake split among Rubenstein, Arougheti, Bloomberg and the Angelos family not sourced"
+    ],
+    "analystNotes": "Forbes puts the Orioles at $2.1B on the 2026 list with $355M of revenue and $23M of operating income, up 22% from the $1.725B David Rubenstein's group paid when it took control in 2024 and then bought out the rest of the Angelos family stake. The March 2025 MASN settlement ended a 13-year rights-fee war and, from 2026, leaves Baltimore as the sole owner of an Orioles-only network after Washington moved to MLB-produced Nationals.tv, which trades litigation risk for a thinner programming base. On the field the young core stalled at 79-82 in 2026, a second straight miss, and Gunnar Henderson turned down an extension offer. The Camden Yards development rights in the 30-year lease are the value lever; a Henderson deal and a return to October are what keep the multiple from slipping.",
+    "analystNotesBasis": "Forbes 2026 ($2.1B, rev $0.355B, OI $0.023B); Rubenstein ~97% (Baltimore Banner, 2024); MASN settlement (Wikipedia); 2026 record 79-82 (Wikipedia)."
+  },
+  {
+    "teamId": "chicago-white-sox",
+    "team": "Chicago White Sox",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "stadium.name",
+        "old": "Guaranteed Rate Field",
+        "new": "Rate Field",
+        "fact": "Guaranteed Rate Field was shortened to Rate Field in Dec 2024 after the sponsor's rebrand",
+        "source": "https://en.wikipedia.org/wiki/Rate_Field"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Guaranteed Rate (mortgage company)",
+          "annualValue_M": 5.2,
+          "totalValue_M": null,
+          "expiryYear": 2026,
+          "notes": "Naming rights deal with Guaranteed Rate mortgage company; previously U.S. Cellular Field ('The Cell'); deal expiring around 2026 — renewal or replacement under negotiation as team addresses stadium future"
+        },
+        "new": {
+          "sponsor": "Rate (formerly Guaranteed Rate)",
+          "annualValue_M": 5.2,
+          "totalValue_M": null,
+          "expiryYear": 2029,
+          "notes": "13-year deal announced Oct 31, 2016 (reported $20.4M over its first ten years); name shortened to Rate Field in Dec 2024; the team's lease at the ISFA-owned park runs through 2029, which is also when a new ballpark would need to be ready"
+        },
+        "fact": "Naming deal is the 2016 13-year Guaranteed Rate agreement; Rate Field since Dec 2024; lease through 2029",
+        "source": "https://en.wikipedia.org/wiki/Rate_Field"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "White Sox seeking public support for new stadium in Chicago's South Loop/Near South Side; early proposals sought ~$1B+ in public financing; City Council debate ongoing as of 2025 with political complications given the 2024 historic 121-loss season diminishing leverage",
+        "new": "Justin Ishbia unveiled 'The Railyards' in Sept 2026: an ~80-acre mixed-use district on the Amtrak 14th Street rail yard on the west bank of the river (across from Related Midwest's The 78, where Reinsdorf failed to win public funds), with a 35,000-38,000-seat ballpark, residential, commercial and a Northwestern Medicine facility; the ballpark would be privately financed with a public ask for roads, bridges and a possible Metra station; Rate Field lease expires 2029",
+        "fact": "Ishbia Railyards plan presented Sept 2026",
+        "source": "https://therealdeal.com/chicago/2026/09/08/ishbias-vision-for-white-sox-stadium-development-revealed/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: 2026 roster contracts (Jiménez departed; Colson Montgomery, Luis Robert Jr. traded to the Mets per Mets 2026 page) not fully sourced; array left as is",
+      "ownership.ownershipGroup: Ishbia's LP percentage after the 2025 buyouts is undisclosed"
+    ],
+    "analystNotes": "The White Sox went from 121 losses in 2024 and a third straight 100-loss year in 2025 to an 83-78 wild card berth in 2026, the first club ever to make the playoffs after three consecutive 100-loss seasons, and Forbes still had them at $1.94B on the 2026 list with $239M of revenue and a $40M operating loss. Justin Ishbia bought the limited partners' shares at a $1.8B mark in 2025, holds a control option from 2029 to 2034, and in September 2026 put his own plan on the table: a privately financed 35,000-38,000-seat ballpark inside an 80-acre Railyards district on the Amtrak yard, with public money asked only for infrastructure. The Rate Field lease and naming deal both expire in 2029, which is the real deadline. City approval of the Railyards infrastructure package, plus the timing of Ishbia's control purchase, are what move a club that trades at 40% of the Cubs' value in the same market.",
+    "analystNotesBasis": "Forbes 2026 ($1.94B, rev $0.239B, OI -$0.04B); Ishbia LP deal (transactions.js); Railyards plan Sept 2026 (The Real Deal); 2026 record 83-78 wild card (Wikipedia/CBS)."
+  },
+  {
+    "teamId": "cleveland-guardians",
+    "team": "Cleveland Guardians",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Great Lakes (Diamond Sports Group) — affected by Diamond's 2023 bankruptcy; Guardians among MLB teams forced to negotiate post-RSN local TV transition; team exploring direct streaming deals and potential CHSN-style local network",
+        "new": "CLEGuardians.tv produced and distributed by MLB Local Media since 2025 (post-Diamond Sports exit); Cleveland qualified for MLB's 2025 media disruption distribution (up to $15M) for lost local TV fees",
+        "fact": "Guardians joined MLB Local Media in 2025",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ Friday games; MLB.TV; local streaming future uncertain post-Diamond bankruptcy; FanDuel Sports Network (formerly Bally Sports) in transition",
+        "new": "In-market streaming through MLB.TV / MLB app and, from 2026, the ESPN app under the ESPN-MLB.TV distribution deal",
+        "fact": "MLB Local Media in-market streaming via MLB.TV and ESPN",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by Gateway Economic Development Corporation (public); Guardians hold long-term lease with major renovation commitment; $202M renovation completed 2015 (public-private partnership)",
+        "new": "owned by Gateway Economic Development Corporation (public); Guardians hold a long-term lease; $202M renovation completed 2015 and a further $200M+ 'Progressive Field Reimagined' program ran 2023-2026, with the final phase (new upper-deck seating and concrete) completed for the 2026 season",
+        "fact": "Third and final renovation phase completed before 2026",
+        "source": "https://www.crainscleveland.com/sports-recreation/ccl-guardians-progressive-20260331/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: secondary sources put Blitzer at ~35% with a control option exercisable after the 2027 season (vs. 27% / 2028 in the enrichment); no primary source found, left unchanged",
+      "stadium.namingRightsDeal: Progressive extension term not re-checked"
+    ],
+    "analystNotes": "Cleveland is the small-market template at $1.66B on the 2026 Forbes list with $337M of revenue and $53M of operating income, one of the best margins in the league, and a third straight AL Central title in 2026 after climbing from 61-66 in August to 85-76. The Progressive Field Reimagined program, more than $200M across three phases, finished for 2026 on a publicly owned park under a long lease, and local TV runs through MLB-produced CLEGuardians.tv with a media disruption payment cushioning the lost Diamond rights fee. David Blitzer's minority stake carries a control option later this decade, and that transfer, priced against a club that wins on a bottom-third payroll, is the event that re-rates the franchise. Until then the number tracks José Ramírez's production and whatever the December 2026 CBA does to revenue sharing.",
+    "analystNotesBasis": "Forbes 2026 ($1.66B, rev $0.337B, OI $0.053B); 2026 record 85-76 division title (Wikipedia/CBS); MLB Local Media since 2025 (Wikipedia); renovation completion (Crain's, Mar 2026)."
+  },
+  {
+    "teamId": "detroit-tigers",
+    "team": "Detroit Tigers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Tigers went 76-85 in 2026 and traded Skubal at the deadline",
+        "source": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-picture-standings-bracket/"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Comerica Bank (will become Fifth Third after 2026)",
+          "annualValue_M": 2.2,
+          "totalValue_M": 66,
+          "expiryYear": 2034,
+          "notes": "Comerica Bank paid $66M over 30 years ($2.2M/yr) when agreed in 1998; extended through 2034 in 2018. Fifth Third Bancorp acquired Comerica in 2025 deal — stadium will be renamed after 2026 season pending Fifth Third's rebranding decisions. New naming rights deal likely ~$8-10M/yr given current market rates."
+        },
+        "new": {
+          "sponsor": "Fifth Third Bank (Fifth Third Park from the 2027 season; Comerica Park through 2026)",
+          "annualValue_M": 2.2,
+          "totalValue_M": 66,
+          "expiryYear": 2034,
+          "notes": "Comerica's original 30-year/$66M deal (extended through 2034 in 2018) transfers to Fifth Third after its $10.9B acquisition of Comerica closed in 2026; the Tigers and Fifth Third announced on Sept 21, 2026 that the park becomes Fifth Third Park for 2027, the first name change in its history; whether the rights fee was reset was not disclosed"
+        },
+        "fact": "Comerica Park to be renamed Fifth Third Park for 2027 (announced Sept 21, 2026)",
+        "source": "https://www.mlb.com/news/tigers-ballpark-name-changed-to-fifth-third-park"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Detroit (Diamond Sports Group) — affected by Diamond bankruptcy; Tigers negotiating post-RSN local broadcast solution; Detroit market has fewer cord-cutting alternatives than larger markets, creating transition complexity",
+        "new": "Detroit SportsNet — launched for the 2026 season by Ilitch Sports + Entertainment in partnership with MLB Local Media after the Tigers terminated FanDuel Sports Network Detroit in Jan 2026 over missed rights payments; carries Tigers and (from 2026-27) Red Wings games; distributed on DirecTV, Xfinity, Spectrum, U-verse and streamed via MLB.TV / tigers.com",
+        "fact": "Detroit SportsNet replaced FDSN Detroit for 2026",
+        "source": "https://en.wikipedia.org/wiki/Detroit_SportsNet"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ Friday games; MLB.TV; local media future contingent on post-Diamond RSN resolution",
+        "new": "Direct-to-consumer via MLB.TV (Tigers.TV) and tigers.com/watch, plus DirecTV Stream and Fubo; Apple TV+ Friday games nationally",
+        "fact": "Detroit SportsNet DTC distribution",
+        "source": "https://en.wikipedia.org/wiki/Detroit_SportsNet"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Tarik Skubal — 2024 AL Cy Young winner; extension expected as franchise cornerstone",
+        "new": "Kevin McGonigle — SS/2B, 8yr/$150M extension (Apr 15, 2026) through 2034, a record guarantee for a player still prospect-eligible; Tarik Skubal (2024 and 2025 AL Cy Young) was traded to the Dodgers Aug 3, 2026 ahead of free agency after Detroit's 4yr/$75M extension offer went nowhere",
+        "fact": "McGonigle extension Apr 2026; Skubal traded Aug 2026",
+        "source": "https://en.wikipedia.org/wiki/Kevin_McGonigle"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Tarik Skubal",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Pre-extension as of 2025; 2024 AL Cy Young; control through arbitration, extension discussions likely to yield $150M+ deal"
+          },
+          {
+            "player": "Spencer Torkelson",
+            "position": "1B",
+            "aav": null,
+            "contractNote": "Pre-arb franchise corner; 2021 #1 overall pick in development"
+          },
+          {
+            "player": "Riley Greene",
+            "position": "CF",
+            "aav": null,
+            "contractNote": "Pre-arb; emerging offensive talent"
+          }
+        ],
+        "new": [
+          {
+            "player": "Framber Valdez",
+            "position": "SP",
+            "aav": 38.3,
+            "contractNote": "3yr/$115M free-agent deal (Feb 2026): $17.5M 2026, $37.5M 2027, $35M 2028, opt-out after 2027, $40M mutual option 2029; $20M signing bonus deferred to 2030+"
+          },
+          {
+            "player": "Kevin McGonigle",
+            "position": "SS/2B",
+            "aav": 18.75,
+            "contractNote": "8yr/$150M extension (Apr 15, 2026) through 2034, signed three weeks after his MLB debut"
+          },
+          {
+            "player": "Tarik Skubal",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Traded to the Los Angeles Dodgers Aug 3, 2026 for River Ryan, Zyhir Hope and Brady Smith; free agent after 2026"
+          },
+          {
+            "player": "Spencer Torkelson",
+            "position": "1B",
+            "aav": null,
+            "contractNote": "Arbitration years; 2021 No. 1 overall pick"
+          },
+          {
+            "player": "Riley Greene",
+            "position": "CF",
+            "aav": null,
+            "contractNote": "Arbitration years"
+          }
+        ],
+        "fact": "Valdez 3yr/$115M (Feb 2026), McGonigle 8yr/$150M (Apr 2026), Skubal traded (Aug 2026)",
+        "source": "https://www.mlbtraderumors.com/2026/02/tigers-framber-valdez-agree-to-three-year-deal.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name"
+    ],
+    "unverified": [],
+    "analystNotes": "Detroit's $1.8B Forbes mark (2026 list, $363M revenue, $27M operating income) was built on the 2024-2025 playoff runs and the cheapest ace in baseball; 2026 broke both, a 76-85 season and the Aug 3 trade of Tarik Skubal to the Dodgers after Chris Ilitch declined to fund a $400M-plus extension. The Ilitches did spend where it locks value: Framber Valdez at 3yr/$115M, Kevin McGonigle at a record 8yr/$150M three weeks into his career, and Detroit SportsNet, an in-house channel run with MLB Local Media that replaced FanDuel Sports Network Detroit and now bundles the Red Wings. Comerica Park becomes Fifth Third Park in 2027 after the bank merger, an opening to reprice a $2.2M-a-year naming deal that has not moved since 1998. The rights fee attached to that rename, and whether the young core returns to October without Skubal, set the next Forbes print.",
+    "analystNotesBasis": "Forbes 2026 ($1.8B, rev $0.363B, OI $0.027B); Skubal trade (ESPN, Aug 2026); Valdez and McGonigle deals (MLBTR/Wikipedia); Fifth Third Park (MLB.com, Sept 21, 2026); 2026 record 76-85 (CBS)."
+  },
+  {
+    "teamId": "kansas-city-royals",
+    "team": "Kansas City Royals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 0,
+        "fact": "The 2015 title now falls outside the 2016-2025 ten-year window",
+        "source": "https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New $1.9B ballpark at Crown Center (85-acre mixed-use development totaling $3B) announced 2026; ~2/3 private / ~1/3 public funding; state + city earmarks; groundbreaking targeted for 2027; targeted opening ~2030",
+        "new": "New ~$1.9B ballpark at Crown Center on the site of Hallmark's headquarters, part of a $3B, 85-acre district announced with Hallmark Cards on April 22, 2026; Kansas City Council approved the framework 11-2 in Aug 2026 with $600M of city-backed bonds repaid from a stadium taxing district, and Missouri's June 2025 special-session plan covers annual bond payments equal to the teams' current state tax generation (~$1.5B over 30 years); no public vote required after the 2024 Jackson County measure failed 58-42; groundbreaking targeted 2027, opening ~2030; Kauffman lease runs through 2031",
+        "fact": "Crown Center site announced Apr 2026; council framework approved Aug 2026",
+        "source": "https://www.kcur.org/sports/2026-04-22/kansas-city-royals-stadium-location-crown-center"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Kansas City (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023; Royals and other Bally teams face uncertain local media future as Diamond restructures",
+        "new": "Royals.tv produced and distributed by MLB Local Media from 2026 after the Royals terminated FanDuel Sports Network Kansas City in Jan 2026 over missed rights payments; FDSN shut down April 14, 2026",
+        "fact": "Royals moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "MLB.TV nationally; Royals exploring direct-to-consumer streaming options as RSN landscape collapses",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; MLB.TV nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "onField.starContracts"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: ESPN lists Patrick Mahomes and Eric Stonestreet among Sherman's investors; group composition not otherwise re-checked"
+    ],
+    "analystNotes": "The Royals' stadium saga is settled: on April 22, 2026 the club and Hallmark announced a ~$1.9B ballpark at Crown Center inside a $3B district, the City Council approved the framework 11-2 in August with $600M of city bonds, and Missouri's matching plan needs no public vote after the 2024 county measure failed. Forbes marked Kansas City at $1.64B on the 2026 list with $330M of revenue and $25M of operating income, near the bottom of the league, and a 68-93 season plus the move to MLB-produced Royals.tv after FanDuel Sports Network collapsed explain why. Bobby Witt Jr. is locked through 2034 at a $26.3M AAV that looks better every year. Groundbreaking in 2027 and a firm 2030 opening are what carry this franchise into the $2B tier that new-ballpark peers reached.",
+    "analystNotesBasis": "Forbes 2026 ($1.64B, rev $0.33B, OI $0.025B); Crown Center announcement (KCUR, Apr 2026) and council approval (Ballpark Digest, Aug 2026); 2026 record 68-93 (CBS); Royals.tv (Wikipedia)."
+  },
+  {
+    "teamId": "minnesota-twins",
+    "team": "Minnesota Twins",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Tom Pohlad (controlling owner / chairman)",
+        "new": "Tom Pohlad (controlling owner / chairman, formally named Dec 2025)",
+        "fact": "ESPN's Sept 2026 owners list: Tom Pohlad named controlling owner Dec 2025",
+        "source": "https://www.espn.com/mlb/story/_/id/47979684/who-current-mlb-team-owners"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Tom Pohlad",
+            "role": "controlling owner / chairman",
+            "pct": null
+          },
+          {
+            "name": "Jim Pohlad",
+            "role": "minority / former chairman",
+            "pct": null
+          },
+          {
+            "name": "New minority investors (3)",
+            "role": "minority passive (2024 addition)",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Tom Pohlad",
+            "role": "controlling owner / chairman",
+            "pct": null
+          },
+          {
+            "name": "Jim Pohlad",
+            "role": "minority / former chairman",
+            "pct": null
+          },
+          {
+            "name": "Glick Family Investments",
+            "role": "limited partner (part of the ~20% sold Dec 2025)",
+            "pct": null
+          },
+          {
+            "name": "George G. Hicks",
+            "role": "limited partner (Dec 2025)",
+            "pct": null
+          },
+          {
+            "name": "Craig Leipold",
+            "role": "limited partner (Dec 2025; Minnesota Wild owner)",
+            "pct": null
+          }
+        ],
+        "fact": "Pohlads ended the control-sale process in Aug 2025 and sold just over 20% to three LPs on Dec 17, 2025 at a reported $1.75B, ~$350M used to pay down debt (transactions.js)",
+        "source": "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Three new minority investors added in 2024; names undisclosed",
+        "new": "Glick Family Investments, George G. Hicks and Craig Leipold bought just over 20% in Dec 2025 at a reported $1.75B valuation (~$350M), proceeds applied against roughly $400-500M of club debt; the family kept control after failing to find a buyer for the whole club in 2025",
+        "fact": "Dec 2025 LP sale",
+        "source": "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports North (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023; Twins among teams exploring streaming alternatives as RSN revenues uncertain; Twins TV situation among the most uncertain in AL Central",
+        "new": "Twins.tv produced and distributed by MLB Local Media since 2025 after the Diamond Sports / Bally Sports North exit; Minnesota qualified for MLB's 2025 media disruption distribution",
+        "fact": "Twins joined MLB Local Media in 2025",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "MLB.TV nationally; Twins pursuing direct streaming partnerships to replace/supplement RSN",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; MLB.TV nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "stadium.name",
+      "stadium.namingRightsDeal",
+      "onField.starContracts"
+    ],
+    "unverified": [],
+    "analystNotes": "The Twins' valuation story is a balance sheet story: the Pohlads pulled the club off the market in August 2025, then sold just over 20% to three limited partners in December at a reported $1.75B and used the ~$350M to cut roughly $400-500M of debt. Forbes landed at $1.71B on the 2026 list with $315M of revenue and only $11M of operating income, so the private mark and the public one agree. Target Field's $15M-a-year Target deal runs to 2035 and local TV is now MLB-produced Twins.tv, which caps the downside but not the upside. A second straight losing season (76-85) with Buxton and López on the 60-day IL leaves a future control sale, at a price the 2025 process failed to find, as the only real catalyst.",
+    "analystNotesBasis": "Forbes 2026 ($1.71B, rev $0.315B, OI $0.011B); Dec 2025 LP sale (transactions.js); 2026 record 76-85 (Wikipedia); Twins.tv (Wikipedia)."
+  },
+  {
+    "teamId": "houston-astros",
+    "team": "Houston Astros",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jose Altuve — 5yr/$125M extension signed 2019, through 2024; re-signed on new deal; franchise cornerstone SS/2B since 2011",
+        "new": "Jose Altuve — 5yr/$125M extension (2024) through 2029; Jeremy Peña (Boras client) rejected extension talks and is the pending decision",
+        "fact": "Altuve 5yr/$125M 2024 extension; Peña extension talks failed",
+        "source": "https://sports.yahoo.com/articles/astros-news-ex-gm-makes-225322861.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jose Altuve",
+            "position": "2B",
+            "aav": 29,
+            "contractNote": "Multi-year extension; franchise icon; 3x All-Star, 2017 WS MVP, 7x AL batting title contender"
+          },
+          {
+            "player": "Framber Valdez",
+            "position": "SP",
+            "aav": 16,
+            "contractNote": "Extension keeping ace starter through mid-2020s; elite sinker/curveball arsenal"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jose Altuve",
+            "position": "2B/LF",
+            "aav": 25,
+            "contractNote": "5yr/$125M extension (2024), through 2029; 2017 WS MVP"
+          },
+          {
+            "player": "Tatsuya Imai",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "3yr/$54M (2025-26 offseason) from NPB"
+          },
+          {
+            "player": "Framber Valdez",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Left in free agency; signed 3yr/$115M with Detroit (Feb 2026)"
+          },
+          {
+            "player": "Jeremy Peña",
+            "position": "SS",
+            "aav": null,
+            "contractNote": "Arbitration years; hired Scott Boras after extension talks with the club failed; free agent after 2027"
+          }
+        ],
+        "fact": "Valdez left for Detroit; Imai signed 3yr/$54M; Peña unextended",
+        "source": "https://en.wikipedia.org/wiki/2026_Houston_Astros_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Daikin fee still undisclosed; no 2026 source",
+      "onField.starContracts: Peña's exact free-agency year not sourced"
+    ],
+    "analystNotes": "The Astros are worth $3.2B on the 2026 Forbes list with $464M of revenue and a $45M operating loss, a franchise still priced on eight straight postseasons even though the streak ended in 2025 and 2026 came down to the final day at 80-81 in a dead heat with Texas. Space City Home Network, co-owned with the Rockets, kept Houston out of the FanDuel collapse that hit nine clubs, and the Daikin naming deal runs to 2039. Jim Crane let Framber Valdez walk to Detroit at 3yr/$115M, bought Tatsuya Imai at 3yr/$54M, and has not extended Jeremy Peña, who hired Boras after talks broke down. The number now depends on whether Crane re-funds the roster around Altuve's back half or accepts a step down from the $3B-plus contender tier.",
+    "analystNotesBasis": "Forbes 2026 ($3.2B, rev $0.464B, OI -$0.045B); 2026 standings on final day (CBS, Sept 27); Valdez/Imai (Wikipedia 2026 Astros season); Altuve 2024 extension (Yahoo)."
+  },
+  {
+    "teamId": "los-angeles-angels",
+    "team": "Los Angeles Angels",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Arte Moreno (majority owner / chairman)",
+        "new": "Arte Moreno (control person until close); Stan Kroenke / Kroenke Sports & Entertainment agreed Sept 1, 2026 to buy Moreno's controlling interest at a reported ~$4B (MLB record), Moreno keeping an undisclosed minority stake; close expected Q1 2027 pending MLB approval",
+        "fact": "KSE purchase of the Angels' controlling interest announced Sept 2026 (transactions.js)",
+        "source": "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Arte Moreno",
+            "role": "majority owner / chairman",
+            "pct": null
+          },
+          {
+            "name": "Carole Moreno",
+            "role": "co-owner",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Arte Moreno",
+            "role": "majority owner / chairman (selling control; retains undisclosed minority stake)",
+            "pct": null
+          },
+          {
+            "name": "Carole Moreno",
+            "role": "co-owner",
+            "pct": null
+          },
+          {
+            "name": "Stan Kroenke / Kroenke Sports & Entertainment",
+            "role": "incoming controlling owner (agreed Sept 2026; close expected Q1 2027 pending MLB approval)",
+            "pct": null
+          }
+        ],
+        "fact": "Kroenke agreed to buy control Sept 2026",
+        "source": "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports West (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023; Angels among the most exposed teams to RSN collapse given the large LA market — Bally West covered both Angels and Kings (NHL); loss of RSN revenues is the key financial risk",
+        "new": "Angels Broadcast Television (ABTV) — after terminating with Main Street Sports in Jan 2026, the Angels agreed on March 9, 2026 to buy Main Street's stake in FanDuel Sports Network West, becoming sole owner of the channel, which was renamed ABTV on May 1, 2026; distributed on cable across Southern California, Las Vegas and Hawaii and nationally on DirecTV, with 12 games simulcast on KCOP-TV",
+        "fact": "Angels bought out and renamed their RSN in 2026",
+        "source": "https://en.wikipedia.org/wiki/Angels_Broadcast_Television"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "MLB.TV nationally; Angels exploring streaming deals as Diamond restructures; LA market cable penetration declining; Peacock/Apple TV+ national games provide exposure",
+        "new": "Direct-to-consumer streaming through MLB's platform (MLB.TV / ESPN app) for in-market fans without cable; MLB.TV nationally",
+        "fact": "In-market DTC via MLB for ABTV",
+        "source": "https://www.sportsmediawatch.com/2026/03/angels-own-operate-fanduel-sports-network-buyout-main-street/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mike Trout",
+            "position": "CF",
+            "aav": 35.5,
+            "contractNote": "12yr/$426.5M (2019), through 2030; injuries have severely limited availability; Trout played in 29/82/119 games 2021-2023"
+          },
+          {
+            "player": "Anthony Rendon",
+            "position": "3B",
+            "aav": 38.6,
+            "contractNote": "7yr/$245M (2019), through 2026; persistent injuries; played in 58 games total 2022-2023; widely viewed as worst contract in Angels history"
+          }
+        ],
+        "new": [
+          {
+            "player": "Mike Trout",
+            "position": "CF/DH",
+            "aav": 35.5,
+            "contractNote": "12yr/$426.5M (2019), through 2030; four years and $141.8M remain after 2026"
+          },
+          {
+            "player": "Anthony Rendon",
+            "position": "3B",
+            "aav": 38.6,
+            "contractNote": "7yr/$245M (2019) ends 2026; restructured Jan 2026 so he does not play in 2026 and his $38M final-year salary is paid $7.6M/yr over 2026-2030"
+          }
+        ],
+        "fact": "Rendon's 2026 salary deferred over five years; he is not playing in 2026",
+        "source": "https://www.mlbtraderumors.com/2026/01/anthony-rendons-2026-salary-to-be-paid-over-five-years.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "stadium.newStadiumPlans: transactions.js notes the lease runs to 2032 with options to 2038 (vs. 2029 in the enrichment) and ~130 acres of parking; no primary lease source fetched, left unchanged"
+    ],
+    "analystNotes": "The Angels are the largest number in baseball's 2026 sale market: Stan Kroenke agreed on Sept 1, 2026 to buy Arte Moreno's controlling interest at a reported ~$4B, a 43% premium to the $2.8B Forbes mark from March and a record for an MLB club, with closing expected in the first quarter of 2027. Forbes counts $377M of revenue and a $14M operating loss for a 62-98 team with no playoff trip since 2014, so Kroenke is paying for the Los Angeles market and roughly 130 acres of publicly owned parking around Angel Stadium, not the roster. The club bought out Main Street's half of its RSN and relaunched it as Angels Broadcast Television in May 2026, keeping local rights in house through the FanDuel collapse. Rendon is paid off through 2030, Trout has $141.8M left through 2030, and the stadium land deal Kroenke negotiates with Anaheim is what turns $4B into a rational price.",
+    "analystNotesBasis": "Forbes 2026 ($2.8B, rev $0.377B, OI -$0.014B); Kroenke deal Sept 2026 (transactions.js / MLB.com); ABTV (Wikipedia); Rendon restructure (MLBTR); 2026 record 62-98 (CBS)."
+  },
+  {
+    "teamId": "oakland-athletics",
+    "team": "Oakland Athletics",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; A's finished 64-97 in 2026 (the 2020 appearance is outside the 2021-2025 window)",
+        "source": "https://en.wikipedia.org/wiki/2026_Athletics_season"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Minority stake sale explored 2025 at implied $2B valuation (25% chunk = ~$500M); Aramark Sports + Entertainment holds equity stake via concessions partnership",
+        "new": "Harbinger Sports Partners (Mark Cuban GP/president) bought a minority stake in July 2026, reported at ~$50M for new shares at a ~$3.8B post-money mark that covers the club plus the Las Vegas ballpark, part of Fisher's ~$550M equity raise for the stadium; Aramark Sports + Entertainment also holds equity via its concessions partnership",
+        "fact": "Harbinger/Cuban minority stake July 2026 (transactions.js)",
+        "source": "https://www.espn.com/mlb/story/_/id/49435620/cuban-investment-group-purchases-minority-stake-athletics"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "minor-league ballpark in Sacramento; A's using as temporary home for 2025-2027 seasons while Las Vegas stadium is constructed; Sacramento city-owned facility",
+        "new": "West Sacramento city-owned minor-league park (River Cats); A's temporary home for 2025-2027 while the Las Vegas ballpark is built; the club replaced the field and upgraded dugouts and cages for 2026 and played six 2026 home games at Las Vegas Ballpark in Summerlin",
+        "fact": "2026 second season in West Sacramento; six games in Las Vegas",
+        "source": "https://en.wikipedia.org/wiki/2026_Athletics_season"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "New Las Vegas ballpark on the Tropicana Las Vegas site (strip-adjacent); ~$1.75-2B total cost; Fisher committed $1B private investment; Goldman Sachs $300M construction loan; Aramark $175M equity/concessions stake; Nevada Tourism Infrastructure Tax provides ~$380M public contribution; 33,000 capacity; targeted opening 2028",
+        "new": "$2B, 33,000-seat fully enclosed ballpark at Las Vegas Blvd and Tropicana Ave on the Strip; groundbreaking June 23, 2025; foundation complete Feb 2026, first roof truss raised June 2026; ~$400M spent by May 2026 with the project reported on time and on budget; Fisher funding $1B+ privately (Goldman Sachs construction loan, Aramark and Harbinger equity), Nevada's tourism-tax package ~$380M; target opening Feb 29, 2028 with an adjacent $1.19B Bally's resort",
+        "fact": "Vegas ballpark construction status mid-2026",
+        "source": "https://ballparkdigest.com/2026/05/23/after-400m-new-athletics-ballpark-is-on-time-on-budget/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "NBC Sports California (AT&T SportsNet) went dark in 2023; A's playing games without a local cable TV deal in transition years; exploring direct streaming and OTA broadcast options in both Sacramento and Las Vegas markets",
+        "new": "NBC Sports California carries A's telecasts during the Sacramento years (2026 season broadcaster per the 2026 season record); no Las Vegas-market deal announced",
+        "fact": "2026 TV on NBC Sports California (the enrichment's 'went dark in 2023' claim conflicted with the AT&T SportsNet history and current carriage)",
+        "source": "https://en.wikipedia.org/wiki/2026_Athletics_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Brent Rooker — breakout 2023-24 seasons; signed multi-year extension; represents the scrappy value-player model the A's rely on given low payroll",
+        "new": "Brent Rooker — 5yr/$60M extension (Jan 7, 2025); out for the rest of 2026 after knee surgery",
+        "fact": "Rooker extension Jan 2025; season-ending surgery 2026",
+        "source": "https://en.wikipedia.org/wiki/Brent_Rooker"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Brent Rooker",
+            "position": "LF/DH",
+            "aav": 10,
+            "contractNote": "Multi-year extension; emerged as key offensive piece during Oakland final seasons and Sacramento transition"
+          }
+        ],
+        "new": [
+          {
+            "player": "Brent Rooker",
+            "position": "DH/LF",
+            "aav": 12,
+            "contractNote": "5yr/$60M extension (Jan 7, 2025); 2026 ended by knee cartilage surgery after 48 games"
+          }
+        ],
+        "fact": "Rooker 5yr/$60M",
+        "source": "https://en.wikipedia.org/wiki/Brent_Rooker"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Lawrence Butler and Luis Severino contracts not sourced (Wikipedia disambiguation only)",
+      "media.streamingNotes: in-market streaming arrangement for Sacramento not sourced"
+    ],
+    "analystNotes": "The A's are a stadium bond with a baseball team attached: Forbes marks the club at $2B on the 2026 list with $320M of revenue and $45M of operating income, while Mark Cuban's Harbinger Sports Partners bought in during July 2026 at a reported ~$3.8B post-money mark that includes the $2B Las Vegas ballpark. That ballpark is real, with the foundation done in February 2026, the first roof truss up in June, about $400M spent and a Feb 29, 2028 target, and Fisher's $1B-plus private commitment is backed by Goldman, Aramark and now Cuban. The interim product is thin, a 64-97 team playing in a 14,014-seat minor-league park in West Sacramento with six games shifted to Summerlin. Opening on time on the Strip, and a Las Vegas media deal that does not yet exist, are what close the gap between the Forbes number and the price investors are already paying.",
+    "analystNotesBasis": "Forbes 2026 ($2B, rev $0.32B, OI $0.045B); Harbinger stake July 2026 (transactions.js); Vegas construction (Ballpark Digest May 2026, Las Vegas Sun Feb 2026); 2026 record 64-97 (Wikipedia)."
+  },
+  {
+    "teamId": "seattle-mariners",
+    "team": "Seattle Mariners",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Seattle won the 2025 AL West and reached ALCS Game 7, then collapsed to 74-86 in 2026",
+        "source": "https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "ROOT Sports Northwest (AT&T/DirecTV regional network); unlike most RSNs, ROOT Sports Northwest remained operational — not part of Diamond Sports Group/Bally bankruptcy; Mariners have more stable local TV than most AL West competitors",
+        "new": "Mariners.tv produced and distributed by MLB Local Media from 2026; the team-controlled ROOT Sports Northwest signed off after the 2025 finale and shut down Dec 31, 2025; Seattle qualified for MLB's 2025 media disruption distribution",
+        "fact": "ROOT Sports Northwest shut down; MLB Local Media from 2026",
+        "source": "https://awfulannouncing.com/mlb/mariners-shutting-down-root-sports-network-local-media-2026.html"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ROOT Sports streaming app; MLB.TV nationally; Apple TV+ Friday games; Mariners among the most profitable teams in 2022 (best EBITDA in MLB that year)",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; MLB.TV nationally; Apple TV+ Friday games",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Julio Rodríguez — 12yr guaranteed/$210M (up to $470M with options), signed Aug 2022 as a rookie; through 2034 with club options potentially through 2039",
+        "new": "Cal Raleigh — C, 6yr/$105M extension (Mar 2025) through 2030 with a full no-trade clause; 60 HR, 125 RBI, .948 OPS in 2025, the first catcher to hit 60",
+        "fact": "Raleigh extension and 60-HR 2025",
+        "source": "https://www.mlb.com/news/cal-raleigh-mariners-extension"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Julio Rodríguez",
+            "position": "CF",
+            "aav": 17.5,
+            "contractNote": "12yr/$210M guaranteed + club options potentially worth $470M total (Aug 2022, as a rookie); through 2034; opt-outs and escalators based on MVP voting performance; unprecedented deal structure"
+          },
+          {
+            "player": "Logan Gilbert",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "5yr/$140M extension (2024), anchoring rotation through late 2020s"
+          }
+        ],
+        "new": [
+          {
+            "player": "Julio Rodríguez",
+            "position": "CF",
+            "aav": 17.5,
+            "contractNote": "12yr/$210M guaranteed with options up to $470M (Aug 2022); through 2034 base term"
+          },
+          {
+            "player": "Cal Raleigh",
+            "position": "C",
+            "aav": 17.5,
+            "contractNote": "6yr/$105M extension (Mar 2025), through 2030; full no-trade clause; 60 HR in 2025"
+          },
+          {
+            "player": "Logan Gilbert",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "5yr/$140M extension (2024)"
+          }
+        ],
+        "fact": "Raleigh 6yr/$105M added",
+        "source": "https://www.mlb.com/news/cal-raleigh-mariners-extension"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Gilbert extension terms carried from the enrichment, not re-sourced"
+    ],
+    "analystNotes": "Seattle's $2.35B Forbes mark on the 2026 list ($390M revenue, $24M operating income) was set right after the best season in a generation, a 2025 AL West title, a Game 7 ALCS loss to Toronto and Cal Raleigh's 60-homer year, and before the 2026 collapse to 74-86. The bigger structural change is media: the team-controlled ROOT Sports Northwest, the RSN that had insulated the Mariners from the Diamond bankruptcy, shut down on Dec 31, 2025, and games now run through MLB-produced Mariners.tv. Raleigh is locked through 2030 at a $17.5M AAV and Rodríguez through 2034, so the payroll base is cheap for the production. What moves the number is a replacement for the ROOT rights fee and whether ownership spends the 2025 windfall on a roster that can get back to October.",
+    "analystNotesBasis": "Forbes 2026 ($2.35B, rev $0.39B, OI $0.024B); 2025 postseason (Wikipedia); ROOT shutdown (Awful Announcing); Raleigh extension (MLB.com); 2026 record 74-86 (CBS)."
+  },
+  {
+    "teamId": "texas-rangers",
+    "team": "Texas Rangers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Ray Davis",
+            "role": "co-owner / managing partner",
+            "pct": null
+          },
+          {
+            "name": "Bob Simpson",
+            "role": "co-owner / limited partner",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Ray Davis",
+            "role": "co-owner / managing partner",
+            "pct": null
+          },
+          {
+            "name": "Bob Simpson",
+            "role": "co-owner / limited partner",
+            "pct": null
+          },
+          {
+            "name": "Cade Cunningham",
+            "role": "minority investor (Feb 2026; Detroit Pistons guard)",
+            "pct": null
+          }
+        ],
+        "fact": "Cade Cunningham acquired a minority stake in Feb 2026 per ESPN's owners list",
+        "source": "https://www.espn.com/mlb/story/_/id/47979684/who-current-mlb-team-owners"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Southwest (Diamond Sports Group); Diamond filed Chapter 11 bankruptcy 2023; Rangers exploring alternatives as Diamond restructures; Texas is among the most lucrative local sports markets in the US",
+        "new": "Rangers Sports Network — team-owned network launched Jan 2025 by Rangers Sports Media & Entertainment after Diamond; games distributed through ad-hoc carriage deals (AT&T, Spectrum, DirecTV and others), a 15-plus game over-the-air package with Gray Media and Nexstar stations (KDAF Dallas flagship), and direct-to-consumer streaming that moved from Victory+ to Bzzr on July 15, 2026",
+        "fact": "Rangers Sports Network operating in 2026; streaming partner switched to Bzzr July 2026",
+        "source": "https://en.wikipedia.org/wiki/Rangers_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "MLB.TV nationally; Apple TV+ Friday games; Rangers 2023 World Series drives national viewership; exploring direct-to-consumer streaming partnerships",
+        "new": "Bzzr direct-to-consumer subscription (replaced Victory+ July 15, 2026) plus MLB.TV nationally; Apple TV+ Friday games",
+        "fact": "DTC platform change July 2026",
+        "source": "https://en.wikipedia.org/wiki/Rangers_Sports_Network"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Corey Seager",
+            "position": "SS",
+            "aav": 32.5,
+            "contractNote": "10yr/$325M (Dec 2021), through 2031; franchise-record deal at signing; 2023 WS MVP; 2x WS MVP in career"
+          },
+          {
+            "player": "Marcus Semien",
+            "position": "2B",
+            "aav": 29,
+            "contractNote": "7yr/$175M (Dec 2021), through 2027; signed same day as Seager; dual-SS/2B keystone of 2023 championship team"
+          },
+          {
+            "player": "Nathan Eovaldi",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "4yr/$68M (2023), through 2026; ace of 2023 postseason run"
+          }
+        ],
+        "new": [
+          {
+            "player": "Corey Seager",
+            "position": "SS",
+            "aav": 32.5,
+            "contractNote": "10yr/$325M (Dec 2021), through 2031; 2023 WS MVP"
+          },
+          {
+            "player": "Marcus Semien",
+            "position": "2B",
+            "aav": 29,
+            "contractNote": "7yr/$175M (Dec 2021), through 2027"
+          },
+          {
+            "player": "MacKenzie Gore",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Acquired from Washington Jan 22, 2026 for five prospects (Fien, Rosario, Fitz-Gerald, Cabrera, Ortiz); arbitration years"
+          },
+          {
+            "player": "Nathan Eovaldi",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "4yr/$68M (2023), through 2026"
+          }
+        ],
+        "fact": "Gore trade Jan 2026",
+        "source": "https://en.wikipedia.org/wiki/MacKenzie_Gore"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Eovaldi's current contract not re-checked"
+    ],
+    "analystNotes": "Texas is worth $2.7B on the 2026 Forbes list with $398M of revenue and a $44M operating loss, the cost of carrying Seager and Semien plus a January 2026 trade of five prospects for MacKenzie Gore, and the payoff came down to the last day of the season at 80-81, tied with Houston for the AL West. Globe Life Field's $25M-a-year naming deal runs to 2043 and the team-owned Rangers Sports Network survived the RSN collapse, though its streaming arm had to jump from Victory+ to Bzzr in July 2026, a reminder that self-distribution is fragile. Davis and Simpson added Cade Cunningham as a minority investor in February 2026. A division title from a .500 club would not move Forbes much; a durable carriage deal that replaces the old $40-60M RSN fee would.",
+    "analystNotesBasis": "Forbes 2026 ($2.7B, rev $0.398B, OI -$0.044B); final-day standings (CBS, Sept 27); RSN/Bzzr (Wikipedia); Gore trade (Wikipedia); Cunningham stake (ESPN owners list)."
+  },
+  {
+    "teamId": "atlanta-braves",
+    "team": "Atlanta Braves",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Atlanta missed in 2025 (7-year streak ended) and won the 2026 NL East at 94-67",
+        "source": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-picture-standings-bracket/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports South / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2023-2024); Braves launched Bally Live direct-to-consumer streaming option as RSN model under stress; new direct streaming deals likely post-restructuring",
+        "new": "BravesVision — in-house regional network launched March 27, 2026 with Raycom Sports (Gray Media handles ad sales and studio) after the Braves terminated FanDuel Sports Network South in Jan 2026 over Main Street's missed payments; carried on DirecTV, Xfinity, U-verse, Spectrum and others, with 25 games over the air on 'Braves on Gray' stations",
+        "fact": "BravesVision replaced FDSN South for 2026",
+        "source": "https://en.wikipedia.org/wiki/BravesVision"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ (Friday night games), Peacock (select games), MLB.TV blackout rules apply; team and league negotiating new regional distribution model post-Diamond bankruptcy",
+        "new": "Braves.tv direct-to-consumer package through MLB.TV; BravesVision on Fubo and DirecTV Stream; Apple TV+ Friday games and NBC/Peacock Sunday nights nationally",
+        "fact": "BravesVision DTC via MLB.TV",
+        "source": "https://en.wikipedia.org/wiki/BravesVision"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Ronald Acuña Jr.",
+            "position": "OF",
+            "aav": 17,
+            "contractNote": "8yr/$100M (2019 extension), final years at $17M; through 2026; signed when Acuña was still pre-MVP"
+          },
+          {
+            "player": "Matt Olson",
+            "position": "1B",
+            "aav": 21,
+            "contractNote": "8yr/$168M (2022), through 2029; acquired from Oakland, immediately signed to franchise-cornerstone extension"
+          },
+          {
+            "player": "Michael Harris II",
+            "position": "CF",
+            "aav": 9,
+            "contractNote": "8yr/$72M extension (2023), through 2030; signed to club-friendly deal as 2022 NL Rookie of the Year"
+          }
+        ],
+        "new": [
+          {
+            "player": "Ronald Acuña Jr.",
+            "position": "OF",
+            "aav": 17,
+            "contractNote": "8yr/$100M (2019 extension); $17M in 2026 with club options for 2027-2028"
+          },
+          {
+            "player": "Matt Olson",
+            "position": "1B",
+            "aav": 21,
+            "contractNote": "8yr/$168M (2022), through 2029"
+          },
+          {
+            "player": "Michael Harris II",
+            "position": "CF",
+            "aav": 9,
+            "contractNote": "8yr/$72M extension (2023), through 2030"
+          },
+          {
+            "player": "Robert Suarez",
+            "position": "RP",
+            "aav": 15,
+            "contractNote": "3yr/$45M (2025-26 offseason) from San Diego"
+          }
+        ],
+        "fact": "Suarez 3yr/$45M added; Braves also signed Ha-Seong Kim and Mike Yastrzemski and re-signed Raisel Iglesias",
+        "source": "https://www.mlbtraderumors.com/2026/03/offseason-in-review-atlanta-braves-17.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "ownership.ownerNetWorth: BATRA/BATRK market cap not refreshed for 2026",
+      "onField.starContracts: Acuña option years carried from public contract data, not a 2026 source"
+    ],
+    "analystNotes": "The Braves are the only MLB club you can buy on an exchange, and Forbes marks them at $3.35B on the 2026 list with $524M of revenue and $27M of operating income, the Battery Atlanta real estate layered on a 94-67 division winner that bounced back from its 2025 miss. The 2026 media move matters most for the public shareholders: Atlanta tore up FanDuel Sports Network South in January when Main Street missed payments and launched BravesVision on March 27 with Raycom and Gray, taking distribution and ad sales in house instead of collecting a shrinking rights fee. Truist's $10M-a-year naming deal runs to 2042 and Acuña's club options for 2027-2028 keep the star cheap. The number moves on BravesVision's carriage and subscriber economics, which Atlanta Braves Holdings will have to disclose quarter by quarter.",
+    "analystNotesBasis": "Forbes 2026 ($3.35B, rev $0.524B, OI $0.027B); 2026 record 94-67 (CBS); BravesVision (Wikipedia); offseason moves (MLBTR)."
+  },
+  {
+    "teamId": "miami-marlins",
+    "team": "Miami Marlins",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "MLB approved PE ownership rule (Dec 2023) may create opportunity for minority PE stake sale",
+        "new": "About 15% sold in spring 2026 to two unnamed South Florida families at a reported $1.55B valuation (~$233M), with proceeds used to pay down debt ahead of a possible salary floor under the next CBA; MLB's PE rules still allow a minority institutional stake",
+        "fact": "15% stake sale spring 2026 (transactions.js)",
+        "source": "https://www.sportcal.com/news/mlbs-marlins-sell-15-stake-in-debt-payoff-as-salary-floor-prospect-looms/"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Bruce Sherman",
+            "role": "principal owner / managing general partner",
+            "pct": null
+          },
+          {
+            "name": "Jorge Mas",
+            "role": "minority investor / board member",
+            "pct": null
+          },
+          {
+            "name": "Various limited partners",
+            "role": "minority investors",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Bruce Sherman",
+            "role": "principal owner / managing general partner",
+            "pct": null
+          },
+          {
+            "name": "Jorge Mas",
+            "role": "minority investor / board member",
+            "pct": null
+          },
+          {
+            "name": "Two South Florida families (unnamed)",
+            "role": "minority investors (~15%, spring 2026)",
+            "pct": 15
+          },
+          {
+            "name": "Various limited partners",
+            "role": "minority investors",
+            "pct": null
+          }
+        ],
+        "fact": "New minority investors 2026",
+        "source": "https://www.sportcal.com/news/mlbs-marlins-sell-15-stake-in-debt-payoff-as-salary-floor-prospect-looms/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Florida / Diamond Sports Group (in bankruptcy restructuring); Marlins among most affected by RSN collapse given small local TV audience; team exploring direct-to-consumer alternatives",
+        "new": "Marlins.tv produced and distributed by MLB Local Media from 2026 after the Marlins terminated FanDuel Sports Network Florida in Jan 2026 over Main Street's missed rights payments",
+        "fact": "Marlins moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ (Friday night games), MLB.TV; local TV situation in flux post-Diamond bankruptcy",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sandy Alcantara",
+            "position": "SP",
+            "aav": 11.2,
+            "contractNote": "5yr/$56M extension (2022), through 2027; Cy Young winner 2022; missed 2023-24 recovering from TJ surgery"
+          },
+          {
+            "player": "Jazz Chisholm Jr.",
+            "position": "OF/2B",
+            "aav": 5,
+            "contractNote": "Pre-arb through 2025; traded to Yankees July 2024; listed for historical contract context"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sandy Alcantara",
+            "position": "SP",
+            "aav": 11.2,
+            "contractNote": "5yr/$56M extension (2022), through 2027 incl. option; Miami kept him at the 2026 deadline while in the wild card race"
+          }
+        ],
+        "fact": "Alcantara retained at 2026 deadline",
+        "source": "https://www.mlbtraderumors.com/2026/07/report-marlins-likely-to-buy-at-deadline-keep-sandy-alcantara.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [],
+    "analystNotes": "The Marlins remain the floor of the league at $1.5B on the 2026 Forbes list, but the $320M of revenue and $53M of operating income show a club that runs profitably on a payroll near $79M, and a 52-42 first half in 2026 briefly made it look like a contender before a franchise-record 12-game skid ended things at 79-82. Bruce Sherman sold about 15% in spring 2026 at a reported $1.55B, a 3% premium to Forbes, and used the ~$233M to cut debt before a CBA that may impose a salary floor. Local TV moved to MLB-produced Marlins.tv after FanDuel Sports Network folded. Nine years after the $1.2B purchase, the value case still needs a buyer with conviction about South Florida or a CBA outcome that forces revenue sharing recipients to spend.",
+    "analystNotesBasis": "Forbes 2026 ($1.5B, rev $0.32B, OI $0.053B); 15% stake sale 2026 (transactions.js); 2026 record 79-82 (Wikipedia); Marlins.tv (Wikipedia)."
+  },
+  {
+    "teamId": "new-york-mets",
+    "team": "New York Mets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Francisco Lindor — 10yr/$341M (2021), $34.1M AAV through 2031; plus Juan Soto 15yr/$765M (Jan 2025), $51M AAV through 2039",
+        "new": "Juan Soto — 15yr/$765M (Dec 2024), $51M AAV through 2039; Francisco Lindor 10yr/$341M through 2031; the two played only 44 games together in 2026",
+        "fact": "Soto and Lindor injuries in 2026",
+        "source": "https://www.espn.com/mlb/story/_/id/49895199/mlb-2026-new-york-mets-lessons-2027-soto-benge-ewing-lindor-senga-cohen-stearns"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Juan Soto",
+            "position": "OF",
+            "aav": 51,
+            "contractNote": "15yr/$765M (Jan 2025) — largest contract in professional sports history; signed before 2025 season; through 2039"
+          },
+          {
+            "player": "Francisco Lindor",
+            "position": "SS",
+            "aav": 34.1,
+            "contractNote": "10yr/$341M (2021 extension), through 2031; signed shortly after Cohen acquisition to anchor franchise rebuild"
+          },
+          {
+            "player": "Kodai Senga",
+            "position": "SP",
+            "aav": 15,
+            "contractNote": "5yr/$75M (2023), through 2027; missed most of 2024 with injury"
+          }
+        ],
+        "new": [
+          {
+            "player": "Juan Soto",
+            "position": "OF",
+            "aav": 51,
+            "contractNote": "15yr/$765M (Dec 2024), through 2039; largest contract in professional sports by total value"
+          },
+          {
+            "player": "Francisco Lindor",
+            "position": "SS",
+            "aav": 34.1,
+            "contractNote": "10yr/$341M (2021 extension), through 2031"
+          },
+          {
+            "player": "Bo Bichette",
+            "position": "3B/SS",
+            "aav": 42,
+            "contractNote": "3yr/$126M (Jan 20, 2026) with player options for 2027 and 2028; .615 OPS in his first Mets season"
+          },
+          {
+            "player": "Devin Williams",
+            "position": "RP",
+            "aav": 17,
+            "contractNote": "3yr/$51M (2025-26 offseason)"
+          },
+          {
+            "player": "Kodai Senga",
+            "position": "SP",
+            "aav": 15,
+            "contractNote": "5yr/$75M (2023), through 2027"
+          },
+          {
+            "player": "Freddy Peralta",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Acquired from Milwaukee Jan 21, 2026 for Jett Williams and Brandon Sproat; traded to Tampa Bay Aug 2, 2026"
+          }
+        ],
+        "fact": "Bichette 3yr/$126M, Williams 3yr/$51M, Peralta in and out in 2026",
+        "source": "https://en.wikipedia.org/wiki/2026_New_York_Mets_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "stadium.namingRightsDeal: Citi extension terms beyond 2028 not sourced",
+      "ownership.ownershipGroup: ESPN lists Cohen at ~95% vs 97% in the enrichment; not resolved"
+    ],
+    "analystNotes": "Steve Cohen's Mets are worth $3.5B on the 2026 Forbes list and lost $213M at the operating line on $553M of revenue, the deepest loss in the sport, after a $91.6M luxury tax bill; the 2026 return on that spend was a 74-87 last-place finish, the first since 2003, with Soto and Lindor sharing the lineup for only 44 games and Bo Bichette's 3yr/$126M deal producing a .615 OPS. Cohen has said the club took on too much risk in the offseason overhaul. The asset base is intact, an ~8% SNY stake, Citi Field and a $20M-a-year naming deal, and the Mets trade at 41% of the Yankees' mark in the same market. The gap closes only if the Soto and Lindor contracts, $85M a year through 2031, anchor a contender again; the December 2026 CBA, and any cap that lands, is the other variable.",
+    "analystNotesBasis": "Forbes 2026 ($3.5B, rev $0.553B, OI -$0.213B); 2026 record 74-87 and transactions (Wikipedia/ESPN); 2025 CBT figure (forbes-proxies.js)."
+  },
+  {
+    "teamId": "philadelphia-phillies",
+    "team": "Philadelphia Phillies",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bryce Harper",
+            "position": "1B/OF",
+            "aav": 25.4,
+            "contractNote": "13yr/$330M (2019), through 2031; moved from RF to 1B post-UCL surgery; 2021 NL MVP"
+          },
+          {
+            "player": "Trea Turner",
+            "position": "SS",
+            "aav": 27.3,
+            "contractNote": "11yr/$300M (2023 extension), through 2033; added to pair with Harper as franchise cornerstone duo"
+          },
+          {
+            "player": "Zack Wheeler",
+            "position": "SP",
+            "aav": 23.6,
+            "contractNote": "5yr/$118M (2019-2024); re-signed on new deal; perennial Cy Young contender"
+          }
+        ],
+        "new": [
+          {
+            "player": "Bryce Harper",
+            "position": "1B",
+            "aav": 25.4,
+            "contractNote": "13yr/$330M (2019), through 2031"
+          },
+          {
+            "player": "Trea Turner",
+            "position": "SS",
+            "aav": 27.3,
+            "contractNote": "11yr/$300M (2023), through 2033"
+          },
+          {
+            "player": "Kyle Schwarber",
+            "position": "DH",
+            "aav": 30,
+            "contractNote": "5yr/$150M (Dec 2025), a record AAV for a DH, after 56 HR and 132 RBI in 2025"
+          },
+          {
+            "player": "J.T. Realmuto",
+            "position": "C",
+            "aav": 15,
+            "contractNote": "3yr/$45M (Jan 20, 2026) re-sign"
+          },
+          {
+            "player": "Zack Wheeler",
+            "position": "SP",
+            "aav": 42,
+            "contractNote": "3yr/$126M extension (2024), through 2027; Ranger Suárez left for Boston (5yr/$150M, Jan 2026)"
+          }
+        ],
+        "fact": "Schwarber 5yr/$150M and Realmuto 3yr/$45M re-signed; Suárez left",
+        "source": "https://www.mlb.com/news/kyle-schwarber-phillies-free-agent-contract"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Wheeler's 2024 extension figure drawn from public contract data, not a 2026 source",
+      "ownership.institutionalInvestors: 2024 institutional raise not re-checked"
+    ],
+    "analystNotes": "Philadelphia is a $3.4B franchise on the 2026 Forbes list with $539M of revenue and a $52M operating loss, the cost of paying $56.1M in luxury tax for a roster John Middleton keeps extending: Schwarber back at 5yr/$150M with a record DH AAV, Realmuto at 3yr/$45M, Harper through 2031 and Turner through 2033. The 2026 season nearly wasted it, a 9-19 start cost Rob Thomson his job in April, and the club reached the final day at 87-74 needing one result to claim the last NL wild card after hosting the All-Star Game in July. NBC Sports Philadelphia, with the Phillies' partial stake and Comcast behind it, is the most stable local deal in the division. Sustained October runs from a core that is now 30-plus across the board are what defend a multiple that already prices in the 2022 pennant.",
+    "analystNotesBasis": "Forbes 2026 ($3.4B, rev $0.539B, OI -$0.052B); final-day standings (CBS, Sept 27); Schwarber/Realmuto deals (MLB.com/Wikipedia); 2025 CBT (forbes-proxies.js)."
+  },
+  {
+    "teamId": "washington-nationals",
+    "team": "Washington Nationals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 0,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; the 2019 title run is outside the 2021-2025 window; Nationals went 76-85 in 2026 under new baseball president Paul Toboni and 33-year-old manager Blake Butera",
+        "source": "https://en.wikipedia.org/wiki/2026_Washington_Nationals_season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "MASN (Mid-Atlantic Sports Network) — contentious arrangement: MASN is majority owned by Baltimore Orioles (Peter Angelos family); Nationals have a minority stake (~33%) and have been in litigation with MASN over rights fee payments since 2012; legal dispute has lasted over a decade and remains partially unresolved",
+        "new": "Nationals.tv produced and distributed by MLB Local Media from 2026; the Orioles-Nationals MASN rights-fee dispute was settled March 3, 2025 and the Nationals' MASN agreement ended after the 2025 season, ending the ~33% MASN stake arrangement",
+        "fact": "Nationals left MASN for MLB Local Media in 2026 after the 2025 settlement",
+        "source": "https://en.wikipedia.org/wiki/Mid-Atlantic_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ (Friday night games), MLB.TV; MASN streaming via cable packages; legal dispute with MASN means Nationals have received below-market rights fees for years",
+        "new": "Nationals.tv in-market streaming through MLB.TV / MLB app and the ESPN app, plus an over-the-air/cable channel; Apple TV+ Friday games nationally",
+        "fact": "Nationals.tv distribution",
+        "source": "https://en.wikipedia.org/wiki/2026_Washington_Nationals_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "MacKenzie Gore — emerging ace; James Wood — 2024 debut, considered top-5 MLB prospect; rebuilding around young core post-Soto/Scherzer era",
+        "new": "James Wood — OF, arbitration-eligible after 2027, free agent after 2030; Boras client with no extension; MacKenzie Gore was traded to Texas Jan 22, 2026 for five prospects",
+        "fact": "Gore traded Jan 2026; Wood unextended",
+        "source": "https://en.wikipedia.org/wiki/MacKenzie_Gore"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "MacKenzie Gore",
+            "position": "SP",
+            "aav": 4.5,
+            "contractNote": "Pre-arb; considered key rotation anchor for rebuilding Nationals"
+          },
+          {
+            "player": "James Wood",
+            "position": "OF",
+            "aav": 0.7,
+            "contractNote": "Pre-arb (2024 MLB debut); top prospect; center of Nationals' next competitive window"
+          }
+        ],
+        "new": [
+          {
+            "player": "James Wood",
+            "position": "OF",
+            "aav": 0.7,
+            "contractNote": "Pre-arbitration; Boras client; centerpiece of the rebuild"
+          },
+          {
+            "player": "MacKenzie Gore",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Traded to the Texas Rangers Jan 22, 2026 for Gavin Fien, Alejandro Rosario, Devin Fitz-Gerald, Yeremy Cabrera and Abimelec Ortiz"
+          }
+        ],
+        "fact": "Gore trade Jan 2026",
+        "source": "https://en.wikipedia.org/wiki/MacKenzie_Gore"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "ownership.institutionalInvestors: no 2026 source on a Lerner sale process; ESPN lists the Lerner family as owner"
+    ],
+    "analystNotes": "The Nationals' two structural handicaps moved in opposite directions: the MASN war ended with a March 2025 settlement and Washington now controls its own feed through MLB-produced Nationals.tv, but the club is still a tenant in a DC-owned park with no naming deal and no development upside. Forbes marks the franchise at $2.15B on the 2026 list with $300M of revenue and a $15M operating loss, and the Lerners hired a 35-year-old baseball president and a 33-year-old manager, traded MacKenzie Gore to Texas for five prospects in January 2026 and finished 76-85. James Wood is the only asset on the field, and as a Boras client he will not sign early. Selling Nationals Park naming rights, worth $5-10M a year the club has left on the table since 2008, is the cheapest lever; a Lerner sale is the one that resets the number.",
+    "analystNotesBasis": "Forbes 2026 ($2.15B, rev $0.3B, OI -$0.015B); MASN settlement and Nationals.tv (Wikipedia); Gore trade (Wikipedia); 2026 record 76-85 (Wikipedia)."
+  },
+  {
+    "teamId": "chicago-cubs",
+    "team": "Chicago Cubs",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 1,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Cubs went 92-70 in 2025 and lost the NLDS to Milwaukee, then clinched a 2026 wild card at 88-73",
+        "source": "https://en.wikipedia.org/wiki/2025_Major_League_Baseball_postseason"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Dansby Swanson — 7yr/$177M (2023), $25.3M AAV through 2029",
+        "new": "Pete Crow-Armstrong — CF, 6yr/$115M extension (Mar 2026) covering 2027-2032; first Cubs 30-30 season since Sosa in 2025 with a Gold Glove",
+        "fact": "PCA extension Mar 2026",
+        "source": "https://www.mlbtraderumors.com/2026/03/cubs-extend-pete-crow-armstrong.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Dansby Swanson",
+            "position": "SS",
+            "aav": 25.3,
+            "contractNote": "7yr/$177M (Dec 2022), through 2029; Cubs signed as key piece of post-dynasty rebuild"
+          },
+          {
+            "player": "Cody Bellinger",
+            "position": "OF/1B",
+            "aav": 26.7,
+            "contractNote": "3yr/$80M (2024), through 2026; re-signed after strong 2023 bounce-back; key offensive piece"
+          },
+          {
+            "player": "Seiya Suzuki",
+            "position": "OF",
+            "aav": 14,
+            "contractNote": "5yr/$85M (2022), through 2026; first Japanese star import to franchise"
+          }
+        ],
+        "new": [
+          {
+            "player": "Alex Bregman",
+            "position": "3B",
+            "aav": 35,
+            "contractNote": "5yr/$175M (Jan 14, 2026), $70M deferred; after opting out of Boston"
+          },
+          {
+            "player": "Nico Hoerner",
+            "position": "2B",
+            "aav": 23.5,
+            "contractNote": "6yr/$141M extension (Mar 27, 2026)"
+          },
+          {
+            "player": "Dansby Swanson",
+            "position": "SS",
+            "aav": 25.3,
+            "contractNote": "7yr/$177M (Dec 2022), through 2029"
+          },
+          {
+            "player": "Pete Crow-Armstrong",
+            "position": "CF",
+            "aav": 19.2,
+            "contractNote": "6yr/$115M extension (Mar 2026), 2027-2032, no club option"
+          },
+          {
+            "player": "Seiya Suzuki",
+            "position": "OF",
+            "aav": 14,
+            "contractNote": "5yr/$85M (2022), through 2026; Kyle Tucker (one season, 2025) left for the Dodgers and Cody Bellinger for the Yankees"
+          }
+        ],
+        "fact": "Bregman 5yr/$175M, Hoerner 6yr/$141M, PCA 6yr/$115M; Tucker and Bellinger departed",
+        "source": "https://en.wikipedia.org/wiki/Alex_Bregman"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "media.localTVDeal: Marquee/Comcast carriage status in 2026 not re-checked",
+      "media.streamingNotes: not re-checked"
+    ],
+    "analystNotes": "The Cubs are a $5B franchise on the 2026 Forbes list, third in baseball, on $599M of revenue and $58M of operating income, and the base is the same as always: the Ricketts own Wrigley Field and the land, own Marquee Sports Network, and can spend without a public landlord. Jed Hoyer used that in the 2025-26 offseason, Alex Bregman at 5yr/$175M with $70M deferred, Nico Hoerner at 6yr/$141M and Pete Crow-Armstrong at 6yr/$115M through 2032, while letting Kyle Tucker walk to the Dodgers after one season. The result was an 88-73 wild card berth behind a 102-win Milwaukee team, a second straight October after the 2025 NLDS loss to the Brewers. A deep run, and a Marquee carriage settlement with Comcast that stops the subscriber bleed, are what justify a $5B mark that already assumes Wrigley's non-game revenue keeps compounding.",
+    "analystNotesBasis": "Forbes 2026 ($5B, rev $0.599B, OI $0.058B); 2025 postseason (Wikipedia); 2026 record 88-73 (CBS); Bregman/Hoerner/PCA deals (Wikipedia/MLBTR)."
+  },
+  {
+    "teamId": "cincinnati-reds",
+    "team": "Cincinnati Reds",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Phil Castellini (president / managing partner) / Castellini family",
+        "new": "Phil Castellini (principal owner since Feb 12, 2026, succeeding his father Bob Castellini) / Castellini family",
+        "fact": "ESPN's Sept 2026 owners list: Phil Castellini became principal owner Feb 12, 2026",
+        "source": "https://www.espn.com/mlb/story/_/id/47979684/who-current-mlb-team-owners"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Ohio / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2023-2024); Reds among teams most exposed to RSN collapse; exploring direct-to-consumer streaming alternatives; Cincinnati market smaller than most MLB markets",
+        "new": "Reds.tv produced and distributed by MLB Local Media from 2026 after the Reds terminated FanDuel Sports Network Ohio in Jan 2026 over Main Street's missed rights payments; FDSN shut down April 14, 2026",
+        "fact": "Reds moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ (Friday night games), MLB.TV; local TV situation under restructuring",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Elly De La Cruz — 10yr/$175M extension (2025), $17.5M AAV through 2034; 2023-24 breakout as one of baseball's most exciting young players (MLB's first 30-30-30-30 player)",
+        "new": "Elly De La Cruz — 10yr/$175M extension (2025), $17.5M AAV through 2034; 30-30 season in 2026, the fourth in Reds history",
+        "fact": "EDLC 30-30 in 2026",
+        "source": "https://en.wikipedia.org/wiki/2026_Cincinnati_Reds_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "stadium.name",
+      "stadium.namingRightsDeal",
+      "onField.starContracts"
+    ],
+    "unverified": [
+      "ownership.ownerBackground: the enrichment says Bob Castellini died in Jan 2024, but the 2026 Reds season page still lists Bob Castellini as owner and ESPN describes a Feb 2026 succession; the death claim looks wrong and should be re-checked before publishing"
+    ],
+    "analystNotes": "Cincinnati is a $1.6B franchise on the 2026 Forbes list with $336M of revenue and $26M of operating income, a small-market club whose main assets are Elly De La Cruz on a 10yr/$175M deal through 2034 and Hunter Greene on a below-market extension. The 2025 wild card trip, the first playoff appearance since 2020, did not carry over: 2026 ended 75-86 and last in the NL Central, 27 games behind Milwaukee, even with De La Cruz posting the fourth 30-30 season in club history. Phil Castellini formally became principal owner in February 2026, and local TV moved to MLB-produced Reds.tv after the FanDuel Sports Network shutdown, which trims a rights fee that was already modest. In a county-owned park with a $2.5M-a-year naming deal, the only lever that moves the number is winning with the De La Cruz window.",
+    "analystNotesBasis": "Forbes 2026 ($1.6B, rev $0.336B, OI $0.026B); 2025 postseason (Wikipedia); 2026 record 75-86 (Wikipedia); Castellini succession (ESPN owners list); Reds.tv (Wikipedia)."
+  },
+  {
+    "teamId": "milwaukee-brewers",
+    "team": "Milwaukee Brewers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Wisconsin / Diamond Sports Group (in Chapter 11 bankruptcy restructuring 2023-2024); Milwaukee is one of the smallest TV markets in MLB, making RSN economics particularly challenging; team exploring direct streaming alternatives",
+        "new": "Brewers.tv produced and distributed by MLB Local Media from 2026 after the Brewers terminated FanDuel Sports Network Wisconsin in Jan 2026 over Main Street's missed rights payments; FDSN shut down April 14, 2026",
+        "fact": "Brewers moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Apple TV+ (Friday night games), MLB.TV; Wisconsin market has limited regional broadcast depth",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Christian Yelich",
+            "position": "LF",
+            "aav": 23.9,
+            "contractNote": "9yr/$215M extension (2019), through 2028; signed after back-to-back NL MVP/runner-up; club-friendly deal for first few years that became expensive as Yelich declined post-2019"
+          },
+          {
+            "player": "Jackson Chourio",
+            "position": "OF",
+            "aav": 7.3,
+            "contractNote": "8yr/$82M extension (2023), through 2030; signed before MLB debut as top prospect; AAV rises significantly in later years"
+          },
+          {
+            "player": "Freddy Peralta",
+            "position": "SP",
+            "aav": 10.5,
+            "contractNote": "5yr/$52.5M extension (2022), through 2026; consistent starter with strikeout ability"
+          }
+        ],
+        "new": [
+          {
+            "player": "Christian Yelich",
+            "position": "LF/DH",
+            "aav": 23.9,
+            "contractNote": "9yr/$215M extension (2019), through 2028"
+          },
+          {
+            "player": "Jackson Chourio",
+            "position": "OF",
+            "aav": 10.25,
+            "contractNote": "8yr/$82M (Dec 2023) with club options for 2032-2033; third 20-20 season before age 23 in 2026 despite a WBC hand fracture"
+          },
+          {
+            "player": "Freddy Peralta",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Traded to the New York Mets Jan 21, 2026 for Jett Williams and Brandon Sproat"
+          }
+        ],
+        "fact": "Peralta traded to the Mets Jan 2026; Chourio 20-20 again in 2026",
+        "source": "https://en.wikipedia.org/wiki/2026_New_York_Mets_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal",
+      "stadium.newStadiumPlans"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: ESPN notes Giannis Antetokounmpo as a minority investor since 2021; not added without a primary source"
+    ],
+    "analystNotes": "Milwaukee is the best-run franchise in the sport relative to its market: a 97-win NL Central champion in 2025 that went to the NLCS, then a franchise-record 102-59 in 2026, a fourth straight division title and the National League's top seed, all on a bottom-half payroll after trading Freddy Peralta to the Mets in January. Forbes marks the club at $1.9B on the 2026 list with $354M of revenue and $47M of operating income, and the $290M state-backed American Family Field deal from 2023 locks the lease through 2043. Local TV moved to MLB-produced Brewers.tv after FanDuel Sports Network shut down, which costs rights-fee dollars in the league's smallest TV market. Jackson Chourio is signed through 2031 at $82M. A first World Series title from this roster is the one thing that would lift a 1.5-million-person market into the $2B-plus tier.",
+    "analystNotesBasis": "Forbes 2026 ($1.9B, rev $0.354B, OI $0.047B); 2025 postseason (Wikipedia); 2026 record 102-59 (Wikipedia/CBS); Peralta trade (Wikipedia Mets 2026); Brewers.tv (Wikipedia)."
+  },
+  {
+    "teamId": "pittsburgh-pirates",
+    "team": "Pittsburgh Pirates",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Paul Skenes — service-time controlled through ~2029; no extension signed as of 2025; 2024 NL Rookie of the Year, sub-2.00 ERA in debut season",
+        "new": "Paul Skenes — 2025 NL Cy Young; final pre-arbitration year in 2026 at a record $1.085M; no extension, with the club reportedly unwilling to go to a $50M AAV and Skenes expected to test free agency after 2029; Konnor Griffin signed 9yr/$140M a week after his April 2026 debut",
+        "fact": "Skenes unextended; Griffin record rookie extension",
+        "source": "https://www.si.com/mlb/pirates/onsi/news/pittsburgh-pirates-paul-skenes-2026-salary-revealed"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Bryan Reynolds",
+            "position": "CF/LF",
+            "aav": 17.75,
+            "contractNote": "6yr/$106.5M (Feb 2022), through 2027; hometown-discount deal for small-market star"
+          },
+          {
+            "player": "Ke'Bryan Hayes",
+            "position": "3B",
+            "aav": 8.75,
+            "contractNote": "8yr/$70M (Mar 2021), through 2028; Gold Glove caliber, bat has underperformed"
+          },
+          {
+            "player": "Paul Skenes",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Pre-arb; no extension as of 2025; franchise cornerstone"
+          }
+        ],
+        "new": [
+          {
+            "player": "Konnor Griffin",
+            "position": "SS",
+            "aav": 15.6,
+            "contractNote": "9yr/$140M extension (Apr 2026), one week after his April 3, 2026 debut; largest guarantee in Pirates history"
+          },
+          {
+            "player": "Bryan Reynolds",
+            "position": "OF",
+            "aav": 17.75,
+            "contractNote": "6yr/$106.5M (Feb 2022), through 2027"
+          },
+          {
+            "player": "Paul Skenes",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Pre-arbitration through 2026 ($1.085M); 2025 NL Cy Young; no extension; club control through 2029"
+          }
+        ],
+        "fact": "Griffin 9yr/$140M added; Skenes still unextended",
+        "source": "https://en.wikipedia.org/wiki/Konnor_Griffin"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Ke'Bryan Hayes' status (reported 2025 trade to Cincinnati) not sourced; dropped from the array pending confirmation"
+    ],
+    "analystNotes": "Pittsburgh is a $1.62B franchise on the 2026 Forbes list with $330M of revenue and $48M of operating income, a 15% margin that reflects how the Nuttings run the club, and the roster finally broke .500 at 81-80 in 2026, the best record since 2018 and still an eleventh straight miss. The asset picture changed in April 2026 when Konnor Griffin, a teenager, signed a 9yr/$140M extension a week after his debut, the largest guarantee in franchise history; Paul Skenes, the 2025 NL Cy Young, played 2026 for $1.085M with no extension and a front office that will not go near a $50M AAV. SportsNet Pittsburgh with the Penguins and Fenway Sports Group keeps local TV stable. Whether Bob Nutting pays Skenes before the 2029 free-agent clock runs out is the whole valuation debate.",
+    "analystNotesBasis": "Forbes 2026 ($1.62B, rev $0.33B, OI $0.048B); 2026 record 81-80 (Wikipedia); Griffin extension (Wikipedia); Skenes status (SI/Spotrac)."
+  },
+  {
+    "teamId": "st-louis-cardinals",
+    "team": "St. Louis Cardinals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; Cardinals went 77-84 in 2026 in the first year of the Chaim Bloom rebuild",
+        "source": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-picture-standings-bracket/"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Midwest (Diamond Sports Group/Sinclair); ~$73M local TV revenue in 2024; Cardinals re-upped with Diamond despite bankruptcy proceedings; outcome of Diamond restructuring may alter future local deal terms",
+        "new": "Cardinals.tv produced and distributed by MLB Local Media from 2026 after the Cardinals terminated FanDuel Sports Network Midwest in Jan 2026 over Main Street's missed rights payments; the DeWitts have acknowledged a hit to local broadcast revenue versus the ~$73M Diamond deal",
+        "fact": "Cardinals moved to MLB Local Media for 2026",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Bally Sports+ streaming app in territory; MLB.TV out-of-market; Apple TV+ Friday Night Baseball nationally",
+        "new": "In-market streaming through MLB.TV / MLB app and the ESPN app; Apple TV+ Friday games nationally",
+        "fact": "MLB Local Media in-market streaming",
+        "source": "https://www.sportspro.com/news/broadcast-ott/espn-mlb-tv-angels-tigers-local-rights-rsn-february-2026/"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Nolan Arenado — 3yr/$66M remaining on original 10yr/$260M deal (signed 2019), ~$32M AAV through 2027; trade rumors circulated in 2025 as team rebuilds",
+        "new": "Rebuild under president of baseball operations Chaim Bloom: Nolan Arenado traded to Arizona Jan 13, 2026 (St. Louis covers $31M of the remaining $42M), Sonny Gray to Boston Nov 25, 2025 and Willson Contreras to Boston Dec 21, 2025; ownership put more than $50M into those deals; the core is Brendan Donovan and JJ Wetherholt",
+        "fact": "Arenado, Gray and Contreras traded in the 2025-26 offseason",
+        "source": "https://www.mlbtraderumors.com/2026/01/cardinals-trade-nolan-arenado-diamondbacks.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Nolan Arenado",
+            "position": "3B",
+            "aav": 32,
+            "contractNote": "Remaining years on 10yr/$260M (2019 extension with Colorado); through 2027; perennial Gold Glove; trade demand grew as Cardinals pivoted to rebuild"
+          },
+          {
+            "player": "Sonny Gray",
+            "position": "SP",
+            "aav": 25,
+            "contractNote": "4yr/$100M (Dec 2022), through 2026; consistent NL Cy Young contender-level starter"
+          }
+        ],
+        "new": [
+          {
+            "player": "Nolan Arenado",
+            "position": "3B",
+            "aav": null,
+            "contractNote": "Traded to the Diamondbacks Jan 13, 2026 for Jack Martinez; Cardinals pay $31M of the $42M owed for 2026-2027"
+          },
+          {
+            "player": "Sonny Gray",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Traded to the Red Sox with cash Nov 25, 2025 for Brandon Clarke and Richard Fitts"
+          },
+          {
+            "player": "Willson Contreras",
+            "position": "1B",
+            "aav": null,
+            "contractNote": "Traded to the Red Sox Dec 21, 2025 for Hunter Dobbins and pitching prospects"
+          }
+        ],
+        "fact": "Veteran contracts moved out; salary retained",
+        "source": "https://www.cbssports.com/mlb/news/cardinals-rebuild-payroll-chaim-bloom-nolan-arenado-brendan-donovan-jj-wetherholt/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [],
+    "analystNotes": "The Cardinals are a $2.75B franchise on the 2026 Forbes list with $350M of revenue and $33M of operating income, a mark held up by a team-owned Busch Stadium and Ballpark Village rather than by the product, which was a 77-84 rebuild in 2026. Chaim Bloom cleared the veteran payroll in one offseason, Gray and Contreras to Boston and Arenado to Arizona with the DeWitts eating more than $50M in retained salary. The bigger revenue hit is media: the $73M Diamond Sports deal is gone, the Cardinals terminated FanDuel Sports Network Midwest in January 2026 when Main Street missed payments, and games now run through MLB-produced Cardinals.tv at a lower fee. The DeWitt family's 30-year, 17x return is intact; the next re-rating waits on a new local media structure and on Donovan and Wetherholt becoming a contender again.",
+    "analystNotesBasis": "Forbes 2026 ($2.75B, rev $0.35B, OI $0.033B); 2026 record 77-84 (CBS); trades (MLBTR/CBS/Wikipedia Red Sox 2026); Cardinals.tv (Wikipedia)."
+  },
+  {
+    "teamId": "los-angeles-dodgers",
+    "team": "Los Angeles Dodgers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 3,
+        "fact": "World Series titles in 2020, 2024 and 2025 (beat Toronto 5-4 in 11 innings in Game 7 on Nov 1, 2025, the first repeat since the 1998-2000 Yankees)",
+        "source": "https://www.espn.com/mlb/story/_/id/46796786/world-series-2025-los-angeles-dodgers-champions-repeat-dynasty"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Shohei Ohtani — 10yr/$700M (Dec 2023), $70M AAV, through 2033; largest contract in professional sports history; $680M of $700M total deferred to post-contract",
+        "new": "Shohei Ohtani — 10yr/$700M (Dec 2023), $70M AAV through 2033 with $680M deferred; two straight World Series titles (2024, 2025)",
+        "fact": "Repeat champions 2025",
+        "source": "https://www.espn.com/mlb/story/_/id/46796786/world-series-2025-los-angeles-dodgers-champions-repeat-dynasty"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Shohei Ohtani",
+            "position": "DH/SP",
+            "aav": 70,
+            "contractNote": "10yr/$700M (Dec 2023) through 2033; $680M deferred; actual cash AAV ~$2M/yr until 2034; luxury tax figure ~$46M AAV"
+          },
+          {
+            "player": "Mookie Betts",
+            "position": "SS/RF",
+            "aav": 36.5,
+            "contractNote": "12yr/$365M (Apr 2020) through 2032; $115M deferred; Gold Glove, multiple MVP-caliber seasons"
+          },
+          {
+            "player": "Freddie Freeman",
+            "position": "1B",
+            "aav": 27,
+            "contractNote": "6yr/$162M (Apr 2022) through 2027; $57M deferred; 2020 NL MVP, 2024 WS MVP"
+          },
+          {
+            "player": "Kyle Tucker",
+            "position": "RF",
+            "aav": 48,
+            "contractNote": "5yr/$240M (2025), through 2029; acquired via trade from Houston, re-signed immediately"
+          }
+        ],
+        "new": [
+          {
+            "player": "Shohei Ohtani",
+            "position": "DH/SP",
+            "aav": 70,
+            "contractNote": "10yr/$700M (Dec 2023) through 2033; $680M deferred; luxury-tax AAV ~$46M"
+          },
+          {
+            "player": "Kyle Tucker",
+            "position": "RF",
+            "aav": 60,
+            "contractNote": "4yr/$240M free-agent deal (Jan 21, 2026); $64M signing bonus, $30M deferred, opt-outs after 2027 and 2028; ~$57.1M luxury-tax AAV, the highest in MLB history"
+          },
+          {
+            "player": "Mookie Betts",
+            "position": "SS/RF",
+            "aav": 36.5,
+            "contractNote": "12yr/$365M (Apr 2020) through 2032; $115M deferred"
+          },
+          {
+            "player": "Freddie Freeman",
+            "position": "1B",
+            "aav": 27,
+            "contractNote": "6yr/$162M (Apr 2022) through 2027; $57M deferred; 2024 WS MVP"
+          },
+          {
+            "player": "Tarik Skubal",
+            "position": "SP",
+            "aav": null,
+            "contractNote": "Acquired from Detroit Aug 3, 2026 for River Ryan, Zyhir Hope and Brady Smith; free agent after 2026"
+          }
+        ],
+        "fact": "Tucker signed as a free agent Jan 2026 (the enrichment's 'acquired via trade from Houston, 5yr/$240M, 2025' was wrong); Skubal acquired Aug 2026",
+        "source": "https://www.mlbtraderumors.com/2026/01/dodgers-to-sign-kyle-tucker.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "media.localTVDeal: SportsNet LA / Charter arrangement not re-checked with a 2026 source"
+    ],
+    "analystNotes": "The Dodgers are a $7.8B franchise on the 2026 Forbes list, the first MLB club with $850M of revenue, and the operating line is a $20M loss only because Guggenheim paid a record $169.4M in luxury tax to win a second straight World Series, an 11-inning Game 7 over Toronto on Nov 1, 2025. The machine kept feeding itself: Kyle Tucker at 4yr/$240M in January 2026 with a $57.1M tax AAV, the highest ever, then Tarik Skubal at the August deadline, and a 99-62 division title. Team-owned Dodger Stadium and the $8.35B SportsNet LA deal through 2039 underwrite it, with $1.4B-plus of deferred salary keeping the cash cost of the roster manageable. The December 2026 CBA is the only thing that can touch this model; a hard cap would hit the Dodgers harder than any other club.",
+    "analystNotesBasis": "Forbes 2026 ($7.8B, rev $0.85B, OI -$0.02B); 2025 WS (ESPN/NBC); Tucker (MLBTR); Skubal trade (ESPN); 2026 record 99-62 (CBS); 2025 CBT (forbes-proxies.js)."
+  },
+  {
+    "teamId": "san-francisco-giants",
+    "team": "San Francisco Giants",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Logan Webb — 5yr/$90M extension (Mar 2022), $18M AAV, through 2026; Giants ace and homegrown franchise cornerstone",
+        "new": "Logan Webb — 5yr/$90M extension (2023), $18M AAV through 2028; Buster Posey (president of baseball operations) says he will not be traded; 4.31 ERA and a knee injury in 2026",
+        "fact": "Webb runs through 2028, not 2026",
+        "source": "https://www.mlbtraderumors.com/2026/06/posey-discusses-giants-deadline-no-plans-to-trade-logan-webb.html"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Logan Webb",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "5yr/$90M extension (Mar 2022) through 2026; NL Cy Young contender, 200+ innings per year"
+          },
+          {
+            "player": "Matt Chapman",
+            "position": "3B",
+            "aav": 18,
+            "contractNote": "3yr/$54M (Dec 2023) through 2026; Gold Glove third baseman, cornerstone of rebuild"
+          },
+          {
+            "player": "Jung Hoo Lee",
+            "position": "CF",
+            "aav": 18.8,
+            "contractNote": "6yr/$113M (Jan 2024) through 2029; KBO Korean star; injury-plagued debut 2024"
+          }
+        ],
+        "new": [
+          {
+            "player": "Rafael Devers",
+            "position": "DH/1B",
+            "aav": 30.1,
+            "contractNote": "11yr/$331M (Boston extension, Jan 2023); acquired June 15, 2025; $211M owed over seven years after 2026; season-ending core surgery in 2026"
+          },
+          {
+            "player": "Matt Chapman",
+            "position": "3B",
+            "aav": 25.2,
+            "contractNote": "6yr/$151M extension (Sept 2024), $25M in 2026 and $100M for 2027-2030; core-muscle surgery ended his 2026 on June 30"
+          },
+          {
+            "player": "Logan Webb",
+            "position": "SP",
+            "aav": 18,
+            "contractNote": "5yr/$90M extension (2023), through 2028"
+          },
+          {
+            "player": "Jung Hoo Lee",
+            "position": "CF",
+            "aav": 18.8,
+            "contractNote": "6yr/$113M (Jan 2024), through 2029"
+          }
+        ],
+        "fact": "Devers acquired June 2025; Chapman extended Sept 2024; Webb runs to 2028",
+        "source": "https://www.cbssports.com/mlb/news/regrading-rafael-devers-trade-red-sox-giants-one-year-later/"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "stadium.namingRightsDeal"
+    ],
+    "unverified": [
+      "media.localTVDeal: NBC Sports Bay Area JV not re-checked for 2026",
+      "ownership.ownershipGroup: ESPN lists Greg Johnson as chairman with 30-plus partners incl. Buster Posey; not restructured without a fuller source"
+    ],
+    "analystNotes": "The Giants are a $4.05B franchise on the 2026 Forbes list, fourth in baseball, with $477M of revenue and $54M of operating income, a mark carried by a privately financed, team-owned Oracle Park, the Mission Rock development and a co-owned NBC Sports Bay Area, none of which showed up in the standings: 65-96 in 2026 was the worst season since 2017. Buster Posey's bets went bad at once, Rafael Devers, acquired from Boston in June 2025 with $211M still owed after 2026, and Matt Chapman on a 6yr/$151M extension both had season-ending surgery, and Logan Webb posted a 4.31 ERA before a knee injury. Sixth Street's 10% stake from 2025 sets a private mark near Forbes. The gap between a top-four valuation and a bottom-three team closes only if the 2027 roster contends; the real estate does not need to win, but the multiple does.",
+    "analystNotesBasis": "Forbes 2026 ($4.05B, rev $0.477B, OI $0.054B); 2026 record 65-96 (CBS/Yahoo); Devers/Chapman/Webb status (CBS/MLBTR/SF Standard)."
+  },
+  {
+    "teamId": "san-diego-padres",
+    "team": "San Diego Padres",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Seidler family (Peter Seidler died Nov 2023; John Seidler managing); sale to José Feliciano / Kwanza Jones pending",
+        "new": "José E. Feliciano (control person) and Kwanza Jones — $3.9B sale from the Seidler family trust announced May 2, 2026, approved unanimously by MLB owners Aug 17, 2026 and completed; the buyers hold ~40% of the equity with control, the Seidlers keep a stake, minority partners include Joey and Jesse Buss",
+        "fact": "Padres sale closed Aug 2026 (transactions.js)",
+        "source": "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Seidler family",
+            "role": "controlling owners (pending sale)",
+            "pct": null
+          },
+          {
+            "name": "Ron Fowler",
+            "role": "executive chairman / limited partner",
+            "pct": null
+          },
+          {
+            "name": "José E. Feliciano",
+            "role": "incoming controlling owner (deal pending)",
+            "pct": null
+          },
+          {
+            "name": "Kwanza Jones",
+            "role": "incoming co-owner (deal pending)",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "José E. Feliciano",
+            "role": "control person / chairman (Clearlake Capital co-founder)",
+            "pct": null
+          },
+          {
+            "name": "Kwanza Jones",
+            "role": "co-owner; first Black woman to hold a controlling stake in an MLB club",
+            "pct": null
+          },
+          {
+            "name": "Seidler family",
+            "role": "minority (retained equity after the 2026 sale)",
+            "pct": null
+          },
+          {
+            "name": "Joey and Jesse Buss",
+            "role": "minority partners",
+            "pct": null
+          },
+          {
+            "name": "Ron Fowler",
+            "role": "limited partner / former executive chairman",
+            "pct": null
+          }
+        ],
+        "fact": "Post-sale ownership group",
+        "source": "https://www.espn.com/mlb/story/_/id/48659063/padres-reach-agreement-sell-group-led-kwanza-jones-jose-e-feliciano"
+      },
+      {
+        "field": "ownership.acquisitionYear",
+        "old": 2012,
+        "new": 2026,
+        "fact": "Sale closed Aug 2026",
+        "source": "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres"
+      },
+      {
+        "field": "ownership.acquisitionPrice",
+        "old": 0.6,
+        "new": 3.9,
+        "fact": "$3.9B reported valuation, an MLB record at the time (later topped by the Angels' ~$4B)",
+        "source": "https://www.espn.com/mlb/story/_/id/49640765/mlb-unanimously-approves-sale-san-diego-padres"
+      },
+      {
+        "field": "stadium.namingRightsDeal",
+        "old": {
+          "sponsor": "Petco (pet supply retail)",
+          "annualValue_M": 7.7,
+          "totalValue_M": null,
+          "expiryYear": 2026,
+          "notes": "Original 22-year/$60M deal signed 2003 ($2.7M/yr); renegotiated and extended at higher rate; current deal estimated ~$7-8M/yr; Petco is headquartered in San Diego, aligning brand with local community"
+        },
+        "new": {
+          "sponsor": "Petco (pet supply retail)",
+          "annualValue_M": 7.7,
+          "totalValue_M": null,
+          "expiryYear": 2027,
+          "notes": "Original 22-year/$60M deal (2003) renegotiated; the 2021 renewal runs through at least 2027; Petco is headquartered in San Diego; no post-2027 extension announced as of Sept 2026"
+        },
+        "fact": "Petco deal runs through at least 2027 per the 2021 renewal",
+        "source": "https://en.wikipedia.org/wiki/Petco_Park"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Padres own direct streaming rights in territory; simulcast on KFMB free-to-air; MLB.TV out-of-market; Apple TV+ Friday Night Baseball",
+        "new": "Padres.tv in-market streaming through MLB.TV / MLB app and the ESPN app; KFMB over-the-air simulcasts; Apple TV+ Friday games nationally",
+        "fact": "Padres.tv via MLB Local Media since 2023",
+        "source": "https://en.wikipedia.org/wiki/MLB_Local_Media"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "stadium.name",
+      "media.localTVDeal",
+      "onField.starContracts"
+    ],
+    "unverified": [],
+    "analystNotes": "San Diego produced the cleanest control-sale comp in baseball: José Feliciano and Kwanza Jones bought about 40% of the equity with control at a $3.9B valuation, announced May 2, 2026, approved unanimously on Aug 17 and closed, a 26% premium to the $3.1B Forbes mark from March and a 6.5x return on the Seidler group's $600M entry in 2012. Forbes counts $452M of revenue and roughly breakeven operations for a club that paid $7M in luxury tax, owns its local rights through MLB-produced Padres.tv, and went 90-71 to take the top NL wild card in 2026 for a third playoff trip in four years. Tatis, Machado and Bogaerts are locked through 2032-2034. The new owners' first decisions, the Petco naming deal that expires after 2027 and whether they keep spending like Peter Seidler did, set the next mark.",
+    "analystNotesBasis": "Forbes 2026 ($3.1B, rev $0.452B, OI -$0.0013B); sale (transactions.js / ESPN Aug 2026); 2026 record 90-71 (CBS); Petco naming (Wikipedia)."
+  },
+  {
+    "teamId": "colorado-rockies",
+    "team": "Colorado Rockies",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "ownership.institutionalInvestors",
+        "old": "Walton-Penner group (Walmart family / PE background) has ~40% stake",
+        "new": "Greg Penner and Carrie Walton Penner's group (Denver Broncos owners) completed the purchase of a ~40% minority stake in April 2026, the largest minority position in MLB; the Monforts retain control; Paul DePodesta was hired as president of baseball operations and Josh Byrnes as GM for 2026",
+        "fact": "Walton-Penner 40% stake closed April 2026",
+        "source": "https://en.wikipedia.org/wiki/2026_Colorado_Rockies_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kris Bryant",
+            "position": "OF/3B",
+            "aav": 26,
+            "contractNote": "7yr/$182M (Mar 2022), through 2028; back injuries have derailed tenure; played fewer than 100 games total 2022-2024; widely viewed as worst free-agent contract of the era"
+          },
+          {
+            "player": "Ryan McMahon",
+            "position": "2B",
+            "aav": 11.7,
+            "contractNote": "6yr/$70M (Feb 2022) through 2027; consistent Gold Glove-caliber 2B; team's best value contract"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kris Bryant",
+            "position": "OF/3B",
+            "aav": 26,
+            "contractNote": "7yr/$182M (Mar 2022), through 2028; 48 games in three seasons and none since April 12, 2025"
+          },
+          {
+            "player": "Ryan McMahon",
+            "position": "3B",
+            "aav": 11.7,
+            "contractNote": "6yr/$70M (Feb 2022) through 2027"
+          }
+        ],
+        "fact": "Bryant has not played since April 2025",
+        "source": "https://www.si.com/mlb/rockies/colorado-rockies-four-100-loss-seasons-historic-levels-losing"
+      }
+    ],
+    "verifiedUnchanged": [
+      "onField.playoffAppearancesLast5Years",
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: McMahon's reported 2025 trade to the Yankees not sourced; entry left as is",
+      "ownership.ownershipGroup: Penner stake pct left at 40 pending the closing source (April 2026 per Wikipedia; enrichment said 2025)"
+    ],
+    "analystNotes": "Colorado is the sport's clearest case of a valuation that ignores the standings: Forbes has the Rockies at $1.68B on the 2026 list with $319M of revenue and $20M of operating income, and the team has lost 100 games four years running, 43-119 in 2025 and 58-103 in 2026, the first such streak since the 1962-65 Mets. The change is upstairs: the Walton-Penner group that rebuilt the Broncos closed on a ~40% minority stake in April 2026, the largest in MLB, and the Monforts brought in Paul DePodesta and Josh Byrnes to run baseball operations. Coors Field, the Denver market and a $1.5M-a-year Coors naming deal that has never been repriced are the assets. The number moves when the Penners take control, and not before.",
+    "analystNotesBasis": "Forbes 2026 ($1.68B, rev $0.319B, OI $0.02B); 2026 record 58-103 and front office (Wikipedia); Penner stake (Wikipedia/ESPN)."
+  },
+  {
+    "teamId": "arizona-diamondbacks",
+    "team": "Arizona Diamondbacks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$57M/team/year from MLB national deals (ESPN through 2028 ~$550M/yr, Fox through 2028 ~$729M/yr, Apple TV+ ~$85M/yr)",
+        "new": "2026-2028 national deals: ESPN ~$550M/yr (30-game national package plus MLB.TV distribution), NBC/Peacock ~$200M/yr (Sunday Night Baseball, Wild Card games), Netflix ~$50M/yr (Home Run Derby), alongside the existing Fox (~$729M/yr) and TNT packages that run through 2028 (CNBC, Nov 2025); the CBA expires Dec 1, 2026 and a lockout over the owners' salary cap proposal is widely expected",
+        "fact": "MLB signed three-year national deals with ESPN, NBC and Netflix in Nov 2025 for 2026-2028 (~$800M/yr combined); CBA expires Dec 1, 2026",
+        "source": "https://www.cnbc.com/2025/11/19/mlb-media-rights-deals-nbc-espn-netflix.html"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Completed-season count for 2021-2025; 2025 postseason field: AL Blue Jays, Mariners, Guardians, Yankees, Red Sox, Tigers; NL Brewers, Phillies, Dodgers, Cubs, Padres, Reds; the 2023 pennant remains the only trip in the window; Arizona entered the final day of 2026 at 86-75 needing a win over San Diego and a Phillies loss for the last NL wild card",
+        "source": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-picture-standings-bracket/"
+      },
+      {
+        "field": "stadium.ownershipModel",
+        "old": "owned by Maricopa County; Diamondbacks lease under agreement expiring 2027; retractable roof (only MLB ballpark with a roof in this era besides Marlins and Rangers); Maricopa County and team in negotiations over new stadium or Chase Field renovation",
+        "new": "owned by Maricopa County through the Arizona Sports and Tourism Authority-era stadium district; lease expires after 2027; Gov. Katie Hobbs signed a June 2025 bill directing up to $500M of stadium-area sales tax to renovations over 30 years with the team adding $250M, but lease-extension talks with the county were still described by the club as 'non-productive' in Sept 2026, holding up a roof replacement and other repairs",
+        "fact": "Renovation funding signed 2025; lease extension unresolved Sept 2026",
+        "source": "https://www.axios.com/local/phoenix/2026/09/01/diamondbacks-chase-field-lease"
+      },
+      {
+        "field": "stadium.newStadiumPlans",
+        "old": "$500M Arizona state public funding bill for new stadium cleared the Arizona House in 2025, headed to Governor Hobbs; new stadium in Phoenix metro likely if signed; would reset team's venue economics entirely",
+        "new": "No new stadium: the June 2025 state law funds up to $500M of Chase Field renovations (roof, HVAC) from stadium-district sales tax over 30 years, plus $250M from the team, in exchange for the Diamondbacks staying at Chase Field long term; the required lease extension with Maricopa County was not signed as of Sept 2026 and the current lease ends in 2027",
+        "fact": "Chase Field renovation path replaced the new-stadium bill; lease extension pending",
+        "source": "https://www.espn.com/mlb/story/_/id/45599472/gov-katie-hobbs-signs-upgrades-d-backs-chase-field"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Ketel Marte",
+            "position": "2B/CF",
+            "aav": 19.4,
+            "contractNote": "6yr/$116.5M (Mar 2021) through 2026; consistent All-Star, franchise stalwart"
+          },
+          {
+            "player": "Corbin Carroll",
+            "position": "CF/LF",
+            "aav": 13.875,
+            "contractNote": "8yr/$111M (Jan 2024) through 2031; pre-arb extension locking in ROY and breakout star through prime years"
+          },
+          {
+            "player": "Zac Gallen",
+            "position": "SP",
+            "aav": 12,
+            "contractNote": "5yr/$60M (Nov 2022) through 2027; D-backs homegrown ace; sub-3.00 ERA franchise starter"
+          }
+        ],
+        "new": [
+          {
+            "player": "Corbin Carroll",
+            "position": "CF/LF",
+            "aav": 13.875,
+            "contractNote": "8yr/$111M (Mar 2023) through 2030 with a 2031 club option"
+          },
+          {
+            "player": "Ketel Marte",
+            "position": "2B",
+            "aav": 19.4,
+            "contractNote": "Extension through 2030 (signed 2025)"
+          },
+          {
+            "player": "Nolan Arenado",
+            "position": "3B",
+            "aav": 5.5,
+            "contractNote": "Acquired from St. Louis Jan 13, 2026 for Jack Martinez; Arizona pays $11M of the $42M owed for 2026-2027 ($5M in 2026, $6M in 2027)"
+          }
+        ],
+        "fact": "Arenado acquired Jan 2026; Carroll's deal dates from March 2023",
+        "source": "https://www.mlbtraderumors.com/2026/01/cardinals-trade-nolan-arenado-diamondbacks.html"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner",
+      "stadium.name",
+      "media.localTVDeal"
+    ],
+    "unverified": [
+      "onField.starContracts: Marte's extension terms and Zac Gallen's status (free agent after 2025) not sourced with a 2026 link",
+      "stadium.namingRightsDeal: Chase deal term not re-checked"
+    ],
+    "analystNotes": "Arizona is a $1.96B franchise on the 2026 Forbes list with $324M of revenue and a $31M operating loss, and the valuation question is entirely about the building: Gov. Hobbs signed a June 2025 law steering up to $500M of stadium-district sales tax into Chase Field over 30 years with $250M from the team, which killed the new-stadium track, but the lease extension with Maricopa County that unlocks it was still stalled in September 2026 with the current lease ending after 2027. The team stayed relevant, adding Nolan Arenado for $11M of exposure in January and reaching the final day of 2026 at 86-75 with a shot at the last NL wild card. Corbin Carroll's 8yr/$111M deal runs through 2030. A signed lease and a roof replacement in the 2026-27 offseason are worth more to Ken Kendrick's mark than any single contract.",
+    "analystNotesBasis": "Forbes 2026 ($1.96B, rev $0.324B, OI -$0.031B); Chase Field funding (ESPN, June 2025) and lease status (Axios/KJZZ, Sept 2026); Arenado trade (MLBTR); final-day standings (CBS, Sept 27)."
+  }
+]

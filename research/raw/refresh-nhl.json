@@ -1,0 +1,3049 @@
+[
+  {
+    "teamId": "boston-bruins",
+    "team": "Boston Bruins",
+    "asOf": "2026-09",
+    "changes": [],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Delaware North / Jacobs family per Wikipedia infobox)",
+      "arena.name (TD Garden)",
+      "media.localTVDeal (NESN)",
+      "onField.playoffAppearancesLast5Years (4: 2022, 2023, 2024, 2026; missed 2025; lost 2026 first round to Buffalo in 6)",
+      "onField.championshipsLast10Years (0)",
+      "onField.starContracts (Pastrnak $11.25M and McAvoy $9.5M unchanged per CapWages 2026-27)"
+    ],
+    "unverified": [
+      "onField.starContracts: CapWages lists JJ Peterka ($7.7M) and Elias Lindholm ($7.75M) on the 2026-27 Bruins; the Peterka move was not second-sourced so it is not added",
+      "arena.nonArenaRevenue / Hub on Causeway: no 2026 source checked"
+    ],
+    "analystNotes": "Forbes put the Bruins at $2.7B in December 2024 on $268M of revenue and $69M of operating income, and the structure behind that number has not moved: Delaware North owns TD Garden and the Hub on Causeway district, and the Jacobs family holds 20% of NESN. The hockey side wobbled, with a last-place 2024-25, the Marchand trade to Florida, and a 2026 first-round exit to Buffalo, but Pastrnak ($11.25M through 2030-31) and McAvoy ($9.5M through 2029-30) keep the roster core intact. Succession at Delaware North is the one event that would reprice this franchise, because any sale would set a new Original Six record.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.7B, $268M revenue, $69M operating income); 2025 and 2026 playoff results from Wikipedia; contracts from CapWages 2026-27."
+  },
+  {
+    "teamId": "buffalo-sabres",
+    "team": "Buffalo Sabres",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Sabres clinched a playoff spot April 4, 2026, ending a 14-year drought, won the Atlantic Division April 13, 2026 (first since 2010), beat Boston in 6 and lost Game 7 in overtime to Montreal in the second round",
+        "source": "https://en.wikipedia.org/wiki/Buffalo_Sabres ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "arena.namingRightsDeal",
+        "old": {
+          "sponsor": "KeyBank",
+          "annualValue_M": 5,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "KeyBank naming rights (formerly HSBC Arena, First Niagara Center); multi-year deal; revenue retained by facility ownership/operating agreement; Sabres exploring significant public funding for future arena upgrades"
+        },
+        "new": {
+          "sponsor": "KeyBank",
+          "annualValue_M": 5,
+          "totalValue_M": null,
+          "expiryYear": 2036,
+          "notes": "New KeyBank naming-rights contract announced July 30, 2025 keeps the KeyBank Center name through the 2035-36 season; lease runs through September 2031; annual value not disclosed (prior ~$5M/yr estimate retained)"
+        },
+        "fact": "Sabres and KeyBank announced a new naming-rights contract on July 30, 2025 running through 2035-36",
+        "source": "https://en.wikipedia.org/wiki/Buffalo_Sabres ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Tage Thompson",
+            "position": "C",
+            "aav": 7.14,
+            "contractNote": "7yr/$50M signed Aug 2022, through 2029-30; led team with 47 goals in 2023-24"
+          },
+          {
+            "player": "Jason Zucker",
+            "position": "LW",
+            "aav": 5,
+            "contractNote": "1yr/$5M (2023-24); veteran leadership role"
+          }
+        ],
+        "new": [
+          {
+            "player": "Josh Norris",
+            "position": "C",
+            "aav": 7.95,
+            "contractNote": "$7.95M AAV, four seasons left after 2026-27 per CapWages; acquired from Ottawa"
+          },
+          {
+            "player": "Zach Benson",
+            "position": "LW",
+            "aav": 7.5,
+            "contractNote": "$7.5M AAV, seven seasons remaining per CapWages (new long-term deal)"
+          },
+          {
+            "player": "Tage Thompson",
+            "position": "C",
+            "aav": 7.14,
+            "contractNote": "7yr/$50M signed Aug 2022, through 2029-30"
+          },
+          {
+            "player": "Josh Doan",
+            "position": "RW",
+            "aav": 6.95,
+            "contractNote": "$6.95M AAV, seven seasons remaining per CapWages"
+          }
+        ],
+        "fact": "2026-27 cap sheet: Norris $7.95M, Benson $7.5M, Thompson $7.14M, Doan $6.95M; Zucker's 2023-24 one-year deal is long expired",
+        "source": "https://capwages.com/teams/buffalo_sabres"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Terry Pegula, purchase finalized Feb 18, 2011 for $189M)",
+      "arena.name (KeyBank Center)",
+      "onField.currentFranchisePlayer (Tage Thompson $7.14M through 2029-30)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "onField.starContracts: Rasmus Dahlin (captain per Wikipedia) and Owen Power did not appear in the CapWages excerpt returned, so their current cap hits were not confirmed",
+      "media.localTVDeal (MSG Network): no 2026 source found",
+      "arena.newArenaPlans: no 2026 source found on state renovation funding"
+    ],
+    "analystNotes": "Forbes valued the Sabres at $1.1B in December 2024 on $169M of revenue, the profile of a small-market team with a 14-year playoff drought, and that drought is over: Buffalo won the Atlantic Division in April 2026 and took Montreal to a Game 7 overtime in the second round. Playoff gates and a KeyBank naming deal that now runs through 2035-36 give the revenue line its first real lift since Pegula bought the club for $189M in 2011. The number moves on whether 2026 becomes a run of contention rather than a one-year spike in a 1.2M-person metro.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.1B, $169M revenue); 2026 division title and playoff run from Wikipedia; KeyBank extension July 30, 2025; contracts from CapWages."
+  },
+  {
+    "teamId": "detroit-red-wings",
+    "team": "Detroit Red Wings",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 0,
+        "fact": "Detroit missed the playoffs in 2022 through 2026; eliminated April 11, 2026 for a tenth straight season, the longest active drought in the NHL",
+        "source": "https://en.wikipedia.org/wiki/Detroit_Red_Wings"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Detroit (Diamond Sports Group / Sinclair Broadcast Group); Red Wings regional rights held by Bally Sports through 2033 but Diamond's bankruptcy restructuring created uncertainty; team exploring direct-to-consumer streaming alternatives",
+        "new": "Detroit SportsNet, a channel built with MLB Local Media (the Tigers' partner), carries Red Wings regional games from 2026-27 after FanDuel Sports Network Detroit went dark on April 30, 2026; in-market streaming through the MLB app",
+        "fact": "Main Street Sports Group (FanDuel Sports Network) ceased operations April 30, 2026; Red Wings moved to Detroit SportsNet via an MLB Local Media partnership for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Bally Sports+ streaming; ESPN+ for national games; Diamond Sports restructuring may accelerate shift to team-controlled streaming",
+        "new": "Detroit SportsNet in-market streaming via the MLB app; ESPN+/Hulu and TNT/Max for US national games",
+        "fact": "Local streaming now runs through the MLB app under the Detroit SportsNet arrangement",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Dylan Larkin",
+            "position": "C",
+            "aav": 8.7,
+            "contractNote": "8yr/$69.6M signed March 2023, through 2030-31; team captain and franchise cornerstone"
+          },
+          {
+            "player": "Lucas Raymond",
+            "position": "RW",
+            "aav": 8,
+            "contractNote": "8yr/$64M extension (2023), through 2031-32; Swedish-born 2021 4th-overall pick"
+          }
+        ],
+        "new": [
+          {
+            "player": "Dylan Larkin",
+            "position": "C",
+            "aav": 8.7,
+            "contractNote": "8yr/$69.6M signed March 2023, through 2030-31"
+          },
+          {
+            "player": "Moritz Seider",
+            "position": "D",
+            "aav": 8.55,
+            "contractNote": "$8.55M AAV, five seasons left after 2026-27 per CapWages; modified NTC from 2028-29"
+          },
+          {
+            "player": "Lucas Raymond",
+            "position": "RW",
+            "aav": 8.075,
+            "contractNote": "$8.075M AAV, six seasons remaining per CapWages; 10-team no-trade list"
+          }
+        ],
+        "fact": "CapWages 2026-27: Larkin $8.7M, Seider $8.55M, Raymond $8.075M (not $8.0M)",
+        "source": "https://capwages.com/teams/detroit_red_wings"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Ilitch Holdings / Chris Ilitch)",
+      "arena.name (Little Caesars Arena)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Wikipedia infobox shows the captaincy vacant and Shawn Horcoff as interim GM (named Sept 15, 2026) while CapWages still lists Larkin at $8.7M; Larkin's status and Steve Yzerman's departure were not second-sourced, so currentFranchisePlayer is left as is",
+      "arena.nonArenaRevenue (District Detroit): no 2026 source checked"
+    ],
+    "analystNotes": "Forbes had Detroit at $2.125B in December 2024 on $229M of revenue, a valuation built on the Original Six brand, Little Caesars Arena and the District Detroit real estate rather than results: the Red Wings have now missed the playoffs ten straight years, the longest active drought in the league, and the front office was handed to an interim GM in September 2026. Local media is settled for now, with FanDuel Sports Network Detroit dark since April 30, 2026 and games moved to Detroit SportsNet through the Tigers' MLB Local Media deal. The number moves on the first playoff series in a decade, because Larkin, Seider and Raymond are all locked through at least 2030-31 and the market has nothing left to price but wins.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.125B, $229M revenue); playoff drought and front-office change from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "florida-panthers",
+    "team": "Florida Panthers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Panthers beat Edmonton in six games in the 2025 Stanley Cup Final for back-to-back titles (2024, 2025); Sam Bennett won the Conn Smythe",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Florida_Panthers"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Playoffs in 2022, 2023, 2024 and 2025; missed the 2026 playoffs at 40-38-4 (7th in the Atlantic), the first defending champion to miss since 2014-15",
+        "source": "https://en.wikipedia.org/wiki/Florida_Panthers ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Florida (Diamond Sports Group / Sinclair); regional rights through ~2030; Diamond bankruptcy created uncertainty; Panthers also exploring streaming options in South Florida market",
+        "new": "Scripps Sports over-the-air deal (WSFL-TV) in place since 2024-25, so the April 30, 2026 shutdown of FanDuel Sports Network did not touch the Panthers' local rights",
+        "fact": "Panthers moved local broadcasts to Scripps Sports / WSFL-TV for 2024-25; FanDuel Sports Network ceased operations April 30, 2026",
+        "source": "https://en.wikipedia.org/wiki/Florida_Panthers ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Bally Sports+ streaming; NHL.tv for out-of-market; ESPN+ for national games",
+        "new": "Over-the-air Scripps model with team-arranged in-market streaming; ESPN+/Hulu and TNT/Max for national games",
+        "fact": "Local rights are broadcast-first under Scripps since 2024-25",
+        "source": "https://en.wikipedia.org/wiki/Florida_Panthers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Matthew Tkachuk",
+            "position": "LW",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M signed 2022, through 2029-30; acquired from Calgary in blockbuster 2022 trade for Jonathan Huberdeau; led Panthers to back-to-back Finals"
+          },
+          {
+            "player": "Brad Marchand",
+            "position": "LW/C",
+            "aav": 5.25,
+            "contractNote": "6yr/$31.5M signed 2025; acquired from Boston at 2025 trade deadline; Bruins retained 50% of salary"
+          }
+        ],
+        "new": [
+          {
+            "player": "Aleksander Barkov",
+            "position": "C",
+            "aav": 10,
+            "contractNote": "$10M AAV captain; 8yr deal signed 2021 through 2029-30"
+          },
+          {
+            "player": "Matthew Tkachuk",
+            "position": "RW",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M signed 2022, through 2029-30; 16-team no-trade list from Aug 2028"
+          },
+          {
+            "player": "Sam Reinhart",
+            "position": "RW",
+            "aav": 8.625,
+            "contractNote": "8yr/$69M signed 2024, through 2031-32"
+          },
+          {
+            "player": "Brady Tkachuk",
+            "position": "LW",
+            "aav": 8.21,
+            "contractNote": "$8.205714M AAV through 2027-28; acquired from Ottawa June 21, 2026 for a package of draft picks after requesting a trade"
+          },
+          {
+            "player": "Sam Bennett",
+            "position": "C",
+            "aav": 8,
+            "contractNote": "$8M AAV, eight-year deal signed June 2025; 2025 Conn Smythe winner; full NMC through June 30, 2030"
+          },
+          {
+            "player": "Brad Marchand",
+            "position": "LW",
+            "aav": 5.25,
+            "contractNote": "6yr/$31.5M signed 2025, through 2030-31"
+          }
+        ],
+        "fact": "Brady Tkachuk joined Florida June 21, 2026; Bennett re-signed at $8M after the 2025 Cup; Bobrovsky left for Toronto as a free agent in 2026",
+        "source": "https://capwages.com/teams/florida_panthers ; https://en.wikipedia.org/wiki/Ottawa_Senators ; https://en.wikipedia.org/wiki/Florida_Panthers"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Vincent Viola, chairman of Sunrise Sports & Entertainment)",
+      "arena.name (Amerant Bank Arena)",
+      "onField.currentFranchisePlayer (Matthew Tkachuk 8yr/$76M through 2029-30)"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: the 2033 lease extension and $51.5M debt payoff were not re-sourced in 2026",
+      "arena.namingRightsDeal (Amerant Bank): terms still undisclosed"
+    ],
+    "analystNotes": "Forbes valued the Panthers at $1.4B in December 2024 on $189M of revenue, before the second straight Stanley Cup in June 2025 and a decade of arena-lease stability through 2033; that number is now the floor for a franchise Viola bought for $250M in 2013. Local media never became a problem because Florida had already moved to Scripps over-the-air television in 2024-25 when FanDuel Sports Network shut down on April 30, 2026. The 2026 miss at 40-38-4 is the first crack, so the next Forbes print turns on whether the Barkov, Tkachuk brothers and Bennett core gets back to a Final rather than on the building.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.4B, $189M revenue); 2025 Cup and 2026 miss from Wikipedia; Brady Tkachuk trade June 21, 2026 from the Senators page; contracts from CapWages."
+  },
+  {
+    "teamId": "montreal-canadiens",
+    "team": "Montreal Canadiens",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$19M/team/year from US national deals (ESPN/TNT); Canadian national deal with Rogers Sportsnet C$5.2B through 2026 adds ~C$40-50M/year for Canadian franchises; Canadiens additionally benefit from TVA Sports (Quebecor) rights for French-language Quebec market — among the richest per-team broadcast markets in hockey",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26. Canadiens also hold the Quebec francophone market through RDS regionally and TVA Sports nationally.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "TVA Sports (French-language; Groupe TVA / Quebecor, major rights-holder for francophone Quebec); RDS (French, Bell Media subsidiary); Sportsnet (English); CJAD 800 AM (English radio)",
+        "new": "RDS (Bell Media) holds French regional rights and TSN2 English regional rights under a 12-year deal from 2014-15; TVA Sports carries national French games as Rogers' sublicensee; CJAD 800 English radio",
+        "fact": "Wikipedia lists Bell Media (TSN2) for regional English and RDS for French under a 12-year deal that began 2014-15",
+        "source": "https://en.wikipedia.org/wiki/Montreal_Canadiens ; https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Cole Caufield — 8yr/$62.8M ($7.85M AAV), signed June 2023, through 2030-31",
+        "new": "Nick Suzuki (captain) $7.875M AAV through 2029-30 and Cole Caufield $7.85M AAV through 2030-31; Noah Dobson, acquired June 27, 2025 and signed 8yr/$76M ($9.5M AAV), is the top cap hit",
+        "fact": "Dobson was acquired from the Islanders on June 27, 2025 for Emil Heineman and two 2025 first-round picks and signed an eight-year, $76M deal the same day",
+        "source": "https://en.wikipedia.org/wiki/Noah_Dobson ; https://capwages.com/teams/montreal_canadiens"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Cole Caufield",
+            "position": "RW",
+            "aav": 7.85,
+            "contractNote": "8yr/$62.8M signed June 2023, through 2030-31; elite goal-scorer; American-born franchise centerpiece of the rebuild"
+          },
+          {
+            "player": "Nick Suzuki",
+            "position": "C",
+            "aav": 7.875,
+            "contractNote": "8yr/$63M (2022 extension), through 2029-30; team captain; key piece of the rebuild"
+          }
+        ],
+        "new": [
+          {
+            "player": "Noah Dobson",
+            "position": "D",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M signed June 27, 2025 on acquisition from the Islanders; through 2032-33"
+          },
+          {
+            "player": "Lane Hutson",
+            "position": "D",
+            "aav": 8.85,
+            "contractNote": "$8.85M AAV eight-year extension (2025), begins 2026-27; 2025 Calder Trophy winner"
+          },
+          {
+            "player": "Nick Suzuki",
+            "position": "C",
+            "aav": 7.875,
+            "contractNote": "8yr/$63M (2022), through 2029-30; captain"
+          },
+          {
+            "player": "Cole Caufield",
+            "position": "RW",
+            "aav": 7.85,
+            "contractNote": "8yr/$62.8M signed June 2023, through 2030-31"
+          },
+          {
+            "player": "Juraj Slafkovsky",
+            "position": "LW",
+            "aav": 7.6,
+            "contractNote": "8yr/$60.8M (2024), through 2032-33"
+          }
+        ],
+        "fact": "CapWages 2026-27: Dobson $9.5M, Hutson $8.85M, Suzuki $7.875M, Caufield $7.85M, Slafkovsky $7.6M",
+        "source": "https://capwages.com/teams/montreal_canadiens ; https://en.wikipedia.org/wiki/Noah_Dobson"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Geoff Molson, chairman; Molson-led group bought the club for $575M in 2009)",
+      "arena.name (Bell Centre)",
+      "onField.playoffAppearancesLast5Years (2: 2025 first-round loss to Washington, 2026 run to the conference final, lost 1-4 to Carolina)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "arena.nonArenaRevenue: the $600M Bell Centre refinancing in early 2026 was not found on Wikipedia; left as is",
+      "Lane Hutson extension date and total (8yr/$70.8M) rely on CapWages plus prior knowledge; not second-sourced"
+    ],
+    "analystNotes": "Forbes put the Canadiens at $3.0B in December 2024 on $321M of revenue and $142M of operating income, the highest margin in the league, because the Molsons own Bell Centre outright and sit on the richest bilingual media market in hockey. The rebuild arrived ahead of schedule: Montreal beat Tampa Bay and Buffalo in seven games each and reached the 2026 conference final, with Dobson ($9.5M), Hutson ($8.85M), Suzuki and Caufield all signed through at least 2029-30. The next leg up is the new C$11B Rogers national deal that starts in 2026-27 and a first Cup since 1993, either of which pushes this franchise toward Toronto's tier.",
+    "analystNotesBasis": "Forbes Dec 2024 ($3.0B, $321M revenue, $142M operating income); 2026 conference final from Wikipedia; Rogers deal from NHL on Sportsnet page; contracts from CapWages and the Dobson page."
+  },
+  {
+    "teamId": "ottawa-senators",
+    "team": "Ottawa Senators",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Playoffs in 2025 (lost to Toronto in six, first postseason since 2017) and 2026 (swept by Carolina in the first round)",
+        "source": "https://en.wikipedia.org/wiki/Ottawa_Senators ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Brady Tkachuk — 7yr/$57.5M ($8.22M AAV), signed Oct 2021, through 2027-28",
+        "new": "Tim Stützle, 8yr/$66.8M ($8.35M AAV) through 2030-31; captaincy vacant after Brady Tkachuk requested and received a trade to Florida on June 21, 2026 for a package of draft picks",
+        "fact": "Brady Tkachuk traded to Florida June 21, 2026 after requesting a trade; one pick was flipped to San Jose for William Eklund, Kasper Halttunen and Brandon Svoboda",
+        "source": "https://en.wikipedia.org/wiki/Ottawa_Senators"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Brady Tkachuk",
+            "position": "LW",
+            "aav": 8.22,
+            "contractNote": "7yr/$57.5M signed Oct 2021, through 2027-28; team captain; son of NHL veteran Keith Tkachuk, brother of Matthew Tkachuk (Panthers)"
+          },
+          {
+            "player": "Tim Stützle",
+            "position": "C/LW",
+            "aav": 7.625,
+            "contractNote": "8yr/$61M extension (2022), through 2030; German-born 2020 3rd-overall pick; developing as co-star alongside Tkachuk"
+          }
+        ],
+        "new": [
+          {
+            "player": "Tim Stützle",
+            "position": "C",
+            "aav": 8.35,
+            "contractNote": "8yr/$66.8M (2022), through 2030-31; 10-team no-trade list from 2027-28"
+          },
+          {
+            "player": "Linus Ullmark",
+            "position": "G",
+            "aav": 8.25,
+            "contractNote": "$8.25M AAV with full no-move clause (4yr extension signed 2024)"
+          },
+          {
+            "player": "Jake Sanderson",
+            "position": "D",
+            "aav": 8.05,
+            "contractNote": "8yr/$64.4M (2023), through 2031-32"
+          },
+          {
+            "player": "Thomas Chabot",
+            "position": "D",
+            "aav": 8,
+            "contractNote": "8yr/$64M (2019), through 2027-28"
+          },
+          {
+            "player": "Dylan Cozens",
+            "position": "C",
+            "aav": 7.1,
+            "contractNote": "$7.1M AAV through 2029-30; acquired from Buffalo March 2025"
+          }
+        ],
+        "fact": "Stützle's cap hit is $8.35M (not $7.625M); Tkachuk is off the books after the June 2026 trade",
+        "source": "https://capwages.com/teams/ottawa_senators ; https://en.wikipedia.org/wiki/Ottawa_Senators"
+      },
+      {
+        "field": "arena.newArenaPlans",
+        "old": "The Senators have long sought a new downtown Ottawa arena at LeBreton Flats; discussions with National Capital Commission ongoing; no firm timeline or public funding commitment as of 2025",
+        "new": "LeBreton Flats downtown arena: NCC selected the Senators' proposal June 23, 2022, expanded the site from 6 to 10 acres in September 2024, and the land purchase agreement was finalized in August 2025; the club has said construction is still several years away and no budget, financing plan or opening date has been published",
+        "fact": "Land sale agreement with the National Capital Commission finalized August 2025; site now 10 acres",
+        "source": "https://en.wikipedia.org/wiki/Ottawa_Senators"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Sportsnet (Rogers; English); TSN (English); TVA Sports (French-language Quebec market); CFRA 580 AM (radio)",
+        "new": "TSN5 (Bell Media) carries English regional games; TVA Sports French; national Canadian windows on Sportsnet and Prime Video under the Rogers deal; CFRA 580 radio",
+        "fact": "Wikipedia infobox lists TSN5 as the English regional broadcaster",
+        "source": "https://en.wikipedia.org/wiki/Ottawa_Senators"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$19M/team/year from US national deals (ESPN/TNT); Canadian national deal with Rogers Sportsnet + TSN adds ~C$40-50M/year for Canadian franchises",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Michael Andlauer, control since Sept 21, 2023; no stake changes reported)",
+      "arena.name (Canadian Tire Centre)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "LeBreton Flats arena cost and opening year: not published",
+      "Return for Brady Tkachuk beyond 'a package of draft picks' not itemized in the source"
+    ],
+    "analystNotes": "Forbes valued Ottawa at $1.15B in December 2024 on $154M of revenue, barely above the $950M Andlauer paid in 2023, and the two things that drive a Canadian small-market number both improved: the C$11B Rogers national deal starts in 2026-27 and the LeBreton Flats land deal with the NCC closed in August 2025, moving a downtown arena from talk to a signed site. On the ice the Senators made the playoffs in 2025 and 2026 for the first time since 2017, then traded captain Brady Tkachuk to Florida on June 21, 2026 at his request, leaving Stützle ($8.35M through 2030-31) as the franchise anchor. A funded LeBreton arena with a construction date is the single event that reprices this club.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.15B, $154M revenue); LeBreton land deal and Tkachuk trade from the Senators page; Rogers deal; contracts from CapWages."
+  },
+  {
+    "teamId": "tampa-bay-lightning",
+    "team": "Tampa Bay Lightning",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.name",
+        "old": "Amalie Arena",
+        "new": "Benchmark International Arena",
+        "fact": "Amalie Arena was renamed Benchmark International Arena on August 13, 2025",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season ; https://en.wikipedia.org/wiki/Tampa_Bay_Lightning"
+      },
+      {
+        "field": "arena.namingRightsDeal",
+        "old": {
+          "sponsor": "Amalie Oil Company",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Renamed from St. Pete Times Forum to Tampa Bay Times Forum, then Amalie Arena in 2014; multi-year naming rights deal with Tampa-based motor oil company; exact annual value undisclosed; estimated ~$3-4M/yr"
+        },
+        "new": {
+          "sponsor": "Benchmark International",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Renamed Benchmark International Arena August 13, 2025 (Tampa-based M&A advisory firm); terms undisclosed; prior names: Ice Palace (1996), St. Pete Times Forum, Tampa Bay Times Forum, Amalie Arena (2014-2025)"
+        },
+        "fact": "New naming partner Benchmark International from August 13, 2025; terms not disclosed",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Sun (Diamond Sports Group / Sinclair; regional rights for Florida market); Diamond bankruptcy has created uncertainty similar to other Bally Sports RSN markets",
+        "new": "Scripps Sports over-the-air (WXPX-TV) carries Lightning regional games after FanDuel Sports Network Sun went dark with the April 30, 2026 shutdown of Main Street Sports Group",
+        "fact": "Wikipedia infobox lists Scripps Sports (WXPX-TV); FanDuel Sports Network ceased operations April 30, 2026",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "Bally Sports+ streaming; ESPN+ for national games; NHL.tv for out-of-market",
+        "new": "Over-the-air Scripps model with in-market streaming arranged by the team; ESPN+/Hulu and TNT/Max for national games",
+        "fact": "Local rights moved from the RSN to Scripps broadcast television",
+        "source": "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Nikita Kucherov — 8yr/$76M ($9.5M AAV), through 2027-28; 2024 Hart Trophy winner",
+        "new": "Nikita Kucherov, 8yr/$76M ($9.5M AAV), final season 2026-27 (UFA July 2027); Hart Trophy winner in 2024 and again in 2026",
+        "fact": "CapWages shows one season left on Kucherov's deal; the 2025-26 Hart Trophy went to Kucherov",
+        "source": "https://capwages.com/teams/tampa_bay_lightning ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Nikita Kucherov",
+            "position": "RW",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M, through 2027-28; 2024 NHL MVP (Hart Trophy); highest-scoring player in Lightning history; becoming UFA 2027 is a franchise-defining decision point"
+          },
+          {
+            "player": "Brayden Point",
+            "position": "C",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M extension signed 2022, through 2029-30; elite two-way center; 3x 40-goal scorer"
+          }
+        ],
+        "new": [
+          {
+            "player": "Nikita Kucherov",
+            "position": "RW",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M, expires after 2026-27; Hart Trophy 2024 and 2026; extension or UFA decision due summer 2027"
+          },
+          {
+            "player": "Brayden Point",
+            "position": "C",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M (2022), through 2029-30; full NMC"
+          },
+          {
+            "player": "Andrei Vasilevskiy",
+            "position": "G",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M (2019), through 2027-28; 2026 Vezina Trophy"
+          },
+          {
+            "player": "Jake Guentzel",
+            "position": "LW",
+            "aav": 9,
+            "contractNote": "7yr/$63M signed July 2024, through 2030-31"
+          }
+        ],
+        "fact": "Four $9M+ contracts; Vasilevskiy won the 2025-26 Vezina",
+        "source": "https://capwages.com/teams/tampa_bay_lightning ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Ostrover/Lipschultz majority; Jeff Vinik remains chairman and governor during the transition)",
+      "onField.playoffAppearancesLast5Years (5: 2022-2026; lost 2025 first round to Florida 1-4 and 2026 first round to Montreal in seven)",
+      "onField.championshipsLast10Years (2: 2020, 2021)"
+    ],
+    "unverified": [
+      "Benchmark International naming-rights value and length: undisclosed",
+      "Timing of the governor handoff from Vinik to Ostrover/Lipschultz (enrichment says ~2027): no 2026 source"
+    ],
+    "analystNotes": "Forbes valued the Lightning at $1.8B in December 2024, exactly the mark of the October 2024 Blue Owl-led majority purchase, on $220M of revenue and $44M of operating income. The building got a new name in August 2025 (Benchmark International Arena) and the RSN problem resolved itself when FanDuel Sports Network Sun died on April 30, 2026 and games moved to Scripps over-the-air television, while Kucherov added a second Hart Trophy in 2026. The number now hinges on July 2027: Kucherov's $9.5M deal expires after 2026-27 and re-signing the league MVP under a $104M cap alongside Point, Vasilevskiy and Guentzel at $9M-plus each is the decision that sets the next decade.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.8B, $220M revenue, $44M operating income); arena rename and Hart/Vezina from the 2025-26 season page; local TV from the Lightning page; contracts from CapWages."
+  },
+  {
+    "teamId": "toronto-maple-leafs",
+    "team": "Toronto Maple Leafs",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "Rogers Communications (75% of MLSE, controlling); Larry Tanenbaum / Kilmer Sports (25%)",
+        "new": "Rogers Communications (75% of MLSE, with an agreement announced July 6, 2026 to buy Kilmer Sports' remaining 25% and take MLSE to 100%)",
+        "fact": "Rogers agreed July 6, 2026 to acquire Kilmer Sports Inc.'s 25% of MLSE at an implied MLSE mark of about US$12.2B (status: agreed)",
+        "source": "data/transactions.js (verified)"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "Rogers Communications",
+            "role": "majority owner (75% of MLSE)",
+            "pct": 75
+          },
+          {
+            "name": "Larry Tanenbaum / Kilmer Sports",
+            "role": "minority owner (25% of MLSE)",
+            "pct": 25
+          }
+        ],
+        "new": [
+          {
+            "name": "Rogers Communications",
+            "role": "controlling owner (75% of MLSE; agreed July 2026 to acquire the final 25%)",
+            "pct": 75
+          },
+          {
+            "name": "Larry Tanenbaum / Kilmer Sports (with OMERS)",
+            "role": "minority owner (25% of MLSE), sale to Rogers agreed July 6, 2026",
+            "pct": 25
+          }
+        ],
+        "fact": "Kilmer/OMERS 25% stake sale to Rogers agreed July 6, 2026",
+        "source": "data/transactions.js (verified)"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 5,
+        "new": 4,
+        "fact": "Playoffs in 2022, 2023, 2024 and 2025 (lost to Florida in seven in the second round); Toronto was not among the 16 qualifiers in 2026",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Auston Matthews",
+            "position": "C",
+            "aav": 13.25,
+            "contractNote": "4yr/$53M signed Sept 2023, through 2027-28; NHL's highest-paid player; 2x 60-goal scorer; 2022 Hart Trophy winner; Arizona-born franchise icon"
+          },
+          {
+            "player": "William Nylander",
+            "position": "RW",
+            "aav": 11.5,
+            "contractNote": "8yr/$92M extension signed Jan 2024, through 2031-32; Swedish-born; elite offensive winger; full no-trade clause"
+          }
+        ],
+        "new": [
+          {
+            "player": "Auston Matthews",
+            "position": "C",
+            "aav": 13.25,
+            "contractNote": "4yr/$53M signed Sept 2023, through 2027-28; captain; NMC"
+          },
+          {
+            "player": "William Nylander",
+            "position": "RW",
+            "aav": 11.5,
+            "contractNote": "8yr/$92M signed Jan 2024, through 2031-32; NMC"
+          },
+          {
+            "player": "Matthew Knies",
+            "position": "LW",
+            "aav": 7.75,
+            "contractNote": "6yr/$46.5M signed 2025, through 2030-31"
+          },
+          {
+            "player": "Sergei Bobrovsky",
+            "position": "G",
+            "aav": 7,
+            "contractNote": "$7M AAV, three seasons, signed as a free agent from Florida in 2026 (age 38); NMC"
+          }
+        ],
+        "fact": "Mitch Marner left via sign-and-trade to Vegas June 30, 2025 (8yr/$96M, for Nicolas Roy); Knies and Bobrovsky are now top-four cap hits",
+        "source": "https://capwages.com/teams/toronto_maple_leafs ; https://en.wikipedia.org/wiki/Mitch_Marner ; https://en.wikipedia.org/wiki/Florida_Panthers"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "~$19M/team/year from US national deals (ESPN/TNT); Canadian national deal with Rogers Sportsnet adds ~C$40-50M/year for Canadian franchises; Rogers owns both MLSE (75%) AND Sportsnet — a unique vertical integration where the broadcaster and the content owner are the same entity, creating complex but potentially valuable intra-company arrangements",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26. Rogers now owns both MLSE and the national rights holder, so the Leafs' television value is captured at the Rogers portfolio level.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "arena.name (Scotiabank Arena)",
+      "onField.currentFranchisePlayer (Auston Matthews 4yr/$53M through 2027-28)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Wikipedia infobox lists John Chayka as general manager; not second-sourced",
+      "arena.newArenaPlans: status of the $350M Scotiabank Arena renovation not found in a 2026 source",
+      "Bobrovsky contract length and date rely on CapWages (three seasons at $7M) and the Panthers page"
+    ],
+    "analystNotes": "Forbes valued the Maple Leafs at $3.8B in December 2024, first in the NHL, on $308M of revenue and $125M of operating income, and the ownership story has since closed the loop: Rogers agreed in July 2026 to buy Kilmer Sports' final 25% of MLSE at an implied MLSE mark near US$12.2B, giving the broadcaster that just signed the C$11B national deal 100% of the team, the arena and the Raptors. The hockey side reset: Marner was sign-and-traded to Vegas for $12M a year in June 2025, Toronto missed the 2026 playoffs after a second-round exit in 2025, and Matthews' $13.25M deal now has two seasons left. A first Cup since 1967, or Matthews' 2028 decision, is the only thing that moves a number this insulated.",
+    "analystNotesBasis": "Forbes Dec 2024 ($3.8B, $308M revenue, $125M operating income); Rogers-Kilmer deal from transactions.js; Marner sign-and-trade from Wikipedia; playoff qualifiers from the 2025 and 2026 playoff pages; contracts from CapWages."
+  },
+  {
+    "teamId": "carolina-hurricanes",
+    "team": "Carolina Hurricanes",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Hurricanes beat the Vegas Golden Knights 4-2 in the 2026 Stanley Cup Final (June 3-14, 2026), their second title and first since 2006; captain Jordan Staal won the Conn Smythe",
+        "source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season ; https://en.wikipedia.org/wiki/Carolina_Hurricanes"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; 2025 conference final loss to Florida, 2026 Stanley Cup",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Carolina Hurricanes TV (team-owned regional broadcast); after Bally Sports/Diamond Sports bankruptcy, Hurricanes launched their own direct-to-consumer broadcast operation — a leading example of team-owned media in NHL",
+        "new": "Hurricanes Hockey Network, a team-owned regional network run by Hurricanes Holdings from 2026-27 using the NHL production hub, with Amazon Prime Video in-market streaming, after FanDuel Sports Network South went dark April 30, 2026",
+        "fact": "FanDuel Sports Network shut down April 30, 2026; Carolina moved to a team-owned network produced through the NHL hub with Prime Video streaming",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified) ; https://en.wikipedia.org/wiki/Carolina_Hurricanes"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "HockeyTV / team-owned streaming direct to fans; NHL.TV League Pass; national games on ESPN+/Hulu and TNT/Max",
+        "new": "Amazon Prime Video carries in-market streaming for the team-owned network from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video is the in-market streaming home for the NHL-hub direct-to-distributor teams in 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sebastian Aho",
+            "position": "C",
+            "aav": 9.75,
+            "contractNote": "8yr/$78M extension signed 2023, through 2030-31; captain and franchise cornerstone since 2016"
+          },
+          {
+            "player": "Andrei Svechnikov",
+            "position": "RW",
+            "aav": 7.75,
+            "contractNote": "8yr/$62M signed 2021, through 2028-29"
+          },
+          {
+            "player": "Jaccob Slavin",
+            "position": "D",
+            "aav": 5.3,
+            "contractNote": "7yr/$37.1M, through 2026-27; elite defensive defenseman"
+          }
+        ],
+        "new": [
+          {
+            "player": "Sebastian Aho",
+            "position": "C",
+            "aav": 9.75,
+            "contractNote": "8yr/$78M (2023), through 2031-32; full NMC"
+          },
+          {
+            "player": "Nikolaj Ehlers",
+            "position": "LW",
+            "aav": 8.5,
+            "contractNote": "6yr/$51M signed July 2025 as a free agent; NMC through 2026-27"
+          },
+          {
+            "player": "Andrei Svechnikov",
+            "position": "RW",
+            "aav": 7.75,
+            "contractNote": "8yr/$62M (2021), through 2028-29"
+          },
+          {
+            "player": "K'Andre Miller",
+            "position": "D",
+            "aav": 7.5,
+            "contractNote": "8yr/$60M signed on acquisition from the Rangers, July 2025"
+          },
+          {
+            "player": "Seth Jarvis",
+            "position": "RW",
+            "aav": 7.42,
+            "contractNote": "8yr/$63.2M (2024), through 2031-32; deferred-salary structure"
+          },
+          {
+            "player": "Jaccob Slavin",
+            "position": "D",
+            "aav": 6.396,
+            "contractNote": "8yr/$51.2M extension (2025) begins 2026-27, through 2033-34"
+          }
+        ],
+        "fact": "CapWages 2026-27: Aho $9.75M, Ehlers $8.5M, Svechnikov $7.75M, Miller $7.5M, Jarvis $7.42M, Slavin $6.396M; team cap hit $95.5M against a $104M cap",
+        "source": "https://capwages.com/teams/carolina_hurricanes ; https://en.wikipedia.org/wiki/Carolina_Hurricanes"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Tom Dundon; 2026 minority stake sale to Jefferson, Grandisson and Farnham at a $2.66B mark already in transactions.js)",
+      "arena.name (Lenovo Center)",
+      "onField.currentFranchisePlayer (Sebastian Aho $9.75M through 2031-32)"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: no 2026 source found on the 80-acre Lenovo Center district timeline",
+      "Ehlers and Miller signing dates and totals rely on CapWages plus prior knowledge; not second-sourced"
+    ],
+    "analystNotes": "Forbes had Carolina at $1.25B in December 2024, and the market has already moved past it: Dundon sold 12.5% in March 2026 at a $2.66B implied mark, then the Hurricanes won the 2026 Stanley Cup over Vegas in six games with Jordan Staal taking the Conn Smythe. Revenue of $183M in that Forbes print undercounts a team that now owns its own regional network (Hurricanes Hockey Network with Prime Video streaming from 2026-27), plays to a sellout streak and has Aho, Ehlers, Svechnikov, Miller, Jarvis and Slavin locked through at least 2028-29. The next print catches up to the sale price; what pushes it past $2.66B is turning the 80 acres around Lenovo Center into a district.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.25B, $183M revenue); March 2026 minority sale from transactions.js; 2026 Cup from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "columbus-blue-jackets",
+    "team": "Columbus Blue Jackets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Ohio (Diamond Sports / Sinclair successor arrangement); Columbus among teams affected by Diamond Sports Group bankruptcy 2023; media rights situation in flux",
+        "new": "Direct-to-distributor model from 2026-27: regional telecasts produced by NHL Productions through the league hub and sold to distributors by the team, with Amazon Prime Video in-market streaming, after FanDuel Sports Network Ohio went dark April 30, 2026",
+        "fact": "FanDuel Sports Network closed April 30, 2026; Columbus joined the NHL production-hub, direct-to-distributor group with Prime Video streaming for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "NHL.TV League Pass; national ESPN+/Hulu and TNT/Max; local streaming via Bally Sports app or successor service",
+        "new": "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video carries in-market games for the hub-produced teams",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Zach Werenski",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "7yr/$63M extension signed 2023, through 2029-30; franchise cornerstone defenseman"
+          },
+          {
+            "player": "Kirill Marchenko",
+            "position": "RW",
+            "aav": 6.5,
+            "contractNote": "3yr/$19.5M bridge deal; emerging franchise scorer"
+          }
+        ],
+        "new": [
+          {
+            "player": "Zach Werenski",
+            "position": "D",
+            "aav": 9.583,
+            "contractNote": "6yr/$57.5M (2022), through 2027-28; 2026 Norris Trophy winner; NMC with 10-team list"
+          },
+          {
+            "player": "Ivan Provorov",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "7yr/$59.5M signed July 2025, through 2031-32"
+          },
+          {
+            "player": "Sean Monahan",
+            "position": "C",
+            "aav": 5.5,
+            "contractNote": "5yr/$27.5M (2024), through 2028-29; full NMC"
+          },
+          {
+            "player": "Kirill Marchenko",
+            "position": "RW",
+            "aav": 3.85,
+            "contractNote": "3yr/$11.55M (2024), final year 2026-27, RFA after"
+          }
+        ],
+        "fact": "Werenski's cap hit is $9,583,333 through 2027-28 and he won the 2025-26 Norris; Marchenko's bridge deal is $3.85M, not $6.5M",
+        "source": "https://capwages.com/teams/columbus_blue_jackets ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Zach Werenski — franchise D-man; Kirill Marchenko emerging as offensive cornerstone",
+        "new": "Zach Werenski, 2026 Norris Trophy winner, $9.58M AAV through 2027-28; Adam Fantilli and Kirill Marchenko lead the forward group",
+        "fact": "Werenski won the 2025-26 Norris Trophy",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (John P. McConnell)",
+      "arena.name (Nationwide Arena)",
+      "onField.playoffAppearancesLast5Years (0; missed 2025 at 89 points and 2026 at 92 points)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "CapWages shows Adam Fantilli at a $13.75M cap hit for 2026-27 alongside an entry-level bonus note; contradictory, not added",
+      "Wikipedia infobox shows the captaincy vacant; no 2026 source on a captain"
+    ],
+    "analystNotes": "Forbes valued Columbus at $1.0B in December 2024, last in the league, on $150M of revenue and essentially zero operating income, and nothing structural has changed: John McConnell still owns the club, Nationwide Arena is still publicly owned, and the team missed the playoffs again in 2025 (89 points) and 2026 (92 points). The one revenue variable did resolve: FanDuel Sports Network Ohio died on April 30, 2026 and the Blue Jackets now sell hub-produced telecasts direct to distributors with Prime Video streaming, which keeps local media alive at lower guaranteed dollars. Werenski's 2026 Norris Trophy and a 92-point team say the floor is close to lifting; a first playoff series since 2020 is what moves the number.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.0B, $150M revenue); 2025 and 2026 records and Norris from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "new-jersey-devils",
+    "team": "New Jersey Devils",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jack Hughes — 8yr/$9.75M AAV extension signed 2023, through 2030-31; Nico Hischier captain",
+        "new": "Jack Hughes, 8yr/$64M ($8.0M AAV) signed Nov 2021, through 2029-30; Nico Hischier captain at $7.25M; Luke Hughes $9M AAV is the top cap hit",
+        "fact": "CapWages 2026-27: Jack Hughes $8.0M (four seasons left), Luke Hughes $9.0M, Hamilton $9.0M, Meier $8.8M, Bratt $7.875M, Hischier $7.25M",
+        "source": "https://capwages.com/teams/new_jersey_devils"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jack Hughes",
+            "position": "C",
+            "aav": 9.75,
+            "contractNote": "8yr/$78M extension signed 2023, through 2030-31; No. 1 overall pick 2019"
+          },
+          {
+            "player": "Nico Hischier",
+            "position": "C",
+            "aav": 8.25,
+            "contractNote": "7yr/$57.75M signed 2022, through 2026-27; captain; extension discussions pending"
+          },
+          {
+            "player": "Jesper Bratt",
+            "position": "LW",
+            "aav": 8.25,
+            "contractNote": "8yr/$66M signed 2022, through 2029-30; elite scorer"
+          }
+        ],
+        "new": [
+          {
+            "player": "Luke Hughes",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "7yr/$63M signed Oct 2025, through 2031-32"
+          },
+          {
+            "player": "Dougie Hamilton",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "7yr/$63M (2021), through 2027-28"
+          },
+          {
+            "player": "Timo Meier",
+            "position": "LW",
+            "aav": 8.8,
+            "contractNote": "8yr/$70.4M (2023), through 2030-31"
+          },
+          {
+            "player": "Jack Hughes",
+            "position": "C",
+            "aav": 8,
+            "contractNote": "8yr/$64M (2021), through 2029-30"
+          },
+          {
+            "player": "Jesper Bratt",
+            "position": "RW",
+            "aav": 7.875,
+            "contractNote": "8yr/$63M (2023), through 2030-31"
+          },
+          {
+            "player": "Nico Hischier",
+            "position": "C",
+            "aav": 7.25,
+            "contractNote": "$7.25M AAV; captain; CapWages shows six seasons remaining, implying a new extension at the same cap hit (not second-sourced)"
+          }
+        ],
+        "fact": "Prior AAVs for Jack Hughes ($9.75M), Hischier ($8.25M) and Bratt ($8.25M) were wrong; corrected to $8.0M, $7.25M and $7.875M",
+        "source": "https://capwages.com/teams/new_jersey_devils"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (HBSE, Josh Harris and David Blitzer, since 2013)",
+      "arena.name (Prudential Center)",
+      "media.localTVDeal (MSG Sportsnet / MSG Network)",
+      "onField.playoffAppearancesLast5Years (2: 2023 and 2025; lost 2025 first round to Carolina in five; missed 2026 at 87 points)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Nico Hischier extension: CapWages shows six seasons remaining at $7.25M but no date or total was found",
+      "Luke Hughes contract date and total rely on CapWages plus prior knowledge",
+      "GM listed as Sunny Mehta on Wikipedia (front-office change not second-sourced)"
+    ],
+    "analystNotes": "Forbes valued the Devils at $2.1B in December 2024 on $265M of revenue and $67M of operating income, a number that rests on HBSE owning Prudential Center outright and the Jack Hughes ($8.0M through 2029-30) and Hischier core rather than on results: New Jersey lost in the first round in 2025 and missed the 2026 playoffs at 87 points. The cap sheet is heavy and long, with Luke Hughes, Hamilton and Meier all at $8.8M-plus, so the roster is built for a window that has not opened. The number moves when this group wins a round, and it moves the other way if a fifth-place Metropolitan finish becomes the norm in a market the Rangers still own.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.1B, $265M revenue, $67M operating income); playoff results from Wikipedia; contracts from CapWages 2026-27."
+  },
+  {
+    "teamId": "new-york-islanders",
+    "team": "New York Islanders",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Matt Barzal — 5yr/$7.75M AAV through 2026-27; franchise face",
+        "new": "Mathew Barzal, 8yr/$73.2M ($9.15M AAV) through 2030-31; Bo Horvat captain ($8.5M through 2030-31); 2025 No. 1 pick Matthew Schaefer won the 2026 Calder Trophy",
+        "fact": "Barzal's cap hit is $9.15M through 2030-31; Horvat is captain; Schaefer won the 2025-26 Calder",
+        "source": "https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/New_York_Islanders ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Matt Barzal",
+            "position": "C",
+            "aav": 7.75,
+            "contractNote": "5yr/$38.75M signed 2022, through 2026-27; franchise cornerstone; extension discussions upcoming"
+          },
+          {
+            "player": "Noah Dobson",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "7yr/$59.5M signed 2023, through 2029-30; elite offensive defenseman"
+          }
+        ],
+        "new": [
+          {
+            "player": "Mathew Barzal",
+            "position": "C/RW",
+            "aav": 9.15,
+            "contractNote": "8yr/$73.2M (2022 extension), through 2030-31; 22-team no-trade list"
+          },
+          {
+            "player": "Bo Horvat",
+            "position": "C",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2023), through 2030-31; captain"
+          },
+          {
+            "player": "Ilya Sorokin",
+            "position": "G",
+            "aav": 8.25,
+            "contractNote": "8yr/$66M (2023), through 2031-32; NMC through 2027-28"
+          },
+          {
+            "player": "Matthew Schaefer",
+            "position": "D",
+            "aav": 0.986,
+            "contractNote": "ELC ($986,250 cap hit, up to $3.5M bonuses); 2025 first overall pick; 2026 Calder Trophy"
+          }
+        ],
+        "fact": "Noah Dobson was traded to Montreal June 27, 2025 for Emil Heineman and two 2025 first-round picks; Barzal's 2022 extension is $9.15M, not $7.75M",
+        "source": "https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/Noah_Dobson"
+      }
+    ],
+    "verifiedUnchanged": [
+      "arena.name (UBS Arena)",
+      "media.localTVDeal (MSG Sportsnet)",
+      "onField.playoffAppearancesLast5Years (2: 2023 and 2024; not among the 2025 or 2026 qualifiers)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: Wikipedia infobox lists Scott Malkin as governor (enrichment lists Jon Ledecky); single source, not changed",
+      "GM Mathieu Darche and coach Peter DeBoer (Wikipedia infobox) not second-sourced"
+    ],
+    "analystNotes": "Forbes valued the Islanders at $1.9B in December 2024 on $200M of revenue, a number that is almost entirely UBS Arena: the $1.1B privately financed building, its $175M UBS naming deal through 2041, and the New York market. The hockey product has been flat, with no playoffs in 2025 or 2026 and Noah Dobson traded to Montreal in June 2025, but the 2025 first overall pick Matthew Schaefer won the 2026 Calder and Barzal ($9.15M), Horvat and Sorokin are signed through 2030-31 or later. Schaefer turning into a franchise defenseman is the only lever that moves this valuation ahead of the building.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.9B, $200M revenue); Dobson trade from Wikipedia; Calder from the 2025-26 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "new-york-rangers",
+    "team": "New York Rangers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Playoffs in 2022, 2023 and 2024; missed in 2025 and 2026",
+        "source": "https://en.wikipedia.org/wiki/New_York_Rangers ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Adam Fox — 7yr/$9.5M AAV signed 2021, through 2027-28; Norris Trophy winner 2021",
+        "new": "Igor Shesterkin, 8yr/$92M ($11.57M AAV) signed Dec 2024, through 2033-34; J.T. Miller captain ($8M through 2029-30); Adam Fox $9.5M through 2027-28",
+        "fact": "Shesterkin's cap hit is $11,567,857 with an NMC; Miller (acquired from Vancouver Jan 2025) is captain",
+        "source": "https://capwages.com/teams/new_york_rangers ; https://en.wikipedia.org/wiki/New_York_Rangers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Adam Fox",
+            "position": "D",
+            "aav": 9.5,
+            "contractNote": "7yr/$66.5M signed 2021, through 2027-28; Norris Trophy 2021; best defenseman in franchise history since Brian Leetch"
+          },
+          {
+            "player": "Igor Shesterkin",
+            "position": "G",
+            "aav": 11.5,
+            "contractNote": "4yr/$46M signed 2022, through 2025-26; Hart Trophy finalist; elite franchise goaltender; extension pending"
+          },
+          {
+            "player": "Chris Kreider",
+            "position": "LW",
+            "aav": 6.5,
+            "contractNote": "7yr/$45.5M signed 2021, through 2026-27; team leader"
+          }
+        ],
+        "new": [
+          {
+            "player": "Igor Shesterkin",
+            "position": "G",
+            "aav": 11.568,
+            "contractNote": "8yr/$92M signed Dec 2024, 2025-26 through 2032-33; NMC; richest goalie contract in NHL history"
+          },
+          {
+            "player": "Pavel Dorofeyev",
+            "position": "RW",
+            "aav": 11,
+            "contractNote": "$11M AAV; acquired in the 2026 offseason (terms and mechanism not second-sourced)"
+          },
+          {
+            "player": "Adam Fox",
+            "position": "D",
+            "aav": 9.5,
+            "contractNote": "7yr/$66.5M (2021), through 2027-28; NMC to May 2027"
+          },
+          {
+            "player": "Mika Zibanejad",
+            "position": "C",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2021), through 2029-30; NMC"
+          },
+          {
+            "player": "J.T. Miller",
+            "position": "C",
+            "aav": 8,
+            "contractNote": "7yr/$56M (2022), through 2029-30; captain; acquired from Vancouver January 2025"
+          }
+        ],
+        "fact": "Kreider is no longer on the roster; Panarin was traded to the Kings at the 2026 deadline for Liam Greentree and two picks; Dorofeyev added in the 2026 offseason",
+        "source": "https://capwages.com/teams/new_york_rangers ; https://en.wikipedia.org/wiki/New_York_Rangers"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (MSG Sports, James Dolan chairman)",
+      "arena.name (Madison Square Garden)",
+      "media.localTVDeal (MSG Network / MSG Sportsnet)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Pavel Dorofeyev acquisition date, mechanism and contract terms (CapWages roster and a Wikipedia sentence only)",
+      "Any MSG Sports / Sphere Entertainment / MSG Networks corporate restructuring: not found on the Rangers page"
+    ],
+    "analystNotes": "Forbes valued the Rangers at $3.5B in December 2024, second in the NHL, on $315M of revenue and $104M of operating income, and every input to that number is structural: the largest US market, Madison Square Garden with no naming rights sold, and an owned RSN in MSG Network that never went through the Diamond bankruptcy. The team has not matched the balance sheet, missing the playoffs in 2025 and 2026, trading Panarin to Los Angeles at the 2026 deadline and retooling around Shesterkin's $92M deal, Fox, Zibanejad and captain J.T. Miller. A real contender under Mike Sullivan is the only lever left; the market and the building are already fully priced.",
+    "analystNotesBasis": "Forbes Dec 2024 ($3.5B, $315M revenue, $104M operating income); playoff misses and Panarin trade from Wikipedia; contracts from CapWages."
+  },
+  {
+    "teamId": "philadelphia-flyers",
+    "team": "Philadelphia Flyers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Flyers qualified in 2026, beat Pittsburgh in six in the first round and were swept by Carolina in the second round",
+        "source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Matvei Michkov — No. 7 overall pick 2023; Cam Atkinson veteran presence",
+        "new": "Matvei Michkov (ELC through 2026-27, RFA in 2027) with Trevor Zegras ($9.125M AAV, acquired from Anaheim in 2025 and extended) and Travis Konecny (8yr/$70M, $8.75M AAV through 2032-33); Sean Couturier captain",
+        "fact": "CapWages 2026-27: Zegras $9.125M, Konecny $8.75M, Couturier $7.75M, Michkov $950K ELC with one season left",
+        "source": "https://capwages.com/teams/philadelphia_flyers ; https://en.wikipedia.org/wiki/Philadelphia_Flyers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sean Couturier",
+            "position": "C",
+            "aav": 7.75,
+            "contractNote": "8yr/$62M signed 2021, through 2028-29; captain; injury history a concern"
+          },
+          {
+            "player": "Travis Konecny",
+            "position": "RW",
+            "aav": 7,
+            "contractNote": "8yr/$56M signed 2022, through 2029-30; team's best scorer"
+          },
+          {
+            "player": "Matvei Michkov",
+            "position": "RW",
+            "aav": 0.925,
+            "contractNote": "3yr/$2.775M entry-level, through 2025-26; franchise prospect; considered among NHL's elite future players"
+          }
+        ],
+        "new": [
+          {
+            "player": "Trevor Zegras",
+            "position": "C/LW",
+            "aav": 9.125,
+            "contractNote": "$9.125M AAV extension after the 2025 trade from Anaheim"
+          },
+          {
+            "player": "Travis Konecny",
+            "position": "RW",
+            "aav": 8.75,
+            "contractNote": "8yr/$70M signed July 2024, 2025-26 through 2032-33; 14-team no-trade list from 2031-32"
+          },
+          {
+            "player": "Sean Couturier",
+            "position": "C",
+            "aav": 7.75,
+            "contractNote": "8yr/$62M (2021), through 2029-30; captain"
+          },
+          {
+            "player": "Owen Tippett",
+            "position": "RW",
+            "aav": 6.2,
+            "contractNote": "8yr/$49.6M (2024), through 2031-32"
+          },
+          {
+            "player": "Matvei Michkov",
+            "position": "RW",
+            "aav": 0.95,
+            "contractNote": "3yr ELC ($950K cap hit) runs through 2026-27; RFA summer 2027"
+          }
+        ],
+        "fact": "Konecny's extension is $8.75M (not $7M); Michkov's ELC ends after 2026-27; Zegras is now the top cap hit",
+        "source": "https://capwages.com/teams/philadelphia_flyers"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Comcast Spectacor)",
+      "arena.name (Xfinity Mobile Arena, renamed from Wells Fargo Center August 14, 2025)",
+      "media.localTVDeal (NBC Sports Philadelphia, Comcast-owned)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: no 2026 source found on the $1.3B South Philadelphia arena timeline with the 76ers",
+      "Zegras extension date and length (CapWages cap hit only)",
+      "The Flyers tendered a 5yr/$90M offer sheet to Anaheim's Leo Carlsson on July 3, 2026 (CapWages article); Anaheim's match is inferred from Carlsson appearing on the Ducks' 2026-27 sheet"
+    ],
+    "analystNotes": "Forbes valued the Flyers at $2.3B in December 2024 on $260M of revenue and $71M of operating income, and the Comcast structure behind it is the most insulated in the league: the team, Xfinity Mobile Arena and NBC Sports Philadelphia sit under one parent, so the April 2026 collapse of FanDuel Sports Network never touched Philadelphia. The rebuild produced its first playoff series since 2020 in 2026, a six-game win over Pittsburgh, with Zegras ($9.125M), Konecny ($8.75M through 2032-33) and Michkov (RFA in 2027) as the core and a $90M offer sheet for Leo Carlsson in July 2026 signalling Comcast's appetite to spend. The privately financed $1.3B arena shared with the 76ers, targeted around 2030, is the next step change in the number.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.3B, $260M revenue, $71M operating income); 2026 playoff results from Wikipedia; Carlsson offer sheet from CapWages; contracts from CapWages."
+  },
+  {
+    "teamId": "pittsburgh-penguins",
+    "team": "Pittsburgh Penguins",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Only the 2017 Cup falls inside the 2017-2026 window; the 2016 title has aged out",
+        "source": "https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 1,
+        "new": 2,
+        "fact": "Playoffs in 2022 and 2026; Pittsburgh fell behind 3-0 to Philadelphia in the 2026 first round, won two, then lost Game 6 in overtime",
+        "source": "https://en.wikipedia.org/wiki/Pittsburgh_Penguins ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Sidney Crosby",
+            "position": "C",
+            "aav": 8.7,
+            "contractNote": "2yr/$17.4M signed Sept 2024, through 2026-27; playing at $8.7M — dramatically below market for a player of his production; age 38 going into contract; franchise cornerstone since 2005"
+          },
+          {
+            "player": "Evgeni Malkin",
+            "position": "C",
+            "aav": 6.1,
+            "contractNote": "2yr/$12.2M signed 2023, through 2024-25; end-of-career contract for franchise legend"
+          },
+          {
+            "player": "Kris Letang",
+            "position": "D",
+            "aav": 6.1,
+            "contractNote": "2yr/$12.2M through 2024-25; franchise defenseman completing career in Pittsburgh"
+          }
+        ],
+        "new": [
+          {
+            "player": "Erik Karlsson",
+            "position": "D",
+            "aav": 10,
+            "contractNote": "$10M cap hit (San Jose retains part of the $11.5M AAV); final season 2026-27"
+          },
+          {
+            "player": "Sidney Crosby",
+            "position": "C",
+            "aav": 8.7,
+            "contractNote": "2yr/$17.4M signed Sept 16, 2024, final season 2026-27 (age 39); captain"
+          },
+          {
+            "player": "Kris Letang",
+            "position": "D",
+            "aav": 6.1,
+            "contractNote": "6yr/$36.6M (2022), through 2027-28"
+          },
+          {
+            "player": "Evgeni Malkin",
+            "position": "C",
+            "aav": 5.5,
+            "contractNote": "One-year $5.5M deal for 2026-27 (age 40) after his 4yr/$24.4M contract expired"
+          }
+        ],
+        "fact": "CapWages 2026-27: Karlsson $10M (one season left), Crosby $8.7M (one season left), Letang $6.1M (two seasons left), Malkin $5.5M (one season left)",
+        "source": "https://capwages.com/teams/pittsburgh_penguins ; https://en.wikipedia.org/wiki/Pittsburgh_Penguins"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Hoffmann Family of Companies; $1.7B purchase from FSG agreed Dec 17, 2025, NHL-approved Dec 19, 2025, full control taken June 23, 2026 per Wikipedia)",
+      "arena.name (PPG Paints Arena)",
+      "media.localTVDeal (SportsNet Pittsburgh)",
+      "onField.currentFranchisePlayer (Crosby 2yr/$17.4M through 2026-27)"
+    ],
+    "unverified": [
+      "ownership.ownershipGroup: Wikipedia lists Mario Lemieux as the only minority owner; Sidney Crosby's minority stake (in the enrichment) was not confirmed",
+      "Malkin's 2026-27 one-year deal date and bonuses (CapWages cap hit only)"
+    ],
+    "analystNotes": "Forbes valued the Penguins at $1.75B in December 2024 on $223M of revenue, and the Hoffmann family paid $1.7B for control in December 2025 (full control June 23, 2026), so the print and the sale sit within 3% of each other. The buyers got a better first year than the bear case: Pittsburgh returned to the playoffs in 2026 and pushed Philadelphia to overtime in Game 6, with Crosby ($8.7M) and Malkin (one year at $5.5M at age 40) both playing out final seasons. Everything about the next Forbes number is the post-Crosby plan, because his contract, Malkin's and Karlsson's all expire after 2026-27 and PPG Paints Arena is publicly owned, so there is no real estate to lean on.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.75B, $223M revenue); Hoffmann sale from transactions.js and the 2025-26 season page; 2026 playoff series from Wikipedia; contracts from CapWages."
+  },
+  {
+    "teamId": "washington-capitals",
+    "team": "Washington Capitals",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Alex Ovechkin — 5yr/$47.5M ($9.5M AAV) signed July 2021, through 2025-26; broke Gordie Howe all-time goals record 2023; contract ends after 2025-26 season",
+        "new": "Alex Ovechkin re-signed July 2, 2026 on a one-year deal ($4.25M cap hit plus $4.75M in bonuses) for 2026-27 at age 41; passed Gretzky with goal 895 on April 6, 2025 and scored his 900th on November 5, 2025; Alex Tuch ($10.5M) is now the top cap hit",
+        "fact": "Ovechkin signed a one-year, $4.25M contract (plus $4.75M bonus) on July 2, 2026",
+        "source": "https://en.wikipedia.org/wiki/Alexander_Ovechkin ; https://capwages.com/teams/washington_capitals"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Alex Ovechkin",
+            "position": "LW",
+            "aav": 9.5,
+            "contractNote": "5yr/$47.5M signed July 2021, through 2025-26 (age 40 season); broke Gordie Howe's all-time NHL goals record (894 career goals); one final season remaining; retirement to be determined after 2025-26"
+          },
+          {
+            "player": "Dylan Strome",
+            "position": "C",
+            "aav": 7.35,
+            "contractNote": "7yr/$51.45M signed 2022, through 2028-29; franchise C post-Ovechkin"
+          },
+          {
+            "player": "Tom Wilson",
+            "position": "RW/LW",
+            "aav": 7.25,
+            "contractNote": "7yr/$50.75M signed 2021, through 2027-28; power-forward cornerstone"
+          }
+        ],
+        "new": [
+          {
+            "player": "Alex Tuch",
+            "position": "RW",
+            "aav": 10.5,
+            "contractNote": "$10.5M AAV; joined Washington for 2026-27 (acquisition terms not second-sourced)"
+          },
+          {
+            "player": "Jakob Chychrun",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "8yr/$72M (2025), through 2032-33; NMC to May 2028"
+          },
+          {
+            "player": "Pierre-Luc Dubois",
+            "position": "C",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2023), through 2030-31"
+          },
+          {
+            "player": "Jordan Kyrou",
+            "position": "RW",
+            "aav": 8.125,
+            "contractNote": "8yr/$65M (2023), through 2030-31; acquired from St. Louis (2026)"
+          },
+          {
+            "player": "Tom Wilson",
+            "position": "RW",
+            "aav": 6.54,
+            "contractNote": "7yr/$45.78M extension (2024), 2025-26 through 2031-32"
+          },
+          {
+            "player": "Dylan Strome",
+            "position": "C",
+            "aav": 5,
+            "contractNote": "5yr/$25M (2023), through 2027-28"
+          },
+          {
+            "player": "Alex Ovechkin",
+            "position": "LW",
+            "aav": 4.25,
+            "contractNote": "One-year $4.25M plus $4.75M bonuses for 2026-27, signed July 2, 2026; all-time goals leader"
+          }
+        ],
+        "fact": "CapWages 2026-27: Tuch $10.5M, Chychrun $9.0M, Dubois $8.5M, Kyrou $8.125M, Wilson $6.54M, Strome $5.0M, Ovechkin $4.25M; prior Strome ($7.35M) and Wilson ($7.25M) figures were wrong",
+        "source": "https://capwages.com/teams/washington_capitals ; https://en.wikipedia.org/wiki/Alexander_Ovechkin"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Ted Leonsis / Monumental Sports & Entertainment)",
+      "arena.name (Capital One Arena; DC deal keeps the teams downtown to at least 2050)",
+      "media.localTVDeal (Monumental Sports Network)",
+      "onField.playoffAppearancesLast5Years (3: 2022, 2024, 2025; 2025 Metropolitan title then a second-round loss to Carolina; missed 2026)",
+      "onField.championshipsLast10Years (1: 2018)"
+    ],
+    "unverified": [
+      "Alex Tuch and Jordan Kyrou acquisition dates and returns (CapWages rosters only)",
+      "arena.newArenaPlans: no 2026 source found on Capital One Arena renovation progress or cost",
+      "Any Monumental minority stake sale: not found on the Capitals page"
+    ],
+    "analystNotes": "Forbes valued the Capitals at $2.15B in December 2024 on $244M of revenue and $81M of operating income, and the Ovechkin premium the market feared losing did not end: he passed Gretzky on April 6, 2025, hit 900 goals in November 2025, and on July 2, 2026 signed a one-year deal at a $4.25M cap hit for an age-41 season. Around him Monumental has rebuilt the payroll with Tuch ($10.5M), Chychrun ($9M), Dubois and Kyrou, owns Capital One Arena and its own network, and has the DC lease locked to 2050. The 2026 playoff miss says the on-ice floor is the risk; the true post-Ovechkin year, now 2027-28 at the earliest, is what the next valuation will be written against.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.15B, $244M revenue, $81M operating income); Ovechkin contract and records from Wikipedia; 2025-26 finish from the Capitals page; contracts from CapWages."
+  },
+  {
+    "teamId": "utah-hockey-club",
+    "team": "Utah Hockey Club",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "team",
+        "old": "Utah Hockey Club",
+        "new": "Utah Mammoth",
+        "fact": "Permanent name Utah Mammoth revealed May 7, 2025 after fan voting; Yeti was blocked at the USPTO",
+        "source": "https://en.wikipedia.org/wiki/Utah_Mammoth ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Utah went 43-33-6 (92 points) in 2025-26 and lost in the first round to Vegas in six games, the franchise's first playoff series since relocation",
+        "source": "https://en.wikipedia.org/wiki/Utah_Mammoth ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "arena.newArenaPlans",
+        "old": "Salt Lake City council approved $900M package (2025); dedicated hockey-only arena in the district is under discussion but not confirmed; short-term Delta Center capacity constraints noted (16,200 among the smallest in NHL)",
+        "new": "Delta Center is being rebuilt for hockey in phases inside the $900M package ($525M renovation): Phase 1 (April-October 2025) rebuilt the lower bowl and removed obstructed seats; Phase 2 (May 4 to September 26, 2026) added terrace ledges with full-view seating and sideline gondolas plus a premium parking structure; Phase 3 follows the 2026-27 season; unobstructed hockey seating goes from about 12,000 to a 17,000 target; no separate hockey arena is planned",
+        "fact": "Delta Center renovation phases and the 12,000-to-17,000 unobstructed-seat target",
+        "source": "https://en.wikipedia.org/wiki/Delta_Center"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "KJZZ (local broadcast) + streaming-forward distribution model; partial deal with Utah-area RSN; team exploring direct-to-consumer given RSN industry collapse",
+        "new": "KUPX-TV (Utah 16) over-the-air plus the team's Mammoth+ direct-to-consumer stream (rebranded from Utah HC+); KZNS/KSL Sports Zone radio",
+        "fact": "Wikipedia infobox lists KUPX-TV and Mammoth+",
+        "source": "https://en.wikipedia.org/wiki/Utah_Mammoth"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu for national games; Utah HC leaning into streaming distribution as first-year franchise",
+        "new": "Mammoth+ direct-to-consumer stream for in-market fans; ESPN+/Hulu and TNT/Max national",
+        "fact": "Utah HC+ rebranded as Mammoth+ after the name change",
+        "source": "https://en.wikipedia.org/wiki/Utah_Mammoth"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Clayton Keller — 8yr/$67.2M ($8.4M AAV) signed 2023, inherited as top scorer from Arizona roster",
+        "new": "Clayton Keller (first captain, named Oct 4, 2024), $7.15M AAV through 2027-28; Logan Cooley, 8yr/$80M ($10M AAV) from 2026-27, is the top cap hit",
+        "fact": "Keller's cap hit is $7.15M with two seasons left; Cooley's eight-year, $10M AAV deal begins 2026-27",
+        "source": "https://capwages.com/teams/utah_mammoth ; https://en.wikipedia.org/wiki/Utah_Mammoth"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Clayton Keller",
+            "position": "C/LW",
+            "aav": 8.4,
+            "contractNote": "8yr/$67.2M, signed Jul 2023, runs through 2030-31; team captain and top scorer"
+          },
+          {
+            "player": "Mikhail Sergachev",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "7yr/$59.5M, signed 2023 (acquired from Tampa); defensive anchor"
+          }
+        ],
+        "new": [
+          {
+            "player": "Logan Cooley",
+            "position": "C",
+            "aav": 10,
+            "contractNote": "8yr/$80M signed August 2025, 2026-27 through 2033-34"
+          },
+          {
+            "player": "Mikhail Sergachev",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2023), through 2030-31; 16-team trade list from June 2027"
+          },
+          {
+            "player": "Nick Schmaltz",
+            "position": "C/RW",
+            "aav": 8,
+            "contractNote": "$8M AAV eight-year deal with NMC through 2033-34"
+          },
+          {
+            "player": "Clayton Keller",
+            "position": "LW",
+            "aav": 7.15,
+            "contractNote": "8yr/$57.2M (2019), through 2027-28; captain; NMC to June 2028"
+          },
+          {
+            "player": "Dylan Guenther",
+            "position": "RW",
+            "aav": 7.143,
+            "contractNote": "8yr/$57.14M (2024), through 2032-33"
+          }
+        ],
+        "fact": "CapWages 2026-27: Cooley $10M, Sergachev $8.5M, Schmaltz $8M, Keller $7.15M, Guenther $7.14M; JJ Peterka no longer on the roster",
+        "source": "https://capwages.com/teams/utah_mammoth"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Ryan and Ashley Smith / Smith Entertainment Group; $1.2B purchase April 2024 in transactions.js)",
+      "arena.name (Delta Center)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Public share of the $900M Delta Center package: Wikipedia does not break out the sales-tax contribution",
+      "Nick Schmaltz extension date and total (CapWages cap hit only)"
+    ],
+    "analystNotes": "Forbes valued Utah at $1.2B in December 2024, the price Ryan Smith paid the NHL in 2024, on $123M of first-season revenue, and the two constraints in that number are being removed: the club became the Utah Mammoth on May 7, 2025, and the Delta Center rebuild moved unobstructed hockey seating from roughly 12,000 toward a 17,000 target through phases completed in October 2025 and September 2026. The team made its first playoffs in 2026 (92 points, lost to Vegas in six) with Cooley signed at $10M a year through 2033-34 and Keller, Sergachev and Guenther locked in. Full-capacity gates from 2026-27 are what the next revenue line shows, and the Vegas comparable says the valuation follows.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.2B, $123M revenue); rename and 2026 playoffs from the Utah Mammoth page; renovation phases from the Delta Center page; contracts from CapWages."
+  },
+  {
+    "teamId": "chicago-blackhawks",
+    "team": "Chicago Blackhawks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.championshipsLast10Years",
+        "old": 1,
+        "new": 0,
+        "fact": "The 2015 Cup has aged out of the 2017-2026 window; Chicago has no title since",
+        "source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Connor Bedard — 3yr ELC at $950K cap hit (signed July 2023), ELC expires after 2025-26; extension negotiations began 2025; widely projected 8yr deal ~$10-12M AAV",
+        "new": "Connor Bedard, captain, signed a 5yr/$75M ($15M AAV) extension July 17, 2026 running 2026-27 through 2030-31 after 75 points in 69 games in 2025-26",
+        "fact": "Bedard extension: July 17, 2026, five years, $75M, $15M AAV, full NMC",
+        "source": "https://en.wikipedia.org/wiki/Connor_Bedard ; https://capwages.com/teams/chicago_blackhawks"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Connor Bedard",
+            "position": "C",
+            "aav": 0.95,
+            "contractNote": "3yr ELC, $950K cap hit through 2025-26; extension talks expected to reset AAV to $10M+ range; 2023 #1 overall pick"
+          },
+          {
+            "player": "Seth Jones",
+            "position": "D",
+            "aav": 9.5,
+            "contractNote": "8yr/$76M signed 2021, through 2028-29; highest-paid defenseman at signing; on-ice performance has underwhelmed vs. contract"
+          }
+        ],
+        "new": [
+          {
+            "player": "Connor Bedard",
+            "position": "C",
+            "aav": 15,
+            "contractNote": "5yr/$75M signed July 17, 2026, through 2030-31; full NMC; captain"
+          },
+          {
+            "player": "Frank Nazar",
+            "position": "C",
+            "aav": 6.6,
+            "contractNote": "7yr/$46.2M (2025), through 2032-33"
+          },
+          {
+            "player": "Bowen Byram",
+            "position": "D",
+            "aav": 6.25,
+            "contractNote": "$6.25M AAV; acquired from Buffalo"
+          }
+        ],
+        "fact": "Seth Jones was traded to Florida in March 2025 with Chicago retaining $2.5M; Bedard now carries $15M",
+        "source": "https://capwages.com/teams/chicago_blackhawks ; https://en.wikipedia.org/wiki/Connor_Bedard"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Danny Wirtz / Wirtz Corporation)",
+      "arena.name (United Center)",
+      "media.localTVDeal (Chicago Sports Network)",
+      "onField.playoffAppearancesLast5Years (0; not among the 2025 or 2026 qualifiers)"
+    ],
+    "unverified": [
+      "CapWages lists Patrick Kane on the 2026-27 Blackhawks at $8M; not second-sourced, not added",
+      "arena.newArenaPlans: no 2026 source found on the $7B United Center district (1901 Project) progress"
+    ],
+    "analystNotes": "Forbes valued the Blackhawks at $2.45B in December 2024 on $260M of revenue and $100M of operating income, a number carried by the Original Six brand, a 50% share of the United Center and equity in Chicago Sports Network while the team missed the playoffs every year from 2022 through 2026. The rebuild now has its price: Bedard, named captain, signed a five-year, $75M extension ($15M a year) on July 17, 2026 after a 75-point season, and Seth Jones' $9.5M is gone to Florida. The United Center district development is the long-dated real estate call; the near-term valuation swing is Bedard's group ending the playoff drought under a $104M cap.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.45B, $260M revenue, $100M operating income); Bedard extension from Wikipedia and CapWages; playoff qualifiers from the 2025 and 2026 playoff pages."
+  },
+  {
+    "teamId": "colorado-avalanche",
+    "team": "Colorado Avalanche",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; lost in seven to Dallas in 2025; won the 2025-26 Presidents' Trophy, swept Los Angeles and beat Minnesota before losing the 2026 Western final to Vegas in six",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/An%C5%BEe_Kopitar"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Nathan MacKinnon — 8yr/$100.8M ($12.6M AAV) signed 2022, through 2030-31; 2024 Hart Trophy winner; widely considered best player in NHL",
+        "new": "Nathan MacKinnon, 8yr/$100.8M ($12.6M AAV) through 2030-31, 2024 Hart Trophy; Cale Makar signed an 8yr/$163.2M ($20.4M AAV) extension on August 28, 2026, the richest contract in NHL history and the first above $20M a year, following his $9M final season in 2026-27",
+        "fact": "Makar extension August 28, 2026: eight years, $163.2M, $20.4M AAV",
+        "source": "https://en.wikipedia.org/wiki/Cale_Makar ; https://capwages.com/teams/colorado_avalanche"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Nathan MacKinnon",
+            "position": "C",
+            "aav": 12.6,
+            "contractNote": "8yr/$100.8M signed Jun 2022, through 2030-31; Hart Trophy 2024; increasingly looks like a bargain vs. Kaprizov's $17M reset"
+          },
+          {
+            "player": "Cale Makar",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "6yr/$54M signed 2022, through 2027-28; 2022 Conn Smythe; consensus best defenseman in NHL"
+          },
+          {
+            "player": "Mikko Rantanen",
+            "position": "RW",
+            "aav": 9.25,
+            "contractNote": "5yr/$46.25M through 2025-26; extension negotiations or trade decision anticipated 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Nathan MacKinnon",
+            "position": "C",
+            "aav": 12.6,
+            "contractNote": "8yr/$100.8M (2022), through 2030-31; Hart Trophy 2024"
+          },
+          {
+            "player": "Martin Necas",
+            "position": "RW",
+            "aav": 11.5,
+            "contractNote": "$11.5M AAV eight-year extension (2025); acquired in the January 2025 Rantanen trade"
+          },
+          {
+            "player": "Cale Makar",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "6yr/$54M signed July 24, 2021, final season 2026-27; 8yr/$163.2M ($20.4M AAV) extension signed Aug 28, 2026 begins 2027-28; 2025 Norris Trophy"
+          },
+          {
+            "player": "Devon Toews",
+            "position": "D",
+            "aav": 7.25,
+            "contractNote": "7yr/$50.75M (2024), through 2030-31"
+          }
+        ],
+        "fact": "Rantanen was traded to Carolina in January 2025 and is now in Dallas; Necas extended at $11.5M; Makar's record extension signed Aug 28, 2026",
+        "source": "https://capwages.com/teams/colorado_avalanche ; https://en.wikipedia.org/wiki/Cale_Makar"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Stan Kroenke / KSE)",
+      "arena.name (Ball Arena)",
+      "media.localTVDeal (Altitude Sports, KSE-owned)",
+      "onField.championshipsLast10Years (1: 2022)"
+    ],
+    "unverified": [
+      "Necas extension date and total (CapWages cap hit only)",
+      "arena.newArenaPlans: no 2026 source found on Ball Arena district construction"
+    ],
+    "analystNotes": "Forbes valued the Avalanche at $1.7B in December 2024 on $198M of revenue, low for a franchise that owns its arena, its RSN and a 2022 Cup, and the team has kept the on-ice case intact with five straight playoff years, a 2025-26 Presidents' Trophy and a run to the 2026 Western final. The cost of that core just reset: Makar signed an eight-year, $163.2M extension on August 28, 2026, a $20.4M cap hit from 2027-28 that is the largest in NHL history, on top of MacKinnon at $12.6M through 2030-31 and Necas at $11.5M. KSE is never a seller, so the valuation lever is Denver's 3M-person market converting the Ball Arena parking lots into a district while this roster is still winning.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.7B, $198M revenue); Makar extension from Wikipedia; 2025 and 2026 playoff paths from the playoff pages; contracts from CapWages."
+  },
+  {
+    "teamId": "dallas-stars",
+    "team": "Dallas Stars",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; reached the 2025 Western final (beat Colorado and Winnipeg, lost to Edmonton in six); lost the 2026 first round to Minnesota in six",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Victory+ (team-owned direct streaming platform launched 2023); Stars became one of first NHL teams to launch own direct-to-consumer streaming after Bally Sports North collapsed; local games on KFAA broadcast partner; pioneering post-RSN media model",
+        "new": "Amazon Prime Video holds Stars regional streaming rights for 2026-27, with the over-the-air broadcast package (KFAA) retained; this succeeds the team-run Victory+ model launched in 2024",
+        "fact": "For 2026-27 the Stars and Ducks moved regional rights to Amazon Prime Video while keeping broadcast television packages",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/Dallas_Stars"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu for national games; Victory+ direct streaming replaces traditional RSN; cost $4.99/month vs. old cable bundle; Stars capturing full local media revenue without RSN middleman",
+        "new": "Amazon Prime Video is the in-market streaming home from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video regional rights from 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jason Robertson — 4yr bridge deal at $7.75M AAV (through 2025-26); extension at $11-13M AAV anticipated; top-10 NHL scorer",
+        "new": "Jason Robertson signed a one-year, $12M deal for 2026-27 (UFA in July 2027) after 45 goals and 96 points in 2025-26; Mikko Rantanen, 8yr/$96M ($12M AAV) through 2032-33, was acquired in March 2025",
+        "fact": "CapWages shows Robertson at $12M with one season left; Wikipedia records his 45-goal, 96-point 2025-26",
+        "source": "https://capwages.com/teams/dallas_stars ; https://en.wikipedia.org/wiki/Jason_Robertson"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jason Robertson",
+            "position": "LW",
+            "aav": 7.75,
+            "contractNote": "4yr/$31M bridge deal through 2025-26; extension at ~$11-13M projected given Kaprizov market reset; extension or trade decision defines Stars' 2026-27 cap structure"
+          },
+          {
+            "player": "Roope Hintz",
+            "position": "C",
+            "aav": 8.45,
+            "contractNote": "8yr/$67.6M signed 2022, through 2029-30; franchise center"
+          },
+          {
+            "player": "Miro Heiskanen",
+            "position": "D",
+            "aav": 8.45,
+            "contractNote": "8yr/$67.6M signed 2021, through 2028-29; elite two-way defenseman"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jason Robertson",
+            "position": "LW",
+            "aav": 12,
+            "contractNote": "One-year $12M for 2026-27, UFA after; 45 goals, 96 points in 2025-26"
+          },
+          {
+            "player": "Mikko Rantanen",
+            "position": "RW",
+            "aav": 12,
+            "contractNote": "8yr/$96M signed March 2025 on acquisition from Carolina, through 2032-33; full NMC"
+          },
+          {
+            "player": "Thomas Harley",
+            "position": "D",
+            "aav": 10.587,
+            "contractNote": "$10.587M AAV eight-year extension (2025), full NMC"
+          },
+          {
+            "player": "Roope Hintz",
+            "position": "C",
+            "aav": 8.45,
+            "contractNote": "8yr/$67.6M (2022), through 2030-31"
+          },
+          {
+            "player": "Miro Heiskanen",
+            "position": "D",
+            "aav": 8.45,
+            "contractNote": "8yr/$67.6M (2021), through 2028-29"
+          },
+          {
+            "player": "Wyatt Johnston",
+            "position": "C",
+            "aav": 8.4,
+            "contractNote": "$8.4M AAV through 2030-31"
+          },
+          {
+            "player": "Jake Oettinger",
+            "position": "G",
+            "aav": 8.25,
+            "contractNote": "8yr/$66M (2024), through 2032-33"
+          }
+        ],
+        "fact": "CapWages 2026-27: Robertson $12M, Rantanen $12M, Harley $10.587M, Seguin $9.85M, Hintz and Heiskanen $8.45M, Johnston $8.4M, Oettinger $8.25M",
+        "source": "https://capwages.com/teams/dallas_stars"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Tom Gaglardi, approved Nov 18, 2011)",
+      "arena.name (American Airlines Center)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Robertson's one-year $12M deal: date and structure rest on CapWages only",
+      "Victory+ status after the Prime Video deal: not confirmed",
+      "arena.newArenaPlans: no 2026 source found on the 2031 lease or a new arena"
+    ],
+    "analystNotes": "Forbes valued the Stars at $2.0B in December 2024 on $230M of revenue and $59M of operating income, up more than eight times on Gaglardi's $240M bankruptcy purchase in 2011, and the operating case keeps compounding in the fastest-growing metro in the league. Dallas has made the playoffs five straight years, including a 2025 Western final, and now carries the most expensive skater group outside Colorado: Rantanen and Robertson at $12M each, Harley at $10.6M, plus Hintz, Heiskanen, Johnston and Oettinger between $8.25M and $8.45M. Local media moved from the self-run Victory+ platform to Amazon Prime Video for 2026-27; the valuation lever now is what happens to the American Airlines Center lease that expires around 2031 and whether the Mavericks build separately.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.0B, $230M revenue, $59M operating income); playoff paths from the playoff pages; Prime Video from the 2026-27 season page; contracts from CapWages; Robertson stats from Wikipedia."
+  },
+  {
+    "teamId": "minnesota-wild",
+    "team": "Minnesota Wild",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.name",
+        "old": "Xcel Energy Center",
+        "new": "Grand Casino Arena",
+        "fact": "Renamed Grand Casino Arena effective September 3, 2025 (announced June 30, 2025) under a deal with the Mille Lacs Band of Ojibwe, ending Xcel Energy's 25-year naming run",
+        "source": "https://en.wikipedia.org/wiki/Grand_Casino_Arena ; https://en.wikipedia.org/wiki/2025%E2%80%9326_NHL_season"
+      },
+      {
+        "field": "arena.namingRightsDeal",
+        "old": {
+          "sponsor": "Xcel Energy",
+          "annualValue_M": 3.6,
+          "totalValue_M": null,
+          "expiryYear": 2026,
+          "notes": "Xcel Energy (utility company) naming rights; deal set to expire ~2026; Wild asking $362M in public renovation funding (2026) in connection with arena upgrade discussions"
+        },
+        "new": {
+          "sponsor": "Grand Casino (Mille Lacs Band of Ojibwe)",
+          "annualValue_M": null,
+          "totalValue_M": null,
+          "expiryYear": null,
+          "notes": "Grand Casino Arena naming deal announced June 30, 2025, effective September 3, 2025; Mille Lacs Band of Ojibwe owns Grand Casino Hinckley and Grand Casino Mille Lacs; value and length undisclosed; Xcel Energy (2000-2025 sponsor) remains a team partner"
+        },
+        "fact": "New naming partner from September 3, 2025; terms undisclosed",
+        "source": "https://en.wikipedia.org/wiki/Grand_Casino_Arena"
+      },
+      {
+        "field": "arena.ownershipModel",
+        "old": "Owned by Minnesota Sports & Entertainment (Craig Leipold); one of the few NHL arenas directly owned by the franchise ownership group (not city/county); team retains all arena P&L including concerts, events, and non-hockey programming",
+        "new": "Owned by the City of Saint Paul and operated by Minnesota Sports & Entertainment (Craig Leipold), which runs the building and its event calendar; built in 2000 with a $65M state loan and $65M in Saint Paul bonds",
+        "fact": "Wikipedia lists the City of Saint Paul as owner and MSE as operator",
+        "source": "https://en.wikipedia.org/wiki/Grand_Casino_Arena ; https://en.wikipedia.org/wiki/Minnesota_Wild"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports North (Diamond Sports / Sinclair) through 2024-25; Diamond Sports Group filed Chapter 11 in 2023 — Wild among teams working on post-Bally distribution alternative; direct streaming model being explored for 2025+",
+        "new": "Team-owned regional network produced with NHL Productions through the league hub and sold direct to distributors from 2026-27, with Amazon Prime Video in-market streaming, after FanDuel Sports Network North went dark April 30, 2026",
+        "fact": "FanDuel Sports Network closed April 30, 2026; Minnesota joined the NHL hub direct-to-distributor group with Prime Video streaming",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu for national games; local streaming transition from Bally Sports North ongoing; Wild among NHL teams facing most acute RSN disruption given Diamond's bankruptcy",
+        "new": "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video in-market streaming for hub-produced teams",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 3,
+        "new": 4,
+        "fact": "Playoffs in 2022, 2023, 2025 (lost to Vegas in six) and 2026 (beat Dallas in six, lost to Colorado in five)",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Minnesota_Wild"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Kirill Kaprizov — 8yr/$136M ($17M AAV) signed Sept 2025, begins 2026-27 through 2033-34; richest contract in NHL history at signing",
+        "new": "Kirill Kaprizov, 8yr/$136M ($17M AAV) from 2026-27 through 2033-34, richest contract at signing until Makar's August 2026 deal; Quinn Hughes, acquired from Vancouver December 12, 2025, is in the final year of his $7.85M deal (UFA July 2027); Jared Spurgeon captain",
+        "fact": "Quinn Hughes traded to Minnesota December 12, 2025 for Marco Rossi, Zeev Buium, Liam Öhgren and a 2026 first-round pick",
+        "source": "https://en.wikipedia.org/wiki/Quinn_Hughes ; https://capwages.com/teams/minnesota_wild"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Kirill Kaprizov",
+            "position": "LW",
+            "aav": 17,
+            "contractNote": "8yr/$136M signed Sept 2025, 2026-27 through 2033-34; NHL record AAV at signing; resets forward market above MacKinnon's $12.6M"
+          },
+          {
+            "player": "Matt Boldy",
+            "position": "LW",
+            "aav": 7,
+            "contractNote": "7yr/$49M signed 2023, through 2029-30; emerging second star alongside Kaprizov"
+          },
+          {
+            "player": "Filip Gustavsson",
+            "position": "G",
+            "aav": 6.25,
+            "contractNote": "5yr/$31.25M signed 2023, through 2027-28; franchise goalie"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kirill Kaprizov",
+            "position": "LW",
+            "aav": 17,
+            "contractNote": "8yr/$136M signed Sept 2025, 2026-27 through 2033-34; full NMC"
+          },
+          {
+            "player": "Brock Faber",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2024), 2025-26 through 2032-33"
+          },
+          {
+            "player": "Quinn Hughes",
+            "position": "D",
+            "aav": 7.85,
+            "contractNote": "6yr/$47.1M (2021), final season 2026-27; acquired Dec 12, 2025; 2024 Norris Trophy"
+          },
+          {
+            "player": "Matt Boldy",
+            "position": "LW",
+            "aav": 7,
+            "contractNote": "7yr/$49M (2023), through 2029-30"
+          },
+          {
+            "player": "Filip Gustavsson",
+            "position": "G",
+            "aav": 6.8,
+            "contractNote": "$6.8M AAV extension (2025); NMC through June 2028"
+          }
+        ],
+        "fact": "CapWages 2026-27: Kaprizov $17M, Faber $8.5M, Quinn Hughes $7.85M, Spurgeon $7.575M, Boldy $7M, Gustavsson $6.8M",
+        "source": "https://capwages.com/teams/minnesota_wild ; https://en.wikipedia.org/wiki/Quinn_Hughes"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Craig Leipold, since April 10, 2008)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "arena.newArenaPlans: the $362M state renovation ask (March 2026) was not found on Wikipedia; left as is",
+      "Grand Casino naming-rights value and length: undisclosed",
+      "Gustavsson extension date and total (CapWages cap hit only)"
+    ],
+    "analystNotes": "Forbes valued the Wild at $1.55B in December 2024 on $200M of revenue, and the two open questions in that print both closed in 2025-26: the building became Grand Casino Arena on September 3, 2025 under a Mille Lacs Band naming deal, and when FanDuel Sports Network North died on April 30, 2026 Minnesota moved to a team-owned, NHL-hub-produced network with Prime Video streaming. On the ice Leipold went all in, paying Kaprizov $17M a year from 2026-27 and trading three first-round-pedigree players plus a first for Quinn Hughes in December 2025, and the team won a round in 2026. Hughes' contract expires after 2026-27, so his extension, and the hundreds of millions Saint Paul needs for the city-owned arena, are the next two numbers that matter.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.55B, $200M revenue); arena rename and ownership from the Grand Casino Arena page; Hughes trade from Wikipedia; local TV from the 2026-27 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "nashville-predators",
+    "team": "Nashville Predators",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports South (Diamond Sports / Sinclair) — facing disruption from Diamond Chapter 11 filing 2023; Predators working on post-Bally distribution; local broadcast on WZTV",
+        "new": "Multi-year Scripps Sports deal from 2026-27 with the new independent station WNPX-TV as flagship and CBS affiliate WTVF as sister outlet, after FanDuel Sports Network South went dark April 30, 2026; a direct-to-consumer platform is pending",
+        "fact": "Scripps Sports holds Predators local rights beginning 2026-27 via WNPX-TV and WTVF",
+        "source": "https://en.wikipedia.org/wiki/Nashville_Predators ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu for national games; post-Bally streaming transition in progress for local games; Nashville market exploring direct-to-consumer options",
+        "new": "Over-the-air Scripps model with a direct-to-consumer platform pending; ESPN+/Hulu and TNT/Max national",
+        "fact": "Scripps over-the-air deal with DTC platform pending for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Roman Josi",
+            "position": "D",
+            "aav": 9.06,
+            "contractNote": "8yr/$72.5M signed 2019, through 2026-27; 2020 Norris Trophy; aging but still franchise captain; extension or succession planning imminent"
+          },
+          {
+            "player": "Filip Forsberg",
+            "position": "LW",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M signed 2022, through 2029-30; franchise leading scorer; 2022 extension kept him in Nashville long-term"
+          }
+        ],
+        "new": [
+          {
+            "player": "Roman Josi",
+            "position": "D",
+            "aav": 9.059,
+            "contractNote": "8yr/$72.5M (2019), through 2027-28; captain; NMC"
+          },
+          {
+            "player": "Filip Forsberg",
+            "position": "LW",
+            "aav": 8.5,
+            "contractNote": "8yr/$68M (2022), through 2029-30"
+          },
+          {
+            "player": "Steven Stamkos",
+            "position": "LW/RW",
+            "aav": 8,
+            "contractNote": "4yr/$32M signed July 2024, through 2027-28; full NMC"
+          },
+          {
+            "player": "Juuse Saros",
+            "position": "G",
+            "aav": 7.74,
+            "contractNote": "8yr/$61.9M (2024), 2025-26 through 2032-33; full NMC"
+          }
+        ],
+        "fact": "Josi's deal runs through 2027-28 (two seasons left), not 2026-27; Stamkos and Saros added",
+        "source": "https://capwages.com/teams/nashville_predators"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Bill Haslam, majority)",
+      "arena.name (Bridgestone Arena)",
+      "onField.playoffAppearancesLast5Years (2: 2022 and 2024; missed 2025 at 30-44-8 and 2026 at 38-34-10)",
+      "onField.championshipsLast10Years (0)",
+      "onField.currentFranchisePlayer (Roman Josi captain; contract now shown through 2027-28)"
+    ],
+    "unverified": [
+      "Nick Saban / Joe Agresti minority stake (December 2025 in the enrichment): not found on the Predators page",
+      "arena.newArenaPlans: no 2026 source found on Bridgestone Arena lease talks"
+    ],
+    "analystNotes": "Forbes valued the Predators at $1.5B in December 2024 on $195M of revenue, a Sun Belt number built on Bridgestone Arena's Lower Broadway event calendar and Nashville's growth rather than the roster, and the roster has confirmed that: 30-44-8 in 2024-25 and 38-34-10 in 2025-26, no playoffs either year, and Barry Trotz retired in February 2026 with Chris MacFarland named GM in June. Local media landed cleanly, with a multi-year Scripps deal on the new WNPX-TV from 2026-27 after FanDuel Sports Network South closed in April. The Haslam group's number moves when Josi, Forsberg, Stamkos and Saros, all signed through at least 2027-28, produce a playoff series again.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.5B, $195M revenue); records, GM change and Scripps deal from the Predators page; contracts from CapWages."
+  },
+  {
+    "teamId": "st-louis-blues",
+    "team": "St. Louis Blues",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "media.localTVDeal",
+        "old": "Bally Sports Midwest (Diamond Sports Group) — facing Diamond's Chapter 11 disruption; Blues pursuing post-Bally options including direct streaming and potential new RSN arrangement with Sinclair successor entity",
+        "new": "From 2026-27 about 70 regional games are produced with NHL Productions through the league hub and sold direct to distributors by the Blues, who control distribution and ad sales, with Amazon Prime Video in-market streaming; FanDuel Sports Network Midwest went dark April 30, 2026",
+        "fact": "FanDuel Sports Network closed April 30, 2026; St. Louis moved to the NHL hub direct-to-distributor model with Prime Video streaming",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu for national games; Blues Direct streaming offered for local games as Bally backup; RSN transition risk exists through 2025-26",
+        "new": "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video in-market streaming for hub-produced teams",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jordan Kyrou — 8yr/$65M ($8.125M AAV) signed 2023, through 2030-31; breakout star after Ryan O'Reilly trade; becomes face of franchise in rebuild",
+        "new": "Robert Thomas, captain, 8yr/$65M ($8.125M AAV) through 2030-31; Jordan Kyrou was traded to Washington and Brayden Schenn to the Islanders, with Mason McTavish ($7M) acquired from Anaheim",
+        "fact": "Kyrou appears on Washington's 2026-27 sheet and Schenn on the Islanders'; Thomas is listed as Blues captain",
+        "source": "https://capwages.com/teams/st_louis_blues ; https://capwages.com/teams/washington_capitals ; https://capwages.com/teams/new_york_islanders ; https://en.wikipedia.org/wiki/St._Louis_Blues"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jordan Kyrou",
+            "position": "RW",
+            "aav": 8.125,
+            "contractNote": "8yr/$65M signed 2023, through 2030-31; franchise building block after O'Reilly and Perron departures"
+          },
+          {
+            "player": "Brayden Schenn",
+            "position": "C",
+            "aav": 6.5,
+            "contractNote": "7yr/$45.5M through 2026-27; veteran franchise center; contract approaching expiry"
+          },
+          {
+            "player": "Robert Thomas",
+            "position": "C",
+            "aav": 8.125,
+            "contractNote": "8yr/$65M signed 2023, through 2030-31; elite playmaker; forms new-era core with Kyrou"
+          }
+        ],
+        "new": [
+          {
+            "player": "Robert Thomas",
+            "position": "C",
+            "aav": 8.125,
+            "contractNote": "8yr/$65M (2023), through 2030-31; captain"
+          },
+          {
+            "player": "Pavel Buchnevich",
+            "position": "LW",
+            "aav": 8,
+            "contractNote": "6yr/$48M (2024), through 2030-31"
+          },
+          {
+            "player": "Philip Broberg",
+            "position": "D",
+            "aav": 8,
+            "contractNote": "$8M AAV extension (2026), six seasons; full NTC through 2029-30"
+          },
+          {
+            "player": "Dylan Holloway",
+            "position": "LW",
+            "aav": 7.75,
+            "contractNote": "$7.75M AAV extension (2026)"
+          },
+          {
+            "player": "Mason McTavish",
+            "position": "C",
+            "aav": 7,
+            "contractNote": "6yr/$42M (2025), acquired from Anaheim"
+          }
+        ],
+        "fact": "CapWages 2026-27: Thomas $8.125M, Buchnevich $8M, Broberg $8M, Holloway $7.75M, McTavish $7M, Parayko $6.5M, Binnington $6M; Kyrou and Schenn are gone",
+        "source": "https://capwages.com/teams/st_louis_blues"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Tom Stillman, chairman and governor)",
+      "arena.name (Enterprise Center)",
+      "onField.playoffAppearancesLast5Years (2: 2022 and 2025; lost the 2025 first round to Winnipeg in seven; missed 2026)",
+      "onField.championshipsLast10Years (1: 2019)"
+    ],
+    "unverified": [
+      "Kyrou, Schenn and McTavish trade dates and returns (CapWages rosters only)",
+      "Broberg and Holloway extension dates and totals (CapWages cap hits only)",
+      "GM Alexander Steen (Wikipedia infobox) not second-sourced"
+    ],
+    "analystNotes": "Forbes valued the Blues at $1.45B in December 2024 on $192M of revenue and under $10M of operating income, a mid-market number in a city-owned building, and the year since was a reset: St. Louis took Winnipeg to seven games in the 2025 first round, missed in 2026, then traded Kyrou to Washington and Schenn to the Islanders while paying Broberg, Holloway and Buchnevich $7.75M to $8M each around captain Robert Thomas. The revenue risk in the Forbes print resolved on April 30, 2026 when FanDuel Sports Network Midwest closed and the Blues took control of distribution and ad sales for roughly 70 hub-produced games with Prime Video streaming. What moves the number now is whether that direct model out-earns the old RSN check in a 2.8M-person market with no growth premium.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.45B, $192M revenue); 2025 playoff series from the playoff page; local TV from the 2026-27 season page and proxies; contracts from CapWages."
+  },
+  {
+    "teamId": "winnipeg-jets",
+    "team": "Winnipeg Jets",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 3,
+        "fact": "Playoffs in 2023, 2024 and 2025 (first Presidents' Trophy with 116 points, then a second-round loss to Dallas in six); missed 2026 at 35-35-12",
+        "source": "https://en.wikipedia.org/wiki/Winnipeg_Jets ; https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Mark Scheifele — 8yr/$49.6M ($6.125M AAV, signed 2016) through 2023-24 + new extension; franchise captain and all-time leading scorer",
+        "new": "Kyle Connor, 8yr/$96M ($12M AAV) signed October 8, 2025, 2026-27 through 2033-34; Mark Scheifele $8.5M through 2030-31; Connor Hellebuyck $8.5M; Adam Lowry captain",
+        "fact": "Connor extension October 8, 2025: eight years, $96M, $12M cap hit, through 2033-34",
+        "source": "https://en.wikipedia.org/wiki/Kyle_Connor ; https://capwages.com/teams/winnipeg_jets"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mark Scheifele",
+            "position": "C",
+            "aav": 8.5,
+            "contractNote": "Multi-year extension; franchise captain and all-time scorer; aging core but still productive"
+          },
+          {
+            "player": "Kyle Connor",
+            "position": "LW",
+            "aav": 7.25,
+            "contractNote": "7yr/$50.75M through 2027-28; consistent 30-40 goal scorer; key complementary star"
+          },
+          {
+            "player": "Josh Morrissey",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "8yr/$72M signed 2022, through 2029-30; All-Star defenseman; franchise defensive cornerstone"
+          }
+        ],
+        "new": [
+          {
+            "player": "Kyle Connor",
+            "position": "LW",
+            "aav": 12,
+            "contractNote": "8yr/$96M signed Oct 8, 2025, 2026-27 through 2033-34; full NMC"
+          },
+          {
+            "player": "Mark Scheifele",
+            "position": "C",
+            "aav": 8.5,
+            "contractNote": "7yr/$59.5M (2023), through 2030-31"
+          },
+          {
+            "player": "Connor Hellebuyck",
+            "position": "G",
+            "aav": 8.5,
+            "contractNote": "7yr/$59.5M (2023), through 2030-31; 2024 and 2025 Vezina"
+          },
+          {
+            "player": "Josh Morrissey",
+            "position": "D",
+            "aav": 6.25,
+            "contractNote": "8yr/$50M (2022), through 2027-28"
+          }
+        ],
+        "fact": "Connor is now $12M; Morrissey's cap hit is $6.25M (not $9M); Scheifele is not captain (Adam Lowry is)",
+        "source": "https://capwages.com/teams/winnipeg_jets ; https://en.wikipedia.org/wiki/Winnipeg_Jets"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "Canadian teams (including Jets) receive meaningful premium from Rogers Sportsnet 12yr/$5.2B national Canadian rights deal (through 2025-26); total Canadian national contribution estimated $40-60M/team/year vs ~$19M for US teams; new Canadian deal post-2026 under negotiation",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (True North Sports & Entertainment; Mark Chipman executive chairman and governor)",
+      "arena.name (Canada Life Centre)",
+      "media.localTVDeal (TSN3 regional)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "David Thomson's role: not named on the Jets page; left as in the enrichment",
+      "arena.newArenaPlans: no 2026 source found on Canada Life Centre upgrades"
+    ],
+    "analystNotes": "Forbes valued the Jets at $1.05B in December 2024 on $170M of revenue, 31st in the league, and the season that followed was the best in franchise history: a first Presidents' Trophy at 116 points in 2024-25 before a second-round loss to Dallas, followed by a 35-35-12 collapse and a 2026 miss. True North answered by paying Kyle Connor $12M a year through 2033-34 (signed October 8, 2025), locking Connor, Scheifele and Hellebuyck through at least 2030-31 in the NHL's smallest building. The C$11B Rogers national deal starting 2026-27 is the one revenue line that grows regardless of a 950,000-person metro, and it is what lifts this floor.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.05B, $170M revenue); Presidents' Trophy and 2026 miss from the Jets page; Connor extension from Wikipedia; Rogers deal; contracts from CapWages."
+  },
+  {
+    "teamId": "anaheim-ducks",
+    "team": "Anaheim Ducks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 0,
+        "new": 1,
+        "fact": "Ducks qualified in 2026, beat Edmonton in six in the first round and lost to Vegas in six in the second round",
+        "source": "https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Anaheim_Ducks"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "KCAL (CBS/KCAL, LA); historically on Bally Sports SoCal (Diamond Sports Group, bankrupt 2023); transitioning to direct-to-consumer or new local deal post-RSN collapse",
+        "new": "Amazon Prime Video holds Ducks regional streaming rights for 2026-27 with over-the-air games on KCOP (Fox 11 Plus) and KTTV (Fox 11), after FanDuel Sports Network West went dark April 30, 2026",
+        "fact": "For 2026-27 the Ducks moved regional rights to Amazon Prime Video while keeping a broadcast package; Wikipedia infobox lists Prime Video, KCOP and KTTV",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/Anaheim_Ducks ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu NHL streaming; NHL.tv League Pass; impacted by Diamond Sports bankruptcy",
+        "new": "Amazon Prime Video in-market streaming from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video regional rights from 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Trevor Zegras — entry-level deal expired; RFA 2023; Mason McTavish emerging as co-franchise core",
+        "new": "Leo Carlsson, 5yr/$90M ($18M AAV) from 2026-27 after Anaheim matched Philadelphia's July 3, 2026 offer sheet; Cutter Gauthier $13.5M AAV; Mikael Granlund captain; Zegras (Philadelphia) and McTavish (St. Louis) have been traded",
+        "fact": "Philadelphia tendered Carlsson a five-year, $90M offer sheet July 3, 2026; Carlsson appears on Anaheim's 2026-27 sheet at $18M",
+        "source": "https://capwages.com/articles/leo-carlsson-offer-sheet-sign-and-trade ; https://capwages.com/teams/anaheim_ducks ; https://en.wikipedia.org/wiki/Anaheim_Ducks"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Mason McTavish",
+            "position": "C",
+            "aav": 6.625,
+            "contractNote": "7yr/$46.375M signed 2024, through 2030-31; part of youth rebuild"
+          },
+          {
+            "player": "Trevor Zegras",
+            "position": "C/LW",
+            "aav": 5.75,
+            "contractNote": "3yr/$17.25M bridge deal signed 2023; UFA after 2025-26"
+          }
+        ],
+        "new": [
+          {
+            "player": "Leo Carlsson",
+            "position": "C",
+            "aav": 18,
+            "contractNote": "5yr/$90M matched offer sheet (July 2026), 2026-27 through 2030-31"
+          },
+          {
+            "player": "Cutter Gauthier",
+            "position": "LW",
+            "aav": 13.5,
+            "contractNote": "$13.5M AAV, six seasons remaining per CapWages; modified NTC"
+          },
+          {
+            "player": "Jackson LaCombe",
+            "position": "D",
+            "aav": 9,
+            "contractNote": "8yr/$72M (2025), through 2033-34; full NTC to 2031"
+          },
+          {
+            "player": "Troy Terry",
+            "position": "RW",
+            "aav": 7,
+            "contractNote": "7yr/$49M (2023), through 2029-30"
+          }
+        ],
+        "fact": "CapWages 2026-27: Carlsson $18M, Gauthier $13.5M, LaCombe $9M, Terry $7M; McTavish and Zegras no longer on the roster",
+        "source": "https://capwages.com/teams/anaheim_ducks"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Henry and Susan Samueli, since 2005)",
+      "arena.name (Honda Center)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Anaheim's match of the Carlsson offer sheet is inferred from CapWages (offer-sheet article plus team page); no second source",
+      "Gauthier contract date and total (CapWages cap hit only)",
+      "arena.newArenaPlans: no 2026 source found on Honda Center renovation or OCVibe milestones",
+      "Chris Kreider not on the CapWages 2026-27 roster; status unconfirmed"
+    ],
+    "analystNotes": "Forbes valued the Ducks at $1.3B in December 2024 on $175M of revenue, the cheapest franchise in a top-two market, and 2025-26 was the first year the hockey caught up to the real estate: Anaheim made the playoffs, beat Edmonton in the first round and took Vegas to six games. The Samuelis then paid to keep the core, matching Philadelphia's five-year, $90M offer sheet for Leo Carlsson in July 2026 ($18M a year, the highest cap hit of any forward except Kaprizov) on top of Gauthier at $13.5M and LaCombe at $9M, while regional rights moved to Amazon Prime Video with Fox 11 over-the-air games. With the Honda Center renovation and OCVibe district behind a contender for the first time, a second straight playoff run is what turns $1.3B into an LA-market number.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.3B, $175M revenue); 2026 playoff results from the playoff page; Carlsson offer sheet from CapWages; Prime Video from the 2026-27 season page; contracts from CapWages."
+  },
+  {
+    "teamId": "calgary-flames",
+    "team": "Calgary Flames",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "arena.newArenaPlans",
+        "old": "Scotia Place: new $1.2B total arena project; City of Calgary $537M + Province of Alberta $330M + CSEC $356M (29%); groundbreaking 2024; target opening 2026-27; 35-year commitment by CSEC to keep Flames in Calgary",
+        "new": "Scotia Place: C$1.223B project; City of Calgary $537.3M upfront, Province of Alberta $330M over three years, CSEC $748.3M over 35 years (about $356M in 2024 dollars); groundbreaking July 22, 2024; opening before the 2027-28 season, so 2026-27 is the final Saddledome year; 18,400 hockey capacity with 52 suites; Scotiabank holds naming rights",
+        "fact": "Scotia Place is planned to open prior to the 2027-28 NHL season; 2026-27 is the Flames' last season at the Saddledome",
+        "source": "https://en.wikipedia.org/wiki/Scotia_Place ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/Calgary_Flames"
+      },
+      {
+        "field": "arena.ownershipModel",
+        "old": "owned by Calgary Sports and Entertainment Corporation (CSEC); built in 1983 as Olympics venue; aging facility; to be replaced by Scotia Place (2026-27 target)",
+        "new": "Scotiabank Saddledome, built 1983 for the 1988 Olympics, hosts its final Flames season in 2026-27; Scotia Place (City-owned, CSEC-operated under a 35-year agreement) opens for 2027-28",
+        "fact": "Saddledome final season 2026-27; Scotia Place opens 2027-28",
+        "source": "https://en.wikipedia.org/wiki/Scotia_Place ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Only the 2022 playoffs fall in the window; Calgary missed 2023 through 2026 (34-39-9, 77 points in 2025-26)",
+        "source": "https://en.wikipedia.org/wiki/Calgary_Flames ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Nazem Kadri — 7yr/$49M ($7M AAV), signed July 2022, through 2028-29",
+        "new": "Jonathan Huberdeau, 8yr/$84M ($10.5M AAV) through 2030-31, is the top cap hit; goalie Dustin Wolf at $7.5M AAV; Mikael Backlund captain; Nazem Kadri was traded to Colorado with Calgary retaining $1.4M",
+        "fact": "CapWages 2026-27: Huberdeau $10.5M, Wolf $7.5M, Nemec $7.25M, Coronato $6.5M; Kadri appears in Calgary's retained salary and on Colorado's roster at $5.6M",
+        "source": "https://capwages.com/teams/calgary_flames ; https://capwages.com/teams/colorado_avalanche ; https://en.wikipedia.org/wiki/Calgary_Flames"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Nazem Kadri",
+            "position": "C",
+            "aav": 7,
+            "contractNote": "7yr/$49M signed July 2022, through 2028-29; Colorado Cup winner brought as leadership signing"
+          },
+          {
+            "player": "Rasmus Andersson",
+            "position": "D",
+            "aav": 4.55,
+            "contractNote": "7yr/$31.85M through 2027-28"
+          },
+          {
+            "player": "Jonathan Huberdeau",
+            "position": "LW",
+            "aav": 10.5,
+            "contractNote": "8yr/$84M signed 2022 (largest deal in Flames history); underperformed vs. contract so far"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jonathan Huberdeau",
+            "position": "LW",
+            "aav": 10.5,
+            "contractNote": "8yr/$84M (2022), through 2030-31; full NMC"
+          },
+          {
+            "player": "Dustin Wolf",
+            "position": "G",
+            "aav": 7.5,
+            "contractNote": "$7.5M AAV, seven seasons remaining per CapWages"
+          },
+          {
+            "player": "Simon Nemec",
+            "position": "D",
+            "aav": 7.25,
+            "contractNote": "$7.25M AAV; acquired from New Jersey"
+          },
+          {
+            "player": "Matt Coronato",
+            "position": "RW",
+            "aav": 6.5,
+            "contractNote": "7yr/$45.5M (2025), through 2031-32"
+          }
+        ],
+        "fact": "Kadri (Colorado) and Andersson (Vegas, $8.5M) are gone; Wolf, Nemec and Coronato are the new top cap hits",
+        "source": "https://capwages.com/teams/calgary_flames ; https://capwages.com/teams/vegas_golden_knights"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal than the ~$19M US average; Rogers Canadian deal ~$5.2B over 12 years through 2025-26 (~$80M+/Canadian team/year estimated)",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Sportsnet (Rogers Media) regional broadcasts; Rogers holds national Canadian rights for the NHL through 2025-26",
+        "new": "Sportsnet West (Rogers) regional broadcasts; Rogers' national Canadian rights renewed for 12 years from 2026-27 at C$11B",
+        "fact": "Sportsnet West regional; national deal renewed through 2037-38",
+        "source": "https://en.wikipedia.org/wiki/Calgary_Flames ; https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (N. Murray Edwards, chairman of Calgary Sports and Entertainment)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Kadri and Andersson trade dates and returns (CapWages rosters only)",
+      "Wolf and Nemec contract dates and totals (CapWages cap hits only)",
+      "ownership.institutionalInvestors: no 2026 source on a CSEC minority stake sale"
+    ],
+    "analystNotes": "Forbes valued the Flames at $1.65B in December 2024 on $191M of revenue and $37M of operating income, and the two largest inputs to the next print are now dated: Scotia Place, the C$1.223B arena with $867M of public money, opens for 2027-28 after a one-year slip, making 2026-27 the last season in the 1983 Saddledome, and the C$11B Rogers national deal starts paying in 2026-27. The roster has been the drag, with four straight playoff misses and 77 points in 2025-26, Kadri and Andersson traded away, and Huberdeau's $10.5M through 2030-31 still the top cap hit. The number moves on the first full season in Scotia Place with 18,400 seats and 52 suites, whatever the standings say.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.65B, $191M revenue, $37M operating income); Scotia Place terms and timing from Wikipedia; 2025-26 record from the Flames page; Rogers deal; contracts from CapWages."
+  },
+  {
+    "teamId": "edmonton-oilers",
+    "team": "Edmonton Oilers",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 4,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; lost the 2025 Stanley Cup Final to Florida in six (second straight Final loss); lost the 2026 first round to Anaheim in six",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Edmonton_Oilers"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Connor McDavid",
+            "position": "C",
+            "aav": 12.5,
+            "contractNote": "2yr/$25M signed 2025; runs through 2027-28; below-market deal by McDavid's choice to enable team building; makes him UFA after 2027-28"
+          },
+          {
+            "player": "Leon Draisaitl",
+            "position": "C/LW",
+            "aav": 14,
+            "contractNote": "8yr/$112M signed 2023; through 2030-31; highest AAV in NHL at signing; German connection"
+          },
+          {
+            "player": "Evan Bouchard",
+            "position": "D",
+            "aav": 7.5,
+            "contractNote": "7yr/$52.5M signed 2024, through 2030-31"
+          }
+        ],
+        "new": [
+          {
+            "player": "Leon Draisaitl",
+            "position": "C/LW",
+            "aav": 14,
+            "contractNote": "8yr/$112M (2024), 2025-26 through 2032-33; NMC"
+          },
+          {
+            "player": "Connor McDavid",
+            "position": "C",
+            "aav": 12.5,
+            "contractNote": "2yr/$25M (2025), 2026-27 through 2027-28; full NMC; UFA July 2028"
+          },
+          {
+            "player": "Evan Bouchard",
+            "position": "D",
+            "aav": 10.5,
+            "contractNote": "4yr/$42M signed July 2025, through 2028-29"
+          }
+        ],
+        "fact": "Bouchard's cap hit is $10.5M on a four-year deal signed in 2025; McDavid has two seasons left at $12.5M",
+        "source": "https://capwages.com/teams/edmonton_oilers"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal; Rogers 12-year ~$5.2B Canadian NHL deal through 2025-26 (~$80M+/Canadian team/year estimated); Oilers among top-earning Canadian franchises given market and product quality",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26. Oilers remain among the top Canadian earners on regional Sportsnet rights.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Daryl Katz / OEG)",
+      "arena.name (Rogers Place)",
+      "media.localTVDeal (Sportsnet West, Sportsnet One, Citytv Edmonton)",
+      "onField.currentFranchisePlayer (McDavid 2yr/$25M through 2027-28)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Wikipedia infobox lists Stan Bowman as GM and Mike Babcock as head coach; coaching change not second-sourced",
+      "Darnell Nurse appears on San Jose's 2026-27 sheet at $9.25M; trade not second-sourced"
+    ],
+    "analystNotes": "Forbes valued the Oilers at $2.65B in December 2024 on $388M of revenue and $213M of operating income, the highest profit in hockey, on the McDavid-Draisaitl core, Rogers Place and the ICE District; the on-ice story since is a second straight Stanley Cup Final loss to Florida in June 2025 and a first-round exit to Anaheim in 2026. The cap sheet is set: Draisaitl $14M through 2032-33, Bouchard $10.5M on a four-year deal, and McDavid's two-year, $25M bridge running 2026-27 and 2027-28. The C$11B Rogers deal adds to the revenue line from 2026-27, but the only number that matters for this valuation is McDavid's July 2028 decision.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.65B, $388M revenue, $213M operating income); playoff results from the playoff pages; Rogers deal; contracts from CapWages."
+  },
+  {
+    "teamId": "los-angeles-kings",
+    "team": "Los Angeles Kings",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 5,
+        "fact": "Playoffs every year 2022-2026; first-round losses to Edmonton in 2025 (2-4) and a sweep by Colorado in 2026",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/Los_Angeles_Kings"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Scripps Sports/KCAL (CBS, LA); previously Bally Sports West (Diamond Sports, bankrupt 2023); Kings signed direct broadcast deal with Scripps/KCAL in 2024 — among first NHL teams to exit RSN model post-Diamond collapse",
+        "new": "Angels Broadcast Television (ABTV, the former FanDuel Sports Network West channel bought by the Angels in March 2026) carries Kings games from 2026-27, with a standalone DAZN streaming service; the 2024-25 Scripps/KCAL arrangement has ended",
+        "fact": "FanDuel Sports Network West became Angels Broadcast Television in March 2026; Kings moved to ABTV plus DAZN for 2026-27",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season ; https://en.wikipedia.org/wiki/FanDuel_Sports_Network ; data/forbes-proxies.js (verified) ; https://en.wikipedia.org/wiki/Los_Angeles_Kings"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu NHL; Scripps/KCAL on connected TV; NHL.tv",
+        "new": "Standalone DAZN streaming service for in-market Kings games from 2026-27; ESPN+/Hulu and TNT/Max national",
+        "fact": "DAZN listed as the Kings' streaming outlet",
+        "source": "https://en.wikipedia.org/wiki/Los_Angeles_Kings ; https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Anze Kopitar — 8yr/$80M ($10M AAV) signed 2016, nearing end; Quinton Byfield emerging as franchise heir",
+        "new": "Anze Kopitar retired after 2025-26 (announced September 18, 2025; final game April 26, 2026; jersey retirement February 24, 2027); Drew Doughty named captain September 16, 2026 in the final year of his $11M deal; Adrian Kempe signed 8yr/$85M ($10.625M AAV) on November 17, 2025 through 2033-34",
+        "fact": "Kopitar retirement dates and Kempe extension from Wikipedia; Doughty captaincy from the Kings page",
+        "source": "https://en.wikipedia.org/wiki/An%C5%BEe_Kopitar ; https://en.wikipedia.org/wiki/Adrian_Kempe ; https://en.wikipedia.org/wiki/Los_Angeles_Kings"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Anze Kopitar",
+            "position": "C",
+            "aav": 10,
+            "contractNote": "8yr/$80M through 2025-26; 18-year King, 2x Stanley Cup winner; winding down elite years"
+          },
+          {
+            "player": "Drew Doughty",
+            "position": "D",
+            "aav": 11,
+            "contractNote": "8yr/$88M through 2026-27; highest-paid King in history at signing; missed significant time to injury"
+          },
+          {
+            "player": "Quinton Byfield",
+            "position": "C",
+            "aav": 8.15,
+            "contractNote": "8yr/$65.2M signed 2023, through 2030-31; heir-apparent franchise center"
+          }
+        ],
+        "new": [
+          {
+            "player": "Drew Doughty",
+            "position": "D",
+            "aav": 11,
+            "contractNote": "8yr/$88M (2018), final season 2026-27; captain from Sept 16, 2026"
+          },
+          {
+            "player": "Adrian Kempe",
+            "position": "RW",
+            "aav": 10.625,
+            "contractNote": "8yr/$85M signed Nov 17, 2025, 2026-27 through 2033-34"
+          },
+          {
+            "player": "Kevin Fiala",
+            "position": "LW",
+            "aav": 7.875,
+            "contractNote": "7yr/$55.1M (2022), through 2028-29"
+          },
+          {
+            "player": "Brandt Clarke",
+            "position": "D",
+            "aav": 7.4,
+            "contractNote": "$7.4M AAV (2026 extension)"
+          },
+          {
+            "player": "Quinton Byfield",
+            "position": "C",
+            "aav": 6.25,
+            "contractNote": "5yr/$31.25M (2024), through 2028-29 (CapWages depth chart shows $6.3M rounded)"
+          }
+        ],
+        "fact": "CapWages depth chart 2026-27: Doughty $11.0M, Kempe $10.6M, Fiala $7.9M, Clarke $7.4M, Byfield $6.3M; Kopitar absent (retired)",
+        "source": "https://capwages.com/teams/los_angeles_kings/depth-charts ; https://en.wikipedia.org/wiki/Adrian_Kempe"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (AEG / Philip Anschutz; acquired October 1995 for $113.5M)",
+      "arena.name (Crypto.com Arena)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Artemi Panarin, acquired from the Rangers at the 2026 deadline, did not appear in the CapWages depth-chart excerpt; his 2026-27 status is unconfirmed",
+      "Brandt Clarke extension date and total (CapWages cap hit only)",
+      "Ken Holland as GM (Wikipedia) not second-sourced"
+    ],
+    "analystNotes": "Forbes valued the Kings at $2.9B in December 2024, fourth in the NHL, on $344M of revenue and $143M of operating income, a number that belongs to AEG's Crypto.com Arena and its $700M naming deal more than to the roster. The Kopitar era ended with his retirement after the 2025-26 season and a fifth straight first-round exit (swept by Colorado), Doughty was named captain in September 2026 for the last year of his $11M contract, and Kempe became the new anchor at $10.625M through 2033-34. Local media landed at Angels Broadcast Television plus a DAZN stream for 2026-27 after FanDuel Sports Network West was sold in March 2026; the valuation lever is whether Peter Laviolette's group wins a round for the first time since 2014.",
+    "analystNotesBasis": "Forbes Dec 2024 ($2.9B, $344M revenue, $143M operating income); Kopitar retirement and Kempe extension from Wikipedia; local TV from the 2026-27 season page and proxies; contracts from the CapWages depth chart."
+  },
+  {
+    "teamId": "san-jose-sharks",
+    "team": "San Jose Sharks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Macklin Celebrini — #1 overall pick 2024 NHL Draft; entry-level contract $3.875M AAV; franchise cornerstone of rebuild",
+        "new": "Macklin Celebrini, named captain before 2026-27, broke Joe Thornton's franchise single-season record with 115 points on April 16, 2026; entry-level contract ($975K cap hit, up to $3.5M in bonuses) runs through 2026-27 with an RFA extension due in 2027",
+        "fact": "Celebrini passed Thornton's 114-point record on April 16, 2026 and was named captain for 2026-27; CapWages shows a $975K ELC cap hit",
+        "source": "https://en.wikipedia.org/wiki/San_Jose_Sharks ; https://capwages.com/teams/san_jose_sharks"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Macklin Celebrini",
+            "position": "C",
+            "aav": 3.875,
+            "contractNote": "#1 overall pick 2024; entry-level 3yr contract; franchise rebuild centerpiece"
+          },
+          {
+            "player": "Tomas Hertl",
+            "position": "C",
+            "aav": 8,
+            "contractNote": "8yr/$65.875M signed 2022, through 2029-30; veteran franchise player bridging rebuild"
+          },
+          {
+            "player": "Nico Sturm",
+            "position": "C",
+            "aav": 3,
+            "contractNote": "placeholder depth; Sharks in full rebuild mode"
+          }
+        ],
+        "new": [
+          {
+            "player": "Darnell Nurse",
+            "position": "D",
+            "aav": 9.25,
+            "contractNote": "8yr/$74M (2021), through 2029-30; acquired from Edmonton (Sharks 2026-27 sheet)"
+          },
+          {
+            "player": "Logan Couture",
+            "position": "C",
+            "aav": 8,
+            "contractNote": "8yr/$64M (2018), final season 2026-27"
+          },
+          {
+            "player": "Mason Marchment",
+            "position": "LW",
+            "aav": 6.75,
+            "contractNote": "$6.75M AAV, five seasons remaining per CapWages"
+          },
+          {
+            "player": "Macklin Celebrini",
+            "position": "C",
+            "aav": 0.975,
+            "contractNote": "3yr ELC (2024), $975K cap hit plus up to $3.5M bonuses, through 2026-27; captain"
+          }
+        ],
+        "fact": "Hertl was traded to Vegas in 2024 (San Jose retains $1.39M); Nurse, Couture and Marchment are the top 2026-27 cap hits",
+        "source": "https://capwages.com/teams/san_jose_sharks ; https://capwages.com/teams/vegas_golden_knights"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Hasso Plattner, governor of San Jose Sports & Entertainment Enterprises)",
+      "arena.name (SAP Center)",
+      "media.localTVDeal (NBC Sports California continues for 2026-27)",
+      "onField.playoffAppearancesLast5Years (0; missed 2025 and 2026 at 39-35-8)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Darnell Nurse acquisition date and return (CapWages roster only)",
+      "Marchment contract details (CapWages cap hit only)"
+    ],
+    "analystNotes": "Forbes valued the Sharks at $1.35B in December 2024 on $169M of revenue and almost no operating income, a rebuild number in a 6.6M-person Bay Area market with the highest household income in the league. The rebuild now has a face: Macklin Celebrini put up 115 points in 2025-26 to break Joe Thornton's franchise record, was named captain at 20, and plays 2026-27 on a $975K entry-level cap hit before an RFA extension that will land in the Bedard-to-Carlsson range of $15M to $18M. NBC Sports California and the SAP Center management deal are stable, so the number moves on the first playoff berth since 2019, which a 39-35-8 team with Celebrini and Will Smith is close to.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.35B, $169M revenue); Celebrini record and captaincy from the Sharks page; contracts from CapWages."
+  },
+  {
+    "teamId": "seattle-kraken",
+    "team": "Seattle Kraken",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "ownership.primaryOwner",
+        "old": "David Bonderman (chairman) / Jerry Bruckheimer / Tod Leiweke (CEO)",
+        "new": "Seattle Hockey Partners, led by Jerry Bruckheimer, Tod Leiweke (CEO) and Samantha Holloway (David Bonderman's daughter)",
+        "fact": "Wikipedia lists the Kraken's ownership group as led by Bruckheimer, Leiweke and Holloway; Bonderman is no longer named as the lead",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Kraken"
+      },
+      {
+        "field": "ownership.ownershipGroup",
+        "old": [
+          {
+            "name": "David Bonderman",
+            "role": "chairman / principal owner",
+            "pct": null
+          },
+          {
+            "name": "Jerry Bruckheimer",
+            "role": "partner / minority owner",
+            "pct": null
+          },
+          {
+            "name": "Tod Leiweke",
+            "role": "CEO / operating partner",
+            "pct": null
+          },
+          {
+            "name": "Samantha Holloway",
+            "role": "partner (Bonderman's daughter)",
+            "pct": null
+          }
+        ],
+        "new": [
+          {
+            "name": "Samantha Holloway",
+            "role": "co-owner and lead of Seattle Hockey Partners (Bonderman family)",
+            "pct": null
+          },
+          {
+            "name": "Jerry Bruckheimer",
+            "role": "co-owner",
+            "pct": null
+          },
+          {
+            "name": "Tod Leiweke",
+            "role": "CEO / co-owner",
+            "pct": null
+          },
+          {
+            "name": "Adrian Hanauer",
+            "role": "minority owner (Sounders FC majority owner)",
+            "pct": null
+          },
+          {
+            "name": "Andy Jassy",
+            "role": "minority owner (Amazon CEO)",
+            "pct": null
+          },
+          {
+            "name": "Tim Leiweke",
+            "role": "minority owner (Oak View Group)",
+            "pct": null
+          },
+          {
+            "name": "Melinda French Gates",
+            "role": "minority owner (joined 2026)",
+            "pct": null
+          },
+          {
+            "name": "Marshawn Lynch and Macklemore",
+            "role": "minority owners (2022)",
+            "pct": null
+          }
+        ],
+        "fact": "Group members per Wikipedia: Hanauer, Jassy, Tim Leiweke, Lynch and Macklemore (2022), Melinda French Gates (2026)",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Kraken"
+      },
+      {
+        "field": "arena.ownershipModel",
+        "old": "Kraken acquired majority stake in Climate Pledge Arena in 2023; One Roof Sports & Entertainment LLC formed; arena is the world's first carbon-neutral arena per NHL; built on footprint of former KeyArena (1962 World's Fair venue) — historic roof preserved; privately financed renovation",
+        "new": "Climate Pledge Arena is owned by the City of Seattle and was rebuilt privately by Oak View Group, which operates it under a long-term lease; the Kraken are the anchor tenant and do not own the arena; the 1962 KeyArena roof was preserved and the building is carbon-neutral certified",
+        "fact": "Wikipedia: the arena is not owned by the Kraken; forbes-proxies teamOwned is false",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Kraken ; data/forbes-proxies.js (verified)"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "ROOT Sports Northwest (AT&T SportsNet Northwest); ROOT survived Diamond Sports Group bankruptcy as separate RSN; Kraken's local TV situation more stable than many NHL counterparts",
+        "new": "Kraken Hockey Network (KHN), over-the-air on KING-TV and KONG with Amazon Prime Video in-market streaming; ROOT Sports Northwest carried the team only for its first three seasons (2021-24)",
+        "fact": "KHN over-the-air plus Prime Video since 2024-25; ROOT through 2023-24",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Kraken"
+      },
+      {
+        "field": "media.streamingNotes",
+        "old": "ESPN+/Hulu NHL; ROOT Sports+ streaming; Kraken direct digital content",
+        "new": "Amazon Prime Video in-market streaming under KHN; ESPN+/Hulu and TNT/Max national",
+        "fact": "Prime Video carries KHN games locally",
+        "source": "https://en.wikipedia.org/wiki/Seattle_Kraken"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Matty Beniers — 2024 Calder Trophy winner (2021-22); entry-level through 2023-24; RFA extension in progress",
+        "new": "Matty Beniers, 2023 Calder Trophy winner, 7yr/$50M ($7.14M AAV) through 2030-31; Jordan Eberle captain since October 2024",
+        "fact": "Beniers $7,142,857 cap hit with five seasons left; Eberle captain",
+        "source": "https://capwages.com/teams/seattle_kraken ; https://en.wikipedia.org/wiki/Seattle_Kraken"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Vince Dunn",
+            "position": "D",
+            "aav": 7.35,
+            "contractNote": "5yr/$36.75M signed 2022, through 2026-27; defensive anchor"
+          },
+          {
+            "player": "Matty Beniers",
+            "position": "C",
+            "aav": 7.1,
+            "contractNote": "8yr/$56.8M signed 2023, through 2030-31; franchise center"
+          },
+          {
+            "player": "Jared McCann",
+            "position": "C/LW",
+            "aav": 5,
+            "contractNote": "5yr/$25M through 2026-27; offensive depth"
+          }
+        ],
+        "new": [
+          {
+            "player": "Vince Dunn",
+            "position": "D",
+            "aav": 7.35,
+            "contractNote": "4yr/$29.4M (2023), final season 2026-27"
+          },
+          {
+            "player": "Matty Beniers",
+            "position": "C",
+            "aav": 7.143,
+            "contractNote": "7yr/$50M (2024), through 2030-31; 12-team no-trade list from 2029-30"
+          },
+          {
+            "player": "Brandon Montour",
+            "position": "D",
+            "aav": 7.143,
+            "contractNote": "7yr/$50M (2024), through 2030-31"
+          },
+          {
+            "player": "Chandler Stephenson",
+            "position": "C",
+            "aav": 6.25,
+            "contractNote": "7yr/$43.75M (2024), through 2030-31; NMC"
+          },
+          {
+            "player": "Jared McCann",
+            "position": "LW",
+            "aav": 5,
+            "contractNote": "5yr/$25M (2022), final season 2026-27"
+          }
+        ],
+        "fact": "CapWages 2026-27: Dunn $7.35M, Beniers and Montour $7.143M, Stephenson $6.25M, Grubauer $5.9M, McCann $5M",
+        "source": "https://capwages.com/teams/seattle_kraken"
+      }
+    ],
+    "verifiedUnchanged": [
+      "arena.name (Climate Pledge Arena)",
+      "onField.playoffAppearancesLast5Years (1: 2023; missed 2025 at 76 points and 2026 at 79 points)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "David Bonderman's death (December 2024) and the formal chair title: not stated on the Kraken page",
+      "Melinda French Gates stake size and date: not given"
+    ],
+    "analystNotes": "Forbes valued the Kraken at $1.6B in December 2024 on $194M of revenue, 2.5 times the $650M expansion fee in six years, and the ownership map has been redrawn: Seattle Hockey Partners is now led by Jerry Bruckheimer, Tod Leiweke and Samantha Holloway, with Melinda French Gates added as a minority owner in 2026 alongside Andy Jassy and Adrian Hanauer. Two structural corrections cut the other way: the Kraken do not own Climate Pledge Arena (the City of Seattle does, with Oak View Group operating), and local rights sit on the over-the-air Kraken Hockey Network with Prime Video streaming rather than an RSN check. Three playoff misses in four years is the drag; a second postseason for the Beniers, Montour and Stephenson group is what earns the next step up.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.6B, $194M revenue); ownership group, arena ownership and KHN from the Kraken page; contracts from CapWages."
+  },
+  {
+    "teamId": "vancouver-canucks",
+    "team": "Vancouver Canucks",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.playoffAppearancesLast5Years",
+        "old": 2,
+        "new": 1,
+        "fact": "Only the 2024 playoffs fall in the 2022-2026 window; Vancouver was not among the 2025 or 2026 qualifiers",
+        "source": "https://en.wikipedia.org/wiki/2025_Stanley_Cup_playoffs ; https://en.wikipedia.org/wiki/2026_Stanley_Cup_playoffs"
+      },
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Quinn Hughes — franchise defenseman; Elias Pettersson — 8yr/$92.8M ($11.6M AAV) signed 2024 extension, through 2031-32",
+        "new": "Elias Pettersson, 8yr/$92.8M ($11.6M AAV) through 2031-32; Quinn Hughes was traded to Minnesota on December 12, 2025 for Marco Rossi, Zeev Buium, Liam Öhgren and a 2026 first-round pick; captaincy vacant",
+        "fact": "Quinn Hughes trade December 12, 2025; Canucks captaincy listed as vacant",
+        "source": "https://en.wikipedia.org/wiki/Quinn_Hughes ; https://en.wikipedia.org/wiki/Vancouver_Canucks"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Elias Pettersson",
+            "position": "C",
+            "aav": 11.6,
+            "contractNote": "8yr/$92.8M extension signed 2024, through 2031-32; face of franchise"
+          },
+          {
+            "player": "Quinn Hughes",
+            "position": "D",
+            "aav": 7.85,
+            "contractNote": "6yr/$47.1M signed 2021, through 2026-27; Norris Trophy contender annually"
+          },
+          {
+            "player": "J.T. Miller",
+            "position": "C/LW",
+            "aav": 8,
+            "contractNote": "7yr/$56M signed 2022, through 2028-29"
+          }
+        ],
+        "new": [
+          {
+            "player": "Elias Pettersson",
+            "position": "C",
+            "aav": 11.6,
+            "contractNote": "8yr/$92.8M (2024), through 2031-32"
+          },
+          {
+            "player": "Thatcher Demko",
+            "position": "G",
+            "aav": 8.5,
+            "contractNote": "$8.5M AAV three-year extension (2025), through 2028-29"
+          },
+          {
+            "player": "Brock Boeser",
+            "position": "RW",
+            "aav": 7.25,
+            "contractNote": "7yr/$50.75M signed July 2025, through 2031-32"
+          },
+          {
+            "player": "Filip Hronek",
+            "position": "D",
+            "aav": 7.25,
+            "contractNote": "8yr/$58M (2024), through 2031-32"
+          }
+        ],
+        "fact": "Hughes (Minnesota) and Miller (Rangers, January 2025) are gone; Demko, Boeser and Hronek follow Pettersson on the 2026-27 sheet",
+        "source": "https://capwages.com/teams/vancouver_canucks ; https://en.wikipedia.org/wiki/Quinn_Hughes ; https://en.wikipedia.org/wiki/New_York_Rangers"
+      },
+      {
+        "field": "media.nationalShareNote",
+        "old": "Canadian teams receive substantially higher national revenue via Rogers/Bell TV deal than the ~$19M US average; Rogers 12-year Canadian NHL deal through 2025-26 (~$80M+/Canadian team/year estimated)",
+        "new": "~$19M/team/year from US national deals (ESPN/TNT through 2027-28). Canadian national rights: new 12-year Rogers deal worth C$11B (announced April 2, 2025) runs 2026-27 through 2037-38, nearly double the C$5.2B 2013 deal; the seven Canadian clubs share the national pool on top of their own regional rights; Amazon Prime Video sublicenses Wednesday Night Hockey and CBC's Hockey Night in Canada partnership ended after 2025-26.",
+        "fact": "Rogers extended Canadian national NHL rights for 12 years (2026-27 to 2037-38) at C$11B, announced April 2, 2025; Prime Video keeps Wednesday nights and CBC dropped off after 2025-26",
+        "source": "https://en.wikipedia.org/wiki/NHL_on_Sportsnet"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Francesco Aquilini, chairman of Canucks Sports & Entertainment; no sale reported)",
+      "arena.name (Rogers Arena)",
+      "media.localTVDeal (Sportsnet Pacific)",
+      "onField.championshipsLast10Years (0)"
+    ],
+    "unverified": [
+      "Wikipedia infobox lists Ryan Johnson as GM, Manny Malhotra as coach and Daniel and Henrik Sedin as co-presidents of hockey operations; front-office changes not second-sourced",
+      "Demko and Boeser contract dates and totals (CapWages cap hits only)"
+    ],
+    "analystNotes": "Forbes valued the Canucks at $1.95B in December 2024 on $226M of revenue, a number that rests on the Aquilini family owning Rogers Arena outright with zero public money in one of Canada's three big hockey markets. The hockey side has been torn down since: J.T. Miller went to the Rangers in January 2025, Quinn Hughes was traded to Minnesota on December 12, 2025 for Rossi, Buium, Öhgren and a first, the captaincy is vacant, and Vancouver missed the playoffs in 2025 and 2026 with Pettersson's $11.6M through 2031-32 as the only marquee contract left. The C$11B Rogers national deal lifts the revenue floor from 2026-27 regardless; what moves the valuation is whether the Hughes return becomes a contender before Pettersson's deal turns into an anchor.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.95B, $226M revenue); Hughes trade from Wikipedia; playoff qualifiers from the playoff pages; Rogers deal; contracts from CapWages."
+  },
+  {
+    "teamId": "vegas-golden-knights",
+    "team": "Vegas Golden Knights",
+    "asOf": "2026-09",
+    "changes": [
+      {
+        "field": "onField.currentFranchisePlayer",
+        "old": "Jack Eichel — 8yr/$80M ($10M AAV) signed 2022, through 2029-30; franchise center acquired via trade from Buffalo",
+        "new": "Jack Eichel signed an 8yr/$108M ($13.5M AAV) extension October 8, 2025 running 2026-27 through 2033-34; Mitch Marner, 8yr/$96M ($12M AAV), arrived by sign-and-trade from Toronto June 30, 2025 and scored the fastest hat trick in Cup Final history in Game 3 of the 2026 Final; Mark Stone captain",
+        "fact": "Eichel extension October 8, 2025; Marner sign-and-trade June 30, 2025 for Nicolas Roy",
+        "source": "https://en.wikipedia.org/wiki/Jack_Eichel ; https://en.wikipedia.org/wiki/Mitch_Marner ; https://capwages.com/teams/vegas_golden_knights"
+      },
+      {
+        "field": "onField.starContracts",
+        "old": [
+          {
+            "player": "Jack Eichel",
+            "position": "C",
+            "aav": 10,
+            "contractNote": "8yr/$80M through 2029-30; franchise cornerstone; underwent artificial disc replacement surgery (first in NHL history) after departure from Buffalo"
+          },
+          {
+            "player": "Alex Pietrangelo",
+            "position": "D",
+            "aav": 8.8,
+            "contractNote": "7yr/$61.6M through 2026-27; Stanley Cup-winning captain; aging but still effective"
+          },
+          {
+            "player": "William Karlsson",
+            "position": "C",
+            "aav": 5.9,
+            "contractNote": "8yr/$47.25M through 2025-26; 2018 expansion hero ('Wild Bill')"
+          }
+        ],
+        "new": [
+          {
+            "player": "Jack Eichel",
+            "position": "C",
+            "aav": 13.5,
+            "contractNote": "8yr/$108M signed Oct 8, 2025, 2026-27 through 2033-34; full NMC"
+          },
+          {
+            "player": "Mitch Marner",
+            "position": "RW",
+            "aav": 12,
+            "contractNote": "8yr/$96M via sign-and-trade June 30, 2025, through 2032-33; full NMC"
+          },
+          {
+            "player": "Alex Pietrangelo",
+            "position": "D",
+            "aav": 8.8,
+            "contractNote": "7yr/$61.6M (2020), final season 2026-27; on season-ending LTIR"
+          },
+          {
+            "player": "Rasmus Andersson",
+            "position": "D",
+            "aav": 8.5,
+            "contractNote": "$8.5M AAV, seven seasons remaining per CapWages; acquired from Calgary; NTC to June 2031"
+          },
+          {
+            "player": "Shea Theodore",
+            "position": "D",
+            "aav": 7.425,
+            "contractNote": "7yr/$52M (2024), through 2031-32"
+          },
+          {
+            "player": "Tomas Hertl",
+            "position": "C",
+            "aav": 6.75,
+            "contractNote": "8yr/$65.875M (2022), through 2029-30; San Jose retains $1.39M"
+          }
+        ],
+        "fact": "CapWages 2026-27: Eichel $13.5M, Marner $12M, Pietrangelo $8.8M (LTIR), Andersson $8.5M, Theodore $7.425M, Hertl $6.75M, Hill $6.25M, Karlsson $5.9M (final season)",
+        "source": "https://capwages.com/teams/vegas_golden_knights"
+      },
+      {
+        "field": "media.localTVDeal",
+        "old": "Vegas 34 (KLAS, CBS affiliate); historically on AT&T SportsNet Rocky Mountain; transitioning post-RSN collapse to direct deals and streaming",
+        "new": "KMCC (Vegas 34), a Scripps Sports station, is the flagship of the team-produced Golden Knights television network under a multi-year deal that began in 2023-24",
+        "fact": "Wikipedia: KMCC (Scripps Sports division) multi-year deal from 2023-24 as flagship of the Golden Knights' network",
+        "source": "https://en.wikipedia.org/wiki/Vegas_Golden_Knights"
+      }
+    ],
+    "verifiedUnchanged": [
+      "ownership.primaryOwner (Bill Foley / Black Knight Sports and Entertainment; Adrienne Maloof minority after the January 2024 Maloof family sale)",
+      "arena.name (T-Mobile Arena)",
+      "onField.playoffAppearancesLast5Years (4: 2023-2026; lost the 2025 second round to Edmonton 1-4 and the 2026 Stanley Cup Final to Carolina 2-4)",
+      "onField.championshipsLast10Years (1: 2023)"
+    ],
+    "unverified": [
+      "Rasmus Andersson acquisition date and contract total (CapWages only)",
+      "arena.newArenaPlans: no 2026 source found on a T-Mobile Arena renovation or NBA-related upgrade"
+    ],
+    "analystNotes": "Forbes valued the Golden Knights at $1.85B in December 2024 on $231M of revenue and $59M of operating income, and Foley has since bought the two most expensive pieces on the market: Mitch Marner by sign-and-trade from Toronto at $12M a year (June 30, 2025) and an eight-year, $108M extension for Eichel (October 8, 2025) that starts in 2026-27. The result was a fourth straight playoff year and a run to the 2026 Stanley Cup Final, lost to Carolina in six, with Marner posting 29 playoff points and the fastest hat trick in Final history. The Strip location and a Scripps over-the-air network keep the revenue base insulated; the number now rides on converting a $13.5M-plus-$12M core into a second Cup before Pietrangelo's LTIR year and Karlsson's final season come off the books.",
+    "analystNotesBasis": "Forbes Dec 2024 ($1.85B, $231M revenue, $59M operating income); Marner and Eichel deals from Wikipedia; 2026 Final from the playoff page; contracts from CapWages."
+  }
+]
