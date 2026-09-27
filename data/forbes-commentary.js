@@ -60,8 +60,12 @@ export const commentary = {
     market: {
       takeaway: (c) =>
         `Forbes' ${c.fmtB(c.r.value)} Market figure is the largest in the NBA even though the Lakers share Los Angeles with the Clippers and six other major teams, which splits the metro. ` +
-        `Forbes is already splitting it: the Clippers get $2.52B from the same city. The Lakers get the bigger piece because they capture more of it, ${c.fmtB(c.fb.revenue)} in revenue against the Clippers' $569M, plus the largest local TV deal in the league. ` +
+        `Forbes is already splitting it: the Clippers get $2.52B from the same city. The Lakers get the bigger piece because they capture more of it, ${c.fmtB(c.fb.revenue)} in revenue against the Clippers' $569M, plus a 20-year local TV deal with Spectrum SportsNet worth roughly $3B over its life. ` +
         `Forbes credits ${Math.round(c.r.share * 100)}% of the franchise to Market against a norm of ${Math.round(c.st.medianShare * 100)}%. The shared metro is real; so is the gap in who monetizes it.`,
+      sources: [
+        'https://www.silverscreenandroll.com/2025/6/19/24452396/lakers-sale-jeanie-buss-family-siblings-mark-walter-tv-deal-spectrum-sportsnet-wealth',
+        'https://en.wikipedia.org/wiki/Spectrum_SportsNet',
+      ],
     },
   },
   'los-angeles-dodgers': {
@@ -106,7 +110,12 @@ export const commentary = {
       takeaway: (c) =>
         `Forbes gives the Mets ${c.fmtB(c.r.value)} of Market from the same ${c.fmtNum(c.p.pop)}-person metro that gives the Yankees $4.52B. ` +
         `The Mets earn ${Math.round((c.fb.revenue / 0.71) * 100)} cents for every Yankees revenue dollar (${c.fmtB(c.fb.revenue)} against $710M) and get ${Math.round((c.r.value / 4.518) * 100)} cents of Market for every Yankees Market dollar. ` +
-        `Citi Field is team-controlled, SNY is a Mets-family network, and Steve Cohen runs the biggest payroll in baseball. The revenue gap is real; the Market gap is three times as wide, and that part is Forbes pricing a century of second place, not Queens.`,
+        `Citi Field is team-controlled and Steve Cohen runs the biggest payroll in baseball. One thing the Mets do not have is the network: SNY's majority owner is Sterling Equities, the Wilpon family's company, with Charter and Comcast holding the rest, so the local TV asset Forbes credits to the Yankees through YES has no counterpart in Mets ownership. ` +
+        `The revenue gap is real; the Market gap is three times as wide, and the part beyond the network is Forbes pricing a century of second place, not Queens.`,
+      sources: [
+        'https://en.wikipedia.org/wiki/SNY',
+        'https://www.sterlingequities.com/sports-and-media',
+      ],
     },
   },
   'brooklyn-nets': {
@@ -132,7 +141,7 @@ export const calloutOverrides = {
     return (
       `Forbes gives the Knicks ${fmtB(k.fb.market)} of Market and the Nets ${fmtB(n.fb.market)}, a ${fmtB(gap)} gap on a single input that is supposed to measure the city, and both teams play in the same ${fmtNum(k.p.pop)}-person metro. ` +
       `The Nets earn ${revRatio} cents for every Knicks revenue dollar (${fmtB(n.fb.revenue)} against ${fmtB(k.fb.revenue)}) but get ${mktRatio} cents of Market for every Knicks Market dollar. ` +
-      `Forbes is right that the Knicks capture more of New York: MSG Network, the Garden, and sixty years of being the city's team are real. It is wrong to book that as Market. ` +
+      `Forbes is right that the Knicks capture more of New York: MSG Network, the Garden, and the revenue gap are real. It is wrong to book that as Market. ` +
       `If the Nets' Market tracked their revenue, it would sit near ${fmtB(k.fb.market * (n.fb.revenue / k.fb.revenue))}; the rest of the gap belongs under Brand, where Forbes already gives the Knicks ${fmtB(k.fb.brand)} to the Nets' ${fmtB(n.fb.brand)}.`
     )
   },

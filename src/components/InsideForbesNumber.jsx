@@ -73,6 +73,25 @@ function SectionHeader({ children }) {
   )
 }
 
+function hostOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
+}
+
+export function SourceLinks({ sources }) {
+  if (!sources?.length) return null
+  return (
+    <p className="font-mono text-[10px] text-slate mt-1">
+      Sources:{' '}
+      {sources.map((u, i) => (
+        <span key={u}>
+          {i > 0 && ' · '}
+          <a href={u} target="_blank" rel="noopener noreferrer" className="text-accent-dark hover:text-accent underline underline-offset-2">{hostOf(u)}</a>
+        </span>
+      ))}
+    </p>
+  )
+}
+
 function Commentary({ text }) {
   if (!text) return null
   return (
@@ -83,6 +102,7 @@ function Commentary({ text }) {
           {body}
         </p>
       ))}
+      <SourceLinks sources={text.sources} />
     </div>
   )
 }
@@ -168,7 +188,7 @@ export default function InsideForbesNumber({ team }) {
       ))}
       {NET_SHARING_LEAGUES.has(team.league) && (
         <p className="font-mono text-[10px] text-ash tracking-wider uppercase mt-4">
-          Sport in the {team.league} is read as a net revenue-sharing position, not a flat share.
+          Sport in {team.league === 'MLB' ? 'MLB' : `the ${team.league}`} is read as a net revenue-sharing position, not a flat share.
         </p>
       )}
     </section>

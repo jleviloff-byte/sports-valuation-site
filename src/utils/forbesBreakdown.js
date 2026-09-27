@@ -271,6 +271,7 @@ export function componentCommentary(team, key) {
     why: resolve(o.why, whyText(c, key)),
     peers: resolve(o.peers, peersText(c, key)),
     takeaway: resolve(o.takeaway, takeawayText(c, key)),
+    sources: o.sources || [],
   }
 }
 
