@@ -200,6 +200,16 @@ export const breakdownByLeague = Object.fromEntries(
   ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL'].map((L) => [L, buildLeague(L)]).filter(([, v]) => v)
 )
 
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// "Dec 2024" style date of the Forbes list a league's breakdown comes from.
+export function leagueAsOf(league) {
+  const t = allTeams.find((x) => x.league === league && x.forbesBreakdown?.componentsPublished)
+  const fb = t?.forbesBreakdown
+  if (!fb) return null
+  return fb.month ? `${MONTHS[fb.month - 1]} ${fb.year}` : String(fb.year)
+}
+
 export function teamBreakdown(team) {
   const lg = breakdownByLeague[team.league]
   if (!lg || !lg.results[team.id]) return null

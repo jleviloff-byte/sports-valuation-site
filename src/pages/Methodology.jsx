@@ -67,7 +67,8 @@ function ForbesBreakdownSection() {
       <SectionHead id="forbes-breakdown">Reading the Forbes Breakdown</SectionHead>
       <p>
         Forbes doesn't just print a total. For the NFL, NBA, MLB, and NHL it splits every team into
-        four pieces. Sport is the value of the league's shared revenue, the national TV and licensing
+        four pieces. The NHL split here is as of Dec 2024, the latest one Forbes has published, and
+        Forbes publishes no split for MLS or the Premier League. Sport is the value of the league's shared revenue, the national TV and licensing
         money every club collects in equal measure. Market is what the city is worth: population,
         TV households, and corporate wallets. Stadium is the value the building adds, from suites to
         naming rights to the concerts on off nights. Brand is whatever is left that a fan base pays

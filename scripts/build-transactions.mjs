@@ -55,8 +55,12 @@ for (const [L, l] of Object.entries(LEAGUES)) {
 // Optional: Forbes export parsed by scripts/import-forbes.mjs overrides site history.
 let forbesExport = {}
 try { forbesExport = readJson('forbes-values.json') } catch {}
+// Export rows win for any year they cover; site history fills earlier years.
 for (const [id, rows] of Object.entries(forbesExport)) {
-  if (teams[id]) teams[id].forbes = rows.map((r) => ({ ...r, source: 'Forbes list export' }))
+  if (!teams[id]) continue
+  const byYear = new Map(teams[id].forbes.map((h) => [h.year, h]))
+  for (const r of rows) byYear.set(r.year, { ...r, source: 'Forbes list export' })
+  teams[id].forbes = [...byYear.values()].sort((a, b) => a.year - b.year)
 }
 
 function forbesAt(teamId, isoDate) {

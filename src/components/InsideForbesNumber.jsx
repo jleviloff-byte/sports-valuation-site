@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getTeamImages } from '../../data/images.js'
 import {
-  COMPONENTS, VERDICT, leagueStatus, teamBreakdown,
+  COMPONENTS, VERDICT, leagueStatus, teamBreakdown, leagueAsOf,
   componentExplanation, verdictReason, sameMarketCallouts,
 } from '../utils/forbesBreakdown.js'
 
@@ -108,15 +108,22 @@ export default function InsideForbesNumber({ team }) {
   const { league, result, fb } = tb
   const logo = getTeamImages(team.name)?.logoUrl
   const callouts = sameMarketCallouts(team)
+  const asOf = leagueAsOf(team.league)
+  const olderThanHeadline = fb.year < (team.valuationYear ?? fb.year)
 
   return (
     <section>
-      <SectionHeader>Inside the Forbes Number · {fb.year}</SectionHeader>
+      <SectionHeader>Inside the Forbes Number · as of {asOf}</SectionHeader>
       <p className="text-sm text-graphite leading-relaxed mb-5">
-        Forbes splits the {fmtB(fb.total)} into four pieces. Here is where each one sits in
-        the {team.league}, and whether the fundamentals back it up.{' '}
+        Forbes splits the {fmtB(fb.total)} {asOf} valuation into four pieces. Here is where each
+        one sits in the {team.league}, and whether the fundamentals back it up.{' '}
         <Link to="/forbes-breakdown" className="font-semibold text-accent hover:text-accent-dark">League view →</Link>
       </p>
+      {olderThanHeadline && (
+        <p className="font-mono text-[10px] text-accent-dark tracking-wider uppercase -mt-3 mb-5">
+          Latest Forbes component split for the {team.league} is {asOf}; the headline uses a later figure.
+        </p>
+      )}
       <div className="space-y-6">
         {COMPONENTS.map(({ key, label }) => {
           const r = result[key]

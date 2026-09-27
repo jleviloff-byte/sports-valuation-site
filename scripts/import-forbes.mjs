@@ -38,6 +38,7 @@ const ALIASES = {
   'los-angeles-galaxy': 'la-galaxy',
   'lafc': 'los-angeles-fc',
   'tottenham': 'tottenham-hotspur',
+  'fulham-fc': 'fulham',
   'wolverhampton': 'wolverhampton-wanderers',
   'wolves': 'wolverhampton-wanderers',
   'bournemouth': 'afc-bournemouth',
@@ -59,14 +60,14 @@ for (const [L, l] of Object.entries({ NFL: 'nfl', NBA: 'nba', MLB: 'mlb', NHL: '
   for (const name of Object.keys(Object.values(mod)[0])) siteIds[slug(name)] = L
 }
 
-const toB = (v) => (v == null ? null : v > 200 ? v / 1000 : v) // Forbes lists report $M
+const toB = (v) => (v == null ? null : v / 1000) // Forbes list JSON reports every value in $M
 
 const breakdown = {}
 const values = {}
 const unmatched = []
 const report = { files: [], sumFlags: [], noComponents: {} }
 
-const files = fs.existsSync(RAW_DIR) ? fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json')) : []
+const files = fs.existsSync(RAW_DIR) ? fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json') && f !== 'empty-leagues.json') : []
 for (const f of files) {
   const j = JSON.parse(fs.readFileSync(path.join(RAW_DIR, f), 'utf8'))
   const rows = j.organizationList?.organizationsLists ?? []
@@ -122,10 +123,17 @@ for (const [id, b] of Object.entries(breakdown)) out[id] = b.sport == null ? { .
 
 // Per league: 'loaded' (components present), 'no-components' (list saved, Forbes
 // publishes no split), or 'not-loaded' (no export saved yet).
+// research/forbes-raw/empty-leagues.json records leagues whose Forbes list came back
+// empty for every year when saved by hand; those are treated as "no components".
+let emptyLeagues = {}
+try { emptyLeagues = JSON.parse(fs.readFileSync(path.join(RAW_DIR, 'empty-leagues.json'), 'utf8')) } catch {}
+
 const leagueStatus = {}
 for (const L of ['NFL', 'NBA', 'MLB', 'NHL', 'MLS', 'EPL']) {
   const ids = Object.entries(out).filter(([id]) => siteIds[id] === L).map(([, b]) => b)
-  leagueStatus[L] = !ids.length ? 'not-loaded' : ids.some((b) => b.componentsPublished) ? 'loaded' : 'no-components'
+  leagueStatus[L] = ids.some((b) => b.componentsPublished) ? 'loaded'
+    : ids.length || emptyLeagues[L] ? 'no-components' : 'not-loaded'
+  if (emptyLeagues[L]) for (const id of Object.keys(out)) if (siteIds[id] === L) delete out[id]
 }
 
 fs.writeFileSync(

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  COMPONENTS, VERDICT, leagueStatus, breakdownByLeague, residualTable,
+  COMPONENTS, VERDICT, leagueStatus, breakdownByLeague, residualTable, leagueAsOf,
 } from '../utils/forbesBreakdown.js'
 import { VerdictLabel } from '../components/InsideForbesNumber.jsx'
 
@@ -128,6 +128,9 @@ export default function ForbesBreakdown() {
 
         {lg && (
           <>
+            <p className="font-mono text-[11px] tracking-widest uppercase text-ink mb-4">
+              {league} breakdown as of {leagueAsOf(league)}
+            </p>
             <div className="flex flex-wrap gap-4 mb-8 font-mono text-[10px] tracking-wider uppercase text-slate">
               {Object.entries(VERDICT_BAR).map(([k, c]) => (
                 <span key={k} className="flex items-center gap-1.5">

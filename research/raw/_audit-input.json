@@ -18,10 +18,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 3550000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Soccer May 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.8952,
+      "forbesValueAtSale": 4200000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.6019,
       "drivers": [
         {
           "id": "controlVsLP",
@@ -35,9 +35,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1406,
-        "leagueTrailingDecade": 0.1001,
-        "text": "Paying $6.73B means the franchise has to be worth $13.23B in 10 years to return 7% a year. Measured from the $3.55B Forbes mark, that requires 14.1% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run falls 4.1 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.1216,
+        "leagueTrailingDecade": 0.1065,
+        "text": "Paying $6.73B means the franchise has to be worth $13.23B in 10 years to return 7% a year. Measured from the $4.20B Forbes mark, that requires 12.2% annual appreciation. EPL franchises compounded at 10.6% a year over the last decade of Forbes lists. The league's run falls 1.5 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.chelseafc.com/en/news/article/chelsea-fc-announces-ownership-transition",
@@ -66,10 +66,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 2650000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.5094,
+      "forbesValueAtSale": 2800000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.4286,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -88,9 +88,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.115,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $2.65B Forbes mark, that requires 11.5% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 4.1 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.1089,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $2.80B Forbes mark, that requires 10.9% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 3.2 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.mlb.com/news/stan-kroenke-purchases-angels-from-arte-moreno",
@@ -121,10 +121,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 4000000000,
+      "forbesValueAtSale": 3600000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Oct 2025",
-      "premiumToForbes": 0.125,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.25,
       "drivers": [
         {
           "id": "buyerProfile",
@@ -148,9 +148,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0827,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $4.00B Forbes mark, that requires 8.3% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.0 points a year."
+        "requiredAnnualAppreciation": 0.0941,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $3.60B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.4 points a year."
       },
       "sources": [
         "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx",
@@ -182,10 +182,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 5500000000,
+      "forbesValueAtSale": 6350000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.9273,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.6693,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -209,9 +209,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1426,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $10.60B means the franchise has to be worth $20.85B in 10 years to return 7% a year. Measured from the $5.50B Forbes mark, that requires 14.3% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run falls 1.2 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.1263,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $10.60B means the franchise has to be worth $20.85B in 10 years to return 7% a year. Measured from the $6.35B Forbes mark, that requires 12.6% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 2.2 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2026/08/20/arctos-agrees-to-buy-10percent-of-atlanta-falcons-at-10point6-billion-valuation-sources.html",
@@ -241,10 +241,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 5400000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Soccer May 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.3787,
+      "forbesValueAtSale": 6200000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.2008,
       "drivers": [
         {
           "id": "buyerProfile",
@@ -258,9 +258,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1049,
-        "leagueTrailingDecade": 0.1001,
-        "text": "Paying $7.45B means the franchise has to be worth $14.65B in 10 years to return 7% a year. Measured from the $5.40B Forbes mark, that requires 10.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run falls 0.5 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0898,
+        "leagueTrailingDecade": 0.1065,
+        "text": "Paying $7.45B means the franchise has to be worth $14.65B in 10 years to return 7% a year. Measured from the $6.20B Forbes mark, that requires 9.0% annual appreciation. EPL franchises compounded at 10.6% a year over the last decade of Forbes lists. The league's run clears that bar by 1.7 points a year."
       },
       "sources": [
         "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc",
@@ -291,7 +291,7 @@
       "revenueYear": 2026,
       "forbesValueAtSale": 10000000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Oct 2025",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 0.25,
       "drivers": [
         {
@@ -312,8 +312,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0941,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $10.00B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.9 points a year."
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $10.00B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.4 points a year."
       },
       "sources": [
         "https://www.espn.com/nba/story/_/id/49590362/josh-kushner-bob-iger-buy-lakers-12b",
@@ -345,10 +345,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 8200000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.2195,
+      "forbesValueAtSale": 8500000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.1765,
       "drivers": [
         {
           "id": "buyerProfile",
@@ -362,9 +362,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0914,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $8.20B Forbes mark, that requires 9.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 1.8 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0875,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $8.50B Forbes mark, that requires 8.8% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 1.1 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://ir.apollo.com/news-events/press-releases/detail/641/yankee-global-enterprises-welcomes-apollo-sports-capital-as",
@@ -395,10 +395,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 1300000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 1.9231,
+      "forbesValueAtSale": 2000000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.9,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -417,9 +417,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1912,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $3.80B means the franchise has to be worth $7.48B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 19.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 11.7 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.1409,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $3.80B means the franchise has to be worth $7.48B in 10 years to return 7% a year. Measured from the $2.00B Forbes mark, that requires 14.1% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 6.4 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.espn.com/mlb/story/_/id/49435620/cuban-investment-group-purchases-minority-stake-athletics",
@@ -449,10 +449,10 @@
       "impliedRevenueMultiple": 13.6,
       "revenueAtDeal": 707000000,
       "revenueYear": 2025,
-      "forbesValueAtSale": 6450000000,
+      "forbesValueAtSale": 6700000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.4902,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.4346,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -476,9 +476,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1135,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $9.61B means the franchise has to be worth $18.91B in 10 years to return 7% a year. Measured from the $6.45B Forbes mark, that requires 11.4% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 1.7 points a year."
+        "requiredAnnualAppreciation": 0.1093,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $9.61B means the franchise has to be worth $18.91B in 10 years to return 7% a year. Measured from the $6.70B Forbes mark, that requires 10.9% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 3.9 points a year."
       },
       "sources": [
         "https://www.espn.com/nfl/story/_/id/49733969/nfl-owners-approve-seahawks-sale-khosla-group",
@@ -532,8 +532,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1893,
-        "leagueTrailingDecade": 0.1328,
-        "text": "Paying $12.23B means the franchise has to be worth $24.06B in 10 years to return 7% a year. Measured from the $4.25B Forbes mark, that requires 18.9% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 5.7 points a year short, so the buyer is betting the next decade beats the last one."
+        "leagueTrailingDecade": 0.1339,
+        "text": "Paying $12.23B means the franchise has to be worth $24.06B in 10 years to return 7% a year. Measured from the $4.25B Forbes mark, that requires 18.9% annual appreciation. NHL franchises compounded at 13.4% a year over the last decade of Forbes lists. The league's run falls 5.5 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://about.rogers.com/news-ideas/rogers-to-become-100-owner-of-maple-leaf-sports-entertainment/",
@@ -561,10 +561,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 1300000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.1923,
+      "forbesValueAtSale": 1500000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.0333,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -573,9 +573,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.089,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $1.55B means the franchise has to be worth $3.05B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 8.9% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 1.5 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0735,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $1.55B means the franchise has to be worth $3.05B in 10 years to return 7% a year. Measured from the $1.50B Forbes mark, that requires 7.4% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run clears that bar by 0.4 points a year."
       },
       "sources": [
         "https://www.sportico.com/business/team-sales/2026/miami-marlins-ownership-stake-value-1234901684/",
@@ -647,10 +647,10 @@
       "impliedRevenueMultiple": 13.4,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 5600000000,
+      "forbesValueAtSale": 6400000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.6071,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.4063,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -674,9 +674,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.122,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $5.60B Forbes mark, that requires 12.2% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 0.9 points a year."
+        "requiredAnnualAppreciation": 0.1071,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $6.40B Forbes mark, that requires 10.7% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 4.1 points a year."
       },
       "sources": [
         "https://www.bloomberg.com/news/articles/2026-05-19/cleveland-browns-said-to-sell-stake-to-private-equity-at-9-billion-valuation",
@@ -706,10 +706,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 7800000000,
+      "forbesValueAtSale": 7700000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.2692,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.2857,
       "drivers": [
         {
           "id": "controlVsLP",
@@ -723,9 +723,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0958,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $9.90B means the franchise has to be worth $19.47B in 10 years to return 7% a year. Measured from the $7.80B Forbes mark, that requires 9.6% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.5 points a year."
+        "requiredAnnualAppreciation": 0.0972,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $9.90B means the franchise has to be worth $19.47B in 10 years to return 7% a year. Measured from the $7.70B Forbes mark, that requires 9.7% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 5.1 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2026/05/14/group-led-by-egon-durban-to-buy-25percent-of-las-vegas-raiders-at-9point9-billion-valuation-sources.html",
@@ -756,10 +756,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 2050000000,
-      "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025 (latest list in site data; newer list not yet loaded)",
-      "premiumToForbes": 0.9024,
+      "forbesValueAtSale": 3100000000,
+      "forbesListYear": 2026,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.2581,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -778,9 +778,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1411,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $3.90B means the franchise has to be worth $7.67B in 10 years to return 7% a year. Measured from the $2.05B Forbes mark, that requires 14.1% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 6.7 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0949,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $3.90B means the franchise has to be worth $7.67B in 10 years to return 7% a year. Measured from the $3.10B Forbes mark, that requires 9.5% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 1.8 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.espn.com/mlb/story/_/id/48659063/padres-reach-agreement-sell-group-led-kwanza-jones-jose-e-feliciano",
@@ -812,10 +812,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 7800000000,
+      "forbesValueAtSale": 7700000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.4231,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.4416,
       "drivers": [
         {
           "id": "controlVsLP",
@@ -829,9 +829,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1084,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $11.10B means the franchise has to be worth $21.84B in 10 years to return 7% a year. Measured from the $7.80B Forbes mark, that requires 10.8% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 2.2 points a year."
+        "requiredAnnualAppreciation": 0.1099,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $11.10B means the franchise has to be worth $21.84B in 10 years to return 7% a year. Measured from the $7.70B Forbes mark, that requires 11.0% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 3.9 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2026/03/31/nfl-approves-sale-of-3point5percent-of-las-vegas-raiders-at-over-11-billion-valuation.html",
@@ -878,8 +878,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1494,
-        "leagueTrailingDecade": 0.1328,
-        "text": "Paying $2.66B means the franchise has to be worth $5.23B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 14.9% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 1.7 points a year short, so the buyer is betting the next decade beats the last one."
+        "leagueTrailingDecade": 0.1339,
+        "text": "Paying $2.66B means the franchise has to be worth $5.23B in 10 years to return 7% a year. Measured from the $1.30B Forbes mark, that requires 14.9% annual appreciation. NHL franchises compounded at 13.4% a year over the last decade of Forbes lists. The league's run falls 1.6 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.sportico.com/business/team-sales/2026/carolina-hurricanes-sale-owners-tom-dundon-1234886395/",
@@ -911,10 +911,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 8100000000,
+      "forbesValueAtSale": 7500000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.5432,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.6667,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -938,9 +938,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1174,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $8.10B Forbes mark, that requires 11.7% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 1.3 points a year."
+        "requiredAnnualAppreciation": 0.1261,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $12.50B means the franchise has to be worth $24.59B in 10 years to return 7% a year. Measured from the $7.50B Forbes mark, that requires 12.6% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 2.2 points a year."
       },
       "sources": [
         "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-bin-lin",
@@ -1021,7 +1021,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 1750000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes 2025; sold to Hoffmann Family Dec 2025 at $1.7B enterprise value",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": -0.0286,
       "drivers": [
         {
@@ -1042,8 +1042,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0669,
-        "leagueTrailingDecade": 0.1328,
-        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.75B Forbes mark, that requires 6.7% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.6 points a year."
+        "leagueTrailingDecade": 0.1339,
+        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.75B Forbes mark, that requires 6.7% annual appreciation. NHL franchises compounded at 13.4% a year over the last decade of Forbes lists. The league's run clears that bar by 6.7 points a year."
       },
       "sources": [
         "https://www.sportspro.com/news/finance-investment/pittsburgh-penguins-sale-hoffmann-family-fsg-nhl-ownership-december-2025/",
@@ -1072,10 +1072,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 1550000000,
+      "forbesValueAtSale": 1500000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025",
-      "premiumToForbes": 0.129,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.1667,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -1094,9 +1094,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0831,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $1.75B means the franchise has to be worth $3.44B in 10 years to return 7% a year. Measured from the $1.55B Forbes mark, that requires 8.3% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 0.9 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0866,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $1.75B means the franchise has to be worth $3.44B in 10 years to return 7% a year. Measured from the $1.50B Forbes mark, that requires 8.7% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 1.0 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://sports.yahoo.com/articles/twins-finally-reveal-limited-partners-163622135.html",
@@ -1126,10 +1126,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 8000000000,
+      "forbesValueAtSale": 9000000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.125,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0,
       "drivers": [
         {
           "id": "controlVsLP",
@@ -1143,9 +1143,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0827,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $8.00B Forbes mark, that requires 8.3% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 4.8 points a year."
+        "requiredAnnualAppreciation": 0.07,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $9.00B means the franchise has to be worth $17.70B in 10 years to return 7% a year. Measured from the $9.00B Forbes mark, that requires 7.0% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.8 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2025/09/25/robert-kraft-agrees-to-sell-new-england-patriots-minority-stake-in-deal-that-values-team-at-9b.html",
@@ -1175,10 +1175,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 8500000000,
+      "forbesValueAtSale": 8600000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.0118,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0,
       "drivers": [
         {
           "id": "controlVsLP",
@@ -1192,9 +1192,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0713,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $8.50B Forbes mark, that requires 7.1% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 6.0 points a year."
+        "requiredAnnualAppreciation": 0.07,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $8.60B Forbes mark, that requires 7.0% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.8 points a year."
       },
       "sources": [
         "https://www.sfchronicle.com/sports/49ers/article/49ers-agree-sell-minority-stake-bay-area-s-pete-21065577.php",
@@ -1224,10 +1224,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 3600000000,
+      "forbesValueAtSale": 3500000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.1111,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.1429,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -1246,9 +1246,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0813,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $3.60B Forbes mark, that requires 8.1% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.1 points a year."
+        "requiredAnnualAppreciation": 0.0844,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $4.00B means the franchise has to be worth $7.87B in 10 years to return 7% a year. Measured from the $3.50B Forbes mark, that requires 8.4% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 8.3 points a year."
       },
       "sources": [
         "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
@@ -1280,10 +1280,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 3600000000,
+      "forbesValueAtSale": 3500000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.25,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.2857,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -1297,9 +1297,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0941,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $3.60B Forbes mark, that requires 9.4% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 6.9 points a year."
+        "requiredAnnualAppreciation": 0.0972,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $4.50B means the franchise has to be worth $8.85B in 10 years to return 7% a year. Measured from the $3.50B Forbes mark, that requires 9.7% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.1 points a year."
       },
       "sources": [
         "https://pr.nba.com/trail-blazers-sale-tom-dundon/",
@@ -1331,10 +1331,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 8000000000,
+      "forbesValueAtSale": 10100000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Aug 2025",
-      "premiumToForbes": 0.2875,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.0198,
       "drivers": [
         {
           "id": "scarcityAndTiming",
@@ -1353,9 +1353,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0974,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $10.30B means the franchise has to be worth $20.26B in 10 years to return 7% a year. Measured from the $8.00B Forbes mark, that requires 9.7% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.3 points a year."
+        "requiredAnnualAppreciation": 0.0721,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $10.30B means the franchise has to be worth $20.26B in 10 years to return 7% a year. Measured from the $10.10B Forbes mark, that requires 7.2% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.6 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2025/10/22/nfl-sale-minority-stake-giants-koch.html",
@@ -1387,7 +1387,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 6400000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 0.3906,
       "drivers": [
         {
@@ -1403,8 +1403,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1059,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $8.90B means the franchise has to be worth $17.51B in 10 years to return 7% a year. Measured from the $6.40B Forbes mark, that requires 10.6% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 2.5 points a year."
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $8.90B means the franchise has to be worth $17.51B in 10 years to return 7% a year. Measured from the $6.40B Forbes mark, that requires 10.6% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 4.3 points a year."
       },
       "sources": [
         "https://www.cnbc.com/2025/09/24/nfl-approves-sale-of-stake-in-chicago-bears-at-8point9-billion-valuation-sources.html",
@@ -1585,8 +1585,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0448,
-        "leagueTrailingDecade": 0.1001,
-        "text": "Paying $591M means the franchise has to be worth $1.16B in 10 years to return 7% a year. Measured from the $750M Forbes mark, that requires 4.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run clears that bar by 5.5 points a year."
+        "leagueTrailingDecade": 0.1065,
+        "text": "Paying $591M means the franchise has to be worth $1.16B in 10 years to return 7% a year. Measured from the $750M Forbes mark, that requires 4.5% annual appreciation. EPL franchises compounded at 10.6% a year over the last decade of Forbes lists. The league's run clears that bar by 6.2 points a year."
       },
       "sources": [
         "https://www.espn.com/soccer/story/_/id/45567347/ny-jets-owner-woody-johnson-agrees-buy-crystal-palace-stake",
@@ -1618,7 +1618,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 1250000000,
       "forbesListYear": 2025,
-      "forbesSource": "Forbes Mar 2025",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 0.36,
       "drivers": [
         {
@@ -1634,8 +1634,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1034,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.25B Forbes mark, that requires 10.3% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 3.0 points a year short, so the buyer is betting the next decade beats the last one."
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $1.70B means the franchise has to be worth $3.34B in 10 years to return 7% a year. Measured from the $1.25B Forbes mark, that requires 10.3% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run falls 2.6 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.wusf.org/sports/2025-09-30/zalupski-officially-takes-over-tampa-bay-rays",
@@ -1665,10 +1665,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 7090000000,
+      "forbesValueAtSale": 7100000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.4104,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.4085,
       "drivers": [
         {
           "id": "portfolioSynergy",
@@ -1692,9 +1692,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.1074,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $7.09B Forbes mark, that requires 10.7% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 5.5 points a year."
+        "requiredAnnualAppreciation": 0.1073,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $10.00B means the franchise has to be worth $19.67B in 10 years to return 7% a year. Measured from the $7.10B Forbes mark, that requires 10.7% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 6.1 points a year."
       },
       "sources": [
         "https://www.espn.com/nba/story/_/id/45539931/buss-family-agrees-sell-lakers-mark-walter-sources-say",
@@ -1724,10 +1724,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 6860000000,
+      "forbesValueAtSale": 6800000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.2536,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.2647,
       "drivers": [
         {
           "id": "multipleExpansion",
@@ -1746,9 +1746,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0945,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $6.86B Forbes mark, that requires 9.4% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 3.6 points a year."
+        "requiredAnnualAppreciation": 0.0954,
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $8.60B means the franchise has to be worth $16.92B in 10 years to return 7% a year. Measured from the $6.80B Forbes mark, that requires 9.5% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 5.3 points a year."
       },
       "sources": [
         "https://www.sportico.com/business/team-sales/2025/49ers-stake-sale-record-billion-khosla-griffith-deeter-1234852610/",
@@ -1779,9 +1779,9 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 5830000000,
+      "forbesValueAtSale": 5100000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes (CNBC)",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": null,
       "drivers": [
         {
@@ -1868,10 +1868,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 6100000000,
+      "forbesValueAtSale": 6000000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes / validated by 2024 sale",
-      "premiumToForbes": 0,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.0167,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -1890,9 +1890,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.07,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $6.10B means the franchise has to be worth $12.00B in 10 years to return 7% a year. Measured from the $6.10B Forbes mark, that requires 7.0% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 9.3 points a year."
+        "requiredAnnualAppreciation": 0.0718,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $6.10B means the franchise has to be worth $12.00B in 10 years to return 7% a year. Measured from the $6.00B Forbes mark, that requires 7.2% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 9.6 points a year."
       },
       "sources": [
         "https://www.businesswire.com/news/home/20250320304302/en/Boston-Basketball-Partners-Announces-Sale-of-Boston-Celtics-to-Group-Organized-by-William-Chisholm-for-$6.1-Billion",
@@ -1925,7 +1925,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 2050000000,
       "forbesListYear": 2024,
-      "forbesSource": "Forbes",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": -0.122,
       "drivers": [
         {
@@ -1941,8 +1941,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0562,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $1.80B means the franchise has to be worth $3.54B in 10 years to return 7% a year. Measured from the $2.05B Forbes mark, that requires 5.6% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run clears that bar by 1.8 points a year."
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $1.80B means the franchise has to be worth $3.54B in 10 years to return 7% a year. Measured from the $2.05B Forbes mark, that requires 5.6% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run clears that bar by 2.1 points a year."
       },
       "sources": [
         "https://southsideshowdown.com/white-sox-ownership-transition-window-narrows-after-limited-partners-sell-their-stake-billionaire-justin-ishbia",
@@ -2023,7 +2023,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 2800000000,
       "forbesListYear": 2023,
-      "forbesSource": "Forbes",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 2.2938,
       "drivers": [
         {
@@ -2039,8 +2039,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.2055,
-        "leagueTrailingDecade": 0.1328,
-        "text": "Paying $9.22B means the franchise has to be worth $18.14B in 10 years to return 7% a year. Measured from the $2.80B Forbes mark, that requires 20.5% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 7.3 points a year short, so the buyer is betting the next decade beats the last one."
+        "leagueTrailingDecade": 0.1339,
+        "text": "Paying $9.22B means the franchise has to be worth $18.14B in 10 years to return 7% a year. Measured from the $2.80B Forbes mark, that requires 20.5% annual appreciation. NHL franchises compounded at 13.4% a year over the last decade of Forbes lists. The league's run falls 7.2 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://about.rogers.com/news-ideas/rogers-to-become-majority-owner-of-maple-leaf-sports-entertainment/",
@@ -2071,7 +2071,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 500000000,
       "forbesListYear": 2023,
-      "forbesSource": "Forbes (as Arizona Coyotes)",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 1.4,
       "drivers": [
         {
@@ -2092,8 +2092,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.1679,
-        "leagueTrailingDecade": 0.1328,
-        "text": "Paying $1.20B means the franchise has to be worth $2.36B in 10 years to return 7% a year. Measured from the $500M Forbes mark, that requires 16.8% annual appreciation. NHL franchises compounded at 13.3% a year over the last decade of Forbes lists. The league's run falls 3.5 points a year short, so the buyer is betting the next decade beats the last one."
+        "leagueTrailingDecade": 0.1339,
+        "text": "Paying $1.20B means the franchise has to be worth $2.36B in 10 years to return 7% a year. Measured from the $500M Forbes mark, that requires 16.8% annual appreciation. NHL franchises compounded at 13.4% a year over the last decade of Forbes lists. The league's run falls 3.4 points a year short, so the buyer is betting the next decade beats the last one."
       },
       "sources": [
         "https://www.nhl.com/news/nhl-bog-approves-establishment-of-new-franchise-in-utah",
@@ -2122,10 +2122,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 1600000000,
+      "forbesValueAtSale": 1713000000,
       "forbesListYear": 2023,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.0781,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.007,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -2144,9 +2144,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0781,
-        "leagueTrailingDecade": 0.0738,
-        "text": "Paying $1.73B means the franchise has to be worth $3.39B in 10 years to return 7% a year. Measured from the $1.60B Forbes mark, that requires 7.8% annual appreciation. MLB franchises compounded at 7.4% a year over the last decade of Forbes lists. The league's run falls 0.4 points a year short, so the buyer is betting the next decade beats the last one."
+        "requiredAnnualAppreciation": 0.0707,
+        "leagueTrailingDecade": 0.077,
+        "text": "Paying $1.73B means the franchise has to be worth $3.39B in 10 years to return 7% a year. Measured from the $1.71B Forbes mark, that requires 7.1% annual appreciation. MLB franchises compounded at 7.7% a year over the last decade of Forbes lists. The league's run clears that bar by 0.6 points a year."
       },
       "sources": [
         "https://www.thebanner.com/sports/orioles-mlb/baltimore-orioles-sale-john-angelos-david-rubenstein-JXHAPWXKSNFS7JR3K6KRCC4LEY/",
@@ -2176,10 +2176,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 3300000000,
+      "forbesValueAtSale": 4500000000,
       "forbesListYear": 2023,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0.0606,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": -0.2222,
       "drivers": [
         {
           "id": "realEstateOptionality",
@@ -2193,9 +2193,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.0763,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $3.50B means the franchise has to be worth $6.89B in 10 years to return 7% a year. Measured from the $3.30B Forbes mark, that requires 7.6% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 8.6 points a year."
+        "requiredAnnualAppreciation": 0.0434,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $3.50B means the franchise has to be worth $6.89B in 10 years to return 7% a year. Measured from the $4.50B Forbes mark, that requires 4.3% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 12.4 points a year."
       },
       "sources": [
         "https://www.bloomberg.com/news/articles/2023-12-27/dallas-mavericks-3-5-billion-sale-to-adelson-wins-nba-approval",
@@ -2227,7 +2227,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 6000000000,
       "forbesListYear": 2023,
-      "forbesSource": "Forbes / validated by Glazer-Ratcliffe sale process",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": -0.1333,
       "drivers": [
         {
@@ -2243,8 +2243,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0548,
-        "leagueTrailingDecade": 0.1001,
-        "text": "Paying $5.20B means the franchise has to be worth $10.23B in 10 years to return 7% a year. Measured from the $6.00B Forbes mark, that requires 5.5% annual appreciation. EPL franchises compounded at 10.0% a year over the last decade of Forbes lists. The league's run clears that bar by 4.5 points a year."
+        "leagueTrailingDecade": 0.1065,
+        "text": "Paying $5.20B means the franchise has to be worth $10.23B in 10 years to return 7% a year. Measured from the $6.00B Forbes mark, that requires 5.5% annual appreciation. EPL franchises compounded at 10.6% a year over the last decade of Forbes lists. The league's run clears that bar by 5.2 points a year."
       },
       "sources": [
         "https://www.insideworldfootball.com/2024/02/14/premier-league-approves-ratcliffe-1-02bn-stake-man-utd/",
@@ -2275,7 +2275,7 @@
       "revenueYear": null,
       "forbesValueAtSale": 5600000000,
       "forbesListYear": 2022,
-      "forbesSource": "Forbes",
+      "forbesSource": "Forbes list export",
       "premiumToForbes": 0.0804,
       "drivers": [
         {
@@ -2296,8 +2296,8 @@
       ],
       "investmentCase": {
         "requiredAnnualAppreciation": 0.0783,
-        "leagueTrailingDecade": 0.1308,
-        "text": "Paying $6.05B means the franchise has to be worth $11.90B in 10 years to return 7% a year. Measured from the $5.60B Forbes mark, that requires 7.8% annual appreciation. NFL franchises compounded at 13.1% a year over the last decade of Forbes lists. The league's run clears that bar by 5.2 points a year."
+        "leagueTrailingDecade": 0.1484,
+        "text": "Paying $6.05B means the franchise has to be worth $11.90B in 10 years to return 7% a year. Measured from the $5.60B Forbes mark, that requires 7.8% annual appreciation. NFL franchises compounded at 14.8% a year over the last decade of Forbes lists. The league's run clears that bar by 7.0 points a year."
       },
       "sources": [
         "https://www.espn.com/nfl/story/_/id/38043528/nfl-owners-approve-605b-sale-commanders-harris-group",
@@ -2326,10 +2326,10 @@
       "impliedRevenueMultiple": null,
       "revenueAtDeal": null,
       "revenueYear": null,
-      "forbesValueAtSale": 1500000000,
+      "forbesValueAtSale": 1400000000,
       "forbesListYear": 2020,
-      "forbesSource": "Forbes",
-      "premiumToForbes": 0,
+      "forbesSource": "Forbes list export",
+      "premiumToForbes": 0.0714,
       "drivers": [
         {
           "id": "forcedSeller",
@@ -2343,9 +2343,9 @@
         }
       ],
       "investmentCase": {
-        "requiredAnnualAppreciation": 0.07,
-        "leagueTrailingDecade": 0.1627,
-        "text": "Paying $1.50B means the franchise has to be worth $2.95B in 10 years to return 7% a year. Measured from the $1.50B Forbes mark, that requires 7.0% annual appreciation. NBA franchises compounded at 16.3% a year over the last decade of Forbes lists. The league's run clears that bar by 9.3 points a year."
+        "requiredAnnualAppreciation": 0.0774,
+        "leagueTrailingDecade": 0.1679,
+        "text": "Paying $1.50B means the franchise has to be worth $2.95B in 10 years to return 7% a year. Measured from the $1.40B Forbes mark, that requires 7.7% annual appreciation. NBA franchises compounded at 16.8% a year over the last decade of Forbes lists. The league's run clears that bar by 9.0 points a year."
       },
       "sources": [
         "https://pr.nba.com/nba-board-of-governors-timberwolves-lynx-sale",
@@ -2811,25 +2811,25 @@
   ],
   "leagueCagr": {
     "NFL": {
-      "rate": 0.13076841020419994,
+      "rate": 0.1484219264315525,
       "n": 32
     },
     "NBA": {
-      "rate": 0.16272399270155802,
+      "rate": 0.16786918613273882,
       "n": 30
     },
     "MLB": {
-      "rate": 0.07381694313714937,
+      "rate": 0.07701544030436325,
       "n": 30
     },
     "NHL": {
-      "rate": 0.13275559275098714,
+      "rate": 0.13389845311820947,
       "n": 30
     },
     "MLS": null,
     "EPL": {
-      "rate": 0.1000711168990549,
-      "n": 9
+      "rate": 0.10645376106020565,
+      "n": 7
     }
   }
 }

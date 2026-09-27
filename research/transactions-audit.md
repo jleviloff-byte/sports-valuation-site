@@ -1,6 +1,6 @@
 # Transactions audit
 
-Generated from `research/raw/` by `scripts/build-audit.mjs`. Data as of 2026-09-24.
+Generated from `research/raw/` by `scripts/build-audit.mjs`. Data as of 2026-09-27.
 
 Rule: a deal is **Kept** only if at least two independent sources confirm it. Rumors, marketing processes, and unsigned bids are **Rejected**. Deals confirmed to exist but missing a key figure or a second source are **Unverified**. **Not checked** lists teams the sweep could not cover individually.
 
@@ -32,52 +32,52 @@ Totals: 46 kept, 30 rejected, 23 unverified.
 
 | Date | Team | League | Type | Stake | Valuation | Forbes at sale | Premium | Status | Sources |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-09-16 | Chelsea | EPL | minority | 25.6% | $6.73B (est.) | $3.55B (2025) | +90% | closed | 3 |
-| 2026-09-01 | Los Angeles Angels | MLB | control | n/d | $4.00B (est.) | $2.65B (2025) | +51% | agreed | 5 |
-| 2026-08-21 | Minnesota Timberwolves | NBA | control | n/d | $4.50B | $4.00B (2025) | +13% | agreed | 6 |
-| 2026-08-20 | Atlanta Falcons | NFL | minority | 10% | $10.60B (est.) | $5.50B (2025) | +93% | agreed | 4 |
-| 2026-08-14 | Liverpool | EPL | minority | 30% | $7.45B (est.) | $5.40B (2025) | +38% | agreed | 3 |
+| 2026-09-16 | Chelsea | EPL | minority | 25.6% | $6.73B (est.) | $4.20B (2026) | +60% | closed | 3 |
+| 2026-09-01 | Los Angeles Angels | MLB | control | n/d | $4.00B (est.) | $2.80B (2026) | +43% | agreed | 5 |
+| 2026-08-21 | Minnesota Timberwolves | NBA | control | n/d | $4.50B | $3.60B (2025) | +25% | agreed | 6 |
+| 2026-08-20 | Atlanta Falcons | NFL | minority | 10% | $10.60B (est.) | $6.35B (2025) | +67% | agreed | 4 |
+| 2026-08-14 | Liverpool | EPL | minority | 30% | $7.45B (est.) | $6.20B (2026) | +20% | agreed | 3 |
 | 2026-08-12 | Los Angeles Lakers | NBA | control | n/d | $12.50B (est.) | $10.00B (2025) | +25% | contested | 6 |
-| 2026-08-11 | New York Yankees | MLB | minority | 8% | $10.00B (est.) | $8.20B (2025) | +22% | agreed | 5 |
-| 2026-07-23 | Oakland Athletics | MLB | minority | n/d | $3.80B (est.) | $1.30B (2025) | +192% | closed | 4 |
-| 2026-07-11 | Seattle Seahawks | NFL | control | 100% | $9.61B (est.) | $6.45B (2025) | +49% | closed | 5 |
+| 2026-08-11 | New York Yankees | MLB | minority | 8% | $10.00B (est.) | $8.50B (2026) | +18% | agreed | 5 |
+| 2026-07-23 | Oakland Athletics | MLB | minority | n/d | $3.80B (est.) | $2.00B (2026) | +90% | closed | 4 |
+| 2026-07-11 | Seattle Seahawks | NFL | control | 100% | $9.61B (est.) | $6.70B (2025) | +43% | closed | 5 |
 | 2026-07-06 | Toronto Maple Leafs | NHL | minority | 25% | $12.23B | $4.25B (2025) | +188% | agreed | 2 |
-| 2026-06-01 | Miami Marlins | MLB | minority | 15% | $1.55B (est.) | $1.30B (2025) | +19% | closed | 2 |
+| 2026-06-01 | Miami Marlins | MLB | minority | 15% | $1.55B (est.) | $1.50B (2026) | +3% | closed | 2 |
 | 2026-05-29 | Columbus Crew SC | MLS | minority | 37% | $900M | $800M (2024) | +13% | closed | 3 |
-| 2026-05-19 | Cleveland Browns | NFL | minority | 3% | $9.00B (est.) | $5.60B (2025) | +61% | approved | 4 |
-| 2026-05-14 | Las Vegas Raiders | NFL | minority | 25.3% | $9.90B (est.) | $7.80B (2025) | +27% | approved | 5 |
-| 2026-05-02 | San Diego Padres | MLB | control | 40% | $3.90B (est.) | $2.05B (2025) | +90% | closed | 6 |
-| 2026-03-31 | Las Vegas Raiders | NFL | minority | 3.5% | $11.10B (est.) | $7.80B (2025) | +42% | approved | 3 |
+| 2026-05-19 | Cleveland Browns | NFL | minority | 3% | $9.00B (est.) | $6.40B (2025) | +41% | approved | 4 |
+| 2026-05-14 | Las Vegas Raiders | NFL | minority | 25.3% | $9.90B (est.) | $7.70B (2025) | +29% | approved | 5 |
+| 2026-05-02 | San Diego Padres | MLB | control | 40% | $3.90B (est.) | $3.10B (2026) | +26% | closed | 6 |
+| 2026-03-31 | Las Vegas Raiders | NFL | minority | 3.5% | $11.10B (est.) | $7.70B (2025) | +44% | approved | 3 |
 | 2026-03-05 | Carolina Hurricanes | NHL | minority | 12.5% | $2.66B | $1.30B (2025) | +105% | approved | 6 |
-| 2026-03-03 | Miami Dolphins | NFL | minority | 1% | $12.50B | $8.10B (2025) | +54% | approved | 4 |
+| 2026-03-03 | Miami Dolphins | NFL | minority | 1% | $12.50B | $7.50B (2025) | +67% | approved | 4 |
 | 2026-01-20 | Sporting Kansas City | MLS | control | 71% | $700M | $700M (2025) | 0% | closed | 3 |
 | 2025-12-18 | Pittsburgh Penguins | NHL | control | n/d | $1.70B (est.) | $1.75B (2024) | -3% | closed | 3 |
-| 2025-12-17 | Minnesota Twins | MLB | minority | 20% | $1.75B (est.) | $1.55B (2025) | +13% | agreed | 4 |
-| 2025-09-25 | New England Patriots | NFL | minority | 8% | $9.00B (est.) | $8.00B (2025) | +13% | closed | 4 |
-| 2025-09-24 | San Francisco 49ers | NFL | minority | 3.2% | $8.60B (est.) | $8.50B (2025) | +1% | approved | 4 |
-| 2025-09-13 | Portland Trail Blazers | NBA | control (tranche 1) | 80.1% | $4.00B | $3.60B (2024) | +11% | closed | 6 |
-| 2025-09-13 | Portland Trail Blazers | NBA | control (tranche 2) | 19.9% | $4.50B | $3.60B (2024) | +25% | agreed | 6 |
-| 2025-09-03 | New York Giants | NFL | minority | 10% | $10.30B (est.) | $8.00B (2025) | +29% | approved | 4 |
+| 2025-12-17 | Minnesota Twins | MLB | minority | 20% | $1.75B (est.) | $1.50B (2025) | +17% | agreed | 4 |
+| 2025-09-25 | New England Patriots | NFL | minority | 8% | $9.00B (est.) | $9.00B (2025) | 0% | closed | 4 |
+| 2025-09-24 | San Francisco 49ers | NFL | minority | 3.2% | $8.60B (est.) | $8.60B (2025) | 0% | approved | 4 |
+| 2025-09-13 | Portland Trail Blazers | NBA | control (tranche 1) | 80.1% | $4.00B | $3.50B (2024) | +14% | closed | 6 |
+| 2025-09-13 | Portland Trail Blazers | NBA | control (tranche 2) | 19.9% | $4.50B | $3.50B (2024) | +29% | agreed | 6 |
+| 2025-09-03 | New York Giants | NFL | minority | 10% | $10.30B (est.) | $10.10B (2025) | +2% | approved | 4 |
 | 2025-08-07 | Chicago Bears | NFL | minority | 2.35% | $8.90B (est.) | $6.40B (2024) | +39% | closed | 4 |
 | 2025-07-15 | Austin FC | MLS | minority | n/d | $912M (est.) | $825M (2025) | +11% | closed | 4 |
 | 2025-07-15 | Brentford | EPL | minority | 10% | $536M (est.) | n/d | n/a | closed | 3 |
 | 2025-07-01 | Columbus Crew SC | MLS | minority | 10% | $900M | $800M (2024) | +13% | closed | 3 |
 | 2025-06-23 | Crystal Palace | EPL | minority | 43% | $591M (est.) | $750M (2025) | -21% | closed | 4 |
 | 2025-06-18 | Tampa Bay Rays | MLB | control | 90% | $1.70B (est.) | $1.25B (2025) | +36% | closed | 4 |
-| 2025-06-18 | Los Angeles Lakers | NBA | control | n/d | $10.00B | $7.09B (2024) | +41% | closed | 4 |
-| 2025-05-16 | San Francisco 49ers | NFL | minority | 6.2% | $8.60B (est.) | $6.86B (2024) | +25% | approved | 5 |
-| 2025-05-15 | Los Angeles Chargers | NFL | minority | 8% | n/d (est.) | $5.83B (2024) | n/a | approved | 4 |
+| 2025-06-18 | Los Angeles Lakers | NBA | control | n/d | $10.00B | $7.10B (2024) | +41% | closed | 4 |
+| 2025-05-16 | San Francisco 49ers | NFL | minority | 6.2% | $8.60B (est.) | $6.80B (2024) | +26% | approved | 5 |
+| 2025-05-15 | Los Angeles Chargers | NFL | minority | 8% | n/d (est.) | $5.10B (2024) | n/a | approved | 4 |
 | 2025-04-18 | Real Salt Lake | MLS | control | n/d | $600M | $660M (2025) | -9% | closed | 3 |
-| 2025-03-20 | Boston Celtics | NBA | control | 51% | $6.10B | $6.10B (2024) | 0% | closed | 5 |
+| 2025-03-20 | Boston Celtics | NBA | control | 51% | $6.10B | $6.00B (2024) | +2% | closed | 5 |
 | 2025-03-06 | Chicago White Sox | MLB | minority | n/d | $1.80B (est.) | $2.05B (2024) | -12% | agreed | 3 |
 | 2024-09-23 | Everton | EPL | control | 94.1% | n/d (est.) | $1.05B (2024) | n/a | closed | 4 |
 | 2024-09-18 | Toronto Maple Leafs | NHL | control | 37.5% | $9.22B | $2.80B (2023) | +229% | closed | 3 |
 | 2024-04-18 | Utah Hockey Club | NHL | control | 100% | $1.20B | $500M (2023) | +140% | closed | 3 |
-| 2024-01-30 | Baltimore Orioles | MLB | control | 40% | $1.73B | $1.60B (2023) | +8% | closed | 4 |
-| 2023-12-27 | Dallas Mavericks | NBA | control | 69% | $3.50B (est.) | $3.30B (2023) | +6% | closed | 4 |
+| 2024-01-30 | Baltimore Orioles | MLB | control | 40% | $1.73B | $1.71B (2023) | +1% | closed | 4 |
+| 2023-12-27 | Dallas Mavericks | NBA | control | 69% | $3.50B (est.) | $4.50B (2023) | -22% | closed | 4 |
 | 2023-12-24 | Manchester United | EPL | minority | 27.7% | $5.20B (est.) | $6.00B (2023) | -13% | closed | 3 |
 | 2023-05-12 | Washington Commanders | NFL | control | 100% | $6.05B (est.) | $5.60B (2022) | +8% | closed | 3 |
-| 2021-04-10 | Minnesota Timberwolves | NBA | control | n/d | $1.50B | $1.50B (2020) | 0% | closed | 4 |
+| 2021-04-10 | Minnesota Timberwolves | NBA | control | n/d | $1.50B | $1.40B (2020) | +7% | closed | 4 |
 
 Notes on kept deals:
 
