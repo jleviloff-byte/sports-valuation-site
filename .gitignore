@@ -38,3 +38,8 @@ Thumbs.db
 
 # Forbes list exports are saved by hand for local parsing only; never publish them.
 research/forbes-raw/
+
+# Stadium pipeline: raw Wikipedia article cache (20 MB). Reproducible from the
+# revision ids stored in research/raw/stadiums/infobox.json and per-field sources.
+research/raw/stadiums/wiki/*.json
+!research/raw/stadiums/wiki/_coordinates.json

@@ -1,0 +1,274 @@
+[
+ {
+  "venue": "Nissan Stadium",
+  "venue_wiki": "Nissan Stadium (2027)",
+  "team": "Tennessee Titans",
+  "capacity": 60000,
+  "opening": "2027",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "New Huntington Bank Field",
+  "venue_wiki": "New Huntington Bank Field",
+  "team": "Cleveland Browns",
+  "capacity": 67500,
+  "opening": "2029",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "New Stadium at RFK Campus",
+  "venue_wiki": "New Stadium at RFK Campus",
+  "team": "Washington Commanders",
+  "capacity": 65000,
+  "opening": "2030",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "Chicago Bears Stadium",
+  "venue_wiki": "Chicago Bears Stadium",
+  "team": "Chicago Bears",
+  "capacity": null,
+  "opening": "2031",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "New Broncos Stadium",
+  "venue_wiki": "New Broncos Stadium",
+  "team": "Denver Broncos",
+  "capacity": null,
+  "opening": "2031",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "New Chiefs Stadium",
+  "venue_wiki": "New Chiefs Stadium",
+  "team": "Kansas City Chiefs",
+  "capacity": 65000,
+  "opening": "2031",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_NFL_stadiums&oldid=1382562348"
+ },
+ {
+  "venue": "New Las Vegas Stadium†",
+  "venue_wiki": "New Las Vegas Stadium",
+  "team": "Las Vegas Athletics",
+  "capacity": 33000,
+  "opening": "2028",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_Major_League_Baseball_stadiums&oldid=1374728191"
+ },
+ {
+  "venue": "New Tampa Bay Rays stadium†",
+  "venue_wiki": "Proposed Tampa Bay Rays stadium",
+  "team": "Tampa Bay Rays",
+  "capacity": 31000,
+  "opening": "2029",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_Major_League_Baseball_stadiums&oldid=1374728191"
+ },
+ {
+  "venue": "New Royals Stadium",
+  "venue_wiki": "New Royals Stadium",
+  "team": "Kansas City Royals",
+  "capacity": null,
+  "opening": "2030",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_Major_League_Baseball_stadiums&oldid=1374728191"
+ },
+ {
+  "venue": "New White Sox Stadium",
+  "venue_wiki": null,
+  "team": "Chicago White Sox",
+  "capacity": null,
+  "opening": "TBD",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_current_Major_League_Baseball_stadiums&oldid=1374728191"
+ },
+ {
+  "venue": "Continental Coliseum",
+  "venue_wiki": "Continental Coliseum",
+  "team": "Oklahoma City Thunder",
+  "capacity": null,
+  "opening": "2028",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NBA_arenas&oldid=1383816605"
+ },
+ {
+  "venue": "New South Philadelphia Arena",
+  "venue_wiki": "New South Philadelphia Arena",
+  "team": "Philadelphia 76ers",
+  "capacity": null,
+  "opening": "2030",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NBA_arenas&oldid=1383816605"
+ },
+ {
+  "venue": "New Dallas Arena",
+  "venue_wiki": null,
+  "team": "Dallas Mavericks",
+  "capacity": null,
+  "opening": "2031",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NBA_arenas&oldid=1383816605"
+ },
+ {
+  "venue": "New Spurs Arena",
+  "venue_wiki": null,
+  "team": "San Antonio Spurs",
+  "capacity": null,
+  "opening": "2032",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NBA_arenas&oldid=1383816605"
+ },
+ {
+  "venue": "Scotia Place",
+  "venue_wiki": "Scotia Place",
+  "team": "Calgary Flames",
+  "capacity": 18400,
+  "opening": "2027",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_National_Hockey_League_arenas&oldid=1382289967"
+ },
+ {
+  "venue": "New Plano Arena",
+  "venue_wiki": null,
+  "team": "Dallas Stars",
+  "capacity": null,
+  "opening": "TBD",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_National_Hockey_League_arenas&oldid=1382289967"
+ },
+ {
+  "venue": "New South Philadelphia Arena",
+  "venue_wiki": "New South Philadelphia Arena",
+  "team": "Philadelphia Flyers",
+  "capacity": null,
+  "opening": "2030",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_National_Hockey_League_arenas&oldid=1382289967"
+ },
+ {
+  "venue": "New Ottawa Arena",
+  "venue_wiki": "New Ottawa Arena",
+  "team": "Ottawa Senators",
+  "capacity": null,
+  "opening": "TBD",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_National_Hockey_League_arenas&oldid=1382289967"
+ },
+ {
+  "venue": "Etihad Park",
+  "venue_wiki": "Etihad Park",
+  "team": "New York City FC",
+  "capacity": 25000,
+  "opening": "2027",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_Major_League_Soccer_stadiums&oldid=1383203573"
+ },
+ {
+  "venue": "McDonald's Park",
+  "venue_wiki": "McDonald's Park",
+  "team": "Chicago Fire FC",
+  "capacity": 22000,
+  "opening": "2028",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_Major_League_Soccer_stadiums&oldid=1383203573"
+ },
+ {
+  "venue": "Future New England Revolution Stadium",
+  "venue_wiki": "Future New England Revolution Stadium",
+  "team": "New England Revolution",
+  "capacity": 24000,
+  "opening": "TBD",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_Major_League_Soccer_stadiums&oldid=1383203573"
+ },
+ {
+  "venue": "Rocket Arena",
+  "venue_wiki": "Rocket Arena",
+  "team": "Cleveland Sirens",
+  "capacity": 19432,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=Women's_National_Basketball_Association&oldid=1384030202"
+ },
+ {
+  "venue": "Little Caesars Arena",
+  "venue_wiki": "Little Caesars Arena",
+  "team": "Detroit WNBA team",
+  "capacity": 20332,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=Women's_National_Basketball_Association&oldid=1384030202"
+ },
+ {
+  "venue": "New South Philadelphia Arena",
+  "venue_wiki": "New South Philadelphia Arena",
+  "team": "Philadelphia WNBA team",
+  "capacity": 21000,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=Women's_National_Basketball_Association&oldid=1384030202"
+ },
+ {
+  "venue": "Future South Florida on-campus stadium",
+  "venue_wiki": null,
+  "team": "South Florida",
+  "capacity": null,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FBS_football_stadiums&oldid=1380930711"
+ },
+ {
+  "venue": "New Aloha Stadium",
+  "venue_wiki": "Aloha Stadium",
+  "team": "Hawaii",
+  "capacity": null,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FBS_football_stadiums&oldid=1380930711"
+ },
+ {
+  "venue": "New Nissan Stadium",
+  "venue_wiki": "New Nissan Stadium",
+  "team": "Tennessee State Tigers",
+  "capacity": null,
+  "opening": "",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FCS_football_stadiums&oldid=1380514342"
+ },
+ {
+  "venue": "Grand Sierra Resort Arena",
+  "venue_wiki": "Grand Sierra Resort",
+  "team": "Nevada (men)",
+  "capacity": 10000,
+  "opening": "2027",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "Kalamazoo Event Center",
+  "venue_wiki": null,
+  "team": "Western Michigan",
+  "capacity": 6500,
+  "opening": "2027",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "New Miami University arena",
+  "venue_wiki": null,
+  "team": "Miami (OH)",
+  "capacity": null,
+  "opening": "2028",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "New Northeastern arena",
+  "venue_wiki": null,
+  "team": "Northeastern",
+  "capacity": 5300,
+  "opening": "2028",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "New Alabama Arena",
+  "venue_wiki": null,
+  "team": "Alabama",
+  "capacity": 10136,
+  "opening": "TBA",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "New LSU Arena",
+  "venue_wiki": null,
+  "team": "LSU",
+  "capacity": null,
+  "opening": "TBA",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ },
+ {
+  "venue": "New Marshall Arena",
+  "venue_wiki": null,
+  "team": "Marshall",
+  "capacity": 8500,
+  "opening": "TBA",
+  "source": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_basketball_arenas&oldid=1370701169"
+ }
+]

@@ -1,0 +1,530 @@
+{
+ "_readme": "Hand-checked values from official team, venue or school sites (read 2026-11-06). Keys are Wikipedia article titles. Each value carries its source URL and a short quote. 'verified' lists fields where the official site matched Wikipedia. These override Wikipedia in build-stadiums.mjs.",
+ "MetLife Stadium": {
+  "verified": {
+   "capacity": "https://www.metlifestadium.com/stadium/about-metlife-stadium",
+   "opened": "https://www.metlifestadium.com/stadium/about-metlife-stadium",
+   "cost_nominal": "https://www.metlifestadium.com/stadium/about-metlife-stadium"
+  },
+  "quote": "82,500 for football & soccer",
+  "last_verified": "2026-11-06"
+ },
+ "Empower Field at Mile High": {
+  "verified": {
+   "capacity": "https://www.empowerfieldatmilehigh.com/stadium/about-us",
+   "opened": "https://www.empowerfieldatmilehigh.com/stadium/about-us"
+  },
+  "cost_nominal": {
+   "value": 400700000,
+   "source": "https://www.empowerfieldatmilehigh.com/stadium/about-us",
+   "note": "official $400.7 million; Wikipedia had $400.9 million"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Bank of America Stadium": {
+  "capacity": {
+   "value": 75525,
+   "source": "https://www.bankofamericastadium.com/stadium/stadiuminfo.html",
+   "note": "official 'Stadium - 75,525'; Wikipedia had 75,037"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "M&T Bank Stadium": {
+  "capacity": {
+   "value": 70257,
+   "source": "https://www.baltimoreravens.com/stadium/index",
+   "note": "official 'With a capacity of 70,257'; Wikipedia had 70,745"
+  },
+  "verified": {
+   "cost_nominal": "https://www.baltimoreravens.com/stadium/index",
+   "opened": "https://www.baltimoreravens.com/stadium/index"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "SoFi Stadium": {
+  "official_note": "Official site says 'approximately 70,000, expandable up to 100,000'; Wikipedia's 70,240 kept as the more precise figure.",
+  "official_note_source": "https://www.sofistadium.com/stadium"
+ },
+ "Lumen Field": {
+  "capacity": {
+   "value": 68000,
+   "source": "https://www.lumenfield.com/venue-info/stadium-history-facts",
+   "note": "official '68,000 fixed seats'; Wikipedia had 68,740"
+  },
+  "capacity_by_sport": {
+   "football": {
+    "value": 68000,
+    "source": "https://www.lumenfield.com/venue-info/stadium-history-facts"
+   }
+  },
+  "verified": {
+   "cost_nominal": "https://www.lumenfield.com/venue-info/stadium-history-facts",
+   "opened": "https://www.lumenfield.com/venue-info/stadium-history-facts"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Levi's Stadium": {
+  "verified": {
+   "capacity": "https://levisstadium.com/levis-stadium-events/",
+   "opened": "https://levisstadium.com/levis-stadium-events/"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Acrisure Stadium": {
+  "verified": {
+   "capacity": "https://acrisurestadium.com/stadium/"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "EverBank Stadium": {
+  "renovations_add": [
+   {
+    "year": 2016,
+    "description": "Club spaces and an adjacent covered amphitheater",
+    "cost_nominal": 90000000,
+    "source": "https://www.everbankstadium.com/stadiumhistory",
+    "note": "official '$90 million shared investment'"
+   }
+  ]
+ },
+ "U.S. Bank Stadium": {
+  "verified": {
+   "opened": "https://www.usbankstadium.com/stadium-info/history"
+  },
+  "official_note": "Official history page cites the approved $975 million budget; Wikipedia's $1.061 billion is kept as the reported final cost.",
+  "official_note_source": "https://www.usbankstadium.com/stadium-info/history"
+ },
+ "Allegiant Stadium": {
+  "verified": {
+   "capacity": "https://www.allegiantstadium.com/stadium/about-allegiant-stadium"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Ford Field": {
+  "verified": {
+   "capacity": "https://www.fordfield.com/stadium-info/about-ford-field",
+   "opened": "https://www.fordfield.com/stadium-info/about-ford-field",
+   "cost_nominal": "https://www.fordfield.com/stadium-info/about-ford-field"
+  },
+  "renovations_add": [
+   {
+    "year": 2017,
+    "description": "New video boards and sound system, Corner Lounge, suite and club upgrades",
+    "cost_nominal": 100000000,
+    "source": "https://www.fordfield.com/stadium-info/about-ford-field",
+    "note": "official 'approximately $100 million'"
+   }
+  ],
+  "last_verified": "2026-11-06"
+ },
+ "Gillette Stadium": {
+  "verified": {
+   "capacity": "https://www.gillettestadium.com/overview/",
+   "opened": "https://www.gillettestadium.com/overview/"
+  },
+  "renovations_add": [
+   {
+    "year": 2023,
+    "description": "North end rebuild with lighthouse, atrium and new video board",
+    "cost_nominal": null,
+    "source": "https://www.gillettestadium.com/overview/",
+    "note": "official cites a $250 million combined investment across north and south end work; not split by project"
+   }
+  ],
+  "last_verified": "2026-11-06"
+ },
+ "State Farm Stadium": {
+  "verified": {
+   "capacity": "https://www.statefarmstadium.com/about",
+   "opened": "https://www.statefarmstadium.com/about"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Lucas Oil Stadium": {
+  "capacity": {
+   "value": 67000,
+   "source": "https://www.lucasoilstadium.com/tours-stadium-info/background-history/",
+   "note": "official 'seats approximately 67,000 for football'; Wikipedia had 63,000. Official figure is approximate."
+  },
+  "verified": {
+   "cost_nominal": "https://www.lucasoilstadium.com/tours-stadium-info/background-history/",
+   "opened": "https://www.lucasoilstadium.com/tours-stadium-info/background-history/"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Reliant Stadium": {
+  "official_note": "Texans site: 'Reliant Stadium (previously known as NRG Stadium)'. Capacity not stated on official pages.",
+  "official_note_source": "https://www.houstontexans.com/stadium/"
+ },
+ "Chase Field": {
+  "verified": {
+   "opened": "https://www.mlb.com/dbacks/ballpark"
+  }
+ },
+ "Wrigley Field": {
+  "verified": {
+   "opened": "https://www.mlb.com/cubs/ballpark"
+  }
+ },
+ "Xfinity Mobile Arena": {
+  "capacity": {
+   "value": 21000,
+   "source": "https://www.xfinitymobilearena.com/connect-with-us/arena-history",
+   "note": "official '21,000 for 76ers' basketball games'; Wikipedia had 20,478"
+  },
+  "capacity_by_sport": {
+   "basketball": {
+    "value": 21000,
+    "source": "https://www.xfinitymobilearena.com/connect-with-us/arena-history"
+   },
+   "ice hockey": {
+    "value": 19600,
+    "source": "https://www.xfinitymobilearena.com/connect-with-us/arena-history"
+   }
+  },
+  "verified": {
+   "opened": "https://www.xfinitymobilearena.com/connect-with-us/arena-history"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Capital One Arena": {
+  "verified": {
+   "opened": "https://www.capitalonearena.com/arena-info/about-capital-one-arena"
+  }
+ },
+ "Ball Arena": {
+  "verified": {
+   "capacity": "https://www.ballarena.com/arena-information/about-ball-arena/",
+   "opened": "https://www.ballarena.com/arena-information/about-ball-arena/"
+  },
+  "official_note": "Same official page also says 'seats 19,099 for basketball games and 18,007 for hockey'; the Seating section figures (19,520 / 17,809) are used. Official cost is 'more than $180 million'.",
+  "official_note_source": "https://www.ballarena.com/arena-information/about-ball-arena/",
+  "last_verified": "2026-11-06"
+ },
+ "TD Garden": {
+  "verified": {
+   "capacity": "https://www.tdgarden.com/venue-info/about-td-garden",
+   "cost_nominal": "https://www.tdgarden.com/venue-info/about-td-garden"
+  },
+  "capacity_by_sport": {
+   "ice hockey": {
+    "value": 17850,
+    "source": "https://www.tdgarden.com/venue-info/about-td-garden"
+   }
+  },
+  "renovations_add": [
+   {
+    "year": 2014,
+    "description": "Arena-wide renovation",
+    "cost_nominal": 70000000,
+    "source": "https://www.tdgarden.com/venue-info/about-td-garden",
+    "note": "official 'over $70 million'"
+   }
+  ],
+  "last_verified": "2026-11-06"
+ },
+ "Crypto.com Arena": {
+  "verified": {
+   "opened": "https://www.cryptoarena.com/arena-info/about-us"
+  }
+ },
+ "Kia Center": {
+  "verified": {
+   "opened": "https://www.kiacenter.com/arena-info/about-kia-center"
+  }
+ },
+ "Target Center": {
+  "verified": {
+   "opened": "https://www.targetcenter.com/connect-with-us/about-target-center"
+  },
+  "renovations_add": [
+   {
+    "year": 2017,
+    "description": "Major renovation of infrastructure, guest areas and interior finishes",
+    "cost_nominal": 145000000,
+    "source": "https://www.targetcenter.com/connect-with-us/about-target-center",
+    "note": "official 'Totaling $145 Million'"
+   }
+  ]
+ },
+ "Frost Bank Center": {
+  "verified": {
+   "opened": "https://www.frostbankcenter.com/arena/about"
+  },
+  "renovations_add": [
+   {
+    "year": 2015,
+    "description": "Renovation at all seating levels",
+    "cost_nominal": 110000000,
+    "source": "https://www.frostbankcenter.com/arena/about",
+    "note": "official '$110+ million'"
+   }
+  ]
+ },
+ "Intuit Dome": {
+  "official_note": "Official site gives only '18,000 of your closest friends' (marketing copy); Wikipedia's 18,300 kept.",
+  "official_note_source": "https://www.intuitdome.com/about/about-us"
+ },
+ "Paycom Center": {
+  "verified": {
+   "capacity": "https://www.paycomcenter.com/about-the-arena/fast-facts",
+   "opened": "https://www.paycomcenter.com/about-the-arena/fast-facts"
+  },
+  "cost_nominal": {
+   "value": 89000000,
+   "source": "https://www.paycomcenter.com/about-the-arena/fast-facts",
+   "note": "official '$89 million'; Wikipedia had $89.2 million"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Delta Center": {
+  "cost_nominal": {
+   "value": 66000000,
+   "source": "https://www.deltacenter.com/about-us/",
+   "note": "official 'at a cost of $66 million'; Wikipedia had $93 million"
+  },
+  "renovations_add": [
+   {
+    "year": 2017,
+    "description": "Arena-wide renovation",
+    "cost_nominal": 125000000,
+    "source": "https://www.deltacenter.com/about-us/",
+    "note": "official '$125 million arena renovation'"
+   },
+   {
+    "year": 2025,
+    "description": "Multi-year renovation for NHL hockey, under way since April 2025",
+    "cost_nominal": null,
+    "source": "https://www.deltacenter.com/about-us/",
+    "note": "cost not stated; official projects 'approximately 17,000' for hockey after renovation"
+   }
+  ],
+  "official_note": "Current capacity not stated on official site.",
+  "official_note_source": "https://www.deltacenter.com/about-us/"
+ },
+ "Toyota Center": {
+  "verified": {
+   "opened": "https://www.toyotacenter.com/arena-info/about-us"
+  },
+  "official_note": "Official arena pages read do not confirm a 2026 WNBA Houston Comets season; tenant comes from Wikipedia's current WNBA teams table.",
+  "official_note_source": "https://www.toyotacenter.com/arena-info/about-us"
+ },
+ "Barclays Center": {
+  "capacity": {
+   "value": 17553,
+   "source": "https://www.barclayscenter.com/center-info/about-us",
+   "note": "official 'offers 17,553 seats for basketball'; Wikipedia had 17,732"
+  },
+  "verified": {
+   "opened": "https://www.barclayscenter.com/center-info/about-us"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "State Farm Arena": {
+  "capacity": {
+   "value": 16888,
+   "source": "https://www.statefarmarena.com/about-the-arena/quick-facts",
+   "note": "official 'Basketball: 16,888'; Wikipedia had 17,608"
+  },
+  "verified": {
+   "opened": "https://www.statefarmarena.com/about-the-arena/quick-facts"
+  },
+  "renovations_add": [
+   {
+    "year": 2018,
+    "description": null,
+    "cost_nominal": null,
+    "source": "https://www.statefarmarena.com/about-the-arena/quick-facts",
+    "note": "official 'Renovated: 2017-2018'; scope and cost not stated"
+   }
+  ],
+  "last_verified": "2026-11-06"
+ },
+ "Lenovo Center": {
+  "verified": {
+   "opened": "https://www.lenovocenter.com/arena-info/venue-facts-history",
+   "cost_nominal": "https://www.lenovocenter.com/arena-info/venue-facts-history"
+  },
+  "official_note": "Official site gives only 'up to 20,000' across configurations.",
+  "official_note_source": "https://www.lenovocenter.com/arena-info/venue-facts-history"
+ },
+ "KeyBank Center": {
+  "verified": {
+   "opened": "https://www.keybankcenter.com/about/keybank-center-history-1"
+  }
+ },
+ "PPG Paints Arena": {
+  "capacity": {
+   "value": 18187,
+   "source": "https://www.ppgpaintsarena.com/ppg-paints-arena/faqs",
+   "note": "official 'Hockey: 18,187'; Wikipedia's 19,000 is the basketball figure"
+  },
+  "capacity_by_sport": {
+   "ice hockey": {
+    "value": 18187,
+    "source": "https://www.ppgpaintsarena.com/ppg-paints-arena/faqs"
+   },
+   "basketball": {
+    "value": 19000,
+    "source": "https://www.ppgpaintsarena.com/ppg-paints-arena/faqs"
+   }
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Nationwide Arena": {
+  "verified": {
+   "opened": "https://www.nationwidearena.com/arena-info/history"
+  }
+ },
+ "Enterprise Center": {
+  "verified": {
+   "opened": "https://www.enterprisecenter.com/about-us"
+  }
+ },
+ "Grand Casino Arena": {
+  "verified": {
+   "opened": "https://www.grandcasinoarena.com/connect-with-us/about-us",
+   "cost_nominal": "https://www.grandcasinoarena.com/connect-with-us/about-us"
+  }
+ },
+ "T-Mobile Arena": {
+  "verified": {
+   "capacity": "https://t-mobilearena.com/arena-information",
+   "opened": "https://t-mobilearena.com/arena-information",
+   "cost_nominal": "https://t-mobilearena.com/arena-information"
+  },
+  "capacity_by_sport": {
+   "ice hockey": {
+    "value": 17500,
+    "source": "https://t-mobilearena.com/arena-information"
+   }
+  },
+  "last_verified": "2026-11-06"
+ },
+ "UBS Arena": {
+  "official_note": "Official FAQ says only 'seats over 17,000 fans'.",
+  "official_note_source": "https://ubsarena.com/about-the-arena/faqs/"
+ },
+ "Climate Pledge Arena": {
+  "capacity": {
+   "value": 17100,
+   "source": "https://climatepledgearena.com/frequently-asked-questions/",
+   "note": "official 'Hockey Capacity: 17,100'; Wikipedia had 17,151"
+  },
+  "capacity_by_sport": {
+   "ice hockey": {
+    "value": 17100,
+    "source": "https://climatepledgearena.com/frequently-asked-questions/"
+   },
+   "basketball": {
+    "value": 18300,
+    "source": "https://climatepledgearena.com/frequently-asked-questions/"
+   }
+  },
+  "opened": {
+   "value": 2021,
+   "source": "https://climatepledgearena.com/frequently-asked-questions/",
+   "note": "rebuilt arena opened October 19, 2021 inside the 1962 Coliseum roof"
+  },
+  "cost_nominal": {
+   "value": 1150000000,
+   "source": "https://climatepledgearena.com/frequently-asked-questions/",
+   "note": "official 'current project cost estimate is $1.15 Billion'"
+  },
+  "cost_year": {
+   "value": 2021
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Geodis Park": {
+  "official_note": "Official site says '30000 Seats' (rounded); Wikipedia's 30,109 kept.",
+  "official_note_source": "https://geodispark.com/"
+ },
+ "Dignity Health Sports Park": {
+  "capacity": {
+   "value": 26000,
+   "source": "https://www.dignityhealthsportspark.com/about/venues/soccer-stadium",
+   "note": "official 'Capacity 26,000'; Wikipedia had 27,000"
+  },
+  "verified": {
+   "opened": "https://www.dignityhealthsportspark.com/about/venues/stadium-renovation-project"
+  },
+  "renovations_add": [
+   {
+    "year": 2025,
+    "description": "Seat replacement, concessions, press box, restrooms, cabanas and full field rebuild",
+    "cost_nominal": null,
+    "source": "https://www.dignityhealthsportspark.com/about/venues/stadium-renovation-project",
+    "note": "work ran December 2024 to February 2025; cost not stated"
+   }
+  ],
+  "last_verified": "2026-11-06"
+ },
+ "TQL Stadium": {
+  "verified": {
+   "capacity": "https://www.tqlstadium.com/about-tql-stadium",
+   "opened": "https://www.tqlstadium.com/about-tql-stadium",
+   "cost_nominal": "https://www.tqlstadium.com/about-tql-stadium"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Energizer Park": {
+  "verified": {
+   "capacity": "https://www.energizerpark.com/about-energizerpark"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Indian Wells Tennis Garden": {
+  "verified": {
+   "capacity": "https://www.bnpparibasopen.com/history",
+   "opened": "https://www.bnpparibasopen.com/history"
+  },
+  "official_note": "Official figure is from the tournament's history page (2000 entry), not a current spec sheet.",
+  "official_note_source": "https://www.bnpparibasopen.com/history"
+ },
+ "Memorial Stadium (Terre Haute, Indiana)": {
+  "verified": {
+   "capacity": "https://gosycamores.com/facilities/memorial-stadium/5"
+  }
+ },
+ "Alerus Center": {
+  "verified": {
+   "capacity": "https://fightinghawks.com/facilities/alerus-center/11"
+  }
+ },
+ "Harry Turpin Stadium": {
+  "verified": {
+   "capacity": "https://nsudemons.com/facilities/turpin-stadium/1"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Kibbie Dome": {
+  "verified": {
+   "capacity": "https://govandals.com/facilities/p1fcu-kibbie-dome/1"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Panther Stadium at Blackshear Field": {
+  "verified": {
+   "capacity": "https://pvpanthers.com/facilities/blackshear-field/1",
+   "opened": "https://pvpanthers.com/facilities/blackshear-field/1"
+  },
+  "last_verified": "2026-11-06"
+ },
+ "Rhodes Stadium": {
+  "verified": {
+   "capacity": "https://elonphoenix.com/facilities/rhodes-stadium/15"
+  }
+ },
+ "Inter.co Stadium": {
+  "capacity": {
+   "value": 25000,
+   "source": "https://www.intercostadium.com/",
+   "note": "official 'The 25,000 seat soccer-specific stadium'; Wikipedia had 24,453"
+  },
+  "verified": {
+   "opened": "https://www.intercostadium.com/"
+  },
+  "last_verified": "2026-11-06"
+ }
+}
