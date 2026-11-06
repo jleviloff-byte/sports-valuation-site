@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T19:46:50.035Z",
+ "generated": "2026-11-06T20:01:12.903Z",
  "license": "Coordinates and footprints derived from OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0). Facts from Wikipedia (CC BY-SA 4.0) and official team/venue sites, cited per field. CPI-U from BLS (public domain).",
  "cpi_base_year": 2025,
  "cutoff": 15000,
@@ -286,10 +286,10 @@
    "lng": -83.748923,
    "venue_type": "stadium",
    "roof": "open",
-   "capacity": 107600,
+   "capacity": 107601,
    "capacity_type": "seated",
    "capacity_by_sport": {
-    "football": 107600
+    "football": 107601
    },
    "sports": [
     "football"
@@ -357,8 +357,7 @@
     "lat": "https://www.openstreetmap.org/relation/1637002",
     "state": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FBS_football_stadiums&oldid=1380930711",
     "city": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FBS_football_stadiums&oldid=1380930711",
-    "capacity": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988",
-    "capacity_cited": "http://www.mgoblue.com/sports/m-footbl/spec-rel/080715aaa.html",
+    "capacity": "https://mgoblue.com/sports/2017/6/16/facilities-michigan-stadium-html",
     "tenants": "https://en.wikipedia.org/w/index.php?title=List_of_NCAA_Division_I_FBS_football_stadiums&oldid=1380930711",
     "venue_type": "derived from tenant leagues",
     "roof": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988",
@@ -20333,7 +20332,7 @@
      "team_page_slug": "new-york-rangers"
     },
     {
-     "team": "St. John's men",
+     "team": "St. John's",
      "league": "NCAA D1 basketball",
      "team_page_slug": null
     }

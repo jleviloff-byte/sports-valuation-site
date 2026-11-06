@@ -73,7 +73,7 @@ const distKm = (a, b) => Math.hypot((a.lng - b.lng) * 111.32 * Math.cos((a.lat *
 const slugify = (s) => teamIdFor(s.replace(/\s*\(.*?\)\s*/g, ' '))
 // Current team names that differ from the site's team keys.
 const TEAM_ALIASES = { 'utah-mammoth': 'utah-hockey-club', 'columbus-crew': 'columbus-crew-sc' }
-const cleanTeam = (s) => s.replace(/\s*\((baseball|football|basketball|soccer|ice hockey|hockey|NFL|MLB|NBA|NHL|MLS)\)\s*$/i, '').replace(/\s+(men's|women's)\s+basketball$/i, '').replace(/\s+(football|basketball|baseball|soccer|program)$/i, '').trim()
+const cleanTeam = (s) => s.replace(/\s*\((baseball|football|basketball|soccer|ice hockey|hockey|NFL|MLB|NBA|NHL|MLS)\)\s*$/i, '').replace(/\s+(men|women)['’]s\s+basketball$/i, '').replace(/\s+(men|women)(['’]s)?$/i, '').replace(/\s+(football|basketball|baseball|soccer|program)$/i, '').trim()
 
 // Collapse candidates onto final article titles.
 const byArticle = {}
@@ -191,7 +191,7 @@ for (const v of Object.values(byArticle)) {
   const tenants = []
   const seen = new Set()
   for (const a of apps) {
-    const names = a.tenant_wiki?.length && !a.is_event ? a.tenant_wiki.map(cleanTeam) : [a.tenant]
+    const names = a.tenant_wiki?.length && !a.is_event ? a.tenant_wiki.map(cleanTeam) : [a.is_event ? a.tenant : cleanTeam(a.tenant || '')]
     for (const n of names.filter(Boolean)) {
       const key = `${n}|${a.league}`
       if (seen.has(key)) continue

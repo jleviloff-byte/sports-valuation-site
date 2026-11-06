@@ -1446,6 +1446,14 @@
     "url": "https://www.openstreetmap.org/relation/11545732"
    },
    {
+    "title": "Michigan Stadium",
+    "field": "capacity",
+    "a": "107600 (Wikipedia infobox)",
+    "b": "107601 (official)",
+    "url": "https://mgoblue.com/sports/2017/6/16/facilities-michigan-stadium-html",
+    "resolved": "official"
+   },
+   {
     "title": "Ohio Stadium",
     "field": "capacity",
     "a": "102780 (infobox)",
@@ -2132,13 +2140,6 @@
     "value": 77500,
     "why": "multiple figures in infobox: 77,500; 93,607 (pre 2018)",
     "url": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868"
-   },
-   {
-    "title": "Michigan Stadium",
-    "field": "capacity",
-    "value": 107600,
-    "why": "multiple figures in infobox: 107,600 (2015 present); 107,601 (2015 present)",
-    "url": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988"
    },
    {
     "title": "Nippert Stadium",
@@ -4858,6 +4859,12 @@
      "capacity",
      "opened",
      "cost_nominal"
+    ]
+   },
+   {
+    "title": "Michigan Stadium",
+    "fields": [
+     "capacity"
     ]
    },
    {

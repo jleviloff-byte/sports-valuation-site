@@ -9,8 +9,8 @@ Generated 2026-11-06 by `scripts/stadiums/build-qa.mjs`. Data: `data/stadiums.js
 - By tenant league (a venue counts once per league): NCAA FBS 135, NCAA FCS 41, NCAA D1 basketball 32, NFL 30, NBA 29, MLB 28, NASCAR Cup 27, MLS 25, NHL 25, NWSL 10, WNBA 9, IndyCar 8, Neutral site 7, Tennis 3, Formula 1 1.
 - States represented: 48. Alaska and Hawaii: Clarence T. C. Ching Athletics Complex (HI).
 - Tenants linked to an existing team page on the site: 139.
-- Official-site cross-check: 44 venues have at least one field confirmed or corrected from an official team, venue or school page (details below). Every other value is single-source Wikipedia.
-- Largest: Indianapolis Motor Speedway 257,325; Bristol Motor Speedway 146,000; Daytona International Speedway 123,500. Pilot check: Michigan Stadium 107,600, Yulman Stadium 30,000.
+- Official-site cross-check: 45 venues have at least one field confirmed or corrected from an official team, venue or school page (details below). Every other value is single-source Wikipedia.
+- Largest: Indianapolis Motor Speedway 257,325; Bristol Motor Speedway 146,000; Daytona International Speedway 123,500. Pilot check: Michigan Stadium 107,601, Yulman Stadium 30,000.
 
 ## Method (short)
 
@@ -82,6 +82,7 @@ Atlanta Motor Speedway, U.S. Bank Stadium, Gateway Motorsports Park, Casino Del 
 | PPG Paints Arena | 19000 (Wikipedia infobox) | 18187 (official) | [official](https://www.ppgpaintsarena.com/ppg-paints-arena/faqs) |
 | Dignity Health Sports Park | 27000 (Wikipedia infobox) | 26000 (official) | [official](https://www.dignityhealthsportspark.com/about/venues/soccer-stadium) |
 | Inter.co Stadium | 24453 (Wikipedia infobox) | 25000 (official) | [official](https://www.intercostadium.com/) |
+| Michigan Stadium | 107600 (Wikipedia infobox) | 107601 (official) | [official](https://mgoblue.com/sports/2017/6/16/facilities-michigan-stadium-html) |
 
 ### Wikipedia infobox vs Wikipedia list page (unresolved; infobox used)
 
@@ -326,7 +327,6 @@ Kept out because the brief defines capacity as current seated capacity. Worth a 
 | JMA Wireless Dome | 42,784 | multiple figures in infobox: 42,784 (Football); 39,925 (Ice hockey); 33,000 (Basketball); 56,250 (Concerts); 49,262 (2003 2020); 49,550 (1998 2002); 50,000 (198 | [wiki](https://en.wikipedia.org/w/index.php?title=JMA_Wireless_Dome&oldid=1373732825) |
 | Lane Stadium | 65,632 | multiple figures in infobox: 65,632 (total); 1,200 (Club Seating) | [wiki](https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648) |
 | Los Angeles Memorial Coliseum | 77,500 | multiple figures in infobox: 77,500; 93,607 (pre 2018) | [wiki](https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868) |
-| Michigan Stadium | 107,600 | multiple figures in infobox: 107,600 (2015 present); 107,601 (2015 present) | [wiki](https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988) |
 | Pratt & Whitney Stadium at Rentschler Field | 40,000 | multiple figures in infobox: 40,000 (standing room to expandable to at least); 41,000 (expandable to at least) | [wiki](https://en.wikipedia.org/w/index.php?title=Pratt_%26_Whitney_Stadium_at_Rentschler_Field&oldid=1373943730) |
 | First Community Stadium | 47,000 | multiple figures in infobox: 47,000; 68,142 (Super Bowl VIII) | [wiki](https://en.wikipedia.org/w/index.php?title=First_Community_Stadium&oldid=1380858219) |
 | Valley Children's Stadium | 30,000 | multiple figures in infobox: 30,000 (1981 1990); 40,541 (1991 1992); 41,031 (1993 2017); 40,727 (since 2018) | [wiki](https://en.wikipedia.org/w/index.php?title=Valley_Children's_Stadium&oldid=1380169629) |
@@ -504,6 +504,7 @@ Done for every NFL, MLB, NBA, NHL and MLS venue, the six pilot venues, all racet
 | Energizer Park | capacity |
 | Inter.co Stadium | opened, capacity |
 | TQL Stadium | capacity, opened, cost_nominal |
+| Michigan Stadium | capacity |
 | Harry Turpin Stadium | capacity |
 | Kibbie Dome | capacity |
 | Panther Stadium at Blackshear Field | capacity, opened |

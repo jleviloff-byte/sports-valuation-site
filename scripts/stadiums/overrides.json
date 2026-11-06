@@ -526,5 +526,13 @@
    "opened": "https://www.intercostadium.com/"
   },
   "last_verified": "2026-11-06"
+ },
+ "Michigan Stadium": {
+  "capacity": {
+   "value": 107601,
+   "source": "https://mgoblue.com/sports/2017/6/16/facilities-michigan-stadium-html",
+   "note": "official '107,601 (2015-present)'; Wikipedia infobox listed both 107,600 and 107,601"
+  },
+  "last_verified": "2026-11-06"
  }
 }
