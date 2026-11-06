@@ -1,0 +1,59 @@
+// Post-build: static HTML shells for /stadiums and /stadiums/<slug> with
+// per-venue <title>, description, canonical and Open Graph tags, so search
+// engines and link previews see real metadata without running JavaScript.
+// The React app takes over on load exactly as on any other route.
+//
+// Vercel serves dist/stadiums/<slug>.html for /stadiums/<slug> (cleanUrls),
+// ahead of the SPA rewrite in vercel.json.
+//
+// Runs as part of `npm run build`.
+import fs from 'node:fs'
+import path from 'node:path'
+
+const SITE = 'https://franchisemath.site'
+const dist = 'dist'
+const tpl = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')
+const { venues } = JSON.parse(fs.readFileSync('public/stadiums/index.json', 'utf8'))
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const fmt = (n) => n.toLocaleString('en-US')
+
+function page({ title, description, url, image, body }) {
+  let h = tpl
+  const swap = (re, val) => { h = h.replace(re, val) }
+  swap(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
+  swap(/(<meta name="description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+  swap(/(<link rel="canonical" href=")[^"]*(")/, `$1${url}$2`)
+  swap(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
+  swap(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+  swap(/(<meta property="og:url" content=")[^"]*(")/, `$1${url}$2`)
+  swap(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
+  swap(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+  if (image) {
+    swap(/(<meta property="og:image" content=")[^"]*(")/, `$1${image}$2`)
+    swap(/(<meta name="twitter:image" content=")[^"]*(")/, `$1${image}$2`)
+    swap(/<meta property="og:image:width"[^>]*>\s*<meta property="og:image:height"[^>]*>/, '<meta property="og:image:width" content="1024" />\n    <meta property="og:image:height" content="1024" />')
+    swap(/(<meta property="og:image:alt" content=")[^"]*(")/, `$1${esc(title)}$2`)
+  }
+  // Crawlable fallback content inside #root; React replaces it on mount.
+  swap('<div id="root"></div>', `<div id="root"><main style="max-width:720px;margin:40px auto;padding:0 16px;font-family:system-ui,sans-serif">${body}</main></div>`)
+  return h
+}
+
+fs.mkdirSync(path.join(dist, 'stadiums'), { recursive: true })
+const n = venues.length
+fs.writeFileSync(path.join(dist, 'stadiums.html'), page({
+  title: 'Stadium Map: every US venue with 15,000+ seats | Franchise Math',
+  description: `${n} US stadiums, arenas, ballparks, racetracks and tennis venues with 15,000+ seats, drawn to scale by capacity.`,
+  url: `${SITE}/stadiums`,
+  body: `<h1>Every US venue with 15,000+ seats</h1><p>${n} venues, largest first.</p><ol>${[...venues].sort((a, b) => a.r - b.r).map((v) => `<li><a href="/stadiums/${v.s}">${esc(v.n)}</a>, ${esc(v.c)}, ${v.st}: ${fmt(v.cap)}</li>`).join('')}</ol>`,
+}))
+for (const v of venues) {
+  const title = `${v.n}: ${fmt(v.cap)} seats | Stadium Map | Franchise Math`
+  const description = `${v.n} in ${v.c}, ${v.st}: capacity ${fmt(v.cap)}${v.ct === 'estimated' ? ' (estimated)' : ''}, #${v.r} of ${n} US venues with 15,000+ seats. Tenants: ${v.tm.slice(0, 3).join(', ')}.`
+  fs.writeFileSync(path.join(dist, 'stadiums', `${v.s}.html`), page({
+    title, description, url: `${SITE}/stadiums/${v.s}`,
+    image: v.img ? `${SITE}/stadiums/hero/${v.s}.webp` : null,
+    body: `<h1>${esc(v.n)}</h1><p>${esc(v.c)}, ${v.st}. Capacity ${fmt(v.cap)}${v.ct === 'estimated' ? ' (estimated)' : ''}. Rank #${v.r} of ${n} in the US.</p><p>Tenants: ${esc(v.tm.join(', '))}.</p><img src="/stadiums/hero/${v.s}.webp" alt="Brick-built illustration of ${esc(v.n)}" width="512" height="512">`,
+  }))
+}
+console.log(`prerendered /stadiums and ${n} venue pages`)
