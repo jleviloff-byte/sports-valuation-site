@@ -1,0 +1,6585 @@
+{
+ "generated": "2026-11-06T19:47:33.098Z",
+ "venues": {
+  "indianapolis-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [
+    "pagoda_tower",
+    "yard_of_bricks"
+   ],
+   "front": "W",
+   "footprint_osm": "https://www.openstreetmap.org/way/589668075",
+   "rules": "auto"
+  },
+  "bristol-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/116589129",
+   "rules": "auto"
+  },
+  "daytona-international-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/352074880",
+   "rules": "auto"
+  },
+  "circuit-of-the-americas": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/113586692",
+   "rules": "auto"
+  },
+  "michigan-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00274C",
+    "#FFCB05"
+   ],
+   "seat_colors_source": {
+    "team": "Michigan Wolverines",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/1637002",
+   "rules": "hand-adjusted",
+   "note": "single continuous bowl dug into the ground"
+  },
+  "beaver-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#001E44",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Penn State Nittany Lions",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/34402844",
+   "rules": "auto"
+  },
+  "ohio-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#BA0C2F",
+    "#A7B1B7"
+   ],
+   "seat_colors_source": {
+    "team": "Ohio State Buckeyes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/119153498",
+   "rules": "auto"
+  },
+  "kyle-field": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#500000",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Texas A&M Aggies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/45834648",
+   "rules": "auto"
+  },
+  "tiger-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#461D7C",
+    "#FDD023"
+   ],
+   "seat_colors_source": {
+    "team": "LSU Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/515632965",
+   "rules": "auto"
+  },
+  "neyland-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#FF8200",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Tennessee Volunteers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/21459078",
+   "rules": "auto"
+  },
+  "darrell-k-royal-texas-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#BF5700",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Texas Longhorns",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/128637559",
+   "rules": "auto"
+  },
+  "bryant-denny-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#B30838",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Alabama Crimson Tide",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/89748161",
+   "rules": "auto"
+  },
+  "charlotte-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/21242750",
+   "rules": "auto"
+  },
+  "sanford-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#BA0C2F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Georgia Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/598413258",
+   "rules": "auto"
+  },
+  "cotton-bowl": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/27112448",
+   "rules": "auto"
+  },
+  "barber-motorsports-park": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/18038674",
+   "rules": "auto"
+  },
+  "ben-hill-griffin-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#003087",
+    "#FA4616"
+   ],
+   "seat_colors_source": {
+    "team": "Florida Gators",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/45719890",
+   "rules": "auto"
+  },
+  "jordan-hare-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#03244D",
+    "#F26522"
+   ],
+   "seat_colors_source": {
+    "team": "Auburn Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/39662051",
+   "rules": "auto"
+  },
+  "memorial-stadium-ne": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#D00000",
+    "#F5F1E7"
+   ],
+   "seat_colors_source": {
+    "team": "Nebraska Cornhuskers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/3364536",
+   "rules": "auto"
+  },
+  "metlife-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#0B2265",
+    "#A71930"
+   ],
+   "seat_colors_source": {
+    "team": "New York Giants",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24221553",
+   "rules": "auto"
+  },
+  "memorial-stadium-sc": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#F56600",
+    "#522D80"
+   ],
+   "seat_colors_source": {
+    "team": "Clemson Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/8555183",
+   "rules": "auto"
+  },
+  "lambeau-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#203731",
+    "#FFB612"
+   ],
+   "seat_colors_source": {
+    "team": "Green Bay Packers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24772913",
+   "rules": "hand-adjusted"
+  },
+  "rose-bowl": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#2774AE",
+    "#F2A900"
+   ],
+   "seat_colors_source": {
+    "team": "UCLA Bruins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/5208863",
+   "rules": "auto"
+  },
+  "gaylord-family-oklahoma-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#841617",
+    "#F0EBC4"
+   ],
+   "seat_colors_source": {
+    "team": "Oklahoma Sooners",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/161454672",
+   "rules": "auto"
+  },
+  "atandt-stadium": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "turf",
+   "seat_colors": [
+    "#002244",
+    "#B0B7BC"
+   ],
+   "seat_colors_source": {
+    "team": "Dallas Cowboys",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/47086748",
+   "rules": "auto"
+  },
+  "las-vegas-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/27545410",
+   "rules": "auto"
+  },
+  "talladega-superspeedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/405961241",
+   "rules": "auto"
+  },
+  "notre-dame-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0C2340",
+    "#C99700"
+   ],
+   "seat_colors_source": {
+    "team": "Notre Dame Fighting Irish",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/16137783",
+   "rules": "auto"
+  },
+  "williams-brice-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#73000A",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "South Carolina Gamecocks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/187031723",
+   "rules": "auto"
+  },
+  "los-angeles-memorial-coliseum": {
+   "archetype": "horseshoe",
+   "tiers": 3,
+   "open_ends": 1,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#9D2235",
+    "#FFC72C"
+   ],
+   "seat_colors_source": {
+    "team": "USC Trojans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [
+    "peristyle_arch"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/way/443675312",
+   "rules": "hand-adjusted"
+  },
+  "pocono-raceway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/109767460",
+   "rules": "auto"
+  },
+  "arrowhead-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#E31837",
+    "#FFB612"
+   ],
+   "seat_colors_source": {
+    "team": "Kansas City Chiefs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/65960012",
+   "rules": "auto"
+  },
+  "razorback-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#A41F35",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Arkansas Razorbacks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/187045676",
+   "rules": "auto"
+  },
+  "empower-field-at-mile-high": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#0A2343",
+    "#FC4C02"
+   ],
+   "seat_colors_source": {
+    "team": "Denver Broncos",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/4423254",
+   "rules": "auto"
+  },
+  "camp-randall-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#C5050C",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Wisconsin Badgers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1542809955",
+   "rules": "auto"
+  },
+  "bank-of-america-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#0085CF"
+   ],
+   "seat_colors_source": {
+    "team": "Carolina Panthers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/180768146",
+   "rules": "auto"
+  },
+  "mid-ohio-sports-car-course": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/434816924",
+   "rules": "auto"
+  },
+  "texas-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/19803401",
+   "rules": "auto"
+  },
+  "spartan-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#173F35",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Michigan State Spartans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/2425886",
+   "rules": "auto"
+  },
+  "caesars-superdome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#D3BC8D"
+   ],
+   "seat_colors_source": {
+    "team": "New Orleans Saints",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [
+    "superdome_roof"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/relation/4598860",
+   "rules": "auto"
+  },
+  "reliant-stadium": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "turf",
+   "seat_colors": [
+    "#021018",
+    "#EB0028"
+   ],
+   "seat_colors_source": {
+    "team": "Houston Texans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/119422708",
+   "rules": "auto"
+  },
+  "husky-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#33006F",
+    "#E8D3A2"
+   ],
+   "seat_colors_source": {
+    "team": "Washington Huskies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/5636648",
+   "rules": "auto"
+  },
+  "legion-field": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/129478037",
+   "rules": "auto"
+  },
+  "atlanta-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "mercedes-benz-stadium": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "turf",
+   "seat_colors": [
+    "#A71930",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Atlanta Falcons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/536744534",
+   "rules": "auto"
+  },
+  "mandt-bank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#24135F",
+    "#9A7611"
+   ],
+   "seat_colors_source": {
+    "team": "Baltimore Ravens",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1171329996",
+   "rules": "auto"
+  },
+  "sofi-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 3,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0080C6",
+    "#FFC20E"
+   ],
+   "seat_colors_source": {
+    "team": "Los Angeles Chargers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/860635712",
+   "rules": "auto"
+  },
+  "kinnick-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#FCD116"
+   ],
+   "seat_colors_source": {
+    "team": "Iowa Hawkeyes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/31137127",
+   "rules": "auto"
+  },
+  "raymond-james-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#A71930",
+    "#322F2B"
+   ],
+   "seat_colors_source": {
+    "team": "Tampa Bay Buccaneers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/154387076",
+   "rules": "auto"
+  },
+  "nissan-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#4495D2",
+    "#D50A0A"
+   ],
+   "seat_colors_source": {
+    "team": "Tennessee Titans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/58759639",
+   "rules": "auto"
+  },
+  "levi-s-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#AA0000",
+    "#B5925D"
+   ],
+   "seat_colors_source": {
+    "team": "San Francisco 49ers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/296503400",
+   "rules": "auto"
+  },
+  "acrisure-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#FFB612"
+   ],
+   "seat_colors_source": {
+    "team": "Pittsburgh Steelers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24722790",
+   "rules": "auto"
+  },
+  "lumen-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#002244",
+    "#69BE28"
+   ],
+   "seat_colors_source": {
+    "team": "Seattle Seahawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/5838734",
+   "rules": "auto"
+  },
+  "everbank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#006778",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Jacksonville Jaguars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/27258894",
+   "rules": "auto"
+  },
+  "lincoln-financial-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#004851",
+    "#A2AAAD"
+   ],
+   "seat_colors_source": {
+    "team": "Philadelphia Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/32891768",
+   "rules": "auto"
+  },
+  "huntington-bank-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#311D00",
+    "#FF3C00"
+   ],
+   "seat_colors_source": {
+    "team": "Cleveland Browns",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/41020147",
+   "rules": "auto"
+  },
+  "doak-campbell-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#782F40",
+    "#CEB888"
+   ],
+   "seat_colors_source": {
+    "team": "Florida State Seminoles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/127125927",
+   "rules": "auto"
+  },
+  "lucas-oil-stadium": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "turf",
+   "seat_colors": [
+    "#013369",
+    "#A5ACAF"
+   ],
+   "seat_colors_source": {
+    "team": "Indianapolis Colts",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/989245934",
+   "rules": "auto"
+  },
+  "soldier-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#0B162A",
+    "#E64100"
+   ],
+   "seat_colors_source": {
+    "team": "Chicago Bears",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24587933",
+   "rules": "auto"
+  },
+  "u-s-bank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#4F2683",
+    "#FFC62F"
+   ],
+   "seat_colors_source": {
+    "team": "Minnesota Vikings",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "lane-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#861F41",
+    "#E87722"
+   ],
+   "seat_colors_source": {
+    "team": "Virginia Tech Hokies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/126711097",
+   "rules": "auto"
+  },
+  "paycor-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#FB4F14"
+   ],
+   "seat_colors_source": {
+    "team": "Cincinnati Bengals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/210540615",
+   "rules": "auto"
+  },
+  "allegiant-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#C8C7C7"
+   ],
+   "seat_colors_source": {
+    "team": "Las Vegas Raiders",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/691478555",
+   "rules": "auto"
+  },
+  "ford-field": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#0076B6",
+    "#B0B7BC"
+   ],
+   "seat_colors_source": {
+    "team": "Detroit Lions",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/110555613",
+   "rules": "auto"
+  },
+  "hard-rock-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#008E97",
+    "#FC4C02"
+   ],
+   "seat_colors_source": {
+    "team": "Miami Dolphins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/171419981",
+   "rules": "auto"
+  },
+  "gillette-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#002244",
+    "#C60C30"
+   ],
+   "seat_colors_source": {
+    "team": "New England Patriots",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/18511570",
+   "rules": "auto"
+  },
+  "vaught-hemingway-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#14213D",
+    "#CE1126"
+   ],
+   "seat_colors_source": {
+    "team": "Ole Miss Rebels",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/135680385",
+   "rules": "auto"
+  },
+  "alamodome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#0B2240",
+    "#E14504"
+   ],
+   "seat_colors_source": {
+    "team": "UTSA Roadrunners",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/154823003",
+   "rules": "auto"
+  },
+  "northwest-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#5A1414",
+    "#FFB612"
+   ],
+   "seat_colors_source": {
+    "team": "Washington Commanders",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24617361",
+   "rules": "auto"
+  },
+  "faurot-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#FDB719"
+   ],
+   "seat_colors_source": {
+    "team": "Missouri Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/109316062",
+   "rules": "auto"
+  },
+  "state-farm-stadium": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "seat_colors": [
+    "#97233F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Arizona Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/21437660",
+   "rules": "auto"
+  },
+  "lavell-edwards-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "BYU Cougars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/986379377",
+   "rules": "auto"
+  },
+  "jack-trice-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#C8102E",
+    "#F1BE48"
+   ],
+   "seat_colors_source": {
+    "team": "Iowa State Cyclones",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/11545732",
+   "rules": "auto"
+  },
+  "scott-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#232D4B",
+    "#F84C1E"
+   ],
+   "seat_colors_source": {
+    "team": "Virginia Cavaliers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/242316963",
+   "rules": "auto"
+  },
+  "yale-bowl": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0A2240",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Yale Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/50065087",
+   "rules": "auto"
+  },
+  "ross-ade-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#CFB991"
+   ],
+   "seat_colors_source": {
+    "team": "Purdue Boilermakers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/614516704",
+   "rules": "auto"
+  },
+  "kroger-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0033A0",
+    "#C8C9C7"
+   ],
+   "seat_colors_source": {
+    "team": "Kentucky Wildcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23971162",
+   "rules": "auto"
+  },
+  "landn-federal-credit-union-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#C9001F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Louisville Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/663916139",
+   "rules": "auto"
+  },
+  "gies-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#13294B",
+    "#FF5F05"
+   ],
+   "seat_colors_source": {
+    "team": "Illinois Fighting Illini",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/144183176",
+   "rules": "auto"
+  },
+  "mississippi-veterans-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#002147",
+    "#008ED6"
+   ],
+   "seat_colors_source": {
+    "team": "Jackson State Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/1750842",
+   "rules": "auto"
+  },
+  "davis-wade-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#5D1725",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Mississippi State Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/207653615",
+   "rules": "auto"
+  },
+  "galaxy-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#C30020",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Texas Tech Red Raiders",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664397012",
+   "rules": "auto"
+  },
+  "camping-world-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/400475584",
+   "rules": "auto"
+  },
+  "autzen-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#007030",
+    "#FEE11A"
+   ],
+   "seat_colors_source": {
+    "team": "Oregon Ducks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1021825978",
+   "rules": "auto"
+  },
+  "highmark-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#00338D",
+    "#C60C30"
+   ],
+   "seat_colors_source": {
+    "team": "Buffalo Bills",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1339149058",
+   "rules": "auto"
+  },
+  "milan-puskar-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#002855",
+    "#EAAA00"
+   ],
+   "seat_colors_source": {
+    "team": "West Virginia Mountaineers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/613726733",
+   "rules": "auto"
+  },
+  "gateway-motorsports-park": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "carter-finley-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#CC0000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "NC State Wolfpack",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/33077391",
+   "rules": "auto"
+  },
+  "dodger-stadium": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#005A9C",
+    "#005A9C"
+   ],
+   "seat_colors_source": {
+    "team": "Los Angeles Dodgers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1353249584",
+   "rules": "auto"
+  },
+  "michigan-international-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/186925283",
+   "rules": "auto"
+  },
+  "rice-eccles-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#BE0000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Utah Utes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/33632892",
+   "rules": "auto"
+  },
+  "dover-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/588018911",
+   "rules": "auto"
+  },
+  "mountain-america-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#7D2248",
+    "#FFC72C"
+   ],
+   "seat_colors_source": {
+    "team": "Arizona State Sun Devils",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/7312612",
+   "rules": "auto"
+  },
+  "memorial-stadium-in": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#990000",
+    "#EDEBEB"
+   ],
+   "seat_colors_source": {
+    "team": "Indiana Hoosiers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/104955698",
+   "rules": "auto"
+  },
+  "amon-g-carter-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#4D1979",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "TCU Horned Frogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/468819191",
+   "rules": "auto"
+  },
+  "franklin-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#011F5B",
+    "#990000"
+   ],
+   "seat_colors_source": {
+    "team": "Penn Quakers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/665447049",
+   "rules": "auto"
+  },
+  "shi-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#CC0033",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Rutgers Scarlet Knights",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/232589434",
+   "rules": "auto"
+  },
+  "california-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#041E42",
+    "#FFC72C"
+   ],
+   "seat_colors_source": {
+    "team": "California Golden Bears",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24025053",
+   "rules": "auto"
+  },
+  "boone-pickens-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#FE5C00",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Oklahoma State Cowboys",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/3273739",
+   "rules": "auto"
+  },
+  "bobby-dodd-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#B39051",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Georgia Tech Yellow Jackets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/618966004",
+   "rules": "auto"
+  },
+  "dowdy-ficklen-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#582C83",
+    "#FFC72C"
+   ],
+   "seat_colors_source": {
+    "team": "East Carolina Pirates",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/170965116",
+   "rules": "auto"
+  },
+  "huntington-bank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#5B0013",
+    "#FFB71E"
+   ],
+   "seat_colors_source": {
+    "team": "Minnesota Golden Gophers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/222804497",
+   "rules": "auto"
+  },
+  "casino-del-sol-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#AB0520",
+    "#0C234B"
+   ],
+   "seat_colors_source": {
+    "team": "Arizona Wildcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "kenan-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#7BAFD4",
+    "#13294B"
+   ],
+   "seat_colors_source": {
+    "team": "North Carolina Tar Heels",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1286342537",
+   "rules": "auto"
+  },
+  "stanford-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C1515",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Stanford Cardinal",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/18564360",
+   "rules": "auto"
+  },
+  "folsom-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#CFB87C"
+   ],
+   "seat_colors_source": {
+    "team": "Colorado Buffaloes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1350683374",
+   "rules": "auto"
+  },
+  "bill-snyder-family-football-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#330A57",
+    "#A7A9AC"
+   ],
+   "seat_colors_source": {
+    "team": "Kansas State Wildcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "independence-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/134398078",
+   "rules": "auto"
+  },
+  "richmond-raceway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/46040754",
+   "rules": "auto"
+  },
+  "chase-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#AA182C",
+    "#3EC1CC"
+   ],
+   "seat_colors_source": {
+    "team": "Arizona Diamondbacks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24635438",
+   "rules": "auto"
+  },
+  "kansas-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/186964147",
+   "rules": "auto"
+  },
+  "t-mobile-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#0C2C56",
+    "#005C5C"
+   ],
+   "seat_colors_source": {
+    "team": "Seattle Mariners",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/18550612",
+   "rules": "auto"
+  },
+  "protective-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#1A5632",
+    "#FDB913"
+   ],
+   "seat_colors_source": {
+    "team": "UAB Blazers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1020016814",
+   "rules": "auto"
+  },
+  "chicagoland-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/33120985",
+   "rules": "auto"
+  },
+  "darlington-raceway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/104277971",
+   "rules": "auto"
+  },
+  "first-community-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#00205B",
+    "#C1C6C8"
+   ],
+   "seat_colors_source": {
+    "team": "Rice Owls",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "coors-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#33006F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Colorado Rockies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/4423251",
+   "rules": "auto"
+  },
+  "yankee-stadium": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#132448",
+    "#132448"
+   ],
+   "seat_colors_source": {
+    "team": "New York Yankees",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24801630",
+   "rules": "auto"
+  },
+  "secu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#CE1126",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Maryland Terrapins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23547175",
+   "rules": "auto"
+  },
+  "sun-bowl": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#041E42",
+    "#FF8200"
+   ],
+   "seat_colors_source": {
+    "team": "UTEP Miners",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/265062524",
+   "rules": "auto"
+  },
+  "acrisure-bounce-house": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#B7A369"
+   ],
+   "seat_colors_source": {
+    "team": "UCF Knights",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/157938268",
+   "rules": "auto"
+  },
+  "simmons-bank-liberty-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#004991",
+    "#8E908F"
+   ],
+   "seat_colors_source": {
+    "team": "Memphis Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/127419516",
+   "rules": "auto"
+  },
+  "angel-stadium": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#BA0021",
+    "#003263"
+   ],
+   "seat_colors_source": {
+    "team": "Los Angeles Angels",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23973377",
+   "rules": "auto"
+  },
+  "mclane-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#154734",
+    "#FFB81C"
+   ],
+   "seat_colors_source": {
+    "team": "Baylor Bears",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/314668824",
+   "rules": "auto"
+  },
+  "alumni-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C2232",
+    "#DBCCA6"
+   ],
+   "seat_colors_source": {
+    "team": "Boston College Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/29585757",
+   "rules": "auto"
+  },
+  "busch-stadium": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#BE0A14",
+    "#001541"
+   ],
+   "seat_colors_source": {
+    "team": "St. Louis Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/42341545",
+   "rules": "auto"
+  },
+  "martinsville-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1022597612",
+   "rules": "auto"
+  },
+  "new-hampshire-motor-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1181493067",
+   "rules": "auto"
+  },
+  "sonoma-raceway": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/42851130",
+   "rules": "auto"
+  },
+  "great-american-ball-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#C6011F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Cincinnati Reds",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24587940",
+   "rules": "auto"
+  },
+  "homestead-miami-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/186957272",
+   "rules": "auto"
+  },
+  "citizens-bank-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#E81828",
+    "#003278"
+   ],
+   "seat_colors_source": {
+    "team": "Philadelphia Phillies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/255489463",
+   "rules": "auto"
+  },
+  "jma-wireless-dome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#FF431B",
+    "#000E54"
+   ],
+   "seat_colors_source": {
+    "team": "Syracuse Orange",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/97100885",
+   "rules": "auto"
+  },
+  "oriole-park-at-camden-yards": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#000000",
+    "#DF4601"
+   ],
+   "seat_colors_source": {
+    "team": "Baltimore Orioles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1171328455",
+   "rules": "auto"
+  },
+  "phoenix-raceway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/29333335",
+   "rules": "auto"
+  },
+  "citi-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#002D72",
+    "#FF5910"
+   ],
+   "seat_colors_source": {
+    "team": "New York Mets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/604023701",
+   "rules": "auto"
+  },
+  "american-family-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#12284B",
+    "#FFC52F"
+   ],
+   "seat_colors_source": {
+    "team": "Milwaukee Brewers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/663006116",
+   "rules": "auto"
+  },
+  "wrigley-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#0E3386",
+    "#CC3433"
+   ],
+   "seat_colors_source": {
+    "team": "Chicago Cubs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [
+    "ivy_wall",
+    "marquee"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/relation/17379974",
+   "rules": "auto"
+  },
+  "david-booth-kansas-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0051BA",
+    "#E8000D"
+   ],
+   "seat_colors_source": {
+    "team": "Kansas Jayhawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1422566786",
+   "rules": "auto"
+  },
+  "nationals-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#AB0003",
+    "#11225B"
+   ],
+   "seat_colors_source": {
+    "team": "Washington Nationals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/67260011",
+   "rules": "auto"
+  },
+  "oracle-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#000000",
+    "#FD5A1E"
+   ],
+   "seat_colors_source": {
+    "team": "San Francisco Giants",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/7325085",
+   "rules": "auto"
+  },
+  "daikin-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#002D62",
+    "#EB6E1F"
+   ],
+   "seat_colors_source": {
+    "team": "Houston Astros",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/129025430",
+   "rules": "auto"
+  },
+  "truist-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#13274F",
+    "#CE1141"
+   ],
+   "seat_colors_source": {
+    "team": "Atlanta Braves",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/483842488",
+   "rules": "auto"
+  },
+  "canvas-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#1E4D2B",
+    "#C8C372"
+   ],
+   "seat_colors_source": {
+    "team": "Colorado State Rams",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/802352567",
+   "rules": "auto"
+  },
+  "rate-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#000000",
+    "#C4CED4"
+   ],
+   "seat_colors_source": {
+    "team": "Chicago White Sox",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1285780677",
+   "rules": "auto"
+  },
+  "globe-life-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "turf",
+   "infield": "dirt",
+   "seat_colors": [
+    "#003278",
+    "#C0111F"
+   ],
+   "seat_colors_source": {
+    "team": "Texas Rangers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/704674261",
+   "rules": "auto"
+  },
+  "kidd-brewer-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#222222",
+    "#FFCC00"
+   ],
+   "seat_colors_source": {
+    "team": "Appalachian State Mountaineers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1258444474",
+   "rules": "auto"
+  },
+  "comerica-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#0C2C56",
+    "#FF6600"
+   ],
+   "seat_colors_source": {
+    "team": "Detroit Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1307250153",
+   "rules": "auto"
+  },
+  "pratt-and-whitney-stadium-at-rentschler-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "petco-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#2F241D",
+    "#FFC425"
+   ],
+   "seat_colors_source": {
+    "team": "San Diego Padres",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24616919",
+   "rules": "auto"
+  },
+  "tdecu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#C92A39",
+    "#B8B9B7"
+   ],
+   "seat_colors_source": {
+    "team": "Houston Cougars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "falcon-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#003594",
+    "#B2B4B2"
+   ],
+   "seat_colors_source": {
+    "team": "Air Force Falcons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/663884113",
+   "rules": "auto"
+  },
+  "university-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#BA0C2F",
+    "#A7A8AA"
+   ],
+   "seat_colors_source": {
+    "team": "New Mexico Lobos",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664199247",
+   "rules": "auto"
+  },
+  "watkins-glen-international": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/702671615",
+   "rules": "auto"
+  },
+  "pnc-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#000000",
+    "#FDB827"
+   ],
+   "seat_colors_source": {
+    "team": "Pittsburgh Pirates",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24722803",
+   "rules": "auto"
+  },
+  "target-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#091F40",
+    "#E31E34"
+   ],
+   "seat_colors_source": {
+    "team": "Minnesota Twins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/6133680",
+   "rules": "auto"
+  },
+  "nippert-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#E00122",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Cincinnati Bearcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/35263569",
+   "rules": "auto"
+  },
+  "kauffman-stadium": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#0031A7",
+    "#BA9863"
+   ],
+   "seat_colors_source": {
+    "team": "Kansas City Royals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1351194912",
+   "rules": "auto"
+  },
+  "joan-c-edwards-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00B140",
+    "#27251F"
+   ],
+   "seat_colors_source": {
+    "team": "Marshall Thundering Herd",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/7811639",
+   "rules": "auto"
+  },
+  "fenway-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#BD3039",
+    "#0D2B56"
+   ],
+   "seat_colors_source": {
+    "team": "Boston Red Sox",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [
+    "green_monster"
+   ],
+   "cf_bearing": 45,
+   "footprint_osm": "https://www.openstreetmap.org/relation/11188464",
+   "rules": "auto"
+  },
+  "milwaukee-mile": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/107508989",
+   "rules": "auto"
+  },
+  "loandepot-park": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#000000",
+    "#00A3E0"
+   ],
+   "seat_colors_source": {
+    "team": "Miami Marlins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/8736190",
+   "rules": "auto"
+  },
+  "renasant-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#FFD046"
+   ],
+   "seat_colors_source": {
+    "team": "Southern Miss Golden Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "michie-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#2C2A29",
+    "#D3BC8D"
+   ],
+   "seat_colors_source": {
+    "team": "Army Black Knights",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/187069060",
+   "rules": "auto"
+  },
+  "reser-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#D73F09",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Oregon State Beavers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1302964914",
+   "rules": "auto"
+  },
+  "albertsons-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0033A0",
+    "#D64309"
+   ],
+   "seat_colors_source": {
+    "team": "Boise State Broncos",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/9450532",
+   "rules": "auto"
+  },
+  "kelly-shorts-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#6A0032",
+    "#FFC82E"
+   ],
+   "seat_colors_source": {
+    "team": "Central Michigan Chippewas",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182550057",
+   "rules": "auto"
+  },
+  "wallace-wade-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#013088",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Duke Blue Devils",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664165390",
+   "rules": "auto"
+  },
+  "firstbank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#000000",
+    "#CFAE70"
+   ],
+   "seat_colors_source": {
+    "team": "Vanderbilt Commodores",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/187083446",
+   "rules": "auto"
+  },
+  "ryan-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#582C83",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Northwestern Wildcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/20750438",
+   "rules": "auto"
+  },
+  "snapdragon-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#C41230",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "San Diego State Aztecs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1092512810",
+   "rules": "auto"
+  },
+  "navy-marine-corps-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00225B",
+    "#B5A67C"
+   ],
+   "seat_colors_source": {
+    "team": "Navy Midshipmen",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/38305510",
+   "rules": "auto"
+  },
+  "progressive-field": {
+   "archetype": "ballpark",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#002B5C",
+    "#E31937"
+   ],
+   "seat_colors_source": {
+    "team": "Cleveland Guardians",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312466",
+   "rules": "auto"
+  },
+  "gerald-j-ford-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#CC0035",
+    "#354CA1"
+   ],
+   "seat_colors_source": {
+    "team": "SMU Mustangs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1312507360",
+   "rules": "auto"
+  },
+  "allegacy-federal-credit-union-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#2C2A29",
+    "#CEB888"
+   ],
+   "seat_colors_source": {
+    "team": "Wake Forest Demon Deacons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/31358635",
+   "rules": "auto"
+  },
+  "veterans-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#98002E",
+    "#999999"
+   ],
+   "seat_colors_source": {
+    "team": "Troy Trojans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664435672",
+   "rules": "auto"
+  },
+  "centennial-bank-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#CC092F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Arkansas State Red Wolves",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1546350290",
+   "rules": "auto"
+  },
+  "cajun-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/462603637",
+   "rules": "auto"
+  },
+  "waldo-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#532E1F",
+    "#F1C500"
+   ],
+   "seat_colors_source": {
+    "team": "Western Michigan Broncos",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/122700161",
+   "rules": "auto"
+  },
+  "geodis-park": {
+   "archetype": "soccer_specific",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1056868015",
+   "rules": "auto"
+  },
+  "datcu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00853E",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "North Texas Mean Green",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/141598547",
+   "rules": "auto"
+  },
+  "flagler-credit-union-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#003366",
+    "#CC0000"
+   ],
+   "seat_colors_source": {
+    "team": "Florida Atlantic Owls",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "infocision-stadium-summa-field": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#041E42",
+    "#A89968"
+   ],
+   "seat_colors_source": {
+    "team": "Akron Zips",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "iowa-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/119238784",
+   "rules": "auto"
+  },
+  "mackay-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#041E42",
+    "#74767B"
+   ],
+   "seat_colors_source": {
+    "team": "Nevada Wolf Pack",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/354410114",
+   "rules": "auto"
+  },
+  "portland-international-raceway": {
+   "archetype": "oval_track",
+   "layout": "road",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/21054682",
+   "rules": "auto"
+  },
+  "skelly-field-at-h-a-chapman-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#003595",
+    "#D0B787"
+   ],
+   "seat_colors_source": {
+    "team": "Tulsa Golden Hurricane",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "valley-children-s-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#C41230",
+    "#13284C"
+   ],
+   "seat_colors_source": {
+    "team": "Fresno State Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/187080902",
+   "rules": "auto"
+  },
+  "william-dick-price-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#007B5E",
+    "#FAB80A"
+   ],
+   "seat_colors_source": {
+    "team": "Norfolk State Spartans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/5521497",
+   "rules": "auto"
+  },
+  "yulman-stadium": {
+   "archetype": "horseshoe",
+   "tiers": 2,
+   "open_ends": 1,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#006548",
+    "#3A8DDE"
+   ],
+   "seat_colors_source": {
+    "team": "Tulane Green Wave",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/4577032",
+   "rules": "hand-adjusted",
+   "note": "open south end zone"
+  },
+  "war-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#492F24",
+    "#FFC425"
+   ],
+   "seat_colors_source": {
+    "team": "Wyoming Cowboys",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1388631769",
+   "rules": "auto"
+  },
+  "aggie-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#7E141B",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "New Mexico State Aggies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/268777480",
+   "rules": "auto"
+  },
+  "joe-aillet-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#003087",
+    "#CB333B"
+   ],
+   "seat_colors_source": {
+    "team": "Louisiana Tech Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182548690",
+   "rules": "auto"
+  },
+  "ufcu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#501214",
+    "#6A5638"
+   ],
+   "seat_colors_source": {
+    "team": "Texas State Bobcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664471909",
+   "rules": "auto"
+  },
+  "huskie-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#BA0C2F",
+    "#27251F"
+   ],
+   "seat_colors_source": {
+    "team": "Northern Illinois Huskies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/328978304",
+   "rules": "auto"
+  },
+  "powers-field-at-princeton-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#FF6000"
+   ],
+   "seat_colors_source": {
+    "team": "Princeton Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/27341563",
+   "rules": "auto"
+  },
+  "fmol-health-st-francis-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#840029",
+    "#FDB913"
+   ],
+   "seat_colors_source": {
+    "team": "Louisiana–Monroe Warhawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "johnny-red-floyd-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/614515069",
+   "rules": "auto"
+  },
+  "nu-stadium": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1300303135",
+   "rules": "auto"
+  },
+  "asu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#C99700"
+   ],
+   "seat_colors_source": {
+    "team": "Alabama State Hornets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/13298829",
+   "rules": "auto"
+  },
+  "rynearson-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#046A38",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Eastern Michigan Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/93672039",
+   "rules": "auto"
+  },
+  "glass-bowl": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0B2240",
+    "#FFCD00"
+   ],
+   "seat_colors_source": {
+    "team": "Toledo Rockets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/8944963",
+   "rules": "auto"
+  },
+  "dignity-health-sports-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24370850",
+   "rules": "auto"
+  },
+  "tql-stadium": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1445692208",
+   "rules": "auto"
+  },
+  "maverik-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00263A",
+    "#8A8D8F"
+   ],
+   "seat_colors_source": {
+    "team": "Utah State Aggies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/998050478",
+   "rules": "auto"
+  },
+  "a-w-mumford-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#05356E",
+    "#FFC72C"
+   ],
+   "seat_colors_source": {
+    "team": "Southern Jaguars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/996765168",
+   "rules": "auto"
+  },
+  "bragg-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#008344",
+    "#F4811F"
+   ],
+   "seat_colors_source": {
+    "team": "Florida A&M Rattlers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/171476790",
+   "rules": "auto"
+  },
+  "hancock-whitney-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00205B",
+    "#BF0D3E"
+   ],
+   "seat_colors_source": {
+    "team": "South Alabama Jaguars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/17058985",
+   "rules": "auto"
+  },
+  "dix-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#002664",
+    "#EFAB00"
+   ],
+   "seat_colors_source": {
+    "team": "Kent State Golden Flashes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/201800149",
+   "rules": "auto"
+  },
+  "washington-grizzly-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#5E001D",
+    "#6B6B6B"
+   ],
+   "seat_colors_source": {
+    "team": "Montana Grizzlies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/96778247",
+   "rules": "auto"
+  },
+  "tropicana-field": {
+   "archetype": "ballpark",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "infield": "dirt",
+   "seat_colors": [
+    "#092C5C",
+    "#8FBCE6"
+   ],
+   "seat_colors_source": {
+    "team": "Tampa Bay Rays",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/712876268",
+   "rules": "auto"
+  },
+  "broadview-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#005BBB",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Buffalo Bulls",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/640139435",
+   "rules": "auto"
+  },
+  "allen-e-paulson-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#041E42",
+    "#A99260"
+   ],
+   "seat_colors_source": {
+    "team": "Georgia Southern Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182052552",
+   "rules": "auto"
+  },
+  "harvard-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#A31F36",
+    "#2C2A29"
+   ],
+   "seat_colors_source": {
+    "team": "Harvard Crimson",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/228770377",
+   "rules": "auto"
+  },
+  "inter-co-stadium": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/9219427",
+   "rules": "auto"
+  },
+  "nashville-superspeedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/185564013",
+   "rules": "auto"
+  },
+  "sports-illustrated-stadium": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/75692796",
+   "rules": "auto"
+  },
+  "williams-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0A254E",
+    "#B72025"
+   ],
+   "seat_colors_source": {
+    "team": "Liberty Flames",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/897718684",
+   "rules": "auto"
+  },
+  "bridgeforth-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#450084",
+    "#B3A369"
+   ],
+   "seat_colors_source": {
+    "team": "James Madison Dukes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/118039011",
+   "rules": "auto"
+  },
+  "providence-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/99615044",
+   "rules": "auto"
+  },
+  "charles-schwab-field": {
+   "archetype": "ballpark",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "infield": "dirt",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/7120081",
+   "rules": "auto"
+  },
+  "center-parc-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0039A6",
+    "#CC0000"
+   ],
+   "seat_colors_source": {
+    "team": "Georgia State Panthers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/3421244",
+   "rules": "auto"
+  },
+  "yager-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#B61E2E",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Miami RedHawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/83700966",
+   "rules": "auto"
+  },
+  "doyt-perry-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#4F2C1D",
+    "#FF7300"
+   ],
+   "seat_colors_source": {
+    "team": "Bowling Green Falcons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182518894",
+   "rules": "auto"
+  },
+  "memorial-stadium-tx": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "peden-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#154734",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Ohio Bobcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/38525379",
+   "rules": "auto"
+  },
+  "arthur-ashe-stadium": {
+   "archetype": "tennis_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "retractable",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [
+    "retractable_roof_frame"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/way/284859611",
+   "rules": "auto"
+  },
+  "fitton-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#602D89",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Holy Cross Crusaders",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "amfirst-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#CA2026",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Jacksonville State Gamecocks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1190959539",
+   "rules": "auto"
+  },
+  "casem-spinks-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#512D6D",
+    "#CC8A00"
+   ],
+   "seat_colors_source": {
+    "team": "Alcorn State Braves",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "scheumann-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#BA0C2F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Ball State Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/485108483",
+   "rules": "auto"
+  },
+  "energizer-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1268400174",
+   "rules": "auto"
+  },
+  "houchens-industries-l-t-smith-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#B01E24",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Western Kentucky Hilltoppers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "kfc-yum-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#C9001F",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Louisville Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/331282808",
+   "rules": "auto"
+  },
+  "shell-energy-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#6F263D",
+    "#A2AAAD"
+   ],
+   "seat_colors_source": {
+    "team": "Texas Southern Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/261098257",
+   "rules": "auto"
+  },
+  "first-horizon-coliseum": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "oliver-c-dawson-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#900028",
+    "#084897"
+   ],
+   "seat_colors_source": {
+    "team": "South Carolina State Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/665438047",
+   "rules": "auto"
+  },
+  "s-b-ballard-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#003767",
+    "#95999C"
+   ],
+   "seat_colors_source": {
+    "team": "Old Dominion Monarchs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "dean-smith-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#7BAFD4",
+    "#13294B"
+   ],
+   "seat_colors_source": {
+    "team": "North Carolina Tar Heels",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/44345694",
+   "rules": "auto"
+  },
+  "thompson-boling-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#FF8200",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Tennessee Volunteers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/310699001",
+   "rules": "auto"
+  },
+  "schoellkopf-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#B31B1B",
+    "#222222"
+   ],
+   "seat_colors_source": {
+    "team": "Cornell Big Red",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/139661943",
+   "rules": "auto"
+  },
+  "truist-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#004684",
+    "#FDB927"
+   ],
+   "seat_colors_source": {
+    "team": "North Carolina A&T Aggies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/664163532",
+   "rules": "auto"
+  },
+  "hornet-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#043927",
+    "#C4B581"
+   ],
+   "seat_colors_source": {
+    "team": "Sacramento State Hornets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/535418848",
+   "rules": "auto"
+  },
+  "brooks-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#006F71",
+    "#A27752"
+   ],
+   "seat_colors_source": {
+    "team": "Coastal Carolina Chanticleers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/610210985",
+   "rules": "auto"
+  },
+  "louis-crews-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#660000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Alabama A&M Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/61015026",
+   "rules": "auto"
+  },
+  "xfinity-mobile-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D428A",
+    "#C8102E"
+   ],
+   "seat_colors_source": {
+    "team": "Philadelphia 76ers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312366",
+   "rules": "auto"
+  },
+  "united-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#CE1141",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Chicago Bulls",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/205221993",
+   "rules": "auto"
+  },
+  "bobcat-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00205B",
+    "#BF995B"
+   ],
+   "seat_colors_source": {
+    "team": "Montana State Bobcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182050961",
+   "rules": "auto"
+  },
+  "q2-stadium": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "stambaugh-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#CE0E2D",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Youngstown State Penguins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/162826364",
+   "rules": "auto"
+  },
+  "rupp-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0033A0",
+    "#C8C9C7"
+   ],
+   "seat_colors_source": {
+    "team": "Kentucky Wildcats",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/311672565",
+   "rules": "auto"
+  },
+  "finley-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00386B",
+    "#E0AA0F"
+   ],
+   "seat_colors_source": {
+    "team": "Chattanooga Mocs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/598973649",
+   "rules": "auto"
+  },
+  "scottsmiracle-gro-field": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/836864820",
+   "rules": "auto"
+  },
+  "capital-one-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#002B5C",
+    "#E31837"
+   ],
+   "seat_colors_source": {
+    "team": "Washington Wizards",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/48041466",
+   "rules": "auto"
+  },
+  "little-caesars-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D428A",
+    "#C8102E"
+   ],
+   "seat_colors_source": {
+    "team": "Detroit Pistons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/526548805",
+   "rules": "auto"
+  },
+  "america-first-field": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/109429239",
+   "rules": "auto"
+  },
+  "madison-square-garden": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D428A",
+    "#F58426"
+   ],
+   "seat_colors_source": {
+    "team": "New York Knicks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [
+    "cable_ring_roof"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/way/138141251",
+   "rules": "hand-adjusted"
+  },
+  "audi-field": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/910656537",
+   "rules": "auto"
+  },
+  "pitbull-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#081E3F",
+    "#B6862C"
+   ],
+   "seat_colors_source": {
+    "team": "FIU Panthers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/96293291",
+   "rules": "auto"
+  },
+  "richard-gouse-field-at-brown-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#4E3629",
+    "#C00404"
+   ],
+   "seat_colors_source": {
+    "team": "Brown Bears",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "roy-kidd-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#861F41",
+    "#87909A"
+   ],
+   "seat_colors_source": {
+    "team": "Eastern Kentucky Colonels",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182044423",
+   "rules": "auto"
+  },
+  "seatgeek-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#006666",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Chicago State Cougars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/69135226",
+   "rules": "auto"
+  },
+  "north-wilkesboro-speedway": {
+   "archetype": "oval_track",
+   "layout": "oval",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/18928710",
+   "rules": "auto"
+  },
+  "eddie-g-robinson-memorial-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#000000",
+    "#ECAA00"
+   ],
+   "seat_colors_source": {
+    "team": "Grambling State Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "kaseya-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#98002E"
+   ],
+   "seat_colors_source": {
+    "team": "Miami Heat",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312625",
+   "rules": "auto"
+  },
+  "ball-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0E2240",
+    "#FEC524"
+   ],
+   "seat_colors_source": {
+    "team": "Denver Nuggets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312645",
+   "rules": "auto"
+  },
+  "value-city-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#BA0C2F",
+    "#A7B1B7"
+   ],
+   "seat_colors_source": {
+    "team": "Ohio State Buckeyes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/30172563",
+   "rules": "auto"
+  },
+  "spectrum-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#00788C",
+    "#1D1160"
+   ],
+   "seat_colors_source": {
+    "team": "Charlotte Hornets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/773909122",
+   "rules": "auto"
+  },
+  "rocket-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#860038",
+    "#BC945C"
+   ],
+   "seat_colors_source": {
+    "team": "Cleveland Cavaliers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312465",
+   "rules": "auto"
+  },
+  "allianz-field": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/588533245",
+   "rules": "auto"
+  },
+  "moda-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#E03A3E"
+   ],
+   "seat_colors_source": {
+    "team": "Portland Trail Blazers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24635906",
+   "rules": "auto"
+  },
+  "bud-walton-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#A41F35",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Arkansas Razorbacks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/469590531",
+   "rules": "auto"
+  },
+  "lenovo-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#000000",
+    "#CC0000"
+   ],
+   "seat_colors_source": {
+    "team": "Carolina Hurricanes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/47732090",
+   "rules": "auto"
+  },
+  "dana-j-dykhouse-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0032A0",
+    "#FFD100"
+   ],
+   "seat_colors_source": {
+    "team": "South Dakota State Jackrabbits",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/663257501",
+   "rules": "auto"
+  },
+  "amerant-bank-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#C8102E",
+    "#041E42"
+   ],
+   "seat_colors_source": {
+    "team": "Florida Panthers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/43903801",
+   "rules": "auto"
+  },
+  "american-airlines-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0064B1",
+    "#BBC4CA"
+   ],
+   "seat_colors_source": {
+    "team": "Dallas Mavericks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312698",
+   "rules": "auto"
+  },
+  "sap-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#00778B",
+    "#010101"
+   ],
+   "seat_colors_source": {
+    "team": "San Jose Sharks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24169210",
+   "rules": "auto"
+  },
+  "td-garden": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#008348",
+    "#008348"
+   ],
+   "seat_colors_source": {
+    "team": "Boston Celtics",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25123637",
+   "rules": "auto"
+  },
+  "benchmark-international-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#00205B",
+    "#00205B"
+   ],
+   "seat_colors_source": {
+    "team": "Tampa Bay Lightning",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/12296444",
+   "rules": "auto"
+  },
+  "crypto-com-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#31006F",
+    "#FDB927"
+   ],
+   "seat_colors_source": {
+    "team": "Los Angeles Lakers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/428021739",
+   "rules": "auto"
+  },
+  "keybank-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#003087",
+    "#FFB81C"
+   ],
+   "seat_colors_source": {
+    "team": "Buffalo Sabres",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/626433722",
+   "rules": "auto"
+  },
+  "kia-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0050B5",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Orlando Magic",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1382445382",
+   "rules": "auto"
+  },
+  "target-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D428A",
+    "#009A44"
+   ],
+   "seat_colors_source": {
+    "team": "Minnesota Timberwolves",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23125943",
+   "rules": "auto"
+  },
+  "prudential-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#CC0000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "New Jersey Devils",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1421198650",
+   "rules": "auto"
+  },
+  "fargodome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#005643",
+    "#FFC82E"
+   ],
+   "seat_colors_source": {
+    "team": "North Dakota State Bison",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/49234602",
+   "rules": "auto"
+  },
+  "delaware-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/663852213",
+   "rules": "auto"
+  },
+  "nationwide-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#041E42",
+    "#C8102E"
+   ],
+   "seat_colors_source": {
+    "team": "Columbus Blue Jackets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/30266537",
+   "rules": "auto"
+  },
+  "subaru-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/158031721",
+   "rules": "auto"
+  },
+  "sporting-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/195234182",
+   "rules": "auto"
+  },
+  "frost-bank-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#C4CED4"
+   ],
+   "seat_colors_source": {
+    "team": "San Antonio Spurs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25313089",
+   "rules": "auto"
+  },
+  "chi-health-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#005CA9",
+    "#00235D"
+   ],
+   "seat_colors_source": {
+    "team": "Creighton Bluejays",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/615971028",
+   "rules": "auto"
+  },
+  "intuit-dome": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#12173F",
+    "#C8102E"
+   ],
+   "seat_colors_source": {
+    "team": "Los Angeles Clippers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/435997602",
+   "rules": "auto"
+  },
+  "cefcu-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#0038A8",
+    "#FFB81A"
+   ],
+   "seat_colors_source": {
+    "team": "San Jose State Spartans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/28462717",
+   "rules": "auto"
+  },
+  "paycom-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#007AC1",
+    "#EF3B24"
+   ],
+   "seat_colors_source": {
+    "team": "Oklahoma City Thunder",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25313306",
+   "rules": "auto"
+  },
+  "ppg-paints-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#000000",
+    "#FFB81C"
+   ],
+   "seat_colors_source": {
+    "team": "Pittsburgh Penguins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/130358195",
+   "rules": "auto"
+  },
+  "delta-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#4E008E",
+    "#79A3DC"
+   ],
+   "seat_colors_source": {
+    "team": "Utah Jazz",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23335190",
+   "rules": "auto"
+  },
+  "toyota-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#CE0E2D",
+    "#FFD520"
+   ],
+   "seat_colors_source": {
+    "team": "Houston Rockets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312761",
+   "rules": "auto"
+  },
+  "enterprise-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#006AC6",
+    "#FFB81C"
+   ],
+   "seat_colors_source": {
+    "team": "St. Louis Blues",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/42369176",
+   "rules": "auto"
+  },
+  "chase-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D428A",
+    "#FDB927"
+   ],
+   "seat_colors_source": {
+    "team": "Golden State Warriors",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/579646390",
+   "rules": "auto"
+  },
+  "dick-s-sporting-goods-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/626539832",
+   "rules": "auto"
+  },
+  "colonial-life-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#73000A",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "South Carolina Gamecocks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/110351219",
+   "rules": "auto"
+  },
+  "paypal-park": {
+   "archetype": "soccer_specific",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/329840159",
+   "rules": "auto"
+  },
+  "marriott-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "BYU Cougars",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/83857518",
+   "rules": "auto"
+  },
+  "grand-casino-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#0E4431",
+    "#AC1A2E"
+   ],
+   "seat_colors_source": {
+    "team": "Minnesota Wild",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/20658401",
+   "rules": "auto"
+  },
+  "thomas-and-mack-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/27146787",
+   "rules": "auto"
+  },
+  "bok-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/60964213",
+   "rules": "auto"
+  },
+  "navarre-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#00529B",
+    "#FFD204"
+   ],
+   "seat_colors_source": {
+    "team": "McNeese Cowboys",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "golden-1-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#5A2D81"
+   ],
+   "seat_colors_source": {
+    "team": "Sacramento Kings",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/313991370",
+   "rules": "auto"
+  },
+  "barclays-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Brooklyn Nets",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/8610205",
+   "rules": "auto"
+  },
+  "provost-umphrey-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#E31937",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Lamar Cardinals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/259789101",
+   "rules": "auto"
+  },
+  "robert-w-plaster-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#5E0009",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Missouri State Bears",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/503462664",
+   "rules": "auto"
+  },
+  "t-mobile-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#B9975B",
+    "#333F48"
+   ],
+   "seat_colors_source": {
+    "team": "Vegas Golden Knights",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/364489406",
+   "rules": "auto"
+  },
+  "fiserv-forum": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#00471B",
+    "#EEE1C6"
+   ],
+   "seat_colors_source": {
+    "team": "Milwaukee Bucks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/10689047",
+   "rules": "auto"
+  },
+  "xfinity-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#CE1126",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Maryland Terrapins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/23544340",
+   "rules": "auto"
+  },
+  "kohl-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#C5050C",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Wisconsin Badgers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/49982700",
+   "rules": "auto"
+  },
+  "gainbridge-fieldhouse": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0C2340",
+    "#FFD520"
+   ],
+   "seat_colors_source": {
+    "team": "Indiana Pacers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/341313456",
+   "rules": "auto"
+  },
+  "ubs-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#003087",
+    "#FC4C02"
+   ],
+   "seat_colors_source": {
+    "team": "New York Islanders",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/328876880",
+   "rules": "auto"
+  },
+  "simon-skjodt-assembly-hall": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#990000",
+    "#EDEBEB"
+   ],
+   "seat_colors_source": {
+    "team": "Indiana Hoosiers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/104956220",
+   "rules": "auto"
+  },
+  "uni-dome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#500778",
+    "#FFB500"
+   ],
+   "seat_colors_source": {
+    "team": "Northern Iowa Panthers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/200169856",
+   "rules": "auto"
+  },
+  "honda-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#CF4520",
+    "#89734C"
+   ],
+   "seat_colors_source": {
+    "team": "Anaheim Ducks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/120623151",
+   "rules": "auto"
+  },
+  "bridgestone-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#FFB81C",
+    "#041E42"
+   ],
+   "seat_colors_source": {
+    "team": "Nashville Predators",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/130905914",
+   "rules": "auto"
+  },
+  "climate-pledge-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "ice",
+   "seat_colors": [
+    "#001425",
+    "#96D8D8"
+   ],
+   "seat_colors_source": {
+    "team": "Seattle Kraken",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25123756",
+   "rules": "auto"
+  },
+  "mortgage-matchup-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#1D1160",
+    "#E56020"
+   ],
+   "seat_colors_source": {
+    "team": "Phoenix Suns",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/24635397",
+   "rules": "auto"
+  },
+  "bowman-gray-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "asphalt",
+   "infield": "grass",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [
+    "inner_oval"
+   ],
+   "footprint_osm": "https://www.openstreetmap.org/way/297353436",
+   "rules": "hand-adjusted"
+  },
+  "robert-k-kraft-field-at-lawrence-a-wien-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#B9D9EB",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Columbia Lions",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "warren-mcguirk-alumni-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#881C1C",
+    "#27251F"
+   ],
+   "seat_colors_source": {
+    "team": "UMass Minutemen",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/182055816",
+   "rules": "auto"
+  },
+  "state-farm-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#C8102E",
+    "#FDB927"
+   ],
+   "seat_colors_source": {
+    "team": "Atlanta Hawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25312494",
+   "rules": "auto"
+  },
+  "smoothie-king-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0C2340",
+    "#B9975B"
+   ],
+   "seat_colors_source": {
+    "team": "New Orleans Pelicans",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/328669125",
+   "rules": "auto"
+  },
+  "roy-stewart-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#002144",
+    "#ECAC00"
+   ],
+   "seat_colors_source": {
+    "team": "Murray State Racers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/249901669",
+   "rules": "auto"
+  },
+  "fedexforum": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#5D76A9",
+    "#12173F"
+   ],
+   "seat_colors_source": {
+    "team": "Memphis Grizzlies",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/25123704",
+   "rules": "auto"
+  },
+  "tucker-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#4F2984",
+    "#FFDD00"
+   ],
+   "seat_colors_source": {
+    "team": "Tennessee Tech Golden Eagles",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1339291972",
+   "rules": "auto"
+  },
+  "hanson-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#663399",
+    "#FFCC00"
+   ],
+   "seat_colors_source": {
+    "team": "Western Illinois Leathernecks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/562604251",
+   "rules": "auto"
+  },
+  "indian-wells-tennis-garden": {
+   "archetype": "tennis_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/18810425",
+   "rules": "auto"
+  },
+  "goodman-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "seat_colors": [
+    "#653819",
+    "#C2A875"
+   ],
+   "seat_colors_source": {
+    "team": "Lehigh Mountain Hawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/6663770",
+   "rules": "auto"
+  },
+  "paladin-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#582C83",
+    "#A7A8AA"
+   ],
+   "seat_colors_source": {
+    "team": "Furman Paladins",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/6694686",
+   "rules": "auto"
+  },
+  "simmons-bank-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "harry-turpin-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#492F92",
+    "#F78426"
+   ],
+   "seat_colors_source": {
+    "team": "Northwestern State Demons",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/189192298",
+   "rules": "auto"
+  },
+  "save-mart-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#C41230",
+    "#13284C"
+   ],
+   "seat_colors_source": {
+    "team": "Fresno State Bulldogs",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/364434855",
+   "rules": "auto"
+  },
+  "state-farm-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#13294B",
+    "#FF5F05"
+   ],
+   "seat_colors_source": {
+    "team": "Illinois Fighting Illini",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/899034633",
+   "rules": "auto"
+  },
+  "pinnacle-bank-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#D00000",
+    "#F5F1E7"
+   ],
+   "seat_colors_source": {
+    "team": "Nebraska Cornhuskers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/208656832",
+   "rules": "auto"
+  },
+  "the-pit": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#BA0C2F",
+    "#A7A8AA"
+   ],
+   "seat_colors_source": {
+    "team": "New Mexico Lobos",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/168082968",
+   "rules": "auto"
+  },
+  "coleman-coliseum": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#B30838",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Alabama Crimson Tide",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/130611387",
+   "rules": "auto"
+  },
+  "jerry-richardson-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#005035",
+    "#A49665"
+   ],
+   "seat_colors_source": {
+    "team": "Charlotte 49ers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/1205686572",
+   "rules": "auto"
+  },
+  "allen-fieldhouse": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#0051BA",
+    "#E8000D"
+   ],
+   "seat_colors_source": {
+    "team": "Kansas Jayhawks",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/87102555",
+   "rules": "auto"
+  },
+  "bryce-jordan-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#001E44",
+    "#FFFFFF"
+   ],
+   "seat_colors_source": {
+    "team": "Penn State Nittany Lions",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/432216054",
+   "rules": "auto"
+  },
+  "kibbie-dome": {
+   "archetype": "dome",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "turf",
+   "seat_colors": [
+    "#EAAB00",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Idaho Vandals",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/245242112",
+   "rules": "auto"
+  },
+  "mvp-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#006B54",
+    "#FCC917"
+   ],
+   "seat_colors_source": {
+    "team": "Siena Saints",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/88968221",
+   "rules": "auto"
+  },
+  "clarence-t-c-ching-athletics-complex": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "grass",
+   "surface_inferred": true,
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/226760708",
+   "rules": "auto"
+  },
+  "united-supermarkets-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/78290254",
+   "rules": "auto"
+  },
+  "mizzou-arena": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#000000",
+    "#FDB719"
+   ],
+   "seat_colors_source": {
+    "team": "Missouri Tigers",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/283306926",
+   "rules": "auto"
+  },
+  "hilton-coliseum": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#C8102E",
+    "#F1BE48"
+   ],
+   "seat_colors_source": {
+    "team": "Iowa State Cyclones",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/180651868",
+   "rules": "auto"
+  },
+  "jon-m-huntsman-center": {
+   "archetype": "arena",
+   "tiers": 2,
+   "open_ends": 0,
+   "roof": "dome",
+   "surface": "court",
+   "seat_colors": [
+    "#BE0000",
+    "#000000"
+   ],
+   "seat_colors_source": {
+    "team": "Utah Utes",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/way/33633100",
+   "rules": "auto"
+  },
+  "panther-stadium-at-blackshear-field": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#8C939C",
+    "#5B6470"
+   ],
+   "seat_colors_source": null,
+   "features": [],
+   "footprint_osm": null,
+   "rules": "auto"
+  },
+  "saluki-stadium": {
+   "archetype": "full_bowl",
+   "tiers": 1,
+   "open_ends": 0,
+   "roof": "open",
+   "surface": "turf",
+   "seat_colors": [
+    "#72253D",
+    "#7C868D"
+   ],
+   "seat_colors_source": {
+    "team": "Southern Illinois Salukis",
+    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "brand_guide": null
+   },
+   "features": [],
+   "footprint_osm": "https://www.openstreetmap.org/relation/19120196",
+   "rules": "auto"
+  }
+ }
+}

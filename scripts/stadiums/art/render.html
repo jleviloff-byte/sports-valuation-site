@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>brick render</title>
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+<script type="importmap">
+{ "imports": {
+  "three": "/node_modules/three/build/three.module.js",
+  "three/addons/": "/node_modules/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<script type="module">
+import * as THREE from 'three'
+import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js'
+import { buildVenue, fitCamera, addLights } from './model.js'
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true })
+renderer.setPixelRatio(1)
+renderer.outputColorSpace = THREE.SRGBColorSpace
+renderer.setClearColor(0x000000, 0)
+document.body.appendChild(renderer.domElement)
+
+// Renders one venue; returns PNG data URL plus a GLB (base64) without the outline lines.
+window.renderVenue = async (spec, ring, size = 1024) => {
+  const scene = new THREE.Scene()
+  addLights(scene)
+  const group = buildVenue(spec, ring)
+  scene.add(group)
+  renderer.setSize(size, size)
+  const cam = fitCamera(group, 1)
+  renderer.render(scene, cam)
+  const png = renderer.domElement.toDataURL('image/png')
+
+  const exportGroup = group.clone()
+  exportGroup.remove(exportGroup.getObjectByName('outline'))
+  const glb = await new GLTFExporter().parseAsync(exportGroup, { binary: true })
+  const bytes = new Uint8Array(glb)
+  let bin = ''
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000))
+  return { png, glb: btoa(bin), stats: group.userData }
+}
+window.ready = true
+</script>
+</body>
+</html>
