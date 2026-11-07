@@ -24,6 +24,23 @@ const HINTS = [
   '<link rel="preload" href="/map-styles/muted-dark.json" as="fetch" crossorigin="anonymous" media="(prefers-color-scheme: dark)" />',
   '<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />',
 ].join('\n    ')
+// The home route's code and team data live in their own chunk now; on "/" only,
+// preload it and its static imports in parallel with the entry bundle so home
+// isn't delayed by an extra round trip. Other routes are unaffected.
+{
+  const indexPath = path.join(dist, 'index.html')
+  let idx = fs.readFileSync(indexPath, 'utf8')
+  const home = assets.find((a) => /^Home-[\w-]+\.js$/.test(a))
+  if (home && !idx.includes('data-home-preload')) {
+    const code = fs.readFileSync(path.join(dist, 'assets', home), 'utf8')
+    const deps = [...new Set([...code.matchAll(/from"\.\/([\w-]+\.js)"/g)].map((m) => m[1]))].filter((d) => !/^(index|react)-/.test(d))
+    const urls = [home, ...deps].map((f) => `/assets/${f}`)
+    const script = `<script data-home-preload>if(location.pathname==='/'){${JSON.stringify(urls)}.forEach(function(h){var l=document.createElement('link');l.rel='modulepreload';l.href=h;document.head.appendChild(l)})}</script>`
+    idx = idx.replace('</head>', `    ${script}\n  </head>`)
+    fs.writeFileSync(indexPath, idx)
+    console.log(`home preload: ${urls.join(', ')}`)
+  }
+}
 const { venues } = JSON.parse(fs.readFileSync('public/stadiums/index.json', 'utf8'))
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const fmt = (n) => n.toLocaleString('en-US')

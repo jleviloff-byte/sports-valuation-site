@@ -1,24 +1,16 @@
-import { useState, useEffect, useRef, lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route, Link, useLocation, useSearchParams } from 'react-router-dom'
-import teams from '../data/allTeams.js'
-import { getEnrichment } from '../data/enrichments.js'
+import { useState, useEffect, lazy, Suspense } from 'react'
+import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
+// The shell only needs ticker rows and two footer constants, generated at build
+// time by scripts/build-ticker-data.mjs. Full team data loads with the home route.
+import { tickerTeams, TEAM_COUNT, DATA_YEARS } from '../data/ticker-data.js'
 import {
-  trackTeamViewed,
-  trackScrollDepth,
   trackSubstackReferralOnce,
   trackPageView,
 } from './utils/analytics.js'
-import TitleBar from './components/TitleBar.jsx'
-import LeagueExplorer from './components/LeagueExplorer.jsx'
 import Ticker from './components/Ticker.jsx'
+import SectionSkeleton from './components/SectionSkeleton.jsx'
 
-// Heavy / below-the-fold components — lazy-loaded so the recharts + d3
-// chunks don't ship with the initial bundle. Each chunk only downloads
-// when the wrapping <LazyOnVisible> scrolls near the viewport.
-const ValuationsOverTime = lazy(() => import('./components/ValuationsOverTime.jsx'))
-const CitiesMap          = lazy(() => import('./components/CitiesMap.jsx'))
-const CompareTool        = lazy(() => import('./components/CompareTool.jsx'))
-const TeamDetailPanel    = lazy(() => import('./components/TeamDetailPanel.jsx'))
+const HomePage       = lazy(() => import('./pages/Home.jsx'))
 
 // Legal/info pages are tiny but route-split so initial route doesn't pay
 // for them.
@@ -32,56 +24,6 @@ const Stadiums       = lazy(() => import('./pages/Stadiums.jsx'))
 
 // Scrolls to the in-page anchor when the URL hash changes (since react-router
 // doesn't do this automatically). Also scrolls to top on plain route changes.
-// Renders a placeholder until the wrapper scrolls within `rootMargin` of
-// the viewport, then mounts its children. Combined with React.lazy, this
-// defers the chunk *download* — not just the render — for below-the-fold
-// components like the macro chart, cities map, and compare tool.
-function LazyOnVisible({ children, minHeight = 480, rootMargin = '320px' }) {
-  const [visible, setVisible] = useState(false)
-  const ref = useRef(null)
-  useEffect(() => {
-    if (visible) return
-    if (typeof IntersectionObserver === 'undefined') {
-      // Older browsers: render immediately.
-      setVisible(true)
-      return
-    }
-    const el = ref.current
-    if (!el) return
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true)
-          observer.disconnect()
-        }
-      },
-      { rootMargin }
-    )
-    observer.observe(el)
-    return () => observer.disconnect()
-  }, [visible, rootMargin])
-
-  return (
-    <div ref={ref} style={{ minHeight: visible ? undefined : minHeight }}>
-      {visible && children}
-    </div>
-  )
-}
-
-// Simple neutral skeleton matching the editorial aesthetic — used as
-// Suspense fallback while a lazy chunk downloads.
-function SectionSkeleton({ label = 'Loading…', height = 480 }) {
-  return (
-    <div
-      className="border-t border-rule flex items-center justify-center"
-      style={{ minHeight: height }}
-    >
-      <span className="font-mono text-[10px] tracking-widest uppercase text-ash">
-        {label}
-      </span>
-    </div>
-  )
-}
 
 function ScrollManager() {
   const location = useLocation()
@@ -102,14 +44,6 @@ function ScrollManager() {
   }, [location.pathname, location.hash, location.search])
   return null
 }
-
-// Span of Forbes list years behind the headline valuations (e.g. "2024–2026").
-const DATA_YEARS = (() => {
-  const ys = teams.map((t) => t.valuationYear).filter(Boolean)
-  const lo = Math.min(...ys)
-  const hi = Math.max(...ys)
-  return lo === hi ? String(hi) : `${lo}–${hi}`
-})()
 
 const MOBILE_NAV_LINKS = [
   { to: '/#explorer',     label: 'Explore Teams' },
@@ -293,7 +227,7 @@ function Footer() {
         {/* Bottom row — colophon */}
         <div className="border-t border-rule mt-6 pt-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <span className="font-mono text-[10px] text-slate tracking-widest uppercase">
-            Franchise Math &nbsp;·&nbsp; Data: Forbes {DATA_YEARS} lists &nbsp;·&nbsp; {teams.length} franchises &nbsp;·&nbsp; 6 leagues
+            Franchise Math &nbsp;·&nbsp; Data: Forbes {DATA_YEARS} lists &nbsp;·&nbsp; {TEAM_COUNT} franchises &nbsp;·&nbsp; 6 leagues
           </span>
           <span className="font-mono text-[10px] text-ash tracking-widest uppercase">
             © 2026 Josh Leviloff
@@ -301,109 +235,6 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
-}
-
-function useScrollDepthTracking() {
-  // Fires scroll_depth events at 25/50/75/90% page depth, once per mount.
-  useEffect(() => {
-    const fired = new Set()
-    function onScroll() {
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight
-      if (docHeight <= 0) return
-      const depth = Math.min(100, Math.round((window.scrollY / docHeight) * 100))
-      for (const t of [25, 50, 75, 90]) {
-        if (depth >= t && !fired.has(t)) {
-          fired.add(t)
-          trackScrollDepth(t)
-        }
-      }
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
-}
-
-function HomePage() {
-  const [searchParams, setSearchParams] = useSearchParams()
-  const [selectedTeam, setSelectedTeam] = useState(null)
-  useScrollDepthTracking()
-
-  // Deep link: /?team=<teamId> opens that team's profile (used by Recent Sales).
-  const deepLinkId = searchParams.get('team')
-  useEffect(() => {
-    if (!deepLinkId) return
-    const team = teams.find((t) => t.id === deepLinkId)
-    if (team) handleSelectTeam(team)
-  }, [deepLinkId])
-
-  function handleSelectTeam(team) {
-    setSelectedTeam(team)
-    if (team) trackTeamViewed(team.name, team.league, team.currentValuation)
-  }
-
-  function handleClosePanel() {
-    setSelectedTeam(null)
-    if (searchParams.has('team')) {
-      const next = new URLSearchParams(searchParams)
-      next.delete('team')
-      setSearchParams(next, { replace: true })
-    }
-  }
-
-  return (
-    <>
-      <main>
-        <TitleBar teamCount={teams.length} />
-        <LeagueExplorer
-          teams={teams}
-          onSelectTeam={handleSelectTeam}
-          selectedTeam={selectedTeam}
-        />
-
-        <div id="macro">
-          <LazyOnVisible minHeight={620}>
-            <Suspense fallback={<SectionSkeleton label="Loading macro chart…" height={620} />}>
-              <ValuationsOverTime teams={teams} />
-            </Suspense>
-          </LazyOnVisible>
-        </div>
-
-        {/* id wrappers sit OUTSIDE LazyOnVisible so the hash anchors
-            (/#cities, /#compare) resolve immediately on route change,
-            even before the IntersectionObserver has triggered the
-            heavyweight chart mount. Without this, clicking Cities or
-            Compare in the nav from another page silently scrolled to the
-            top because document.querySelector('#cities') returned null
-            at the moment ScrollManager ran. */}
-        <div id="cities">
-          <LazyOnVisible minHeight={760}>
-            <Suspense fallback={<SectionSkeleton label="Loading map…" height={760} />}>
-              <CitiesMap teams={teams} />
-            </Suspense>
-          </LazyOnVisible>
-        </div>
-
-        <div id="compare">
-          <LazyOnVisible minHeight={600}>
-            <Suspense fallback={<SectionSkeleton label="Loading compare tool…" height={600} />}>
-              <CompareTool teams={teams} />
-            </Suspense>
-          </LazyOnVisible>
-        </div>
-      </main>
-
-      {selectedTeam && (
-        <Suspense fallback={null}>
-          <TeamDetailPanel
-            team={selectedTeam}
-            enrichment={getEnrichment(selectedTeam.name)}
-            onClose={handleClosePanel}
-          />
-        </Suspense>
-      )}
-    </>
   )
 }
 
@@ -418,7 +249,7 @@ export default function App() {
       <div className="min-h-screen bg-paper text-ink font-sans">
         {/* Sticky animated ticker — always visible */}
         <div className="sticky top-0 z-50">
-          <Ticker teams={teams} />
+          <Ticker teams={tickerTeams} />
         </div>
         <Nav />
         <Suspense fallback={<SectionSkeleton label="Loading…" height={600} />}>

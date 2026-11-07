@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/stadiums/prerender-meta.mjs",
+    "build": "node scripts/build-ticker-data.mjs && vite build && node scripts/stadiums/prerender-meta.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

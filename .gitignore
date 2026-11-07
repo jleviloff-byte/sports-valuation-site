@@ -43,3 +43,9 @@ research/forbes-raw/
 # revision ids stored in research/raw/stadiums/infobox.json and per-field sources.
 research/raw/stadiums/wiki/*.json
 !research/raw/stadiums/wiki/_coordinates.json
+dist-before
+
+# Perf/visual-diff artifacts (screenshots are large and reproducible)
+research/perf/before/
+research/perf/after/
+research/perf/before2/

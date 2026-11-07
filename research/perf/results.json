@@ -1,0 +1,482 @@
+{
+ "local-before-shell-split": {
+  "measured": "2026-11-07T12:49:08.350Z",
+  "base": "http://localhost:4174",
+  "results": [
+   {
+    "route": "/",
+    "median_ms": 1632,
+    "kb": 681,
+    "runs": [
+     1632,
+     1768,
+     1589
+    ]
+   },
+   {
+    "route": "/recent-sales",
+    "median_ms": 2604,
+    "kb": 798,
+    "runs": [
+     2858,
+     2279,
+     2604
+    ]
+   },
+   {
+    "route": "/forbes-breakdown",
+    "median_ms": 2134,
+    "kb": 703,
+    "runs": [
+     2093,
+     2480,
+     2134
+    ]
+   },
+   {
+    "route": "/methodology",
+    "median_ms": 2295,
+    "kb": 686,
+    "runs": [
+     2534,
+     2295,
+     2021
+    ]
+   },
+   {
+    "route": "/data-sources",
+    "median_ms": 1927,
+    "kb": 683,
+    "runs": [
+     1927,
+     1794,
+     2279
+    ]
+   },
+   {
+    "route": "/privacy",
+    "median_ms": 2124,
+    "kb": 682,
+    "runs": [
+     2124,
+     2731,
+     2078
+    ]
+   },
+   {
+    "route": "/terms",
+    "median_ms": 2331,
+    "kb": 682,
+    "runs": [
+     2479,
+     2084,
+     2331
+    ]
+   },
+   {
+    "route": "/stadiums",
+    "median_ms": 3718,
+    "kb": 932,
+    "runs": [
+     3001,
+     3740,
+     3718
+    ]
+   }
+  ]
+ },
+ "local-after-shell-split": {
+  "measured": "2026-11-07T12:50:13.597Z",
+  "base": "http://localhost:4173",
+  "results": [
+   {
+    "route": "/",
+    "median_ms": 2284,
+    "kb": 687,
+    "runs": [
+     3608,
+     2102,
+     2284
+    ]
+   },
+   {
+    "route": "/recent-sales",
+    "median_ms": 2219,
+    "kb": 797,
+    "runs": [
+     2219,
+     1944,
+     2266
+    ]
+   },
+   {
+    "route": "/forbes-breakdown",
+    "median_ms": 1988,
+    "kb": 686,
+    "runs": [
+     1562,
+     2405,
+     1988
+    ]
+   },
+   {
+    "route": "/methodology",
+    "median_ms": 1895,
+    "kb": 669,
+    "runs": [
+     1528,
+     1964,
+     1895
+    ]
+   },
+   {
+    "route": "/data-sources",
+    "median_ms": 1581,
+    "kb": 111,
+    "runs": [
+     1581,
+     1257,
+     1674
+    ]
+   },
+   {
+    "route": "/privacy",
+    "median_ms": 1732,
+    "kb": 77,
+    "runs": [
+     4137,
+     1732,
+     1435
+    ]
+   },
+   {
+    "route": "/terms",
+    "median_ms": 1798,
+    "kb": 77,
+    "runs": [
+     1798,
+     1363,
+     2174
+    ]
+   },
+   {
+    "route": "/stadiums",
+    "median_ms": 2444,
+    "kb": 388,
+    "runs": [
+     2707,
+     2444,
+     2285
+    ]
+   }
+  ]
+ },
+ "local-after-shell-split-preload": {
+  "measured": "2026-11-07T12:54:16.802Z",
+  "base": "http://localhost:4173",
+  "results": [
+   {
+    "route": "/",
+    "median_ms": 2765,
+    "kb": 687,
+    "runs": [
+     2565,
+     3529,
+     2631,
+     3246,
+     2765
+    ]
+   },
+   {
+    "route": "/recent-sales",
+    "median_ms": 2242,
+    "kb": 797,
+    "runs": [
+     2314,
+     1917,
+     2686,
+     1869,
+     2242
+    ]
+   },
+   {
+    "route": "/forbes-breakdown",
+    "median_ms": 3920,
+    "kb": 686,
+    "runs": [
+     1718,
+     2054,
+     5512,
+     10464,
+     3920
+    ]
+   },
+   {
+    "route": "/methodology",
+    "median_ms": 4564,
+    "kb": 669,
+    "runs": [
+     4823,
+     3320,
+     4564,
+     4082,
+     5544
+    ]
+   },
+   {
+    "route": "/data-sources",
+    "median_ms": 6129,
+    "kb": 111,
+    "runs": [
+     10791,
+     3507,
+     6249,
+     6129,
+     4102
+    ]
+   },
+   {
+    "route": "/privacy",
+    "median_ms": 3027,
+    "kb": 78,
+    "runs": [
+     3765,
+     4341,
+     2631,
+     2496,
+     3027
+    ]
+   },
+   {
+    "route": "/terms",
+    "median_ms": 5507,
+    "kb": 78,
+    "runs": [
+     7034,
+     3096,
+     8078,
+     3040,
+     5507
+    ]
+   },
+   {
+    "route": "/stadiums",
+    "median_ms": 5757,
+    "kb": 639,
+    "runs": [
+     10620,
+     5757,
+     4119,
+     7539,
+     4316
+    ]
+   }
+  ]
+ },
+ "local-AB-before-vs-shell-split": {
+  "measured": "2026-11-07T13:02:16.290Z",
+  "base": "http://localhost:4174",
+  "results": [
+   {
+    "route": "/",
+    "median_ms": 2914,
+    "kb": 681,
+    "runs": [
+     3013,
+     2499,
+     5375,
+     4238,
+     2436,
+     2914,
+     2479
+    ],
+    "b_median_ms": 10739,
+    "b_kb": 687,
+    "b_runs": [
+     4489,
+     12912,
+     10721,
+     5072,
+     10739,
+     12179,
+     12022
+    ]
+   },
+   {
+    "route": "/recent-sales",
+    "median_ms": 3911,
+    "kb": 798,
+    "runs": [
+     5032,
+     4598,
+     4180,
+     3911,
+     2990,
+     3178,
+     3649
+    ],
+    "b_median_ms": 2972,
+    "b_kb": 797,
+    "b_runs": [
+     2635,
+     3066,
+     2972,
+     3383,
+     3636,
+     2835,
+     2633
+    ]
+   },
+   {
+    "route": "/forbes-breakdown",
+    "median_ms": 3506,
+    "kb": 703,
+    "runs": [
+     3557,
+     3839,
+     3005,
+     2731,
+     2955,
+     3506,
+     4097
+    ],
+    "b_median_ms": 3569,
+    "b_kb": 686,
+    "b_runs": [
+     2616,
+     3325,
+     3619,
+     3613,
+     3933,
+     2580,
+     3569
+    ]
+   },
+   {
+    "route": "/methodology",
+    "median_ms": 3458,
+    "kb": 686,
+    "runs": [
+     4205,
+     4020,
+     4206,
+     3309,
+     3458,
+     2567,
+     2713
+    ],
+    "b_median_ms": 3305,
+    "b_kb": 669,
+    "b_runs": [
+     2250,
+     2690,
+     3305,
+     4021,
+     4079,
+     3155,
+     4182
+    ]
+   },
+   {
+    "route": "/data-sources",
+    "median_ms": 3056,
+    "kb": 683,
+    "runs": [
+     3557,
+     4105,
+     3641,
+     3056,
+     2306,
+     2762,
+     2519
+    ],
+    "b_median_ms": 1865,
+    "b_kb": 111,
+    "b_runs": [
+     1865,
+     2104,
+     1502,
+     2044,
+     1907,
+     1688,
+     1494
+    ]
+   },
+   {
+    "route": "/privacy",
+    "median_ms": 2522,
+    "kb": 682,
+    "runs": [
+     2452,
+     2522,
+     2646,
+     2469,
+     2552,
+     3313,
+     2516
+    ],
+    "b_median_ms": 1689,
+    "b_kb": 78,
+    "b_runs": [
+     1689,
+     1823,
+     1594,
+     1318,
+     1311,
+     1884,
+     1901
+    ]
+   },
+   {
+    "route": "/terms",
+    "median_ms": 2082,
+    "kb": 682,
+    "runs": [
+     2082,
+     2586,
+     2549,
+     1933,
+     1921,
+     3109,
+     2016
+    ],
+    "b_median_ms": 1926,
+    "b_kb": 78,
+    "b_runs": [
+     2639,
+     1926,
+     2002,
+     2020,
+     1699,
+     1881,
+     1660
+    ]
+   },
+   {
+    "route": "/stadiums",
+    "median_ms": 3975,
+    "kb": 932,
+    "runs": [
+     4533,
+     3975,
+     3991,
+     4506,
+     3270,
+     3157,
+     3395
+    ],
+    "b_median_ms": 3220,
+    "b_kb": 433,
+    "b_runs": [
+     2691,
+     2405,
+     2522,
+     3270,
+     3354,
+     3315,
+     3220
+    ]
+   }
+  ]
+ }
+}
