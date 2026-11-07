@@ -11,6 +11,8 @@ const LoadoutCard = lazy(() => import('../components/stadiums/LoadoutCard.jsx'))
 const LEAGUES = ['NFL', 'MLB', 'NBA', 'NHL', 'MLS', 'NWSL', 'WNBA', 'NCAA FBS', 'NCAA FCS', 'NCAA D1 basketball', 'NASCAR Cup', 'IndyCar', 'Formula 1', 'Tennis', 'Neutral site']
 const LEAGUE_LABEL = { 'NCAA D1 basketball': 'College hoops', 'NCAA FBS': 'FBS', 'NCAA FCS': 'FCS', 'NASCAR Cup': 'NASCAR', 'Formula 1': 'F1', 'Neutral site': 'Neutral site' }
 const fmt = (n) => n.toLocaleString('en-US')
+// Racetrack capacities are estimates; label them wherever a capacity shows.
+const capLabel = (v) => `${fmt(v.cap)}${v.ct === 'estimated' ? ' est.' : ''}`
 const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
 
 function useStadiumIndex() {
@@ -92,7 +94,7 @@ function Search({ venues, onPick }) {
             <li key={r.v.s} role="option" aria-selected={i === active}>
               <button type="button" onMouseDown={() => pick(r)} className={`w-full text-left px-3 py-2 ${i === active ? 'bg-accent-soft' : ''}`}>
                 <div className="text-sm text-ink">{r.v.n}</div>
-                <div className="font-mono text-[10px] text-slate">{r.why} · {fmt(r.v.cap)}</div>
+                <div className="font-mono text-[10px] text-slate">{r.why} · {capLabel(r.v)}</div>
               </button>
             </li>
           ))}
@@ -115,7 +117,8 @@ export default function Stadiums() {
 
   const all = data?.venues || []
   const filtered = useMemo(() => all.filter((v) => v.cap >= minCap && (!leagues.size || v.lg.some((l) => leagues.has(l)))), [all, minCap, leagues])
-  const ranked = useMemo(() => [...all].sort((a, b) => a.r - b.r || a.n.localeCompare(b.n)), [all])
+  // Prev/next steps by capacity (racetracks included), not by US rank.
+  const ranked = useMemo(() => [...all].sort((a, b) => b.cap - a.cap || a.n.localeCompare(b.n)), [all])
   const hawaii = all.filter((v) => v.st === 'HI' || v.st === 'AK')
 
   // Keep filters in the URL so views can be shared.
@@ -128,7 +131,7 @@ export default function Stadiums() {
 
   const current = slug ? all.find((v) => v.s === slug) : null
   useEffect(() => {
-    if (current) setMeta(`${current.n}: ${fmt(current.cap)} seats | Stadium Map | Franchise Math`, `${current.n} in ${current.c}, ${current.st}: capacity ${fmt(current.cap)}, rank #${current.r} of ${all.length} US venues with 15,000+ seats. Tenants, cost in 2025 dollars, renovations and rankings.`, `/stadiums/${current.s}`)
+    if (current) setMeta(`${current.n}: ${capLabel(current)} seats | Stadium Map | Franchise Math`, `${current.n} in ${current.c}, ${current.st}: capacity ${capLabel(current)}${current.r ? `, rank #${current.r} among US venues with 15,000+ official seats` : ', ranked among motorsport venues only'}. Tenants, cost in 2025 dollars, renovations and rankings.`, `/stadiums/${current.s}`)
     else setMeta('Stadium Map: every US venue with 15,000+ seats | Franchise Math', `${all.length || 'Every'} US stadiums, arenas, ballparks, racetracks and tennis venues with 15,000+ seats, drawn to scale by capacity.`, '/stadiums')
   }, [current, all.length])
 

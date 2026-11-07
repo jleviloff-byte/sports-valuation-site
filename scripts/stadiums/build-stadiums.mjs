@@ -314,22 +314,30 @@ const rankBy = (list, val) => {
   sorted.forEach((v, i) => out.set(v.slug, i > 0 && val(sorted[i - 1]) === val(v) ? out.get(sorted[i - 1].slug) : i + 1))
   return out
 }
-const us = rankBy(included, (v) => v.capacity)
+// Estimated capacities (racetracks) are not comparable to official seated
+// figures, so they are left out of the US and state rankings and ranked only
+// among motorsport venues. Every other venue is ranked as before.
+const official = included.filter((v) => v.capacity_type !== 'estimated')
+const us = rankBy(official, (v) => v.capacity)
 const byState = {}
-for (const v of included) (byState[v.state] ||= []).push(v)
+for (const v of official) (byState[v.state] ||= []).push(v)
 const stateRanks = Object.fromEntries(Object.values(byState).flatMap((vs) => [...rankBy(vs, (v) => v.capacity)]))
 const sportsAll = [...new Set(included.flatMap((v) => v.sports))]
-const sportRanks = Object.fromEntries(sportsAll.map((s) => [s, rankBy(included.filter((v) => v.sports.includes(s)), (v) => v.capacity_by_sport[s])]))
-const counts = { us: included.length, state: Object.fromEntries(Object.entries(byState).map(([k, v]) => [k, v.length])), sport: Object.fromEntries(sportsAll.map((s) => [s, included.filter((v) => v.sports.includes(s)).length])) }
+const inSport = (s) => included.filter((v) => v.sports.includes(s) && (v.capacity_type !== 'estimated' || s === 'motorsport'))
+const sportRanks = Object.fromEntries(sportsAll.map((s) => [s, rankBy(inSport(s), (v) => v.capacity_by_sport[s])]))
+const counts = { us: official.length, state: Object.fromEntries(Object.entries(byState).map(([k, v]) => [k, v.length])), sport: Object.fromEntries(sportsAll.map((s) => [s, inSport(s).length])) }
 for (const v of included) {
+  const est = v.capacity_type === 'estimated'
+  const sports = est ? v.sports.filter((s) => s === 'motorsport') : v.sports
   v.rankings = {
-    us: us.get(v.slug), us_of: counts.us,
-    state: stateRanks[v.slug], state_of: counts.state[v.state],
-    sport: Object.fromEntries(v.sports.map((s) => [s, { rank: sportRanks[s].get(v.slug), of: counts.sport[s] }])),
+    us: est ? null : us.get(v.slug), us_of: counts.us,
+    state: est ? null : stateRanks[v.slug], state_of: est ? null : counts.state[v.state],
+    sport: Object.fromEntries(sports.map((s) => [s, { rank: sportRanks[s].get(v.slug), of: counts.sport[s] }])),
+    estimated_excluded: est || undefined,
   }
 }
 
-included.sort((a, b) => a.rankings.us - b.rankings.us || a.name.localeCompare(b.name))
+included.sort((a, b) => b.capacity - a.capacity || a.name.localeCompare(b.name))
 fs.mkdirSync('data', { recursive: true })
 fs.writeFileSync('data/stadiums.json', JSON.stringify({
   generated: new Date().toISOString(),

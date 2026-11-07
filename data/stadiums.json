@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:17:28.197Z",
+ "generated": "2026-11-07T13:08:43.950Z",
  "license": "Coordinates and footprints derived from OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0). Facts from Wikipedia (CC BY-SA 4.0) and official team/venue sites, cited per field. CPI-U from BLS (public domain).",
  "cpi_base_year": 2025,
  "cutoff": 15000,
@@ -66,16 +66,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 1,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 8,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 1,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -129,16 +130,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 2,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 13,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 2,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -201,16 +203,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 3,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 20,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 3,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -265,16 +268,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 4,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 28,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 4,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -371,10 +375,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 5,
-    "us_of": 354,
+    "us": 1,
+    "us_of": 323,
     "state": 1,
-    "state_of": 9,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 1,
@@ -519,10 +523,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 6,
-    "us_of": 354,
+    "us": 2,
+    "us_of": 323,
     "state": 1,
-    "state_of": 12,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 2,
@@ -613,10 +617,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 7,
-    "us_of": 354,
+    "us": 3,
+    "us_of": 323,
     "state": 1,
-    "state_of": 19,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 3,
@@ -728,10 +732,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 8,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 28,
+    "us": 4,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 4,
@@ -853,8 +857,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 9,
-    "us_of": 354,
+    "us": 5,
+    "us_of": 323,
     "state": 1,
     "state_of": 12,
     "sport": {
@@ -1020,10 +1024,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 10,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 13,
+    "us": 6,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 6,
@@ -1181,10 +1185,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 11,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 28,
+    "us": 7,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 7,
@@ -1294,10 +1298,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 12,
-    "us_of": 354,
+    "us": 8,
+    "us_of": 323,
     "state": 1,
-    "state_of": 12,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 8,
@@ -1357,16 +1361,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 13,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 16,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 5,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -1476,10 +1481,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 14,
-    "us_of": 354,
+    "us": 9,
+    "us_of": 323,
     "state": 1,
-    "state_of": 8,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 9,
@@ -1582,10 +1587,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 15,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 28,
+    "us": 10,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 10,
@@ -1640,16 +1645,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 16,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 12,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 6,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -1765,10 +1771,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 17,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 20,
+    "us": 11,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 11,
@@ -1931,10 +1937,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 18,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 12,
+    "us": 12,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 12,
@@ -2061,8 +2067,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 19,
-    "us_of": 354,
+    "us": 13,
+    "us_of": 323,
     "state": 1,
     "state_of": 4,
     "sport": {
@@ -2132,8 +2138,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 20,
-    "us_of": 354,
+    "us": 14,
+    "us_of": 323,
     "state": 1,
     "state_of": 5,
     "sport": {
@@ -2238,10 +2244,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 21,
-    "us_of": 354,
+    "us": 15,
+    "us_of": 323,
     "state": 1,
-    "state_of": 7,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 15,
@@ -2375,10 +2381,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 22,
-    "us_of": 354,
+    "us": 16,
+    "us_of": 323,
     "state": 1,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "football": {
       "rank": 16,
@@ -2438,10 +2444,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 23,
-    "us_of": 354,
+    "us": 17,
+    "us_of": 323,
     "state": 1,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 17,
@@ -2557,8 +2563,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 24,
-    "us_of": 354,
+    "us": 18,
+    "us_of": 323,
     "state": 1,
     "state_of": 5,
     "sport": {
@@ -2620,10 +2626,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 25,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 28,
+    "us": 19,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 19,
@@ -2683,16 +2689,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 25,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 5,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 7,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -2750,16 +2757,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 25,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 12,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 7,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -2827,10 +2835,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 28,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 8,
+    "us": 20,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 20,
@@ -2951,10 +2959,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 29,
-    "us_of": 354,
+    "us": 21,
+    "us_of": 323,
     "state": 2,
-    "state_of": 7,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 21,
@@ -3064,10 +3072,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 30,
-    "us_of": 354,
+    "us": 22,
+    "us_of": 323,
     "state": 2,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 22,
@@ -3126,16 +3134,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 31,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 12,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 9,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -3221,8 +3230,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 32,
-    "us_of": 354,
+    "us": 23,
+    "us_of": 323,
     "state": 1,
     "state_of": 8,
     "sport": {
@@ -3333,8 +3342,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 33,
-    "us_of": 354,
+    "us": 24,
+    "us_of": 323,
     "state": 1,
     "state_of": 4,
     "sport": {
@@ -3395,8 +3404,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 34,
-    "us_of": 354,
+    "us": 25,
+    "us_of": 323,
     "state": 1,
     "state_of": 7,
     "sport": {
@@ -3508,10 +3517,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 35,
-    "us_of": 354,
+    "us": 26,
+    "us_of": 323,
     "state": 2,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "football": {
       "rank": 26,
@@ -3633,10 +3642,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 36,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 16,
+    "us": 27,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 27,
@@ -3695,16 +3704,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 37,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 19,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 10,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -3753,16 +3763,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 37,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 28,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 10,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -3854,10 +3865,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 39,
-    "us_of": 354,
+    "us": 28,
+    "us_of": 323,
     "state": 2,
-    "state_of": 9,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 28,
@@ -3917,8 +3928,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 40,
-    "us_of": 354,
+    "us": 29,
+    "us_of": 323,
     "state": 2,
     "state_of": 12,
     "sport": {
@@ -3980,10 +3991,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 41,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 28,
+    "us": 30,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 30,
@@ -4075,8 +4086,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 42,
-    "us_of": 354,
+    "us": 31,
+    "us_of": 323,
     "state": 1,
     "state_of": 4,
     "sport": {
@@ -4187,10 +4198,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 43,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 12,
+    "us": 32,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 32,
@@ -4250,16 +4261,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 44,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 8,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 12,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -4320,10 +4332,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 44,
-    "us_of": 354,
+    "us": 33,
+    "us_of": 323,
     "state": 2,
-    "state_of": 8,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 33,
@@ -4388,8 +4400,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 46,
-    "us_of": 354,
+    "us": 34,
+    "us_of": 323,
     "state": 1,
     "state_of": 6,
     "sport": {
@@ -4452,10 +4464,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 47,
-    "us_of": 354,
+    "us": 35,
+    "us_of": 323,
     "state": 3,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 35,
@@ -4547,10 +4559,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 48,
-    "us_of": 354,
+    "us": 36,
+    "us_of": 323,
     "state": 1,
-    "state_of": 5,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 36,
@@ -4614,10 +4626,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 49,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 20,
+    "us": 37,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 37,
@@ -4682,10 +4694,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 50,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 13,
+    "us": 38,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 38,
@@ -4747,10 +4759,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 51,
-    "us_of": 354,
+    "us": 39,
+    "us_of": 323,
     "state": 4,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 39,
@@ -4830,10 +4842,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 52,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 12,
+    "us": 40,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 40,
@@ -4907,8 +4919,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 53,
-    "us_of": 354,
+    "us": 41,
+    "us_of": 323,
     "state": 2,
     "state_of": 4,
     "sport": {
@@ -5000,10 +5012,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 54,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 20,
+    "us": 42,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 42,
@@ -5076,10 +5088,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 55,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 12,
+    "us": 43,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 43,
@@ -5138,10 +5150,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 56,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 19,
+    "us": 44,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 44,
@@ -5275,10 +5287,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 57,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 20,
+    "us": 45,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 45,
@@ -5339,10 +5351,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 58,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 8,
+    "us": 46,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 59,
@@ -5417,10 +5429,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 59,
-    "us_of": 354,
+    "us": 47,
+    "us_of": 323,
     "state": 1,
-    "state_of": 13,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 46,
@@ -5485,8 +5497,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 60,
-    "us_of": 354,
+    "us": 48,
+    "us_of": 323,
     "state": 1,
     "state_of": 6,
     "sport": {
@@ -5616,10 +5628,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 61,
-    "us_of": 354,
+    "us": 49,
+    "us_of": 323,
     "state": 1,
-    "state_of": 8,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 48,
@@ -5678,10 +5690,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 62,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 19,
+    "us": 50,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 49,
@@ -5743,10 +5755,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 63,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 5,
+    "us": 51,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 50,
@@ -5816,10 +5828,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 63,
-    "us_of": 354,
+    "us": 51,
+    "us_of": 323,
     "state": 3,
-    "state_of": 9,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 50,
@@ -5891,10 +5903,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 65,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 20,
+    "us": 53,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 52,
@@ -5980,8 +5992,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 66,
-    "us_of": 354,
+    "us": 54,
+    "us_of": 323,
     "state": 1,
     "state_of": 7,
     "sport": {
@@ -6097,8 +6109,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 67,
-    "us_of": 354,
+    "us": 55,
+    "us_of": 323,
     "state": 1,
     "state_of": 5,
     "sport": {
@@ -6186,10 +6198,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 68,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 28,
+    "us": 56,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 55,
@@ -6265,8 +6277,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 68,
-    "us_of": 354,
+    "us": 56,
+    "us_of": 323,
     "state": 2,
     "state_of": 6,
     "sport": {
@@ -6396,8 +6408,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 70,
-    "us_of": 354,
+    "us": 58,
+    "us_of": 323,
     "state": 2,
     "state_of": 8,
     "sport": {
@@ -6475,10 +6487,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 71,
-    "us_of": 354,
+    "us": 59,
+    "us_of": 323,
     "state": 1,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "football": {
       "rank": 58,
@@ -6534,8 +6546,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 72,
-    "us_of": 354,
+    "us": 60,
+    "us_of": 323,
     "state": 1,
     "state_of": 7,
     "sport": {
@@ -6623,10 +6635,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 73,
-    "us_of": 354,
+    "us": 61,
+    "us_of": 323,
     "state": 2,
-    "state_of": 5,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 61,
@@ -6705,10 +6717,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 73,
-    "us_of": 354,
+    "us": 61,
+    "us_of": 323,
     "state": 2,
-    "state_of": 8,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 61,
@@ -6767,8 +6779,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 75,
-    "us_of": 354,
+    "us": 63,
+    "us_of": 323,
     "state": 1,
     "state_of": 2,
     "sport": {
@@ -6873,10 +6885,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 76,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 8,
+    "us": 64,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 64,
@@ -6950,8 +6962,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 77,
-    "us_of": 354,
+    "us": 65,
+    "us_of": 323,
     "state": 1,
     "state_of": 7,
     "sport": {
@@ -7026,8 +7038,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 78,
-    "us_of": 354,
+    "us": 66,
+    "us_of": 323,
     "state": 2,
     "state_of": 7,
     "sport": {
@@ -7115,10 +7127,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 79,
-    "us_of": 354,
+    "us": 67,
+    "us_of": 323,
     "state": 2,
-    "state_of": 13,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 67,
@@ -7173,8 +7185,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 80,
-    "us_of": 354,
+    "us": 68,
+    "us_of": 323,
     "state": 2,
     "state_of": 5,
     "sport": {
@@ -7275,8 +7287,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 81,
-    "us_of": 354,
+    "us": 69,
+    "us_of": 323,
     "state": 3,
     "state_of": 5,
     "sport": {
@@ -7388,10 +7400,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 82,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 28,
+    "us": 70,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 70,
@@ -7505,10 +7517,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 83,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 20,
+    "us": 71,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 71,
@@ -7576,10 +7588,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 84,
-    "us_of": 354,
+    "us": 72,
+    "us_of": 323,
     "state": 1,
-    "state_of": 5,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 72,
@@ -7639,10 +7651,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 85,
-    "us_of": 354,
+    "us": 73,
+    "us_of": 323,
     "state": 1,
-    "state_of": 15,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 73,
@@ -7734,8 +7746,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 86,
-    "us_of": 354,
+    "us": 74,
+    "us_of": 323,
     "state": 1,
     "state_of": 2,
     "sport": {
@@ -7797,16 +7809,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 87,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 13,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 13,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -7886,10 +7899,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 88,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 16,
+    "us": 75,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 75,
@@ -7945,10 +7958,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 89,
-    "us_of": 354,
+    "us": 76,
+    "us_of": 323,
     "state": 5,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "baseball": {
       "rank": 1,
@@ -8003,16 +8016,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 89,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 9,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 14,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -8062,8 +8076,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 91,
-    "us_of": 354,
+    "us": 77,
+    "us_of": 323,
     "state": 2,
     "state_of": 7,
     "sport": {
@@ -8120,16 +8134,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 92,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 2,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 15,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -8220,10 +8235,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 93,
-    "us_of": 354,
+    "us": 78,
+    "us_of": 323,
     "state": 2,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "football": {
       "rank": 77,
@@ -8309,10 +8324,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 94,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 8,
+    "us": 79,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 78,
@@ -8372,10 +8387,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 95,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 28,
+    "us": 80,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 79,
@@ -8448,10 +8463,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 96,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 12,
+    "us": 81,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 80,
@@ -8510,8 +8525,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 97,
-    "us_of": 354,
+    "us": 82,
+    "us_of": 323,
     "state": 2,
     "state_of": 5,
     "sport": {
@@ -8573,10 +8588,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 98,
-    "us_of": 354,
+    "us": 83,
+    "us_of": 323,
     "state": 6,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 82,
@@ -8680,8 +8695,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 99,
-    "us_of": 354,
+    "us": 84,
+    "us_of": 323,
     "state": 2,
     "state_of": 5,
     "sport": {
@@ -8798,10 +8813,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 100,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 8,
+    "us": 85,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 84,
@@ -8916,10 +8931,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 101,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 16,
+    "us": 86,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 85,
@@ -8979,8 +8994,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 102,
-    "us_of": 354,
+    "us": 87,
+    "us_of": 323,
     "state": 2,
     "state_of": 6,
     "sport": {
@@ -9098,10 +9113,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 103,
-    "us_of": 354,
+    "us": 88,
+    "us_of": 323,
     "state": 3,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "football": {
       "rank": 87,
@@ -9222,10 +9237,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 104,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 16,
+    "us": 89,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 88,
@@ -9299,10 +9314,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 105,
-    "us_of": 354,
+    "us": 90,
+    "us_of": 323,
     "state": 7,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 89,
@@ -9394,8 +9409,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 106,
-    "us_of": 354,
+    "us": 91,
+    "us_of": 323,
     "state": 2,
     "state_of": 7,
     "sport": {
@@ -9494,10 +9509,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 107,
-    "us_of": 354,
+    "us": 92,
+    "us_of": 323,
     "state": 1,
-    "state_of": 5,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 91,
@@ -9614,8 +9629,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 107,
-    "us_of": 354,
+    "us": 92,
+    "us_of": 323,
     "state": 3,
     "state_of": 12,
     "sport": {
@@ -9676,16 +9691,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 107,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 8,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 16,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -9740,10 +9756,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 110,
-    "us_of": 354,
+    "us": 94,
+    "us_of": 323,
     "state": 4,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "baseball": {
       "rank": 2,
@@ -9807,16 +9823,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 111,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 5,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 17,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -9870,8 +9887,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 112,
-    "us_of": 354,
+    "us": 95,
+    "us_of": 323,
     "state": 3,
     "state_of": 4,
     "sport": {
@@ -9933,10 +9950,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 113,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 12,
+    "us": 96,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 93,
@@ -9995,16 +10012,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 114,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 13,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 18,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -10058,16 +10076,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 114,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 7,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 18,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -10121,10 +10140,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 114,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 28,
+    "us": 97,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 94,
@@ -10184,8 +10203,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 117,
-    "us_of": 354,
+    "us": 98,
+    "us_of": 323,
     "state": 3,
     "state_of": 7,
     "sport": {
@@ -10254,10 +10273,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 118,
-    "us_of": 354,
+    "us": 99,
+    "us_of": 323,
     "state": 2,
-    "state_of": 15,
+    "state_of": 14,
     "sport": {
      "baseball": {
       "rank": 5,
@@ -10341,8 +10360,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 119,
-    "us_of": 354,
+    "us": 100,
+    "us_of": 323,
     "state": 3,
     "state_of": 6,
     "sport": {
@@ -10424,10 +10443,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 120,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 28,
+    "us": 101,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 96,
@@ -10507,10 +10526,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 121,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 20,
+    "us": 102,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 97,
@@ -10578,10 +10597,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 122,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 13,
+    "us": 103,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 98,
@@ -10640,10 +10659,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 123,
-    "us_of": 354,
+    "us": 104,
+    "us_of": 323,
     "state": 8,
-    "state_of": 25,
+    "state_of": 24,
     "sport": {
      "baseball": {
       "rank": 6,
@@ -10703,10 +10722,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 124,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 28,
+    "us": 105,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 99,
@@ -10779,8 +10798,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 125,
-    "us_of": 354,
+    "us": 106,
+    "us_of": 323,
     "state": 2,
     "state_of": 7,
     "sport": {
@@ -10842,8 +10861,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 126,
-    "us_of": 354,
+    "us": 107,
+    "us_of": 323,
     "state": 3,
     "state_of": 8,
     "sport": {
@@ -10909,16 +10928,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 127,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 8,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 20,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -10967,16 +10987,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 127,
-    "us_of": 354,
-    "state": 1,
-    "state_of": 1,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 20,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -11025,16 +11046,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 127,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 25,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 20,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -11087,10 +11109,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 130,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 19,
+    "us": 108,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 18,
     "sport": {
      "baseball": {
       "rank": 8,
@@ -11149,16 +11171,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 131,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 20,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 23,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -11212,10 +11235,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 132,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 12,
+    "us": 109,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 11,
     "sport": {
      "baseball": {
       "rank": 9,
@@ -11282,10 +11305,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 133,
-    "us_of": 354,
+    "us": 110,
+    "us_of": 323,
     "state": 3,
-    "state_of": 15,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 101,
@@ -11349,8 +11372,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 134,
-    "us_of": 354,
+    "us": 111,
+    "us_of": 323,
     "state": 4,
     "state_of": 6,
     "sport": {
@@ -11421,16 +11444,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 135,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 6,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 24,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -11484,10 +11508,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 136,
-    "us_of": 354,
+    "us": 112,
+    "us_of": 323,
     "state": 4,
-    "state_of": 15,
+    "state_of": 14,
     "sport": {
      "baseball": {
       "rank": 11,
@@ -11547,10 +11571,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 137,
-    "us_of": 354,
+    "us": 113,
+    "us_of": 323,
     "state": 3,
-    "state_of": 6,
+    "state_of": 5,
     "sport": {
      "baseball": {
       "rank": 12,
@@ -11649,10 +11673,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 138,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 13,
+    "us": 114,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 11,
     "sport": {
      "baseball": {
       "rank": 13,
@@ -11762,10 +11786,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 139,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 5,
+    "us": 115,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 102,
@@ -11821,8 +11845,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 140,
-    "us_of": 354,
+    "us": 116,
+    "us_of": 323,
     "state": 1,
     "state_of": 3,
     "sport": {
@@ -11894,10 +11918,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 141,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 25,
+    "us": 117,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 24,
     "sport": {
      "baseball": {
       "rank": 15,
@@ -11971,10 +11995,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 142,
-    "us_of": 354,
-    "state": 14,
-    "state_of": 28,
+    "us": 118,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 26,
     "sport": {
      "baseball": {
       "rank": 16,
@@ -12034,10 +12058,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 143,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 8,
+    "us": 119,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 7,
     "sport": {
      "baseball": {
       "rank": 17,
@@ -12096,8 +12120,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 144,
-    "us_of": 354,
+    "us": 120,
+    "us_of": 323,
     "state": 4,
     "state_of": 7,
     "sport": {
@@ -12173,10 +12197,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 145,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 13,
+    "us": 121,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 11,
     "sport": {
      "baseball": {
       "rank": 18,
@@ -12235,10 +12259,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 146,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 28,
+    "us": 122,
+    "us_of": 323,
+    "state": 13,
+    "state_of": 26,
     "sport": {
      "baseball": {
       "rank": 19,
@@ -12380,10 +12404,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 147,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 16,
+    "us": 123,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 104,
@@ -12443,10 +12467,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 148,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 9,
+    "us": 124,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 8,
     "sport": {
      "baseball": {
       "rank": 20,
@@ -12505,8 +12529,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 149,
-    "us_of": 354,
+    "us": 125,
+    "us_of": 323,
     "state": 2,
     "state_of": 2,
     "sport": {
@@ -12568,10 +12592,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 150,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 25,
+    "us": 126,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 24,
     "sport": {
      "baseball": {
       "rank": 21,
@@ -12630,10 +12654,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 151,
-    "us_of": 354,
-    "state": 16,
-    "state_of": 28,
+    "us": 127,
+    "us_of": 323,
+    "state": 14,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 106,
@@ -12707,8 +12731,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 152,
-    "us_of": 354,
+    "us": 128,
+    "us_of": 323,
     "state": 5,
     "state_of": 7,
     "sport": {
@@ -12769,8 +12793,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 153,
-    "us_of": 354,
+    "us": 129,
+    "us_of": 323,
     "state": 1,
     "state_of": 3,
     "sport": {
@@ -12828,16 +12852,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 154,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 15,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 25,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -12890,10 +12915,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 155,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 12,
+    "us": 130,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 11,
     "sport": {
      "baseball": {
       "rank": 22,
@@ -12953,8 +12978,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 156,
-    "us_of": 354,
+    "us": 131,
+    "us_of": 323,
     "state": 3,
     "state_of": 6,
     "sport": {
@@ -13066,10 +13091,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 157,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 19,
+    "us": 132,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 109,
@@ -13136,8 +13161,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 158,
-    "us_of": 354,
+    "us": 133,
+    "us_of": 323,
     "state": 4,
     "state_of": 8,
     "sport": {
@@ -13198,8 +13223,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 159,
-    "us_of": 354,
+    "us": 134,
+    "us_of": 323,
     "state": 2,
     "state_of": 2,
     "sport": {
@@ -13299,8 +13324,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 160,
-    "us_of": 354,
+    "us": 135,
+    "us_of": 323,
     "state": 3,
     "state_of": 7,
     "sport": {
@@ -13366,16 +13391,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 161,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 6,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 26,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -13429,10 +13455,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 162,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 20,
+    "us": 136,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 18,
     "sport": {
      "baseball": {
       "rank": 26,
@@ -13525,8 +13551,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 163,
-    "us_of": 354,
+    "us": 137,
+    "us_of": 323,
     "state": 4,
     "state_of": 5,
     "sport": {
@@ -13614,10 +13640,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 164,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 15,
+    "us": 138,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 112,
@@ -13721,10 +13747,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 165,
-    "us_of": 354,
+    "us": 139,
+    "us_of": 323,
     "state": 2,
-    "state_of": 5,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 113,
@@ -13809,8 +13835,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 166,
-    "us_of": 354,
+    "us": 140,
+    "us_of": 323,
     "state": 1,
     "state_of": 2,
     "sport": {
@@ -13879,10 +13905,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 167,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 9,
+    "us": 141,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 115,
@@ -13955,10 +13981,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 168,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 16,
+    "us": 142,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 116,
@@ -14017,10 +14043,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 169,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 13,
+    "us": 143,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 117,
@@ -14079,10 +14105,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 169,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 13,
+    "us": 143,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 117,
@@ -14153,10 +14179,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 169,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 25,
+    "us": 143,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 24,
     "sport": {
      "soccer": {
       "rank": 5,
@@ -14227,8 +14253,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 172,
-    "us_of": 354,
+    "us": 146,
+    "us_of": 323,
     "state": 5,
     "state_of": 6,
     "sport": {
@@ -14316,10 +14342,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 173,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 19,
+    "us": 147,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 18,
     "sport": {
      "baseball": {
       "rank": 27,
@@ -14379,10 +14405,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 174,
-    "us_of": 354,
-    "state": 17,
-    "state_of": 28,
+    "us": 148,
+    "us_of": 323,
+    "state": 15,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 121,
@@ -14461,10 +14487,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 175,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 16,
+    "us": 149,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 122,
@@ -14561,10 +14587,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 176,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 12,
+    "us": 150,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 123,
@@ -14624,8 +14650,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 177,
-    "us_of": 354,
+    "us": 151,
+    "us_of": 323,
     "state": 2,
     "state_of": 4,
     "sport": {
@@ -14708,8 +14734,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 178,
-    "us_of": 354,
+    "us": 152,
+    "us_of": 323,
     "state": 4,
     "state_of": 12,
     "sport": {
@@ -14814,10 +14840,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 179,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 9,
+    "us": 153,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 126,
@@ -14872,10 +14898,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 180,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 13,
+    "us": 154,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 11,
     "sport": {
      "soccer": {
       "rank": 6,
@@ -14934,10 +14960,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 181,
-    "us_of": 354,
-    "state": 18,
-    "state_of": 28,
+    "us": 155,
+    "us_of": 323,
+    "state": 16,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 127,
@@ -14997,10 +15023,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 20,
+    "us": 156,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 128,
@@ -15060,10 +15086,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 19,
+    "us": 156,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 128,
@@ -15122,16 +15148,17 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 5,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 27,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -15204,10 +15231,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 5,
+    "us": 156,
+    "us_of": 323,
+    "state": 2,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 128,
@@ -15262,16 +15289,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 3,
-    "state_of": 5,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 27,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -15324,8 +15352,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
+    "us": 156,
+    "us_of": 323,
     "state": 3,
     "state_of": 5,
     "sport": {
@@ -15395,10 +15423,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 25,
+    "us": 156,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 128,
@@ -15458,10 +15486,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 8,
+    "us": 156,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 128,
@@ -15521,8 +15549,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 182,
-    "us_of": 354,
+    "us": 156,
+    "us_of": 323,
     "state": 5,
     "state_of": 12,
     "sport": {
@@ -15609,8 +15637,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 191,
-    "us_of": 354,
+    "us": 163,
+    "us_of": 323,
     "state": 1,
     "state_of": 1,
     "sport": {
@@ -15671,8 +15699,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 192,
-    "us_of": 354,
+    "us": 164,
+    "us_of": 323,
     "state": 2,
     "state_of": 3,
     "sport": {
@@ -15730,8 +15758,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 193,
-    "us_of": 354,
+    "us": 165,
+    "us_of": 323,
     "state": 6,
     "state_of": 12,
     "sport": {
@@ -15797,10 +15825,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 194,
-    "us_of": 354,
-    "state": 19,
-    "state_of": 28,
+    "us": 166,
+    "us_of": 323,
+    "state": 17,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 138,
@@ -15880,10 +15908,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 195,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 13,
+    "us": 167,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 139,
@@ -15942,8 +15970,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 196,
-    "us_of": 354,
+    "us": 168,
+    "us_of": 323,
     "state": 3,
     "state_of": 5,
     "sport": {
@@ -16018,8 +16046,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 197,
-    "us_of": 354,
+    "us": 169,
+    "us_of": 323,
     "state": 7,
     "state_of": 12,
     "sport": {
@@ -16102,10 +16130,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 198,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 13,
+    "us": 170,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 142,
@@ -16160,10 +16188,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 199,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 20,
+    "us": 171,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 18,
     "sport": {
      "soccer": {
       "rank": 9,
@@ -16222,10 +16250,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 200,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 12,
+    "us": 172,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 143,
@@ -16304,10 +16332,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 201,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 9,
+    "us": 173,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 8,
     "sport": {
      "football": {
       "rank": 144,
@@ -16405,10 +16433,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 202,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 19,
+    "us": 174,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 145,
@@ -16472,10 +16500,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 203,
-    "us_of": 354,
-    "state": 14,
-    "state_of": 25,
+    "us": 175,
+    "us_of": 323,
+    "state": 13,
+    "state_of": 24,
     "sport": {
      "soccer": {
       "rank": 8,
@@ -16537,10 +16565,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 203,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 19,
+    "us": 175,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 18,
     "sport": {
      "soccer": {
       "rank": 10,
@@ -16638,8 +16666,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 205,
-    "us_of": 354,
+    "us": 177,
+    "us_of": 323,
     "state": 3,
     "state_of": 7,
     "sport": {
@@ -16696,8 +16724,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 206,
-    "us_of": 354,
+    "us": 178,
+    "us_of": 323,
     "state": 8,
     "state_of": 12,
     "sport": {
@@ -16762,10 +16790,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 206,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 20,
+    "us": 178,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 147,
@@ -16824,10 +16852,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 208,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 12,
+    "us": 180,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 149,
@@ -16894,10 +16922,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 209,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 19,
+    "us": 181,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 150,
@@ -16956,8 +16984,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 210,
-    "us_of": 354,
+    "us": 182,
+    "us_of": 323,
     "state": 1,
     "state_of": 2,
     "sport": {
@@ -17033,10 +17061,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 211,
-    "us_of": 354,
-    "state": 14,
-    "state_of": 20,
+    "us": 183,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 18,
     "sport": {
      "baseball": {
       "rank": 28,
@@ -17104,10 +17132,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 212,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 15,
+    "us": 184,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 152,
@@ -17210,10 +17238,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 8,
+    "us": 185,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 153,
@@ -17273,8 +17301,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
+    "us": 185,
+    "us_of": 323,
     "state": 4,
     "state_of": 7,
     "sport": {
@@ -17341,10 +17369,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 20,
+    "us": 185,
+    "us_of": 323,
+    "state": 13,
+    "state_of": 18,
     "sport": {
      "soccer": {
       "rank": 13,
@@ -17404,16 +17432,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 13,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 29,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -17472,8 +17501,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
+    "us": 185,
+    "us_of": 323,
     "state": 4,
     "state_of": 5,
     "sport": {
@@ -17560,10 +17589,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 213,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 8,
+    "us": 185,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 153,
@@ -17633,10 +17662,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 219,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 8,
+    "us": 190,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 156,
@@ -17732,10 +17761,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 220,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 5,
+    "us": 191,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 4,
     "sport": {
      "soccer": {
       "rank": 12,
@@ -17794,8 +17823,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 221,
-    "us_of": 354,
+    "us": 192,
+    "us_of": 323,
     "state": 2,
     "state_of": 4,
     "sport": {
@@ -17857,10 +17886,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 222,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 8,
+    "us": 193,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 157,
@@ -17928,10 +17957,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 223,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 19,
+    "us": 194,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 158,
@@ -17991,10 +18020,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 224,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 19,
+    "us": 195,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 159,
@@ -18079,10 +18108,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 224,
-    "us_of": 354,
-    "state": 20,
-    "state_of": 28,
+    "us": 195,
+    "us_of": 323,
+    "state": 18,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 159,
@@ -18155,10 +18184,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 224,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 19,
+    "us": 195,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 159,
@@ -18225,10 +18254,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 227,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 15,
+    "us": 198,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 14,
     "sport": {
      "tennis": {
       "rank": 1,
@@ -18310,8 +18339,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 228,
-    "us_of": 354,
+    "us": 199,
+    "us_of": 323,
     "state": 5,
     "state_of": 7,
     "sport": {
@@ -18388,10 +18417,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 229,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 12,
+    "us": 200,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 163,
@@ -18446,8 +18475,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 229,
-    "us_of": 354,
+    "us": 200,
+    "us_of": 323,
     "state": 5,
     "state_of": 5,
     "sport": {
@@ -18504,10 +18533,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 229,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 8,
+    "us": 200,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 7,
     "sport": {
      "football": {
       "rank": 163,
@@ -18567,8 +18596,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 232,
-    "us_of": 354,
+    "us": 203,
+    "us_of": 323,
     "state": 5,
     "state_of": 8,
     "sport": {
@@ -18638,8 +18667,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 233,
-    "us_of": 354,
+    "us": 204,
+    "us_of": 323,
     "state": 3,
     "state_of": 7,
     "sport": {
@@ -18700,8 +18729,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 234,
-    "us_of": 354,
+    "us": 205,
+    "us_of": 323,
     "state": 4,
     "state_of": 7,
     "sport": {
@@ -18774,10 +18803,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 235,
-    "us_of": 354,
-    "state": 21,
-    "state_of": 28,
+    "us": 206,
+    "us_of": 323,
+    "state": 19,
+    "state_of": 26,
     "sport": {
      "soccer": {
       "rank": 15,
@@ -18861,10 +18890,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 236,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 16,
+    "us": 207,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 13,
     "sport": {
      "basketball": {
       "rank": 3,
@@ -18923,10 +18952,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 236,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 7,
+    "us": 207,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 168,
@@ -19000,10 +19029,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 238,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 8,
+    "us": 209,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 169,
@@ -19088,10 +19117,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 239,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 16,
+    "us": 210,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 13,
     "sport": {
      "basketball": {
       "rank": 4,
@@ -19158,10 +19187,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 240,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 13,
+    "us": 211,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 5,
@@ -19216,10 +19245,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 241,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 15,
+    "us": 212,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 170,
@@ -19310,10 +19339,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 241,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 16,
+    "us": 212,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 170,
@@ -19368,10 +19397,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 243,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 25,
+    "us": 214,
+    "us_of": 323,
+    "state": 14,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 172,
@@ -19444,10 +19473,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 244,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 7,
+    "us": 215,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 173,
@@ -19506,10 +19535,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 244,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 12,
+    "us": 215,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 10,
     "sport": {
      "football": {
       "rank": 173,
@@ -19578,10 +19607,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 244,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 12,
+    "us": 215,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 6,
@@ -19672,10 +19701,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 247,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 13,
+    "us": 218,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 7,
@@ -19752,8 +19781,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 248,
-    "us_of": 354,
+    "us": 219,
+    "us_of": 323,
     "state": 2,
     "state_of": 2,
     "sport": {
@@ -19814,10 +19843,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 249,
-    "us_of": 354,
-    "state": 22,
-    "state_of": 28,
+    "us": 220,
+    "us_of": 323,
+    "state": 20,
+    "state_of": 26,
     "sport": {
      "soccer": {
       "rank": 16,
@@ -19880,10 +19909,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 250,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 19,
+    "us": 221,
+    "us_of": 323,
+    "state": 14,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 176,
@@ -19943,8 +19972,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 251,
-    "us_of": 354,
+    "us": 222,
+    "us_of": 323,
     "state": 5,
     "state_of": 7,
     "sport": {
@@ -20005,10 +20034,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 252,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 13,
+    "us": 223,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 177,
@@ -20067,10 +20096,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 253,
-    "us_of": 354,
-    "state": 16,
-    "state_of": 19,
+    "us": 224,
+    "us_of": 323,
+    "state": 15,
+    "state_of": 18,
     "sport": {
      "soccer": {
       "rank": 17,
@@ -20143,8 +20172,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 254,
-    "us_of": 354,
+    "us": 225,
+    "us_of": 323,
     "state": 2,
     "state_of": 3,
     "sport": {
@@ -20217,10 +20246,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 255,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 9,
+    "us": 226,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 8,
     "sport": {
      "basketball": {
       "rank": 10,
@@ -20289,8 +20318,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 256,
-    "us_of": 354,
+    "us": 227,
+    "us_of": 323,
     "state": 4,
     "state_of": 7,
     "sport": {
@@ -20378,10 +20407,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 257,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 15,
+    "us": 228,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 14,
     "sport": {
      "basketball": {
       "rank": 11,
@@ -20449,8 +20478,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 258,
-    "us_of": 354,
+    "us": 229,
+    "us_of": 323,
     "state": 3,
     "state_of": 3,
     "sport": {
@@ -20531,10 +20560,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 258,
-    "us_of": 354,
-    "state": 16,
-    "state_of": 20,
+    "us": 229,
+    "us_of": 323,
+    "state": 14,
+    "state_of": 18,
     "sport": {
      "football": {
       "rank": 178,
@@ -20590,8 +20619,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 258,
-    "us_of": 354,
+    "us": 229,
+    "us_of": 323,
     "state": 1,
     "state_of": 1,
     "sport": {
@@ -20652,8 +20681,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 258,
-    "us_of": 354,
+    "us": 229,
+    "us_of": 323,
     "state": 6,
     "state_of": 7,
     "sport": {
@@ -20715,10 +20744,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 258,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 13,
+    "us": 229,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 178,
@@ -20773,16 +20802,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 263,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 16,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 30,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -20831,8 +20861,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 264,
-    "us_of": 354,
+    "us": 234,
+    "us_of": 323,
     "state": 9,
     "state_of": 12,
     "sport": {
@@ -20893,10 +20923,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 264,
-    "us_of": 354,
-    "state": 17,
-    "state_of": 20,
+    "us": 234,
+    "us_of": 323,
+    "state": 15,
+    "state_of": 18,
     "sport": {
      "basketball": {
       "rank": 12,
@@ -20965,8 +20995,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 266,
-    "us_of": 354,
+    "us": 236,
+    "us_of": 323,
     "state": 6,
     "state_of": 7,
     "sport": {
@@ -21032,10 +21062,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 267,
-    "us_of": 354,
-    "state": 17,
-    "state_of": 19,
+    "us": 237,
+    "us_of": 323,
+    "state": 16,
+    "state_of": 18,
     "sport": {
      "basketball": {
       "rank": 14,
@@ -21102,10 +21132,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 268,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 16,
+    "us": 238,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 13,
     "sport": {
      "basketball": {
       "rank": 15,
@@ -21172,10 +21202,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 269,
-    "us_of": 354,
-    "state": 18,
-    "state_of": 19,
+    "us": 239,
+    "us_of": 323,
+    "state": 17,
+    "state_of": 18,
     "sport": {
      "basketball": {
       "rank": 16,
@@ -21234,8 +21264,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 270,
-    "us_of": 354,
+    "us": 240,
+    "us_of": 323,
     "state": 4,
     "state_of": 6,
     "sport": {
@@ -21302,10 +21332,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 271,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 5,
+    "us": 241,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 4,
     "sport": {
      "basketball": {
       "rank": 17,
@@ -21364,8 +21394,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 272,
-    "us_of": 354,
+    "us": 242,
+    "us_of": 323,
     "state": 3,
     "state_of": 4,
     "sport": {
@@ -21461,10 +21491,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 273,
-    "us_of": 354,
-    "state": 14,
-    "state_of": 16,
+    "us": 243,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 13,
     "sport": {
      "ice hockey": {
       "rank": 4,
@@ -21527,8 +21557,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 274,
-    "us_of": 354,
+    "us": 244,
+    "us_of": 323,
     "state": 1,
     "state_of": 1,
     "sport": {
@@ -21590,10 +21620,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 275,
-    "us_of": 354,
-    "state": 18,
-    "state_of": 20,
+    "us": 245,
+    "us_of": 323,
+    "state": 16,
+    "state_of": 18,
     "sport": {
      "ice hockey": {
       "rank": 5,
@@ -21659,10 +21689,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 276,
-    "us_of": 354,
-    "state": 23,
-    "state_of": 28,
+    "us": 246,
+    "us_of": 323,
+    "state": 21,
+    "state_of": 26,
     "sport": {
      "basketball": {
       "rank": 20,
@@ -21726,10 +21756,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 277,
-    "us_of": 354,
-    "state": 16,
-    "state_of": 25,
+    "us": 247,
+    "us_of": 323,
+    "state": 15,
+    "state_of": 24,
     "sport": {
      "ice hockey": {
       "rank": 6,
@@ -21825,8 +21855,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 278,
-    "us_of": 354,
+    "us": 248,
+    "us_of": 323,
     "state": 6,
     "state_of": 7,
     "sport": {
@@ -21892,10 +21922,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 279,
-    "us_of": 354,
-    "state": 19,
-    "state_of": 20,
+    "us": 249,
+    "us_of": 323,
+    "state": 17,
+    "state_of": 18,
     "sport": {
      "ice hockey": {
       "rank": 7,
@@ -21964,10 +21994,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 280,
-    "us_of": 354,
-    "state": 17,
-    "state_of": 25,
+    "us": 250,
+    "us_of": 323,
+    "state": 16,
+    "state_of": 24,
     "sport": {
      "basketball": {
       "rank": 22,
@@ -22032,10 +22062,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 281,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 15,
+    "us": 251,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 14,
     "sport": {
      "ice hockey": {
       "rank": 8,
@@ -22095,10 +22125,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 282,
-    "us_of": 354,
-    "state": 20,
-    "state_of": 20,
+    "us": 252,
+    "us_of": 323,
+    "state": 18,
+    "state_of": 18,
     "sport": {
      "basketball": {
       "rank": 23,
@@ -22183,8 +22213,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 283,
-    "us_of": 354,
+    "us": 253,
+    "us_of": 323,
     "state": 5,
     "state_of": 6,
     "sport": {
@@ -22253,8 +22283,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 284,
-    "us_of": 354,
+    "us": 254,
+    "us_of": 323,
     "state": 5,
     "state_of": 5,
     "sport": {
@@ -22319,8 +22349,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 285,
-    "us_of": 354,
+    "us": 255,
+    "us_of": 323,
     "state": 1,
     "state_of": 1,
     "sport": {
@@ -22420,10 +22450,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 286,
-    "us_of": 354,
-    "state": 2,
-    "state_of": 2,
+    "us": 256,
+    "us_of": 323,
+    "state": 1,
+    "state_of": 1,
     "sport": {
      "football": {
       "rank": 185,
@@ -22483,10 +22513,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 286,
-    "us_of": 354,
-    "state": 19,
-    "state_of": 19,
+    "us": 256,
+    "us_of": 323,
+    "state": 18,
+    "state_of": 18,
     "sport": {
      "ice hockey": {
       "rank": 12,
@@ -22546,10 +22576,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 286,
-    "us_of": 354,
-    "state": 9,
-    "state_of": 12,
+    "us": 256,
+    "us_of": 323,
+    "state": 8,
+    "state_of": 11,
     "sport": {
      "soccer": {
       "rank": 22,
@@ -22609,10 +22639,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 289,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 5,
+    "us": 259,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 4,
     "sport": {
      "soccer": {
       "rank": 23,
@@ -22681,10 +22711,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 290,
-    "us_of": 354,
-    "state": 24,
-    "state_of": 28,
+    "us": 260,
+    "us_of": 323,
+    "state": 22,
+    "state_of": 26,
     "sport": {
      "basketball": {
       "rank": 26,
@@ -22743,8 +22773,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 291,
-    "us_of": 354,
+    "us": 261,
+    "us_of": 323,
     "state": 3,
     "state_of": 4,
     "sport": {
@@ -22805,10 +22835,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 292,
-    "us_of": 354,
-    "state": 18,
-    "state_of": 25,
+    "us": 262,
+    "us_of": 323,
+    "state": 17,
+    "state_of": 24,
     "sport": {
      "basketball": {
       "rank": 28,
@@ -22883,10 +22913,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 293,
-    "us_of": 354,
-    "state": 19,
-    "state_of": 25,
+    "us": 263,
+    "us_of": 323,
+    "state": 18,
+    "state_of": 24,
     "sport": {
      "football": {
       "rank": 186,
@@ -22945,8 +22975,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 293,
-    "us_of": 354,
+    "us": 263,
+    "us_of": 323,
     "state": 4,
     "state_of": 5,
     "sport": {
@@ -23010,10 +23040,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 295,
-    "us_of": 354,
-    "state": 10,
-    "state_of": 12,
+    "us": 265,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 11,
     "sport": {
      "ice hockey": {
       "rank": 13,
@@ -23091,8 +23121,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 296,
-    "us_of": 354,
+    "us": 266,
+    "us_of": 323,
     "state": 5,
     "state_of": 7,
     "sport": {
@@ -23164,10 +23194,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 297,
-    "us_of": 354,
-    "state": 25,
-    "state_of": 28,
+    "us": 267,
+    "us_of": 323,
+    "state": 23,
+    "state_of": 26,
     "sport": {
      "basketball": {
       "rank": 32,
@@ -23228,8 +23258,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 298,
-    "us_of": 354,
+    "us": 268,
+    "us_of": 323,
     "state": 6,
     "state_of": 8,
     "sport": {
@@ -23291,10 +23321,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 299,
-    "us_of": 354,
-    "state": 20,
-    "state_of": 25,
+    "us": 269,
+    "us_of": 323,
+    "state": 19,
+    "state_of": 24,
     "sport": {
      "basketball": {
       "rank": 33,
@@ -23354,8 +23384,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 300,
-    "us_of": 354,
+    "us": 270,
+    "us_of": 323,
     "state": 7,
     "state_of": 7,
     "sport": {
@@ -23416,10 +23446,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 301,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 7,
+    "us": 271,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 6,
     "sport": {
      "basketball": {
       "rank": 34,
@@ -23492,10 +23522,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 301,
-    "us_of": 354,
-    "state": 21,
-    "state_of": 25,
+    "us": 271,
+    "us_of": 323,
+    "state": 20,
+    "state_of": 24,
     "sport": {
      "soccer": {
       "rank": 25,
@@ -23550,8 +23580,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 303,
-    "us_of": 354,
+    "us": 273,
+    "us_of": 323,
     "state": 6,
     "state_of": 7,
     "sport": {
@@ -23615,8 +23645,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 304,
-    "us_of": 354,
+    "us": 274,
+    "us_of": 323,
     "state": 6,
     "state_of": 6,
     "sport": {
@@ -23678,10 +23708,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 305,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 5,
+    "us": 275,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 4,
     "sport": {
      "basketball": {
       "rank": 36,
@@ -23741,8 +23771,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 306,
-    "us_of": 354,
+    "us": 276,
+    "us_of": 323,
     "state": 5,
     "state_of": 5,
     "sport": {
@@ -23800,8 +23830,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 307,
-    "us_of": 354,
+    "us": 277,
+    "us_of": 323,
     "state": 10,
     "state_of": 12,
     "sport": {
@@ -23863,10 +23893,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 308,
-    "us_of": 354,
-    "state": 22,
-    "state_of": 25,
+    "us": 278,
+    "us_of": 323,
+    "state": 21,
+    "state_of": 24,
     "sport": {
      "basketball": {
       "rank": 39,
@@ -23931,10 +23961,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 309,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 15,
+    "us": 279,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 14,
     "sport": {
      "basketball": {
       "rank": 38,
@@ -24002,10 +24032,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 310,
-    "us_of": 354,
-    "state": 26,
-    "state_of": 28,
+    "us": 280,
+    "us_of": 323,
+    "state": 24,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 188,
@@ -24078,8 +24108,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 310,
-    "us_of": 354,
+    "us": 280,
+    "us_of": 323,
     "state": 7,
     "state_of": 8,
     "sport": {
@@ -24144,10 +24174,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 310,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 5,
+    "us": 280,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 4,
     "sport": {
      "ice hockey": {
       "rank": 20,
@@ -24211,10 +24241,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 313,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 6,
+    "us": 283,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 5,
     "sport": {
      "basketball": {
       "rank": 40,
@@ -24274,8 +24304,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 314,
-    "us_of": 354,
+    "us": 284,
+    "us_of": 323,
     "state": 6,
     "state_of": 6,
     "sport": {
@@ -24336,10 +24366,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 315,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 6,
+    "us": 285,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 5,
     "sport": {
      "basketball": {
       "rank": 42,
@@ -24417,10 +24447,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 316,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 8,
+    "us": 286,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 7,
     "sport": {
      "basketball": {
       "rank": 43,
@@ -24479,10 +24509,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 317,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 15,
+    "us": 287,
+    "us_of": 323,
+    "state": 12,
+    "state_of": 14,
     "sport": {
      "ice hockey": {
       "rank": 21,
@@ -24541,10 +24571,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 318,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 8,
+    "us": 288,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 7,
     "sport": {
      "basketball": {
       "rank": 44,
@@ -24604,10 +24634,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 319,
-    "us_of": 354,
-    "state": 4,
-    "state_of": 5,
+    "us": 289,
+    "us_of": 323,
+    "state": 3,
+    "state_of": 4,
     "sport": {
      "football": {
       "rank": 190,
@@ -24666,10 +24696,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 320,
-    "us_of": 354,
-    "state": 23,
-    "state_of": 25,
+    "us": 290,
+    "us_of": 323,
+    "state": 22,
+    "state_of": 24,
     "sport": {
      "ice hockey": {
       "rank": 22,
@@ -24748,10 +24778,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 321,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 13,
+    "us": 291,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 11,
     "sport": {
      "ice hockey": {
       "rank": 23,
@@ -24817,8 +24847,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 322,
-    "us_of": 354,
+    "us": 292,
+    "us_of": 323,
     "state": 4,
     "state_of": 4,
     "sport": {
@@ -24903,10 +24933,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 323,
-    "us_of": 354,
-    "state": 6,
-    "state_of": 6,
+    "us": 293,
+    "us_of": 323,
+    "state": 5,
+    "state_of": 5,
     "sport": {
      "basketball": {
       "rank": 45,
@@ -24961,16 +24991,17 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 324,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 16,
+    "us": null,
+    "us_of": 323,
+    "state": null,
+    "state_of": null,
     "sport": {
      "motorsport": {
       "rank": 31,
       "of": 31
      }
-    }
+    },
+    "estimated_excluded": true
    }
   },
   {
@@ -25023,10 +25054,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 324,
-    "us_of": 354,
-    "state": 14,
-    "state_of": 15,
+    "us": 294,
+    "us_of": 323,
+    "state": 13,
+    "state_of": 14,
     "sport": {
      "football": {
       "rank": 191,
@@ -25086,8 +25117,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 324,
-    "us_of": 354,
+    "us": 294,
+    "us_of": 323,
     "state": 7,
     "state_of": 7,
     "sport": {
@@ -25157,10 +25188,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 327,
-    "us_of": 354,
-    "state": 8,
-    "state_of": 8,
+    "us": 296,
+    "us_of": 323,
+    "state": 7,
+    "state_of": 7,
     "sport": {
      "basketball": {
       "rank": 46,
@@ -25219,8 +25250,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 328,
-    "us_of": 354,
+    "us": 297,
+    "us_of": 323,
     "state": 11,
     "state_of": 12,
     "sport": {
@@ -25277,8 +25308,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 329,
-    "us_of": 354,
+    "us": 298,
+    "us_of": 323,
     "state": 7,
     "state_of": 7,
     "sport": {
@@ -25344,10 +25375,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 330,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 13,
+    "us": 299,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 48,
@@ -25402,10 +25433,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 331,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 13,
+    "us": 300,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 194,
@@ -25468,10 +25499,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 332,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 13,
+    "us": 301,
+    "us_of": 323,
+    "state": 9,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 195,
@@ -25528,10 +25559,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 333,
-    "us_of": 354,
-    "state": 24,
-    "state_of": 25,
+    "us": 302,
+    "us_of": 323,
+    "state": 23,
+    "state_of": 24,
     "sport": {
      "tennis": {
       "rank": 2,
@@ -25590,10 +25621,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 334,
-    "us_of": 354,
-    "state": 11,
-    "state_of": 12,
+    "us": 303,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 196,
@@ -25660,10 +25691,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 334,
-    "us_of": 354,
-    "state": 7,
-    "state_of": 7,
+    "us": 303,
+    "us_of": 323,
+    "state": 6,
+    "state_of": 6,
     "sport": {
      "football": {
       "rank": 196,
@@ -25722,8 +25753,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 334,
-    "us_of": 354,
+    "us": 303,
+    "us_of": 323,
     "state": 4,
     "state_of": 4,
     "sport": {
@@ -25781,8 +25812,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 337,
-    "us_of": 354,
+    "us": 306,
+    "us_of": 323,
     "state": 12,
     "state_of": 12,
     "sport": {
@@ -25843,10 +25874,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 338,
-    "us_of": 354,
-    "state": 25,
-    "state_of": 25,
+    "us": 307,
+    "us_of": 323,
+    "state": 24,
+    "state_of": 24,
     "sport": {
      "basketball": {
       "rank": 49,
@@ -25906,10 +25937,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 339,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 13,
+    "us": 308,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 50,
@@ -25969,8 +26000,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 340,
-    "us_of": 354,
+    "us": 309,
+    "us_of": 323,
     "state": 4,
     "state_of": 4,
     "sport": {
@@ -26045,8 +26076,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 341,
-    "us_of": 354,
+    "us": 310,
+    "us_of": 323,
     "state": 3,
     "state_of": 3,
     "sport": {
@@ -26115,10 +26146,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 342,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 12,
+    "us": 311,
+    "us_of": 323,
+    "state": 10,
+    "state_of": 10,
     "sport": {
      "basketball": {
       "rank": 53,
@@ -26177,10 +26208,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 343,
-    "us_of": 354,
-    "state": 16,
-    "state_of": 16,
+    "us": 312,
+    "us_of": 323,
+    "state": 13,
+    "state_of": 13,
     "sport": {
      "football": {
       "rank": 200,
@@ -26277,10 +26308,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 344,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 5,
+    "us": 313,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 4,
     "sport": {
      "basketball": {
       "rank": 54,
@@ -26339,10 +26370,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 345,
-    "us_of": 354,
-    "state": 12,
-    "state_of": 12,
+    "us": 314,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 11,
     "sport": {
      "basketball": {
       "rank": 55,
@@ -26402,8 +26433,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 346,
-    "us_of": 354,
+    "us": 315,
+    "us_of": 323,
     "state": 2,
     "state_of": 2,
     "sport": {
@@ -26460,10 +26491,10 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 347,
-    "us_of": 354,
-    "state": 15,
-    "state_of": 15,
+    "us": 316,
+    "us_of": 323,
+    "state": 14,
+    "state_of": 14,
     "sport": {
      "basketball": {
       "rank": 56,
@@ -26518,8 +26549,8 @@
    "last_verified": "2026-11-06",
    "flags": [],
    "rankings": {
-    "us": 348,
-    "us_of": 354,
+    "us": 317,
+    "us_of": 323,
     "state": 1,
     "state_of": 1,
     "sport": {
@@ -26580,10 +26611,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 349,
-    "us_of": 354,
-    "state": 27,
-    "state_of": 28,
+    "us": 318,
+    "us_of": 323,
+    "state": 25,
+    "state_of": 26,
     "sport": {
      "basketball": {
       "rank": 57,
@@ -26642,8 +26673,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 350,
-    "us_of": 354,
+    "us": 319,
+    "us_of": 323,
     "state": 8,
     "state_of": 8,
     "sport": {
@@ -26704,10 +26735,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 351,
-    "us_of": 354,
-    "state": 5,
-    "state_of": 5,
+    "us": 320,
+    "us_of": 323,
+    "state": 4,
+    "state_of": 4,
     "sport": {
      "basketball": {
       "rank": 59,
@@ -26766,8 +26797,8 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 351,
-    "us_of": 354,
+    "us": 320,
+    "us_of": 323,
     "state": 7,
     "state_of": 7,
     "sport": {
@@ -26830,10 +26861,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 351,
-    "us_of": 354,
-    "state": 28,
-    "state_of": 28,
+    "us": 320,
+    "us_of": 323,
+    "state": 26,
+    "state_of": 26,
     "sport": {
      "football": {
       "rank": 203,
@@ -26892,10 +26923,10 @@
     "cost_year_is_opening_year"
    ],
    "rankings": {
-    "us": 351,
-    "us_of": 354,
-    "state": 13,
-    "state_of": 13,
+    "us": 320,
+    "us_of": 323,
+    "state": 11,
+    "state_of": 11,
     "sport": {
      "football": {
       "rank": 203,

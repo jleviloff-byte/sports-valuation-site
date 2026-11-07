@@ -1,6 +1,6 @@
 # Stadium data QA report
 
-Generated 2026-11-06 by `scripts/stadiums/build-qa.mjs`. Data: `data/stadiums.json`.
+Generated 2026-11-07 by `scripts/stadiums/build-qa.mjs`. Data: `data/stadiums.json`.
 
 ## Summary
 

@@ -112,7 +112,7 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
         <header className="flex items-start gap-3 px-4 sm:px-8 pt-5">
           <div className="min-w-0">
             <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-[#A0A8B3]">
-              {v ? `#${v.rankings.us} of ${v.rankings.us_of} · ${TYPE_LABEL[v.venue_type] || v.venue_type} · ${ROOF_LABEL[v.roof] || NA}` : 'Loading'}
+              {v ? `${v.rankings.us ? `#${v.rankings.us} of ${v.rankings.us_of} in the US` : `#${v.rankings.sport.motorsport?.rank} of ${v.rankings.sport.motorsport?.of} motorsport venues`} · ${TYPE_LABEL[v.venue_type] || v.venue_type} · ${ROOF_LABEL[v.roof] || NA}` : 'Loading'}
             </div>
             <h2 id="loadout-title" className="text-2xl sm:text-3xl font-semibold text-white mt-1 leading-tight break-words">{v?.name || ranked[idx]?.n || 'Venue not found'}</h2>
           </div>
@@ -149,6 +149,7 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
               <a key={k} href={url.split(' ')[0]} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 mr-3 hover:text-white">{SOURCE_LABEL[k]}</a>
             ))}
             <span className="whitespace-nowrap">Last verified {v.last_verified}.</span>
+            {v.capacity_type === 'estimated' && <span className="block mt-1">Racetrack capacities are published estimates, so racetracks are ranked only against other motorsport venues.</span>}
             <span className="ml-2">Footprint © OpenStreetMap contributors.</span>
           </footer>
         )}
@@ -166,10 +167,10 @@ function buildPanels(v) {
       title: v.capacity_type === 'estimated' ? 'Capacity (estimated)' : 'Seated capacity',
       body: (
         <>
-          <div className="big">{fmt(v.capacity)}</div>
+          <div className="big">{fmt(v.capacity)}{v.capacity_type === 'estimated' && <span className="text-base text-[#A0A8B3] ml-1.5">est.</span>}</div>
           {sports.length > 1 && (
             <ul className="mt-1 text-[12px] text-[#C9CED6]">
-              {sports.map(([s, c]) => <li key={s}>{v.sport_labels?.[s] || s}: <span className="num">{fmt(c)}</span></li>)}
+              {sports.map(([s, c]) => <li key={s}>{v.sport_labels?.[s] || s}: <span className="num">{fmt(c)}{v.capacity_type === 'estimated' ? ' est.' : ''}</span></li>)}
             </ul>
           )}
         </>
@@ -218,8 +219,8 @@ function buildPanels(v) {
       title: 'Rankings by capacity',
       body: (
         <ul className="text-[13px] space-y-0.5">
-          <li><span className="num text-white">#{v.rankings.state}</span> of {v.rankings.state_of} in {v.state}</li>
-          <li><span className="num text-white">#{v.rankings.us}</span> of {v.rankings.us_of} in the US</li>
+          {v.rankings.state != null && <li><span className="num text-white">#{v.rankings.state}</span> of {v.rankings.state_of} in {v.state}</li>}
+          {v.rankings.us != null && <li><span className="num text-white">#{v.rankings.us}</span> of {v.rankings.us_of} in the US</li>}
           {Object.entries(v.rankings.sport).map(([s, r]) => (
             <li key={s}><span className="num text-white">#{r.rank}</span> of {r.of} {(v.sport_labels?.[s] || s).toLowerCase()} venues</li>
           ))}
