@@ -201,6 +201,7 @@ function buildPanels(v) {
           <div className="big">{reno.year}</div>
           <div className="text-[12px] text-[#C9CED6]">{reno.description || 'Scope: N/A'}</div>
           <div className="font-mono text-[12px] text-white mt-0.5">Cost: {money(reno.cost_nominal)}</div>
+          {reno.source && <a href={reno.source.split(" ")[0]} target="_blank" rel="noopener noreferrer" className="text-[11px]">Source{reno.outlet ? `: ${reno.outlet}` : ""}</a>}
         </>
       ) : <div className="big">{NA}</div>,
     },

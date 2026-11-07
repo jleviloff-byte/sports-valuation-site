@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T13:08:43.950Z",
+ "generated": "2026-11-07T13:16:43.853Z",
  "license": "Coordinates and footprints derived from OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0). Facts from Wikipedia (CC BY-SA 4.0) and official team/venue sites, cited per field. CPI-U from BLS (public domain).",
  "cpi_base_year": 2025,
  "cutoff": 15000,
@@ -345,9 +345,10 @@
     },
     {
      "year": 2010,
-     "description": null,
+     "description": "Added 81 suites, club seating, a new press box, and wider seats and aisles",
      "cost_nominal": 226000000,
-     "source": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988"
+     "source": "https://www.annarbor.com/sports/um-football/open-house-to-showcase-michigan-stadiums-226-million-renovations-set-for-next-week",
+     "outlet": "AnnArbor.com"
     }
    ],
    "cost_nominal": 950000,
@@ -368,7 +369,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Michigan_Stadium&oldid=1382744988 https://www.annarbor.com/sports/um-football/open-house-to-showcase-michigan-stadiums-226-million-renovations-set-for-next-week"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -569,12 +570,6 @@
     },
     {
      "year": 1991,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Ohio_Stadium&oldid=1382049559"
-    },
-    {
-     "year": 2001,
      "description": null,
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Ohio_Stadium&oldid=1382049559"
@@ -993,9 +988,10 @@
     },
     {
      "year": 2022,
-     "description": null,
+     "description": "New west field-level premium seating, north video board and upper north deck",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Neyland_Stadium&oldid=1379912313"
+     "source": "https://www.wvlt.tv/2022/08/30/inside-new-neyland-ut-athletics-unveils-renovations-historic-stadium",
+     "outlet": "WVLT"
     }
    ],
    "cost_nominal": 42000,
@@ -1017,7 +1013,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Neyland_Stadium&oldid=1379912313",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Neyland_Stadium&oldid=1379912313",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Neyland_Stadium&oldid=1379912313"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Neyland_Stadium&oldid=1379912313 https://www.wvlt.tv/2022/08/30/inside-new-neyland-ut-athletics-unveils-renovations-historic-stadium"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -1154,9 +1150,10 @@
     },
     {
      "year": 2021,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium&oldid=1383459470"
+     "description": "South end zone enclosed the bowl with suites, loge seats, club space and a video board",
+     "cost_nominal": 175000000,
+     "source": "https://digital-release.kxan.com/?p=948350",
+     "outlet": "KXAN"
     }
    ],
    "cost_nominal": 275000,
@@ -1178,7 +1175,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium&oldid=1383459470",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium&oldid=1383459470",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium&oldid=1383459470"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Darrell_K_Royal%E2%80%93Texas_Memorial_Stadium&oldid=1383459470 https://digital-release.kxan.com/?p=948350"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -1556,9 +1553,10 @@
     },
     {
      "year": 2025,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Cotton_Bowl_(stadium)&oldid=1378299508"
+     "description": "West side rebuild with 14 escalators, a club level, terraces, suites and more concessions",
+     "cost_nominal": 140000000,
+     "source": "https://www.fox4news.com/news/cotton-bowls-140m-renovation-complete",
+     "outlet": "FOX 4 Dallas-Fort Worth"
     }
    ],
    "cost_nominal": 328200,
@@ -1580,7 +1578,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Cotton_Bowl_(stadium)&oldid=1378299508",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Cotton_Bowl_(stadium)&oldid=1378299508",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Cotton_Bowl_(stadium)&oldid=1378299508"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Cotton_Bowl_(stadium)&oldid=1378299508 https://www.fox4news.com/news/cotton-bowls-140m-renovation-complete"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -2331,12 +2329,6 @@
      "source": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731"
     },
     {
-     "year": 2003,
-     "description": null,
-     "cost_nominal": 295000000,
-     "source": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731"
-    },
-    {
      "year": 2013,
      "description": null,
      "cost_nominal": null,
@@ -2350,9 +2342,10 @@
     },
     {
      "year": 2023,
-     "description": null,
+     "description": "New end zone video boards and 60 upper concourse LED screens",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731"
+     "source": "https://www.packers.com/news/lambeau-field-upgrades-add-to-packers-excitement-for-2023",
+     "outlet": "Green Bay Packers"
     }
    ],
    "cost_nominal": 960000,
@@ -2374,7 +2367,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Lambeau_Field&oldid=1381185731 https://www.packers.com/news/lambeau-field-upgrades-add-to-packers-excitement-for-2023"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -3041,9 +3034,10 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Every seat replaced; new south tower with suites, loges, club seats and press box",
      "cost_nominal": 315000000,
-     "source": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868"
+     "source": "https://www.cbsnews.com/losangeles/news/la-memorial-coliseum-completes-315m-renovation-ahead-of-football-season/",
+     "outlet": "CBS Los Angeles"
     }
    ],
    "cost_nominal": 954872.98,
@@ -3065,7 +3059,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Los_Angeles_Memorial_Coliseum&oldid=1382253868 https://www.cbsnews.com/losangeles/news/la-memorial-coliseum-completes-315m-renovation-ahead-of-football-season/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -3599,12 +3593,6 @@
      "source": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203"
     },
     {
-     "year": 2017,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203"
-    },
-    {
      "year": 2019,
      "description": null,
      "cost_nominal": null,
@@ -3612,9 +3600,10 @@
     },
     {
      "year": 2021,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203"
+     "description": "Soccer upgrades: center tunnel, new home locker room, concourse bars and LED screen",
+     "cost_nominal": 50000000,
+     "source": "https://www.wbtv.com/2021/04/15/heres-first-look-what-million-soccer-renovations-brings-bofa-stadium/",
+     "outlet": "WBTV"
     }
    ],
    "cost_nominal": 500000000,
@@ -3635,7 +3624,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Bank_of_America_Stadium&oldid=1382522203 https://www.wbtv.com/2021/04/15/heres-first-look-what-million-soccer-renovations-brings-bofa-stadium/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -3834,9 +3823,10 @@
     },
     {
      "year": 2014,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Spartan_Stadium&oldid=1379446884"
+     "description": "Two-level north end zone complex with locker rooms, recruiting and media centers",
+     "cost_nominal": 24000000,
+     "source": "https://statenews.com/article/2014/08/msu-dedicates-completion-of-the-north-end-zone-of-spartan-stadium",
+     "outlet": "The State News"
     }
    ],
    "cost_nominal": 160001,
@@ -3858,7 +3848,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Spartan_Stadium&oldid=1379446884",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Spartan_Stadium&oldid=1379446884",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Spartan_Stadium&oldid=1379446884"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Spartan_Stadium&oldid=1379446884 https://statenews.com/article/2014/08/msu-dedicates-completion-of-the-north-end-zone-of-spartan-stadium"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -5597,9 +5587,10 @@
     },
     {
      "year": 2013,
-     "description": null,
+     "description": "New north end zone video board replacing the old scoreboard",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648"
+     "source": "https://hokiesports.com/lane-stadium-worsham-field",
+     "outlet": "Virginia Tech Athletics"
     }
    ],
    "cost_nominal": 3500000,
@@ -5621,7 +5612,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Lane_Stadium&oldid=1378051648 https://hokiesports.com/lane-stadium-worsham-field"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -6454,9 +6445,10 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "First phase of club-level renovation: lounges, lofts, a bar and video boards",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=State_Farm_Stadium&oldid=1380823511"
+     "source": "https://azcardinals.com/news/club-upgrades-latest-for-stadium-experience-19228888",
+     "outlet": "Arizona Cardinals"
     }
    ],
    "cost_nominal": 455000000,
@@ -6478,7 +6470,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=State_Farm_Stadium&oldid=1380823511",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=State_Farm_Stadium&oldid=1380823511",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=State_Farm_Stadium&oldid=1380823511",
+    "renovations": "https://en.wikipedia.org/w/index.php?title=State_Farm_Stadium&oldid=1380823511 https://azcardinals.com/news/club-upgrades-latest-for-stadium-experience-19228888",
     "capacity_verified": "https://www.statefarmstadium.com/about",
     "opened_verified": "https://www.statefarmstadium.com/about"
    },
@@ -7008,9 +7000,10 @@
     },
     {
      "year": 2018,
-     "description": null,
+     "description": "North end zone enclosed, adding about 5,400 seats including club seats, loge boxes and suites",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=L%26N_Federal_Credit_Union_Stadium&oldid=1379480112"
+     "source": "https://www.wdrbwave.com/2018/09/05/uofl-unveils-new-improvements-cardinal-stadium-ahead-season-opener/",
+     "outlet": "WAVE"
     }
    ],
    "cost_nominal": 135000000,
@@ -7031,7 +7024,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=L%26N_Federal_Credit_Union_Stadium&oldid=1379480112",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=L%26N_Federal_Credit_Union_Stadium&oldid=1379480112",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=L%26N_Federal_Credit_Union_Stadium&oldid=1379480112"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=L%26N_Federal_Credit_Union_Stadium&oldid=1379480112 https://www.wdrbwave.com/2018/09/05/uofl-unveils-new-improvements-cardinal-stadium-ahead-season-opener/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -7345,12 +7338,6 @@
     },
     {
      "year": 2005,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Galaxy_Stadium&oldid=1375977736"
-    },
-    {
-     "year": 2010,
      "description": null,
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Galaxy_Stadium&oldid=1375977736"
@@ -7868,9 +7855,10 @@
     },
     {
      "year": 2021,
-     "description": null,
+     "description": "Opened Tuffy's Terrace, an exclusive premium seating section",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Carter%E2%80%93Finley_Stadium&oldid=1375244220"
+     "source": "https://ca.sports.yahoo.com/news/private-patios-buffet-cash-bar-100000233.html",
+     "outlet": "Charlotte Observer (via Yahoo Sports)"
     }
    ],
    "cost_nominal": 3700000,
@@ -7892,7 +7880,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Carter%E2%80%93Finley_Stadium&oldid=1375244220",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Carter%E2%80%93Finley_Stadium&oldid=1375244220",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Carter%E2%80%93Finley_Stadium&oldid=1375244220"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Carter%E2%80%93Finley_Stadium&oldid=1375244220 https://ca.sports.yahoo.com/news/private-patios-buffet-cash-bar-100000233.html"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -8433,9 +8421,10 @@
     },
     {
      "year": 1922,
-     "description": null,
+     "description": "Wooden bleachers replaced by a concrete U-shaped lower bowl",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Franklin_Field&oldid=1383109920"
+     "source": "https://pennathletics.com/sports/2019/5/16/penn-athletics-facilities-ff-bio",
+     "outlet": "Penn Athletics"
     }
    ],
    "cost_nominal": 100000,
@@ -8456,7 +8445,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Franklin_Field&oldid=1383109920",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Franklin_Field&oldid=1383109920",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Franklin_Field&oldid=1383109920"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Franklin_Field&oldid=1383109920 https://pennathletics.com/sports/2019/5/16/penn-athletics-facilities-ff-bio"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -8658,15 +8647,10 @@
     },
     {
      "year": 2009,
-     "description": null,
+     "description": "West end zone completed, closing the bowl and adding club seats and suites",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210"
-    },
-    {
-     "year": 2009,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210"
+     "source": "https://static.okstate.com/custompages/allin2023/stadium.html",
+     "outlet": "Oklahoma State Athletics"
     }
    ],
    "cost_nominal": 50000,
@@ -8688,7 +8672,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Boone_Pickens_Stadium&oldid=1375796210 https://static.okstate.com/custompages/allin2023/stadium.html"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -8888,20 +8872,8 @@
      "source": "https://en.wikipedia.org/w/index.php?title=Dowdy%E2%80%93Ficklen_Stadium&oldid=1381707882"
     },
     {
-     "year": 2010,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Dowdy%E2%80%93Ficklen_Stadium&oldid=1381707882"
-    },
-    {
      "year": 2019,
      "description": "Press box replaced by a larger tower",
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Dowdy%E2%80%93Ficklen_Stadium&oldid=1381707882"
-    },
-    {
-     "year": 2019,
-     "description": null,
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Dowdy%E2%80%93Ficklen_Stadium&oldid=1381707882"
     }
@@ -9076,15 +9048,10 @@
     },
     {
      "year": 2013,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910"
-    },
-    {
-     "year": 2013,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910"
+     "description": "New football facility built into the north end of the stadium",
+     "cost_nominal": 72000000,
+     "source": "https://www.columbian.com/news/2013/aug/08/new-football-facility-a-huge-hit-at-arizona/",
+     "outlet": "Associated Press (via The Columbian)"
     }
    ],
    "cost_nominal": 166888,
@@ -9106,7 +9073,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Casino_Del_Sol_Stadium&oldid=1374641910 https://www.columbian.com/news/2013/aug/08/new-football-facility-a-huge-hit-at-arizona/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -9207,9 +9174,10 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "Football locker room and weight room renovated inside the stadium",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Kenan_Stadium&oldid=1376652136"
+     "source": "https://chapelboro.com/sports/unc-sports/unc-football/unc-football-unveils-new-locker-weight-rooms-tar-heels-mack-brown",
+     "outlet": "Chapelboro (WCHL)"
     }
    ],
    "cost_nominal": 303000,
@@ -9230,7 +9198,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Kenan_Stadium&oldid=1376652136",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Kenan_Stadium&oldid=1376652136",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Kenan_Stadium&oldid=1376652136"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Kenan_Stadium&oldid=1376652136 https://chapelboro.com/sports/unc-sports/unc-football/unc-football-unveils-new-locker-weight-rooms-tar-heels-mack-brown"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -9479,9 +9447,10 @@
     },
     {
      "year": 2021,
-     "description": null,
+     "description": "South end zone club, suites, loge boxes, covered concourse and video boards",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Bill_Snyder_Family_Football_Stadium&oldid=1372068306"
+     "source": "https://static.kstatesports.com/custompages/buildingchampions/project-sez.html",
+     "outlet": "K-State Athletics"
     }
    ],
    "cost_nominal": 1600000,
@@ -9502,7 +9471,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Bill_Snyder_Family_Football_Stadium&oldid=1372068306",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Bill_Snyder_Family_Football_Stadium&oldid=1372068306",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Bill_Snyder_Family_Football_Stadium&oldid=1372068306"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Bill_Snyder_Family_Football_Stadium&oldid=1372068306 https://static.kstatesports.com/custompages/buildingchampions/project-sez.html"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -9603,9 +9572,10 @@
     },
     {
      "year": 2014,
-     "description": null,
+     "description": "New north end zone video board and south end zone ribbon board",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Independence_Stadium_(Shreveport)&oldid=1372205636"
+     "source": "https://www.myspar.org/371/Independence-Stadium",
+     "outlet": "Shreveport SPAR"
     }
    ],
    "cost_nominal": null,
@@ -9624,7 +9594,7 @@
     "venue_type": "derived from tenant leagues",
     "roof": "https://en.wikipedia.org/w/index.php?title=Independence_Stadium_(Shreveport)&oldid=1372205636",
     "opened": "https://en.wikipedia.org/w/index.php?title=Independence_Stadium_(Shreveport)&oldid=1372205636",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Independence_Stadium_(Shreveport)&oldid=1372205636"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Independence_Stadium_(Shreveport)&oldid=1372205636 https://www.myspar.org/371/Independence-Stadium"
    },
    "last_verified": "2026-11-06",
    "flags": [],
@@ -10412,9 +10382,10 @@
     },
     {
      "year": 2018,
-     "description": null,
+     "description": "First phase: refreshed west concourse with family and accessible restrooms",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Sun_Bowl_(stadium)&oldid=1383065063"
+     "source": "https://www.utep.edu/newsfeed/campus/a-fans-guide-to-utep-football-game-day.html",
+     "outlet": "UTEP News"
     }
    ],
    "cost_nominal": 275000,
@@ -10436,7 +10407,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Sun_Bowl_(stadium)&oldid=1383065063",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Sun_Bowl_(stadium)&oldid=1383065063",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Sun_Bowl_(stadium)&oldid=1383065063"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Sun_Bowl_(stadium)&oldid=1383065063 https://www.utep.edu/newsfeed/campus/a-fans-guide-to-utep-football-game-day.html"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -10495,9 +10466,10 @@
     },
     {
      "year": 2026,
-     "description": null,
+     "description": "Rebuilt west side tower with club space, suites and media areas",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Acrisure_Bounce_House&oldid=1383339331"
+     "source": "https://ucfknights.com/news/2026/08/20/ucf-celebrates-completion-of-its-new-roth-tower-project",
+     "outlet": "UCF Athletics"
     }
    ],
    "cost_nominal": 55000000,
@@ -10519,7 +10491,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Acrisure_Bounce_House&oldid=1383339331",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Acrisure_Bounce_House&oldid=1383339331",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Acrisure_Bounce_House&oldid=1383339331"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Acrisure_Bounce_House&oldid=1383339331 https://ucfknights.com/news/2026/08/20/ucf-celebrates-completion-of-its-new-roth-tower-project"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -12166,9 +12138,10 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Protective netting extended from the dugouts to both foul poles",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Rate_Field&oldid=1382534595"
+     "source": "https://www.espn.com.au/mlb/story/_/id/27163676/mlb-first-pole-pole-net-chisox-park",
+     "outlet": "ESPN"
     }
    ],
    "cost_nominal": 137000000,
@@ -12190,7 +12163,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Rate_Field&oldid=1382534595",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Rate_Field&oldid=1382534595",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Rate_Field&oldid=1382534595"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Rate_Field&oldid=1382534595 https://www.espn.com.au/mlb/story/_/id/27163676/mlb-first-pole-pole-net-chisox-park"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -13293,9 +13266,10 @@
     },
     {
      "year": 2022,
-     "description": null,
+     "description": "New concourse terrace, an overlook event space and a larger bleacher video board",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Fenway_Park&oldid=1384003410"
+     "source": "https://www.cbsnews.com/boston/news/red-sox-announce-improvements-to-fenway-park-for-2022",
+     "outlet": "CBS News Boston"
     }
    ],
    "cost_nominal": 650000,
@@ -13317,7 +13291,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Fenway_Park&oldid=1384003410",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Fenway_Park&oldid=1384003410",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Fenway_Park&oldid=1384003410"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Fenway_Park&oldid=1384003410 https://www.cbsnews.com/boston/news/red-sox-announce-improvements-to-fenway-park-for-2022"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -14557,9 +14531,10 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "North end zone facility with seating and a club",
      "cost_nominal": 24000000,
-     "source": "https://en.wikipedia.org/w/index.php?title=Veterans_Memorial_Stadium_(Troy_University)&oldid=1383110453"
+     "source": "https://today.troy.edu/news/north-end-zone-facility-excites-troy-supporters/",
+     "outlet": "Troy University"
     }
    ],
    "cost_nominal": 65000,
@@ -14580,7 +14555,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Veterans_Memorial_Stadium_(Troy_University)&oldid=1383110453",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Veterans_Memorial_Stadium_(Troy_University)&oldid=1383110453",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Veterans_Memorial_Stadium_(Troy_University)&oldid=1383110453"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Veterans_Memorial_Stadium_(Troy_University)&oldid=1383110453 https://today.troy.edu/news/north-end-zone-facility-excites-troy-supporters/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -14708,9 +14683,10 @@
     },
     {
      "year": 2024,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Cajun_Field&oldid=1375947842"
+     "description": "West side rebuilt with suites, loge boxes, club seats and an indoor club",
+     "cost_nominal": 65000000,
+     "source": "https://www.klfy.com/sports/cajun-nation/ragin-cajuns-unveils-new-our-lady-of-lourdes-stadium/amp",
+     "outlet": "KLFY"
     }
    ],
    "cost_nominal": null,
@@ -14729,7 +14705,7 @@
     "venue_type": "derived from tenant leagues",
     "roof": "https://en.wikipedia.org/w/index.php?title=Cajun_Field&oldid=1375947842",
     "opened": "https://en.wikipedia.org/w/index.php?title=Cajun_Field&oldid=1375947842",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Cajun_Field&oldid=1375947842"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Cajun_Field&oldid=1375947842 https://www.klfy.com/sports/cajun-nation/ragin-cajuns-unveils-new-our-lady-of-lourdes-stadium/amp"
    },
    "last_verified": "2026-11-06",
    "flags": [],
@@ -15201,9 +15177,10 @@
     },
     {
      "year": 2006,
-     "description": null,
+     "description": "New video replay screen and scoreboard",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Mackay_Stadium&oldid=1373443157"
+     "source": "https://nevadawolfpack.com/news/2006/8/5/Mackay_Stadium.aspx",
+     "outlet": "Nevada Athletics"
     }
    ],
    "cost_nominal": 11500000,
@@ -15224,7 +15201,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Mackay_Stadium&oldid=1373443157",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Mackay_Stadium&oldid=1373443157",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Mackay_Stadium&oldid=1373443157"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Mackay_Stadium&oldid=1373443157 https://nevadawolfpack.com/news/2006/8/5/Mackay_Stadium.aspx"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -15607,9 +15584,10 @@
     },
     {
      "year": 2010,
-     "description": null,
+     "description": "East side expansion with a stadium club, 12 suites and accessible seating",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=War_Memorial_Stadium_(Wyoming)&oldid=1381712221"
+     "source": "https://enr.com/articles/20919-expanding-the-war",
+     "outlet": "Engineering News-Record"
     }
    ],
    "cost_nominal": 1530000,
@@ -15630,7 +15608,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=War_Memorial_Stadium_(Wyoming)&oldid=1381712221",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=War_Memorial_Stadium_(Wyoming)&oldid=1381712221",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=War_Memorial_Stadium_(Wyoming)&oldid=1381712221"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=War_Memorial_Stadium_(Wyoming)&oldid=1381712221 https://enr.com/articles/20919-expanding-the-war"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -16635,9 +16613,10 @@
     },
     {
      "year": 2016,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Maverik_Stadium&oldid=1379414398"
+     "description": "New west side press box with suites, patio suites, club seats and video boards",
+     "cost_nominal": 36000000,
+     "source": "https://www.ksl.com/article/40819076/new-maverick-stadium-renovations-ready-to-impress",
+     "outlet": "KSL.com"
     }
    ],
    "cost_nominal": 3000000,
@@ -16659,7 +16638,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Maverik_Stadium&oldid=1379414398",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Maverik_Stadium&oldid=1379414398",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Maverik_Stadium&oldid=1379414398"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Maverik_Stadium&oldid=1379414398 https://www.ksl.com/article/40819076/new-maverick-stadium-renovations-ready-to-impress"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -16764,9 +16743,10 @@
    "renovations": [
     {
      "year": 2022,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Bragg_Memorial_Stadium&oldid=1381707366"
+     "description": "Structural repairs: rusted seating and cross braces replaced, columns recoated",
+     "cost_nominal": 10000000,
+     "source": "https://www.wtxl.com/news/local-news/famu-stadium-upgrades-completed-in-time-for-homecoming-game",
+     "outlet": "WTXL ABC 27"
     }
    ],
    "cost_nominal": null,
@@ -16785,7 +16765,7 @@
     "venue_type": "derived from tenant leagues",
     "roof": "https://en.wikipedia.org/w/index.php?title=Bragg_Memorial_Stadium&oldid=1381707366",
     "opened": "https://en.wikipedia.org/w/index.php?title=Bragg_Memorial_Stadium&oldid=1381707366",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Bragg_Memorial_Stadium&oldid=1381707366"
+    "renovations": "https://www.wtxl.com/news/local-news/famu-stadium-upgrades-completed-in-time-for-homecoming-game"
    },
    "last_verified": "2026-11-06",
    "flags": [],
@@ -17030,9 +17010,10 @@
     },
     {
      "year": 2025,
-     "description": null,
+     "description": "Hurricane-damaged roof replaced with 24 new panels",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Tropicana_Field&oldid=1382924878"
+     "source": "https://www.wusf.org/sports/2025-11-22/trops-top-is-back-24th-and-final-replacement-roof-panel-is-in-place",
+     "outlet": "WUSF"
     }
    ],
    "cost_nominal": 130000000,
@@ -17054,7 +17035,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Tropicana_Field&oldid=1382924878",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Tropicana_Field&oldid=1382924878",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Tropicana_Field&oldid=1382924878"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Tropicana_Field&oldid=1382924878 https://www.wusf.org/sports/2025-11-22/trops-top-is-back-24th-and-final-replacement-roof-panel-is-in-place"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -17554,12 +17535,6 @@
     {
      "year": 2018,
      "description": "New HD video board and ribbon boards",
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Williams_Stadium&oldid=1378554389"
-    },
-    {
-     "year": 2018,
-     "description": null,
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Williams_Stadium&oldid=1378554389"
     }
@@ -21821,9 +21796,10 @@
     },
     {
      "year": 2019,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=TD_Garden&oldid=1372238200"
+     "description": "All seats replaced, premium clubs added, 50,000 sq ft expansion and more parking",
+     "cost_nominal": 100000000,
+     "source": "https://www.cbsnews.com/amp/boston/news/td-garden-reveals-new-look-new-seats-for-2019-20-bruins-and-celtics-season",
+     "outlet": "CBS News Boston"
     }
    ],
    "cost_nominal": 160000000,
@@ -21846,7 +21822,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=TD_Garden&oldid=1372238200",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=TD_Garden&oldid=1372238200",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=TD_Garden&oldid=1372238200 https://www.tdgarden.com/venue-info/about-td-garden",
+    "renovations": "https://en.wikipedia.org/w/index.php?title=TD_Garden&oldid=1372238200 https://www.tdgarden.com/venue-info/about-td-garden https://www.cbsnews.com/amp/boston/news/td-garden-reveals-new-look-new-seats-for-2019-20-bruins-and-celtics-season",
     "capacity_verified": "https://www.tdgarden.com/venue-info/about-td-garden",
     "cost_nominal_verified": "https://www.tdgarden.com/venue-info/about-td-garden"
    },
@@ -24078,9 +24054,10 @@
     },
     {
      "year": 2014,
-     "description": null,
+     "description": "Rebuilt as a football-only stadium; east stands replaced from the ground up",
      "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Robert_W._Plaster_Stadium&oldid=1378897678"
+     "source": "https://www.missouristate.edu/PlasterStadium/",
+     "outlet": "Missouri State University"
     }
    ],
    "cost_nominal": 60000,
@@ -24101,7 +24078,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=Robert_W._Plaster_Stadium&oldid=1378897678",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=Robert_W._Plaster_Stadium&oldid=1378897678",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Robert_W._Plaster_Stadium&oldid=1378897678"
+    "renovations": "https://en.wikipedia.org/w/index.php?title=Robert_W._Plaster_Stadium&oldid=1378897678 https://www.missouristate.edu/PlasterStadium/"
    },
    "last_verified": "2026-11-06",
    "flags": [
@@ -24413,12 +24390,6 @@
      "year": 2022,
      "description": "Outdoor entry plaza, indoor gathering areas and interior upgrades",
      "cost_nominal": 360000000,
-     "source": "https://en.wikipedia.org/w/index.php?title=Gainbridge_Fieldhouse&oldid=1381441842"
-    },
-    {
-     "year": 2022,
-     "description": null,
-     "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Gainbridge_Fieldhouse&oldid=1381441842"
     }
    ],
@@ -25159,7 +25130,7 @@
      "year": 2018,
      "description": "Suite wall replaced by premium seating spread around the bowl",
      "cost_nominal": null,
-     "source": "https://www.statefarmarena.com/about-the-arena/quick-facts"
+     "source": "https://en.wikipedia.org/w/index.php?title=State_Farm_Arena&oldid=1381330441"
     }
    ],
    "cost_nominal": 213500000,
@@ -25180,7 +25151,7 @@
     "opened": "https://en.wikipedia.org/w/index.php?title=State_Farm_Arena&oldid=1381330441",
     "cost_nominal": "https://en.wikipedia.org/w/index.php?title=State_Farm_Arena&oldid=1381330441",
     "cost_real": "https://data.bls.gov/timeseries/CUUR0000SA0",
-    "renovations": "https://www.statefarmarena.com/about-the-arena/quick-facts",
+    "renovations": "https://en.wikipedia.org/w/index.php?title=State_Farm_Arena&oldid=1381330441",
     "opened_verified": "https://www.statefarmarena.com/about-the-arena/quick-facts"
    },
    "last_verified": "2026-11-06",
@@ -25473,9 +25444,10 @@
    "renovations": [
     {
      "year": 2007,
-     "description": null,
-     "cost_nominal": null,
-     "source": "https://en.wikipedia.org/w/index.php?title=Hanson_Field&oldid=1374032221"
+     "description": "East side renovation: new bleachers, more seats, entrance, restrooms and concessions",
+     "cost_nominal": 5000000,
+     "source": "https://goleathernecks.com/sports/2014/6/5/facilities_0605141744.aspx",
+     "outlet": "Western Illinois Athletics"
     }
    ],
    "cost_nominal": null,
@@ -25494,7 +25466,7 @@
     "venue_type": "derived from tenant leagues",
     "roof": "https://en.wikipedia.org/w/index.php?title=Hanson_Field&oldid=1374032221",
     "opened": "https://en.wikipedia.org/w/index.php?title=Hanson_Field&oldid=1374032221",
-    "renovations": "https://en.wikipedia.org/w/index.php?title=Hanson_Field&oldid=1374032221"
+    "renovations": "https://goleathernecks.com/sports/2014/6/5/facilities_0605141744.aspx"
    },
    "last_verified": "2026-11-06",
    "flags": [],

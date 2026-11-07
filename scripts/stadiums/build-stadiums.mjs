@@ -298,13 +298,26 @@ const dupSlugs = Object.keys(slugCount).filter((s) => slugCount[s] > 1)
 // Renovation scopes written from the cited Wikipedia text (scripts/stadiums/renovation-scopes.json).
 const scopes = fs.existsSync('scripts/stadiums/renovation-scopes.json') ? read('scripts/stadiums/renovation-scopes.json') : {}
 for (const v of included) {
+  // One entry per year: renovated/expanded fields can both list the same year.
+  const byYear = new Map()
+  for (const x of v.renovations) {
+    const prev = byYear.get(x.year)
+    byYear.set(x.year, prev ? { ...prev, description: prev.description || x.description, cost_nominal: prev.cost_nominal ?? x.cost_nominal, source: prev.source || x.source } : x)
+  }
+  v.renovations = [...byYear.values()].sort((a, b) => a.year - b.year)
   const sc = scopes[v.slug]
   if (!sc) continue
-  const r = v.renovations.find((x) => x.year === sc.year) || v.renovations.at(-1)
+  const r = v.renovations.findLast((x) => x.year === sc.year) || v.renovations.at(-1)
   if (!r) continue
-  if (!r.description) r.description = sc.scope
+  if (!r.description) {
+    // The description comes from this source, so it becomes the renovation's citation.
+    r.description = sc.scope
+    r.source = sc.source
+    if (sc.outlet) r.outlet = sc.outlet
+  }
   if (r.cost_nominal == null && sc.cost_nominal != null) r.cost_nominal = sc.cost_nominal
   r.source = r.source || sc.source
+  v.sources.renovations = [...new Set(v.renovations.map((x) => x.source).filter(Boolean))].join(' ')
 }
 
 // Rankings (competition ranking: ties share a rank).

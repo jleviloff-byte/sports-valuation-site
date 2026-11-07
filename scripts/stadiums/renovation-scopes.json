@@ -1,5 +1,5 @@
 {
- "_readme": "Renovation scope written from the cited Wikipedia revision (evidence sentences in research/raw/stadiums/renovation-sentences.json). Costs only where that text states a figure for the project.",
+ "_readme": "Renovation scope: pass 1 written from the cited Wikipedia revision (evidence in research/raw/stadiums/renovation-sentences.json); pass 2 (source_type \"official or news\") from official team, university or venue releases and established news outlets. Costs only where the source states a figure for the project; estimates, authorizations and guaranteed maximum prices stay null.",
  "beaver-stadium": {
   "year": 2027,
   "scope": "Multi-stage renovation under way, due before the 2027 season",
@@ -629,5 +629,304 @@
   "scope": "Corner video boards and chairback seats",
   "cost_nominal": null,
   "source": "https://en.wikipedia.org/w/index.php?title=Allen_Fieldhouse&oldid=1372062145"
+ },
+ "michigan-stadium": {
+  "year": 2010,
+  "scope": "Added 81 suites, club seating, a new press box, and wider seats and aisles",
+  "cost_nominal": 226000000,
+  "source": "https://www.annarbor.com/sports/um-football/open-house-to-showcase-michigan-stadiums-226-million-renovations-set-for-next-week",
+  "source_type": "official or news",
+  "outlet": "AnnArbor.com",
+  "evidence_quote": "Stadium improvements include wider seats and aisles"
+ },
+ "neyland-stadium": {
+  "year": 2022,
+  "scope": "New west field-level premium seating, north video board and upper north deck",
+  "cost_nominal": null,
+  "source": "https://www.wvlt.tv/2022/08/30/inside-new-neyland-ut-athletics-unveils-renovations-historic-stadium",
+  "source_type": "official or news",
+  "outlet": "WVLT",
+  "evidence_quote": "new field-level suite and larger seats",
+  "note": "Cost null: the ~$300M figure covers the whole multi-phase program."
+ },
+ "darrell-k-royal-texas-memorial-stadium": {
+  "year": 2021,
+  "scope": "South end zone enclosed the bowl with suites, loge seats, club space and a video board",
+  "cost_nominal": 175000000,
+  "source": "https://digital-release.kxan.com/?p=948350",
+  "source_type": "official or news",
+  "outlet": "KXAN",
+  "evidence_quote": "multiple levels, a Longhorn-shaped balcony and a new big screen",
+  "note": "Source is from April 2021, before completion."
+ },
+ "cotton-bowl": {
+  "year": 2025,
+  "scope": "West side rebuild with 14 escalators, a club level, terraces, suites and more concessions",
+  "cost_nominal": 140000000,
+  "source": "https://www.fox4news.com/news/cotton-bowls-140m-renovation-complete",
+  "source_type": "official or news",
+  "outlet": "FOX 4 Dallas-Fort Worth",
+  "evidence_quote": "Escalators, more concessions, more restrooms"
+ },
+ "lambeau-field": {
+  "year": 2023,
+  "scope": "New end zone video boards and 60 upper concourse LED screens",
+  "cost_nominal": null,
+  "source": "https://www.packers.com/news/lambeau-field-upgrades-add-to-packers-excitement-for-2023",
+  "source_type": "official or news",
+  "outlet": "Green Bay Packers",
+  "evidence_quote": "the NFL's first six-millimeter pixel spacing"
+ },
+ "los-angeles-memorial-coliseum": {
+  "year": 2019,
+  "scope": "Every seat replaced; new south tower with suites, loges, club seats and press box",
+  "cost_nominal": 315000000,
+  "source": "https://www.cbsnews.com/losangeles/news/la-memorial-coliseum-completes-315m-renovation-ahead-of-football-season/",
+  "source_type": "official or news",
+  "outlet": "CBS Los Angeles",
+  "evidence_quote": "Every seat in the stadium was replaced and new suites"
+ },
+ "bank-of-america-stadium": {
+  "year": 2021,
+  "scope": "Soccer upgrades: center tunnel, new home locker room, concourse bars and LED screen",
+  "cost_nominal": 50000000,
+  "source": "https://www.wbtv.com/2021/04/15/heres-first-look-what-million-soccer-renovations-brings-bofa-stadium/",
+  "source_type": "official or news",
+  "outlet": "WBTV",
+  "evidence_quote": "includes adding a center tunnel, a new home locker room",
+  "note": "Source is from April 2021, before completion."
+ },
+ "spartan-stadium": {
+  "year": 2014,
+  "scope": "Two-level north end zone complex with locker rooms, recruiting and media centers",
+  "cost_nominal": 24000000,
+  "source": "https://statenews.com/article/2014/08/msu-dedicates-completion-of-the-north-end-zone-of-spartan-stadium",
+  "source_type": "official or news",
+  "outlet": "The State News",
+  "evidence_quote": "two level expansion that, in addition to new locker rooms"
+ },
+ "lane-stadium": {
+  "year": 2013,
+  "scope": "New north end zone video board replacing the old scoreboard",
+  "cost_nominal": null,
+  "source": "https://hokiesports.com/lane-stadium-worsham-field",
+  "source_type": "official or news",
+  "outlet": "Virginia Tech Athletics",
+  "evidence_quote": "was erected to replace the old scoreboard in the north end zone"
+ },
+ "state-farm-stadium": {
+  "year": 2017,
+  "scope": "First phase of club-level renovation: lounges, lofts, a bar and video boards",
+  "cost_nominal": null,
+  "source": "https://azcardinals.com/news/club-upgrades-latest-for-stadium-experience-19228888",
+  "source_type": "official or news",
+  "outlet": "Arizona Cardinals",
+  "evidence_quote": "the team put in the first champagne bar in the NFL",
+  "note": "Cost null: $28M covers both phases."
+ },
+ "landn-federal-credit-union-stadium": {
+  "year": 2018,
+  "scope": "North end zone enclosed, adding about 5,400 seats including club seats, loge boxes and suites",
+  "cost_nominal": null,
+  "source": "https://www.wdrbwave.com/2018/09/05/uofl-unveils-new-improvements-cardinal-stadium-ahead-season-opener/",
+  "source_type": "official or news",
+  "outlet": "WAVE",
+  "evidence_quote": "800 modern club seats, 68 new premium loge level boxes"
+ },
+ "carter-finley-stadium": {
+  "year": 2021,
+  "scope": "Opened Tuffy's Terrace, an exclusive premium seating section",
+  "cost_nominal": null,
+  "source": "https://ca.sports.yahoo.com/news/private-patios-buffet-cash-bar-100000233.html",
+  "source_type": "official or news",
+  "outlet": "Charlotte Observer (via Yahoo Sports)",
+  "evidence_quote": "began operating its exclusive section, \"Tuffy's Terrace,\" in 2021"
+ },
+ "franklin-field": {
+  "year": 1922,
+  "scope": "Wooden bleachers replaced by a concrete U-shaped lower bowl",
+  "cost_nominal": null,
+  "source": "https://pennathletics.com/sports/2019/5/16/penn-athletics-facilities-ff-bio",
+  "source_type": "official or news",
+  "outlet": "Penn Athletics",
+  "evidence_quote": "the modern U-shaped lower bowl was constructed"
+ },
+ "boone-pickens-stadium": {
+  "year": 2009,
+  "scope": "West end zone completed, closing the bowl and adding club seats and suites",
+  "cost_nominal": null,
+  "source": "https://static.okstate.com/custompages/allin2023/stadium.html",
+  "source_type": "official or news",
+  "outlet": "Oklahoma State Athletics",
+  "evidence_quote": "creating a continuous seating bowl in the west end zone"
+ },
+ "casino-del-sol-stadium": {
+  "year": 2013,
+  "scope": "New football facility built into the north end of the stadium",
+  "cost_nominal": 72000000,
+  "source": "https://www.columbian.com/news/2013/aug/08/new-football-facility-a-huge-hit-at-arizona/",
+  "source_type": "official or news",
+  "outlet": "Associated Press (via The Columbian)",
+  "evidence_quote": "$72 million expansion at the north end of Arizona Stadium"
+ },
+ "kenan-stadium": {
+  "year": 2020,
+  "scope": "Football locker room and weight room renovated inside the stadium",
+  "cost_nominal": null,
+  "source": "https://chapelboro.com/sports/unc-sports/unc-football/unc-football-unveils-new-locker-weight-rooms-tar-heels-mack-brown",
+  "source_type": "official or news",
+  "outlet": "Chapelboro (WCHL)",
+  "evidence_quote": "to the locker and weight rooms at Kenan Stadium",
+  "note": "Work completed July 2019, within one year of the listed 2020."
+ },
+ "bill-snyder-family-football-stadium": {
+  "year": 2021,
+  "scope": "South end zone club, suites, loge boxes, covered concourse and video boards",
+  "cost_nominal": null,
+  "source": "https://static.kstatesports.com/custompages/buildingchampions/project-sez.html",
+  "source_type": "official or news",
+  "outlet": "K-State Athletics",
+  "evidence_quote": "Plans for this space include 318 club seats, 10 suites",
+  "note": "Cost null: $50M is an anticipated total."
+ },
+ "independence-stadium": {
+  "year": 2014,
+  "scope": "New north end zone video board and south end zone ribbon board",
+  "cost_nominal": null,
+  "source": "https://www.myspar.org/371/Independence-Stadium",
+  "source_type": "official or news",
+  "outlet": "Shreveport SPAR",
+  "evidence_quote": "a new video board was installed in the North End Zone"
+ },
+ "sun-bowl": {
+  "year": 2018,
+  "scope": "First phase: refreshed west concourse with family and accessible restrooms",
+  "cost_nominal": null,
+  "source": "https://www.utep.edu/newsfeed/campus/a-fans-guide-to-utep-football-game-day.html",
+  "source_type": "official or news",
+  "outlet": "UTEP News",
+  "evidence_quote": "new look and amenities along the stadium's west concourse"
+ },
+ "acrisure-bounce-house": {
+  "year": 2026,
+  "scope": "Rebuilt west side tower with club space, suites and media areas",
+  "cost_nominal": null,
+  "source": "https://ucfknights.com/news/2026/08/20/ucf-celebrates-completion-of-its-new-roth-tower-project",
+  "source_type": "official or news",
+  "outlet": "UCF Athletics",
+  "evidence_quote": "significantly expands UCF's premium seating, suite and event capabilities",
+  "note": "Cost null: $90M is a tourist-tax commitment, not the project cost."
+ },
+ "rate-field": {
+  "year": 2019,
+  "scope": "Protective netting extended from the dugouts to both foul poles",
+  "cost_nominal": null,
+  "source": "https://www.espn.com.au/mlb/story/_/id/27163676/mlb-first-pole-pole-net-chisox-park",
+  "source_type": "official or news",
+  "outlet": "ESPN",
+  "evidence_quote": "extend the protective netting to the foul poles"
+ },
+ "fenway-park": {
+  "year": 2022,
+  "scope": "New concourse terrace, an overlook event space and a larger bleacher video board",
+  "cost_nominal": null,
+  "source": "https://www.cbsnews.com/boston/news/red-sox-announce-improvements-to-fenway-park-for-2022",
+  "source_type": "official or news",
+  "outlet": "CBS News Boston",
+  "evidence_quote": "new 8,800 square foot concourse"
+ },
+ "veterans-memorial-stadium": {
+  "year": 2017,
+  "scope": "North end zone facility with seating and a club",
+  "cost_nominal": 24000000,
+  "source": "https://today.troy.edu/news/north-end-zone-facility-excites-troy-supporters/",
+  "source_type": "official or news",
+  "outlet": "Troy University",
+  "evidence_quote": "The $24 million addition features seating",
+  "note": "Opened September 2018, within one year of the listed 2017."
+ },
+ "cajun-field": {
+  "year": 2024,
+  "scope": "West side rebuilt with suites, loge boxes, club seats and an indoor club",
+  "cost_nominal": 65000000,
+  "source": "https://www.klfy.com/sports/cajun-nation/ragin-cajuns-unveils-new-our-lady-of-lourdes-stadium/amp",
+  "source_type": "official or news",
+  "outlet": "KLFY",
+  "evidence_quote": "The new West Side features 34 suites, 40 loge boxes",
+  "note": "Finished for the 2025 season."
+ },
+ "mackay-stadium": {
+  "year": 2006,
+  "scope": "New video replay screen and scoreboard",
+  "cost_nominal": null,
+  "source": "https://nevadawolfpack.com/news/2006/8/5/Mackay_Stadium.aspx",
+  "source_type": "official or news",
+  "outlet": "Nevada Athletics",
+  "evidence_quote": "a brand-new large video replay screen and scoreboard"
+ },
+ "war-memorial-stadium": {
+  "year": 2010,
+  "scope": "East side expansion with a stadium club, 12 suites and accessible seating",
+  "cost_nominal": null,
+  "source": "https://enr.com/articles/20919-expanding-the-war",
+  "source_type": "official or news",
+  "outlet": "Engineering News-Record",
+  "evidence_quote": "will add 12 individual suites and a stadium-club area",
+  "note": "Source is from December 2009, before completion; $22M was a guaranteed maximum price."
+ },
+ "maverik-stadium": {
+  "year": 2016,
+  "scope": "New west side press box with suites, patio suites, club seats and video boards",
+  "cost_nominal": 36000000,
+  "source": "https://www.ksl.com/article/40819076/new-maverick-stadium-renovations-ready-to-impress",
+  "source_type": "official or news",
+  "outlet": "KSL.com",
+  "evidence_quote": "a brand-new press box, 24 luxury suites, 20 patio suites"
+ },
+ "bragg-memorial-stadium": {
+  "year": 2022,
+  "scope": "Structural repairs: rusted seating and cross braces replaced, columns recoated",
+  "cost_nominal": 10000000,
+  "source": "https://www.wtxl.com/news/local-news/famu-stadium-upgrades-completed-in-time-for-homecoming-game",
+  "source_type": "official or news",
+  "outlet": "WTXL ABC 27",
+  "evidence_quote": "replace all the cross braces under the stands"
+ },
+ "tropicana-field": {
+  "year": 2025,
+  "scope": "Hurricane-damaged roof replaced with 24 new panels",
+  "cost_nominal": null,
+  "source": "https://www.wusf.org/sports/2025-11-22/trops-top-is-back-24th-and-final-replacement-roof-panel-is-in-place",
+  "source_type": "official or news",
+  "outlet": "WUSF",
+  "evidence_quote": "The 24th and final replacement panel was put in place",
+  "note": "Cost null: ~$60M is an authorization, not a stated cost."
+ },
+ "td-garden": {
+  "year": 2019,
+  "scope": "All seats replaced, premium clubs added, 50,000 sq ft expansion and more parking",
+  "cost_nominal": 100000000,
+  "source": "https://www.cbsnews.com/amp/boston/news/td-garden-reveals-new-look-new-seats-for-2019-20-bruins-and-celtics-season",
+  "source_type": "official or news",
+  "outlet": "CBS News Boston",
+  "evidence_quote": "50,000 square feet of expansion"
+ },
+ "robert-w-plaster-stadium": {
+  "year": 2014,
+  "scope": "Rebuilt as a football-only stadium; east stands replaced from the ground up",
+  "cost_nominal": null,
+  "source": "https://www.missouristate.edu/PlasterStadium/",
+  "source_type": "official or news",
+  "outlet": "Missouri State University",
+  "evidence_quote": "the student side (east side) was fully replaced from the ground up"
+ },
+ "hanson-field": {
+  "year": 2007,
+  "scope": "East side renovation: new bleachers, more seats, entrance, restrooms and concessions",
+  "cost_nominal": 5000000,
+  "source": "https://goleathernecks.com/sports/2014/6/5/facilities_0605141744.aspx",
+  "source_type": "official or news",
+  "outlet": "Western Illinois Athletics",
+  "evidence_quote": "$5 million face-lift prior to the 2007 season"
  }
 }
