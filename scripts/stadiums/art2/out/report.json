@@ -1,0 +1,122 @@
+[
+ {
+  "slug": "michigan-stadium",
+  "style": "vector",
+  "ms": 3075
+ },
+ {
+  "slug": "michigan-stadium",
+  "style": "painted",
+  "ms": 4657
+ },
+ {
+  "slug": "michigan-stadium",
+  "style": "stylized",
+  "ms": 4286
+ },
+ {
+  "slug": "yulman-stadium",
+  "style": "vector",
+  "ms": 2139
+ },
+ {
+  "slug": "yulman-stadium",
+  "style": "painted",
+  "ms": 3761
+ },
+ {
+  "slug": "yulman-stadium",
+  "style": "stylized",
+  "ms": 3791
+ },
+ {
+  "slug": "fenway-park",
+  "style": "vector",
+  "ms": 2303
+ },
+ {
+  "slug": "fenway-park",
+  "style": "painted",
+  "ms": 3644
+ },
+ {
+  "slug": "fenway-park",
+  "style": "stylized",
+  "ms": 3562
+ },
+ {
+  "slug": "wrigley-field",
+  "style": "vector",
+  "ms": 2369
+ },
+ {
+  "slug": "wrigley-field",
+  "style": "painted",
+  "ms": 4441
+ },
+ {
+  "slug": "wrigley-field",
+  "style": "stylized",
+  "ms": 4132
+ },
+ {
+  "slug": "sofi-stadium",
+  "style": "vector",
+  "ms": 2133
+ },
+ {
+  "slug": "sofi-stadium",
+  "style": "painted",
+  "ms": 3869
+ },
+ {
+  "slug": "sofi-stadium",
+  "style": "stylized",
+  "ms": 3819
+ },
+ {
+  "slug": "madison-square-garden",
+  "style": "vector",
+  "ms": 2064
+ },
+ {
+  "slug": "madison-square-garden",
+  "style": "painted",
+  "ms": 3911
+ },
+ {
+  "slug": "madison-square-garden",
+  "style": "stylized",
+  "ms": 4693
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "style": "vector",
+  "ms": 1671
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "style": "painted",
+  "ms": 4107
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "style": "stylized",
+  "ms": 3841
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "style": "vector",
+  "ms": 2454
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "style": "painted",
+  "ms": 4823
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "style": "stylized",
+  "ms": 4438
+ }
+]

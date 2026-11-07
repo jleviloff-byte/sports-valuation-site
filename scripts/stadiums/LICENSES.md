@@ -31,3 +31,12 @@ Planned for Phase 3 (license confirmed from the package when installed): maplibr
 Requests to Wikipedia and Nominatim identify themselves as `FranchiseMathStadiumBot/0.1 (https://github.com/jleviloff-byte/sports-valuation-site)`. Nominatim requests follow its usage policy (at most 1 per second, one-time bulk run of about 480 lookups), and every response is cached in `research/raw/stadiums/`, so the pipeline does not refetch unless run with `--refresh`.
 
 Planned for Phase 3: OpenFreeMap tiles (free, no key, commercial use allowed, no SLA; attribution "© OpenMapTiles, Data from OpenStreetMap", added automatically by MapLibre; modified styles must be self-hosted), OpenMapTiles schema and styles (CC-BY 4.0 design, BSD-3 code), Noto Sans glyphs via OpenFreeMap (OFL).
+
+## Art references (illustrated pipeline, 2026-11-07)
+
+| Source | License | Use |
+|---|---|---|
+| USGS NAIP orthoimagery via imagery.nationalmap.gov | Public domain (U.S. Government work) | Footprint, orientation and proportions; manifest `research/raw/stadiums/naip-manifest.json`. The SoFi canopy outline and Daytona track geometry were measured from NAIP. |
+| Wikimedia Commons photos | Public domain, CC0, CC BY or CC BY-SA only (fair-use files excluded) | Visual reference for colors and signature features; manifest with URL, author and license per image in `research/raw/stadiums/art-references.json`. Image files are gitignored. |
+
+**What CC BY-SA asks of us.** The venue art is modeled in three.js from measurements and observed colors; no pixels, textures or traced outlines are taken from any CC BY-SA photo. Using a photo only as a visual reference does not make the model a derivative of that photo, so the art carries no share-alike obligation. Two places do reproduce reference photos and therefore must credit the author and license, and if published, be offered under the same CC BY-SA terms: the review contact sheets in `docs/art-review/` (credits are printed under each image), and any future page that shows the reference photos themselves. If we ever copy pixels from a CC BY-SA photo into the art (a texture, a trace), that art would have to be released under CC BY-SA with attribution, so the pipeline avoids it.

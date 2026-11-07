@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>venue render</title>
+<style>html,body{margin:0;background:#000}canvas{display:block}</style>
+<script type="importmap">
+{ "imports": {
+  "three": "/node_modules/three/build/three.module.js",
+  "three/addons/": "/node_modules/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<script type="module">
+import * as THREE from 'three'
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js'
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js'
+import { GTAOPass } from 'three/addons/postprocessing/GTAOPass.js'
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js'
+import * as K from './kit.js'
+import { BUILDERS } from './venues.js'
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true })
+renderer.setPixelRatio(1)
+renderer.outputColorSpace = THREE.SRGBColorSpace
+renderer.shadowMap.enabled = true
+renderer.shadowMap.type = THREE.PCFSoftShadowMap
+document.body.appendChild(renderer.domElement)
+
+// One camera for every venue: 3/4 aerial from the south-southeast.
+const CAM_BEARING = 160, CAM_ELEV = 38, FOV = 20
+function fitCamera(obj, aspect) {
+  const box = new THREE.Box3().setFromObject(obj)
+  const sphere = box.getBoundingSphere(new THREE.Sphere())
+  const cam = new THREE.PerspectiveCamera(FOV, aspect, 1, 20000)
+  const [bx, bz] = K.bearingVec(CAM_BEARING)
+  const el = (CAM_ELEV * Math.PI) / 180
+  const dist = (sphere.radius / Math.sin(((FOV / 2) * Math.PI) / 180)) * 1.02
+  cam.position.set(sphere.center.x + bx * Math.cos(el) * dist, sphere.center.y + Math.sin(el) * dist, sphere.center.z + bz * Math.cos(el) * dist)
+  cam.lookAt(sphere.center)
+  cam.updateMatrixWorld()
+  // Tighten the framing to the projected bounds so models fill the canvas.
+  const corners = []
+  for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) corners.push(new THREE.Vector3(x, y, z).project(cam))
+  const xs = corners.map((p) => p.x), ys = corners.map((p) => p.y)
+  const cx = (Math.max(...xs) + Math.min(...xs)) / 2, cy = (Math.max(...ys) + Math.min(...ys)) / 2
+  const ext = Math.max(Math.max(...xs) - cx, Math.max(...ys) - cy)
+  cam.zoom = 1 / (ext * 1.04)
+  cam.updateProjectionMatrix()
+  // Shift the image so the model's projected bounds are centered.
+  const e = cam.projectionMatrix.elements
+  e[8] += cx * cam.zoom
+  e[9] += cy * cam.zoom
+  cam.projectionMatrixInverse.copy(cam.projectionMatrix).invert()
+  return cam
+}
+
+// Late-afternoon light: low warm sun from the west-southwest, cool sky fill.
+function lights(scene, style, radius, center) {
+  const sun = new THREE.DirectionalLight(style === 'vector' ? 0xfff1dc : 0xffdcae, style === 'vector' ? 2.2 : 2.8)
+  const [sx, sz] = K.bearingVec(250)
+  const el = (24 * Math.PI) / 180
+  sun.position.set(center.x + sx * Math.cos(el) * radius * 2, center.y + Math.sin(el) * radius * 2, center.z + sz * Math.cos(el) * radius * 2)
+  sun.target.position.copy(center)
+  sun.castShadow = style !== 'vector'
+  sun.shadow.mapSize.set(4096, 4096)
+  const s = sun.shadow.camera
+  s.left = s.bottom = -radius * 1.2; s.right = s.top = radius * 1.2; s.near = 1; s.far = radius * 5
+  sun.shadow.bias = -0.0004
+  sun.shadow.normalBias = 0.6
+  sun.shadow.radius = 4
+  scene.add(sun, sun.target)
+  scene.add(new THREE.HemisphereLight(0xcfe0ff, 0x8a7f6a, style === 'vector' ? 1.5 : 1.15))
+  const fill = new THREE.DirectionalLight(0xb9cdf0, 0.45)
+  fill.position.set(center.x - sx * radius, center.y + radius, center.z - sz * radius)
+  scene.add(fill)
+}
+
+window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
+  const mat = K.makeMaterials(style)
+  const fp = K.project(footprint)
+  const model = BUILDERS[slug]({ fp, kit: K, mat, THREE, info: info || {} })
+  const scene = new THREE.Scene()
+  scene.background = new THREE.Color(0x000000)
+  scene.add(model)
+  const box = new THREE.Box3().setFromObject(model)
+  const sphere = box.getBoundingSphere(new THREE.Sphere())
+  lights(scene, style, sphere.radius, sphere.center)
+  // Ground plane that only receives shadow (kept out of the mask pass).
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(sphere.radius * 6, sphere.radius * 6), new THREE.ShadowMaterial({ opacity: 0.0 }))
+  ground.rotation.x = -Math.PI / 2
+  ground.position.set(sphere.center.x, Math.min(0, box.min.y) - 0.01, sphere.center.z)
+  renderer.setSize(size, size)
+  const cam = fitCamera(model, 1)
+  const out = {}
+
+  // Color pass (with ambient occlusion for the shaded styles).
+  if (style === 'vector') {
+    renderer.render(scene, cam)
+  } else {
+    const composer = new EffectComposer(renderer)
+    composer.setSize(size, size)
+    composer.addPass(new RenderPass(scene, cam))
+    const ao = new GTAOPass(scene, cam, size, size)
+    ao.updateGtaoMaterial({ radius: sphere.radius * 0.035, distanceExponent: 1.4, thickness: 2, scale: 1.2 })
+    ao.blendIntensity = style === 'painted' ? 0.75 : 1.0
+    composer.addPass(ao)
+    composer.addPass(new OutputPass())
+    composer.render()
+  }
+  out.color = renderer.domElement.toDataURL('image/png')
+
+  // Mask pass: silhouette in white.
+  const prevBg = scene.background
+  scene.overrideMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide })
+  const hidden = []
+  scene.traverse((o) => { if (o.isLight) { hidden.push(o); o.visible = false } })
+  renderer.render(scene, cam)
+  out.mask = renderer.domElement.toDataURL('image/png')
+  // Normal pass for outline detection.
+  scene.overrideMaterial = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide })
+  renderer.render(scene, cam)
+  out.normal = renderer.domElement.toDataURL('image/png')
+  scene.overrideMaterial = null
+  hidden.forEach((o) => { o.visible = true })
+  scene.background = prevBg
+  return out
+}
+window.ready = true
+</script>
+</body>
+</html>
