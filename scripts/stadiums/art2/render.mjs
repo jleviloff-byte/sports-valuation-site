@@ -124,6 +124,17 @@ for (const slug of slugs) {
     await sharp(sq).resize(1024, 1024).png().toFile(path.join(dir, `${slug}.png`))
     await sharp(sq).resize(256, 256).png().toFile(path.join(dir, `${slug}-256.png`))
     await sharp(sq).resize(128, 128).png().toFile(path.join(dir, `${slug}-128.png`))
+    if (style === STYLES[0]) {
+      // Conditioning images for Path A (ControlNet depth + mask), padded to a square on black.
+      const cdir = 'scripts/stadiums/art2/out/control'
+      fs.mkdirSync(cdir, { recursive: true })
+      for (const k of ['depth', 'mask']) {
+        const img = sharp(Buffer.from(r[k].split(',')[1], 'base64'))
+        const m = await img.metadata(), side = Math.max(m.width, m.height)
+        await img.extend({ top: Math.floor((side - m.height) / 2), bottom: Math.ceil((side - m.height) / 2), left: Math.floor((side - m.width) / 2), right: Math.ceil((side - m.width) / 2), background: '#000' })
+          .png().toBuffer().then((b) => sharp(b).resize(1024, 1024).removeAlpha().png().toFile(path.join(cdir, `${slug}-${k}.png`)))
+      }
+    }
     report.push({ slug, style, ms: Date.now() - t0 })
     console.log(`${slug} ${style}: ${Date.now() - t0} ms`)
   }

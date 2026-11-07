@@ -137,6 +137,18 @@ window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
   scene.overrideMaterial = new THREE.MeshNormalMaterial({ side: THREE.DoubleSide })
   renderer.render(scene, cam)
   out.normal = renderer.domElement.toDataURL('image/png')
+  // Depth pass (near = white) for ControlNet conditioning: tight near/far
+  // around the model so the gradient spans the venue, not the whole frustum.
+  const dc = cam.position.distanceTo(sphere.center)
+  const dNear = Math.max(1, dc - sphere.radius * 1.05), dFar = dc + sphere.radius * 1.05
+  scene.overrideMaterial = new THREE.ShaderMaterial({
+    side: THREE.DoubleSide,
+    uniforms: { near: { value: dNear }, far: { value: dFar } },
+    vertexShader: 'varying float vz; void main(){ vec4 mv = modelViewMatrix * vec4(position,1.0); vz = -mv.z; gl_Position = projectionMatrix * mv; }',
+    fragmentShader: 'uniform float near; uniform float far; varying float vz; void main(){ float d = 1.0 - clamp((vz-near)/(far-near),0.0,1.0); gl_FragColor = vec4(vec3(d),1.0); }',
+  })
+  renderer.render(scene, cam)
+  out.depth = renderer.domElement.toDataURL('image/png')
   scene.overrideMaterial = null
   hidden.forEach((o) => { o.visible = true })
   scene.background = prevBg

@@ -40,3 +40,16 @@ Planned for Phase 3: OpenFreeMap tiles (free, no key, commercial use allowed, no
 | Wikimedia Commons photos | Public domain, CC0, CC BY or CC BY-SA only (fair-use files excluded) | Visual reference for colors and signature features; manifest with URL, author and license per image in `research/raw/stadiums/art-references.json`. Image files are gitignored. |
 
 **What CC BY-SA asks of us.** The venue art is modeled in three.js from measurements and observed colors; no pixels, textures or traced outlines are taken from any CC BY-SA photo. Using a photo only as a visual reference does not make the model a derivative of that photo, so the art carries no share-alike obligation. Two places do reproduce reference photos and therefore must credit the author and license, and if published, be offered under the same CC BY-SA terms: the review contact sheets in `docs/art-review/` (credits are printed under each image), and any future page that shows the reference photos themselves. If we ever copy pixels from a CC BY-SA photo into the art (a texture, a trace), that art would have to be released under CC BY-SA with attribution, so the pipeline avoids it.
+
+## Path A bake-off models (Kaggle, not shipped unless picked)
+
+| Model | License | Public-site use |
+|---|---|---|
+| stabilityai/stable-diffusion-xl-base-1.0 | CreativeML Open RAIL++-M | Yes (use-based restrictions only) |
+| diffusers/controlnet-depth-sdxl-1.0 | CreativeML Open RAIL++-M | Yes |
+| h94/IP-Adapter (sdxl_models) | Apache-2.0 | Yes |
+| madebyollin/sdxl-vae-fp16-fix | MIT | Yes |
+| black-forest-labs/FLUX.1-schnell | Apache-2.0 | Yes (not used) |
+| black-forest-labs/FLUX.1-dev | FLUX.1 [dev] Non-Commercial | No, excluded |
+
+Licenses read from each model's Hugging Face card metadata on 2026-11-07.

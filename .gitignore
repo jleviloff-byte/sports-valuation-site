@@ -53,3 +53,8 @@ research/perf/before2/
 # Large reproducible art references (manifests are committed)
 research/raw/stadiums/naip/
 research/raw/stadiums/refs/
+
+# Kaggle bake-off staging (reference photos, credentials never committed)
+research/raw/stadiums/kaggle/
+kaggle.json
+access_token
