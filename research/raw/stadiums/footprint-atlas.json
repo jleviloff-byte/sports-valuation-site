@@ -1,0 +1,1791 @@
+{
+ "tile": 96,
+ "sheets": [
+  {
+   "sheet": 0,
+   "cols": 8,
+   "rows": 7,
+   "count": 50,
+   "kb": 109
+  },
+  {
+   "sheet": 1,
+   "cols": 18,
+   "rows": 17,
+   "count": 304,
+   "kb": 630
+  }
+ ],
+ "venues": {
+  "indianapolis-motor-speedway": [
+   0,
+   0,
+   0
+  ],
+  "bristol-motor-speedway": [
+   0,
+   1,
+   0
+  ],
+  "daytona-international-speedway": [
+   0,
+   2,
+   0
+  ],
+  "circuit-of-the-americas": [
+   0,
+   3,
+   0
+  ],
+  "michigan-stadium": [
+   0,
+   4,
+   0
+  ],
+  "beaver-stadium": [
+   0,
+   5,
+   0
+  ],
+  "ohio-stadium": [
+   0,
+   6,
+   0
+  ],
+  "kyle-field": [
+   0,
+   7,
+   0
+  ],
+  "tiger-stadium": [
+   0,
+   0,
+   1
+  ],
+  "neyland-stadium": [
+   0,
+   1,
+   1
+  ],
+  "darrell-k-royal-texas-memorial-stadium": [
+   0,
+   2,
+   1
+  ],
+  "bryant-denny-stadium": [
+   0,
+   3,
+   1
+  ],
+  "charlotte-motor-speedway": [
+   0,
+   4,
+   1
+  ],
+  "sanford-stadium": [
+   0,
+   5,
+   1
+  ],
+  "cotton-bowl": [
+   0,
+   6,
+   1
+  ],
+  "barber-motorsports-park": [
+   0,
+   7,
+   1
+  ],
+  "ben-hill-griffin-stadium": [
+   0,
+   0,
+   2
+  ],
+  "jordan-hare-stadium": [
+   0,
+   1,
+   2
+  ],
+  "memorial-stadium-ne": [
+   0,
+   2,
+   2
+  ],
+  "metlife-stadium": [
+   0,
+   3,
+   2
+  ],
+  "memorial-stadium-sc": [
+   0,
+   4,
+   2
+  ],
+  "lambeau-field": [
+   0,
+   5,
+   2
+  ],
+  "rose-bowl": [
+   0,
+   6,
+   2
+  ],
+  "gaylord-family-oklahoma-memorial-stadium": [
+   0,
+   7,
+   2
+  ],
+  "atandt-stadium": [
+   0,
+   0,
+   3
+  ],
+  "las-vegas-motor-speedway": [
+   0,
+   1,
+   3
+  ],
+  "talladega-superspeedway": [
+   0,
+   2,
+   3
+  ],
+  "notre-dame-stadium": [
+   0,
+   3,
+   3
+  ],
+  "williams-brice-stadium": [
+   0,
+   4,
+   3
+  ],
+  "los-angeles-memorial-coliseum": [
+   0,
+   5,
+   3
+  ],
+  "pocono-raceway": [
+   0,
+   6,
+   3
+  ],
+  "arrowhead-stadium": [
+   0,
+   7,
+   3
+  ],
+  "razorback-stadium": [
+   0,
+   0,
+   4
+  ],
+  "empower-field-at-mile-high": [
+   0,
+   1,
+   4
+  ],
+  "camp-randall-stadium": [
+   0,
+   2,
+   4
+  ],
+  "bank-of-america-stadium": [
+   0,
+   3,
+   4
+  ],
+  "mid-ohio-sports-car-course": [
+   0,
+   4,
+   4
+  ],
+  "texas-motor-speedway": [
+   0,
+   5,
+   4
+  ],
+  "spartan-stadium": [
+   0,
+   6,
+   4
+  ],
+  "caesars-superdome": [
+   0,
+   7,
+   4
+  ],
+  "reliant-stadium": [
+   0,
+   0,
+   5
+  ],
+  "husky-stadium": [
+   0,
+   1,
+   5
+  ],
+  "legion-field": [
+   0,
+   2,
+   5
+  ],
+  "atlanta-motor-speedway": [
+   0,
+   3,
+   5
+  ],
+  "mercedes-benz-stadium": [
+   0,
+   4,
+   5
+  ],
+  "mandt-bank-stadium": [
+   0,
+   5,
+   5
+  ],
+  "sofi-stadium": [
+   0,
+   6,
+   5
+  ],
+  "kinnick-stadium": [
+   0,
+   7,
+   5
+  ],
+  "raymond-james-stadium": [
+   0,
+   0,
+   6
+  ],
+  "nissan-stadium": [
+   0,
+   1,
+   6
+  ],
+  "levi-s-stadium": [
+   1,
+   0,
+   0
+  ],
+  "acrisure-stadium": [
+   1,
+   1,
+   0
+  ],
+  "lumen-field": [
+   1,
+   2,
+   0
+  ],
+  "everbank-stadium": [
+   1,
+   3,
+   0
+  ],
+  "lincoln-financial-field": [
+   1,
+   4,
+   0
+  ],
+  "huntington-bank-field": [
+   1,
+   5,
+   0
+  ],
+  "doak-campbell-stadium": [
+   1,
+   6,
+   0
+  ],
+  "lucas-oil-stadium": [
+   1,
+   7,
+   0
+  ],
+  "soldier-field": [
+   1,
+   8,
+   0
+  ],
+  "u-s-bank-stadium": [
+   1,
+   9,
+   0
+  ],
+  "lane-stadium": [
+   1,
+   10,
+   0
+  ],
+  "paycor-stadium": [
+   1,
+   11,
+   0
+  ],
+  "allegiant-stadium": [
+   1,
+   12,
+   0
+  ],
+  "ford-field": [
+   1,
+   13,
+   0
+  ],
+  "hard-rock-stadium": [
+   1,
+   14,
+   0
+  ],
+  "gillette-stadium": [
+   1,
+   15,
+   0
+  ],
+  "vaught-hemingway-stadium": [
+   1,
+   16,
+   0
+  ],
+  "alamodome": [
+   1,
+   17,
+   0
+  ],
+  "northwest-stadium": [
+   1,
+   0,
+   1
+  ],
+  "faurot-field": [
+   1,
+   1,
+   1
+  ],
+  "state-farm-stadium": [
+   1,
+   2,
+   1
+  ],
+  "lavell-edwards-stadium": [
+   1,
+   3,
+   1
+  ],
+  "jack-trice-stadium": [
+   1,
+   4,
+   1
+  ],
+  "scott-stadium": [
+   1,
+   5,
+   1
+  ],
+  "yale-bowl": [
+   1,
+   6,
+   1
+  ],
+  "ross-ade-stadium": [
+   1,
+   7,
+   1
+  ],
+  "kroger-field": [
+   1,
+   8,
+   1
+  ],
+  "landn-federal-credit-union-stadium": [
+   1,
+   9,
+   1
+  ],
+  "gies-memorial-stadium": [
+   1,
+   10,
+   1
+  ],
+  "mississippi-veterans-memorial-stadium": [
+   1,
+   11,
+   1
+  ],
+  "davis-wade-stadium": [
+   1,
+   12,
+   1
+  ],
+  "galaxy-stadium": [
+   1,
+   13,
+   1
+  ],
+  "camping-world-stadium": [
+   1,
+   14,
+   1
+  ],
+  "autzen-stadium": [
+   1,
+   15,
+   1
+  ],
+  "highmark-stadium": [
+   1,
+   16,
+   1
+  ],
+  "milan-puskar-stadium": [
+   1,
+   17,
+   1
+  ],
+  "gateway-motorsports-park": [
+   1,
+   0,
+   2
+  ],
+  "carter-finley-stadium": [
+   1,
+   1,
+   2
+  ],
+  "dodger-stadium": [
+   1,
+   2,
+   2
+  ],
+  "michigan-international-speedway": [
+   1,
+   3,
+   2
+  ],
+  "rice-eccles-stadium": [
+   1,
+   4,
+   2
+  ],
+  "dover-motor-speedway": [
+   1,
+   5,
+   2
+  ],
+  "mountain-america-stadium": [
+   1,
+   6,
+   2
+  ],
+  "memorial-stadium-in": [
+   1,
+   7,
+   2
+  ],
+  "amon-g-carter-stadium": [
+   1,
+   8,
+   2
+  ],
+  "franklin-field": [
+   1,
+   9,
+   2
+  ],
+  "shi-stadium": [
+   1,
+   10,
+   2
+  ],
+  "california-memorial-stadium": [
+   1,
+   11,
+   2
+  ],
+  "boone-pickens-stadium": [
+   1,
+   12,
+   2
+  ],
+  "bobby-dodd-stadium": [
+   1,
+   13,
+   2
+  ],
+  "dowdy-ficklen-stadium": [
+   1,
+   14,
+   2
+  ],
+  "huntington-bank-stadium": [
+   1,
+   15,
+   2
+  ],
+  "casino-del-sol-stadium": [
+   1,
+   16,
+   2
+  ],
+  "kenan-stadium": [
+   1,
+   17,
+   2
+  ],
+  "stanford-stadium": [
+   1,
+   0,
+   3
+  ],
+  "folsom-field": [
+   1,
+   1,
+   3
+  ],
+  "bill-snyder-family-football-stadium": [
+   1,
+   2,
+   3
+  ],
+  "independence-stadium": [
+   1,
+   3,
+   3
+  ],
+  "richmond-raceway": [
+   1,
+   4,
+   3
+  ],
+  "chase-field": [
+   1,
+   5,
+   3
+  ],
+  "kansas-speedway": [
+   1,
+   6,
+   3
+  ],
+  "t-mobile-park": [
+   1,
+   7,
+   3
+  ],
+  "protective-stadium": [
+   1,
+   8,
+   3
+  ],
+  "chicagoland-speedway": [
+   1,
+   9,
+   3
+  ],
+  "darlington-raceway": [
+   1,
+   10,
+   3
+  ],
+  "first-community-stadium": [
+   1,
+   11,
+   3
+  ],
+  "coors-field": [
+   1,
+   12,
+   3
+  ],
+  "yankee-stadium": [
+   1,
+   13,
+   3
+  ],
+  "secu-stadium": [
+   1,
+   14,
+   3
+  ],
+  "sun-bowl": [
+   1,
+   15,
+   3
+  ],
+  "acrisure-bounce-house": [
+   1,
+   16,
+   3
+  ],
+  "simmons-bank-liberty-stadium": [
+   1,
+   17,
+   3
+  ],
+  "angel-stadium": [
+   1,
+   0,
+   4
+  ],
+  "mclane-stadium": [
+   1,
+   1,
+   4
+  ],
+  "alumni-stadium": [
+   1,
+   2,
+   4
+  ],
+  "busch-stadium": [
+   1,
+   3,
+   4
+  ],
+  "martinsville-speedway": [
+   1,
+   4,
+   4
+  ],
+  "new-hampshire-motor-speedway": [
+   1,
+   5,
+   4
+  ],
+  "sonoma-raceway": [
+   1,
+   6,
+   4
+  ],
+  "great-american-ball-park": [
+   1,
+   7,
+   4
+  ],
+  "homestead-miami-speedway": [
+   1,
+   8,
+   4
+  ],
+  "citizens-bank-park": [
+   1,
+   9,
+   4
+  ],
+  "jma-wireless-dome": [
+   1,
+   10,
+   4
+  ],
+  "oriole-park-at-camden-yards": [
+   1,
+   11,
+   4
+  ],
+  "phoenix-raceway": [
+   1,
+   12,
+   4
+  ],
+  "citi-field": [
+   1,
+   13,
+   4
+  ],
+  "american-family-field": [
+   1,
+   14,
+   4
+  ],
+  "wrigley-field": [
+   1,
+   15,
+   4
+  ],
+  "david-booth-kansas-memorial-stadium": [
+   1,
+   16,
+   4
+  ],
+  "nationals-park": [
+   1,
+   17,
+   4
+  ],
+  "oracle-park": [
+   1,
+   0,
+   5
+  ],
+  "daikin-park": [
+   1,
+   1,
+   5
+  ],
+  "truist-park": [
+   1,
+   2,
+   5
+  ],
+  "canvas-stadium": [
+   1,
+   3,
+   5
+  ],
+  "rate-field": [
+   1,
+   4,
+   5
+  ],
+  "globe-life-field": [
+   1,
+   5,
+   5
+  ],
+  "kidd-brewer-stadium": [
+   1,
+   6,
+   5
+  ],
+  "comerica-park": [
+   1,
+   7,
+   5
+  ],
+  "pratt-and-whitney-stadium-at-rentschler-field": [
+   1,
+   8,
+   5
+  ],
+  "petco-park": [
+   1,
+   9,
+   5
+  ],
+  "tdecu-stadium": [
+   1,
+   10,
+   5
+  ],
+  "falcon-stadium": [
+   1,
+   11,
+   5
+  ],
+  "university-stadium": [
+   1,
+   12,
+   5
+  ],
+  "watkins-glen-international": [
+   1,
+   13,
+   5
+  ],
+  "pnc-park": [
+   1,
+   14,
+   5
+  ],
+  "target-field": [
+   1,
+   15,
+   5
+  ],
+  "nippert-stadium": [
+   1,
+   16,
+   5
+  ],
+  "kauffman-stadium": [
+   1,
+   17,
+   5
+  ],
+  "joan-c-edwards-stadium": [
+   1,
+   0,
+   6
+  ],
+  "fenway-park": [
+   1,
+   1,
+   6
+  ],
+  "milwaukee-mile": [
+   1,
+   2,
+   6
+  ],
+  "loandepot-park": [
+   1,
+   3,
+   6
+  ],
+  "renasant-stadium": [
+   1,
+   4,
+   6
+  ],
+  "michie-stadium": [
+   1,
+   5,
+   6
+  ],
+  "reser-stadium": [
+   1,
+   6,
+   6
+  ],
+  "albertsons-stadium": [
+   1,
+   7,
+   6
+  ],
+  "kelly-shorts-stadium": [
+   1,
+   8,
+   6
+  ],
+  "wallace-wade-stadium": [
+   1,
+   9,
+   6
+  ],
+  "firstbank-stadium": [
+   1,
+   10,
+   6
+  ],
+  "ryan-field": [
+   1,
+   11,
+   6
+  ],
+  "snapdragon-stadium": [
+   1,
+   12,
+   6
+  ],
+  "navy-marine-corps-memorial-stadium": [
+   1,
+   13,
+   6
+  ],
+  "progressive-field": [
+   1,
+   14,
+   6
+  ],
+  "gerald-j-ford-stadium": [
+   1,
+   15,
+   6
+  ],
+  "allegacy-federal-credit-union-stadium": [
+   1,
+   16,
+   6
+  ],
+  "veterans-memorial-stadium": [
+   1,
+   17,
+   6
+  ],
+  "centennial-bank-stadium": [
+   1,
+   0,
+   7
+  ],
+  "cajun-field": [
+   1,
+   1,
+   7
+  ],
+  "waldo-stadium": [
+   1,
+   2,
+   7
+  ],
+  "geodis-park": [
+   1,
+   3,
+   7
+  ],
+  "datcu-stadium": [
+   1,
+   4,
+   7
+  ],
+  "flagler-credit-union-stadium": [
+   1,
+   5,
+   7
+  ],
+  "infocision-stadium-summa-field": [
+   1,
+   6,
+   7
+  ],
+  "iowa-speedway": [
+   1,
+   7,
+   7
+  ],
+  "mackay-stadium": [
+   1,
+   8,
+   7
+  ],
+  "portland-international-raceway": [
+   1,
+   9,
+   7
+  ],
+  "skelly-field-at-h-a-chapman-stadium": [
+   1,
+   10,
+   7
+  ],
+  "valley-children-s-stadium": [
+   1,
+   11,
+   7
+  ],
+  "william-dick-price-stadium": [
+   1,
+   12,
+   7
+  ],
+  "yulman-stadium": [
+   1,
+   13,
+   7
+  ],
+  "war-memorial-stadium": [
+   1,
+   14,
+   7
+  ],
+  "aggie-memorial-stadium": [
+   1,
+   15,
+   7
+  ],
+  "joe-aillet-stadium": [
+   1,
+   16,
+   7
+  ],
+  "ufcu-stadium": [
+   1,
+   17,
+   7
+  ],
+  "huskie-stadium": [
+   1,
+   0,
+   8
+  ],
+  "powers-field-at-princeton-stadium": [
+   1,
+   1,
+   8
+  ],
+  "fmol-health-st-francis-stadium": [
+   1,
+   2,
+   8
+  ],
+  "johnny-red-floyd-stadium": [
+   1,
+   3,
+   8
+  ],
+  "nu-stadium": [
+   1,
+   4,
+   8
+  ],
+  "asu-stadium": [
+   1,
+   5,
+   8
+  ],
+  "rynearson-stadium": [
+   1,
+   6,
+   8
+  ],
+  "glass-bowl": [
+   1,
+   7,
+   8
+  ],
+  "dignity-health-sports-park": [
+   1,
+   8,
+   8
+  ],
+  "tql-stadium": [
+   1,
+   9,
+   8
+  ],
+  "maverik-stadium": [
+   1,
+   10,
+   8
+  ],
+  "a-w-mumford-stadium": [
+   1,
+   11,
+   8
+  ],
+  "bragg-memorial-stadium": [
+   1,
+   12,
+   8
+  ],
+  "hancock-whitney-stadium": [
+   1,
+   13,
+   8
+  ],
+  "dix-stadium": [
+   1,
+   14,
+   8
+  ],
+  "washington-grizzly-stadium": [
+   1,
+   15,
+   8
+  ],
+  "tropicana-field": [
+   1,
+   16,
+   8
+  ],
+  "broadview-stadium": [
+   1,
+   17,
+   8
+  ],
+  "allen-e-paulson-stadium": [
+   1,
+   0,
+   9
+  ],
+  "harvard-stadium": [
+   1,
+   1,
+   9
+  ],
+  "inter-co-stadium": [
+   1,
+   2,
+   9
+  ],
+  "nashville-superspeedway": [
+   1,
+   3,
+   9
+  ],
+  "sports-illustrated-stadium": [
+   1,
+   4,
+   9
+  ],
+  "williams-stadium": [
+   1,
+   5,
+   9
+  ],
+  "bridgeforth-stadium": [
+   1,
+   6,
+   9
+  ],
+  "providence-park": [
+   1,
+   7,
+   9
+  ],
+  "charles-schwab-field": [
+   1,
+   8,
+   9
+  ],
+  "center-parc-stadium": [
+   1,
+   9,
+   9
+  ],
+  "yager-stadium": [
+   1,
+   10,
+   9
+  ],
+  "doyt-perry-stadium": [
+   1,
+   11,
+   9
+  ],
+  "memorial-stadium-tx": [
+   1,
+   12,
+   9
+  ],
+  "peden-stadium": [
+   1,
+   13,
+   9
+  ],
+  "arthur-ashe-stadium": [
+   1,
+   14,
+   9
+  ],
+  "fitton-field": [
+   1,
+   15,
+   9
+  ],
+  "amfirst-stadium": [
+   1,
+   16,
+   9
+  ],
+  "casem-spinks-stadium": [
+   1,
+   17,
+   9
+  ],
+  "scheumann-stadium": [
+   1,
+   0,
+   10
+  ],
+  "energizer-park": [
+   1,
+   1,
+   10
+  ],
+  "houchens-industries-l-t-smith-stadium": [
+   1,
+   2,
+   10
+  ],
+  "kfc-yum-center": [
+   1,
+   3,
+   10
+  ],
+  "shell-energy-stadium": [
+   1,
+   4,
+   10
+  ],
+  "first-horizon-coliseum": [
+   1,
+   5,
+   10
+  ],
+  "oliver-c-dawson-stadium": [
+   1,
+   6,
+   10
+  ],
+  "s-b-ballard-stadium": [
+   1,
+   7,
+   10
+  ],
+  "dean-smith-center": [
+   1,
+   8,
+   10
+  ],
+  "thompson-boling-arena": [
+   1,
+   9,
+   10
+  ],
+  "schoellkopf-field": [
+   1,
+   10,
+   10
+  ],
+  "truist-stadium": [
+   1,
+   11,
+   10
+  ],
+  "hornet-stadium": [
+   1,
+   12,
+   10
+  ],
+  "brooks-stadium": [
+   1,
+   13,
+   10
+  ],
+  "louis-crews-stadium": [
+   1,
+   14,
+   10
+  ],
+  "xfinity-mobile-arena": [
+   1,
+   15,
+   10
+  ],
+  "united-center": [
+   1,
+   16,
+   10
+  ],
+  "bobcat-stadium": [
+   1,
+   17,
+   10
+  ],
+  "q2-stadium": [
+   1,
+   0,
+   11
+  ],
+  "stambaugh-stadium": [
+   1,
+   1,
+   11
+  ],
+  "rupp-arena": [
+   1,
+   2,
+   11
+  ],
+  "finley-stadium": [
+   1,
+   3,
+   11
+  ],
+  "scottsmiracle-gro-field": [
+   1,
+   4,
+   11
+  ],
+  "capital-one-arena": [
+   1,
+   5,
+   11
+  ],
+  "little-caesars-arena": [
+   1,
+   6,
+   11
+  ],
+  "america-first-field": [
+   1,
+   7,
+   11
+  ],
+  "madison-square-garden": [
+   1,
+   8,
+   11
+  ],
+  "audi-field": [
+   1,
+   9,
+   11
+  ],
+  "pitbull-stadium": [
+   1,
+   10,
+   11
+  ],
+  "richard-gouse-field-at-brown-stadium": [
+   1,
+   11,
+   11
+  ],
+  "roy-kidd-stadium": [
+   1,
+   12,
+   11
+  ],
+  "seatgeek-stadium": [
+   1,
+   13,
+   11
+  ],
+  "north-wilkesboro-speedway": [
+   1,
+   14,
+   11
+  ],
+  "eddie-g-robinson-memorial-stadium": [
+   1,
+   15,
+   11
+  ],
+  "kaseya-center": [
+   1,
+   16,
+   11
+  ],
+  "ball-arena": [
+   1,
+   17,
+   11
+  ],
+  "value-city-arena": [
+   1,
+   0,
+   12
+  ],
+  "spectrum-center": [
+   1,
+   1,
+   12
+  ],
+  "rocket-arena": [
+   1,
+   2,
+   12
+  ],
+  "allianz-field": [
+   1,
+   3,
+   12
+  ],
+  "moda-center": [
+   1,
+   4,
+   12
+  ],
+  "bud-walton-arena": [
+   1,
+   5,
+   12
+  ],
+  "lenovo-center": [
+   1,
+   6,
+   12
+  ],
+  "dana-j-dykhouse-stadium": [
+   1,
+   7,
+   12
+  ],
+  "amerant-bank-arena": [
+   1,
+   8,
+   12
+  ],
+  "american-airlines-center": [
+   1,
+   9,
+   12
+  ],
+  "sap-center": [
+   1,
+   10,
+   12
+  ],
+  "td-garden": [
+   1,
+   11,
+   12
+  ],
+  "benchmark-international-arena": [
+   1,
+   12,
+   12
+  ],
+  "crypto-com-arena": [
+   1,
+   13,
+   12
+  ],
+  "keybank-center": [
+   1,
+   14,
+   12
+  ],
+  "kia-center": [
+   1,
+   15,
+   12
+  ],
+  "target-center": [
+   1,
+   16,
+   12
+  ],
+  "prudential-center": [
+   1,
+   17,
+   12
+  ],
+  "fargodome": [
+   1,
+   0,
+   13
+  ],
+  "delaware-stadium": [
+   1,
+   1,
+   13
+  ],
+  "nationwide-arena": [
+   1,
+   2,
+   13
+  ],
+  "subaru-park": [
+   1,
+   3,
+   13
+  ],
+  "sporting-park": [
+   1,
+   4,
+   13
+  ],
+  "frost-bank-center": [
+   1,
+   5,
+   13
+  ],
+  "chi-health-center": [
+   1,
+   6,
+   13
+  ],
+  "intuit-dome": [
+   1,
+   7,
+   13
+  ],
+  "cefcu-stadium": [
+   1,
+   8,
+   13
+  ],
+  "paycom-center": [
+   1,
+   9,
+   13
+  ],
+  "ppg-paints-arena": [
+   1,
+   10,
+   13
+  ],
+  "delta-center": [
+   1,
+   11,
+   13
+  ],
+  "toyota-center": [
+   1,
+   12,
+   13
+  ],
+  "enterprise-center": [
+   1,
+   13,
+   13
+  ],
+  "chase-center": [
+   1,
+   14,
+   13
+  ],
+  "dick-s-sporting-goods-park": [
+   1,
+   15,
+   13
+  ],
+  "colonial-life-arena": [
+   1,
+   16,
+   13
+  ],
+  "paypal-park": [
+   1,
+   17,
+   13
+  ],
+  "marriott-center": [
+   1,
+   0,
+   14
+  ],
+  "grand-casino-arena": [
+   1,
+   1,
+   14
+  ],
+  "thomas-and-mack-center": [
+   1,
+   2,
+   14
+  ],
+  "bok-center": [
+   1,
+   3,
+   14
+  ],
+  "navarre-stadium": [
+   1,
+   4,
+   14
+  ],
+  "golden-1-center": [
+   1,
+   5,
+   14
+  ],
+  "barclays-center": [
+   1,
+   6,
+   14
+  ],
+  "provost-umphrey-stadium": [
+   1,
+   7,
+   14
+  ],
+  "robert-w-plaster-stadium": [
+   1,
+   8,
+   14
+  ],
+  "t-mobile-arena": [
+   1,
+   9,
+   14
+  ],
+  "fiserv-forum": [
+   1,
+   10,
+   14
+  ],
+  "xfinity-center": [
+   1,
+   11,
+   14
+  ],
+  "kohl-center": [
+   1,
+   12,
+   14
+  ],
+  "gainbridge-fieldhouse": [
+   1,
+   13,
+   14
+  ],
+  "ubs-arena": [
+   1,
+   14,
+   14
+  ],
+  "simon-skjodt-assembly-hall": [
+   1,
+   15,
+   14
+  ],
+  "uni-dome": [
+   1,
+   16,
+   14
+  ],
+  "honda-center": [
+   1,
+   17,
+   14
+  ],
+  "bridgestone-arena": [
+   1,
+   0,
+   15
+  ],
+  "climate-pledge-arena": [
+   1,
+   1,
+   15
+  ],
+  "mortgage-matchup-center": [
+   1,
+   2,
+   15
+  ],
+  "bowman-gray-stadium": [
+   1,
+   3,
+   15
+  ],
+  "robert-k-kraft-field-at-lawrence-a-wien-stadium": [
+   1,
+   4,
+   15
+  ],
+  "warren-mcguirk-alumni-stadium": [
+   1,
+   5,
+   15
+  ],
+  "state-farm-arena": [
+   1,
+   6,
+   15
+  ],
+  "smoothie-king-center": [
+   1,
+   7,
+   15
+  ],
+  "roy-stewart-stadium": [
+   1,
+   8,
+   15
+  ],
+  "fedexforum": [
+   1,
+   9,
+   15
+  ],
+  "tucker-stadium": [
+   1,
+   10,
+   15
+  ],
+  "hanson-field": [
+   1,
+   11,
+   15
+  ],
+  "indian-wells-tennis-garden": [
+   1,
+   12,
+   15
+  ],
+  "goodman-stadium": [
+   1,
+   13,
+   15
+  ],
+  "paladin-stadium": [
+   1,
+   14,
+   15
+  ],
+  "simmons-bank-field": [
+   1,
+   15,
+   15
+  ],
+  "harry-turpin-stadium": [
+   1,
+   16,
+   15
+  ],
+  "save-mart-center": [
+   1,
+   17,
+   15
+  ],
+  "state-farm-center": [
+   1,
+   0,
+   16
+  ],
+  "pinnacle-bank-arena": [
+   1,
+   1,
+   16
+  ],
+  "the-pit": [
+   1,
+   2,
+   16
+  ],
+  "coleman-coliseum": [
+   1,
+   3,
+   16
+  ],
+  "jerry-richardson-stadium": [
+   1,
+   4,
+   16
+  ],
+  "allen-fieldhouse": [
+   1,
+   5,
+   16
+  ],
+  "bryce-jordan-center": [
+   1,
+   6,
+   16
+  ],
+  "kibbie-dome": [
+   1,
+   7,
+   16
+  ],
+  "mvp-arena": [
+   1,
+   8,
+   16
+  ],
+  "clarence-t-c-ching-athletics-complex": [
+   1,
+   9,
+   16
+  ],
+  "united-supermarkets-arena": [
+   1,
+   10,
+   16
+  ],
+  "mizzou-arena": [
+   1,
+   11,
+   16
+  ],
+  "hilton-coliseum": [
+   1,
+   12,
+   16
+  ],
+  "jon-m-huntsman-center": [
+   1,
+   13,
+   16
+  ],
+  "panther-stadium-at-blackshear-field": [
+   1,
+   14,
+   16
+  ],
+  "saluki-stadium": [
+   1,
+   15,
+   16
+  ]
+ }
+}

@@ -15,7 +15,8 @@ const { forbesBreakdown } = await import(pathToFileURL(path.resolve('data/forbes
 const renders = fs.existsSync('research/raw/stadiums/render-report.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/render-report.json', 'utf8')) : []
 const rendered = new Set(fs.existsSync('public/stadiums/sprites') ? fs.readdirSync('public/stadiums/sprites').filter((f) => f.endsWith('-128.webp')).map((f) => f.replace(/-128\.webp$/, '')) : [])
 
-const atlas = fs.existsSync('research/raw/stadiums/atlas.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/atlas.json', 'utf8')) : null
+// National-zoom footprint shapes (scripts/stadiums/art/build-footprints.mjs).
+const atlas = fs.existsSync('research/raw/stadiums/footprint-atlas.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/footprint-atlas.json', 'utf8')) : null
 
 const SPORT_LABEL = { football: 'Football', baseball: 'Baseball', basketball: 'Basketball', 'ice hockey': 'Hockey', soccer: 'Soccer', motorsport: 'Motorsport', tennis: 'Tennis' }
 
@@ -23,7 +24,7 @@ const index = data.venues.map((v) => ({
   s: v.slug, n: v.name, c: v.city, st: v.state, la: v.lat, lo: v.lng, cap: v.capacity, ct: v.capacity_type,
   t: v.venue_type, sp: v.sports, lg: [...new Set(v.tenants.map((t) => t.league))], tm: v.tenants.map((t) => t.team), r: v.rankings.us,
   img: rendered.has(v.slug) ? 1 : 0,
-  a: atlas?.venues[v.slug] ?? null, // [sheet, col, row] in public/stadiums/atlas
+  a: atlas?.venues[v.slug] ?? null, // [sheet, col, row] in public/stadiums/footprints
 }))
 
 fs.mkdirSync('public/stadiums/venues', { recursive: true })

@@ -48,11 +48,15 @@ function useColorMode() {
  * onSelect(slug): open a venue card.
  * focus: { slug, la, lo } to fly to.
  */
-// Sprite sheets (scripts/stadiums/art/build-atlas.mjs): sheet 0 holds the 50
-// largest venues and loads with the page; sheet 1 holds the rest and loads
-// after the first map render. Venues drawn larger than ATLAS_MAX use their own
-// 256px sprite instead.
-const ATLAS_MAX = 48
+// National zoom shows each venue's real top-down footprint shape in team color
+// (sprite sheets from scripts/stadiums/art/build-footprints.mjs: sheet 0 = the
+// 50 largest venues, loaded with the page; sheet 1 = the rest, after the first
+// render). Between REVEAL_START and REVEAL_END the shape fades out while the
+// illustration fades and scales in; illustrations load per venue, only for
+// venues in view.
+const REVEAL_START = 5.6
+const REVEAL_END = 6.8
+const ease = (t) => t * t * (3 - 2 * t)
 
 export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted', atlas = null }) {
   const wrap = useRef(null)
@@ -76,7 +80,7 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     img.decoding = 'async'
     img.onload = () => { st.sheets[n] = 'ready'; st.schedule?.() }
     img.onerror = () => { st.sheets[n] = 'failed'; st.schedule?.() }
-    img.src = `/stadiums/atlas/atlas-${n}.webp`
+    img.src = `/stadiums/footprints/atlas-${n}.webp`
   }
   useEffect(() => { loadSheet(0) }, [atlas]) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -188,11 +192,12 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     const clusters = new Map()
     const next = new Map() // slug -> { x, y, size, anchor? }
     const st = state.current
-    const useAtlas = (v, size) => st.atlas && v.a && size <= ATLAS_MAX
+    const reveal = ease(Math.min(1, Math.max(0, (zoom - REVEAL_START) / (REVEAL_END - REVEAL_START))))
+    const useAtlas = (v) => st.atlas && v.a && reveal < 1
     for (const v of sorted) {
       const p = map.project([v.lo, v.la])
       const size = spritePx(v.cap, zoom)
-      if (useAtlas(v, size) && st.sheets[v.a[0]] !== 'ready' && st.sheets[v.a[0]] !== 'failed') continue
+      if (reveal === 0 && useAtlas(v) && st.sheets[v.a[0]] !== 'ready' && st.sheets[v.a[0]] !== 'failed') continue
       if (p.x < -size || p.y < -size || p.x > W + size || p.y > H + size) continue
       const r = size * 0.34
       const hit = placed.find((q) => Math.hypot(q.x - p.x, q.y - p.y) < (q.r + r) * 0.92)
@@ -231,18 +236,25 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
       const img = el.querySelector('img')
       if (tile && img) {
         const v = rec.v
-        if (useAtlas(v, s) && st.sheets[v.a[0]] === 'ready') {
+        const showShape = useAtlas(v) && st.sheets[v.a[0]] === 'ready'
+        const shapeOpacity = showShape ? 1 - reveal : 0
+        const artOpacity = showShape ? reveal : 1
+        tile.hidden = shapeOpacity <= 0
+        if (!tile.hidden) {
           const sh = st.atlas.sheets[v.a[0]]
-          tile.hidden = false
-          img.hidden = true
-          tile.style.backgroundImage = `url(/stadiums/atlas/atlas-${v.a[0]}.webp)`
+          tile.style.backgroundImage = `url(/stadiums/footprints/atlas-${v.a[0]}.webp)`
           tile.style.backgroundSize = `${sh.cols * s}px ${sh.rows * s}px`
           tile.style.backgroundPosition = `-${v.a[1] * s}px -${v.a[2] * s}px`
-        } else {
-          tile.hidden = true
-          img.hidden = false
-          const want = `/stadiums/sprites/${slug}-${s > 64 ? 256 : 128}.webp`
+          tile.style.opacity = String(shapeOpacity)
+          tile.style.transform = `scale(${1 + 0.08 * reveal})`
+        }
+        img.hidden = artOpacity <= 0
+        if (!img.hidden) {
+          // Lazy: only venues in view get an illustration request, sized for 2x screens.
+          const want = `/stadiums/sprites/${slug}-${s > 110 ? 512 : 256}.webp`
           if (img.getAttribute('src') !== want) img.setAttribute('src', want)
+          img.style.opacity = String(artOpacity)
+          img.style.transform = `scale(${0.88 + 0.12 * artOpacity})`
         }
       }
       if (el.hidden || !shown.has(slug)) {

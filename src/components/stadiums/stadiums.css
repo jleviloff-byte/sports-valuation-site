@@ -19,7 +19,7 @@
   pointer-events: auto; will-change: transform; line-height: 0;
   border-radius: 6px;
 }
-.venue img, .venue .venue-sprite { width: 100%; height: 100%; display: block; background-repeat: no-repeat; filter: drop-shadow(0 1px 1px rgba(20, 24, 29, 0.25)); }
+.venue img, .venue .venue-sprite { position: absolute; inset: 0; width: 100%; height: 100%; display: block; background-repeat: no-repeat; transform-origin: 50% 60%; filter: drop-shadow(0 1px 1px rgba(20, 24, 29, 0.25)); }
 .venue:hover img, .venue:focus-visible img, .venue:hover .venue-sprite, .venue:focus-visible .venue-sprite { filter: drop-shadow(0 2px 4px rgba(20, 24, 29, 0.45)) brightness(1.06); }
 .venue:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .venue .venue-fallback { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--text3); opacity: 0.6; }
