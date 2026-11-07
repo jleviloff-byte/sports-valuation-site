@@ -450,6 +450,11 @@ function daytona({ fp, mat, info }) {
   const gs = new THREE.Mesh(gg, mat('#ffffff', { vertex: true, side: THREE.DoubleSide }))
   gs.castShadow = gs.receiveShadow = true
   for (let k = -2; k <= 2; k++) { const tw = K.box(24, 64, 24, '#c8ccd2', mat); const [x, z] = toW([k * 170, R + DOG * Math.cos(((k * 170) / S) * (Math.PI / 2)) ** 2 + W / 2 + 120]); tw.position.set(x, 0, z); g.add(tw) }
+  // Frame on the main grandstand, the tri-oval and the banked turn entries, not the
+  // infield: points spanning the front stretch out to where the turns bank.
+  g.userData.frame = [[-560, R - 50], [560, R - 50], [-560, R + DOG + W / 2 + 120], [560, R + DOG + W / 2 + 120]].map(([u, v]) => toW([u, v]))
+  // Racetracks face their main grandstand: camera looks at it square-on from the infield side.
+  g.userData.cameraBearing = (308 + 180) % 360
   // Paved garage and fan zone between the front stretch and the lake.
   const paved = []
   for (let i = 0; i < 40; i++) { const t = (i / 40) * Math.PI * 2; paved.push(toW([300 * Math.cos(t), R - 150 + 70 * Math.sin(t)])) }

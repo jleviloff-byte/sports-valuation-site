@@ -31,26 +31,40 @@ document.body.appendChild(renderer.domElement)
 // One camera for every venue: 3/4 aerial from the south-southeast.
 const CAM_BEARING = 160, CAM_ELEV = 38, FOV = 20
 function fitCamera(obj, aspect) {
-  const box = new THREE.Box3().setFromObject(obj)
+  // Builders may name a framing region (e.g. racetracks: grandstand and banking) instead of the whole model.
+  let box = new THREE.Box3().setFromObject(obj)
+  if (obj.userData.frame) {
+    box = new THREE.Box3()
+    for (const [x, z] of obj.userData.frame) { box.expandByPoint(new THREE.Vector3(x, 0, z)); box.expandByPoint(new THREE.Vector3(x, 60, z)) }
+  }
   const sphere = box.getBoundingSphere(new THREE.Sphere())
   const cam = new THREE.PerspectiveCamera(FOV, aspect, 1, 20000)
-  const [bx, bz] = K.bearingVec(CAM_BEARING)
+  const [bx, bz] = K.bearingVec(obj.userData.cameraBearing ?? CAM_BEARING)
   const el = (CAM_ELEV * Math.PI) / 180
   const dist = (sphere.radius / Math.sin(((FOV / 2) * Math.PI) / 180)) * 1.02
   cam.position.set(sphere.center.x + bx * Math.cos(el) * dist, sphere.center.y + Math.sin(el) * dist, sphere.center.z + bz * Math.cos(el) * dist)
   cam.lookAt(sphere.center)
   cam.updateMatrixWorld()
   // Tighten the framing to the projected bounds so models fill the canvas.
+  // Project the frame points themselves (an axis-aligned box around a diagonal
+  // frame would pull in everything beside it), else the model's box corners.
   const corners = []
-  for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) corners.push(new THREE.Vector3(x, y, z).project(cam))
+  if (obj.userData.frame) for (const [x, z] of obj.userData.frame) for (const y of [0, 60]) corners.push(new THREE.Vector3(x, y, z).project(cam))
+  else for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) corners.push(new THREE.Vector3(x, y, z).project(cam))
   const xs = corners.map((p) => p.x), ys = corners.map((p) => p.y)
   const cx = (Math.max(...xs) + Math.min(...xs)) / 2, cy = (Math.max(...ys) + Math.min(...ys)) / 2
-  const ext = Math.max(Math.max(...xs) - cx, Math.max(...ys) - cy)
+  const hx = Math.max(...xs) - cx, hy = Math.max(...ys) - cy
+  // Framed venues (long grandstands) render at their own aspect ratio; the
+  // compositor pads to a square with transparent margins.
+  const A = obj.userData.frame ? Math.min(2.4, Math.max(1, hx / hy)) : 1
+  cam.aspect = A
+  const ext = Math.max(hx / A, hy)
   cam.zoom = 1 / (ext * 1.04)
   cam.updateProjectionMatrix()
+  cam.userData.aspect = A
   // Shift the image so the model's projected bounds are centered.
   const e = cam.projectionMatrix.elements
-  e[8] += cx * cam.zoom
+  e[8] += (cx / cam.aspect) * cam.zoom
   e[9] += cy * cam.zoom
   cam.projectionMatrixInverse.copy(cam.projectionMatrix).invert()
   return cam
@@ -91,8 +105,9 @@ window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(sphere.radius * 6, sphere.radius * 6), new THREE.ShadowMaterial({ opacity: 0.0 }))
   ground.rotation.x = -Math.PI / 2
   ground.position.set(sphere.center.x, Math.min(0, box.min.y) - 0.01, sphere.center.z)
-  renderer.setSize(size, size)
   const cam = fitCamera(model, 1)
+  const H = Math.round(size / cam.userData.aspect)
+  renderer.setSize(size, H)
   const out = {}
 
   // Color pass (with ambient occlusion for the shaded styles).
@@ -100,9 +115,9 @@ window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
     renderer.render(scene, cam)
   } else {
     const composer = new EffectComposer(renderer)
-    composer.setSize(size, size)
+    composer.setSize(size, H)
     composer.addPass(new RenderPass(scene, cam))
-    const ao = new GTAOPass(scene, cam, size, size)
+    const ao = new GTAOPass(scene, cam, size, H)
     ao.updateGtaoMaterial({ radius: sphere.radius * 0.035, distanceExponent: 1.4, thickness: 2, scale: 1.2 })
     ao.blendIntensity = style === 'painted' ? 0.75 : 1.0
     composer.addPass(ao)
