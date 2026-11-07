@@ -49,3 +49,7 @@ dist-before
 research/perf/before/
 research/perf/after/
 research/perf/before2/
+
+# Large reproducible art references (manifests are committed)
+research/raw/stadiums/naip/
+research/raw/stadiums/refs/
