@@ -88,6 +88,9 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' 
     map.on('move', schedule)
     map.on('resize', schedule)
     map.on('load', schedule)
+    // Venues are DOM sprites positioned with map.project, which works before any
+    // tile arrives, so draw them right away instead of waiting for the basemap.
+    schedule()
     mapRef.current = map
     if (import.meta.env.DEV) window.__stadiumMap = map
     state.current.schedule = schedule

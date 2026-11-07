@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:01:12.903Z",
+ "generated": "2026-11-06T20:17:28.197Z",
  "license": "Coordinates and footprints derived from OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0). Facts from Wikipedia (CC BY-SA 4.0) and official team/venue sites, cited per field. CPI-U from BLS (public domain).",
  "cpi_base_year": 2025,
  "cutoff": 15000,
@@ -489,7 +489,7 @@
     },
     {
      "year": 2027,
-     "description": null,
+     "description": "Multi-stage renovation under way, due before the 2027 season",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Beaver_Stadium&oldid=1382339188"
     }
@@ -583,7 +583,7 @@
     },
     {
      "year": 2014,
-     "description": null,
+     "description": "End zone seating added, raising capacity to 104,944",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Ohio_Stadium&oldid=1382049559"
     }
@@ -701,7 +701,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "Rebuild of the stadium",
      "cost_nominal": 483888885,
      "source": "https://en.wikipedia.org/w/index.php?title=Kyle_Field&oldid=1379919972"
     }
@@ -822,8 +822,8 @@
     },
     {
      "year": 2014,
-     "description": null,
-     "cost_nominal": null,
+     "description": "South end zone upper deck with 70 suites, 3,000+ club seats and 1,500+ general seats",
+     "cost_nominal": 80000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Tiger_Stadium_(Louisiana)&oldid=1382878929"
     }
    ],
@@ -1263,7 +1263,7 @@
     },
     {
      "year": 2010,
-     "description": null,
+     "description": "South end zone upper deck and suite level expansion",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Bryant%E2%80%93Denny_Stadium&oldid=1381686608"
     }
@@ -1445,8 +1445,8 @@
     },
     {
      "year": 2018,
-     "description": null,
-     "cost_nominal": null,
+     "description": "West side expansion and renovation",
+     "cost_nominal": 63000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Sanford_Stadium&oldid=1382684700"
     }
    ],
@@ -1734,7 +1734,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "Fan experience upgrades",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Ben_Hill_Griffin_Stadium&oldid=1383698955"
     }
@@ -1901,7 +1901,7 @@
     },
     {
      "year": 2023,
-     "description": null,
+     "description": "New premium seats, concessions, team entrance and WiFi",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Jordan%E2%80%93Hare_Stadium&oldid=1381689939"
     }
@@ -2031,7 +2031,7 @@
     },
     {
      "year": 2026,
-     "description": null,
+     "description": "Renovation approved April 2026, due for completion in 2028",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Memorial_Stadium_(Lincoln)&oldid=1383209818"
     }
@@ -2208,7 +2208,7 @@
     },
     {
      "year": 2022,
-     "description": null,
+     "description": "EastZone project (phase 1 began 2020)",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Memorial_Stadium_(Clemson)&oldid=1383070222"
     }
@@ -2526,8 +2526,8 @@
     },
     {
      "year": 2016,
-     "description": null,
-     "cost_nominal": null,
+     "description": "South end zone enclosed",
+     "cost_nominal": 160000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Gaylord_Family_Oklahoma_Memorial_Stadium&oldid=1374727301"
     }
    ],
@@ -2796,7 +2796,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "Campus Crossroads project; capacity reduced to 77,622",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Notre_Dame_Stadium&oldid=1380940743"
     }
@@ -2921,7 +2921,7 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "Three club areas renovated",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Williams%E2%80%93Brice_Stadium&oldid=1381675614"
     }
@@ -3190,7 +3190,7 @@
     },
     {
      "year": 2010,
-     "description": null,
+     "description": "Major stadium renovation",
      "cost_nominal": 375000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Arrowhead_Stadium&oldid=1379206337"
     }
@@ -3303,8 +3303,8 @@
     },
     {
      "year": 2018,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Renovation and expansion of the stadium",
+     "cost_nominal": 160000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Razorback_Stadium&oldid=1372442097"
     }
    ],
@@ -3477,7 +3477,7 @@
     },
     {
      "year": 2022,
-     "description": null,
+     "description": "Renovation projects that reduced capacity to 75,822",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Camp_Randall_Stadium&oldid=1384092752"
     }
@@ -4044,7 +4044,7 @@
     },
     {
      "year": 2013,
-     "description": null,
+     "description": "Major stadium renovation",
      "cost_nominal": 280000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Husky_Stadium&oldid=1382536125"
     }
@@ -4157,7 +4157,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "Larger video scoreboard, new sound system and general improvements",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Legion_Field&oldid=1378606779"
     }
@@ -4516,7 +4516,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Renovation project and upgraded home team tunnel",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Kinnick_Stadium&oldid=1372210672"
     }
@@ -4798,7 +4798,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "Added 2,390 seats and five suites, raising capacity to 68,400",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Acrisure_Stadium&oldid=1380550725"
     }
@@ -4969,8 +4969,8 @@
     },
     {
      "year": 2028,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Stadium-wide renovation under way, due before the 2028 season",
+     "cost_nominal": 1400000000,
      "source": "https://en.wikipedia.org/w/index.php?title=EverBank_Stadium&oldid=1383564692"
     }
    ],
@@ -5045,7 +5045,7 @@
    "renovations": [
     {
      "year": 2014,
-     "description": null,
+     "description": "New sound system and video boards",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Lincoln_Financial_Field&oldid=1382931983"
     }
@@ -5244,7 +5244,7 @@
     },
     {
      "year": 2025,
-     "description": null,
+     "description": "Renovation that reduced capacity to 67,277",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Doak_Campbell_Stadium&oldid=1372283099"
     }
@@ -5386,7 +5386,7 @@
    "renovations": [
     {
      "year": 2003,
-     "description": null,
+     "description": "Interior rebuilt; seating capacity lowered",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Soldier_Field&oldid=1383684812"
     }
@@ -6066,7 +6066,7 @@
     },
     {
      "year": 2016,
-     "description": null,
+     "description": "Expansion closed the bowl, adding 3,458 seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Vaught%E2%80%93Hemingway_Stadium&oldid=1381712139"
     }
@@ -6155,8 +6155,8 @@
     },
     {
      "year": 2017,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Facility upgrades to stay competitive for NCAA events",
+     "cost_nominal": 50000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Alamodome&oldid=1383422358"
     }
    ],
@@ -6238,7 +6238,7 @@
     },
     {
      "year": 2005,
-     "description": null,
+     "description": "Added 1,488 field-level premium seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Northwest_Stadium&oldid=1374296465"
     }
@@ -6365,8 +6365,8 @@
     },
     {
      "year": 2026,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Renovation completed for the stadium's 100th season",
+     "cost_nominal": 250000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Faurot_Field&oldid=1381639921"
     }
    ],
@@ -6592,7 +6592,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "South end zone enclosure",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Jack_Trice_Stadium&oldid=1383080363"
     }
@@ -6675,7 +6675,7 @@
     },
     {
      "year": 2000,
-     "description": null,
+     "description": "Upper deck and south end filled in, adding about 20,000 seats",
      "cost_nominal": 25000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Scott_Stadium&oldid=1372229012"
     }
@@ -6843,7 +6843,7 @@
     },
     {
      "year": 2023,
-     "description": null,
+     "description": "Phase I renovation",
      "cost_nominal": 45400000,
      "source": "https://en.wikipedia.org/w/index.php?title=Ross%E2%80%93Ade_Stadium&oldid=1380592204"
     }
@@ -6919,8 +6919,8 @@
     },
     {
      "year": 2015,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Major stadium renovation",
+     "cost_nominal": 110000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Kroger_Field&oldid=1372211550"
     }
    ],
@@ -7084,7 +7084,7 @@
     },
     {
      "year": 2013,
-     "description": null,
+     "description": "New main video board",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Gies_Memorial_Stadium&oldid=1383702229"
     }
@@ -7249,7 +7249,7 @@
     },
     {
      "year": 2014,
-     "description": null,
+     "description": "Expansion to 61,337 seats with a new west concourse, concessions and restrooms",
      "cost_nominal": 75000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Davis_Wade_Stadium&oldid=1379416113"
     }
@@ -7357,7 +7357,7 @@
     },
     {
      "year": 2024,
-     "description": null,
+     "description": "Southeast end zone expansion and new scoreboard",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Galaxy_Stadium&oldid=1375977736"
     }
@@ -7475,7 +7475,7 @@
     },
     {
      "year": 2026,
-     "description": null,
+     "description": "Renovation under way, adding a north end zone tower",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Camping_World_Stadium&oldid=1383564981"
     }
@@ -7545,7 +7545,7 @@
    "renovations": [
     {
      "year": 2002,
-     "description": null,
+     "description": "FieldTurf playing surface installed",
      "cost_nominal": 80000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Autzen_Stadium&oldid=1383968190"
     }
@@ -7703,7 +7703,7 @@
     },
     {
      "year": 2016,
-     "description": null,
+     "description": "Field surface replaced",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Milan_Puskar_Stadium&oldid=1380915626"
     }
@@ -8190,7 +8190,7 @@
     },
     {
      "year": 2018,
-     "description": null,
+     "description": "Phased stadium-wide renovation",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Mountain_America_Stadium&oldid=1373448808"
     }
@@ -8278,7 +8278,7 @@
     },
     {
      "year": 2016,
-     "description": null,
+     "description": "South end zone enclosure (completed for 2018)",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Memorial_Stadium_(Indiana_University)&oldid=1378727580"
     }
@@ -8768,7 +8768,7 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "New synthetic turf playing surface",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Bobby_Dodd_Stadium&oldid=1374113699"
     }
@@ -8880,7 +8880,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Press box replaced by a larger tower",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Dowdy%E2%80%93Ficklen_Stadium&oldid=1381707882"
     },
@@ -9268,7 +9268,7 @@
     },
     {
      "year": 1995,
-     "description": null,
+     "description": "Concourse widened, restrooms improved and remaining wooden seats replaced",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Stanford_Stadium&oldid=1372236071"
     }
@@ -9363,7 +9363,7 @@
     },
     {
      "year": 2003,
-     "description": null,
+     "description": "East side suites and club seating",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Folsom_Field&oldid=1383413585"
     }
@@ -10310,8 +10310,8 @@
     },
     {
      "year": 2008,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Expansion adding skyboxes and lowering the field for sightlines",
+     "cost_nominal": 50800000,
      "source": "https://en.wikipedia.org/w/index.php?title=SECU_Stadium&oldid=1380326820"
     }
    ],
@@ -10547,7 +10547,7 @@
    "renovations": [
     {
      "year": 1987,
-     "description": null,
+     "description": "Expansion to a balanced bowl with a hospitality building",
      "cost_nominal": 19500000,
      "source": "https://en.wikipedia.org/w/index.php?title=Simmons_Bank_Liberty_Stadium&oldid=1376203896"
     }
@@ -11617,7 +11617,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Final phase of the 1060 Project",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Wrigley_Field&oldid=1383191423"
     }
@@ -11731,7 +11731,7 @@
     },
     {
      "year": 2023,
-     "description": null,
+     "description": "Near-total rebuild of the grandstands and athletics facilities",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=David_Booth_Kansas_Memorial_Stadium&oldid=1381254544"
     }
@@ -11867,7 +11867,7 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "Center field section renovated",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Oracle_Park&oldid=1372223272"
     }
@@ -11940,7 +11940,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "Center field hill removed for added seating, concessions and escalators",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Daikin_Park&oldid=1383719055"
     }
@@ -12353,7 +12353,7 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "North end zone complex, new turf and track removed",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Kidd_Brewer_Stadium&oldid=1379480103"
     }
@@ -13035,7 +13035,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "Corner seats removed for MLS use",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Nippert_Stadium&oldid=1382816981"
     }
@@ -13106,8 +13106,8 @@
    "renovations": [
     {
      "year": 2009,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Fan amenities, Royals hall of fame and facility upgrades",
+     "cost_nominal": 250000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Kauffman_Stadium&oldid=1382251941"
     }
    ],
@@ -13499,7 +13499,7 @@
     },
     {
      "year": 2008,
-     "description": null,
+     "description": "South end zone enclosure adding about 4,000 seats and 33 suites",
      "cost_nominal": 31900000,
      "source": "https://en.wikipedia.org/w/index.php?title=Renasant_Stadium&oldid=1379229529"
     }
@@ -13583,7 +13583,7 @@
     },
     {
      "year": 2026,
-     "description": null,
+     "description": "Preservation project (construction began April 2024)",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Michie_Stadium&oldid=1383628204"
     }
@@ -13690,7 +13690,7 @@
     },
     {
      "year": 2023,
-     "description": null,
+     "description": "New southwest grandstand",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Reser_Stadium&oldid=1380600210"
     }
@@ -13779,7 +13779,7 @@
     },
     {
      "year": 2012,
-     "description": null,
+     "description": "End zone bleacher expansion to 36,387 seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Albertsons_Stadium&oldid=1382355510"
     }
@@ -13849,8 +13849,8 @@
    "renovations": [
     {
      "year": 1998,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Expansion adding 10,000 seats",
+     "cost_nominal": 28000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Kelly%2FShorts_Stadium&oldid=1378336037"
     }
    ],
@@ -13925,7 +13925,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "New press box, broadcast booths and suites",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Wallace_Wade_Stadium&oldid=1372250245"
     }
@@ -14197,7 +14197,7 @@
    "renovations": [
     {
      "year": 2004,
-     "description": null,
+     "description": "West side press box expansion",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Navy%E2%80%93Marine_Corps_Memorial_Stadium&oldid=1372219202"
     }
@@ -14285,7 +14285,7 @@
     },
     {
      "year": 2025,
-     "description": null,
+     "description": "Ballpark renovation (2023 to 2025)",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Progressive_Field&oldid=1378504146"
     }
@@ -14431,7 +14431,7 @@
     },
     {
      "year": 2011,
-     "description": null,
+     "description": "New scoreboard",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Allegacy_Federal_Credit_Union_Stadium&oldid=1381448688"
     }
@@ -14784,7 +14784,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "New speakers, scoreboards and video boards",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Waldo_Stadium&oldid=1377253823"
     }
@@ -15364,7 +15364,7 @@
    "renovations": [
     {
      "year": 1991,
-     "description": null,
+     "description": "22 suites and about 9,200 seats added",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Valley_Children's_Stadium&oldid=1380169629"
     }
@@ -15770,8 +15770,8 @@
    "renovations": [
     {
      "year": 2012,
-     "description": null,
-     "cost_nominal": null,
+     "description": "North end zone closed in, capacity 30,003",
+     "cost_nominal": 33000000,
      "source": "https://en.wikipedia.org/w/index.php?title=UFCU_Stadium&oldid=1381801632"
     }
    ],
@@ -15988,8 +15988,8 @@
     },
     {
      "year": 2014,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Artificial turf replaced",
+     "cost_nominal": 450000,
      "source": "https://en.wikipedia.org/w/index.php?title=FMOL_Health%2FSt._Francis_Stadium&oldid=1375785013"
     }
    ],
@@ -16274,7 +16274,7 @@
     },
     {
      "year": 2024,
-     "description": null,
+     "description": "Running track removed",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Rynearson_Stadium&oldid=1372227003"
     }
@@ -16374,8 +16374,8 @@
     },
     {
      "year": 2016,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Turf, facade, concessions, restrooms, locker rooms and ticket booths",
+     "cost_nominal": 3500000,
      "source": "https://en.wikipedia.org/w/index.php?title=Glass_Bowl&oldid=1374722104"
     }
    ],
@@ -16864,7 +16864,7 @@
    "renovations": [
     {
      "year": 2008,
-     "description": null,
+     "description": "South bleachers demolished",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Dix_Stadium&oldid=1372080688"
     }
@@ -17073,7 +17073,7 @@
    "renovations": [
     {
      "year": 1999,
-     "description": null,
+     "description": "Two rounded bleacher sections added, capacity above 29,000",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Broadview_Stadium&oldid=1379872039"
     }
@@ -17180,7 +17180,7 @@
     },
     {
      "year": 2014,
-     "description": null,
+     "description": "Major construction and expansion project",
      "cost_nominal": 10000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Allen_E._Paulson_Stadium&oldid=1377033320"
     }
@@ -17524,7 +17524,7 @@
     },
     {
      "year": 2018,
-     "description": null,
+     "description": "New HD video board and ribbon boards",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Williams_Stadium&oldid=1378554389"
     },
@@ -17606,7 +17606,7 @@
     },
     {
      "year": 2011,
-     "description": null,
+     "description": "Major renovation and expansion of the facility",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Bridgeforth_Stadium&oldid=1374214666"
     }
@@ -17702,7 +17702,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "East End expansion to 25,218 seats with a multi-level facade",
      "cost_nominal": 85000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Providence_Park&oldid=1374398697"
     }
@@ -17897,7 +17897,7 @@
    "renovations": [
     {
      "year": 2005,
-     "description": null,
+     "description": "Series of upgrades: turf, lighting, video boards and plaza",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Yager_Stadium_(Miami_University)&oldid=1372253191"
     }
@@ -18049,7 +18049,7 @@
     },
     {
      "year": 2022,
-     "description": null,
+     "description": "Permanent end zone seating; track moved out of the stadium",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Memorial_Stadium_(Tarleton_State)&oldid=1383636794"
     }
@@ -18125,7 +18125,7 @@
     },
     {
      "year": 2001,
-     "description": null,
+     "description": "Extensive renovations after the 2000 season",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Peden_Stadium&oldid=1381095291"
     }
@@ -18195,7 +18195,7 @@
    "renovations": [
     {
      "year": 2016,
-     "description": null,
+     "description": "Retractable roof added",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Arthur_Ashe_Stadium&oldid=1379481656"
     }
@@ -18283,7 +18283,7 @@
     },
     {
      "year": 2016,
-     "description": null,
+     "description": "Field fully replaced",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Fitton_Field&oldid=1381708762"
     }
@@ -18362,7 +18362,7 @@
     },
     {
      "year": 2010,
-     "description": null,
+     "description": "South stands and end zone seating plus a seven-story tower with suites and press box",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=AmFirst_Stadium&oldid=1381706935"
     }
@@ -18607,7 +18607,7 @@
    "renovations": [
     {
      "year": 2008,
-     "description": null,
+     "description": "Expansion to 22,000 seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Houchens_Industries%E2%80%93L._T._Smith_Stadium&oldid=1382320581"
     }
@@ -18830,7 +18830,7 @@
     },
     {
      "year": 1993,
-     "description": null,
+     "description": "Expansion to 22,000 seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=First_Horizon_Coliseum&oldid=1381325488"
     }
@@ -18969,7 +18969,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Stadium rebuilt, capacity 22,130",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=S.B._Ballard_Stadium&oldid=1381711030"
     }
@@ -19058,8 +19058,8 @@
     },
     {
      "year": 2018,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Four new video boards and a ribbon board",
+     "cost_nominal": 6000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Dean_Smith_Center&oldid=1381707819"
     }
    ],
@@ -19128,7 +19128,7 @@
    "renovations": [
     {
      "year": 2007,
-     "description": null,
+     "description": "Renovation that reduced capacity from 24,535",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Thompson%E2%80%93Boling_Arena&oldid=1372389974"
     }
@@ -19280,7 +19280,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "Larger HD video board and LED panels",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Truist_Stadium_(North_Carolina_A%26T)&oldid=1373119839"
     }
@@ -19414,7 +19414,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "Stadium expansion",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Brooks_Stadium&oldid=1381739837"
     }
@@ -19641,7 +19641,7 @@
     },
     {
      "year": 2017,
-     "description": null,
+     "description": "Atrium extension and event space added",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=United_Center&oldid=1383479288"
     }
@@ -19722,7 +19722,7 @@
     },
     {
      "year": 2011,
-     "description": null,
+     "description": "Stadium expansion",
      "cost_nominal": 10000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Bobcat_Stadium_(Montana_State_University)&oldid=1379871925"
     }
@@ -19854,7 +19854,7 @@
    "renovations": [
     {
      "year": 1997,
-     "description": null,
+     "description": "Over 3,000 east side bleacher seats added",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Stambaugh_Stadium&oldid=1383919837"
     }
@@ -20347,8 +20347,8 @@
     },
     {
      "year": 2013,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Three-year modernization of the arena",
+     "cost_nominal": 1000000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Madison_Square_Garden&oldid=1383025871"
     }
    ],
@@ -20501,7 +20501,7 @@
     },
     {
      "year": 2012,
-     "description": null,
+     "description": "Renovation raising capacity to 20,000",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Pitbull_Stadium&oldid=1383564752"
     }
@@ -21072,7 +21072,7 @@
    "renovations": [
     {
      "year": 2016,
-     "description": null,
+     "description": "Renovations and a new scoreboard before the 2017 All-Star Game",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Spectrum_Center&oldid=1380171931"
     }
@@ -21142,7 +21142,7 @@
    "renovations": [
     {
      "year": 2019,
-     "description": null,
+     "description": "Renovation and expansion",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Rocket_Arena&oldid=1379138612"
     }
@@ -21429,7 +21429,7 @@
     },
     {
      "year": 2025,
-     "description": null,
+     "description": "Renovation and redevelopment under a new 20-year lease",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Lenovo_Center&oldid=1383688622"
     }
@@ -22389,7 +22389,7 @@
     },
     {
      "year": 2019,
-     "description": null,
+     "description": "New seating areas; press box and club level followed",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Delaware_Stadium&oldid=1381707829"
     }
@@ -23971,7 +23971,7 @@
    "renovations": [
     {
      "year": 2010,
-     "description": null,
+     "description": "Complete renovation including accessible seating",
      "cost_nominal": 30000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Provost_Umphrey_Stadium&oldid=1382034726"
     }
@@ -24381,8 +24381,8 @@
    "renovations": [
     {
      "year": 2022,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Outdoor entry plaza, indoor gathering areas and interior upgrades",
+     "cost_nominal": 360000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Gainbridge_Fieldhouse&oldid=1381441842"
     },
     {
@@ -24718,7 +24718,7 @@
     },
     {
      "year": 2015,
-     "description": null,
+     "description": "All seating replaced",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Bridgestone_Arena&oldid=1380457078"
     }
@@ -24872,7 +24872,7 @@
     },
     {
      "year": 2020,
-     "description": null,
+     "description": "Arena renovation",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Mortgage_Matchup_Center&oldid=1383654781"
     }
@@ -25126,7 +25126,7 @@
    "renovations": [
     {
      "year": 2018,
-     "description": null,
+     "description": "Suite wall replaced by premium seating spread around the bowl",
      "cost_nominal": null,
      "source": "https://www.statefarmarena.com/about-the-arena/quick-facts"
     }
@@ -25630,7 +25630,7 @@
    "renovations": [
     {
      "year": 1985,
-     "description": null,
+     "description": "Expanded to current capacity",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Paladin_Stadium&oldid=1376427716"
     }
@@ -26015,8 +26015,8 @@
     },
     {
      "year": 2009,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Second renovation, completed for the 2010-11 season",
+     "cost_nominal": 60000000,
      "source": "https://en.wikipedia.org/w/index.php?title=The_Pit_(arena)&oldid=1372242550"
     }
    ],
@@ -26085,8 +26085,8 @@
    "renovations": [
     {
      "year": 2005,
-     "description": null,
-     "cost_nominal": null,
+     "description": "Significant renovation",
+     "cost_nominal": 24000000,
      "source": "https://en.wikipedia.org/w/index.php?title=Coleman_Coliseum&oldid=1375509132"
     }
    ],
@@ -26247,7 +26247,7 @@
     },
     {
      "year": 2024,
-     "description": null,
+     "description": "Corner video boards and chairback seats",
      "cost_nominal": null,
      "source": "https://en.wikipedia.org/w/index.php?title=Allen_Fieldhouse&oldid=1372062145"
     }

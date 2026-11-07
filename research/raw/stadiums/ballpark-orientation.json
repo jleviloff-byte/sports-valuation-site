@@ -1,0 +1,164 @@
+{
+ "dodger-stadium": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "chase-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "t-mobile-park": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "coors-field": {
+  "bearing": 0,
+  "width_ratio": 2.43,
+  "field_length_m": 131,
+  "osm": "https://www.openstreetmap.org/way/25654510",
+  "plausible": true
+ },
+ "yankee-stadium": {
+  "bearing": 75,
+  "width_ratio": 2.39,
+  "field_length_m": 129,
+  "osm": "https://www.openstreetmap.org/way/182916837",
+  "plausible": true
+ },
+ "angel-stadium": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "busch-stadium": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "great-american-ball-park": {
+  "bearing": 120,
+  "width_ratio": 2.23,
+  "field_length_m": 127,
+  "osm": "https://www.openstreetmap.org/way/31009218",
+  "plausible": true
+ },
+ "citizens-bank-park": {
+  "bearing": 15,
+  "width_ratio": 2.14,
+  "field_length_m": 137,
+  "osm": "https://www.openstreetmap.org/way/92483441",
+  "plausible": true
+ },
+ "oriole-park-at-camden-yards": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "citi-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "american-family-field": {
+  "bearing": 130,
+  "width_ratio": 2.56,
+  "field_length_m": 136,
+  "osm": "https://www.openstreetmap.org/way/1209147114",
+  "plausible": true
+ },
+ "wrigley-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "nationals-park": {
+  "bearing": 30,
+  "width_ratio": 2.09,
+  "field_length_m": 138,
+  "osm": "https://www.openstreetmap.org/way/67260403",
+  "plausible": true
+ },
+ "oracle-park": {
+  "bearing": 85,
+  "width_ratio": 2.39,
+  "field_length_m": 123,
+  "osm": "https://www.openstreetmap.org/way/500283910",
+  "plausible": true
+ },
+ "daikin-park": {
+  "bearing": 340,
+  "width_ratio": 2,
+  "field_length_m": 146,
+  "osm": "https://www.openstreetmap.org/way/44530814",
+  "plausible": true
+ },
+ "truist-park": {
+  "bearing": 160,
+  "width_ratio": 2.48,
+  "field_length_m": 136,
+  "osm": "https://www.openstreetmap.org/way/559996049",
+  "plausible": true
+ },
+ "rate-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "globe-life-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "comerica-park": {
+  "bearing": null,
+  "error": "pitch outline not clearly fan-shaped (infield-only or irregular)",
+  "osm": "https://www.openstreetmap.org/way/107328436"
+ },
+ "petco-park": {
+  "bearing": 355,
+  "width_ratio": 2.37,
+  "field_length_m": 123,
+  "osm": "https://www.openstreetmap.org/way/429353143",
+  "plausible": true
+ },
+ "pnc-park": {
+  "bearing": 120,
+  "width_ratio": 2.51,
+  "field_length_m": 127,
+  "osm": "https://www.openstreetmap.org/way/222405385",
+  "plausible": true
+ },
+ "target-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "kauffman-stadium": {
+  "bearing": 50,
+  "width_ratio": 2.39,
+  "field_length_m": 129,
+  "osm": "https://www.openstreetmap.org/way/128221738",
+  "plausible": true
+ },
+ "fenway-park": {
+  "bearing": 40,
+  "width_ratio": 2.54,
+  "field_length_m": 122,
+  "osm": "https://www.openstreetmap.org/way/813683133",
+  "plausible": true
+ },
+ "loandepot-park": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ },
+ "progressive-field": {
+  "bearing": 0,
+  "width_ratio": 2.51,
+  "field_length_m": 143,
+  "osm": "https://www.openstreetmap.org/way/245219318",
+  "plausible": true
+ },
+ "tropicana-field": {
+  "bearing": 135,
+  "width_ratio": 3.07,
+  "field_length_m": 102,
+  "osm": "https://www.openstreetmap.org/way/159734220",
+  "plausible": true
+ },
+ "charles-schwab-field": {
+  "bearing": null,
+  "error": "no baseball pitch mapped"
+ }
+}

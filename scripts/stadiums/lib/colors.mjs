@@ -34,11 +34,36 @@ export async function loadColorTables() {
   return tables
 }
 
+// Soccer clubs: Wikipedia has no color module, but club articles style their
+// tables in club colors ("background:#primary; ... border:2px solid #secondary").
+async function soccerColors(team) {
+  const { getPage } = await import('./wiki.mjs')
+  const p = await getPage(team)
+  if (!p) return null
+  const m = p.wikitext.match(/background:\s*#([0-9A-Fa-f]{6})[^"|]*?border:\s*\d+px\s+solid\s+#([0-9A-Fa-f]{6})/)
+  if (!m) return null
+  const [a, b] = [`#${m[1].toUpperCase()}`, `#${m[2].toUpperCase()}`]
+  const prim = a === '#FFFFFF' ? b : a
+  return { primary: prim, secondary: b !== prim && b !== '#FFFFFF' ? b : null, source: pageUrl(p.title, p.revid), cite: null, method: 'club article table styling' }
+}
+
 // { primary, secondary, source } or null.
 export async function teamColors(team, league) {
+  if (league === 'MLS' || league === 'NWSL') return soccerColors(team)
   const t = await loadColorTables()
   for (const mod of LEAGUE_MODULES[league] || []) {
-    const e = t[mod].map[team]
+    let e = t[mod].map[team]
+    if (!e && mod === 'college') {
+      // Near-miss names: drop "and Lady X", then match a unique key sharing school and nickname tail.
+      const base = team.replace(/\s+and\s+Lady\s+.*$/i, '').trim()
+      e = t[mod].map[base]
+      if (!e) {
+        const words = base.split(' ')
+        const school = words[0], tail = words.at(-1)
+        const keys = Object.keys(t[mod].map).filter((k) => k.startsWith(school + ' ') && k.endsWith(' ' + tail))
+        if (keys.length === 1) e = t[mod].map[keys[0]]
+      }
+    }
     if (!e) continue
     const nonWhite = e.hex.filter((h) => h !== '#FFFFFF')
     return { primary: nonWhite[0] ?? e.hex[0], secondary: nonWhite[1] ?? e.hex[1] ?? null, source: t[mod].url, cite: e.cite }

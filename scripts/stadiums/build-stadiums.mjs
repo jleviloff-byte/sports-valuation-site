@@ -295,6 +295,18 @@ slugCount = {}
 for (const v of included) slugCount[v.slug] = (slugCount[v.slug] || 0) + 1
 const dupSlugs = Object.keys(slugCount).filter((s) => slugCount[s] > 1)
 
+// Renovation scopes written from the cited Wikipedia text (scripts/stadiums/renovation-scopes.json).
+const scopes = fs.existsSync('scripts/stadiums/renovation-scopes.json') ? read('scripts/stadiums/renovation-scopes.json') : {}
+for (const v of included) {
+  const sc = scopes[v.slug]
+  if (!sc) continue
+  const r = v.renovations.find((x) => x.year === sc.year) || v.renovations.at(-1)
+  if (!r) continue
+  if (!r.description) r.description = sc.scope
+  if (r.cost_nominal == null && sc.cost_nominal != null) r.cost_nominal = sc.cost_nominal
+  r.source = r.source || sc.source
+}
+
 // Rankings (competition ranking: ties share a rank).
 const rankBy = (list, val) => {
   const sorted = [...list].sort((a, b) => val(b) - val(a))

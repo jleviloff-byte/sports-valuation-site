@@ -30,8 +30,8 @@ Counts are over included venues. Missing values are stored as `null` and display
 |---|---|---|
 | opened | 0 | 0% |
 | cost_nominal | 64 | 18% |
-| renovation scope (description) | 144 | 41% |
-| renovation cost | 128 | 36% |
+| latest renovation scope | 41 | 12% |
+| latest renovation cost | 110 | 31% |
 | roof (inferred, not sourced) | 278 | 79% |
 | OSM footprint | 26 | 7% |
 
@@ -57,7 +57,7 @@ _None._
 
 ### Renovation scope
 
-Wikipedia infoboxes give renovation years but not scope, so 144 venues have a renovation year with no description. Descriptions exist only where an official page stated the scope (8 venues). The card will show "N/A" for scope until these are filled from sourced text.
+Scopes are written from the venue's Wikipedia text for that renovation year (evidence sentences kept in research/raw/stadiums/renovation-sentences.json, scopes in scripts/stadiums/renovation-scopes.json) or taken from an official page. 108 of 149 venues with a renovation now have a scope for the most recent one. The rest show "N/A": the article either has no sentence about that year's work or the sentence does not say what was done. Costs are filled only where that text states a figure for the project (not proposals, estimates or one funder's share).
 
 ### No OSM footprint
 

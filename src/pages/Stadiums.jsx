@@ -2,7 +2,10 @@ import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { spritePx, LEGEND_CAPACITIES } from '../utils/stadiumSizing.js'
 
-const StadiumMap = lazy(() => import('../components/stadiums/StadiumMap.jsx'))
+// Start downloading the map code as soon as this page module loads, in parallel with the venue list.
+const loadMap = () => import('../components/stadiums/StadiumMap.jsx')
+if (typeof window !== 'undefined') loadMap()
+const StadiumMap = lazy(loadMap)
 const LoadoutCard = lazy(() => import('../components/stadiums/LoadoutCard.jsx'))
 
 const LEAGUES = ['NFL', 'MLB', 'NBA', 'NHL', 'MLS', 'NWSL', 'WNBA', 'NCAA FBS', 'NCAA FCS', 'NCAA D1 basketball', 'NASCAR Cup', 'IndyCar', 'Formula 1', 'Tennis', 'Neutral site']

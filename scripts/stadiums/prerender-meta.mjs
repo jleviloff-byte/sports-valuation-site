@@ -13,12 +13,25 @@ import path from 'node:path'
 const SITE = 'https://franchisemath.site'
 const dist = 'dist'
 const tpl = fs.readFileSync(path.join(dist, 'index.html'), 'utf8')
+// Hints so the map code, its CSS and the basemap style download alongside the main bundle.
+const assets = fs.readdirSync(path.join(dist, 'assets'))
+const pick = (re) => assets.filter((a) => re.test(a)).map((a) => '/assets/' + a)
+const HINTS = [
+  '<link rel="preload" href="/stadiums/index.json" as="fetch" crossorigin="anonymous" />',
+  ...pick(/^(Stadiums|StadiumMap)-[\w-]+\.js$/).map((h) => `<link rel="modulepreload" href="${h}" />`),
+  ...pick(/^StadiumMap-[\w-]+\.css$/).map((h) => `<link rel="preload" href="${h}" as="style" />`),
+  '<link rel="preload" href="/map-styles/muted-light.json" as="fetch" crossorigin="anonymous" media="(prefers-color-scheme: light)" />',
+  '<link rel="preload" href="/map-styles/muted-dark.json" as="fetch" crossorigin="anonymous" media="(prefers-color-scheme: dark)" />',
+  '<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />',
+].join('\n    ')
 const { venues } = JSON.parse(fs.readFileSync('public/stadiums/index.json', 'utf8'))
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const fmt = (n) => n.toLocaleString('en-US')
 
-function page({ title, description, url, image, body }) {
+function page({ title, description, url, image, body, preload = true }) {
   let h = tpl
+  // Start the venue list download before the app bundles run.
+  if (preload) h = h.replace('</head>', `    ${HINTS}\n  </head>`)
   const swap = (re, val) => { h = h.replace(re, val) }
   swap(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
   swap(/(<meta name="description" content=")[^"]*(")/, `$1${esc(description)}$2`)

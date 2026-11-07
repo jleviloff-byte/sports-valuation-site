@@ -49,8 +49,8 @@ P('## Method (short)', '',
 const miss = {
   opened: V.filter((v) => v.opened == null),
   cost_nominal: V.filter((v) => v.cost_nominal == null),
-  'renovation scope (description)': V.filter((v) => v.renovations.length && v.renovations.some((r) => !r.description)),
-  'renovation cost': V.filter((v) => v.renovations.length && v.renovations.at(-1).cost_nominal == null),
+  'latest renovation scope': V.filter((v) => v.renovations.length && !v.renovations.at(-1).description),
+  'latest renovation cost': V.filter((v) => v.renovations.length && v.renovations.at(-1).cost_nominal == null),
   'roof (inferred, not sourced)': (q.inferred || []).filter((i) => i.field === 'roof'),
   'OSM footprint': V.filter((v) => !v.osm_id),
 }
@@ -60,7 +60,7 @@ P('### Missing opened year', '', miss.opened.map((v) => `- ${link(v.name, v.sour
 P('### Missing construction cost', '', `${miss.cost_nominal.length} venues. Most are college venues whose infobox has no cost field.`, '',
   miss.cost_nominal.filter((v) => v.tenants.some((t) => ['NFL', 'MLB', 'NBA', 'NHL', 'MLS'].includes(t.league))).map((v) => `- Pro venue: ${link(v.name, v.sources.wikipedia)}`).join('\n'), '')
 P('### Renovation scope', '',
-  `Wikipedia infoboxes give renovation years but not scope, so ${miss['renovation scope (description)'].length} venues have a renovation year with no description. Descriptions exist only where an official page stated the scope (${V.filter((v) => v.renovations.some((r) => r.description)).length} venues). The card will show "N/A" for scope until these are filled from sourced text.`, '')
+  `Scopes are written from the venue's Wikipedia text for that renovation year (evidence sentences kept in research/raw/stadiums/renovation-sentences.json, scopes in scripts/stadiums/renovation-scopes.json) or taken from an official page. ${V.filter((v) => v.renovations.length && v.renovations.at(-1).description).length} of ${V.filter((v) => v.renovations.length).length} venues with a renovation now have a scope for the most recent one. The rest show "N/A": the article either has no sentence about that year's work or the sentence does not say what was done. Costs are filled only where that text states a figure for the project (not proposals, estimates or one funder's share).`, '')
 P('### No OSM footprint', '', `${miss['OSM footprint'].length} venues have no matched OSM polygon (needed for Phase 2 art). Coordinates for these fall back to Wikipedia.`, '',
   miss['OSM footprint'].slice(0, 60).map((v) => v.name).join(', ') + (miss['OSM footprint'].length > 60 ? ', ...' : ''), '')
 

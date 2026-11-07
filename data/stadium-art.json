@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T19:47:33.098Z",
+ "generated": "2026-11-06T20:14:55.613Z",
  "venues": {
   "indianapolis-motor-speedway": {
    "archetype": "oval_track",
@@ -85,7 +85,8 @@
    ],
    "seat_colors_source": {
     "team": "Michigan Wolverines",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -105,7 +106,8 @@
    ],
    "seat_colors_source": {
     "team": "Penn State Nittany Lions",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -124,7 +126,8 @@
    ],
    "seat_colors_source": {
     "team": "Ohio State Buckeyes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -143,7 +146,8 @@
    ],
    "seat_colors_source": {
     "team": "Texas A&M Aggies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -162,7 +166,8 @@
    ],
    "seat_colors_source": {
     "team": "LSU Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -181,7 +186,8 @@
    ],
    "seat_colors_source": {
     "team": "Tennessee Volunteers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -200,7 +206,8 @@
    ],
    "seat_colors_source": {
     "team": "Texas Longhorns",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -219,7 +226,8 @@
    ],
    "seat_colors_source": {
     "team": "Alabama Crimson Tide",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -255,7 +263,8 @@
    ],
    "seat_colors_source": {
     "team": "Georgia Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -306,7 +315,8 @@
    ],
    "seat_colors_source": {
     "team": "Florida Gators",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -325,7 +335,8 @@
    ],
    "seat_colors_source": {
     "team": "Auburn Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -344,7 +355,8 @@
    ],
    "seat_colors_source": {
     "team": "Nebraska Cornhuskers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -364,7 +376,8 @@
    ],
    "seat_colors_source": {
     "team": "New York Giants",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -383,7 +396,8 @@
    ],
    "seat_colors_source": {
     "team": "Clemson Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -402,7 +416,8 @@
    ],
    "seat_colors_source": {
     "team": "Green Bay Packers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -421,7 +436,8 @@
    ],
    "seat_colors_source": {
     "team": "UCLA Bruins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -440,7 +456,8 @@
    ],
    "seat_colors_source": {
     "team": "Oklahoma Sooners",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -459,7 +476,8 @@
    ],
    "seat_colors_source": {
     "team": "Dallas Cowboys",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -512,7 +530,8 @@
    ],
    "seat_colors_source": {
     "team": "Notre Dame Fighting Irish",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -531,7 +550,8 @@
    ],
    "seat_colors_source": {
     "team": "South Carolina Gamecocks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -550,7 +570,8 @@
    ],
    "seat_colors_source": {
     "team": "USC Trojans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [
@@ -588,7 +609,8 @@
    ],
    "seat_colors_source": {
     "team": "Kansas City Chiefs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -607,7 +629,8 @@
    ],
    "seat_colors_source": {
     "team": "Arkansas Razorbacks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -626,7 +649,8 @@
    ],
    "seat_colors_source": {
     "team": "Denver Broncos",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -645,7 +669,8 @@
    ],
    "seat_colors_source": {
     "team": "Wisconsin Badgers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -664,7 +689,8 @@
    ],
    "seat_colors_source": {
     "team": "Carolina Panthers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -717,7 +743,8 @@
    ],
    "seat_colors_source": {
     "team": "Michigan State Spartans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -736,7 +763,8 @@
    ],
    "seat_colors_source": {
     "team": "New Orleans Saints",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [
@@ -757,7 +785,8 @@
    ],
    "seat_colors_source": {
     "team": "Houston Texans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -776,7 +805,8 @@
    ],
    "seat_colors_source": {
     "team": "Washington Huskies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -827,7 +857,8 @@
    ],
    "seat_colors_source": {
     "team": "Atlanta Falcons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -846,7 +877,8 @@
    ],
    "seat_colors_source": {
     "team": "Baltimore Ravens",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -865,7 +897,8 @@
    ],
    "seat_colors_source": {
     "team": "Los Angeles Chargers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -884,7 +917,8 @@
    ],
    "seat_colors_source": {
     "team": "Iowa Hawkeyes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -903,7 +937,8 @@
    ],
    "seat_colors_source": {
     "team": "Tampa Bay Buccaneers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -922,7 +957,8 @@
    ],
    "seat_colors_source": {
     "team": "Tennessee Titans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -941,7 +977,8 @@
    ],
    "seat_colors_source": {
     "team": "San Francisco 49ers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -960,7 +997,8 @@
    ],
    "seat_colors_source": {
     "team": "Pittsburgh Steelers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -979,7 +1017,8 @@
    ],
    "seat_colors_source": {
     "team": "Seattle Seahawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -998,7 +1037,8 @@
    ],
    "seat_colors_source": {
     "team": "Jacksonville Jaguars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1017,7 +1057,8 @@
    ],
    "seat_colors_source": {
     "team": "Philadelphia Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1036,7 +1077,8 @@
    ],
    "seat_colors_source": {
     "team": "Cleveland Browns",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1055,7 +1097,8 @@
    ],
    "seat_colors_source": {
     "team": "Florida State Seminoles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1074,7 +1117,8 @@
    ],
    "seat_colors_source": {
     "team": "Indianapolis Colts",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1094,7 +1138,8 @@
    ],
    "seat_colors_source": {
     "team": "Chicago Bears",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1113,7 +1158,8 @@
    ],
    "seat_colors_source": {
     "team": "Minnesota Vikings",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1132,7 +1178,8 @@
    ],
    "seat_colors_source": {
     "team": "Virginia Tech Hokies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1151,7 +1198,8 @@
    ],
    "seat_colors_source": {
     "team": "Cincinnati Bengals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1170,7 +1218,8 @@
    ],
    "seat_colors_source": {
     "team": "Las Vegas Raiders",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1189,7 +1238,8 @@
    ],
    "seat_colors_source": {
     "team": "Detroit Lions",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1208,7 +1258,8 @@
    ],
    "seat_colors_source": {
     "team": "Miami Dolphins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1227,7 +1278,8 @@
    ],
    "seat_colors_source": {
     "team": "New England Patriots",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1246,7 +1298,8 @@
    ],
    "seat_colors_source": {
     "team": "Ole Miss Rebels",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1265,7 +1318,8 @@
    ],
    "seat_colors_source": {
     "team": "UTSA Roadrunners",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1284,7 +1338,8 @@
    ],
    "seat_colors_source": {
     "team": "Washington Commanders",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1303,7 +1358,8 @@
    ],
    "seat_colors_source": {
     "team": "Missouri Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1322,7 +1378,8 @@
    ],
    "seat_colors_source": {
     "team": "Arizona Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1341,7 +1398,8 @@
    ],
    "seat_colors_source": {
     "team": "BYU Cougars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1360,7 +1418,8 @@
    ],
    "seat_colors_source": {
     "team": "Iowa State Cyclones",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1379,7 +1438,8 @@
    ],
    "seat_colors_source": {
     "team": "Virginia Cavaliers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1398,7 +1458,8 @@
    ],
    "seat_colors_source": {
     "team": "Yale Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1417,7 +1478,8 @@
    ],
    "seat_colors_source": {
     "team": "Purdue Boilermakers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1436,7 +1498,8 @@
    ],
    "seat_colors_source": {
     "team": "Kentucky Wildcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1455,7 +1518,8 @@
    ],
    "seat_colors_source": {
     "team": "Louisville Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1474,7 +1538,8 @@
    ],
    "seat_colors_source": {
     "team": "Illinois Fighting Illini",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1493,7 +1558,8 @@
    ],
    "seat_colors_source": {
     "team": "Jackson State Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1512,7 +1578,8 @@
    ],
    "seat_colors_source": {
     "team": "Mississippi State Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1531,7 +1598,8 @@
    ],
    "seat_colors_source": {
     "team": "Texas Tech Red Raiders",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1565,7 +1633,8 @@
    ],
    "seat_colors_source": {
     "team": "Oregon Ducks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1584,7 +1653,8 @@
    ],
    "seat_colors_source": {
     "team": "Buffalo Bills",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3AGridiron_color%2Fdata&oldid=1383349247",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1603,7 +1673,8 @@
    ],
    "seat_colors_source": {
     "team": "West Virginia Mountaineers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1639,7 +1710,8 @@
    ],
    "seat_colors_source": {
     "team": "NC State Wolfpack",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1659,10 +1731,13 @@
    ],
    "seat_colors_source": {
     "team": "Los Angeles Dodgers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/1353249584",
    "rules": "auto"
   },
@@ -1695,7 +1770,8 @@
    ],
    "seat_colors_source": {
     "team": "Utah Utes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1731,7 +1807,8 @@
    ],
    "seat_colors_source": {
     "team": "Arizona State Sun Devils",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1750,7 +1827,8 @@
    ],
    "seat_colors_source": {
     "team": "Indiana Hoosiers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1769,7 +1847,8 @@
    ],
    "seat_colors_source": {
     "team": "TCU Horned Frogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1789,7 +1868,8 @@
    ],
    "seat_colors_source": {
     "team": "Penn Quakers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1808,7 +1888,8 @@
    ],
    "seat_colors_source": {
     "team": "Rutgers Scarlet Knights",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1827,7 +1908,8 @@
    ],
    "seat_colors_source": {
     "team": "California Golden Bears",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1846,7 +1928,8 @@
    ],
    "seat_colors_source": {
     "team": "Oklahoma State Cowboys",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1865,7 +1948,8 @@
    ],
    "seat_colors_source": {
     "team": "Georgia Tech Yellow Jackets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1884,7 +1968,8 @@
    ],
    "seat_colors_source": {
     "team": "East Carolina Pirates",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1903,7 +1988,8 @@
    ],
    "seat_colors_source": {
     "team": "Minnesota Golden Gophers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1922,7 +2008,8 @@
    ],
    "seat_colors_source": {
     "team": "Arizona Wildcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1941,7 +2028,8 @@
    ],
    "seat_colors_source": {
     "team": "North Carolina Tar Heels",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1960,7 +2048,8 @@
    ],
    "seat_colors_source": {
     "team": "Stanford Cardinal",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1979,7 +2068,8 @@
    ],
    "seat_colors_source": {
     "team": "Colorado Buffaloes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -1998,7 +2088,8 @@
    ],
    "seat_colors_source": {
     "team": "Kansas State Wildcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2050,10 +2141,13 @@
    ],
    "seat_colors_source": {
     "team": "Arizona Diamondbacks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/24635438",
    "rules": "auto"
   },
@@ -2087,10 +2181,13 @@
    ],
    "seat_colors_source": {
     "team": "Seattle Mariners",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/relation/18550612",
    "rules": "auto"
   },
@@ -2107,7 +2204,8 @@
    ],
    "seat_colors_source": {
     "team": "UAB Blazers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2160,7 +2258,8 @@
    ],
    "seat_colors_source": {
     "team": "Rice Owls",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2180,10 +2279,13 @@
    ],
    "seat_colors_source": {
     "team": "Colorado Rockies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 0,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/25654510",
    "footprint_osm": "https://www.openstreetmap.org/relation/4423251",
    "rules": "auto"
   },
@@ -2200,10 +2302,13 @@
    ],
    "seat_colors_source": {
     "team": "New York Yankees",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 75,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/182916837",
    "footprint_osm": "https://www.openstreetmap.org/way/24801630",
    "rules": "auto"
   },
@@ -2219,7 +2324,8 @@
    ],
    "seat_colors_source": {
     "team": "Maryland Terrapins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2238,7 +2344,8 @@
    ],
    "seat_colors_source": {
     "team": "UTEP Miners",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2257,7 +2364,8 @@
    ],
    "seat_colors_source": {
     "team": "UCF Knights",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2276,7 +2384,8 @@
    ],
    "seat_colors_source": {
     "team": "Memphis Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2296,10 +2405,13 @@
    ],
    "seat_colors_source": {
     "team": "Los Angeles Angels",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/23973377",
    "rules": "auto"
   },
@@ -2315,7 +2427,8 @@
    ],
    "seat_colors_source": {
     "team": "Baylor Bears",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2334,7 +2447,8 @@
    ],
    "seat_colors_source": {
     "team": "Boston College Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2354,10 +2468,13 @@
    ],
    "seat_colors_source": {
     "team": "St. Louis Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/42341545",
    "rules": "auto"
   },
@@ -2425,10 +2542,13 @@
    ],
    "seat_colors_source": {
     "team": "Cincinnati Reds",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 120,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/31009218",
    "footprint_osm": "https://www.openstreetmap.org/way/24587940",
    "rules": "auto"
   },
@@ -2462,10 +2582,13 @@
    ],
    "seat_colors_source": {
     "team": "Philadelphia Phillies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 15,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/92483441",
    "footprint_osm": "https://www.openstreetmap.org/way/255489463",
    "rules": "auto"
   },
@@ -2481,7 +2604,8 @@
    ],
    "seat_colors_source": {
     "team": "Syracuse Orange",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2501,10 +2625,13 @@
    ],
    "seat_colors_source": {
     "team": "Baltimore Orioles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/1171328455",
    "rules": "auto"
   },
@@ -2538,10 +2665,13 @@
    ],
    "seat_colors_source": {
     "team": "New York Mets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/604023701",
    "rules": "auto"
   },
@@ -2558,10 +2688,13 @@
    ],
    "seat_colors_source": {
     "team": "Milwaukee Brewers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 130,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/1209147114",
    "footprint_osm": "https://www.openstreetmap.org/way/663006116",
    "rules": "auto"
   },
@@ -2578,13 +2711,16 @@
    ],
    "seat_colors_source": {
     "team": "Chicago Cubs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [
     "ivy_wall",
     "marquee"
    ],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/relation/17379974",
    "rules": "auto"
   },
@@ -2600,7 +2736,8 @@
    ],
    "seat_colors_source": {
     "team": "Kansas Jayhawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2620,10 +2757,13 @@
    ],
    "seat_colors_source": {
     "team": "Washington Nationals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 30,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/67260403",
    "footprint_osm": "https://www.openstreetmap.org/way/67260011",
    "rules": "auto"
   },
@@ -2640,10 +2780,13 @@
    ],
    "seat_colors_source": {
     "team": "San Francisco Giants",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 85,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/500283910",
    "footprint_osm": "https://www.openstreetmap.org/relation/7325085",
    "rules": "auto"
   },
@@ -2660,10 +2803,13 @@
    ],
    "seat_colors_source": {
     "team": "Houston Astros",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 340,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/44530814",
    "footprint_osm": "https://www.openstreetmap.org/way/129025430",
    "rules": "auto"
   },
@@ -2680,10 +2826,13 @@
    ],
    "seat_colors_source": {
     "team": "Atlanta Braves",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 160,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/559996049",
    "footprint_osm": "https://www.openstreetmap.org/way/483842488",
    "rules": "auto"
   },
@@ -2699,7 +2848,8 @@
    ],
    "seat_colors_source": {
     "team": "Colorado State Rams",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2719,10 +2869,13 @@
    ],
    "seat_colors_source": {
     "team": "Chicago White Sox",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/1285780677",
    "rules": "auto"
   },
@@ -2739,10 +2892,13 @@
    ],
    "seat_colors_source": {
     "team": "Texas Rangers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/704674261",
    "rules": "auto"
   },
@@ -2758,7 +2914,8 @@
    ],
    "seat_colors_source": {
     "team": "Appalachian State Mountaineers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2778,10 +2935,13 @@
    ],
    "seat_colors_source": {
     "team": "Detroit Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/way/1307250153",
    "rules": "auto"
   },
@@ -2813,10 +2973,13 @@
    ],
    "seat_colors_source": {
     "team": "San Diego Padres",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 355,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/429353143",
    "footprint_osm": "https://www.openstreetmap.org/way/24616919",
    "rules": "auto"
   },
@@ -2832,7 +2995,8 @@
    ],
    "seat_colors_source": {
     "team": "Houston Cougars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2851,7 +3015,8 @@
    ],
    "seat_colors_source": {
     "team": "Air Force Falcons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2870,7 +3035,8 @@
    ],
    "seat_colors_source": {
     "team": "New Mexico Lobos",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2907,10 +3073,13 @@
    ],
    "seat_colors_source": {
     "team": "Pittsburgh Pirates",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 120,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/222405385",
    "footprint_osm": "https://www.openstreetmap.org/way/24722803",
    "rules": "auto"
   },
@@ -2927,10 +3096,13 @@
    ],
    "seat_colors_source": {
     "team": "Minnesota Twins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/relation/6133680",
    "rules": "auto"
   },
@@ -2946,7 +3118,8 @@
    ],
    "seat_colors_source": {
     "team": "Cincinnati Bearcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -2966,10 +3139,13 @@
    ],
    "seat_colors_source": {
     "team": "Kansas City Royals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 50,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/128221738",
    "footprint_osm": "https://www.openstreetmap.org/way/1351194912",
    "rules": "auto"
   },
@@ -2985,7 +3161,8 @@
    ],
    "seat_colors_source": {
     "team": "Marshall Thundering Herd",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3005,13 +3182,15 @@
    ],
    "seat_colors_source": {
     "team": "Boston Red Sox",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [
     "green_monster"
    ],
-   "cf_bearing": 45,
+   "cf_bearing": 40,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/813683133",
    "footprint_osm": "https://www.openstreetmap.org/relation/11188464",
    "rules": "auto"
   },
@@ -3045,10 +3224,13 @@
    ],
    "seat_colors_source": {
     "team": "Miami Marlins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/relation/8736190",
    "rules": "auto"
   },
@@ -3064,7 +3246,8 @@
    ],
    "seat_colors_source": {
     "team": "Southern Miss Golden Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3083,7 +3266,8 @@
    ],
    "seat_colors_source": {
     "team": "Army Black Knights",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3102,7 +3286,8 @@
    ],
    "seat_colors_source": {
     "team": "Oregon State Beavers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3121,7 +3306,8 @@
    ],
    "seat_colors_source": {
     "team": "Boise State Broncos",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3140,7 +3326,8 @@
    ],
    "seat_colors_source": {
     "team": "Central Michigan Chippewas",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3159,7 +3346,8 @@
    ],
    "seat_colors_source": {
     "team": "Duke Blue Devils",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3178,7 +3366,8 @@
    ],
    "seat_colors_source": {
     "team": "Vanderbilt Commodores",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3197,7 +3386,8 @@
    ],
    "seat_colors_source": {
     "team": "Northwestern Wildcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3211,12 +3401,13 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#C41230",
-    "#000000"
+    "#02152B",
+    "#697A7C"
    ],
    "seat_colors_source": {
-    "team": "San Diego State Aztecs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "team": "San Diego FC",
+    "source": "https://en.wikipedia.org/w/index.php?title=San_Diego_FC&oldid=1379917261",
+    "method": "club article table styling",
     "brand_guide": null
    },
    "features": [],
@@ -3235,7 +3426,8 @@
    ],
    "seat_colors_source": {
     "team": "Navy Midshipmen",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3255,10 +3447,13 @@
    ],
    "seat_colors_source": {
     "team": "Cleveland Guardians",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 0,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/245219318",
    "footprint_osm": "https://www.openstreetmap.org/way/25312466",
    "rules": "auto"
   },
@@ -3274,7 +3469,8 @@
    ],
    "seat_colors_source": {
     "team": "SMU Mustangs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3293,7 +3489,8 @@
    ],
    "seat_colors_source": {
     "team": "Wake Forest Demon Deacons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3312,7 +3509,8 @@
    ],
    "seat_colors_source": {
     "team": "Troy Trojans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3332,7 +3530,8 @@
    ],
    "seat_colors_source": {
     "team": "Arkansas State Red Wolves",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3366,7 +3565,8 @@
    ],
    "seat_colors_source": {
     "team": "Western Michigan Broncos",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3380,10 +3580,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#ECE83A",
+    "#15284B"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Nashville SC",
+    "source": "https://en.wikipedia.org/w/index.php?title=Nashville_SC&oldid=1383882683",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/1056868015",
    "rules": "auto"
@@ -3400,7 +3605,8 @@
    ],
    "seat_colors_source": {
     "team": "North Texas Mean Green",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3419,7 +3625,8 @@
    ],
    "seat_colors_source": {
     "team": "Florida Atlantic Owls",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3438,7 +3645,8 @@
    ],
    "seat_colors_source": {
     "team": "Akron Zips",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3474,7 +3682,8 @@
    ],
    "seat_colors_source": {
     "team": "Nevada Wolf Pack",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3510,7 +3719,8 @@
    ],
    "seat_colors_source": {
     "team": "Tulsa Golden Hurricane",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3529,7 +3739,8 @@
    ],
    "seat_colors_source": {
     "team": "Fresno State Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3548,7 +3759,8 @@
    ],
    "seat_colors_source": {
     "team": "Norfolk State Spartans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3567,7 +3779,8 @@
    ],
    "seat_colors_source": {
     "team": "Tulane Green Wave",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3587,7 +3800,8 @@
    ],
    "seat_colors_source": {
     "team": "Wyoming Cowboys",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3606,7 +3820,8 @@
    ],
    "seat_colors_source": {
     "team": "New Mexico State Aggies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3625,7 +3840,8 @@
    ],
    "seat_colors_source": {
     "team": "Louisiana Tech Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3644,7 +3860,8 @@
    ],
    "seat_colors_source": {
     "team": "Texas State Bobcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3663,7 +3880,8 @@
    ],
    "seat_colors_source": {
     "team": "Northern Illinois Huskies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3682,7 +3900,8 @@
    ],
    "seat_colors_source": {
     "team": "Princeton Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3701,7 +3920,8 @@
    ],
    "seat_colors_source": {
     "team": "Louisiana–Monroe Warhawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3715,10 +3935,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#0066CC",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Middle Tennessee Blue Raiders",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/614515069",
    "rules": "auto"
@@ -3730,10 +3955,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#F7B5CD",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Inter Miami CF",
+    "source": "https://en.wikipedia.org/w/index.php?title=Inter_Miami_CF&oldid=1383882003",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/1300303135",
    "rules": "auto"
@@ -3750,7 +3980,8 @@
    ],
    "seat_colors_source": {
     "team": "Alabama State Hornets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3769,7 +4000,8 @@
    ],
    "seat_colors_source": {
     "team": "Eastern Michigan Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3788,7 +4020,8 @@
    ],
    "seat_colors_source": {
     "team": "Toledo Rockets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3802,10 +4035,14 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#FFCE00"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "LA Galaxy",
+    "source": "https://en.wikipedia.org/w/index.php?title=LA_Galaxy&oldid=1380511370",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/24370850",
    "rules": "auto"
@@ -3817,10 +4054,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#003087",
+    "#FE5000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "FC Cincinnati",
+    "source": "https://en.wikipedia.org/w/index.php?title=FC_Cincinnati&oldid=1383128239",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/1445692208",
    "rules": "auto"
@@ -3837,7 +4079,8 @@
    ],
    "seat_colors_source": {
     "team": "Utah State Aggies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3857,7 +4100,8 @@
    ],
    "seat_colors_source": {
     "team": "Southern Jaguars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3876,7 +4120,8 @@
    ],
    "seat_colors_source": {
     "team": "Florida A&M Rattlers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3895,7 +4140,8 @@
    ],
    "seat_colors_source": {
     "team": "South Alabama Jaguars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3914,7 +4160,8 @@
    ],
    "seat_colors_source": {
     "team": "Kent State Golden Flashes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3933,7 +4180,8 @@
    ],
    "seat_colors_source": {
     "team": "Montana Grizzlies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3953,10 +4201,13 @@
    ],
    "seat_colors_source": {
     "team": "Tampa Bay Rays",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbaseball&oldid=1381704129",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
+   "cf_bearing": 135,
+   "cf_bearing_source": "https://www.openstreetmap.org/way/159734220",
    "footprint_osm": "https://www.openstreetmap.org/way/712876268",
    "rules": "auto"
   },
@@ -3972,7 +4223,8 @@
    ],
    "seat_colors_source": {
     "team": "Buffalo Bulls",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -3991,7 +4243,8 @@
    ],
    "seat_colors_source": {
     "team": "Georgia Southern Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4010,7 +4263,8 @@
    ],
    "seat_colors_source": {
     "team": "Harvard Crimson",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4024,10 +4278,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#60269E",
+    "#F0D283"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Orlando City SC",
+    "source": "https://en.wikipedia.org/w/index.php?title=Orlando_City_SC&oldid=1380782122",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/relation/9219427",
    "rules": "auto"
@@ -4056,10 +4315,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#B91F31",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "New York Red Bulls",
+    "source": "https://en.wikipedia.org/w/index.php?title=New_York_Red_Bulls&oldid=1384008732",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/75692796",
    "rules": "auto"
@@ -4076,7 +4340,8 @@
    ],
    "seat_colors_source": {
     "team": "Liberty Flames",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4095,7 +4360,8 @@
    ],
    "seat_colors_source": {
     "team": "James Madison Dukes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4109,10 +4375,15 @@
    "roof": "open",
    "surface": "turf",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#004812",
+    "#CB9700"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Portland Timbers",
+    "source": "https://en.wikipedia.org/w/index.php?title=Portland_Timbers&oldid=1382286681",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/99615044",
    "rules": "auto"
@@ -4130,6 +4401,8 @@
    ],
    "seat_colors_source": null,
    "features": [],
+   "cf_bearing": 67.5,
+   "cf_bearing_source": "default: ENE per Official Baseball Rules",
    "footprint_osm": "https://www.openstreetmap.org/relation/7120081",
    "rules": "auto"
   },
@@ -4145,7 +4418,8 @@
    ],
    "seat_colors_source": {
     "team": "Georgia State Panthers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4164,7 +4438,8 @@
    ],
    "seat_colors_source": {
     "team": "Miami RedHawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4183,7 +4458,8 @@
    ],
    "seat_colors_source": {
     "team": "Bowling Green Falcons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4198,10 +4474,15 @@
    "surface": "grass",
    "surface_inferred": true,
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#4F2D7F",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Tarleton State Texans",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": null,
    "rules": "auto"
@@ -4218,7 +4499,8 @@
    ],
    "seat_colors_source": {
     "team": "Ohio Bobcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4254,7 +4536,8 @@
    ],
    "seat_colors_source": {
     "team": "Holy Cross Crusaders",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4273,7 +4556,8 @@
    ],
    "seat_colors_source": {
     "team": "Jacksonville State Gamecocks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4292,7 +4576,8 @@
    ],
    "seat_colors_source": {
     "team": "Alcorn State Braves",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4311,7 +4596,8 @@
    ],
    "seat_colors_source": {
     "team": "Ball State Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4325,10 +4611,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#EC1458",
+    "#001544"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "St. Louis City SC",
+    "source": "https://en.wikipedia.org/w/index.php?title=St._Louis_City_SC&oldid=1383407610",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/1268400174",
    "rules": "auto"
@@ -4345,7 +4636,8 @@
    ],
    "seat_colors_source": {
     "team": "Western Kentucky Hilltoppers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4364,7 +4656,8 @@
    ],
    "seat_colors_source": {
     "team": "Louisville Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4378,12 +4671,13 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#6F263D",
-    "#A2AAAD"
+    "#FF6B00",
+    "#101820"
    ],
    "seat_colors_source": {
-    "team": "Texas Southern Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "team": "Houston Dynamo FC",
+    "source": "https://en.wikipedia.org/w/index.php?title=Houston_Dynamo_FC&oldid=1382904801",
+    "method": "club article table styling",
     "brand_guide": null
    },
    "features": [],
@@ -4417,7 +4711,8 @@
    ],
    "seat_colors_source": {
     "team": "South Carolina State Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4436,7 +4731,8 @@
    ],
    "seat_colors_source": {
     "team": "Old Dominion Monarchs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4455,7 +4751,8 @@
    ],
    "seat_colors_source": {
     "team": "North Carolina Tar Heels",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4474,7 +4771,8 @@
    ],
    "seat_colors_source": {
     "team": "Tennessee Volunteers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4493,7 +4791,8 @@
    ],
    "seat_colors_source": {
     "team": "Cornell Big Red",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4512,7 +4811,8 @@
    ],
    "seat_colors_source": {
     "team": "North Carolina A&T Aggies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4531,7 +4831,8 @@
    ],
    "seat_colors_source": {
     "team": "Sacramento State Hornets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4550,7 +4851,8 @@
    ],
    "seat_colors_source": {
     "team": "Coastal Carolina Chanticleers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4569,7 +4871,8 @@
    ],
    "seat_colors_source": {
     "team": "Alabama A&M Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4588,7 +4891,8 @@
    ],
    "seat_colors_source": {
     "team": "Philadelphia 76ers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4607,7 +4911,8 @@
    ],
    "seat_colors_source": {
     "team": "Chicago Bulls",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4626,7 +4931,8 @@
    ],
    "seat_colors_source": {
     "team": "Montana State Bobcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4660,7 +4966,8 @@
    ],
    "seat_colors_source": {
     "team": "Youngstown State Penguins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4679,7 +4986,8 @@
    ],
    "seat_colors_source": {
     "team": "Kentucky Wildcats",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4698,7 +5006,8 @@
    ],
    "seat_colors_source": {
     "team": "Chattanooga Mocs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4732,7 +5041,8 @@
    ],
    "seat_colors_source": {
     "team": "Washington Wizards",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4751,7 +5061,8 @@
    ],
    "seat_colors_source": {
     "team": "Detroit Pistons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4765,10 +5076,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#A32035",
+    "#DAA900"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Real Salt Lake",
+    "source": "https://en.wikipedia.org/w/index.php?title=Real_Salt_Lake&oldid=1381310628",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/109429239",
    "rules": "auto"
@@ -4785,7 +5101,8 @@
    ],
    "seat_colors_source": {
     "team": "New York Knicks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [
@@ -4821,7 +5138,8 @@
    ],
    "seat_colors_source": {
     "team": "FIU Panthers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4840,7 +5158,8 @@
    ],
    "seat_colors_source": {
     "team": "Brown Bears",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4859,7 +5178,8 @@
    ],
    "seat_colors_source": {
     "team": "Eastern Kentucky Colonels",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4879,7 +5199,8 @@
    ],
    "seat_colors_source": {
     "team": "Chicago State Cougars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4915,7 +5236,8 @@
    ],
    "seat_colors_source": {
     "team": "Grambling State Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4934,7 +5256,8 @@
    ],
    "seat_colors_source": {
     "team": "Miami Heat",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4953,7 +5276,8 @@
    ],
    "seat_colors_source": {
     "team": "Denver Nuggets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4972,7 +5296,8 @@
    ],
    "seat_colors_source": {
     "team": "Ohio State Buckeyes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -4991,7 +5316,8 @@
    ],
    "seat_colors_source": {
     "team": "Charlotte Hornets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5010,7 +5336,8 @@
    ],
    "seat_colors_source": {
     "team": "Cleveland Cavaliers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5024,10 +5351,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#000000",
+    "#8AC8EC"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Minnesota United FC",
+    "source": "https://en.wikipedia.org/w/index.php?title=Minnesota_United_FC&oldid=1382104398",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/588533245",
    "rules": "auto"
@@ -5044,7 +5376,8 @@
    ],
    "seat_colors_source": {
     "team": "Portland Trail Blazers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5063,7 +5396,8 @@
    ],
    "seat_colors_source": {
     "team": "Arkansas Razorbacks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5082,7 +5416,8 @@
    ],
    "seat_colors_source": {
     "team": "Carolina Hurricanes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5101,7 +5436,8 @@
    ],
    "seat_colors_source": {
     "team": "South Dakota State Jackrabbits",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5120,7 +5456,8 @@
    ],
    "seat_colors_source": {
     "team": "Florida Panthers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5139,7 +5476,8 @@
    ],
    "seat_colors_source": {
     "team": "Dallas Mavericks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5158,7 +5496,8 @@
    ],
    "seat_colors_source": {
     "team": "San Jose Sharks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5177,7 +5516,8 @@
    ],
    "seat_colors_source": {
     "team": "Boston Celtics",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5196,7 +5536,8 @@
    ],
    "seat_colors_source": {
     "team": "Tampa Bay Lightning",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5215,7 +5556,8 @@
    ],
    "seat_colors_source": {
     "team": "Los Angeles Lakers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5234,7 +5576,8 @@
    ],
    "seat_colors_source": {
     "team": "Buffalo Sabres",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5253,7 +5596,8 @@
    ],
    "seat_colors_source": {
     "team": "Orlando Magic",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5272,7 +5616,8 @@
    ],
    "seat_colors_source": {
     "team": "Minnesota Timberwolves",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5291,7 +5636,8 @@
    ],
    "seat_colors_source": {
     "team": "New Jersey Devils",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5310,7 +5656,8 @@
    ],
    "seat_colors_source": {
     "team": "North Dakota State Bison",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5344,7 +5691,8 @@
    ],
    "seat_colors_source": {
     "team": "Columbus Blue Jackets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5358,10 +5706,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#051C2C",
+    "#E0D0A6"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Philadelphia Union",
+    "source": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Union&oldid=1379329425",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/158031721",
    "rules": "auto"
@@ -5373,10 +5726,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#93B1D7",
+    "#002A5C"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Sporting Kansas City",
+    "source": "https://en.wikipedia.org/w/index.php?title=Sporting_Kansas_City&oldid=1381134907",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/195234182",
    "rules": "auto"
@@ -5393,7 +5751,8 @@
    ],
    "seat_colors_source": {
     "team": "San Antonio Spurs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5412,7 +5771,8 @@
    ],
    "seat_colors_source": {
     "team": "Creighton Bluejays",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5431,7 +5791,8 @@
    ],
    "seat_colors_source": {
     "team": "Los Angeles Clippers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5450,7 +5811,8 @@
    ],
    "seat_colors_source": {
     "team": "San Jose State Spartans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5469,7 +5831,8 @@
    ],
    "seat_colors_source": {
     "team": "Oklahoma City Thunder",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5488,7 +5851,8 @@
    ],
    "seat_colors_source": {
     "team": "Pittsburgh Penguins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5507,7 +5871,8 @@
    ],
    "seat_colors_source": {
     "team": "Utah Jazz",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5526,7 +5891,8 @@
    ],
    "seat_colors_source": {
     "team": "Houston Rockets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5545,7 +5911,8 @@
    ],
    "seat_colors_source": {
     "team": "St. Louis Blues",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5564,7 +5931,8 @@
    ],
    "seat_colors_source": {
     "team": "Golden State Warriors",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5578,10 +5946,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#8A2432",
+    "#8AB7E9"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Colorado Rapids",
+    "source": "https://en.wikipedia.org/w/index.php?title=Colorado_Rapids&oldid=1383810085",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/626539832",
    "rules": "auto"
@@ -5598,7 +5971,8 @@
    ],
    "seat_colors_source": {
     "team": "South Carolina Gamecocks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5612,10 +5986,15 @@
    "roof": "open",
    "surface": "grass",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#003DA5",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "San Jose Earthquakes",
+    "source": "https://en.wikipedia.org/w/index.php?title=San_Jose_Earthquakes&oldid=1383610762",
+    "method": "club article table styling",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/329840159",
    "rules": "auto"
@@ -5632,7 +6011,8 @@
    ],
    "seat_colors_source": {
     "team": "BYU Cougars",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5651,7 +6031,8 @@
    ],
    "seat_colors_source": {
     "team": "Minnesota Wild",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5665,10 +6046,15 @@
    "roof": "dome",
    "surface": "court",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#CF0A2C",
+    "#CAC8C8"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "UNLV Runnin' Rebels",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/27146787",
    "rules": "auto"
@@ -5700,7 +6086,8 @@
    ],
    "seat_colors_source": {
     "team": "McNeese Cowboys",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5719,7 +6106,8 @@
    ],
    "seat_colors_source": {
     "team": "Sacramento Kings",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5738,7 +6126,8 @@
    ],
    "seat_colors_source": {
     "team": "Brooklyn Nets",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5757,7 +6146,8 @@
    ],
    "seat_colors_source": {
     "team": "Lamar Cardinals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5776,7 +6166,8 @@
    ],
    "seat_colors_source": {
     "team": "Missouri State Bears",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5795,7 +6186,8 @@
    ],
    "seat_colors_source": {
     "team": "Vegas Golden Knights",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5814,7 +6206,8 @@
    ],
    "seat_colors_source": {
     "team": "Milwaukee Bucks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5833,7 +6226,8 @@
    ],
    "seat_colors_source": {
     "team": "Maryland Terrapins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5852,7 +6246,8 @@
    ],
    "seat_colors_source": {
     "team": "Wisconsin Badgers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5871,7 +6266,8 @@
    ],
    "seat_colors_source": {
     "team": "Indiana Pacers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5890,7 +6286,8 @@
    ],
    "seat_colors_source": {
     "team": "New York Islanders",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5909,7 +6306,8 @@
    ],
    "seat_colors_source": {
     "team": "Indiana Hoosiers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5928,7 +6326,8 @@
    ],
    "seat_colors_source": {
     "team": "Northern Iowa Panthers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5947,7 +6346,8 @@
    ],
    "seat_colors_source": {
     "team": "Anaheim Ducks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5966,7 +6366,8 @@
    ],
    "seat_colors_source": {
     "team": "Nashville Predators",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -5985,7 +6386,8 @@
    ],
    "seat_colors_source": {
     "team": "Seattle Kraken",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fice_hockey&oldid=1358252268",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6004,7 +6406,8 @@
    ],
    "seat_colors_source": {
     "team": "Phoenix Suns",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6041,7 +6444,8 @@
    ],
    "seat_colors_source": {
     "team": "Columbia Lions",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6060,7 +6464,8 @@
    ],
    "seat_colors_source": {
     "team": "UMass Minutemen",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6079,7 +6484,8 @@
    ],
    "seat_colors_source": {
     "team": "Atlanta Hawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6098,7 +6504,8 @@
    ],
    "seat_colors_source": {
     "team": "New Orleans Pelicans",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6117,7 +6524,8 @@
    ],
    "seat_colors_source": {
     "team": "Murray State Racers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6136,7 +6544,8 @@
    ],
    "seat_colors_source": {
     "team": "Memphis Grizzlies",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ASports_color%2Fbasketball&oldid=1384025042",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6155,7 +6564,8 @@
    ],
    "seat_colors_source": {
     "team": "Tennessee Tech Golden Eagles",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6174,7 +6584,8 @@
    ],
    "seat_colors_source": {
     "team": "Western Illinois Leathernecks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6208,7 +6619,8 @@
    ],
    "seat_colors_source": {
     "team": "Lehigh Mountain Hawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6227,7 +6639,8 @@
    ],
    "seat_colors_source": {
     "team": "Furman Paladins",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6262,7 +6675,8 @@
    ],
    "seat_colors_source": {
     "team": "Northwestern State Demons",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6281,7 +6695,8 @@
    ],
    "seat_colors_source": {
     "team": "Fresno State Bulldogs",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6300,7 +6715,8 @@
    ],
    "seat_colors_source": {
     "team": "Illinois Fighting Illini",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6319,7 +6735,8 @@
    ],
    "seat_colors_source": {
     "team": "Nebraska Cornhuskers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6338,7 +6755,8 @@
    ],
    "seat_colors_source": {
     "team": "New Mexico Lobos",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6357,7 +6775,8 @@
    ],
    "seat_colors_source": {
     "team": "Alabama Crimson Tide",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6376,7 +6795,8 @@
    ],
    "seat_colors_source": {
     "team": "Charlotte 49ers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6395,7 +6815,8 @@
    ],
    "seat_colors_source": {
     "team": "Kansas Jayhawks",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6414,7 +6835,8 @@
    ],
    "seat_colors_source": {
     "team": "Penn State Nittany Lions",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6433,7 +6855,8 @@
    ],
    "seat_colors_source": {
     "team": "Idaho Vandals",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6452,7 +6875,8 @@
    ],
    "seat_colors_source": {
     "team": "Siena Saints",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6467,10 +6891,15 @@
    "surface": "grass",
    "surface_inferred": true,
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#005838",
+    "#231F20"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Hawaii Warriors",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/226760708",
    "rules": "auto"
@@ -6482,10 +6911,15 @@
    "roof": "dome",
    "surface": "court",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#C30020",
+    "#000000"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Texas Tech Red Raiders and Lady Raiders",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": "https://www.openstreetmap.org/way/78290254",
    "rules": "auto"
@@ -6502,7 +6936,8 @@
    ],
    "seat_colors_source": {
     "team": "Missouri Tigers",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6521,7 +6956,8 @@
    ],
    "seat_colors_source": {
     "team": "Iowa State Cyclones",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6540,7 +6976,8 @@
    ],
    "seat_colors_source": {
     "team": "Utah Utes",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],
@@ -6554,10 +6991,15 @@
    "roof": "open",
    "surface": "turf",
    "seat_colors": [
-    "#8C939C",
-    "#5B6470"
+    "#4F2582",
+    "#FEC325"
    ],
-   "seat_colors_source": null,
+   "seat_colors_source": {
+    "team": "Prairie View A&M Panthers",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
+    "brand_guide": null
+   },
    "features": [],
    "footprint_osm": null,
    "rules": "auto"
@@ -6574,7 +7016,8 @@
    ],
    "seat_colors_source": {
     "team": "Southern Illinois Salukis",
-    "module": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "source": "https://en.wikipedia.org/w/index.php?title=Module%3ACollege_color%2Fdata&oldid=1383914816",
+    "method": "Wikipedia color module",
     "brand_guide": null
    },
    "features": [],

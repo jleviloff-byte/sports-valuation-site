@@ -107,4 +107,10 @@ if (args.includes('--pilot') || args.includes('--sheet')) {
     .composite(tiles).png().toFile('scripts/stadiums/art/out/pilot-contact-sheet.png')
   console.log('contact sheet: scripts/stadiums/art/out/pilot-contact-sheet.png')
 }
-fs.writeFileSync('research/raw/stadiums/render-report.json', JSON.stringify(results, null, 1))
+// Merge by slug so partial renders don't drop earlier entries.
+const REPORT = 'research/raw/stadiums/render-report.json'
+const prior = fs.existsSync(REPORT) ? JSON.parse(fs.readFileSync(REPORT, 'utf8')) : []
+const merged = new Map(prior.map((r) => [r.slug, r]))
+for (const r of results) merged.set(r.slug, r)
+const live = new Set(data.venues.map((v) => v.slug))
+fs.writeFileSync(REPORT, JSON.stringify([...merged.values()].filter((r) => live.has(r.slug)), null, 1))

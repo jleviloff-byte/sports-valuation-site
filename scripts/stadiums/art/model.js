@@ -160,12 +160,12 @@ function bowl(g, spec, opts = {}) {
 }
 
 function ballpark(g, spec) {
-  const cf = bearingVec(spec.cf_bearing ?? 45)
+  const cf = bearingVec(spec.cf_bearing ?? 67.5)
   const W = Math.max(4, Math.round(g.maxD * 0.33))
   const ext = Math.max(g.uMax, g.vMax)
   // Home plate sits on the opposite side of center from center field.
   const home = [-cf[0] * ext * 0.42, -cf[1] * ext * 0.42]
-  const lf = bearingVec((spec.cf_bearing ?? 45) - 45)
+  const lf = bearingVec((spec.cf_bearing ?? 67.5) - 45)
   for (const c of g.cells) {
     if (!c.inside) { if (c.d > -1.2) g.set(c, 1, C.concrete2); continue }
     const rel = [c.x - home[0], c.z - home[1]]
@@ -189,7 +189,7 @@ function ballpark(g, spec) {
       else g.set(c, 1, Math.floor((along + 100) / 3) % 2 ? C.grass : C.grass2)
       // Bases.
       for (const a of [-45, 45]) {
-        const b = bearingVec((spec.cf_bearing ?? 45) + a)
+        const b = bearingVec((spec.cf_bearing ?? 67.5) + a)
         const bp = [home[0] + b[0] * ext * 0.22, home[1] + b[1] * ext * 0.22]
         if (Math.hypot(c.x - bp[0], c.z - bp[1]) < 0.8) g.set(c, 2, C.line)
       }

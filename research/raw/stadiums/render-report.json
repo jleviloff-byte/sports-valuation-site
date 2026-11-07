@@ -1,72 +1,8 @@
 [
  {
-  "slug": "indianapolis-motor-speedway",
-  "name": "Indianapolis Motor Speedway",
-  "capacity": 257325,
-  "cells": 1465,
-  "studs": 1465,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 79834,
-   "s256": 15566,
-   "s128": 5492,
-   "glb": 269564
-  },
-  "ms": 681
- },
- {
-  "slug": "bristol-motor-speedway",
-  "name": "Bristol Motor Speedway",
-  "capacity": 146000,
-  "cells": 2074,
-  "studs": 2074,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110666,
-   "s256": 22272,
-   "s128": 7248,
-   "glb": 447588
-  },
-  "ms": 519
- },
- {
-  "slug": "daytona-international-speedway",
-  "name": "Daytona International Speedway",
-  "capacity": 123500,
-  "cells": 1777,
-  "studs": 1777,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 81140,
-   "s256": 14714,
-   "s128": 4978,
-   "glb": 386200
-  },
-  "ms": 474
- },
- {
-  "slug": "circuit-of-the-americas",
-  "name": "Circuit of the Americas",
-  "capacity": 120000,
-  "cells": 1572,
-  "studs": 1572,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 102846,
-   "s256": 20882,
-   "s128": 7540,
-   "glb": 381552
-  },
-  "ms": 725
- },
- {
   "slug": "michigan-stadium",
   "name": "Michigan Stadium",
-  "capacity": 107600,
+  "capacity": 107601,
   "cells": 2739,
   "studs": 2739,
   "usedHull": false,
@@ -75,2953 +11,9 @@
    "hero": 122890,
    "s256": 18882,
    "s128": 6642,
-   "glb": 605780
+   "glb": 128492
   },
-  "ms": 1076
- },
- {
-  "slug": "beaver-stadium",
-  "name": "Beaver Stadium",
-  "capacity": 106304,
-  "cells": 2101,
-  "studs": 2101,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 131806,
-   "s256": 24438,
-   "s128": 8332,
-   "glb": 648124
-  },
-  "ms": 1281
- },
- {
-  "slug": "ohio-stadium",
-  "name": "Ohio Stadium",
-  "capacity": 102780,
-  "cells": 2117,
-  "studs": 2117,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105172,
-   "s256": 18200,
-   "s128": 6426,
-   "glb": 607872
-  },
-  "ms": 1187
- },
- {
-  "slug": "kyle-field",
-  "name": "Kyle Field",
-  "capacity": 102733,
-  "cells": 1928,
-  "studs": 1928,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 127290,
-   "s256": 24150,
-   "s128": 8296,
-   "glb": 624952
-  },
-  "ms": 1195
- },
- {
-  "slug": "tiger-stadium",
-  "name": "Tiger Stadium",
-  "capacity": 102321,
-  "cells": 2265,
-  "studs": 2265,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 134140,
-   "s256": 23636,
-   "s128": 8042,
-   "glb": 656152
-  },
-  "ms": 1180
- },
- {
-  "slug": "neyland-stadium",
-  "name": "Neyland Stadium",
-  "capacity": 101915,
-  "cells": 2187,
-  "studs": 2187,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 142988,
-   "s256": 24682,
-   "s128": 8270,
-   "glb": 660828
-  },
-  "ms": 1186
- },
- {
-  "slug": "darrell-k-royal-texas-memorial-stadium",
-  "name": "Darrell K Royal–Texas Memorial Stadium",
-  "capacity": 100119,
-  "cells": 2846,
-  "studs": 2846,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 116724,
-   "s256": 18302,
-   "s128": 6468,
-   "glb": 787532
-  },
-  "ms": 1345
- },
- {
-  "slug": "bryant-denny-stadium",
-  "name": "Bryant–Denny Stadium",
-  "capacity": 100077,
-  "cells": 2279,
-  "studs": 2279,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 107912,
-   "s256": 18002,
-   "s128": 6326,
-   "glb": 610396
-  },
-  "ms": 1184
- },
- {
-  "slug": "charlotte-motor-speedway",
-  "name": "Charlotte Motor Speedway",
-  "capacity": 95000,
-  "cells": 1989,
-  "studs": 1989,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89878,
-   "s256": 16114,
-   "s128": 5524,
-   "glb": 436372
-  },
-  "ms": 1041
- },
- {
-  "slug": "sanford-stadium",
-  "name": "Sanford Stadium",
-  "capacity": 93033,
-  "cells": 2316,
-  "studs": 2316,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108346,
-   "s256": 19360,
-   "s128": 6870,
-   "glb": 700032
-  },
-  "ms": 1238
- },
- {
-  "slug": "cotton-bowl",
-  "name": "Cotton Bowl",
-  "capacity": 92100,
-  "cells": 2497,
-  "studs": 2497,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 131416,
-   "s256": 23786,
-   "s128": 8052,
-   "glb": 728608
-  },
-  "ms": 1249
- },
- {
-  "slug": "barber-motorsports-park",
-  "name": "Barber Motorsports Park",
-  "capacity": 90000,
-  "cells": 1292,
-  "studs": 1292,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 91196,
-   "s256": 18474,
-   "s128": 6924,
-   "glb": 323508
-  },
-  "ms": 1021
- },
- {
-  "slug": "ben-hill-griffin-stadium",
-  "name": "Ben Hill Griffin Stadium",
-  "capacity": 88548,
-  "cells": 2150,
-  "studs": 2150,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105706,
-   "s256": 17884,
-   "s128": 6478,
-   "glb": 625068
-  },
-  "ms": 1177
- },
- {
-  "slug": "jordan-hare-stadium",
-  "name": "Jordan–Hare Stadium",
-  "capacity": 88043,
-  "cells": 2261,
-  "studs": 2261,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 116636,
-   "s256": 20680,
-   "s128": 7174,
-   "glb": 731016
-  },
-  "ms": 1207
- },
- {
-  "slug": "memorial-stadium-ne",
-  "name": "Memorial Stadium",
-  "capacity": 85458,
-  "cells": 2252,
-  "studs": 2252,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 125734,
-   "s256": 21458,
-   "s128": 7388,
-   "glb": 624976
-  },
-  "ms": 1196
- },
- {
-  "slug": "metlife-stadium",
-  "name": "MetLife Stadium",
-  "capacity": 82500,
-  "cells": 2393,
-  "studs": 2393,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110248,
-   "s256": 19578,
-   "s128": 6838,
-   "glb": 669620
-  },
-  "ms": 1171
- },
- {
-  "slug": "memorial-stadium-sc",
-  "name": "Memorial Stadium",
-  "capacity": 81500,
-  "cells": 2410,
-  "studs": 2410,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108530,
-   "s256": 18052,
-   "s128": 6438,
-   "glb": 694864
-  },
-  "ms": 1126
- },
- {
-  "slug": "lambeau-field",
-  "name": "Lambeau Field",
-  "capacity": 81441,
-  "cells": 1970,
-  "studs": 1970,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 132404,
-   "s256": 23964,
-   "s128": 8208,
-   "glb": 524048
-  },
-  "ms": 1004
- },
- {
-  "slug": "rose-bowl",
-  "name": "Rose Bowl",
-  "capacity": 81258,
-  "cells": 2246,
-  "studs": 2246,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 127860,
-   "s256": 21522,
-   "s128": 7330,
-   "glb": 670492
-  },
-  "ms": 1026
- },
- {
-  "slug": "gaylord-family-oklahoma-memorial-stadium",
-  "name": "Gaylord Family Oklahoma Memorial Stadium",
-  "capacity": 80126,
-  "cells": 2307,
-  "studs": 2307,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108844,
-   "s256": 18562,
-   "s128": 6652,
-   "glb": 588232
-  },
-  "ms": 1015
- },
- {
-  "slug": "atandt-stadium",
-  "name": "AT&T Stadium",
-  "capacity": 80000,
-  "cells": 1934,
-  "studs": 1934,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 78906,
-   "s256": 14212,
-   "s128": 5132,
-   "glb": 555508
-  },
-  "ms": 982
- },
- {
-  "slug": "las-vegas-motor-speedway",
-  "name": "Las Vegas Motor Speedway",
-  "capacity": 80000,
-  "cells": 2126,
-  "studs": 2126,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97078,
-   "s256": 18630,
-   "s128": 6164,
-   "glb": 456128
-  },
-  "ms": 940
- },
- {
-  "slug": "talladega-superspeedway",
-  "name": "Talladega Superspeedway",
-  "capacity": 80000,
-  "cells": 1499,
-  "studs": 1499,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 83730,
-   "s256": 16416,
-   "s128": 5792,
-   "glb": 298312
-  },
-  "ms": 827
- },
- {
-  "slug": "notre-dame-stadium",
-  "name": "Notre Dame Stadium",
-  "capacity": 77622,
-  "cells": 2183,
-  "studs": 2183,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101430,
-   "s256": 17502,
-   "s128": 6138,
-   "glb": 537708
-  },
-  "ms": 988
- },
- {
-  "slug": "williams-brice-stadium",
-  "name": "Williams–Brice Stadium",
-  "capacity": 77559,
-  "cells": 1362,
-  "studs": 1362,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101240,
-   "s256": 21384,
-   "s128": 7718,
-   "glb": 413416
-  },
-  "ms": 847
- },
- {
-  "slug": "los-angeles-memorial-coliseum",
-  "name": "Los Angeles Memorial Coliseum",
-  "capacity": 77500,
-  "cells": 2054,
-  "studs": 2054,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 100872,
-   "s256": 16896,
-   "s128": 6188,
-   "glb": 491920
-  },
-  "ms": 982
- },
- {
-  "slug": "pocono-raceway",
-  "name": "Pocono Raceway",
-  "capacity": 76812,
-  "cells": 1809,
-  "studs": 1809,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105884,
-   "s256": 21308,
-   "s128": 7242,
-   "glb": 391008
-  },
-  "ms": 892
- },
- {
-  "slug": "arrowhead-stadium",
-  "name": "Arrowhead Stadium",
-  "capacity": 76416,
-  "cells": 2544,
-  "studs": 2544,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 134910,
-   "s256": 22094,
-   "s128": 7544,
-   "glb": 758172
-  },
-  "ms": 1151
- },
- {
-  "slug": "razorback-stadium",
-  "name": "Razorback Stadium",
-  "capacity": 76212,
-  "cells": 2938,
-  "studs": 2938,
-  "usedHull": true,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 109592,
-   "s256": 16928,
-   "s128": 6044,
-   "glb": 732632
-  },
-  "ms": 1182
- },
- {
-  "slug": "empower-field-at-mile-high",
-  "name": "Empower Field at Mile High",
-  "capacity": 76125,
-  "cells": 2632,
-  "studs": 2632,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 115720,
-   "s256": 19308,
-   "s128": 6790,
-   "glb": 723836
-  },
-  "ms": 1164
- },
- {
-  "slug": "camp-randall-stadium",
-  "name": "Camp Randall Stadium",
-  "capacity": 76030,
-  "cells": 2214,
-  "studs": 2214,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 103176,
-   "s256": 18226,
-   "s128": 6438,
-   "glb": 600704
-  },
-  "ms": 1044
- },
- {
-  "slug": "bank-of-america-stadium",
-  "name": "Bank of America Stadium",
-  "capacity": 75525,
-  "cells": 2426,
-  "studs": 2426,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 127334,
-   "s256": 23420,
-   "s128": 7844,
-   "glb": 728960
-  },
-  "ms": 1165
- },
- {
-  "slug": "mid-ohio-sports-car-course",
-  "name": "Mid-Ohio Sports Car Course",
-  "capacity": 75000,
-  "cells": 2190,
-  "studs": 2190,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 88170,
-   "s256": 15626,
-   "s128": 5574,
-   "glb": 452592
-  },
-  "ms": 1021
- },
- {
-  "slug": "texas-motor-speedway",
-  "name": "Texas Motor Speedway",
-  "capacity": 75000,
-  "cells": 1650,
-  "studs": 1650,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 88478,
-   "s256": 17250,
-   "s128": 5908,
-   "glb": 327100
-  },
-  "ms": 917
- },
- {
-  "slug": "spartan-stadium",
-  "name": "Spartan Stadium",
-  "capacity": 74866,
-  "cells": 2113,
-  "studs": 2113,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99086,
-   "s256": 17112,
-   "s128": 6216,
-   "glb": 601268
-  },
-  "ms": 1174
- },
- {
-  "slug": "caesars-superdome",
-  "name": "Caesars Superdome",
-  "capacity": 73208,
-  "cells": 2550,
-  "studs": 2550,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105664,
-   "s256": 18438,
-   "s128": 5900,
-   "glb": 569440
-  },
-  "ms": 1111
- },
- {
-  "slug": "reliant-stadium",
-  "name": "Reliant Stadium",
-  "capacity": 72220,
-  "cells": 2186,
-  "studs": 2186,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 91496,
-   "s256": 16372,
-   "s128": 5932,
-   "glb": 548204
-  },
-  "ms": 1090
- },
- {
-  "slug": "husky-stadium",
-  "name": "Husky Stadium",
-  "capacity": 72132,
-  "cells": 2360,
-  "studs": 2360,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106640,
-   "s256": 18432,
-   "s128": 6472,
-   "glb": 678980
-  },
-  "ms": 1164
- },
- {
-  "slug": "legion-field",
-  "name": "Legion Field",
-  "capacity": 71594,
-  "cells": 2747,
-  "studs": 2747,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92978,
-   "s256": 15498,
-   "s128": 5768,
-   "glb": 722812
-  },
-  "ms": 1249
- },
- {
-  "slug": "atlanta-motor-speedway",
-  "name": "Atlanta Motor Speedway",
-  "capacity": 71000,
-  "cells": 1592,
-  "studs": 1592,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 73322,
-   "s256": 14214,
-   "s128": 5166,
-   "glb": 275484
-  },
-  "ms": 945
- },
- {
-  "slug": "mercedes-benz-stadium",
-  "name": "Mercedes-Benz Stadium",
-  "capacity": 71000,
-  "cells": 2271,
-  "studs": 2271,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97896,
-   "s256": 17482,
-   "s128": 6156,
-   "glb": 603872
-  },
-  "ms": 1137
- },
- {
-  "slug": "mandt-bank-stadium",
-  "name": "M&T Bank Stadium",
-  "capacity": 70257,
-  "cells": 2192,
-  "studs": 2192,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 98864,
-   "s256": 17362,
-   "s128": 6270,
-   "glb": 662548
-  },
-  "ms": 1050
- },
- {
-  "slug": "sofi-stadium",
-  "name": "SoFi Stadium",
-  "capacity": 70240,
-  "cells": 2251,
-  "studs": 2251,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 145154,
-   "s256": 24952,
-   "s128": 8482,
-   "glb": 639240
-  },
-  "ms": 1147
- },
- {
-  "slug": "kinnick-stadium",
-  "name": "Kinnick Stadium",
-  "capacity": 69250,
-  "cells": 2513,
-  "studs": 2513,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108930,
-   "s256": 18158,
-   "s128": 6398,
-   "glb": 606196
-  },
-  "ms": 1177
- },
- {
-  "slug": "raymond-james-stadium",
-  "name": "Raymond James Stadium",
-  "capacity": 69218,
-  "cells": 2283,
-  "studs": 2283,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 90978,
-   "s256": 15926,
-   "s128": 5850,
-   "glb": 628568
-  },
-  "ms": 1147
- },
- {
-  "slug": "nissan-stadium",
-  "name": "Nissan Stadium",
-  "capacity": 69143,
-  "cells": 1773,
-  "studs": 1773,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110706,
-   "s256": 19914,
-   "s128": 6848,
-   "glb": 521164
-  },
-  "ms": 1045
- },
- {
-  "slug": "levi-s-stadium",
-  "name": "Levi's Stadium",
-  "capacity": 68500,
-  "cells": 1669,
-  "studs": 1669,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110494,
-   "s256": 21108,
-   "s128": 7176,
-   "glb": 502720
-  },
-  "ms": 1071
- },
- {
-  "slug": "acrisure-stadium",
-  "name": "Acrisure Stadium",
-  "capacity": 68400,
-  "cells": 2299,
-  "studs": 2299,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 107384,
-   "s256": 18362,
-   "s128": 6594,
-   "glb": 645440
-  },
-  "ms": 1171
- },
- {
-  "slug": "lumen-field",
-  "name": "Lumen Field",
-  "capacity": 68000,
-  "cells": 2136,
-  "studs": 2136,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95334,
-   "s256": 16334,
-   "s128": 5770,
-   "glb": 562876
-  },
-  "ms": 1144
- },
- {
-  "slug": "everbank-stadium",
-  "name": "EverBank Stadium",
-  "capacity": 67814,
-  "cells": 2362,
-  "studs": 2362,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93294,
-   "s256": 16694,
-   "s128": 6002,
-   "glb": 667736
-  },
-  "ms": 1220
- },
- {
-  "slug": "lincoln-financial-field",
-  "name": "Lincoln Financial Field",
-  "capacity": 67594,
-  "cells": 2251,
-  "studs": 2251,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 100592,
-   "s256": 17198,
-   "s128": 6216,
-   "glb": 606592
-  },
-  "ms": 1191
- },
- {
-  "slug": "huntington-bank-field",
-  "name": "Huntington Bank Field",
-  "capacity": 67431,
-  "cells": 2259,
-  "studs": 2259,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114618,
-   "s256": 19710,
-   "s128": 6662,
-   "glb": 662028
-  },
-  "ms": 1222
- },
- {
-  "slug": "doak-campbell-stadium",
-  "name": "Doak Campbell Stadium",
-  "capacity": 67277,
-  "cells": 2192,
-  "studs": 2192,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 135058,
-   "s256": 24846,
-   "s128": 8192,
-   "glb": 660312
-  },
-  "ms": 1224
- },
- {
-  "slug": "lucas-oil-stadium",
-  "name": "Lucas Oil Stadium",
-  "capacity": 67000,
-  "cells": 1893,
-  "studs": 1893,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 68980,
-   "s256": 11848,
-   "s128": 4598,
-   "glb": 455112
-  },
-  "ms": 1107
- },
- {
-  "slug": "soldier-field",
-  "name": "Soldier Field",
-  "capacity": 66944,
-  "cells": 1664,
-  "studs": 1664,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 86700,
-   "s256": 16128,
-   "s128": 5840,
-   "glb": 419508
-  },
-  "ms": 1013
- },
- {
-  "slug": "u-s-bank-stadium",
-  "name": "U.S. Bank Stadium",
-  "capacity": 66467,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 99108,
-   "s256": 16668,
-   "s128": 6054,
-   "glb": 519808
-  },
-  "ms": 1174
- },
- {
-  "slug": "lane-stadium",
-  "name": "Lane Stadium",
-  "capacity": 65632,
-  "cells": 2556,
-  "studs": 2556,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108012,
-   "s256": 17766,
-   "s128": 6330,
-   "glb": 724860
-  },
-  "ms": 1273
- },
- {
-  "slug": "paycor-stadium",
-  "name": "Paycor Stadium",
-  "capacity": 65515,
-  "cells": 2578,
-  "studs": 2578,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 131190,
-   "s256": 23088,
-   "s128": 7670,
-   "glb": 697576
-  },
-  "ms": 1229
- },
- {
-  "slug": "allegiant-stadium",
-  "name": "Allegiant Stadium",
-  "capacity": 65000,
-  "cells": 2396,
-  "studs": 2396,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105894,
-   "s256": 17924,
-   "s128": 6128,
-   "glb": 649124
-  },
-  "ms": 1035
- },
- {
-  "slug": "ford-field",
-  "name": "Ford Field",
-  "capacity": 65000,
-  "cells": 2001,
-  "studs": 2001,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93532,
-   "s256": 16540,
-   "s128": 5600,
-   "glb": 499640
-  },
-  "ms": 976
- },
- {
-  "slug": "hard-rock-stadium",
-  "name": "Hard Rock Stadium",
-  "capacity": 64767,
-  "cells": 1830,
-  "studs": 1830,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 116456,
-   "s256": 20738,
-   "s128": 7148,
-   "glb": 581700
-  },
-  "ms": 956
- },
- {
-  "slug": "gillette-stadium",
-  "name": "Gillette Stadium",
-  "capacity": 64628,
-  "cells": 2472,
-  "studs": 2472,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106676,
-   "s256": 18630,
-   "s128": 6646,
-   "glb": 688968
-  },
-  "ms": 1049
- },
- {
-  "slug": "vaught-hemingway-stadium",
-  "name": "Vaught–Hemingway Stadium",
-  "capacity": 64038,
-  "cells": 2387,
-  "studs": 2387,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 112302,
-   "s256": 19596,
-   "s128": 6694,
-   "glb": 695432
-  },
-  "ms": 1063
- },
- {
-  "slug": "alamodome",
-  "name": "Alamodome",
-  "capacity": 64000,
-  "cells": 2189,
-  "studs": 2189,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 90218,
-   "s256": 14612,
-   "s128": 5066,
-   "glb": 467276
-  },
-  "ms": 961
- },
- {
-  "slug": "northwest-stadium",
-  "name": "Northwest Stadium",
-  "capacity": 64000,
-  "cells": 2090,
-  "studs": 2090,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 121762,
-   "s256": 21996,
-   "s128": 7504,
-   "glb": 634200
-  },
-  "ms": 1060
- },
- {
-  "slug": "faurot-field",
-  "name": "Faurot Field",
-  "capacity": 63609,
-  "cells": 1367,
-  "studs": 1367,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 77842,
-   "s256": 13776,
-   "s128": 5132,
-   "glb": 387788
-  },
-  "ms": 1005
- },
- {
-  "slug": "state-farm-stadium",
-  "name": "State Farm Stadium",
-  "capacity": 63400,
-  "cells": 1780,
-  "studs": 1780,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 61840,
-   "s256": 11090,
-   "s128": 4266,
-   "glb": 429752
-  },
-  "ms": 1002
- },
- {
-  "slug": "lavell-edwards-stadium",
-  "name": "LaVell Edwards Stadium",
-  "capacity": 62073,
-  "cells": 1598,
-  "studs": 1598,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 76022,
-   "s256": 13210,
-   "s128": 4998,
-   "glb": 317152
-  },
-  "ms": 917
- },
- {
-  "slug": "jack-trice-stadium",
-  "name": "Jack Trice Stadium",
-  "capacity": 61500,
-  "cells": 2159,
-  "studs": 2159,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 112070,
-   "s256": 18672,
-   "s128": 6564,
-   "glb": 577404
-  },
-  "ms": 1192
- },
- {
-  "slug": "scott-stadium",
-  "name": "Scott Stadium",
-  "capacity": 61500,
-  "cells": 2039,
-  "studs": 2039,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 140354,
-   "s256": 27094,
-   "s128": 9006,
-   "glb": 653180
-  },
-  "ms": 1172
- },
- {
-  "slug": "yale-bowl",
-  "name": "Yale Bowl",
-  "capacity": 61446,
-  "cells": 2414,
-  "studs": 2414,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 134676,
-   "s256": 24646,
-   "s128": 8128,
-   "glb": 683528
-  },
-  "ms": 1170
- },
- {
-  "slug": "ross-ade-stadium",
-  "name": "Ross–Ade Stadium",
-  "capacity": 61441,
-  "cells": 1847,
-  "studs": 1847,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92992,
-   "s256": 16974,
-   "s128": 6162,
-   "glb": 519316
-  },
-  "ms": 1033
- },
- {
-  "slug": "kroger-field",
-  "name": "Kroger Field",
-  "capacity": 61000,
-  "cells": 1971,
-  "studs": 1971,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 111206,
-   "s256": 20416,
-   "s128": 7148,
-   "glb": 627040
-  },
-  "ms": 1126
- },
- {
-  "slug": "landn-federal-credit-union-stadium",
-  "name": "L&N Federal Credit Union Stadium",
-  "capacity": 60800,
-  "cells": 2301,
-  "studs": 2301,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 85818,
-   "s256": 14752,
-   "s128": 5574,
-   "glb": 594092
-  },
-  "ms": 1140
- },
- {
-  "slug": "gies-memorial-stadium",
-  "name": "Gies Memorial Stadium",
-  "capacity": 60670,
-  "cells": 2985,
-  "studs": 2985,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101062,
-   "s256": 15638,
-   "s128": 5690,
-   "glb": 679056
-  },
-  "ms": 1228
- },
- {
-  "slug": "mississippi-veterans-memorial-stadium",
-  "name": "Mississippi Veterans Memorial Stadium",
-  "capacity": 60492,
-  "cells": 2272,
-  "studs": 2272,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 139286,
-   "s256": 25042,
-   "s128": 8300,
-   "glb": 724252
-  },
-  "ms": 1179
- },
- {
-  "slug": "davis-wade-stadium",
-  "name": "Davis Wade Stadium",
-  "capacity": 60311,
-  "cells": 2137,
-  "studs": 2137,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101528,
-   "s256": 17696,
-   "s128": 6358,
-   "glb": 627620
-  },
-  "ms": 1066
- },
- {
-  "slug": "galaxy-stadium",
-  "name": "Galaxy Stadium",
-  "capacity": 60229,
-  "cells": 2437,
-  "studs": 2437,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95086,
-   "s256": 16338,
-   "s128": 5920,
-   "glb": 632112
-  },
-  "ms": 1166
- },
- {
-  "slug": "camping-world-stadium",
-  "name": "Camping World Stadium",
-  "capacity": 60219,
-  "cells": 3021,
-  "studs": 3021,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 90086,
-   "s256": 14294,
-   "s128": 5238,
-   "glb": 695444
-  },
-  "ms": 1195
- },
- {
-  "slug": "autzen-stadium",
-  "name": "Autzen Stadium",
-  "capacity": 60129,
-  "cells": 2424,
-  "studs": 2424,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 119822,
-   "s256": 19846,
-   "s128": 6738,
-   "glb": 668768
-  },
-  "ms": 1189
- },
- {
-  "slug": "highmark-stadium",
-  "name": "Highmark Stadium",
-  "capacity": 60108,
-  "cells": 2363,
-  "studs": 2363,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 113162,
-   "s256": 19938,
-   "s128": 6832,
-   "glb": 625988
-  },
-  "ms": 1165
- },
- {
-  "slug": "milan-puskar-stadium",
-  "name": "Milan Puskar Stadium",
-  "capacity": 60000,
-  "cells": 1966,
-  "studs": 1966,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 124672,
-   "s256": 22820,
-   "s128": 7846,
-   "glb": 607600
-  },
-  "ms": 999
- },
- {
-  "slug": "gateway-motorsports-park",
-  "name": "Gateway Motorsports Park",
-  "capacity": 57000,
-  "cells": 1592,
-  "studs": 1592,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 74854,
-   "s256": 14422,
-   "s128": 5234,
-   "glb": 272668
-  },
-  "ms": 867
- },
- {
-  "slug": "carter-finley-stadium",
-  "name": "Carter–Finley Stadium",
-  "capacity": 56919,
-  "cells": 2086,
-  "studs": 2086,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 112490,
-   "s256": 20686,
-   "s128": 7060,
-   "glb": 641132
-  },
-  "ms": 1009
- },
- {
-  "slug": "dodger-stadium",
-  "name": "Dodger Stadium",
-  "capacity": 56000,
-  "cells": 2222,
-  "studs": 2222,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97740,
-   "s256": 18216,
-   "s128": 5986,
-   "glb": 504792
-  },
-  "ms": 959
- },
- {
-  "slug": "michigan-international-speedway",
-  "name": "Michigan International Speedway",
-  "capacity": 56000,
-  "cells": 1749,
-  "studs": 1749,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95092,
-   "s256": 18934,
-   "s128": 6592,
-   "glb": 373564
-  },
-  "ms": 920
- },
- {
-  "slug": "rice-eccles-stadium",
-  "name": "Rice–Eccles Stadium",
-  "capacity": 54383,
-  "cells": 2563,
-  "studs": 2563,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 96046,
-   "s256": 16210,
-   "s128": 5776,
-   "glb": 637732
-  },
-  "ms": 1132
- },
- {
-  "slug": "dover-motor-speedway",
-  "name": "Dover Motor Speedway",
-  "capacity": 54000,
-  "cells": 1751,
-  "studs": 1751,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92980,
-   "s256": 18388,
-   "s128": 6262,
-   "glb": 328472
-  },
-  "ms": 941
- },
- {
-  "slug": "mountain-america-stadium",
-  "name": "Mountain America Stadium",
-  "capacity": 53599,
-  "cells": 2150,
-  "studs": 2150,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 116340,
-   "s256": 20448,
-   "s128": 7208,
-   "glb": 623356
-  },
-  "ms": 1109
- },
- {
-  "slug": "memorial-stadium-in",
-  "name": "Memorial Stadium",
-  "capacity": 53524,
-  "cells": 1990,
-  "studs": 1990,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105952,
-   "s256": 18848,
-   "s128": 6576,
-   "glb": 540272
-  },
-  "ms": 1059
- },
- {
-  "slug": "amon-g-carter-stadium",
-  "name": "Amon G. Carter Stadium",
-  "capacity": 53294,
-  "cells": 2003,
-  "studs": 2003,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 111730,
-   "s256": 20046,
-   "s128": 7040,
-   "glb": 612876
-  },
-  "ms": 1083
- },
- {
-  "slug": "franklin-field",
-  "name": "Franklin Field",
-  "capacity": 52958,
-  "cells": 2110,
-  "studs": 2110,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 147930,
-   "s256": 28562,
-   "s128": 9248,
-   "glb": 654956
-  },
-  "ms": 1134
- },
- {
-  "slug": "shi-stadium",
-  "name": "SHI Stadium",
-  "capacity": 52454,
-  "cells": 2382,
-  "studs": 2382,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 102892,
-   "s256": 18138,
-   "s128": 6452,
-   "glb": 681852
-  },
-  "ms": 1172
- },
- {
-  "slug": "california-memorial-stadium",
-  "name": "California Memorial Stadium",
-  "capacity": 52428,
-  "cells": 2487,
-  "studs": 2487,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 150794,
-   "s256": 26596,
-   "s128": 8674,
-   "glb": 697120
-  },
-  "ms": 1141
- },
- {
-  "slug": "boone-pickens-stadium",
-  "name": "Boone Pickens Stadium",
-  "capacity": 52305,
-  "cells": 2557,
-  "studs": 2557,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 98890,
-   "s256": 16774,
-   "s128": 6128,
-   "glb": 639228
-  },
-  "ms": 1140
- },
- {
-  "slug": "bobby-dodd-stadium",
-  "name": "Bobby Dodd Stadium",
-  "capacity": 52113,
-  "cells": 1886,
-  "studs": 1886,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95472,
-   "s256": 17644,
-   "s128": 6574,
-   "glb": 449680
-  },
-  "ms": 978
- },
- {
-  "slug": "dowdy-ficklen-stadium",
-  "name": "Dowdy–Ficklen Stadium",
-  "capacity": 51000,
-  "cells": 2207,
-  "studs": 2207,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 115546,
-   "s256": 19682,
-   "s128": 6868,
-   "glb": 661724
-  },
-  "ms": 1024
- },
- {
-  "slug": "huntington-bank-stadium",
-  "name": "Huntington Bank Stadium",
-  "capacity": 50805,
-  "cells": 2095,
-  "studs": 2095,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106832,
-   "s256": 18400,
-   "s128": 6464,
-   "glb": 584144
-  },
-  "ms": 1083
- },
- {
-  "slug": "casino-del-sol-stadium",
-  "name": "Casino Del Sol Stadium",
-  "capacity": 50782,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 92446,
-   "s256": 16104,
-   "s128": 5958,
-   "glb": 517068
-  },
-  "ms": 1092
- },
- {
-  "slug": "kenan-stadium",
-  "name": "Kenan Stadium",
-  "capacity": 50500,
-  "cells": 2034,
-  "studs": 2034,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114538,
-   "s256": 21398,
-   "s128": 7614,
-   "glb": 613420
-  },
-  "ms": 1025
- },
- {
-  "slug": "stanford-stadium",
-  "name": "Stanford Stadium",
-  "capacity": 50424,
-  "cells": 2231,
-  "studs": 2231,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 130696,
-   "s256": 23420,
-   "s128": 7880,
-   "glb": 661992
-  },
-  "ms": 1085
- },
- {
-  "slug": "folsom-field",
-  "name": "Folsom Field",
-  "capacity": 50183,
-  "cells": 1624,
-  "studs": 1624,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 72150,
-   "s256": 12374,
-   "s128": 4718,
-   "glb": 322368
-  },
-  "ms": 946
- },
- {
-  "slug": "bill-snyder-family-football-stadium",
-  "name": "Bill Snyder Family Football Stadium",
-  "capacity": 50000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 90522,
-   "s256": 15664,
-   "s128": 5784,
-   "glb": 519808
-  },
-  "ms": 1005
- },
- {
-  "slug": "independence-stadium",
-  "name": "Independence Stadium",
-  "capacity": 50000,
-  "cells": 2016,
-  "studs": 2016,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92896,
-   "s256": 17214,
-   "s128": 6208,
-   "glb": 525324
-  },
-  "ms": 950
- },
- {
-  "slug": "richmond-raceway",
-  "name": "Richmond Raceway",
-  "capacity": 50000,
-  "cells": 1804,
-  "studs": 1804,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 83506,
-   "s256": 15832,
-   "s128": 5360,
-   "glb": 345316
-  },
-  "ms": 870
- },
- {
-  "slug": "chase-field",
-  "name": "Chase Field",
-  "capacity": 48330,
-  "cells": 1989,
-  "studs": 1989,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 79502,
-   "s256": 13888,
-   "s128": 4940,
-   "glb": 401460
-  },
-  "ms": 872
- },
- {
-  "slug": "kansas-speedway",
-  "name": "Kansas Speedway",
-  "capacity": 48000,
-  "cells": 1832,
-  "studs": 1832,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 88046,
-   "s256": 16046,
-   "s128": 5454,
-   "glb": 385384
-  },
-  "ms": 819
- },
- {
-  "slug": "t-mobile-park",
-  "name": "T-Mobile Park",
-  "capacity": 47368,
-  "cells": 2607,
-  "studs": 2607,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 74028,
-   "s256": 12418,
-   "s128": 4538,
-   "glb": 513436
-  },
-  "ms": 998
- },
- {
-  "slug": "protective-stadium",
-  "name": "Protective Stadium",
-  "capacity": 47100,
-  "cells": 2212,
-  "studs": 2212,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114524,
-   "s256": 19594,
-   "s128": 6826,
-   "glb": 654440
-  },
-  "ms": 1120
- },
- {
-  "slug": "chicagoland-speedway",
-  "name": "Chicagoland Speedway",
-  "capacity": 47000,
-  "cells": 2243,
-  "studs": 2243,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 78276,
-   "s256": 13090,
-   "s128": 4624,
-   "glb": 435676
-  },
-  "ms": 1027
- },
- {
-  "slug": "darlington-raceway",
-  "name": "Darlington Raceway",
-  "capacity": 47000,
-  "cells": 1543,
-  "studs": 1543,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 84260,
-   "s256": 17012,
-   "s128": 6032,
-   "glb": 295436
-  },
-  "ms": 937
- },
- {
-  "slug": "first-community-stadium",
-  "name": "First Community Stadium",
-  "capacity": 47000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 93584,
-   "s256": 15930,
-   "s128": 5862,
-   "glb": 519808
-  },
-  "ms": 1134
- },
- {
-  "slug": "coors-field",
-  "name": "Coors Field",
-  "capacity": 46897,
-  "cells": 1984,
-  "studs": 1984,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 104494,
-   "s256": 21284,
-   "s128": 6996,
-   "glb": 492824
-  },
-  "ms": 929
- },
- {
-  "slug": "yankee-stadium",
-  "name": "Yankee Stadium",
-  "capacity": 46537,
-  "cells": 2230,
-  "studs": 2230,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 91546,
-   "s256": 16830,
-   "s128": 5702,
-   "glb": 503824
-  },
-  "ms": 920
- },
- {
-  "slug": "secu-stadium",
-  "name": "SECU Stadium",
-  "capacity": 46185,
-  "cells": 2165,
-  "studs": 2165,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 109104,
-   "s256": 20550,
-   "s128": 6924,
-   "glb": 650932
-  },
-  "ms": 1157
- },
- {
-  "slug": "sun-bowl",
-  "name": "Sun Bowl",
-  "capacity": 45971,
-  "cells": 2511,
-  "studs": 2511,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 122542,
-   "s256": 20248,
-   "s128": 6962,
-   "glb": 698224
-  },
-  "ms": 1237
- },
- {
-  "slug": "acrisure-bounce-house",
-  "name": "Acrisure Bounce House",
-  "capacity": 45906,
-  "cells": 1994,
-  "studs": 1994,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 96532,
-   "s256": 17890,
-   "s128": 6318,
-   "glb": 502512
-  },
-  "ms": 1071
- },
- {
-  "slug": "simmons-bank-liberty-stadium",
-  "name": "Simmons Bank Liberty Stadium",
-  "capacity": 45632,
-  "cells": 2598,
-  "studs": 2598,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106590,
-   "s256": 17174,
-   "s128": 5972,
-   "glb": 726736
-  },
-  "ms": 1236
- },
- {
-  "slug": "angel-stadium",
-  "name": "Angel Stadium",
-  "capacity": 45517,
-  "cells": 2233,
-  "studs": 2233,
-  "usedHull": true,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 98782,
-   "s256": 17912,
-   "s128": 5928,
-   "glb": 469080
-  },
-  "ms": 1050
- },
- {
-  "slug": "mclane-stadium",
-  "name": "McLane Stadium",
-  "capacity": 45140,
-  "cells": 2309,
-  "studs": 2309,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 117726,
-   "s256": 19960,
-   "s128": 6922,
-   "glb": 619188
-  },
-  "ms": 1008
- },
- {
-  "slug": "alumni-stadium",
-  "name": "Alumni Stadium",
-  "capacity": 44500,
-  "cells": 1972,
-  "studs": 1972,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101644,
-   "s256": 18942,
-   "s128": 6852,
-   "glb": 500580
-  },
-  "ms": 844
- },
- {
-  "slug": "busch-stadium",
-  "name": "Busch Stadium",
-  "capacity": 44383,
-  "cells": 2268,
-  "studs": 2268,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 104116,
-   "s256": 19028,
-   "s128": 5998,
-   "glb": 498524
-  },
-  "ms": 909
- },
- {
-  "slug": "martinsville-speedway",
-  "name": "Martinsville Speedway",
-  "capacity": 44000,
-  "cells": 1649,
-  "studs": 1649,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92340,
-   "s256": 17020,
-   "s128": 6098,
-   "glb": 348772
-  },
-  "ms": 836
- },
- {
-  "slug": "new-hampshire-motor-speedway",
-  "name": "New Hampshire Motor Speedway",
-  "capacity": 44000,
-  "cells": 1063,
-  "studs": 1063,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 81050,
-   "s256": 16854,
-   "s128": 6448,
-   "glb": 233048
-  },
-  "ms": 815
- },
- {
-  "slug": "sonoma-raceway",
-  "name": "Sonoma Raceway",
-  "capacity": 44000,
-  "cells": 1428,
-  "studs": 1428,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 122956,
-   "s256": 27608,
-   "s128": 9402,
-   "glb": 357260
-  },
-  "ms": 875
- },
- {
-  "slug": "great-american-ball-park",
-  "name": "Great American Ball Park",
-  "capacity": 43500,
-  "cells": 2535,
-  "studs": 2535,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94320,
-   "s256": 16638,
-   "s128": 5486,
-   "glb": 531128
-  },
-  "ms": 1071
- },
- {
-  "slug": "homestead-miami-speedway",
-  "name": "Homestead–Miami Speedway",
-  "capacity": 43000,
-  "cells": 2161,
-  "studs": 2161,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 79554,
-   "s256": 13312,
-   "s128": 4766,
-   "glb": 413228
-  },
-  "ms": 981
- },
- {
-  "slug": "citizens-bank-park",
-  "name": "Citizens Bank Park",
-  "capacity": 42901,
-  "cells": 2352,
-  "studs": 2352,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 92040,
-   "s256": 15752,
-   "s128": 5554,
-   "glb": 541424
-  },
-  "ms": 1052
- },
- {
-  "slug": "jma-wireless-dome",
-  "name": "JMA Wireless Dome",
-  "capacity": 42784,
-  "cells": 2549,
-  "studs": 2549,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106696,
-   "s256": 17092,
-   "s128": 5560,
-   "glb": 536884
-  },
-  "ms": 1092
- },
- {
-  "slug": "oriole-park-at-camden-yards",
-  "name": "Oriole Park at Camden Yards",
-  "capacity": 42455,
-  "cells": 1885,
-  "studs": 1885,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 82476,
-   "s256": 15318,
-   "s128": 5538,
-   "glb": 376460
-  },
-  "ms": 969
- },
- {
-  "slug": "phoenix-raceway",
-  "name": "Phoenix Raceway",
-  "capacity": 42000,
-  "cells": 1755,
-  "studs": 1755,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 86552,
-   "s256": 16746,
-   "s128": 5804,
-   "glb": 346276
-  },
-  "ms": 897
- },
- {
-  "slug": "citi-field",
-  "name": "Citi Field",
-  "capacity": 41922,
-  "cells": 1703,
-  "studs": 1703,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 78854,
-   "s256": 14826,
-   "s128": 5502,
-   "glb": 411408
-  },
-  "ms": 946
- },
- {
-  "slug": "american-family-field",
-  "name": "American Family Field",
-  "capacity": 41900,
-  "cells": 2239,
-  "studs": 2239,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 77106,
-   "s256": 13188,
-   "s128": 4588,
-   "glb": 502308
-  },
-  "ms": 976
- },
- {
-  "slug": "wrigley-field",
-  "name": "Wrigley Field",
-  "capacity": 41649,
-  "cells": 2952,
-  "studs": 2952,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93766,
-   "s256": 15060,
-   "s128": 4872,
-   "glb": 587604
-  },
-  "ms": 1083
- },
- {
-  "slug": "david-booth-kansas-memorial-stadium",
-  "name": "David Booth Kansas Memorial Stadium",
-  "capacity": 41525,
-  "cells": 1778,
-  "studs": 1778,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 85696,
-   "s256": 14894,
-   "s128": 5346,
-   "glb": 456164
-  },
-  "ms": 1022
- },
- {
-  "slug": "nationals-park",
-  "name": "Nationals Park",
-  "capacity": 41373,
-  "cells": 2313,
-  "studs": 2313,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 76334,
-   "s256": 12888,
-   "s128": 4614,
-   "glb": 517528
-  },
-  "ms": 967
- },
- {
-  "slug": "oracle-park",
-  "name": "Oracle Park",
-  "capacity": 41331,
-  "cells": 1905,
-  "studs": 1905,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93660,
-   "s256": 18218,
-   "s128": 5952,
-   "glb": 454628
-  },
-  "ms": 826
- },
- {
-  "slug": "daikin-park",
-  "name": "Daikin Park",
-  "capacity": 41168,
-  "cells": 1762,
-  "studs": 1762,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 86522,
-   "s256": 16694,
-   "s128": 5866,
-   "glb": 440744
-  },
-  "ms": 939
- },
- {
-  "slug": "truist-park",
-  "name": "Truist Park",
-  "capacity": 41108,
-  "cells": 2043,
-  "studs": 2043,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 86976,
-   "s256": 15748,
-   "s128": 5258,
-   "glb": 458292
-  },
-  "ms": 965
- },
- {
-  "slug": "canvas-stadium",
-  "name": "Canvas Stadium",
-  "capacity": 41000,
-  "cells": 3024,
-  "studs": 3024,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93534,
-   "s256": 14350,
-   "s128": 5226,
-   "glb": 617532
-  },
-  "ms": 1115
- },
- {
-  "slug": "rate-field",
-  "name": "Rate Field",
-  "capacity": 40615,
-  "cells": 2505,
-  "studs": 2505,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89120,
-   "s256": 16154,
-   "s128": 5390,
-   "glb": 553592
-  },
-  "ms": 1040
- },
- {
-  "slug": "globe-life-field",
-  "name": "Globe Life Field",
-  "capacity": 40300,
-  "cells": 1485,
-  "studs": 1485,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 67242,
-   "s256": 13416,
-   "s128": 5172,
-   "glb": 311396
-  },
-  "ms": 864
- },
- {
-  "slug": "kidd-brewer-stadium",
-  "name": "Kidd Brewer Stadium",
-  "capacity": 40168,
-  "cells": 2315,
-  "studs": 2315,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 109028,
-   "s256": 18876,
-   "s128": 6732,
-   "glb": 638104
-  },
-  "ms": 1086
- },
- {
-  "slug": "comerica-park",
-  "name": "Comerica Park",
-  "capacity": 40120,
-  "cells": 1936,
-  "studs": 1936,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 85760,
-   "s256": 15972,
-   "s128": 5688,
-   "glb": 467024
-  },
-  "ms": 968
- },
- {
-  "slug": "pratt-and-whitney-stadium-at-rentschler-field",
-  "name": "Pratt & Whitney Stadium at Rentschler Field",
-  "capacity": 40000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 89932,
-   "s256": 15428,
-   "s128": 5684,
-   "glb": 519808
-  },
-  "ms": 1132
- },
- {
-  "slug": "petco-park",
-  "name": "Petco Park",
-  "capacity": 39860,
-  "cells": 2282,
-  "studs": 2282,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97786,
-   "s256": 17514,
-   "s128": 5878,
-   "glb": 522268
-  },
-  "ms": 1029
- },
- {
-  "slug": "tdecu-stadium",
-  "name": "TDECU Stadium",
-  "capacity": 39700,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 93052,
-   "s256": 15708,
-   "s128": 5766,
-   "glb": 519808
-  },
-  "ms": 1043
- },
- {
-  "slug": "falcon-stadium",
-  "name": "Falcon Stadium",
-  "capacity": 39441,
-  "cells": 2289,
-  "studs": 2289,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114314,
-   "s256": 20082,
-   "s128": 6990,
-   "glb": 642536
-  },
-  "ms": 1111
- },
- {
-  "slug": "university-stadium",
-  "name": "University Stadium",
-  "capacity": 39224,
-  "cells": 2261,
-  "studs": 2261,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94502,
-   "s256": 15694,
-   "s128": 5752,
-   "glb": 546900
-  },
-  "ms": 1065
- },
- {
-  "slug": "watkins-glen-international",
-  "name": "Watkins Glen International",
-  "capacity": 38900,
-  "cells": 1328,
-  "studs": 1328,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 79784,
-   "s256": 16062,
-   "s128": 5964,
-   "glb": 237984
-  },
-  "ms": 850
- },
- {
-  "slug": "pnc-park",
-  "name": "PNC Park",
-  "capacity": 38747,
-  "cells": 2017,
-  "studs": 2017,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 82918,
-   "s256": 15108,
-   "s128": 5514,
-   "glb": 448556
-  },
-  "ms": 959
- },
- {
-  "slug": "target-field",
-  "name": "Target Field",
-  "capacity": 38544,
-  "cells": 1645,
-  "studs": 1645,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101148,
-   "s256": 20940,
-   "s128": 7254,
-   "glb": 415704
-  },
-  "ms": 950
- },
- {
-  "slug": "nippert-stadium",
-  "name": "Nippert Stadium",
-  "capacity": 38088,
-  "cells": 2199,
-  "studs": 2199,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 107858,
-   "s256": 19888,
-   "s128": 7104,
-   "glb": 645632
-  },
-  "ms": 1096
- },
- {
-  "slug": "kauffman-stadium",
-  "name": "Kauffman Stadium",
-  "capacity": 38053,
-  "cells": 2357,
-  "studs": 2357,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94162,
-   "s256": 16778,
-   "s128": 5750,
-   "glb": 525700
-  },
-  "ms": 1023
- },
- {
-  "slug": "joan-c-edwards-stadium",
-  "name": "Joan C. Edwards Stadium",
-  "capacity": 38000,
-  "cells": 2392,
-  "studs": 2392,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99452,
-   "s256": 17134,
-   "s128": 6212,
-   "glb": 639656
-  },
-  "ms": 1125
- },
- {
-  "slug": "fenway-park",
-  "name": "Fenway Park",
-  "capacity": 37305,
-  "cells": 1598,
-  "studs": 1598,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 77106,
-   "s256": 15320,
-   "s128": 5378,
-   "glb": 372976
-  },
-  "ms": 866
- },
- {
-  "slug": "milwaukee-mile",
-  "name": "Milwaukee Mile",
-  "capacity": 37000,
-  "cells": 1383,
-  "studs": 1383,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 78806,
-   "s256": 16074,
-   "s128": 5636,
-   "glb": 240164
-  },
-  "ms": 847
- },
- {
-  "slug": "loandepot-park",
-  "name": "LoanDepot Park",
-  "capacity": 36742,
-  "cells": 2039,
-  "studs": 2039,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 84270,
-   "s256": 15140,
-   "s128": 5376,
-   "glb": 441496
-  },
-  "ms": 968
- },
- {
-  "slug": "renasant-stadium",
-  "name": "Renasant Stadium",
-  "capacity": 36000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 96764,
-   "s256": 16704,
-   "s128": 6098,
-   "glb": 516708
-  },
-  "ms": 1138
- },
- {
-  "slug": "michie-stadium",
-  "name": "Michie Stadium",
-  "capacity": 35647,
-  "cells": 1942,
-  "studs": 1942,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94800,
-   "s256": 16744,
-   "s128": 6020,
-   "glb": 487240
-  },
-  "ms": 1055
- },
- {
-  "slug": "reser-stadium",
-  "name": "Reser Stadium",
-  "capacity": 35548,
-  "cells": 2172,
-  "studs": 2172,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 118118,
-   "s256": 21696,
-   "s128": 7564,
-   "glb": 661376
-  },
-  "ms": 1157
- },
- {
-  "slug": "albertsons-stadium",
-  "name": "Albertsons Stadium",
-  "capacity": 35500,
-  "cells": 1916,
-  "studs": 1916,
-  "usedHull": true,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 108158,
-   "s256": 19606,
-   "s128": 6808,
-   "glb": 510984
-  },
-  "ms": 1019
- },
- {
-  "slug": "kelly-shorts-stadium",
-  "name": "Kelly/Shorts Stadium",
-  "capacity": 35127,
-  "cells": 3044,
-  "studs": 3044,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106300,
-   "s256": 16472,
-   "s128": 5822,
-   "glb": 667560
-  },
-  "ms": 1171
- },
- {
-  "slug": "wallace-wade-stadium",
-  "name": "Wallace Wade Stadium",
-  "capacity": 35018,
-  "cells": 2506,
-  "studs": 2506,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 117650,
-   "s256": 19356,
-   "s128": 6726,
-   "glb": 693328
-  },
-  "ms": 1141
- },
- {
-  "slug": "firstbank-stadium",
-  "name": "FirstBank Stadium",
-  "capacity": 35000,
-  "cells": 2504,
-  "studs": 2504,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99964,
-   "s256": 17094,
-   "s128": 6138,
-   "glb": 665288
-  },
-  "ms": 1097
- },
- {
-  "slug": "ryan-field",
-  "name": "Ryan Field",
-  "capacity": 35000,
-  "cells": 2340,
-  "studs": 2340,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 112726,
-   "s256": 21232,
-   "s128": 7434,
-   "glb": 643988
-  },
-  "ms": 1117
- },
- {
-  "slug": "snapdragon-stadium",
-  "name": "Snapdragon Stadium",
-  "capacity": 35000,
-  "cells": 2505,
-  "studs": 2505,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 90988,
-   "s256": 15512,
-   "s128": 5754,
-   "glb": 686224
-  },
-  "ms": 1164
- },
- {
-  "slug": "navy-marine-corps-memorial-stadium",
-  "name": "Navy–Marine Corps Memorial Stadium",
-  "capacity": 34000,
-  "cells": 1498,
-  "studs": 1498,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 123332,
-   "s256": 25610,
-   "s128": 8672,
-   "glb": 447708
-  },
-  "ms": 1111
- },
- {
-  "slug": "progressive-field",
-  "name": "Progressive Field",
-  "capacity": 33530,
-  "cells": 1726,
-  "studs": 1726,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 80138,
-   "s256": 14528,
-   "s128": 5190,
-   "glb": 414784
-  },
-  "ms": 937
- },
- {
-  "slug": "gerald-j-ford-stadium",
-  "name": "Gerald J. Ford Stadium",
-  "capacity": 33200,
-  "cells": 2089,
-  "studs": 2089,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 100114,
-   "s256": 17870,
-   "s128": 6416,
-   "glb": 592028
-  },
-  "ms": 1071
- },
- {
-  "slug": "allegacy-federal-credit-union-stadium",
-  "name": "Allegacy Federal Credit Union Stadium",
-  "capacity": 31500,
-  "cells": 2009,
-  "studs": 2009,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105814,
-   "s256": 20166,
-   "s128": 6992,
-   "glb": 601848
-  },
-  "ms": 1058
- },
- {
-  "slug": "veterans-memorial-stadium",
-  "name": "Veterans Memorial Stadium",
-  "capacity": 30470,
-  "cells": 1956,
-  "studs": 1956,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94186,
-   "s256": 17046,
-   "s128": 6114,
-   "glb": 509344
-  },
-  "ms": 1043
- },
- {
-  "slug": "centennial-bank-stadium",
-  "name": "Centennial Bank Stadium",
-  "capacity": 30406,
-  "cells": 2430,
-  "studs": 2430,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97260,
-   "s256": 17562,
-   "s128": 6454,
-   "glb": 616176
-  },
-  "ms": 1010
- },
- {
-  "slug": "cajun-field",
-  "name": "Cajun Field",
-  "capacity": 30392,
-  "cells": 2341,
-  "studs": 2341,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 120406,
-   "s256": 22200,
-   "s128": 7508,
-   "glb": 699728
-  },
-  "ms": 1094
- },
- {
-  "slug": "waldo-stadium",
-  "name": "Waldo Stadium",
-  "capacity": 30200,
-  "cells": 2034,
-  "studs": 2034,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 121536,
-   "s256": 21892,
-   "s128": 7240,
-   "glb": 655592
-  },
-  "ms": 1107
- },
- {
-  "slug": "geodis-park",
-  "name": "Geodis Park",
-  "capacity": 30109,
-  "cells": 2025,
-  "studs": 2025,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 86564,
-   "s256": 16278,
-   "s128": 5632,
-   "glb": 556556
-  },
-  "ms": 996
- },
- {
-  "slug": "datcu-stadium",
-  "name": "DATCU Stadium",
-  "capacity": 30100,
-  "cells": 2284,
-  "studs": 2284,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 83174,
-   "s256": 14818,
-   "s128": 5602,
-   "glb": 619444
-  },
-  "ms": 1150
- },
- {
-  "slug": "flagler-credit-union-stadium",
-  "name": "Flagler Credit Union Stadium",
-  "capacity": 30000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 95486,
-   "s256": 16400,
-   "s128": 5960,
-   "glb": 519828
-  },
-  "ms": 1093
- },
- {
-  "slug": "infocision-stadium-summa-field",
-  "name": "InfoCision Stadium–Summa Field",
-  "capacity": 30000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 91796,
-   "s256": 15946,
-   "s128": 5890,
-   "glb": 519028
-  },
-  "ms": 1047
- },
- {
-  "slug": "iowa-speedway",
-  "name": "Iowa Speedway",
-  "capacity": 30000,
-  "cells": 2133,
-  "studs": 2133,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 119234,
-   "s256": 24894,
-   "s128": 7530,
-   "glb": 438792
-  },
-  "ms": 990
- },
- {
-  "slug": "mackay-stadium",
-  "name": "Mackay Stadium",
-  "capacity": 30000,
-  "cells": 1901,
-  "studs": 1901,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 121606,
-   "s256": 23628,
-   "s128": 8028,
-   "glb": 552732
-  },
-  "ms": 1034
- },
- {
-  "slug": "portland-international-raceway",
-  "name": "Portland International Raceway",
-  "capacity": 30000,
-  "cells": 1453,
-  "studs": 1453,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99834,
-   "s256": 21124,
-   "s128": 7604,
-   "glb": 338372
-  },
-  "ms": 940
- },
- {
-  "slug": "skelly-field-at-h-a-chapman-stadium",
-  "name": "Skelly Field at H. A. Chapman Stadium",
-  "capacity": 30000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 94134,
-   "s256": 16172,
-   "s128": 5924,
-   "glb": 519808
-  },
-  "ms": 1076
- },
- {
-  "slug": "valley-children-s-stadium",
-  "name": "Valley Children's Stadium",
-  "capacity": 30000,
-  "cells": 2762,
-  "studs": 2762,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114042,
-   "s256": 19288,
-   "s128": 6794,
-   "glb": 719892
-  },
-  "ms": 1207
- },
- {
-  "slug": "william-dick-price-stadium",
-  "name": "William \"Dick\" Price Stadium",
-  "capacity": 30000,
-  "cells": 1363,
-  "studs": 1363,
-  "usedHull": true,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 74982,
-   "s256": 13826,
-   "s128": 5076,
-   "glb": 298300
-  },
-  "ms": 900
+  "ms": 736
  },
  {
   "slug": "yulman-stadium",
@@ -3035,1065 +27,25 @@
    "hero": 96260,
    "s256": 16516,
    "s128": 5634,
-   "glb": 575364
+   "glb": 143736
   },
-  "ms": 1018
+  "ms": 460
  },
  {
-  "slug": "war-memorial-stadium",
-  "name": "War Memorial Stadium",
-  "capacity": 29181,
-  "cells": 2540,
-  "studs": 2540,
+  "slug": "fenway-park",
+  "name": "Fenway Park",
+  "capacity": 37305,
+  "cells": 1598,
+  "studs": 1598,
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 117926,
-   "s256": 18734,
-   "s128": 6494,
-   "glb": 575192
-  },
-  "ms": 1047
- },
- {
-  "slug": "aggie-memorial-stadium",
-  "name": "Aggie Memorial Stadium",
-  "capacity": 28853,
-  "cells": 1392,
-  "studs": 1392,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 81156,
-   "s256": 15530,
-   "s128": 5918,
-   "glb": 332668
-  },
-  "ms": 866
- },
- {
-  "slug": "joe-aillet-stadium",
-  "name": "Joe Aillet Stadium",
-  "capacity": 28562,
-  "cells": 2294,
-  "studs": 2294,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 131576,
-   "s256": 22786,
-   "s128": 7792,
-   "glb": 569924
-  },
-  "ms": 979
- },
- {
-  "slug": "ufcu-stadium",
-  "name": "UFCU Stadium",
-  "capacity": 28388,
-  "cells": 2254,
-  "studs": 2254,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 100656,
-   "s256": 17616,
-   "s128": 6300,
-   "glb": 536584
-  },
-  "ms": 874
- },
- {
-  "slug": "huskie-stadium",
-  "name": "Huskie Stadium",
-  "capacity": 28211,
-  "cells": 2140,
-  "studs": 2140,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 96714,
-   "s256": 17226,
-   "s128": 6234,
-   "glb": 497672
-  },
-  "ms": 997
- },
- {
-  "slug": "powers-field-at-princeton-stadium",
-  "name": "Powers Field at Princeton Stadium",
-  "capacity": 27800,
-  "cells": 2136,
-  "studs": 2136,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114648,
-   "s256": 20420,
-   "s128": 7050,
-   "glb": 532812
-  },
-  "ms": 984
- },
- {
-  "slug": "fmol-health-st-francis-stadium",
-  "name": "FMOL Health/St. Francis Stadium",
-  "capacity": 27617,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 105942,
-   "s256": 17112,
-   "s128": 6088,
-   "glb": 476224
-  },
-  "ms": 996
- },
- {
-  "slug": "johnny-red-floyd-stadium",
-  "name": "Johnny \"Red\" Floyd Stadium",
-  "capacity": 27303,
-  "cells": 2425,
-  "studs": 2425,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99610,
-   "s256": 16820,
-   "s128": 5840,
-   "glb": 542600
-  },
-  "ms": 984
- },
- {
-  "slug": "nu-stadium",
-  "name": "Nu Stadium",
-  "capacity": 26700,
-  "cells": 2452,
-  "studs": 2452,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 85608,
-   "s256": 14758,
-   "s128": 5050,
-   "glb": 582708
-  },
-  "ms": 1040
- },
- {
-  "slug": "asu-stadium",
-  "name": "ASU Stadium",
-  "capacity": 26500,
-  "cells": 1621,
-  "studs": 1621,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 132520,
-   "s256": 25686,
-   "s128": 8830,
-   "glb": 456688
-  },
-  "ms": 963
- },
- {
-  "slug": "rynearson-stadium",
-  "name": "Rynearson Stadium",
-  "capacity": 26188,
-  "cells": 2150,
-  "studs": 2150,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110376,
-   "s256": 18606,
-   "s128": 6474,
-   "glb": 525948
-  },
-  "ms": 1037
- },
- {
-  "slug": "glass-bowl",
-  "name": "Glass Bowl",
-  "capacity": 26038,
-  "cells": 2652,
-  "studs": 2652,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 124212,
-   "s256": 19872,
-   "s128": 6962,
-   "glb": 573988
-  },
-  "ms": 1082
- },
- {
-  "slug": "dignity-health-sports-park",
-  "name": "Dignity Health Sports Park",
-  "capacity": 26000,
-  "cells": 2105,
-  "studs": 2105,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 81644,
-   "s256": 14458,
-   "s128": 5094,
-   "glb": 487316
-  },
-  "ms": 955
- },
- {
-  "slug": "tql-stadium",
-  "name": "TQL Stadium",
-  "capacity": 26000,
-  "cells": 2429,
-  "studs": 2429,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 83446,
-   "s256": 14100,
-   "s128": 5084,
-   "glb": 565536
-  },
-  "ms": 983
- },
- {
-  "slug": "maverik-stadium",
-  "name": "Maverik Stadium",
-  "capacity": 25513,
-  "cells": 1867,
-  "studs": 1867,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89118,
-   "s256": 15522,
-   "s128": 5714,
-   "glb": 422004
-  },
-  "ms": 968
- },
- {
-  "slug": "a-w-mumford-stadium",
-  "name": "A. W. Mumford Stadium",
-  "capacity": 25500,
-  "cells": 1954,
-  "studs": 1954,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 113972,
-   "s256": 19104,
-   "s128": 6602,
-   "glb": 446784
-  },
-  "ms": 995
- },
- {
-  "slug": "bragg-memorial-stadium",
-  "name": "Bragg Memorial Stadium",
-  "capacity": 25500,
-  "cells": 2754,
-  "studs": 2754,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 109616,
-   "s256": 16742,
-   "s128": 5992,
-   "glb": 618212
-  },
-  "ms": 1051
- },
- {
-  "slug": "hancock-whitney-stadium",
-  "name": "Hancock Whitney Stadium",
-  "capacity": 25450,
-  "cells": 2290,
-  "studs": 2290,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 101712,
-   "s256": 17350,
-   "s128": 6080,
-   "glb": 476192
-  },
-  "ms": 996
- },
- {
-  "slug": "dix-stadium",
-  "name": "Dix Stadium",
-  "capacity": 25319,
-  "cells": 2614,
-  "studs": 2614,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 132310,
-   "s256": 20892,
-   "s128": 7076,
-   "glb": 580872
-  },
-  "ms": 1067
- },
- {
-  "slug": "washington-grizzly-stadium",
-  "name": "Washington–Grizzly Stadium",
-  "capacity": 25217,
-  "cells": 2261,
-  "studs": 2261,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 110110,
-   "s256": 20470,
-   "s128": 7226,
-   "glb": 546784
-  },
-  "ms": 1057
- },
- {
-  "slug": "tropicana-field",
-  "name": "Tropicana Field",
-  "capacity": 25025,
-  "cells": 2367,
-  "studs": 2367,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99648,
-   "s256": 18012,
-   "s128": 6040,
-   "glb": 504820
-  },
-  "ms": 999
- },
- {
-  "slug": "broadview-stadium",
-  "name": "Broadview Stadium",
-  "capacity": 25013,
-  "cells": 2648,
-  "studs": 2648,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 113922,
-   "s256": 17536,
-   "s128": 6278,
-   "glb": 566620
-  },
-  "ms": 1009
- },
- {
-  "slug": "allen-e-paulson-stadium",
-  "name": "Allen E. Paulson Stadium",
-  "capacity": 25000,
-  "cells": 1914,
-  "studs": 1914,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 105174,
-   "s256": 19420,
-   "s128": 6998,
-   "glb": 473572
-  },
-  "ms": 981
- },
- {
-  "slug": "harvard-stadium",
-  "name": "Harvard Stadium",
-  "capacity": 25000,
-  "cells": 1927,
-  "studs": 1927,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 97306,
-   "s256": 17192,
-   "s128": 5788,
-   "glb": 513212
-  },
-  "ms": 946
- },
- {
-  "slug": "inter-co-stadium",
-  "name": "Inter.co Stadium",
-  "capacity": 25000,
-  "cells": 2876,
-  "studs": 2876,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 83992,
-   "s256": 13252,
-   "s128": 4682,
-   "glb": 625084
-  },
-  "ms": 1064
- },
- {
-  "slug": "nashville-superspeedway",
-  "name": "Nashville Superspeedway",
-  "capacity": 25000,
-  "cells": 1948,
-  "studs": 1948,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 87662,
-   "s256": 15704,
-   "s128": 5420,
-   "glb": 410724
-  },
-  "ms": 878
- },
- {
-  "slug": "sports-illustrated-stadium",
-  "name": "Sports Illustrated Stadium",
-  "capacity": 25000,
-  "cells": 2416,
-  "studs": 2416,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 87982,
-   "s256": 15154,
-   "s128": 4980,
-   "glb": 518644
-  },
-  "ms": 1009
- },
- {
-  "slug": "williams-stadium",
-  "name": "Williams Stadium",
-  "capacity": 25000,
-  "cells": 2326,
-  "studs": 2326,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 102670,
-   "s256": 17818,
-   "s128": 6242,
-   "glb": 541536
-  },
-  "ms": 993
- },
- {
-  "slug": "bridgeforth-stadium",
-  "name": "Bridgeforth Stadium",
-  "capacity": 24877,
-  "cells": 2243,
-  "studs": 2243,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 112952,
-   "s256": 19440,
-   "s128": 6862,
-   "glb": 552036
-  },
-  "ms": 997
- },
- {
-  "slug": "providence-park",
-  "name": "Providence Park",
-  "capacity": 24686,
-  "cells": 2188,
-  "studs": 2188,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89516,
-   "s256": 16464,
-   "s128": 5488,
-   "glb": 555072
-  },
-  "ms": 989
- },
- {
-  "slug": "charles-schwab-field",
-  "name": "Charles Schwab Field",
-  "capacity": 24505,
-  "cells": 2896,
-  "studs": 2896,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 90900,
-   "s256": 14950,
-   "s128": 4648,
-   "glb": 549360
-  },
-  "ms": 1056
- },
- {
-  "slug": "center-parc-stadium",
-  "name": "Center Parc Stadium",
-  "capacity": 24333,
-  "cells": 2754,
-  "studs": 2754,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 99164,
-   "s256": 15652,
-   "s128": 5610,
-   "glb": 612068
-  },
-  "ms": 1050
- },
- {
-  "slug": "yager-stadium",
-  "name": "Yager Stadium",
-  "capacity": 24286,
-  "cells": 2482,
-  "studs": 2482,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 111556,
-   "s256": 20144,
-   "s128": 7006,
-   "glb": 574820
-  },
-  "ms": 1052
- },
- {
-  "slug": "doyt-perry-stadium",
-  "name": "Doyt Perry Stadium",
-  "capacity": 24000,
-  "cells": 2660,
-  "studs": 2660,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 127676,
-   "s256": 20686,
-   "s128": 7032,
-   "glb": 623200
-  },
-  "ms": 1041
- },
- {
-  "slug": "memorial-stadium-tx",
-  "name": "Memorial Stadium",
-  "capacity": 24000,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 91824,
-   "s256": 15208,
-   "s128": 5376,
-   "glb": 476204
-  },
-  "ms": 929
- },
- {
-  "slug": "peden-stadium",
-  "name": "Peden Stadium",
-  "capacity": 24000,
-  "cells": 1923,
-  "studs": 1923,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 107278,
-   "s256": 18278,
-   "s128": 6340,
-   "glb": 475352
-  },
-  "ms": 1063
- },
- {
-  "slug": "arthur-ashe-stadium",
-  "name": "Arthur Ashe Stadium",
-  "capacity": 23771,
-  "cells": 2407,
-  "studs": 2407,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95664,
-   "s256": 16866,
-   "s128": 5602,
-   "glb": 735924
-  },
-  "ms": 1149
- },
- {
-  "slug": "fitton-field",
-  "name": "Fitton Field",
-  "capacity": 23500,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 93498,
-   "s256": 16020,
-   "s128": 5696,
-   "glb": 474304
-  },
-  "ms": 1132
- },
- {
-  "slug": "amfirst-stadium",
-  "name": "AmFirst Stadium",
-  "capacity": 22500,
-  "cells": 2186,
-  "studs": 2186,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 87018,
-   "s256": 14438,
-   "s128": 5400,
-   "glb": 478368
-  },
-  "ms": 1090
- },
- {
-  "slug": "casem-spinks-stadium",
-  "name": "Casem-Spinks Stadium",
-  "capacity": 22500,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 102656,
-   "s256": 16740,
-   "s128": 5926,
-   "glb": 476224
-  },
-  "ms": 1138
- },
- {
-  "slug": "scheumann-stadium",
-  "name": "Scheumann Stadium",
-  "capacity": 22500,
-  "cells": 1622,
-  "studs": 1622,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 74662,
-   "s256": 12984,
-   "s128": 4932,
-   "glb": 307476
-  },
-  "ms": 902
- },
- {
-  "slug": "energizer-park",
-  "name": "Energizer Park",
-  "capacity": 22423,
-  "cells": 2152,
-  "studs": 2152,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 78278,
-   "s256": 13440,
-   "s128": 4782,
-   "glb": 516612
-  },
-  "ms": 1069
- },
- {
-  "slug": "houchens-industries-l-t-smith-stadium",
-  "name": "Houchens Industries–L. T. Smith Stadium",
-  "capacity": 22113,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 95050,
-   "s256": 16136,
-   "s128": 5796,
-   "glb": 474284
-  },
-  "ms": 1085
- },
- {
-  "slug": "kfc-yum-center",
-  "name": "KFC Yum! Center",
-  "capacity": 22090,
-  "cells": 1868,
-  "studs": 1868,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 82836,
-   "s256": 13486,
-   "s128": 4920,
-   "glb": 382788
-  },
-  "ms": 973
- },
- {
-  "slug": "shell-energy-stadium",
-  "name": "Shell Energy Stadium",
-  "capacity": 22039,
-  "cells": 1843,
-  "studs": 1843,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 95618,
-   "s256": 16068,
-   "s128": 5408,
-   "glb": 500732
-  },
-  "ms": 1036
- },
- {
-  "slug": "first-horizon-coliseum",
-  "name": "First Horizon Coliseum",
-  "capacity": 22000,
-  "cells": 2666,
-  "studs": 2666,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 100002,
-   "s256": 15698,
-   "s128": 5372,
-   "glb": 499428
-  },
-  "ms": 1131
- },
- {
-  "slug": "oliver-c-dawson-stadium",
-  "name": "Oliver C. Dawson Stadium",
-  "capacity": 22000,
-  "cells": 2075,
-  "studs": 2075,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 123304,
-   "s256": 22604,
-   "s128": 7830,
-   "glb": 539600
-  },
-  "ms": 1093
- },
- {
-  "slug": "s-b-ballard-stadium",
-  "name": "S.B. Ballard Stadium",
-  "capacity": 21944,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 98852,
-   "s256": 16368,
-   "s128": 5882,
-   "glb": 476224
-  },
-  "ms": 1142
- },
- {
-  "slug": "dean-smith-center",
-  "name": "Dean Smith Center",
-  "capacity": 21750,
-  "cells": 2468,
-  "studs": 2468,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 104242,
-   "s256": 17004,
-   "s128": 5550,
-   "glb": 482552
-  },
-  "ms": 1086
- },
- {
-  "slug": "thompson-boling-arena",
-  "name": "Thompson–Boling Arena",
-  "capacity": 21678,
-  "cells": 1735,
-  "studs": 1735,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89386,
-   "s256": 15238,
-   "s128": 5326,
-   "glb": 396996
-  },
-  "ms": 950
- },
- {
-  "slug": "schoellkopf-field",
-  "name": "Schoellkopf Field",
-  "capacity": 21500,
-  "cells": 1796,
-  "studs": 1796,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 73138,
-   "s256": 12678,
-   "s128": 4936,
-   "glb": 342824
-  },
-  "ms": 989
- },
- {
-  "slug": "truist-stadium",
-  "name": "Truist Stadium",
-  "capacity": 21500,
-  "cells": 2053,
-  "studs": 2053,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 106030,
-   "s256": 17146,
-   "s128": 6046,
-   "glb": 474136
-  },
-  "ms": 1045
- },
- {
-  "slug": "hornet-stadium",
-  "name": "Hornet Stadium",
-  "capacity": 21195,
-  "cells": 1398,
-  "studs": 1398,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 87716,
-   "s256": 16512,
-   "s128": 6170,
-   "glb": 338376
-  },
-  "ms": 926
- },
- {
-  "slug": "brooks-stadium",
-  "name": "Brooks Stadium",
-  "capacity": 21000,
-  "cells": 2509,
-  "studs": 2509,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 98974,
-   "s256": 16230,
-   "s128": 5854,
-   "glb": 540428
-  },
-  "ms": 1125
- },
- {
-  "slug": "louis-crews-stadium",
-  "name": "Louis Crews Stadium",
-  "capacity": 21000,
-  "cells": 2478,
-  "studs": 2478,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 114866,
-   "s256": 20820,
-   "s128": 6996,
-   "glb": 588032
-  },
-  "ms": 1089
- },
- {
-  "slug": "xfinity-mobile-arena",
-  "name": "Xfinity Mobile Arena",
-  "capacity": 21000,
-  "cells": 2507,
-  "studs": 2507,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93270,
-   "s256": 14968,
-   "s128": 5332,
-   "glb": 506476
-  },
-  "ms": 1085
- },
- {
-  "slug": "united-center",
-  "name": "United Center",
-  "capacity": 20917,
-  "cells": 2430,
-  "studs": 2430,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 94948,
-   "s256": 14984,
-   "s128": 5134,
-   "glb": 459028
-  },
-  "ms": 1044
- },
- {
-  "slug": "bobcat-stadium",
-  "name": "Bobcat Stadium",
-  "capacity": 20767,
-  "cells": 2252,
-  "studs": 2252,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 148558,
-   "s256": 27246,
-   "s128": 8894,
-   "glb": 629520
-  },
-  "ms": 1116
- },
- {
-  "slug": "q2-stadium",
-  "name": "Q2 Stadium",
-  "capacity": 20738,
-  "cells": 2256,
-  "studs": 2256,
-  "usedHull": false,
-  "generic_footprint": true,
-  "sizes": {
-   "hero": 81962,
-   "s256": 14102,
-   "s128": 4828,
-   "glb": 473084
-  },
-  "ms": 1108
- },
- {
-  "slug": "stambaugh-stadium",
-  "name": "Stambaugh Stadium",
-  "capacity": 20630,
-  "cells": 1979,
-  "studs": 1979,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 89344,
-   "s256": 15754,
-   "s128": 5872,
-   "glb": 451108
-  },
-  "ms": 1067
- },
- {
-  "slug": "rupp-arena",
-  "name": "Rupp Arena",
-  "capacity": 20500,
-  "cells": 1727,
-  "studs": 1727,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 124848,
-   "s256": 24642,
-   "s128": 7876,
-   "glb": 421072
-  },
-  "ms": 985
- },
- {
-  "slug": "finley-stadium",
-  "name": "Finley Stadium",
-  "capacity": 20412,
-  "cells": 2140,
-  "studs": 2140,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 118170,
-   "s256": 20146,
-   "s128": 6914,
-   "glb": 552260
-  },
-  "ms": 1127
- },
- {
-  "slug": "scottsmiracle-gro-field",
-  "name": "ScottsMiracle-Gro Field",
-  "capacity": 20371,
-  "cells": 2428,
-  "studs": 2428,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 84360,
-   "s256": 14690,
-   "s128": 5292,
-   "glb": 537052
-  },
-  "ms": 1060
- },
- {
-  "slug": "capital-one-arena",
-  "name": "Capital One Arena",
-  "capacity": 20356,
-  "cells": 3160,
-  "studs": 3160,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 93584,
-   "s256": 13328,
-   "s128": 4842,
-   "glb": 555660
-  },
-  "ms": 1130
- },
- {
-  "slug": "little-caesars-arena",
-  "name": "Little Caesars Arena",
-  "capacity": 20332,
-  "cells": 1976,
-  "studs": 1976,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 107444,
-   "s256": 19574,
-   "s128": 6662,
-   "glb": 455352
-  },
-  "ms": 987
- },
- {
-  "slug": "america-first-field",
-  "name": "America First Field",
-  "capacity": 20213,
-  "cells": 2351,
-  "studs": 2351,
-  "usedHull": false,
-  "generic_footprint": false,
-  "sizes": {
-   "hero": 73086,
-   "s256": 11970,
-   "s128": 4284,
-   "glb": 509352
-  },
-  "ms": 1108
+   "hero": 76260,
+   "s256": 15052,
+   "s128": 5384,
+   "glb": 86736
+  },
+  "ms": 429
  },
  {
   "slug": "madison-square-garden",
@@ -4107,9 +59,4057 @@
    "hero": 111336,
    "s256": 21200,
    "s128": 6956,
-   "glb": 458620
+   "glb": 95968
   },
-  "ms": 986
+  "ms": 428
+ },
+ {
+  "slug": "indianapolis-motor-speedway",
+  "name": "Indianapolis Motor Speedway",
+  "capacity": 257325,
+  "cells": 1465,
+  "studs": 1465,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 79834,
+   "s256": 15566,
+   "s128": 5492,
+   "glb": 53028
+  },
+  "ms": 1222
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "name": "Arthur Ashe Stadium",
+  "capacity": 23771,
+  "cells": 2407,
+  "studs": 2407,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95664,
+   "s256": 16866,
+   "s128": 5602,
+   "glb": 173800
+  },
+  "ms": 494
+ },
+ {
+  "slug": "bristol-motor-speedway",
+  "name": "Bristol Motor Speedway",
+  "capacity": 146000,
+  "cells": 2074,
+  "studs": 2074,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110666,
+   "s256": 22272,
+   "s128": 7248,
+   "glb": 100092
+  },
+  "ms": 752
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "name": "Daytona International Speedway",
+  "capacity": 123500,
+  "cells": 1777,
+  "studs": 1777,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 81140,
+   "s256": 14714,
+   "s128": 4978,
+   "glb": 86832
+  },
+  "ms": 670
+ },
+ {
+  "slug": "circuit-of-the-americas",
+  "name": "Circuit of the Americas",
+  "capacity": 120000,
+  "cells": 1572,
+  "studs": 1572,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102846,
+   "s256": 20882,
+   "s128": 7540,
+   "glb": 94284
+  },
+  "ms": 633
+ },
+ {
+  "slug": "beaver-stadium",
+  "name": "Beaver Stadium",
+  "capacity": 106304,
+  "cells": 2101,
+  "studs": 2101,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 131806,
+   "s256": 24438,
+   "s128": 8332,
+   "glb": 163664
+  },
+  "ms": 965
+ },
+ {
+  "slug": "ohio-stadium",
+  "name": "Ohio Stadium",
+  "capacity": 102780,
+  "cells": 2117,
+  "studs": 2117,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105172,
+   "s256": 18200,
+   "s128": 6426,
+   "glb": 150948
+  },
+  "ms": 753
+ },
+ {
+  "slug": "kyle-field",
+  "name": "Kyle Field",
+  "capacity": 102733,
+  "cells": 1928,
+  "studs": 1928,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 127290,
+   "s256": 24150,
+   "s128": 8296,
+   "glb": 161556
+  },
+  "ms": 713
+ },
+ {
+  "slug": "tiger-stadium",
+  "name": "Tiger Stadium",
+  "capacity": 102321,
+  "cells": 2265,
+  "studs": 2265,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 134140,
+   "s256": 23636,
+   "s128": 8042,
+   "glb": 164720
+  },
+  "ms": 745
+ },
+ {
+  "slug": "neyland-stadium",
+  "name": "Neyland Stadium",
+  "capacity": 101915,
+  "cells": 2187,
+  "studs": 2187,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 142988,
+   "s256": 24682,
+   "s128": 8270,
+   "glb": 167728
+  },
+  "ms": 736
+ },
+ {
+  "slug": "darrell-k-royal-texas-memorial-stadium",
+  "name": "Darrell K Royal–Texas Memorial Stadium",
+  "capacity": 100119,
+  "cells": 2846,
+  "studs": 2846,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 116724,
+   "s256": 18302,
+   "s128": 6468,
+   "glb": 186428
+  },
+  "ms": 784
+ },
+ {
+  "slug": "bryant-denny-stadium",
+  "name": "Bryant–Denny Stadium",
+  "capacity": 100077,
+  "cells": 2279,
+  "studs": 2279,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107912,
+   "s256": 18002,
+   "s128": 6326,
+   "glb": 145496
+  },
+  "ms": 666
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "name": "Charlotte Motor Speedway",
+  "capacity": 95000,
+  "cells": 1989,
+  "studs": 1989,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 89878,
+   "s256": 16114,
+   "s128": 5524,
+   "glb": 97724
+  },
+  "ms": 536
+ },
+ {
+  "slug": "sanford-stadium",
+  "name": "Sanford Stadium",
+  "capacity": 93033,
+  "cells": 2316,
+  "studs": 2316,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108346,
+   "s256": 19360,
+   "s128": 6870,
+   "glb": 169500
+  },
+  "ms": 630
+ },
+ {
+  "slug": "cotton-bowl",
+  "name": "Cotton Bowl",
+  "capacity": 92100,
+  "cells": 2497,
+  "studs": 2497,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 131416,
+   "s256": 23786,
+   "s128": 8052,
+   "glb": 182868
+  },
+  "ms": 660
+ },
+ {
+  "slug": "barber-motorsports-park",
+  "name": "Barber Motorsports Park",
+  "capacity": 90000,
+  "cells": 1292,
+  "studs": 1292,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 91196,
+   "s256": 18474,
+   "s128": 6924,
+   "glb": 81664
+  },
+  "ms": 486
+ },
+ {
+  "slug": "ben-hill-griffin-stadium",
+  "name": "Ben Hill Griffin Stadium",
+  "capacity": 88548,
+  "cells": 2150,
+  "studs": 2150,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105706,
+   "s256": 17884,
+   "s128": 6478,
+   "glb": 149248
+  },
+  "ms": 679
+ },
+ {
+  "slug": "jordan-hare-stadium",
+  "name": "Jordan–Hare Stadium",
+  "capacity": 88043,
+  "cells": 2261,
+  "studs": 2261,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 116636,
+   "s256": 20680,
+   "s128": 7174,
+   "glb": 189628
+  },
+  "ms": 603
+ },
+ {
+  "slug": "memorial-stadium-ne",
+  "name": "Memorial Stadium",
+  "capacity": 85458,
+  "cells": 2252,
+  "studs": 2252,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 125734,
+   "s256": 21458,
+   "s128": 7388,
+   "glb": 147288
+  },
+  "ms": 616
+ },
+ {
+  "slug": "metlife-stadium",
+  "name": "MetLife Stadium",
+  "capacity": 82500,
+  "cells": 2393,
+  "studs": 2393,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110248,
+   "s256": 19578,
+   "s128": 6838,
+   "glb": 162772
+  },
+  "ms": 573
+ },
+ {
+  "slug": "memorial-stadium-sc",
+  "name": "Memorial Stadium",
+  "capacity": 81500,
+  "cells": 2410,
+  "studs": 2410,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108530,
+   "s256": 18052,
+   "s128": 6438,
+   "glb": 170532
+  },
+  "ms": 550
+ },
+ {
+  "slug": "lambeau-field",
+  "name": "Lambeau Field",
+  "capacity": 81441,
+  "cells": 1970,
+  "studs": 1970,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 132404,
+   "s256": 23964,
+   "s128": 8208,
+   "glb": 129888
+  },
+  "ms": 641
+ },
+ {
+  "slug": "rose-bowl",
+  "name": "Rose Bowl",
+  "capacity": 81258,
+  "cells": 2246,
+  "studs": 2246,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 127860,
+   "s256": 21522,
+   "s128": 7330,
+   "glb": 165356
+  },
+  "ms": 596
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "name": "Gaylord Family Oklahoma Memorial Stadium",
+  "capacity": 80126,
+  "cells": 2307,
+  "studs": 2307,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108844,
+   "s256": 18562,
+   "s128": 6652,
+   "glb": 132052
+  },
+  "ms": 566
+ },
+ {
+  "slug": "atandt-stadium",
+  "name": "AT&T Stadium",
+  "capacity": 80000,
+  "cells": 1934,
+  "studs": 1934,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 78906,
+   "s256": 14212,
+   "s128": 5132,
+   "glb": 131896
+  },
+  "ms": 585
+ },
+ {
+  "slug": "las-vegas-motor-speedway",
+  "name": "Las Vegas Motor Speedway",
+  "capacity": 80000,
+  "cells": 2126,
+  "studs": 2126,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 97078,
+   "s256": 18630,
+   "s128": 6164,
+   "glb": 101080
+  },
+  "ms": 487
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "name": "Talladega Superspeedway",
+  "capacity": 80000,
+  "cells": 1499,
+  "studs": 1499,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 83730,
+   "s256": 16416,
+   "s128": 5792,
+   "glb": 65164
+  },
+  "ms": 437
+ },
+ {
+  "slug": "notre-dame-stadium",
+  "name": "Notre Dame Stadium",
+  "capacity": 77622,
+  "cells": 2183,
+  "studs": 2183,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101430,
+   "s256": 17502,
+   "s128": 6138,
+   "glb": 115864
+  },
+  "ms": 586
+ },
+ {
+  "slug": "williams-brice-stadium",
+  "name": "Williams–Brice Stadium",
+  "capacity": 77559,
+  "cells": 1362,
+  "studs": 1362,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101240,
+   "s256": 21384,
+   "s128": 7718,
+   "glb": 107052
+  },
+  "ms": 462
+ },
+ {
+  "slug": "los-angeles-memorial-coliseum",
+  "name": "Los Angeles Memorial Coliseum",
+  "capacity": 77500,
+  "cells": 2054,
+  "studs": 2054,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 100872,
+   "s256": 16896,
+   "s128": 6188,
+   "glb": 112972
+  },
+  "ms": 506
+ },
+ {
+  "slug": "pocono-raceway",
+  "name": "Pocono Raceway",
+  "capacity": 76812,
+  "cells": 1809,
+  "studs": 1809,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105884,
+   "s256": 21308,
+   "s128": 7242,
+   "glb": 90152
+  },
+  "ms": 469
+ },
+ {
+  "slug": "arrowhead-stadium",
+  "name": "Arrowhead Stadium",
+  "capacity": 76416,
+  "cells": 2544,
+  "studs": 2544,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 134910,
+   "s256": 22094,
+   "s128": 7544,
+   "glb": 186112
+  },
+  "ms": 613
+ },
+ {
+  "slug": "razorback-stadium",
+  "name": "Razorback Stadium",
+  "capacity": 76212,
+  "cells": 2938,
+  "studs": 2938,
+  "usedHull": true,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 109592,
+   "s256": 16928,
+   "s128": 6044,
+   "glb": 161196
+  },
+  "ms": 556
+ },
+ {
+  "slug": "empower-field-at-mile-high",
+  "name": "Empower Field at Mile High",
+  "capacity": 76125,
+  "cells": 2632,
+  "studs": 2632,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 115720,
+   "s256": 19308,
+   "s128": 6790,
+   "glb": 170184
+  },
+  "ms": 599
+ },
+ {
+  "slug": "camp-randall-stadium",
+  "name": "Camp Randall Stadium",
+  "capacity": 76030,
+  "cells": 2214,
+  "studs": 2214,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 103176,
+   "s256": 18226,
+   "s128": 6438,
+   "glb": 136320
+  },
+  "ms": 599
+ },
+ {
+  "slug": "bank-of-america-stadium",
+  "name": "Bank of America Stadium",
+  "capacity": 75525,
+  "cells": 2426,
+  "studs": 2426,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 127334,
+   "s256": 23420,
+   "s128": 7844,
+   "glb": 175192
+  },
+  "ms": 585
+ },
+ {
+  "slug": "mid-ohio-sports-car-course",
+  "name": "Mid-Ohio Sports Car Course",
+  "capacity": 75000,
+  "cells": 2190,
+  "studs": 2190,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88170,
+   "s256": 15626,
+   "s128": 5574,
+   "glb": 96980
+  },
+  "ms": 477
+ },
+ {
+  "slug": "texas-motor-speedway",
+  "name": "Texas Motor Speedway",
+  "capacity": 75000,
+  "cells": 1650,
+  "studs": 1650,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88478,
+   "s256": 17250,
+   "s128": 5908,
+   "glb": 72640
+  },
+  "ms": 462
+ },
+ {
+  "slug": "spartan-stadium",
+  "name": "Spartan Stadium",
+  "capacity": 74866,
+  "cells": 2113,
+  "studs": 2113,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99086,
+   "s256": 17112,
+   "s128": 6216,
+   "glb": 144716
+  },
+  "ms": 578
+ },
+ {
+  "slug": "caesars-superdome",
+  "name": "Caesars Superdome",
+  "capacity": 73208,
+  "cells": 2550,
+  "studs": 2550,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105664,
+   "s256": 18438,
+   "s128": 5900,
+   "glb": 120760
+  },
+  "ms": 625
+ },
+ {
+  "slug": "reliant-stadium",
+  "name": "Reliant Stadium",
+  "capacity": 72220,
+  "cells": 2186,
+  "studs": 2186,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 91496,
+   "s256": 16372,
+   "s128": 5932,
+   "glb": 116440
+  },
+  "ms": 605
+ },
+ {
+  "slug": "husky-stadium",
+  "name": "Husky Stadium",
+  "capacity": 72132,
+  "cells": 2360,
+  "studs": 2360,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106640,
+   "s256": 18432,
+   "s128": 6472,
+   "glb": 167912
+  },
+  "ms": 536
+ },
+ {
+  "slug": "legion-field",
+  "name": "Legion Field",
+  "capacity": 71594,
+  "cells": 2747,
+  "studs": 2747,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92978,
+   "s256": 15498,
+   "s128": 5768,
+   "glb": 167156
+  },
+  "ms": 699
+ },
+ {
+  "slug": "atlanta-motor-speedway",
+  "name": "Atlanta Motor Speedway",
+  "capacity": 71000,
+  "cells": 1592,
+  "studs": 1592,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 73322,
+   "s256": 14214,
+   "s128": 5166,
+   "glb": 54348
+  },
+  "ms": 507
+ },
+ {
+  "slug": "mercedes-benz-stadium",
+  "name": "Mercedes-Benz Stadium",
+  "capacity": 71000,
+  "cells": 2271,
+  "studs": 2271,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 97896,
+   "s256": 17482,
+   "s128": 6156,
+   "glb": 140172
+  },
+  "ms": 588
+ },
+ {
+  "slug": "mandt-bank-stadium",
+  "name": "M&T Bank Stadium",
+  "capacity": 70257,
+  "cells": 2192,
+  "studs": 2192,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 98864,
+   "s256": 17362,
+   "s128": 6270,
+   "glb": 172656
+  },
+  "ms": 523
+ },
+ {
+  "slug": "sofi-stadium",
+  "name": "SoFi Stadium",
+  "capacity": 70240,
+  "cells": 2251,
+  "studs": 2251,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 145154,
+   "s256": 24952,
+   "s128": 8482,
+   "glb": 157920
+  },
+  "ms": 501
+ },
+ {
+  "slug": "kinnick-stadium",
+  "name": "Kinnick Stadium",
+  "capacity": 69250,
+  "cells": 2513,
+  "studs": 2513,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108930,
+   "s256": 18158,
+   "s128": 6398,
+   "glb": 123612
+  },
+  "ms": 535
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "name": "Raymond James Stadium",
+  "capacity": 69218,
+  "cells": 2283,
+  "studs": 2283,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 90978,
+   "s256": 15926,
+   "s128": 5850,
+   "glb": 149616
+  },
+  "ms": 1348
+ },
+ {
+  "slug": "nissan-stadium",
+  "name": "Nissan Stadium",
+  "capacity": 69143,
+  "cells": 1773,
+  "studs": 1773,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110706,
+   "s256": 19914,
+   "s128": 6848,
+   "glb": 134420
+  },
+  "ms": 409
+ },
+ {
+  "slug": "levi-s-stadium",
+  "name": "Levi's Stadium",
+  "capacity": 68500,
+  "cells": 1669,
+  "studs": 1669,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110494,
+   "s256": 21108,
+   "s128": 7176,
+   "glb": 127592
+  },
+  "ms": 405
+ },
+ {
+  "slug": "acrisure-stadium",
+  "name": "Acrisure Stadium",
+  "capacity": 68400,
+  "cells": 2299,
+  "studs": 2299,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107384,
+   "s256": 18362,
+   "s128": 6594,
+   "glb": 154496
+  },
+  "ms": 616
+ },
+ {
+  "slug": "lumen-field",
+  "name": "Lumen Field",
+  "capacity": 68000,
+  "cells": 2136,
+  "studs": 2136,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95334,
+   "s256": 16334,
+   "s128": 5770,
+   "glb": 129928
+  },
+  "ms": 522
+ },
+ {
+  "slug": "everbank-stadium",
+  "name": "EverBank Stadium",
+  "capacity": 67814,
+  "cells": 2362,
+  "studs": 2362,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93294,
+   "s256": 16694,
+   "s128": 6002,
+   "glb": 155348
+  },
+  "ms": 543
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "name": "Lincoln Financial Field",
+  "capacity": 67594,
+  "cells": 2251,
+  "studs": 2251,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 100592,
+   "s256": 17198,
+   "s128": 6216,
+   "glb": 145492
+  },
+  "ms": 541
+ },
+ {
+  "slug": "huntington-bank-field",
+  "name": "Huntington Bank Field",
+  "capacity": 67431,
+  "cells": 2259,
+  "studs": 2259,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114618,
+   "s256": 19710,
+   "s128": 6662,
+   "glb": 163364
+  },
+  "ms": 606
+ },
+ {
+  "slug": "doak-campbell-stadium",
+  "name": "Doak Campbell Stadium",
+  "capacity": 67277,
+  "cells": 2192,
+  "studs": 2192,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 135058,
+   "s256": 24846,
+   "s128": 8192,
+   "glb": 169400
+  },
+  "ms": 690
+ },
+ {
+  "slug": "lucas-oil-stadium",
+  "name": "Lucas Oil Stadium",
+  "capacity": 67000,
+  "cells": 1893,
+  "studs": 1893,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 68980,
+   "s256": 11848,
+   "s128": 4598,
+   "glb": 87644
+  },
+  "ms": 529
+ },
+ {
+  "slug": "soldier-field",
+  "name": "Soldier Field",
+  "capacity": 66944,
+  "cells": 1664,
+  "studs": 1664,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 86700,
+   "s256": 16128,
+   "s128": 5840,
+   "glb": 94656
+  },
+  "ms": 483
+ },
+ {
+  "slug": "u-s-bank-stadium",
+  "name": "U.S. Bank Stadium",
+  "capacity": 66467,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 99108,
+   "s256": 16668,
+   "s128": 6054,
+   "glb": 110616
+  },
+  "ms": 501
+ },
+ {
+  "slug": "lane-stadium",
+  "name": "Lane Stadium",
+  "capacity": 65632,
+  "cells": 2556,
+  "studs": 2556,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108012,
+   "s256": 17766,
+   "s128": 6330,
+   "glb": 178220
+  },
+  "ms": 527
+ },
+ {
+  "slug": "paycor-stadium",
+  "name": "Paycor Stadium",
+  "capacity": 65515,
+  "cells": 2578,
+  "studs": 2578,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 131190,
+   "s256": 23088,
+   "s128": 7670,
+   "glb": 159784
+  },
+  "ms": 540
+ },
+ {
+  "slug": "allegiant-stadium",
+  "name": "Allegiant Stadium",
+  "capacity": 65000,
+  "cells": 2396,
+  "studs": 2396,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105894,
+   "s256": 17924,
+   "s128": 6128,
+   "glb": 151720
+  },
+  "ms": 575
+ },
+ {
+  "slug": "ford-field",
+  "name": "Ford Field",
+  "capacity": 65000,
+  "cells": 2001,
+  "studs": 2001,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93532,
+   "s256": 16540,
+   "s128": 5600,
+   "glb": 115836
+  },
+  "ms": 482
+ },
+ {
+  "slug": "hard-rock-stadium",
+  "name": "Hard Rock Stadium",
+  "capacity": 64767,
+  "cells": 1830,
+  "studs": 1830,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 116456,
+   "s256": 20738,
+   "s128": 7148,
+   "glb": 153408
+  },
+  "ms": 479
+ },
+ {
+  "slug": "gillette-stadium",
+  "name": "Gillette Stadium",
+  "capacity": 64628,
+  "cells": 2472,
+  "studs": 2472,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106676,
+   "s256": 18630,
+   "s128": 6646,
+   "glb": 166452
+  },
+  "ms": 548
+ },
+ {
+  "slug": "vaught-hemingway-stadium",
+  "name": "Vaught–Hemingway Stadium",
+  "capacity": 64038,
+  "cells": 2387,
+  "studs": 2387,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 112302,
+   "s256": 19596,
+   "s128": 6694,
+   "glb": 173772
+  },
+  "ms": 533
+ },
+ {
+  "slug": "alamodome",
+  "name": "Alamodome",
+  "capacity": 64000,
+  "cells": 2189,
+  "studs": 2189,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 90218,
+   "s256": 14612,
+   "s128": 5066,
+   "glb": 89280
+  },
+  "ms": 451
+ },
+ {
+  "slug": "northwest-stadium",
+  "name": "Northwest Stadium",
+  "capacity": 64000,
+  "cells": 2090,
+  "studs": 2090,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 121762,
+   "s256": 21996,
+   "s128": 7504,
+   "glb": 163072
+  },
+  "ms": 499
+ },
+ {
+  "slug": "faurot-field",
+  "name": "Faurot Field",
+  "capacity": 63609,
+  "cells": 1367,
+  "studs": 1367,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 77842,
+   "s256": 13776,
+   "s128": 5132,
+   "glb": 99416
+  },
+  "ms": 382
+ },
+ {
+  "slug": "state-farm-stadium",
+  "name": "State Farm Stadium",
+  "capacity": 63400,
+  "cells": 1780,
+  "studs": 1780,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 61840,
+   "s256": 11090,
+   "s128": 4266,
+   "glb": 90208
+  },
+  "ms": 463
+ },
+ {
+  "slug": "lavell-edwards-stadium",
+  "name": "LaVell Edwards Stadium",
+  "capacity": 62073,
+  "cells": 1598,
+  "studs": 1598,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 76022,
+   "s256": 13210,
+   "s128": 4998,
+   "glb": 55020
+  },
+  "ms": 419
+ },
+ {
+  "slug": "jack-trice-stadium",
+  "name": "Jack Trice Stadium",
+  "capacity": 61500,
+  "cells": 2159,
+  "studs": 2159,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 112070,
+   "s256": 18672,
+   "s128": 6564,
+   "glb": 137380
+  },
+  "ms": 614
+ },
+ {
+  "slug": "scott-stadium",
+  "name": "Scott Stadium",
+  "capacity": 61500,
+  "cells": 2039,
+  "studs": 2039,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 140354,
+   "s256": 27094,
+   "s128": 9006,
+   "glb": 166904
+  },
+  "ms": 454
+ },
+ {
+  "slug": "yale-bowl",
+  "name": "Yale Bowl",
+  "capacity": 61446,
+  "cells": 2414,
+  "studs": 2414,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 134676,
+   "s256": 24646,
+   "s128": 8128,
+   "glb": 169328
+  },
+  "ms": 453
+ },
+ {
+  "slug": "ross-ade-stadium",
+  "name": "Ross–Ade Stadium",
+  "capacity": 61441,
+  "cells": 1847,
+  "studs": 1847,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92992,
+   "s256": 16974,
+   "s128": 6162,
+   "glb": 124996
+  },
+  "ms": 407
+ },
+ {
+  "slug": "kroger-field",
+  "name": "Kroger Field",
+  "capacity": 61000,
+  "cells": 1971,
+  "studs": 1971,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 111206,
+   "s256": 20416,
+   "s128": 7148,
+   "glb": 161856
+  },
+  "ms": 430
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "name": "L&N Federal Credit Union Stadium",
+  "capacity": 60800,
+  "cells": 2301,
+  "studs": 2301,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 85818,
+   "s256": 14752,
+   "s128": 5574,
+   "glb": 132136
+  },
+  "ms": 452
+ },
+ {
+  "slug": "gies-memorial-stadium",
+  "name": "Gies Memorial Stadium",
+  "capacity": 60670,
+  "cells": 2985,
+  "studs": 2985,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101062,
+   "s256": 15638,
+   "s128": 5690,
+   "glb": 142220
+  },
+  "ms": 469
+ },
+ {
+  "slug": "mississippi-veterans-memorial-stadium",
+  "name": "Mississippi Veterans Memorial Stadium",
+  "capacity": 60492,
+  "cells": 2272,
+  "studs": 2272,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 139286,
+   "s256": 25042,
+   "s128": 8300,
+   "glb": 179464
+  },
+  "ms": 447
+ },
+ {
+  "slug": "davis-wade-stadium",
+  "name": "Davis Wade Stadium",
+  "capacity": 60311,
+  "cells": 2137,
+  "studs": 2137,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101528,
+   "s256": 17696,
+   "s128": 6358,
+   "glb": 159308
+  },
+  "ms": 413
+ },
+ {
+  "slug": "galaxy-stadium",
+  "name": "Galaxy Stadium",
+  "capacity": 60229,
+  "cells": 2437,
+  "studs": 2437,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95086,
+   "s256": 16338,
+   "s128": 5920,
+   "glb": 138180
+  },
+  "ms": 426
+ },
+ {
+  "slug": "camping-world-stadium",
+  "name": "Camping World Stadium",
+  "capacity": 60219,
+  "cells": 3021,
+  "studs": 3021,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 90086,
+   "s256": 14294,
+   "s128": 5238,
+   "glb": 146308
+  },
+  "ms": 524
+ },
+ {
+  "slug": "autzen-stadium",
+  "name": "Autzen Stadium",
+  "capacity": 60129,
+  "cells": 2424,
+  "studs": 2424,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 119822,
+   "s256": 19846,
+   "s128": 6738,
+   "glb": 162920
+  },
+  "ms": 464
+ },
+ {
+  "slug": "highmark-stadium",
+  "name": "Highmark Stadium",
+  "capacity": 60108,
+  "cells": 2363,
+  "studs": 2363,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 113162,
+   "s256": 19938,
+   "s128": 6832,
+   "glb": 149256
+  },
+  "ms": 432
+ },
+ {
+  "slug": "milan-puskar-stadium",
+  "name": "Milan Puskar Stadium",
+  "capacity": 60000,
+  "cells": 1966,
+  "studs": 1966,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 124672,
+   "s256": 22820,
+   "s128": 7846,
+   "glb": 154796
+  },
+  "ms": 461
+ },
+ {
+  "slug": "gateway-motorsports-park",
+  "name": "Gateway Motorsports Park",
+  "capacity": 57000,
+  "cells": 1592,
+  "studs": 1592,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 74854,
+   "s256": 14422,
+   "s128": 5234,
+   "glb": 53636
+  },
+  "ms": 318
+ },
+ {
+  "slug": "carter-finley-stadium",
+  "name": "Carter–Finley Stadium",
+  "capacity": 56919,
+  "cells": 2086,
+  "studs": 2086,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 112490,
+   "s256": 20686,
+   "s128": 7060,
+   "glb": 155012
+  },
+  "ms": 429
+ },
+ {
+  "slug": "dodger-stadium",
+  "name": "Dodger Stadium",
+  "capacity": 56000,
+  "cells": 2222,
+  "studs": 2222,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99984,
+   "s256": 18568,
+   "s128": 6258,
+   "glb": 109408
+  },
+  "ms": 553
+ },
+ {
+  "slug": "michigan-international-speedway",
+  "name": "Michigan International Speedway",
+  "capacity": 56000,
+  "cells": 1749,
+  "studs": 1749,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95092,
+   "s256": 18934,
+   "s128": 6592,
+   "glb": 83048
+  },
+  "ms": 357
+ },
+ {
+  "slug": "rice-eccles-stadium",
+  "name": "Rice–Eccles Stadium",
+  "capacity": 54383,
+  "cells": 2563,
+  "studs": 2563,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 96046,
+   "s256": 16210,
+   "s128": 5776,
+   "glb": 134624
+  },
+  "ms": 425
+ },
+ {
+  "slug": "dover-motor-speedway",
+  "name": "Dover Motor Speedway",
+  "capacity": 54000,
+  "cells": 1751,
+  "studs": 1751,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92980,
+   "s256": 18388,
+   "s128": 6262,
+   "glb": 65816
+  },
+  "ms": 352
+ },
+ {
+  "slug": "mountain-america-stadium",
+  "name": "Mountain America Stadium",
+  "capacity": 53599,
+  "cells": 2150,
+  "studs": 2150,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 116340,
+   "s256": 20448,
+   "s128": 7208,
+   "glb": 158468
+  },
+  "ms": 440
+ },
+ {
+  "slug": "memorial-stadium-in",
+  "name": "Memorial Stadium",
+  "capacity": 53524,
+  "cells": 1990,
+  "studs": 1990,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105952,
+   "s256": 18848,
+   "s128": 6576,
+   "glb": 130912
+  },
+  "ms": 402
+ },
+ {
+  "slug": "amon-g-carter-stadium",
+  "name": "Amon G. Carter Stadium",
+  "capacity": 53294,
+  "cells": 2003,
+  "studs": 2003,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 111730,
+   "s256": 20046,
+   "s128": 7040,
+   "glb": 157996
+  },
+  "ms": 407
+ },
+ {
+  "slug": "franklin-field",
+  "name": "Franklin Field",
+  "capacity": 52958,
+  "cells": 2110,
+  "studs": 2110,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 147930,
+   "s256": 28562,
+   "s128": 9248,
+   "glb": 164656
+  },
+  "ms": 421
+ },
+ {
+  "slug": "shi-stadium",
+  "name": "SHI Stadium",
+  "capacity": 52454,
+  "cells": 2382,
+  "studs": 2382,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102892,
+   "s256": 18138,
+   "s128": 6452,
+   "glb": 164072
+  },
+  "ms": 426
+ },
+ {
+  "slug": "california-memorial-stadium",
+  "name": "California Memorial Stadium",
+  "capacity": 52428,
+  "cells": 2487,
+  "studs": 2487,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 150794,
+   "s256": 26596,
+   "s128": 8674,
+   "glb": 171636
+  },
+  "ms": 587
+ },
+ {
+  "slug": "boone-pickens-stadium",
+  "name": "Boone Pickens Stadium",
+  "capacity": 52305,
+  "cells": 2557,
+  "studs": 2557,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 98890,
+   "s256": 16774,
+   "s128": 6128,
+   "glb": 138788
+  },
+  "ms": 565
+ },
+ {
+  "slug": "bobby-dodd-stadium",
+  "name": "Bobby Dodd Stadium",
+  "capacity": 52113,
+  "cells": 1886,
+  "studs": 1886,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95472,
+   "s256": 17644,
+   "s128": 6574,
+   "glb": 91620
+  },
+  "ms": 456
+ },
+ {
+  "slug": "dowdy-ficklen-stadium",
+  "name": "Dowdy–Ficklen Stadium",
+  "capacity": 51000,
+  "cells": 2207,
+  "studs": 2207,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 115546,
+   "s256": 19682,
+   "s128": 6868,
+   "glb": 167380
+  },
+  "ms": 540
+ },
+ {
+  "slug": "huntington-bank-stadium",
+  "name": "Huntington Bank Stadium",
+  "capacity": 50805,
+  "cells": 2095,
+  "studs": 2095,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106832,
+   "s256": 18400,
+   "s128": 6464,
+   "glb": 142388
+  },
+  "ms": 527
+ },
+ {
+  "slug": "casino-del-sol-stadium",
+  "name": "Casino Del Sol Stadium",
+  "capacity": 50782,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 92446,
+   "s256": 16104,
+   "s128": 5958,
+   "glb": 109392
+  },
+  "ms": 463
+ },
+ {
+  "slug": "kenan-stadium",
+  "name": "Kenan Stadium",
+  "capacity": 50500,
+  "cells": 2034,
+  "studs": 2034,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114538,
+   "s256": 21398,
+   "s128": 7614,
+   "glb": 158244
+  },
+  "ms": 520
+ },
+ {
+  "slug": "stanford-stadium",
+  "name": "Stanford Stadium",
+  "capacity": 50424,
+  "cells": 2231,
+  "studs": 2231,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 130696,
+   "s256": 23420,
+   "s128": 7880,
+   "glb": 161500
+  },
+  "ms": 533
+ },
+ {
+  "slug": "folsom-field",
+  "name": "Folsom Field",
+  "capacity": 50183,
+  "cells": 1624,
+  "studs": 1624,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 72150,
+   "s256": 12374,
+   "s128": 4718,
+   "glb": 53608
+  },
+  "ms": 430
+ },
+ {
+  "slug": "bill-snyder-family-football-stadium",
+  "name": "Bill Snyder Family Football Stadium",
+  "capacity": 50000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 90522,
+   "s256": 15664,
+   "s128": 5784,
+   "glb": 110528
+  },
+  "ms": 460
+ },
+ {
+  "slug": "independence-stadium",
+  "name": "Independence Stadium",
+  "capacity": 50000,
+  "cells": 2016,
+  "studs": 2016,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92896,
+   "s256": 17214,
+   "s128": 6208,
+   "glb": 123536
+  },
+  "ms": 576
+ },
+ {
+  "slug": "richmond-raceway",
+  "name": "Richmond Raceway",
+  "capacity": 50000,
+  "cells": 1804,
+  "studs": 1804,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 83506,
+   "s256": 15832,
+   "s128": 5360,
+   "glb": 74804
+  },
+  "ms": 504
+ },
+ {
+  "slug": "chase-field",
+  "name": "Chase Field",
+  "capacity": 48330,
+  "cells": 1989,
+  "studs": 1989,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 82912,
+   "s256": 14206,
+   "s128": 5192,
+   "glb": 81740
+  },
+  "ms": 421
+ },
+ {
+  "slug": "kansas-speedway",
+  "name": "Kansas Speedway",
+  "capacity": 48000,
+  "cells": 1832,
+  "studs": 1832,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88046,
+   "s256": 16046,
+   "s128": 5454,
+   "glb": 86496
+  },
+  "ms": 392
+ },
+ {
+  "slug": "t-mobile-park",
+  "name": "T-Mobile Park",
+  "capacity": 47368,
+  "cells": 2607,
+  "studs": 2607,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 77304,
+   "s256": 12730,
+   "s128": 4704,
+   "glb": 97484
+  },
+  "ms": 822
+ },
+ {
+  "slug": "protective-stadium",
+  "name": "Protective Stadium",
+  "capacity": 47100,
+  "cells": 2212,
+  "studs": 2212,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114524,
+   "s256": 19594,
+   "s128": 6826,
+   "glb": 169800
+  },
+  "ms": 542
+ },
+ {
+  "slug": "chicagoland-speedway",
+  "name": "Chicagoland Speedway",
+  "capacity": 47000,
+  "cells": 2243,
+  "studs": 2243,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 78276,
+   "s256": 13090,
+   "s128": 4624,
+   "glb": 93624
+  },
+  "ms": 470
+ },
+ {
+  "slug": "darlington-raceway",
+  "name": "Darlington Raceway",
+  "capacity": 47000,
+  "cells": 1543,
+  "studs": 1543,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 84260,
+   "s256": 17012,
+   "s128": 6032,
+   "glb": 64612
+  },
+  "ms": 748
+ },
+ {
+  "slug": "first-community-stadium",
+  "name": "First Community Stadium",
+  "capacity": 47000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 93584,
+   "s256": 15930,
+   "s128": 5862,
+   "glb": 109464
+  },
+  "ms": 1178
+ },
+ {
+  "slug": "coors-field",
+  "name": "Coors Field",
+  "capacity": 46897,
+  "cells": 1984,
+  "studs": 1984,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 96572,
+   "s256": 19872,
+   "s128": 6606,
+   "glb": 112252
+  },
+  "ms": 1118
+ },
+ {
+  "slug": "yankee-stadium",
+  "name": "Yankee Stadium",
+  "capacity": 46537,
+  "cells": 2230,
+  "studs": 2230,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 95542,
+   "s256": 17778,
+   "s128": 6040,
+   "glb": 113164
+  },
+  "ms": 1078
+ },
+ {
+  "slug": "secu-stadium",
+  "name": "SECU Stadium",
+  "capacity": 46185,
+  "cells": 2165,
+  "studs": 2165,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 109104,
+   "s256": 20550,
+   "s128": 6924,
+   "glb": 159852
+  },
+  "ms": 2150
+ },
+ {
+  "slug": "sun-bowl",
+  "name": "Sun Bowl",
+  "capacity": 45971,
+  "cells": 2511,
+  "studs": 2511,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 122542,
+   "s256": 20248,
+   "s128": 6962,
+   "glb": 169280
+  },
+  "ms": 1322
+ },
+ {
+  "slug": "acrisure-bounce-house",
+  "name": "Acrisure Bounce House",
+  "capacity": 45906,
+  "cells": 1994,
+  "studs": 1994,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 96532,
+   "s256": 17890,
+   "s128": 6318,
+   "glb": 112396
+  },
+  "ms": 1139
+ },
+ {
+  "slug": "simmons-bank-liberty-stadium",
+  "name": "Simmons Bank Liberty Stadium",
+  "capacity": 45632,
+  "cells": 2598,
+  "studs": 2598,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106590,
+   "s256": 17174,
+   "s128": 5972,
+   "glb": 178448
+  },
+  "ms": 1029
+ },
+ {
+  "slug": "angel-stadium",
+  "name": "Angel Stadium",
+  "capacity": 45517,
+  "cells": 2233,
+  "studs": 2233,
+  "usedHull": true,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102770,
+   "s256": 18282,
+   "s128": 6188,
+   "glb": 101884
+  },
+  "ms": 998
+ },
+ {
+  "slug": "mclane-stadium",
+  "name": "McLane Stadium",
+  "capacity": 45140,
+  "cells": 2309,
+  "studs": 2309,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 117726,
+   "s256": 19960,
+   "s128": 6922,
+   "glb": 150164
+  },
+  "ms": 768
+ },
+ {
+  "slug": "alumni-stadium",
+  "name": "Alumni Stadium",
+  "capacity": 44500,
+  "cells": 1972,
+  "studs": 1972,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101644,
+   "s256": 18942,
+   "s128": 6852,
+   "glb": 114752
+  },
+  "ms": 860
+ },
+ {
+  "slug": "busch-stadium",
+  "name": "Busch Stadium",
+  "capacity": 44383,
+  "cells": 2268,
+  "studs": 2268,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110114,
+   "s256": 19526,
+   "s128": 6850,
+   "glb": 108760
+  },
+  "ms": 750
+ },
+ {
+  "slug": "martinsville-speedway",
+  "name": "Martinsville Speedway",
+  "capacity": 44000,
+  "cells": 1649,
+  "studs": 1649,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92340,
+   "s256": 17020,
+   "s128": 6098,
+   "glb": 77392
+  },
+  "ms": 1384
+ },
+ {
+  "slug": "new-hampshire-motor-speedway",
+  "name": "New Hampshire Motor Speedway",
+  "capacity": 44000,
+  "cells": 1063,
+  "studs": 1063,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 81050,
+   "s256": 16854,
+   "s128": 6448,
+   "glb": 53700
+  },
+  "ms": 819
+ },
+ {
+  "slug": "sonoma-raceway",
+  "name": "Sonoma Raceway",
+  "capacity": 44000,
+  "cells": 1428,
+  "studs": 1428,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 122956,
+   "s256": 27608,
+   "s128": 9402,
+   "glb": 87500
+  },
+  "ms": 1053
+ },
+ {
+  "slug": "great-american-ball-park",
+  "name": "Great American Ball Park",
+  "capacity": 43500,
+  "cells": 2535,
+  "studs": 2535,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101332,
+   "s256": 17546,
+   "s128": 5930,
+   "glb": 109088
+  },
+  "ms": 1229
+ },
+ {
+  "slug": "homestead-miami-speedway",
+  "name": "Homestead–Miami Speedway",
+  "capacity": 43000,
+  "cells": 2161,
+  "studs": 2161,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 79554,
+   "s256": 13312,
+   "s128": 4766,
+   "glb": 88276
+  },
+  "ms": 996
+ },
+ {
+  "slug": "citizens-bank-park",
+  "name": "Citizens Bank Park",
+  "capacity": 42901,
+  "cells": 2352,
+  "studs": 2352,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 87118,
+   "s256": 14912,
+   "s128": 5412,
+   "glb": 119704
+  },
+  "ms": 897
+ },
+ {
+  "slug": "jma-wireless-dome",
+  "name": "JMA Wireless Dome",
+  "capacity": 42784,
+  "cells": 2549,
+  "studs": 2549,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106696,
+   "s256": 17092,
+   "s128": 5560,
+   "glb": 106564
+  },
+  "ms": 1072
+ },
+ {
+  "slug": "oriole-park-at-camden-yards",
+  "name": "Oriole Park at Camden Yards",
+  "capacity": 42455,
+  "cells": 1885,
+  "studs": 1885,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 86112,
+   "s256": 16230,
+   "s128": 5924,
+   "glb": 70656
+  },
+  "ms": 856
+ },
+ {
+  "slug": "phoenix-raceway",
+  "name": "Phoenix Raceway",
+  "capacity": 42000,
+  "cells": 1755,
+  "studs": 1755,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 86552,
+   "s256": 16746,
+   "s128": 5804,
+   "glb": 76796
+  },
+  "ms": 1016
+ },
+ {
+  "slug": "citi-field",
+  "name": "Citi Field",
+  "capacity": 41922,
+  "cells": 1703,
+  "studs": 1703,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 81744,
+   "s256": 15314,
+   "s128": 5622,
+   "glb": 95512
+  },
+  "ms": 1040
+ },
+ {
+  "slug": "american-family-field",
+  "name": "American Family Field",
+  "capacity": 41900,
+  "cells": 2239,
+  "studs": 2239,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 85770,
+   "s256": 14460,
+   "s128": 5002,
+   "glb": 105240
+  },
+  "ms": 963
+ },
+ {
+  "slug": "wrigley-field",
+  "name": "Wrigley Field",
+  "capacity": 41649,
+  "cells": 2952,
+  "studs": 2952,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94924,
+   "s256": 15226,
+   "s128": 5230,
+   "glb": 114932
+  },
+  "ms": 1054
+ },
+ {
+  "slug": "david-booth-kansas-memorial-stadium",
+  "name": "David Booth Kansas Memorial Stadium",
+  "capacity": 41525,
+  "cells": 1778,
+  "studs": 1778,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 85696,
+   "s256": 14894,
+   "s128": 5346,
+   "glb": 102740
+  },
+  "ms": 853
+ },
+ {
+  "slug": "nationals-park",
+  "name": "Nationals Park",
+  "capacity": 41373,
+  "cells": 2313,
+  "studs": 2313,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 74236,
+   "s256": 12434,
+   "s128": 4614,
+   "glb": 109448
+  },
+  "ms": 948
+ },
+ {
+  "slug": "oracle-park",
+  "name": "Oracle Park",
+  "capacity": 41331,
+  "cells": 1905,
+  "studs": 1905,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 98414,
+   "s256": 18954,
+   "s128": 6314,
+   "glb": 96528
+  },
+  "ms": 1146
+ },
+ {
+  "slug": "daikin-park",
+  "name": "Daikin Park",
+  "capacity": 41168,
+  "cells": 1762,
+  "studs": 1762,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 79008,
+   "s256": 15354,
+   "s128": 5706,
+   "glb": 105360
+  },
+  "ms": 1123
+ },
+ {
+  "slug": "truist-park",
+  "name": "Truist Park",
+  "capacity": 41108,
+  "cells": 2043,
+  "studs": 2043,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 90676,
+   "s256": 16454,
+   "s128": 5678,
+   "glb": 105456
+  },
+  "ms": 1108
+ },
+ {
+  "slug": "canvas-stadium",
+  "name": "Canvas Stadium",
+  "capacity": 41000,
+  "cells": 3024,
+  "studs": 3024,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93534,
+   "s256": 14350,
+   "s128": 5226,
+   "glb": 108756
+  },
+  "ms": 1146
+ },
+ {
+  "slug": "rate-field",
+  "name": "Rate Field",
+  "capacity": 40615,
+  "cells": 2505,
+  "studs": 2505,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 92096,
+   "s256": 16414,
+   "s128": 5696,
+   "glb": 119840
+  },
+  "ms": 1057
+ },
+ {
+  "slug": "globe-life-field",
+  "name": "Globe Life Field",
+  "capacity": 40300,
+  "cells": 1485,
+  "studs": 1485,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 69064,
+   "s256": 13590,
+   "s128": 5258,
+   "glb": 63688
+  },
+  "ms": 847
+ },
+ {
+  "slug": "kidd-brewer-stadium",
+  "name": "Kidd Brewer Stadium",
+  "capacity": 40168,
+  "cells": 2315,
+  "studs": 2315,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 109028,
+   "s256": 18876,
+   "s128": 6732,
+   "glb": 154876
+  },
+  "ms": 1095
+ },
+ {
+  "slug": "comerica-park",
+  "name": "Comerica Park",
+  "capacity": 40120,
+  "cells": 1936,
+  "studs": 1936,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88942,
+   "s256": 16294,
+   "s128": 5828,
+   "glb": 107944
+  },
+  "ms": 809
+ },
+ {
+  "slug": "pratt-and-whitney-stadium-at-rentschler-field",
+  "name": "Pratt & Whitney Stadium at Rentschler Field",
+  "capacity": 40000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 89932,
+   "s256": 15428,
+   "s128": 5684,
+   "glb": 110252
+  },
+  "ms": 872
+ },
+ {
+  "slug": "petco-park",
+  "name": "Petco Park",
+  "capacity": 39860,
+  "cells": 2282,
+  "studs": 2282,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88910,
+   "s256": 15726,
+   "s128": 5604,
+   "glb": 119704
+  },
+  "ms": 1052
+ },
+ {
+  "slug": "tdecu-stadium",
+  "name": "TDECU Stadium",
+  "capacity": 39700,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 93052,
+   "s256": 15708,
+   "s128": 5766,
+   "glb": 109808
+  },
+  "ms": 1142
+ },
+ {
+  "slug": "falcon-stadium",
+  "name": "Falcon Stadium",
+  "capacity": 39441,
+  "cells": 2289,
+  "studs": 2289,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114314,
+   "s256": 20082,
+   "s128": 6990,
+   "glb": 157520
+  },
+  "ms": 1163
+ },
+ {
+  "slug": "university-stadium",
+  "name": "University Stadium",
+  "capacity": 39224,
+  "cells": 2261,
+  "studs": 2261,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94502,
+   "s256": 15694,
+   "s128": 5752,
+   "glb": 119392
+  },
+  "ms": 1034
+ },
+ {
+  "slug": "watkins-glen-international",
+  "name": "Watkins Glen International",
+  "capacity": 38900,
+  "cells": 1328,
+  "studs": 1328,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 79784,
+   "s256": 16062,
+   "s128": 5964,
+   "glb": 44752
+  },
+  "ms": 872
+ },
+ {
+  "slug": "pnc-park",
+  "name": "PNC Park",
+  "capacity": 38747,
+  "cells": 2017,
+  "studs": 2017,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 91658,
+   "s256": 16528,
+   "s128": 5894,
+   "glb": 99784
+  },
+  "ms": 601
+ },
+ {
+  "slug": "target-field",
+  "name": "Target Field",
+  "capacity": 38544,
+  "cells": 1645,
+  "studs": 1645,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107458,
+   "s256": 21702,
+   "s128": 7362,
+   "glb": 96080
+  },
+  "ms": 441
+ },
+ {
+  "slug": "nippert-stadium",
+  "name": "Nippert Stadium",
+  "capacity": 38088,
+  "cells": 2199,
+  "studs": 2199,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107858,
+   "s256": 19888,
+   "s128": 7104,
+   "glb": 155840
+  },
+  "ms": 534
+ },
+ {
+  "slug": "kauffman-stadium",
+  "name": "Kauffman Stadium",
+  "capacity": 38053,
+  "cells": 2357,
+  "studs": 2357,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94936,
+   "s256": 16826,
+   "s128": 5776,
+   "glb": 115648
+  },
+  "ms": 494
+ },
+ {
+  "slug": "joan-c-edwards-stadium",
+  "name": "Joan C. Edwards Stadium",
+  "capacity": 38000,
+  "cells": 2392,
+  "studs": 2392,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99452,
+   "s256": 17134,
+   "s128": 6212,
+   "glb": 152752
+  },
+  "ms": 581
+ },
+ {
+  "slug": "milwaukee-mile",
+  "name": "Milwaukee Mile",
+  "capacity": 37000,
+  "cells": 1383,
+  "studs": 1383,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 78806,
+   "s256": 16074,
+   "s128": 5636,
+   "glb": 43180
+  },
+  "ms": 399
+ },
+ {
+  "slug": "loandepot-park",
+  "name": "LoanDepot Park",
+  "capacity": 36742,
+  "cells": 2039,
+  "studs": 2039,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 87608,
+   "s256": 15576,
+   "s128": 5618,
+   "glb": 91332
+  },
+  "ms": 458
+ },
+ {
+  "slug": "renasant-stadium",
+  "name": "Renasant Stadium",
+  "capacity": 36000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 96764,
+   "s256": 16704,
+   "s128": 6098,
+   "glb": 104964
+  },
+  "ms": 508
+ },
+ {
+  "slug": "michie-stadium",
+  "name": "Michie Stadium",
+  "capacity": 35647,
+  "cells": 1942,
+  "studs": 1942,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94800,
+   "s256": 16744,
+   "s128": 6020,
+   "glb": 110360
+  },
+  "ms": 519
+ },
+ {
+  "slug": "reser-stadium",
+  "name": "Reser Stadium",
+  "capacity": 35548,
+  "cells": 2172,
+  "studs": 2172,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 118118,
+   "s256": 21696,
+   "s128": 7564,
+   "glb": 161384
+  },
+  "ms": 600
+ },
+ {
+  "slug": "albertsons-stadium",
+  "name": "Albertsons Stadium",
+  "capacity": 35500,
+  "cells": 1916,
+  "studs": 1916,
+  "usedHull": true,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 108158,
+   "s256": 19606,
+   "s128": 6808,
+   "glb": 119040
+  },
+  "ms": 510
+ },
+ {
+  "slug": "kelly-shorts-stadium",
+  "name": "Kelly/Shorts Stadium",
+  "capacity": 35127,
+  "cells": 3044,
+  "studs": 3044,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106300,
+   "s256": 16472,
+   "s128": 5822,
+   "glb": 127760
+  },
+  "ms": 569
+ },
+ {
+  "slug": "wallace-wade-stadium",
+  "name": "Wallace Wade Stadium",
+  "capacity": 35018,
+  "cells": 2506,
+  "studs": 2506,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 117650,
+   "s256": 19356,
+   "s128": 6726,
+   "glb": 169256
+  },
+  "ms": 537
+ },
+ {
+  "slug": "firstbank-stadium",
+  "name": "FirstBank Stadium",
+  "capacity": 35000,
+  "cells": 2504,
+  "studs": 2504,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99964,
+   "s256": 17094,
+   "s128": 6138,
+   "glb": 153472
+  },
+  "ms": 527
+ },
+ {
+  "slug": "ryan-field",
+  "name": "Ryan Field",
+  "capacity": 35000,
+  "cells": 2340,
+  "studs": 2340,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 112726,
+   "s256": 21232,
+   "s128": 7434,
+   "glb": 156456
+  },
+  "ms": 521
+ },
+ {
+  "slug": "snapdragon-stadium",
+  "name": "Snapdragon Stadium",
+  "capacity": 35000,
+  "cells": 2505,
+  "studs": 2505,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88146,
+   "s256": 15104,
+   "s128": 5546,
+   "glb": 165756
+  },
+  "ms": 576
+ },
+ {
+  "slug": "navy-marine-corps-memorial-stadium",
+  "name": "Navy–Marine Corps Memorial Stadium",
+  "capacity": 34000,
+  "cells": 1498,
+  "studs": 1498,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 123332,
+   "s256": 25610,
+   "s128": 8672,
+   "glb": 117804
+  },
+  "ms": 519
+ },
+ {
+  "slug": "progressive-field",
+  "name": "Progressive Field",
+  "capacity": 33530,
+  "cells": 1726,
+  "studs": 1726,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 72908,
+   "s256": 13672,
+   "s128": 4950,
+   "glb": 99824
+  },
+  "ms": 499
+ },
+ {
+  "slug": "gerald-j-ford-stadium",
+  "name": "Gerald J. Ford Stadium",
+  "capacity": 33200,
+  "cells": 2089,
+  "studs": 2089,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 100114,
+   "s256": 17870,
+   "s128": 6416,
+   "glb": 143700
+  },
+  "ms": 555
+ },
+ {
+  "slug": "allegacy-federal-credit-union-stadium",
+  "name": "Allegacy Federal Credit Union Stadium",
+  "capacity": 31500,
+  "cells": 2009,
+  "studs": 2009,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105814,
+   "s256": 20166,
+   "s128": 6992,
+   "glb": 153804
+  },
+  "ms": 484
+ },
+ {
+  "slug": "veterans-memorial-stadium",
+  "name": "Veterans Memorial Stadium",
+  "capacity": 30470,
+  "cells": 1956,
+  "studs": 1956,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94186,
+   "s256": 17046,
+   "s128": 6114,
+   "glb": 117716
+  },
+  "ms": 454
+ },
+ {
+  "slug": "centennial-bank-stadium",
+  "name": "Centennial Bank Stadium",
+  "capacity": 30406,
+  "cells": 2430,
+  "studs": 2430,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 97260,
+   "s256": 17562,
+   "s128": 6454,
+   "glb": 137556
+  },
+  "ms": 510
+ },
+ {
+  "slug": "cajun-field",
+  "name": "Cajun Field",
+  "capacity": 30392,
+  "cells": 2341,
+  "studs": 2341,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 120406,
+   "s256": 22200,
+   "s128": 7508,
+   "glb": 179456
+  },
+  "ms": 498
+ },
+ {
+  "slug": "waldo-stadium",
+  "name": "Waldo Stadium",
+  "capacity": 30200,
+  "cells": 2034,
+  "studs": 2034,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 121536,
+   "s256": 21892,
+   "s128": 7240,
+   "glb": 167312
+  },
+  "ms": 495
+ },
+ {
+  "slug": "geodis-park",
+  "name": "Geodis Park",
+  "capacity": 30109,
+  "cells": 2025,
+  "studs": 2025,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102010,
+   "s256": 17900,
+   "s128": 6298,
+   "glb": 137940
+  },
+  "ms": 460
+ },
+ {
+  "slug": "datcu-stadium",
+  "name": "DATCU Stadium",
+  "capacity": 30100,
+  "cells": 2284,
+  "studs": 2284,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 83174,
+   "s256": 14818,
+   "s128": 5602,
+   "glb": 141232
+  },
+  "ms": 538
+ },
+ {
+  "slug": "flagler-credit-union-stadium",
+  "name": "Flagler Credit Union Stadium",
+  "capacity": 30000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 95486,
+   "s256": 16400,
+   "s128": 5960,
+   "glb": 108304
+  },
+  "ms": 561
+ },
+ {
+  "slug": "infocision-stadium-summa-field",
+  "name": "InfoCision Stadium–Summa Field",
+  "capacity": 30000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 91796,
+   "s256": 15946,
+   "s128": 5890,
+   "glb": 110064
+  },
+  "ms": 504
+ },
+ {
+  "slug": "iowa-speedway",
+  "name": "Iowa Speedway",
+  "capacity": 30000,
+  "cells": 2133,
+  "studs": 2133,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 119234,
+   "s256": 24894,
+   "s128": 7530,
+   "glb": 95356
+  },
+  "ms": 505
+ },
+ {
+  "slug": "mackay-stadium",
+  "name": "Mackay Stadium",
+  "capacity": 30000,
+  "cells": 1901,
+  "studs": 1901,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 121606,
+   "s256": 23628,
+   "s128": 8028,
+   "glb": 138520
+  },
+  "ms": 608
+ },
+ {
+  "slug": "portland-international-raceway",
+  "name": "Portland International Raceway",
+  "capacity": 30000,
+  "cells": 1453,
+  "studs": 1453,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99834,
+   "s256": 21124,
+   "s128": 7604,
+   "glb": 84140
+  },
+  "ms": 438
+ },
+ {
+  "slug": "skelly-field-at-h-a-chapman-stadium",
+  "name": "Skelly Field at H. A. Chapman Stadium",
+  "capacity": 30000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 94134,
+   "s256": 16172,
+   "s128": 5924,
+   "glb": 109156
+  },
+  "ms": 485
+ },
+ {
+  "slug": "valley-children-s-stadium",
+  "name": "Valley Children's Stadium",
+  "capacity": 30000,
+  "cells": 2762,
+  "studs": 2762,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114042,
+   "s256": 19288,
+   "s128": 6794,
+   "glb": 170328
+  },
+  "ms": 635
+ },
+ {
+  "slug": "william-dick-price-stadium",
+  "name": "William \"Dick\" Price Stadium",
+  "capacity": 30000,
+  "cells": 1363,
+  "studs": 1363,
+  "usedHull": true,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 74982,
+   "s256": 13826,
+   "s128": 5076,
+   "glb": 65244
+  },
+  "ms": 422
+ },
+ {
+  "slug": "war-memorial-stadium",
+  "name": "War Memorial Stadium",
+  "capacity": 29181,
+  "cells": 2540,
+  "studs": 2540,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 117926,
+   "s256": 18734,
+   "s128": 6494,
+   "glb": 130184
+  },
+  "ms": 499
+ },
+ {
+  "slug": "aggie-memorial-stadium",
+  "name": "Aggie Memorial Stadium",
+  "capacity": 28853,
+  "cells": 1392,
+  "studs": 1392,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 81156,
+   "s256": 15530,
+   "s128": 5918,
+   "glb": 78496
+  },
+  "ms": 383
+ },
+ {
+  "slug": "joe-aillet-stadium",
+  "name": "Joe Aillet Stadium",
+  "capacity": 28562,
+  "cells": 2294,
+  "studs": 2294,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 131576,
+   "s256": 22786,
+   "s128": 7792,
+   "glb": 136384
+  },
+  "ms": 480
+ },
+ {
+  "slug": "ufcu-stadium",
+  "name": "UFCU Stadium",
+  "capacity": 28388,
+  "cells": 2254,
+  "studs": 2254,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 100656,
+   "s256": 17616,
+   "s128": 6300,
+   "glb": 127568
+  },
+  "ms": 444
+ },
+ {
+  "slug": "huskie-stadium",
+  "name": "Huskie Stadium",
+  "capacity": 28211,
+  "cells": 2140,
+  "studs": 2140,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 96714,
+   "s256": 17226,
+   "s128": 6234,
+   "glb": 113816
+  },
+  "ms": 440
+ },
+ {
+  "slug": "powers-field-at-princeton-stadium",
+  "name": "Powers Field at Princeton Stadium",
+  "capacity": 27800,
+  "cells": 2136,
+  "studs": 2136,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114648,
+   "s256": 20420,
+   "s128": 7050,
+   "glb": 123320
+  },
+  "ms": 474
+ },
+ {
+  "slug": "fmol-health-st-francis-stadium",
+  "name": "FMOL Health/St. Francis Stadium",
+  "capacity": 27617,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 105942,
+   "s256": 17112,
+   "s128": 6088,
+   "glb": 97756
+  },
+  "ms": 443
+ },
+ {
+  "slug": "johnny-red-floyd-stadium",
+  "name": "Johnny \"Red\" Floyd Stadium",
+  "capacity": 27303,
+  "cells": 2425,
+  "studs": 2425,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107654,
+   "s256": 18334,
+   "s128": 6324,
+   "glb": 114524
+  },
+  "ms": 443
+ },
+ {
+  "slug": "nu-stadium",
+  "name": "Nu Stadium",
+  "capacity": 26700,
+  "cells": 2452,
+  "studs": 2452,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 98760,
+   "s256": 16632,
+   "s128": 5682,
+   "glb": 132492
+  },
+  "ms": 473
+ },
+ {
+  "slug": "asu-stadium",
+  "name": "ASU Stadium",
+  "capacity": 26500,
+  "cells": 1621,
+  "studs": 1621,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 132520,
+   "s256": 25686,
+   "s128": 8830,
+   "glb": 116044
+  },
+  "ms": 423
+ },
+ {
+  "slug": "rynearson-stadium",
+  "name": "Rynearson Stadium",
+  "capacity": 26188,
+  "cells": 2150,
+  "studs": 2150,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110376,
+   "s256": 18606,
+   "s128": 6474,
+   "glb": 126272
+  },
+  "ms": 444
+ },
+ {
+  "slug": "glass-bowl",
+  "name": "Glass Bowl",
+  "capacity": 26038,
+  "cells": 2652,
+  "studs": 2652,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 124212,
+   "s256": 19872,
+   "s128": 6962,
+   "glb": 121588
+  },
+  "ms": 484
+ },
+ {
+  "slug": "dignity-health-sports-park",
+  "name": "Dignity Health Sports Park",
+  "capacity": 26000,
+  "cells": 2105,
+  "studs": 2105,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102422,
+   "s256": 15940,
+   "s128": 5368,
+   "glb": 106088
+  },
+  "ms": 422
+ },
+ {
+  "slug": "tql-stadium",
+  "name": "TQL Stadium",
+  "capacity": 26000,
+  "cells": 2429,
+  "studs": 2429,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99940,
+   "s256": 16378,
+   "s128": 5858,
+   "glb": 131144
+  },
+  "ms": 459
+ },
+ {
+  "slug": "maverik-stadium",
+  "name": "Maverik Stadium",
+  "capacity": 25513,
+  "cells": 1867,
+  "studs": 1867,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 89118,
+   "s256": 15522,
+   "s128": 5714,
+   "glb": 92580
+  },
+  "ms": 428
+ },
+ {
+  "slug": "a-w-mumford-stadium",
+  "name": "A. W. Mumford Stadium",
+  "capacity": 25500,
+  "cells": 1954,
+  "studs": 1954,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 113972,
+   "s256": 19104,
+   "s128": 6602,
+   "glb": 99576
+  },
+  "ms": 459
+ },
+ {
+  "slug": "bragg-memorial-stadium",
+  "name": "Bragg Memorial Stadium",
+  "capacity": 25500,
+  "cells": 2754,
+  "studs": 2754,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 109616,
+   "s256": 16742,
+   "s128": 5992,
+   "glb": 133728
+  },
+  "ms": 520
+ },
+ {
+  "slug": "hancock-whitney-stadium",
+  "name": "Hancock Whitney Stadium",
+  "capacity": 25450,
+  "cells": 2290,
+  "studs": 2290,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101712,
+   "s256": 17350,
+   "s128": 6080,
+   "glb": 90672
+  },
+  "ms": 460
+ },
+ {
+  "slug": "dix-stadium",
+  "name": "Dix Stadium",
+  "capacity": 25319,
+  "cells": 2614,
+  "studs": 2614,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 132310,
+   "s256": 20892,
+   "s128": 7076,
+   "glb": 125668
+  },
+  "ms": 525
+ },
+ {
+  "slug": "washington-grizzly-stadium",
+  "name": "Washington–Grizzly Stadium",
+  "capacity": 25217,
+  "cells": 2261,
+  "studs": 2261,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 110110,
+   "s256": 20470,
+   "s128": 7226,
+   "glb": 125992
+  },
+  "ms": 486
+ },
+ {
+  "slug": "tropicana-field",
+  "name": "Tropicana Field",
+  "capacity": 25025,
+  "cells": 2367,
+  "studs": 2367,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 104506,
+   "s256": 18860,
+   "s128": 6426,
+   "glb": 109572
+  },
+  "ms": 480
+ },
+ {
+  "slug": "broadview-stadium",
+  "name": "Broadview Stadium",
+  "capacity": 25013,
+  "cells": 2648,
+  "studs": 2648,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 113922,
+   "s256": 17536,
+   "s128": 6278,
+   "glb": 116808
+  },
+  "ms": 478
+ },
+ {
+  "slug": "allen-e-paulson-stadium",
+  "name": "Allen E. Paulson Stadium",
+  "capacity": 25000,
+  "cells": 1914,
+  "studs": 1914,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 105174,
+   "s256": 19420,
+   "s128": 6998,
+   "glb": 114960
+  },
+  "ms": 433
+ },
+ {
+  "slug": "harvard-stadium",
+  "name": "Harvard Stadium",
+  "capacity": 25000,
+  "cells": 1927,
+  "studs": 1927,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 97306,
+   "s256": 17192,
+   "s128": 5788,
+   "glb": 126424
+  },
+  "ms": 424
+ },
+ {
+  "slug": "inter-co-stadium",
+  "name": "Inter.co Stadium",
+  "capacity": 25000,
+  "cells": 2876,
+  "studs": 2876,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 101166,
+   "s256": 15530,
+   "s128": 5508,
+   "glb": 131892
+  },
+  "ms": 482
+ },
+ {
+  "slug": "nashville-superspeedway",
+  "name": "Nashville Superspeedway",
+  "capacity": 25000,
+  "cells": 1948,
+  "studs": 1948,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 87662,
+   "s256": 15704,
+   "s128": 5420,
+   "glb": 90212
+  },
+  "ms": 414
+ },
+ {
+  "slug": "sports-illustrated-stadium",
+  "name": "Sports Illustrated Stadium",
+  "capacity": 25000,
+  "cells": 2416,
+  "studs": 2416,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94822,
+   "s256": 16328,
+   "s128": 5590,
+   "glb": 103896
+  },
+  "ms": 455
+ },
+ {
+  "slug": "williams-stadium",
+  "name": "Williams Stadium",
+  "capacity": 25000,
+  "cells": 2326,
+  "studs": 2326,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 102670,
+   "s256": 17818,
+   "s128": 6242,
+   "glb": 125892
+  },
+  "ms": 448
+ },
+ {
+  "slug": "bridgeforth-stadium",
+  "name": "Bridgeforth Stadium",
+  "capacity": 24877,
+  "cells": 2243,
+  "studs": 2243,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 112952,
+   "s256": 19440,
+   "s128": 6862,
+   "glb": 132552
+  },
+  "ms": 443
+ },
+ {
+  "slug": "providence-park",
+  "name": "Providence Park",
+  "capacity": 24686,
+  "cells": 2188,
+  "studs": 2188,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107202,
+   "s256": 18546,
+   "s128": 6300,
+   "glb": 135612
+  },
+  "ms": 451
+ },
+ {
+  "slug": "charles-schwab-field",
+  "name": "Charles Schwab Field",
+  "capacity": 24505,
+  "cells": 2896,
+  "studs": 2896,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93414,
+   "s256": 15024,
+   "s128": 4916,
+   "glb": 102248
+  },
+  "ms": 446
+ },
+ {
+  "slug": "center-parc-stadium",
+  "name": "Center Parc Stadium",
+  "capacity": 24333,
+  "cells": 2754,
+  "studs": 2754,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 99164,
+   "s256": 15652,
+   "s128": 5610,
+   "glb": 127276
+  },
+  "ms": 480
+ },
+ {
+  "slug": "yager-stadium",
+  "name": "Yager Stadium",
+  "capacity": 24286,
+  "cells": 2482,
+  "studs": 2482,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 111556,
+   "s256": 20144,
+   "s128": 7006,
+   "glb": 130144
+  },
+  "ms": 470
+ },
+ {
+  "slug": "doyt-perry-stadium",
+  "name": "Doyt Perry Stadium",
+  "capacity": 24000,
+  "cells": 2660,
+  "studs": 2660,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 127676,
+   "s256": 20686,
+   "s128": 7032,
+   "glb": 144660
+  },
+  "ms": 487
+ },
+ {
+  "slug": "memorial-stadium-tx",
+  "name": "Memorial Stadium",
+  "capacity": 24000,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 91960,
+   "s256": 15800,
+   "s128": 5700,
+   "glb": 95120
+  },
+  "ms": 443
+ },
+ {
+  "slug": "peden-stadium",
+  "name": "Peden Stadium",
+  "capacity": 24000,
+  "cells": 1923,
+  "studs": 1923,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107278,
+   "s256": 18278,
+   "s128": 6340,
+   "glb": 113892
+  },
+  "ms": 456
+ },
+ {
+  "slug": "fitton-field",
+  "name": "Fitton Field",
+  "capacity": 23500,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 93498,
+   "s256": 16020,
+   "s128": 5696,
+   "glb": 95072
+  },
+  "ms": 442
+ },
+ {
+  "slug": "amfirst-stadium",
+  "name": "AmFirst Stadium",
+  "capacity": 22500,
+  "cells": 2186,
+  "studs": 2186,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 87018,
+   "s256": 14438,
+   "s128": 5400,
+   "glb": 102888
+  },
+  "ms": 447
+ },
+ {
+  "slug": "casem-spinks-stadium",
+  "name": "Casem-Spinks Stadium",
+  "capacity": 22500,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 102656,
+   "s256": 16740,
+   "s128": 5926,
+   "glb": 97884
+  },
+  "ms": 460
+ },
+ {
+  "slug": "scheumann-stadium",
+  "name": "Scheumann Stadium",
+  "capacity": 22500,
+  "cells": 1622,
+  "studs": 1622,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 74662,
+   "s256": 12984,
+   "s128": 4932,
+   "glb": 52192
+  },
+  "ms": 375
+ },
+ {
+  "slug": "energizer-park",
+  "name": "Energizer Park",
+  "capacity": 22423,
+  "cells": 2152,
+  "studs": 2152,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 88884,
+   "s256": 15068,
+   "s128": 5406,
+   "glb": 119876
+  },
+  "ms": 416
+ },
+ {
+  "slug": "houchens-industries-l-t-smith-stadium",
+  "name": "Houchens Industries–L. T. Smith Stadium",
+  "capacity": 22113,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 95050,
+   "s256": 16136,
+   "s128": 5796,
+   "glb": 94936
+  },
+  "ms": 452
+ },
+ {
+  "slug": "kfc-yum-center",
+  "name": "KFC Yum! Center",
+  "capacity": 22090,
+  "cells": 1868,
+  "studs": 1868,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 82836,
+   "s256": 13486,
+   "s128": 4920,
+   "glb": 76432
+  },
+  "ms": 395
+ },
+ {
+  "slug": "shell-energy-stadium",
+  "name": "Shell Energy Stadium",
+  "capacity": 22039,
+  "cells": 1843,
+  "studs": 1843,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 100956,
+   "s256": 16620,
+   "s128": 5652,
+   "glb": 122592
+  },
+  "ms": 416
+ },
+ {
+  "slug": "first-horizon-coliseum",
+  "name": "First Horizon Coliseum",
+  "capacity": 22000,
+  "cells": 2666,
+  "studs": 2666,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 100002,
+   "s256": 15698,
+   "s128": 5372,
+   "glb": 93192
+  },
+  "ms": 454
+ },
+ {
+  "slug": "oliver-c-dawson-stadium",
+  "name": "Oliver C. Dawson Stadium",
+  "capacity": 22000,
+  "cells": 2075,
+  "studs": 2075,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 123304,
+   "s256": 22604,
+   "s128": 7830,
+   "glb": 129468
+  },
+  "ms": 460
+ },
+ {
+  "slug": "s-b-ballard-stadium",
+  "name": "S.B. Ballard Stadium",
+  "capacity": 21944,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 98852,
+   "s256": 16368,
+   "s128": 5882,
+   "glb": 98008
+  },
+  "ms": 442
+ },
+ {
+  "slug": "dean-smith-center",
+  "name": "Dean Smith Center",
+  "capacity": 21750,
+  "cells": 2468,
+  "studs": 2468,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 104242,
+   "s256": 17004,
+   "s128": 5550,
+   "glb": 94572
+  },
+  "ms": 431
+ },
+ {
+  "slug": "thompson-boling-arena",
+  "name": "Thompson–Boling Arena",
+  "capacity": 21678,
+  "cells": 1735,
+  "studs": 1735,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 89386,
+   "s256": 15238,
+   "s128": 5326,
+   "glb": 91220
+  },
+  "ms": 401
+ },
+ {
+  "slug": "schoellkopf-field",
+  "name": "Schoellkopf Field",
+  "capacity": 21500,
+  "cells": 1796,
+  "studs": 1796,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 73138,
+   "s256": 12678,
+   "s128": 4936,
+   "glb": 58132
+  },
+  "ms": 380
+ },
+ {
+  "slug": "truist-stadium",
+  "name": "Truist Stadium",
+  "capacity": 21500,
+  "cells": 2053,
+  "studs": 2053,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 106030,
+   "s256": 17146,
+   "s128": 6046,
+   "glb": 102772
+  },
+  "ms": 439
+ },
+ {
+  "slug": "hornet-stadium",
+  "name": "Hornet Stadium",
+  "capacity": 21195,
+  "cells": 1398,
+  "studs": 1398,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 87716,
+   "s256": 16512,
+   "s128": 6170,
+   "glb": 81924
+  },
+  "ms": 380
+ },
+ {
+  "slug": "brooks-stadium",
+  "name": "Brooks Stadium",
+  "capacity": 21000,
+  "cells": 2509,
+  "studs": 2509,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 98974,
+   "s256": 16230,
+   "s128": 5854,
+   "glb": 113524
+  },
+  "ms": 451
+ },
+ {
+  "slug": "louis-crews-stadium",
+  "name": "Louis Crews Stadium",
+  "capacity": 21000,
+  "cells": 2478,
+  "studs": 2478,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 114866,
+   "s256": 20820,
+   "s128": 6996,
+   "glb": 129648
+  },
+  "ms": 518
+ },
+ {
+  "slug": "xfinity-mobile-arena",
+  "name": "Xfinity Mobile Arena",
+  "capacity": 21000,
+  "cells": 2507,
+  "studs": 2507,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93270,
+   "s256": 14968,
+   "s128": 5332,
+   "glb": 105064
+  },
+  "ms": 458
+ },
+ {
+  "slug": "united-center",
+  "name": "United Center",
+  "capacity": 20917,
+  "cells": 2430,
+  "studs": 2430,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 94948,
+   "s256": 14984,
+   "s128": 5134,
+   "glb": 90112
+  },
+  "ms": 442
+ },
+ {
+  "slug": "bobcat-stadium",
+  "name": "Bobcat Stadium",
+  "capacity": 20767,
+  "cells": 2252,
+  "studs": 2252,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 148558,
+   "s256": 27246,
+   "s128": 8894,
+   "glb": 155216
+  },
+  "ms": 505
+ },
+ {
+  "slug": "q2-stadium",
+  "name": "Q2 Stadium",
+  "capacity": 20738,
+  "cells": 2256,
+  "studs": 2256,
+  "usedHull": false,
+  "generic_footprint": true,
+  "sizes": {
+   "hero": 81962,
+   "s256": 14102,
+   "s128": 4828,
+   "glb": 96776
+  },
+  "ms": 450
+ },
+ {
+  "slug": "stambaugh-stadium",
+  "name": "Stambaugh Stadium",
+  "capacity": 20630,
+  "cells": 1979,
+  "studs": 1979,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 89344,
+   "s256": 15754,
+   "s128": 5872,
+   "glb": 99712
+  },
+  "ms": 415
+ },
+ {
+  "slug": "rupp-arena",
+  "name": "Rupp Arena",
+  "capacity": 20500,
+  "cells": 1727,
+  "studs": 1727,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 124848,
+   "s256": 24642,
+   "s128": 7876,
+   "glb": 98856
+  },
+  "ms": 420
+ },
+ {
+  "slug": "finley-stadium",
+  "name": "Finley Stadium",
+  "capacity": 20412,
+  "cells": 2140,
+  "studs": 2140,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 118170,
+   "s256": 20146,
+   "s128": 6914,
+   "glb": 137464
+  },
+  "ms": 481
+ },
+ {
+  "slug": "scottsmiracle-gro-field",
+  "name": "ScottsMiracle-Gro Field",
+  "capacity": 20371,
+  "cells": 2428,
+  "studs": 2428,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 84360,
+   "s256": 14690,
+   "s128": 5292,
+   "glb": 116708
+  },
+  "ms": 445
+ },
+ {
+  "slug": "capital-one-arena",
+  "name": "Capital One Arena",
+  "capacity": 20356,
+  "cells": 3160,
+  "studs": 3160,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 93584,
+   "s256": 13328,
+   "s128": 4842,
+   "glb": 91364
+  },
+  "ms": 477
+ },
+ {
+  "slug": "little-caesars-arena",
+  "name": "Little Caesars Arena",
+  "capacity": 20332,
+  "cells": 1976,
+  "studs": 1976,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 107444,
+   "s256": 19574,
+   "s128": 6662,
+   "glb": 103916
+  },
+  "ms": 420
+ },
+ {
+  "slug": "america-first-field",
+  "name": "America First Field",
+  "capacity": 20213,
+  "cells": 2351,
+  "studs": 2351,
+  "usedHull": false,
+  "generic_footprint": false,
+  "sizes": {
+   "hero": 86308,
+   "s256": 13660,
+   "s128": 4870,
+   "glb": 107656
+  },
+  "ms": 461
  },
  {
   "slug": "audi-field",
@@ -4123,9 +4123,9 @@
    "hero": 75458,
    "s256": 12046,
    "s128": 4390,
-   "glb": 552360
+   "glb": 115288
   },
-  "ms": 1142
+  "ms": 471
  },
  {
   "slug": "pitbull-stadium",
@@ -4139,9 +4139,9 @@
    "hero": 113850,
    "s256": 19036,
    "s128": 6776,
-   "glb": 531996
+   "glb": 110412
   },
-  "ms": 1097
+  "ms": 570
  },
  {
   "slug": "richard-gouse-field-at-brown-stadium",
@@ -4155,9 +4155,9 @@
    "hero": 94262,
    "s256": 15960,
    "s128": 5722,
-   "glb": 476224
+   "glb": 98116
   },
-  "ms": 1144
+  "ms": 461
  },
  {
   "slug": "roy-kidd-stadium",
@@ -4171,9 +4171,9 @@
    "hero": 101572,
    "s256": 18666,
    "s128": 6654,
-   "glb": 506164
+   "glb": 127168
   },
-  "ms": 1082
+  "ms": 431
  },
  {
   "slug": "seatgeek-stadium",
@@ -4187,9 +4187,9 @@
    "hero": 92170,
    "s256": 16288,
    "s128": 5764,
-   "glb": 490472
+   "glb": 108848
   },
-  "ms": 1080
+  "ms": 446
  },
  {
   "slug": "north-wilkesboro-speedway",
@@ -4203,9 +4203,9 @@
    "hero": 83824,
    "s256": 16552,
    "s128": 5836,
-   "glb": 276900
+   "glb": 54400
   },
-  "ms": 721
+  "ms": 366
  },
  {
   "slug": "eddie-g-robinson-memorial-stadium",
@@ -4219,9 +4219,9 @@
    "hero": 104482,
    "s256": 17288,
    "s128": 6190,
-   "glb": 473744
+   "glb": 94492
   },
-  "ms": 917
+  "ms": 453
  },
  {
   "slug": "kaseya-center",
@@ -4235,9 +4235,9 @@
    "hero": 108270,
    "s256": 18998,
    "s128": 6314,
-   "glb": 442764
+   "glb": 98600
   },
-  "ms": 1082
+  "ms": 422
  },
  {
   "slug": "ball-arena",
@@ -4251,9 +4251,9 @@
    "hero": 98686,
    "s256": 18118,
    "s128": 6354,
-   "glb": 425296
+   "glb": 94772
   },
-  "ms": 1027
+  "ms": 396
  },
  {
   "slug": "value-city-arena",
@@ -4267,9 +4267,9 @@
    "hero": 85936,
    "s256": 14480,
    "s128": 5162,
-   "glb": 385340
+   "glb": 78820
   },
-  "ms": 968
+  "ms": 381
  },
  {
   "slug": "spectrum-center",
@@ -4283,9 +4283,9 @@
    "hero": 124518,
    "s256": 23034,
    "s128": 7566,
-   "glb": 513348
+   "glb": 111632
   },
-  "ms": 1088
+  "ms": 434
  },
  {
   "slug": "rocket-arena",
@@ -4299,9 +4299,9 @@
    "hero": 102098,
    "s256": 19322,
    "s128": 6608,
-   "glb": 389216
+   "glb": 91372
   },
-  "ms": 963
+  "ms": 397
  },
  {
   "slug": "allianz-field",
@@ -4312,12 +4312,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 88898,
-   "s256": 15578,
-   "s128": 5114,
-   "glb": 537976
+   "hero": 104436,
+   "s256": 17736,
+   "s128": 6034,
+   "glb": 108888
   },
-  "ms": 1088
+  "ms": 454
  },
  {
   "slug": "moda-center",
@@ -4331,9 +4331,9 @@
    "hero": 100144,
    "s256": 16732,
    "s128": 5806,
-   "glb": 447308
+   "glb": 94616
   },
-  "ms": 1098
+  "ms": 435
  },
  {
   "slug": "bud-walton-arena",
@@ -4347,9 +4347,9 @@
    "hero": 112348,
    "s256": 18328,
    "s128": 5862,
-   "glb": 529364
+   "glb": 104384
   },
-  "ms": 1090
+  "ms": 454
  },
  {
   "slug": "lenovo-center",
@@ -4363,9 +4363,9 @@
    "hero": 116928,
    "s256": 22192,
    "s128": 7590,
-   "glb": 468560
+   "glb": 102920
   },
-  "ms": 1057
+  "ms": 445
  },
  {
   "slug": "dana-j-dykhouse-stadium",
@@ -4379,9 +4379,9 @@
    "hero": 124448,
    "s256": 18876,
    "s128": 6502,
-   "glb": 556992
+   "glb": 114100
   },
-  "ms": 1170
+  "ms": 470
  },
  {
   "slug": "amerant-bank-arena",
@@ -4395,9 +4395,9 @@
    "hero": 111432,
    "s256": 18886,
    "s128": 6348,
-   "glb": 503312
+   "glb": 103844
   },
-  "ms": 1043
+  "ms": 435
  },
  {
   "slug": "american-airlines-center",
@@ -4411,9 +4411,9 @@
    "hero": 119526,
    "s256": 23510,
    "s128": 7966,
-   "glb": 441608
+   "glb": 101084
   },
-  "ms": 1048
+  "ms": 430
  },
  {
   "slug": "sap-center",
@@ -4427,9 +4427,9 @@
    "hero": 102202,
    "s256": 17000,
    "s128": 5810,
-   "glb": 510324
+   "glb": 102160
   },
-  "ms": 1112
+  "ms": 450
  },
  {
   "slug": "td-garden",
@@ -4443,9 +4443,9 @@
    "hero": 86936,
    "s256": 15416,
    "s128": 5270,
-   "glb": 422616
+   "glb": 98036
   },
-  "ms": 971
+  "ms": 400
  },
  {
   "slug": "benchmark-international-arena",
@@ -4459,9 +4459,9 @@
    "hero": 96482,
    "s256": 16264,
    "s128": 5592,
-   "glb": 454452
+   "glb": 93456
   },
-  "ms": 1071
+  "ms": 458
  },
  {
   "slug": "crypto-com-arena",
@@ -4475,9 +4475,9 @@
    "hero": 82070,
    "s256": 13850,
    "s128": 4928,
-   "glb": 391400
+   "glb": 89828
   },
-  "ms": 1048
+  "ms": 421
  },
  {
   "slug": "keybank-center",
@@ -4491,9 +4491,9 @@
    "hero": 116018,
    "s256": 20720,
    "s128": 6868,
-   "glb": 497236
+   "glb": 106624
   },
-  "ms": 1045
+  "ms": 451
  },
  {
   "slug": "kia-center",
@@ -4507,9 +4507,9 @@
    "hero": 110240,
    "s256": 18308,
    "s128": 5990,
-   "glb": 469288
+   "glb": 93924
   },
-  "ms": 1120
+  "ms": 444
  },
  {
   "slug": "target-center",
@@ -4523,9 +4523,9 @@
    "hero": 96550,
    "s256": 16402,
    "s128": 5310,
-   "glb": 455256
+   "glb": 101848
   },
-  "ms": 1051
+  "ms": 412
  },
  {
   "slug": "prudential-center",
@@ -4539,9 +4539,9 @@
    "hero": 90900,
    "s256": 15064,
    "s128": 5308,
-   "glb": 464412
+   "glb": 103536
   },
-  "ms": 1046
+  "ms": 417
  },
  {
   "slug": "fargodome",
@@ -4555,9 +4555,9 @@
    "hero": 99988,
    "s256": 17206,
    "s128": 5774,
-   "glb": 489884
+   "glb": 97040
   },
-  "ms": 1010
+  "ms": 434
  },
  {
   "slug": "delaware-stadium",
@@ -4571,9 +4571,9 @@
    "hero": 89130,
    "s256": 14758,
    "s128": 5478,
-   "glb": 547724
+   "glb": 118768
   },
-  "ms": 1059
+  "ms": 451
  },
  {
   "slug": "nationwide-arena",
@@ -4587,9 +4587,9 @@
    "hero": 80470,
    "s256": 13710,
    "s128": 4990,
-   "glb": 378264
+   "glb": 81032
   },
-  "ms": 957
+  "ms": 396
  },
  {
   "slug": "subaru-park",
@@ -4600,12 +4600,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 95954,
-   "s256": 17470,
-   "s128": 5726,
-   "glb": 556792
+   "hero": 110588,
+   "s256": 19482,
+   "s128": 6578,
+   "glb": 129852
   },
-  "ms": 970
+  "ms": 455
  },
  {
   "slug": "sporting-park",
@@ -4616,12 +4616,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 104124,
-   "s256": 20556,
-   "s128": 6752,
-   "glb": 519368
+   "hero": 115014,
+   "s256": 22376,
+   "s128": 7320,
+   "glb": 128372
   },
-  "ms": 677
+  "ms": 458
  },
  {
   "slug": "frost-bank-center",
@@ -4635,9 +4635,9 @@
    "hero": 101496,
    "s256": 16426,
    "s128": 5666,
-   "glb": 497948
+   "glb": 102764
   },
-  "ms": 495
+  "ms": 444
  },
  {
   "slug": "chi-health-center",
@@ -4651,9 +4651,9 @@
    "hero": 111114,
    "s256": 21396,
    "s128": 7386,
-   "glb": 415672
+   "glb": 90560
   },
-  "ms": 507
+  "ms": 424
  },
  {
   "slug": "intuit-dome",
@@ -4667,9 +4667,9 @@
    "hero": 85074,
    "s256": 13110,
    "s128": 4864,
-   "glb": 500816
+   "glb": 87720
   },
-  "ms": 599
+  "ms": 482
  },
  {
   "slug": "cefcu-stadium",
@@ -4683,9 +4683,9 @@
    "hero": 135998,
    "s256": 22280,
    "s128": 7456,
-   "glb": 594540
+   "glb": 140060
   },
-  "ms": 978
+  "ms": 498
  },
  {
   "slug": "paycom-center",
@@ -4699,9 +4699,9 @@
    "hero": 99270,
    "s256": 15332,
    "s128": 5262,
-   "glb": 570332
+   "glb": 119936
   },
-  "ms": 1042
+  "ms": 499
  },
  {
   "slug": "ppg-paints-arena",
@@ -4715,9 +4715,9 @@
    "hero": 94976,
    "s256": 14834,
    "s128": 5284,
-   "glb": 508744
+   "glb": 98612
   },
-  "ms": 938
+  "ms": 436
  },
  {
   "slug": "delta-center",
@@ -4731,9 +4731,9 @@
    "hero": 105218,
    "s256": 17490,
    "s128": 5688,
-   "glb": 531416
+   "glb": 118840
   },
-  "ms": 1012
+  "ms": 433
  },
  {
   "slug": "toyota-center",
@@ -4747,9 +4747,9 @@
    "hero": 111496,
    "s256": 20078,
    "s128": 6548,
-   "glb": 481280
+   "glb": 107276
   },
-  "ms": 802
+  "ms": 417
  },
  {
   "slug": "enterprise-center",
@@ -4763,9 +4763,9 @@
    "hero": 108910,
    "s256": 17792,
    "s128": 6086,
-   "glb": 492376
+   "glb": 102572
   },
-  "ms": 927
+  "ms": 486
  },
  {
   "slug": "chase-center",
@@ -4779,9 +4779,9 @@
    "hero": 106078,
    "s256": 16652,
    "s128": 5694,
-   "glb": 548984
+   "glb": 112732
   },
-  "ms": 1008
+  "ms": 478
  },
  {
   "slug": "dick-s-sporting-goods-park",
@@ -4792,12 +4792,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 77130,
-   "s256": 12168,
-   "s128": 4388,
-   "glb": 515568
+   "hero": 89850,
+   "s256": 14022,
+   "s128": 5100,
+   "glb": 85876
   },
-  "ms": 902
+  "ms": 465
  },
  {
   "slug": "colonial-life-arena",
@@ -4811,9 +4811,9 @@
    "hero": 110008,
    "s256": 19494,
    "s128": 6564,
-   "glb": 467892
+   "glb": 102884
   },
-  "ms": 1046
+  "ms": 416
  },
  {
   "slug": "paypal-park",
@@ -4824,12 +4824,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 80176,
-   "s256": 15226,
-   "s128": 5294,
-   "glb": 473556
+   "hero": 86890,
+   "s256": 16320,
+   "s128": 5768,
+   "glb": 114148
   },
-  "ms": 936
+  "ms": 415
  },
  {
   "slug": "marriott-center",
@@ -4843,9 +4843,9 @@
    "hero": 95264,
    "s256": 13856,
    "s128": 4824,
-   "glb": 538972
+   "glb": 90000
   },
-  "ms": 1113
+  "ms": 467
  },
  {
   "slug": "grand-casino-arena",
@@ -4859,9 +4859,9 @@
    "hero": 100138,
    "s256": 16950,
    "s128": 5780,
-   "glb": 480604
+   "glb": 103660
   },
-  "ms": 1008
+  "ms": 430
  },
  {
   "slug": "thomas-and-mack-center",
@@ -4872,12 +4872,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 117712,
-   "s256": 20462,
-   "s128": 6474,
-   "glb": 517292
+   "hero": 121494,
+   "s256": 21232,
+   "s128": 6542,
+   "glb": 108560
   },
-  "ms": 999
+  "ms": 445
  },
  {
   "slug": "bok-center",
@@ -4891,9 +4891,9 @@
    "hero": 95464,
    "s256": 17362,
    "s128": 5776,
-   "glb": 427216
+   "glb": 95856
   },
-  "ms": 845
+  "ms": 431
  },
  {
   "slug": "navarre-stadium",
@@ -4907,9 +4907,9 @@
    "hero": 110602,
    "s256": 17524,
    "s128": 6170,
-   "glb": 476224
+   "glb": 98252
   },
-  "ms": 1043
+  "ms": 481
  },
  {
   "slug": "golden-1-center",
@@ -4923,9 +4923,9 @@
    "hero": 117680,
    "s256": 21758,
    "s128": 7420,
-   "glb": 476812
+   "glb": 103600
   },
-  "ms": 1044
+  "ms": 430
  },
  {
   "slug": "barclays-center",
@@ -4939,9 +4939,9 @@
    "hero": 111094,
    "s256": 21458,
    "s128": 7378,
-   "glb": 431996
+   "glb": 95832
   },
-  "ms": 905
+  "ms": 432
  },
  {
   "slug": "provost-umphrey-stadium",
@@ -4955,9 +4955,9 @@
    "hero": 133154,
    "s256": 25722,
    "s128": 8614,
-   "glb": 489864
+   "glb": 123504
   },
-  "ms": 848
+  "ms": 461
  },
  {
   "slug": "robert-w-plaster-stadium",
@@ -4971,9 +4971,9 @@
    "hero": 88102,
    "s256": 15042,
    "s128": 5620,
-   "glb": 527192
+   "glb": 98324
   },
-  "ms": 1160
+  "ms": 463
  },
  {
   "slug": "t-mobile-arena",
@@ -4987,9 +4987,9 @@
    "hero": 94412,
    "s256": 15408,
    "s128": 5166,
-   "glb": 452164
+   "glb": 96948
   },
-  "ms": 980
+  "ms": 448
  },
  {
   "slug": "fiserv-forum",
@@ -5003,9 +5003,9 @@
    "hero": 86676,
    "s256": 14040,
    "s128": 5050,
-   "glb": 390184
+   "glb": 79048
   },
-  "ms": 900
+  "ms": 398
  },
  {
   "slug": "xfinity-center",
@@ -5019,9 +5019,9 @@
    "hero": 84830,
    "s256": 13916,
    "s128": 5090,
-   "glb": 416336
+   "glb": 84768
   },
-  "ms": 1082
+  "ms": 408
  },
  {
   "slug": "kohl-center",
@@ -5035,9 +5035,9 @@
    "hero": 104336,
    "s256": 16250,
    "s128": 5686,
-   "glb": 507364
+   "glb": 97468
   },
-  "ms": 1069
+  "ms": 460
  },
  {
   "slug": "gainbridge-fieldhouse",
@@ -5051,9 +5051,9 @@
    "hero": 94558,
    "s256": 15854,
    "s128": 5504,
-   "glb": 422436
+   "glb": 79896
   },
-  "ms": 1066
+  "ms": 419
  },
  {
   "slug": "ubs-arena",
@@ -5067,9 +5067,9 @@
    "hero": 99298,
    "s256": 16178,
    "s128": 5552,
-   "glb": 488676
+   "glb": 99172
   },
-  "ms": 927
+  "ms": 436
  },
  {
   "slug": "simon-skjodt-assembly-hall",
@@ -5083,9 +5083,9 @@
    "hero": 103610,
    "s256": 17122,
    "s128": 5986,
-   "glb": 535324
+   "glb": 111792
   },
-  "ms": 987
+  "ms": 456
  },
  {
   "slug": "uni-dome",
@@ -5099,9 +5099,9 @@
    "hero": 107162,
    "s256": 17560,
    "s128": 5906,
-   "glb": 578832
+   "glb": 118744
   },
-  "ms": 1091
+  "ms": 479
  },
  {
   "slug": "honda-center",
@@ -5115,9 +5115,9 @@
    "hero": 95352,
    "s256": 15110,
    "s128": 5158,
-   "glb": 461780
+   "glb": 90116
   },
-  "ms": 913
+  "ms": 433
  },
  {
   "slug": "bridgestone-arena",
@@ -5131,9 +5131,9 @@
    "hero": 123234,
    "s256": 23778,
    "s128": 7918,
-   "glb": 449756
+   "glb": 100108
   },
-  "ms": 801
+  "ms": 438
  },
  {
   "slug": "climate-pledge-arena",
@@ -5147,9 +5147,9 @@
    "hero": 90390,
    "s256": 14894,
    "s128": 5396,
-   "glb": 432948
+   "glb": 75700
   },
-  "ms": 898
+  "ms": 423
  },
  {
   "slug": "mortgage-matchup-center",
@@ -5163,9 +5163,9 @@
    "hero": 106278,
    "s256": 20238,
    "s128": 7028,
-   "glb": 435264
+   "glb": 89204
   },
-  "ms": 881
+  "ms": 421
  },
  {
   "slug": "bowman-gray-stadium",
@@ -5179,9 +5179,9 @@
    "hero": 87562,
    "s256": 19020,
    "s128": 7222,
-   "glb": 398192
+   "glb": 103232
   },
-  "ms": 848
+  "ms": 422
  },
  {
   "slug": "robert-k-kraft-field-at-lawrence-a-wien-stadium",
@@ -5195,9 +5195,9 @@
    "hero": 99686,
    "s256": 16430,
    "s128": 5862,
-   "glb": 474304
+   "glb": 94848
   },
-  "ms": 974
+  "ms": 457
  },
  {
   "slug": "warren-mcguirk-alumni-stadium",
@@ -5211,9 +5211,9 @@
    "hero": 88572,
    "s256": 14772,
    "s128": 5474,
-   "glb": 568384
+   "glb": 120388
   },
-  "ms": 933
+  "ms": 793
  },
  {
   "slug": "state-farm-arena",
@@ -5227,9 +5227,9 @@
    "hero": 96654,
    "s256": 15074,
    "s128": 5322,
-   "glb": 504896
+   "glb": 95548
   },
-  "ms": 1015
+  "ms": 1002
  },
  {
   "slug": "smoothie-king-center",
@@ -5243,9 +5243,9 @@
    "hero": 130468,
    "s256": 23750,
    "s128": 7630,
-   "glb": 499772
+   "glb": 109984
   },
-  "ms": 695
+  "ms": 982
  },
  {
   "slug": "roy-stewart-stadium",
@@ -5259,9 +5259,9 @@
    "hero": 112674,
    "s256": 18822,
    "s128": 6502,
-   "glb": 506280
+   "glb": 115436
   },
-  "ms": 659
+  "ms": 952
  },
  {
   "slug": "fedexforum",
@@ -5275,9 +5275,9 @@
    "hero": 108872,
    "s256": 19834,
    "s128": 6838,
-   "glb": 433204
+   "glb": 95852
   },
-  "ms": 861
+  "ms": 851
  },
  {
   "slug": "tucker-stadium",
@@ -5291,9 +5291,9 @@
    "hero": 100580,
    "s256": 15798,
    "s128": 5838,
-   "glb": 515180
+   "glb": 111248
   },
-  "ms": 711
+  "ms": 1009
  },
  {
   "slug": "hanson-field",
@@ -5307,9 +5307,9 @@
    "hero": 93484,
    "s256": 16704,
    "s128": 6006,
-   "glb": 344804
+   "glb": 79648
   },
-  "ms": 628
+  "ms": 834
  },
  {
   "slug": "indian-wells-tennis-garden",
@@ -5323,9 +5323,9 @@
    "hero": 57768,
    "s256": 12704,
    "s128": 4762,
-   "glb": 289904
+   "glb": 68912
   },
-  "ms": 589
+  "ms": 718
  },
  {
   "slug": "goodman-stadium",
@@ -5339,9 +5339,9 @@
    "hero": 120414,
    "s256": 21206,
    "s128": 7166,
-   "glb": 513960
+   "glb": 124004
   },
-  "ms": 684
+  "ms": 841
  },
  {
   "slug": "paladin-stadium",
@@ -5355,9 +5355,9 @@
    "hero": 124412,
    "s256": 23534,
    "s128": 7858,
-   "glb": 510792
+   "glb": 125544
   },
-  "ms": 610
+  "ms": 992
  },
  {
   "slug": "simmons-bank-field",
@@ -5371,9 +5371,9 @@
    "hero": 91830,
    "s256": 15226,
    "s128": 5376,
-   "glb": 476224
+   "glb": 97960
   },
-  "ms": 765
+  "ms": 870
  },
  {
   "slug": "harry-turpin-stadium",
@@ -5387,9 +5387,9 @@
    "hero": 103598,
    "s256": 17648,
    "s128": 6356,
-   "glb": 431756
+   "glb": 96552
   },
-  "ms": 831
+  "ms": 762
  },
  {
   "slug": "save-mart-center",
@@ -5403,9 +5403,9 @@
    "hero": 88764,
    "s256": 12824,
    "s128": 4730,
-   "glb": 466392
+   "glb": 79136
   },
-  "ms": 821
+  "ms": 479
  },
  {
   "slug": "state-farm-center",
@@ -5419,9 +5419,9 @@
    "hero": 106184,
    "s256": 18492,
    "s128": 6292,
-   "glb": 482320
+   "glb": 104924
   },
-  "ms": 924
+  "ms": 436
  },
  {
   "slug": "pinnacle-bank-arena",
@@ -5435,9 +5435,9 @@
    "hero": 101810,
    "s256": 16938,
    "s128": 5794,
-   "glb": 442728
+   "glb": 89964
   },
-  "ms": 833
+  "ms": 436
  },
  {
   "slug": "the-pit",
@@ -5451,9 +5451,9 @@
    "hero": 91122,
    "s256": 15806,
    "s128": 5614,
-   "glb": 377748
+   "glb": 71860
   },
-  "ms": 866
+  "ms": 440
  },
  {
   "slug": "coleman-coliseum",
@@ -5467,9 +5467,9 @@
    "hero": 90272,
    "s256": 14626,
    "s128": 5328,
-   "glb": 406244
+   "glb": 75524
   },
-  "ms": 941
+  "ms": 463
  },
  {
   "slug": "jerry-richardson-stadium",
@@ -5483,9 +5483,9 @@
    "hero": 117500,
    "s256": 21734,
    "s128": 7326,
-   "glb": 513144
+   "glb": 129096
   },
-  "ms": 939
+  "ms": 489
  },
  {
   "slug": "allen-fieldhouse",
@@ -5499,9 +5499,9 @@
    "hero": 86726,
    "s256": 12982,
    "s128": 4796,
-   "glb": 437772
+   "glb": 69232
   },
-  "ms": 866
+  "ms": 470
  },
  {
   "slug": "bryce-jordan-center",
@@ -5515,9 +5515,9 @@
    "hero": 106624,
    "s256": 18980,
    "s128": 6416,
-   "glb": 486408
+   "glb": 108236
   },
-  "ms": 861
+  "ms": 506
  },
  {
   "slug": "kibbie-dome",
@@ -5531,9 +5531,9 @@
    "hero": 84782,
    "s256": 12920,
    "s128": 4762,
-   "glb": 530636
+   "glb": 100464
   },
-  "ms": 1191
+  "ms": 512
  },
  {
   "slug": "mvp-arena",
@@ -5547,9 +5547,9 @@
    "hero": 100150,
    "s256": 18168,
    "s128": 6258,
-   "glb": 439260
+   "glb": 97848
   },
-  "ms": 969
+  "ms": 429
  },
  {
   "slug": "clarence-t-c-ching-athletics-complex",
@@ -5560,12 +5560,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 131902,
-   "s256": 27536,
-   "s128": 9024,
-   "glb": 478820
+   "hero": 132336,
+   "s256": 27872,
+   "s128": 9264,
+   "glb": 121428
   },
-  "ms": 1219
+  "ms": 566
  },
  {
   "slug": "united-supermarkets-arena",
@@ -5576,12 +5576,12 @@
   "usedHull": false,
   "generic_footprint": false,
   "sizes": {
-   "hero": 106002,
-   "s256": 18834,
-   "s128": 6314,
-   "glb": 473112
+   "hero": 111388,
+   "s256": 19300,
+   "s128": 6462,
+   "glb": 93688
   },
-  "ms": 793
+  "ms": 447
  },
  {
   "slug": "mizzou-arena",
@@ -5595,9 +5595,9 @@
    "hero": 101638,
    "s256": 19232,
    "s128": 6552,
-   "glb": 416524
+   "glb": 95340
   },
-  "ms": 399
+  "ms": 425
  },
  {
   "slug": "hilton-coliseum",
@@ -5611,9 +5611,9 @@
    "hero": 102548,
    "s256": 17132,
    "s128": 5694,
-   "glb": 464900
+   "glb": 95760
   },
-  "ms": 441
+  "ms": 437
  },
  {
   "slug": "jon-m-huntsman-center",
@@ -5627,9 +5627,9 @@
    "hero": 116194,
    "s256": 19122,
    "s128": 6260,
-   "glb": 532880
+   "glb": 110380
   },
-  "ms": 461
+  "ms": 464
  },
  {
   "slug": "panther-stadium-at-blackshear-field",
@@ -5640,12 +5640,12 @@
   "usedHull": false,
   "generic_footprint": true,
   "sizes": {
-   "hero": 90038,
-   "s256": 15078,
-   "s128": 5434,
-   "glb": 476224
+   "hero": 107286,
+   "s256": 17374,
+   "s128": 6136,
+   "glb": 98524
   },
-  "ms": 476
+  "ms": 621
  },
  {
   "slug": "saluki-stadium",
@@ -5659,8 +5659,8 @@
    "hero": 74470,
    "s256": 13596,
    "s128": 5114,
-   "glb": 321500
+   "glb": 69128
   },
-  "ms": 381
+  "ms": 708
  }
 ]
