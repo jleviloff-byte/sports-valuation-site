@@ -48,17 +48,37 @@ function useColorMode() {
  * onSelect(slug): open a venue card.
  * focus: { slug, la, lo } to fly to.
  */
-export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' }) {
+// Sprite sheets (scripts/stadiums/art/build-atlas.mjs): sheet 0 holds the 50
+// largest venues and loads with the page; sheet 1 holds the rest and loads
+// after the first map render. Venues drawn larger than ATLAS_MAX use their own
+// 256px sprite instead.
+const ATLAS_MAX = 48
+
+export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted', atlas = null }) {
   const wrap = useRef(null)
   const mapEl = useRef(null)
   const layerEl = useRef(null)
   const linesEl = useRef(null)
   const tipEl = useRef(null)
   const mapRef = useRef(null)
-  const state = useRef({ venues, els: new Map(), shown: new Set(), raf: 0 })
+  const state = useRef({ venues, els: new Map(), shown: new Set(), raf: 0, sheets: {} })
   const mode = useColorMode()
   state.current.venues = venues
   state.current.onSelect = onSelect
+  state.current.atlas = atlas
+
+  // Load sheet 0 now; sheet 1 once the first venues are on screen.
+  function loadSheet(n) {
+    const st = state.current
+    if (!atlas || st.sheets[n]) return
+    st.sheets[n] = 'loading'
+    const img = new Image()
+    img.decoding = 'async'
+    img.onload = () => { st.sheets[n] = 'ready'; st.schedule?.() }
+    img.onerror = () => { st.sheets[n] = 'failed'; st.schedule?.() }
+    img.src = `/stadiums/atlas/atlas-${n}.webp`
+  }
+  useEffect(() => { loadSheet(0) }, [atlas]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Map init / style swap.
   useEffect(() => {
@@ -117,10 +137,15 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' 
     el.className = 'venue'
     el.setAttribute('aria-label', `${v.n}, ${v.c}, ${v.st}. Capacity ${fmt(v.cap)}${v.ct === 'estimated' ? ' (estimated)' : ''}. Open details.`)
     if (v.img) {
+      const tile = document.createElement('span')
+      tile.className = 'venue-sprite'
+      tile.setAttribute('aria-hidden', 'true')
+      el.appendChild(tile)
       const img = document.createElement('img')
       img.alt = ''
       img.decoding = 'async'
       img.draggable = false
+      img.hidden = true
       el.appendChild(img)
     } else {
       const s = document.createElement('span')
@@ -162,9 +187,12 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' 
     const placed = []
     const clusters = new Map()
     const next = new Map() // slug -> { x, y, size, anchor? }
+    const st = state.current
+    const useAtlas = (v, size) => st.atlas && v.a && size <= ATLAS_MAX
     for (const v of sorted) {
       const p = map.project([v.lo, v.la])
       const size = spritePx(v.cap, zoom)
+      if (useAtlas(v, size) && st.sheets[v.a[0]] !== 'ready' && st.sheets[v.a[0]] !== 'failed') continue
       if (p.x < -size || p.y < -size || p.x > W + size || p.y > H + size) continue
       const r = size * 0.34
       const hit = placed.find((q) => Math.hypot(q.x - p.x, q.y - p.y) < (q.r + r) * 0.92)
@@ -199,10 +227,23 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' 
       el.style.height = `${s}px`
       el.style.transform = `translate(${Math.round(rec.x - s / 2)}px, ${Math.round(rec.y - s * 0.6)}px)`
       el.style.zIndex = String(Math.round(rec.y))
-      const img = el.firstChild
-      if (img && img.tagName === 'IMG') {
-        const want = `/stadiums/sprites/${slug}-${s > 64 ? 256 : 128}.webp`
-        if (img.getAttribute('src') !== want) img.setAttribute('src', want)
+      const tile = el.querySelector('.venue-sprite')
+      const img = el.querySelector('img')
+      if (tile && img) {
+        const v = rec.v
+        if (useAtlas(v, s) && st.sheets[v.a[0]] === 'ready') {
+          const sh = st.atlas.sheets[v.a[0]]
+          tile.hidden = false
+          img.hidden = true
+          tile.style.backgroundImage = `url(/stadiums/atlas/atlas-${v.a[0]}.webp)`
+          tile.style.backgroundSize = `${sh.cols * s}px ${sh.rows * s}px`
+          tile.style.backgroundPosition = `-${v.a[1] * s}px -${v.a[2] * s}px`
+        } else {
+          tile.hidden = true
+          img.hidden = false
+          const want = `/stadiums/sprites/${slug}-${s > 64 ? 256 : 128}.webp`
+          if (img.getAttribute('src') !== want) img.setAttribute('src', want)
+        }
       }
       if (el.hidden || !shown.has(slug)) {
         el.hidden = false
@@ -211,6 +252,11 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted' 
         el.classList.add('pop')
         shown.add(slug)
       }
+    }
+    // First venues are up: fetch the second sheet.
+    if (next.size && st.sheets[0] === 'ready' && !st.sheets[1]) {
+      const go = () => loadSheet(1)
+      if ('requestIdleCallback' in window) window.requestIdleCallback(go, { timeout: 800 }); else setTimeout(go, 200)
     }
     const svg = linesEl.current
     if (svg) {

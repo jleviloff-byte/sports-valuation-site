@@ -21,7 +21,7 @@ const ROUTES = [
   ['/data-sources', 'main h1'],
   ['/privacy', 'main h1'],
   ['/terms', 'main h1'],
-  ['/stadiums', '.venue:not([hidden]) img'],
+  ['/stadiums', '.venue:not([hidden])'],
 ]
 const headers = process.env.PROTECTION_BYPASS ? { 'x-vercel-protection-bypass': process.env.PROTECTION_BYPASS, 'x-vercel-set-bypass-cookie': 'true' } : {}
 const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })

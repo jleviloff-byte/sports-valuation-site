@@ -37,6 +37,8 @@ function build(mode, baseplate) {
   const P = PALETTES[mode]
   const style = structuredClone(base)
   delete style.sources.ne2_shaded
+  // No icon layers are kept, so the POI sprite sheet is never needed.
+  delete style.sprite
   style.name = `Franchise Math stadiums ${mode}${baseplate ? ' baseplate' : ''}`
   style.layers = style.layers.filter((l) => KEEP.has(l.id)).map((l) => {
     const p = l.paint || {}

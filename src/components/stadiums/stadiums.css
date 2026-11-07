@@ -19,8 +19,8 @@
   pointer-events: auto; will-change: transform; line-height: 0;
   border-radius: 6px;
 }
-.venue img { width: 100%; height: 100%; display: block; filter: drop-shadow(0 1px 1px rgba(20, 24, 29, 0.25)); }
-.venue:hover img, .venue:focus-visible img { filter: drop-shadow(0 2px 4px rgba(20, 24, 29, 0.45)) brightness(1.06); }
+.venue img, .venue .venue-sprite { width: 100%; height: 100%; display: block; background-repeat: no-repeat; filter: drop-shadow(0 1px 1px rgba(20, 24, 29, 0.25)); }
+.venue:hover img, .venue:focus-visible img, .venue:hover .venue-sprite, .venue:focus-visible .venue-sprite { filter: drop-shadow(0 2px 4px rgba(20, 24, 29, 0.45)) brightness(1.06); }
 .venue:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .venue .venue-fallback { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--text3); opacity: 0.6; }
 
@@ -31,8 +31,8 @@
   66%  { clip-path: inset(33% 0 0 0);  transform: translateY(2px); }
   100% { clip-path: inset(0 0 0 0);    transform: translateY(0); }
 }
-.venue.pop img { animation: brick-stack 0.36s steps(1, end) both; }
-@media (prefers-reduced-motion: reduce) { .venue.pop img { animation: none; } }
+.venue.pop img, .venue.pop .venue-sprite { animation: brick-stack 0.36s steps(1, end) both; }
+@media (prefers-reduced-motion: reduce) { .venue.pop img, .venue.pop .venue-sprite { animation: none; } }
 
 .venue-tip {
   position: absolute; pointer-events: none; z-index: 5; white-space: nowrap;
@@ -78,3 +78,5 @@
   .loadout-lines { display: none; }
   .loadout-panel { position: static; width: 100%; max-width: 520px; margin-top: 10px; }
 }
+
+.venue [hidden] { display: none !important; }

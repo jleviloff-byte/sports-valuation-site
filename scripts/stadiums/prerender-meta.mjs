@@ -18,6 +18,7 @@ const assets = fs.readdirSync(path.join(dist, 'assets'))
 const pick = (re) => assets.filter((a) => re.test(a)).map((a) => '/assets/' + a)
 const HINTS = [
   '<link rel="preload" href="/stadiums/index.json" as="fetch" crossorigin="anonymous" />',
+  '<link rel="preload" href="/stadiums/atlas/atlas-0.webp" as="image" />',
   ...pick(/^(Stadiums|StadiumMap)-[\w-]+\.js$/).map((h) => `<link rel="modulepreload" href="${h}" />`),
   ...pick(/^StadiumMap-[\w-]+\.css$/).map((h) => `<link rel="preload" href="${h}" as="style" />`),
   '<link rel="preload" href="/map-styles/muted-light.json" as="fetch" crossorigin="anonymous" media="(prefers-color-scheme: light)" />',

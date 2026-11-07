@@ -15,12 +15,15 @@ const { forbesBreakdown } = await import(pathToFileURL(path.resolve('data/forbes
 const renders = fs.existsSync('research/raw/stadiums/render-report.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/render-report.json', 'utf8')) : []
 const rendered = new Set(fs.existsSync('public/stadiums/sprites') ? fs.readdirSync('public/stadiums/sprites').filter((f) => f.endsWith('-128.webp')).map((f) => f.replace(/-128\.webp$/, '')) : [])
 
+const atlas = fs.existsSync('research/raw/stadiums/atlas.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/atlas.json', 'utf8')) : null
+
 const SPORT_LABEL = { football: 'Football', baseball: 'Baseball', basketball: 'Basketball', 'ice hockey': 'Hockey', soccer: 'Soccer', motorsport: 'Motorsport', tennis: 'Tennis' }
 
 const index = data.venues.map((v) => ({
   s: v.slug, n: v.name, c: v.city, st: v.state, la: v.lat, lo: v.lng, cap: v.capacity, ct: v.capacity_type,
   t: v.venue_type, sp: v.sports, lg: [...new Set(v.tenants.map((t) => t.league))], tm: v.tenants.map((t) => t.team), r: v.rankings.us,
   img: rendered.has(v.slug) ? 1 : 0,
+  a: atlas?.venues[v.slug] ?? null, // [sheet, col, row] in public/stadiums/atlas
 }))
 
 fs.mkdirSync('public/stadiums/venues', { recursive: true })
@@ -36,6 +39,6 @@ for (const v of data.venues) {
     art: { archetype: a.archetype, model: rendered.has(v.slug), seat_colors: a.seat_colors },
   }))
 }
-fs.writeFileSync('public/stadiums/index.json', JSON.stringify({ generated: data.generated, count: index.length, cpi_base_year: data.cpi_base_year, venues: index }))
+fs.writeFileSync('public/stadiums/index.json', JSON.stringify({ generated: data.generated, count: index.length, cpi_base_year: data.cpi_base_year, atlas: atlas && { tile: atlas.tile, sheets: atlas.sheets.map(({ sheet, cols, rows }) => ({ sheet, cols, rows })) }, venues: index }))
 const kb = (f) => (fs.statSync(f).size / 1024).toFixed(0)
 console.log(`index.json ${kb('public/stadiums/index.json')} KB, ${index.length} venues, ${rendered.size} with sprites`)

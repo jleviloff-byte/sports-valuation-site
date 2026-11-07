@@ -183,7 +183,7 @@ export default function Stadiums() {
         {error && <div className="absolute inset-0 flex items-center justify-center text-sm text-slate">Could not load venue data.</div>}
         {data && (
           <Suspense fallback={<div className="absolute inset-0 flex items-center justify-center eyebrow">Loading map</div>}>
-            <StadiumMap venues={filtered} onSelect={open} focus={focus} basemap={basemap} />
+            <StadiumMap venues={filtered} onSelect={open} focus={focus} basemap={basemap} atlas={data?.atlas || null} />
           </Suspense>
         )}
         {hawaii.length > 0 && (
