@@ -54,8 +54,8 @@ function useColorMode() {
 // render). Between REVEAL_START and REVEAL_END the shape fades out while the
 // illustration fades and scales in; illustrations load per venue, only for
 // venues in view.
-const REVEAL_START = 5.6
-const REVEAL_END = 6.8
+const REVEAL_START = 5.9
+const REVEAL_END = 6.6
 const ease = (t) => t * t * (3 - 2 * t)
 
 export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted', atlas = null }) {
@@ -116,7 +116,8 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     // tile arrives, so draw them right away instead of waiting for the basemap.
     schedule()
     mapRef.current = map
-    if (import.meta.env.DEV) window.__stadiumMap = map
+    // Test hook for scripts/stadiums/map/*.mjs: dev builds, or ?debugmap in the URL.
+    if (import.meta.env.DEV || /[?&]debugmap\b/.test(location.search)) window.__stadiumMap = map
     state.current.schedule = schedule
     return undefined
   }, [mode, basemap]) // eslint-disable-line react-hooks/exhaustive-deps
@@ -237,8 +238,10 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
       if (tile && img) {
         const v = rec.v
         const showShape = useAtlas(v) && st.sheets[v.a[0]] === 'ready'
-        const shapeOpacity = showShape ? 1 - reveal : 0
-        const artOpacity = showShape ? reveal : 1
+        // The illustration (drawn on top) arrives first, then the shape fades out
+        // beneath it, so one layer is always fully visible and nothing dips or ghosts.
+        const artOpacity = showShape ? ease(Math.min(1, reveal / 0.6)) : 1
+        const shapeOpacity = showShape ? 1 - ease(Math.max(0, (reveal - 0.45) / 0.55)) : 0
         tile.hidden = shapeOpacity <= 0
         if (!tile.hidden) {
           const sh = st.atlas.sheets[v.a[0]]
