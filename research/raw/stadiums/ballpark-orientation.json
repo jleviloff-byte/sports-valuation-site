@@ -2,7 +2,7 @@
  "dodger-stadium": {
   "bearing": 25,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.242611,34.071289,-118.237623,34.075451&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "chase-field": {
@@ -12,7 +12,7 @@
  "t-mobile-park": {
   "bearing": 340,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.336518,47.589384,-122.330390,47.593546&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "coors-field": {
@@ -32,13 +32,13 @@
  "angel-stadium": {
   "bearing": 50,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-117.885222,33.798063,-117.880250,33.802225&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "busch-stadium": {
   "bearing": 35,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.195762,38.620446,-90.190472,38.624608&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "great-american-ball-park": {
@@ -58,13 +58,13 @@
  "oriole-park-at-camden-yards": {
   "bearing": 30,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.624318,39.281448,-76.618980,39.285610&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "citi-field": {
   "bearing": 25,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.848698,40.755293,-73.843242,40.759455&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "american-family-field": {
@@ -77,7 +77,7 @@
  "wrigley-field": {
   "bearing": 45,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.658443,41.946118,-87.652887,41.950280&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "nationals-park": {
@@ -111,7 +111,7 @@
  "rate-field": {
   "bearing": 135,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.636457,41.827681,-87.630911,41.831843&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "globe-life-field": {
@@ -122,7 +122,7 @@
   "bearing": 165,
   "error": "pitch outline not clearly fan-shaped (infield-only or irregular)",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.051757,42.336855,-83.046167,42.341017&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
-  "method": "NAIP visual reading, pending Josh review"
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07"
  },
  "petco-park": {
   "bearing": 355,
@@ -141,7 +141,7 @@
  "target-field": {
   "bearing": 100,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.280555,44.979702,-93.274713,44.983864&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  },
  "kauffman-stadium": {
@@ -179,7 +179,7 @@
  "charles-schwab-field": {
   "bearing": 135,
   "error": "no baseball pitch mapped",
-  "method": "NAIP visual reading, pending Josh review",
+  "method": "NAIP visual reading, accepted by Josh 2026-11-07",
   "osm": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.934322,41.264881,-95.928824,41.269043&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
  }
 }

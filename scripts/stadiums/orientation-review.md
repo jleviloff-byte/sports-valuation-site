@@ -4,7 +4,7 @@ These 14 ballparks had no usable OpenStreetMap field outline, so their home-plat
 
 I then read each one off a north-up USGS NAIP aerial (public domain). Readings are by eye, about ±15 degrees; bearings are degrees clockwise from north. Three domes had their roofs closed in the imagery and cannot be read. Labeled review sheets: `docs/art-review/orientation-naip-1.png` and `-2.png` (yellow arrow = north).
 
-Please check each against satellite view. Until you confirm, the art uses the NAIP reading where there is one and the default otherwise; `data/stadiums.json` is unaffected (orientation is an art parameter only).
+**Status: closed 2026-11-07.** Josh accepted the 11 NAIP readings and the 67.5 degree default for the 3 domes (Chase Field, Globe Life Field, loanDepot park). The art uses these bearings; `data/stadiums.json` is unaffected (orientation is an art parameter only).
 
 | Ballpark | Lat, lng | Default used | NAIP reading | Aerial | Check |
 |---|---|---|---|---|---|
