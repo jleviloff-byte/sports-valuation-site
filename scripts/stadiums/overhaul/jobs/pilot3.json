@@ -1,0 +1,40 @@
+[
+ {
+  "slug": "daytona-international-speedway",
+  "kind": "racetrack",
+  "ref": "controls/daytona-international-speedway/color.png",
+  "desc_short": "Daytona International Speedway: wide tri-oval of steeply banked gray asphalt around a large flat green grass infield with a blue lake, one long multi-level grandstand with glass suites along the front stretch, no cars, no crowd",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/daytona-international-speedway/depth.png",
+   "edges": "controls/daytona-international-speedway/edges.png"
+  },
+  "ip_scale": 0.4,
+  "cn_scale": [
+   0.75,
+   0.85
+  ]
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "kind": "tennis stadium",
+  "ref": "controls/arthur-ashe-stadium/color.png",
+  "desc_short": "Arthur Ashe Stadium: large round tennis stadium around one blue hard court with light green surround, light fabric retractable roof on a dark steel superstructure on columns, red-brick base, dark blue seats",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/arthur-ashe-stadium/depth.png",
+   "edges": "controls/arthur-ashe-stadium/edges.png"
+  },
+  "ip_scale": 0.35
+ }
+]
