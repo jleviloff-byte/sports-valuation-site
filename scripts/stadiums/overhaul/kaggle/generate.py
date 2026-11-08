@@ -31,7 +31,7 @@ STYLE = ('museum-quality architectural scale model of a {kind}, miniature dioram
          'gentle contact shadow, {base}, isolated on a plain light gray studio background')
 BASES = {'base': 'on a thin square model base', 'nobase': 'no base'}
 NEG = ('photo of a real city, aerial photograph, streets, cars, parking lots, neighboring buildings, trees, skyline, '
-       'cartoon, voxel, low poly, lego bricks, toy, text, letters, logo, watermark, people')
+       'cartoon, voxel, low poly, lego bricks, toy, text, letters, words, logo, emblem, watermark, people')
 NEG2 = 'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border, gibberish text'
 
 W, H = 1216, 832  # SDXL bucket close to 3:2
@@ -89,6 +89,7 @@ def shadow(rgba):
     out[..., 3] = a + sh * (1 - a)
     nz = out[..., 3] > 1e-4
     out[..., :3][nz] = out[..., :3][nz] / out[..., 3][nz][:, None]
+    out[..., 3] *= 255  # alpha back to 0..255
     return Image.fromarray(np.clip(out, 0, 255).astype(np.uint8), 'RGBA')
 
 

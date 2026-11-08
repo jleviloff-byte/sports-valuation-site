@@ -4,7 +4,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "kind": "baseball park",
   "ref": "refs/fenway-park/11.jpg",
@@ -85,7 +86,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "kind": "football stadium",
   "ref": "refs/michigan-stadium/1.jpg",
@@ -182,7 +184,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "kind": "baseball park",
   "ref": "refs/wrigley-field/8.jpg",
@@ -263,7 +266,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "kind": "football stadium",
   "ref": "refs/sofi-stadium/1.jpg",
@@ -339,7 +343,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/landn-federal-credit-union-stadium/depth.png",
@@ -354,7 +359,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/lambeau-field/depth.png",
@@ -369,7 +375,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/madison-square-garden/depth.png",
@@ -384,7 +391,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/rupp-arena/depth.png",
@@ -399,7 +407,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/q2-stadium/depth.png",
@@ -414,7 +423,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/daytona-international-speedway/depth.png",
@@ -429,7 +439,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/bristol-motor-speedway/depth.png",
@@ -444,7 +455,8 @@
   "seeds": [
    11,
    22,
-   33
+   33,
+   44
   ],
   "control": {
    "depth": "controls/arthur-ashe-stadium/depth.png",
