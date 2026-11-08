@@ -28,3 +28,40 @@ attempt in the set, so the site never falls back to bricks.
 - **Options:**
   1. Accept type-correct art for venues without a recognizable exterior.
   2. Spend the remaining 2 attempts on each with a closer crop or a signature detail (Q2's west-side canopy, L&N's north end-zone building).
+
+
+## Full run, batch 1 (iconic venues): no usable reference yet
+
+Two Commons searches were run: the category crawl, then targeted aerial searches including former venue names. These venues still have no oblique aerial that shows the whole building.
+Next step for each: the fallback path (NAIP-measured 3D model, as for the pilot's fallback venues), or a fresh search.
+
+| Venue | Reason |
+|---|---|
+| atandt-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| empower-field-at-mile-high | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| mercedes-benz-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| paycor-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| highmark-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| great-american-ball-park | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| american-family-field | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| daikin-park | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| truist-park | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| globe-life-field | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| loandepot-park | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| kyle-field | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| darrell-k-royal-texas-memorial-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| bryant-denny-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| memorial-stadium-sc | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| razorback-stadium | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| td-garden | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| allen-fieldhouse | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| charlotte-motor-speedway | no aerial or elevated exterior photo on Commons (ground-level or interior photos only) |
+| busch-stadium | reference is a ground/elevated view from a tower: no outline of the whole venue |
+| kauffman-stadium | reference is an interior upper-deck view |
+| oracle-park | reference is an interior upper-deck view |
+| sanford-stadium | reference is an interior upper-deck view |
+| tiger-stadium | stadium is cut off at the frame edge in the only aerial |
+| intuit-dome | only aerial is through an airliner window with the engine in front |
+| t-mobile-park | only aerial is distant; ballpark is a few pixels |
+| citizens-bank-park | only aerial is distant; ballpark is a few pixels |
+| circuit-of-the-americas | whole circuit fills the aerial; needs a grandstand-side crop or the fallback model |
