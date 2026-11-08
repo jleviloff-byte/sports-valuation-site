@@ -1,7 +1,42 @@
 [
  {
+  "slug": "landn-federal-credit-union-stadium",
+  "style": "vector",
+  "ms": 5602
+ },
+ {
   "slug": "lambeau-field",
   "style": "vector",
-  "ms": 6077
+  "ms": 3568
+ },
+ {
+  "slug": "madison-square-garden",
+  "style": "vector",
+  "ms": 3284
+ },
+ {
+  "slug": "rupp-arena",
+  "style": "vector",
+  "ms": 2564
+ },
+ {
+  "slug": "q2-stadium",
+  "style": "vector",
+  "ms": 3087
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "style": "vector",
+  "ms": 3184
+ },
+ {
+  "slug": "bristol-motor-speedway",
+  "style": "vector",
+  "ms": 3197
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "style": "vector",
+  "ms": 3557
  }
 ]

@@ -4,11 +4,11 @@
 # uploaded as dataset stadium-overhaul-jobs. Outputs to /kaggle/working/out/<slug>/.
 # Models and licenses: docs/overhaul/model-licenses.md.
 import json, os, subprocess, sys, time
-subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1', 'transformers==4.56.2', 'accelerate', 'timm', 'kornia', 'einops'], check=True)
+subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1', 'transformers==4.56.2', 'accelerate', 'timm', 'kornia', 'einops', 'easyocr'], check=True)
 
 import numpy as np, torch, cv2
 from PIL import Image, ImageFilter, ImageDraw
-from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, AutoencoderKL
+from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, StableDiffusionXLInpaintPipeline, AutoencoderKL
 from transformers import pipeline as hf_pipeline, AutoModelForImageSegmentation
 from torchvision import transforms
 
@@ -32,7 +32,7 @@ STYLE = ('museum-quality architectural scale model of a {kind}, miniature dioram
 BASES = {'base': 'on a thin square model base', 'nobase': 'no base'}
 NEG = ('photo of a real city, aerial photograph, streets, cars, parking lots, neighboring buildings, trees, skyline, '
        'cartoon, voxel, low poly, lego bricks, toy, text, letters, words, logo, emblem, watermark, people')
-NEG2 = 'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border, gibberish text'
+NEG2 = 'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border, gibberish text, lettering, signage text, numbers, brand names, sponsor banners'
 
 W, H = 1216, 832  # SDXL bucket close to 3:2
 
@@ -75,6 +75,32 @@ vae = AutoencoderKL.from_pretrained('madebyollin/sdxl-vae-fp16-fix', torch_dtype
 pipe = StableDiffusionXLControlNetUnionPipeline.from_pretrained('stabilityai/stable-diffusion-xl-base-1.0', controlnet=cn, vae=vae, torch_dtype=torch.float16, variant='fp16').to(dev)
 pipe.load_ip_adapter('h94/IP-Adapter', subfolder='sdxl_models', weight_name='ip-adapter_sdxl_vit-h.safetensors', image_encoder_folder='models/image_encoder')
 pipe.enable_vae_tiling()
+# Text cleanup (brief: no readable text or logos): EasyOCR's CRAFT detector finds
+# lettering, including gibberish, and SDXL inpaints those boxes as blank surface.
+inpaint = StableDiffusionXLInpaintPipeline.from_pipe(pipe)
+import easyocr
+ocr = easyocr.Reader(['en'], gpu=True, verbose=False)
+
+def text_boxes(img, mask):
+    """Text-line boxes inside the venue (detector only, so gibberish counts too)."""
+    hz, _ = ocr.detect(np.array(img), min_size=8, text_threshold=0.6, low_text=0.35)
+    out = []
+    for x0, x1, y0, y1 in (hz[0] if hz else []):
+        x0, y0, x1, y1 = max(0, int(x0)), max(0, int(y0)), int(x1), int(y1)
+        if x1 - x0 < 6 or y1 - y0 < 4 or mask[y0:y1, x0:x1].mean() < 60: continue
+        out.append([x0, y0, x1, y1])
+    return out
+
+def remove_text(img, boxes, prompt, prompt_2, ip_img, seed):
+    m = np.zeros((img.height, img.width), np.uint8)
+    for x0, y0, x1, y1 in boxes:
+        p = max(4, (y1 - y0) // 3); m[max(0, y0 - p):y1 + p, max(0, x0 - p):x1 + p] = 255
+    m = Image.fromarray(cv2.GaussianBlur(m, (0, 0), 3))
+    pipe.set_ip_adapter_scale(0.0)
+    out = inpaint(prompt=prompt + ', plain blank surfaces, no lettering', prompt_2=prompt_2, negative_prompt=NEG, negative_prompt_2=NEG2,
+                  image=img, mask_image=m, ip_adapter_image=ip_img, strength=0.8, num_inference_steps=30, guidance_scale=6.0,
+                  width=img.width, height=img.height, generator=torch.Generator(dev).manual_seed(seed)).images[0]
+    return Image.composite(out, img, m)
 print(f'models ready in {time.time()-T0:.0f}s', flush=True)
 
 
@@ -106,18 +132,28 @@ def clean_alpha(a):
     return Image.fromarray((a * 255).astype(np.uint8))
 
 
+def blank(img, rects):
+    a = np.array(img)
+    for x0, y0, x1, y1 in rects:
+        X0, Y0, X1, Y1 = int(x0 * img.width), int(y0 * img.height), int(x1 * img.width), int(y1 * img.height)
+        p = max(3, (Y1 - Y0) // 4)
+        ring = np.concatenate([a[max(0, Y0 - p):Y0, X0:X1].reshape(-1, 3), a[Y1:Y1 + p, X0:X1].reshape(-1, 3)])
+        a[Y0:Y1, X0:X1] = np.median(ring, 0) if len(ring) else 128
+    return Image.fromarray(a)
+
+
 log = []
 for job in JOBS:
     slug = job['slug']; od = os.path.join(OUT, slug); os.makedirs(od, exist_ok=True)
     t = time.time()
     if job.get('control'):  # fallback path: depth/edges rendered from the NAIP-measured model
-        ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
+        ref = blank(Image.open(os.path.join(IN, job['ref'])).convert('RGB'), job.get('blank', []))
         depth_img = fit(Image.open(os.path.join(IN, job['control']['depth'])).convert('RGB'), bg=(0, 0, 0))
         edge_img = fit(Image.open(os.path.join(IN, job['control']['edges'])).convert('RGB'), bg=(0, 0, 0))
         cmask = (np.array(depth_img.convert('L')) > 8).astype(np.uint8) * 255
         ip_img = ref
     else:  # photo path: structure from the reference photo inside a hand-traced venue polygon
-        ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
+        ref = blank(Image.open(os.path.join(IN, job['ref'])).convert('RGB'), job.get('blank', []))
         poly = [(x * ref.width, y * ref.height) for x, y in job['poly']]
         pm = Image.new('L', ref.size, 0); ImageDraw.Draw(pm).polygon(poly, fill=255)
         xs, ys = [p[0] for p in poly], [p[1] for p in poly]
@@ -139,17 +175,23 @@ for job in JOBS:
     gate = cv2.GaussianBlur(cv2.dilate(cmask, np.ones((61, 61), np.uint8)), (0, 0), 12).astype(np.float32) / 255
     depth_img.save(f'{od}/ctl_depth.png'); edge_img.save(f'{od}/ctl_edges.png')
     ip_img = ip_img.copy(); ip_img.thumbnail((1024, 1024))
-    pipe.set_ip_adapter_scale(job.get('ip_scale', 0.3))
-    for variant in job.get('variants', ['base', 'nobase']):
+    texts = {}
+    for variant in job.get('variants', ['nobase']):  # the base is composited in post (qa.py), identical for every venue
         prompt = STYLE.format(kind=job['kind'], base=BASES[variant])
         prompt_2 = job['desc_short']
         for seed in job['seeds']:
             g = torch.Generator(dev).manual_seed(seed)
+            pipe.set_ip_adapter_scale(job.get('ip_scale', 0.3))
             img = pipe(prompt=prompt, prompt_2=prompt_2, negative_prompt=NEG, negative_prompt_2=NEG2, control_image=[depth_img, edge_img], control_mode=[1, 3],
                        controlnet_conditioning_scale=job.get('cn_scale', [0.85, 0.6]), ip_adapter_image=ip_img,
                        num_inference_steps=job.get('steps', 32), guidance_scale=job.get('cfg', 6.0), width=W, height=H,
                        generator=g, control_guidance_end=job.get('cn_end', 0.85)).images[0]
             img.save(f'{od}/{variant}_{seed}_raw.png')
+            boxes = text_boxes(img, gate * 255)
+            if boxes:
+                img = remove_text(img, boxes, prompt, prompt_2, ip_img, seed)
+                img.save(f'{od}/{variant}_{seed}_clean.png')
+            texts[f'{variant}_{seed}'] = [len(boxes), len(text_boxes(img, gate * 255))]  # text boxes before, after cleanup
             raw = np.array(alpha_of(img)).astype(np.float32) * gate
             if raw.mean() < 0.25 * gate.mean() * 255:  # BiRefNet found too little: fall back to the control silhouette
                 raw = np.maximum(raw, cv2.GaussianBlur(cmask, (0, 0), 2).astype(np.float32))
@@ -157,7 +199,7 @@ for job in JOBS:
             rgba = img.convert('RGBA'); rgba.putalpha(a)
             shadow(rgba).save(f'{od}/{variant}_{seed}.png')
             print(f'{slug} {variant} seed {seed} done {time.time()-t:.0f}s', flush=True)
-    log.append({'slug': slug, 'seconds': round(time.time() - t)})
+    log.append({'slug': slug, 'seconds': round(time.time() - t), 'text_boxes': texts})
 
 json.dump({'jobs': log, 'total_seconds': round(time.time() - T0)}, open(f'{OUT}/run.json', 'w'), indent=1)
 print('TOTAL', round(time.time() - T0), 's')

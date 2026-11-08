@@ -1,0 +1,507 @@
+[
+ {
+  "slug": "fenway-park",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "kind": "baseball park",
+  "ref": "refs/fenway-park/11.jpg",
+  "poly": [
+   [
+    0.12,
+    0.31
+   ],
+   [
+    0.27,
+    0.29
+   ],
+   [
+    0.5,
+    0.33
+   ],
+   [
+    0.78,
+    0.33
+   ],
+   [
+    0.87,
+    0.35
+   ],
+   [
+    0.89,
+    0.47
+   ],
+   [
+    0.9,
+    0.62
+   ],
+   [
+    0.88,
+    0.7
+   ],
+   [
+    0.62,
+    0.7
+   ],
+   [
+    0.55,
+    0.73
+   ],
+   [
+    0.48,
+    0.66
+   ],
+   [
+    0.35,
+    0.66
+   ],
+   [
+    0.3,
+    0.62
+   ],
+   [
+    0.2,
+    0.62
+   ],
+   [
+    0.08,
+    0.5
+   ],
+   [
+    0.06,
+    0.4
+   ],
+   [
+    0.12,
+    0.36
+   ]
+  ],
+  "desc_short": "Fenway Park: asymmetric ballpark, tall green left-field wall with manual scoreboard, red grandstand seats in green steel, dark green bleachers, red-brick exterior, light towers on the roof, dirt infield, grass outfield"
+ },
+ {
+  "slug": "michigan-stadium",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "kind": "football stadium",
+  "ref": "refs/michigan-stadium/1.jpg",
+  "poly": [
+   [
+    0.1,
+    0.48
+   ],
+   [
+    0.2,
+    0.36
+   ],
+   [
+    0.3,
+    0.3
+   ],
+   [
+    0.47,
+    0.29
+   ],
+   [
+    0.47,
+    0.24
+   ],
+   [
+    0.54,
+    0.24
+   ],
+   [
+    0.54,
+    0.29
+   ],
+   [
+    0.68,
+    0.29
+   ],
+   [
+    0.8,
+    0.33
+   ],
+   [
+    0.86,
+    0.45
+   ],
+   [
+    0.9,
+    0.58
+   ],
+   [
+    0.88,
+    0.73
+   ],
+   [
+    0.8,
+    0.75
+   ],
+   [
+    0.7,
+    0.8
+   ],
+   [
+    0.56,
+    0.82
+   ],
+   [
+    0.56,
+    0.86
+   ],
+   [
+    0.42,
+    0.86
+   ],
+   [
+    0.42,
+    0.8
+   ],
+   [
+    0.25,
+    0.76
+   ],
+   [
+    0.14,
+    0.72
+   ],
+   [
+    0.1,
+    0.6
+   ]
+  ],
+  "desc_short": "Michigan Stadium: huge closed oval bowl sunk into the ground, gray-blue aluminum bench seats, navy rim band, red-brick and glass press box towers on both sidelines, video boards at both ends, green field with navy end zones",
+  "blank": [
+   [
+    0.425,
+    0.66,
+    0.56,
+    0.775
+   ],
+   [
+    0.45,
+    0.465,
+    0.56,
+    0.495
+   ],
+   [
+    0.485,
+    0.545,
+    0.52,
+    0.58
+   ],
+   [
+    0.475,
+    0.245,
+    0.54,
+    0.268
+   ]
+  ]
+ },
+ {
+  "slug": "wrigley-field",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "kind": "baseball park",
+  "ref": "refs/wrigley-field/8.jpg",
+  "poly": [
+   [
+    0.02,
+    0.5
+   ],
+   [
+    0.1,
+    0.4
+   ],
+   [
+    0.3,
+    0.4
+   ],
+   [
+    0.36,
+    0.3
+   ],
+   [
+    0.64,
+    0.29
+   ],
+   [
+    0.66,
+    0.33
+   ],
+   [
+    0.78,
+    0.36
+   ],
+   [
+    0.84,
+    0.42
+   ],
+   [
+    0.89,
+    0.5
+   ],
+   [
+    0.89,
+    0.65
+   ],
+   [
+    0.88,
+    0.82
+   ],
+   [
+    0.82,
+    0.88
+   ],
+   [
+    0.6,
+    0.86
+   ],
+   [
+    0.5,
+    0.82
+   ],
+   [
+    0.3,
+    0.72
+   ],
+   [
+    0.16,
+    0.72
+   ],
+   [
+    0.02,
+    0.66
+   ]
+  ],
+  "desc_short": "Wrigley Field: classic ballpark, ivy-covered brick outfield walls, green hand-operated center-field scoreboard, double-deck grandstand with dark green seats and low roof, outfield bleachers, dirt infield"
+ },
+ {
+  "slug": "sofi-stadium",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "kind": "football stadium",
+  "ref": "refs/sofi-stadium/1.jpg",
+  "poly": [
+   [
+    0.38,
+    0.33
+   ],
+   [
+    0.5,
+    0.32
+   ],
+   [
+    0.62,
+    0.34
+   ],
+   [
+    0.75,
+    0.4
+   ],
+   [
+    0.85,
+    0.5
+   ],
+   [
+    0.87,
+    0.62
+   ],
+   [
+    0.84,
+    0.75
+   ],
+   [
+    0.8,
+    0.85
+   ],
+   [
+    0.6,
+    0.82
+   ],
+   [
+    0.4,
+    0.8
+   ],
+   [
+    0.3,
+    0.79
+   ],
+   [
+    0.2,
+    0.79
+   ],
+   [
+    0.22,
+    0.77
+   ],
+   [
+    0.3,
+    0.65
+   ],
+   [
+    0.35,
+    0.5
+   ]
+  ],
+  "desc_short": "SoFi Stadium: one huge translucent curved canopy roof with a fine diamond grid, sweeping low on one side, white edge, open sides on slender columns",
+  "blank": [
+   [
+    0.34,
+    0.58,
+    0.46,
+    0.7
+   ],
+   [
+    0.5,
+    0.365,
+    0.63,
+    0.395
+   ]
+  ]
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "kind": "football stadium",
+  "ref": "refs/landn-federal-credit-union-stadium/3.jpg",
+  "desc_short": "L&N Federal Credit Union Stadium: closed football bowl with red seats, tall brick-and-glass press box tower on one sideline, upper deck with white canopy opposite, video board at the closed end, green field",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/landn-federal-credit-union-stadium/depth.png",
+   "edges": "controls/landn-federal-credit-union-stadium/edges.png"
+  }
+ },
+ {
+  "slug": "lambeau-field",
+  "kind": "football stadium",
+  "ref": "refs/lambeau-field/17.jpg",
+  "desc_short": "Lambeau Field: closed oval bowl of light gray bench seats, dark green upper facade band, red-brick piers and glass atrium on one side, tall end zone with a large video board, green field",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/lambeau-field/depth.png",
+   "edges": "controls/lambeau-field/edges.png"
+  }
+ },
+ {
+  "slug": "madison-square-garden",
+  "kind": "arena",
+  "ref": "refs/madison-square-garden/17.jpg",
+  "desc_short": "Madison Square Garden: round arena drum with vertical warm bronze precast panels, shallow light gray round roof, attached rectangular office block, glass entrance pavilion",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/madison-square-garden/depth.png",
+   "edges": "controls/madison-square-garden/edges.png"
+  }
+ },
+ {
+  "slug": "rupp-arena",
+  "kind": "arena",
+  "ref": "refs/rupp-arena/13.jpg",
+  "desc_short": "Rupp Arena: large rectangular arena box, flat light roof, beige ribbed metal panel walls, dark glass band at street level, diagonal-braced corner stair towers",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/rupp-arena/depth.png",
+   "edges": "controls/rupp-arena/edges.png"
+  }
+ },
+ {
+  "slug": "q2-stadium",
+  "kind": "soccer stadium",
+  "ref": "refs/q2-stadium/1.jpg",
+  "desc_short": "Q2 Stadium: soccer stadium, rectangular grass pitch, steep green-seated stands close to the touchlines, white steel truss canopy roof over all stands, green slatted facade panels",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/q2-stadium/depth.png",
+   "edges": "controls/q2-stadium/edges.png"
+  },
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "kind": "racetrack",
+  "ref": "refs/daytona-international-speedway/23.jpg",
+  "desc_short": "Daytona International Speedway: huge multi-level main grandstand with glass suites and gray-blue seats along the front stretch, steeply banked gray asphalt track, pit road, grass infield",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/daytona-international-speedway/depth.png",
+   "edges": "controls/daytona-international-speedway/edges.png"
+  }
+ },
+ {
+  "slug": "bristol-motor-speedway",
+  "kind": "racetrack",
+  "ref": "refs/bristol-motor-speedway/26.jpg",
+  "desc_short": "Bristol Motor Speedway: short steeply banked concrete oval enclosed by tall steep grandstands like a bowl, gray seats with red sections, pit road and garages in the infield",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/bristol-motor-speedway/depth.png",
+   "edges": "controls/bristol-motor-speedway/edges.png"
+  }
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "kind": "tennis stadium",
+  "ref": "refs/arthur-ashe-stadium/5.jpg",
+  "desc_short": "Arthur Ashe Stadium: large round tennis stadium around one blue hard court with light green surround, light fabric retractable roof on a dark steel superstructure on columns, red-brick base, dark blue seats",
+  "seeds": [
+   11,
+   44,
+   55,
+   77
+  ],
+  "control": {
+   "depth": "controls/arthur-ashe-stadium/depth.png",
+   "edges": "controls/arthur-ashe-stadium/edges.png"
+  }
+ }
+]

@@ -140,7 +140,7 @@ for (const slug of slugs) {
       // Conditioning images for Path A (ControlNet depth + mask), padded to a square on black.
       const cdir = 'scripts/stadiums/art2/out/control'
       fs.mkdirSync(cdir, { recursive: true })
-      for (const k of ['depth', 'mask', 'normal']) {
+      for (const k of ['depth', 'mask', 'normal', 'color']) {
         const img = sharp(Buffer.from(r[k].split(',')[1], 'base64'))
         const m = await img.metadata(), side = Math.max(m.width, m.height)
         await img.extend({ top: Math.floor((side - m.height) / 2), bottom: Math.ceil((side - m.height) / 2), left: Math.floor((side - m.width) / 2), right: Math.ceil((side - m.width) / 2), background: '#000' })

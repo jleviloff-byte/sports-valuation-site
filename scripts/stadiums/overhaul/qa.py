@@ -3,9 +3,11 @@
 #   python3 qa.py blind <run_out> <picks.json> <dir>     copies of the picks under neutral names, plus key.json
 #   python3 qa.py export <run_out> <picks.json> <dir>    hero 1600px WebP + 512/256 sprites per pick
 #   python3 qa.py pilot <run_out> <picks.json> <out.png> reference | hero (base, no base) | 220px (base, no base)
-# picks.json: { slug: { "base": seed, "nobase": seed } }
+# picks.json: { slug: seed }  (the generator makes the no-base image; the base
+# variant is the same image on one programmatic plinth, identical for the set)
 import json, os, random, shutil, sys
-from PIL import Image, ImageDraw, ImageFont
+import numpy as np, cv2
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 VER = json.load(open(os.path.join(REPO, 'scripts/stadiums/refs/verified.json')))
@@ -29,6 +31,37 @@ def trim(img, pad=0.04):
     c = img.crop(box) if box else img
     side = int(max(c.size) * (1 + 2 * pad))
     out = Image.new('RGBA', (side, side), (0, 0, 0, 0)); out.paste(c, ((side - c.width) // 2, (side - c.height) // 2)); return out
+
+
+def plinth(img):
+    """Put a trimmed no-base model on a thin base board: the model's bounding box,
+    enlarged 10% and always axis-aligned so the set reads as one series, as a
+    light top face over a darker front edge."""
+    img = trim(img, pad=0.12)
+    a = np.array(img.split()[-1])
+    pts = cv2.findNonZero((a > 128).astype(np.uint8))
+    x, y, w, h = cv2.boundingRect(pts); cx, cy = x + w / 2, y + h / 2
+    box = cv2.boxPoints(((cx, cy + 0.04 * max(w, h)), (w * 1.1, h * 1.1), 0))
+    t = 0.035 * img.width
+    base = Image.new('RGBA', img.size, (0, 0, 0, 0)); d = ImageDraw.Draw(base)
+    top = [tuple(p) for p in box]
+    sh = Image.new('L', img.size, 0); ImageDraw.Draw(sh).polygon([(x + 10, y + t + 14) for x, y in top], fill=90)
+    base.putalpha(sh.filter(ImageFilter.GaussianBlur(18)))  # contact shadow of the slab, light from the upper left
+    d = ImageDraw.Draw(base)
+    for i in range(4):  # visible side faces: edges whose outward normal points down
+        p1, p2 = top[i], top[(i + 1) % 4]
+        nx, ny = p2[1] - p1[1], -(p2[0] - p1[0])
+        if (nx * (p1[0] - cx) + ny * (p1[1] - cy)) < 0: nx, ny = -nx, -ny
+        if ny > 0: d.polygon([p1, p2, (p2[0], p2[1] + t), (p1[0], p1[1] + t)], fill=(168, 164, 156, 255))
+    d.polygon(top, fill=(226, 223, 216, 255), outline=(196, 192, 184, 255))
+    base.alpha_composite(img)
+    return trim(base)
+
+
+def variant(run, slug, seed, v):
+    """The picked image for a variant; the cleaned (text-removed) file is the output."""
+    im = Image.open(os.path.join(run, slug, f'nobase_{seed}.png'))
+    return plinth(im) if v == 'base' else trim(im)
 
 
 def ref_image(slug):
@@ -56,12 +89,12 @@ def sheets(run, out):
 
 def blind(run, picks, out):
     os.makedirs(out, exist_ok=True)
-    items = [(s, v, seed) for s, p in picks.items() for v, seed in p.items()]
+    items = [(s, v, seed) for s, seed in picks.items() for v in ('base', 'nobase')]
     random.Random(7).shuffle(items)
     key = {}
     for i, (s, v, seed) in enumerate(items, 1):
         name = f'img{i:02d}.png'
-        im = on_bg(trim(Image.open(os.path.join(run, s, f'{v}_{seed}.png'))), (255, 255, 255))
+        im = on_bg(variant(run, s, seed, v), (255, 255, 255))
         im.thumbnail((1024, 1024)); im.save(os.path.join(out, name))  # pixels only: no metadata, neutral name
         key[name] = {'slug': s, 'variant': v, 'seed': seed}
     json.dump(key, open(os.path.join(out, '..', 'blind-key.json'), 'w'), indent=1)
@@ -69,9 +102,9 @@ def blind(run, picks, out):
 
 def export(run, picks, out):
     os.makedirs(out, exist_ok=True)
-    for s, p in picks.items():
-        for v, seed in p.items():
-            im = trim(Image.open(os.path.join(run, s, f'{v}_{seed}.png')))
+    for s, seed in picks.items():
+        for v in ('base', 'nobase'):
+            im = variant(run, s, seed, v)
             hero = im.resize((1600, 1600), Image.LANCZOS)  # Real-ESRGAN replaces this upscale in the full run
             hero.save(os.path.join(out, f'{s}-{v}-1600.webp'), quality=88, method=6)
             for n in (512, 256): im.resize((n, n), Image.LANCZOS).save(os.path.join(out, f'{s}-{v}-{n}.webp'), quality=90, method=6)
@@ -91,8 +124,7 @@ def pilot(run, picks, outpng):
         ref = ref_image(s); ref.thumbnail((740, RH - 70)); sh.paste(ref, (20, y + 40))
         dr.text((20, y + 4), SPECS[s]['name'] + ('  (fallback model)' if SPECS[s]['path'] == 'fallback' else ''), fill='black', font=font(26))
         for k, v in enumerate(['base', 'nobase']):
-            if v not in picks[s]: continue
-            im = trim(Image.open(os.path.join(run, s, f'{v}_{picks[s][v]}.png')))
+            im = variant(run, s, picks[s], v)
             sh.paste(on_bg(im.resize((HW - 20, HW - 20), Image.LANCZOS)), (800 + k * HW, y + 30))
             small = on_bg(im.resize((SW, SW), Image.LANCZOS))
             sh.paste(small, (820 + 2 * HW + k * (SW + 40), y + 30 + (HW - SW) // 2))

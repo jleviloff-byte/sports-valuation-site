@@ -615,12 +615,11 @@ function daytona({ fp, mat, info }) {
   }
   // Light poles along the outside of the turn entries.
   for (const u of [-520, -480, 480, 520]) { const p = toW([u, frontV(u) + W / 2 + 14]); const pole = K.box(0.8, 32, 0.8, '#c8cbcf', mat, { kind: 'steel', bevel: 0 }); pole.position.set(p[0], 0, p[1]); g.add(pole) }
-  // Frame (overhaul): the front half of the tri-oval. The
-  // camera sits beyond the back stretch looking across the infield at the
-  // frontstretch grandstand, which faces it (brief: frame on the grandstand side).
-  g.userData.frame = [[-S - R * 0.35, R * 0.55], [S + R * 0.35, R * 0.55], [-S - R * 0.35, R + DOG + W / 2 + 90], [S + R * 0.35, R + DOG + W / 2 + 90]].map(([u, v]) => toW([u, v])) // grandstand, front stretch, pit road and both turn entries
+  // Frame (overhaul): the whole tri-oval. A grandstand-only frame read as a flat
+  // wall in the pilot; the tri-oval outline is what identifies Daytona. The
+  // camera sits beyond the back stretch so the frontstretch grandstand faces it.
   g.userData.cameraBearing = 128 // opposite the grandstand side (bearing 308)
-  g.userData.cameraElev = 36
+  g.userData.cameraElev = 44
   return g
 }
 
