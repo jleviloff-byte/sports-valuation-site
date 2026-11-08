@@ -277,7 +277,8 @@
  "huntington-bank-field": {
   "title": "Huntington Bank Field",
   "qid": "Q1100756",
-  "category": "Cleveland Browns Stadium"
+  "category": "Huntington Bank Field",
+  "matched": "manual (Wikidata P373 is a redirected old name)"
  },
  "doak-campbell-stadium": {
   "title": "Doak Campbell Stadium",
@@ -703,7 +704,8 @@
  "oracle-park": {
   "title": "Oracle Park",
   "qid": "Q298585",
-  "category": "AT&T Park"
+  "category": "Oracle Park",
+  "matched": "manual (Wikidata P373 is a redirected old name)"
  },
  "daikin-park": {
   "title": "Daikin Park",

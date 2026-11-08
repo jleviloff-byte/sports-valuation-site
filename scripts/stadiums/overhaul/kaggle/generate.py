@@ -161,8 +161,12 @@ for job in JOBS:
         ip_img = ref
     else:  # photo path: structure from the reference photo inside a hand-traced venue polygon
         ref = blank(Image.open(os.path.join(IN, job['ref'])).convert('RGB'), job.get('blank', []))
-        poly = [(x * ref.width, y * ref.height) for x, y in job['poly']]
-        pm = Image.new('L', ref.size, 0); ImageDraw.Draw(pm).polygon(poly, fill=255)
+        if job.get('mask'):  # full run: SAM mask from segment.py (box prompt marked by eye)
+            pm = Image.open(os.path.join(IN, job['mask'])).convert('L').resize(ref.size).point(lambda v: 255 if v > 127 else 0)
+            bx = pm.getbbox(); poly = [(bx[0], bx[1]), (bx[2], bx[3])]
+        else:  # pilot: hand-traced polygon
+            poly = [(x * ref.width, y * ref.height) for x, y in job['poly']]
+            pm = Image.new('L', ref.size, 0); ImageDraw.Draw(pm).polygon(poly, fill=255)
         xs, ys = [p[0] for p in poly], [p[1] for p in poly]
         mg = 0.06 * max(max(xs) - min(xs), max(ys) - min(ys))
         box = (int(max(0, min(xs) - mg)), int(max(0, min(ys) - mg)), int(min(ref.width, max(xs) + mg)), int(min(ref.height, max(ys) + mg)))
