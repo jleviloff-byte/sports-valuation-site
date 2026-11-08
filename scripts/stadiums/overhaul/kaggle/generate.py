@@ -1,0 +1,144 @@
+# Stadium art overhaul: generation kernel for Kaggle (GPU T4, internet on).
+# Inputs: private dataset joshleviloff/stadium-overhaul-refs (refs/<slug>/<n>.jpg,
+# naip/<slug>.jpg, verified.json) and jobs.json next to this script, or one
+# uploaded as dataset stadium-overhaul-jobs. Outputs to /kaggle/working/out/<slug>/.
+# Models and licenses: docs/overhaul/model-licenses.md.
+import json, os, subprocess, sys, time
+subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1', 'transformers==4.56.2', 'accelerate', 'timm', 'kornia', 'einops'], check=True)
+
+import numpy as np, torch, cv2
+from PIL import Image, ImageFilter
+from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, AutoencoderKL
+from transformers import pipeline as hf_pipeline, AutoModelForImageSegmentation
+from torchvision import transforms
+
+T0 = time.time()
+IN = '/kaggle/input/stadium-overhaul-refs'
+OUT = '/kaggle/working/out'
+HERE = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else '/kaggle/src'
+jobs_path = next((p for p in ['/kaggle/input/stadium-overhaul-jobs/jobs.json', os.path.join(HERE, 'jobs.json'), 'jobs.json'] if os.path.exists(p)), None)
+JOBS = globals().get('JOBS_INLINE') or json.load(open(jobs_path))  # push.py inlines JOBS_INLINE
+dev = 'cuda'
+
+# Locked style prompt and negative prompt for the whole set (brief: one style).
+STYLE = ('premium museum-quality architectural scale model of {desc}, miniature diorama seen from a 3/4 aerial view, '
+         'real materials: {materials}, true colors: {colors}, crisp clean high detail, precise physical model craftsmanship, '
+         'bright soft late-afternoon daylight from the upper left, gentle contact shadow, {base}, isolated on a plain light gray studio background')
+BASES = {'base': 'standing on a thin square architectural model base with a clean light edge',
+         'nobase': 'no base, the model sits directly on the plain background'}
+NEG = ('cartoon, illustration, voxel, low poly, lego, bricks, toy blocks, plastic toy, text, letters, words, logo, signage text, watermark, '
+       'people, cars, parking lot, streets, roads, neighboring buildings, city, skyline, trees, landscape, horizon, sky, '
+       'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border')
+
+W, H = 1216, 832  # SDXL bucket close to 3:2
+
+
+def fit(img, w=W, h=H, bg=(200, 200, 200)):
+    """Letterbox to w x h without cropping the venue."""
+    img = img.copy(); img.thumbnail((w, h), Image.LANCZOS)
+    c = Image.new(img.mode, (w, h), bg if img.mode == 'RGB' else 0)
+    c.paste(img, ((w - img.width) // 2, (h - img.height) // 2)); return c
+
+
+print('loading BiRefNet', flush=True)
+birefnet = AutoModelForImageSegmentation.from_pretrained('ZhengPeng7/BiRefNet', trust_remote_code=True).to(dev).eval().half()
+tf = transforms.Compose([transforms.Resize((1024, 1024)), transforms.ToTensor(), transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
+
+def alpha_of(img):
+    x = tf(img.convert('RGB')).unsqueeze(0).to(dev).half()
+    with torch.no_grad():
+        p = birefnet(x)[-1].sigmoid()[0, 0].float().cpu().numpy()
+    return Image.fromarray((p * 255).astype(np.uint8)).resize(img.size, Image.BILINEAR)
+
+print('loading depth', flush=True)
+depth_pipe = hf_pipeline('depth-estimation', model='depth-anything/Depth-Anything-V2-Small-hf', device=0)
+
+def depth_of(img):
+    d = np.array(depth_pipe(img)['depth'], dtype=np.float32)  # near = bright
+    d = cv2.resize(d, img.size); d = (d - d.min()) / max(1e-6, d.max() - d.min())
+    return d
+
+def canny_of(img, depth):
+    g = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
+    e1 = cv2.Canny(cv2.GaussianBlur(g, (3, 3), 0), 60, 160)
+    e2 = cv2.Canny((depth * 255).astype(np.uint8), 8, 24)  # structural edges from depth
+    return np.maximum(e1, e2)
+
+print('loading SDXL', flush=True)
+cn = ControlNetUnionModel.from_pretrained('xinsir/controlnet-union-sdxl-1.0', torch_dtype=torch.float16)
+vae = AutoencoderKL.from_pretrained('madebyollin/sdxl-vae-fp16-fix', torch_dtype=torch.float16)
+pipe = StableDiffusionXLControlNetUnionPipeline.from_pretrained('stabilityai/stable-diffusion-xl-base-1.0', controlnet=cn, vae=vae, torch_dtype=torch.float16, variant='fp16').to(dev)
+pipe.load_ip_adapter('h94/IP-Adapter', subfolder='sdxl_models', weight_name='ip-adapter_sdxl_vit-h.safetensors', image_encoder_folder='models/image_encoder')
+pipe.enable_vae_tiling()
+print(f'models ready in {time.time()-T0:.0f}s', flush=True)
+
+
+def shadow(rgba):
+    """One consistent soft contact shadow, light from the upper left."""
+    a = np.array(rgba.split()[-1]).astype(np.float32) / 255
+    h, w = a.shape
+    sh = cv2.GaussianBlur(cv2.warpAffine(a, np.float32([[1, 0, 10], [0, 1, 14]]), (w, h)), (0, 0), 18) * 0.35
+    out = np.zeros((h, w, 4), np.float32)
+    rgb = np.array(rgba.convert('RGB')).astype(np.float32)
+    out[..., :3] = rgb * a[..., None]
+    out[..., 3] = a + sh * (1 - a)
+    nz = out[..., 3] > 1e-4
+    out[..., :3][nz] = out[..., :3][nz] / out[..., 3][nz][:, None]
+    return Image.fromarray(np.clip(out, 0, 255).astype(np.uint8), 'RGBA')
+
+
+def clean_alpha(a):
+    a = np.array(a).astype(np.float32) / 255
+    a = np.clip((a - 0.15) / 0.7, 0, 1)  # tighten the soft edge to avoid halos
+    n, lab, st, _ = cv2.connectedComponentsWithStats((a > 0.5).astype(np.uint8))
+    if n > 1:  # keep the main body plus anything large attached
+        keep = np.zeros_like(a, bool)
+        big = st[1:, cv2.CC_STAT_AREA].max()
+        for i in range(1, n):
+            if st[i, cv2.CC_STAT_AREA] > 0.02 * big: keep |= lab == i
+        a = a * cv2.dilate(keep.astype(np.uint8), np.ones((9, 9), np.uint8)).astype(np.float32)
+    return Image.fromarray((a * 255).astype(np.uint8))
+
+
+log = []
+for job in JOBS:
+    slug = job['slug']; od = os.path.join(OUT, slug); os.makedirs(od, exist_ok=True)
+    t = time.time()
+    if job.get('control'):  # fallback path: depth/edges rendered from the NAIP-measured model
+        depth = np.array(Image.open(os.path.join(IN, job['control']['depth'])).convert('L')).astype(np.float32) / 255
+        ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
+        depth_img = fit(Image.fromarray((depth * 255).astype(np.uint8)).convert('RGB'), bg=(0, 0, 0))
+        edge_img = fit(Image.open(os.path.join(IN, job['control']['edges'])).convert('RGB'), bg=(0, 0, 0))
+    else:
+        ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
+        if job.get('crop'): ref = ref.crop(tuple(job['crop']))
+        refl = fit(ref)
+        m = alpha_of(refl) if job.get('mask', True) else Image.new('L', refl.size, 255)
+        m = Image.fromarray(cv2.dilate(np.array(m), np.ones((25, 25), np.uint8))).filter(ImageFilter.GaussianBlur(6))
+        mk = np.array(m).astype(np.float32) / 255
+        d0 = depth_of(refl)
+        depth = d0 * mk
+        edges = canny_of(refl, d0) * (mk > 0.5)
+        depth_img = Image.fromarray((depth * 255).astype(np.uint8)).convert('RGB')
+        edge_img = Image.fromarray(edges.astype(np.uint8)).convert('RGB')
+        m.save(f'{od}/ctl_mask.png')
+    depth_img.save(f'{od}/ctl_depth.png'); edge_img.save(f'{od}/ctl_edges.png')
+    ip_img = ref.copy(); ip_img.thumbnail((1024, 1024))
+    pipe.set_ip_adapter_scale(job.get('ip_scale', 0.45))
+    for variant in job.get('variants', ['base', 'nobase']):
+        prompt = STYLE.format(desc=job['desc'], materials=job['materials'], colors=job['colors'], base=BASES[variant])
+        for seed in job['seeds']:
+            g = torch.Generator(dev).manual_seed(seed)
+            img = pipe(prompt=prompt, negative_prompt=NEG, control_image=[depth_img, edge_img], control_mode=[1, 3],
+                       controlnet_conditioning_scale=job.get('cn_scale', [0.75, 0.55]), ip_adapter_image=ip_img,
+                       num_inference_steps=job.get('steps', 32), guidance_scale=job.get('cfg', 6.0), width=W, height=H,
+                       generator=g, control_guidance_end=job.get('cn_end', 0.85)).images[0]
+            img.save(f'{od}/{variant}_{seed}_raw.png')
+            a = clean_alpha(alpha_of(img))
+            rgba = img.convert('RGBA'); rgba.putalpha(a)
+            shadow(rgba).save(f'{od}/{variant}_{seed}.png')
+            print(f'{slug} {variant} seed {seed} done {time.time()-t:.0f}s', flush=True)
+    log.append({'slug': slug, 'seconds': round(time.time() - t)})
+
+json.dump({'jobs': log, 'total_seconds': round(time.time() - T0)}, open(f'{OUT}/run.json', 'w'), indent=1)
+print('TOTAL', round(time.time() - T0), 's')

@@ -1,0 +1,10 @@
+[
+ {"slug":"fenway-park","ref":"refs/fenway-park/11.jpg","seeds":[11,22],
+  "desc":"Fenway Park, a compact asymmetric baseball park: tall green left-field wall with a manual scoreboard, dirt infield, grass outfield, stands wrapping from foul pole to foul pole behind home plate, roof-mounted light towers",
+  "materials":"mown grass, red clay infield dirt, painted foul lines, green-painted steel, red brick facade, concrete, glass",
+  "colors":"dark green seats and walls, red-brown brick exterior, white roof boxes, bright green grass, red-brown dirt"},
+ {"slug":"michigan-stadium","ref":"refs/michigan-stadium/1.jpg","seeds":[11,22],
+  "desc":"Michigan Stadium, a huge closed oval football bowl dug into the ground with an American football field and end zones, tall brick-and-glass press box and suite towers on both sidelines, video boards in both end zones",
+  "materials":"artificial turf with white yard lines, aluminum bleacher bench seating, red-brown brick, glass curtain wall, concrete",
+  "colors":"gray-blue aluminum bench seating, navy blue and maize trim, red-brown brick, bright green turf with navy end zones"}
+]
