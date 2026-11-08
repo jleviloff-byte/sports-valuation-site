@@ -1,0 +1,794 @@
+[
+ {
+  "slug": "atandt-stadium",
+  "kind": "football stadium",
+  "ref": "controls/atandt-stadium/color.png",
+  "desc_short": "AT&T Stadium: enormous domed stadium with two great steel arches spanning its length, silver-white roof with retractable center panel, sloped glass walls",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/atandt-stadium/depth.png",
+   "edges": "controls/atandt-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/atandt-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "empower-field-at-mile-high",
+  "kind": "football stadium",
+  "ref": "controls/empower-field-at-mile-high/color.png",
+  "desc_short": "Empower Field at Mile High: large bowl with a wavy curved upper rim, tall upper decks on both sidelines, a big scoreboard and white horse statue at the south end, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/empower-field-at-mile-high/depth.png",
+   "edges": "controls/empower-field-at-mile-high/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/empower-field-at-mile-high/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "mercedes-benz-stadium",
+  "kind": "football stadium",
+  "ref": "controls/mercedes-benz-stadium/color.png",
+  "desc_short": "Mercedes-Benz Stadium: angular stadium with a pinwheel roof of eight triangular panels around an oculus, sloped silver and glass facade, huge ring video board, field below",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/mercedes-benz-stadium/depth.png",
+   "edges": "controls/mercedes-benz-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/mercedes-benz-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "paycor-stadium",
+  "kind": "football stadium",
+  "ref": "controls/paycor-stadium/color.png",
+  "desc_short": "Paycor Stadium: riverfront football bowl with two tall sideline decks under cantilevered canopies, open ends, glass and metal facade, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/paycor-stadium/depth.png",
+   "edges": "controls/paycor-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/paycor-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "highmark-stadium",
+  "kind": "football stadium",
+  "ref": "controls/highmark-stadium/color.png",
+  "desc_short": "Highmark Stadium: new compact football stadium with a deep steep bowl, a large canopy roof over most seats, limestone and glass exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/highmark-stadium/depth.png",
+   "edges": "controls/highmark-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/highmark-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "great-american-ball-park",
+  "kind": "baseball park",
+  "ref": "controls/great-american-ball-park/color.png",
+  "desc_short": "Great American Ball Park: riverfront ballpark with a gap in the stands behind third base, two smokestacks on the center field batter's eye, white steel and brick, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/great-american-ball-park/depth.png",
+   "edges": "controls/great-american-ball-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/great-american-ball-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "american-family-field",
+  "kind": "baseball park",
+  "ref": "controls/american-family-field/color.png",
+  "desc_short": "American Family Field: ballpark with a fan-shaped retractable roof of curved steel panels pivoting over the field, brick base, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/american-family-field/depth.png",
+   "edges": "controls/american-family-field/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/american-family-field/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "daikin-park",
+  "kind": "baseball park",
+  "ref": "controls/daikin-park/color.png",
+  "desc_short": "Daikin Park: downtown ballpark with a large retractable roof and glass wall in left field, a historic railroad station facade as the main entrance, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/daikin-park/depth.png",
+   "edges": "controls/daikin-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/daikin-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "truist-park",
+  "kind": "baseball park",
+  "ref": "controls/truist-park/color.png",
+  "desc_short": "Truist Park: suburban ballpark with a white steel canopy roof over the upper deck, brick and stone base, asymmetric outfield, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/truist-park/depth.png",
+   "edges": "controls/truist-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/truist-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "globe-life-field",
+  "kind": "baseball park",
+  "ref": "controls/globe-life-field/color.png",
+  "desc_short": "Globe Life Field: very large climate-controlled ballpark under a vast arched retractable roof, brick and stone exterior, artificial grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/globe-life-field/depth.png",
+   "edges": "controls/globe-life-field/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/globe-life-field/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "loandepot-park",
+  "kind": "baseball park",
+  "ref": "controls/loandepot-park/color.png",
+  "desc_short": "loanDepot park: modern white ballpark with a retractable roof of three large panels sliding on tracks, glass wall in left field facing downtown, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/loandepot-park/depth.png",
+   "edges": "controls/loandepot-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/loandepot-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "kyle-field",
+  "kind": "football stadium",
+  "ref": "controls/kyle-field/color.png",
+  "desc_short": "Kyle Field: very large closed college football bowl with tall steep upper decks on all sides, brick and gray concrete exterior with towers, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/kyle-field/depth.png",
+   "edges": "controls/kyle-field/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/kyle-field/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "darrell-k-royal-texas-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/darrell-k-royal-texas-memorial-stadium/color.png",
+  "desc_short": "Darrell K Royal Texas Memorial Stadium: huge college football bowl, tall upper decks on both sidelines and a closed south end zone, large video board at the north end, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/darrell-k-royal-texas-memorial-stadium/depth.png",
+   "edges": "controls/darrell-k-royal-texas-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/darrell-k-royal-texas-memorial-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "bryant-denny-stadium",
+  "kind": "football stadium",
+  "ref": "controls/bryant-denny-stadium/color.png",
+  "desc_short": "Bryant-Denny Stadium: huge college football bowl with tall upper decks on all four sides, brick and column exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/bryant-denny-stadium/depth.png",
+   "edges": "controls/bryant-denny-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/bryant-denny-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "memorial-stadium-sc",
+  "kind": "football stadium",
+  "ref": "controls/memorial-stadium-sc/color.png",
+  "desc_short": "Memorial Stadium Clemson: college football horseshoe bowl with a grass hill at the open east end, tall west side deck with press box, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/memorial-stadium-sc/depth.png",
+   "edges": "controls/memorial-stadium-sc/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/memorial-stadium-sc/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "razorback-stadium",
+  "kind": "football stadium",
+  "ref": "controls/razorback-stadium/color.png",
+  "desc_short": "Razorback Stadium: college football horseshoe bowl with tall decks on both sidelines and a closed north end zone, brick exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/razorback-stadium/depth.png",
+   "edges": "controls/razorback-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/razorback-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "td-garden",
+  "kind": "indoor arena",
+  "ref": "controls/td-garden/color.png",
+  "desc_short": "TD Garden: box-shaped arena built above a rail station, glass and metal facade, flat roof, a tall office tower beside it",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/td-garden/depth.png",
+   "edges": "controls/td-garden/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/td-garden/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "allen-fieldhouse",
+  "kind": "indoor arena",
+  "ref": "controls/allen-fieldhouse/color.png",
+  "desc_short": "Allen Fieldhouse: historic rectangular field house of tan limestone with a long arched barrel roof and tall arched windows",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/allen-fieldhouse/depth.png",
+   "edges": "controls/allen-fieldhouse/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/allen-fieldhouse/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/charlotte-motor-speedway/color.png",
+  "desc_short": "Charlotte Motor Speedway: banked quad-oval of gray asphalt around a green infield with a lake, a long multi-level grandstand with suites along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/charlotte-motor-speedway/depth.png",
+   "edges": "controls/charlotte-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/charlotte-motor-speedway/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "busch-stadium",
+  "kind": "baseball park",
+  "ref": "controls/busch-stadium/color.png",
+  "desc_short": "Busch Stadium: red brick and steel ballpark with red seats, open outfield toward downtown, steel truss roof over the upper deck, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/busch-stadium/depth.png",
+   "edges": "controls/busch-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/busch-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "kauffman-stadium",
+  "kind": "baseball park",
+  "ref": "controls/kauffman-stadium/color.png",
+  "desc_short": "Kauffman Stadium: ballpark with blue seats, a crown-topped scoreboard in center field and long fountains and waterfalls across the outfield, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/kauffman-stadium/depth.png",
+   "edges": "controls/kauffman-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/kauffman-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "oracle-park",
+  "kind": "baseball park",
+  "ref": "controls/oracle-park/color.png",
+  "desc_short": "Oracle Park: brick bayfront ballpark with dark green seats, a giant soda bottle and baseball glove sculpture in left field, short right field wall at the water",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/oracle-park/depth.png",
+   "edges": "controls/oracle-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/oracle-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "sanford-stadium",
+  "kind": "football stadium",
+  "ref": "controls/sanford-stadium/color.png",
+  "desc_short": "Sanford Stadium: college football bowl with red and black seats, privet hedges around the field, tall upper deck on one sideline, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/sanford-stadium/depth.png",
+   "edges": "controls/sanford-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/sanford-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "tiger-stadium",
+  "kind": "football stadium",
+  "ref": "controls/tiger-stadium/color.png",
+  "desc_short": "Tiger Stadium LSU: huge closed college football bowl with tall upper decks on both sides, purple and gold seats, gray concrete exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/tiger-stadium/depth.png",
+   "edges": "controls/tiger-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/tiger-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "intuit-dome",
+  "kind": "indoor arena",
+  "ref": "controls/intuit-dome/color.png",
+  "desc_short": "Intuit Dome: oval arena with a pale ribbed roof, diagonal steel grid facade with red and blue accents, glass base, large plaza",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/intuit-dome/depth.png",
+   "edges": "controls/intuit-dome/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/intuit-dome/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "t-mobile-park",
+  "kind": "baseball park",
+  "ref": "controls/t-mobile-park/color.png",
+  "desc_short": "T-Mobile Park: brick ballpark with a huge rolling steel truss roof parked beside it, green seats, asymmetric outfield, dirt infield and grass outfield",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/t-mobile-park/depth.png",
+   "edges": "controls/t-mobile-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/t-mobile-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "citizens-bank-park",
+  "kind": "baseball park",
+  "ref": "controls/citizens-bank-park/color.png",
+  "desc_short": "Citizens Bank Park: brick ballpark with dark green seats, open outfield concourse, large left field scoreboard, light towers, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/citizens-bank-park/depth.png",
+   "edges": "controls/citizens-bank-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/citizens-bank-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "indianapolis-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/indianapolis-motor-speedway/color.png",
+  "desc_short": "Indianapolis Motor Speedway: long steel main grandstands along the front stretch, a tall pagoda tower at start-finish, pit road, gray asphalt track, green infield",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/indianapolis-motor-speedway/depth.png",
+   "edges": "controls/indianapolis-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/indianapolis-motor-speedway/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "northwest-stadium",
+  "kind": "football stadium",
+  "ref": "controls/northwest-stadium/color.png",
+  "desc_short": "Northwest Stadium: huge open football bowl with burgundy and gold seats in four tiers, gray concrete exterior, green grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/northwest-stadium/depth.png",
+   "edges": "controls/northwest-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/northwest-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "crypto-com-arena",
+  "kind": "indoor arena",
+  "ref": "controls/crypto-com-arena/color.png",
+  "desc_short": "Crypto.com Arena: oval arena with a curved sloping silver-white roof, a tall glass curtain wall facade, silver metal panels, plaza at the entrance",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/crypto-com-arena/depth.png",
+   "edges": "controls/crypto-com-arena/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/crypto-com-arena/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/gaylord-family-oklahoma-memorial-stadium/color.png",
+  "desc_short": "Oklahoma Memorial Stadium: college football bowl with a red brick exterior and arches, crimson seats, tall press box on one side, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/gaylord-family-oklahoma-memorial-stadium/depth.png",
+   "edges": "controls/gaylord-family-oklahoma-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/gaylord-family-oklahoma-memorial-stadium/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "pnc-park",
+  "kind": "baseball park",
+  "ref": "controls/pnc-park/color.png",
+  "desc_short": "PNC Park: compact limestone ballpark with navy seats in two decks, open outfield facing the river, low right field wall, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/pnc-park/depth.png",
+   "edges": "controls/pnc-park/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/pnc-park/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "progressive-field",
+  "kind": "baseball park",
+  "ref": "controls/progressive-field/color.png",
+  "desc_short": "Progressive Field: white steel ballpark with dark blue seats, exposed vertical light towers, tall left field wall and scoreboard, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/progressive-field/depth.png",
+   "edges": "controls/progressive-field/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/progressive-field/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "ford-field",
+  "kind": "football stadium",
+  "ref": "controls/ford-field/color.png",
+  "desc_short": "Ford Field: rectangular domed football stadium with a shallow light gray roof, an old red brick warehouse built into one long side, glass atrium",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/ford-field/depth.png",
+   "edges": "controls/ford-field/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/ford-field/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "united-center",
+  "kind": "indoor arena",
+  "ref": "controls/united-center/color.png",
+  "desc_short": "United Center: large rectangular arena with rounded corners, red-brown brick and tan exterior with tall windows, glass atrium, flat light gray roof",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/united-center/depth.png",
+   "edges": "controls/united-center/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/united-center/color.png",
+  "strength": 0.75
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "kind": "motor racing oval",
+  "ref": "controls/talladega-superspeedway/color.png",
+  "desc_short": "Talladega Superspeedway: huge steeply banked tri-oval of gray asphalt, long grandstand along the front stretch, pit road, large green infield",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/talladega-superspeedway/depth.png",
+   "edges": "controls/talladega-superspeedway/edges.png"
+  },
+  "ip_scale": 0.35,
+  "cn_scale": [
+   0.8,
+   0.8
+  ],
+  "init": "controls/talladega-superspeedway/color.png",
+  "strength": 0.75
+ }
+]

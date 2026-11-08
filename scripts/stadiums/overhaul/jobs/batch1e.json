@@ -1,0 +1,106 @@
+[
+ {
+  "slug": "bank-of-america-stadium",
+  "kind": "football stadium",
+  "ref": "refs/bank-of-america-stadium/2.jpg",
+  "mask": "masks/bank-of-america-stadium.png",
+  "desc_short": "Bank of America Stadium: open football bowl with light blue seats in two tiers, black steel upper rim, glass and steel corner towers, gray concrete exterior, green field",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "blank": [
+   [
+    0.2,
+    0.47,
+    0.47,
+    0.62
+   ],
+   [
+    0.55,
+    0.04,
+    0.74,
+    0.18
+   ]
+  ]
+ },
+ {
+  "slug": "nissan-stadium",
+  "kind": "football stadium",
+  "ref": "refs/nissan-stadium/1.jpg",
+  "mask": "masks/nissan-stadium.png",
+  "desc_short": "Nissan Stadium: open football bowl with navy blue seats in two decks, tall light towers over the sideline, tan and red brick exterior, end zone video board",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "blank": [
+   [
+    0.26,
+    0.57,
+    0.42,
+    0.76
+   ]
+  ]
+ },
+ {
+  "slug": "state-farm-stadium",
+  "kind": "retractable-roof football stadium",
+  "ref": "refs/state-farm-stadium/1.jpg",
+  "mask": "masks/state-farm-stadium.png",
+  "desc_short": "State Farm Stadium: rounded barrel-shaped stadium clad in vertical ribbed silver metal panels with glass slots, translucent retractable roof panels on top",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "blank": [
+   [
+    0.39,
+    0.33,
+    0.51,
+    0.49
+   ],
+   [
+    0.48,
+    0.61,
+    0.56,
+    0.69
+   ]
+  ]
+ },
+ {
+  "slug": "reliant-stadium",
+  "kind": "retractable-roof football stadium",
+  "ref": "refs/reliant-stadium/10.jpg",
+  "mask": "masks/reliant-stadium.png",
+  "desc_short": "NRG Stadium: rectangular football stadium with a light translucent retractable roof on two large steel trusses, glass curtain walls, red and tan base",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "blank": [
+   [
+    0.32,
+    0.37,
+    0.43,
+    0.47
+   ],
+   [
+    0.68,
+    0.43,
+    0.8,
+    0.5
+   ],
+   [
+    0.47,
+    0.53,
+    0.53,
+    0.63
+   ]
+  ]
+ }
+]

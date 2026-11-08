@@ -128,7 +128,7 @@ for (const slug of slugs) {
   const v = data.venues.find((x) => x.slug === slug)
   const w = wikiByUrl[v.sources.wikipedia]
   const osm = JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8'))
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity } }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])

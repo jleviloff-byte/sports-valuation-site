@@ -47,3 +47,18 @@ follows with new seeds, tighter controls and more weight on the reference.
 | metlife-stadium | 55 | MetLife Stadium (high) | chunk missing at the bottom | pass |
 
 Result: 22 pass, 11 retry. No tester could read any text in these 33 images.
+
+## Signage venues after text pass 2 (blind ID batch D, fresh subagent)
+
+Pass 2 = OpenCV plain fill, then a light SDXL pass. Bank of America, Nissan,
+State Farm and NRG (`reliant-stadium`) came out blotchy or still lettered;
+they are regenerated as `batch1e` with the signs blanked on the reference
+photo instead.
+
+| venue | blind-ID guess (confidence) | artifacts noted | verdict |
+|---|---|---|---|
+| beaver-stadium | Beaver Stadium (medium) | ragged right edge, floating white slabs | pass |
+| raymond-james-stadium | L&N Stadium (low-medium; Raymond James second) | warped red seating | retry |
+| allegiant-stadium | Allegiant Stadium (medium) | no field visible (closed roof, as built); facade emblem cluster | pass |
+| spartan-stadium | Rice Stadium (low) | blurry, doubled field lines | retry |
+| husky-stadium | Husky Stadium (medium-high) | purple haze; reference predates the 2013 rebuild | pass (provisional, see needs-attention) |

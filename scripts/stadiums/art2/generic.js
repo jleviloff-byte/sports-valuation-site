@@ -13,7 +13,8 @@ import * as THREE from 'three'
 import * as K from './kit.js'
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v))
-const FIELD = { football: { L: 109.73, W: 48.77 }, soccer: { L: 105, W: 68 } }
+const FIELD = { football: { L: 109.73, W: 48.77 }, soccer: { L: 105, W: 68 }, tennis: { L: 36, W: 18 } }
+const ROAD_COURSES = new Set(['circuit-of-the-americas', 'barber-motorsports-park', 'mid-ohio-sports-car-course', 'sonoma-raceway', 'watkins-glen-international', 'portland-international-raceway'])
 
 function palette(info) {
   const c = info.colors || {}
@@ -71,6 +72,18 @@ function band(a, b, y, color, mat) {
   return m
 }
 
+// Retractable roof shown open: stacked arched panels parked off one end of the
+// venue on two runway trusses, so the field stays visible.
+function parkedRoof(c, dir, off, width, depth, y, color, mat) {
+  const g = new THREE.Group()
+  for (let k = 0; k < 3; k++) {
+    const panel = K.box(width - k * 6, 2.2, depth * (1 - k * 0.12), K.tone(color, 1 - k * 0.04), mat, { kind: 'metal' })
+    panel.position.set(0, k * 3.2, 0); g.add(panel)
+  }
+  for (const e of [-1, 1]) { const tr = K.box(6, y, depth + 30, '#c9cbcc', mat, { kind: 'steel' }); tr.position.set(e * (width / 2 - 3), -y, 0); g.add(tr) }
+  return K.place(g, [c[0] + dir[0] * (off + depth / 2), c[1] + dir[1] * (off + depth / 2)], y, (K.vecBearing(dir) + 90) % 360)
+}
+
 function fieldMesh(ringPts, y, draw, mat, ppm = 6) {
   const box = K.bboxOf(ringPts, 2)
   const m = K.flatPoly(ringPts, y, mat('#ffffff', { map: K.canvasTexture(box, ppm, draw), roughness: 0.95 }))
@@ -97,7 +110,7 @@ function rectStadium({ fp, mat, info }, sport) {
   let c = K.centroid(fp.pts), ang = K.principalAngle(fp.pts)
   if (info.field && info.field.length >= 4) { c = K.centroid(info.field); ang = K.principalAngle(info.field) }
   const cap = v.capacity || 15000
-  const H = clamp(4 + cap / 2100, 6, 52) // rim height above the field
+  const H = sport === 'tennis' ? clamp(6 + cap / 900, 8, 30) : clamp(4 + cap / 2100, 6, 52) // rim height above the field
   const depth = clamp(H * 1.5, 12, 80) // stand depth behind the field edge
   const apron = sport === 'soccer' ? 5 : 7
   const fieldRect = { cx: c[0], cz: c[1], hx: F.L / 2, hz: F.W / 2, rr: 1, ang }
@@ -116,7 +129,9 @@ function rectStadium({ fp, mat, info }, sport) {
     },
     facade: P.facade, groundColor: P.concrete,
   }, mat)
-  const draw = sport === 'soccer'
+  const draw = sport === 'tennis'
+    ? (ctx, toPx, ppm) => K.tennisCourt(ctx, toPx, ppm, { cx: c[0], cz: c[1], ang, court: '#3f6fa8', surround: '#4f8a5a' })
+    : sport === 'soccer'
     ? (ctx, toPx, ppm) => soccerPitch(ctx, toPx, ppm, { cx: c[0], cz: c[1], ang, grass: P.grass, grass2: K.tone(P.grass, 1.08) })
     : (ctx, toPx, ppm) => K.footballField(ctx, toPx, ppm, { cx: c[0], cz: c[1], hx: F.L / 2, hz: F.W / 2, ang, grass: P.grass, grass2: K.tone(P.grass, 1.08), surround: P.grass, endzone: K.tone(P.grass, 0.85) })
   g.add(fieldMesh(g.userData.innerRing, 0.05, draw, mat))
@@ -125,7 +140,7 @@ function rectStadium({ fp, mat, info }, sport) {
   const sideB = K.vecBearing(side), dA = depthAt(sideB), dB = depthAt((sideB + 180) % 360)
   const sgn = dA >= dB ? 1 : -1, sd = [side[0] * sgn, side[1] * sgn], sth = (sideB + (sgn > 0 ? 0 : 180)) % 360
   const along = K.vecBearing([Math.cos(ang), Math.sin(ang)])
-  if (H >= 14 && v.roof === 'open') {
+  if (H >= 14 && v.roof === 'open' && sport !== 'tennis') {
     const off = K.rayHit(c, sd, outline) - 7, pbH = clamp(H * 0.3, 5, 14)
     const pb = new THREE.Group()
     pb.add(K.box(F.L * 0.6, pbH, 10, P.glass, mat, { kind: 'glass' }))
@@ -133,12 +148,15 @@ function rectStadium({ fp, mat, info }, sport) {
     g.add(K.place(pb, [c[0] + sd[0] * off, c[1] + sd[1] * off], Math.min(H, 1.2 + depthAt(sth) * 0.6), along))
   }
   // Video board over one end.
-  if (v.roof === 'open') {
+  if (v.roof === 'open' && sport !== 'tennis') {
     const ed = [Math.cos(ang), Math.sin(ang)], endB = K.vecBearing(ed)
     const off = K.rayHit(c, ed, outline) - 4
     g.add(K.place(K.scoreboard(clamp(H * 0.9, 10, 40), clamp(H * 0.3, 4, 14), Math.min(H, 1.2 + depthAt(endB) * 0.6) + 1, mat), [c[0] + ed[0] * off, c[1] + ed[1] * off], 0, (along + 90) % 360))
   }
-  if (v.roof === 'dome' || v.roof === 'retractable') {
+  if (v.roof === 'retractable') {
+    const ed = [Math.cos(ang), Math.sin(ang)]
+    g.add(parkedRoof(c, ed, K.rayHit(c, ed, outline) - 45, F.W + 80, 70, H + 6, P.roof, mat))
+  } else if (v.roof === 'dome') {
     const outer = g.userData.outerRing.map(([x, , z]) => [x, z])
     g.add(wall(outer, 0, H + 6, P.facade, mat))
     g.add(domeRoof(outer, c, H + 6, clamp(H * 0.35, 6, 22), P.roof, mat))
@@ -176,10 +194,13 @@ function ballpark({ fp, mat, info }) {
   // Video board beyond center field and light towers on the grandstand rim.
   const off = K.rayHit(c, cfv, outline) - 3
   g.add(K.place(K.scoreboard(30, 11, 9, mat), [c[0] + cfv[0] * off, c[1] + cfv[1] * off], 0, (cf + 90) % 360))
-  if (v.roof !== 'open') {
+  if (v.roof === 'dome') {
     const outer = g.userData.outerRing.map(([x, , z]) => [x, z])
     g.add(wall(outer, 0, H + 8, P.facade, mat))
     g.add(domeRoof(outer, c, H + 8, 18, P.roof, mat))
+  } else if (v.roof === 'retractable') {
+    // Shown open: the roof panels parked behind the outfield on two runway trusses.
+    g.add(parkedRoof(c, cfv, K.rayHit(c, cfv, outline) - 40, 170, 60, 20, P.roof, mat))
   }
   return g
 }
@@ -257,11 +278,49 @@ function racetrack({ fp, mat, info }) {
   return g
 }
 
+// Road course: the start-finish straight with pit lane, garages and the main
+// grandstand, the track sweeping away into curves at both ends over grass.
+// (An oval would misstate the venue; the full circuit is kilometers across.)
+function roadCourse({ fp, mat, info }) {
+  const P = palette(info)
+  const c = K.centroid(fp.pts), ang = K.principalAngle(fp.pts)
+  const ax = [Math.cos(ang), Math.sin(ang)], ay = [-ax[1], ax[0]]
+  const at = (u, v) => [c[0] + ax[0] * u + ay[0] * v, c[1] + ax[1] * u + ay[1] * v]
+  const along = K.vecBearing(ax), L = 420, W = 24, g = new THREE.Group()
+  // Centerline: straight, then a right-hander and a left-hander at the ends.
+  const cl = []
+  for (let k = 0; k <= 30; k++) { const t = k / 30; const a = Math.PI * 0.9 * t; cl.push([-L / 2 - 90 * Math.sin(a), -90 * (1 - Math.cos(a))]) }
+  cl.reverse()
+  for (let k = 1; k < 20; k++) cl.push([-L / 2 + (k / 20) * L, 0])
+  for (let k = 0; k <= 30; k++) { const t = k / 30; const a = Math.PI * 0.6 * t; cl.push([L / 2 + 120 * Math.sin(a), -120 * (1 - Math.cos(a))]) }
+  const off = (pts, d) => pts.map((p, i) => { const q = pts[Math.min(i + 1, pts.length - 1)], r = pts[Math.max(i - 1, 0)]; const tx = q[0] - r[0], tz = q[1] - r[1], n = Math.hypot(tx, tz) || 1; return at(p[0] - (tz / n) * d, p[1] + (tx / n) * d) })
+  const a = off(cl, W / 2), b = off(cl, -W / 2)
+  const pos = [], idx = []
+  for (let i = 0; i < a.length; i++) pos.push(a[i][0], 1.2, a[i][1], b[i][0], 1.2, b[i][1])
+  for (let i = 0; i < a.length - 1; i++) { const p = i * 2, q = p + 2; idx.push(p, q, p + 1, q, q + 1, p + 1) }
+  const tg = new THREE.BufferGeometry(); tg.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); tg.setIndex(idx); tg.computeVertexNormals()
+  g.add(new THREE.Mesh(tg, mat('#55585c', { kind: 'asphalt', side: THREE.DoubleSide })))
+  const ground = []; for (const [u, v] of [[-L / 2 - 110, -200], [L / 2 + 150, -200], [L / 2 + 150, 70], [-L / 2 - 110, 70]]) ground.push(at(u, v))
+  g.add(K.flatPoly(ground, 0, mat(P.grass, { kind: 'grass' })))
+  // Pit lane and garages on one side of the straight, grandstand on the other.
+  g.add(K.place(K.box(L * 0.8, 0.3, 14, '#6a6d70', mat, { kind: 'asphalt' }), at(0, -20), 0.2, along))
+  g.add(K.place(K.box(L * 0.75, 7, 18, '#dcdad3', mat, { kind: 'concrete' }), at(0, -44), 0, along))
+  g.add(K.place(K.box(L * 0.4, 6, 14, P.glass, mat, { kind: 'glass' }), at(0, -44), 7, along))
+  const GD = 44, GH = 26, gs = new THREE.Group()
+  for (let k = 0; k < 8; k++) { const s = K.box(L * 0.6, GH * (k + 1) / 8, GD / 8 + 0.2, P.seat, mat, { kind: 'seat' }); s.position.set(0, 0, (k + 0.5) * GD / 8 - GD / 2); gs.add(s) }
+  const roof = K.box(L * 0.6, 1.2, GD * 0.5, P.roof, mat, { kind: 'metal' }); roof.position.set(0, GH + 5, GD * 0.25); gs.add(roof)
+  g.add(K.place(gs, at(0, 16 + GD / 2), 0, along))
+  g.userData.cameraBearing = (K.vecBearing(ay) + 180) % 360
+  g.userData.cameraElev = 36
+  return g
+}
+
 export function generic(args) {
   const t = args.info.venue?.venue_type
   if (t === 'ballpark') return ballpark(args)
-  if (t === 'arena' || t === 'tennis') return arena(args)
-  if (t === 'racetrack') return racetrack(args)
+  if (t === 'arena') return arena(args)
+  if (t === 'tennis') return rectStadium(args, 'tennis')
+  if (t === 'racetrack') return ROAD_COURSES.has(args.info.slug) ? roadCourse(args) : racetrack(args)
   if (t === 'soccer_specific') return rectStadium(args, 'soccer')
   return rectStadium(args, 'football')
 }

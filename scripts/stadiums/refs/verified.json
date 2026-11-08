@@ -2013,5 +2013,803 @@
    "verified": "by eye: venue shape and setting match the known building; extra search result (category check did not apply)",
    "local_hires": "research/raw/stadiums/refs-cand/notre-dame-stadium/25-hires.jpg"
   }
+ ],
+ "legion-field": [
+  {
+   "file": "File:Legion Field - Birmingham, Alabama.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Legion_Field_-_Birmingham,_Alabama.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Legion_Field_-_Birmingham%2C_Alabama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-02-23 10:05:49",
+   "width": 12288,
+   "height": 8192,
+   "local": "research/raw/stadiums/refs-cand/legion-field/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "lane-stadium": [
+  {
+   "file": "File:Lane Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lane_Stadium.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lane_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clenz",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "date": "2011-10-22",
+   "width": 1377,
+   "height": 837,
+   "local": "research/raw/stadiums/refs-cand/lane-stadium/8.jpg",
+   "n": 8,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "faurot-field": [
+  {
+   "file": "File:Faurot Field Aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Faurot_Field_Aerial.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Faurot_Field_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2021-08-03 10:50:28",
+   "width": 3809,
+   "height": 2250,
+   "local": "research/raw/stadiums/refs-cand/faurot-field/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "scott-stadium": [
+  {
+   "file": "File:Scott Stadium (University of Virginia).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Stadium_(University_of_Virginia).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Scott_Stadium_%28University_of_Virginia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-07-30 17:04:38",
+   "width": 5280,
+   "height": 3956,
+   "local": "research/raw/stadiums/refs-cand/scott-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "yale-bowl": [
+  {
+   "file": "File:Yale Bowl aerial view 2023 (Quintin Soloviev).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yale_Bowl_aerial_view_2023_(Quintin_Soloviev).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Yale_Bowl_aerial_view_2023_%28Quintin_Soloviev%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "Taken on 13 July 202",
+   "width": 5577,
+   "height": 4210,
+   "local": "research/raw/stadiums/refs-cand/yale-bowl/10.jpg",
+   "n": 10,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "ross-ade-stadium": [
+  {
+   "file": "File:Ross-Ade Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ross-Ade_Stadium.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ross-Ade_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "Taken on 27 June 202",
+   "width": 4000,
+   "height": 2250,
+   "local": "research/raw/stadiums/refs-cand/ross-ade-stadium/2.jpg",
+   "n": 2,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "galaxy-stadium": [
+  {
+   "file": "File:Aerial Drone Jones Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_Drone_Jones_Stadium.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Aerial_Drone_Jones_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Oruiz1213",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "date": "2024-11-29",
+   "width": 2048,
+   "height": 1150,
+   "local": "research/raw/stadiums/refs-cand/galaxy-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "milan-puskar-stadium": [
+  {
+   "file": "File:Mountaineer Field at Milan Puskar Stadium (West Virginia University).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mountaineer_Field_at_Milan_Puskar_Stadium_(West_Virginia_University).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mountaineer_Field_at_Milan_Puskar_Stadium_%28West_Virginia_University%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-07-29 09:05:51",
+   "width": 5234,
+   "height": 3737,
+   "local": "research/raw/stadiums/refs-cand/milan-puskar-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "california-memorial-stadium": [
+  {
+   "file": "File:California Memorial Stadium aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:California_Memorial_Stadium_aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/California_Memorial_Stadium_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2024-08-10 14:25:55",
+   "width": 7895,
+   "height": 5920,
+   "local": "research/raw/stadiums/refs-cand/california-memorial-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "huntington-bank-stadium": [
+  {
+   "file": "File:Huntington Bank Stadium Aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Huntington_Bank_Stadium_Aerial.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Huntington_Bank_Stadium_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2021-08-06 10:42:31",
+   "width": 4000,
+   "height": 2250,
+   "local": "research/raw/stadiums/refs-cand/huntington-bank-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "kenan-stadium": [
+  {
+   "file": "File:UNC chapel hill kenan football stadium aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:UNC_chapel_hill_kenan_football_stadium_aerial.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/UNC_chapel_hill_kenan_football_stadium_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "CramBetter.com",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2025-01-17 14:34:52",
+   "width": 5436,
+   "height": 3538,
+   "local": "research/raw/stadiums/refs-cand/kenan-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "first-community-stadium": [
+  {
+   "file": "File:Aerial view of Rice Stadium in Houston, Texas 2024.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Rice_Stadium_in_Houston,_Texas_2024.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aerial_view_of_Rice_Stadium_in_Houston%2C_Texas_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "Taken on 24 July 202",
+   "width": 7741,
+   "height": 5719,
+   "local": "research/raw/stadiums/refs-cand/first-community-stadium/9.jpg",
+   "n": 9,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "sun-bowl": [
+  {
+   "file": "File:UTEP Sun Bowl Stadium Aerial View Sept 6 2009 (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:UTEP_Sun_Bowl_Stadium_Aerial_View_Sept_6_2009_(cropped).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/UTEP_Sun_Bowl_Stadium_Aerial_View_Sept_6_2009_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Sterling",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "date": "2009-09-06 10:56:54",
+   "width": 2760,
+   "height": 1506,
+   "local": "research/raw/stadiums/refs-cand/sun-bowl/13.jpg",
+   "n": 13,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "simmons-bank-liberty-stadium": [
+  {
+   "file": "File:Simmons bank stadium aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Simmons_bank_stadium_aerial.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Simmons_bank_stadium_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "User:Zorin09",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "date": "2010",
+   "width": 2032,
+   "height": 1252,
+   "local": "research/raw/stadiums/refs-cand/simmons-bank-liberty-stadium/14.jpg",
+   "n": 14,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "alumni-stadium": [
+  {
+   "file": "File:Alumni Stadium Boston College 2023 (Quintin Soloviev).png",
+   "page": "https://commons.wikimedia.org/wiki/File:Alumni_Stadium_Boston_College_2023_(Quintin_Soloviev).png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Alumni_Stadium_Boston_College_2023_%28Quintin_Soloviev%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintinsoloviev",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "Taken on 12 August 2",
+   "width": 5272,
+   "height": 3948,
+   "local": "research/raw/stadiums/refs-cand/alumni-stadium/4.jpg",
+   "n": 4,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "firstbank-stadium": [
+  {
+   "file": "File:Vanderbilt Stadium in Nashville, TN.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vanderbilt_Stadium_in_Nashville,_TN.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vanderbilt_Stadium_in_Nashville%2C_TN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-02-24 12:45:49",
+   "width": 10037,
+   "height": 6691,
+   "local": "research/raw/stadiums/refs-cand/firstbank-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "snapdragon-stadium": [
+  {
+   "file": "File:An aerial view of Snapdragon Stadium (2022-08-26).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Snapdragon_Stadium_(2022-08-26).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_aerial_view_of_Snapdragon_Stadium_%282022-08-26%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Terrible Tim",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2022-08-25",
+   "width": 1400,
+   "height": 1000,
+   "local": "research/raw/stadiums/refs-cand/snapdragon-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "veterans-memorial-stadium": [
+  {
+   "file": "File:Veterans Memorial Stadium Aerial.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Veterans_Memorial_Stadium_Aerial.jpeg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Veterans_Memorial_Stadium_Aerial.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Kreeder13 at English Wikipedia",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2018-07-24",
+   "width": 1800,
+   "height": 1154,
+   "local": "research/raw/stadiums/refs-cand/veterans-memorial-stadium/2.jpg",
+   "n": 2,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "datcu-stadium": [
+  {
+   "file": "File:UNT Apogee Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:UNT_Apogee_Stadium.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/UNT_Apogee_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Facility Solutions Group",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "by 2011date QS:P,+20",
+   "width": 7200,
+   "height": 4800,
+   "local": "research/raw/stadiums/refs-cand/datcu-stadium/22.jpg",
+   "n": 22,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "powers-field-at-princeton-stadium": [
+  {
+   "file": "File:Princeton Stadium, 2026 aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Princeton_Stadium,_2026_aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Princeton_Stadium%2C_2026_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-06-09 15:15:23",
+   "width": 8145,
+   "height": 5817,
+   "local": "research/raw/stadiums/refs-cand/powers-field-at-princeton-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "rynearson-stadium": [
+  {
+   "file": "File:WaltDrone3 081524.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:WaltDrone3_081524.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/WaltDrone3_081524.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Eastern sid",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2024-09-10",
+   "width": 1920,
+   "height": 1080,
+   "local": "research/raw/stadiums/refs-cand/rynearson-stadium/2.jpg",
+   "n": 2,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "hancock-whitney-stadium": [
+  {
+   "file": "File:South Alabama Hancock Whitney Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:South_Alabama_Hancock_Whitney_Stadium.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/South_Alabama_Hancock_Whitney_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-02-03 12:39:36",
+   "width": 11135,
+   "height": 6959,
+   "local": "research/raw/stadiums/refs-cand/hancock-whitney-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "washington-grizzly-stadium": [
+  {
+   "file": "File:Washington\u2013Grizzly Stadium (Quintin Soloviev).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Washington%E2%80%93Grizzly_Stadium_(Quintin_Soloviev).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Washington%E2%80%93Grizzly_Stadium_%28Quintin_Soloviev%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2019-04-07 20:45:42",
+   "width": 3911,
+   "height": 2454,
+   "local": "research/raw/stadiums/refs-cand/washington-grizzly-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "broadview-stadium": [
+  {
+   "file": "File:UB Stadium from above in December 2023 - Quintin Soloviev.png",
+   "page": "https://commons.wikimedia.org/wiki/File:UB_Stadium_from_above_in_December_2023_-_Quintin_Soloviev.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/UB_Stadium_from_above_in_December_2023_-_Quintin_Soloviev.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintinsoloviev",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2023-12-12",
+   "width": 5242,
+   "height": 3926,
+   "local": "research/raw/stadiums/refs-cand/broadview-stadium/2.jpg",
+   "n": 2,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "harvard-stadium": [
+  {
+   "file": "File:Harvard Stadium aerial axonometric.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Harvard_Stadium_aerial_axonometric.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Harvard_Stadium_aerial_axonometric.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Nick Allen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "Taken on 21 November",
+   "width": 5526,
+   "height": 3679,
+   "local": "research/raw/stadiums/refs-cand/harvard-stadium/22.jpg",
+   "n": 22,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "williams-stadium": [
+  {
+   "file": "File:Williams Stadium (Liberty University).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Williams_Stadium_(Liberty_University).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Williams_Stadium_%28Liberty_University%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-07-30 15:22:35",
+   "width": 5128,
+   "height": 3662,
+   "local": "research/raw/stadiums/refs-cand/williams-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "charles-schwab-field": [
+  {
+   "file": "File:TD Ameritrade Park drone.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:TD_Ameritrade_Park_drone.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/TD_Ameritrade_Park_drone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Shelby L. Bell",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "date": "2021-03-12 16:57:26",
+   "width": 3938,
+   "height": 2834,
+   "local": "research/raw/stadiums/refs-cand/charles-schwab-field/2.jpg",
+   "n": 2,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "fitton-field": [
+  {
+   "file": "File:Fitton Field, Holy Cross football stadium, Worcester MA from above.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fitton_Field,_Holy_Cross_football_stadium,_Worcester_MA_from_above.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Fitton_Field%2C_Holy_Cross_football_stadium%2C_Worcester_MA_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2024-01-12 14:22:18",
+   "width": 4300,
+   "height": 2955,
+   "local": "research/raw/stadiums/refs-cand/fitton-field/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "shell-energy-stadium": [
+  {
+   "file": "File:Shell Energy Stadium Illuminated at Night.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Shell_Energy_Stadium_Illuminated_at_Night.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Shell_Energy_Stadium_Illuminated_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "HDFC PR",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2023-08-14",
+   "width": 5472,
+   "height": 3648,
+   "local": "research/raw/stadiums/refs-cand/shell-energy-stadium/4.jpg",
+   "n": 4,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "hornet-stadium": [
+  {
+   "file": "File:Hornet Stadium (Sacramento).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hornet_Stadium_(Sacramento).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hornet_Stadium_%28Sacramento%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-04-02 11:31:45",
+   "width": 8165,
+   "height": 5832,
+   "local": "research/raw/stadiums/refs-cand/hornet-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "bobcat-stadium": [
+  {
+   "file": "File:Bobcat Stadium - Bozeman, Montana - Aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bobcat_Stadium_-_Bozeman,_Montana_-_Aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bobcat_Stadium_-_Bozeman%2C_Montana_-_Aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2024-12-05 13:56:44",
+   "width": 7288,
+   "height": 5246,
+   "local": "research/raw/stadiums/refs-cand/bobcat-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "richard-gouse-field-at-brown-stadium": [
+  {
+   "file": "File:Brown Stadium Providence 2023 (Quintin Soloviev).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Stadium_Providence_2023_(Quintin_Soloviev).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Brown_Stadium_Providence_2023_%28Quintin_Soloviev%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2023-08-09",
+   "width": 3494,
+   "height": 2502,
+   "local": "research/raw/stadiums/refs-cand/richard-gouse-field-at-brown-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "value-city-arena": [
+  {
+   "file": "File:Columbus, Ohio JJ 83.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Columbus,_Ohio_JJ_83.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Columbus%2C_Ohio_JJ_83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jsjessee",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "date": "2020-11-29 11:11:59",
+   "width": 4000,
+   "height": 2250,
+   "local": "research/raw/stadiums/refs-cand/value-city-arena/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "moda-center": [
+  {
+   "file": "File:Aerial view of the Moda Center in Portland, Oregon. 2022 DJI 0008 (52120504379).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Moda_Center_in_Portland,_Oregon._2022_DJI_0008_(52120504379).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Aerial_view_of_the_Moda_Center_in_Portland%2C_Oregon._2022_DJI_0008_%2852120504379%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Oregon Department of Transportation",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "date": "2022-06-03 14:42",
+   "width": 5472,
+   "height": 3648,
+   "local": "research/raw/stadiums/refs-cand/moda-center/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "american-airlines-center": [
+  {
+   "file": "File:American Airlines Center (6246886325).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_(6246886325).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/American_Airlines_Center_%286246886325%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeff Attaway from Abuja, Nigeria",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "date": "Taken on 30 Septembe",
+   "width": 3592,
+   "height": 1684,
+   "local": "research/raw/stadiums/refs-cand/american-airlines-center/24.jpg",
+   "n": 24,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "sap-center": [
+  {
+   "file": "File:Aerial view of HP Pavilion.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_HP_Pavilion.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Aerial_view_of_HP_Pavilion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Kevin Payravi",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2010-06-12",
+   "width": 2272,
+   "height": 1704,
+   "local": "research/raw/stadiums/refs-cand/sap-center/9.jpg",
+   "n": 9,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "delaware-stadium": [
+  {
+   "file": "File:Delaware Stadium aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Delaware_Stadium_aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Delaware_Stadium_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2023-10-24 09:52:51",
+   "width": 5227,
+   "height": 3510,
+   "local": "research/raw/stadiums/refs-cand/delaware-stadium/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "sporting-park": [
+  {
+   "file": "File:Children's Mercy Park Aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Children%27s_Mercy_Park_Aerial.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Children%27s_Mercy_Park_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2021-12-28 15:52:22",
+   "width": 4000,
+   "height": 2250,
+   "local": "research/raw/stadiums/refs-cand/sporting-park/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "paycom-center": [
+  {
+   "file": "File:Paycom Center exterior aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paycom_Center_exterior_aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Paycom_Center_exterior_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2024-08-11 15:33:58",
+   "width": 2887,
+   "height": 2048,
+   "local": "research/raw/stadiums/refs-cand/paycom-center/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "bok-center": [
+  {
+   "file": "File:BOK Center from above Tulsa OK 2024-11-09 13-26-51 1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BOK_Center_from_above_Tulsa_OK_2024-11-09_13-26-51_1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/BOK_Center_from_above_Tulsa_OK_2024-11-09_13-26-51_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "G. Edward Johnson",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2024-11-09 13:26:51",
+   "width": 8256,
+   "height": 5504,
+   "local": "research/raw/stadiums/refs-cand/bok-center/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "golden-1-center": [
+  {
+   "file": "File:Golden 1 Center aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_1_Center_aerial_view.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Golden_1_Center_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "date": "2026-04-02 19:44:54",
+   "width": 7498,
+   "height": 5356,
+   "local": "research/raw/stadiums/refs-cand/golden-1-center/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
+ ],
+ "kibbie-dome": [
+  {
+   "file": "File:MoscowKibbieDomeFebruary2024.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MoscowKibbieDomeFebruary2024.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/MoscowKibbieDomeFebruary2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Spicypepper999",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "date": "2024-02-23",
+   "width": 3647,
+   "height": 2051,
+   "local": "research/raw/stadiums/refs-cand/kibbie-dome/1.jpg",
+   "n": 1,
+   "role": "structure+style",
+   "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
+   "verified": "2026-11-08",
+   "hires": false
+  }
  ]
 }

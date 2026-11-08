@@ -1,0 +1,212 @@
+[
+ {
+  "slug": "legion-field",
+  "ref": "refs/legion-field/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "lane-stadium",
+  "ref": "refs/lane-stadium/8.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "faurot-field",
+  "ref": "refs/faurot-field/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "scott-stadium",
+  "ref": "refs/scott-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "yale-bowl",
+  "ref": "refs/yale-bowl/10.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "ross-ade-stadium",
+  "ref": "refs/ross-ade-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "galaxy-stadium",
+  "ref": "refs/galaxy-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "milan-puskar-stadium",
+  "ref": "refs/milan-puskar-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "california-memorial-stadium",
+  "ref": "refs/california-memorial-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "huntington-bank-stadium",
+  "ref": "refs/huntington-bank-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "kenan-stadium",
+  "ref": "refs/kenan-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "first-community-stadium",
+  "ref": "refs/first-community-stadium/9.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "sun-bowl",
+  "ref": "refs/sun-bowl/13.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "simmons-bank-liberty-stadium",
+  "ref": "refs/simmons-bank-liberty-stadium/14.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "alumni-stadium",
+  "ref": "refs/alumni-stadium/4.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "firstbank-stadium",
+  "ref": "refs/firstbank-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "snapdragon-stadium",
+  "ref": "refs/snapdragon-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "veterans-memorial-stadium",
+  "ref": "refs/veterans-memorial-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "datcu-stadium",
+  "ref": "refs/datcu-stadium/22.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "powers-field-at-princeton-stadium",
+  "ref": "refs/powers-field-at-princeton-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "rynearson-stadium",
+  "ref": "refs/rynearson-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "hancock-whitney-stadium",
+  "ref": "refs/hancock-whitney-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "washington-grizzly-stadium",
+  "ref": "refs/washington-grizzly-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "broadview-stadium",
+  "ref": "refs/broadview-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "harvard-stadium",
+  "ref": "refs/harvard-stadium/22.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "williams-stadium",
+  "ref": "refs/williams-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "charles-schwab-field",
+  "ref": "refs/charles-schwab-field/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "fitton-field",
+  "ref": "refs/fitton-field/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "shell-energy-stadium",
+  "ref": "refs/shell-energy-stadium/4.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "hornet-stadium",
+  "ref": "refs/hornet-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "bobcat-stadium",
+  "ref": "refs/bobcat-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "richard-gouse-field-at-brown-stadium",
+  "ref": "refs/richard-gouse-field-at-brown-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "value-city-arena",
+  "ref": "refs/value-city-arena/1.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "moda-center",
+  "ref": "refs/moda-center/1.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "american-airlines-center",
+  "ref": "refs/american-airlines-center/24.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "sap-center",
+  "ref": "refs/sap-center/9.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "delaware-stadium",
+  "ref": "refs/delaware-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "sporting-park",
+  "ref": "refs/sporting-park/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "paycom-center",
+  "ref": "refs/paycom-center/1.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "bok-center",
+  "ref": "refs/bok-center/1.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "golden-1-center",
+  "ref": "refs/golden-1-center/1.jpg",
+  "query": "an arena building."
+ },
+ {
+  "slug": "kibbie-dome",
+  "ref": "refs/kibbie-dome/1.jpg",
+  "query": "a stadium."
+ }
+]
