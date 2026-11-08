@@ -47,3 +47,23 @@ Numbers refer to `research/raw/stadiums/refs-cand/<slug>/candidates.json`.
 ## Yulman Stadium
 
 Completed-stadium photos do exist: #10 (Benson Field and the home stands from the Westfeldt Terrace, 2014), #5 (the finished exterior, 2026) and #7 (exterior with the light towers, 2018). There is no free aerial view on Commons.
+
+## Overhaul pilot additions (2026-11-08)
+
+L&N Federal Credit Union Stadium's Commons category is `Cardinal Stadium` (Wikidata Q3362725, P373). Four venue files were found by Commons search outside the category (`extra.mjs`); each is still named for the venue and was checked against the NAIP footprint.
+
+| Venue | # | Reason |
+|---|---|---|
+| L&N Federal Credit Union Stadium | 1, 4, 5, 6 | Players on the field; nothing of the stadium form |
+| L&N Federal Credit Union Stadium | 8, 9, 10, 11 | Taken 2008-2010, before the 2018 north end zone expansion closed the bowl; wrong shape. #7 (2008) is kept only for the brick-and-glass west facade, which did not change |
+| Lambeau Field | 2, 13, 21, 22 | Statues, gates, Hall of Fame exhibit |
+| Lambeau Field | 4, 6, 9, 14, 15 | Night, suite windows, atrium interior; nothing the pilot needs |
+| Lambeau Field | 23 | Trees; stadium not visible |
+| Rupp Arena | 4 | Demolition of a neighboring building |
+| Rupp Arena | 5, 6, 7, 8, 10 | Central Bank Center (the attached convention center), not the arena |
+| Rupp Arena | 1, 2, 16, 17 | Entrance signage, center-court logo, event setup |
+| Q2 Stadium | 8 | Construction |
+| Q2 Stadium | 10 | Logo |
+| Bristol Motor Speedway | 2, 11 | Bristol Dragway, a separate venue |
+| Bristol Motor Speedway | 3, 7, 9, 14, 15, 19, 20, 24 | Cars, drivers, pit stops |
+| Bristol Motor Speedway | 4, 5, 8, 18, 22 | Under-stand, fisheye, video cube close-up, night glare, sign |

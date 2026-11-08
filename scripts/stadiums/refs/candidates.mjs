@@ -19,16 +19,22 @@ export const CATS = {
   'madison-square-garden': 'Madison Square Garden',
   'daytona-international-speedway': 'Daytona International Speedway',
   'arthur-ashe-stadium': 'Arthur Ashe Stadium',
+  'landn-federal-credit-union-stadium': 'Cardinal Stadium',
+  'lambeau-field': 'Lambeau Field',
+  'rupp-arena': 'Rupp Arena',
+  'q2-stadium': 'Q2 Stadium',
+  'bristol-motor-speedway': 'Bristol Motor Speedway',
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 async function api(params) {
   const qs = new URLSearchParams({ format: 'json', formatversion: '2', ...params })
-  for (let i = 0; i < 4; i++) {
+  // Commons throttles shared egress IPs hard (HTTP 429), so back off for minutes, not seconds.
+  for (let i = 0; i < 8; i++) {
     try {
       const r = await fetch(`https://commons.wikimedia.org/w/api.php?${qs}`, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) })
       if (r.ok) return r.json()
     } catch {}
-    await sleep(1500 * (i + 1))
+    await sleep(15000 * (i + 1))
   }
   return null
 }

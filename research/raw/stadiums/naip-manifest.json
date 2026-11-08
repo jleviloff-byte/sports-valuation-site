@@ -2226,8 +2226,13 @@
   "fetched": "2026-11-07T22:53:14.124Z"
  },
  "q2-stadium": {
-  "error": "NAIP request failed",
-  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.721895,30.385619,-97.717105,30.389781&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+  "file": "research/raw/stadiums/naip/q2-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.721895,30.385619,-97.717105,30.389781&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-08T14:33:44.544217Z"
  },
  "stambaugh-stadium": {
   "file": "research/raw/stadiums/naip/stambaugh-stadium.jpg",
