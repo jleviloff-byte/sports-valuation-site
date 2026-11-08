@@ -77,7 +77,9 @@ pipe.load_ip_adapter('h94/IP-Adapter', subfolder='sdxl_models', weight_name='ip-
 pipe.enable_vae_tiling()
 # Text cleanup (brief: no readable text or logos): EasyOCR's CRAFT detector finds
 # lettering, including gibberish, and SDXL inpaints those boxes as blank surface.
-inpaint = StableDiffusionXLInpaintPipeline.from_pipe(pipe)
+inpaint = StableDiffusionXLInpaintPipeline(  # shares the loaded modules (from_pipe copied them and ran out of T4 memory)
+    vae=pipe.vae, text_encoder=pipe.text_encoder, text_encoder_2=pipe.text_encoder_2, tokenizer=pipe.tokenizer, tokenizer_2=pipe.tokenizer_2,
+    unet=pipe.unet, scheduler=pipe.scheduler, image_encoder=pipe.image_encoder, feature_extractor=pipe.feature_extractor)
 import easyocr
 ocr = easyocr.Reader(['en'], gpu=True, verbose=False)
 

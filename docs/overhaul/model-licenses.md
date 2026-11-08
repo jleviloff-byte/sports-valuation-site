@@ -15,7 +15,7 @@ Each license was read from the model's Hugging Face API tags or the project's LI
 | ControlNet | `diffusers/controlnet-depth-sdxl-1.0` | OpenRAIL++ | Allowed alternate |
 | IP-Adapter | `h94/IP-Adapter` (SDXL weights) | Apache-2.0 | Selected |
 | Text detection | EasyOCR (`JaidedAI/EasyOCR`), CRAFT detector weights (`clovaai/CRAFT-pytorch`) | Apache-2.0 (EasyOCR), MIT (CRAFT) | Selected: finds lettering, including gibberish, so it can be inpainted out (detector only; recognition unused) |
-| Text removal | SDXL base inpainting (same weights as above, `StableDiffusionXLInpaintPipeline.from_pipe`) | CreativeML OpenRAIL++-M | Selected; no extra model |
+| Text removal | SDXL base inpainting (same weights as above, `StableDiffusionXLInpaintPipeline` sharing the loaded modules) | CreativeML OpenRAIL++-M | Selected; no extra model |
 | IP-Adapter image encoder | `laion/CLIP-ViT-H-14-laion2B-s32B-b79K` (shipped in h94/IP-Adapter) | MIT | Selected |
 | Cutout | `ZhengPeng7/BiRefNet` | MIT | Selected |
 | Cutout | `briaai/RMBG-2.0` | Non-commercial ("other", gated) | **Not used** |

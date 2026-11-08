@@ -50,12 +50,12 @@
   "category": "Neyland Stadium"
  },
  "darrell-k-royal-texas-memorial-stadium": {
-  "title": "Darrell K Royal–Texas Memorial Stadium",
+  "title": "Darrell K Royal\u2013Texas Memorial Stadium",
   "qid": "Q1166591",
   "category": "Darrell K. Royal-Texas Memorial Stadium"
  },
  "bryant-denny-stadium": {
-  "title": "Bryant–Denny Stadium",
+  "title": "Bryant\u2013Denny Stadium",
   "qid": "Q995161",
   "category": "Bryant-Denny Stadium"
  },
@@ -85,7 +85,7 @@
   "category": "Ben Hill Griffin Stadium"
  },
  "jordan-hare-stadium": {
-  "title": "Jordan–Hare Stadium",
+  "title": "Jordan\u2013Hare Stadium",
   "qid": "Q945548",
   "category": "Jordan-Hare Stadium"
  },
@@ -140,7 +140,7 @@
   "category": "Notre Dame Stadium"
  },
  "williams-brice-stadium": {
-  "title": "Williams–Brice Stadium",
+  "title": "Williams\u2013Brice Stadium",
   "qid": "Q940522",
   "category": "Williams-Brice Stadium"
  },
@@ -330,7 +330,7 @@
   "category": "Gillette Stadium"
  },
  "vaught-hemingway-stadium": {
-  "title": "Vaught–Hemingway Stadium",
+  "title": "Vaught\u2013Hemingway Stadium",
   "qid": "Q3555083",
   "category": "Vaught-Hemingway Stadium"
  },
@@ -375,7 +375,7 @@
   "category": "Yale Bowl"
  },
  "ross-ade-stadium": {
-  "title": "Ross–Ade Stadium",
+  "title": "Ross\u2013Ade Stadium",
   "qid": "Q3442733",
   "category": "Ross-Ade Stadium"
  },
@@ -392,7 +392,7 @@
  "gies-memorial-stadium": {
   "title": "Gies Memorial Stadium",
   "qid": "Q3305514",
-  "category": "Memorial Stadium (University of Illinois at Urbana–Champaign)"
+  "category": "Memorial Stadium (University of Illinois at Urbana\u2013Champaign)"
  },
  "mississippi-veterans-memorial-stadium": {
   "title": "Mississippi Veterans Memorial Stadium",
@@ -435,7 +435,7 @@
   "category": "Gateway Motorsports Park"
  },
  "carter-finley-stadium": {
-  "title": "Carter–Finley Stadium",
+  "title": "Carter\u2013Finley Stadium",
   "qid": "Q945172",
   "category": "Carter-Finley Stadium"
  },
@@ -450,9 +450,9 @@
   "category": "Michigan International Speedway"
  },
  "rice-eccles-stadium": {
-  "title": "Rice–Eccles Stadium",
+  "title": "Rice\u2013Eccles Stadium",
   "qid": "Q922761",
-  "category": "Rice–Eccles Stadium"
+  "category": "Rice\u2013Eccles Stadium"
  },
  "dover-motor-speedway": {
   "title": "Dover Motor Speedway",
@@ -500,7 +500,7 @@
   "category": "Bobby Dodd Stadium"
  },
  "dowdy-ficklen-stadium": {
-  "title": "Dowdy–Ficklen Stadium",
+  "title": "Dowdy\u2013Ficklen Stadium",
   "qid": "Q3038295",
   "category": "Dowdy-Ficklen Stadium"
  },
@@ -622,7 +622,8 @@
  "alumni-stadium": {
   "title": "Alumni Stadium",
   "qid": "Q598070",
-  "category": null
+  "category": "Alumni Stadium (Boston College)",
+  "matched": "manual"
  },
  "busch-stadium": {
   "title": "Busch Stadium",
@@ -650,7 +651,7 @@
   "category": "Great American Ball Park"
  },
  "homestead-miami-speedway": {
-  "title": "Homestead–Miami Speedway",
+  "title": "Homestead\u2013Miami Speedway",
   "qid": "Q1626077",
   "category": "Homestead-Miami Speedway"
  },
@@ -847,7 +848,8 @@
  "ryan-field": {
   "title": "Ryan Field (2026)",
   "qid": "Q130238480",
-  "category": null
+  "category": "Ryan Field (stadium, 2026)",
+  "matched": "search"
  },
  "snapdragon-stadium": {
   "title": "Snapdragon Stadium",
@@ -855,9 +857,9 @@
   "category": "Snapdragon Stadium"
  },
  "navy-marine-corps-memorial-stadium": {
-  "title": "Navy–Marine Corps Memorial Stadium",
+  "title": "Navy\u2013Marine Corps Memorial Stadium",
   "qid": "Q3337331",
-  "category": "Navy–Marine Corps Memorial Stadium"
+  "category": "Navy\u2013Marine Corps Memorial Stadium"
  },
  "progressive-field": {
   "title": "Progressive Field",
@@ -910,7 +912,7 @@
   "category": "FAU Stadium"
  },
  "infocision-stadium-summa-field": {
-  "title": "InfoCision Stadium–Summa Field",
+  "title": "InfoCision Stadium\u2013Summa Field",
   "qid": "Q6030359",
   "category": "Summa Field at InfoCision Stadium"
  },
@@ -1037,7 +1039,8 @@
  "hancock-whitney-stadium": {
   "title": "Hancock Whitney Stadium",
   "qid": "Q83590158",
-  "category": null
+  "category": "Hancock Whitney Stadium",
+  "matched": "search"
  },
  "dix-stadium": {
   "title": "Dix Stadium",
@@ -1045,9 +1048,9 @@
   "category": "Dix Stadium"
  },
  "washington-grizzly-stadium": {
-  "title": "Washington–Grizzly Stadium",
+  "title": "Washington\u2013Grizzly Stadium",
   "qid": "Q7972603",
-  "category": "Washington–Grizzly Stadium"
+  "category": "Washington\u2013Grizzly Stadium"
  },
  "tropicana-field": {
   "title": "Tropicana Field",
@@ -1062,7 +1065,8 @@
  "allen-e-paulson-stadium": {
   "title": "Allen E. Paulson Stadium",
   "qid": "Q7155374",
-  "category": null
+  "category": "Paulson Stadium",
+  "matched": "manual"
  },
  "harvard-stadium": {
   "title": "Harvard Stadium",
@@ -1142,7 +1146,8 @@
  "amfirst-stadium": {
   "title": "AmFirst Stadium",
   "qid": "Q6108965",
-  "category": null
+  "category": "Burgess\u2013Snow Field at AmFirst Stadium",
+  "matched": "search"
  },
  "casem-spinks-stadium": {
   "title": "Casem-Spinks Stadium",
@@ -1160,9 +1165,9 @@
   "category": "CityPark"
  },
  "houchens-industries-l-t-smith-stadium": {
-  "title": "Houchens Industries–L. T. Smith Stadium",
+  "title": "Houchens Industries\u2013L. T. Smith Stadium",
   "qid": "Q5912732",
-  "category": "Houchens Industries–L. T. Smith Stadium"
+  "category": "Houchens Industries\u2013L. T. Smith Stadium"
  },
  "kfc-yum-center": {
   "title": "KFC Yum! Center",
@@ -1177,12 +1182,14 @@
  "first-horizon-coliseum": {
   "title": "First Horizon Coliseum",
   "qid": "Q133089582",
-  "category": null
+  "category": "Greensboro Coliseum",
+  "matched": "manual"
  },
  "oliver-c-dawson-stadium": {
   "title": "Oliver C. Dawson Stadium",
   "qid": "Q6587322",
-  "category": null
+  "category": "Oliver C. Dawson Stadium",
+  "matched": "search"
  },
  "s-b-ballard-stadium": {
   "title": "S.B. Ballard Stadium",
@@ -1192,10 +1199,11 @@
  "dean-smith-center": {
   "title": "Dean Smith Center",
   "qid": "Q3020664",
-  "category": null
+  "category": "Dean Smith Center",
+  "matched": "search"
  },
  "thompson-boling-arena": {
-  "title": "Thompson–Boling Arena",
+  "title": "Thompson\u2013Boling Arena",
   "qid": "Q3525746",
   "category": "Thompson-Boling Arena"
  },
@@ -1207,7 +1215,8 @@
  "truist-stadium": {
   "title": "Truist Stadium (North Carolina A&T)",
   "qid": "Q4692215",
-  "category": null
+  "category": "Truist Stadium",
+  "matched": "search"
  },
  "hornet-stadium": {
   "title": "Hornet Stadium (Sacramento)",
@@ -1257,7 +1266,8 @@
  "finley-stadium": {
   "title": "Finley Stadium",
   "qid": "Q5450585",
-  "category": null
+  "category": "Finley Stadium",
+  "matched": "search"
  },
  "scottsmiracle-gro-field": {
   "title": "ScottsMiracle-Gro Field",
@@ -1367,7 +1377,8 @@
  "dana-j-dykhouse-stadium": {
   "title": "Dana J. Dykhouse Stadium",
   "qid": "Q28147926",
-  "category": null
+  "category": "Dana J. Dykhouse Stadium",
+  "matched": "search"
  },
  "amerant-bank-arena": {
   "title": "Amerant Bank Arena",
@@ -1652,7 +1663,8 @@
  "tucker-stadium": {
   "title": "Tucker Stadium",
   "qid": "Q7851090",
-  "category": null
+  "category": "Tucker Stadium",
+  "matched": "search"
  },
  "hanson-field": {
   "title": "Hanson Field",
@@ -1687,7 +1699,8 @@
  "save-mart-center": {
   "title": "Save Mart Center",
   "qid": "Q3474506",
-  "category": null
+  "category": "Save Mart Center at Fresno State",
+  "matched": "search"
  },
  "state-farm-center": {
   "title": "State Farm Center",
@@ -1762,7 +1775,8 @@
  "panther-stadium-at-blackshear-field": {
   "title": "Panther Stadium at Blackshear Field",
   "qid": "Q28447008",
-  "category": null
+  "category": "Panther Stadium at Blackshear Field",
+  "matched": "search"
  },
  "saluki-stadium": {
   "title": "Saluki Stadium",
