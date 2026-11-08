@@ -1,0 +1,66 @@
+[
+ {
+  "slug": "madison-square-garden",
+  "kind": "arena",
+  "ref": "controls/madison-square-garden/color.png",
+  "desc_short": "Madison Square Garden: round arena drum with vertical warm bronze precast fins and a light shallow roof with a white rim, a tall dark glass office tower rising behind it, a low podium block in front",
+  "seeds": [
+   21,
+   32,
+   43
+  ],
+  "control": {
+   "depth": "controls/madison-square-garden/depth.png",
+   "edges": "controls/madison-square-garden/edges.png"
+  },
+  "ip_scale": 0.35
+ },
+ {
+  "slug": "q2-stadium",
+  "kind": "soccer stadium",
+  "ref": "controls/q2-stadium/color.png",
+  "desc_short": "Q2 Stadium: soccer stadium, rectangular grass pitch, steep green-seated stands close to the touchlines, white steel truss canopy roof over all stands, green slatted facade panels",
+  "seeds": [
+   21,
+   32,
+   43
+  ],
+  "control": {
+   "depth": "controls/q2-stadium/depth.png",
+   "edges": "controls/q2-stadium/edges.png"
+  },
+  "ip_scale": 0.35
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "kind": "football stadium",
+  "ref": "controls/landn-federal-credit-union-stadium/color.png",
+  "desc_short": "L&N Federal Credit Union Stadium: closed football bowl with red seats, tall brick-and-glass press box tower on one sideline, upper deck with white canopy opposite, video board at the closed end, green field",
+  "seeds": [
+   21,
+   32,
+   43
+  ],
+  "control": {
+   "depth": "controls/landn-federal-credit-union-stadium/depth.png",
+   "edges": "controls/landn-federal-credit-union-stadium/edges.png"
+  },
+  "ip_scale": 0.35
+ },
+ {
+  "slug": "rupp-arena",
+  "kind": "arena",
+  "ref": "controls/rupp-arena/color.png",
+  "desc_short": "Rupp Arena: large rectangular arena box, flat light roof, beige ribbed metal panel walls, dark glass band at street level, diagonal-braced corner stair towers",
+  "seeds": [
+   21,
+   32,
+   43
+  ],
+  "control": {
+   "depth": "controls/rupp-arena/depth.png",
+   "edges": "controls/rupp-arena/edges.png"
+  },
+  "ip_scale": 0.35
+ }
+]

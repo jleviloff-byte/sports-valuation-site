@@ -468,6 +468,16 @@ function msg({ fp, mat, info }) {
   const shop = K.box(118.4, 4, 26.4, '#3b3f44', mat, { kind: 'glass' }); pod.add(shop)
   const scr = K.box(16, 9, 0.6, '#181c22', mat, { kind: 'glass' }); scr.position.set(30, 7, -13.4); pod.add(scr)
   g.add(K.place(pod, [c[0] + west[0] * (R + 14), c[1] + west[1] * (R + 14)], 0, AVE))
+  // Two Penn Plaza (overhaul): the 29-storey dark glass slab on the Seventh
+  // Avenue side of the complex, about 107 m tall on a ~60 x 28 m footprint along
+  // the avenue. It rises over the drum in nearly every view of the Garden and is
+  // the cue the pilot's blind-ID test missed without it.
+  const east = K.bearingVec(AVE + 90)
+  const tw = new THREE.Group()
+  tw.add(K.box(28, 107, 60, '#2f353c', mat, { kind: 'glass' }))
+  for (let k = 1; k < 29; k++) { const b = K.box(28.3, 0.5, 60.3, '#5b636c', mat, { kind: 'metal', bevel: 0 }); b.position.y = k * 3.7; tw.add(b) }
+  for (const sx of [-1, 1]) for (let k = -7; k <= 7; k++) { const fin = K.box(0.5, 107, 0.6, '#6d757e', mat, { kind: 'metal', bevel: 0 }); fin.position.set(sx * 14.1, 0, k * 4); tw.add(fin) }
+  g.add(K.place(tw, [c[0] + east[0] * (R + 20), c[1] + east[1] * (R + 20)], 0, AVE))
   // Glazed entrance block between the podium and the drum (north-west).
   const nw = K.bearingVec(AVE - 60)
   const ent = new THREE.Group()
