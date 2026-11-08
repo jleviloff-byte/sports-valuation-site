@@ -12,16 +12,16 @@ const STAGE = 'research/raw/stadiums/kaggle'
 const IN = path.join(STAGE, 'inputs'), K = path.join(STAGE, 'kernel')
 fs.mkdirSync(IN, { recursive: true }); fs.mkdirSync(K, { recursive: true })
 
-// One appearance guide per venue, picked by eye from the reference sheet.
-// Index is 1-based into art-references.json images. Not used: MSG #2 and
-// Ashe #4 are MetLife Stadium (wrong venue); Yulman has construction photos only.
-const REF = {
-  'michigan-stadium': 1, 'yulman-stadium': 4, 'fenway-park': 1, 'wrigley-field': 1,
-  'sofi-stadium': 1, 'madison-square-garden': 3, 'daytona-international-speedway': 4, 'arthur-ashe-stadium': 1,
-}
+// One appearance guide per venue, from the category-verified set
+// (scripts/stadiums/refs/verified.json, see refs/rejected.md). Picked to
+// match the sprite's view where there is a choice.
+const verified = JSON.parse(fs.readFileSync('scripts/stadiums/refs/verified.json', 'utf8'))
+const REF = { 'michigan-stadium': 1, 'yulman-stadium': 10, 'fenway-park': 11, 'wrigley-field': 8, 'sofi-stadium': 1, 'madison-square-garden': 17, 'daytona-international-speedway': 17, 'arthur-ashe-stadium': 5 }
 for (const [slug, n] of Object.entries(REF)) {
+  const ref = verified[slug].find((r) => String(r.n) === String(n))
+  if (!ref) throw new Error(`${slug}: reference #${n} is not in verified.json`)
   for (const k of ['depth', 'mask']) fs.copyFileSync(`scripts/stadiums/art2/out/control/${slug}-${k}.png`, path.join(IN, `${slug}-${k}.png`))
-  fs.copyFileSync(`research/raw/stadiums/refs/${slug}/${n}.jpg`, path.join(IN, `${slug}-ref.jpg`))
+  fs.copyFileSync(ref.local, path.join(IN, `${slug}-ref.jpg`))
 }
 fs.writeFileSync(path.join(IN, 'dataset-metadata.json'), JSON.stringify({
   title: 'stadium-bakeoff-inputs', id: `${user}/stadium-bakeoff-inputs`, licenses: [{ name: 'other' }],
