@@ -14,7 +14,8 @@ Each license was read from the model's Hugging Face API tags or the project's LI
 | ControlNet | `xinsir/controlnet-depth-sdxl-1.0`, `xinsir/controlnet-canny-sdxl-1.0` | Apache-2.0 | Allowed alternates |
 | ControlNet | `diffusers/controlnet-depth-sdxl-1.0` | OpenRAIL++ | Allowed alternate |
 | IP-Adapter | `h94/IP-Adapter` (SDXL weights) | Apache-2.0 | Selected |
-| Segmentation | `facebook/sam-vit-huge` (Segment Anything) | Apache-2.0 | Selected (full run): venue mask on the reference from a box marked by eye; replaces hand-traced polygons |
+| Segmentation | `facebook/sam-vit-huge` (Segment Anything) | Apache-2.0 | Selected (full run): venue mask on the reference from a box prompt; replaces hand-traced polygons |
+| Box proposal | `IDEA-Research/grounding-dino-base` | Apache-2.0 | Selected (full run): proposes the venue box from a text prompt; every mask is reviewed and wrong ones get a box marked by eye |
 | Text detection | EasyOCR (`JaidedAI/EasyOCR`), CRAFT detector weights (`clovaai/CRAFT-pytorch`) | Apache-2.0 (EasyOCR), MIT (CRAFT) | Selected: finds lettering, including gibberish, so it can be inpainted out (detector only; recognition unused) |
 | Text removal | SDXL base inpainting (same weights as above, `StableDiffusionXLInpaintPipeline` sharing the loaded modules) | CreativeML OpenRAIL++-M | Selected; no extra model |
 | IP-Adapter image encoder | `laion/CLIP-ViT-H-14-laion2B-s32B-b79K` (shipped in h94/IP-Adapter) | MIT | Selected |

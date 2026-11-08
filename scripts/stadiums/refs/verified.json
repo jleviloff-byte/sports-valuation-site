@@ -669,6 +669,1346 @@
   "rupp-arena": "fallback",
   "q2-stadium": "fallback",
   "daytona-international-speedway": "fallback",
-  "yulman-stadium": "not pilot"
- }
+  "yulman-stadium": "not pilot",
+  "metlife-stadium": "photo",
+  "arrowhead-stadium": "photo",
+  "bank-of-america-stadium": "photo",
+  "caesars-superdome": "photo",
+  "reliant-stadium": "photo",
+  "mandt-bank-stadium": "photo",
+  "raymond-james-stadium": "photo",
+  "nissan-stadium": "photo",
+  "levi-s-stadium": "photo",
+  "acrisure-stadium": "photo",
+  "lumen-field": "photo",
+  "everbank-stadium": "photo",
+  "lincoln-financial-field": "photo",
+  "huntington-bank-field": "photo",
+  "lucas-oil-stadium": "photo",
+  "soldier-field": "photo",
+  "u-s-bank-stadium": "photo",
+  "ford-field": "photo",
+  "hard-rock-stadium": "photo",
+  "gillette-stadium": "photo",
+  "northwest-stadium": "photo",
+  "state-farm-stadium": "photo",
+  "dodger-stadium": "photo",
+  "chase-field": "photo",
+  "t-mobile-park": "photo",
+  "coors-field": "photo",
+  "yankee-stadium": "photo",
+  "angel-stadium": "photo",
+  "busch-stadium": "photo",
+  "citizens-bank-park": "photo",
+  "oriole-park-at-camden-yards": "photo",
+  "citi-field": "photo",
+  "nationals-park": "photo",
+  "oracle-park": "photo",
+  "comerica-park": "photo",
+  "petco-park": "photo",
+  "pnc-park": "photo",
+  "target-field": "photo",
+  "kauffman-stadium": "photo",
+  "progressive-field": "photo",
+  "tropicana-field": "photo",
+  "beaver-stadium": "photo",
+  "ohio-stadium": "photo",
+  "tiger-stadium": "photo",
+  "neyland-stadium": "photo",
+  "sanford-stadium": "photo",
+  "ben-hill-griffin-stadium": "photo",
+  "jordan-hare-stadium": "photo",
+  "memorial-stadium-ne": "photo",
+  "rose-bowl": "photo",
+  "gaylord-family-oklahoma-memorial-stadium": "photo",
+  "williams-brice-stadium": "photo",
+  "los-angeles-memorial-coliseum": "photo",
+  "camp-randall-stadium": "photo",
+  "spartan-stadium": "photo",
+  "husky-stadium": "photo",
+  "united-center": "photo",
+  "crypto-com-arena": "photo",
+  "chase-center": "photo",
+  "intuit-dome": "photo",
+  "indianapolis-motor-speedway": "photo",
+  "talladega-superspeedway": "photo",
+  "circuit-of-the-americas": "photo",
+  "providence-park": "photo",
+  "allegiant-stadium": "photo",
+  "rate-field": "photo",
+  "notre-dame-stadium": "photo"
+ },
+ "metlife-stadium": [
+  {
+   "n": 4,
+   "file": "File:Metlife stadium (Aerial view).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Metlife_stadium_(Aerial_view).jpg",
+   "category": "MetLife Stadium",
+   "caption": "Aerial view of Metlife Stadium in East Rutherford, New Jersey, on 20 January 2014",
+   "date": "2014-01-20 16:07",
+   "author": "Anthony Quintano from Hillsborough, NJ, United States",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/metlife-stadium/4.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/metlife-stadium/4-hires.jpg"
+  }
+ ],
+ "arrowhead-stadium": [
+  {
+   "n": 25,
+   "file": "File:Aerial view of Arrowhead Stadium 08-31-2013 crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Arrowhead_Stadium_08-31-2013_crop.jpg",
+   "category": null,
+   "caption": "Crop of thisː https://commons.wikimedia.org/wiki/File:Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+   "date": "21 January 2018, 21:",
+   "author": "https://en.wikipedia.org/wiki/User:Ichabod",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/arrowhead-stadium/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/arrowhead-stadium/25-hires.jpg"
+  }
+ ],
+ "bank-of-america-stadium": [
+  {
+   "n": 2,
+   "file": "File:Aerial view of Bank of America Stadium in Charlotte.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bank_of_America_Stadium_in_Charlotte.jpg",
+   "category": "Bank of America Stadium",
+   "caption": "Aerial view of Bank of America Stadium in Charlotte, North Carolina. Home to the Carolina Panthers and Charlotte FC.",
+   "date": "2025-07-31 11:43:44",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/bank-of-america-stadium/2.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/bank-of-america-stadium/2-hires.jpg"
+  }
+ ],
+ "caesars-superdome": [
+  {
+   "n": 13,
+   "file": "File:DHS Agencies Support Super Bowl LIX Security February 2025 - 75.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:DHS_Agencies_Support_Super_Bowl_LIX_Security_February_2025_-_75.jpg",
+   "category": "Aerial photographs of the Louisiana Superdome",
+   "caption": "Members of the U.S. Coast Guard Short-Range Unmanned Aircraft Systems team work to secure the upcoming Super Bowl in New Orleans, Louisiana, Feb. 4, 2025. Continuing a 20+ year partnership, more than 690 DHS employees are working to protect",
+   "date": "2025-02-04 12:05:38",
+   "author": "DHSgov",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/caesars-superdome/13.jpg",
+   "role": "structure+style",
+   "note": "aerial, roof lettering to blank",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/caesars-superdome/13-hires.jpg"
+  }
+ ],
+ "reliant-stadium": [
+  {
+   "n": 10,
+   "file": "File:NRG Stadium, Houston, Texas, United States.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NRG_Stadium,_Houston,_Texas,_United_States.jpg",
+   "category": "NRG Stadium",
+   "caption": "NRG Stadium, Houston, Texas, United States",
+   "date": "2017-01-30",
+   "author": "https://www.cbp.gov/",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/reliant-stadium/10.jpg",
+   "role": "structure+style",
+   "note": "aerial, dusk",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/reliant-stadium/10-hires.jpg"
+  }
+ ],
+ "mandt-bank-stadium": [
+  {
+   "n": 5,
+   "file": "File:M&T Bank Stadium in Baltimore.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:M%26T_Bank_Stadium_in_Baltimore.jpg",
+   "category": "M&T Bank Stadium",
+   "caption": "M&amp;T Bank Stadium in Baltimore, Maryland, USA. Home to the Baltimore Ravens NFL football team",
+   "date": "2025-08-06",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/mandt-bank-stadium/5.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/mandt-bank-stadium/5-hires.jpg"
+  }
+ ],
+ "raymond-james-stadium": [
+  {
+   "n": 6,
+   "file": "File:Raymond James Stadium (50898195996).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Raymond_James_Stadium_(50898195996).jpg",
+   "category": "Aerial photographs of Raymond James Stadium",
+   "caption": "U.S. Customs and Border Protection UH-60 Black Hawk helicopter crews assigned to Air and Marine Operations (AMO), Miami Air and Marine Branch patrol the airspace over Raymond James Stadium in Tampa, Fla., January 31, 2021, in advance of Sup",
+   "date": "2021-01-31 12:52",
+   "author": "U.S. Customs and Border Protection",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/raymond-james-stadium/6.jpg",
+   "role": "structure+style",
+   "note": "aerial, Super Bowl wraps to blank",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/raymond-james-stadium/6-hires.jpg"
+  }
+ ],
+ "nissan-stadium": [
+  {
+   "n": 1,
+   "file": "File:Aerial view of Nissan Stadium (Tennessee Titans).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Nissan_Stadium_(Tennessee_Titans).jpg",
+   "category": "Nissan Stadium",
+   "caption": "Aerial view of Nissan Stadium (formerly named Adelphia Coliseum and LP Field), built in 1999 and home of the Tennessee Titans, located in Nashville, TN.",
+   "date": "2026-02-24 11:17:10",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/nissan-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/nissan-stadium/1-hires.jpg"
+  }
+ ],
+ "levi-s-stadium": [
+  {
+   "n": 24,
+   "file": "File:Levi's Stadium from air.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Levi%27s_Stadium_from_air.jpg",
+   "category": "Levi's Stadium",
+   "caption": "San Jose, California. From tower at California's Great America theme park.",
+   "date": "24 June 2014 (accord",
+   "author": "Runner1928",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "research/raw/stadiums/refs-cand/levi-s-stadium/24.jpg",
+   "role": "structure+style",
+   "note": "elevated distant view",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/levi-s-stadium/24-hires.jpg"
+  }
+ ],
+ "acrisure-stadium": [
+  {
+   "n": 14,
+   "file": "File:Heinz Field - Pittsburgh Steelers Football Stadium (48171586771).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Heinz_Field_-_Pittsburgh_Steelers_Football_Stadium_(48171586771).jpg",
+   "category": "Acrisure Stadium",
+   "caption": "Heinz Field, a sports stadium in Pittsburgh, Pennsylvania, and home to the Pittsburgh Steelers NFL football team and Pittsburgh Panthers NCAA team.",
+   "date": "2019-06-11 20:37",
+   "author": "Tony Webster from Minneapolis, Minnesota, United States",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "local": "research/raw/stadiums/refs-cand/acrisure-stadium/14.jpg",
+   "role": "structure+style",
+   "note": "elevated view across river",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/acrisure-stadium/14-hires.jpg"
+  }
+ ],
+ "lumen-field": [
+  {
+   "n": 12,
+   "file": "File:CenturyLink Field & Safeco Field.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CenturyLink_Field_%26_Safeco_Field.jpg",
+   "category": "Lumen Field viewed from above",
+   "caption": "CenturyLink Field &amp; Safeco Field viewed from",
+   "date": "2012-02-25 16:56:14",
+   "author": "Brian Uhreen",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/lumen-field/12.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/lumen-field/12-hires.jpg"
+  }
+ ],
+ "everbank-stadium": [
+  {
+   "n": 1,
+   "file": "File:EverBank Stadium aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:EverBank_Stadium_aerial_view.jpg",
+   "category": "EverBank Stadium",
+   "caption": "EverBank Stadium in Jacksonville, Florida, pictured in January 2026 after a Playoff loss. It is home to the Jacksonville Jaguars of the National Football League (NFL)",
+   "date": "2026-01-13 09:21:44",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/everbank-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/everbank-stadium/1-hires.jpg"
+  }
+ ],
+ "lincoln-financial-field": [
+  {
+   "n": 7,
+   "file": "File:Lincoln Financial Field (Aerial view).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lincoln_Financial_Field_(Aerial_view).jpg",
+   "category": "Lincoln Financial Field",
+   "caption": "Lincoln Financial Field (Aerial view)",
+   "date": "2012-03-05 13:13:06",
+   "author": "Ron Reiring",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/lincoln-financial-field/7.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/lincoln-financial-field/7-hires.jpg"
+  }
+ ],
+ "huntington-bank-field": [
+  {
+   "n": 10,
+   "file": "File:Cleveland National Air Show (43805784984).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cleveland_National_Air_Show_(43805784984).jpg",
+   "category": "Exterior of Huntington Bank Field",
+   "caption": "Cleveland National Air Show",
+   "date": "2018-09-01 12:24",
+   "author": "Erik Drost",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/huntington-bank-field/10.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/huntington-bank-field/10-hires.jpg"
+  }
+ ],
+ "lucas-oil-stadium": [
+  {
+   "n": 25,
+   "file": "File:Aerial view of Indianapolis, Indiana, with a focus on Lucas Oil Stadium, highsm.40934.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Indianapolis,_Indiana,_with_a_focus_on_Lucas_Oil_Stadium,_highsm.40934.jpg",
+   "category": null,
+   "caption": "",
+   "date": "16 September 2016",
+   "author": "Carol M. Highsmith",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/lucas-oil-stadium/25.jpg",
+   "role": "structure+style",
+   "note": "check: extra aerial #25 (highsm) not on sheet",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/lucas-oil-stadium/25-hires.jpg"
+  }
+ ],
+ "soldier-field": [
+  {
+   "n": 26,
+   "file": "File:Soldier Field aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Soldier_Field_aerial.jpg",
+   "category": null,
+   "caption": "Soldier Field, Chicago IL",
+   "date": "2008-11",
+   "author": "NASA",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/soldier-field/26.jpg",
+   "role": "structure+style",
+   "note": "aerial, post-2003 bowl",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/soldier-field/26-hires.jpg"
+  }
+ ],
+ "u-s-bank-stadium": [
+  {
+   "n": 25,
+   "file": "File:Aerial Photos of US Bank Stadium and Minneapolis, Minnesota (25115597137).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_Photos_of_US_Bank_Stadium_and_Minneapolis,_Minnesota_(25115597137).jpg",
+   "category": null,
+   "caption": "One of the ways Homeland Security Investigations Special Response Team agents will provide security, during the week leading up to Super Bowl 52, will be flying over Minneapolis, Minnesota and US Bank Stadium.",
+   "date": "Taken on 29 January ",
+   "author": "U.S. Immigration and Customs Enforcement from Washington, D.C.",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/u-s-bank-stadium/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/u-s-bank-stadium/25-hires.jpg"
+  }
+ ],
+ "ford-field": [
+  {
+   "n": 2,
+   "file": "File:Aerial View of Downtown Detroit - Ford Field and Comerica Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Downtown_Detroit_-_Ford_Field_and_Comerica_Park.jpg",
+   "category": "Ford Field",
+   "caption": "originally posted to Flickr as Downtown Detroit",
+   "date": "2011-07-03",
+   "author": "Barbara Eckstein",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/ford-field/2.jpg",
+   "role": "structure+style",
+   "note": "aerial (Comerica also in frame)",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/ford-field/2-hires.jpg"
+  }
+ ],
+ "hard-rock-stadium": [
+  {
+   "n": 1,
+   "file": "File:200127-H-AT513-070.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:200127-H-AT513-070.jpg",
+   "category": "Exterior of Hard Rock Stadium",
+   "caption": "UH-60 Black Hawk helicopters assigned to the U.S. Customs and Border Protection’s (CBP) Air and Marine Operations (AMO), patrol the airspace over Hard Rock Stadium in advance of Super Bowl LIV, in Miami Gardens, Fla., January 27, 2020. CBP ",
+   "date": "2020-01-27 11:48:47",
+   "author": "CBP Photography",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/hard-rock-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial, canopy era",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/hard-rock-stadium/1-hires.jpg"
+  }
+ ],
+ "gillette-stadium": [
+  {
+   "n": 9,
+   "file": "File:Gillette Stadium Foxboro.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gillette_Stadium_Foxboro.jpg",
+   "category": "Gillette Stadium",
+   "caption": "Gillette stadium from above",
+   "date": "2007-02-11 12:38:31",
+   "author": "https://www.flickr.com/photos/31491248@N00/ Art N.",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/gillette-stadium/9.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/gillette-stadium/9-hires.jpg"
+  }
+ ],
+ "northwest-stadium": [
+  {
+   "n": 2,
+   "file": "File:FedEx Field, Landover, Maryland (USA) (53029669127).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:FedEx_Field,_Landover,_Maryland_(USA)_(53029669127).jpg",
+   "category": "Northwest Stadium",
+   "caption": "Bird's eye view of the stadium used by the American Football team Washington Commanders, from flight AA 2115 as it approaches the Washington National Airport. With a capacity for 62.000 spectators, it was opened in 1997.",
+   "date": "2023-06-26 13:48",
+   "author": "Charles from Port Chester, New York",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/northwest-stadium/2.jpg",
+   "role": "structure+style",
+   "note": "distant aerial: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/northwest-stadium/2-hires.jpg"
+  }
+ ],
+ "state-farm-stadium": [
+  {
+   "n": 1,
+   "file": "File:CBP provides security for Super Bowl LVII (7624269).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CBP_provides_security_for_Super_Bowl_LVII_(7624269).jpg",
+   "category": "Exterior of State Farm Stadium",
+   "caption": "A U.S. Customs and Border Protection Air and Marine Operations UH-60 Black Hawk helicopter conducts a flyover of State Farm Stadium as CBP provides significant security in advance of Super Bowl LVII in Glendale, Ariz.,Feb. 6, 2023. CBP Phot",
+   "date": "2023-02-05 19:00:00",
+   "author": "CBP Photo by Glenn Fawcett",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/state-farm-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/state-farm-stadium/1-hires.jpg"
+  }
+ ],
+ "dodger-stadium": [
+  {
+   "n": 7,
+   "file": "File:Dodger Stadium from the Air.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dodger_Stadium_from_the_Air.jpg",
+   "category": "Dodger Stadium",
+   "caption": "Dodger Stadium, home of the Los Angeles Dodgers.",
+   "date": "2007-06-27",
+   "author": "User kla4067 on Flickr",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/dodger-stadium/7.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/dodger-stadium/7-hires.jpg"
+  }
+ ],
+ "chase-field": [
+  {
+   "n": 3,
+   "file": "File:Chase Field aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chase_Field_aerial.jpg",
+   "category": "Chase Field",
+   "caption": "Aerial view of Chase Field and Phoenix from the south, on approach to Phoenix Sky Harbor International Airport",
+   "date": "2017-10-08 12:17:41",
+   "author": "Dicklyon",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/chase-field/3.jpg",
+   "role": "structure+style",
+   "note": "aerial, distant: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/chase-field/3-hires.jpg"
+  }
+ ],
+ "t-mobile-park": [
+  {
+   "n": 2,
+   "file": "File:Highway 99 tunnel south portal by stadiums crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Highway_99_tunnel_south_portal_by_stadiums_crop.jpg",
+   "category": "T-Mobile Park",
+   "caption": "Cropped from File:Highway 99 tunnel south portal by stadiums.jpg, the aerial views shows the Washington State Route 99 tunnel's south portal and associated roadways in the context of the waterfront and stadium area.",
+   "date": "2021-07-13 14:23:25",
+   "author": "Dicklyon",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/t-mobile-park/2.jpg",
+   "role": "structure+style",
+   "note": "aerial, distant: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/t-mobile-park/2-hires.jpg"
+  }
+ ],
+ "coors-field": [
+  {
+   "n": 25,
+   "file": "File:Coors field aerial 1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Coors_field_aerial_1.JPG",
+   "category": null,
+   "caption": "Coors Field in Denver, Colorado (baseball, aerial)",
+   "date": "2007-05-17",
+   "author": "John Maushammer (Morcheeba)",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "local": "research/raw/stadiums/refs-cand/coors-field/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/coors-field/25-hires.jpg"
+  }
+ ],
+ "yankee-stadium": [
+  {
+   "n": 26,
+   "file": "File:Yankee Stadium aerial from Blackhawk.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yankee_Stadium_aerial_from_Blackhawk.jpg",
+   "category": null,
+   "caption": "This picture was taken from an Army Blackhawk helicopter. It was amazing to see New York from the air like this! If you look close it looks like there might be a game getting started.",
+   "date": "2002-08-07 17:26:47",
+   "author": "Severin St. Martin",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/yankee-stadium/26.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/yankee-stadium/26-hires.jpg"
+  }
+ ],
+ "angel-stadium": [
+  {
+   "n": 4,
+   "file": "File:Angel Stadium, home of the Los Angeles Angels.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Angel_Stadium,_home_of_the_Los_Angeles_Angels.jpg",
+   "category": "Angel Stadium",
+   "caption": "Angel Stadium, home of the Los Angeles Angels. Located in Anaheim, California",
+   "date": "2025-08-14 13:29:24",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/angel-stadium/4.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/angel-stadium/4-hires.jpg"
+  }
+ ],
+ "busch-stadium": [
+  {
+   "n": 3,
+   "file": "File:Ballpark Village from Busch 2021.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ballpark_Village_from_Busch_2021.jpg",
+   "category": "Busch Stadium",
+   "caption": "Ballpark Village Phase II buildings seen from Busch Stadium in 2021",
+   "date": "2021-04-29",
+   "author": "Lightmetro",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/busch-stadium/3.jpg",
+   "role": "structure+style",
+   "note": "elevated view from tower",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/busch-stadium/3-hires.jpg"
+  }
+ ],
+ "citizens-bank-park": [
+  {
+   "n": 25,
+   "file": "File:Citizens Bank Park from airplane approaching PHL.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Citizens_Bank_Park_from_airplane_approaching_PHL.jpeg",
+   "category": null,
+   "caption": "A view of Citizens Bank Park in Philadelphia, Pennsylvania taken from an airplane approaching Philadelphia International Airport",
+   "date": "2025-04-17",
+   "author": "Dough4872",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/citizens-bank-park/25.jpg",
+   "role": "structure+style",
+   "note": "distant aerial: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/citizens-bank-park/25-hires.jpg"
+  }
+ ],
+ "oriole-park-at-camden-yards": [
+  {
+   "n": 1,
+   "file": "File:Oriole Park at Camden Yards aerial view.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriole_Park_at_Camden_Yards_aerial_view.jpg",
+   "category": "Oriole Park at Camden Yards",
+   "caption": "Aerial view of Oriole Park at Camden Yards with downtown Baltimore in the background.",
+   "date": "2023-10-24 12:01:03",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/oriole-park-at-camden-yards/1.jpg",
+   "role": "structure+style",
+   "note": "elevated view",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/oriole-park-at-camden-yards/1-hires.jpg"
+  }
+ ],
+ "citi-field": [
+  {
+   "n": 25,
+   "file": "File:Aerial Shot of Citi Field Opening Day April 13th 2009.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_Shot_of_Citi_Field_Opening_Day_April_13th_2009.jpg",
+   "category": null,
+   "caption": "Aerial Shot of Citi Field_Opening Day_April 13th_2009",
+   "date": "2009-04-13",
+   "author": "Malrite",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "research/raw/stadiums/refs-cand/citi-field/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/citi-field/25-hires.jpg"
+  }
+ ],
+ "nationals-park": [
+  {
+   "n": 6,
+   "file": "File:Aerial view of Nationals Park (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Nationals_Park_(cropped).jpg",
+   "category": null,
+   "caption": "Aerial view of Nationals Park and the surrounding Navy Yard neighborhood in Washington, D.C.",
+   "date": "2008-05-05",
+   "author": "Carol M. Highsmith",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/nationals-park/6.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/nationals-park/6-hires.jpg"
+  }
+ ],
+ "oracle-park": [
+  {
+   "n": 7,
+   "file": "File:Oracle Park 2021.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oracle_Park_2021.jpg",
+   "category": "Oracle Park",
+   "caption": "Oracle Park during a game in August 2021. Photo by Chris6d.",
+   "date": "2021-08-10",
+   "author": "Chris6d",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/oracle-park/7.jpg",
+   "role": "structure+style",
+   "note": "upper-deck view; weak (near stands missing)",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/oracle-park/7-hires.jpg"
+  }
+ ],
+ "comerica-park": [
+  {
+   "n": 6,
+   "file": "File:Comerica Park - 2026 (215A6096).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Comerica_Park_-_2026_(215A6096).jpg",
+   "category": "Comerica Park",
+   "caption": "Comerica Park",
+   "date": "2026-07-08 10:42:04",
+   "author": "City of Detroit",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/comerica-park/6.jpg",
+   "role": "structure+style",
+   "note": "elevated aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/comerica-park/6-hires.jpg"
+  }
+ ],
+ "petco-park": [
+  {
+   "n": 20,
+   "file": "File:PetcoBallParkByPhilKonstantin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PetcoBallParkByPhilKonstantin.jpg",
+   "category": "Petco Park",
+   "caption": "A photo of San Diego Padres Petco Park as taken from overhead in a helicopter.",
+   "date": "2011-05-05",
+   "author": "Philkon Attribute to \"Phil Konstantin\"",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "local": "research/raw/stadiums/refs-cand/petco-park/20.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/petco-park/20-hires.jpg"
+  }
+ ],
+ "pnc-park": [
+  {
+   "n": 2,
+   "file": "File:PNC Park exterior at dusk May 2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PNC_Park_exterior_at_dusk_May_2019.jpg",
+   "category": "Exterior of PNC Park",
+   "caption": "A view of PNC Park in Pittsburgh, Pennsylvania at dusk, as seen from the rooftop of the West General Robinson Street Garage",
+   "date": "2019-05-08 19:19:16",
+   "author": "Y2kcrazyjoker4",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/pnc-park/2.jpg",
+   "role": "structure+style",
+   "note": "elevated view from building",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/pnc-park/2-hires.jpg"
+  }
+ ],
+ "target-field": [
+  {
+   "n": 30,
+   "file": "File:Target Field Aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Target_Field_Aerial.jpg",
+   "category": null,
+   "caption": "An aerial photo of Target Field",
+   "date": "Taken on 6 August 20",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/target-field/30.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/target-field/30-hires.jpg"
+  }
+ ],
+ "kauffman-stadium": [
+  {
+   "n": 12,
+   "file": "File:Kauffman2017.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kauffman2017.jpg",
+   "category": "Kauffman Stadium",
+   "caption": "Kauffman Stadium 2017",
+   "date": "2017-05-31",
+   "author": "Chibears85",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/kauffman-stadium/12.jpg",
+   "role": "structure+style",
+   "note": "upper-deck view; weak",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/kauffman-stadium/12-hires.jpg"
+  }
+ ],
+ "progressive-field": [
+  {
+   "n": 25,
+   "file": "File:Progressive Field aerial 2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Progressive_Field_aerial_2015.jpg",
+   "category": null,
+   "caption": "View of Progressive Field in downtown Cleveland, Ohio, from the observation deck at Terminal Tower. Quicken Loans Arena can be seen in the foreground.",
+   "date": "2015-08-29 15:17:31",
+   "author": "JonRidinger",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/progressive-field/25.jpg",
+   "role": "structure+style",
+   "note": "elevated view",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/progressive-field/25-hires.jpg"
+  }
+ ],
+ "tropicana-field": [
+  {
+   "n": 19,
+   "file": "File:Tropicana field from air.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Tropicana_field_from_air.JPG",
+   "category": "Tropicana Field exterior",
+   "caption": "Tropicana Field dome in St. Petersburg, FL from the air.",
+   "date": "2009-09-15",
+   "author": "Opakapaka",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/tropicana-field/19.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/tropicana-field/19-hires.jpg"
+  }
+ ],
+ "beaver-stadium": [
+  {
+   "n": 1,
+   "file": "File:Beaver Stadium - Penn State football.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Beaver_Stadium_-_Penn_State_football.jpg",
+   "category": "Beaver Stadium",
+   "caption": "Aerial view of Beaver Stadium in University Park, Pennsylvania, home of Penn State football, during its $700 million west-side renovation in July 2026.",
+   "date": "2026-07-28 16:57:41",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/beaver-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/beaver-stadium/1-hires.jpg"
+  }
+ ],
+ "ohio-stadium": [
+  {
+   "n": 3,
+   "file": "File:Ohio Stadium Overhead.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ohio_Stadium_Overhead.jpg",
+   "category": "Ohio Stadium",
+   "caption": "Ohio Stadium",
+   "date": "2021-06-18",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/ohio-stadium/3.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/ohio-stadium/3-hires.jpg"
+  }
+ ],
+ "tiger-stadium": [
+  {
+   "n": 1,
+   "file": "File:LSU from above 2021.png",
+   "page": "https://commons.wikimedia.org/wiki/File:LSU_from_above_2021.png",
+   "category": "Tiger Stadium (LSU)",
+   "caption": "Drone panorama of Louisiana State University from above in 2021.",
+   "date": "2021-04-27",
+   "author": "TheLionHasSeen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/tiger-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial, distant: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/tiger-stadium/1-hires.jpg"
+  }
+ ],
+ "neyland-stadium": [
+  {
+   "n": 1,
+   "file": "File:Aerial view of Neyland Stadium, home of Tennessee Volunteers.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Neyland_Stadium,_home_of_Tennessee_Volunteers.jpg",
+   "category": "Neyland Stadium",
+   "caption": "Aerial view of an empty Neyland Stadium (b. 1921) in Knoxville, Tennessee, home of the Tennessee Volunteers football team.",
+   "date": "2026-02-24 16:46:54",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/neyland-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/neyland-stadium/1-hires.jpg"
+  }
+ ],
+ "sanford-stadium": [
+  {
+   "n": 9,
+   "file": "File:UGA vs. Marshall 2025 (corner).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:UGA_vs._Marshall_2025_(corner).jpg",
+   "category": "Sanford Stadium",
+   "caption": "Marshall vs. Georgia on August 30, 2025 at Sanford Stadium",
+   "date": "2025-08-30 14:48:37",
+   "author": "TarheelBornBred",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "local": "research/raw/stadiums/refs-cand/sanford-stadium/9.jpg",
+   "role": "structure+style",
+   "note": "upper-deck view; weak",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/sanford-stadium/9-hires.jpg"
+  }
+ ],
+ "ben-hill-griffin-stadium": [
+  {
+   "n": 11,
+   "file": "File:Ben Hill Griffin Stadium - Florida Gators.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ben_Hill_Griffin_Stadium_-_Florida_Gators.jpg",
+   "category": "Ben Hill Griffin Stadium",
+   "caption": "Ben Hill Griffin Stadium, pictured in 2026. It's home to the Florida Gators football team and located in Gainesville, Florida.",
+   "date": "2026-02-02 17:18:25",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/ben-hill-griffin-stadium/11.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/ben-hill-griffin-stadium/11-hires.jpg"
+  }
+ ],
+ "jordan-hare-stadium": [
+  {
+   "n": 9,
+   "file": "File:Jordan-Hare Stadium west.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jordan-Hare_Stadium_west.jpg",
+   "category": "Jordan-Hare Stadium",
+   "caption": "Jordan-Hare Stadium in Auburn, Alabama, on the campus of Auburn University. Image was taken from the west side of the stadium, from ~1600 feet above ground level.",
+   "date": "2008-06-25",
+   "author": "AuburnPilot",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/jordan-hare-stadium/9.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/jordan-hare-stadium/9-hires.jpg"
+  }
+ ],
+ "memorial-stadium-ne": [
+  {
+   "n": 1,
+   "file": "File:National Guard Memorial Stadium volleyball flyover.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:National_Guard_Memorial_Stadium_volleyball_flyover.jpg",
+   "category": "Memorial Stadium (Lincoln)",
+   "caption": "A Nebraska National Guard KC-135R Stratotanker assigned to the 155th Air Refueling Wing along with an F-16 from the South Dakota National Guard's 114th Fighter Wing flyover over Memorial Stadium, Lincoln, Nebraska, Aug. 30, 2023, for a Univ",
+   "date": "2023-08-30 18:07:50",
+   "author": "The National Guard",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/memorial-stadium-ne/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/memorial-stadium-ne/1-hires.jpg"
+  }
+ ],
+ "rose-bowl": [
+  {
+   "n": 9,
+   "file": "File:2018.06.17 Over the Rose Bowl, Pasadena, CA USA 0040 (42855674681).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2018.06.17_Over_the_Rose_Bowl,_Pasadena,_CA_USA_0040_(42855674681).jpg",
+   "category": "Rose Bowl",
+   "caption": "Rose Bowl, Lot H, in Pasadena, California, is one of the few places in the United States where you can fly a drone legally.",
+   "date": "2018-06-13 05:53",
+   "author": "Ted Eytan",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "local": "research/raw/stadiums/refs-cand/rose-bowl/9.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/rose-bowl/9-hires.jpg"
+  }
+ ],
+ "gaylord-family-oklahoma-memorial-stadium": [
+  {
+   "n": 7,
+   "file": "File:OMU with 2016 extension.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:OMU_with_2016_extension.jpg",
+   "category": "Gaylord Family Oklahoma Memorial Stadium",
+   "caption": "The Gaylord Family - Oklahoma Memorial Stadium with the newly finished south entrance and enclosed south side of the stadium on September 2, 2017, in the season's first game against the UTEP Miners.",
+   "date": "2017-09-02",
+   "author": "Toniklemm",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/gaylord-family-oklahoma-memorial-stadium/7.jpg",
+   "role": "structure+style",
+   "note": "elevated distant view; weak",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/gaylord-family-oklahoma-memorial-stadium/7-hires.jpg"
+  }
+ ],
+ "williams-brice-stadium": [
+  {
+   "n": 4,
+   "file": "File:Williams Brice Stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Williams_Brice_Stadium.jpg",
+   "category": "Williams-Brice Stadium",
+   "caption": "Williams-Brice Stadium",
+   "date": "2015-09-25 18:42:29",
+   "author": "Eisenthesky Productions",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/williams-brice-stadium/4.jpg",
+   "role": "structure+style",
+   "note": "aerial (fisheye)",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/williams-brice-stadium/4-hires.jpg"
+  }
+ ],
+ "los-angeles-memorial-coliseum": [
+  {
+   "n": 1,
+   "file": "File:Los Angeles Memorial Coliseum.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Memorial_Coliseum.png",
+   "category": "Los Angeles Memorial Coliseum",
+   "caption": "Aerial view of Los Angeles Memorial Coliseum",
+   "date": "2025-08-18",
+   "author": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "local": "research/raw/stadiums/refs-cand/los-angeles-memorial-coliseum/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/los-angeles-memorial-coliseum/1-hires.jpg"
+  }
+ ],
+ "camp-randall-stadium": [
+  {
+   "n": 1,
+   "file": "File:Camp Randall Aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Camp_Randall_Aerial.jpg",
+   "category": "Exterior of Camp Randall Stadium",
+   "caption": "Camp Randall, the football stadium at the University of Wisconsin.",
+   "date": "2021-11-24 10:48:28",
+   "author": "Lectrician2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/camp-randall-stadium/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/camp-randall-stadium/1-hires.jpg"
+  }
+ ],
+ "spartan-stadium": [
+  {
+   "n": 26,
+   "file": "File:CEFCU Spartan Stadium aerial.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CEFCU_Spartan_Stadium_aerial.jpg",
+   "category": null,
+   "caption": "CEFCU Stadium, or Spartan Stadium, at San Jose State University, and neighborhood, California, aerial from the southwest",
+   "date": "2017-04-13 08:27:16",
+   "author": "Dicklyon",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/spartan-stadium/26.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/spartan-stadium/26-hires.jpg"
+  }
+ ],
+ "husky-stadium": [
+  {
+   "n": 25,
+   "file": "File:Aerial Husky Stadium March 2009.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_Husky_Stadium_March_2009.jpg",
+   "category": null,
+   "caption": "Husky Stadium viewed from an aircraft, approx 1,700' MSL. Union Bay visible below.",
+   "date": "2009-03-10",
+   "author": "Liesl Matthies",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "local": "research/raw/stadiums/refs-cand/husky-stadium/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/husky-stadium/25-hires.jpg"
+  }
+ ],
+ "united-center": [
+  {
+   "n": 4,
+   "file": "File:United Center, Chicago, Illinois (42675295374).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:United_Center,_Chicago,_Illinois_(42675295374).jpg",
+   "category": "United Center (exterior)",
+   "caption": "United Center (The UC, The Madhouse on Madison, The House that Jordan Built) is an indoor arena on the Near West Side of Chicago, Illinois, United States. It is home to the Chicago Bulls of the National Basketball Association (NBA) and the ",
+   "date": "2018-07-13 15:02",
+   "author": "Ken Lund from Reno, Nevada, USA",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "local": "research/raw/stadiums/refs-cand/united-center/4.jpg",
+   "role": "structure+style",
+   "note": "distant elevated: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/united-center/4-hires.jpg"
+  }
+ ],
+ "crypto-com-arena": [
+  {
+   "n": 1,
+   "file": "File:Crypto.com arena drone shot early 2023.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crypto.com_arena_drone_shot_early_2023.jpg",
+   "category": "Exterior of Crypto.com Arena",
+   "caption": "The Crypto.com arena in Los Angeles, as seen from a DJI Mavic 3.",
+   "date": "2023-03-17 10:26:35",
+   "author": "InvadingInvader",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/crypto-com-arena/1.jpg",
+   "role": "structure+style",
+   "note": "aerial, roof lettering to blank",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/crypto-com-arena/1-hires.jpg"
+  }
+ ],
+ "chase-center": [
+  {
+   "n": 1,
+   "file": "File:Chase Center - Warriors.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chase_Center_-_Warriors.jpg",
+   "category": "Exterior of Chase Center",
+   "caption": "Aerial view of Chase Center at 2020",
+   "date": "2020-10-16 16:35:33",
+   "author": "Christopher Michel",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "local": "research/raw/stadiums/refs-cand/chase-center/1.jpg",
+   "role": "structure+style",
+   "note": "elevated, roof lettering to blank",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/chase-center/1-hires.jpg"
+  }
+ ],
+ "intuit-dome": [
+  {
+   "n": 3,
+   "file": "File:Intuit dome from the air pic 2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Intuit_dome_from_the_air_pic_2.jpg",
+   "category": "Exterior of Intuit Dome",
+   "caption": "A view of Intuit dome from a plane flying into LAX from Cabo",
+   "date": "2026-04-19 17:49:30",
+   "author": "AVandewerdt",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/intuit-dome/3.jpg",
+   "role": "structure+style",
+   "note": "from airliner window: hires crop",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/intuit-dome/3-hires.jpg"
+  }
+ ],
+ "indianapolis-motor-speedway": [
+  {
+   "n": 25,
+   "file": "File:Aerial view of Indianapolis, Indiana, with a focus on the Indiana State Fairgrounds Speedway auto-racing track.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Indianapolis,_Indiana,_with_a_focus_on_the_Indiana_State_Fairgrounds_Speedway_auto-racing_track.jpg",
+   "category": null,
+   "caption": "- Title, date and keywords based on information provided by the photographer. - This is not the much larger Indianapolis Motor Speedway, site of the renowned Indianapolis 500 race, in another part of town. - Credit line: Photographs in the ",
+   "date": "19 September 2016",
+   "author": "Carol M. Highsmith",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/indianapolis-motor-speedway/25.jpg",
+   "role": "structure+style",
+   "note": "aerial of front-stretch grandstands",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue (extra search result: category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/indianapolis-motor-speedway/25-hires.jpg"
+  }
+ ],
+ "talladega-superspeedway": [
+  {
+   "n": 14,
+   "file": "File:TalladegaSuperspeedway2-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:TalladegaSuperspeedway2-2.jpg",
+   "category": "Talladega Superspeedway",
+   "caption": "This image is of the Talladega Superspeedway, located in Talladega, Alabama. The image was taken from approximately 5000ft MSL (4500ft AGL) with visibility limited to approximately 4sm due to haze. The left wheel of the aircraft has been di",
+   "date": "2007-09",
+   "author": "AuburnPilot",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/talladega-superspeedway/14.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/talladega-superspeedway/14-hires.jpg"
+  }
+ ],
+ "circuit-of-the-americas": [
+  {
+   "n": 1,
+   "file": "File:Circuit of the Americas aerial view from WN4430.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circuit_of_the_Americas_aerial_view_from_WN4430.jpg",
+   "category": "Circuit of the Americas",
+   "caption": "Aerial view of Circuit of the Americas captured out the window of Southwest flight 4430 from AUS to ATL on November 15, 2024.",
+   "date": "2024-11-15 14:33:00",
+   "author": "Spheroidite",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "local": "research/raw/stadiums/refs-cand/circuit-of-the-americas/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/circuit-of-the-americas/1-hires.jpg"
+  }
+ ],
+ "providence-park": [
+  {
+   "n": 1,
+   "file": "File:Providence Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Providence_Park.jpg",
+   "category": "Providence Park",
+   "caption": "An aerial view of Providence Park, May 2016. The buildings in the lower right third of this view are part of the Multnomah Athletic Club, which abuts the stadium.",
+   "date": "2016-05-31 18:46:06",
+   "author": "Pdx.rollingthunder",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "local": "research/raw/stadiums/refs-cand/providence-park/1.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; Commons category/title name the venue",
+   "local_hires": "research/raw/stadiums/refs-cand/providence-park/1-hires.jpg"
+  }
+ ],
+ "allegiant-stadium": [
+  {
+   "n": 32,
+   "file": "File:CBP Super Bowl 58 (53525700301).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CBP_Super_Bowl_58_(53525700301).jpg",
+   "category": null,
+   "caption": "Aerial image of Allegiant Stadium in Las Vegas, Nev., taken from a U.S. Customs and Border Protection Air and Marine Operations Airbus AS350 A-Star helicopter during Super Bowl LVIII Feb. 11, 2024. CBP is providing significant security duri",
+   "date": "Taken on 11 February",
+   "author": "CBP Photography",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/allegiant-stadium/32.jpg",
+   "role": "structure+style",
+   "note": "aerial, roof lettering to blank",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; extra search result (category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/allegiant-stadium/32-hires.jpg"
+  }
+ ],
+ "rate-field": [
+  {
+   "n": 27,
+   "file": "File:US Navy 080811-N-9233T-009 Chief Special Boat Operator Jay Norton, and Special Warfare Operator 1st Class John Murray parachute onto U.S. Cellular Field before a MLB game between the Chicago White Sox and the Boston Red Sox.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:US_Navy_080811-N-9233T-009_Chief_Special_Boat_Operator_Jay_Norton,_and_Special_Warfare_Operator_1st_Class_John_Murray_parachute_onto_U.S._Cellular_Field_before_a_MLB_game_between_the_Chicago_White_Sox_and_the_Boston_Red_Sox.jpg",
+   "category": null,
+   "caption": "CHICAGO (Aug. 11, 2008) Chief Special Boat Operator Jay Norton and Special Warfare Operator 1st Class John Murray parachute onto U.S. Cellular Field before a MLB game between the Chicago White Sox and the Boston Red Sox. Norton and Murray a",
+   "date": "Taken on 11 August 2",
+   "author": "U.S. Navy photo by Chief (Sel.) Aircrew Survival Equipmentman Sean Tufts",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/rate-field/27.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; extra search result (category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/rate-field/27-hires.jpg"
+  }
+ ],
+ "notre-dame-stadium": [
+  {
+   "n": 25,
+   "file": "File:Notre-dame-stadium.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Notre-dame-stadium.jpg",
+   "category": null,
+   "caption": "Notre Dame Stadium.",
+   "date": "5 May 2005 (original",
+   "author": "Tysto",
+   "license": "Public domain",
+   "license_url": null,
+   "local": "research/raw/stadiums/refs-cand/notre-dame-stadium/25.jpg",
+   "role": "structure+style",
+   "note": "aerial",
+   "hires": true,
+   "verified": "by eye: venue shape and setting match the known building; extra search result (category check did not apply)",
+   "local_hires": "research/raw/stadiums/refs-cand/notre-dame-stadium/25-hires.jpg"
+  }
+ ]
 }

@@ -1,0 +1,337 @@
+[
+ {
+  "slug": "metlife-stadium",
+  "ref": "refs/metlife-stadium/4.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "arrowhead-stadium",
+  "ref": "refs/arrowhead-stadium/25.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "bank-of-america-stadium",
+  "ref": "refs/bank-of-america-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "caesars-superdome",
+  "ref": "refs/caesars-superdome/13.jpg",
+  "query": "a domed stadium."
+ },
+ {
+  "slug": "reliant-stadium",
+  "ref": "refs/reliant-stadium/10.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "mandt-bank-stadium",
+  "ref": "refs/mandt-bank-stadium/5.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "ref": "refs/raymond-james-stadium/6.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "nissan-stadium",
+  "ref": "refs/nissan-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "levi-s-stadium",
+  "ref": "refs/levi-s-stadium/24.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "acrisure-stadium",
+  "ref": "refs/acrisure-stadium/14.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "lumen-field",
+  "ref": "refs/lumen-field/12.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "everbank-stadium",
+  "ref": "refs/everbank-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "ref": "refs/lincoln-financial-field/7.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "huntington-bank-field",
+  "ref": "refs/huntington-bank-field/10.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "lucas-oil-stadium",
+  "ref": "refs/lucas-oil-stadium/25.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "soldier-field",
+  "ref": "refs/soldier-field/26.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "u-s-bank-stadium",
+  "ref": "refs/u-s-bank-stadium/25.jpg",
+  "query": "a domed stadium."
+ },
+ {
+  "slug": "ford-field",
+  "ref": "refs/ford-field/2.jpg",
+  "query": "a domed stadium."
+ },
+ {
+  "slug": "hard-rock-stadium",
+  "ref": "refs/hard-rock-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "gillette-stadium",
+  "ref": "refs/gillette-stadium/9.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "northwest-stadium",
+  "ref": "refs/northwest-stadium/2.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "state-farm-stadium",
+  "ref": "refs/state-farm-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "dodger-stadium",
+  "ref": "refs/dodger-stadium/7.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "chase-field",
+  "ref": "refs/chase-field/3.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "t-mobile-park",
+  "ref": "refs/t-mobile-park/2.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "coors-field",
+  "ref": "refs/coors-field/25.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "yankee-stadium",
+  "ref": "refs/yankee-stadium/26.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "angel-stadium",
+  "ref": "refs/angel-stadium/4.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "busch-stadium",
+  "ref": "refs/busch-stadium/3.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "citizens-bank-park",
+  "ref": "refs/citizens-bank-park/25.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "oriole-park-at-camden-yards",
+  "ref": "refs/oriole-park-at-camden-yards/1.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "citi-field",
+  "ref": "refs/citi-field/25.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "nationals-park",
+  "ref": "refs/nationals-park/6.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "oracle-park",
+  "ref": "refs/oracle-park/7.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "comerica-park",
+  "ref": "refs/comerica-park/6.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "petco-park",
+  "ref": "refs/petco-park/20.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "pnc-park",
+  "ref": "refs/pnc-park/2.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "target-field",
+  "ref": "refs/target-field/30.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "kauffman-stadium",
+  "ref": "refs/kauffman-stadium/12.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "progressive-field",
+  "ref": "refs/progressive-field/25.jpg",
+  "query": "a baseball stadium."
+ },
+ {
+  "slug": "tropicana-field",
+  "ref": "refs/tropicana-field/19.jpg",
+  "query": "a domed stadium."
+ },
+ {
+  "slug": "beaver-stadium",
+  "ref": "refs/beaver-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "ohio-stadium",
+  "ref": "refs/ohio-stadium/3.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "tiger-stadium",
+  "ref": "refs/tiger-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "neyland-stadium",
+  "ref": "refs/neyland-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "sanford-stadium",
+  "ref": "refs/sanford-stadium/9.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "ben-hill-griffin-stadium",
+  "ref": "refs/ben-hill-griffin-stadium/11.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "jordan-hare-stadium",
+  "ref": "refs/jordan-hare-stadium/9.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "memorial-stadium-ne",
+  "ref": "refs/memorial-stadium-ne/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "rose-bowl",
+  "ref": "refs/rose-bowl/9.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "ref": "refs/gaylord-family-oklahoma-memorial-stadium/7.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "williams-brice-stadium",
+  "ref": "refs/williams-brice-stadium/4.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "los-angeles-memorial-coliseum",
+  "ref": "refs/los-angeles-memorial-coliseum/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "camp-randall-stadium",
+  "ref": "refs/camp-randall-stadium/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "spartan-stadium",
+  "ref": "refs/spartan-stadium/26.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "husky-stadium",
+  "ref": "refs/husky-stadium/25.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "united-center",
+  "ref": "refs/united-center/4.jpg",
+  "query": "an arena."
+ },
+ {
+  "slug": "crypto-com-arena",
+  "ref": "refs/crypto-com-arena/1.jpg",
+  "query": "an arena."
+ },
+ {
+  "slug": "chase-center",
+  "ref": "refs/chase-center/1.jpg",
+  "query": "an arena."
+ },
+ {
+  "slug": "intuit-dome",
+  "ref": "refs/intuit-dome/3.jpg",
+  "query": "an arena."
+ },
+ {
+  "slug": "indianapolis-motor-speedway",
+  "ref": "refs/indianapolis-motor-speedway/25.jpg",
+  "query": "a racetrack grandstand."
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "ref": "refs/talladega-superspeedway/14.jpg",
+  "query": "a racetrack grandstand."
+ },
+ {
+  "slug": "circuit-of-the-americas",
+  "ref": "refs/circuit-of-the-americas/1.jpg",
+  "query": "a racetrack grandstand."
+ },
+ {
+  "slug": "providence-park",
+  "ref": "refs/providence-park/1.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "allegiant-stadium",
+  "ref": "refs/allegiant-stadium/32.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "rate-field",
+  "ref": "refs/rate-field/27.jpg",
+  "query": "a stadium."
+ },
+ {
+  "slug": "notre-dame-stadium",
+  "ref": "refs/notre-dame-stadium/25.jpg",
+  "query": "a stadium."
+ }
+]
