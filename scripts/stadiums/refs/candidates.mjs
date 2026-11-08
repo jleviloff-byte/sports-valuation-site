@@ -54,9 +54,15 @@ async function members(cat, type) {
   return out
 }
 
-const want = process.argv.slice(2)
+// Every other venue: its Commons category from categories.json (Wikidata P373).
+// --all runs every venue that has no candidates.json yet.
+const ALL = fs.existsSync('scripts/stadiums/refs/categories.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/refs/categories.json', 'utf8')) : {}
+for (const [slug, x] of Object.entries(ALL)) if (!CATS[slug] && x.category) CATS[slug] = x.category
+const all = process.argv.includes('--all')
+const want = process.argv.slice(2).filter((a) => !a.startsWith('--'))
 for (const [slug, cat] of Object.entries(CATS)) {
   if (want.length && !want.includes(slug)) continue
+  if (all && fs.existsSync(path.join('research/raw/stadiums/refs-cand', slug, 'candidates.json'))) continue
   const cats = [cat]
   for (const s of await members(cat, 'subcat')) {
     const n = s.replace(/^Category:/, '')

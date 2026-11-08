@@ -1,0 +1,1772 @@
+{
+ "indianapolis-motor-speedway": {
+  "title": "Indianapolis Motor Speedway",
+  "qid": "Q172732",
+  "category": "Indianapolis Motor Speedway"
+ },
+ "bristol-motor-speedway": {
+  "title": "Bristol Motor Speedway",
+  "qid": "Q383490",
+  "category": "Bristol Motor Speedway"
+ },
+ "daytona-international-speedway": {
+  "title": "Daytona International Speedway",
+  "qid": "Q1179250",
+  "category": "Daytona International Speedway"
+ },
+ "circuit-of-the-americas": {
+  "title": "Circuit of the Americas",
+  "qid": "Q59626",
+  "category": "Circuit of the Americas"
+ },
+ "michigan-stadium": {
+  "title": "Michigan Stadium",
+  "qid": "Q1640118",
+  "category": "Michigan Stadium"
+ },
+ "beaver-stadium": {
+  "title": "Beaver Stadium",
+  "qid": "Q692816",
+  "category": "Beaver Stadium"
+ },
+ "ohio-stadium": {
+  "title": "Ohio Stadium",
+  "qid": "Q774694",
+  "category": "Ohio Stadium"
+ },
+ "kyle-field": {
+  "title": "Kyle Field",
+  "qid": "Q945223",
+  "category": "Kyle Field"
+ },
+ "tiger-stadium": {
+  "title": "Tiger Stadium (Louisiana)",
+  "qid": "Q1594708",
+  "category": "Tiger Stadium (LSU)"
+ },
+ "neyland-stadium": {
+  "title": "Neyland Stadium",
+  "qid": "Q1984022",
+  "category": "Neyland Stadium"
+ },
+ "darrell-k-royal-texas-memorial-stadium": {
+  "title": "Darrell K Royal–Texas Memorial Stadium",
+  "qid": "Q1166591",
+  "category": "Darrell K. Royal-Texas Memorial Stadium"
+ },
+ "bryant-denny-stadium": {
+  "title": "Bryant–Denny Stadium",
+  "qid": "Q995161",
+  "category": "Bryant-Denny Stadium"
+ },
+ "charlotte-motor-speedway": {
+  "title": "Charlotte Motor Speedway",
+  "qid": "Q1067286",
+  "category": "Charlotte Motor Speedway"
+ },
+ "sanford-stadium": {
+  "title": "Sanford Stadium",
+  "qid": "Q2221660",
+  "category": "Sanford Stadium"
+ },
+ "cotton-bowl": {
+  "title": "Cotton Bowl (stadium)",
+  "qid": "Q1136764",
+  "category": "Cotton Bowl"
+ },
+ "barber-motorsports-park": {
+  "title": "Barber Motorsports Park",
+  "qid": "Q807806",
+  "category": "Barber Motorsports Park"
+ },
+ "ben-hill-griffin-stadium": {
+  "title": "Ben Hill Griffin Stadium",
+  "qid": "Q816516",
+  "category": "Ben Hill Griffin Stadium"
+ },
+ "jordan-hare-stadium": {
+  "title": "Jordan–Hare Stadium",
+  "qid": "Q945548",
+  "category": "Jordan-Hare Stadium"
+ },
+ "memorial-stadium-ne": {
+  "title": "Memorial Stadium (Lincoln)",
+  "qid": "Q383557",
+  "category": "Memorial Stadium (Lincoln)"
+ },
+ "metlife-stadium": {
+  "title": "MetLife Stadium",
+  "qid": "Q10862290",
+  "category": "MetLife Stadium"
+ },
+ "memorial-stadium-sc": {
+  "title": "Memorial Stadium (Clemson)",
+  "qid": "Q543579",
+  "category": "Clemson Memorial Stadium"
+ },
+ "lambeau-field": {
+  "title": "Lambeau Field",
+  "qid": "Q860790",
+  "category": "Lambeau Field"
+ },
+ "rose-bowl": {
+  "title": "Rose Bowl (stadium)",
+  "qid": "Q582280",
+  "category": "Rose Bowl"
+ },
+ "gaylord-family-oklahoma-memorial-stadium": {
+  "title": "Gaylord Family Oklahoma Memorial Stadium",
+  "qid": "Q1496586",
+  "category": "Gaylord Family Oklahoma Memorial Stadium"
+ },
+ "atandt-stadium": {
+  "title": "AT&T Stadium",
+  "qid": "Q838284",
+  "category": "AT&T Stadium"
+ },
+ "las-vegas-motor-speedway": {
+  "title": "Las Vegas Motor Speedway",
+  "qid": "Q1523618",
+  "category": "Las Vegas Motor Speedway"
+ },
+ "talladega-superspeedway": {
+  "title": "Talladega Superspeedway",
+  "qid": "Q1547320",
+  "category": "Talladega Superspeedway"
+ },
+ "notre-dame-stadium": {
+  "title": "Notre Dame Stadium",
+  "qid": "Q847043",
+  "category": "Notre Dame Stadium"
+ },
+ "williams-brice-stadium": {
+  "title": "Williams–Brice Stadium",
+  "qid": "Q940522",
+  "category": "Williams-Brice Stadium"
+ },
+ "los-angeles-memorial-coliseum": {
+  "title": "Los Angeles Memorial Coliseum",
+  "qid": "Q849784",
+  "category": "Los Angeles Memorial Coliseum"
+ },
+ "pocono-raceway": {
+  "title": "Pocono Raceway",
+  "qid": "Q1813430",
+  "category": "Pocono Raceway"
+ },
+ "arrowhead-stadium": {
+  "title": "Arrowhead Stadium",
+  "qid": "Q544553",
+  "category": "Arrowhead Stadium"
+ },
+ "razorback-stadium": {
+  "title": "Razorback Stadium",
+  "qid": "Q1124181",
+  "category": "Donald W. Reynolds Razorback Stadium"
+ },
+ "empower-field-at-mile-high": {
+  "title": "Empower Field at Mile High",
+  "qid": "Q1046135",
+  "category": "Empower Field at Mile High"
+ },
+ "camp-randall-stadium": {
+  "title": "Camp Randall Stadium",
+  "qid": "Q1029941",
+  "category": "Camp Randall Stadium"
+ },
+ "bank-of-america-stadium": {
+  "title": "Bank of America Stadium",
+  "qid": "Q806673",
+  "category": "Bank of America Stadium"
+ },
+ "mid-ohio-sports-car-course": {
+  "title": "Mid-Ohio Sports Car Course",
+  "qid": "Q1931770",
+  "category": "Mid-Ohio Sports Car Course"
+ },
+ "texas-motor-speedway": {
+  "title": "Texas Motor Speedway",
+  "qid": "Q1636819",
+  "category": "Texas Motor Speedway"
+ },
+ "spartan-stadium": {
+  "title": "Spartan Stadium",
+  "qid": "Q2164621",
+  "category": "Spartan Stadium (East Lansing, Michigan)"
+ },
+ "caesars-superdome": {
+  "title": "Caesars Superdome",
+  "qid": "Q756452",
+  "category": "Louisiana Superdome"
+ },
+ "reliant-stadium": {
+  "title": "Reliant Stadium",
+  "qid": "Q1058864",
+  "category": "NRG Stadium"
+ },
+ "husky-stadium": {
+  "title": "Husky Stadium",
+  "qid": "Q1136463",
+  "category": "Husky Stadium"
+ },
+ "legion-field": {
+  "title": "Legion Field",
+  "qid": "Q3175504",
+  "category": "Legion Field"
+ },
+ "atlanta-motor-speedway": {
+  "title": "Atlanta Motor Speedway",
+  "qid": "Q374058",
+  "category": "Atlanta Motor Speedway"
+ },
+ "mercedes-benz-stadium": {
+  "title": "Mercedes-Benz Stadium",
+  "qid": "Q7007552",
+  "category": "Mercedes-Benz Stadium"
+ },
+ "mandt-bank-stadium": {
+  "title": "M&T Bank Stadium",
+  "qid": "Q1141336",
+  "category": "M&T Bank Stadium"
+ },
+ "sofi-stadium": {
+  "title": "SoFi Stadium",
+  "qid": "Q19520501",
+  "category": "SoFi Stadium"
+ },
+ "kinnick-stadium": {
+  "title": "Kinnick Stadium",
+  "qid": "Q3197181",
+  "category": "Kinnick Stadium"
+ },
+ "raymond-james-stadium": {
+  "title": "Raymond James Stadium",
+  "qid": "Q1141343",
+  "category": "Raymond James Stadium"
+ },
+ "nissan-stadium": {
+  "title": "Nissan Stadium (Nashville)",
+  "qid": "Q1142992",
+  "category": "Nissan Stadium"
+ },
+ "levi-s-stadium": {
+  "title": "Levi's Stadium",
+  "qid": "Q7419343",
+  "category": "Levi's Stadium"
+ },
+ "acrisure-stadium": {
+  "title": "Acrisure Stadium",
+  "qid": "Q1067148",
+  "category": "Acrisure Stadium"
+ },
+ "lumen-field": {
+  "title": "Lumen Field",
+  "qid": "Q612736",
+  "category": "Lumen Field"
+ },
+ "everbank-stadium": {
+  "title": "EverBank Stadium",
+  "qid": "Q635117",
+  "category": "EverBank Stadium"
+ },
+ "lincoln-financial-field": {
+  "title": "Lincoln Financial Field",
+  "qid": "Q1052370",
+  "category": "Lincoln Financial Field"
+ },
+ "huntington-bank-field": {
+  "title": "Huntington Bank Field",
+  "qid": "Q1100756",
+  "category": "Cleveland Browns Stadium"
+ },
+ "doak-campbell-stadium": {
+  "title": "Doak Campbell Stadium",
+  "qid": "Q1233077",
+  "category": "Bobby Bowden Field at Doak Campbell Stadium"
+ },
+ "lucas-oil-stadium": {
+  "title": "Lucas Oil Stadium",
+  "qid": "Q867160",
+  "category": "Lucas Oil Stadium"
+ },
+ "soldier-field": {
+  "title": "Soldier Field",
+  "qid": "Q1132413",
+  "category": "Soldier Field"
+ },
+ "u-s-bank-stadium": {
+  "title": "U.S. Bank Stadium",
+  "qid": "Q7929512",
+  "category": "U.S. Bank Stadium"
+ },
+ "lane-stadium": {
+  "title": "Lane Stadium",
+  "qid": "Q3217144",
+  "category": "Lane Stadium"
+ },
+ "paycor-stadium": {
+  "title": "Paycor Stadium",
+  "qid": "Q1632294",
+  "category": "Paycor Stadium"
+ },
+ "allegiant-stadium": {
+  "title": "Allegiant Stadium",
+  "qid": "Q27768421",
+  "category": "Allegiant Stadium"
+ },
+ "ford-field": {
+  "title": "Ford Field",
+  "qid": "Q1142586",
+  "category": "Ford Field"
+ },
+ "hard-rock-stadium": {
+  "title": "Hard Rock Stadium",
+  "qid": "Q864339",
+  "category": "Hard Rock Stadium"
+ },
+ "gillette-stadium": {
+  "title": "Gillette Stadium",
+  "qid": "Q373355",
+  "category": "Gillette Stadium"
+ },
+ "vaught-hemingway-stadium": {
+  "title": "Vaught–Hemingway Stadium",
+  "qid": "Q3555083",
+  "category": "Vaught-Hemingway Stadium"
+ },
+ "alamodome": {
+  "title": "Alamodome",
+  "qid": "Q1618347",
+  "category": "Alamodome"
+ },
+ "northwest-stadium": {
+  "title": "Northwest Stadium",
+  "qid": "Q583085",
+  "category": "Northwest Stadium"
+ },
+ "faurot-field": {
+  "title": "Faurot Field",
+  "qid": "Q1320105",
+  "category": "Faurot Field"
+ },
+ "state-farm-stadium": {
+  "title": "State Farm Stadium",
+  "qid": "Q756433",
+  "category": "State Farm Stadium"
+ },
+ "lavell-edwards-stadium": {
+  "title": "LaVell Edwards Stadium",
+  "qid": "Q907890",
+  "category": "LaVell Edwards Stadium"
+ },
+ "jack-trice-stadium": {
+  "title": "Jack Trice Stadium",
+  "qid": "Q3157332",
+  "category": "Jack Trice Stadium"
+ },
+ "scott-stadium": {
+  "title": "Scott Stadium",
+  "qid": "Q1133538",
+  "category": "Scott Stadium"
+ },
+ "yale-bowl": {
+  "title": "Yale Bowl",
+  "qid": "Q1535796",
+  "category": "Yale Bowl"
+ },
+ "ross-ade-stadium": {
+  "title": "Ross–Ade Stadium",
+  "qid": "Q3442733",
+  "category": "Ross-Ade Stadium"
+ },
+ "kroger-field": {
+  "title": "Kroger Field",
+  "qid": "Q517268",
+  "category": "Kroger Field"
+ },
+ "landn-federal-credit-union-stadium": {
+  "title": "L&N Federal Credit Union Stadium",
+  "qid": "Q3362725",
+  "category": "Cardinal Stadium"
+ },
+ "gies-memorial-stadium": {
+  "title": "Gies Memorial Stadium",
+  "qid": "Q3305514",
+  "category": "Memorial Stadium (University of Illinois at Urbana–Champaign)"
+ },
+ "mississippi-veterans-memorial-stadium": {
+  "title": "Mississippi Veterans Memorial Stadium",
+  "qid": "Q606901",
+  "category": "Mississippi Veterans Memorial Stadium"
+ },
+ "davis-wade-stadium": {
+  "title": "Davis Wade Stadium",
+  "qid": "Q949608",
+  "category": "Davis Wade Stadium"
+ },
+ "galaxy-stadium": {
+  "title": "Galaxy Stadium",
+  "qid": "Q3183551",
+  "category": "Jones AT&T Stadium"
+ },
+ "camping-world-stadium": {
+  "title": "Camping World Stadium",
+  "qid": "Q199359",
+  "category": "Camping World Stadium"
+ },
+ "autzen-stadium": {
+  "title": "Autzen Stadium",
+  "qid": "Q2873102",
+  "category": "Autzen Stadium"
+ },
+ "highmark-stadium": {
+  "title": "Highmark Stadium",
+  "qid": "Q16251517",
+  "category": "New Highmark Stadium"
+ },
+ "milan-puskar-stadium": {
+  "title": "Milan Puskar Stadium",
+  "qid": "Q1179474",
+  "category": "Milan Puskar Stadium"
+ },
+ "gateway-motorsports-park": {
+  "title": "Gateway Motorsports Park",
+  "qid": "Q1362127",
+  "category": "Gateway Motorsports Park"
+ },
+ "carter-finley-stadium": {
+  "title": "Carter–Finley Stadium",
+  "qid": "Q945172",
+  "category": "Carter-Finley Stadium"
+ },
+ "dodger-stadium": {
+  "title": "Dodger Stadium",
+  "qid": "Q247420",
+  "category": "Dodger Stadium"
+ },
+ "michigan-international-speedway": {
+  "title": "Michigan International Speedway",
+  "qid": "Q1723278",
+  "category": "Michigan International Speedway"
+ },
+ "rice-eccles-stadium": {
+  "title": "Rice–Eccles Stadium",
+  "qid": "Q922761",
+  "category": "Rice–Eccles Stadium"
+ },
+ "dover-motor-speedway": {
+  "title": "Dover Motor Speedway",
+  "qid": "Q1252953",
+  "category": "Dover Motor Speedway"
+ },
+ "mountain-america-stadium": {
+  "title": "Mountain America Stadium",
+  "qid": "Q1849318",
+  "category": "Sun Devil Stadium"
+ },
+ "memorial-stadium-in": {
+  "title": "Memorial Stadium (Indiana University)",
+  "qid": "Q3305509",
+  "category": "Memorial Stadium (Indiana)"
+ },
+ "amon-g-carter-stadium": {
+  "title": "Amon G. Carter Stadium",
+  "qid": "Q473943",
+  "category": "Amon G. Carter Stadium"
+ },
+ "franklin-field": {
+  "title": "Franklin Field",
+  "qid": "Q5491503",
+  "category": "Franklin Field"
+ },
+ "shi-stadium": {
+  "title": "SHI Stadium",
+  "qid": "Q3453599",
+  "category": "SHI Stadium"
+ },
+ "california-memorial-stadium": {
+  "title": "California Memorial Stadium",
+  "qid": "Q1026837",
+  "category": "California Memorial Stadium"
+ },
+ "boone-pickens-stadium": {
+  "title": "Boone Pickens Stadium",
+  "qid": "Q2910505",
+  "category": "Boone Pickens Stadium"
+ },
+ "bobby-dodd-stadium": {
+  "title": "Bobby Dodd Stadium",
+  "qid": "Q2907951",
+  "category": "Bobby Dodd Stadium"
+ },
+ "dowdy-ficklen-stadium": {
+  "title": "Dowdy–Ficklen Stadium",
+  "qid": "Q3038295",
+  "category": "Dowdy-Ficklen Stadium"
+ },
+ "huntington-bank-stadium": {
+  "title": "Huntington Bank Stadium",
+  "qid": "Q3512039",
+  "category": "Huntington Bank Stadium"
+ },
+ "casino-del-sol-stadium": {
+  "title": "Casino Del Sol Stadium",
+  "qid": "Q947065",
+  "category": "Arizona Stadium"
+ },
+ "kenan-stadium": {
+  "title": "Kenan Stadium",
+  "qid": "Q1627986",
+  "category": "Kenan Memorial Stadium"
+ },
+ "stanford-stadium": {
+  "title": "Stanford Stadium",
+  "qid": "Q692470",
+  "category": "Stanford Stadium"
+ },
+ "folsom-field": {
+  "title": "Folsom Field",
+  "qid": "Q3075131",
+  "category": "Folsom Field"
+ },
+ "bill-snyder-family-football-stadium": {
+  "title": "Bill Snyder Family Football Stadium",
+  "qid": "Q2903355",
+  "category": "Bill Snyder Family Football Stadium"
+ },
+ "independence-stadium": {
+  "title": "Independence Stadium (Shreveport)",
+  "qid": "Q3150014",
+  "category": "Independence Stadium"
+ },
+ "richmond-raceway": {
+  "title": "Richmond Raceway",
+  "qid": "Q1700358",
+  "category": "Richmond International Raceway"
+ },
+ "chase-field": {
+  "title": "Chase Field",
+  "qid": "Q1068011",
+  "category": "Chase Field"
+ },
+ "kansas-speedway": {
+  "title": "Kansas Speedway",
+  "qid": "Q1723946",
+  "category": "Kansas Speedway"
+ },
+ "t-mobile-park": {
+  "title": "T-Mobile Park",
+  "qid": "Q1193117",
+  "category": "T-Mobile Park"
+ },
+ "protective-stadium": {
+  "title": "Protective Stadium",
+  "qid": "Q83506289",
+  "category": "Protective Stadium"
+ },
+ "chicagoland-speedway": {
+  "title": "Chicagoland Speedway",
+  "qid": "Q764291",
+  "category": "Chicagoland Speedway"
+ },
+ "darlington-raceway": {
+  "title": "Darlington Raceway",
+  "qid": "Q1166378",
+  "category": "Darlington Raceway"
+ },
+ "first-community-stadium": {
+  "title": "First Community Stadium",
+  "qid": "Q1857419",
+  "category": "Rice Stadium"
+ },
+ "coors-field": {
+  "title": "Coors Field",
+  "qid": "Q1129916",
+  "category": "Coors Field"
+ },
+ "yankee-stadium": {
+  "title": "Yankee Stadium",
+  "qid": "Q753529",
+  "category": "Yankee Stadium"
+ },
+ "secu-stadium": {
+  "title": "SECU Stadium",
+  "qid": "Q2929171",
+  "category": "SECU Stadium"
+ },
+ "sun-bowl": {
+  "title": "Sun Bowl (stadium)",
+  "qid": "Q3503735",
+  "category": "Sun Bowl Stadium"
+ },
+ "acrisure-bounce-house": {
+  "title": "Acrisure Bounce House",
+  "qid": "Q2925356",
+  "category": "Acrisure Bounce House"
+ },
+ "simmons-bank-liberty-stadium": {
+  "title": "Simmons Bank Liberty Stadium",
+  "qid": "Q3237803",
+  "category": "Simmons Bank Liberty Stadium"
+ },
+ "angel-stadium": {
+  "title": "Angel Stadium",
+  "qid": "Q531897",
+  "category": "Angel Stadium"
+ },
+ "mclane-stadium": {
+  "title": "McLane Stadium",
+  "qid": "Q4874608",
+  "category": "McLane Stadium"
+ },
+ "alumni-stadium": {
+  "title": "Alumni Stadium",
+  "qid": "Q598070",
+  "category": null
+ },
+ "busch-stadium": {
+  "title": "Busch Stadium",
+  "qid": "Q253546",
+  "category": "Busch Stadium"
+ },
+ "martinsville-speedway": {
+  "title": "Martinsville Speedway",
+  "qid": "Q1815381",
+  "category": "Martinsville Speedway"
+ },
+ "new-hampshire-motor-speedway": {
+  "title": "New Hampshire Motor Speedway",
+  "qid": "Q1815356",
+  "category": "New Hampshire Motor Speedway"
+ },
+ "sonoma-raceway": {
+  "title": "Sonoma Raceway",
+  "qid": "Q112563",
+  "category": "Sonoma Raceway"
+ },
+ "great-american-ball-park": {
+  "title": "Great American Ball Park",
+  "qid": "Q979975",
+  "category": "Great American Ball Park"
+ },
+ "homestead-miami-speedway": {
+  "title": "Homestead–Miami Speedway",
+  "qid": "Q1626077",
+  "category": "Homestead-Miami Speedway"
+ },
+ "citizens-bank-park": {
+  "title": "Citizens Bank Park",
+  "qid": "Q912770",
+  "category": "Citizens Bank Park"
+ },
+ "jma-wireless-dome": {
+  "title": "JMA Wireless Dome",
+  "qid": "Q2739617",
+  "category": "Carrier Dome"
+ },
+ "oriole-park-at-camden-yards": {
+  "title": "Oriole Park at Camden Yards",
+  "qid": "Q1141174",
+  "category": "Oriole Park at Camden Yards"
+ },
+ "phoenix-raceway": {
+  "title": "Phoenix Raceway",
+  "qid": "Q1803538",
+  "category": "Phoenix International Raceway"
+ },
+ "citi-field": {
+  "title": "Citi Field",
+  "qid": "Q1072882",
+  "category": "Citi Field"
+ },
+ "american-family-field": {
+  "title": "American Family Field",
+  "qid": "Q1339293",
+  "category": "American Family Field"
+ },
+ "wrigley-field": {
+  "title": "Wrigley Field",
+  "qid": "Q1052807",
+  "category": "Wrigley Field"
+ },
+ "david-booth-kansas-memorial-stadium": {
+  "title": "David Booth Kansas Memorial Stadium",
+  "qid": "Q3305513",
+  "category": null
+ },
+ "nationals-park": {
+  "title": "Nationals Park",
+  "qid": "Q517545",
+  "category": "Nationals Park"
+ },
+ "oracle-park": {
+  "title": "Oracle Park",
+  "qid": "Q298585",
+  "category": "AT&T Park"
+ },
+ "daikin-park": {
+  "title": "Daikin Park",
+  "qid": "Q1193671",
+  "category": "Daikin Park"
+ },
+ "truist-park": {
+  "title": "Truist Park",
+  "qid": "Q17003430",
+  "category": "Truist Park"
+ },
+ "canvas-stadium": {
+  "title": "Canvas Stadium",
+  "qid": "Q23995882",
+  "category": "Canvas Stadium"
+ },
+ "rate-field": {
+  "title": "Rate Field",
+  "qid": "Q633613",
+  "category": "Rate Field"
+ },
+ "globe-life-field": {
+  "title": "Globe Life Field",
+  "qid": "Q24284037",
+  "category": "Globe Life Field"
+ },
+ "kidd-brewer-stadium": {
+  "title": "Kidd Brewer Stadium",
+  "qid": "Q6404623",
+  "category": "Kidd Brewer Stadium"
+ },
+ "comerica-park": {
+  "title": "Comerica Park",
+  "qid": "Q868482",
+  "category": "Comerica Park"
+ },
+ "pratt-and-whitney-stadium-at-rentschler-field": {
+  "title": "Pratt & Whitney Stadium at Rentschler Field",
+  "qid": "Q3113144",
+  "category": "Rentschler Field"
+ },
+ "petco-park": {
+  "title": "Petco Park",
+  "qid": "Q1194586",
+  "category": "Petco Park"
+ },
+ "tdecu-stadium": {
+  "title": "TDECU Stadium",
+  "qid": "Q14711138",
+  "category": "TDECU Stadium"
+ },
+ "falcon-stadium": {
+  "title": "Falcon Stadium",
+  "qid": "Q907843",
+  "category": "Falcon Stadium"
+ },
+ "university-stadium": {
+  "title": "University Stadium (Albuquerque)",
+  "qid": "Q936242",
+  "category": "University Stadium (Albuquerque)"
+ },
+ "watkins-glen-international": {
+  "title": "Watkins Glen International",
+  "qid": "Q171449",
+  "category": "Watkins Glen International"
+ },
+ "pnc-park": {
+  "title": "PNC Park",
+  "qid": "Q1151177",
+  "category": "PNC Park"
+ },
+ "target-field": {
+  "title": "Target Field",
+  "qid": "Q1156635",
+  "category": "Target Field"
+ },
+ "nippert-stadium": {
+  "title": "Nippert Stadium",
+  "qid": "Q3342107",
+  "category": "Nippert Stadium"
+ },
+ "kauffman-stadium": {
+  "title": "Kauffman Stadium",
+  "qid": "Q1737017",
+  "category": "Kauffman Stadium"
+ },
+ "joan-c-edwards-stadium": {
+  "title": "Joan C. Edwards Stadium",
+  "qid": "Q3179563",
+  "category": "Joan C. Edwards Stadium"
+ },
+ "fenway-park": {
+  "title": "Fenway Park",
+  "qid": "Q49136",
+  "category": "Fenway Park"
+ },
+ "milwaukee-mile": {
+  "title": "Milwaukee Mile",
+  "qid": "Q1284224",
+  "category": "Milwaukee Mile"
+ },
+ "loandepot-park": {
+  "title": "LoanDepot Park",
+  "qid": "Q1368138",
+  "category": "LoanDepot Park"
+ },
+ "renasant-stadium": {
+  "title": "Renasant Stadium",
+  "qid": "Q3272445",
+  "category": null
+ },
+ "michie-stadium": {
+  "title": "Michie Stadium",
+  "qid": "Q3311487",
+  "category": "Michie Stadium"
+ },
+ "reser-stadium": {
+  "title": "Reser Stadium",
+  "qid": "Q782386",
+  "category": "Reser Stadium"
+ },
+ "albertsons-stadium": {
+  "title": "Albertsons Stadium",
+  "qid": "Q2926064",
+  "category": "Albertsons Stadium"
+ },
+ "kelly-shorts-stadium": {
+  "title": "Kelly/Shorts Stadium",
+  "qid": "Q6385914",
+  "category": "Kelly/Shorts Stadium"
+ },
+ "wallace-wade-stadium": {
+  "title": "Wallace Wade Stadium",
+  "qid": "Q3565475",
+  "category": "Wallace Wade Stadium"
+ },
+ "firstbank-stadium": {
+  "title": "FirstBank Stadium",
+  "qid": "Q3554494",
+  "category": "Vanderbilt Stadium"
+ },
+ "ryan-field": {
+  "title": "Ryan Field (2026)",
+  "qid": "Q130238480",
+  "category": null
+ },
+ "snapdragon-stadium": {
+  "title": "Snapdragon Stadium",
+  "qid": "Q100272042",
+  "category": "Snapdragon Stadium"
+ },
+ "navy-marine-corps-memorial-stadium": {
+  "title": "Navy–Marine Corps Memorial Stadium",
+  "qid": "Q3337331",
+  "category": "Navy–Marine Corps Memorial Stadium"
+ },
+ "progressive-field": {
+  "title": "Progressive Field",
+  "qid": "Q1154053",
+  "category": "Progressive Field"
+ },
+ "gerald-j-ford-stadium": {
+  "title": "Gerald J. Ford Stadium",
+  "qid": "Q390127",
+  "category": "Gerald J. Ford Stadium"
+ },
+ "allegacy-federal-credit-union-stadium": {
+  "title": "Allegacy Federal Credit Union Stadium",
+  "qid": "Q1028275",
+  "category": "Groves Stadium"
+ },
+ "veterans-memorial-stadium": {
+  "title": "Veterans Memorial Stadium (Troy University)",
+  "qid": "Q7923659",
+  "category": "Veterans Memorial Stadium (Troy University)"
+ },
+ "centennial-bank-stadium": {
+  "title": "Centennial Bank Stadium",
+  "qid": "Q6541587",
+  "category": "Centennial Bank Stadium"
+ },
+ "cajun-field": {
+  "title": "Cajun Field",
+  "qid": "Q5018009",
+  "category": "Cajun Field"
+ },
+ "waldo-stadium": {
+  "title": "Waldo Stadium",
+  "qid": "Q7961584",
+  "category": "Waldo Stadium"
+ },
+ "geodis-park": {
+  "title": "Geodis Park",
+  "qid": "Q47528203",
+  "category": "Geodis Park"
+ },
+ "datcu-stadium": {
+  "title": "DATCU Stadium",
+  "qid": "Q11597",
+  "category": "Apogee Stadium"
+ },
+ "flagler-credit-union-stadium": {
+  "title": "Flagler Credit Union Stadium",
+  "qid": "Q5513195",
+  "category": "FAU Stadium"
+ },
+ "infocision-stadium-summa-field": {
+  "title": "InfoCision Stadium–Summa Field",
+  "qid": "Q6030359",
+  "category": "Summa Field at InfoCision Stadium"
+ },
+ "iowa-speedway": {
+  "title": "Iowa Speedway",
+  "qid": "Q605644",
+  "category": "Iowa Speedway"
+ },
+ "mackay-stadium": {
+  "title": "Mackay Stadium",
+  "qid": "Q6588235",
+  "category": "MacKay Stadium"
+ },
+ "portland-international-raceway": {
+  "title": "Portland International Raceway",
+  "qid": "Q2662150",
+  "category": "Portland International Raceway"
+ },
+ "skelly-field-at-h-a-chapman-stadium": {
+  "title": "Skelly Field at H. A. Chapman Stadium",
+  "qid": "Q3486226",
+  "category": "Skelly Field at H. A. Chapman Stadium"
+ },
+ "valley-children-s-stadium": {
+  "title": "Valley Children's Stadium",
+  "qid": "Q583581",
+  "category": "Valley Children's Stadium"
+ },
+ "william-dick-price-stadium": {
+  "title": "William \"Dick\" Price Stadium",
+  "qid": "Q8003823",
+  "category": "William \"Dick\" Price Stadium"
+ },
+ "yulman-stadium": {
+  "title": "Yulman Stadium",
+  "qid": "Q8060993",
+  "category": "Yulman Stadium"
+ },
+ "war-memorial-stadium": {
+  "title": "War Memorial Stadium (Wyoming)",
+  "qid": "Q3566222",
+  "category": "War Memorial Stadium (Laramie, Wyoming)"
+ },
+ "aggie-memorial-stadium": {
+  "title": "Aggie Memorial Stadium",
+  "qid": "Q4692211",
+  "category": "Aggie Memorial Stadium"
+ },
+ "joe-aillet-stadium": {
+  "title": "Joe Aillet Stadium",
+  "qid": "Q6208302",
+  "category": "Joe Aillet Stadium"
+ },
+ "ufcu-stadium": {
+  "title": "UFCU Stadium",
+  "qid": "Q14710340",
+  "category": "Bobcat Stadium (Texas State)"
+ },
+ "huskie-stadium": {
+  "title": "Huskie Stadium",
+  "qid": "Q5949339",
+  "category": "Huskie Stadium"
+ },
+ "powers-field-at-princeton-stadium": {
+  "title": "Powers Field at Princeton Stadium",
+  "qid": "Q6587721",
+  "category": "Princeton University Stadium"
+ },
+ "fmol-health-st-francis-stadium": {
+  "title": "FMOL Health/St. Francis Stadium",
+  "qid": "Q6744512",
+  "category": "Malone Stadium"
+ },
+ "johnny-red-floyd-stadium": {
+  "title": "Johnny \"Red\" Floyd Stadium",
+  "qid": "Q14709982",
+  "category": "Johnny \"Red\" Floyd Stadium"
+ },
+ "nu-stadium": {
+  "title": "Nu Stadium",
+  "qid": "Q17018920",
+  "category": "Nu Stadium"
+ },
+ "asu-stadium": {
+  "title": "ASU Stadium (Alabama)",
+  "qid": "Q5904353",
+  "category": "New Alabama State Hornets football stadium"
+ },
+ "rynearson-stadium": {
+  "title": "Rynearson Stadium",
+  "qid": "Q14716273",
+  "category": "Rynearson Stadium"
+ },
+ "glass-bowl": {
+  "title": "Glass Bowl",
+  "qid": "Q5567033",
+  "category": "Glass Bowl"
+ },
+ "dignity-health-sports-park": {
+  "title": "Dignity Health Sports Park",
+  "qid": "Q200684",
+  "category": "Dignity Health Sports Park"
+ },
+ "tql-stadium": {
+  "title": "TQL Stadium",
+  "qid": "Q54465634",
+  "category": "TQL Stadium"
+ },
+ "maverik-stadium": {
+  "title": "Maverik Stadium",
+  "qid": "Q7363266",
+  "category": "Maverik Stadium"
+ },
+ "a-w-mumford-stadium": {
+  "title": "A. W. Mumford Stadium",
+  "qid": "Q4673017",
+  "category": "A. W. Mumford Stadium"
+ },
+ "bragg-memorial-stadium": {
+  "title": "Bragg Memorial Stadium",
+  "qid": "Q4955406",
+  "category": "Bragg Memorial Stadium"
+ },
+ "hancock-whitney-stadium": {
+  "title": "Hancock Whitney Stadium",
+  "qid": "Q83590158",
+  "category": null
+ },
+ "dix-stadium": {
+  "title": "Dix Stadium",
+  "qid": "Q5284768",
+  "category": "Dix Stadium"
+ },
+ "washington-grizzly-stadium": {
+  "title": "Washington–Grizzly Stadium",
+  "qid": "Q7972603",
+  "category": "Washington–Grizzly Stadium"
+ },
+ "tropicana-field": {
+  "title": "Tropicana Field",
+  "qid": "Q1810119",
+  "category": "Tropicana Field"
+ },
+ "broadview-stadium": {
+  "title": "Broadview Stadium",
+  "qid": "Q7894992",
+  "category": "University at Buffalo Stadium"
+ },
+ "allen-e-paulson-stadium": {
+  "title": "Allen E. Paulson Stadium",
+  "qid": "Q7155374",
+  "category": null
+ },
+ "harvard-stadium": {
+  "title": "Harvard Stadium",
+  "qid": "Q1587879",
+  "category": "Harvard Stadium"
+ },
+ "inter-co-stadium": {
+  "title": "Inter.co Stadium",
+  "qid": "Q16846942",
+  "category": "Inter&Co Stadium"
+ },
+ "nashville-superspeedway": {
+  "title": "Nashville Superspeedway",
+  "qid": "Q1965810",
+  "category": "Nashville Superspeedway"
+ },
+ "sports-illustrated-stadium": {
+  "title": "Sports Illustrated Stadium",
+  "qid": "Q761682",
+  "category": "Sports Illustrated Stadium"
+ },
+ "williams-stadium": {
+  "title": "Williams Stadium",
+  "qid": "Q8021099",
+  "category": "Williams Stadium"
+ },
+ "bridgeforth-stadium": {
+  "title": "Bridgeforth Stadium",
+  "qid": "Q4966496",
+  "category": "Bridgeforth Stadium and Zane Showker Field"
+ },
+ "providence-park": {
+  "title": "Providence Park",
+  "qid": "Q262291",
+  "category": "Providence Park"
+ },
+ "charles-schwab-field": {
+  "title": "Charles Schwab Field",
+  "qid": "Q7669888",
+  "category": "Charles Schwab Field Omaha"
+ },
+ "center-parc-stadium": {
+  "title": "Center Parc Stadium",
+  "qid": "Q28449162",
+  "category": "Center Parc Stadium"
+ },
+ "yager-stadium": {
+  "title": "Yager Stadium (Miami University)",
+  "qid": "Q8046702",
+  "category": "Yager Stadium"
+ },
+ "doyt-perry-stadium": {
+  "title": "Doyt Perry Stadium",
+  "qid": "Q5303813",
+  "category": "Doyt Perry Stadium"
+ },
+ "memorial-stadium-tx": {
+  "title": "Memorial Stadium (Tarleton State)",
+  "qid": "Q6815523",
+  "category": null
+ },
+ "peden-stadium": {
+  "title": "Peden Stadium",
+  "qid": "Q7159081",
+  "category": "Peden Stadium"
+ },
+ "arthur-ashe-stadium": {
+  "title": "Arthur Ashe Stadium",
+  "qid": "Q609551",
+  "category": "Arthur Ashe Stadium"
+ },
+ "fitton-field": {
+  "title": "Fitton Field",
+  "qid": "Q5455506",
+  "category": "Fitton Field"
+ },
+ "amfirst-stadium": {
+  "title": "AmFirst Stadium",
+  "qid": "Q6108965",
+  "category": null
+ },
+ "casem-spinks-stadium": {
+  "title": "Casem-Spinks Stadium",
+  "qid": "Q6115296",
+  "category": null
+ },
+ "scheumann-stadium": {
+  "title": "Scheumann Stadium",
+  "qid": "Q7431225",
+  "category": "Scheumann Stadium"
+ },
+ "energizer-park": {
+  "title": "Energizer Park",
+  "qid": "Q30591730",
+  "category": "CityPark"
+ },
+ "houchens-industries-l-t-smith-stadium": {
+  "title": "Houchens Industries–L. T. Smith Stadium",
+  "qid": "Q5912732",
+  "category": "Houchens Industries–L. T. Smith Stadium"
+ },
+ "kfc-yum-center": {
+  "title": "KFC Yum! Center",
+  "qid": "Q10516134",
+  "category": "KFC Yum! Center"
+ },
+ "shell-energy-stadium": {
+  "title": "Shell Energy Stadium",
+  "qid": "Q176460",
+  "category": "Shell Energy Stadium"
+ },
+ "first-horizon-coliseum": {
+  "title": "First Horizon Coliseum",
+  "qid": "Q133089582",
+  "category": null
+ },
+ "oliver-c-dawson-stadium": {
+  "title": "Oliver C. Dawson Stadium",
+  "qid": "Q6587322",
+  "category": null
+ },
+ "s-b-ballard-stadium": {
+  "title": "S.B. Ballard Stadium",
+  "qid": "Q5468640",
+  "category": "Foreman Field"
+ },
+ "dean-smith-center": {
+  "title": "Dean Smith Center",
+  "qid": "Q3020664",
+  "category": null
+ },
+ "thompson-boling-arena": {
+  "title": "Thompson–Boling Arena",
+  "qid": "Q3525746",
+  "category": "Thompson-Boling Arena"
+ },
+ "schoellkopf-field": {
+  "title": "Schoellkopf Field",
+  "qid": "Q3475468",
+  "category": "Schoellkopf Field"
+ },
+ "truist-stadium": {
+  "title": "Truist Stadium (North Carolina A&T)",
+  "qid": "Q4692215",
+  "category": null
+ },
+ "hornet-stadium": {
+  "title": "Hornet Stadium (Sacramento)",
+  "qid": "Q9004779",
+  "category": "Hornet Stadium (Sacramento)"
+ },
+ "brooks-stadium": {
+  "title": "Brooks Stadium",
+  "qid": "Q4975053",
+  "category": "Brooks Stadium"
+ },
+ "louis-crews-stadium": {
+  "title": "Louis Crews Stadium",
+  "qid": "Q6686944",
+  "category": "Louis Crews Stadium"
+ },
+ "xfinity-mobile-arena": {
+  "title": "Xfinity Mobile Arena",
+  "qid": "Q818735",
+  "category": "Xfinity Mobile Arena"
+ },
+ "united-center": {
+  "title": "United Center",
+  "qid": "Q639975",
+  "category": "United Center"
+ },
+ "bobcat-stadium": {
+  "title": "Bobcat Stadium (Montana State University)",
+  "qid": "Q4935782",
+  "category": "Bobcat Stadium (Montana State University)"
+ },
+ "q2-stadium": {
+  "title": "Q2 Stadium",
+  "qid": "Q56278477",
+  "category": "Q2 Stadium"
+ },
+ "stambaugh-stadium": {
+  "title": "Stambaugh Stadium",
+  "qid": "Q6587172",
+  "category": "Stambaugh Stadium"
+ },
+ "rupp-arena": {
+  "title": "Rupp Arena",
+  "qid": "Q842965",
+  "category": "Rupp Arena"
+ },
+ "finley-stadium": {
+  "title": "Finley Stadium",
+  "qid": "Q5450585",
+  "category": null
+ },
+ "scottsmiracle-gro-field": {
+  "title": "ScottsMiracle-Gro Field",
+  "qid": "Q65045869",
+  "category": "Lower.com Field"
+ },
+ "capital-one-arena": {
+  "title": "Capital One Arena",
+  "qid": "Q223240",
+  "category": "Capital One Arena"
+ },
+ "little-caesars-arena": {
+  "title": "Little Caesars Arena",
+  "qid": "Q18154984",
+  "category": "Little Caesars Arena"
+ },
+ "america-first-field": {
+  "title": "America First Field",
+  "qid": "Q1514798",
+  "category": "America First Field"
+ },
+ "madison-square-garden": {
+  "title": "Madison Square Garden",
+  "qid": "Q186125",
+  "category": "Madison Square Garden"
+ },
+ "audi-field": {
+  "title": "Audi Field",
+  "qid": "Q5203387",
+  "category": "Audi Field"
+ },
+ "pitbull-stadium": {
+  "title": "Pitbull Stadium",
+  "qid": "Q1388701",
+  "category": "Pitbull Stadium"
+ },
+ "richard-gouse-field-at-brown-stadium": {
+  "title": "Richard Gouse Field at Brown Stadium",
+  "qid": "Q4976267",
+  "category": "Brown Stadium"
+ },
+ "roy-kidd-stadium": {
+  "title": "Roy Kidd Stadium",
+  "qid": "Q7373032",
+  "category": "Roy Kidd Stadium"
+ },
+ "seatgeek-stadium": {
+  "title": "SeatGeek Stadium",
+  "qid": "Q999781",
+  "category": "Toyota Park (Bridgeview)"
+ },
+ "north-wilkesboro-speedway": {
+  "title": "North Wilkesboro Speedway",
+  "qid": "Q2445287",
+  "category": "North Wilkesboro Speedway"
+ },
+ "eddie-g-robinson-memorial-stadium": {
+  "title": "Eddie G. Robinson Memorial Stadium",
+  "qid": "Q5336453",
+  "category": "Eddie G. Robinson Memorial Stadium"
+ },
+ "kaseya-center": {
+  "title": "Kaseya Center",
+  "qid": "Q420129",
+  "category": "Kaseya Center"
+ },
+ "ball-arena": {
+  "title": "Ball Arena",
+  "qid": "Q795470",
+  "category": "Ball Arena"
+ },
+ "value-city-arena": {
+  "title": "Value City Arena",
+  "qid": "Q783033",
+  "category": "Jerome Schottenstein Center"
+ },
+ "spectrum-center": {
+  "title": "Spectrum Center",
+  "qid": "Q983870",
+  "category": "Spectrum Center"
+ },
+ "rocket-arena": {
+  "title": "Rocket Arena",
+  "qid": "Q387157",
+  "category": "Rocket Arena"
+ },
+ "allianz-field": {
+  "title": "Allianz Field",
+  "qid": "Q22096631",
+  "category": "Allianz Field"
+ },
+ "moda-center": {
+  "title": "Moda Center",
+  "qid": "Q1347442",
+  "category": "Moda Center"
+ },
+ "bud-walton-arena": {
+  "title": "Bud Walton Arena",
+  "qid": "Q2927497",
+  "category": "Bud Walton Arena"
+ },
+ "lenovo-center": {
+  "title": "Lenovo Center",
+  "qid": "Q39177",
+  "category": "Lenovo Center"
+ },
+ "dana-j-dykhouse-stadium": {
+  "title": "Dana J. Dykhouse Stadium",
+  "qid": "Q28147926",
+  "category": null
+ },
+ "amerant-bank-arena": {
+  "title": "Amerant Bank Arena",
+  "qid": "Q795526",
+  "category": "FLA Live Arena"
+ },
+ "american-airlines-center": {
+  "title": "American Airlines Center",
+  "qid": "Q463345",
+  "category": "American Airlines Center"
+ },
+ "sap-center": {
+  "title": "SAP Center",
+  "qid": "Q261863",
+  "category": "SAP Center"
+ },
+ "td-garden": {
+  "title": "TD Garden",
+  "qid": "Q432105",
+  "category": "TD Garden"
+ },
+ "benchmark-international-arena": {
+  "title": "Benchmark International Arena",
+  "qid": "Q940199",
+  "category": "Benchmark International Arena"
+ },
+ "crypto-com-arena": {
+  "title": "Crypto.com Arena",
+  "qid": "Q186080",
+  "category": "Crypto.com Arena"
+ },
+ "keybank-center": {
+  "title": "KeyBank Center",
+  "qid": "Q1110789",
+  "category": "KeyBank Center"
+ },
+ "kia-center": {
+  "title": "Kia Center",
+  "qid": "Q481795",
+  "category": "Kia Center"
+ },
+ "target-center": {
+  "title": "Target Center",
+  "qid": "Q282675",
+  "category": "Target Center"
+ },
+ "prudential-center": {
+  "title": "Prudential Center",
+  "qid": "Q849027",
+  "category": "Prudential Center"
+ },
+ "fargodome": {
+  "title": "Fargodome",
+  "qid": "Q5435127",
+  "category": "Fargodome"
+ },
+ "delaware-stadium": {
+  "title": "Delaware Stadium",
+  "qid": "Q14685363",
+  "category": "Delaware Stadium"
+ },
+ "nationwide-arena": {
+  "title": "Nationwide Arena",
+  "qid": "Q166503",
+  "category": "Nationwide Arena"
+ },
+ "subaru-park": {
+  "title": "Subaru Park",
+  "qid": "Q1637843",
+  "category": "Subaru Park"
+ },
+ "sporting-park": {
+  "title": "Sporting Park",
+  "qid": "Q1787141",
+  "category": "Children's Mercy Park"
+ },
+ "frost-bank-center": {
+  "title": "Frost Bank Center",
+  "qid": "Q298573",
+  "category": "Frost Bank Center"
+ },
+ "chi-health-center": {
+  "title": "CHI Health Center",
+  "qid": "Q769480",
+  "category": "CHI Health Center Omaha"
+ },
+ "intuit-dome": {
+  "title": "Intuit Dome",
+  "qid": "Q54958436",
+  "category": "Intuit Dome"
+ },
+ "cefcu-stadium": {
+  "title": "CEFCU Stadium",
+  "qid": "Q2165358",
+  "category": "CEFCU Stadium"
+ },
+ "paycom-center": {
+  "title": "Paycom Center",
+  "qid": "Q665434",
+  "category": "Paycom Center"
+ },
+ "ppg-paints-arena": {
+  "title": "PPG Paints Arena",
+  "qid": "Q595460",
+  "category": "PPG Paints Arena"
+ },
+ "delta-center": {
+  "title": "Delta Center",
+  "qid": "Q82294",
+  "category": "Delta Center"
+ },
+ "toyota-center": {
+  "title": "Toyota Center",
+  "qid": "Q1166157",
+  "category": "Toyota Center"
+ },
+ "enterprise-center": {
+  "title": "Enterprise Center",
+  "qid": "Q1067700",
+  "category": "Enterprise Center"
+ },
+ "chase-center": {
+  "title": "Chase Center",
+  "qid": "Q15262098",
+  "category": "Chase Center"
+ },
+ "dick-s-sporting-goods-park": {
+  "title": "Dick's Sporting Goods Park",
+  "qid": "Q1210268",
+  "category": "Dick's Sporting Goods Park"
+ },
+ "colonial-life-arena": {
+  "title": "Colonial Life Arena",
+  "qid": "Q1110887",
+  "category": "Colonial Life Arena"
+ },
+ "paypal-park": {
+  "title": "PayPal Park",
+  "qid": "Q3046470",
+  "category": "PayPal Park"
+ },
+ "marriott-center": {
+  "title": "Marriott Center",
+  "qid": "Q14711804",
+  "category": "Marriott Center"
+ },
+ "grand-casino-arena": {
+  "title": "Grand Casino Arena",
+  "qid": "Q1421388",
+  "category": "Xcel Energy Center"
+ },
+ "thomas-and-mack-center": {
+  "title": "Thomas & Mack Center",
+  "qid": "Q686525",
+  "category": "Thomas & Mack Center"
+ },
+ "bok-center": {
+  "title": "BOK Center",
+  "qid": "Q2877349",
+  "category": "BOK Center"
+ },
+ "navarre-stadium": {
+  "title": "Navarre Stadium",
+  "qid": "Q14691617",
+  "category": "Navarre Stadium"
+ },
+ "golden-1-center": {
+  "title": "Golden 1 Center",
+  "qid": "Q7011384",
+  "category": "Golden 1 Center"
+ },
+ "barclays-center": {
+  "title": "Barclays Center",
+  "qid": "Q807966",
+  "category": "Barclays Center"
+ },
+ "provost-umphrey-stadium": {
+  "title": "Provost Umphrey Stadium",
+  "qid": "Q7252818",
+  "category": "Provost Umphrey Stadium"
+ },
+ "robert-w-plaster-stadium": {
+  "title": "Robert W. Plaster Stadium",
+  "qid": "Q7202020",
+  "category": "Robert W. Plaster Stadium"
+ },
+ "t-mobile-arena": {
+  "title": "T-Mobile Arena",
+  "qid": "Q3338973",
+  "category": "T-Mobile Arena"
+ },
+ "fiserv-forum": {
+  "title": "Fiserv Forum",
+  "qid": "Q20372160",
+  "category": "Fiserv Forum"
+ },
+ "xfinity-center": {
+  "title": "Xfinity Center (College Park, Maryland)",
+  "qid": "Q2985114",
+  "category": "Xfinity Center (College Park, Maryland)"
+ },
+ "kohl-center": {
+  "title": "Kohl Center",
+  "qid": "Q1578408",
+  "category": "Kohl Center"
+ },
+ "gainbridge-fieldhouse": {
+  "title": "Gainbridge Fieldhouse",
+  "qid": "Q545007",
+  "category": "Gainbridge Fieldhouse"
+ },
+ "ubs-arena": {
+  "title": "UBS Arena",
+  "qid": "Q48742753",
+  "category": "UBS Arena"
+ },
+ "simon-skjodt-assembly-hall": {
+  "title": "Simon Skjodt Assembly Hall",
+  "qid": "Q4808661",
+  "category": "Assembly Hall, Indiana"
+ },
+ "uni-dome": {
+  "title": "UNI-Dome",
+  "qid": "Q7865270",
+  "category": "UNI-Dome"
+ },
+ "honda-center": {
+  "title": "Honda Center",
+  "qid": "Q774138",
+  "category": "Honda Center"
+ },
+ "bridgestone-arena": {
+  "title": "Bridgestone Arena",
+  "qid": "Q302869",
+  "category": "Bridgestone Arena"
+ },
+ "climate-pledge-arena": {
+  "title": "Climate Pledge Arena",
+  "qid": "Q977529",
+  "category": "Climate Pledge Arena"
+ },
+ "mortgage-matchup-center": {
+  "title": "Mortgage Matchup Center",
+  "qid": "Q1538690",
+  "category": "Mortgage Matchup Center"
+ },
+ "bowman-gray-stadium": {
+  "title": "Bowman Gray Stadium",
+  "qid": "Q2072723",
+  "category": "Bowman Gray Stadium"
+ },
+ "robert-k-kraft-field-at-lawrence-a-wien-stadium": {
+  "title": "Robert K. Kraft Field at Lawrence A. Wien Stadium",
+  "qid": "Q7346228",
+  "category": "Robert K. Kraft Field at Lawrence A. Wien Stadium"
+ },
+ "warren-mcguirk-alumni-stadium": {
+  "title": "Warren McGuirk Alumni Stadium",
+  "qid": "Q6588293",
+  "category": "Warren McGuirk Alumni Stadium"
+ },
+ "state-farm-arena": {
+  "title": "State Farm Arena",
+  "qid": "Q1123297",
+  "category": "State Farm Arena"
+ },
+ "smoothie-king-center": {
+  "title": "Smoothie King Center",
+  "qid": "Q1515840",
+  "category": "Smoothie King Center"
+ },
+ "roy-stewart-stadium": {
+  "title": "Roy Stewart Stadium",
+  "qid": "Q7373407",
+  "category": "Roy Stewart Stadium"
+ },
+ "fedexforum": {
+  "title": "FedExForum",
+  "qid": "Q641212",
+  "category": "FedExForum"
+ },
+ "tucker-stadium": {
+  "title": "Tucker Stadium",
+  "qid": "Q7851090",
+  "category": null
+ },
+ "hanson-field": {
+  "title": "Hanson Field",
+  "qid": "Q5651191",
+  "category": "Hanson Field"
+ },
+ "indian-wells-tennis-garden": {
+  "title": "Indian Wells Tennis Garden",
+  "qid": "Q1427761",
+  "category": "Indian Wells Tennis Garden"
+ },
+ "goodman-stadium": {
+  "title": "Goodman Stadium",
+  "qid": "Q5583470",
+  "category": "Goodman Stadium"
+ },
+ "paladin-stadium": {
+  "title": "Paladin Stadium",
+  "qid": "Q7126368",
+  "category": "Paladin Stadium"
+ },
+ "simmons-bank-field": {
+  "title": "Simmons Bank Field",
+  "qid": "Q5579640",
+  "category": null
+ },
+ "harry-turpin-stadium": {
+  "title": "Harry Turpin Stadium",
+  "qid": "Q14691648",
+  "category": "Harry Turpin Stadium"
+ },
+ "save-mart-center": {
+  "title": "Save Mart Center",
+  "qid": "Q3474506",
+  "category": null
+ },
+ "state-farm-center": {
+  "title": "State Farm Center",
+  "qid": "Q2867017",
+  "category": "Assembly Hall (Champaign)"
+ },
+ "pinnacle-bank-arena": {
+  "title": "Pinnacle Bank Arena",
+  "qid": "Q7196282",
+  "category": "Pinnacle Bank Arena"
+ },
+ "the-pit": {
+  "title": "The Pit (arena)",
+  "qid": "Q7757281",
+  "category": "The Pit (arena)"
+ },
+ "coleman-coliseum": {
+  "title": "Coleman Coliseum",
+  "qid": "Q5142988",
+  "category": "Coleman Coliseum"
+ },
+ "jerry-richardson-stadium": {
+  "title": "Jerry Richardson Stadium",
+  "qid": "Q14707992",
+  "category": "Jerry Richardson Stadium"
+ },
+ "allen-fieldhouse": {
+  "title": "Allen Fieldhouse",
+  "qid": "Q2837888",
+  "category": "Allen Fieldhouse"
+ },
+ "bryce-jordan-center": {
+  "title": "Bryce Jordan Center",
+  "qid": "Q2927191",
+  "category": "Bryce Jordan Center"
+ },
+ "kibbie-dome": {
+  "title": "Kibbie Dome",
+  "qid": "Q6403974",
+  "category": "Kibbie Dome"
+ },
+ "mvp-arena": {
+  "title": "MVP Arena",
+  "qid": "Q1143334",
+  "category": "Times Union Center"
+ },
+ "clarence-t-c-ching-athletics-complex": {
+  "title": "Clarence T. C. Ching Athletics Complex",
+  "qid": "Q85752700",
+  "category": "Clarence T. C. Ching Athletics Complex"
+ },
+ "united-supermarkets-arena": {
+  "title": "United Supermarkets Arena",
+  "qid": "Q378655",
+  "category": "United Spirit Arena"
+ },
+ "mizzou-arena": {
+  "title": "Mizzou Arena",
+  "qid": "Q3317355",
+  "category": "Mizzou Arena"
+ },
+ "hilton-coliseum": {
+  "title": "Hilton Coliseum",
+  "qid": "Q3135692",
+  "category": "Hilton Coliseum"
+ },
+ "jon-m-huntsman-center": {
+  "title": "Jon M. Huntsman Center",
+  "qid": "Q6271169",
+  "category": "Jon M. Huntsman Center"
+ },
+ "panther-stadium-at-blackshear-field": {
+  "title": "Panther Stadium at Blackshear Field",
+  "qid": "Q28447008",
+  "category": null
+ },
+ "saluki-stadium": {
+  "title": "Saluki Stadium",
+  "qid": "Q7406284",
+  "category": "Saluki Stadium"
+ }
+}
