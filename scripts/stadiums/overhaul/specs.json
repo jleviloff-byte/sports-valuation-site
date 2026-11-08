@@ -73,7 +73,7 @@
  "lambeau-field": {
   "name": "Lambeau Field",
   "type": "football",
-  "path": "photo",
+  "path": "fallback",
   "desc": "Lambeau Field, a closed oval football bowl of light gray bench seating with a dark green upper facade, brick piers and a glass atrium on the east side, a tall south end zone with a large video board, an American football field with end zones and yard lines",
   "materials": "natural grass with white yard lines, aluminum bench seating, dark green metal panels, red brick, glass curtain wall, concrete",
   "colors_hex": "seats #c2b4b0, facade green band #314746, facade brick #b05931, facade base #545a5b, field #8e9736",

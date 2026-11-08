@@ -1,6 +1,6 @@
 # Lambeau Field
 
-Type: football. Pipeline path: photo.
+Type: football. Pipeline path: fallback.
 
 Type rule: Field at regulation proportions with end zones and yard lines; stands parallel to the sidelines; the real bowl shape; press box and scoreboards in their real positions; upper decks and suite rings where they exist.
 
@@ -29,7 +29,7 @@ Type rule: Field at regulation proportions with end zones and yard lines; stands
 
 ## References
 
-- #17 Lambeau Field (19951621245).jpg: relux., CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Lambeau_Field_(19951621245).jpg (structure+style)
+- #17 Lambeau Field (19951621245).jpg: relux., CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Lambeau_Field_(19951621245).jpg (style (IP-Adapter); structure comes from the NAIP-based model (#17 shows only part of the bowl))
 - #1 Lambeau Field in December 2016 during a game versus the Seattle Seahawks.jpg: Mtyson84, CC0, https://commons.wikimedia.org/wiki/File:Lambeau_Field_in_December_2016_during_a_game_versus_the_Seattle_Seahawks.jpg (detail)
 - #18 Lambeau Field.jpg: JL1Row, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Lambeau_Field.jpg (detail)
 - #3 Lambeau Field - Green Bay, WI.jpeg: Chad Davis, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Lambeau_Field_-_Green_Bay,_WI.jpeg (detail)
