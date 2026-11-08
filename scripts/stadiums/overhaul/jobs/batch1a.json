@@ -1,0 +1,338 @@
+[
+ {
+  "slug": "acrisure-stadium",
+  "kind": "football stadium",
+  "ref": "refs/acrisure-stadium/14.jpg",
+  "mask": "masks/acrisure-stadium.png",
+  "desc_short": "Acrisure Stadium: horseshoe football bowl open at one end, bright yellow seats, gray and yellow steel structure, scoreboard in the open end, green grass",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "allegiant-stadium",
+  "kind": "domed football stadium",
+  "ref": "refs/allegiant-stadium/32.jpg",
+  "mask": "masks/allegiant-stadium.png",
+  "desc_short": "Allegiant Stadium: sleek black glass oval stadium with curved silver line patterns on its dark skin and a translucent light roof, large glass opening on one side",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "angel-stadium",
+  "kind": "baseball park",
+  "ref": "refs/angel-stadium/4.jpg",
+  "mask": "masks/angel-stadium.png",
+  "desc_short": "Angel Stadium: ballpark with red seats in three decks, a rocky waterfall feature in center field, tan exterior, open outfield, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "arrowhead-stadium",
+  "kind": "football stadium",
+  "ref": "refs/arrowhead-stadium/25.jpg",
+  "mask": "masks/arrowhead-stadium.png",
+  "desc_short": "Arrowhead Stadium: steep closed bowl of bright red seats, rounded rectangular rim, gray concrete exterior with circular spiral ramps at the corners, end zone video boards",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "bank-of-america-stadium",
+  "kind": "football stadium",
+  "ref": "refs/bank-of-america-stadium/2.jpg",
+  "mask": "masks/bank-of-america-stadium.png",
+  "desc_short": "Bank of America Stadium: open football bowl with light blue seats in two tiers, black steel upper rim, glass and steel corner towers, gray concrete exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "beaver-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/beaver-stadium/1.jpg",
+  "mask": "masks/beaver-stadium.png",
+  "desc_short": "Beaver Stadium: huge open college football bowl with white seats on an exposed steel frame, press box tower on one side, end zone video boards, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "ben-hill-griffin-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/ben-hill-griffin-stadium/11.jpg",
+  "mask": "masks/ben-hill-griffin-stadium.png",
+  "desc_short": "Ben Hill Griffin Stadium: steep closed college football bowl with orange and blue seats, tall press box on one side, gray concrete exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "caesars-superdome",
+  "kind": "domed football stadium",
+  "ref": "refs/caesars-superdome/13.jpg",
+  "mask": "masks/caesars-superdome.png",
+  "desc_short": "Caesars Superdome: huge round arena with an enormous shallow white dome roof over a circular drum of gold-tan metal panels, ring of ramps at the base, no lettering",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "camp-randall-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/camp-randall-stadium/1.jpg",
+  "mask": "masks/camp-randall-stadium.png",
+  "desc_short": "Camp Randall Stadium: college football bowl with red and white seats, red brick exterior, tall press box on one side, upper deck on the other, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "chase-center",
+  "kind": "arena",
+  "ref": "refs/chase-center/1.jpg",
+  "mask": "masks/chase-center.png",
+  "desc_short": "Chase Center: round arena with a smooth white curved roof, white and silver horizontal panel bands, glass base, plaza with terraces",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "chase-field",
+  "kind": "retractable-roof baseball park",
+  "ref": "refs/chase-field/3.jpg",
+  "mask": "masks/chase-field.png",
+  "desc_short": "Chase Field: big boxy ballpark with a retractable gray-green steel roof, tan brick and green steel exterior, tall outfield windows",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "citi-field",
+  "kind": "baseball park",
+  "ref": "refs/citi-field/25.jpg",
+  "mask": "masks/citi-field.png",
+  "desc_short": "Citi Field: brick ballpark with a curved arched rotunda entrance, dark green seats, large right center scoreboard, steel light towers, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "comerica-park",
+  "kind": "baseball park",
+  "ref": "refs/comerica-park/6.jpg",
+  "mask": "masks/comerica-park.png",
+  "desc_short": "Comerica Park: tan brick ballpark with dark green seats, open outfield with a center field fountain, large left field scoreboard, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "coors-field",
+  "kind": "baseball park",
+  "ref": "refs/coors-field/25.jpg",
+  "mask": "masks/coors-field.png",
+  "desc_short": "Coors Field: red brick ballpark with a clock tower entrance, green seats, evergreen trees and waterfall beyond center field, center field bleachers, grass outfield",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "crypto-com-arena",
+  "kind": "arena",
+  "ref": "refs/crypto-com-arena/1.jpg",
+  "mask": "masks/crypto-com-arena.png",
+  "desc_short": "Crypto.com Arena: oval arena with a curved sloping silver-white roof, a tall glass curtain wall facade, silver metal panels, plaza at the entrance",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "dodger-stadium",
+  "kind": "baseball park",
+  "ref": "refs/dodger-stadium/7.jpg",
+  "mask": "masks/dodger-stadium.png",
+  "desc_short": "Dodger Stadium: ballpark with stacked terraces of multicolored seats behind home, wavy-roofed outfield pavilions, hexagonal scoreboards, on a terraced hillside",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "everbank-stadium",
+  "kind": "football stadium",
+  "ref": "refs/everbank-stadium/1.jpg",
+  "mask": "masks/everbank-stadium.png",
+  "desc_short": "EverBank Stadium: open football bowl with teal seats, two huge wide video boards above the end zones, gray concrete exterior with ramp towers, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "ford-field",
+  "kind": "domed football stadium",
+  "ref": "refs/ford-field/2.jpg",
+  "mask": "masks/ford-field.png",
+  "desc_short": "Ford Field: rectangular domed football stadium with a shallow light gray roof, an old red brick warehouse built into one long side, glass atrium",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/gaylord-family-oklahoma-memorial-stadium/7.jpg",
+  "mask": "masks/gaylord-family-oklahoma-memorial-stadium.png",
+  "desc_short": "Oklahoma Memorial Stadium: college football bowl with a red brick exterior and arches, crimson seats, tall press box on one side, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "gillette-stadium",
+  "kind": "football stadium",
+  "ref": "refs/gillette-stadium/9.jpg",
+  "mask": "masks/gillette-stadium.png",
+  "desc_short": "Gillette Stadium: open football bowl with navy and red seats, a lighthouse tower and bridge at one end, glass end zone building, gray concrete exterior",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "hard-rock-stadium",
+  "kind": "football stadium",
+  "ref": "refs/hard-rock-stadium/1.jpg",
+  "mask": "masks/hard-rock-stadium.png",
+  "desc_short": "Hard Rock Stadium: open football bowl under a wide flat white canopy roof ring held by four tall white corner masts, aqua seats, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "huntington-bank-field",
+  "kind": "football stadium",
+  "ref": "refs/huntington-bank-field/10.jpg",
+  "mask": "masks/huntington-bank-field.png",
+  "desc_short": "Huntington Bank Field: open lakefront football bowl with orange and brown seats, two decks, tan concrete and glass exterior, end zone video boards",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "husky-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/husky-stadium/25.jpg",
+  "mask": "masks/husky-stadium.png",
+  "desc_short": "Husky Stadium: college football stadium with two large cantilevered metal roofs over the sidelines, open end toward the lake, purple seats, gray steel and glass",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "jordan-hare-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/jordan-hare-stadium/9.jpg",
+  "mask": "masks/jordan-hare-stadium.png",
+  "desc_short": "Jordan-Hare Stadium: college football bowl with two tall upper decks on the sidelines, navy and orange accents, tan concrete exterior, end zone video board",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "levi-s-stadium",
+  "kind": "football stadium",
+  "ref": "refs/levi-s-stadium/24.jpg",
+  "mask": "masks/levi-s-stadium.png",
+  "desc_short": "Levi's Stadium: asymmetric open football bowl with bright red seats, a tall glass suite tower with a green roof on one side and a low open opposite side, end video boards",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "kind": "football stadium",
+  "ref": "refs/lincoln-financial-field/7.jpg",
+  "mask": "masks/lincoln-financial-field.png",
+  "desc_short": "Lincoln Financial Field: football stadium with midnight green seats, three-tier sidelines under steel canopy roofs, open corners, glass and steel facade",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "los-angeles-memorial-coliseum",
+  "kind": "football stadium",
+  "ref": "refs/los-angeles-memorial-coliseum/1.jpg",
+  "mask": "masks/los-angeles-memorial-coliseum.png",
+  "desc_short": "Los Angeles Memorial Coliseum: huge oval bowl with cardinal red seats, a peristyle of tall arches with the Olympic torch at one end, tan concrete",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "lucas-oil-stadium",
+  "kind": "retractable-roof football stadium",
+  "ref": "refs/lucas-oil-stadium/25.jpg",
+  "mask": "masks/lucas-oil-stadium.png",
+  "desc_short": "Lucas Oil Stadium: large rectangular red-brown brick stadium with a pitched two-panel retractable roof, a huge glass window wall at one end, corner towers",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ }
+]

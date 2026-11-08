@@ -1,0 +1,338 @@
+[
+ {
+  "slug": "lumen-field",
+  "kind": "football stadium",
+  "ref": "refs/lumen-field/12.jpg",
+  "mask": "masks/lumen-field.png",
+  "desc_short": "Lumen Field: open football stadium with two great curved steel roof canopies on arched trusses over the sidelines, open end with tall scoreboard, dark gray seats",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "mandt-bank-stadium",
+  "kind": "football stadium",
+  "ref": "refs/mandt-bank-stadium/5.jpg",
+  "mask": "masks/mandt-bank-stadium.png",
+  "desc_short": "M&T Bank Stadium: open football bowl with purple seats in three tiers, brick and tan concrete exterior, light steel canopies over the upper sidelines, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "memorial-stadium-ne",
+  "kind": "college football stadium",
+  "ref": "refs/memorial-stadium-ne/1.jpg",
+  "mask": "masks/memorial-stadium-ne.png",
+  "desc_short": "Memorial Stadium Nebraska: closed college football bowl of bright red seats, tall press box tower on one side, tan concrete exterior, end zone video boards",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "metlife-stadium",
+  "kind": "football stadium",
+  "ref": "refs/metlife-stadium/4.jpg",
+  "mask": "masks/metlife-stadium.png",
+  "desc_short": "MetLife Stadium: huge open rectangular bowl with rounded corners, silver aluminum louver facade, four tiers of gray-blue seats, corner video boards, green turf field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "nationals-park",
+  "kind": "baseball park",
+  "ref": "refs/nationals-park/6.jpg",
+  "mask": "masks/nationals-park.png",
+  "desc_short": "Nationals Park: modern glass, steel and white concrete ballpark with blue seats, open outfield toward the river, right field scoreboard, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "neyland-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/neyland-stadium/1.jpg",
+  "mask": "masks/neyland-stadium.png",
+  "desc_short": "Neyland Stadium: huge closed college football bowl with orange and white seats, orange and white checkerboard end zones, tall sideline decks, gray concrete exterior",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "nissan-stadium",
+  "kind": "football stadium",
+  "ref": "refs/nissan-stadium/1.jpg",
+  "mask": "masks/nissan-stadium.png",
+  "desc_short": "Nissan Stadium: open football bowl with navy blue seats in two decks, tall light towers over the sideline, tan and red brick exterior, end zone video board",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "notre-dame-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/notre-dame-stadium/25.jpg",
+  "mask": "masks/notre-dame-stadium.png",
+  "desc_short": "Notre Dame Stadium: closed college football bowl of tan brick with arched gates, tall limestone and glass buildings on three sides, dark seats, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "ohio-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/ohio-stadium/3.jpg",
+  "mask": "masks/ohio-stadium.png",
+  "desc_short": "Ohio Stadium: horseshoe college football bowl with a classical domed rotunda entrance and arches at the closed end, scarlet and gray seats, light concrete exterior",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "oriole-park-at-camden-yards",
+  "kind": "baseball park",
+  "ref": "refs/oriole-park-at-camden-yards/1.jpg",
+  "mask": "masks/oriole-park-at-camden-yards.png",
+  "desc_short": "Oriole Park at Camden Yards: brick ballpark with a long eight-story red brick warehouse behind right field, dark green seats, steel truss roof, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "petco-park",
+  "kind": "baseball park",
+  "ref": "refs/petco-park/20.jpg",
+  "mask": "masks/petco-park.png",
+  "desc_short": "Petco Park: sandstone and white ballpark with navy seats, an old four-story brick building built into the left field corner, lawn beyond center field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "pnc-park",
+  "kind": "baseball park",
+  "ref": "refs/pnc-park/2.jpg",
+  "mask": "masks/pnc-park.png",
+  "desc_short": "PNC Park: compact limestone ballpark with navy seats in two decks, open outfield facing the river, low right field wall, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "progressive-field",
+  "kind": "baseball park",
+  "ref": "refs/progressive-field/25.jpg",
+  "mask": "masks/progressive-field.png",
+  "desc_short": "Progressive Field: white steel ballpark with dark blue seats, exposed vertical light towers, tall left field wall and scoreboard, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "providence-park",
+  "kind": "soccer stadium",
+  "ref": "refs/providence-park/1.jpg",
+  "mask": "masks/providence-park.png",
+  "desc_short": "Providence Park: compact rectangular soccer stadium with green seats, steel canopy roofs, a tall modern east stand, historic brick west facade, green pitch",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "rate-field",
+  "kind": "baseball park",
+  "ref": "refs/rate-field/27.jpg",
+  "mask": "masks/rate-field.png",
+  "desc_short": "Rate Field: steel and concrete ballpark with dark green seats, a flat canopy roof over the upper deck, scoreboard with pinwheels in center field, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "kind": "football stadium",
+  "ref": "refs/raymond-james-stadium/6.jpg",
+  "mask": "masks/raymond-james-stadium.png",
+  "desc_short": "Raymond James Stadium: open football bowl with red-orange seats, a wooden pirate ship replica in one end zone, large end video boards, tan concrete exterior with ramps",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "reliant-stadium",
+  "kind": "retractable-roof football stadium",
+  "ref": "refs/reliant-stadium/10.jpg",
+  "mask": "masks/reliant-stadium.png",
+  "desc_short": "NRG Stadium: rectangular football stadium with a light translucent retractable roof on two large steel trusses, glass curtain walls, red and tan base",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "rose-bowl",
+  "kind": "college football stadium",
+  "ref": "refs/rose-bowl/9.jpg",
+  "mask": "masks/rose-bowl.png",
+  "desc_short": "Rose Bowl: low elliptical bowl with a continuous rim and light red seats, press box on one side, set among trees, green grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "soldier-field",
+  "kind": "football stadium",
+  "ref": "refs/soldier-field/26.jpg",
+  "mask": "masks/soldier-field.png",
+  "desc_short": "Soldier Field: modern steel and glass football bowl inside classical stone Doric colonnades on both long sides, navy blue seats, cantilevered upper deck",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "spartan-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/spartan-stadium/26.jpg",
+  "mask": "masks/spartan-stadium.png",
+  "desc_short": "Spartan Stadium: closed college football bowl with green and white seats, tall press box tower, tan brick exterior, end zone video board",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "state-farm-stadium",
+  "kind": "retractable-roof football stadium",
+  "ref": "refs/state-farm-stadium/1.jpg",
+  "mask": "masks/state-farm-stadium.png",
+  "desc_short": "State Farm Stadium: rounded barrel-shaped stadium clad in vertical ribbed silver metal panels with glass slots, translucent retractable roof panels on top",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "kind": "racetrack",
+  "ref": "refs/talladega-superspeedway/14.jpg",
+  "mask": "masks/talladega-superspeedway.png",
+  "desc_short": "Talladega Superspeedway: huge steeply banked tri-oval of gray asphalt, long grandstand along the front stretch, pit road, large green infield",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "target-field",
+  "kind": "baseball park",
+  "ref": "refs/target-field/30.jpg",
+  "mask": "masks/target-field.png",
+  "desc_short": "Target Field: tan limestone ballpark with dark green seats, a white canopy over the upper deck, large left field scoreboard, tight downtown site",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "tropicana-field",
+  "kind": "domed baseball park",
+  "ref": "refs/tropicana-field/19.jpg",
+  "mask": "masks/tropicana-field.png",
+  "desc_short": "Tropicana Field: domed ballpark with a tilted white cable-supported fabric dome on a light gray round drum, rotunda entrance",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "u-s-bank-stadium",
+  "kind": "domed football stadium",
+  "ref": "refs/u-s-bank-stadium/25.jpg",
+  "mask": "masks/u-s-bank-stadium.png",
+  "desc_short": "U.S. Bank Stadium: angular dark zinc-clad stadium shaped like a ship prow, steeply sloped translucent roof panels, a huge glass wall, sharp asymmetric peaks",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "united-center",
+  "kind": "arena",
+  "ref": "refs/united-center/4.jpg",
+  "mask": "masks/united-center.png",
+  "desc_short": "United Center: large rectangular arena with rounded corners, red-brown brick and tan exterior with tall windows, glass atrium, flat light gray roof",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "williams-brice-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/williams-brice-stadium/4.jpg",
+  "mask": "masks/williams-brice-stadium.png",
+  "desc_short": "Williams-Brice Stadium: closed college football bowl with garnet and black seats, upper decks on both sides, gray concrete exterior, end video board",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ },
+ {
+  "slug": "yankee-stadium",
+  "kind": "baseball park",
+  "ref": "refs/yankee-stadium/26.jpg",
+  "mask": "masks/yankee-stadium.png",
+  "desc_short": "Yankee Stadium: ballpark with a pale limestone exterior of tall arched windows, white roof frieze, navy seats in three decks, outfield bleachers, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ]
+ }
+]

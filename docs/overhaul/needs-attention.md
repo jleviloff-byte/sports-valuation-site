@@ -65,3 +65,5 @@ Next step for each: the fallback path (NAIP-measured 3D model, as for the pilot'
 | t-mobile-park | only aerial is distant; ballpark is a few pixels |
 | citizens-bank-park | only aerial is distant; ballpark is a few pixels |
 | circuit-of-the-americas | whole circuit fills the aerial; needs a grandstand-side crop or the fallback model |
+| indianapolis-motor-speedway | segmentation of the grandstand aerial failed twice (fragments); needs the fallback model |
+| northwest-stadium | only aerial is distant and hazy; segmentation failed twice |

@@ -1,15 +1,14 @@
 # Overhaul status
 
 - **Phase:** 3 — full run. Pilot approved by Josh ("Approve as is").
-- **Last completed step:** Pilot finished and QA'd. Sheet: `docs/overhaul/pilot.png`. QA log: `docs/overhaul/pilot-qa.md`.
-  - Blind ID: 9 of 12 venues named by a fresh subagent.
-  - Text: no legible text in any of the 24 images.
-  - Needs attention: Daytona after 5 attempts (layout right, detail low). L&N, Q2 and Rupp are type-correct, but blind ID can't name them (details in `docs/overhaul/needs-attention.md`).
+- **Last completed step:** Batch 1 (iconic) prep done.
+  - Of 85 non-pilot iconic venues, 56 have a verified reference and a cleaned SAM mask; colors are sampled and spec sheets written (`docs/overhaul/specs/`).
+  - 30 venues have no usable aerial or failed segmentation and are listed in `docs/overhaul/needs-attention.md`; they go to the fallback model path.
+  - Generation is running as kernels `stadium-gen-batch1a` and `stadium-gen-batch1b` (28 venues x 3 seeds each).
 - **Pipeline path per pilot venue:** photo (traced polygon on the reference): Fenway, Michigan, Wrigley, SoFi. Fallback (NAIP-measured model, `scripts/stadiums/art2/venues.js`; controls via `scripts/stadiums/overhaul/prep_fallback.py`): L&N, Lambeau, Rupp, Q2, Daytona, MSG, Arthur Ashe, Bristol.
-- **Next step:** Batch 1 = `scripts/stadiums/overhaul/iconic.json` (97 venues).
-  1. Contact sheets of the Commons candidates; pick and verify one reference per venue against NAIP.
-  2. SAM mask from a box prompt.
-  3. Spec sheets.
-  4. Generate in Kaggle batches, then QA (blind ID, spec, artifacts, side-by-side) and cleanup.
-- **Kaggle GPU hours used:** ~3.3 total. Probe and tests 0.5; pilot round 1 1.38; round 2 0.86 including a failed start; rounds 3–6 0.48; cleanups 0.09.
+- **Next step:** When batch 1 finishes:
+  1. Pick seeds; mark text boxes and run the cleanup kernel.
+  2. Blind-ID in batches, plus spec and artifact checks; regenerate failures.
+  3. Then the fallback models for the 30 needs-attention iconic venues, then long-tail venues.
+- **Kaggle GPU hours used:** ~3.6 before batch 1 (pilot 3.3, segmentation 0.3); batch 1 estimated ~3
 - **Blockers:** none. Notes: Commons throttles this egress IP (HTTP 429), so scripts back off. render.mjs needs `CHROMIUM_PATH=/opt/pw-browsers/chromium` in cloud sessions. Candidate photos are uploading to Kaggle dataset `stadium-overhaul-cands`.
