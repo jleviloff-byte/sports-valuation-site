@@ -1,0 +1,218 @@
+[
+ {
+  "slug": "fenway-park",
+  "seeds": [
+   11,
+   22
+  ],
+  "kind": "baseball park",
+  "ref": "refs/fenway-park/11.jpg",
+  "poly": [
+   [
+    0.12,
+    0.31
+   ],
+   [
+    0.27,
+    0.29
+   ],
+   [
+    0.5,
+    0.33
+   ],
+   [
+    0.78,
+    0.33
+   ],
+   [
+    0.87,
+    0.35
+   ],
+   [
+    0.89,
+    0.47
+   ],
+   [
+    0.9,
+    0.62
+   ],
+   [
+    0.88,
+    0.7
+   ],
+   [
+    0.62,
+    0.7
+   ],
+   [
+    0.55,
+    0.73
+   ],
+   [
+    0.48,
+    0.66
+   ],
+   [
+    0.35,
+    0.66
+   ],
+   [
+    0.3,
+    0.62
+   ],
+   [
+    0.2,
+    0.62
+   ],
+   [
+    0.08,
+    0.5
+   ],
+   [
+    0.06,
+    0.4
+   ],
+   [
+    0.12,
+    0.36
+   ]
+  ],
+  "desc_short": "Fenway Park: asymmetric ballpark, tall green left-field wall with manual scoreboard, red grandstand seats in green steel, dark green bleachers, red-brick exterior, light towers on the roof, dirt infield, grass outfield",
+  "variants": [
+   "nobase"
+  ]
+ },
+ {
+  "slug": "michigan-stadium",
+  "seeds": [
+   11,
+   22
+  ],
+  "kind": "football stadium",
+  "ref": "refs/michigan-stadium/1.jpg",
+  "poly": [
+   [
+    0.1,
+    0.48
+   ],
+   [
+    0.2,
+    0.36
+   ],
+   [
+    0.3,
+    0.3
+   ],
+   [
+    0.47,
+    0.29
+   ],
+   [
+    0.47,
+    0.24
+   ],
+   [
+    0.54,
+    0.24
+   ],
+   [
+    0.54,
+    0.29
+   ],
+   [
+    0.68,
+    0.29
+   ],
+   [
+    0.8,
+    0.33
+   ],
+   [
+    0.86,
+    0.45
+   ],
+   [
+    0.9,
+    0.58
+   ],
+   [
+    0.88,
+    0.73
+   ],
+   [
+    0.8,
+    0.75
+   ],
+   [
+    0.7,
+    0.8
+   ],
+   [
+    0.56,
+    0.82
+   ],
+   [
+    0.56,
+    0.86
+   ],
+   [
+    0.42,
+    0.86
+   ],
+   [
+    0.42,
+    0.8
+   ],
+   [
+    0.25,
+    0.76
+   ],
+   [
+    0.14,
+    0.72
+   ],
+   [
+    0.1,
+    0.6
+   ]
+  ],
+  "desc_short": "Michigan Stadium: huge closed oval bowl sunk into the ground, gray-blue aluminum bench seats, navy rim band, red-brick and glass press box towers on both sidelines, video boards at both ends, green field with navy end zones",
+  "variants": [
+   "nobase"
+  ]
+ },
+ {
+  "slug": "madison-square-garden",
+  "kind": "arena",
+  "ref": "refs/madison-square-garden/17.jpg",
+  "desc_short": "Madison Square Garden: round arena drum with vertical warm bronze precast panels, shallow light gray round roof, attached rectangular office block, glass entrance pavilion",
+  "seeds": [
+   11,
+   22
+  ],
+  "control": {
+   "depth": "controls/madison-square-garden/depth.png",
+   "edges": "controls/madison-square-garden/edges.png"
+  },
+  "variants": [
+   "nobase"
+  ]
+ },
+ {
+  "slug": "bristol-motor-speedway",
+  "kind": "racetrack",
+  "ref": "refs/bristol-motor-speedway/26.jpg",
+  "desc_short": "Bristol Motor Speedway: short steeply banked concrete oval enclosed by tall steep grandstands like a bowl, gray seats with red sections, pit road and garages in the infield",
+  "seeds": [
+   11,
+   22
+  ],
+  "control": {
+   "depth": "controls/bristol-motor-speedway/depth.png",
+   "edges": "controls/bristol-motor-speedway/edges.png"
+  },
+  "variants": [
+   "nobase"
+  ]
+ }
+]

@@ -7,7 +7,7 @@ import json, os, subprocess, sys, time
 subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1', 'transformers==4.56.2', 'accelerate', 'timm', 'kornia', 'einops'], check=True)
 
 import numpy as np, torch, cv2
-from PIL import Image, ImageFilter
+from PIL import Image, ImageFilter, ImageDraw
 from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, AutoencoderKL
 from transformers import pipeline as hf_pipeline, AutoModelForImageSegmentation
 from torchvision import transforms
@@ -23,22 +23,24 @@ jobs_path = next((p for p in ['/kaggle/input/stadium-overhaul-jobs/jobs.json', o
 JOBS = globals().get('JOBS_INLINE') or json.load(open(jobs_path))  # push.py inlines JOBS_INLINE
 dev = 'cuda'
 
-# Locked style prompt and negative prompt for the whole set (brief: one style).
-STYLE = ('premium museum-quality architectural scale model of {desc}, miniature diorama seen from a 3/4 aerial view, '
-         'real materials: {materials}, true colors: {colors}, crisp clean high detail, precise physical model craftsmanship, '
-         'bright soft late-afternoon daylight from the upper left, gentle contact shadow, {base}, isolated on a plain light gray studio background')
-BASES = {'base': 'standing on a thin square architectural model base with a clean light edge',
-         'nobase': 'no base, the model sits directly on the plain background'}
-NEG = ('cartoon, illustration, voxel, low poly, lego, bricks, toy blocks, plastic toy, text, letters, words, logo, signage text, watermark, '
-       'people, cars, parking lot, streets, roads, neighboring buildings, city, skyline, trees, landscape, horizon, sky, '
-       'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border')
+# Locked style prompt for the whole set (brief: one style). SDXL has two text
+# encoders, each truncating at 77 tokens: encoder 1 carries the locked style and
+# isolation, encoder 2 the venue's own description and sampled colors.
+STYLE = ('museum-quality architectural scale model of a {kind}, miniature diorama, 3/4 aerial view, '
+         'crisp clean high detail, real materials, soft late-afternoon daylight from the upper left, '
+         'gentle contact shadow, {base}, isolated on a plain light gray studio background')
+BASES = {'base': 'on a thin square model base', 'nobase': 'no base'}
+NEG = ('photo of a real city, aerial photograph, streets, cars, parking lots, neighboring buildings, trees, skyline, '
+       'cartoon, voxel, low poly, lego bricks, toy, text, letters, logo, watermark, people')
+NEG2 = 'blurry, warped seating, melted, bent field, distorted, duplicated structures, cropped, frame, border, gibberish text'
 
 W, H = 1216, 832  # SDXL bucket close to 3:2
 
 
 def fit(img, w=W, h=H, bg=(200, 200, 200)):
     """Letterbox to w x h without cropping the venue."""
-    img = img.copy(); img.thumbnail((w, h), Image.LANCZOS)
+    k = min(w / img.width, h / img.height)  # scale up or down so the venue fills the frame
+    img = img.resize((max(1, round(img.width * k)), max(1, round(img.height * k))), Image.LANCZOS)
     c = Image.new(img.mode, (w, h), bg if img.mode == 'RGB' else 0)
     c.paste(img, ((w - img.width) // 2, (h - img.height) // 2)); return c
 
@@ -108,36 +110,49 @@ for job in JOBS:
     slug = job['slug']; od = os.path.join(OUT, slug); os.makedirs(od, exist_ok=True)
     t = time.time()
     if job.get('control'):  # fallback path: depth/edges rendered from the NAIP-measured model
-        depth = np.array(Image.open(os.path.join(IN, job['control']['depth'])).convert('L')).astype(np.float32) / 255
         ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
-        depth_img = fit(Image.fromarray((depth * 255).astype(np.uint8)).convert('RGB'), bg=(0, 0, 0))
+        depth_img = fit(Image.open(os.path.join(IN, job['control']['depth'])).convert('RGB'), bg=(0, 0, 0))
         edge_img = fit(Image.open(os.path.join(IN, job['control']['edges'])).convert('RGB'), bg=(0, 0, 0))
-    else:
+        cmask = (np.array(depth_img.convert('L')) > 8).astype(np.uint8) * 255
+        ip_img = ref
+    else:  # photo path: structure from the reference photo inside a hand-traced venue polygon
         ref = Image.open(os.path.join(IN, job['ref'])).convert('RGB')
-        if job.get('crop'): ref = ref.crop(tuple(job['crop']))
-        refl = fit(ref)
-        m = alpha_of(refl) if job.get('mask', True) else Image.new('L', refl.size, 255)
-        m = Image.fromarray(cv2.dilate(np.array(m), np.ones((25, 25), np.uint8))).filter(ImageFilter.GaussianBlur(6))
-        mk = np.array(m).astype(np.float32) / 255
+        poly = [(x * ref.width, y * ref.height) for x, y in job['poly']]
+        pm = Image.new('L', ref.size, 0); ImageDraw.Draw(pm).polygon(poly, fill=255)
+        xs, ys = [p[0] for p in poly], [p[1] for p in poly]
+        mg = 0.06 * max(max(xs) - min(xs), max(ys) - min(ys))
+        box = (int(max(0, min(xs) - mg)), int(max(0, min(ys) - mg)), int(min(ref.width, max(xs) + mg)), int(min(ref.height, max(ys) + mg)))
+        crop, pmc = ref.crop(box), pm.crop(box)
+        refl, ml = fit(crop), fit(pmc.convert('RGB'), bg=(0, 0, 0)).convert('L')
+        mk = np.array(ml).astype(np.float32) / 255
         d0 = depth_of(refl)
-        depth = d0 * mk
+        v = d0[mk > 0.5]; lo, hi = np.percentile(v, 1), np.percentile(v, 99.5)
+        depth = (np.clip((d0 - lo) / max(1e-6, hi - lo), 0, 1) * 0.85 + 0.15) * (mk > 0.5)
         edges = canny_of(refl, d0) * (mk > 0.5)
         depth_img = Image.fromarray((depth * 255).astype(np.uint8)).convert('RGB')
         edge_img = Image.fromarray(edges.astype(np.uint8)).convert('RGB')
-        m.save(f'{od}/ctl_mask.png')
+        cmask = (mk > 0.5).astype(np.uint8) * 255
+        gray = Image.new('RGB', crop.size, (200, 200, 200))
+        ip_img = Image.composite(crop, gray, pmc.filter(ImageFilter.GaussianBlur(4)))
+    Image.fromarray(cmask).save(f'{od}/ctl_mask.png')
+    gate = cv2.GaussianBlur(cv2.dilate(cmask, np.ones((61, 61), np.uint8)), (0, 0), 12).astype(np.float32) / 255
     depth_img.save(f'{od}/ctl_depth.png'); edge_img.save(f'{od}/ctl_edges.png')
-    ip_img = ref.copy(); ip_img.thumbnail((1024, 1024))
-    pipe.set_ip_adapter_scale(job.get('ip_scale', 0.45))
+    ip_img = ip_img.copy(); ip_img.thumbnail((1024, 1024))
+    pipe.set_ip_adapter_scale(job.get('ip_scale', 0.3))
     for variant in job.get('variants', ['base', 'nobase']):
-        prompt = STYLE.format(desc=job['desc'], materials=job['materials'], colors=job['colors'], base=BASES[variant])
+        prompt = STYLE.format(kind=job['kind'], base=BASES[variant])
+        prompt_2 = job['desc_short']
         for seed in job['seeds']:
             g = torch.Generator(dev).manual_seed(seed)
-            img = pipe(prompt=prompt, negative_prompt=NEG, control_image=[depth_img, edge_img], control_mode=[1, 3],
-                       controlnet_conditioning_scale=job.get('cn_scale', [0.75, 0.55]), ip_adapter_image=ip_img,
+            img = pipe(prompt=prompt, prompt_2=prompt_2, negative_prompt=NEG, negative_prompt_2=NEG2, control_image=[depth_img, edge_img], control_mode=[1, 3],
+                       controlnet_conditioning_scale=job.get('cn_scale', [0.85, 0.6]), ip_adapter_image=ip_img,
                        num_inference_steps=job.get('steps', 32), guidance_scale=job.get('cfg', 6.0), width=W, height=H,
                        generator=g, control_guidance_end=job.get('cn_end', 0.85)).images[0]
             img.save(f'{od}/{variant}_{seed}_raw.png')
-            a = clean_alpha(alpha_of(img))
+            raw = np.array(alpha_of(img)).astype(np.float32) * gate
+            if raw.mean() < 0.25 * gate.mean() * 255:  # BiRefNet found too little: fall back to the control silhouette
+                raw = np.maximum(raw, cv2.GaussianBlur(cmask, (0, 0), 2).astype(np.float32))
+            a = clean_alpha(Image.fromarray(raw.clip(0, 255).astype(np.uint8)))
             rgba = img.convert('RGBA'); rgba.putalpha(a)
             shadow(rgba).save(f'{od}/{variant}_{seed}.png')
             print(f'{slug} {variant} seed {seed} done {time.time()-t:.0f}s', flush=True)

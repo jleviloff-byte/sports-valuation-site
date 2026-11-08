@@ -436,7 +436,7 @@
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
    "local": "research/raw/stadiums/refs-cand/lambeau-field/17.jpg",
-   "role": "structure+style"
+   "role": "style (IP-Adapter); structure comes from the NAIP-based model (#17 shows only part of the bowl)"
   },
   {
    "n": 1,
@@ -661,7 +661,7 @@
   "fenway-park": "photo",
   "wrigley-field": "photo",
   "sofi-stadium": "photo",
-  "lambeau-field": "photo",
+  "lambeau-field": "fallback",
   "madison-square-garden": "fallback",
   "arthur-ashe-stadium": "fallback",
   "bristol-motor-speedway": "fallback",

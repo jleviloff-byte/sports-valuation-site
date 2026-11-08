@@ -924,6 +924,38 @@ function bristol({ fp, mat, info }) {
   return g
 }
 
+// Lambeau Field: closed oval bowl, field north-south, centered at NAIP pixel
+// (445, 399). Bowl ~280 m N-S by ~224 m E-W (NAIP); the OSM polygon also
+// holds the atrium and plazas, so the bowl outline is capped. Light gray
+// bench seating in one slope, dark green upper facade band with suites, tall
+// south end with the large video board (2013 expansion), glass-and-brick
+// atrium on the east side (#17, #18, #1, NAIP).
+function lambeau({ fp: fp0, mat, info }) {
+  const cl = info.colors || {}
+  const SEAT = cl.seats || '#c2b4b0', GREEN = cl['facade green band'] || '#314746', BRICK = cl['facade brick'] || '#b05931'
+  const fc = info.naipBbox ? K.naipToLocal(fp0, info.naipBbox, [445, 399]) : K.centroid(fp0.pts)
+  const cap = { cx: fc[0], cz: fc[1], hx: 140, hz: 112, rr: 85, ang: -Math.PI / 2 }
+  const ring = []; for (let i = 1; i < 360; i += 2) { const d = K.bearingVec(i), t = K.rectHit(fc, d, cap, 0); ring.push([fc[0] + d[0] * t, fc[1] + d[1] * t]) } // odd bearings: no bowl ray passes exactly through a vertex
+  const fp = { ...fp0, pts: ring }
+  const field = { cx: fc[0], cz: fc[1], hx: 109.73 / 2, hz: 48.77 / 2, rr: 2, ang: -Math.PI / 2 }
+  const rimAt = (th) => { const c = Math.cos((th * Math.PI) / 180); return 30 + 14 * K.smooth(Math.min(1, Math.max(0, (-c - 0.35) / 0.4))) } // south end taller, blended
+  const g = K.bowl({ center: fc, outline: ring, inner: (th, d) => K.rectHit(fc, d, field, 9), nTheta: 540, nU: 40, rows: true, rowCount: 60,
+    profile: (u, th) => { const H = rimAt(th); if (u > 0.9) return { h: H, color: GREEN }; return { h: K.lerp(1.5, H * 0.82, u / 0.9), color: SEAT, seat: true } }, facade: GREEN }, mat)
+  g.add(fieldMesh(g.userData.innerRing, 0.05, (ctx, toPx, ppm) => K.footballField(ctx, toPx, ppm, { ...field, grass: '#4f8f3c', grass2: '#58994a', surround: '#4f8f3c', endzone: '#2e5a3a', endzoneText: '#d8b63a' }), mat))
+  g.add(K.rimBand(g, { top: 0, bottom: 6, color: GREEN, mat }))
+  // Video board above the south end, facing the field.
+  const south = K.bearingVec(180), so = K.rectHit(fc, south, cap, 0) - 12
+  g.add(K.place(K.scoreboard(60, 18, 44, mat), [fc[0] + south[0] * so, fc[1] + south[1] * so], 0, 90))
+  // East atrium: brick piers, glass curtain wall, long white roof (#18, #17).
+  const east = K.bearingVec(90), eo = K.rectHit(fc, east, cap, 0) + 18
+  const at = new THREE.Group()
+  at.add(K.box(170, 24, 40, '#5b7a86', mat, { kind: 'glass' }))
+  for (let k = -8; k <= 8; k++) { const pier = K.box(3, 25, 41, BRICK, mat, { kind: 'brick' }); pier.position.x = k * 10.4; at.add(pier) }
+  const r = K.box(176, 1.4, 44, '#e8e8e4', mat, { kind: 'concrete' }); r.position.y = 25; at.add(r)
+  g.add(K.place(at, [fc[0] + east[0] * eo, fc[1] + east[1] * eo], 0, 0))
+  return g
+}
+
 export const BUILDERS = {
   'michigan-stadium': michigan,
   'yulman-stadium': yulman,
@@ -937,4 +969,5 @@ export const BUILDERS = {
   'rupp-arena': rupp,
   'q2-stadium': q2,
   'bristol-motor-speedway': bristol,
+  'lambeau-field': lambeau,
 }
