@@ -187,5 +187,2917 @@
   "license": "Public domain (USGS NAIP, U.S. Government work)",
   "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
   "fetched": "2026-11-07T13:15:41.966Z"
+ },
+ "indianapolis-motor-speedway": {
+  "file": "research/raw/stadiums/naip/indianapolis-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.249951,39.783273,-86.219553,39.806793&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:19.228Z"
+ },
+ "bristol-motor-speedway": {
+  "file": "research/raw/stadiums/naip/bristol-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.271536,36.504008,-82.242476,36.527528&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:19.674Z"
+ },
+ "circuit-of-the-americas": {
+  "file": "research/raw/stadiums/naip/circuit-of-the-americas.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.644572,30.124574,-97.617566,30.148094&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:20.325Z"
+ },
+ "beaver-stadium": {
+  "file": "research/raw/stadiums/naip/beaver-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.859618,40.809289,-77.852972,40.814355&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:20.794Z"
+ },
+ "ohio-stadium": {
+  "file": "research/raw/stadiums/naip/ohio-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.023024,39.999114,-83.016456,40.004180&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:21.265Z"
+ },
+ "kyle-field": {
+  "file": "research/raw/stadiums/naip/kyle-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.343417,30.607351,-96.337571,30.612417&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:21.807Z"
+ },
+ "tiger-stadium": {
+  "file": "research/raw/stadiums/naip/tiger-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-91.186883,30.409393,-91.181049,30.414459&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:22.577Z"
+ },
+ "neyland-stadium": {
+  "file": "research/raw/stadiums/naip/neyland-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.928246,35.952465,-83.922032,35.957531&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:23.019Z"
+ },
+ "darrell-k-royal-texas-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/darrell-k-royal-texas-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.735704,30.281443,-97.729878,30.286509&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:23.579Z"
+ },
+ "bryant-denny-stadium": {
+  "file": "research/raw/stadiums/naip/bryant-denny-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.553400,33.205388,-87.547388,33.210454&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:24.017Z"
+ },
+ "charlotte-motor-speedway": {
+  "file": "research/raw/stadiums/naip/charlotte-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.696149,35.339509,-80.667513,35.363029&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:24.463Z"
+ },
+ "sanford-stadium": {
+  "file": "research/raw/stadiums/naip/sanford-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.376253,33.947164,-83.370189,33.952230&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:24.898Z"
+ },
+ "cotton-bowl": {
+  "file": "research/raw/stadiums/naip/cotton-bowl.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.762616,32.776990,-96.756632,32.782056&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:44.862Z"
+ },
+ "barber-motorsports-park": {
+  "file": "research/raw/stadiums/naip/barber-motorsports-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.632997,33.520408,-86.604977,33.543928&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:45.309Z"
+ },
+ "ben-hill-griffin-stadium": {
+  "file": "research/raw/stadiums/naip/ben-hill-griffin-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.351742,29.648019,-82.345954,29.653085&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:45.743Z"
+ },
+ "jordan-hare-stadium": {
+  "file": "research/raw/stadiums/naip/jordan-hare-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.492231,32.599547,-85.486259,32.604613&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:46.185Z"
+ },
+ "memorial-stadium-ne": {
+  "file": "research/raw/stadiums/naip/memorial-stadium-ne.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.708960,40.818262,-96.702312,40.823328&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:46.643Z"
+ },
+ "metlife-stadium": {
+  "file": "research/raw/stadiums/naip/metlife-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-74.077673,40.810939,-74.071027,40.816005&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:47.087Z"
+ },
+ "memorial-stadium-sc": {
+  "file": "research/raw/stadiums/naip/memorial-stadium-sc.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.846516,34.676223,-82.840398,34.681289&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:47.522Z"
+ },
+ "lambeau-field": {
+  "file": "research/raw/stadiums/naip/lambeau-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.065319,44.498450,-88.058265,44.503516&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:47.961Z"
+ },
+ "rose-bowl": {
+  "file": "research/raw/stadiums/naip/rose-bowl.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.171028,34.158751,-118.164948,34.163817&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:48.414Z"
+ },
+ "gaylord-family-oklahoma-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/gaylord-family-oklahoma-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.445296,35.203071,-97.439140,35.208137&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:48.849Z"
+ },
+ "atandt-stadium": {
+  "file": "research/raw/stadiums/naip/atandt-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.095805,32.745332,-97.089823,32.750398&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:49.273Z"
+ },
+ "las-vegas-motor-speedway": {
+  "file": "research/raw/stadiums/naip/las-vegas-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-115.026937,36.261480,-114.997967,36.285000&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:49.710Z"
+ },
+ "talladega-superspeedway": {
+  "file": "research/raw/stadiums/naip/talladega-superspeedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.080761,33.550214,-86.052733,33.573734&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:50.143Z"
+ },
+ "notre-dame-stadium": {
+  "file": "research/raw/stadiums/naip/notre-dame-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.237271,41.695858,-86.230533,41.700924&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:50.579Z"
+ },
+ "williams-brice-stadium": {
+  "file": "research/raw/stadiums/naip/williams-brice-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.022216,33.970553,-81.016150,33.975619&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:51.109Z"
+ },
+ "los-angeles-memorial-coliseum": {
+  "file": "research/raw/stadiums/naip/los-angeles-memorial-coliseum.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.291407,34.011429,-118.285339,34.016495&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:51.560Z"
+ },
+ "pocono-raceway": {
+  "file": "research/raw/stadiums/naip/pocono-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.524330,41.043281,-75.493356,41.066801&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:51.996Z"
+ },
+ "arrowhead-stadium": {
+  "file": "research/raw/stadiums/naip/arrowhead-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.487433,39.046281,-94.480955,39.051347&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:52.432Z"
+ },
+ "razorback-stadium": {
+  "file": "research/raw/stadiums/naip/razorback-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.181862,36.065392,-94.175638,36.070458&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:52.881Z"
+ },
+ "empower-field-at-mile-high": {
+  "file": "research/raw/stadiums/naip/empower-field-at-mile-high.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-105.023326,39.741340,-105.016784,39.746406&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:53.321Z"
+ },
+ "camp-randall-stadium": {
+  "file": "research/raw/stadiums/naip/camp-randall-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.416225,43.067362,-89.409339,43.072428&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:53.760Z"
+ },
+ "bank-of-america-stadium": {
+  "file": "research/raw/stadiums/naip/bank-of-america-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.855946,35.223279,-80.849788,35.228345&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:54.208Z"
+ },
+ "mid-ohio-sports-car-course": {
+  "file": "research/raw/stadiums/naip/mid-ohio-sports-car-course.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.649341,40.674816,-82.618539,40.698336&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:54.641Z"
+ },
+ "texas-motor-speedway": {
+  "file": "research/raw/stadiums/naip/texas-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.293734,33.025680,-97.265874,33.049200&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:55.080Z"
+ },
+ "spartan-stadium": {
+  "file": "research/raw/stadiums/naip/spartan-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.488629,42.725640,-84.481781,42.730706&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:55.515Z"
+ },
+ "caesars-superdome": {
+  "file": "research/raw/stadiums/naip/caesars-superdome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.083970,29.948550,-90.078164,29.953616&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:55.944Z"
+ },
+ "reliant-stadium": {
+  "file": "research/raw/stadiums/naip/reliant-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.413697,29.682323,-95.407907,29.687389&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:56.378Z"
+ },
+ "husky-stadium": {
+  "file": "research/raw/stadiums/naip/husky-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.305623,47.647908,-122.298155,47.652974&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:56.833Z"
+ },
+ "legion-field": {
+  "file": "research/raw/stadiums/naip/legion-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.845951,33.508951,-86.839917,33.514017&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:57.266Z"
+ },
+ "atlanta-motor-speedway": {
+  "file": "research/raw/stadiums/naip/atlanta-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.331842,33.371734,-84.303870,33.395254&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:57.704Z"
+ },
+ "mercedes-benz-stadium": {
+  "file": "research/raw/stadiums/naip/mercedes-benz-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.403925,33.752912,-84.397875,33.757978&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:58.141Z"
+ },
+ "mandt-bank-stadium": {
+  "file": "research/raw/stadiums/naip/mandt-bank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.626050,39.275486,-76.619552,39.280552&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:58.589Z"
+ },
+ "kinnick-stadium": {
+  "file": "research/raw/stadiums/naip/kinnick-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-91.554665,41.656118,-91.547931,41.661184&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:59.054Z"
+ },
+ "raymond-james-stadium": {
+  "file": "research/raw/stadiums/naip/raymond-james-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.506170,27.973434,-82.500474,27.978500&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:59.506Z"
+ },
+ "nissan-stadium": {
+  "file": "research/raw/stadiums/naip/nissan-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.774485,36.164101,-86.768253,36.169167&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:27:59.947Z"
+ },
+ "levi-s-stadium": {
+  "file": "research/raw/stadiums/naip/levi-s-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.972840,37.400484,-121.966508,37.405550&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:00.383Z"
+ },
+ "acrisure-stadium": {
+  "file": "research/raw/stadiums/naip/acrisure-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.019192,40.444129,-80.012582,40.449195&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:00.811Z"
+ },
+ "lumen-field": {
+  "file": "research/raw/stadiums/naip/lumen-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.335283,47.592631,-122.327823,47.597697&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:01.247Z"
+ },
+ "everbank-stadium": {
+  "file": "research/raw/stadiums/naip/everbank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.640277,30.321610,-81.634449,30.326676&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:01.678Z"
+ },
+ "lincoln-financial-field": {
+  "file": "research/raw/stadiums/naip/lincoln-financial-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.170447,39.898410,-75.163889,39.903476&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:02.114Z"
+ },
+ "huntington-bank-field": {
+  "file": "research/raw/stadiums/naip/huntington-bank-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.702903,41.503490,-81.696185,41.508556&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:02.559Z"
+ },
+ "doak-campbell-stadium": {
+  "file": "research/raw/stadiums/naip/doak-campbell-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.307343,30.435657,-84.301509,30.440723&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:03.006Z"
+ },
+ "lucas-oil-stadium": {
+  "file": "research/raw/stadiums/naip/lucas-oil-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.166676,39.755898,-86.160132,39.760964&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:03.452Z"
+ },
+ "soldier-field": {
+  "file": "research/raw/stadiums/naip/soldier-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.620186,41.859752,-87.613432,41.864818&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:03.881Z"
+ },
+ "u-s-bank-stadium": {
+  "file": "research/raw/stadiums/naip/u-s-bank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.261556,44.971467,-93.254444,44.976533&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:04.328Z"
+ },
+ "lane-stadium": {
+  "file": "research/raw/stadiums/naip/lane-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.421341,37.217269,-80.415023,37.222335&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:04.763Z"
+ },
+ "paycor-stadium": {
+  "file": "research/raw/stadiums/naip/paycor-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.519329,39.092833,-84.512847,39.097899&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:05.199Z"
+ },
+ "allegiant-stadium": {
+  "file": "research/raw/stadiums/naip/allegiant-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-115.186464,36.088212,-115.180238,36.093278&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:12.331Z"
+ },
+ "ford-field": {
+  "file": "research/raw/stadiums/naip/ford-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.049282,42.337108,-83.042476,42.342174&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:12.771Z"
+ },
+ "hard-rock-stadium": {
+  "file": "research/raw/stadiums/naip/hard-rock-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.241619,25.955470,-80.236025,25.960536&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:13.204Z"
+ },
+ "gillette-stadium": {
+  "file": "research/raw/stadiums/naip/gillette-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.267757,42.088375,-71.260979,42.093441&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:13.638Z"
+ },
+ "vaught-hemingway-stadium": {
+  "file": "research/raw/stadiums/naip/vaught-hemingway-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.537526,34.359380,-89.531432,34.364446&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:14.070Z"
+ },
+ "alamodome": {
+  "file": "research/raw/stadiums/naip/alamodome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-98.481705,29.414338,-98.475929,29.419404&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:14.508Z"
+ },
+ "northwest-stadium": {
+  "file": "research/raw/stadiums/naip/northwest-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.868123,38.905243,-76.861659,38.910309&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:14.947Z"
+ },
+ "faurot-field": {
+  "file": "research/raw/stadiums/naip/faurot-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.336440,38.933310,-92.329972,38.938376&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:15.380Z"
+ },
+ "state-farm-stadium": {
+  "file": "research/raw/stadiums/naip/state-farm-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-112.262622,33.524813,-112.256588,33.529879&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:15.812Z"
+ },
+ "lavell-edwards-stadium": {
+  "file": "research/raw/stadiums/naip/lavell-edwards-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.657816,40.255011,-111.651224,40.260077&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:16.272Z"
+ },
+ "jack-trice-stadium": {
+  "file": "research/raw/stadiums/naip/jack-trice-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.639166,42.011680,-93.632396,42.016746&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:16.715Z"
+ },
+ "scott-stadium": {
+  "file": "research/raw/stadiums/naip/scott-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.516415,38.028179,-78.510029,38.033245&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:17.147Z"
+ },
+ "yale-bowl": {
+  "file": "research/raw/stadiums/naip/yale-bowl.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-72.963919,41.310653,-72.957221,41.315719&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:17.596Z"
+ },
+ "ross-ade-stadium": {
+  "file": "research/raw/stadiums/naip/ross-ade-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.921846,40.432332,-86.915236,40.437398&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:18.037Z"
+ },
+ "kroger-field": {
+  "file": "research/raw/stadiums/naip/kroger-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.508349,38.020269,-84.501963,38.025335&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:18.469Z"
+ },
+ "landn-federal-credit-union-stadium": {
+  "file": "research/raw/stadiums/naip/landn-federal-credit-union-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.761697,38.204078,-85.755295,38.209144&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:18.907Z"
+ },
+ "gies-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/gies-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.239249,40.096615,-88.232673,40.101681&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:19.336Z"
+ },
+ "mississippi-veterans-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/mississippi-veterans-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.182934,32.327345,-90.176980,32.332411&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:19.772Z"
+ },
+ "davis-wade-stadium": {
+  "file": "research/raw/stadiums/naip/davis-wade-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.796442,33.453862,-88.790412,33.458928&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:20.208Z"
+ },
+ "galaxy-stadium": {
+  "file": "research/raw/stadiums/naip/galaxy-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-101.876020,33.588560,-101.869980,33.593626&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:20.660Z"
+ },
+ "camping-world-stadium": {
+  "file": "research/raw/stadiums/naip/camping-world-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.405608,28.536101,-81.399882,28.541167&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:21.095Z"
+ },
+ "autzen-stadium": {
+  "file": "research/raw/stadiums/naip/autzen-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-123.072154,44.055594,-123.065154,44.060660&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:21.541Z"
+ },
+ "highmark-stadium": {
+  "file": "research/raw/stadiums/naip/highmark-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.795650,42.770573,-78.788796,42.775639&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:21.977Z"
+ },
+ "milan-puskar-stadium": {
+  "file": "research/raw/stadiums/naip/milan-puskar-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.958364,39.647709,-79.951830,39.652775&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:22.410Z"
+ },
+ "gateway-motorsports-park": {
+  "file": "research/raw/stadiums/naip/gateway-motorsports-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.150322,38.639040,-90.120416,38.662560&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:22.886Z"
+ },
+ "carter-finley-stadium": {
+  "file": "research/raw/stadiums/naip/carter-finley-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.722959,35.798314,-78.716757,35.803380&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:23.356Z"
+ },
+ "michigan-international-speedway": {
+  "file": "research/raw/stadiums/naip/michigan-international-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.250830,42.051219,-84.219370,42.074739&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:23.892Z"
+ },
+ "rice-eccles-stadium": {
+  "file": "research/raw/stadiums/naip/rice-eccles-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.852402,40.757576,-111.845760,40.762642&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:24.362Z"
+ },
+ "dover-motor-speedway": {
+  "file": "research/raw/stadiums/naip/dover-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.545047,39.177988,-75.514913,39.201508&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:24.926Z"
+ },
+ "mountain-america-stadium": {
+  "file": "research/raw/stadiums/naip/mountain-america-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.935721,33.423639,-111.929693,33.428705&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:25.354Z"
+ },
+ "memorial-stadium-in": {
+  "file": "research/raw/stadiums/naip/memorial-stadium-in.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.529025,39.178297,-86.522535,39.183363&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:33.570Z"
+ },
+ "amon-g-carter-stadium": {
+  "file": "research/raw/stadiums/naip/amon-g-carter-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.371119,32.707400,-97.365141,32.712466&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:57.492Z"
+ },
+ "franklin-field": {
+  "file": "research/raw/stadiums/naip/franklin-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.193123,39.947453,-75.186561,39.952519&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:57.926Z"
+ },
+ "shi-stadium": {
+  "file": "research/raw/stadiums/naip/shi-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-74.468280,40.510918,-74.461664,40.515984&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:58.358Z"
+ },
+ "california-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/california-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.253967,37.868470,-122.247595,37.873536&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:58.798Z"
+ },
+ "boone-pickens-stadium": {
+  "file": "research/raw/stadiums/naip/boone-pickens-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.070068,36.123243,-97.063840,36.128309&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:59.311Z"
+ },
+ "bobby-dodd-stadium": {
+  "file": "research/raw/stadiums/naip/bobby-dodd-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.395826,33.769861,-84.389774,33.774927&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:28:59.786Z"
+ },
+ "dowdy-ficklen-stadium": {
+  "file": "research/raw/stadiums/naip/dowdy-ficklen-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.368558,35.593879,-77.362372,35.598945&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:00.249Z"
+ },
+ "huntington-bank-stadium": {
+  "file": "research/raw/stadiums/naip/huntington-bank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.227869,44.974027,-93.220757,44.979093&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:00.700Z"
+ },
+ "casino-del-sol-stadium": {
+  "file": "research/raw/stadiums/naip/casino-del-sol-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-110.951973,32.226467,-110.946027,32.231533&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:01.159Z"
+ },
+ "kenan-stadium": {
+  "file": "research/raw/stadiums/naip/kenan-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.051095,35.904353,-79.044885,35.909419&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:01.614Z"
+ },
+ "stanford-stadium": {
+  "file": "research/raw/stadiums/naip/stanford-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.164271,37.431979,-122.157935,37.437045&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:02.051Z"
+ },
+ "folsom-field": {
+  "file": "research/raw/stadiums/naip/folsom-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-105.270202,40.006923,-105.263634,40.011989&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:02.490Z"
+ },
+ "bill-snyder-family-football-stadium": {
+  "file": "research/raw/stadiums/naip/bill-snyder-family-football-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.597135,39.199411,-96.590643,39.204477&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:02.940Z"
+ },
+ "independence-stadium": {
+  "file": "research/raw/stadiums/naip/independence-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.794949,32.472652,-93.788985,32.477718&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:03.365Z"
+ },
+ "richmond-raceway": {
+  "file": "research/raw/stadiums/naip/richmond-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.433979,37.580426,-77.404503,37.603946&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:03.798Z"
+ },
+ "kansas-speedway": {
+  "file": "research/raw/stadiums/naip/kansas-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.845643,39.104258,-94.815539,39.127778&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:04.234Z"
+ },
+ "protective-stadium": {
+  "file": "research/raw/stadiums/naip/protective-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.812473,33.525436,-86.806439,33.530502&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:04.661Z"
+ },
+ "chicagoland-speedway": {
+  "file": "research/raw/stadiums/naip/chicagoland-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.072450,41.460973,-88.041278,41.484493&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:05.090Z"
+ },
+ "darlington-raceway": {
+  "file": "research/raw/stadiums/naip/darlington-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.919329,34.283367,-79.891057,34.306887&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:05.531Z"
+ },
+ "first-community-stadium": {
+  "file": "research/raw/stadiums/naip/first-community-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.412063,29.713856,-95.406271,29.718922&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:05.966Z"
+ },
+ "coors-field": {
+  "file": "research/raw/stadiums/naip/coors-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-104.996694,39.753657,-104.991318,39.757819&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:06.419Z"
+ },
+ "yankee-stadium": {
+  "file": "research/raw/stadiums/naip/yankee-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.929430,40.827515,-73.923968,40.831677&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:06.851Z"
+ },
+ "secu-stadium": {
+  "file": "research/raw/stadiums/naip/secu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.950792,38.987872,-76.944320,38.992938&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:07.288Z"
+ },
+ "sun-bowl": {
+  "file": "research/raw/stadiums/naip/sun-bowl.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-106.511086,31.770742,-106.505168,31.775808&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:07.717Z"
+ },
+ "acrisure-bounce-house": {
+  "file": "research/raw/stadiums/naip/acrisure-bounce-house.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.195641,28.605610,-81.189911,28.610676&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:08.345Z"
+ },
+ "simmons-bank-liberty-stadium": {
+  "file": "research/raw/stadiums/naip/simmons-bank-liberty-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.980317,35.118692,-89.974167,35.123758&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:08.777Z"
+ },
+ "mclane-stadium": {
+  "file": "research/raw/stadiums/naip/mclane-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.118640,31.555504,-97.112736,31.560570&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:09.231Z"
+ },
+ "alumni-stadium": {
+  "file": "research/raw/stadiums/naip/alumni-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.169721,42.332637,-71.162915,42.337703&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:09.665Z"
+ },
+ "martinsville-speedway": {
+  "file": "research/raw/stadiums/naip/martinsville-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.866464,36.622083,-79.837358,36.645603&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:10.113Z"
+ },
+ "new-hampshire-motor-speedway": {
+  "file": "research/raw/stadiums/naip/new-hampshire-motor-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.474156,43.347516,-71.442032,43.371036&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:28.419Z"
+ },
+ "sonoma-raceway": {
+  "file": "research/raw/stadiums/naip/sonoma-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.473049,38.149547,-122.443345,38.173067&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:28.845Z"
+ },
+ "great-american-ball-park": {
+  "file": "research/raw/stadiums/naip/great-american-ball-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.509353,39.095287,-84.504029,39.099449&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:29.281Z"
+ },
+ "homestead-miami-speedway": {
+  "file": "research/raw/stadiums/naip/homestead-miami-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.423391,25.441594,-80.397525,25.465114&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:29.724Z"
+ },
+ "citizens-bank-park": {
+  "file": "research/raw/stadiums/naip/citizens-bank-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.169385,39.903810,-75.163999,39.907972&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:30.219Z"
+ },
+ "jma-wireless-dome": {
+  "file": "research/raw/stadiums/naip/jma-wireless-dome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.139803,43.033693,-76.132921,43.038759&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:57.503Z"
+ },
+ "phoenix-raceway": {
+  "file": "research/raw/stadiums/naip/phoenix-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-112.324535,33.362967,-112.296567,33.386487&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:57.929Z"
+ },
+ "american-family-field": {
+  "file": "research/raw/stadiums/naip/american-family-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.974656,43.026389,-87.969004,43.030551&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:58.361Z"
+ },
+ "david-booth-kansas-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/david-booth-kansas-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.250001,38.960160,-95.243531,38.965226&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:58.801Z"
+ },
+ "nationals-park": {
+  "file": "research/raw/stadiums/naip/nationals-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.010198,38.870633,-77.004890,38.874795&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:59.234Z"
+ },
+ "oracle-park": {
+  "file": "research/raw/stadiums/naip/oracle-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.392470,37.776421,-122.387242,37.780583&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:29:59.667Z"
+ },
+ "daikin-park": {
+  "file": "research/raw/stadiums/naip/daikin-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.357737,29.755119,-95.352977,29.759281&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:00.094Z"
+ },
+ "truist-park": {
+  "file": "research/raw/stadiums/naip/truist-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.470491,33.888534,-84.465513,33.892696&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:00.529Z"
+ },
+ "canvas-stadium": {
+  "file": "research/raw/stadiums/naip/canvas-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-105.091817,40.567305,-105.085195,40.572371&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:27.151Z"
+ },
+ "kidd-brewer-stadium": {
+  "file": "research/raw/stadiums/naip/kidd-brewer-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.688664,36.208912,-81.682430,36.213978&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:27.669Z"
+ },
+ "pratt-and-whitney-stadium-at-rentschler-field": {
+  "file": "research/raw/stadiums/naip/pratt-and-whitney-stadium-at-rentschler-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-72.622261,41.757189,-72.615517,41.762255&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:28.131Z"
+ },
+ "petco-park": {
+  "file": "research/raw/stadiums/naip/petco-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-117.159316,32.705182,-117.154406,32.709344&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:28.927Z"
+ },
+ "tdecu-stadium": {
+  "file": "research/raw/stadiums/naip/tdecu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.352063,29.719411,-95.346271,29.724477&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:29.856Z"
+ },
+ "falcon-stadium": {
+  "file": "research/raw/stadiums/naip/falcon-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-104.847212,38.994525,-104.840740,38.999591&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:30.302Z"
+ },
+ "university-stadium": {
+  "file": "research/raw/stadiums/naip/university-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-106.631678,35.064498,-106.625532,35.069564&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:30.744Z"
+ },
+ "watkins-glen-international": {
+  "file": "research/raw/stadiums/naip/watkins-glen-international.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.940696,42.326389,-76.909098,42.349909&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:31.189Z"
+ },
+ "pnc-park": {
+  "file": "research/raw/stadiums/naip/pnc-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.008702,40.444840,-80.003272,40.449002&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:31.620Z"
+ },
+ "nippert-stadium": {
+  "file": "research/raw/stadiums/naip/nippert-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.519475,39.128661,-84.512989,39.133727&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:32.070Z"
+ },
+ "kauffman-stadium": {
+  "file": "research/raw/stadiums/naip/kauffman-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.483081,39.049458,-94.477759,39.053620&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:32.497Z"
+ },
+ "joan-c-edwards-stadium": {
+  "file": "research/raw/stadiums/naip/joan-c-edwards-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.424467,38.422131,-82.418045,38.427197&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:32.941Z"
+ },
+ "milwaukee-mile": {
+  "file": "research/raw/stadiums/naip/milwaukee-mile.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.027087,43.009118,-87.995141,43.032638&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:33.390Z"
+ },
+ "renasant-stadium": {
+  "file": "research/raw/stadiums/naip/renasant-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.334334,31.326356,-89.328444,31.331422&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:33.823Z"
+ },
+ "michie-stadium": {
+  "file": "research/raw/stadiums/naip/michie-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.967566,41.384909,-73.960860,41.389975&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:34.267Z"
+ },
+ "reser-stadium": {
+  "file": "research/raw/stadiums/naip/reser-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-123.285074,44.557004,-123.278014,44.562070&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:34.710Z"
+ },
+ "albertsons-stadium": {
+  "file": "research/raw/stadiums/naip/albertsons-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-116.200097,43.600052,-116.193151,43.605118&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:35.152Z"
+ },
+ "kelly-shorts-stadium": {
+  "file": "research/raw/stadiums/naip/kelly-shorts-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.774791,43.574911,-84.767847,43.579977&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:35.587Z"
+ },
+ "wallace-wade-stadium": {
+  "file": "research/raw/stadiums/naip/wallace-wade-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.945095,35.992887,-78.938877,35.997953&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:36.012Z"
+ },
+ "firstbank-stadium": {
+  "file": "research/raw/stadiums/naip/firstbank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.812203,36.141268,-86.805973,36.146334&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:36.439Z"
+ },
+ "ryan-field": {
+  "file": "research/raw/stadiums/naip/ryan-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.695722,42.062981,-87.688946,42.068047&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:36.880Z"
+ },
+ "snapdragon-stadium": {
+  "file": "research/raw/stadiums/naip/snapdragon-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-117.125698,32.781452,-117.119714,32.786518&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:37.312Z"
+ },
+ "navy-marine-corps-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/navy-marine-corps-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.510319,38.982232,-76.503847,38.987298&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:37.750Z"
+ },
+ "progressive-field": {
+  "file": "research/raw/stadiums/naip/progressive-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.687850,41.493761,-81.682334,41.497923&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:38.172Z"
+ },
+ "gerald-j-ford-stadium": {
+  "file": "research/raw/stadiums/naip/gerald-j-ford-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.785710,32.835187,-96.779722,32.840253&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:38.612Z"
+ },
+ "allegacy-federal-credit-union-stadium": {
+  "file": "research/raw/stadiums/naip/allegacy-federal-credit-union-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.257968,36.128118,-80.251740,36.133184&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:39.045Z"
+ },
+ "veterans-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/veterans-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.954748,31.796927,-85.948830,31.801993&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:39.487Z"
+ },
+ "centennial-bank-stadium": {
+  "file": "research/raw/stadiums/naip/centennial-bank-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.670253,35.846154,-90.664047,35.851220&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:39.920Z"
+ },
+ "cajun-field": {
+  "file": "research/raw/stadiums/naip/cajun-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.044617,30.213449,-92.038795,30.218515&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:40.347Z"
+ },
+ "waldo-stadium": {
+  "file": "research/raw/stadiums/naip/waldo-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.604662,42.283239,-85.597862,42.288305&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:40.776Z"
+ },
+ "geodis-park": {
+  "file": "research/raw/stadiums/naip/geodis-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.768331,36.127861,-86.763215,36.132023&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:41.209Z"
+ },
+ "datcu-stadium": {
+  "file": "research/raw/stadiums/naip/datcu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.162560,33.201637,-97.156548,33.206703&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:41.646Z"
+ },
+ "flagler-credit-union-stadium": {
+  "file": "research/raw/stadiums/naip/flagler-credit-union-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.104475,26.373578,-80.098859,26.378644&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:42.088Z"
+ },
+ "infocision-stadium-summa-field": {
+  "file": "research/raw/stadiums/naip/infocision-stadium-summa-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.511355,41.069814,-81.504683,41.074880&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:42.533Z"
+ },
+ "iowa-speedway": {
+  "file": "research/raw/stadiums/naip/iowa-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.028984,41.662900,-92.997714,41.686420&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:42.993Z"
+ },
+ "mackay-stadium": {
+  "file": "research/raw/stadiums/naip/mackay-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-119.820672,39.544177,-119.814148,39.549243&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:43.441Z"
+ },
+ "portland-international-raceway": {
+  "file": "research/raw/stadiums/naip/portland-international-raceway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.709004,45.584940,-122.675624,45.608460&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:43.891Z"
+ },
+ "skelly-field-at-h-a-chapman-stadium": {
+  "file": "research/raw/stadiums/naip/skelly-field-at-h-a-chapman-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.947004,36.146078,-95.940774,36.151144&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:44.340Z"
+ },
+ "valley-children-s-stadium": {
+  "file": "research/raw/stadiums/naip/valley-children-s-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-119.761067,36.812145,-119.754783,36.817211&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:44.781Z"
+ },
+ "william-dick-price-stadium": {
+  "file": "research/raw/stadiums/naip/william-dick-price-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.263174,36.844062,-76.256888,36.849128&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:45.230Z"
+ },
+ "war-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/war-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-105.571730,41.309164,-105.565032,41.314230&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:30:45.663Z"
+ },
+ "aggie-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/aggie-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-106.744086,32.277103,-106.738136,32.282169&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:31:09.728Z"
+ },
+ "joe-aillet-stadium": {
+  "file": "research/raw/stadiums/naip/joe-aillet-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.658984,32.529535,-92.653018,32.534601&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:31:10.165Z"
+ },
+ "ufcu-stadium": {
+  "file": "research/raw/stadiums/naip/ufcu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.928484,29.888412,-97.922682,29.893478&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:31:28.802Z"
+ },
+ "huskie-stadium": {
+  "file": "research/raw/stadiums/naip/huskie-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.781191,41.931574,-88.774429,41.936640&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:31:57.387Z"
+ },
+ "powers-field-at-princeton-stadium": {
+  "file": "research/raw/stadiums/naip/powers-field-at-princeton-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-74.653628,40.343690,-74.647028,40.348756&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:32:27.893Z"
+ },
+ "fmol-health-st-francis-stadium": {
+  "file": "research/raw/stadiums/naip/fmol-health-st-francis-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.068816,32.528300,-92.062850,32.533366&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:32:55.023Z"
+ },
+ "johnny-red-floyd-stadium": {
+  "file": "research/raw/stadiums/naip/johnny-red-floyd-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.371511,35.848766,-86.365305,35.853832&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:32:55.455Z"
+ },
+ "nu-stadium": {
+  "file": "research/raw/stadiums/naip/nu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.261910,25.790199,-80.257320,25.794361&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:33:10.568Z"
+ },
+ "asu-stadium": {
+  "file": "research/raw/stadiums/naip/asu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.292786,32.361640,-86.286830,32.366706&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:33:30.135Z"
+ },
+ "rynearson-stadium": {
+  "file": "research/raw/stadiums/naip/rynearson-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.650768,42.253273,-83.643972,42.258339&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:33:57.135Z"
+ },
+ "glass-bowl": {
+  "file": "research/raw/stadiums/naip/glass-bowl.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.617353,41.654754,-83.610619,41.659820&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:33:57.569Z"
+ },
+ "dignity-health-sports-park": {
+  "file": "research/raw/stadiums/naip/dignity-health-sports-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.263573,33.862142,-118.258597,33.866304&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:34:00.228Z"
+ },
+ "tql-stadium": {
+  "file": "research/raw/stadiums/naip/tql-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.524392,39.109038,-84.519066,39.113200&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:34:26.549Z"
+ },
+ "maverik-stadium": {
+  "file": "research/raw/stadiums/naip/maverik-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.815028,41.749402,-111.808284,41.754468&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:34:46.055Z"
+ },
+ "a-w-mumford-stadium": {
+  "file": "research/raw/stadiums/naip/a-w-mumford-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-91.192572,30.519814,-91.186732,30.524880&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:35:14.690Z"
+ },
+ "bragg-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/bragg-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.294760,30.423507,-84.288926,30.428573&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:35:33.037Z"
+ },
+ "hancock-whitney-stadium": {
+  "file": "research/raw/stadiums/naip/hancock-whitney-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.194940,30.694404,-88.189090,30.699470&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:36:00.963Z"
+ },
+ "dix-stadium": {
+  "file": "research/raw/stadiums/naip/dix-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.317238,41.136451,-81.310558,41.141517&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:36:16.185Z"
+ },
+ "washington-grizzly-stadium": {
+  "file": "research/raw/stadiums/naip/washington-grizzly-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-113.985029,46.861497,-113.977671,46.866563&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:36:32.186Z"
+ },
+ "tropicana-field": {
+  "file": "research/raw/stadiums/naip/tropicana-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.655712,27.765900,-82.651042,27.770062&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:36:54.673Z"
+ },
+ "broadview-stadium": {
+  "file": "research/raw/stadiums/naip/broadview-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.781468,42.996478,-78.774590,43.001544&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:36:55.104Z"
+ },
+ "allen-e-paulson-stadium": {
+  "file": "research/raw/stadiums/naip/allen-e-paulson-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.786103,32.409692,-81.780145,32.414758&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:37:14.391Z"
+ },
+ "harvard-stadium": {
+  "file": "research/raw/stadiums/naip/harvard-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.130215,42.364061,-71.123407,42.369127&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:37:41.154Z"
+ },
+ "inter-co-stadium": {
+  "file": "research/raw/stadiums/naip/inter-co-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.391263,28.538826,-81.386559,28.542988&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:38:07.737Z"
+ },
+ "nashville-superspeedway": {
+  "file": "research/raw/stadiums/naip/nashville-superspeedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.423250,36.034925,-86.394364,36.058445&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:38:31.430Z"
+ },
+ "sports-illustrated-stadium": {
+  "file": "research/raw/stadiums/naip/sports-illustrated-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-74.152833,40.734809,-74.147379,40.738971&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:38:31.876Z"
+ },
+ "williams-stadium": {
+  "file": "research/raw/stadiums/naip/williams-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.178151,37.351596,-79.171823,37.356662&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:38:42.754Z"
+ },
+ "bridgeforth-stadium": {
+  "file": "research/raw/stadiums/naip/bridgeforth-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.876315,38.432641,-78.869893,38.437707&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:39:00.382Z"
+ },
+ "providence-park": {
+  "file": "research/raw/stadiums/naip/providence-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.694691,45.519574,-122.688793,45.523736&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:39:03.915Z"
+ },
+ "center-parc-stadium": {
+  "file": "research/raw/stadiums/naip/center-parc-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.392406,33.733156,-84.386356,33.738222&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:39:30.619Z"
+ },
+ "yager-stadium": {
+  "file": "research/raw/stadiums/naip/yager-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.736236,39.516840,-84.729714,39.521906&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:39:50.029Z"
+ },
+ "doyt-perry-stadium": {
+  "file": "research/raw/stadiums/naip/doyt-perry-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.625863,41.375637,-83.619159,41.380703&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:40:10.715Z"
+ },
+ "memorial-stadium-tx": {
+  "file": "research/raw/stadiums/naip/memorial-stadium-tx.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-98.226973,32.212467,-98.221027,32.217533&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:40:26.918Z"
+ },
+ "peden-stadium": {
+  "file": "research/raw/stadiums/naip/peden-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.106381,39.318633,-82.099879,39.323699&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:40:39.922Z"
+ },
+ "fitton-field": {
+  "file": "research/raw/stadiums/naip/fitton-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.813370,42.239023,-71.806574,42.244089&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:40:52.890Z"
+ },
+ "amfirst-stadium": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.769065,33.817859,-85.763009,33.822925&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "casem-spinks-stadium": {
+  "file": "research/raw/stadiums/naip/casem-spinks-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-91.137880,31.871012,-91.131956,31.876078&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:41:24.221Z"
+ },
+ "scheumann-stadium": {
+  "file": "research/raw/stadiums/naip/scheumann-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.420064,40.213484,-85.413476,40.218550&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:41:44.891Z"
+ },
+ "energizer-park": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.212594,38.629023,-90.207304,38.633185&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "houchens-industries-l-t-smith-stadium": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.462593,36.982189,-86.456295,36.987255&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "kfc-yum-center": {
+  "file": "research/raw/stadiums/naip/kfc-yum-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.756225,38.255883,-85.751191,38.259863&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:47:42.082Z"
+ },
+ "shell-energy-stadium": {
+  "file": "research/raw/stadiums/naip/shell-energy-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.354995,29.749706,-95.349201,29.754772&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:48:11.889Z"
+ },
+ "first-horizon-coliseum": {
+  "file": "research/raw/stadiums/naip/first-horizon-coliseum.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.828145,36.057610,-79.823255,36.061590&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:48:34.279Z"
+ },
+ "oliver-c-dawson-stadium": {
+  "file": "research/raw/stadiums/naip/oliver-c-dawson-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.847773,33.496024,-80.841741,33.501090&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:48:56.424Z"
+ },
+ "s-b-ballard-stadium": {
+  "file": "research/raw/stadiums/naip/s-b-ballard-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.308023,36.886367,-76.301733,36.891433&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:49:24.096Z"
+ },
+ "dean-smith-center": {
+  "file": "research/raw/stadiums/naip/dean-smith-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.046104,35.897466,-79.041224,35.901446&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:49:41.116Z"
+ },
+ "thompson-boling-arena": {
+  "file": "research/raw/stadiums/naip/thompson-boling-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.927671,35.949012,-83.922789,35.952992&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:50:16.622Z"
+ },
+ "schoellkopf-field": {
+  "file": "research/raw/stadiums/naip/schoellkopf-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.481992,42.441561,-76.475174,42.446627&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:50:17.084Z"
+ },
+ "truist-stadium": {
+  "file": "research/raw/stadiums/naip/truist-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.772901,36.079229,-79.766677,36.084295&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:50:34.541Z"
+ },
+ "hornet-stadium": {
+  "file": "research/raw/stadiums/naip/hornet-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.426170,38.553137,-121.419738,38.558203&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:50:57.256Z"
+ },
+ "brooks-stadium": {
+  "file": "research/raw/stadiums/naip/brooks-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.020752,33.790408,-79.014698,33.795474&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:51:25.147Z"
+ },
+ "louis-crews-stadium": {
+  "file": "research/raw/stadiums/naip/louis-crews-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.581729,34.781123,-86.575603,34.786189&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:51:49.389Z"
+ },
+ "xfinity-mobile-arena": {
+  "file": "research/raw/stadiums/naip/xfinity-mobile-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.174560,39.899290,-75.169408,39.903270&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:52:18.494Z"
+ },
+ "united-center": {
+  "file": "research/raw/stadiums/naip/united-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.676838,41.878702,-87.671530,41.882682&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:52:48.562Z"
+ },
+ "bobcat-stadium": {
+  "file": "research/raw/stadiums/naip/bobcat-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.053027,45.656365,-111.045829,45.661431&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:53:14.124Z"
+ },
+ "q2-stadium": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.721895,30.385619,-97.717105,30.389781&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "stambaugh-stadium": {
+  "file": "research/raw/stadiums/naip/stambaugh-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.652984,41.106971,-80.646308,41.112037&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:53:50.855Z"
+ },
+ "rupp-arena": {
+  "file": "research/raw/stadiums/naip/rupp-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.504573,38.047240,-84.499553,38.051220&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:54:13.024Z"
+ },
+ "finley-stadium": {
+  "file": "research/raw/stadiums/naip/finley-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.318810,35.033550,-85.312666,35.038616&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:54:35.242Z"
+ },
+ "scottsmiracle-gro-field": {
+  "file": "research/raw/stadiums/naip/scottsmiracle-gro-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.019066,39.965837,-83.013674,39.969999&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:54:55.963Z"
+ },
+ "capital-one-arena": {
+  "file": "research/raw/stadiums/naip/capital-one-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.023732,38.895961,-77.018654,38.899941&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:55:16.623Z"
+ },
+ "little-caesars-arena": {
+  "file": "research/raw/stadiums/naip/little-caesars-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.057419,42.338977,-83.052071,42.342957&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:56:05.776Z"
+ },
+ "america-first-field": {
+  "file": "research/raw/stadiums/naip/america-first-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.896279,40.580583,-111.890839,40.584745&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:56:06.342Z"
+ },
+ "audi-field": {
+  "file": "research/raw/stadiums/naip/audi-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.015023,38.866481,-77.009715,38.870643&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:56:27.552Z"
+ },
+ "pitbull-stadium": {
+  "file": "research/raw/stadiums/naip/pitbull-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.380683,25.749954,-80.375097,25.755020&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:56:48.504Z"
+ },
+ "richard-gouse-field-at-brown-stadium": {
+  "file": "research/raw/stadiums/naip/richard-gouse-field-at-brown-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.397820,41.839689,-71.391068,41.844755&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:57:07.218Z"
+ },
+ "roy-kidd-stadium": {
+  "file": "research/raw/stadiums/naip/roy-kidd-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.300461,37.731869,-84.294101,37.736935&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:57:17.899Z"
+ },
+ "seatgeek-stadium": {
+  "file": "research/raw/stadiums/naip/seatgeek-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.809577,41.762060,-87.802833,41.767126&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:58:14.290Z"
+ },
+ "north-wilkesboro-speedway": {
+  "file": "research/raw/stadiums/naip/north-wilkesboro-speedway.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.086898,36.130878,-81.057976,36.154398&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:58:14.746Z"
+ },
+ "eddie-g-robinson-memorial-stadium": {
+  "file": "research/raw/stadiums/naip/eddie-g-robinson-memorial-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.724272,32.518392,-92.718306,32.523458&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:58:44.747Z"
+ },
+ "kaseya-center": {
+  "file": "research/raw/stadiums/naip/kaseya-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.190164,25.779372,-80.185774,25.783352&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T22:59:11.165Z"
+ },
+ "ball-arena": {
+  "file": "research/raw/stadiums/naip/ball-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-105.010101,39.746787,-105.004961,39.750767&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:00:08.621Z"
+ },
+ "value-city-arena": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.027263,40.005658,-83.022103,40.009638&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "spectrum-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.841812,35.223171,-80.836974,35.227151&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "rocket-arena": {
+  "file": "research/raw/stadiums/naip/rocket-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.690645,41.494537,-81.685367,41.498517&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:02:04.322Z"
+ },
+ "allianz-field": {
+  "file": "research/raw/stadiums/naip/allianz-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.167608,44.951045,-93.161768,44.955207&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:02:24.139Z"
+ },
+ "moda-center": {
+  "file": "research/raw/stadiums/naip/moda-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.669704,45.529600,-122.664062,45.533580&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:03:54.701Z"
+ },
+ "bud-walton-arena": {
+  "file": "research/raw/stadiums/naip/bud-walton-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.180556,36.059523,-94.175666,36.063503&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:04:18.747Z"
+ },
+ "lenovo-center": {
+  "file": "research/raw/stadiums/naip/lenovo-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.724380,35.801394,-78.719506,35.805374&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:04:41.602Z"
+ },
+ "dana-j-dykhouse-stadium": {
+  "file": "research/raw/stadiums/naip/dana-j-dykhouse-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.783914,44.318787,-96.776882,44.323853&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:06:03.864Z"
+ },
+ "amerant-bank-arena": {
+  "file": "research/raw/stadiums/naip/amerant-bank-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.327628,26.156440,-80.323224,26.160420&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:06:17.032Z"
+ },
+ "american-airlines-center": {
+  "file": "research/raw/stadiums/naip/american-airlines-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.812699,32.788507,-96.807997,32.792487&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:06:27.756Z"
+ },
+ "sap-center": {
+  "file": "research/raw/stadiums/naip/sap-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.904041,37.330916,-121.899069,37.334896&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:06:39.934Z"
+ },
+ "td-garden": {
+  "file": "research/raw/stadiums/naip/td-garden.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-71.064917,42.364488,-71.059567,42.368468&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:07:04.107Z"
+ },
+ "benchmark-international-arena": {
+  "file": "research/raw/stadiums/naip/benchmark-international-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.453920,27.940733,-82.449446,27.944713&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:07:26.303Z"
+ },
+ "crypto-com-arena": {
+  "file": "research/raw/stadiums/naip/crypto-com-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.269486,34.041092,-118.264716,34.045072&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:07:53.534Z"
+ },
+ "keybank-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-78.879086,42.873015,-78.873692,42.876995&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "kia-center": {
+  "file": "research/raw/stadiums/naip/kia-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.386127,28.537249,-81.381627,28.541229&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:08:27.620Z"
+ },
+ "target-center": {
+  "file": "research/raw/stadiums/naip/target-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.278820,44.977573,-93.273232,44.981553&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:08:56.203Z"
+ },
+ "prudential-center": {
+  "file": "research/raw/stadiums/naip/prudential-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-74.173211,40.731419,-74.167995,40.735399&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:09:18.789Z"
+ },
+ "fargodome": {
+  "file": "research/raw/stadiums/naip/fargodome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.804759,46.900529,-96.797397,46.905595&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:09:43.648Z"
+ },
+ "delaware-stadium": {
+  "file": "research/raw/stadiums/naip/delaware-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.752516,39.659193,-75.745982,39.664259&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:09:55.239Z"
+ },
+ "nationwide-arena": {
+  "file": "research/raw/stadiums/naip/nationwide-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-83.008609,39.967153,-83.003451,39.971133&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:10:09.006Z"
+ },
+ "subaru-park": {
+  "file": "research/raw/stadiums/naip/subaru-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.381005,39.830666,-75.375623,39.834828&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:10:35.397Z"
+ },
+ "sporting-park": {
+  "file": "research/raw/stadiums/naip/sporting-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.826049,39.119709,-94.820723,39.123871&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:10:47.707Z"
+ },
+ "frost-bank-center": {
+  "file": "research/raw/stadiums/naip/frost-bank-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-98.439763,29.425004,-98.435225,29.428984&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:11:51.445Z"
+ },
+ "chi-health-center": {
+  "file": "research/raw/stadiums/naip/chi-health-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.930823,41.260474,-95.925565,41.264454&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:12:12.158Z"
+ },
+ "intuit-dome": {
+  "file": "research/raw/stadiums/naip/intuit-dome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-118.344434,33.942106,-118.339670,33.946086&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:12:38.156Z"
+ },
+ "cefcu-stadium": {
+  "file": "research/raw/stadiums/naip/cefcu-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.871454,37.317212,-121.865128,37.322278&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:12:53.928Z"
+ },
+ "paycom-center": {
+  "file": "research/raw/stadiums/naip/paycom-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-97.517596,35.461372,-97.512744,35.465352&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:13:17.919Z"
+ },
+ "ppg-paints-arena": {
+  "file": "research/raw/stadiums/naip/ppg-paints-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-79.992255,40.437595,-79.987061,40.441575&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:13:41.225Z"
+ },
+ "delta-center": {
+  "file": "research/raw/stadiums/naip/delta-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.903658,40.766291,-111.898440,40.770271&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:14:15.695Z"
+ },
+ "toyota-center": {
+  "file": "research/raw/stadiums/naip/toyota-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.364419,29.748842,-95.359867,29.752822&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:14:16.135Z"
+ },
+ "enterprise-center": {
+  "file": "research/raw/stadiums/naip/enterprise-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.205065,38.624839,-90.200005,38.628819&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:14:35.093Z"
+ },
+ "chase-center": {
+  "file": "research/raw/stadiums/naip/chase-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.389914,37.765860,-122.384914,37.769840&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:14:53.905Z"
+ },
+ "dick-s-sporting-goods-park": {
+  "file": "research/raw/stadiums/naip/dick-s-sporting-goods-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-104.894540,39.803454,-104.889162,39.807616&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:15:12.246Z"
+ },
+ "colonial-life-arena": {
+  "file": "research/raw/stadiums/naip/colonial-life-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-81.039351,33.992685,-81.034583,33.996665&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:15:38.839Z"
+ },
+ "paypal-park": {
+  "file": "research/raw/stadiums/naip/paypal-park.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.927262,37.349395,-121.922064,37.353557&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 230,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:16:08.918Z"
+ },
+ "marriott-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.651953,40.252078,-111.646773,40.256058&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "grand-casino-arena": {
+  "file": "research/raw/stadiums/naip/grand-casino-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.104043,44.942751,-93.098459,44.946731&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:17:21.875Z"
+ },
+ "thomas-and-mack-center": {
+  "file": "research/raw/stadiums/naip/thomas-and-mack-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-115.146818,36.102880,-115.141926,36.106860&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:18:25.367Z"
+ },
+ "bok-center": {
+  "file": "research/raw/stadiums/naip/bok-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.998840,36.150704,-95.993944,36.154684&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:18:53.521Z"
+ },
+ "navarre-stadium": {
+  "file": "research/raw/stadiums/naip/navarre-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.212909,30.170800,-93.207091,30.175866&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:19:20.309Z"
+ },
+ "golden-1-center": {
+  "file": "research/raw/stadiums/naip/golden-1-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-121.502118,38.578404,-121.497062,38.582384&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:19:46.765Z"
+ },
+ "barclays-center": {
+  "file": "research/raw/stadiums/naip/barclays-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.977708,40.680581,-73.972496,40.684561&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:20:39.225Z"
+ },
+ "provost-umphrey-stadium": {
+  "file": "research/raw/stadiums/naip/provost-umphrey-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-94.072986,30.040438,-94.067174,30.045504&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:22:42.597Z"
+ },
+ "robert-w-plaster-stadium": {
+  "file": "research/raw/stadiums/naip/robert-w-plaster-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.282746,37.194995,-93.276430,37.200061&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:23:39.290Z"
+ },
+ "t-mobile-arena": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-115.180587,36.100771,-115.175695,36.104751&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "fiserv-forum": {
+  "file": "research/raw/stadiums/naip/fiserv-forum.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.919976,43.042912,-87.914568,43.046892&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:28:21.881Z"
+ },
+ "xfinity-center": {
+  "file": "research/raw/stadiums/naip/xfinity-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-76.943774,38.993560,-76.938688,38.997540&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:28:41.233Z"
+ },
+ "kohl-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.399633,43.067427,-89.394223,43.071407&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "gainbridge-fieldhouse": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.158000,39.762287,-86.152858,39.766267&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "ubs-arena": {
+  "file": "research/raw/stadiums/naip/ubs-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.728066,40.709743,-73.722852,40.713723&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:32:31.537Z"
+ },
+ "simon-skjodt-assembly-hall": {
+  "file": "research/raw/stadiums/naip/simon-skjodt-assembly-hall.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.524767,39.178975,-86.519667,39.182955&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:32:48.382Z"
+ },
+ "uni-dome": {
+  "file": "research/raw/stadiums/naip/uni-dome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.470682,42.513151,-92.463858,42.518217&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:33:14.525Z"
+ },
+ "honda-center": {
+  "file": "research/raw/stadiums/naip/honda-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-117.878912,33.805834,-117.874156,33.809814&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:36:11.376Z"
+ },
+ "bridgestone-arena": {
+  "file": "research/raw/stadiums/naip/bridgestone-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-86.780846,36.157233,-86.775950,36.161213&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:37:05.742Z"
+ },
+ "climate-pledge-arena": {
+  "file": "research/raw/stadiums/naip/climate-pledge-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-122.356920,47.620067,-122.351056,47.624047&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:37:31.194Z"
+ },
+ "mortgage-matchup-center": {
+  "file": "research/raw/stadiums/naip/mortgage-matchup-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-112.073878,33.443988,-112.069142,33.447968&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:37:58.769Z"
+ },
+ "bowman-gray-stadium": {
+  "file": "research/raw/stadiums/naip/bowman-gray-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.236211,36.070622,-80.207311,36.094142&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 1300,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:38:47.692Z"
+ },
+ "robert-k-kraft-field-at-lawrence-a-wien-stadium": {
+  "file": "research/raw/stadiums/naip/robert-k-kraft-field-at-lawrence-a-wien-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.919778,40.870691,-73.913126,40.875757&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:39:05.452Z"
+ },
+ "warren-mcguirk-alumni-stadium": {
+  "file": "research/raw/stadiums/naip/warren-mcguirk-alumni-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-72.539416,42.374739,-72.532606,42.379805&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:39:18.815Z"
+ },
+ "state-farm-arena": {
+  "file": "research/raw/stadiums/naip/state-farm-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-84.398707,33.755181,-84.393953,33.759161&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:39:30.787Z"
+ },
+ "smoothie-king-center": {
+  "file": "research/raw/stadiums/naip/smoothie-king-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.084243,29.947065,-90.079681,29.951045&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:39:52.408Z"
+ },
+ "roy-stewart-stadium": {
+  "file": "research/raw/stadiums/naip/roy-stewart-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.320647,36.618794,-88.314379,36.623860&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:42:32.108Z"
+ },
+ "fedexforum": {
+  "file": "research/raw/stadiums/naip/fedexforum.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.052810,35.136170,-90.047976,35.140150&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:42:58.565Z"
+ },
+ "tucker-stadium": {
+  "file": "research/raw/stadiums/naip/tucker-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-85.509448,36.175757,-85.503216,36.180823&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:42:59.033Z"
+ },
+ "hanson-field": {
+  "file": "research/raw/stadiums/naip/hanson-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-90.687496,40.465859,-90.680884,40.470925&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:43:27.156Z"
+ },
+ "indian-wells-tennis-garden": {
+  "file": "research/raw/stadiums/naip/indian-wells-tennis-garden.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-116.307907,33.722402,-116.303587,33.726020&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 200,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:43:27.612Z"
+ },
+ "goodman-stadium": {
+  "file": "research/raw/stadiums/naip/goodman-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-75.358683,40.586570,-75.352059,40.591636&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:43:53.783Z"
+ },
+ "paladin-stadium": {
+  "file": "research/raw/stadiums/naip/paladin-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-82.440373,34.917541,-82.434237,34.922607&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:44:17.127Z"
+ },
+ "simmons-bank-field": {
+  "file": "research/raw/stadiums/naip/simmons-bank-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.024154,34.250800,-92.018068,34.255866&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:44:44.734Z"
+ },
+ "harry-turpin-stadium": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.099287,31.744900,-93.093371,31.749966&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "save-mart-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-119.740995,36.807697,-119.736059,36.811677&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "state-farm-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-88.238619,40.094298,-88.233451,40.098278&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "pinnacle-bank-arena": {
+  "file": "research/raw/stadiums/naip/pinnacle-bank-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-96.715148,40.815846,-96.709926,40.819826&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:52:24.197Z"
+ },
+ "the-pit": {
+  "file": "research/raw/stadiums/naip/the-pit.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-106.634381,35.064604,-106.629551,35.068584&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:52:50.840Z"
+ },
+ "coleman-coliseum": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-87.542081,33.200930,-87.537357,33.204910&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "jerry-richardson-stadium": {
+  "file": "research/raw/stadiums/naip/jerry-richardson-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-80.743276,35.307933,-80.737112,35.312999&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:57:36.590Z"
+ },
+ "allen-fieldhouse": {
+  "file": "research/raw/stadiums/naip/allen-fieldhouse.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.255419,38.952093,-95.250337,38.956073&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:57:37.042Z"
+ },
+ "bryce-jordan-center": {
+  "file": "research/raw/stadiums/naip/bryce-jordan-center.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-77.858111,40.806584,-77.852889,40.810564&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:57:37.496Z"
+ },
+ "kibbie-dome": {
+  "file": "research/raw/stadiums/naip/kibbie-dome.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-117.020765,46.723847,-117.013427,46.728913&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:58:27.822Z"
+ },
+ "mvp-arena": {
+  "file": "research/raw/stadiums/naip/mvp-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-73.757540,42.646357,-73.752166,42.650337&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:58:28.252Z"
+ },
+ "clarence-t-c-ching-athletics-complex": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-157.819820,21.291758,-157.814420,21.296824&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "united-supermarkets-arena": {
+  "file": "research/raw/stadiums/naip/united-supermarkets-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-101.888931,33.579255,-101.884187,33.583235&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:59:16.196Z"
+ },
+ "mizzou-arena": {
+  "file": "research/raw/stadiums/naip/mizzou-arena.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-92.336429,38.930554,-92.331347,38.934534&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-07T23:59:42.279Z"
+ },
+ "hilton-coliseum": {
+  "file": "research/raw/stadiums/naip/hilton-coliseum.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-93.637299,42.019023,-93.631979,42.023003&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 220,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-08T00:00:03.808Z"
+ },
+ "jon-m-huntsman-center": {
+  "error": "NAIP request failed",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-111.841362,40.760085,-111.836144,40.764065&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image"
+ },
+ "panther-stadium-at-blackshear-field": {
+  "file": "research/raw/stadiums/naip/panther-stadium-at-blackshear-field.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-95.997351,30.088578,-95.991537,30.093644&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-08T00:03:28.086Z"
+ },
+ "saluki-stadium": {
+  "file": "research/raw/stadiums/naip/saluki-stadium.jpg",
+  "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-89.219394,37.706104,-89.213036,37.711170&bboxSR=4326&imageSR=3857&size=1024,1024&format=jpg&f=image",
+  "half_width_m": 280,
+  "north_up": true,
+  "license": "Public domain (USGS NAIP, U.S. Government work)",
+  "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+  "fetched": "2026-11-08T00:04:16.385Z"
  }
 }
