@@ -1,5 +1,6 @@
 {
  "dodger-stadium": {
+  "roof_center": "#766d56",
   "seats": "#757368",
   "roof": "#8e9289",
   "field": "#485744",
@@ -12,6 +13,7 @@
   }
  },
  "chase-field": {
+  "roof_center": "#d1d3d4",
   "seats": "#dbdedd",
   "roof": "#dbdedd",
   "field": "#35483d",
@@ -24,6 +26,7 @@
   }
  },
  "t-mobile-park": {
+  "roof_center": "#3e4d4e",
   "seats": "#91978c",
   "roof": "#021b2b",
   "field": "#213f39",
@@ -36,6 +39,7 @@
   }
  },
  "angel-stadium": {
+  "roof_center": "#45574a",
   "seats": "#374749",
   "roof": "#99978e",
   "shares": {
@@ -47,6 +51,7 @@
   }
  },
  "busch-stadium": {
+  "roof_center": "#6b6f61",
   "seats": "#9d6973",
   "roof": "#616767",
   "shares": {
@@ -58,6 +63,7 @@
   }
  },
  "oriole-park-at-camden-yards": {
+  "roof_center": "#6a6a63",
   "seats": "#4c5954",
   "roof": "#4c5954",
   "shares": {
@@ -69,6 +75,7 @@
   }
  },
  "citi-field": {
+  "roof_center": "#596f52",
   "seats": "#acaa9b",
   "roof": "#acaa9b",
   "field": "#656f5e",
@@ -81,6 +88,7 @@
   }
  },
  "wrigley-field": {
+  "roof_center": "#647e64",
   "seats": "#413d5b",
   "roof": "#413d5b",
   "field": "#627f63",
@@ -93,6 +101,7 @@
   }
  },
  "rate-field": {
+  "roof_center": "#678267",
   "seats": "#43445d",
   "roof": "#43445d",
   "field": "#688268",
@@ -105,6 +114,7 @@
   }
  },
  "globe-life-field": {
+  "roof_center": "#d7d8d4",
   "seats": "#61657a",
   "roof": "#d8d8d4",
   "shares": {
@@ -116,6 +126,7 @@
   }
  },
  "comerica-park": {
+  "roof_center": "#789578",
   "seats": "#3f5768",
   "roof": "#cacdc6",
   "field": "#739275",
@@ -128,6 +139,7 @@
   }
  },
  "target-field": {
+  "roof_center": "#4e6458",
   "seats": "#b4b3ac",
   "roof": "#b4b3ac",
   "field": "#4f645a",
@@ -140,6 +152,7 @@
   }
  },
  "loandepot-park": {
+  "roof_center": "#e6e8e7",
   "seats": "#ccd5d5",
   "roof": "#e4e7e6",
   "shares": {
@@ -151,6 +164,7 @@
   }
  },
  "charles-schwab-field": {
+  "roof_center": "#587b67",
   "seats": "#959da6",
   "roof": "#d8dddc",
   "field": "#627969",
@@ -163,6 +177,7 @@
   }
  },
  "michigan-stadium": {
+  "roof_center": "#849785",
   "seats": "#364e6a",
   "roof": "#89999b",
   "shares": {
@@ -174,6 +189,7 @@
   }
  },
  "yulman-stadium": {
+  "roof_center": "#5d7867",
   "seats": "#4f666c",
   "roof": "#c2c8c6",
   "field": "#677d82",
@@ -186,6 +202,7 @@
   }
  },
  "fenway-park": {
+  "roof_center": "#6e7d5e",
   "seats": "#928673",
   "roof": "#928673",
   "field": "#6d7860",
@@ -198,6 +215,7 @@
   }
  },
  "sofi-stadium": {
+  "roof_center": "#98a9b0",
   "seats": "#889fa7",
   "roof": "#91a7ae",
   "shares": {
@@ -209,6 +227,7 @@
   }
  },
  "madison-square-garden": {
+  "roof_center": "#a3a29b",
   "seats": "#a4a49e",
   "roof": "#a4a49e",
   "shares": {
@@ -220,6 +239,7 @@
   }
  },
  "daytona-international-speedway": {
+  "roof_center": "#afad99",
   "seats": "#a9aa95",
   "roof": "#a9aa95",
   "shares": {
@@ -231,6 +251,7 @@
   }
  },
  "arthur-ashe-stadium": {
+  "roof_center": "#dbdcdc",
   "seats": "#d4d6d6",
   "roof": "#dadddc",
   "shares": {
@@ -242,6 +263,7 @@
   }
  },
  "indianapolis-motor-speedway": {
+  "roof_center": "#7b7c7c",
   "seats": "#465157",
   "roof": "#5e6867",
   "shares": {
@@ -253,6 +275,7 @@
   }
  },
  "bristol-motor-speedway": {
+  "roof_center": "#adab9d",
   "seats": "#b19e7e",
   "roof": "#c5c4c2",
   "shares": {
@@ -264,6 +287,7 @@
   }
  },
  "circuit-of-the-americas": {
+  "roof_center": "#b3aa9c",
   "seats": "#998a7f",
   "roof": "#a99d91",
   "shares": {
@@ -275,6 +299,7 @@
   }
  },
  "beaver-stadium": {
+  "roof_center": "#b6b4a1",
   "seats": "#878978",
   "roof": "#cdd2ca",
   "shares": {
@@ -286,6 +311,7 @@
   }
  },
  "ohio-stadium": {
+  "roof_center": "#afb5b4",
   "seats": "#788289",
   "roof": "#b2b7b6",
   "shares": {
@@ -297,6 +323,7 @@
   }
  },
  "kyle-field": {
+  "roof_center": "#72806d",
   "seats": "#5f5a6b",
   "roof": "#c9c5be",
   "shares": {
@@ -308,6 +335,7 @@
   }
  },
  "tiger-stadium": {
+  "roof_center": "#aba587",
   "seats": "#aca791",
   "roof": "#e4e3e1",
   "field": "#515e4c",
@@ -320,6 +348,7 @@
   }
  },
  "neyland-stadium": {
+  "roof_center": "#386d43",
   "seats": "#b9bbb9",
   "roof": "#cecdcb",
   "field": "#396f45",
@@ -332,6 +361,7 @@
   }
  },
  "darrell-k-royal-texas-memorial-stadium": {
+  "roof_center": "#aca9a6",
   "seats": "#54625f",
   "roof": "#cbc9c6",
   "shares": {
@@ -343,6 +373,7 @@
   }
  },
  "bryant-denny-stadium": {
+  "roof_center": "#e9eae5",
   "seats": "#d1d3cd",
   "roof": "#eef1f0",
   "shares": {
@@ -354,6 +385,7 @@
   }
  },
  "charlotte-motor-speedway": {
+  "roof_center": "#6b767c",
   "seats": "#9d9d8e",
   "roof": "#9d9d8e",
   "shares": {
@@ -365,6 +397,7 @@
   }
  },
  "sanford-stadium": {
+  "roof_center": "#c5cdc9",
   "seats": "#6a8088",
   "roof": "#deded8",
   "field": "#859a94",
@@ -377,6 +410,7 @@
   }
  },
  "cotton-bowl": {
+  "roof_center": "#c7c1ad",
   "seats": "#acaaa0",
   "roof": "#bbbcb4",
   "shares": {
@@ -388,6 +422,7 @@
   }
  },
  "barber-motorsports-park": {
+  "roof_center": "#a1aa8c",
   "seats": "#bec2bb",
   "roof": "#bec2bb",
   "field": "#8b997f",
@@ -400,6 +435,7 @@
   }
  },
  "ben-hill-griffin-stadium": {
+  "roof_center": "#c3c0b8",
   "seats": "#3b4f66",
   "roof": "#c4c5c0",
   "field": "#78876f",
@@ -412,6 +448,7 @@
   }
  },
  "jordan-hare-stadium": {
+  "roof_center": "#9cb497",
   "seats": "#6789a8",
   "roof": "#ebecea",
   "field": "#9cb199",
@@ -424,6 +461,7 @@
   }
  },
  "memorial-stadium-ne": {
+  "roof_center": "#6a8776",
   "seats": "#525973",
   "roof": "#d9ddda",
   "field": "#6e8379",
@@ -436,6 +474,7 @@
   }
  },
  "metlife-stadium": {
+  "roof_center": "#43514d",
   "seats": "#888e85",
   "roof": "#70766f",
   "shares": {
@@ -447,6 +486,7 @@
   }
  },
  "memorial-stadium-sc": {
+  "roof_center": "#677654",
   "seats": "#2d4954",
   "roof": "#d4d9cb",
   "field": "#657459",
@@ -459,6 +499,7 @@
   }
  },
  "lambeau-field": {
+  "roof_center": "#afaea9",
   "seats": "#636578",
   "roof": "#d0ceca",
   "shares": {
@@ -470,6 +511,7 @@
   }
  },
  "rose-bowl": {
+  "roof_center": "#5f6d54",
   "seats": "#79796e",
   "roof": "#94948e",
   "field": "#576651",
@@ -482,6 +524,7 @@
   }
  },
  "gaylord-family-oklahoma-memorial-stadium": {
+  "roof_center": "#7c7b68",
   "seats": "#6b6e85",
   "roof": "#d4d5d4",
   "shares": {
@@ -493,6 +536,7 @@
   }
  },
  "atandt-stadium": {
+  "roof_center": "#ebf1f0",
   "seats": "#8090a9",
   "roof": "#f1f6f5",
   "shares": {
@@ -504,6 +548,7 @@
   }
  },
  "las-vegas-motor-speedway": {
+  "roof_center": "#7b8187",
   "seats": "#5e6871",
   "roof": "#7f8488",
   "shares": {
@@ -515,6 +560,7 @@
   }
  },
  "talladega-superspeedway": {
+  "roof_center": "#d0d4d2",
   "seats": "#abb09f",
   "roof": "#d1d6d3",
   "field": "#63736e",
@@ -527,6 +573,7 @@
   }
  },
  "notre-dame-stadium": {
+  "roof_center": "#78837d",
   "seats": "#757d79",
   "roof": "#969795",
   "shares": {
@@ -538,6 +585,7 @@
   }
  },
  "williams-brice-stadium": {
+  "roof_center": "#658460",
   "seats": "#5f805d",
   "roof": "#678863",
   "field": "#5f805d",
@@ -550,6 +598,7 @@
   }
  },
  "los-angeles-memorial-coliseum": {
+  "roof_center": "#5d684c",
   "seats": "#5c6351",
   "roof": "#837a71",
   "shares": {
@@ -561,6 +610,7 @@
   }
  },
  "pocono-raceway": {
+  "roof_center": "#8b8767",
   "seats": "#aea07f",
   "roof": "#86826e",
   "shares": {
@@ -572,6 +622,7 @@
   }
  },
  "arrowhead-stadium": {
+  "roof_center": "#e4e5de",
   "seats": "#a68984",
   "roof": "#ccc9c4",
   "shares": {
@@ -583,6 +634,7 @@
   }
  },
  "razorback-stadium": {
+  "roof_center": "#5f824e",
   "seats": "#a49f93",
   "roof": "#d4cfd0",
   "field": "#38554c",
@@ -595,6 +647,7 @@
   }
  },
  "empower-field-at-mile-high": {
+  "roof_center": "#466746",
   "seats": "#3a3d49",
   "roof": "#605c65",
   "field": "#436747",
@@ -607,6 +660,7 @@
   }
  },
  "camp-randall-stadium": {
+  "roof_center": "#566b5b",
   "seats": "#495367",
   "roof": "#d4d6d4",
   "field": "#516659",
@@ -619,6 +673,7 @@
   }
  },
  "bank-of-america-stadium": {
+  "roof_center": "#5c826f",
   "seats": "#d0d5ce",
   "roof": "#b7c4c1",
   "field": "#628475",
@@ -631,6 +686,7 @@
   }
  },
  "mid-ohio-sports-car-course": {
+  "roof_center": "#adaba6",
   "seats": "#6a7366",
   "roof": "#6a7366",
   "field": "#4d5a50",
@@ -643,6 +699,7 @@
   }
  },
  "texas-motor-speedway": {
+  "roof_center": "#c1bdb2",
   "seats": "#989187",
   "roof": "#c4bfb7",
   "shares": {
@@ -654,6 +711,7 @@
   }
  },
  "spartan-stadium": {
+  "roof_center": "#bec4bd",
   "seats": "#bbc2b8",
   "roof": "#d3dad6",
   "field": "#a2afa2",
@@ -666,6 +724,7 @@
   }
  },
  "caesars-superdome": {
+  "roof_center": "#efeeed",
   "seats": "#9ea098",
   "roof": "#f3f2f1",
   "shares": {
@@ -677,6 +736,7 @@
   }
  },
  "reliant-stadium": {
+  "roof_center": "#e8e8e7",
   "seats": "#51556a",
   "roof": "#e8eaea",
   "shares": {
@@ -688,6 +748,7 @@
   }
  },
  "husky-stadium": {
+  "roof_center": "#326450",
   "seats": "#a7afa9",
   "roof": "#cacbc9",
   "field": "#2f5b4e",
@@ -700,6 +761,7 @@
   }
  },
  "legion-field": {
+  "roof_center": "#85a79d",
   "seats": "#e3e7e4",
   "roof": "#e3e7e4",
   "field": "#799e98",
@@ -712,6 +774,7 @@
   }
  },
  "atlanta-motor-speedway": {
+  "roof_center": "#c4c4bb",
   "seats": "#b2b4a8",
   "roof": "#bfc1b8",
   "shares": {
@@ -723,6 +786,7 @@
   }
  },
  "mercedes-benz-stadium": {
+  "roof_center": "#576871",
   "seats": "#678394",
   "roof": "#e0e6e7",
   "shares": {
@@ -734,6 +798,7 @@
   }
  },
  "mandt-bank-stadium": {
+  "roof_center": "#a4afaf",
   "seats": "#61696e",
   "roof": "#808589",
   "shares": {
@@ -745,6 +810,7 @@
   }
  },
  "kinnick-stadium": {
+  "roof_center": "#7d9470",
   "seats": "#a3aa9c",
   "roof": "#dbe1e1",
   "field": "#657c5a",
@@ -757,6 +823,7 @@
   }
  },
  "raymond-james-stadium": {
+  "roof_center": "#687a50",
   "seats": "#968f80",
   "roof": "#968f80",
   "field": "#627553",
@@ -769,6 +836,7 @@
   }
  },
  "nissan-stadium": {
+  "roof_center": "#c9cdcb",
   "seats": "#2b3b49",
   "roof": "#2b3b49",
   "shares": {
@@ -780,6 +848,7 @@
   }
  },
  "levi-s-stadium": {
+  "roof_center": "#7e7c6c",
   "seats": "#3e5565",
   "roof": "#3e5565",
   "shares": {
@@ -791,6 +860,7 @@
   }
  },
  "acrisure-stadium": {
+  "roof_center": "#576c49",
   "seats": "#c0a363",
   "roof": "#c0a363",
   "field": "#5d6e53",
@@ -803,6 +873,7 @@
   }
  },
  "lumen-field": {
+  "roof_center": "#2b5d4a",
   "seats": "#354e64",
   "roof": "#062231",
   "field": "#446962",
@@ -815,6 +886,7 @@
   }
  },
  "everbank-stadium": {
+  "roof_center": "#526f56",
   "seats": "#354d62",
   "roof": "#a3adaa",
   "field": "#516d62",
@@ -827,6 +899,7 @@
   }
  },
  "lincoln-financial-field": {
+  "roof_center": "#ccc1ad",
   "seats": "#cfcdc3",
   "roof": "#cfcdc3",
   "shares": {
@@ -838,6 +911,7 @@
   }
  },
  "huntington-bank-field": {
+  "roof_center": "#52584e",
   "seats": "#87726b",
   "roof": "#87726b",
   "shares": {
@@ -849,6 +923,7 @@
   }
  },
  "doak-campbell-stadium": {
+  "roof_center": "#8f8f6b",
   "seats": "#8d8b6f",
   "roof": "#bfc0be",
   "shares": {
@@ -860,6 +935,7 @@
   }
  },
  "lucas-oil-stadium": {
+  "roof_center": "#76787e",
   "seats": "#b9b5ac",
   "roof": "#9c9f9e",
   "shares": {
@@ -871,6 +947,7 @@
   }
  },
  "soldier-field": {
+  "roof_center": "#5b7564",
   "seats": "#464965",
   "roof": "#464965",
   "field": "#5e736d",
@@ -883,6 +960,7 @@
   }
  },
  "u-s-bank-stadium": {
+  "roof_center": "#cbced0",
   "seats": "#a0a19c",
   "roof": "#c2c5c4",
   "shares": {
@@ -894,6 +972,7 @@
   }
  },
  "lane-stadium": {
+  "roof_center": "#8e9185",
   "seats": "#858a83",
   "roof": "#d5d8da",
   "shares": {
@@ -905,6 +984,7 @@
   }
  },
  "paycor-stadium": {
+  "roof_center": "#597175",
   "seats": "#4a636c",
   "roof": "#5b7378",
   "shares": {
@@ -916,6 +996,7 @@
   }
  },
  "allegiant-stadium": {
+  "roof_center": "#a4b0b8",
   "seats": "#5d6d79",
   "roof": "#79868f",
   "shares": {
@@ -927,6 +1008,7 @@
   }
  },
  "ford-field": {
+  "roof_center": "#e9ebe9",
   "seats": "#e5ebe9",
   "roof": "#e5ebe9",
   "shares": {
@@ -938,6 +1020,7 @@
   }
  },
  "hard-rock-stadium": {
+  "roof_center": "#a4aba5",
   "seats": "#c5d0d0",
   "roof": "#e4e8e9",
   "field": "#9bb2b3",
@@ -950,6 +1033,7 @@
   }
  },
  "gillette-stadium": {
+  "roof_center": "#87997e",
   "seats": "#9ca396",
   "roof": "#bbc0bb",
   "field": "#738372",
@@ -962,6 +1046,7 @@
   }
  },
  "vaught-hemingway-stadium": {
+  "roof_center": "#99aa94",
   "seats": "#d0a4a3",
   "roof": "#e0e1df",
   "field": "#96a99d",
@@ -974,6 +1059,7 @@
   }
  },
  "alamodome": {
+  "roof_center": "#dbdad6",
   "seats": "#cdccc8",
   "roof": "#cdccc8",
   "shares": {
@@ -985,6 +1071,7 @@
   }
  },
  "northwest-stadium": {
+  "roof_center": "#bfc2be",
   "seats": "#948880",
   "roof": "#948880",
   "shares": {
@@ -996,6 +1083,7 @@
   }
  },
  "faurot-field": {
+  "roof_center": "#738e70",
   "seats": "#585651",
   "roof": "#7e9879",
   "field": "#6a8668",
@@ -1008,6 +1096,7 @@
   }
  },
  "state-farm-stadium": {
+  "roof_center": "#535b4d",
   "seats": "#545c50",
   "roof": "#545c50",
   "shares": {
@@ -1019,6 +1108,7 @@
   }
  },
  "lavell-edwards-stadium": {
+  "roof_center": "#648570",
   "seats": "#33535c",
   "roof": "#597d6b",
   "field": "#618470",
@@ -1031,6 +1121,7 @@
   }
  },
  "jack-trice-stadium": {
+  "roof_center": "#567852",
   "seats": "#b8b499",
   "roof": "#b8b499",
   "field": "#567458",
@@ -1043,6 +1134,7 @@
   }
  },
  "scott-stadium": {
+  "roof_center": "#9ab09c",
   "seats": "#44638b",
   "roof": "#d9ddde",
   "field": "#82a17e",
@@ -1055,6 +1147,7 @@
   }
  },
  "yale-bowl": {
+  "roof_center": "#8d9580",
   "seats": "#9c9a8d",
   "roof": "#aba7a0",
   "field": "#7d8774",
@@ -1067,6 +1160,7 @@
   }
  },
  "ross-ade-stadium": {
+  "roof_center": "#6a7472",
   "seats": "#545e6a",
   "roof": "#9b9993",
   "shares": {
@@ -1078,6 +1172,7 @@
   }
  },
  "kroger-field": {
+  "roof_center": "#698570",
   "seats": "#2c486e",
   "roof": "#a1afb7",
   "field": "#738d8f",
@@ -1090,6 +1185,7 @@
   }
  },
  "landn-federal-credit-union-stadium": {
+  "roof_center": "#bab4aa",
   "seats": "#a97370",
   "roof": "#c5c5bf",
   "field": "#626c4a",
@@ -1102,6 +1198,7 @@
   }
  },
  "gies-memorial-stadium": {
+  "roof_center": "#707871",
   "seats": "#565b79",
   "roof": "#d4d7dc",
   "shares": {
@@ -1113,6 +1210,7 @@
   }
  },
  "mississippi-veterans-memorial-stadium": {
+  "roof_center": "#8fab83",
   "seats": "#d2d4ce",
   "roof": "#e4e4e0",
   "field": "#87a681",
@@ -1125,6 +1223,7 @@
   }
  },
  "davis-wade-stadium": {
+  "roof_center": "#739d81",
   "seats": "#60808e",
   "roof": "#d5d1c8",
   "field": "#759c87",
@@ -1137,6 +1236,7 @@
   }
  },
  "galaxy-stadium": {
+  "roof_center": "#456254",
   "seats": "#946c72",
   "roof": "#c4c7c6",
   "field": "#435e53",
@@ -1149,6 +1249,7 @@
   }
  },
  "camping-world-stadium": {
+  "roof_center": "#92a685",
   "seats": "#445768",
   "roof": "#cdd0cb",
   "field": "#94aa88",
@@ -1161,6 +1262,7 @@
   }
  },
  "autzen-stadium": {
+  "roof_center": "#65815e",
   "seats": "#9ca08c",
   "roof": "#9ca08c",
   "field": "#536345",
@@ -1173,6 +1275,7 @@
   }
  },
  "highmark-stadium": {
+  "roof_center": "#acae9d",
   "seats": "#999d8e",
   "roof": "#adb1a2",
   "field": "#447146",
@@ -1185,6 +1288,7 @@
   }
  },
  "milan-puskar-stadium": {
+  "roof_center": "#859d86",
   "seats": "#436886",
   "roof": "#c9cecd",
   "field": "#7e9686",
@@ -1197,6 +1301,7 @@
   }
  },
  "gateway-motorsports-park": {
+  "roof_center": "#c5c2bc",
   "seats": "#939589",
   "roof": "#d1d0d2",
   "shares": {
@@ -1208,6 +1313,7 @@
   }
  },
  "carter-finley-stadium": {
+  "roof_center": "#6d886c",
   "seats": "#917d7e",
   "roof": "#c5c3bf",
   "field": "#627f5f",
@@ -1220,6 +1326,7 @@
   }
  },
  "michigan-international-speedway": {
+  "roof_center": "#5e6857",
   "seats": "#c7cabb",
   "roof": "#7c8a6b",
   "field": "#98a47d",
@@ -1232,6 +1339,7 @@
   }
  },
  "rice-eccles-stadium": {
+  "roof_center": "#577660",
   "seats": "#b7aea9",
   "roof": "#cfd0cb",
   "field": "#426654",
@@ -1244,6 +1352,7 @@
   }
  },
  "dover-motor-speedway": {
+  "roof_center": "#868477",
   "seats": "#525345",
   "roof": "#86867d",
   "shares": {
@@ -1255,6 +1364,7 @@
   }
  },
  "mountain-america-stadium": {
+  "roof_center": "#536948",
   "seats": "#7b847a",
   "roof": "#c8cbcc",
   "field": "#516748",
@@ -1267,6 +1377,7 @@
   }
  },
  "memorial-stadium-in": {
+  "roof_center": "#7b8280",
   "seats": "#b0aca9",
   "roof": "#d2d0cc",
   "shares": {
@@ -1278,6 +1389,7 @@
   }
  },
  "amon-g-carter-stadium": {
+  "roof_center": "#576d57",
   "seats": "#d3d2d0",
   "roof": "#c0c0c0",
   "field": "#546c58",
@@ -1290,6 +1402,7 @@
   }
  },
  "franklin-field": {
+  "roof_center": "#7a9482",
   "seats": "#bea79f",
   "roof": "#dbddd6",
   "field": "#5c7460",
@@ -1302,6 +1415,7 @@
   }
  },
  "shi-stadium": {
+  "roof_center": "#4e5f5e",
   "seats": "#9b9186",
   "roof": "#475757",
   "shares": {
@@ -1313,6 +1427,7 @@
   }
  },
  "california-memorial-stadium": {
+  "roof_center": "#7a9488",
   "seats": "#c0bcb5",
   "roof": "#c0bcb5",
   "field": "#779189",
@@ -1325,6 +1440,7 @@
   }
  },
  "boone-pickens-stadium": {
+  "roof_center": "#868370",
   "seats": "#9b999c",
   "roof": "#bbb9b9",
   "field": "#607061",
@@ -1337,6 +1453,7 @@
   }
  },
  "bobby-dodd-stadium": {
+  "roof_center": "#94ab90",
   "seats": "#5c757c",
   "roof": "#dbded9",
   "field": "#829888",
@@ -1349,6 +1466,7 @@
   }
  },
  "dowdy-ficklen-stadium": {
+  "roof_center": "#4c5f46",
   "seats": "#b2b6a7",
   "roof": "#b2b6a7",
   "field": "#526351",
@@ -1361,6 +1479,7 @@
   }
  },
  "huntington-bank-stadium": {
+  "roof_center": "#758e7b",
   "seats": "#9e9890",
   "roof": "#dcdfde",
   "field": "#708676",
@@ -1373,6 +1492,7 @@
   }
  },
  "casino-del-sol-stadium": {
+  "roof_center": "#526748",
   "seats": "#8b8574",
   "roof": "#b6c0c1",
   "field": "#505f47",
@@ -1385,6 +1505,7 @@
   }
  },
  "kenan-stadium": {
+  "roof_center": "#729068",
   "seats": "#2e4558",
   "roof": "#9da8a5",
   "field": "#6d8d66",
@@ -1397,6 +1518,7 @@
   }
  },
  "stanford-stadium": {
+  "roof_center": "#758974",
   "seats": "#a8a0a2",
   "roof": "#cfd1d7",
   "field": "#758975",
@@ -1409,6 +1531,7 @@
   }
  },
  "folsom-field": {
+  "roof_center": "#214837",
   "seats": "#1e4435",
   "roof": "#224d3b",
   "field": "#509573",
@@ -1421,6 +1544,7 @@
   }
  },
  "bill-snyder-family-football-stadium": {
+  "roof_center": "#1f4755",
   "seats": "#204453",
   "roof": "#e3e3e3",
   "shares": {
@@ -1432,6 +1556,7 @@
   }
  },
  "independence-stadium": {
+  "roof_center": "#608276",
   "seats": "#7e8f8f",
   "roof": "#d9d9d9",
   "field": "#4f716a",
@@ -1444,6 +1569,7 @@
   }
  },
  "richmond-raceway": {
+  "roof_center": "#e4e4d9",
   "seats": "#889594",
   "roof": "#c3c9c4",
   "shares": {
@@ -1455,6 +1581,7 @@
   }
  },
  "kansas-speedway": {
+  "roof_center": "#c3bfa6",
   "seats": "#afaf98",
   "roof": "#cbc8b7",
   "field": "#68845d",
@@ -1467,6 +1594,7 @@
   }
  },
  "protective-stadium": {
+  "roof_center": "#93aeaf",
   "seats": "#b2b5c4",
   "roof": "#dfe3e0",
   "field": "#87a3a6",
@@ -1479,6 +1607,7 @@
   }
  },
  "chicagoland-speedway": {
+  "roof_center": "#c9c9c1",
   "seats": "#b1ab91",
   "roof": "#c9cac6",
   "shares": {
@@ -1490,6 +1619,7 @@
   }
  },
  "darlington-raceway": {
+  "roof_center": "#a9a180",
   "seats": "#a39f80",
   "roof": "#babdb2",
   "shares": {
@@ -1501,6 +1631,7 @@
   }
  },
  "first-community-stadium": {
+  "roof_center": "#91af8e",
   "seats": "#808780",
   "roof": "#d0d1cc",
   "field": "#96a28e",
@@ -1513,6 +1644,7 @@
   }
  },
  "coors-field": {
+  "roof_center": "#5c674f",
   "seats": "#7a776b",
   "roof": "#b8b8ae",
   "field": "#4b5f49",
@@ -1525,6 +1657,7 @@
   }
  },
  "yankee-stadium": {
+  "roof_center": "#77795e",
   "seats": "#4e535c",
   "roof": "#bebfbd",
   "field": "#677158",
@@ -1537,6 +1670,7 @@
   }
  },
  "secu-stadium": {
+  "roof_center": "#617366",
   "seats": "#a5a9a0",
   "roof": "#d4d9d2",
   "field": "#53645d",
@@ -1549,6 +1683,7 @@
   }
  },
  "sun-bowl": {
+  "roof_center": "#44594d",
   "seats": "#c4c8cb",
   "roof": "#c4c8cb",
   "field": "#3e5449",
@@ -1561,6 +1696,7 @@
   }
  },
  "acrisure-bounce-house": {
+  "roof_center": "#829368",
   "seats": "#475b64",
   "roof": "#cacecb",
   "field": "#82946a",
@@ -1573,6 +1709,7 @@
   }
  },
  "simmons-bank-liberty-stadium": {
+  "roof_center": "#8fa599",
   "seats": "#828fa5",
   "roof": "#c8cfd2",
   "field": "#88a195",
@@ -1585,6 +1722,7 @@
   }
  },
  "mclane-stadium": {
+  "roof_center": "#3c4f4f",
   "seats": "#3f4d55",
   "roof": "#adb4b7",
   "shares": {
@@ -1596,6 +1734,7 @@
   }
  },
  "alumni-stadium": {
+  "roof_center": "#60775a",
   "seats": "#a8aea2",
   "roof": "#dfe2e4",
   "field": "#51614d",
@@ -1608,6 +1747,7 @@
   }
  },
  "martinsville-speedway": {
+  "roof_center": "#c9c9c9",
   "seats": "#abb4b0",
   "roof": "#dee0de",
   "shares": {
@@ -1619,6 +1759,7 @@
   }
  },
  "new-hampshire-motor-speedway": {
+  "roof_center": "#c3c3ba",
   "seats": "#959882",
   "roof": "#c6c7bf",
   "field": "#6b7960",
@@ -1631,6 +1772,7 @@
   }
  },
  "sonoma-raceway": {
+  "roof_center": "#95928c",
   "seats": "#a5a29d",
   "roof": "#939490",
   "shares": {
@@ -1642,6 +1784,7 @@
   }
  },
  "great-american-ball-park": {
+  "roof_center": "#5f7674",
   "seats": "#51636a",
   "roof": "#868a89",
   "field": "#617373",
@@ -1654,6 +1797,7 @@
   }
  },
  "homestead-miami-speedway": {
+  "roof_center": "#b4c4bc",
   "seats": "#afb6ae",
   "roof": "#c2cbc5",
   "field": "#8f9a85",
@@ -1666,6 +1810,7 @@
   }
  },
  "citizens-bank-park": {
+  "roof_center": "#5b694f",
   "seats": "#837b7b",
   "roof": "#d0d6d1",
   "field": "#4b5d4f",
@@ -1678,6 +1823,7 @@
   }
  },
  "jma-wireless-dome": {
+  "roof_center": "#e0e1e3",
   "seats": "#cdd2d5",
   "roof": "#dde0e1",
   "shares": {
@@ -1689,6 +1835,7 @@
   }
  },
  "phoenix-raceway": {
+  "roof_center": "#898675",
   "seats": "#848272",
   "roof": "#848272",
   "shares": {
@@ -1700,6 +1847,7 @@
   }
  },
  "american-family-field": {
+  "roof_center": "#b7bcb5",
   "seats": "#434652",
   "roof": "#c1c3bc",
   "field": "#6e7c6e",
@@ -1712,6 +1860,7 @@
   }
  },
  "david-booth-kansas-memorial-stadium": {
+  "roof_center": "#6e857e",
   "seats": "#3c596f",
   "roof": "#cbd0cf",
   "field": "#647c68",
@@ -1724,6 +1873,7 @@
   }
  },
  "nationals-park": {
+  "roof_center": "#5e6c65",
   "seats": "#384551",
   "roof": "#5c6867",
   "shares": {
@@ -1735,6 +1885,7 @@
   }
  },
  "oracle-park": {
+  "roof_center": "#82888f",
   "seats": "#485d6c",
   "roof": "#82848d",
   "field": "#607777",
@@ -1747,6 +1898,7 @@
   }
  },
  "daikin-park": {
+  "roof_center": "#e8e6db",
   "seats": "#e4e2d8",
   "roof": "#e4e2d8",
   "shares": {
@@ -1758,6 +1910,7 @@
   }
  },
  "truist-park": {
+  "roof_center": "#90a47f",
   "seats": "#485c69",
   "roof": "#dbe1e1",
   "field": "#84a081",
@@ -1770,6 +1923,7 @@
   }
  },
  "canvas-stadium": {
+  "roof_center": "#7b867a",
   "seats": "#7f8986",
   "roof": "#d3d2d0",
   "field": "#526558",
@@ -1782,6 +1936,7 @@
   }
  },
  "kidd-brewer-stadium": {
+  "roof_center": "#96af7c",
   "seats": "#384f65",
   "roof": "#ced3cb",
   "field": "#95ae80",
@@ -1794,6 +1949,7 @@
   }
  },
  "pratt-and-whitney-stadium-at-rentschler-field": {
+  "roof_center": "#909c85",
   "seats": "#959d8b",
   "roof": "#afada4",
   "shares": {
@@ -1805,6 +1961,7 @@
   }
  },
  "petco-park": {
+  "roof_center": "#545c4c",
   "seats": "#8c877d",
   "roof": "#4d554d",
   "field": "#2b3e40",
@@ -1817,6 +1974,7 @@
   }
  },
  "tdecu-stadium": {
+  "roof_center": "#728e80",
   "seats": "#a4aca4",
   "roof": "#c5c7c1",
   "field": "#7b8f7b",
@@ -1829,6 +1987,7 @@
   }
  },
  "falcon-stadium": {
+  "roof_center": "#c5c1bd",
   "seats": "#cecdcb",
   "roof": "#cecdcb",
   "field": "#456a46",
@@ -1841,6 +2000,7 @@
   }
  },
  "university-stadium": {
+  "roof_center": "#495551",
   "seats": "#9a9285",
   "roof": "#d9dbd8",
   "field": "#384841",
@@ -1853,6 +2013,7 @@
   }
  },
  "watkins-glen-international": {
+  "roof_center": "#a5a6a6",
   "seats": "#c6c9ca",
   "roof": "#adaeaf",
   "field": "#617d5b",
@@ -1865,6 +2026,7 @@
   }
  },
  "pnc-park": {
+  "roof_center": "#76644f",
   "seats": "#776861",
   "roof": "#868a89",
   "field": "#475942",
@@ -1877,6 +2039,7 @@
   }
  },
  "nippert-stadium": {
+  "roof_center": "#587173",
   "seats": "#445c67",
   "roof": "#818183",
   "field": "#587074",
@@ -1889,6 +2052,7 @@
   }
  },
  "kauffman-stadium": {
+  "roof_center": "#70896b",
   "seats": "#bfc4bc",
   "roof": "#bfc4bc",
   "field": "#768370",
@@ -1901,6 +2065,7 @@
   }
  },
  "joan-c-edwards-stadium": {
+  "roof_center": "#aab5a8",
   "seats": "#ced3c8",
   "roof": "#ced3c8",
   "field": "#83a88d",
@@ -1913,6 +2078,7 @@
   }
  },
  "milwaukee-mile": {
+  "roof_center": "#beb7a6",
   "seats": "#a7a389",
   "roof": "#cec9c0",
   "shares": {
@@ -1924,6 +2090,7 @@
   }
  },
  "renasant-stadium": {
+  "roof_center": "#94b99b",
   "seats": "#5b7a86",
   "roof": "#dddfd9",
   "field": "#7a9a95",
@@ -1936,6 +2103,7 @@
   }
  },
  "michie-stadium": {
+  "roof_center": "#728d76",
   "seats": "#8c9690",
   "roof": "#c7cbce",
   "field": "#6c8470",
@@ -1948,6 +2116,7 @@
   }
  },
  "reser-stadium": {
+  "roof_center": "#617c64",
   "seats": "#b0b1a7",
   "roof": "#d0d5d1",
   "field": "#5d7262",
@@ -1960,6 +2129,7 @@
   }
  },
  "albertsons-stadium": {
+  "roof_center": "#c2c4c0",
   "seats": "#c4c9c5",
   "roof": "#c4c9c5",
   "shares": {
@@ -1971,6 +2141,7 @@
   }
  },
  "kelly-shorts-stadium": {
+  "roof_center": "#cdccc7",
   "seats": "#bfc0b5",
   "roof": "#ced1cc",
   "field": "#97a887",
@@ -1983,6 +2154,7 @@
   }
  },
  "wallace-wade-stadium": {
+  "roof_center": "#75896f",
   "seats": "#3d4e5b",
   "roof": "#d1d3d0",
   "field": "#5c715e",
@@ -1995,6 +2167,7 @@
   }
  },
  "firstbank-stadium": {
+  "roof_center": "#567b6a",
   "seats": "#374a55",
   "roof": "#babebb",
   "field": "#57796c",
@@ -2007,6 +2180,7 @@
   }
  },
  "ryan-field": {
+  "roof_center": "#4c5e46",
   "seats": "#a1a69f",
   "roof": "#d7dcdf",
   "field": "#4b5c47",
@@ -2019,6 +2193,7 @@
   }
  },
  "snapdragon-stadium": {
+  "roof_center": "#918f87",
   "seats": "#36474d",
   "roof": "#898983",
   "shares": {
@@ -2030,6 +2205,7 @@
   }
  },
  "navy-marine-corps-memorial-stadium": {
+  "roof_center": "#485553",
   "seats": "#415050",
   "roof": "#415050",
   "shares": {
@@ -2041,6 +2217,7 @@
   }
  },
  "progressive-field": {
+  "roof_center": "#515851",
   "seats": "#9a9892",
   "roof": "#505451",
   "shares": {
@@ -2052,6 +2229,7 @@
   }
  },
  "gerald-j-ford-stadium": {
+  "roof_center": "#6e816f",
   "seats": "#a28d89",
   "roof": "#ada69e",
   "field": "#6f806d",
@@ -2064,6 +2242,7 @@
   }
  },
  "allegacy-federal-credit-union-stadium": {
+  "roof_center": "#95a88d",
   "seats": "#b2b9a9",
   "roof": "#d2d3cf",
   "field": "#90a188",
@@ -2076,6 +2255,7 @@
   }
  },
  "veterans-memorial-stadium": {
+  "roof_center": "#5e785f",
   "seats": "#515162",
   "roof": "#e0dfd7",
   "field": "#5d7464",
@@ -2088,6 +2268,7 @@
   }
  },
  "centennial-bank-stadium": {
+  "roof_center": "#556e53",
   "seats": "#8d8d73",
   "roof": "#cfd1ce",
   "field": "#566d53",
@@ -2100,6 +2281,7 @@
   }
  },
  "cajun-field": {
+  "roof_center": "#97aa83",
   "seats": "#697772",
   "roof": "#d5d3c9",
   "field": "#a3ae87",
@@ -2112,6 +2294,7 @@
   }
  },
  "waldo-stadium": {
+  "roof_center": "#899b8e",
   "seats": "#6e7d83",
   "roof": "#d4d5d1",
   "field": "#869890",
@@ -2124,6 +2307,7 @@
   }
  },
  "geodis-park": {
+  "roof_center": "#a6a79a",
   "seats": "#30404f",
   "roof": "#4b636e",
   "shares": {
@@ -2135,6 +2319,7 @@
   }
  },
  "datcu-stadium": {
+  "roof_center": "#b4b8aa",
   "seats": "#cac9c1",
   "roof": "#cac9c1",
   "field": "#748d75",
@@ -2147,6 +2332,7 @@
   }
  },
  "flagler-credit-union-stadium": {
+  "roof_center": "#7d936b",
   "seats": "#d7dcd4",
   "roof": "#b5bfbc",
   "field": "#84946d",
@@ -2159,6 +2345,7 @@
   }
  },
  "infocision-stadium-summa-field": {
+  "roof_center": "#818985",
   "seats": "#38444f",
   "roof": "#5b635f",
   "shares": {
@@ -2170,6 +2357,7 @@
   }
  },
  "iowa-speedway": {
+  "roof_center": "#b5b2a4",
   "seats": "#b1afa2",
   "roof": "#bcbaae",
   "field": "#748368",
@@ -2182,6 +2370,7 @@
   }
  },
  "mackay-stadium": {
+  "roof_center": "#c6c8c7",
   "seats": "#6a7477",
   "roof": "#c1c4c3",
   "shares": {
@@ -2193,6 +2382,7 @@
   }
  },
  "portland-international-raceway": {
+  "roof_center": "#505950",
   "seats": "#82826a",
   "roof": "#9b9680",
   "shares": {
@@ -2204,6 +2394,7 @@
   }
  },
  "skelly-field-at-h-a-chapman-stadium": {
+  "roof_center": "#55726a",
   "seats": "#a0a393",
   "roof": "#a0a393",
   "field": "#4c6251",
@@ -2216,6 +2407,7 @@
   }
  },
  "valley-children-s-stadium": {
+  "roof_center": "#78825f",
   "seats": "#87756d",
   "roof": "#b1b0a9",
   "field": "#6b7956",
@@ -2228,6 +2420,7 @@
   }
  },
  "william-dick-price-stadium": {
+  "roof_center": "#8ab4a5",
   "seats": "#4b6f7f",
   "roof": "#ccdbdb",
   "field": "#4fc6ba",
@@ -2240,6 +2433,7 @@
   }
  },
  "war-memorial-stadium": {
+  "roof_center": "#728b73",
   "seats": "#969c8d",
   "roof": "#ebefec",
   "field": "#677a68",
@@ -2252,6 +2446,7 @@
   }
  },
  "aggie-memorial-stadium": {
+  "roof_center": "#4f5a57",
   "seats": "#534252",
   "roof": "#515c59",
   "shares": {
@@ -2263,6 +2458,7 @@
   }
  },
  "joe-aillet-stadium": {
+  "roof_center": "#9bac91",
   "seats": "#cecec2",
   "roof": "#cecec2",
   "field": "#a2ad89",
@@ -2275,6 +2471,7 @@
   }
  },
  "ufcu-stadium": {
+  "roof_center": "#788d7f",
   "seats": "#6a7471",
   "roof": "#d2d2d2",
   "field": "#72867a",
@@ -2287,6 +2484,7 @@
   }
  },
  "huskie-stadium": {
+  "roof_center": "#8ea98b",
   "seats": "#818176",
   "roof": "#d0d4d5",
   "field": "#87a384",
@@ -2299,6 +2497,7 @@
   }
  },
  "powers-field-at-princeton-stadium": {
+  "roof_center": "#b5b6aa",
   "seats": "#727e78",
   "roof": "#bec0b7",
   "shares": {
@@ -2310,6 +2509,7 @@
   }
  },
  "fmol-health-st-francis-stadium": {
+  "roof_center": "#92a78d",
   "seats": "#b4afa7",
   "roof": "#b4afa7",
   "field": "#909f7f",
@@ -2322,6 +2522,7 @@
   }
  },
  "johnny-red-floyd-stadium": {
+  "roof_center": "#749a89",
   "seats": "#678ba3",
   "roof": "#cacccc",
   "field": "#709981",
@@ -2334,6 +2535,7 @@
   }
  },
  "nu-stadium": {
+  "roof_center": "#8b9f6c",
   "seats": "#313f3e",
   "roof": "#a6af8d",
   "field": "#8da26e",
@@ -2346,6 +2548,7 @@
   }
  },
  "asu-stadium": {
+  "roof_center": "#94ad9b",
   "seats": "#b4bbab",
   "roof": "#eceee5",
   "field": "#8ca496",
@@ -2358,6 +2561,7 @@
   }
  },
  "rynearson-stadium": {
+  "roof_center": "#a4aeaf",
   "seats": "#c9c1bb",
   "roof": "#c9c1bb",
   "field": "#839892",
@@ -2370,6 +2574,7 @@
   }
  },
  "glass-bowl": {
+  "roof_center": "#76776d",
   "seats": "#b5ab9c",
   "roof": "#545b56",
   "shares": {
@@ -2381,6 +2586,7 @@
   }
  },
  "dignity-health-sports-park": {
+  "roof_center": "#425843",
   "seats": "#747b6e",
   "roof": "#c1c4c3",
   "field": "#495a4a",
@@ -2393,6 +2599,7 @@
   }
  },
  "tql-stadium": {
+  "roof_center": "#4c656b",
   "seats": "#415c66",
   "roof": "#daddd8",
   "field": "#566c70",
@@ -2405,6 +2612,7 @@
   }
  },
  "maverik-stadium": {
+  "roof_center": "#5f7364",
   "seats": "#868c87",
   "roof": "#d1d4d0",
   "field": "#5c6a5e",
@@ -2417,6 +2625,7 @@
   }
  },
  "a-w-mumford-stadium": {
+  "roof_center": "#94a57a",
   "seats": "#aabdc4",
   "roof": "#aabdc4",
   "field": "#8b9973",
@@ -2429,6 +2638,7 @@
   }
  },
  "bragg-memorial-stadium": {
+  "roof_center": "#7d9075",
   "seats": "#a3aaa8",
   "roof": "#babfbe",
   "field": "#7c8d75",
@@ -2441,6 +2651,7 @@
   }
  },
  "hancock-whitney-stadium": {
+  "roof_center": "#99ac8f",
   "seats": "#eff0eb",
   "roof": "#eff0eb",
   "field": "#99ab91",
@@ -2453,6 +2664,7 @@
   }
  },
  "dix-stadium": {
+  "roof_center": "#bbb1a7",
   "seats": "#3f4a54",
   "roof": "#636c68",
   "shares": {
@@ -2464,6 +2676,7 @@
   }
  },
  "washington-grizzly-stadium": {
+  "roof_center": "#72a588",
   "seats": "#675d6a",
   "roof": "#ced1d0",
   "field": "#63957e",
@@ -2476,6 +2689,7 @@
   }
  },
  "tropicana-field": {
+  "roof_center": "#e5e7e4",
   "seats": "#c6d0d2",
   "roof": "#e2e5e4",
   "shares": {
@@ -2487,6 +2701,7 @@
   }
  },
  "broadview-stadium": {
+  "roof_center": "#9b8d78",
   "seats": "#a67c6c",
   "roof": "#c6cec6",
   "field": "#5b8064",
@@ -2499,6 +2714,7 @@
   }
  },
  "allen-e-paulson-stadium": {
+  "roof_center": "#819e8e",
   "seats": "#546d81",
   "roof": "#d9dcd7",
   "field": "#7b988a",
@@ -2511,6 +2727,7 @@
   }
  },
  "harvard-stadium": {
+  "roof_center": "#88937c",
   "seats": "#9ea398",
   "roof": "#9ea398",
   "field": "#86917c",
@@ -2523,6 +2740,7 @@
   }
  },
  "inter-co-stadium": {
+  "roof_center": "#789375",
   "seats": "#41566c",
   "roof": "#bbc4c4",
   "field": "#7a937b",
@@ -2535,6 +2753,7 @@
   }
  },
  "nashville-superspeedway": {
+  "roof_center": "#9ea287",
   "seats": "#92998c",
   "roof": "#a8adaa",
   "shares": {
@@ -2546,6 +2765,7 @@
   }
  },
  "sports-illustrated-stadium": {
+  "roof_center": "#45524a",
   "seats": "#bec4ba",
   "roof": "#bec4ba",
   "field": "#485650",
@@ -2558,6 +2778,7 @@
   }
  },
  "williams-stadium": {
+  "roof_center": "#96a696",
   "seats": "#c0beb4",
   "roof": "#dad9d3",
   "field": "#93a094",
@@ -2570,6 +2791,7 @@
   }
  },
  "bridgeforth-stadium": {
+  "roof_center": "#7b9b8b",
   "seats": "#5377a0",
   "roof": "#d3d6d7",
   "field": "#829d8c",
@@ -2582,6 +2804,7 @@
   }
  },
  "providence-park": {
+  "roof_center": "#708163",
   "seats": "#d2d4d1",
   "roof": "#d2d4d1",
   "field": "#6e7d65",
@@ -2594,6 +2817,7 @@
   }
  },
  "center-parc-stadium": {
+  "roof_center": "#98ac90",
   "seats": "#b3baac",
   "roof": "#536069",
   "field": "#91a492",
@@ -2606,6 +2830,7 @@
   }
  },
  "yager-stadium": {
+  "roof_center": "#5d7575",
   "seats": "#4f686d",
   "roof": "#a6b0ae",
   "field": "#64797c",
@@ -2618,6 +2843,7 @@
   }
  },
  "doyt-perry-stadium": {
+  "roof_center": "#6e6f63",
   "seats": "#c0b9ab",
   "roof": "#727067",
   "shares": {
@@ -2629,6 +2855,7 @@
   }
  },
  "memorial-stadium-tx": {
+  "roof_center": "#9a9892",
   "seats": "#918f7b",
   "roof": "#c5c3b1",
   "field": "#6e7b6b",
@@ -2641,6 +2868,7 @@
   }
  },
  "peden-stadium": {
+  "roof_center": "#a8b6ae",
   "seats": "#a5b2af",
   "roof": "#a5b2af",
   "shares": {
@@ -2652,6 +2880,7 @@
   }
  },
  "fitton-field": {
+  "roof_center": "#7e9270",
   "seats": "#b7baaf",
   "roof": "#b7baaf",
   "field": "#66795f",
@@ -2664,6 +2893,7 @@
   }
  },
  "amfirst-stadium": {
+  "roof_center": "#aec1b1",
   "seats": "#6081a1",
   "roof": "#eaebe9",
   "field": "#9fb5a8",
@@ -2676,6 +2906,7 @@
   }
  },
  "casem-spinks-stadium": {
+  "roof_center": "#8c9b71",
   "seats": "#b6b292",
   "roof": "#b6b292",
   "field": "#526b64",
@@ -2688,6 +2919,7 @@
   }
  },
  "scheumann-stadium": {
+  "roof_center": "#6b7474",
   "seats": "#886b73",
   "roof": "#6a7677",
   "shares": {
@@ -2699,6 +2931,7 @@
   }
  },
  "energizer-park": {
+  "roof_center": "#5c5c67",
   "seats": "#44465a",
   "roof": "#e6e7e9",
   "field": "#68806c",
@@ -2711,6 +2944,7 @@
   }
  },
  "houchens-industries-l-t-smith-stadium": {
+  "roof_center": "#7f9188",
   "seats": "#808675",
   "roof": "#c4c3c1",
   "shares": {
@@ -2722,6 +2956,7 @@
   }
  },
  "kfc-yum-center": {
+  "roof_center": "#cbcdcc",
   "seats": "#cacccc",
   "roof": "#cacccc",
   "shares": {
@@ -2733,6 +2968,7 @@
   }
  },
  "shell-energy-stadium": {
+  "roof_center": "#7b9772",
   "seats": "#484b5a",
   "roof": "#c3c6c5",
   "field": "#7b9876",
@@ -2745,6 +2981,7 @@
   }
  },
  "first-horizon-coliseum": {
+  "roof_center": "#dfdfd9",
   "seats": "#2e4156",
   "roof": "#ddded9",
   "field": "#5b6e6f",
@@ -2757,6 +2994,7 @@
   }
  },
  "oliver-c-dawson-stadium": {
+  "roof_center": "#73846a",
   "seats": "#898f80",
   "roof": "#d8d9d7",
   "field": "#68765f",
@@ -2769,6 +3007,7 @@
   }
  },
  "s-b-ballard-stadium": {
+  "roof_center": "#86aa95",
   "seats": "#3f5c72",
   "roof": "#e2eae8",
   "field": "#88a397",
@@ -2781,6 +3020,7 @@
   }
  },
  "dean-smith-center": {
+  "roof_center": "#b1b4b2",
   "seats": "#b4b7b2",
   "roof": "#b4b7b2",
   "shares": {
@@ -2792,6 +3032,7 @@
   }
  },
  "thompson-boling-arena": {
+  "roof_center": "#d0d0d1",
   "seats": "#cdced0",
   "roof": "#cdced0",
   "shares": {
@@ -2803,6 +3044,7 @@
   }
  },
  "schoellkopf-field": {
+  "roof_center": "#7c977f",
   "seats": "#d2c6c5",
   "roof": "#5f8369",
   "field": "#5f8369",
@@ -2815,6 +3057,7 @@
   }
  },
  "truist-stadium": {
+  "roof_center": "#809272",
   "seats": "#6c97ac",
   "roof": "#cccfca",
   "field": "#7a8964",
@@ -2827,6 +3070,7 @@
   }
  },
  "hornet-stadium": {
+  "roof_center": "#527357",
   "seats": "#8c978b",
   "roof": "#4e7154",
   "field": "#4e7154",
@@ -2839,6 +3083,7 @@
   }
  },
  "brooks-stadium": {
+  "roof_center": "#58aab4",
   "seats": "#53a5af",
   "roof": "#d8dfdf",
   "shares": {
@@ -2850,6 +3095,7 @@
   }
  },
  "louis-crews-stadium": {
+  "roof_center": "#7f958b",
   "seats": "#c39490",
   "roof": "#b4b6b0",
   "field": "#657c79",
@@ -2862,6 +3108,7 @@
   }
  },
  "xfinity-mobile-arena": {
+  "roof_center": "#ececea",
   "seats": "#a5a59f",
   "roof": "#eaebe9",
   "shares": {
@@ -2873,6 +3120,7 @@
   }
  },
  "united-center": {
+  "roof_center": "#e6e7e9",
   "seats": "#5d5f77",
   "roof": "#e8ebed",
   "shares": {
@@ -2884,6 +3132,7 @@
   }
  },
  "bobcat-stadium": {
+  "roof_center": "#537c6b",
   "seats": "#2e4053",
   "roof": "#2e4053",
   "field": "#4e7269",
@@ -2896,6 +3145,7 @@
   }
  },
  "q2-stadium": {
+  "roof_center": "#80867f",
   "seats": "#6d797a",
   "roof": "#dcddd8",
   "field": "#899b87",
@@ -2908,6 +3158,7 @@
   }
  },
  "stambaugh-stadium": {
+  "roof_center": "#616a6a",
   "seats": "#7f7878",
   "roof": "#575f5f",
   "shares": {
@@ -2919,6 +3170,7 @@
   }
  },
  "rupp-arena": {
+  "roof_center": "#dbdcd8",
   "seats": "#c0c4c1",
   "roof": "#d7d8d6",
   "shares": {
@@ -2930,6 +3182,7 @@
   }
  },
  "finley-stadium": {
+  "roof_center": "#79a384",
   "seats": "#3a545b",
   "roof": "#b4b6b0",
   "field": "#779f82",
@@ -2942,6 +3195,7 @@
   }
  },
  "scottsmiracle-gro-field": {
+  "roof_center": "#6d7d83",
   "seats": "#385364",
   "roof": "#6f8086",
   "field": "#516c6f",
@@ -2954,6 +3208,7 @@
   }
  },
  "capital-one-arena": {
+  "roof_center": "#f3f5f4",
   "seats": "#f1f4f6",
   "roof": "#f1f4f6",
   "shares": {
@@ -2965,6 +3220,7 @@
   }
  },
  "little-caesars-arena": {
+  "roof_center": "#d3d6d5",
   "seats": "#70828d",
   "roof": "#d5dad9",
   "shares": {
@@ -2976,6 +3232,7 @@
   }
  },
  "america-first-field": {
+  "roof_center": "#38553a",
   "seats": "#9a8e86",
   "roof": "#dadada",
   "field": "#3f5b42",
@@ -2988,6 +3245,7 @@
   }
  },
  "audi-field": {
+  "roof_center": "#506258",
   "seats": "#afbbba",
   "roof": "#afbbba",
   "field": "#4e605a",
@@ -3000,6 +3258,7 @@
   }
  },
  "pitbull-stadium": {
+  "roof_center": "#83978b",
   "seats": "#4f6d7e",
   "roof": "#b1b9b7",
   "field": "#7b918c",
@@ -3012,6 +3271,7 @@
   }
  },
  "richard-gouse-field-at-brown-stadium": {
+  "roof_center": "#849379",
   "seats": "#a1a99a",
   "roof": "#626d5e",
   "field": "#7e8c72",
@@ -3024,6 +3284,7 @@
   }
  },
  "roy-kidd-stadium": {
+  "roof_center": "#50714d",
   "seats": "#c5c6c2",
   "roof": "#c5c6c2",
   "field": "#577753",
@@ -3036,6 +3297,7 @@
   }
  },
  "seatgeek-stadium": {
+  "roof_center": "#5f7659",
   "seats": "#5d656a",
   "roof": "#dadcd9",
   "field": "#6c8167",
@@ -3048,6 +3310,7 @@
   }
  },
  "north-wilkesboro-speedway": {
+  "roof_center": "#b5b1a2",
   "seats": "#9a9477",
   "roof": "#b9bab2",
   "shares": {
@@ -3059,6 +3322,7 @@
   }
  },
  "eddie-g-robinson-memorial-stadium": {
+  "roof_center": "#93a476",
   "seats": "#c6c0a8",
   "roof": "#e5e2d6",
   "field": "#869368",
@@ -3071,6 +3335,7 @@
   }
  },
  "kaseya-center": {
+  "roof_center": "#c9d3d6",
   "seats": "#9dbfc6",
   "roof": "#c2cdd0",
   "shares": {
@@ -3082,6 +3347,7 @@
   }
  },
  "ball-arena": {
+  "roof_center": "#dbdbd9",
   "seats": "#8e928f",
   "roof": "#d9dbd8",
   "shares": {
@@ -3093,6 +3359,7 @@
   }
  },
  "value-city-arena": {
+  "roof_center": "#d9d6d0",
   "seats": "#516671",
   "roof": "#dad9d3",
   "shares": {
@@ -3104,6 +3371,7 @@
   }
  },
  "spectrum-center": {
+  "roof_center": "#f1f2ed",
   "seats": "#f0f1ec",
   "roof": "#f0f1ec",
   "shares": {
@@ -3115,6 +3383,7 @@
   }
  },
  "rocket-arena": {
+  "roof_center": "#bdbcbb",
   "seats": "#46444d",
   "roof": "#b8b7b5",
   "shares": {
@@ -3126,6 +3395,7 @@
   }
  },
  "allianz-field": {
+  "roof_center": "#5a765d",
   "seats": "#dee2dd",
   "roof": "#dee2dd",
   "field": "#59755f",
@@ -3138,6 +3408,7 @@
   }
  },
  "moda-center": {
+  "roof_center": "#dbdedb",
   "seats": "#dce1de",
   "roof": "#dce1de",
   "shares": {
@@ -3149,6 +3420,7 @@
   }
  },
  "bud-walton-arena": {
+  "roof_center": "#e5dfe5",
   "seats": "#7d8473",
   "roof": "#dbd5db",
   "field": "#475c4d",
@@ -3161,6 +3433,7 @@
   }
  },
  "lenovo-center": {
+  "roof_center": "#d5d7d4",
   "seats": "#c0c4c1",
   "roof": "#d5d7d7",
   "shares": {
@@ -3172,6 +3445,7 @@
   }
  },
  "dana-j-dykhouse-stadium": {
+  "roof_center": "#81a398",
   "seats": "#afb8b8",
   "roof": "#d1d5d8",
   "field": "#73968c",
@@ -3184,6 +3458,7 @@
   }
  },
  "amerant-bank-arena": {
+  "roof_center": "#e8e9e4",
   "seats": "#d9dbd4",
   "roof": "#e5e8e3",
   "field": "#7c9599",
@@ -3196,6 +3471,7 @@
   }
  },
  "american-airlines-center": {
+  "roof_center": "#d5d6ce",
   "seats": "#d5d8d1",
   "roof": "#d5d8d1",
   "shares": {
@@ -3207,6 +3483,7 @@
   }
  },
  "sap-center": {
+  "roof_center": "#c0c1c3",
   "seats": "#859295",
   "roof": "#bdc1c2",
   "shares": {
@@ -3218,6 +3495,7 @@
   }
  },
  "td-garden": {
+  "roof_center": "#d3d8db",
   "seats": "#d1d8da",
   "roof": "#d1d8da",
   "shares": {
@@ -3229,6 +3507,7 @@
   }
  },
  "benchmark-international-arena": {
+  "roof_center": "#e2e4df",
   "seats": "#b3a09b",
   "roof": "#dfe3e0",
   "shares": {
@@ -3240,6 +3519,7 @@
   }
  },
  "crypto-com-arena": {
+  "roof_center": "#c1c3c1",
   "seats": "#6f8996",
   "roof": "#bec3c2",
   "shares": {
@@ -3251,6 +3531,7 @@
   }
  },
  "keybank-center": {
+  "roof_center": "#ced8d3",
   "seats": "#3a5c7a",
   "roof": "#cbd9d5",
   "field": "#adc1be",
@@ -3263,6 +3544,7 @@
   }
  },
  "kia-center": {
+  "roof_center": "#dddfdc",
   "seats": "#dfe3e0",
   "roof": "#dfe3e0",
   "shares": {
@@ -3274,6 +3556,7 @@
   }
  },
  "target-center": {
+  "roof_center": "#8b966b",
   "seats": "#494451",
   "roof": "#aca99c",
   "field": "#89946e",
@@ -3286,6 +3569,7 @@
   }
  },
  "prudential-center": {
+  "roof_center": "#c9cbc2",
   "seats": "#a4a99e",
   "roof": "#d9dbd4",
   "shares": {
@@ -3297,6 +3581,7 @@
   }
  },
  "fargodome": {
+  "roof_center": "#8e8b94",
   "seats": "#485167",
   "roof": "#c6cccc",
   "shares": {
@@ -3308,6 +3593,7 @@
   }
  },
  "delaware-stadium": {
+  "roof_center": "#a3a8ac",
   "seats": "#6c7167",
   "roof": "#cacbc9",
   "shares": {
@@ -3319,6 +3605,7 @@
   }
  },
  "nationwide-arena": {
+  "roof_center": "#d8d9d4",
   "seats": "#4f6572",
   "roof": "#d6d7d5",
   "shares": {
@@ -3330,6 +3617,7 @@
   }
  },
  "subaru-park": {
+  "roof_center": "#567056",
   "seats": "#364654",
   "roof": "#e5eae6",
   "field": "#5c7665",
@@ -3342,6 +3630,7 @@
   }
  },
  "sporting-park": {
+  "roof_center": "#6d9371",
   "seats": "#c8d2d7",
   "roof": "#c8d2d7",
   "field": "#6d9074",
@@ -3354,6 +3643,7 @@
   }
  },
  "frost-bank-center": {
+  "roof_center": "#dfdcd5",
   "seats": "#565668",
   "roof": "#c6c7c3",
   "shares": {
@@ -3365,6 +3655,7 @@
   }
  },
  "chi-health-center": {
+  "roof_center": "#f1f7f7",
   "seats": "#f0f6f7",
   "roof": "#f0f6f7",
   "shares": {
@@ -3376,6 +3667,7 @@
   }
  },
  "intuit-dome": {
+  "roof_center": "#b1aa97",
   "seats": "#a29583",
   "roof": "#b0a794",
   "shares": {
@@ -3387,6 +3679,7 @@
   }
  },
  "cefcu-stadium": {
+  "roof_center": "#6d816f",
   "seats": "#385156",
   "roof": "#b6b8b5",
   "field": "#6f8273",
@@ -3399,6 +3692,7 @@
   }
  },
  "paycom-center": {
+  "roof_center": "#e7e7e8",
   "seats": "#636f82",
   "roof": "#e6e7e9",
   "shares": {
@@ -3410,6 +3704,7 @@
   }
  },
  "ppg-paints-arena": {
+  "roof_center": "#e4e5e1",
   "seats": "#e0e4e1",
   "roof": "#e0e4e1",
   "shares": {
@@ -3421,6 +3716,7 @@
   }
  },
  "delta-center": {
+  "roof_center": "#7a8a9c",
   "seats": "#34516a",
   "roof": "#dbdcde",
   "shares": {
@@ -3432,6 +3728,7 @@
   }
  },
  "toyota-center": {
+  "roof_center": "#d3d1d1",
   "seats": "#c2b1b5",
   "roof": "#d2d5d4",
   "shares": {
@@ -3443,6 +3740,7 @@
   }
  },
  "enterprise-center": {
+  "roof_center": "#d6d5d5",
   "seats": "#d6d6d6",
   "roof": "#d6d6d6",
   "shares": {
@@ -3454,6 +3752,7 @@
   }
  },
  "chase-center": {
+  "roof_center": "#c8cdd6",
   "seats": "#b0b9c5",
   "roof": "#c6ced6",
   "shares": {
@@ -3465,6 +3764,7 @@
   }
  },
  "dick-s-sporting-goods-park": {
+  "roof_center": "#4a6247",
   "seats": "#989887",
   "roof": "#c2c3b9",
   "field": "#51654b",
@@ -3477,6 +3777,7 @@
   }
  },
  "colonial-life-arena": {
+  "roof_center": "#f2f2f2",
   "seats": "#eff2f1",
   "roof": "#eff2f1",
   "shares": {
@@ -3488,6 +3789,7 @@
   }
  },
  "paypal-park": {
+  "roof_center": "#486256",
   "seats": "#2d4751",
   "roof": "#90a1a8",
   "field": "#486158",
@@ -3500,6 +3802,7 @@
   }
  },
  "marriott-center": {
+  "roof_center": "#dfdedc",
   "seats": "#dbdbdb",
   "roof": "#e0e0e0",
   "shares": {
@@ -3511,6 +3814,7 @@
   }
  },
  "grand-casino-arena": {
+  "roof_center": "#e7e5e1",
   "seats": "#dad8d4",
   "roof": "#e7e5e1",
   "shares": {
@@ -3522,6 +3826,7 @@
   }
  },
  "thomas-and-mack-center": {
+  "roof_center": "#c0bdb7",
   "seats": "#bebeb8",
   "roof": "#bebeb8",
   "shares": {
@@ -3533,6 +3838,7 @@
   }
  },
  "bok-center": {
+  "roof_center": "#c9c9c7",
   "seats": "#b3b6b1",
   "roof": "#c8cac8",
   "shares": {
@@ -3544,6 +3850,7 @@
   }
  },
  "navarre-stadium": {
+  "roof_center": "#8f9f92",
   "seats": "#d5d0c1",
   "roof": "#b4b5ab",
   "field": "#939f79",
@@ -3556,6 +3863,7 @@
   }
  },
  "golden-1-center": {
+  "roof_center": "#8a9295",
   "seats": "#6a767d",
   "roof": "#c4c5c0",
   "shares": {
@@ -3567,6 +3875,7 @@
   }
  },
  "barclays-center": {
+  "roof_center": "#6e8350",
   "seats": "#53544b",
   "roof": "#708558",
   "field": "#708558",
@@ -3579,6 +3888,7 @@
   }
  },
  "provost-umphrey-stadium": {
+  "roof_center": "#beb3a3",
   "seats": "#b1b7a0",
   "roof": "#dcd9d1",
   "field": "#89a38a",
@@ -3591,6 +3901,7 @@
   }
  },
  "robert-w-plaster-stadium": {
+  "roof_center": "#909f8f",
   "seats": "#807f83",
   "roof": "#d2d2d2",
   "field": "#909f90",
@@ -3603,6 +3914,7 @@
   }
  },
  "t-mobile-arena": {
+  "roof_center": "#dddfdc",
   "seats": "#455060",
   "roof": "#dbddda",
   "shares": {
@@ -3614,6 +3926,7 @@
   }
  },
  "fiserv-forum": {
+  "roof_center": "#f2f0ea",
   "seats": "#d4d0c9",
   "roof": "#f0f0e9",
   "shares": {
@@ -3625,6 +3938,7 @@
   }
  },
  "xfinity-center": {
+  "roof_center": "#bac0be",
   "seats": "#777d7a",
   "roof": "#bdc5c3",
   "shares": {
@@ -3636,6 +3950,7 @@
   }
  },
  "kohl-center": {
+  "roof_center": "#b2adaf",
   "seats": "#4e5260",
   "roof": "#b8b6b6",
   "shares": {
@@ -3647,6 +3962,7 @@
   }
  },
  "gainbridge-fieldhouse": {
+  "roof_center": "#c7c7c5",
   "seats": "#787f87",
   "roof": "#cdcecc",
   "shares": {
@@ -3658,6 +3974,7 @@
   }
  },
  "ubs-arena": {
+  "roof_center": "#627753",
   "seats": "#3a413c",
   "roof": "#afb2ab",
   "field": "#62784f",
@@ -3670,6 +3987,7 @@
   }
  },
  "simon-skjodt-assembly-hall": {
+  "roof_center": "#e0e0dd",
   "seats": "#e0e1df",
   "roof": "#e0e1df",
   "shares": {
@@ -3681,6 +3999,7 @@
   }
  },
  "uni-dome": {
+  "roof_center": "#e7eaee",
   "seats": "#7a9bb4",
   "roof": "#edf2f5",
   "field": "#435757",
@@ -3693,6 +4012,7 @@
   }
  },
  "honda-center": {
+  "roof_center": "#c3c4bf",
   "seats": "#aba99f",
   "roof": "#c3c4bf",
   "shares": {
@@ -3704,6 +4024,7 @@
   }
  },
  "bridgestone-arena": {
+  "roof_center": "#d8d8d6",
   "seats": "#606766",
   "roof": "#d4d6d6",
   "shares": {
@@ -3715,6 +4036,7 @@
   }
  },
  "climate-pledge-arena": {
+  "roof_center": "#d3d0ca",
   "seats": "#e1ded9",
   "roof": "#d3d0cb",
   "field": "#2b3e3f",
@@ -3727,6 +4049,7 @@
   }
  },
  "mortgage-matchup-center": {
+  "roof_center": "#cbcfd2",
   "seats": "#e2e3e1",
   "roof": "#ccd3d3",
   "field": "#424b3b",
@@ -3739,6 +4062,7 @@
   }
  },
  "bowman-gray-stadium": {
+  "roof_center": "#959c75",
   "seats": "#9ea094",
   "roof": "#9ea094",
   "field": "#8f9975",
@@ -3751,6 +4075,7 @@
   }
  },
  "robert-k-kraft-field-at-lawrence-a-wien-stadium": {
+  "roof_center": "#637a5d",
   "seats": "#9a8677",
   "roof": "#3c423f",
   "field": "#616a54",
@@ -3763,6 +4088,7 @@
   }
  },
  "warren-mcguirk-alumni-stadium": {
+  "roof_center": "#939f7d",
   "seats": "#a8aa9e",
   "roof": "#c7c7c1",
   "field": "#8d997c",
@@ -3775,6 +4101,7 @@
   }
  },
  "state-farm-arena": {
+  "roof_center": "#d9dad8",
   "seats": "#8fabb3",
   "roof": "#d7dcdb",
   "shares": {
@@ -3786,6 +4113,7 @@
   }
  },
  "smoothie-king-center": {
+  "roof_center": "#e6e1e6",
   "seats": "#d6dae1",
   "roof": "#eaebed",
   "shares": {
@@ -3797,6 +4125,7 @@
   }
  },
  "roy-stewart-stadium": {
+  "roof_center": "#96a595",
   "seats": "#9ba28d",
   "roof": "#9ba28d",
   "field": "#7e927b",
@@ -3809,6 +4138,7 @@
   }
  },
  "fedexforum": {
+  "roof_center": "#eaeae8",
   "seats": "#babdc2",
   "roof": "#e8e8e8",
   "shares": {
@@ -3820,6 +4150,7 @@
   }
  },
  "tucker-stadium": {
+  "roof_center": "#8d8b6f",
   "seats": "#a36d60",
   "roof": "#babbb7",
   "field": "#57775b",
@@ -3832,6 +4163,7 @@
   }
  },
  "hanson-field": {
+  "roof_center": "#a9b1a3",
   "seats": "#ac9fa6",
   "roof": "#9eaf9a",
   "field": "#8ea18c",
@@ -3844,6 +4176,7 @@
   }
  },
  "indian-wells-tennis-garden": {
+  "roof_center": "#9ba2a1",
   "seats": "#888c80",
   "roof": "#adb0a9",
   "field": "#344f3c",
@@ -3856,6 +4189,7 @@
   }
  },
  "goodman-stadium": {
+  "roof_center": "#5b6945",
   "seats": "#a09d8d",
   "roof": "#c7c9bc",
   "field": "#586746",
@@ -3868,6 +4202,7 @@
   }
  },
  "paladin-stadium": {
+  "roof_center": "#6a877a",
   "seats": "#b8b39f",
   "roof": "#e1e1db",
   "field": "#507060",
@@ -3880,6 +4215,7 @@
   }
  },
  "simmons-bank-field": {
+  "roof_center": "#618157",
   "seats": "#a9ada1",
   "roof": "#506f4a",
   "field": "#506f4a",
@@ -3892,6 +4228,7 @@
   }
  },
  "harry-turpin-stadium": {
+  "roof_center": "#a6a892",
   "seats": "#d1d0be",
   "roof": "#d1d0be",
   "field": "#7b8c6e",
@@ -3904,6 +4241,7 @@
   }
  },
  "save-mart-center": {
+  "roof_center": "#c0c0be",
   "seats": "#ac9489",
   "roof": "#c0c1bf",
   "shares": {
@@ -3915,6 +4253,7 @@
   }
  },
  "state-farm-center": {
+  "roof_center": "#edf1f9",
   "seats": "#5c627f",
   "roof": "#dadfe8",
   "shares": {
@@ -3926,6 +4265,7 @@
   }
  },
  "pinnacle-bank-arena": {
+  "roof_center": "#f1f4f2",
   "seats": "#d1d6d3",
   "roof": "#e9eeed",
   "shares": {
@@ -3937,6 +4277,7 @@
   }
  },
  "the-pit": {
+  "roof_center": "#d9dbd8",
   "seats": "#a8a9a1",
   "roof": "#d8dbda",
   "shares": {
@@ -3948,6 +4289,7 @@
   }
  },
  "coleman-coliseum": {
+  "roof_center": "#eeefec",
   "seats": "#d3d9cd",
   "roof": "#edefec",
   "field": "#7e9390",
@@ -3960,6 +4302,7 @@
   }
  },
  "jerry-richardson-stadium": {
+  "roof_center": "#6b8b6a",
   "seats": "#a0a598",
   "roof": "#c7c8c0",
   "field": "#66886a",
@@ -3972,6 +4315,7 @@
   }
  },
  "allen-fieldhouse": {
+  "roof_center": "#bf9893",
   "seats": "#9c7170",
   "roof": "#c49c97",
   "shares": {
@@ -3983,6 +4327,7 @@
   }
  },
  "bryce-jordan-center": {
+  "roof_center": "#e7e7e3",
   "seats": "#cecfc5",
   "roof": "#e3e6e1",
   "shares": {
@@ -3994,6 +4339,7 @@
   }
  },
  "kibbie-dome": {
+  "roof_center": "#dedede",
   "seats": "#d0d4d5",
   "roof": "#dedede",
   "field": "#5b6957",
@@ -4006,6 +4352,7 @@
   }
  },
  "mvp-arena": {
+  "roof_center": "#e1e1e1",
   "seats": "#9f9fa3",
   "roof": "#dee0e0",
   "shares": {
@@ -4017,6 +4364,7 @@
   }
  },
  "clarence-t-c-ching-athletics-complex": {
+  "roof_center": "#000000",
   "seats": "#000000",
   "roof": "#000000",
   "shares": {
@@ -4024,6 +4372,7 @@
   }
  },
  "united-supermarkets-arena": {
+  "roof_center": "#a45b63",
   "seats": "#9b5a5f",
   "roof": "#9b5a5f",
   "shares": {
@@ -4035,6 +4384,7 @@
   }
  },
  "mizzou-arena": {
+  "roof_center": "#cfd4d0",
   "seats": "#dcdfd4",
   "roof": "#ccd3cf",
   "shares": {
@@ -4046,6 +4396,7 @@
   }
  },
  "hilton-coliseum": {
+  "roof_center": "#e3e6e3",
   "seats": "#e1e5e2",
   "roof": "#e1e5e2",
   "field": "#5c7a67",
@@ -4058,6 +4409,7 @@
   }
  },
  "jon-m-huntsman-center": {
+  "roof_center": "#c9cac5",
   "seats": "#3f5e74",
   "roof": "#dadcd9",
   "shares": {
@@ -4069,6 +4421,7 @@
   }
  },
  "panther-stadium-at-blackshear-field": {
+  "roof_center": "#7e9376",
   "seats": "#bcbeb5",
   "roof": "#dcddd5",
   "field": "#7b8a6f",
@@ -4081,6 +4434,7 @@
   }
  },
  "saluki-stadium": {
+  "roof_center": "#769179",
   "seats": "#aeb1aa",
   "roof": "#7d9780",
   "field": "#68876f",

@@ -58,7 +58,12 @@ for slug, e in M.items():
     cand = [k for k in range(5) if not green[k] and share[k] >= 0.08 and cen[k, 0] > 60]
     seats = max(cand, key=lambda k: chroma[k]) if cand else next((k for k in order if not green[k]), order[0])
     roof = int(order[0]) if not green[order[0]] else int(order[1])
-    out[slug] = {'seats': hexc(rgb[seats]), 'roof': hexc(rgb[roof]), **({'field': hexc(rgb[field])} if field is not None else {}),
+    # Roof center: median color within 40 m of the footprint centroid. Arena and
+    # dome roofs fill that disk; the largest cluster over the whole footprint is
+    # often street or shadow, which turned most arena roofs navy.
+    core = np.zeros_like(mask); cv2.circle(core, tuple(int(v) for v in c), int(40 / mpp), 255, -1)
+    rc = np.median(img[(core > 0)][:, ::-1], 0) if (core > 0).any() else None
+    out[slug] = {**({'roof_center': hexc(rc)} if rc is not None else {}),'seats': hexc(rgb[seats]), 'roof': hexc(rgb[roof]), **({'field': hexc(rgb[field])} if field is not None else {}),
                  'shares': {hexc(rgb[k]): round(float(share[k]), 3) for k in order}}
 json.dump(out, open('scripts/stadiums/overhaul/naip-colors.json', 'w'), indent=1)
 print(len(out), 'venues sampled')

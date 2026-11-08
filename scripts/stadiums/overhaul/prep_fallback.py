@@ -15,6 +15,8 @@ for slug in slugs:
     load = lambda k, mode: np.array(Image.open(f'{SRC}/{slug}-{k}.png').convert(mode))
     depth, mask, normal = load('depth', 'L').astype(np.float32), load('mask', 'L') > 127, load('normal', 'RGB')
     # Stretch depth over the model only, so the venue spans the full range.
+    if not mask.any():  # empty render (model outside the camera): report and move on
+        print(slug, 'EMPTY'); continue
     v = depth[mask]
     lo, hi = np.percentile(v, 1), np.percentile(v, 99.5)
     d = np.clip((depth - lo) / max(1e-6, hi - lo), 0, 1) * 0.85 + 0.15

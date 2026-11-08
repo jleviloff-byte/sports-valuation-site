@@ -153,6 +153,7 @@ function rectStadium({ fp, mat, info }, sport) {
     const off = K.rayHit(c, ed, outline) - 4
     g.add(K.place(K.scoreboard(clamp(H * 0.9, 10, 40), clamp(H * 0.3, 4, 14), Math.min(H, 1.2 + depthAt(endB) * 0.6) + 1, mat), [c[0] + ed[0] * off, c[1] + ed[1] * off], 0, (along + 90) % 360))
   }
+  if (v.roof === 'dome' && info.colors?.roof_center) P.roof = info.colors.roof_center
   if (v.roof === 'retractable') {
     const ed = [Math.cos(ang), Math.sin(ang)]
     g.add(parkedRoof(c, ed, K.rayHit(c, ed, outline) - 45, F.W + 80, 70, H + 6, P.roof, mat))
@@ -208,6 +209,7 @@ function ballpark({ fp, mat, info }) {
 // Arena: an enclosed drum on the footprint, glass base, clad walls, low dome.
 function arena({ fp, mat, info }) {
   const P = palette(info), v = info.venue || {}
+  if (info.colors?.roof_center) P.roof = info.colors.roof_center
   const c = K.centroid(fp.pts)
   const R = clamp(Math.sqrt((v.capacity || 15000) * 1.1), 70, 105) // footprint radius cap
   const outline = ring(c, fp.pts, () => R, () => 45, 3)
