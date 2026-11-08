@@ -114,7 +114,7 @@ async function composite(r, style) {
   return sq
 }
 
-const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
+const browser = await chromium.launch({ ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}), args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
 const page = await browser.newPage()
 page.on('pageerror', (e) => console.log('page exception:', e.message))
 page.on('console', (m) => { if (m.type() === 'error') console.log('page error:', m.text()) })
@@ -126,7 +126,7 @@ for (const slug of slugs) {
   const v = data.venues.find((x) => x.slug === slug)
   const w = wikiByUrl[v.sources.wikipedia]
   const osm = JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8'))
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), colors: Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])
@@ -140,7 +140,7 @@ for (const slug of slugs) {
       // Conditioning images for Path A (ControlNet depth + mask), padded to a square on black.
       const cdir = 'scripts/stadiums/art2/out/control'
       fs.mkdirSync(cdir, { recursive: true })
-      for (const k of ['depth', 'mask']) {
+      for (const k of ['depth', 'mask', 'normal']) {
         const img = sharp(Buffer.from(r[k].split(',')[1], 'base64'))
         const m = await img.metadata(), side = Math.max(m.width, m.height)
         await img.extend({ top: Math.floor((side - m.height) / 2), bottom: Math.ceil((side - m.height) / 2), left: Math.floor((side - m.width) / 2), right: Math.ceil((side - m.width) / 2), background: '#000' })

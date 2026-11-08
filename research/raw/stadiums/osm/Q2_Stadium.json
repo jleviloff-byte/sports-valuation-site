@@ -1,1 +1,62 @@
-{"title":"Q2 Stadium","method":"nominatim","seed":{"lat":30.3877,"lng":-97.7195},"queries":["Q2 Stadium, Austin, Texas","Q2 Stadium"],"query_used":null,"fetched":"2026-11-06T19:38:30.769Z","best":null,"others":[]}
+{
+ "title": "Q2 Stadium",
+ "method": "nominatim",
+ "seed": {
+  "lat": 30.3877,
+  "lng": -97.7195
+ },
+ "queries": [
+  "Q2 Stadium, Austin, Texas",
+  "Q2 Stadium"
+ ],
+ "query_used": null,
+ "fetched": "2026-11-06T19:38:30.769Z",
+ "best": {
+  "id": null,
+  "url": null,
+  "name": "Q2 Stadium",
+  "kind": "traced from USGS NAIP (public domain); OSM lookup returned no stadium",
+  "footprint": [
+   [
+    -97.7206437,
+    30.3882324
+   ],
+   [
+    -97.7191819,
+    30.3886836
+   ],
+   [
+    -97.7185387,
+    30.3872204
+   ],
+   [
+    -97.7200239,
+    30.3867835
+   ],
+   [
+    -97.7206437,
+    30.3882324
+   ]
+  ],
+  "field": [
+   [
+    -97.7201292,
+    30.3880638
+   ],
+   [
+    -97.7194392,
+    30.3882772
+   ],
+   [
+    -97.7190767,
+    30.387383
+   ],
+   [
+    -97.7197432,
+    30.3871696
+   ]
+  ],
+  "traced": "2026-11-08, scripts/stadiums/overhaul (roof outline and pitch corners read from naip/q2-stadium.jpg)"
+ },
+ "others": []
+}

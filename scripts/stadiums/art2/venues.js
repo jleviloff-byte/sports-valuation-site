@@ -615,13 +615,12 @@ function daytona({ fp, mat, info }) {
   }
   // Light poles along the outside of the turn entries.
   for (const u of [-520, -480, 480, 520]) { const p = toW([u, frontV(u) + W / 2 + 14]); const pole = K.box(0.8, 32, 0.8, '#c8cbcf', mat, { kind: 'steel', bevel: 0 }); pole.position.set(p[0], 0, p[1]); g.add(pole) }
-  // Frame: grandstand, front stretch, pit road and the banked turn entries.
-  g.userData.frame = [[-260, R - 40], [600, R - 60], [-260, R + DOG + W / 2 + 90], [600, R + W / 2 + 40]].map(([u, v]) => toW([u, v]))
-  g.userData.fadeEdges = true // cut-away: the stretch continues past the frame, so the sprite fades out at its borders
-  // Looking along the front stretch toward turn 1 from the infield: the
-  // grandstand recedes on the left and the 31-degree banking rises ahead.
-  g.userData.cameraBearing = 170
-  g.userData.cameraElev = 34
+  // Frame (overhaul): the front half of the tri-oval. The
+  // camera sits beyond the back stretch looking across the infield at the
+  // frontstretch grandstand, which faces it (brief: frame on the grandstand side).
+  g.userData.frame = [[-S - R * 0.35, R * 0.55], [S + R * 0.35, R * 0.55], [-S - R * 0.35, R + DOG + W / 2 + 90], [S + R * 0.35, R + DOG + W / 2 + 90]].map(([u, v]) => toW([u, v])) // grandstand, front stretch, pit road and both turn entries
+  g.userData.cameraBearing = 128 // opposite the grandstand side (bearing 308)
+  g.userData.cameraElev = 36
   return g
 }
 
@@ -733,6 +732,198 @@ function ashe({ fp, mat, info }) {
   return g
 }
 
+// ── Overhaul fallback builders (2026-11-08) ──────────────────────────────────
+// Geometry for the depth/edge conditioning of venues with no whole-venue
+// oblique photo (docs/overhaul/brief.md, step 6). Plan dimensions come from the
+// OSM footprint or a NAIP trace; heights from the reference photos listed in
+// docs/overhaul/specs/<slug>.md. Colors matter little here: generation takes
+// its colors from the prompt and IP-Adapter, so these models carry shape only.
+function extrude(pts, h, color, mat, opts = {}, holes = []) {
+  const shape = new THREE.Shape(pts.map(([x, z]) => new THREE.Vector2(x, -z)))
+  for (const hp of holes) shape.holes.push(new THREE.Path(hp.map(([x, z]) => new THREE.Vector2(x, -z))))
+  const g = new THREE.ExtrudeGeometry(shape, { depth: h, bevelEnabled: false })
+  g.rotateX(-Math.PI / 2)
+  const m = new THREE.Mesh(g, mat(color, opts)); m.castShadow = m.receiveShadow = true
+  m.position.y = opts.y || 0
+  return m
+}
+const offsetRect = (c, ax, hl, hw) => { const n = [-ax[1], ax[0]]; return [[-1, -1], [1, -1], [1, 1], [-1, 1]].map(([a, b]) => [c[0] + ax[0] * a * hl + n[0] * b * hw, c[1] + ax[1] * a * hl + n[1] * b * hw]) }
+
+// L&N Federal Credit Union Stadium: closed bowl (north end closed in 2018),
+// field north-south (OSM axis 179), tall west press box tower, east upper deck
+// under a white canopy, video board over the north end (#3, #7, NAIP).
+function landn({ fp: fp0, mat, info }) {
+  // The OSM polygon includes plazas around the bowl (330 x 283 m). Cap the
+  // outline at the stand depths read from NAIP: ~62 m behind the sidelines,
+  // ~48 m behind the end lines, measured from the field edge.
+  const c0 = K.centroid(fp0.pts), cap = { cx: c0[0], cz: c0[1], hx: 109.73 / 2 + 48, hz: 48.77 / 2 + 62, rr: 30, ang: -Math.PI / 2 }
+  const capped = []; for (let i = 0; i < 360; i += 2) { const d = K.bearingVec(i); capped.push([c0[0] + d[0] * Math.min(K.rayHit(c0, d, fp0.pts), K.rectHit(c0, d, cap, 0)), c0[1] + d[1] * Math.min(K.rayHit(c0, d, fp0.pts), K.rectHit(c0, d, cap, 0))]) }
+  const fp = { ...fp0, pts: capped }
+  const cl = info.colors || {}
+  const SEAT = cl['seats (aerial)'] || '#a25e5e', BRICK = cl['facade brick'] || '#4a372f', GLASS = cl['facade glass'] || '#627b78'
+  const rimAt = (th) => { // rim height by bearing from the field center
+    const r = (th * Math.PI) / 180
+    return 22 + 7 * Math.sin(r) /* east higher */ + 4 * Math.cos(r) /* north end higher than south */ - 3 * Math.abs(Math.cos(r)) * (Math.cos(r) < 0 ? 1 : 0)
+  }
+  const { g, field, center } = footballBowl({
+    fp, mat, axisDeg: 0, apron: 8, rowCount: 50,
+    profile: (u, th) => {
+      const H = rimAt(th)
+      if (u > 0.97) return { h: H, color: '#d9d8d2' }
+      // East side: lower bowl, concourse step, then the upper deck.
+      if (th > 45 && th < 135 && u > 0.55) return { h: K.lerp(14, H - 0.5, (u - 0.55) / 0.42), color: SEAT, seat: true }
+      return { h: K.lerp(1.5, th > 45 && th < 135 ? 13 : H - 0.5, Math.min(1, u / (th > 45 && th < 135 ? 0.55 : 0.97))), color: SEAT, seat: true }
+    },
+    facade: BRICK,
+  })
+  g.add(fieldMesh(g.userData.innerRing, 0.05, (ctx, toPx, ppm) => K.footballField(ctx, toPx, ppm, { ...field, grass: '#4f8f3c', grass2: '#58994a', surround: '#4f8f3c', endzone: '#3a3a3a', endzoneText: '#b51f2a' }), mat))
+  const east = K.bearingVec(90)
+  // West press box and suite tower: brick ends, glass field face, seven levels (#7).
+  const offW = K.rayHit(center, [-east[0], -east[1]], fp.pts) - 14
+  const t = new THREE.Group()
+  t.add(K.box(150, 18, 22, GLASS, mat, { kind: 'glass' }))
+  for (let k = 1; k < 5; k++) { const s = K.box(150.4, 0.6, 22.4, '#d9d8d2', mat, { kind: 'concrete' }); s.position.y = k * 3.6; t.add(s) }
+  const roof = K.box(154, 1.2, 25, '#e8e7e2', mat, { kind: 'concrete' }); roof.position.y = 18; t.add(roof)
+  for (const e of [-1, 1]) { const tw = K.box(12, 24, 24, BRICK, mat, { kind: 'brick' }); tw.position.x = e * 81; t.add(tw) }
+  K.place(t, [center[0] - east[0] * offW, center[1] - east[1] * offW], 24, 0)
+  g.add(t)
+  // East upper-deck canopy: a white roof plane over the top rows.
+  const offE = K.rayHit(center, east, fp.pts) - 8
+  const canopy = K.box(160, 1.4, 18, '#efefea', mat, { kind: 'metal' })
+  g.add(K.place(canopy, [center[0] + east[0] * offE, center[1] + east[1] * offE], rimAt(90) + 7, 0))
+  for (let k = -3; k <= 3; k++) { const col = K.box(1.2, 7, 1.2, '#efefea', mat, { kind: 'metal' }); g.add(K.place(col, [center[0] + east[0] * (offE + 7) + k * 0, center[1] + east[1] * (offE + 7) + k * 24], rimAt(90), 0)) }
+  // North end video board on the closed end (#3).
+  const north = K.bearingVec(0)
+  const offN = K.rayHit(center, north, fp.pts) - 10
+  g.add(K.place(K.scoreboard(34, 12, rimAt(0) + 2, mat), [center[0] + north[0] * offN, center[1] + north[1] * offN], 0, 90))
+  // Light towers on the east and west rims (#3).
+  for (const sgn of [-1, 1]) for (const along of [-50, 50]) g.add(K.place(K.lightTower(rimAt(sgn > 0 ? 90 : 270) + 14, mat), [center[0] + east[0] * sgn * (K.rayHit(center, [east[0] * sgn, east[1] * sgn], fp.pts) - 4), center[1] + along], 0, 0))
+  return g
+}
+
+// Rupp Arena: flat-roofed rectangular box (OSM, 162 x 144 m, axis 129),
+// beige ribbed metal walls above a dark glass base, diagonal-braced corner
+// stair towers (#13, #15), light flat roof with rooftop units (NAIP).
+function rupp({ fp, mat, info }) {
+  const cl = info.colors || {}
+  const WALL = cl['facade metal'] || '#c8beaf', GLASS = cl['facade glass'] || '#223243', ROOF = cl['roof (aerial)'] || '#d7d8d5'
+  const pts = fp.pts, c = K.centroid(pts)
+  const g = new THREE.Group()
+  const inset = pts.map(([x, z]) => { const dx = x - c[0], dz = z - c[1], L = Math.hypot(dx, dz); return [x - (dx / L) * 1.5, z - (dz / L) * 1.5] })
+  g.add(extrude(inset, 7, GLASS, mat, { kind: 'glass' }))
+  g.add(extrude(pts, 25, WALL, mat, { kind: 'metal', y: 7 }))
+  g.add(extrude(pts, 1.4, K.tone(WALL, 1.1), mat, { kind: 'metal', y: 32 }))
+  g.add(extrude(inset, 0.6, ROOF, mat, { kind: 'concrete', y: 32 }))
+  // Vertical ribs on the long walls read as fine lines in the edge map.
+  for (let i = 0; i < pts.length; i++) {
+    const a = pts[i], b = pts[(i + 1) % pts.length], L = Math.hypot(b[0] - a[0], b[1] - a[1]); if (L < 20) continue
+    const brg = K.vecBearing([b[0] - a[0], b[1] - a[1]])
+    for (let k = 4; k < L - 4; k += 4) { const t = k / L; g.add(K.place(K.box(0.5, 25, 0.5, K.tone(WALL, 0.88), mat, { kind: 'metal', bevel: 0 }), [K.lerp(a[0], b[0], t), K.lerp(a[1], b[1], t)], 7, brg)) }
+  }
+  // Corner stair towers with X bracing at the four main corners.
+  const corners = pts.map((p, i) => ({ p, d: Math.hypot(p[0] - c[0], p[1] - c[1]) })).sort((x, y) => y.d - x.d).slice(0, 4)
+  for (const { p } of corners) {
+    const dir = [p[0] - c[0], p[1] - c[1]], L = Math.hypot(...dir), at = [p[0] + (dir[0] / L) * 3, p[1] + (dir[1] / L) * 3]
+    const tw = new THREE.Group()
+    tw.add(K.box(9, 30, 9, K.tone(WALL, 0.95), mat, { kind: 'metal' }))
+    for (let y = 2; y < 28; y += 6.5) for (const sgn of [-1, 1]) { const br = K.box(12, 0.5, 0.5, '#5b5f63', mat, { kind: 'metal', bevel: 0 }); br.position.set(0, y + 3, 4.8); br.rotation.z = sgn * 0.55; tw.add(br) }
+    g.add(K.place(tw, at, 0, K.vecBearing(dir) + 90))
+  }
+  // Rooftop mechanical units (NAIP shows small boxes along the roof's center).
+  for (let k = -2; k <= 2; k++) g.add(K.place(K.box(10, 3, 6, '#b9bab6', mat, { kind: 'metal' }), [c[0] + k * 18, c[1] + 6], 32.6, 39))
+  return g
+}
+
+// Q2 Stadium: footprint and pitch traced from NAIP (no OSM polygon). Steep
+// stands on all four sides close to the touchlines, a continuous white roof
+// ring on exposed steel trusses over every stand, the tallest on the west
+// (#1, #9, NAIP).
+function q2({ fp, mat, info, osm }) {
+  const cl = info.colors || {}
+  const SEAT = cl['seats (sun)'] || '#264129', ROOF = cl['roof (aerial)'] || '#eceae6', STEEL = '#f2f2ee', SLAT = cl['facade green slats'] || '#196249'
+  const pts = fp.pts
+  const fieldPts = info.field || offsetRect(K.centroid(pts), K.bearingVec(159), 52.5, 34)
+  const fc = [fieldPts.reduce((s, p) => s + p[0], 0) / 4, fieldPts.reduce((s, p) => s + p[1], 0) / 4]
+  const along = [fieldPts[3][0] - fieldPts[0][0], fieldPts[3][1] - fieldPts[0][1]], alongLen = Math.hypot(...along)
+  const ang = Math.atan2(along[1], along[0])
+  const field = { cx: fc[0], cz: fc[1], hx: alongLen / 2, hz: Math.hypot(fieldPts[1][0] - fieldPts[0][0], fieldPts[1][1] - fieldPts[0][1]) / 2, rr: 0.5, ang }
+  const westBrg = (K.vecBearing(along) + 90) % 360 // the west side is 90 deg clockwise of the pitch axis
+  const rim = (th) => { const d = ((th - westBrg + 540) % 360) - 180; return 15 + 9 * Math.max(0, Math.cos((d * Math.PI) / 180)) }
+  const g = K.bowl({ center: fc, outline: pts, inner: (th, d) => K.rectHit(fc, d, field, 7), nTheta: 480, nU: 30, rows: true, rowCount: 34,
+    profile: (u, th) => (u > 0.96 ? { h: rim(th), color: '#cfcfca' } : { h: K.lerp(1.2, rim(th) - 0.4, u / 0.96), color: SEAT, seat: true }), facade: SLAT }, mat)
+  const pitch = fieldMesh(g.userData.innerRing, 0.05, (ctx, toPx, ppm) => {
+    ctx.fillStyle = '#5c8d3a'; ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+    const cs = Math.cos(ang), sn = Math.sin(ang), at = (u, v) => toPx([fc[0] + u * cs - v * sn, fc[1] + u * sn + v * cs])
+    for (let k = 0; k < 14; k++) { ctx.fillStyle = k % 2 ? '#5c8d3a' : '#679a43'; ctx.beginPath(); for (const [u, v] of [[-field.hx + k * field.hx / 7, -field.hz], [-field.hx + (k + 1) * field.hx / 7, -field.hz], [-field.hx + (k + 1) * field.hx / 7, field.hz], [-field.hx + k * field.hx / 7, field.hz]]) ctx.lineTo(...at(u, v)); ctx.fill() }
+    ctx.strokeStyle = '#f4f4ef'; ctx.lineWidth = 0.2 * ppm
+    ctx.beginPath(); for (const [u, v] of [[-field.hx, -field.hz], [field.hx, -field.hz], [field.hx, field.hz], [-field.hx, field.hz], [-field.hx, -field.hz]]) ctx.lineTo(...at(u, v)); ctx.stroke()
+    ctx.beginPath(); ctx.moveTo(...at(0, -field.hz)); ctx.lineTo(...at(0, field.hz)); ctx.stroke()
+    ctx.beginPath(); const [px, py] = at(0, 0); ctx.arc(px, py, 9.15 * ppm, 0, Math.PI * 2); ctx.stroke()
+    for (const e of [-1, 1]) { ctx.beginPath(); for (const [u, v] of [[e * field.hx, -20.16], [e * (field.hx - 16.5), -20.16], [e * (field.hx - 16.5), 20.16], [e * field.hx, 20.16]]) ctx.lineTo(...at(u, v)); ctx.stroke() }
+  }, mat)
+  g.add(pitch)
+  // Roof ring: outer footprint with a hole 9 m outside the pitch, on trusses.
+  const hole = offsetRect(fc, [Math.cos(ang), Math.sin(ang)], field.hx + 9, field.hz + 9)
+  const roofY = 30
+  g.add(extrude(pts, 1.2, ROOF, mat, { kind: 'metal', y: roofY }, [hole]))
+  // Exposed trusses: radial beams from the hole edge to the outline, every ~9 m.
+  for (let th = 0; th < 360; th += 2.2) {
+    const d = K.bearingVec(th), r0 = K.rectHit(fc, d, { ...field, hx: field.hx + 9, hz: field.hz + 9 }, 0), r1 = K.rayHit(fc, d, pts)
+    if (!(r1 > r0)) continue
+    const mid = [fc[0] + d[0] * (r0 + r1) / 2, fc[1] + d[1] * (r0 + r1) / 2]
+    const beam = K.box(r1 - r0, 2.2, 0.5, STEEL, mat, { kind: 'metal', bevel: 0 }); g.add(K.place(beam, mid, roofY - 2.2, th))
+  }
+  // Roof columns along the outline.
+  for (let i = 0; i < pts.length; i++) { const a = pts[i], b = pts[(i + 1) % pts.length], L = Math.hypot(b[0] - a[0], b[1] - a[1]); for (let k = 10; k < L; k += 22) { const t = k / L; g.add(K.place(K.box(1.4, roofY, 1.4, STEEL, mat, { kind: 'metal' }), [K.lerp(a[0], b[0], t), K.lerp(a[1], b[1], t)], 0, 0)) } }
+  return g
+}
+
+// Bristol Motor Speedway: 0.533-mile concrete oval (two ~198 m straights,
+// ~73.5 m turn radius) with 24-28 degree banking in the turns, enclosed by
+// tall steep grandstands all the way round (OSM footprint 456 x 350 m, axis
+// 142; #26, #30). Infield with pit road and garages.
+function bristol({ fp, mat, info }) {
+  const cl = info.colors || {}
+  const GRAY = cl['seats gray'] || '#84888c', RED = cl['seats red'] || '#75424d', TRACK = cl.track || '#585c5f', STEEL = cl['facade steel'] || '#192332'
+  const pts = fp.pts, c = K.centroid(pts)
+  const axB = 142, ax = K.bearingVec(axB), nx = K.bearingVec(axB + 90)
+  const S = 99, R = 73.5, TW = 14
+  const toW = (u, v) => [c[0] + ax[0] * u + nx[0] * v, c[1] + ax[1] * u + nx[1] * v]
+  // Oval centerline point and outward normal at parameter s (0..1).
+  const L1 = 2 * S, L2 = Math.PI * R, tot = 2 * L1 + 2 * L2
+  const at = (s, off) => { let d = s * tot, u, v, nu, nv
+    if (d < L1) { u = -S + d; v = -R; nu = 0; nv = -1 } else if ((d -= L1) < L2) { const a = -Math.PI / 2 + d / R; u = S + R * Math.cos(a); v = R * Math.sin(a); nu = Math.cos(a); nv = Math.sin(a) }
+    else if ((d -= L2) < L1) { u = S - d; v = R; nu = 0; nv = 1 } else { d -= L1; const a = Math.PI / 2 + d / R; u = -S + R * Math.cos(a); v = R * Math.sin(a); nu = Math.cos(a); nv = Math.sin(a) }
+    return { p: toW(u + nu * off, v + nv * off), turn: Math.abs(u) > S - 1 } }
+  const g = new THREE.Group()
+  // Banked track surface: inner edge at grade, outer edge raised by the banking.
+  const n = 720, tp = [], ti = [], tc = [], col = new THREE.Color(K.tone(TRACK, 1.5))
+  const bankH = (s) => { const q = at(s, 0); return TW * Math.tan(((q.turn ? 26 : 6) * Math.PI) / 180) }
+  const hs = []; for (let i = 0; i < n; i++) hs.push(bankH(i / n))
+  const sm = hs.map((_, i) => { let a = 0; for (let k = -12; k <= 12; k++) a += hs[(i + k + n) % n]; return a / 25 })
+  for (let i = 0; i < n; i++) { const a = at(i / n, -TW / 2), b = at(i / n, TW / 2); tp.push(a.p[0], 0.2, a.p[1], b.p[0], 0.2 + sm[i], b.p[1]); tc.push(col.r, col.g, col.b, col.r, col.g, col.b) }
+  for (let i = 0; i < n; i++) { const a = i * 2, b = ((i + 1) % n) * 2; ti.push(a, b, a + 1, b, b + 1, a + 1) }
+  const tg = new THREE.BufferGeometry(); tg.setAttribute('position', new THREE.Float32BufferAttribute(tp, 3)); tg.setAttribute('color', new THREE.Float32BufferAttribute(tc, 3)); tg.setIndex(ti); tg.computeVertexNormals()
+  const tm = new THREE.Mesh(tg, mat('#ffffff', { vertex: true, side: THREE.DoubleSide, kind: 'concrete' })); tm.castShadow = tm.receiveShadow = true; g.add(tm)
+  // Outer retaining wall on top of the banking.
+  const wallPts = []; for (let i = 0; i < n; i++) wallPts.push(at(i / n, TW / 2 + 0.6).p)
+  const outerRing = []; for (let i = 0; i < n; i += 4) outerRing.push(at(i / n, TW / 2 + 1.2).p)
+  // Grandstands: steep bowl from the wall to the footprint, rising to ~40 m.
+  const stands = K.bowl({ center: c, outline: pts, inner: (th, d) => K.rayHit(c, d, outerRing) + 1, nTheta: 540, nU: 36, rows: true, rowCount: 60,
+    profile: (u, th) => { const rel = ((th - axB + 360) % 360); const red = rel > 200 && rel < 340 && u > 0.45; return u > 0.97 ? { h: 52, color: '#d6d6d2' } : { h: K.lerp(6, 51, Math.pow(u / 0.97, 0.9)), color: red ? RED : GRAY, seat: true } },
+    facade: STEEL }, mat)
+  g.add(stands)
+  // Infield: concrete pad, pit road along one straight, garage rows.
+  const infield = []; for (let i = 0; i < n; i += 6) infield.push(at(i / n, -TW / 2 - 0.5).p)
+  g.add(K.flatPoly(infield, 0.15, mat('#9da3a6', { kind: 'concrete' })))
+  for (let k = -3; k <= 3; k++) g.add(K.place(K.box(24, 4, 8, '#e3e3df', mat, { kind: 'metal' }), toW(k * 26, -12), 0.2, axB))
+  g.add(K.place(K.box(150, 6, 18, '#e9e8e4', mat, { kind: 'metal' }), toW(0, 22), 0.2, axB))
+  // Suites and press box along the top of the front stretch; hanging video cube over the infield.
+  g.add(K.place(K.box(220, 10, 12, '#e9e9e5', mat, { kind: 'glass' }), toW(0, R + 72), 50, axB))
+  const cube = K.box(14, 10, 14, '#2a2e33', mat, { kind: 'glass' }); g.add(K.place(cube, toW(0, 0), 34, axB))
+  return g
+}
+
 export const BUILDERS = {
   'michigan-stadium': michigan,
   'yulman-stadium': yulman,
@@ -742,4 +933,8 @@ export const BUILDERS = {
   'madison-square-garden': msg,
   'daytona-international-speedway': daytona,
   'arthur-ashe-stadium': ashe,
+  'landn-federal-credit-union-stadium': landn,
+  'rupp-arena': rupp,
+  'q2-stadium': q2,
+  'bristol-motor-speedway': bristol,
 }

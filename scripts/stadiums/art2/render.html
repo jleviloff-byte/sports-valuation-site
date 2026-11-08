@@ -103,6 +103,7 @@ function lights(scene, style, radius, center, camBearing = CAM_BEARING) {
 window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
   const mat = K.makeMaterials(style)
   const fp = K.project(footprint)
+  if (info && info.fieldLL) info.field = info.fieldLL.map(fp.toLocal) // pitch corners traced from NAIP
   const model = BUILDERS[slug]({ fp, kit: K, mat, THREE, info: info || {} })
   const scene = new THREE.Scene()
   scene.background = new THREE.Color(0x000000)
