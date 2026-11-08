@@ -1,0 +1,193 @@
+[
+ {
+  "slug": "angel-stadium",
+  "kind": "baseball park",
+  "ref": "refs/angel-stadium/4.jpg",
+  "mask": "masks/angel-stadium-hull.png",
+  "desc_short": "Angel Stadium: ballpark with red seats in three decks, a rocky waterfall feature in center field, tan exterior, open outfield, grass field",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "everbank-stadium",
+  "kind": "football stadium",
+  "ref": "refs/everbank-stadium/1.jpg",
+  "mask": "masks/everbank-stadium-hull.png",
+  "desc_short": "EverBank Stadium: open football bowl with teal seats, two huge wide video boards above the end zones, gray concrete exterior with ramp towers, green field",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "williams-brice-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/williams-brice-stadium/4.jpg",
+  "mask": "masks/williams-brice-stadium-hull.png",
+  "desc_short": "Williams-Brice Stadium: closed college football bowl with garnet and black seats, upper decks on both sides, gray concrete exterior, end video board",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "dodger-stadium",
+  "kind": "baseball park",
+  "ref": "refs/dodger-stadium/7.jpg",
+  "mask": "masks/dodger-stadium-hull.png",
+  "desc_short": "Dodger Stadium: ballpark with stacked terraces of multicolored seats behind home, wavy-roofed outfield pavilions, hexagonal scoreboards, on a terraced hillside",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "petco-park",
+  "kind": "baseball park",
+  "ref": "refs/petco-park/20.jpg",
+  "mask": "masks/petco-park-hull.png",
+  "desc_short": "Petco Park: sandstone and white ballpark with navy seats, an old four-story brick building built into the left field corner, lawn beyond center field",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "rate-field",
+  "kind": "baseball park",
+  "ref": "refs/rate-field/27.jpg",
+  "mask": "masks/rate-field-hull.png",
+  "desc_short": "Rate Field: steel and concrete ballpark with dark green seats, a flat canopy roof over the upper deck, scoreboard with pinwheels in center field, grass field",
+  "seeds": [
+   7,
+   23,
+   71
+  ],
+  "blank": [
+   [
+    0.52,
+    0.29,
+    0.61,
+    0.66
+   ],
+   [
+    0.33,
+    0.45,
+    0.44,
+    0.52
+   ]
+  ]
+ },
+ {
+  "slug": "nationals-park",
+  "kind": "baseball park",
+  "ref": "refs/nationals-park/6.jpg",
+  "mask": "masks/nationals-park-hull.png",
+  "desc_short": "Nationals Park: modern glass, steel and white concrete ballpark with blue seats, open outfield toward the river, right field scoreboard, grass field",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "comerica-park",
+  "kind": "baseball park",
+  "ref": "refs/comerica-park/6.jpg",
+  "mask": "masks/comerica-park-hull.png",
+  "desc_short": "Comerica Park: tan brick ballpark with dark green seats, open outfield with a center field fountain, large left field scoreboard, grass field",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "chase-field",
+  "kind": "retractable-roof baseball park",
+  "ref": "refs/chase-field/3.jpg",
+  "mask": "masks/chase-field-hull.png",
+  "desc_short": "Chase Field: big boxy ballpark with a retractable gray-green steel roof, tan brick and green steel exterior, tall outfield windows",
+  "seeds": [
+   7,
+   23,
+   71
+  ]
+ },
+ {
+  "slug": "yankee-stadium",
+  "kind": "baseball park",
+  "ref": "refs/yankee-stadium/32.jpg",
+  "desc_short": "Yankee Stadium: ballpark with a pale limestone exterior of tall arched windows, white roof frieze, navy seats in three decks, outfield bleachers, grass field",
+  "seeds": [
+   7,
+   23,
+   71
+  ],
+  "poly": [
+   [
+    0.18,
+    0.48
+   ],
+   [
+    0.2,
+    0.76
+   ],
+   [
+    0.4,
+    0.8
+   ],
+   [
+    0.58,
+    0.78
+   ],
+   [
+    0.8,
+    0.72
+   ],
+   [
+    0.86,
+    0.66
+   ],
+   [
+    0.86,
+    0.53
+   ],
+   [
+    0.8,
+    0.4
+   ],
+   [
+    0.72,
+    0.3
+   ],
+   [
+    0.62,
+    0.25
+   ],
+   [
+    0.46,
+    0.25
+   ],
+   [
+    0.43,
+    0.31
+   ],
+   [
+    0.3,
+    0.38
+   ],
+   [
+    0.24,
+    0.42
+   ]
+  ]
+ }
+]

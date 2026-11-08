@@ -67,3 +67,7 @@ Next step for each: the fallback path (NAIP-measured 3D model, as for the pilot'
 | circuit-of-the-americas | whole circuit fills the aerial; needs a grandstand-side crop or the fallback model |
 | indianapolis-motor-speedway | segmentation of the grandstand aerial failed twice (fragments); needs the fallback model |
 | northwest-stadium | only aerial is distant and hazy; segmentation failed twice |
+| crypto-com-arena | batch 1: the only aerial is cropped tight on the roof, so every seed is a cropped roof with lettering; needs the fallback model |
+| gaylord-family-oklahoma-memorial-stadium | batch 1: the reference is a distant low view of the press box and facade, so outputs show a facade with no bowl; needs the fallback model |
+| pnc-park | batch 1: the reference is a street-level dusk view of the facade; outputs are facade fragments; needs the fallback model |
+| progressive-field | batch 1: the reference is a low view across an arena roof; outputs are fragments; needs the fallback model |
