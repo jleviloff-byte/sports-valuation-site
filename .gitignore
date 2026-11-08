@@ -59,3 +59,6 @@ research/raw/stadiums/kaggle/
 kaggle.json
 access_token
 research/raw/stadiums/refs-cand/
+
+# Claude Code local settings (per machine)
+.claude/settings.local.json

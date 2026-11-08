@@ -1,6 +1,6 @@
 # Venues under construction or planned (excluded)
 
-From the "future" tables of the Wikipedia list pages (fetched 2026-11-06). Not verified against official sources. Capacity and opening are as listed.
+From the "future" tables of the Wikipedia list pages (fetched 2026-11-07). Not verified against official sources. Capacity and opening are as listed.
 
 | Venue | Team | Capacity | Planned opening | Source |
 |---|---|---|---|---|
