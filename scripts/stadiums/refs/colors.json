@@ -49,6 +49,16 @@
     0.74,
     0.83
    ]
+  },
+  "field surround": {
+   "hex": "#947071",
+   "ref": 1,
+   "rect": [
+    0.407,
+    0.5,
+    0.414,
+    0.62
+   ]
   }
  },
  "yulman-stadium": {
@@ -102,6 +112,16 @@
     0.47
    ]
   },
+  "sideline band (photo)": {
+   "hex": "#6e828e",
+   "ref": 10,
+   "rect": [
+    0.2,
+    0.585,
+    0.45,
+    0.598
+   ]
+  },
   "seats (aerial)": {
    "hex": "#a2b5b8",
    "ref": "naip",
@@ -132,6 +152,26 @@
     0.36,
     0.95,
     0.45
+   ]
+  },
+  "seats grandstand (aerial, sun)": {
+   "hex": "#a08d7c",
+   "ref": "naip",
+   "rect": [
+    0.43,
+    0.675,
+    0.46,
+    0.69
+   ]
+  },
+  "seats grandstand (overcast)": {
+   "hex": "#572d24",
+   "ref": 9,
+   "rect": [
+    0.88,
+    0.8,
+    0.99,
+    0.86
    ]
   },
   "field": {
@@ -194,6 +234,16 @@
     0.6,
     0.25,
     0.66
+   ]
+  },
+  "seats (lit)": {
+   "hex": "#202e2d",
+   "ref": 18,
+   "rect": [
+    0.7,
+    0.48,
+    0.85,
+    0.52
    ]
   },
   "field": {

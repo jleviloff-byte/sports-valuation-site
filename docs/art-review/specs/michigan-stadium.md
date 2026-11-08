@@ -6,18 +6,18 @@ Type rule (football): Field at regulation proportions with end zones and yard li
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Closed single-tier bowl, near-rectangular with rounded corners, no upper deck | NAIP aerial, #1 |
-| 2 | Field sunk below grade: the rim sits only a few meters above the surrounding ground | #1 |
-| 3 | Regulation field (120 x 53.3 yd) running north-south, end zones and yard lines, stands parallel to the sidelines | NAIP aerial, #5 |
-| 4 | West sideline: long brick-and-glass press box and suite tower rising well above the rim | NAIP aerial, #1 |
-| 5 | East sideline: second brick-and-glass suite tower, slightly lower | NAIP aerial, #1 |
-| 6 | Video boards above both end-zone rims, raised on white columns; back faces plain navy (the Block M is a logo and is left off) | #1, #5, #6 |
-| 7 | Blue-gray bench seating over the whole bowl | #1 |
-| 8 | Blue band along the top of the bowl wall | #1 |
-| 9 | Dark navy end zones with a maize lettering band, drawn as a plain stripe | NAIP aerial, #5 |
-| 10 | Brick on the tower ends and the entry buildings at grade | #1 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Closed single-tier bowl, near-rectangular with rounded corners, no upper deck | NAIP aerial, #1 | PASS |
+| 2 | Field sunk below grade: the rim sits only a few meters above the surrounding ground | #1 | PASS |
+| 3 | Regulation field (120 x 53.3 yd) running north-south, end zones and yard lines, stands parallel to the sidelines | NAIP aerial, #5 | PASS |
+| 4 | West sideline: long brick-and-glass press box and suite tower rising well above the rim | NAIP aerial, #1 | PASS |
+| 5 | East sideline: second brick-and-glass suite tower, slightly lower | NAIP aerial, #1 | PASS |
+| 6 | Video boards above both end-zone rims, raised on white columns; back faces plain navy (the Block M is a logo and is left off) | #1, #5, #6 | PASS |
+| 7 | Blue-gray bench seating over the whole bowl | #1 | PASS |
+| 8 | Blue band along the top of the bowl wall | #1 | PASS |
+| 9 | Dark navy end zones with a maize lettering band, drawn as a plain stripe | NAIP aerial, #5 | PASS |
+| 10 | Brick on the tower ends and the entry buildings at grade | #1 | PASS |
 
 ## Colors (sampled from the references)
 
@@ -28,6 +28,7 @@ Type rule (football): Field at regulation proportions with end zones and yard li
 | facade brick | `#876865` | #1 |
 | fascia navy | `#7082a2` | #1 |
 | concourse roof | `#cac2ba` | #1 |
+| field surround | `#947071` | #1 |
 
 Sampled as the median of a marked region (`scripts/stadiums/refs/sample-colors.mjs`). Photos carry their own light: shaded samples are darker than the material, and the aerial is slightly washed out.
 

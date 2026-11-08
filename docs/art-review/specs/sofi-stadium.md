@@ -1,20 +1,20 @@
 # SoFi Stadium: model spec
 
-Low teardrop-shaped translucent canopy on slender white columns over a bowl sunk below grade, with the lake on the west side.
+Low teardrop-shaped canopy on slender white columns over a bowl sunk below grade. The lake south-west of the stadium is landscape and is not modeled (no venue sprite includes surroundings).
 
 Type rule (football): Field at regulation proportions with end zones and yard lines; stands parallel to the sidelines; the real bowl shape; press box and scoreboards in their real positions; suite rings and upper decks where they exist.
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Teardrop canopy: rounded on the northwest, sharp points on the east, following the aerial outline | NAIP aerial, #1, #24 |
-| 2 | Canopy is light gray, translucent, with a visible panel grid | #1, #24 |
-| 3 | Canopy rests on slender white columns; the sides are open (no walls) | #7, #24 |
-| 4 | Low profile: the bowl is sunk below grade, so the stadium reads low from outside | #7, #24 |
-| 5 | Curved white facade buildings tucked under the canopy edge | #7, #24 |
-| 6 | Lake along the west side | #7, #24, NAIP aerial |
-| 7 | Field: regulation football field under the canopy (field color not sampled: not visible in any reference) | none |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Teardrop canopy: rounded on the west, sharp points at the north-east and south-east, following the aerial outline; the south-east tail sweeps down to the ground | NAIP aerial, #1, #24 | PASS |
+| 2 | Silver panel grid over the bowl inside a wide opaque white band | NAIP aerial, #1 | PASS |
+| 3 | Canopy is light gray, translucent, with a visible panel grid | #1, #24 | PASS |
+| 4 | Canopy rests on slender white columns; the sides are open (no walls) | #7, #24 | PASS |
+| 5 | Low profile: the bowl is sunk below grade, so the stadium reads low from outside | #7, #24 | PASS |
+| 6 | Curved white facade buildings tucked under the canopy edge | #7, #24 | PASS |
+| 7 | Field: regulation football field under the canopy (field color not sampled: not visible in any reference) | none | PASS |
 
 ## Colors (sampled from the references)
 

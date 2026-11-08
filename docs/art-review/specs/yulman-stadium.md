@@ -6,16 +6,16 @@ Type rule (football): Field at regulation proportions with end zones and yard li
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Field axis about 30 degrees east of north (NNE to SSW) | NAIP aerial |
-| 2 | Regulation field with sky-blue end zones and sky-blue bands along both sidelines | NAIP aerial, #10 |
-| 3 | Main grandstand on the southeast sideline topped by a long gray metal-clad press and club structure | NAIP aerial, #5, #7 |
-| 4 | Lower single-deck stand on the northwest sideline, parallel to the field | NAIP aerial, #10 |
-| 5 | Seating wraps around both end zones (bowl is closed except at the corners) | NAIP aerial |
-| 6 | Gray aluminum seating (no colored chairs) | NAIP aerial, #10 |
-| 7 | Exterior: horizontal gray metal panels over a glass club level and a dark brick base | #5, #7 |
-| 8 | Green lattice light towers with crossbars along the main-side exterior (color by eye: too thin to sample) | #5, #7 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Field axis about 30 degrees east of north (NNE to SSW) | NAIP aerial | PASS |
+| 2 | Regulation field with sky-blue end zones and sky-blue bands along both sidelines | NAIP aerial, #10 | PASS |
+| 3 | Main grandstand on the southeast sideline topped by a long gray metal-clad press and club structure | NAIP aerial, #5, #7 | PASS |
+| 4 | Lower single-deck stand on the northwest sideline, parallel to the field | NAIP aerial, #10 | PASS |
+| 5 | Seating wraps around both end zones (bowl is closed except at the corners) | NAIP aerial | PASS |
+| 6 | Gray aluminum seating (no colored chairs) | NAIP aerial, #10 | PASS |
+| 7 | Exterior: horizontal gray metal panels over a glass club level and a dark brick base | #5, #7 | PASS |
+| 8 | Green lattice light towers with crossbars along the main-side exterior (color by eye: too thin to sample) | #5, #7 | PASS |
 
 ## Colors (sampled from the references)
 
@@ -26,6 +26,7 @@ Type rule (football): Field at regulation proportions with end zones and yard li
 | facade metal | `#565b68` | #5 |
 | base brick | `#433230` | #5 |
 | end zone and sideline bands | `#819b98` | NAIP aerial |
+| sideline band (photo) | `#6e828e` | #10 |
 | seats (aerial) | `#a2b5b8` | NAIP aerial |
 
 Sampled as the median of a marked region (`scripts/stadiums/refs/sample-colors.mjs`). Photos carry their own light: shaded samples are darker than the material, and the aerial is slightly washed out.

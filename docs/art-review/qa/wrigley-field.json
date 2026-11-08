@@ -1,0 +1,35 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "ivy": {
+   "pass": true,
+   "note": "thin band"
+  },
+  "scoreboard": {
+   "pass": true
+  },
+  "bleachers": {
+   "pass": true
+  },
+  "grandstand": {
+   "pass": true
+  },
+  "boards": {
+   "pass": true
+  },
+  "seats": {
+   "pass": true
+  },
+  "field": {
+   "pass": true
+  },
+  "marquee": {
+   "pass": true,
+   "note": "small"
+  },
+  "exterior": {
+   "pass": true
+  }
+ }
+}

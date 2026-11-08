@@ -1,0 +1,32 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "grandstand": {
+   "pass": true
+  },
+  "checker": {
+   "pass": true
+  },
+  "suites": {
+   "pass": true
+  },
+  "banking": {
+   "pass": true,
+   "note": "reads at hero size; weak at 220px"
+  },
+  "pit": {
+   "pass": true
+  },
+  "wall": {
+   "pass": true,
+   "note": "thin; barely visible at 220px"
+  },
+  "trioval": {
+   "pass": true
+  },
+  "grass": {
+   "pass": true
+  }
+ }
+}

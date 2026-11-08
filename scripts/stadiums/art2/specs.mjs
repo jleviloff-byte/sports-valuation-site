@@ -68,14 +68,14 @@ export const SPECS = {
   },
   'sofi-stadium': {
     type: 'football',
-    summary: 'Low teardrop-shaped translucent canopy on slender white columns over a bowl sunk below grade, with the lake on the west side.',
+    summary: 'Low teardrop-shaped canopy on slender white columns over a bowl sunk below grade. The lake south-west of the stadium is landscape and is not modeled (no venue sprite includes surroundings).',
     features: [
-      { id: 'canopy', text: 'Teardrop canopy: rounded on the northwest, sharp points on the east, following the aerial outline', refs: ['naip', 1, 24] },
+      { id: 'canopy', text: 'Teardrop canopy: rounded on the west, sharp points at the north-east and south-east, following the aerial outline; the south-east tail sweeps down to the ground', refs: ['naip', 1, 24] },
+      { id: 'band', text: 'Silver panel grid over the bowl inside a wide opaque white band', refs: ['naip', 1] },
       { id: 'panels', text: 'Canopy is light gray, translucent, with a visible panel grid', refs: [1, 24], color: 'roof' },
       { id: 'columns', text: 'Canopy rests on slender white columns; the sides are open (no walls)', refs: [7, 24], color: 'columns' },
       { id: 'low', text: 'Low profile: the bowl is sunk below grade, so the stadium reads low from outside', refs: [7, 24] },
       { id: 'pavilion', text: 'Curved white facade buildings tucked under the canopy edge', refs: [7, 24], color: 'facade' },
-      { id: 'lake', text: 'Lake along the west side', refs: [7, 24, 'naip'], color: 'lake' },
       { id: 'field', text: 'Field: regulation football field under the canopy (field color not sampled: not visible in any reference)', refs: [] },
     ],
   },

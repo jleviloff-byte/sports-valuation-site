@@ -8,6 +8,7 @@
 // outlines, keeps an exact outer edge, and lets each venue vary tiers,
 // overhangs and open ends by angle.
 import * as THREE from 'three'
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js'
 
 // ── geometry helpers ──────────────────────────────────────────────────────────
 export function project(ring, origin) {
@@ -76,23 +77,76 @@ export const smooth = (t) => t * t * (3 - 2 * t)
 const angDiff = (a, b) => { let d = ((a - b + 540) % 360) - 180; return Math.abs(d) }
 
 // ── materials ────────────────────────────────────────────────────────────────
-// Style variants share geometry; only shading changes.
+// Style variants share geometry; only shading changes. opts.kind picks a
+// physical preset so materials read as distinct (glass reflects the sky,
+// steel has a metallic sheen, grass and concrete stay matte).
+export const KINDS = {
+  glass: { roughness: 0.12, metalness: 0.35 },
+  steel: { roughness: 0.38, metalness: 0.65 },
+  metal: { roughness: 0.5, metalness: 0.45 },
+  concrete: { roughness: 0.9, metalness: 0 },
+  brick: { roughness: 0.88, metalness: 0 },
+  grass: { roughness: 0.97, metalness: 0 },
+  dirt: { roughness: 1, metalness: 0 },
+  fabric: { roughness: 0.62, metalness: 0 },
+  water: { roughness: 0.08, metalness: 0.25 },
+  seat: { roughness: 0.7, metalness: 0 },
+  paint: { roughness: 0.6, metalness: 0.05 },
+}
 export function makeMaterials(style) {
   const cache = new Map()
   return (color, opts = {}) => {
-    const key = `${color}|${opts.flat ? 1 : 0}|${opts.opacity ?? 1}|${opts.vertex ? 1 : 0}|${opts.emissive || ''}|${opts.map ? opts.map.uuid : ''}|${opts.side || 0}`
+    const key = [color, opts.flat ? 1 : 0, opts.opacity ?? 1, opts.vertex ? 1 : 0, opts.emissive || '', opts.map ? opts.map.uuid : '', opts.side || 0, opts.kind || '', opts.roughness ?? '', opts.metalness ?? '', opts.rows ? JSON.stringify(opts.rows) : ''].join('|')
     if (cache.has(key)) return cache.get(key)
     let m
+    const k = KINDS[opts.kind] || {}
     const common = { color: opts.vertex ? 0xffffff : color, vertexColors: !!opts.vertex, transparent: (opts.opacity ?? 1) < 1, opacity: opts.opacity ?? 1, side: opts.side ?? THREE.FrontSide, map: opts.map || null }
     if (style === 'vector') {
       m = new THREE.MeshToonMaterial({ ...common, gradientMap: toonRamp() })
     } else {
-      m = new THREE.MeshStandardMaterial({ ...common, roughness: opts.roughness ?? (style === 'painted' ? 0.92 : 0.78), metalness: opts.metalness ?? 0, flatShading: !!opts.flat, emissive: opts.emissive ? new THREE.Color(opts.emissive) : new THREE.Color(0x000000), emissiveIntensity: opts.emissive ? 0.6 : 0 })
+      m = new THREE.MeshStandardMaterial({ ...common, roughness: opts.roughness ?? k.roughness ?? (style === 'painted' ? 0.92 : 0.8), metalness: opts.metalness ?? k.metalness ?? 0, flatShading: !!opts.flat, emissive: opts.emissive ? new THREE.Color(opts.emissive) : new THREE.Color(0x000000), emissiveIntensity: opts.emissive ? 0.6 : 0 })
     }
+    if (opts.rows) seatRows(m, opts.rows)
     if (opts.opacity != null && opts.opacity < 1) m.depthWrite = false
     cache.set(key, m)
     return m
   }
+}
+// Seat rows and aisles drawn in the shader (anti-aliased with fwidth), so rows
+// stay crisp at any resolution instead of following mesh vertices. Geometry
+// supplies 'rowuv' (x: 0..1 from the field outward, y: 0..1 around the bowl)
+// and 'seat' (1 on seating, 0 elsewhere).
+const ROWS_GLSL = [
+  '#include <color_fragment>',
+  '{',
+  '  float x = vRow.x * uRows;',
+  '  float w = max(fwidth(x), 1e-4);',
+  '  float r = fract(x);',
+  '  float riser = 1.0 - smoothstep(0.0, 0.22 + w, r);',
+  '  float nose = smoothstep(0.82 - w, 0.9, r) * (1.0 - smoothstep(0.95, 1.0 + w, r));',
+  '  float fade = clamp(1.5 - w * 2.0, 0.0, 1.0);',
+  '  float shade = 1.0 - fade * (0.30 * riser - 0.10 * nose);',
+  '  if (uAisles > 0.0) {',
+  '    float y = vRow.y * uAisles;',
+  '    float wy = max(fwidth(y), 1e-4);',
+  '    float a = abs(fract(y + 0.5) - 0.5);',
+  '    shade = mix(shade, 1.12, (1.0 - smoothstep(0.02, 0.02 + wy, a)) * fade);',
+  '  }',
+  '  diffuseColor.rgb *= mix(1.0, shade, vSeat);',
+  '}',
+].join('\n')
+function seatRows(m, { count = 40, aisles = 0 }) {
+  m.onBeforeCompile = (sh) => {
+    sh.uniforms.uRows = { value: count }
+    sh.uniforms.uAisles = { value: aisles }
+    sh.vertexShader = sh.vertexShader
+      .replace('#include <common>', '#include <common>\nattribute float seat;\nattribute vec2 rowuv;\nvarying float vSeat;\nvarying vec2 vRow;')
+      .replace('#include <begin_vertex>', '#include <begin_vertex>\nvSeat = seat; vRow = rowuv;')
+    sh.fragmentShader = sh.fragmentShader
+      .replace('#include <common>', '#include <common>\nuniform float uRows;\nuniform float uAisles;\nvarying float vSeat;\nvarying vec2 vRow;')
+      .replace('#include <color_fragment>', ROWS_GLSL)
+  }
+  m.customProgramCacheKey = () => 'rows' + count + '|' + aisles
 }
 let ramp = null
 function toonRamp() {
@@ -109,7 +163,7 @@ function toonRamp() {
 //         rimHeight(theta), facade: color, nTheta, nU, rows: bool }
 export function bowl(spec, mat) {
   const N = spec.nTheta ?? 360, M = spec.nU ?? 28
-  const pos = [], col = [], idx = []
+  const pos = [], col = [], idx = [], ruv = [], seat = []
   const C = new THREE.Color()
   const grid = []
   for (let i = 0; i < N; i++) {
@@ -125,10 +179,10 @@ export function bowl(spec, mat) {
       const x = spec.center[0] + d[0] * r, z = spec.center[1] + d[1] * r
       const h = p ? p.h : 0
       C.set(p ? p.color : spec.groundColor ?? '#8f948f')
-      if (spec.rows && p && p.seat) { const band = Math.floor(u * (spec.rowCount ?? 40)) % 2; if (band) C.offsetHSL(0, 0, -0.035) }
-      if (spec.aisles && p && p.seat && Math.round(th) % spec.aisles === 0) C.offsetHSL(0, -0.05, -0.08)
       row.push(pos.length / 3)
       pos.push(x, h, z); col.push(C.r, C.g, C.b)
+      // Rows count along the seated part only: p.ru (0..1 within the tier) when given.
+      ruv.push(p && p.ru != null ? p.ru + (p.tier || 0) : u, i / N); seat.push(p && p.seat ? 1 : 0)
     }
     grid.push({ row, R, d, th })
   }
@@ -139,9 +193,11 @@ export function bowl(spec, mat) {
   const g = new THREE.BufferGeometry()
   g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3))
   g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3))
+  g.setAttribute('rowuv', new THREE.Float32BufferAttribute(ruv, 2))
+  g.setAttribute('seat', new THREE.Float32BufferAttribute(seat, 1))
   g.setIndex(idx)
   g.computeVertexNormals()
-  const mesh = new THREE.Mesh(g, mat('#ffffff', { vertex: true, side: THREE.DoubleSide }))
+  const mesh = new THREE.Mesh(g, mat('#ffffff', { vertex: true, side: THREE.DoubleSide, kind: 'seat', rows: spec.rows ? { count: spec.rowCount ?? 40, aisles: spec.aisleCount ?? 0 } : null }))
   mesh.castShadow = mesh.receiveShadow = true
   const group = new THREE.Group()
   group.add(mesh)
@@ -162,10 +218,28 @@ export function bowl(spec, mat) {
   fg.setAttribute('color', new THREE.Float32BufferAttribute(fc, 3))
   fg.setIndex(fi)
   fg.computeVertexNormals()
-  const fm = new THREE.Mesh(fg, mat('#ffffff', { vertex: true, side: THREE.DoubleSide }))
+  const fm = new THREE.Mesh(fg, mat('#ffffff', { vertex: true, side: THREE.DoubleSide, kind: spec.facadeKind || 'concrete' }))
   fm.castShadow = fm.receiveShadow = true
   group.add(fm)
+  if (spec.innerWall) {
+    const ip = [], ii = [], ic = []
+    const W = new THREE.Color()
+    for (let i = 0; i < N; i++) {
+      const k = grid[i].row[0]
+      W.set(spec.innerWall(grid[i].th))
+      ip.push(pos[k * 3], spec.fieldY ?? 0, pos[k * 3 + 2], pos[k * 3], pos[k * 3 + 1], pos[k * 3 + 2])
+      ic.push(W.r * 0.9, W.g * 0.9, W.b * 0.9, W.r, W.g, W.b)
+    }
+    for (let i = 0; i < N; i++) { const a = i * 2, b = ((i + 1) % N) * 2; ii.push(a, b, a + 1, b, b + 1, a + 1) }
+    const wg = new THREE.BufferGeometry()
+    wg.setAttribute('position', new THREE.Float32BufferAttribute(ip, 3)); wg.setAttribute('color', new THREE.Float32BufferAttribute(ic, 3)); wg.setIndex(ii); wg.computeVertexNormals()
+    const wm = new THREE.Mesh(wg, mat('#ffffff', { vertex: true, side: THREE.DoubleSide, kind: 'paint' }))
+    wm.castShadow = wm.receiveShadow = true
+    group.add(wm)
+  }
   group.userData.grid = grid
+  group.userData.center = spec.center
+  group.userData.outerRing = grid.map((gi) => { const k = gi.row[M]; return [pos[k * 3], pos[k * 3 + 1], pos[k * 3 + 2]] })
   group.userData.innerRing = grid.map((gi) => { const k = gi.row[0]; return [pos[k * 3], pos[k * 3 + 2]] })
   return group
 }
@@ -209,10 +283,15 @@ export function footballField(ctx, toPx, ppm, f) {
   const cos = Math.cos(f.ang), sin = Math.sin(f.ang)
   const at = (u, v) => toPx([f.cx + u * cos - v * sin, f.cz + u * sin + v * cos])
   const quad = (u0, v0, u1, v1, color) => { ctx.fillStyle = color; ctx.beginPath(); for (const [u, v] of [[u0, v0], [u1, v0], [u1, v1], [u0, v1]]) ctx.lineTo(...at(u, v)); ctx.closePath(); ctx.fill() }
+  // Fill the whole canvas first: anything outside the field is the surround, never black.
+  ctx.fillStyle = f.apron || f.surround || f.grass; ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
   quad(-L / 2 - 6, -W / 2 - 6, L / 2 + 6, W / 2 + 6, f.surround || f.grass)
+  if (f.sideBand) { quad(-L / 2, -W / 2 - 4, L / 2, -W / 2 - 0.6, f.sideBand); quad(-L / 2, W / 2 + 0.6, L / 2, W / 2 + 4, f.sideBand) }
   for (let k = 0; k < 20; k++) quad(-L / 2 + 9.14 + k * 4.572, -W / 2, -L / 2 + 9.14 + (k + 1) * 4.572, W / 2, k % 2 ? f.grass : f.grass2 || f.grass)
   quad(-L / 2, -W / 2, -L / 2 + 9.14, W / 2, f.endzone || f.grass)
   quad(L / 2 - 9.14, -W / 2, L / 2, W / 2, f.endzone2 || f.endzone || f.grass)
+  // Lettering band in each end zone, drawn as a plain stripe (no readable text).
+  if (f.endzoneText) for (const e of [-1, 1]) quad(e * (L / 2 - 2.6), -W / 2 + 6, e * (L / 2 - 6.4), W / 2 - 6, f.endzoneText)
   ctx.strokeStyle = '#f4f4ef'
   ctx.lineWidth = Math.max(1, 0.25 * ppm)
   const line = (u0, v0, u1, v1) => { ctx.beginPath(); ctx.moveTo(...at(u0, v0)); ctx.lineTo(...at(u1, v1)); ctx.stroke() }
@@ -253,6 +332,7 @@ export function baseballField(ctx, toPx, ppm, b, fieldPoly) {
   for (const v of [lf, rf]) { ctx.beginPath(); ctx.moveTo(...toPx(H)); ctx.lineTo(...toPx([H[0] + v[0] * 130, H[1] + v[1] * 130])); ctx.stroke() }
 }
 export function tennisCourt(ctx, toPx, ppm, t) {
+  ctx.fillStyle = t.surround; ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
   const cos = Math.cos(t.ang), sin = Math.sin(t.ang)
   const at = (u, v) => toPx([t.cx + u * cos - v * sin, t.cz + u * sin + v * cos])
   const quad = (u0, v0, u1, v1, color) => { ctx.fillStyle = color; ctx.beginPath(); for (const [u, v] of [[u0, v0], [u1, v0], [u1, v1], [u0, v1]]) ctx.lineTo(...at(u, v)); ctx.closePath(); ctx.fill() }
@@ -268,7 +348,8 @@ export function tennisCourt(ctx, toPx, ppm, t) {
 
 // ── features ─────────────────────────────────────────────────────────────────
 export function box(w, h, d, color, mat, opts = {}) {
-  const g = new THREE.BoxGeometry(w, h, d)
+  const r = opts.bevel ?? Math.min(0.35, 0.12 * Math.min(w, h, d))
+  const g = r > 0.02 ? new RoundedBoxGeometry(w, h, d, 2, r) : new THREE.BoxGeometry(w, h, d)
   g.translate(0, h / 2, 0)
   const m = new THREE.Mesh(g, mat(color, opts))
   m.castShadow = m.receiveShadow = true
@@ -298,4 +379,73 @@ export function scoreboard(w, h, standH, mat, face = '#20252b') {
   return g
 }
 // Water body (flat polygon slightly above ground).
-export function water(pts, mat, color = '#5f8fa8') { return flatPoly(pts, 0.25, mat(color, { roughness: 0.35 })) }
+export function water(pts, mat, color = '#5f8fa8') { return flatPoly(pts, 0.25, mat(color, { kind: 'water' })) }
+
+// Horizontal band on the outside of a bowl wall, from (rim - top) to (rim - bottom).
+export function rimBand(bowlGroup, { top = 0, bottom = 2.5, color, mat, kind = 'paint', out = 0.12 }) {
+  const ring = bowlGroup.userData.outerRing, c = bowlGroup.userData.center
+  const p = [], idx = []
+  for (const [x, h, z] of ring) {
+    const dx = x - c[0], dz = z - c[1], L = Math.hypot(dx, dz) || 1
+    const ox = x + (dx / L) * out, oz = z + (dz / L) * out
+    p.push(ox, Math.max(0.1, h - bottom), oz, ox, h - top + 0.05, oz)
+  }
+  const n = ring.length
+  for (let i = 0; i < n; i++) { const a = i * 2, b = ((i + 1) % n) * 2; idx.push(a, b, a + 1, b, b + 1, a + 1) }
+  const g = new THREE.BufferGeometry()
+  g.setAttribute('position', new THREE.Float32BufferAttribute(p, 3)); g.setIndex(idx); g.computeVertexNormals()
+  const m = new THREE.Mesh(g, mat(color, { kind, side: THREE.DoubleSide }))
+  m.castShadow = m.receiveShadow = true
+  return m
+}
+// Recolor helper: scale lightness and saturation (used to correct photo
+// samples taken in shade or from the washed-out aerial; noted per use).
+export function tone(hex, l = 1, sat = 1) {
+  const c = new THREE.Color(hex), hsl = {}
+  c.getHSL(hsl, THREE.SRGBColorSpace)
+  c.setHSL(hsl.h, Math.min(1, hsl.s * sat), Math.min(0.96, hsl.l * l), THREE.SRGBColorSpace)
+  return '#' + c.getHexString(THREE.SRGBColorSpace)
+}
+// Lattice light tower: slender mast with a light bank; optional cross-arm.
+export function latticeTower(h, mat, color, bank = [10, 4]) {
+  const g = new THREE.Group()
+  for (const [x, z] of [[-0.7, -0.7], [0.7, -0.7], [-0.7, 0.7], [0.7, 0.7]]) { const leg = box(0.35, h, 0.35, color, mat, { kind: 'steel', bevel: 0 }); leg.position.set(x, 0, z); g.add(leg) }
+  for (let y = 4; y < h; y += 4) { const r = box(1.8, 0.25, 1.8, color, mat, { kind: 'steel', bevel: 0 }); r.position.y = y; g.add(r) }
+  const head = box(bank[0], bank[1], 1.2, '#e9e7df', mat, { emissive: '#fff4d6' }); head.position.y = h; g.add(head)
+  const frame = box(bank[0] + 0.6, 0.4, 1.4, color, mat, { kind: 'steel' }); frame.position.y = h - 0.4; g.add(frame)
+  return g
+}
+// Facade band on part of a bowl's outer wall: between bearings th0..th1
+// (clockwise), from height y0 to y1 (clamped to the rim), pushed out by 'out'.
+export function facadeStrip(bowlGroup, { th0, th1, y0, y1, color, mat, kind = 'paint', out = 0.15 }) {
+  const ring = bowlGroup.userData.outerRing, grid = bowlGroup.userData.grid, c = bowlGroup.userData.center
+  const inRange = (th) => ((th - th0 + 360) % 360) <= ((th1 - th0 + 360) % 360)
+  const p = [], idx = []
+  let prev = -1
+  grid.forEach((gi, i) => {
+    if (!inRange(gi.th)) { prev = -1; return }
+    const [x, h, z] = ring[i]
+    const dx = x - c[0], dz = z - c[1], L = Math.hypot(dx, dz) || 1
+    const ox = x + (dx / L) * out, oz = z + (dz / L) * out
+    const top = Math.min(y1, h), bot = Math.min(y0, top)
+    const k = p.length / 3
+    p.push(ox, bot, oz, ox, top, oz)
+    if (prev >= 0) idx.push(prev, k, prev + 1, k, k + 1, prev + 1)
+    prev = k
+  })
+  const g = new THREE.BufferGeometry()
+  g.setAttribute('position', new THREE.Float32BufferAttribute(p, 3)); g.setIndex(idx); g.computeVertexNormals()
+  const m = new THREE.Mesh(g, mat(color, { kind, side: THREE.DoubleSide }))
+  m.castShadow = m.receiveShadow = true
+  return m
+}
+// USGS NAIP pixel (1024 square, web-mercator rows) -> local meters, using the
+// image's lng/lat bounding box. Lets builders use outlines traced on the aerial.
+export function naipToLocal(fp, bbox, [px, py], size = 1024) {
+  const [x0, y0, x1, y1] = bbox
+  const lng = x0 + (px / size) * (x1 - x0)
+  const m = (lat) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360))
+  const my = m(y1) - (py / size) * (m(y1) - m(y0))
+  const lat = ((2 * Math.atan(Math.exp(my)) - Math.PI / 2) * 180) / Math.PI
+  return fp.toLocal([lng, lat])
+}

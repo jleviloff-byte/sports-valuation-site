@@ -1,0 +1,24 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "drum": {
+   "pass": true
+  },
+  "fins": {
+   "pass": true
+  },
+  "roof": {
+   "pass": true
+  },
+  "podium": {
+   "pass": true
+  },
+  "glass": {
+   "pass": true
+  },
+  "screens": {
+   "pass": true
+  }
+ }
+}

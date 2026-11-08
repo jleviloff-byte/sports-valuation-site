@@ -6,18 +6,18 @@ Type rule (baseball): Dirt infield, grass outfield, foul lines; outfield wall at
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Green Monster: tall green wall (37 ft, about 11 m) along the whole left field, the tallest wall in the park | #9, #11, #16 |
-| 2 | Monster seats on top of the wall and the manual scoreboard set into its base (shapes only) | #9 |
-| 3 | The triangle: the outfield wall kinks out to its deepest point in right-center | NAIP aerial, #9 |
-| 4 | Pesky Pole: very short right-field foul line with the low wall curving out from the corner | NAIP aerial, #16 |
-| 5 | Stands wrap from the left-field foul pole around home plate to the right-field corner, plus bleachers in right and center; not a symmetric bowl | NAIP aerial, #11 |
-| 6 | Red seats in the grandstand and boxes, green seats in the bleachers | #16, #9 |
-| 7 | Dark green steel structure and roof boxes over the grandstand | #11, #9 |
-| 8 | Lattice light towers standing on the grandstand roof | #9, #16 |
-| 9 | Dirt infield and base paths, striped grass, foul lines | #9 |
-| 10 | Red-brick exterior at street level | #6 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Green Monster: tall green wall (37 ft, about 11 m) along the whole left field, the tallest wall in the park | #9, #11, #16 | PASS |
+| 2 | Monster seats on top of the wall and the manual scoreboard set into its base (shapes only) | #9 | PASS |
+| 3 | The triangle: the outfield wall kinks out to its deepest point in right-center | NAIP aerial, #9 | PASS |
+| 4 | Pesky Pole: very short right-field foul line with the low wall curving out from the corner | NAIP aerial, #16 | PASS |
+| 5 | Stands wrap from the left-field foul pole around home plate to the right-field corner, plus bleachers in right and center; not a symmetric bowl | NAIP aerial, #11 | PASS |
+| 6 | Red seats in the grandstand and boxes, green seats in the bleachers | #16, #9 | PASS |
+| 7 | Dark green steel structure and roof boxes over the grandstand | #11, #9 | PASS |
+| 8 | Lattice light towers standing on the grandstand roof | #9, #16 | PASS |
+| 9 | Dirt infield and base paths, striped grass, foul lines | #9 | PASS |
+| 10 | Red-brick exterior at street level | #6 | PASS |
 
 ## Colors (sampled from the references)
 
@@ -25,6 +25,8 @@ Type rule (baseball): Dirt infield, grass outfield, foul lines; outfield wall at
 |---|---|---|
 | seats grandstand | `#714755` | #16 |
 | seats bleachers | `#44514e` | #9 |
+| seats grandstand (aerial, sun) | `#a08d7c` | NAIP aerial |
+| seats grandstand (overcast) | `#572d24` | #9 |
 | field | `#657326` | #9 |
 | infield dirt | `#a65931` | #9 |
 | green monster | `#5e7b6a` | #9 |

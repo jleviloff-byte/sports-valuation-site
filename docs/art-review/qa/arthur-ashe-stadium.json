@@ -1,0 +1,27 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "octagon": {
+   "pass": true
+  },
+  "roof": {
+   "pass": true
+  },
+  "steel": {
+   "pass": true
+  },
+  "brick": {
+   "pass": true
+  },
+  "bowl": {
+   "pass": true
+  },
+  "seats": {
+   "pass": true
+  },
+  "court": {
+   "pass": true
+  }
+ }
+}

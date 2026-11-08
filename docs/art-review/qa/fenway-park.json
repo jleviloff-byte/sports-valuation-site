@@ -1,0 +1,36 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "monster": {
+   "pass": true
+  },
+  "monsterSeats": {
+   "pass": true
+  },
+  "triangle": {
+   "pass": true
+  },
+  "pesky": {
+   "pass": true
+  },
+  "wrap": {
+   "pass": true
+  },
+  "seats": {
+   "pass": true
+  },
+  "steel": {
+   "pass": true
+  },
+  "lights": {
+   "pass": true
+  },
+  "field": {
+   "pass": true
+  },
+  "brick": {
+   "pass": true
+  }
+ }
+}

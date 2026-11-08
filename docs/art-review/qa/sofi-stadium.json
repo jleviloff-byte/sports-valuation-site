@@ -1,0 +1,29 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "canopy": {
+   "pass": true
+  },
+  "band": {
+   "pass": true
+  },
+  "panels": {
+   "pass": true
+  },
+  "columns": {
+   "pass": true
+  },
+  "low": {
+   "pass": true
+  },
+  "pavilion": {
+   "pass": true,
+   "note": "only the west end shows past the canopy"
+  },
+  "field": {
+   "pass": true,
+   "note": "modeled under the canopy; hidden by the roof, as in the aerial and #1"
+  }
+ }
+}

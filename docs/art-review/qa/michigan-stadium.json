@@ -1,0 +1,38 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "bowl": {
+   "pass": true
+  },
+  "sunk": {
+   "pass": true
+  },
+  "field": {
+   "pass": true
+  },
+  "westTower": {
+   "pass": true
+  },
+  "eastTower": {
+   "pass": true
+  },
+  "boards": {
+   "pass": true
+  },
+  "seats": {
+   "pass": true,
+   "note": "a little more saturated than #1"
+  },
+  "fascia": {
+   "pass": true,
+   "note": "thin at map size"
+  },
+  "endzones": {
+   "pass": true
+  },
+  "brick": {
+   "pass": true
+  }
+ }
+}

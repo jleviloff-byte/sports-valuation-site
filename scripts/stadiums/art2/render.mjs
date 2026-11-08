@@ -26,6 +26,10 @@ const wikiByUrl = Object.fromEntries(Object.values(wiki).map((w) => [w.url, w]))
 const osmFile = (t) => path.join('research/raw/stadiums/osm', t.replace(/[^A-Za-z0-9._-]+/g, '_').slice(0, 150) + '.json')
 const orient = JSON.parse(fs.readFileSync('research/raw/stadiums/ballpark-orientation.json', 'utf8'))
 const INFO = { 'daytona-international-speedway': { front_bearing: 235 } }
+// Material colors sampled from the verified reference photos (scripts/stadiums/refs/colors.json).
+const NAIP = JSON.parse(fs.readFileSync('research/raw/stadiums/naip-manifest.json', 'utf8'))
+const naipBbox = (slug) => { const u = NAIP[slug]?.url; const m = u && u.match(/bbox=([-0-9.]+),([-0-9.]+),([-0-9.]+),([-0-9.]+)/); return m ? m.slice(1, 5).map(Number) : null }
+const SAMPLED = fs.existsSync('scripts/stadiums/refs/colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/refs/colors.json', 'utf8')) : {}
 
 const STYLE = {
   vector: { line: 3.2, lineAlpha: 0.92, lineColor: [36, 33, 30], threshold: 0.32, grade: { sat: 1.05, warm: 0 }, blur: 0 },
@@ -46,12 +50,20 @@ const raw = async (dataUrl) => {
   return { d, w: info.width, h: info.height }
 }
 
+const K_SMOOTH = (t) => t * t * (3 - 2 * t)
 async function composite(r, style) {
   const S = STYLE[style]
   const [C, M, N] = await Promise.all([raw(r.color), raw(r.mask), raw(r.normal)])
   const { w, h } = C
   const a = new Float32Array(w * h)
   for (let i = 0; i < w * h; i++) a[i] = M.d[i * 4] / 255
+  // Cut-away sprites (racetracks) fade to transparent over the outer 9% of the
+  // frame. Applied to the output alpha only (color un-premultiplies by the mask).
+  const fade = new Float32Array(w * h).fill(1)
+  if (r.fadeEdges) {
+    const F = 0.09
+    for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const e = Math.min(x / w, 1 - x / w, y / h, 1 - y / h) / F; if (e < 1) fade[y * w + x] = K_SMOOTH(Math.max(0, e)) }
+  }
   // Edge strength from normal discontinuities and the silhouette.
   const e = new Float32Array(w * h)
   const nv = (i, k) => N.d[i * 4 + k] / 255
@@ -84,14 +96,14 @@ async function composite(r, style) {
     out[i * 4] = Math.max(0, Math.min(255, r0 * (1 - t) + S.lineColor[0] * t))
     out[i * 4 + 1] = Math.max(0, Math.min(255, g0 * (1 - t) + S.lineColor[1] * t))
     out[i * 4 + 2] = Math.max(0, Math.min(255, b0 * (1 - t) + S.lineColor[2] * t))
-    out[i * 4 + 3] = Math.round(al * 255)
+    out[i * 4 + 3] = Math.round(al * fade[i] * 255)
   }
   let img = sharp(out, { raw: { width: w, height: h, channels: 4 } })
   if (S.blur) img = img.blur(S.blur)
   const body = await img.png().toBuffer()
   // Soft drop shadow from the silhouette, offset down-right (sun from the west).
   const sh = Buffer.alloc(w * h * 4)
-  for (let i = 0; i < w * h; i++) { sh[i * 4] = 30; sh[i * 4 + 1] = 26; sh[i * 4 + 2] = 22; sh[i * 4 + 3] = Math.round(a[i] * 255 * 0.17) }
+  for (let i = 0; i < w * h; i++) { sh[i * 4] = 30; sh[i * 4 + 1] = 26; sh[i * 4 + 2] = 22; sh[i * 4 + 3] = Math.round(a[i] * fade[i] * 255 * 0.17) }
   const shadow = await sharp(sh, { raw: { width: w, height: h, channels: 4 } }).blur(14).png().toBuffer()
   const canvas = await sharp({ create: { width: w, height: h, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
     .composite([{ input: shadow, left: 0, top: 0 }, { input: body, left: 0, top: 0 }]).png().toBuffer()
@@ -114,7 +126,7 @@ for (const slug of slugs) {
   const v = data.venues.find((x) => x.slug === slug)
   const w = wikiByUrl[v.sources.wikipedia]
   const osm = JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8'))
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), colors: Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])

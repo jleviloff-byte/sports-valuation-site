@@ -1,0 +1,32 @@
+{
+ "style": "stylized",
+ "checked": "2026-11-07",
+ "features": {
+  "axis": {
+   "pass": true
+  },
+  "field": {
+   "pass": true
+  },
+  "mainStand": {
+   "pass": true
+  },
+  "westStand": {
+   "pass": true
+  },
+  "ends": {
+   "pass": true
+  },
+  "seats": {
+   "pass": true
+  },
+  "facade": {
+   "pass": true,
+   "note": "bands read as one dark wall below hero size"
+  },
+  "towers": {
+   "pass": true,
+   "note": "crossbars faint below hero size"
+  }
+ }
+}

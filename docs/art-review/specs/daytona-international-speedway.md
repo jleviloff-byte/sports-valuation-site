@@ -6,16 +6,16 @@ Type rule (racetrack): Banking, main grandstand, pit road.
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Long multi-level grandstand along the front stretch | #17, #5, NAIP aerial |
-| 2 | Black and white checkered seat pattern | #17 |
-| 3 | Glass suite level near the top of the grandstand with a light fascia band above (no text) | #17 |
-| 4 | Banked track: steep banking in the turns, the tri-oval visibly banked | #23 |
-| 5 | Pit road between the front stretch and the infield, with pit stalls and garages behind | #5 |
-| 6 | White outside wall with catch fence along the track | #23 |
-| 7 | Tri-oval bulge in the front stretch in front of the grandstand | NAIP aerial |
-| 8 | Grass infield edge along pit road | #5 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Long multi-level grandstand along the front stretch | #17, #5, NAIP aerial | PASS |
+| 2 | Black and white checkered seat pattern | #17 | PASS |
+| 3 | Glass suite level near the top of the grandstand with a light fascia band above (no text) | #17 | PASS |
+| 4 | Banked track: steep banking in the turns, the tri-oval visibly banked | #23 | PASS |
+| 5 | Pit road between the front stretch and the infield, with pit stalls and garages behind | #5 | PASS |
+| 6 | White outside wall with catch fence along the track | #23 | PASS |
+| 7 | Tri-oval bulge in the front stretch in front of the grandstand | NAIP aerial | PASS |
+| 8 | Grass infield edge along pit road | #5 | PASS |
 
 ## Colors (sampled from the references)
 

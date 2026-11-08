@@ -6,15 +6,15 @@ Type rule (tennis): Court, bowl, roof structure.
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Rounded-octagon plan for the bowl and roof | NAIP aerial |
-| 2 | White fabric retractable roof in two panels over the bowl | #5, #9, NAIP aerial |
-| 3 | Exposed dark steel columns and trusses outside the bowl, carrying the roof | #5, #9 |
-| 4 | Brick base and lower facade | #5, #9 |
-| 5 | Steep, deep bowl in tiers with a suite ring between them | #21 |
-| 6 | Blue seats | #12, #21 |
-| 7 | Blue court inside a green surround, lines | #21 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Rounded-octagon plan for the bowl and roof | NAIP aerial | PASS |
+| 2 | White fabric retractable roof in two panels over the bowl | #5, #9, NAIP aerial | PASS |
+| 3 | Exposed dark steel columns and trusses outside the bowl, carrying the roof | #5, #9 | PASS |
+| 4 | Brick base and lower facade | #5, #9 | PASS |
+| 5 | Steep, deep bowl in tiers with a suite ring between them | #21 | PASS |
+| 6 | Blue seats | #12, #21 | PASS |
+| 7 | Blue court inside a green surround, lines | #21 | PASS |
 
 ## Colors (sampled from the references)
 

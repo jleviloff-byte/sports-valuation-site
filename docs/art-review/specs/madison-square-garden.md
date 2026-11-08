@@ -6,14 +6,14 @@ Type rule (arena): Real roof form and exterior facade.
 
 ## Identifying features
 
-| # | Feature | Reference |
-|---|---|---|
-| 1 | Circular drum footprint | NAIP aerial, #17 |
-| 2 | Facade of tall vertical bronze-tan fins between dark glass bands | #17, #19 |
-| 3 | Flat, slightly domed gray cable roof with radial lines and a small center ring | NAIP aerial |
-| 4 | Lower rectangular beige podium building on the Eighth Avenue side | #17 |
-| 5 | Glazed entrance block projecting from the drum above the podium | #17, #22 |
-| 6 | Large screens on the drum and podium, drawn as plain dark panels | #17, #19, #22 |
+| # | Feature | Reference | QA |
+|---|---|---|---|
+| 1 | Circular drum footprint | NAIP aerial, #17 | PASS |
+| 2 | Facade of tall vertical bronze-tan fins between dark glass bands | #17, #19 | PASS |
+| 3 | Flat, slightly domed gray cable roof with radial lines and a small center ring | NAIP aerial | PASS |
+| 4 | Lower rectangular beige podium building on the Eighth Avenue side | #17 | PASS |
+| 5 | Glazed entrance block projecting from the drum above the podium | #17, #22 | PASS |
+| 6 | Large screens on the drum and podium, drawn as plain dark panels | #17, #19, #22 | PASS |
 
 ## Colors (sampled from the references)
 
