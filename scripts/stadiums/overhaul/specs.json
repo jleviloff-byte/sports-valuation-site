@@ -1,0 +1,204 @@
+{
+ "fenway-park": {
+  "name": "Fenway Park",
+  "type": "baseball",
+  "path": "photo",
+  "desc": "Fenway Park, a compact asymmetric baseball park: tall green left-field wall with a manual scoreboard, dirt infield, grass outfield, stands wrapping from foul pole to foul pole behind home plate, roof-mounted light towers",
+  "materials": "mown grass, red clay infield dirt, painted foul lines, green-painted steel, red brick facade, concrete, glass",
+  "colors_hex": "seats grandstand #714756, seats bleachers #42504c, facade brick #6a544d, structure green #586c6d, field #657326, infield dirt #a65931, green monster #617b6a",
+  "features": [
+   "Green Monster: tall green left-field wall, 37 ft, much taller than the other outfield walls, with the manual scoreboard set into its base",
+   "Monster seats on top of the Green Monster, under three light towers",
+   "Asymmetric outfield: short left field, deep right-center, the triangle in deep center field",
+   "Pesky Pole: short right-field foul pole at the end of a low wall",
+   "Red grandstand seats set in green-painted steel; dark green bleacher seats in the outfield",
+   "Roof-mounted light towers along the grandstand roof and over the Monster",
+   "Red-brick exterior facade with arched windows on the street side",
+   "Grandstand roof with white roof boxes and the upper-level enclosed club along the infield",
+   "Center-field bleachers and the video board above them in center-right"
+  ]
+ },
+ "wrigley-field": {
+  "name": "Wrigley Field",
+  "type": "baseball",
+  "path": "photo",
+  "desc": "Wrigley Field, a classic urban baseball park: ivy-covered outfield walls, hand-operated green center-field scoreboard, double-deck grandstand wrapping foul pole to foul pole, bleachers in the outfield, dirt infield and grass outfield",
+  "materials": "mown grass, ivy, red clay infield dirt, painted foul lines, green-painted steel, brick, concrete",
+  "colors_hex": "seats #242f3b, exterior #9d9d8f, roof #63686a, field #6c822f, infield dirt #a67353, scoreboard #4a5e64, marquee #b61420",
+  "features": [
+   "Hand-operated green center-field scoreboard with the flagpoles above it",
+   "Ivy-covered brick outfield walls",
+   "Bleachers wrapping the outfield, with video boards in left and right field",
+   "Double-deck grandstand wrapping from foul pole to foul pole behind home plate, with a low roof",
+   "Roof-mounted light standards on the grandstand roof",
+   "Red Wrigley Field marquee over the main entrance at Clark and Addison",
+   "Rooftop bleachers on the neighboring buildings across Waveland and Sheffield (excluded from the cutout)",
+   "Dark green seats and green steel"
+  ]
+ },
+ "michigan-stadium": {
+  "name": "Michigan Stadium",
+  "type": "football",
+  "path": "photo",
+  "desc": "Michigan Stadium, a huge closed oval football bowl dug into the ground with an American football field and end zones, tall brick-and-glass press box and suite towers on both sidelines, video boards in both end zones",
+  "materials": "artificial turf with white yard lines, aluminum bleacher bench seating, red-brown brick, glass curtain wall, concrete",
+  "colors_hex": "seats #737e92, facade brick #876765, fascia navy #7082a3, concourse roof #c9c5c0, field #3d5245, field surround #957070",
+  "features": [
+   "Huge closed oval bowl set largely below grade, with a low exterior profile",
+   "Brick-and-glass press box and suite towers above both sidelines",
+   "Yellow-and-blue Block M at midfield and blue end zones",
+   "Aluminum bench seating, no chairbacks in the bowl",
+   "Video boards with large frames above both end zones",
+   "Brick exterior wall with a navy fascia band around the bowl rim",
+   "Crisler Center (domed arena) next door, excluded from the cutout"
+  ]
+ },
+ "landn-federal-credit-union-stadium": {
+  "name": "L&N Federal Credit Union Stadium",
+  "type": "football",
+  "path": "fallback",
+  "desc": "L&N Federal Credit Union Stadium, a fully closed football bowl with red seats, a tall brick-and-glass press box tower on the west sideline, an upper deck on the east side, an American football field with end zones and yard lines",
+  "materials": "artificial turf with white yard lines, red stadium seats, red-brown brick, glass curtain wall, white steel canopy, concrete",
+  "colors_hex": "seats (aerial) #a25e5e, facade brick #4a372f, facade glass #627b78, field #95aa6b, field (aerial) #7e946f",
+  "features": [
+   "Fully closed bowl: the 2018 north end zone expansion enclosed the former horseshoe",
+   "Red seats throughout the bowl",
+   "Tall brick-and-glass west-side press box and suite tower",
+   "Two-level east-side upper deck with a white roof canopy over the press level",
+   "End zone painted with the team name; field with white yard lines",
+   "Brick stair towers at the corners with team-color caps",
+   "Light towers above the east and west rims"
+  ]
+ },
+ "lambeau-field": {
+  "name": "Lambeau Field",
+  "type": "football",
+  "path": "photo",
+  "desc": "Lambeau Field, a closed oval football bowl of light gray bench seating with a dark green upper facade, brick piers and a glass atrium on the east side, a tall south end zone with a large video board, an American football field with end zones and yard lines",
+  "materials": "natural grass with white yard lines, aluminum bench seating, dark green metal panels, red brick, glass curtain wall, concrete",
+  "colors_hex": "seats #c2b4b0, facade green band #314746, facade brick #b05931, facade base #545a5b, field #8e9736",
+  "features": [
+   "Closed oval bowl of light-gray aluminum bench seating, rising in one continuous slope",
+   "Glass-and-brick Lambeau Field Atrium on the east (front) side",
+   "Dark green upper facade band with suites, and red-brick piers",
+   "Tall south end zone expansion with the large video board and green upper seating",
+   "Field with yellow-and-green end zones and white yard lines",
+   "Long white roof over the suite level on the east side",
+   "Retired-number signage on the north end zone facade (rendered as plain shapes)"
+  ]
+ },
+ "sofi-stadium": {
+  "name": "SoFi Stadium",
+  "type": "football",
+  "path": "photo",
+  "desc": "SoFi Stadium, a football stadium under a single huge translucent curved canopy roof that sweeps low on one side, open sides with slender columns, an oval bowl sunk below ground, a lake along one side",
+  "materials": "translucent ETFE roof panels with a fine diamond grid, white steel, slender concrete columns, glass, water",
+  "colors_hex": "facade #9aa2a8, columns #888c8a, roof #c4beb3, roof (aerial) #96a9ac, lake #6c726d",
+  "features": [
+   "Translucent ETFE canopy roof, a single sweeping curved shape that overhangs the whole site",
+   "Roof edge curving down low on one side and rising high on the other",
+   "Open sides under the roof: the stadium is not enclosed by walls",
+   "Oval bowl set deep below grade under the canopy",
+   "YouDome Infinity Screen: oval double-sided video board hanging from the roof center (visible through the canopy as a ring)",
+   "Adjacent performance venue under the same roof at one end",
+   "Lake in front of the stadium on the west side"
+  ]
+ },
+ "madison-square-garden": {
+  "name": "Madison Square Garden",
+  "type": "arena",
+  "path": "fallback",
+  "desc": "Madison Square Garden, a cylindrical arena drum with vertical warm bronze precast panels and a shallow round cable roof, a rectangular office block attached on one side, a glass entrance pavilion at the base",
+  "materials": "warm bronze precast concrete panels, light gray roof membrane, dark glass, light stone podium",
+  "colors_hex": "facade cladding #8d6f51, glass #423930, podium #edd8bd, roof #9b9993",
+  "features": [
+   "Cylindrical drum with vertical precast cladding panels in warm bronze-brown",
+   "Shallow cable-suspended round roof, light gray",
+   "Rectangular glass-and-precast office building attached on the Eighth Avenue side",
+   "Glass entrance pavilion at the base on the Seventh Avenue plaza",
+   "Ring of video screens along the base of the drum (plain colored panels, no text)",
+   "Square glass-and-steel bridges (walkways) visible as horizontal bands around the drum"
+  ]
+ },
+ "rupp-arena": {
+  "name": "Rupp Arena",
+  "type": "arena",
+  "path": "fallback",
+  "desc": "Rupp Arena, a large rectangular arena box with a flat light roof, beige ribbed metal panel walls with a dark glass band at the base and diagonal-braced corner stair towers",
+  "materials": "beige ribbed metal cladding, dark glass, concrete, light flat roof membrane",
+  "colors_hex": "seats/crowd #494850, facade metal #c8beaf, facade glass #223243, roof (aerial) #d7d8d5, court #c5a94e, court surround #4587c5",
+  "features": [
+   "Large rectangular box with a flat light roof, attached to the Central Bank Center convention center",
+   "Beige ribbed metal panel facade with a dark glass band at street level",
+   "Diagonal-braced corner stair towers",
+   "Blue seating bowl, upper and lower levels on all four sides",
+   "Center-hung video board",
+   "Light wood basketball court with a blue surround"
+  ]
+ },
+ "q2-stadium": {
+  "name": "Q2 Stadium",
+  "type": "soccer",
+  "path": "fallback",
+  "desc": "Q2 Stadium, a soccer-specific stadium with a rectangular pitch, steep green-seated stands close to the touchlines, large white steel truss canopy roofs over the stands, green slatted facade panels",
+  "materials": "natural grass pitch with white lines, green stadium seats, white steel trusses, green slatted panels, glass, concrete",
+  "colors_hex": "seats (sun) #264129, facade green slats #196249, facade glass #2a5988, canopy steel #8f8483, roof (aerial) #eceae6, field #698125",
+  "features": [
+   "Rectangular soccer pitch with steep stands close to the touchlines on all sides",
+   "Large white steel canopy roof over the west stand, with exposed trusses",
+   "Canopy roofs over the north and south stands with the angled corner trusses",
+   "Green seats throughout",
+   "Green slatted facade panels and a glass entrance on the west side",
+   "Safe-standing supporters section in the south end"
+  ]
+ },
+ "daytona-international-speedway": {
+  "name": "Daytona International Speedway",
+  "type": "racetrack",
+  "path": "fallback",
+  "desc": "Daytona International Speedway, a large tri-oval racetrack with steeply banked turns, a huge multi-level main grandstand along the front stretch with glass suites, pit road, a grass infield with a lake",
+  "materials": "gray asphalt, white painted lines, concrete walls, gray and blue seats, glass, steel, grass, water",
+  "colors_hex": "seats (checker) #818895, facade glass #1f334a, facade cladding #8091af, track #8c989a, infield grass #56732c",
+  "features": [
+   "Tri-oval track, 2.5 miles, with high banking in the four turns",
+   "Main grandstand along the front stretch with five stacked levels and glass suites (the Daytona Rising frontstretch)",
+   "Checker-pattern seat colors in the frontstretch grandstand",
+   "Pit road along the front stretch, separated by a grass strip",
+   "Infield with Lake Lloyd and the garage area",
+   "Five entrance \"injector\" towers on the back of the grandstand"
+  ]
+ },
+ "bristol-motor-speedway": {
+  "name": "Bristol Motor Speedway",
+  "type": "racetrack",
+  "path": "fallback",
+  "desc": "Bristol Motor Speedway, a short steeply banked concrete oval racetrack completely enclosed by tall grandstands like a stadium bowl, gray and red seating, pit road in the infield, dark steel exterior with stair towers",
+  "materials": "gray concrete track, white walls, gray and red seats, dark steel, concrete",
+  "colors_hex": "seats gray #84888c, seats red #75424d, facade steel #192332, track #585c5f, infield #7a8e99",
+  "features": [
+   "Short half-mile oval with extremely steep concrete banking",
+   "Grandstands enclose the entire track like a stadium bowl",
+   "Gray seating with red seating sections on the backstretch side",
+   "Concrete track surface with white walls",
+   "Infield with pit road and garages",
+   "Dark steel exterior with stair towers and the tall upright sign tower at the main entrance",
+   "Set in a valley among wooded hills (excluded from the cutout)"
+  ]
+ },
+ "arthur-ashe-stadium": {
+  "name": "Arthur Ashe Stadium",
+  "type": "tennis",
+  "path": "fallback",
+  "desc": "Arthur Ashe Stadium, a large round tennis stadium around a single blue hard court, a retractable light fabric roof on a separate steel superstructure carried on columns outside the bowl, red-brick base",
+  "materials": "blue acrylic hard court, light fabric roof panels, dark steel trusses, red brick, concrete",
+  "colors_hex": "seats #374f70, base brick #79452f, steel #3b4853, roof fabric #c6d2f0, roof (aerial) #d9dad9, court #9ebce4, court surround #caf995",
+  "features": [
+   "Octagonal-to-round bowl around a single tennis court",
+   "Retractable roof: light fabric panels on a steel superstructure carried on eight columns outside the bowl",
+   "Blue hard court with a light green surround",
+   "Steep upper bowl in dark blue seats",
+   "Red-brick base of the stadium below the steel superstructure",
+   "Roof superstructure is visibly separate from the bowl, standing on its own columns"
+  ]
+ }
+}

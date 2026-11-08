@@ -13,7 +13,10 @@ from transformers import pipeline as hf_pipeline, AutoModelForImageSegmentation
 from torchvision import transforms
 
 T0 = time.time()
-IN = '/kaggle/input/stadium-overhaul-refs'
+import glob
+_hits = glob.glob('/kaggle/input/**/verified.json', recursive=True)
+print('dataset files:', _hits, sorted(glob.glob('/kaggle/input/**/refs*', recursive=True))[:5], flush=True)
+IN = os.path.dirname(_hits[0])
 OUT = '/kaggle/working/out'
 HERE = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else '/kaggle/src'
 jobs_path = next((p for p in ['/kaggle/input/stadium-overhaul-jobs/jobs.json', os.path.join(HERE, 'jobs.json'), 'jobs.json'] if os.path.exists(p)), None)

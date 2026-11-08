@@ -1,7 +1,7 @@
 {
  "michigan-stadium": {
   "seats": {
-   "hex": "#737e91",
+   "hex": "#737e92",
    "ref": 1,
    "rect": [
     0.3,
@@ -21,7 +21,7 @@
    ]
   },
   "facade brick": {
-   "hex": "#876865",
+   "hex": "#876765",
    "ref": 1,
    "rect": [
     0.04,
@@ -31,7 +31,7 @@
    ]
   },
   "fascia navy": {
-   "hex": "#7082a2",
+   "hex": "#7082a3",
    "ref": 1,
    "rect": [
     0.17,
@@ -41,7 +41,7 @@
    ]
   },
   "concourse roof": {
-   "hex": "#cac2ba",
+   "hex": "#c9c5c0",
    "ref": 1,
    "rect": [
     0.66,
@@ -51,7 +51,7 @@
    ]
   },
   "field surround": {
-   "hex": "#947071",
+   "hex": "#957070",
    "ref": 1,
    "rect": [
     0.407,
@@ -135,7 +135,7 @@
  },
  "fenway-park": {
   "seats grandstand": {
-   "hex": "#714755",
+   "hex": "#714756",
    "ref": 16,
    "rect": [
     0.2,
@@ -145,7 +145,7 @@
    ]
   },
   "seats bleachers": {
-   "hex": "#44514e",
+   "hex": "#42504c",
    "ref": 9,
    "rect": [
     0.75,
@@ -165,7 +165,7 @@
    ]
   },
   "seats grandstand (overcast)": {
-   "hex": "#572d24",
+   "hex": "#583026",
    "ref": 9,
    "rect": [
     0.88,
@@ -195,7 +195,7 @@
    ]
   },
   "green monster": {
-   "hex": "#5e7b6a",
+   "hex": "#617b6a",
    "ref": 9,
    "rect": [
     0.19,
@@ -205,7 +205,7 @@
    ]
   },
   "structure green": {
-   "hex": "#556c6d",
+   "hex": "#586c6d",
    "ref": 11,
    "rect": [
     0.2,
@@ -215,7 +215,7 @@
    ]
   },
   "facade brick": {
-   "hex": "#6b554d",
+   "hex": "#6a544d",
    "ref": 6,
    "rect": [
     0.3,
@@ -227,7 +227,7 @@
  },
  "wrigley-field": {
   "seats": {
-   "hex": "#242e3a",
+   "hex": "#242f3b",
    "ref": 10,
    "rect": [
     0.1,
@@ -237,7 +237,7 @@
    ]
   },
   "seats (lit)": {
-   "hex": "#202e2d",
+   "hex": "#202d2d",
    "ref": 18,
    "rect": [
     0.7,
@@ -267,7 +267,7 @@
    ]
   },
   "scoreboard": {
-   "hex": "#4a5e63",
+   "hex": "#4a5e64",
    "ref": 11,
    "rect": [
     0.25,
@@ -277,7 +277,7 @@
    ]
   },
   "roof": {
-   "hex": "#646969",
+   "hex": "#63686a",
    "ref": 8,
    "rect": [
     0.4,
@@ -297,7 +297,7 @@
    ]
   },
   "exterior": {
-   "hex": "#9e9d8f",
+   "hex": "#9d9d8f",
    "ref": "m1",
    "rect": [
     0.02,
@@ -309,7 +309,7 @@
  },
  "sofi-stadium": {
   "roof": {
-   "hex": "#c4bfb4",
+   "hex": "#c4beb3",
    "ref": 1,
    "rect": [
     0.4,
@@ -349,7 +349,7 @@
    ]
   },
   "columns": {
-   "hex": "#8b8984",
+   "hex": "#888c8a",
    "ref": 7,
    "rect": [
     0.585,
@@ -361,7 +361,7 @@
  },
  "madison-square-garden": {
   "facade cladding": {
-   "hex": "#8d7052",
+   "hex": "#8d6f51",
    "ref": 17,
    "rect": [
     0.47,
@@ -381,7 +381,7 @@
    ]
   },
   "podium": {
-   "hex": "#edd8be",
+   "hex": "#edd8bd",
    "ref": 17,
    "rect": [
     0.56,
@@ -403,7 +403,7 @@
  },
  "daytona-international-speedway": {
   "seats (checker)": {
-   "hex": "#808794",
+   "hex": "#818895",
    "ref": 17,
    "rect": [
     0.05,
@@ -413,7 +413,7 @@
    ]
   },
   "facade glass": {
-   "hex": "#20334a",
+   "hex": "#1f334a",
    "ref": 17,
    "rect": [
     0.1,
@@ -433,7 +433,7 @@
    ]
   },
   "track": {
-   "hex": "#8c9899",
+   "hex": "#8c989a",
    "ref": 23,
    "rect": [
     0.4,
@@ -465,7 +465,7 @@
    ]
   },
   "seats": {
-   "hex": "#374e70",
+   "hex": "#374f70",
    "ref": 12,
    "rect": [
     0.82,
@@ -485,7 +485,7 @@
    ]
   },
   "court surround": {
-   "hex": "#cbfa95",
+   "hex": "#caf995",
    "ref": 21,
    "rect": [
     0.36,
@@ -495,7 +495,7 @@
    ]
   },
   "steel": {
-   "hex": "#3b4653",
+   "hex": "#3b4853",
    "ref": 5,
    "rect": [
     0.3,
@@ -515,13 +515,303 @@
    ]
   },
   "base brick": {
-   "hex": "#78452f",
+   "hex": "#79452f",
    "ref": 5,
    "rect": [
     0.3,
     0.51,
     0.4,
     0.6
+   ]
+  }
+ },
+ "landn-federal-credit-union-stadium": {
+  "seats (aerial)": {
+   "hex": "#a25e5e",
+   "ref": "naip",
+   "rect": [
+    0.58,
+    0.6,
+    0.62,
+    0.66
+   ]
+  },
+  "field (aerial)": {
+   "hex": "#7e946f",
+   "ref": "naip",
+   "rect": [
+    0.42,
+    0.6,
+    0.46,
+    0.66
+   ]
+  },
+  "field": {
+   "hex": "#95aa6b",
+   "ref": 3,
+   "rect": [
+    0.3,
+    0.62,
+    0.4,
+    0.7
+   ]
+  },
+  "facade brick": {
+   "hex": "#4a372f",
+   "ref": 7,
+   "rect": [
+    0.71,
+    0.5,
+    0.77,
+    0.65
+   ]
+  },
+  "facade glass": {
+   "hex": "#627b78",
+   "ref": 7,
+   "rect": [
+    0.05,
+    0.15,
+    0.3,
+    0.25
+   ]
+  }
+ },
+ "lambeau-field": {
+  "seats": {
+   "hex": "#c2b4b0",
+   "ref": 17,
+   "rect": [
+    0.3,
+    0.8,
+    0.4,
+    0.86
+   ]
+  },
+  "field": {
+   "hex": "#8e9736",
+   "ref": 1,
+   "rect": [
+    0.4,
+    0.62,
+    0.55,
+    0.68
+   ]
+  },
+  "facade green band": {
+   "hex": "#314746",
+   "ref": 18,
+   "rect": [
+    0.3,
+    0.4,
+    0.7,
+    0.43
+   ]
+  },
+  "facade brick": {
+   "hex": "#b05931",
+   "ref": 3,
+   "rect": [
+    0.12,
+    0.4,
+    0.18,
+    0.6
+   ]
+  },
+  "facade base": {
+   "hex": "#545a5b",
+   "ref": 18,
+   "rect": [
+    0.3,
+    0.8,
+    0.45,
+    0.84
+   ]
+  }
+ },
+ "rupp-arena": {
+  "seats/crowd": {
+   "hex": "#494850",
+   "ref": 3,
+   "rect": [
+    0,
+    0.6,
+    0.1,
+    0.75
+   ]
+  },
+  "court": {
+   "hex": "#c5a94e",
+   "ref": 3,
+   "rect": [
+    0.45,
+    0.72,
+    0.55,
+    0.78
+   ]
+  },
+  "court surround": {
+   "hex": "#4587c5",
+   "ref": 3,
+   "rect": [
+    0.31,
+    0.7,
+    0.33,
+    0.8
+   ]
+  },
+  "facade metal": {
+   "hex": "#c8beaf",
+   "ref": 13,
+   "rect": [
+    0.45,
+    0.3,
+    0.55,
+    0.4
+   ]
+  },
+  "facade glass": {
+   "hex": "#223243",
+   "ref": 13,
+   "rect": [
+    0.3,
+    0.58,
+    0.4,
+    0.68
+   ]
+  },
+  "roof (aerial)": {
+   "hex": "#d7d8d5",
+   "ref": "naip",
+   "rect": [
+    0.2,
+    0.3,
+    0.3,
+    0.4
+   ]
+  }
+ },
+ "q2-stadium": {
+  "seats (shade)": {
+   "hex": "#3f4d4d",
+   "ref": 9,
+   "rect": [
+    0.03,
+    0.55,
+    0.12,
+    0.65
+   ]
+  },
+  "seats (sun)": {
+   "hex": "#264129",
+   "ref": 4,
+   "rect": [
+    0.05,
+    0.8,
+    0.3,
+    0.95
+   ]
+  },
+  "field": {
+   "hex": "#698125",
+   "ref": 1,
+   "rect": [
+    0.5,
+    0.75,
+    0.7,
+    0.85
+   ]
+  },
+  "canopy steel": {
+   "hex": "#8f8483",
+   "ref": 9,
+   "rect": [
+    0.03,
+    0.38,
+    0.15,
+    0.42
+   ]
+  },
+  "roof (aerial)": {
+   "hex": "#eceae6",
+   "ref": "naip",
+   "rect": [
+    0.3,
+    0.4,
+    0.35,
+    0.55
+   ]
+  },
+  "facade green slats": {
+   "hex": "#196249",
+   "ref": 9,
+   "rect": [
+    0.3,
+    0.53,
+    0.35,
+    0.65
+   ]
+  },
+  "facade glass": {
+   "hex": "#2a5988",
+   "ref": 9,
+   "rect": [
+    0.62,
+    0.52,
+    0.75,
+    0.6
+   ]
+  }
+ },
+ "bristol-motor-speedway": {
+  "seats gray": {
+   "hex": "#84888c",
+   "ref": 26,
+   "rect": [
+    0.6,
+    0.35,
+    0.7,
+    0.42
+   ]
+  },
+  "seats red": {
+   "hex": "#75424d",
+   "ref": 26,
+   "rect": [
+    0.75,
+    0.27,
+    0.85,
+    0.3
+   ]
+  },
+  "track": {
+   "hex": "#585c5f",
+   "ref": 26,
+   "rect": [
+    0.3,
+    0.82,
+    0.45,
+    0.86
+   ]
+  },
+  "infield": {
+   "hex": "#7a8e99",
+   "ref": 26,
+   "rect": [
+    0.55,
+    0.55,
+    0.6,
+    0.6
+   ]
+  },
+  "facade steel": {
+   "hex": "#192332",
+   "ref": 30,
+   "rect": [
+    0.4,
+    0.55,
+    0.48,
+    0.65
    ]
   }
  }

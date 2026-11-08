@@ -16,13 +16,22 @@ export const SAMPLES = {
   'madison-square-garden': [['facade cladding', 17, 0.47, 0.16, 0.58, 0.30], ['glass', 17, 0.17, 0.30, 0.22, 0.45], ['podium', 17, 0.56, 0.45, 0.70, 0.58], ['roof', 'naip', 0.36, 0.40, 0.42, 0.46]],
   'daytona-international-speedway': [['seats (checker)', 17, 0.05, 0.75, 0.95, 0.88], ['facade glass', 17, 0.10, 0.60, 0.90, 0.68], ['facade cladding', 17, 0.10, 0.52, 0.90, 0.55], ['track', 23, 0.40, 0.79, 0.59, 0.88], ['infield grass', 5, 0.70, 0.70, 0.90, 0.85]],
   'arthur-ashe-stadium': [['roof fabric', 5, 0.40, 0.14, 0.60, 0.21], ['seats', 12, 0.82, 0.45, 0.95, 0.65], ['court', 21, 0.45, 0.53, 0.50, 0.57], ['court surround', 21, 0.36, 0.55, 0.40, 0.58], ['steel', 5, 0.30, 0.30, 0.40, 0.40], ['roof (aerial)', 'naip', 0.42, 0.40, 0.50, 0.46], ['base brick', 5, 0.30, 0.51, 0.40, 0.60]],
+  'landn-federal-credit-union-stadium': [['seats (aerial)', 'naip', 0.58, 0.60, 0.62, 0.66], ['field (aerial)', 'naip', 0.42, 0.60, 0.46, 0.66], ['field', 3, 0.30, 0.62, 0.40, 0.70], ['facade brick', 7, 0.71, 0.50, 0.77, 0.65], ['facade glass', 7, 0.05, 0.15, 0.30, 0.25]],
+  'lambeau-field': [['seats', 17, 0.30, 0.80, 0.40, 0.86], ['field', 1, 0.40, 0.62, 0.55, 0.68], ['facade green band', 18, 0.30, 0.40, 0.70, 0.43], ['facade brick', 3, 0.12, 0.40, 0.18, 0.60], ['facade base', 18, 0.30, 0.80, 0.45, 0.84]],
+  'rupp-arena': [['seats/crowd', 3, 0.00, 0.60, 0.10, 0.75], ['court', 3, 0.45, 0.72, 0.55, 0.78], ['court surround', 3, 0.31, 0.70, 0.33, 0.80], ['facade metal', 13, 0.45, 0.30, 0.55, 0.40], ['facade glass', 13, 0.30, 0.58, 0.40, 0.68], ['roof (aerial)', 'naip', 0.20, 0.30, 0.30, 0.40]],
+  'q2-stadium': [['seats (shade)', 9, 0.03, 0.55, 0.12, 0.65], ['seats (sun)', 4, 0.05, 0.80, 0.30, 0.95], ['field', 1, 0.50, 0.75, 0.70, 0.85], ['canopy steel', 9, 0.03, 0.38, 0.15, 0.42], ['roof (aerial)', 'naip', 0.30, 0.40, 0.35, 0.55], ['facade green slats', 9, 0.30, 0.53, 0.35, 0.65], ['facade glass', 9, 0.62, 0.52, 0.75, 0.60]],
+  'bristol-motor-speedway': [['seats gray', 26, 0.60, 0.35, 0.70, 0.42], ['seats red', 26, 0.75, 0.27, 0.85, 0.30], ['track', 26, 0.30, 0.82, 0.45, 0.86], ['infield', 26, 0.55, 0.55, 0.60, 0.60], ['facade steel', 30, 0.40, 0.55, 0.48, 0.65]],
 }
 
 const hex = (c) => '#' + c.map((v) => Math.round(v).toString(16).padStart(2, '0')).join('')
+// Venues whose source images are not on disk keep their previous samples.
+const prev = fs.existsSync('scripts/stadiums/refs/colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/refs/colors.json', 'utf8')) : {}
 const out = {}, tiles = []
 for (const [slug, list] of Object.entries(SAMPLES)) {
   out[slug] = {}
   for (const [label, n, x0, y0, x1, y1] of list) {
+    const src = n === 'naip' ? `research/raw/stadiums/naip/${slug}.jpg` : `research/raw/stadiums/refs-cand/${slug}/${n}.jpg`
+    if (!fs.existsSync(src)) { if (prev[slug]?.[label]) out[slug][label] = prev[slug][label]; continue }
     // 'naip' samples the USGS aerial (1024 square, fractions of the full image).
     const file = n === 'naip' ? `research/raw/stadiums/naip/${slug}.jpg` : `research/raw/stadiums/refs-cand/${slug}/${n}.jpg`
     const [W, H] = n === 'naip' ? [1024, 1024] : [640, 430]
