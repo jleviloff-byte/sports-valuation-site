@@ -18,3 +18,13 @@ attempt in the set, so the site never falls back to bricks.
   1. Generate the grandstand and the tri-oval as two crops and composite them.
   2. Use a 2048 px canvas with tiled refinement.
   3. Accept the simplified model, since the brief's racetrack size cap shows it small on the map anyway.
+
+## L&N Federal Credit Union Stadium, Q2 Stadium, Rupp Arena (pilot)
+
+- **Attempts:** 3 each (pilot round 1, round 2, round 6 with color-render reference).
+- **Blind ID:** failed in both rounds. Venue type was always correct ("red-seat college football stadium", "soccer stadium", "box arena"). Spec features match.
+- **Cause:** none of these has a distinctive exterior that survives at model scale. Rupp is a plain box inside a convention center, Q2 a rectangular soccer stadium, L&N an enclosed college bowl.
+- **Kept:** L&N round 2 seed 77 (the round 6 version grew tree-like blobs in the seats), Q2 round 6 seed 43, Rupp round 6 seed 21.
+- **Options:**
+  1. Accept type-correct art for venues without a recognizable exterior.
+  2. Spend the remaining 2 attempts on each with a closer crop or a signature detail (Q2's west-side canopy, L&N's north end-zone building).
