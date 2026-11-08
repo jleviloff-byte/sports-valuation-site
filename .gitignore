@@ -63,13 +63,6 @@ research/raw/stadiums/refs-cand/
 # Claude Code local settings (per machine)
 .claude/settings.local.json
 
-# Overhaul intermediates live in the private Kaggle dataset, not git (docs/overhaul/brief.md)
-scripts/stadiums/art2/out/control/*-normal.png
-scripts/stadiums/art2/out/control/landn-*
-scripts/stadiums/art2/out/control/rupp-*
-scripts/stadiums/art2/out/control/q2-*
-scripts/stadiums/art2/out/control/bristol-*
-scripts/stadiums/art2/out/*/landn-*
-scripts/stadiums/art2/out/*/rupp-*
-scripts/stadiums/art2/out/*/q2-*
-scripts/stadiums/art2/out/*/bristol-*
+# Overhaul intermediates live in the private Kaggle dataset, not git (docs/overhaul/brief.md).
+# Files under art2/out tracked before the overhaul stay tracked.
+scripts/stadiums/art2/out/
