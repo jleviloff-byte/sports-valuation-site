@@ -127,7 +127,10 @@ const report = []
 for (const slug of slugs) {
   const v = data.venues.find((x) => x.slug === slug)
   const w = wikiByUrl[v.sources.wikipedia]
-  const osm = JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8'))
+  const osm = fs.existsSync(osmFile(w.title)) ? JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8')) : {}
+  // No OSM venue polygon: a disk at the venue's coordinates sized by capacity (generic models cap it anyway).
+  if (!osm.best) { const r = Math.min(170, 45 + Math.sqrt(v.capacity || 15000) * 0.6); osm.best = { footprint: Array.from({ length: 48 }, (_, k) => [v.lng + (r * Math.cos((k / 48) * 2 * Math.PI)) / (111320 * Math.cos((v.lat * Math.PI) / 180)), v.lat + (r * Math.sin((k / 48) * 2 * Math.PI)) / 110540]) } }
+  if (typeof osm.best.footprint === 'string') osm.best.footprint = JSON.parse(osm.best.footprint)
   const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug }
   for (const style of STYLES) {
     const t0 = Date.now()

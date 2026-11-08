@@ -1,0 +1,36 @@
+[
+ {
+  "slug": "raymond-james-stadium",
+  "kind": "football stadium",
+  "ref": "refs/raymond-james-stadium/6.jpg",
+  "mask": "masks/raymond-james-stadium.png",
+  "desc_short": "Raymond James Stadium: open football bowl with red-orange seats, a wooden pirate ship replica in one end zone, large end video boards, tan concrete exterior with ramps",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "spartan-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/spartan-stadium/26.jpg",
+  "mask": "masks/spartan-stadium.png",
+  "desc_short": "Spartan Stadium: closed college football bowl with green and white seats, tall press box tower, tan brick exterior, end zone video board",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ }
+]
