@@ -21,6 +21,7 @@ import { OutputPass } from 'three/addons/postprocessing/OutputPass.js'
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js'
 import * as K from './kit.js'
 import { BUILDERS } from './venues.js'
+import { generic } from './generic.js'
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true })
 renderer.setPixelRatio(1)
@@ -104,7 +105,7 @@ window.renderVenue = async (slug, style, footprint, info, size = 2048) => {
   const mat = K.makeMaterials(style)
   const fp = K.project(footprint)
   if (info && info.fieldLL) info.field = info.fieldLL.map(fp.toLocal) // pitch corners traced from NAIP
-  const model = BUILDERS[slug]({ fp, kit: K, mat, THREE, info: info || {} })
+  const model = (BUILDERS[slug] || generic)({ fp, kit: K, mat, THREE, info: info || {} })
   const scene = new THREE.Scene()
   scene.background = new THREE.Color(0x000000)
   scene.environment = style === 'vector' ? null : envTex

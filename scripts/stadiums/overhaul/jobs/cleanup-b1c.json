@@ -1,0 +1,179 @@
+[
+ {
+  "slug": "allegiant-stadium",
+  "boxes": [
+   [
+    0.72,
+    0.32,
+    0.9,
+    0.55
+   ],
+   [
+    0.64,
+    0.51,
+    0.74,
+    0.6
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "bank-of-america-stadium",
+  "boxes": [
+   [
+    0.19,
+    0.48,
+    0.48,
+    0.68
+   ],
+   [
+    0.28,
+    0.11,
+    0.64,
+    0.22
+   ],
+   [
+    0.46,
+    0.22,
+    0.68,
+    0.33
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "beaver-stadium",
+  "boxes": [
+   [
+    0.63,
+    0.44,
+    0.75,
+    0.56
+   ],
+   [
+    0.06,
+    0.43,
+    0.18,
+    0.57
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "husky-stadium",
+  "boxes": [
+   [
+    0.06,
+    0.3,
+    0.18,
+    0.84
+   ],
+   [
+    0.69,
+    0.15,
+    0.82,
+    0.34
+   ],
+   [
+    0.38,
+    0.43,
+    0.48,
+    0.5
+   ],
+   [
+    0.43,
+    0.7,
+    0.55,
+    0.77
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "nissan-stadium",
+  "boxes": [
+   [
+    0.26,
+    0.52,
+    0.44,
+    0.69
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "boxes": [
+   [
+    0.67,
+    0.55,
+    0.79,
+    0.66
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "reliant-stadium",
+  "boxes": [
+   [
+    0.14,
+    0.37,
+    0.31,
+    0.56
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ },
+ {
+  "slug": "spartan-stadium",
+  "boxes": [
+   [
+    0.23,
+    0.4,
+    0.31,
+    0.75
+   ],
+   [
+    0.67,
+    0.38,
+    0.73,
+    0.58
+   ],
+   [
+    0.46,
+    0.45,
+    0.57,
+    0.59
+   ]
+  ],
+  "prompt": "clean architectural scale model, plain green grass football field with white yard lines, crisp, soft daylight",
+  "strength": 0.45
+ },
+ {
+  "slug": "state-farm-stadium",
+  "boxes": [
+   [
+    0.5,
+    0.15,
+    0.62,
+    0.42
+   ],
+   [
+    0.5,
+    0.58,
+    0.68,
+    0.73
+   ]
+  ],
+  "strength": 0.45,
+  "prompt": "clean architectural scale model surface, plain smooth panel in the same color and material as its surroundings, crisp, soft daylight"
+ }
+]

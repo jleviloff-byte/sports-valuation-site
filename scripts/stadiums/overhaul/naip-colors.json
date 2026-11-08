@@ -1,0 +1,2770 @@
+{
+ "dodger-stadium": {
+  "seats": "#757368",
+  "roof": "#8e9289",
+  "field": "#485744",
+  "shares": {
+   "#8e9289": 0.329,
+   "#485744": 0.247,
+   "#aab0ad": 0.163,
+   "#757368": 0.139,
+   "#2d3b3f": 0.121
+  }
+ },
+ "chase-field": {
+  "seats": "#dbdedd",
+  "roof": "#dbdedd",
+  "field": "#35483d",
+  "shares": {
+   "#dbdedd": 0.397,
+   "#cbcfd0": 0.326,
+   "#35483d": 0.183,
+   "#a4a7a3": 0.058,
+   "#717467": 0.036
+  }
+ },
+ "t-mobile-park": {
+  "seats": "#91978c",
+  "roof": "#021b2b",
+  "field": "#213f39",
+  "shares": {
+   "#021b2b": 0.374,
+   "#213f39": 0.234,
+   "#91978c": 0.155,
+   "#c2c7c0": 0.126,
+   "#58635e": 0.111
+  }
+ },
+ "angel-stadium": {
+  "seats": "#374749",
+  "roof": "#99978e",
+  "shares": {
+   "#99978e": 0.254,
+   "#7c827d": 0.242,
+   "#5f6a66": 0.224,
+   "#b7bab6": 0.176,
+   "#374749": 0.104
+  }
+ },
+ "busch-stadium": {
+  "seats": "#9d6973",
+  "roof": "#616767",
+  "shares": {
+   "#616767": 0.317,
+   "#433e55": 0.264,
+   "#9d6973": 0.154,
+   "#b3999a": 0.142,
+   "#cac5c6": 0.123
+  }
+ },
+ "oriole-park-at-camden-yards": {
+  "seats": "#4c5954",
+  "roof": "#4c5954",
+  "shares": {
+   "#4c5954": 0.299,
+   "#282e3b": 0.199,
+   "#697171": 0.192,
+   "#babbb3": 0.164,
+   "#8b8c88": 0.146
+  }
+ },
+ "citi-field": {
+  "seats": "#acaa9b",
+  "roof": "#acaa9b",
+  "field": "#656f5e",
+  "shares": {
+   "#656f5e": 0.352,
+   "#acaa9b": 0.242,
+   "#8c8c81": 0.164,
+   "#c4c5bb": 0.15,
+   "#3f3f4b": 0.092
+  }
+ },
+ "wrigley-field": {
+  "seats": "#413d5b",
+  "roof": "#413d5b",
+  "field": "#627f63",
+  "shares": {
+   "#413d5b": 0.258,
+   "#627f63": 0.224,
+   "#c4c1c2": 0.217,
+   "#9d9ba5": 0.174,
+   "#747082": 0.127
+  }
+ },
+ "rate-field": {
+  "seats": "#43445d",
+  "roof": "#43445d",
+  "field": "#688268",
+  "shares": {
+   "#43445d": 0.262,
+   "#cccdcb": 0.213,
+   "#707487": 0.188,
+   "#a5a6a8": 0.178,
+   "#688268": 0.159
+  }
+ },
+ "globe-life-field": {
+  "seats": "#61657a",
+  "roof": "#d8d8d4",
+  "shares": {
+   "#d8d8d4": 0.461,
+   "#f5f6f4": 0.182,
+   "#61657a": 0.17,
+   "#788296": 0.144,
+   "#b4b3b1": 0.044
+  }
+ },
+ "comerica-park": {
+  "seats": "#3f5768",
+  "roof": "#cacdc6",
+  "field": "#739275",
+  "shares": {
+   "#cacdc6": 0.284,
+   "#a1aba6": 0.239,
+   "#6b868d": 0.187,
+   "#739275": 0.151,
+   "#3f5768": 0.139
+  }
+ },
+ "target-field": {
+  "seats": "#b4b3ac",
+  "roof": "#b4b3ac",
+  "field": "#4f645a",
+  "shares": {
+   "#b4b3ac": 0.312,
+   "#4f645a": 0.245,
+   "#e9ebeb": 0.235,
+   "#8e8f8b": 0.137,
+   "#393d50": 0.072
+  }
+ },
+ "loandepot-park": {
+  "seats": "#ccd5d5",
+  "roof": "#e4e7e6",
+  "shares": {
+   "#e4e7e6": 0.686,
+   "#ccd5d5": 0.161,
+   "#64a0ad": 0.07,
+   "#a9b9bb": 0.047,
+   "#527f8c": 0.036
+  }
+ },
+ "charles-schwab-field": {
+  "seats": "#959da6",
+  "roof": "#d8dddc",
+  "field": "#627969",
+  "shares": {
+   "#d8dddc": 0.323,
+   "#627969": 0.3,
+   "#b9c0c2": 0.214,
+   "#959da6": 0.13,
+   "#495268": 0.033
+  }
+ },
+ "michigan-stadium": {
+  "seats": "#364e6a",
+  "roof": "#89999b",
+  "shares": {
+   "#89999b": 0.262,
+   "#b2b8b9": 0.244,
+   "#364e6a": 0.238,
+   "#d6d7d3": 0.15,
+   "#567286": 0.105
+  }
+ },
+ "yulman-stadium": {
+  "seats": "#4f666c",
+  "roof": "#c2c8c6",
+  "field": "#677d82",
+  "shares": {
+   "#c2c8c6": 0.342,
+   "#a6b5b5": 0.333,
+   "#4f666c": 0.175,
+   "#677d82": 0.083,
+   "#8b9a93": 0.067
+  }
+ },
+ "fenway-park": {
+  "seats": "#928673",
+  "roof": "#928673",
+  "field": "#6d7860",
+  "shares": {
+   "#6d7860": 0.332,
+   "#928673": 0.217,
+   "#a1a298": 0.184,
+   "#b5bfbc": 0.177,
+   "#3a423e": 0.09
+  }
+ },
+ "sofi-stadium": {
+  "seats": "#889fa7",
+  "roof": "#91a7ae",
+  "shares": {
+   "#91a7ae": 0.346,
+   "#9aaeb3": 0.334,
+   "#a3b6b7": 0.167,
+   "#889fa7": 0.117,
+   "#b8c2c3": 0.035
+  }
+ },
+ "madison-square-garden": {
+  "seats": "#a4a49e",
+  "roof": "#a4a49e",
+  "shares": {
+   "#a4a49e": 0.4,
+   "#cfcfcf": 0.22,
+   "#92938f": 0.202,
+   "#b8bab8": 0.127,
+   "#6b6b6b": 0.051
+  }
+ },
+ "daytona-international-speedway": {
+  "seats": "#a9aa95",
+  "roof": "#a9aa95",
+  "shares": {
+   "#a9aa95": 0.349,
+   "#b4b7ac": 0.224,
+   "#c2c4bd": 0.209,
+   "#999c8c": 0.113,
+   "#6c705d": 0.105
+  }
+ },
+ "arthur-ashe-stadium": {
+  "seats": "#d4d6d6",
+  "roof": "#dadddc",
+  "shares": {
+   "#dadddc": 0.658,
+   "#d4d6d6": 0.273,
+   "#bec2bf": 0.037,
+   "#949790": 0.017,
+   "#686c64": 0.014
+  }
+ },
+ "indianapolis-motor-speedway": {
+  "seats": "#465157",
+  "roof": "#5e6867",
+  "shares": {
+   "#5e6867": 0.302,
+   "#797f7a": 0.272,
+   "#a2a4a1": 0.226,
+   "#bebfbb": 0.117,
+   "#465157": 0.084
+  }
+ },
+ "bristol-motor-speedway": {
+  "seats": "#b19e7e",
+  "roof": "#c5c4c2",
+  "shares": {
+   "#c5c4c2": 0.378,
+   "#b8b1a3": 0.358,
+   "#b19e7e": 0.128,
+   "#8b8276": 0.072,
+   "#434d55": 0.064
+  }
+ },
+ "circuit-of-the-americas": {
+  "seats": "#998a7f",
+  "roof": "#a99d91",
+  "shares": {
+   "#a99d91": 0.453,
+   "#bdb4a8": 0.247,
+   "#998a7f": 0.204,
+   "#6f6962": 0.081,
+   "#3c4040": 0.016
+  }
+ },
+ "beaver-stadium": {
+  "seats": "#878978",
+  "roof": "#cdd2ca",
+  "shares": {
+   "#cdd2ca": 0.289,
+   "#b0b09e": 0.251,
+   "#34424d": 0.206,
+   "#878978": 0.136,
+   "#565f5d": 0.12
+  }
+ },
+ "ohio-stadium": {
+  "seats": "#788289",
+  "roof": "#b2b7b6",
+  "shares": {
+   "#b2b7b6": 0.444,
+   "#d6d7d3": 0.212,
+   "#9da1a2": 0.179,
+   "#788289": 0.088,
+   "#526673": 0.077
+  }
+ },
+ "kyle-field": {
+  "seats": "#5f5a6b",
+  "roof": "#c9c5be",
+  "shares": {
+   "#c9c5be": 0.323,
+   "#d7d4cf": 0.291,
+   "#798176": 0.182,
+   "#aaa4a3": 0.106,
+   "#5f5a6b": 0.099
+  }
+ },
+ "tiger-stadium": {
+  "seats": "#aca791",
+  "roof": "#e4e3e1",
+  "field": "#515e4c",
+  "shares": {
+   "#e4e3e1": 0.381,
+   "#cbc8c3": 0.313,
+   "#aca791": 0.167,
+   "#888e7d": 0.089,
+   "#515e4c": 0.05
+  }
+ },
+ "neyland-stadium": {
+  "seats": "#b9bbb9",
+  "roof": "#cecdcb",
+  "field": "#396f45",
+  "shares": {
+   "#cecdcb": 0.501,
+   "#b9bbb9": 0.205,
+   "#396f45": 0.183,
+   "#313c4c": 0.074,
+   "#7c827f": 0.037
+  }
+ },
+ "darrell-k-royal-texas-memorial-stadium": {
+  "seats": "#54625f",
+  "roof": "#cbc9c6",
+  "shares": {
+   "#cbc9c6": 0.392,
+   "#bebcb9": 0.358,
+   "#54625f": 0.127,
+   "#a6a09e": 0.076,
+   "#7e7674": 0.047
+  }
+ },
+ "bryant-denny-stadium": {
+  "seats": "#d1d3cd",
+  "roof": "#eef1f0",
+  "shares": {
+   "#eef1f0": 0.511,
+   "#e5e8e3": 0.294,
+   "#d1d3cd": 0.123,
+   "#668694": 0.046,
+   "#9aadb0": 0.027
+  }
+ },
+ "charlotte-motor-speedway": {
+  "seats": "#9d9d8e",
+  "roof": "#9d9d8e",
+  "shares": {
+   "#9d9d8e": 0.314,
+   "#b2b3a9": 0.25,
+   "#828a8a": 0.216,
+   "#d9dbd8": 0.113,
+   "#626c71": 0.108
+  }
+ },
+ "sanford-stadium": {
+  "seats": "#6a8088",
+  "roof": "#deded8",
+  "field": "#859a94",
+  "shares": {
+   "#deded8": 0.385,
+   "#cacdc6": 0.344,
+   "#aab1a4": 0.116,
+   "#6a8088": 0.087,
+   "#859a94": 0.068
+  }
+ },
+ "cotton-bowl": {
+  "seats": "#acaaa0",
+  "roof": "#bbbcb4",
+  "shares": {
+   "#bbbcb4": 0.404,
+   "#c4c9c5": 0.401,
+   "#acaaa0": 0.118,
+   "#485164": 0.043,
+   "#83878a": 0.034
+  }
+ },
+ "barber-motorsports-park": {
+  "seats": "#bec2bb",
+  "roof": "#bec2bb",
+  "field": "#8b997f",
+  "shares": {
+   "#a1ad91": 0.317,
+   "#bec2bb": 0.247,
+   "#8b997f": 0.175,
+   "#d6d9d2": 0.158,
+   "#667766": 0.103
+  }
+ },
+ "ben-hill-griffin-stadium": {
+  "seats": "#3b4f66",
+  "roof": "#c4c5c0",
+  "field": "#78876f",
+  "shares": {
+   "#c4c5c0": 0.473,
+   "#78876f": 0.181,
+   "#a1a4a0": 0.153,
+   "#3b4f66": 0.12,
+   "#606f7a": 0.073
+  }
+ },
+ "jordan-hare-stadium": {
+  "seats": "#6789a8",
+  "roof": "#ebecea",
+  "field": "#9cb199",
+  "shares": {
+   "#ebecea": 0.508,
+   "#9cb199": 0.194,
+   "#6789a8": 0.122,
+   "#bec7b7": 0.097,
+   "#516e88": 0.079
+  }
+ },
+ "memorial-stadium-ne": {
+  "seats": "#525973",
+  "roof": "#d9ddda",
+  "field": "#6e8379",
+  "shares": {
+   "#d9ddda": 0.516,
+   "#525973": 0.177,
+   "#6e8379": 0.13,
+   "#b49995": 0.091,
+   "#c3c1bb": 0.086
+  }
+ },
+ "metlife-stadium": {
+  "seats": "#888e85",
+  "roof": "#70766f",
+  "shares": {
+   "#70766f": 0.31,
+   "#55605b": 0.227,
+   "#3d4a4a": 0.208,
+   "#888e85": 0.205,
+   "#b7bcb5": 0.05
+  }
+ },
+ "memorial-stadium-sc": {
+  "seats": "#2d4954",
+  "roof": "#d4d9cb",
+  "field": "#657459",
+  "shares": {
+   "#d4d9cb": 0.539,
+   "#657459": 0.165,
+   "#2d4954": 0.119,
+   "#bcbaa7": 0.1,
+   "#89917a": 0.077
+  }
+ },
+ "lambeau-field": {
+  "seats": "#636578",
+  "roof": "#d0ceca",
+  "shares": {
+   "#d0ceca": 0.374,
+   "#eeece6": 0.246,
+   "#757e74": 0.146,
+   "#636578": 0.127,
+   "#a8a8a8": 0.107
+  }
+ },
+ "rose-bowl": {
+  "seats": "#79796e",
+  "roof": "#94948e",
+  "field": "#576651",
+  "shares": {
+   "#94948e": 0.309,
+   "#a9aba5": 0.25,
+   "#576651": 0.245,
+   "#79796e": 0.111,
+   "#364241": 0.085
+  }
+ },
+ "gaylord-family-oklahoma-memorial-stadium": {
+  "seats": "#6b6e85",
+  "roof": "#d4d5d4",
+  "shares": {
+   "#d4d5d4": 0.53,
+   "#bcb3b3": 0.195,
+   "#7c7a6c": 0.174,
+   "#6b6e85": 0.08,
+   "#30344a": 0.021
+  }
+ },
+ "atandt-stadium": {
+  "seats": "#8090a9",
+  "roof": "#f1f6f5",
+  "shares": {
+   "#f1f6f5": 0.345,
+   "#d8dfdf": 0.294,
+   "#bbc5ca": 0.202,
+   "#8090a9": 0.102,
+   "#4f5367": 0.058
+  }
+ },
+ "las-vegas-motor-speedway": {
+  "seats": "#5e6871",
+  "roof": "#7f8488",
+  "shares": {
+   "#7f8488": 0.279,
+   "#5e6871": 0.253,
+   "#94989b": 0.224,
+   "#b1b5b6": 0.126,
+   "#ced5d5": 0.119
+  }
+ },
+ "talladega-superspeedway": {
+  "seats": "#abb09f",
+  "roof": "#d1d6d3",
+  "field": "#63736e",
+  "shares": {
+   "#d1d6d3": 0.456,
+   "#e1e4df": 0.233,
+   "#c2c2b2": 0.18,
+   "#abb09f": 0.112,
+   "#63736e": 0.019
+  }
+ },
+ "notre-dame-stadium": {
+  "seats": "#757d79",
+  "roof": "#969795",
+  "shares": {
+   "#969795": 0.411,
+   "#abaca8": 0.302,
+   "#757d79": 0.212,
+   "#d8d6cc": 0.038,
+   "#48515d": 0.037
+  }
+ },
+ "williams-brice-stadium": {
+  "seats": "#5f805d",
+  "roof": "#678863",
+  "field": "#5f805d",
+  "shares": {
+   "#5f805d": 0.447,
+   "#678863": 0.296,
+   "#557756": 0.203,
+   "#7a9574": 0.051,
+   "#b8c8b0": 0.003
+  }
+ },
+ "los-angeles-memorial-coliseum": {
+  "seats": "#5c6351",
+  "roof": "#837a71",
+  "shares": {
+   "#837a71": 0.237,
+   "#adb0a9": 0.234,
+   "#9b958d": 0.228,
+   "#5c6351": 0.187,
+   "#303c40": 0.114
+  }
+ },
+ "pocono-raceway": {
+  "seats": "#aea07f",
+  "roof": "#86826e",
+  "shares": {
+   "#86826e": 0.334,
+   "#99927e": 0.323,
+   "#aea07f": 0.253,
+   "#626051": 0.056,
+   "#d0cfc9": 0.033
+  }
+ },
+ "arrowhead-stadium": {
+  "seats": "#a68984",
+  "roof": "#ccc9c4",
+  "shares": {
+   "#ccc9c4": 0.401,
+   "#bdaba2": 0.208,
+   "#e5e7e0": 0.175,
+   "#636269": 0.111,
+   "#a68984": 0.106
+  }
+ },
+ "razorback-stadium": {
+  "seats": "#a49f93",
+  "roof": "#d4cfd0",
+  "field": "#38554c",
+  "shares": {
+   "#d4cfd0": 0.49,
+   "#c2bab6": 0.227,
+   "#38554c": 0.146,
+   "#a49f93": 0.089,
+   "#657165": 0.048
+  }
+ },
+ "empower-field-at-mile-high": {
+  "seats": "#3a3d49",
+  "roof": "#605c65",
+  "field": "#436747",
+  "shares": {
+   "#605c65": 0.262,
+   "#bbb8b3": 0.236,
+   "#938b89": 0.195,
+   "#3a3d49": 0.168,
+   "#436747": 0.14
+  }
+ },
+ "camp-randall-stadium": {
+  "seats": "#495367",
+  "roof": "#d4d6d4",
+  "field": "#516659",
+  "shares": {
+   "#d4d6d4": 0.415,
+   "#495367": 0.235,
+   "#516659": 0.16,
+   "#7a7c7a": 0.112,
+   "#aaaba7": 0.078
+  }
+ },
+ "bank-of-america-stadium": {
+  "seats": "#d0d5ce",
+  "roof": "#b7c4c1",
+  "field": "#628475",
+  "shares": {
+   "#b7c4c1": 0.427,
+   "#628475": 0.196,
+   "#d0d5ce": 0.182,
+   "#98afb3": 0.146,
+   "#324a62": 0.049
+  }
+ },
+ "mid-ohio-sports-car-course": {
+  "seats": "#6a7366",
+  "roof": "#6a7366",
+  "field": "#4d5a50",
+  "shares": {
+   "#4d5a50": 0.351,
+   "#6a7366": 0.293,
+   "#94938c": 0.143,
+   "#2c3737": 0.123,
+   "#b9bab2": 0.091
+  }
+ },
+ "texas-motor-speedway": {
+  "seats": "#989187",
+  "roof": "#c4bfb7",
+  "shares": {
+   "#c4bfb7": 0.399,
+   "#b8b3a8": 0.314,
+   "#a9a59c": 0.187,
+   "#989187": 0.087,
+   "#626169": 0.014
+  }
+ },
+ "spartan-stadium": {
+  "seats": "#bbc2b8",
+  "roof": "#d3dad6",
+  "field": "#a2afa2",
+  "shares": {
+   "#d3dad6": 0.278,
+   "#c9cec9": 0.252,
+   "#a2afa2": 0.206,
+   "#bbc2b8": 0.198,
+   "#789298": 0.066
+  }
+ },
+ "caesars-superdome": {
+  "seats": "#9ea098",
+  "roof": "#f3f2f1",
+  "shares": {
+   "#f3f2f1": 0.463,
+   "#dfe0e1": 0.225,
+   "#717c7b": 0.116,
+   "#c1c0b8": 0.105,
+   "#9ea098": 0.091
+  }
+ },
+ "reliant-stadium": {
+  "seats": "#51556a",
+  "roof": "#e8eaea",
+  "shares": {
+   "#e8eaea": 0.434,
+   "#cacecf": 0.308,
+   "#51556a": 0.105,
+   "#70788e": 0.096,
+   "#a0a7af": 0.058
+  }
+ },
+ "husky-stadium": {
+  "seats": "#a7afa9",
+  "roof": "#cacbc9",
+  "field": "#2f5b4e",
+  "shares": {
+   "#cacbc9": 0.419,
+   "#2f5b4e": 0.175,
+   "#a7afa9": 0.163,
+   "#0c283a": 0.129,
+   "#738686": 0.113
+  }
+ },
+ "legion-field": {
+  "seats": "#e3e7e4",
+  "roof": "#e3e7e4",
+  "field": "#799e98",
+  "shares": {
+   "#e3e7e4": 0.346,
+   "#d2d7d6": 0.33,
+   "#799e98": 0.233,
+   "#b7a2a9": 0.066,
+   "#5d6a7b": 0.025
+  }
+ },
+ "atlanta-motor-speedway": {
+  "seats": "#b2b4a8",
+  "roof": "#bfc1b8",
+  "shares": {
+   "#bfc1b8": 0.328,
+   "#c9ccc5": 0.325,
+   "#b2b4a8": 0.177,
+   "#dfded6": 0.158,
+   "#92938c": 0.013
+  }
+ },
+ "mercedes-benz-stadium": {
+  "seats": "#678394",
+  "roof": "#e0e6e7",
+  "shares": {
+   "#e0e6e7": 0.406,
+   "#c8d1d1": 0.245,
+   "#546772": 0.168,
+   "#678394": 0.103,
+   "#899da2": 0.078
+  }
+ },
+ "mandt-bank-stadium": {
+  "seats": "#61696e",
+  "roof": "#808589",
+  "shares": {
+   "#808589": 0.306,
+   "#acb3af": 0.282,
+   "#61696e": 0.202,
+   "#404b4c": 0.106,
+   "#222937": 0.103
+  }
+ },
+ "kinnick-stadium": {
+  "seats": "#a3aa9c",
+  "roof": "#dbe1e1",
+  "field": "#657c5a",
+  "shares": {
+   "#dbe1e1": 0.373,
+   "#c7cbc6": 0.271,
+   "#657c5a": 0.153,
+   "#a3aa9c": 0.14,
+   "#43534a": 0.063
+  }
+ },
+ "raymond-james-stadium": {
+  "seats": "#968f80",
+  "roof": "#968f80",
+  "field": "#627553",
+  "shares": {
+   "#968f80": 0.31,
+   "#c1c2b8": 0.211,
+   "#333d4a": 0.19,
+   "#726063": 0.151,
+   "#627553": 0.138
+  }
+ },
+ "nissan-stadium": {
+  "seats": "#2b3b49",
+  "roof": "#2b3b49",
+  "shares": {
+   "#2b3b49": 0.303,
+   "#929a9a": 0.212,
+   "#c1c9c7": 0.19,
+   "#797578": 0.152,
+   "#435260": 0.143
+  }
+ },
+ "levi-s-stadium": {
+  "seats": "#3e5565",
+  "roof": "#3e5565",
+  "shares": {
+   "#3e5565": 0.343,
+   "#5f6b6e": 0.186,
+   "#b6b9be": 0.162,
+   "#818183": 0.16,
+   "#969ba4": 0.149
+  }
+ },
+ "acrisure-stadium": {
+  "seats": "#c0a363",
+  "roof": "#c0a363",
+  "field": "#5d6e53",
+  "shares": {
+   "#c0a363": 0.244,
+   "#d1d6d3": 0.24,
+   "#a0a197": 0.22,
+   "#5d6e53": 0.216,
+   "#323a42": 0.08
+  }
+ },
+ "lumen-field": {
+  "seats": "#354e64",
+  "roof": "#062231",
+  "field": "#446962",
+  "shares": {
+   "#062231": 0.33,
+   "#446962": 0.189,
+   "#354e64": 0.168,
+   "#98a39c": 0.165,
+   "#d1d4d0": 0.148
+  }
+ },
+ "everbank-stadium": {
+  "seats": "#354d62",
+  "roof": "#a3adaa",
+  "field": "#516d62",
+  "shares": {
+   "#a3adaa": 0.344,
+   "#c8cbc4": 0.202,
+   "#768d8d": 0.189,
+   "#516d62": 0.171,
+   "#354d62": 0.094
+  }
+ },
+ "lincoln-financial-field": {
+  "seats": "#cfcdc3",
+  "roof": "#cfcdc3",
+  "shares": {
+   "#cfcdc3": 0.333,
+   "#a5aba8": 0.261,
+   "#7e8a87": 0.209,
+   "#253046": 0.124,
+   "#525d67": 0.072
+  }
+ },
+ "huntington-bank-field": {
+  "seats": "#87726b",
+  "roof": "#87726b",
+  "shares": {
+   "#87726b": 0.32,
+   "#4d514f": 0.213,
+   "#a39a93": 0.213,
+   "#262d3b": 0.146,
+   "#d6d4d1": 0.108
+  }
+ },
+ "doak-campbell-stadium": {
+  "seats": "#8d8b6f",
+  "roof": "#bfc0be",
+  "shares": {
+   "#bfc0be": 0.327,
+   "#3f566c": 0.25,
+   "#8d8b6f": 0.247,
+   "#a7a8a4": 0.122,
+   "#dadddc": 0.054
+  }
+ },
+ "lucas-oil-stadium": {
+  "seats": "#b9b5ac",
+  "roof": "#9c9f9e",
+  "shares": {
+   "#9c9f9e": 0.243,
+   "#797c80": 0.234,
+   "#b9b5ac": 0.202,
+   "#6c6f74": 0.161,
+   "#8d8e8f": 0.16
+  }
+ },
+ "soldier-field": {
+  "seats": "#464965",
+  "roof": "#464965",
+  "field": "#5e736d",
+  "shares": {
+   "#464965": 0.265,
+   "#d2d5d6": 0.24,
+   "#b7b7b7": 0.216,
+   "#5e736d": 0.186,
+   "#8a8e94": 0.092
+  }
+ },
+ "u-s-bank-stadium": {
+  "seats": "#a0a19c",
+  "roof": "#c2c5c4",
+  "shares": {
+   "#c2c5c4": 0.444,
+   "#e8edf0": 0.199,
+   "#a0a19c": 0.194,
+   "#777d7d": 0.102,
+   "#394355": 0.06
+  }
+ },
+ "lane-stadium": {
+  "seats": "#858a83",
+  "roof": "#d5d8da",
+  "shares": {
+   "#d5d8da": 0.425,
+   "#c1c3c7": 0.212,
+   "#858a83": 0.196,
+   "#9fa4a3": 0.105,
+   "#546880": 0.062
+  }
+ },
+ "paycor-stadium": {
+  "seats": "#4a636c",
+  "roof": "#5b7378",
+  "shares": {
+   "#5b7378": 0.382,
+   "#4a636c": 0.239,
+   "#7c8e8f": 0.14,
+   "#e1e6e5": 0.137,
+   "#a7b4b1": 0.101
+  }
+ },
+ "allegiant-stadium": {
+  "seats": "#5d6d79",
+  "roof": "#79868f",
+  "shares": {
+   "#79868f": 0.296,
+   "#919ea6": 0.264,
+   "#a7b4bb": 0.242,
+   "#cbd4d8": 0.111,
+   "#5d6d79": 0.088
+  }
+ },
+ "ford-field": {
+  "seats": "#e5ebe9",
+  "roof": "#e5ebe9",
+  "shares": {
+   "#e5ebe9": 0.772,
+   "#d0d6d6": 0.078,
+   "#a1bec8": 0.074,
+   "#7ca4b6": 0.048,
+   "#648ea5": 0.028
+  }
+ },
+ "hard-rock-stadium": {
+  "seats": "#c5d0d0",
+  "roof": "#e4e8e9",
+  "field": "#9bb2b3",
+  "shares": {
+   "#e4e8e9": 0.677,
+   "#c5d0d0": 0.148,
+   "#9bb2b3": 0.064,
+   "#435c6c": 0.056,
+   "#6f8e94": 0.055
+  }
+ },
+ "gillette-stadium": {
+  "seats": "#9ca396",
+  "roof": "#bbc0bb",
+  "field": "#738372",
+  "shares": {
+   "#bbc0bb": 0.277,
+   "#9ca396": 0.272,
+   "#dbddda": 0.187,
+   "#738372": 0.158,
+   "#535e56": 0.106
+  }
+ },
+ "vaught-hemingway-stadium": {
+  "seats": "#d0a4a3",
+  "roof": "#e0e1df",
+  "field": "#96a99d",
+  "shares": {
+   "#e0e1df": 0.456,
+   "#96a99d": 0.251,
+   "#bcc3bf": 0.104,
+   "#6c8194": 0.103,
+   "#d0a4a3": 0.086
+  }
+ },
+ "alamodome": {
+  "seats": "#cdccc8",
+  "roof": "#cdccc8",
+  "shares": {
+   "#cdccc8": 0.395,
+   "#dad8d4": 0.313,
+   "#c2c1bf": 0.269,
+   "#a8a3a4": 0.018,
+   "#6d6c79": 0.005
+  }
+ },
+ "northwest-stadium": {
+  "seats": "#948880",
+  "roof": "#948880",
+  "shares": {
+   "#948880": 0.302,
+   "#dce0db": 0.234,
+   "#675f60": 0.178,
+   "#b1b0a9": 0.169,
+   "#2d323e": 0.117
+  }
+ },
+ "faurot-field": {
+  "seats": "#585651",
+  "roof": "#7e9879",
+  "field": "#6a8668",
+  "shares": {
+   "#6a8668": 0.464,
+   "#7e9879": 0.284,
+   "#b3b287": 0.119,
+   "#585651": 0.072,
+   "#bfcebe": 0.061
+  }
+ },
+ "state-farm-stadium": {
+  "seats": "#545c50",
+  "roof": "#545c50",
+  "shares": {
+   "#545c50": 0.41,
+   "#9d9a8f": 0.182,
+   "#767a6e": 0.171,
+   "#d1d6df": 0.143,
+   "#3b4337": 0.094
+  }
+ },
+ "lavell-edwards-stadium": {
+  "seats": "#33535c",
+  "roof": "#597d6b",
+  "field": "#618470",
+  "shares": {
+   "#618470": 0.407,
+   "#597d6b": 0.303,
+   "#33535c": 0.184,
+   "#73927e": 0.08,
+   "#95a793": 0.026
+  }
+ },
+ "jack-trice-stadium": {
+  "seats": "#b8b499",
+  "roof": "#b8b499",
+  "field": "#567458",
+  "shares": {
+   "#b8b499": 0.273,
+   "#567458": 0.254,
+   "#cdd0c6": 0.21,
+   "#90917e": 0.172,
+   "#395148": 0.091
+  }
+ },
+ "scott-stadium": {
+  "seats": "#44638b",
+  "roof": "#d9ddde",
+  "field": "#82a17e",
+  "shares": {
+   "#d9ddde": 0.51,
+   "#82a17e": 0.205,
+   "#b7b9b3": 0.142,
+   "#44638b": 0.092,
+   "#7d8997": 0.052
+  }
+ },
+ "yale-bowl": {
+  "seats": "#9c9a8d",
+  "roof": "#aba7a0",
+  "field": "#7d8774",
+  "shares": {
+   "#aba7a0": 0.377,
+   "#9c9a8d": 0.323,
+   "#c2c1b9": 0.142,
+   "#7d8774": 0.126,
+   "#5d615e": 0.031
+  }
+ },
+ "ross-ade-stadium": {
+  "seats": "#545e6a",
+  "roof": "#9b9993",
+  "shares": {
+   "#9b9993": 0.286,
+   "#6d7575": 0.281,
+   "#b5b4ad": 0.211,
+   "#545e6a": 0.121,
+   "#d8d7cf": 0.102
+  }
+ },
+ "kroger-field": {
+  "seats": "#2c486e",
+  "roof": "#a1afb7",
+  "field": "#738d8f",
+  "shares": {
+   "#a1afb7": 0.335,
+   "#c0c8ca": 0.271,
+   "#738d8f": 0.168,
+   "#2c486e": 0.118,
+   "#536b6b": 0.108
+  }
+ },
+ "landn-federal-credit-union-stadium": {
+  "seats": "#a97370",
+  "roof": "#c5c5bf",
+  "field": "#626c4a",
+  "shares": {
+   "#c5c5bf": 0.333,
+   "#9b9982": 0.248,
+   "#a97370": 0.182,
+   "#626c4a": 0.156,
+   "#272b38": 0.082
+  }
+ },
+ "gies-memorial-stadium": {
+  "seats": "#565b79",
+  "roof": "#d4d7dc",
+  "shares": {
+   "#d4d7dc": 0.323,
+   "#565b79": 0.212,
+   "#7f8381": 0.193,
+   "#414053": 0.189,
+   "#abacb4": 0.082
+  }
+ },
+ "mississippi-veterans-memorial-stadium": {
+  "seats": "#d2d4ce",
+  "roof": "#e4e4e0",
+  "field": "#87a681",
+  "shares": {
+   "#e4e4e0": 0.518,
+   "#87a681": 0.189,
+   "#d2d4ce": 0.18,
+   "#a8b59d": 0.079,
+   "#546f7d": 0.033
+  }
+ },
+ "davis-wade-stadium": {
+  "seats": "#60808e",
+  "roof": "#d5d1c8",
+  "field": "#759c87",
+  "shares": {
+   "#d5d1c8": 0.312,
+   "#759c87": 0.254,
+   "#e6e6da": 0.224,
+   "#b5b4ad": 0.107,
+   "#60808e": 0.103
+  }
+ },
+ "galaxy-stadium": {
+  "seats": "#946c72",
+  "roof": "#c4c7c6",
+  "field": "#435e53",
+  "shares": {
+   "#c4c7c6": 0.385,
+   "#aba39d": 0.207,
+   "#435e53": 0.175,
+   "#946c72": 0.171,
+   "#333742": 0.062
+  }
+ },
+ "camping-world-stadium": {
+  "seats": "#445768",
+  "roof": "#cdd0cb",
+  "field": "#94aa88",
+  "shares": {
+   "#cdd0cb": 0.333,
+   "#a7ada8": 0.271,
+   "#94aa88": 0.172,
+   "#445768": 0.112,
+   "#7c8a8e": 0.111
+  }
+ },
+ "autzen-stadium": {
+  "seats": "#9ca08c",
+  "roof": "#9ca08c",
+  "field": "#536345",
+  "shares": {
+   "#787f69": 0.329,
+   "#9ca08c": 0.315,
+   "#536345": 0.173,
+   "#2b3331": 0.112,
+   "#d3dbd3": 0.071
+  }
+ },
+ "highmark-stadium": {
+  "seats": "#999d8e",
+  "roof": "#adb1a2",
+  "field": "#447146",
+  "shares": {
+   "#adb1a2": 0.536,
+   "#999d8e": 0.235,
+   "#447146": 0.109,
+   "#717b6a": 0.097,
+   "#294439": 0.023
+  }
+ },
+ "milan-puskar-stadium": {
+  "seats": "#436886",
+  "roof": "#c9cecd",
+  "field": "#7e9686",
+  "shares": {
+   "#c9cecd": 0.438,
+   "#7e9686": 0.238,
+   "#a9b3b1": 0.151,
+   "#436886": 0.094,
+   "#29445d": 0.078
+  }
+ },
+ "gateway-motorsports-park": {
+  "seats": "#939589",
+  "roof": "#d1d0d2",
+  "shares": {
+   "#d1d0d2": 0.457,
+   "#c3c0c1": 0.237,
+   "#aaaa9f": 0.153,
+   "#939589": 0.143,
+   "#6d606b": 0.009
+  }
+ },
+ "carter-finley-stadium": {
+  "seats": "#917d7e",
+  "roof": "#c5c3bf",
+  "field": "#627f5f",
+  "shares": {
+   "#c5c3bf": 0.46,
+   "#627f5f": 0.19,
+   "#b3a7a1": 0.162,
+   "#917d7e": 0.105,
+   "#464952": 0.084
+  }
+ },
+ "michigan-international-speedway": {
+  "seats": "#c7cabb",
+  "roof": "#7c8a6b",
+  "field": "#98a47d",
+  "shares": {
+   "#98a47d": 0.257,
+   "#7c8a6b": 0.216,
+   "#606b5a": 0.191,
+   "#c7cabb": 0.181,
+   "#3e4a44": 0.155
+  }
+ },
+ "rice-eccles-stadium": {
+  "seats": "#b7aea9",
+  "roof": "#cfd0cb",
+  "field": "#426654",
+  "shares": {
+   "#cfd0cb": 0.404,
+   "#b7aea9": 0.253,
+   "#426654": 0.147,
+   "#2a3949": 0.117,
+   "#867e7c": 0.079
+  }
+ },
+ "dover-motor-speedway": {
+  "seats": "#525345",
+  "roof": "#86867d",
+  "shares": {
+   "#86867d": 0.351,
+   "#9a9b91": 0.221,
+   "#6e6d61": 0.196,
+   "#525345": 0.134,
+   "#b7b8b0": 0.099
+  }
+ },
+ "mountain-america-stadium": {
+  "seats": "#7b847a",
+  "roof": "#c8cbcc",
+  "field": "#516748",
+  "shares": {
+   "#3b5353": 0.268,
+   "#c8cbcc": 0.222,
+   "#516748": 0.195,
+   "#7b847a": 0.194,
+   "#a6aba9": 0.121
+  }
+ },
+ "memorial-stadium-in": {
+  "seats": "#b0aca9",
+  "roof": "#d2d0cc",
+  "shares": {
+   "#d2d0cc": 0.463,
+   "#6c7371": 0.197,
+   "#898787": 0.159,
+   "#b0aca9": 0.153,
+   "#4f545d": 0.029
+  }
+ },
+ "amon-g-carter-stadium": {
+  "seats": "#d3d2d0",
+  "roof": "#c0c0c0",
+  "field": "#546c58",
+  "shares": {
+   "#c0c0c0": 0.529,
+   "#546c58": 0.229,
+   "#d3d2d0": 0.137,
+   "#a4a5a7": 0.094,
+   "#464653": 0.011
+  }
+ },
+ "franklin-field": {
+  "seats": "#bea79f",
+  "roof": "#dbddd6",
+  "field": "#5c7460",
+  "shares": {
+   "#dbddd6": 0.392,
+   "#bea79f": 0.233,
+   "#5c7460": 0.168,
+   "#7a8d94": 0.147,
+   "#38415c": 0.06
+  }
+ },
+ "shi-stadium": {
+  "seats": "#9b9186",
+  "roof": "#475757",
+  "shares": {
+   "#475757": 0.285,
+   "#697171": 0.225,
+   "#b0b1a3": 0.191,
+   "#c5c4b6": 0.172,
+   "#9b9186": 0.127
+  }
+ },
+ "california-memorial-stadium": {
+  "seats": "#c0bcb5",
+  "roof": "#c0bcb5",
+  "field": "#779189",
+  "shares": {
+   "#c0bcb5": 0.375,
+   "#aeada5": 0.268,
+   "#779189": 0.22,
+   "#cdd0d6": 0.088,
+   "#5e7176": 0.05
+  }
+ },
+ "boone-pickens-stadium": {
+  "seats": "#9b999c",
+  "roof": "#bbb9b9",
+  "field": "#607061",
+  "shares": {
+   "#bbb9b9": 0.63,
+   "#9b999c": 0.12,
+   "#607061": 0.117,
+   "#262a3e": 0.073,
+   "#4b4c56": 0.061
+  }
+ },
+ "bobby-dodd-stadium": {
+  "seats": "#5c757c",
+  "roof": "#dbded9",
+  "field": "#829888",
+  "shares": {
+   "#dbded9": 0.434,
+   "#9dae99": 0.188,
+   "#c5cac3": 0.156,
+   "#5c757c": 0.126,
+   "#829888": 0.096
+  }
+ },
+ "dowdy-ficklen-stadium": {
+  "seats": "#b2b6a7",
+  "roof": "#b2b6a7",
+  "field": "#526351",
+  "shares": {
+   "#b2b6a7": 0.334,
+   "#526351": 0.31,
+   "#2f4448": 0.198,
+   "#cfd7cf": 0.081,
+   "#898f80": 0.078
+  }
+ },
+ "huntington-bank-stadium": {
+  "seats": "#9e9890",
+  "roof": "#dcdfde",
+  "field": "#708676",
+  "shares": {
+   "#dcdfde": 0.31,
+   "#c3c4bf": 0.303,
+   "#9e9890": 0.177,
+   "#708676": 0.151,
+   "#49495a": 0.059
+  }
+ },
+ "casino-del-sol-stadium": {
+  "seats": "#8b8574",
+  "roof": "#b6c0c1",
+  "field": "#505f47",
+  "shares": {
+   "#505f47": 0.279,
+   "#b6c0c1": 0.242,
+   "#2b3b30": 0.178,
+   "#8b8574": 0.174,
+   "#e6e9e8": 0.128
+  }
+ },
+ "kenan-stadium": {
+  "seats": "#2e4558",
+  "roof": "#9da8a5",
+  "field": "#6d8d66",
+  "shares": {
+   "#9da8a5": 0.31,
+   "#c6ccc9": 0.214,
+   "#2e4558": 0.182,
+   "#6d8d66": 0.173,
+   "#65797e": 0.122
+  }
+ },
+ "stanford-stadium": {
+  "seats": "#a8a0a2",
+  "roof": "#cfd1d7",
+  "field": "#758975",
+  "shares": {
+   "#758975": 0.286,
+   "#cfd1d7": 0.279,
+   "#a8a0a2": 0.223,
+   "#b5b4b6": 0.194,
+   "#566063": 0.018
+  }
+ },
+ "folsom-field": {
+  "seats": "#1e4435",
+  "roof": "#224d3b",
+  "field": "#509573",
+  "shares": {
+   "#1e4435": 0.444,
+   "#224d3b": 0.244,
+   "#183d30": 0.244,
+   "#509573": 0.046,
+   "#366a54": 0.022
+  }
+ },
+ "bill-snyder-family-football-stadium": {
+  "seats": "#204453",
+  "roof": "#e3e3e3",
+  "shares": {
+   "#e3e3e3": 0.275,
+   "#c5c5c5": 0.259,
+   "#496870": 0.19,
+   "#204453": 0.142,
+   "#819096": 0.135
+  }
+ },
+ "independence-stadium": {
+  "seats": "#7e8f8f",
+  "roof": "#d9d9d9",
+  "field": "#4f716a",
+  "shares": {
+   "#d9d9d9": 0.309,
+   "#4f716a": 0.252,
+   "#c8c7c6": 0.171,
+   "#afafaf": 0.137,
+   "#7e8f8f": 0.131
+  }
+ },
+ "richmond-raceway": {
+  "seats": "#889594",
+  "roof": "#c3c9c4",
+  "shares": {
+   "#c3c9c4": 0.42,
+   "#aeb6b4": 0.213,
+   "#e3e7e4": 0.207,
+   "#889594": 0.127,
+   "#567082": 0.033
+  }
+ },
+ "kansas-speedway": {
+  "seats": "#afaf98",
+  "roof": "#cbc8b7",
+  "field": "#68845d",
+  "shares": {
+   "#cbc8b7": 0.379,
+   "#c1bda8": 0.248,
+   "#68845d": 0.188,
+   "#afaf98": 0.105,
+   "#879374": 0.08
+  }
+ },
+ "protective-stadium": {
+  "seats": "#b2b5c4",
+  "roof": "#dfe3e0",
+  "field": "#87a3a6",
+  "shares": {
+   "#dfe3e0": 0.378,
+   "#cad1d4": 0.254,
+   "#87a3a6": 0.185,
+   "#b2b5c4": 0.133,
+   "#7792b4": 0.05
+  }
+ },
+ "chicagoland-speedway": {
+  "seats": "#b1ab91",
+  "roof": "#c9cac6",
+  "shares": {
+   "#c9cac6": 0.466,
+   "#b1ab91": 0.199,
+   "#bdbbb1": 0.178,
+   "#9a998e": 0.115,
+   "#75787c": 0.042
+  }
+ },
+ "darlington-raceway": {
+  "seats": "#a39f80",
+  "roof": "#babdb2",
+  "shares": {
+   "#babdb2": 0.258,
+   "#cdd1c7": 0.243,
+   "#9ea49e": 0.18,
+   "#a39f80": 0.164,
+   "#818d8e": 0.155
+  }
+ },
+ "first-community-stadium": {
+  "seats": "#808780",
+  "roof": "#d0d1cc",
+  "field": "#96a28e",
+  "shares": {
+   "#d0d1cc": 0.348,
+   "#bebbb6": 0.271,
+   "#96a28e": 0.175,
+   "#808780": 0.139,
+   "#5c5f66": 0.067
+  }
+ },
+ "coors-field": {
+  "seats": "#7a776b",
+  "roof": "#b8b8ae",
+  "field": "#4b5f49",
+  "shares": {
+   "#4b5f49": 0.26,
+   "#b8b8ae": 0.225,
+   "#7a776b": 0.176,
+   "#35373b": 0.176,
+   "#959489": 0.164
+  }
+ },
+ "yankee-stadium": {
+  "seats": "#4e535c",
+  "roof": "#bebfbd",
+  "field": "#677158",
+  "shares": {
+   "#bebfbd": 0.281,
+   "#677158": 0.228,
+   "#949790": 0.199,
+   "#35363c": 0.146,
+   "#4e535c": 0.145
+  }
+ },
+ "secu-stadium": {
+  "seats": "#a5a9a0",
+  "roof": "#d4d9d2",
+  "field": "#53645d",
+  "shares": {
+   "#d4d9d2": 0.381,
+   "#53645d": 0.193,
+   "#a5a9a0": 0.182,
+   "#76807a": 0.16,
+   "#303841": 0.083
+  }
+ },
+ "sun-bowl": {
+  "seats": "#c4c8cb",
+  "roof": "#c4c8cb",
+  "field": "#3e5449",
+  "shares": {
+   "#c4c8cb": 0.541,
+   "#3e5449": 0.215,
+   "#a9aaab": 0.108,
+   "#454a5a": 0.073,
+   "#727173": 0.062
+  }
+ },
+ "acrisure-bounce-house": {
+  "seats": "#475b64",
+  "roof": "#cacecb",
+  "field": "#82946a",
+  "shares": {
+   "#cacecb": 0.368,
+   "#82946a": 0.22,
+   "#a5b2af": 0.192,
+   "#778483": 0.13,
+   "#475b64": 0.09
+  }
+ },
+ "simmons-bank-liberty-stadium": {
+  "seats": "#828fa5",
+  "roof": "#c8cfd2",
+  "field": "#88a195",
+  "shares": {
+   "#c8cfd2": 0.373,
+   "#a8b1bb": 0.281,
+   "#88a195": 0.191,
+   "#828fa5": 0.123,
+   "#50617a": 0.032
+  }
+ },
+ "mclane-stadium": {
+  "seats": "#3f4d55",
+  "roof": "#adb4b7",
+  "shares": {
+   "#adb4b7": 0.338,
+   "#c9cfd0": 0.268,
+   "#3f4d55": 0.222,
+   "#6e7673": 0.09,
+   "#262c44": 0.082
+  }
+ },
+ "alumni-stadium": {
+  "seats": "#a8aea2",
+  "roof": "#dfe2e4",
+  "field": "#51614d",
+  "shares": {
+   "#dfe2e4": 0.334,
+   "#cccfca": 0.247,
+   "#51614d": 0.192,
+   "#738178": 0.124,
+   "#a8aea2": 0.102
+  }
+ },
+ "martinsville-speedway": {
+  "seats": "#abb4b0",
+  "roof": "#dee0de",
+  "shares": {
+   "#dee0de": 0.464,
+   "#c4cac8": 0.352,
+   "#abb4b0": 0.095,
+   "#7a8f99": 0.05,
+   "#34577e": 0.039
+  }
+ },
+ "new-hampshire-motor-speedway": {
+  "seats": "#959882",
+  "roof": "#c6c7bf",
+  "field": "#6b7960",
+  "shares": {
+   "#c6c7bf": 0.367,
+   "#b1b1a1": 0.247,
+   "#959882": 0.222,
+   "#6b7960": 0.114,
+   "#44533e": 0.05
+  }
+ },
+ "sonoma-raceway": {
+  "seats": "#a5a29d",
+  "roof": "#939490",
+  "shares": {
+   "#939490": 0.434,
+   "#a5a29d": 0.258,
+   "#82837f": 0.256,
+   "#5b6163": 0.038,
+   "#cad1d4": 0.013
+  }
+ },
+ "great-american-ball-park": {
+  "seats": "#51636a",
+  "roof": "#868a89",
+  "field": "#617373",
+  "shares": {
+   "#617373": 0.401,
+   "#868a89": 0.223,
+   "#a4aba9": 0.155,
+   "#51636a": 0.116,
+   "#d7deda": 0.104
+  }
+ },
+ "homestead-miami-speedway": {
+  "seats": "#afb6ae",
+  "roof": "#c2cbc5",
+  "field": "#8f9a85",
+  "shares": {
+   "#c2cbc5": 0.334,
+   "#afb6ae": 0.294,
+   "#8f9a85": 0.222,
+   "#74837c": 0.092,
+   "#516566": 0.058
+  }
+ },
+ "citizens-bank-park": {
+  "seats": "#837b7b",
+  "roof": "#d0d6d1",
+  "field": "#4b5d4f",
+  "shares": {
+   "#d0d6d1": 0.267,
+   "#aeaea8": 0.222,
+   "#4b5d4f": 0.222,
+   "#837b7b": 0.153,
+   "#283045": 0.136
+  }
+ },
+ "jma-wireless-dome": {
+  "seats": "#cdd2d5",
+  "roof": "#dde0e1",
+  "shares": {
+   "#dde0e1": 0.822,
+   "#cdd2d5": 0.119,
+   "#babec1": 0.044,
+   "#4d4a61": 0.008,
+   "#8a8b96": 0.006
+  }
+ },
+ "phoenix-raceway": {
+  "seats": "#848272",
+  "roof": "#848272",
+  "shares": {
+   "#848272": 0.659,
+   "#b7b9b6": 0.136,
+   "#9a9b91": 0.097,
+   "#dadcd9": 0.065,
+   "#5e6357": 0.043
+  }
+ },
+ "american-family-field": {
+  "seats": "#434652",
+  "roof": "#c1c3bc",
+  "field": "#6e7c6e",
+  "shares": {
+   "#c1c3bc": 0.42,
+   "#acaba3": 0.174,
+   "#434652": 0.153,
+   "#6e7c6e": 0.133,
+   "#948d89": 0.12
+  }
+ },
+ "david-booth-kansas-memorial-stadium": {
+  "seats": "#3c596f",
+  "roof": "#cbd0cf",
+  "field": "#647c68",
+  "shares": {
+   "#cbd0cf": 0.339,
+   "#647c68": 0.212,
+   "#a0a7a3": 0.164,
+   "#3c596f": 0.146,
+   "#293f4e": 0.139
+  }
+ },
+ "nationals-park": {
+  "seats": "#384551",
+  "roof": "#5c6867",
+  "shares": {
+   "#5c6867": 0.381,
+   "#a4aaa5": 0.174,
+   "#858987": 0.161,
+   "#d9dbd4": 0.161,
+   "#384551": 0.124
+  }
+ },
+ "oracle-park": {
+  "seats": "#485d6c",
+  "roof": "#82848d",
+  "field": "#607777",
+  "shares": {
+   "#607777": 0.363,
+   "#82848d": 0.274,
+   "#90989f": 0.192,
+   "#a7adb4": 0.089,
+   "#485d6c": 0.083
+  }
+ },
+ "daikin-park": {
+  "seats": "#e4e2d8",
+  "roof": "#e4e2d8",
+  "shares": {
+   "#e4e2d8": 0.614,
+   "#ced1cc": 0.266,
+   "#a7afaf": 0.047,
+   "#4e5064": 0.039,
+   "#737a85": 0.034
+  }
+ },
+ "truist-park": {
+  "seats": "#485c69",
+  "roof": "#dbe1e1",
+  "field": "#84a081",
+  "shares": {
+   "#dbe1e1": 0.324,
+   "#84a081": 0.221,
+   "#b9b6ab": 0.217,
+   "#485c69": 0.148,
+   "#6f8285": 0.089
+  }
+ },
+ "canvas-stadium": {
+  "seats": "#7f8986",
+  "roof": "#d3d2d0",
+  "field": "#526558",
+  "shares": {
+   "#d3d2d0": 0.377,
+   "#526558": 0.196,
+   "#eaeae8": 0.195,
+   "#adb0ab": 0.127,
+   "#7f8986": 0.106
+  }
+ },
+ "kidd-brewer-stadium": {
+  "seats": "#384f65",
+  "roof": "#ced3cb",
+  "field": "#95ae80",
+  "shares": {
+   "#95ae80": 0.341,
+   "#ced3cb": 0.285,
+   "#1c263e": 0.132,
+   "#384f65": 0.127,
+   "#70817d": 0.115
+  }
+ },
+ "pratt-and-whitney-stadium-at-rentschler-field": {
+  "seats": "#959d8b",
+  "roof": "#afada4",
+  "shares": {
+   "#afada4": 0.48,
+   "#d4d1cc": 0.21,
+   "#959d8b": 0.197,
+   "#eff0eb": 0.091,
+   "#626d6a": 0.022
+  }
+ },
+ "petco-park": {
+  "seats": "#8c877d",
+  "roof": "#4d554d",
+  "field": "#2b3e40",
+  "shares": {
+   "#2b3e40": 0.281,
+   "#4d554d": 0.226,
+   "#676a60": 0.218,
+   "#8c877d": 0.187,
+   "#aaaaa4": 0.088
+  }
+ },
+ "tdecu-stadium": {
+  "seats": "#a4aca4",
+  "roof": "#c5c7c1",
+  "field": "#7b8f7b",
+  "shares": {
+   "#c5c7c1": 0.338,
+   "#dbdcd7": 0.278,
+   "#7b8f7b": 0.229,
+   "#a4aca4": 0.097,
+   "#5c656c": 0.057
+  }
+ },
+ "falcon-stadium": {
+  "seats": "#cecdcb",
+  "roof": "#cecdcb",
+  "field": "#456a46",
+  "shares": {
+   "#cecdcb": 0.625,
+   "#29412e": 0.151,
+   "#456a46": 0.13,
+   "#989c99": 0.069,
+   "#354393": 0.025
+  }
+ },
+ "university-stadium": {
+  "seats": "#9a9285",
+  "roof": "#d9dbd8",
+  "field": "#384841",
+  "shares": {
+   "#d9dbd8": 0.343,
+   "#384841": 0.308,
+   "#b9b8ae": 0.161,
+   "#9a9285": 0.109,
+   "#6f655f": 0.079
+  }
+ },
+ "watkins-glen-international": {
+  "seats": "#c6c9ca",
+  "roof": "#adaeaf",
+  "field": "#617d5b",
+  "shares": {
+   "#adaeaf": 0.342,
+   "#617d5b": 0.314,
+   "#849380": 0.191,
+   "#c6c9ca": 0.11,
+   "#2e372e": 0.044
+  }
+ },
+ "pnc-park": {
+  "seats": "#776861",
+  "roof": "#868a89",
+  "field": "#475942",
+  "shares": {
+   "#868a89": 0.292,
+   "#adb1a8": 0.288,
+   "#475942": 0.214,
+   "#776861": 0.148,
+   "#272e39": 0.058
+  }
+ },
+ "nippert-stadium": {
+  "seats": "#445c67",
+  "roof": "#818183",
+  "field": "#587074",
+  "shares": {
+   "#587074": 0.33,
+   "#818183": 0.223,
+   "#8b9a9a": 0.202,
+   "#445c67": 0.159,
+   "#a6b1b0": 0.087
+  }
+ },
+ "kauffman-stadium": {
+  "seats": "#bfc4bc",
+  "roof": "#bfc4bc",
+  "field": "#768370",
+  "shares": {
+   "#768370": 0.371,
+   "#bfc4bc": 0.208,
+   "#e6ece7": 0.174,
+   "#9b9e99": 0.133,
+   "#5b5d62": 0.114
+  }
+ },
+ "joan-c-edwards-stadium": {
+  "seats": "#ced3c8",
+  "roof": "#ced3c8",
+  "field": "#83a88d",
+  "shares": {
+   "#ced3c8": 0.411,
+   "#83a88d": 0.249,
+   "#a5baac": 0.248,
+   "#5e7f81": 0.05,
+   "#3a5c66": 0.042
+  }
+ },
+ "milwaukee-mile": {
+  "seats": "#a7a389",
+  "roof": "#cec9c0",
+  "shares": {
+   "#cec9c0": 0.34,
+   "#a7a389": 0.226,
+   "#c3beb6": 0.206,
+   "#9b9880": 0.122,
+   "#b6b09e": 0.106
+  }
+ },
+ "renasant-stadium": {
+  "seats": "#5b7a86",
+  "roof": "#dddfd9",
+  "field": "#7a9a95",
+  "shares": {
+   "#dddfd9": 0.296,
+   "#cac9bd": 0.267,
+   "#7a9a95": 0.187,
+   "#5b7a86": 0.129,
+   "#a3b2a3": 0.121
+  }
+ },
+ "michie-stadium": {
+  "seats": "#8c9690",
+  "roof": "#c7cbce",
+  "field": "#6c8470",
+  "shares": {
+   "#c7cbce": 0.346,
+   "#b2b7ba": 0.272,
+   "#6c8470": 0.247,
+   "#8c9690": 0.096,
+   "#545662": 0.039
+  }
+ },
+ "reser-stadium": {
+  "seats": "#b0b1a7",
+  "roof": "#d0d5d1",
+  "field": "#5d7262",
+  "shares": {
+   "#5d7262": 0.249,
+   "#d0d5d1": 0.218,
+   "#b0b1a7": 0.215,
+   "#8f918b": 0.201,
+   "#2e333e": 0.117
+  }
+ },
+ "albertsons-stadium": {
+  "seats": "#c4c9c5",
+  "roof": "#c4c9c5",
+  "shares": {
+   "#c4c9c5": 0.429,
+   "#d1d4d3": 0.366,
+   "#aaafae": 0.113,
+   "#394159": 0.065,
+   "#717880": 0.027
+  }
+ },
+ "kelly-shorts-stadium": {
+  "seats": "#bfc0b5",
+  "roof": "#ced1cc",
+  "field": "#97a887",
+  "shares": {
+   "#ced1cc": 0.444,
+   "#97a887": 0.175,
+   "#83927f": 0.16,
+   "#bfc0b5": 0.15,
+   "#6e6f76": 0.071
+  }
+ },
+ "wallace-wade-stadium": {
+  "seats": "#3d4e5b",
+  "roof": "#d1d3d0",
+  "field": "#5c715e",
+  "shares": {
+   "#d1d3d0": 0.31,
+   "#5c715e": 0.237,
+   "#7c8b84": 0.191,
+   "#aaaeab": 0.135,
+   "#3d4e5b": 0.127
+  }
+ },
+ "firstbank-stadium": {
+  "seats": "#374a55",
+  "roof": "#babebb",
+  "field": "#57796c",
+  "shares": {
+   "#babebb": 0.3,
+   "#57796c": 0.283,
+   "#a4acac": 0.208,
+   "#374a55": 0.107,
+   "#7f9491": 0.102
+  }
+ },
+ "ryan-field": {
+  "seats": "#a1a69f",
+  "roof": "#d7dcdf",
+  "field": "#4b5c47",
+  "shares": {
+   "#d7dcdf": 0.419,
+   "#4b5c47": 0.24,
+   "#c3c3c3": 0.159,
+   "#a1a69f": 0.099,
+   "#717e63": 0.083
+  }
+ },
+ "snapdragon-stadium": {
+  "seats": "#36474d",
+  "roof": "#898983",
+  "shares": {
+   "#898983": 0.379,
+   "#999993": 0.245,
+   "#36474d": 0.137,
+   "#adaeaa": 0.13,
+   "#576266": 0.109
+  }
+ },
+ "navy-marine-corps-memorial-stadium": {
+  "seats": "#415050",
+  "roof": "#415050",
+  "shares": {
+   "#415050": 0.543,
+   "#626e6d": 0.153,
+   "#2d393d": 0.152,
+   "#949f9f": 0.114,
+   "#d5dfe1": 0.038
+  }
+ },
+ "progressive-field": {
+  "seats": "#9a9892",
+  "roof": "#505451",
+  "shares": {
+   "#505451": 0.351,
+   "#9a9892": 0.201,
+   "#76726f": 0.188,
+   "#c4c5c0": 0.134,
+   "#28303c": 0.125
+  }
+ },
+ "gerald-j-ford-stadium": {
+  "seats": "#a28d89",
+  "roof": "#ada69e",
+  "field": "#6f806d",
+  "shares": {
+   "#ada69e": 0.272,
+   "#6f806d": 0.268,
+   "#a28d89": 0.242,
+   "#bbbfba": 0.174,
+   "#4c5652": 0.043
+  }
+ },
+ "allegacy-federal-credit-union-stadium": {
+  "seats": "#b2b9a9",
+  "roof": "#d2d3cf",
+  "field": "#90a188",
+  "shares": {
+   "#d2d3cf": 0.466,
+   "#90a188": 0.236,
+   "#b2b9a9": 0.134,
+   "#778479": 0.085,
+   "#47505c": 0.079
+  }
+ },
+ "veterans-memorial-stadium": {
+  "seats": "#515162",
+  "roof": "#e0dfd7",
+  "field": "#5d7464",
+  "shares": {
+   "#e0dfd7": 0.458,
+   "#5d7464": 0.234,
+   "#c4c1b6": 0.116,
+   "#515162": 0.102,
+   "#8c9386": 0.091
+  }
+ },
+ "centennial-bank-stadium": {
+  "seats": "#8d8d73",
+  "roof": "#cfd1ce",
+  "field": "#566d53",
+  "shares": {
+   "#cfd1ce": 0.449,
+   "#566d53": 0.19,
+   "#b5b2a7": 0.141,
+   "#8d8d73": 0.14,
+   "#344a43": 0.079
+  }
+ },
+ "cajun-field": {
+  "seats": "#697772",
+  "roof": "#d5d3c9",
+  "field": "#a3ae87",
+  "shares": {
+   "#d5d3c9": 0.352,
+   "#bbbeb7": 0.242,
+   "#a3ae87": 0.162,
+   "#8d9c7c": 0.16,
+   "#697772": 0.084
+  }
+ },
+ "waldo-stadium": {
+  "seats": "#6e7d83",
+  "roof": "#d4d5d1",
+  "field": "#869890",
+  "shares": {
+   "#d4d5d1": 0.439,
+   "#869890": 0.283,
+   "#a4b1b4": 0.143,
+   "#6e7d83": 0.103,
+   "#4f5e6c": 0.031
+  }
+ },
+ "geodis-park": {
+  "seats": "#30404f",
+  "roof": "#4b636e",
+  "shares": {
+   "#4b636e": 0.273,
+   "#c2c6c3": 0.249,
+   "#30404f": 0.238,
+   "#9caaae": 0.194,
+   "#75858c": 0.046
+  }
+ },
+ "datcu-stadium": {
+  "seats": "#cac9c1",
+  "roof": "#cac9c1",
+  "field": "#748d75",
+  "shares": {
+   "#cac9c1": 0.335,
+   "#b9b8b0": 0.255,
+   "#748d75": 0.231,
+   "#9fa3a0": 0.12,
+   "#626d6e": 0.06
+  }
+ },
+ "flagler-credit-union-stadium": {
+  "seats": "#d7dcd4",
+  "roof": "#b5bfbc",
+  "field": "#84946d",
+  "shares": {
+   "#84946d": 0.363,
+   "#b5bfbc": 0.282,
+   "#d7dcd4": 0.201,
+   "#646f62": 0.079,
+   "#3b454d": 0.075
+  }
+ },
+ "infocision-stadium-summa-field": {
+  "seats": "#38444f",
+  "roof": "#5b635f",
+  "shares": {
+   "#5b635f": 0.253,
+   "#afa9a1": 0.228,
+   "#8d8883": 0.215,
+   "#38444f": 0.2,
+   "#cfcdc7": 0.103
+  }
+ },
+ "iowa-speedway": {
+  "seats": "#b1afa2",
+  "roof": "#bcbaae",
+  "field": "#748368",
+  "shares": {
+   "#bcbaae": 0.489,
+   "#b1afa2": 0.173,
+   "#c7c4b9": 0.149,
+   "#93997d": 0.11,
+   "#748368": 0.079
+  }
+ },
+ "mackay-stadium": {
+  "seats": "#6a7477",
+  "roof": "#c1c4c3",
+  "shares": {
+   "#c1c4c3": 0.32,
+   "#9ba0a2": 0.245,
+   "#dce2e2": 0.218,
+   "#6a7477": 0.141,
+   "#454f5c": 0.076
+  }
+ },
+ "portland-international-raceway": {
+  "seats": "#82826a",
+  "roof": "#9b9680",
+  "shares": {
+   "#9b9680": 0.387,
+   "#82826a": 0.215,
+   "#5c6455": 0.147,
+   "#3b433e": 0.14,
+   "#b4b0a1": 0.11
+  }
+ },
+ "skelly-field-at-h-a-chapman-stadium": {
+  "seats": "#a0a393",
+  "roof": "#a0a393",
+  "field": "#4c6251",
+  "shares": {
+   "#a0a393": 0.243,
+   "#4c6251": 0.23,
+   "#727d68": 0.223,
+   "#2e3b3d": 0.16,
+   "#c0c4b5": 0.145
+  }
+ },
+ "valley-children-s-stadium": {
+  "seats": "#87756d",
+  "roof": "#b1b0a9",
+  "field": "#6b7956",
+  "shares": {
+   "#b1b0a9": 0.499,
+   "#6b7956": 0.198,
+   "#9c9588": 0.166,
+   "#87756d": 0.102,
+   "#363a39": 0.036
+  }
+ },
+ "william-dick-price-stadium": {
+  "seats": "#4b6f7f",
+  "roof": "#ccdbdb",
+  "field": "#4fc6ba",
+  "shares": {
+   "#ccdbdb": 0.392,
+   "#4fc6ba": 0.234,
+   "#afc7c7": 0.186,
+   "#4b6f7f": 0.12,
+   "#85989b": 0.068
+  }
+ },
+ "war-memorial-stadium": {
+  "seats": "#969c8d",
+  "roof": "#ebefec",
+  "field": "#677a68",
+  "shares": {
+   "#ebefec": 0.261,
+   "#ced0c7": 0.241,
+   "#677a68": 0.217,
+   "#3b4245": 0.165,
+   "#969c8d": 0.115
+  }
+ },
+ "aggie-memorial-stadium": {
+  "seats": "#534252",
+  "roof": "#515c59",
+  "shares": {
+   "#515c59": 0.397,
+   "#495452": 0.36,
+   "#534252": 0.13,
+   "#6c6c75": 0.069,
+   "#8b8892": 0.043
+  }
+ },
+ "joe-aillet-stadium": {
+  "seats": "#cecec2",
+  "roof": "#cecec2",
+  "field": "#a2ad89",
+  "shares": {
+   "#cecec2": 0.282,
+   "#a2ad89": 0.257,
+   "#e3e5de": 0.242,
+   "#788d81": 0.126,
+   "#506561": 0.093
+  }
+ },
+ "ufcu-stadium": {
+  "seats": "#6a7471",
+  "roof": "#d2d2d2",
+  "field": "#72867a",
+  "shares": {
+   "#d2d2d2": 0.441,
+   "#72867a": 0.233,
+   "#6a7471": 0.137,
+   "#909590": 0.098,
+   "#bab8b8": 0.092
+  }
+ },
+ "huskie-stadium": {
+  "seats": "#818176",
+  "roof": "#d0d4d5",
+  "field": "#87a384",
+  "shares": {
+   "#d0d4d5": 0.374,
+   "#87a384": 0.216,
+   "#4d4e58": 0.146,
+   "#b1b3ab": 0.134,
+   "#818176": 0.13
+  }
+ },
+ "powers-field-at-princeton-stadium": {
+  "seats": "#727e78",
+  "roof": "#bec0b7",
+  "shares": {
+   "#bec0b7": 0.417,
+   "#727e78": 0.311,
+   "#a1a59c": 0.136,
+   "#525e60": 0.079,
+   "#d8dbd6": 0.057
+  }
+ },
+ "fmol-health-st-francis-stadium": {
+  "seats": "#b4afa7",
+  "roof": "#b4afa7",
+  "field": "#909f7f",
+  "shares": {
+   "#909f7f": 0.396,
+   "#b4afa7": 0.258,
+   "#c9c5bc": 0.174,
+   "#e1dedd": 0.116,
+   "#667b69": 0.055
+  }
+ },
+ "johnny-red-floyd-stadium": {
+  "seats": "#678ba3",
+  "roof": "#cacccc",
+  "field": "#709981",
+  "shares": {
+   "#cacccc": 0.346,
+   "#709981": 0.254,
+   "#a8b4b9": 0.196,
+   "#678ba3": 0.104,
+   "#3f566c": 0.1
+  }
+ },
+ "nu-stadium": {
+  "seats": "#313f3e",
+  "roof": "#a6af8d",
+  "field": "#8da26e",
+  "shares": {
+   "#8da26e": 0.555,
+   "#a6af8d": 0.202,
+   "#313f3e": 0.153,
+   "#63795a": 0.052,
+   "#14293b": 0.039
+  }
+ },
+ "asu-stadium": {
+  "seats": "#b4bbab",
+  "roof": "#eceee5",
+  "field": "#8ca496",
+  "shares": {
+   "#eceee5": 0.441,
+   "#8ca496": 0.2,
+   "#b4bbab": 0.165,
+   "#d9dbcf": 0.137,
+   "#697f8a": 0.058
+  }
+ },
+ "rynearson-stadium": {
+  "seats": "#c9c1bb",
+  "roof": "#c9c1bb",
+  "field": "#839892",
+  "shares": {
+   "#c9c1bb": 0.308,
+   "#c9d0cc": 0.228,
+   "#9eacad": 0.224,
+   "#839892": 0.191,
+   "#586a76": 0.05
+  }
+ },
+ "glass-bowl": {
+  "seats": "#b5ab9c",
+  "roof": "#545b56",
+  "shares": {
+   "#545b56": 0.318,
+   "#b5ab9c": 0.207,
+   "#918c82": 0.184,
+   "#72726c": 0.175,
+   "#383f43": 0.116
+  }
+ },
+ "dignity-health-sports-park": {
+  "seats": "#747b6e",
+  "roof": "#c1c4c3",
+  "field": "#495a4a",
+  "shares": {
+   "#495a4a": 0.263,
+   "#c1c4c3": 0.221,
+   "#a3a59f": 0.21,
+   "#2d4143": 0.198,
+   "#747b6e": 0.108
+  }
+ },
+ "tql-stadium": {
+  "seats": "#415c66",
+  "roof": "#daddd8",
+  "field": "#566c70",
+  "shares": {
+   "#daddd8": 0.311,
+   "#566c70": 0.236,
+   "#828f8e": 0.196,
+   "#415c66": 0.165,
+   "#aeb7b3": 0.092
+  }
+ },
+ "maverik-stadium": {
+  "seats": "#868c87",
+  "roof": "#d1d4d0",
+  "field": "#5c6a5e",
+  "shares": {
+   "#d1d4d0": 0.32,
+   "#3f4649": 0.213,
+   "#5c6a5e": 0.212,
+   "#afb5af": 0.144,
+   "#868c87": 0.111
+  }
+ },
+ "a-w-mumford-stadium": {
+  "seats": "#aabdc4",
+  "roof": "#aabdc4",
+  "field": "#8b9973",
+  "shares": {
+   "#aabdc4": 0.317,
+   "#d6d6d6": 0.306,
+   "#8b9973": 0.299,
+   "#5f6b5c": 0.043,
+   "#d6cb82": 0.034
+  }
+ },
+ "bragg-memorial-stadium": {
+  "seats": "#a3aaa8",
+  "roof": "#babfbe",
+  "field": "#7c8d75",
+  "shares": {
+   "#7c8d75": 0.396,
+   "#babfbe": 0.324,
+   "#a3aaa8": 0.178,
+   "#756c64": 0.063,
+   "#3d4852": 0.039
+  }
+ },
+ "hancock-whitney-stadium": {
+  "seats": "#eff0eb",
+  "roof": "#eff0eb",
+  "field": "#99ab91",
+  "shares": {
+   "#eff0eb": 0.527,
+   "#99ab91": 0.288,
+   "#938b95": 0.07,
+   "#cdd2ca": 0.063,
+   "#526880": 0.052
+  }
+ },
+ "dix-stadium": {
+  "seats": "#3f4a54",
+  "roof": "#636c68",
+  "shares": {
+   "#636c68": 0.272,
+   "#cec6be": 0.263,
+   "#aca7a0": 0.234,
+   "#84888b": 0.15,
+   "#3f4a54": 0.08
+  }
+ },
+ "washington-grizzly-stadium": {
+  "seats": "#675d6a",
+  "roof": "#ced1d0",
+  "field": "#63957e",
+  "shares": {
+   "#ced1d0": 0.407,
+   "#63957e": 0.201,
+   "#acb3b5": 0.171,
+   "#29324c": 0.14,
+   "#675d6a": 0.082
+  }
+ },
+ "tropicana-field": {
+  "seats": "#c6d0d2",
+  "roof": "#e2e5e4",
+  "shares": {
+   "#e2e5e4": 0.572,
+   "#c6d0d2": 0.237,
+   "#9aa5a5": 0.066,
+   "#5d7e8d": 0.064,
+   "#324960": 0.062
+  }
+ },
+ "broadview-stadium": {
+  "seats": "#a67c6c",
+  "roof": "#c6cec6",
+  "field": "#5b8064",
+  "shares": {
+   "#c6cec6": 0.344,
+   "#5b8064": 0.273,
+   "#a67c6c": 0.158,
+   "#9ba99e": 0.127,
+   "#354a55": 0.098
+  }
+ },
+ "allen-e-paulson-stadium": {
+  "seats": "#546d81",
+  "roof": "#d9dcd7",
+  "field": "#7b988a",
+  "shares": {
+   "#d9dcd7": 0.295,
+   "#7b988a": 0.232,
+   "#cacdc6": 0.206,
+   "#acb39f": 0.176,
+   "#546d81": 0.091
+  }
+ },
+ "harvard-stadium": {
+  "seats": "#9ea398",
+  "roof": "#9ea398",
+  "field": "#86917c",
+  "shares": {
+   "#86917c": 0.434,
+   "#9ea398": 0.334,
+   "#c2caca": 0.087,
+   "#394643": 0.082,
+   "#5c6662": 0.063
+  }
+ },
+ "inter-co-stadium": {
+  "seats": "#41566c",
+  "roof": "#bbc4c4",
+  "field": "#7a937b",
+  "shares": {
+   "#bbc4c4": 0.32,
+   "#7a937b": 0.261,
+   "#e1e3e3": 0.198,
+   "#41566c": 0.14,
+   "#98a6a7": 0.081
+  }
+ },
+ "nashville-superspeedway": {
+  "seats": "#92998c",
+  "roof": "#a8adaa",
+  "shares": {
+   "#a8adaa": 0.45,
+   "#92998c": 0.284,
+   "#c3c7c4": 0.171,
+   "#5a686e": 0.062,
+   "#374453": 0.033
+  }
+ },
+ "sports-illustrated-stadium": {
+  "seats": "#bec4ba",
+  "roof": "#bec4ba",
+  "field": "#485650",
+  "shares": {
+   "#bec4ba": 0.428,
+   "#485650": 0.23,
+   "#d2d7d0": 0.174,
+   "#384545": 0.122,
+   "#90978d": 0.045
+  }
+ },
+ "williams-stadium": {
+  "seats": "#c0beb4",
+  "roof": "#dad9d3",
+  "field": "#93a094",
+  "shares": {
+   "#93a094": 0.38,
+   "#dad9d3": 0.343,
+   "#c0beb4": 0.183,
+   "#637e8d": 0.062,
+   "#284664": 0.031
+  }
+ },
+ "bridgeforth-stadium": {
+  "seats": "#5377a0",
+  "roof": "#d3d6d7",
+  "field": "#829d8c",
+  "shares": {
+   "#d3d6d7": 0.323,
+   "#5377a0": 0.226,
+   "#829d8c": 0.177,
+   "#a5b5ad": 0.143,
+   "#384f6e": 0.131
+  }
+ },
+ "providence-park": {
+  "seats": "#d2d4d1",
+  "roof": "#d2d4d1",
+  "field": "#6e7d65",
+  "shares": {
+   "#d2d4d1": 0.434,
+   "#6e7d65": 0.248,
+   "#e4e6e3": 0.179,
+   "#a2a69d": 0.076,
+   "#3c424c": 0.062
+  }
+ },
+ "center-parc-stadium": {
+  "seats": "#b3baac",
+  "roof": "#536069",
+  "field": "#91a492",
+  "shares": {
+   "#91a492": 0.278,
+   "#536069": 0.275,
+   "#b3baac": 0.188,
+   "#d0d4cb": 0.14,
+   "#798681": 0.119
+  }
+ },
+ "yager-stadium": {
+  "seats": "#4f686d",
+  "roof": "#a6b0ae",
+  "field": "#64797c",
+  "shares": {
+   "#a6b0ae": 0.24,
+   "#4f686d": 0.224,
+   "#bac4c2": 0.193,
+   "#64797c": 0.189,
+   "#899493": 0.154
+  }
+ },
+ "doyt-perry-stadium": {
+  "seats": "#c0b9ab",
+  "roof": "#727067",
+  "shares": {
+   "#727067": 0.297,
+   "#5e5f5b": 0.25,
+   "#969088": 0.187,
+   "#c0b9ab": 0.155,
+   "#464a4e": 0.11
+  }
+ },
+ "memorial-stadium-tx": {
+  "seats": "#918f7b",
+  "roof": "#c5c3b1",
+  "field": "#6e7b6b",
+  "shares": {
+   "#c5c3b1": 0.267,
+   "#918f7b": 0.25,
+   "#b1aa97": 0.221,
+   "#6e7b6b": 0.198,
+   "#50595c": 0.064
+  }
+ },
+ "peden-stadium": {
+  "seats": "#a5b2af",
+  "roof": "#a5b2af",
+  "shares": {
+   "#a5b2af": 0.3,
+   "#e3e6e5": 0.27,
+   "#8c9b9b": 0.192,
+   "#c9cfd0": 0.175,
+   "#73818b": 0.062
+  }
+ },
+ "fitton-field": {
+  "seats": "#b7baaf",
+  "roof": "#b7baaf",
+  "field": "#66795f",
+  "shares": {
+   "#b7baaf": 0.269,
+   "#d1d4d0": 0.245,
+   "#66795f": 0.203,
+   "#8a997b": 0.195,
+   "#344239": 0.088
+  }
+ },
+ "amfirst-stadium": {
+  "seats": "#6081a1",
+  "roof": "#eaebe9",
+  "field": "#9fb5a8",
+  "shares": {
+   "#eaebe9": 0.407,
+   "#9fb5a8": 0.293,
+   "#c7cbc6": 0.132,
+   "#6081a1": 0.116,
+   "#445c79": 0.052
+  }
+ },
+ "casem-spinks-stadium": {
+  "seats": "#b6b292",
+  "roof": "#b6b292",
+  "field": "#526b64",
+  "shares": {
+   "#919b73": 0.372,
+   "#b6b292": 0.23,
+   "#cbcabc": 0.228,
+   "#68837d": 0.113,
+   "#526b64": 0.056
+  }
+ },
+ "scheumann-stadium": {
+  "seats": "#886b73",
+  "roof": "#6a7677",
+  "shares": {
+   "#6a7677": 0.427,
+   "#616d6f": 0.364,
+   "#886b73": 0.105,
+   "#8a898b": 0.064,
+   "#afa8aa": 0.039
+  }
+ },
+ "energizer-park": {
+  "seats": "#44465a",
+  "roof": "#e6e7e9",
+  "field": "#68806c",
+  "shares": {
+   "#e6e7e9": 0.427,
+   "#c9c9cf": 0.186,
+   "#68806c": 0.167,
+   "#44465a": 0.151,
+   "#7c7f9a": 0.069
+  }
+ },
+ "houchens-industries-l-t-smith-stadium": {
+  "seats": "#808675",
+  "roof": "#c4c3c1",
+  "shares": {
+   "#c4c3c1": 0.309,
+   "#808675": 0.308,
+   "#a1a09e": 0.23,
+   "#33374b": 0.077,
+   "#545b5d": 0.076
+  }
+ },
+ "kfc-yum-center": {
+  "seats": "#cacccc",
+  "roof": "#cacccc",
+  "shares": {
+   "#cacccc": 0.794,
+   "#dfe1e1": 0.08,
+   "#1f2a40": 0.063,
+   "#b1b0ae": 0.042,
+   "#515f6f": 0.02
+  }
+ },
+ "shell-energy-stadium": {
+  "seats": "#484b5a",
+  "roof": "#c3c6c5",
+  "field": "#7b9876",
+  "shares": {
+   "#c3c6c5": 0.456,
+   "#7b9876": 0.247,
+   "#e7ece9": 0.172,
+   "#484b5a": 0.083,
+   "#a4a7a6": 0.041
+  }
+ },
+ "q2-stadium": {
+  "seats": "#6d797a",
+  "roof": "#dcddd8",
+  "field": "#899b87",
+  "shares": {
+   "#dcddd8": 0.443,
+   "#eeefea": 0.191,
+   "#6d797a": 0.159,
+   "#899b87": 0.152,
+   "#b7b9b6": 0.055
+  }
+ },
+ "rupp-arena": {
+  "seats": "#bfc3c0",
+  "roof": "#d7d8d6",
+  "shares": {
+   "#d7d8d6": 0.489,
+   "#dbe0dc": 0.364,
+   "#bfc3c0": 0.093,
+   "#929fa2": 0.038,
+   "#5d747e": 0.015
+  }
+ }
+}

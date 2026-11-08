@@ -71,3 +71,8 @@ Next step for each: the fallback path (NAIP-measured 3D model, as for the pilot'
 | gaylord-family-oklahoma-memorial-stadium | batch 1: the reference is a distant low view of the press box and facade, so outputs show a facade with no bowl; needs the fallback model |
 | pnc-park | batch 1: the reference is a street-level dusk view of the facade; outputs are facade fragments; needs the fallback model |
 | progressive-field | batch 1: the reference is a low view across an arena roof; outputs are fragments; needs the fallback model |
+| husky-stadium | batch 1: the only usable aerial is from March 2009, before the 2011-13 rebuild (track removed, south stands replaced). The art shows the old stadium. Kept as provisional; needs the fallback model built to the current footprint (NAIP) |
+| notre-dame-stadium | batch 1: the only usable aerial is from 2005, before Campus Crossroads (2017) added three buildings around the bowl. The art lacks them. Kept as provisional; needs the fallback model or a newer photo |
+| ford-field | batch 1: the only aerial shows the roof from far away; the output was a plain slab with no identifiable venue (blind ID failed). Goes to the generic fallback model |
+| united-center | batch 1: the only aerial is hazy and distant; the output was blurred and blind ID failed. Goes to the generic fallback model |
+| talladega-superspeedway | batch 1: the reference shows the whole circuit, so the output read as a flat photo of a track (blind ID said Daytona). Goes to the generic fallback model |

@@ -29,6 +29,8 @@ const INFO = { 'daytona-international-speedway': { front_bearing: 235 } }
 // Material colors sampled from the verified reference photos (scripts/stadiums/refs/colors.json).
 const NAIP = JSON.parse(fs.readFileSync('research/raw/stadiums/naip-manifest.json', 'utf8'))
 const naipBbox = (slug) => { const u = NAIP[slug]?.url; const m = u && u.match(/bbox=([-0-9.]+),([-0-9.]+),([-0-9.]+),([-0-9.]+)/); return m ? m.slice(1, 5).map(Number) : null }
+// Seat, roof and field colors sampled from each venue's NAIP aerial (generic fallback models).
+const NAIP_COLORS = fs.existsSync('scripts/stadiums/overhaul/naip-colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/overhaul/naip-colors.json', 'utf8')) : {}
 const SAMPLED = fs.existsSync('scripts/stadiums/refs/colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/refs/colors.json', 'utf8')) : {}
 
 const STYLE = {
@@ -126,7 +128,7 @@ for (const slug of slugs) {
   const v = data.venues.find((x) => x.slug === slug)
   const w = wikiByUrl[v.sources.wikipedia]
   const osm = JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8'))
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity } }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])

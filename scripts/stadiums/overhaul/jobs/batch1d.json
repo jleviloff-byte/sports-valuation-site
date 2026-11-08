@@ -1,0 +1,121 @@
+[
+ {
+  "slug": "lincoln-financial-field",
+  "kind": "football stadium",
+  "ref": "refs/lincoln-financial-field/7.jpg",
+  "mask": "masks/lincoln-financial-field.png",
+  "desc_short": "Lincoln Financial Field: football stadium with midnight green seats, three-tier sidelines under steel canopy roofs, open corners, glass and steel facade",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "chase-center",
+  "kind": "arena",
+  "ref": "refs/chase-center/1.jpg",
+  "mask": "masks/chase-center.png",
+  "desc_short": "Chase Center: round arena with a smooth white curved roof, white and silver horizontal panel bands, glass base, plaza with terraces",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "target-field",
+  "kind": "baseball park",
+  "ref": "refs/target-field/30.jpg",
+  "mask": "masks/target-field.png",
+  "desc_short": "Target Field: tan limestone ballpark with dark green seats, a white canopy over the upper deck, large left field scoreboard, tight downtown site",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "providence-park",
+  "kind": "soccer stadium",
+  "ref": "refs/providence-park/1.jpg",
+  "mask": "masks/providence-park-hull.png",
+  "desc_short": "Providence Park: compact rectangular soccer stadium with green seats, steel canopy roofs, a tall modern east stand, historic brick west facade, green pitch",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "neyland-stadium",
+  "kind": "college football stadium",
+  "ref": "refs/neyland-stadium/1.jpg",
+  "mask": "masks/neyland-stadium-hull.png",
+  "desc_short": "Neyland Stadium: huge closed college football bowl with orange and white seats, orange and white checkerboard end zones, tall sideline decks, gray concrete exterior",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "rose-bowl",
+  "kind": "college football stadium",
+  "ref": "refs/rose-bowl/9.jpg",
+  "mask": "masks/rose-bowl-hull.png",
+  "desc_short": "Rose Bowl: low elliptical bowl with a continuous rim and light red seats, press box on one side, set among trees, green grass field",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ },
+ {
+  "slug": "oriole-park-at-camden-yards",
+  "kind": "baseball park",
+  "ref": "refs/oriole-park-at-camden-yards/1.jpg",
+  "mask": "masks/oriole-park-at-camden-yards-hull.png",
+  "desc_short": "Oriole Park at Camden Yards: brick ballpark with a long eight-story red brick warehouse behind right field, dark green seats, steel truss roof, grass field",
+  "seeds": [
+   101,
+   202,
+   303
+  ],
+  "cn_scale": [
+   0.95,
+   0.75
+  ],
+  "ip_scale": 0.45
+ }
+]
