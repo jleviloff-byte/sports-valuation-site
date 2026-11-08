@@ -4,6 +4,7 @@
 # marked by eye in QA). EasyOCR's detector, at lower thresholds than the
 # generator's, adds any lettering the eye missed. Marked and detected boxes are
 # inpainted as plain surface with SDXL; the original alpha and shadow are kept.
+# A job may carry its own 'prompt' (e.g. grass for a field patch).
 # Output: /kaggle/working/out/<slug>.png plus run.json (boxes per image).
 import json, os, subprocess, sys, time, glob
 subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1', 'transformers==4.56.2', 'accelerate', 'easyocr'], check=True)
@@ -43,7 +44,7 @@ for job in JOBS:
     m = cv2.GaussianBlur(m, (0, 0), 3)
     res = rgb
     if m.any():
-        out = pipe(prompt=P, negative_prompt=NEG, image=Image.fromarray(rgb), mask_image=Image.fromarray(m), strength=0.85, num_inference_steps=30,
+        out = pipe(prompt=job.get('prompt', P), negative_prompt=NEG, image=Image.fromarray(rgb), mask_image=Image.fromarray(m), strength=0.85, num_inference_steps=30,
                    guidance_scale=6.5, width=W, height=H, generator=torch.Generator('cuda').manual_seed(7)).images[0]
         k = m.astype(np.float32)[..., None] / 255
         res = (np.array(out).astype(np.float32) * k + rgb.astype(np.float32) * (1 - k)).astype(np.uint8)

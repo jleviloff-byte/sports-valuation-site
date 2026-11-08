@@ -1,0 +1,34 @@
+[
+ {
+  "slug": "daytona-international-speedway",
+  "boxes": []
+ },
+ {
+  "slug": "madison-square-garden",
+  "boxes": []
+ },
+ {
+  "slug": "q2-stadium",
+  "boxes": []
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "boxes": []
+ },
+ {
+  "slug": "rupp-arena",
+  "boxes": []
+ },
+ {
+  "slug": "lambeau-field",
+  "boxes": [
+   [
+    0.44,
+    0.38,
+    0.55,
+    0.44
+   ]
+  ],
+  "prompt": "museum-quality architectural scale model, plain green grass football field end zone, painted yard lines, soft daylight, no lettering"
+ }
+]
