@@ -1,0 +1,44 @@
+[
+ {
+  "slug": "daytona-international-speedway",
+  "kind": "racetrack",
+  "ref": "controls/daytona-international-speedway/color.png",
+  "desc_short": "Daytona International Speedway: wide tri-oval of steeply banked gray asphalt around a large flat green grass infield with a blue lake, one long multi-level grandstand with glass suites along the front stretch, no cars, no crowd",
+  "seeds": [
+   11,
+   55
+  ],
+  "control": {
+   "depth": "controls/daytona-international-speedway/depth.png",
+   "edges": "controls/daytona-international-speedway/edges.png"
+  },
+  "ip_scale": 0.4,
+  "cn_scale": [
+   0.75,
+   0.85
+  ],
+  "init": "controls/daytona-international-speedway/color.png",
+  "strength": 0.55
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "kind": "racetrack",
+  "ref": "controls/daytona-international-speedway/color.png",
+  "desc_short": "Daytona International Speedway: wide tri-oval of steeply banked gray asphalt around a large flat green grass infield with a blue lake, one long multi-level grandstand with glass suites along the front stretch, no cars, no crowd",
+  "seeds": [
+   12,
+   56
+  ],
+  "control": {
+   "depth": "controls/daytona-international-speedway/depth.png",
+   "edges": "controls/daytona-international-speedway/edges.png"
+  },
+  "ip_scale": 0.4,
+  "cn_scale": [
+   0.75,
+   0.85
+  ],
+  "init": "controls/daytona-international-speedway/color.png",
+  "strength": 0.7
+ }
+]

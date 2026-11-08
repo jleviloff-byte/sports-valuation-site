@@ -8,7 +8,7 @@ subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'diffusers==0.35.1
 
 import numpy as np, torch, cv2
 from PIL import Image, ImageFilter, ImageDraw
-from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, StableDiffusionXLInpaintPipeline, AutoencoderKL
+from diffusers import ControlNetUnionModel, StableDiffusionXLControlNetUnionPipeline, StableDiffusionXLControlNetUnionImg2ImgPipeline, StableDiffusionXLInpaintPipeline, AutoencoderKL
 from transformers import pipeline as hf_pipeline, AutoModelForImageSegmentation
 from torchvision import transforms
 
@@ -77,6 +77,11 @@ pipe.load_ip_adapter('h94/IP-Adapter', subfolder='sdxl_models', weight_name='ip-
 pipe.enable_vae_tiling()
 # Text cleanup (brief: no readable text or logos): EasyOCR's CRAFT detector finds
 # lettering, including gibberish, and SDXL inpaints those boxes as blank surface.
+# Image-to-image from the flat-color render (job 'init'), for venues whose layout
+# colors txt2img keeps swapping (Daytona: gray infield, green track). Shares modules.
+img2img = StableDiffusionXLControlNetUnionImg2ImgPipeline(
+    vae=pipe.vae, text_encoder=pipe.text_encoder, text_encoder_2=pipe.text_encoder_2, tokenizer=pipe.tokenizer, tokenizer_2=pipe.tokenizer_2,
+    unet=pipe.unet, controlnet=pipe.controlnet, scheduler=pipe.scheduler, image_encoder=pipe.image_encoder, feature_extractor=pipe.feature_extractor)
 inpaint = StableDiffusionXLInpaintPipeline(  # shares the loaded modules (from_pipe copied them and ran out of T4 memory)
     vae=pipe.vae, text_encoder=pipe.text_encoder, text_encoder_2=pipe.text_encoder_2, tokenizer=pipe.tokenizer, tokenizer_2=pipe.tokenizer_2,
     unet=pipe.unet, scheduler=pipe.scheduler, image_encoder=pipe.image_encoder, feature_extractor=pipe.feature_extractor)
@@ -184,7 +189,11 @@ for job in JOBS:
         for seed in job['seeds']:
             g = torch.Generator(dev).manual_seed(seed)
             pipe.set_ip_adapter_scale(job.get('ip_scale', 0.3))
-            img = pipe(prompt=prompt, prompt_2=prompt_2, negative_prompt=NEG, negative_prompt_2=NEG2, control_image=[depth_img, edge_img], control_mode=[1, 3],
+            kw = {}
+            if job.get('init'):
+                kw = dict(image=fit(Image.open(os.path.join(IN, job['init'])).convert('RGB')), strength=job.get('strength', 0.65))
+            run = img2img if kw else pipe
+            img = run(prompt=prompt, prompt_2=prompt_2, negative_prompt=NEG, negative_prompt_2=NEG2, control_image=[depth_img, edge_img], control_mode=[1, 3], **kw,
                        controlnet_conditioning_scale=job.get('cn_scale', [0.85, 0.6]), ip_adapter_image=ip_img,
                        num_inference_steps=job.get('steps', 32), guidance_scale=job.get('cfg', 6.0), width=W, height=H,
                        generator=g, control_guidance_end=job.get('cn_end', 0.85)).images[0]
