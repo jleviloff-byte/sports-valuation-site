@@ -1,0 +1,487 @@
+[
+ {
+  "slug": "metlife-stadium",
+  "name": "MetLife Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "lambeau-field",
+  "name": "Lambeau Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "atandt-stadium",
+  "name": "AT&T Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "arrowhead-stadium",
+  "name": "Arrowhead Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "empower-field-at-mile-high",
+  "name": "Empower Field at Mile High",
+  "group": "NFL"
+ },
+ {
+  "slug": "bank-of-america-stadium",
+  "name": "Bank of America Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "caesars-superdome",
+  "name": "Caesars Superdome",
+  "group": "NFL"
+ },
+ {
+  "slug": "reliant-stadium",
+  "name": "Reliant Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "mercedes-benz-stadium",
+  "name": "Mercedes-Benz Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "mandt-bank-stadium",
+  "name": "M&T Bank Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "sofi-stadium",
+  "name": "SoFi Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "name": "Raymond James Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "nissan-stadium",
+  "name": "Nissan Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "levi-s-stadium",
+  "name": "Levi's Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "acrisure-stadium",
+  "name": "Acrisure Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "lumen-field",
+  "name": "Lumen Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "everbank-stadium",
+  "name": "EverBank Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "name": "Lincoln Financial Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "huntington-bank-field",
+  "name": "Huntington Bank Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "lucas-oil-stadium",
+  "name": "Lucas Oil Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "soldier-field",
+  "name": "Soldier Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "u-s-bank-stadium",
+  "name": "U.S. Bank Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "paycor-stadium",
+  "name": "Paycor Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "allegiant-stadium",
+  "name": "Allegiant Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "ford-field",
+  "name": "Ford Field",
+  "group": "NFL"
+ },
+ {
+  "slug": "hard-rock-stadium",
+  "name": "Hard Rock Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "gillette-stadium",
+  "name": "Gillette Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "northwest-stadium",
+  "name": "Northwest Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "state-farm-stadium",
+  "name": "State Farm Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "highmark-stadium",
+  "name": "Highmark Stadium",
+  "group": "NFL"
+ },
+ {
+  "slug": "dodger-stadium",
+  "name": "Dodger Stadium",
+  "group": "MLB"
+ },
+ {
+  "slug": "chase-field",
+  "name": "Chase Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "t-mobile-park",
+  "name": "T-Mobile Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "coors-field",
+  "name": "Coors Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "yankee-stadium",
+  "name": "Yankee Stadium",
+  "group": "MLB"
+ },
+ {
+  "slug": "angel-stadium",
+  "name": "Angel Stadium",
+  "group": "MLB"
+ },
+ {
+  "slug": "busch-stadium",
+  "name": "Busch Stadium",
+  "group": "MLB"
+ },
+ {
+  "slug": "great-american-ball-park",
+  "name": "Great American Ball Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "citizens-bank-park",
+  "name": "Citizens Bank Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "oriole-park-at-camden-yards",
+  "name": "Oriole Park at Camden Yards",
+  "group": "MLB"
+ },
+ {
+  "slug": "citi-field",
+  "name": "Citi Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "american-family-field",
+  "name": "American Family Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "wrigley-field",
+  "name": "Wrigley Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "nationals-park",
+  "name": "Nationals Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "oracle-park",
+  "name": "Oracle Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "daikin-park",
+  "name": "Daikin Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "truist-park",
+  "name": "Truist Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "rate-field",
+  "name": "Rate Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "globe-life-field",
+  "name": "Globe Life Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "comerica-park",
+  "name": "Comerica Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "petco-park",
+  "name": "Petco Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "pnc-park",
+  "name": "PNC Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "target-field",
+  "name": "Target Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "kauffman-stadium",
+  "name": "Kauffman Stadium",
+  "group": "MLB"
+ },
+ {
+  "slug": "fenway-park",
+  "name": "Fenway Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "loandepot-park",
+  "name": "LoanDepot Park",
+  "group": "MLB"
+ },
+ {
+  "slug": "progressive-field",
+  "name": "Progressive Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "tropicana-field",
+  "name": "Tropicana Field",
+  "group": "MLB"
+ },
+ {
+  "slug": "michigan-stadium",
+  "name": "Michigan Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "beaver-stadium",
+  "name": "Beaver Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "ohio-stadium",
+  "name": "Ohio Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "kyle-field",
+  "name": "Kyle Field",
+  "group": "college"
+ },
+ {
+  "slug": "tiger-stadium",
+  "name": "Tiger Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "neyland-stadium",
+  "name": "Neyland Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "darrell-k-royal-texas-memorial-stadium",
+  "name": "Darrell K Royal\u2013Texas Memorial Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "bryant-denny-stadium",
+  "name": "Bryant\u2013Denny Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "sanford-stadium",
+  "name": "Sanford Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "ben-hill-griffin-stadium",
+  "name": "Ben Hill Griffin Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "jordan-hare-stadium",
+  "name": "Jordan\u2013Hare Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "memorial-stadium-ne",
+  "name": "Memorial Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "memorial-stadium-sc",
+  "name": "Memorial Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "rose-bowl",
+  "name": "Rose Bowl",
+  "group": "college"
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "name": "Gaylord Family Oklahoma Memorial Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "notre-dame-stadium",
+  "name": "Notre Dame Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "williams-brice-stadium",
+  "name": "Williams\u2013Brice Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "los-angeles-memorial-coliseum",
+  "name": "Los Angeles Memorial Coliseum",
+  "group": "college"
+ },
+ {
+  "slug": "razorback-stadium",
+  "name": "Razorback Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "camp-randall-stadium",
+  "name": "Camp Randall Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "spartan-stadium",
+  "name": "Spartan Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "husky-stadium",
+  "name": "Husky Stadium",
+  "group": "college"
+ },
+ {
+  "slug": "madison-square-garden",
+  "name": "Madison Square Garden",
+  "group": "famous"
+ },
+ {
+  "slug": "united-center",
+  "name": "United Center",
+  "group": "famous"
+ },
+ {
+  "slug": "td-garden",
+  "name": "TD Garden",
+  "group": "famous"
+ },
+ {
+  "slug": "crypto-com-arena",
+  "name": "Crypto.com Arena",
+  "group": "famous"
+ },
+ {
+  "slug": "chase-center",
+  "name": "Chase Center",
+  "group": "famous"
+ },
+ {
+  "slug": "intuit-dome",
+  "name": "Intuit Dome",
+  "group": "famous"
+ },
+ {
+  "slug": "rupp-arena",
+  "name": "Rupp Arena",
+  "group": "famous"
+ },
+ {
+  "slug": "allen-fieldhouse",
+  "name": "Allen Fieldhouse",
+  "group": "famous"
+ },
+ {
+  "slug": "indianapolis-motor-speedway",
+  "name": "Indianapolis Motor Speedway",
+  "group": "famous"
+ },
+ {
+  "slug": "daytona-international-speedway",
+  "name": "Daytona International Speedway",
+  "group": "famous"
+ },
+ {
+  "slug": "bristol-motor-speedway",
+  "name": "Bristol Motor Speedway",
+  "group": "famous"
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "name": "Talladega Superspeedway",
+  "group": "famous"
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "name": "Charlotte Motor Speedway",
+  "group": "famous"
+ },
+ {
+  "slug": "circuit-of-the-americas",
+  "name": "Circuit of the Americas",
+  "group": "famous"
+ },
+ {
+  "slug": "arthur-ashe-stadium",
+  "name": "Arthur Ashe Stadium",
+  "group": "famous"
+ },
+ {
+  "slug": "q2-stadium",
+  "name": "Q2 Stadium",
+  "group": "famous"
+ },
+ {
+  "slug": "providence-park",
+  "name": "Providence Park",
+  "group": "famous"
+ }
+]
