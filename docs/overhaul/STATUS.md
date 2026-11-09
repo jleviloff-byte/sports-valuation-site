@@ -1,12 +1,14 @@
 # Overhaul status
 
 - **Phase:** 3 — full run. Pilot approved by Josh ("Approve as is").
-- **Last completed step:** All 354 venues have a reference or a generic model, controls and a spec sheet; generation is queued for everything.
-  - Batch 1 (56 iconic photo venues): 35 pass blind ID; attempt 3 for 8 (`batch1g`, running); 6 signage/retry picks in text cleanup (`stadium-cleanup-b1e`); 7 moved to the generic path.
-  - Generic fallback path (251 venues: 36 iconic, 215 long tail): config chosen by a 4-venue test (txt2img, flat render as weak style ref). Kernels `stadium-gen-fba1..fbb6` pushed one by one by `scratchpad/fbqueue.sh` (Kaggle allows 2 at a time).
-  - Long-tail photo path: 33 venues segmented and jobbed (`jobs/tail1.json`); 5 resegmenting with hand boxes (`jobs/seg4.json`); 4 moved to generic (`jobs/fbB7.json`). Queued by `scratchpad/tailq.sh` after the fallback kernels.
-- **Pipeline path per pilot venue:** photo (traced polygon on the reference): Fenway, Michigan, Wrigley, SoFi. Fallback (NAIP-measured model, `scripts/stadiums/art2/venues.js`; controls via `scripts/stadiums/overhaul/prep_fallback.py`): L&N, Lambeau, Rupp, Q2, Daytona, MSG, Arthur Ashe, Bristol.
-- **Next step:** As kernels finish: pick seeds, text cleanup, blind ID in batches (iconic: must be named; long tail: right type and colors), log in `docs/overhaul/qa-*.md`. Then export (Real-ESRGAN, 1600 px hero WebP, 512/256 sprites), site integration, preview deploy, load-time gate, final report.
-  - If this session dies: the queue scripts live in the scratchpad and are lost. Re-push any `jobs/*.json` whose kernel (`stadium-gen-<name>`) has not run with `python3 scripts/stadiums/overhaul/kaggle/push.py scripts/stadiums/overhaul/jobs/<name>.json stadium-gen-<name>`.
-- **Kaggle GPU hours used:** ~10 this week (pilot 3.3, segmentation 0.5, batch 1 and retries 4.1, rejected fallback batch 1.25, tests 0.6). Queued: fallback ~8 h, long-tail photo ~1 h. Free quota is 30 h/week.
+- **PAUSED by Josh (2026-11-09).** No GPU work until he replies. Kaggle queue and the generic-path re-render are stopped; no kernel is running.
+- **Why:** the generic 3D-model path scored 1 of 18 in blind ID. Like the brick art, a model built from guesses reads as "a stadium", not this stadium.
+- **Where things stand:** see `docs/overhaul/coverage.md` (per venue). Photo path 81 (iconic 43, long tail 38), pilot hand-built models 8, generic path 265 (iconic 47, long tail 218). Batch 1 photo path: 39 of 56 pass blind ID.
+- **Plan (awaiting Josh's go):**
+  1. Coverage first. No iconic venue stays on the generic path. Widen the photo search for every generic venue, iconic first: deeper Wikimedia Commons subcategories, Openverse (CC search across Flickr and others), Flickr Creative Commons, and public-domain US government photos (military DVIDS, NASA, Army Corps, NOAA, NPS). Same license and verification rules as the brief (free license, category/title/caption check, by-eye check against the NAIP footprint, manifest entry).
+  2. Loosen the angle band to 20-60 degrees oblique. A real oblique beats a guessed model.
+  3. Eye-level-only venues: test on 5 venues whether depth from the 3D model plus IP-Adapter fed several eye-level photos passes blind ID. Only scale it if it passes.
+  4. Whatever still has no photo: no fake detail. Propose a clean, simpler style that sits well next to photo-path venues at map size, mark those venues for a later upgrade, and show Josh 3 examples beside photo-path venues before rendering any more.
+  5. Then QA, export, site integration (card and credits already wired), preview, load-time gate, final report.
+- **Kaggle GPU hours used:** ~12.5 this week of the free 30 (pilot 3.3, segmentation 0.5, batch 1 and retries 4.4, generic-path batches 3.7, tests 0.6). Nothing queued.
 - **Blockers:** none. Notes: Commons throttles this egress IP (HTTP 429), so scripts back off. render.mjs needs `CHROMIUM_PATH=/opt/pw-browsers/chromium` in cloud sessions. Candidate photos are uploading to Kaggle dataset `stadium-overhaul-cands`.
