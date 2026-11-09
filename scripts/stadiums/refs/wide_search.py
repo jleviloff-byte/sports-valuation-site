@@ -10,25 +10,21 @@
 # backed up to the private Kaggle candidates dataset) with candidates.json.
 # Every candidate is then reviewed by eye on contact sheets (wide_sheets.py);
 # titles are never trusted. Licenses: CC0, PDM, PD, CC BY, CC BY-SA only.
-# Usage: python3 scripts/stadiums/refs/wide_search.py slug [slug ...]
+# Usage: python3 scripts/stadiums/refs/wide_search.py <jobs.json>
 import json, os, re, sys, time, urllib.parse, urllib.request
 
 # Wikimedia API etiquette: descriptive User-Agent with a contact address, maxlag=5
 # on every API call, up to 50 titles per query, back off on 429 honoring Retry-After,
 # serial requests only. Thumbnails at 480 px (contact-sheet size), never originals.
 UA = 'whatsmyteamworth-stadium-map/1.0 (https://github.com/jleviloff-byte/sports-valuation-site; contact: joshua.leviloff@kellogg.northwestern.edu)'
-# On Kaggle (CPU session, own IP: Commons rate-limits the cloud container) the
-# venue list arrives inlined as JOBS_INLINE = [{slug, name, category, title}].
-_J = globals().get('JOBS_INLINE')
-if _J:
-    ROOT = '/kaggle/working/out'
-    V = {j['slug']: {'slug': j['slug'], 'name': j['name'], 'alt': j.get('alt', [])} for j in _J}
-    CATS = {j['slug']: {'category': j.get('category'), 'title': j.get('title') or j['name']} for j in _J}
-    sys.argv = [sys.argv[0]] + [j['slug'] for j in _J]
-else:
-    ROOT = 'research/raw/stadiums/refs-wide'
-    CATS = json.load(open('scripts/stadiums/refs/categories.json'))
-    V = {v['slug']: v for v in json.load(open('data/stadiums.json'))['venues']}
+# Venue list: a jobs file [{slug, name, category, title, alt[]}] (alt = former
+# names, searched too). Runs from this session only, at the rate Commons allows.
+# Usage: python3 wide_search.py <jobs.json>
+_J = json.load(open(sys.argv[1]))
+ROOT = 'research/raw/stadiums/refs-wide'
+V = {j['slug']: {'slug': j['slug'], 'name': j['name'], 'alt': j.get('alt', [])} for j in _J}
+CATS = {j['slug']: {'category': j.get('category'), 'title': j.get('title') or j['name']} for j in _J}
+sys.argv = [sys.argv[0]] + [j['slug'] for j in _J]
 FREE = re.compile(r'^(public domain|pd|cc0|cc[- ]by(-sa)?[- ]?\d|cc[- ]by(-sa)?$|attribution|copyrighted free use|no restrictions|pdm)', re.I)
 SKIP_CAT = re.compile(r'logos?|maps?|diagrams|seating charts|tickets|people|players|events in|games|concerts|matches|\bteams?\b|video|audio|sounds', re.I)
 
