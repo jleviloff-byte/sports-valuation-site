@@ -67,3 +67,4 @@ research/raw/stadiums/refs-cand/
 # Files under art2/out tracked before the overhaul stay tracked.
 scripts/stadiums/art2/out/
 __pycache__/
+research/raw/stadiums/refs-wide/
