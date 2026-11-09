@@ -107,7 +107,7 @@ def commons_files(slug):
 def openverse(slug):
     v = V[slug]; out = []
     for q in [q for n in [v['name'], *v.get('alt', [])] for q in (n, f'{n} aerial')]:
-        url = 'https://api.openverse.org/v1/images/?' + urllib.parse.urlencode({'q': q, 'license': 'cc0,pdm,by,by-sa', 'page_size': '50', 'mature': 'false'})
+        url = 'https://api.openverse.org/v1/images/?' + urllib.parse.urlencode({'q': q, 'license': 'cc0,pdm,by,by-sa', 'page_size': '20', 'mature': 'false'})
         b = get(url); time.sleep(1.5)
         if not b: continue
         for r in json.loads(b).get('results', []):
