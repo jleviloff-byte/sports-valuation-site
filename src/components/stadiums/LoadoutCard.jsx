@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import BrickModelViewer from './BrickModelViewer.jsx'
+import HeroArt from './HeroArt.jsx'
 
 const NA = 'N/A'
 const fmt = (n) => (n == null ? NA : n.toLocaleString('en-US'))
@@ -130,7 +130,7 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
 
         {v && (
           <div ref={stage} className="loadout-stage">
-            <BrickModelViewer key={v.slug} slug={v.slug} name={v.name} hasModel={v.art?.model} />
+            <HeroArt key={v.slug} slug={v.slug} name={v.name} />
             {wide && (
               <svg className="loadout-lines" width={geo?.W || 0} height={geo?.H || 0} aria-hidden="true">
                 {paths.map((p, i) => <path key={`${v.slug}-${i}`} d={p.d} style={{ '--len': p.len, '--delay': `${p.delay}s` }} />)}
@@ -151,6 +151,18 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
             <span className="whitespace-nowrap">Last verified {v.last_verified}.</span>
             {v.capacity_type === 'estimated' && <span className="block mt-1">Racetrack capacities are published estimates, so racetracks are ranked only against other motorsport venues.</span>}
             <span className="ml-2">Footprint © OpenStreetMap contributors.</span>
+            {v.art?.note && (
+              <span className="block mt-1">
+                {v.art.note}{' '}
+                {v.art.credits?.map((c) => (
+                  <span key={c.page} className="mr-2">
+                    <a href={c.page} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-white">{c.title}</a>
+                    {c.author ? ` by ${c.author}` : ''}{c.license ? `, ${c.license}` : ''}.
+                  </span>
+                ))}
+                {v.art.license && <span>Illustration license: {v.art.license}.</span>}
+              </span>
+            )}
           </footer>
         )}
       </div>

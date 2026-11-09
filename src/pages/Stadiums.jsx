@@ -154,7 +154,7 @@ export default function Stadiums() {
         </div>
         <h1 className="section-title text-3xl sm:text-[32px]">Every US venue with 15,000+ seats, to scale</h1>
         <p className="text-sm text-graphite mt-2 max-w-3xl">
-          {all.length ? `${fmt(all.length)} stadiums, arenas, ballparks, racetracks and tennis venues.` : 'Stadiums, arenas, ballparks, racetracks and tennis venues.'} Each brick-built model is sized by seated capacity, so a 100,000-seat bowl looks bigger than a 20,000-seat arena. Click one for its numbers.
+          {all.length ? `${fmt(all.length)} stadiums, arenas, ballparks, racetracks and tennis venues.` : 'Stadiums, arenas, ballparks, racetracks and tennis venues.'} Each venue is drawn as a miniature scale model of the real building, sized by seated capacity, so a 100,000-seat bowl looks bigger than a 20,000-seat arena. Click one for its numbers.
         </p>
         <div className="mt-4 flex flex-col lg:flex-row lg:items-center gap-3">
           <Search venues={all} onPick={(v) => { setFocus({ ...v }); open(v.s) }} />
@@ -208,7 +208,7 @@ export default function Stadiums() {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <p className="text-xs text-slate leading-relaxed max-w-4xl">
-          Capacity is current official seated capacity (racetracks are estimates). Venue data from Wikipedia and official team, venue and school sites, cross-checked and cited per field. Footprints © OpenStreetMap contributors (ODbL). Map tiles by OpenFreeMap, © OpenMapTiles. Construction costs in 2025 dollars use BLS CPI-U. Brick models are stylized illustrations, not architectural drawings.
+          Capacity is current official seated capacity (racetracks are estimates). Venue data from Wikipedia and official team, venue and school sites, cross-checked and cited per field. Footprints © OpenStreetMap contributors (ODbL). Map tiles by OpenFreeMap, © OpenMapTiles. Construction costs in 2025 dollars use BLS CPI-U. Venue illustrations are generated from freely licensed photos (credited on each card) or from OpenStreetMap footprints and USGS aerial imagery; they are artistic renderings, not architectural drawings.
         </p>
       </section>
 

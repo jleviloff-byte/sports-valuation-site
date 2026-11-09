@@ -197,7 +197,7 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     const useAtlas = (v) => st.atlas && v.a && reveal < 1
     for (const v of sorted) {
       const p = map.project([v.lo, v.la])
-      const size = spritePx(v.cap, zoom)
+      const size = spritePx(v.cap, zoom, v.t)
       if (reveal === 0 && useAtlas(v) && st.sheets[v.a[0]] !== 'ready' && st.sheets[v.a[0]] !== 'failed') continue
       if (p.x < -size || p.y < -size || p.x > W + size || p.y > H + size) continue
       const r = size * 0.34

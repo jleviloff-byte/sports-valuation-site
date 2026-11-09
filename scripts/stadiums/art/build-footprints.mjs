@@ -47,6 +47,13 @@ const bvec = (deg) => [Math.sin((deg * Math.PI) / 180), -Math.cos((deg * Math.PI
 const scaleAbout = (p, c, k) => p.map(([x, z]) => [c[0] + (x - c[0]) * k, c[1] + (z - c[1]) * k])
 const lum = (hex) => { const n = parseInt(hex.slice(1), 16); return (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255 }
 const darker = (hex, k = 0.72) => { const n = parseInt(hex.slice(1), 16); return `rgb(${Math.round((n >> 16) * k)},${Math.round(((n >> 8) & 255) * k)},${Math.round((n & 255) * k)})` }
+const NAIP_COLORS = fs.existsSync('scripts/stadiums/overhaul/naip-colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/overhaul/naip-colors.json', 'utf8')) : {}
+// NAIP colors are muted by haze: lift saturation so the grandstand reads at national zoom.
+function saturate(hex, k = 1.8) {
+  const c = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16))
+  const m = (c[0] + c[1] + c[2]) / 3
+  return '#' + c.map((x) => Math.max(0, Math.min(255, Math.round(m + (x - m) * k))).toString(16).padStart(2, '0')).join('')
+}
 const GREEN = '#4f9a45', DIRT = '#c08453', ROOF = '#d9dcdf', TRACK = '#3f4348', NEUTRAL = '#8C939C'
 
 function stadiumOval(c, ang, L, W) {
@@ -60,7 +67,11 @@ function stadiumOval(c, ang, L, W) {
 // Returns { layers: [{ pts, fill, stroke }], bounds } in meters.
 function shapeFor(v) {
   const a = art[v.slug] || {}
-  const team = (a.seat_colors_source ? a.seat_colors?.[0] : null) || NEUTRAL
+  // Racetracks have no team color: use the grandstand seat color sampled from the
+  // USGS NAIP aerial (scripts/stadiums/overhaul/naip_colors.py) so the mark reads as
+  // a grandstand, not a gray pill (brief: site integration).
+  const naipSeat = NAIP_COLORS[v.slug]?.seats
+  const team = (a.seat_colors_source ? a.seat_colors?.[0] : null) || (a.archetype === 'oval_track' && naipSeat ? saturate(naipSeat) : null) || NEUTRAL
   const w = wikiByUrl[v.sources.wikipedia]
   const osm = w && fs.existsSync(osmFile(w.title)) ? JSON.parse(fs.readFileSync(osmFile(w.title), 'utf8')) : null
   let fp = osm?.best?.footprint ? project(osm.best.footprint) : null
@@ -78,7 +89,7 @@ function shapeFor(v) {
     // Main grandstand: a band along one long side, outside the track.
     const n = [-Math.sin(ang), Math.cos(ang)], u = [Math.cos(ang), Math.sin(ang)]
     const side = v.slug === 'daytona-international-speedway' ? (n[0] * bvec(308)[0] + n[1] * bvec(308)[1] > 0 ? 1 : -1) : 1
-    const g0 = W * 1.0, g1 = W * 1.32, gl = (L - W) * 0.95
+    const g0 = W * 1.0, g1 = W * 1.45, gl = (L - W) * 0.95
     const stand = [[-gl, g0], [gl, g0], [gl, g1], [-gl, g1]].map(([a2, b2]) => [c[0] + u[0] * a2 + n[0] * b2 * side, c[1] + u[1] * a2 + n[1] * b2 * side])
     return { layers: [{ pts: stand, fill: team, stroke }, { pts: outer, fill: TRACK, stroke: '#2a2d31' }, { pts: inner, fill: GREEN, stroke: null }], bounds: [...outer, ...stand] }
   }
