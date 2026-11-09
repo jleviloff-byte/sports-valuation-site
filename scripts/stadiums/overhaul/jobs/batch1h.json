@@ -1,0 +1,80 @@
+[
+ {
+  "slug": "nissan-stadium",
+  "kind": "football stadium",
+  "ref": "refs/nissan-stadium/1.jpg",
+  "mask": "masks/nissan-stadium-v2.png",
+  "desc_short": "Nissan Stadium: open football bowl with navy blue seats in two decks, tall light towers over the sideline, tan and red brick exterior, end zone video board",
+  "seeds": [
+   808,
+   909,
+   1010
+  ],
+  "blank": [
+   [
+    0.26,
+    0.57,
+    0.42,
+    0.76
+   ]
+  ],
+  "cn_scale": [
+   0.9,
+   0.7
+  ],
+  "ip_scale": 0.45,
+  "tag": ""
+ },
+ {
+  "slug": "target-field",
+  "kind": "baseball park",
+  "ref": "refs/target-field/30.jpg",
+  "mask": "masks/target-field-v2.png",
+  "desc_short": "Target Field: tan limestone ballpark with dark green seats, a white canopy over the upper deck, large left field scoreboard, tight downtown site",
+  "seeds": [
+   808,
+   909,
+   1010
+  ],
+  "cn_scale": [
+   0.9,
+   0.7
+  ],
+  "ip_scale": 0.45,
+  "blank": [
+   [
+    0.61,
+    0.5,
+    0.7,
+    0.62
+   ]
+  ],
+  "tag": ""
+ },
+ {
+  "slug": "chase-center",
+  "kind": "arena",
+  "ref": "refs/chase-center/1.jpg",
+  "mask": "masks/chase-center.png",
+  "desc_short": "Chase Center: round arena with a smooth white curved roof, white and silver horizontal panel bands, glass base, plaza with terraces",
+  "seeds": [
+   808,
+   909,
+   1010
+  ],
+  "cn_scale": [
+   0.9,
+   0.7
+  ],
+  "ip_scale": 0.45,
+  "blank": [
+   [
+    0.34,
+    0.43,
+    0.66,
+    0.57
+   ]
+  ],
+  "tag": ""
+ }
+]

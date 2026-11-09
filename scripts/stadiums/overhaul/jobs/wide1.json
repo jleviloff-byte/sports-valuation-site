@@ -1,0 +1,205 @@
+[
+ {
+  "slug": "allen-fieldhouse",
+  "name": "Allen Fieldhouse",
+  "category": "Allen Fieldhouse",
+  "title": "Allen Fieldhouse",
+  "alt": []
+ },
+ {
+  "slug": "american-family-field",
+  "name": "American Family Field",
+  "category": "American Family Field",
+  "title": "American Family Field",
+  "alt": [
+   "Miller Park"
+  ]
+ },
+ {
+  "slug": "atandt-stadium",
+  "name": "AT&T Stadium",
+  "category": "AT&T Stadium",
+  "title": "AT&T Stadium",
+  "alt": [
+   "Cowboys Stadium"
+  ]
+ },
+ {
+  "slug": "bryant-denny-stadium",
+  "name": "Bryant\u2013Denny Stadium",
+  "category": "Bryant-Denny Stadium",
+  "title": "Bryant\u2013Denny Stadium",
+  "alt": []
+ },
+ {
+  "slug": "busch-stadium",
+  "name": "Busch Stadium",
+  "category": "Busch Stadium",
+  "title": "Busch Stadium",
+  "alt": []
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "name": "Charlotte Motor Speedway",
+  "category": "Charlotte Motor Speedway",
+  "title": "Charlotte Motor Speedway",
+  "alt": [
+   "Lowe's Motor Speedway"
+  ]
+ },
+ {
+  "slug": "chase-center",
+  "name": "Chase Center",
+  "category": "Chase Center",
+  "title": "Chase Center",
+  "alt": []
+ },
+ {
+  "slug": "circuit-of-the-americas",
+  "name": "Circuit of the Americas",
+  "category": "Circuit of the Americas",
+  "title": "Circuit of the Americas",
+  "alt": []
+ },
+ {
+  "slug": "citizens-bank-park",
+  "name": "Citizens Bank Park",
+  "category": "Citizens Bank Park",
+  "title": "Citizens Bank Park",
+  "alt": []
+ },
+ {
+  "slug": "comerica-park",
+  "name": "Comerica Park",
+  "category": "Comerica Park",
+  "title": "Comerica Park",
+  "alt": []
+ },
+ {
+  "slug": "crypto-com-arena",
+  "name": "Crypto.com Arena",
+  "category": "Crypto.com Arena",
+  "title": "Crypto.com Arena",
+  "alt": [
+   "Staples Center"
+  ]
+ },
+ {
+  "slug": "daikin-park",
+  "name": "Daikin Park",
+  "category": "Daikin Park",
+  "title": "Daikin Park",
+  "alt": [
+   "Minute Maid Park",
+   "Enron Field"
+  ]
+ },
+ {
+  "slug": "darrell-k-royal-texas-memorial-stadium",
+  "name": "Darrell K Royal\u2013Texas Memorial Stadium",
+  "category": "Darrell K. Royal-Texas Memorial Stadium",
+  "title": "Darrell K Royal\u2013Texas Memorial Stadium",
+  "alt": [
+   "Texas Memorial Stadium",
+   "Royal-Memorial Stadium"
+  ]
+ },
+ {
+  "slug": "empower-field-at-mile-high",
+  "name": "Empower Field at Mile High",
+  "category": "Empower Field at Mile High",
+  "title": "Empower Field at Mile High",
+  "alt": [
+   "Sports Authority Field at Mile High",
+   "Invesco Field at Mile High",
+   "Broncos Stadium at Mile High"
+  ]
+ },
+ {
+  "slug": "ford-field",
+  "name": "Ford Field",
+  "category": "Ford Field",
+  "title": "Ford Field",
+  "alt": []
+ },
+ {
+  "slug": "gaylord-family-oklahoma-memorial-stadium",
+  "name": "Gaylord Family Oklahoma Memorial Stadium",
+  "category": "Gaylord Family Oklahoma Memorial Stadium",
+  "title": "Gaylord Family Oklahoma Memorial Stadium",
+  "alt": [
+   "Oklahoma Memorial Stadium",
+   "Owen Field"
+  ]
+ },
+ {
+  "slug": "globe-life-field",
+  "name": "Globe Life Field",
+  "category": "Globe Life Field",
+  "title": "Globe Life Field",
+  "alt": []
+ },
+ {
+  "slug": "great-american-ball-park",
+  "name": "Great American Ball Park",
+  "category": "Great American Ball Park",
+  "title": "Great American Ball Park",
+  "alt": []
+ },
+ {
+  "slug": "highmark-stadium",
+  "name": "Highmark Stadium",
+  "category": "New Highmark Stadium",
+  "title": "Highmark Stadium",
+  "alt": [
+   "New Highmark Stadium",
+   "Buffalo Bills stadium"
+  ]
+ },
+ {
+  "slug": "indianapolis-motor-speedway",
+  "name": "Indianapolis Motor Speedway",
+  "category": "Indianapolis Motor Speedway",
+  "title": "Indianapolis Motor Speedway",
+  "alt": []
+ },
+ {
+  "slug": "intuit-dome",
+  "name": "Intuit Dome",
+  "category": "Intuit Dome",
+  "title": "Intuit Dome",
+  "alt": []
+ },
+ {
+  "slug": "kauffman-stadium",
+  "name": "Kauffman Stadium",
+  "category": "Kauffman Stadium",
+  "title": "Kauffman Stadium",
+  "alt": [
+   "Royals Stadium"
+  ]
+ },
+ {
+  "slug": "kyle-field",
+  "name": "Kyle Field",
+  "category": "Kyle Field",
+  "title": "Kyle Field",
+  "alt": []
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "name": "Lincoln Financial Field",
+  "category": "Lincoln Financial Field",
+  "title": "Lincoln Financial Field",
+  "alt": []
+ },
+ {
+  "slug": "loandepot-park",
+  "name": "LoanDepot Park",
+  "category": "LoanDepot Park",
+  "title": "LoanDepot Park",
+  "alt": [
+   "Marlins Park"
+  ]
+ }
+]

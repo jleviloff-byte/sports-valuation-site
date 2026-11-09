@@ -1,0 +1,222 @@
+[
+ {
+  "slug": "memorial-stadium-sc",
+  "name": "Memorial Stadium",
+  "category": "Clemson Memorial Stadium",
+  "title": "Memorial Stadium (Clemson)",
+  "alt": [
+   "Memorial Stadium Clemson",
+   "Death Valley Clemson"
+  ]
+ },
+ {
+  "slug": "mercedes-benz-stadium",
+  "name": "Mercedes-Benz Stadium",
+  "category": "Mercedes-Benz Stadium",
+  "title": "Mercedes-Benz Stadium",
+  "alt": [
+   "Mercedes Benz Stadium Atlanta"
+  ]
+ },
+ {
+  "slug": "neyland-stadium",
+  "name": "Neyland Stadium",
+  "category": "Neyland Stadium",
+  "title": "Neyland Stadium",
+  "alt": []
+ },
+ {
+  "slug": "nissan-stadium",
+  "name": "Nissan Stadium",
+  "category": "Nissan Stadium",
+  "title": "Nissan Stadium (Nashville)",
+  "alt": [
+   "LP Field",
+   "Adelphia Coliseum"
+  ]
+ },
+ {
+  "slug": "northwest-stadium",
+  "name": "Northwest Stadium",
+  "category": "Northwest Stadium",
+  "title": "Northwest Stadium",
+  "alt": [
+   "FedExField",
+   "FedEx Field",
+   "Jack Kent Cooke Stadium"
+  ]
+ },
+ {
+  "slug": "oracle-park",
+  "name": "Oracle Park",
+  "category": "Oracle Park",
+  "title": "Oracle Park",
+  "alt": [
+   "AT&T Park",
+   "SBC Park",
+   "Pacific Bell Park"
+  ]
+ },
+ {
+  "slug": "paycor-stadium",
+  "name": "Paycor Stadium",
+  "category": "Paycor Stadium",
+  "title": "Paycor Stadium",
+  "alt": [
+   "Paul Brown Stadium"
+  ]
+ },
+ {
+  "slug": "pnc-park",
+  "name": "PNC Park",
+  "category": "PNC Park",
+  "title": "PNC Park",
+  "alt": []
+ },
+ {
+  "slug": "progressive-field",
+  "name": "Progressive Field",
+  "category": "Progressive Field",
+  "title": "Progressive Field",
+  "alt": [
+   "Jacobs Field"
+  ]
+ },
+ {
+  "slug": "rate-field",
+  "name": "Rate Field",
+  "category": "Rate Field",
+  "title": "Rate Field",
+  "alt": [
+   "Guaranteed Rate Field",
+   "U.S. Cellular Field",
+   "New Comiskey Park"
+  ]
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "name": "Raymond James Stadium",
+  "category": "Raymond James Stadium",
+  "title": "Raymond James Stadium",
+  "alt": []
+ },
+ {
+  "slug": "razorback-stadium",
+  "name": "Razorback Stadium",
+  "category": "Donald W. Reynolds Razorback Stadium",
+  "title": "Razorback Stadium",
+  "alt": [
+   "Donald W. Reynolds Razorback Stadium"
+  ]
+ },
+ {
+  "slug": "sanford-stadium",
+  "name": "Sanford Stadium",
+  "category": "Sanford Stadium",
+  "title": "Sanford Stadium",
+  "alt": []
+ },
+ {
+  "slug": "spartan-stadium",
+  "name": "Spartan Stadium",
+  "category": "Spartan Stadium (East Lansing, Michigan)",
+  "title": "Spartan Stadium",
+  "alt": [
+   "CEFCU Stadium"
+  ]
+ },
+ {
+  "slug": "state-farm-stadium",
+  "name": "State Farm Stadium",
+  "category": "State Farm Stadium",
+  "title": "State Farm Stadium",
+  "alt": [
+   "University of Phoenix Stadium"
+  ]
+ },
+ {
+  "slug": "t-mobile-park",
+  "name": "T-Mobile Park",
+  "category": "T-Mobile Park",
+  "title": "T-Mobile Park",
+  "alt": [
+   "Safeco Field"
+  ]
+ },
+ {
+  "slug": "talladega-superspeedway",
+  "name": "Talladega Superspeedway",
+  "category": "Talladega Superspeedway",
+  "title": "Talladega Superspeedway",
+  "alt": [
+   "Alabama International Motor Speedway"
+  ]
+ },
+ {
+  "slug": "target-field",
+  "name": "Target Field",
+  "category": "Target Field",
+  "title": "Target Field",
+  "alt": []
+ },
+ {
+  "slug": "td-garden",
+  "name": "TD Garden",
+  "category": "TD Garden",
+  "title": "TD Garden",
+  "alt": [
+   "TD Banknorth Garden",
+   "FleetCenter"
+  ]
+ },
+ {
+  "slug": "tiger-stadium",
+  "name": "Tiger Stadium",
+  "category": "Tiger Stadium (LSU)",
+  "title": "Tiger Stadium (Louisiana)",
+  "alt": [
+   "Tiger Stadium LSU",
+   "Death Valley Baton Rouge"
+  ]
+ },
+ {
+  "slug": "truist-park",
+  "name": "Truist Park",
+  "category": "Truist Park",
+  "title": "Truist Park",
+  "alt": [
+   "SunTrust Park"
+  ]
+ },
+ {
+  "slug": "united-center",
+  "name": "United Center",
+  "category": "United Center",
+  "title": "United Center",
+  "alt": []
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "name": "L&N Federal Credit Union Stadium",
+  "category": "Cardinal Stadium",
+  "title": "L&N Federal Credit Union Stadium",
+  "alt": [
+   "Cardinal Stadium Louisville",
+   "Papa John's Cardinal Stadium"
+  ]
+ },
+ {
+  "slug": "q2-stadium",
+  "name": "Q2 Stadium",
+  "category": "Q2 Stadium",
+  "title": "Q2 Stadium",
+  "alt": []
+ },
+ {
+  "slug": "rupp-arena",
+  "name": "Rupp Arena",
+  "category": "Rupp Arena",
+  "title": "Rupp Arena",
+  "alt": []
+ }
+]

@@ -14,9 +14,18 @@
 import json, os, re, sys, time, urllib.parse, urllib.request
 
 UA = 'stadium-art-overhaul/1.0 (research; contact via repository)'
-ROOT = 'research/raw/stadiums/refs-wide'
-CATS = json.load(open('scripts/stadiums/refs/categories.json'))
-V = {v['slug']: v for v in json.load(open('data/stadiums.json'))['venues']}
+# On Kaggle (CPU session, own IP: Commons rate-limits the cloud container) the
+# venue list arrives inlined as JOBS_INLINE = [{slug, name, category, title}].
+_J = globals().get('JOBS_INLINE')
+if _J:
+    ROOT = '/kaggle/working/out'
+    V = {j['slug']: {'slug': j['slug'], 'name': j['name'], 'alt': j.get('alt', [])} for j in _J}
+    CATS = {j['slug']: {'category': j.get('category'), 'title': j.get('title') or j['name']} for j in _J}
+    sys.argv = [sys.argv[0]] + [j['slug'] for j in _J]
+else:
+    ROOT = 'research/raw/stadiums/refs-wide'
+    CATS = json.load(open('scripts/stadiums/refs/categories.json'))
+    V = {v['slug']: v for v in json.load(open('data/stadiums.json'))['venues']}
 FREE = re.compile(r'^(public domain|pd|cc0|cc[- ]by(-sa)?[- ]?\d|cc[- ]by(-sa)?$|attribution|copyrighted free use|no restrictions|pdm)', re.I)
 SKIP_CAT = re.compile(r'logos?|maps?|diagrams|seating charts|tickets|people|players|events in|games|concerts|matches|\bteams?\b|video|audio|sounds', re.I)
 
@@ -63,7 +72,7 @@ def commons_files(slug):
                 elif t.startswith('Category:') and d < 3 and not SKIP_CAT.search(t): frontier.append((t[9:], d + 1))
             if 'continue' not in r: break
             cont = r['continue']
-    names = {v['name'], CATS.get(slug, {}).get('title', v['name'])}
+    names = {v['name'], CATS.get(slug, {}).get('title', v['name']), *v.get('alt', [])}
     for n in list(names):
         for q in [f'"{n}"', f'"{n}" aerial', f'"{n}" stadium from above']:
             r = commons({'action': 'query', 'list': 'search', 'srnamespace': '6', 'srlimit': '100', 'srsearch': q})
@@ -91,7 +100,7 @@ def commons_files(slug):
 
 def openverse(slug):
     v = V[slug]; out = []
-    for q in [v['name'], f"{v['name']} aerial"]:
+    for q in [q for n in [v['name'], *v.get('alt', [])] for q in (n, f'{n} aerial')]:
         url = 'https://api.openverse.org/v1/images/?' + urllib.parse.urlencode({'q': q, 'license': 'cc0,pdm,by,by-sa', 'page_size': '50', 'mature': 'false'})
         b = get(url); time.sleep(1.5)
         if not b: continue
@@ -131,6 +140,7 @@ for slug in sys.argv[1:]:
         k = (c.get('url') or c.get('page'))
         if not k or k in seen or not c.get('thumb'): continue
         seen.add(k); keep.append(c)
+    keep = keep[:400]
     for i, c in enumerate(keep):
         c['n'] = i + 1
         f = os.path.join(d, f'{i + 1}.jpg')
