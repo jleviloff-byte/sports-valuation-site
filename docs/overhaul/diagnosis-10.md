@@ -18,3 +18,11 @@ Attempts 4 and 5 (the brief allows 5) go only after the cause is fixed.
 
 Summary: 4 fixable in place (Nissan, Target, Chase Center, State Farm with a crop);
 6 need a different reference photo from the widened search.
+
+## Attempt 4 (`batch1h`, causes fixed)
+
+| venue | result |
+|---|---|
+| target-field | Fixed: the tight mask removed the foreground debris; seed 1010 shows the canopy and the right-field board. Pending blind ID. |
+| chase-center | Fixed: with the roof lettering blanked, no invented oculus; seed 909. Pending blind ID. |
+| nissan-stadium | Not fixed: cutting the billboard out of the mask leaves a hole the generator draws as an empty frame. Needs a different reference (widened search). |
