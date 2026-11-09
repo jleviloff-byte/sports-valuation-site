@@ -1,0 +1,26 @@
+# Allen E. Paulson Stadium
+
+Type: football stadium. Pipeline path: generic fallback model (no usable oblique photo on Commons). City: Statesboro, GA.
+
+## Identifying features
+
+1. football stadium, roof: open, capacity 25000 (data/stadiums.json)
+2. Footprint and orientation from the OSM venue polygon (capped by capacity where OSM takes the whole block)
+3. Field at regulation proportions with end zones and yard lines; stands parallel to the sidelines; bowl shape from the OSM footprint.
+4. Seats #546d81, roof #d9dcd7, field #7b988a (NAIP aerial)
+
+## Colors
+
+Sampled from the USGS NAIP aerial (public domain) inside the OSM footprint (k-means, largest clusters first):
+
+| Share | Hex |
+|---|---|
+| 30% | `#d9dcd7` |
+| 23% | `#7b988a` |
+| 21% | `#cacdc6` |
+| 18% | `#acb39f` |
+| 9% | `#546d81` |
+
+## Generator description
+
+Allen E. Paulson Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines
