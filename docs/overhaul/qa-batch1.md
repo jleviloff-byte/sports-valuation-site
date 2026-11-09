@@ -87,3 +87,30 @@ photo instead.
 | rate-field | 2 | Yankee Stadium (low) | wrong venue; baselines duplicated | retry |
 
 Running total for the 56 batch-1 photo venues: 35 pass (incl. Husky and Notre Dame provisional), 8 retry (attempt 3), 4 regenerating with signs blanked (`batch1e`), 2 on attempt 3 (`batch1f`), 7 moved to the fallback path.
+
+## Attempt 3 and signage regenerations (blind ID batches G and H, fresh subagents)
+
+| venue | attempts | blind-ID guess (confidence) | artifacts / spec noted | verdict |
+|---|---|---|---|---|
+| rose-bowl | 3 | Rose Bowl (high) | color fringing on trees | pass |
+| oriole-park-at-camden-yards | 3 | Camden Yards (high) | smear at the right edge | pass |
+| bank-of-america-stadium | 3 (signs blanked) | Bank of America Stadium (high) | blank sign panel over near stands (the real sign, as a plain shape) | pass |
+| reliant-stadium (NRG) | 3 (signs blanked) | NRG Stadium (high) | blank panels on roof and facade; garbled facade marks, unreadable | pass |
+| nissan-stadium | 3 (signs blanked) | Nissan Stadium (medium-high) | the blanked billboard came out as a second field slab (duplicated structure) | fail |
+| lincoln-financial-field | 3 | Lincoln Financial Field (high) | stands broken apart, no field (spec fail) | fail |
+| state-farm-stadium | 3 | Kohl Center (low) | wrong venue; roof torn | fail |
+| neyland-stadium | 3 | Memorial Stadium Illinois (low-medium) | wrong venue | fail |
+| target-field | 3 | Wrigley Field (medium) | wrong venue; garbled lettering | fail |
+| rate-field | 3 | Yankee Stadium (low) | wrong venue; bowl warped | fail |
+| raymond-james-stadium | 3 | Levi's Stadium (medium-low) | wrong venue | fail |
+| chase-center | 3 | Chase Center (low) | invented open oculus; bottom cut | fail |
+| comerica-park | 3 | Coors Field (medium) | wrong venue; most of the bowl missing | fail |
+| spartan-stadium | 3 | Jerry Richardson Stadium (low) | wrong venue; blue halo, blur | fail |
+
+The 10 failures have each had three photo-path attempts with different seeds,
+masks and control weights; the failure is the reference photo (low or partial
+views, heavy signage), not the seed. Per the brief they go to the fallback
+model now (`jobs/fbA3.json`); if that fails too they are logged in
+`needs-attention.md`.
+
+Batch 1 photo venues: 39 pass, 10 to fallback, 7 moved to fallback earlier.

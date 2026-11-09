@@ -88,5 +88,55 @@
   "kind": null,
   "features": [],
   "desc_short": "Charlotte Motor Speedway: banked quad-oval of gray asphalt around a green infield with a lake, a long multi-level grandstand with suites along the front stretch, pit road, no cars, no crowd"
+ },
+ "nissan-stadium": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Nissan Stadium: riverfront football bowl with navy blue seats and red bands between tiers, tall sideline decks, steel light towers on both sideline rims, green field"
+ },
+ "lincoln-financial-field": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Lincoln Financial Field: football stadium with dark midnight green seats, curved wing-shaped canopy roofs over both sideline stands, open ends, dark steel and glass exterior, green field"
+ },
+ "state-farm-stadium": {
+  "kind": null,
+  "features": [],
+  "desc_short": "State Farm Stadium: oval domed stadium clad in silver-white ribbed metal panels with vertical slots of dark glass, a long retractable roof panel in the center, low profile"
+ },
+ "neyland-stadium": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Neyland Stadium: huge closed college football bowl with orange and white checkered end zones, gray concrete stands, tall press box tower on one sideline, green field"
+ },
+ "target-field": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Target Field: downtown ballpark with dark green seats, tan limestone exterior, a canopy roof over the upper deck, a tall scoreboard in right field, grass field"
+ },
+ "rate-field": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Rate Field: symmetrical ballpark with dark navy seats in a closed ring of upper and lower decks, gray concrete exterior with arches, grass field and dirt infield"
+ },
+ "raymond-james-stadium": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Raymond James Stadium: football stadium with bright red seats, a large pirate ship in the north end zone stands, tall sideline press box, light concrete exterior, green field"
+ },
+ "chase-center": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Chase Center: round arena with a white rounded drum, a band of glass at the base, a flat white roof, a large glass atrium entrance at one side"
+ },
+ "comerica-park": {
+  "kind": null,
+  "features": [],
+  "desc_short": "Comerica Park: downtown ballpark with dark green seats, brick facade with arches, open outfield toward the skyline, a large scoreboard in left field, grass field"
+ },
+ "spartan-stadium": {
+  "kind": null,
+  "features": [],
+  "desc_short": "CEFCU Stadium San Jose: compact college football stadium with blue and gold accents, two tall sideline grandstands, open ends with low seating, green field"
  }
 }

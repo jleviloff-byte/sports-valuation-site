@@ -24,3 +24,4 @@ Each license was read from the model's Hugging Face API tags or the project's LI
 | Upscale | Real-ESRGAN (`xinntao/Real-ESRGAN`, release weights) | BSD-3-Clause | Selected |
 
 Reference photos: licenses are per image in `scripts/stadiums/refs/verified.json`. Art derived from a CC BY-SA photo is released under CC BY-SA; the card footer credits every source photo.
+| Upscale loader | spandrel 0.4.1 (`chaiNNer-org/spandrel`), loads the Real-ESRGAN weights | MIT | Selected |

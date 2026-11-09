@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "nissan-stadium",
+  "kind": "football stadium",
+  "ref": "controls/nissan-stadium/color.png",
+  "desc_short": "Nissan Stadium: riverfront football bowl with navy blue seats and red bands between tiers, tall sideline decks, steel light towers on both sideline rims, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/nissan-stadium/depth.png",
+   "edges": "controls/nissan-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "lincoln-financial-field",
+  "kind": "football stadium",
+  "ref": "controls/lincoln-financial-field/color.png",
+  "desc_short": "Lincoln Financial Field: football stadium with dark midnight green seats, curved wing-shaped canopy roofs over both sideline stands, open ends, dark steel and glass exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/lincoln-financial-field/depth.png",
+   "edges": "controls/lincoln-financial-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "state-farm-stadium",
+  "kind": "football stadium",
+  "ref": "controls/state-farm-stadium/color.png",
+  "desc_short": "State Farm Stadium: oval domed stadium clad in silver-white ribbed metal panels with vertical slots of dark glass, a long retractable roof panel in the center, low profile",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/state-farm-stadium/depth.png",
+   "edges": "controls/state-farm-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "neyland-stadium",
+  "kind": "football stadium",
+  "ref": "controls/neyland-stadium/color.png",
+  "desc_short": "Neyland Stadium: huge closed college football bowl with orange and white checkered end zones, gray concrete stands, tall press box tower on one sideline, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/neyland-stadium/depth.png",
+   "edges": "controls/neyland-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "target-field",
+  "kind": "baseball park",
+  "ref": "controls/target-field/color.png",
+  "desc_short": "Target Field: tan limestone ballpark with dark green seats, a white canopy over the upper deck, large left field scoreboard, tight downtown site",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/target-field/depth.png",
+   "edges": "controls/target-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "rate-field",
+  "kind": "baseball park",
+  "ref": "controls/rate-field/color.png",
+  "desc_short": "Rate Field: steel and concrete ballpark with dark green seats, a flat canopy roof over the upper deck, scoreboard with pinwheels in center field, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/rate-field/depth.png",
+   "edges": "controls/rate-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "kind": "football stadium",
+  "ref": "controls/raymond-james-stadium/color.png",
+  "desc_short": "Raymond James Stadium: football stadium with bright red seats, a large pirate ship in the north end zone stands, tall sideline press box, light concrete exterior, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/raymond-james-stadium/depth.png",
+   "edges": "controls/raymond-james-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "chase-center",
+  "kind": "indoor arena",
+  "ref": "controls/chase-center/color.png",
+  "desc_short": "Chase Center: round arena with a white rounded drum, a band of glass at the base, a flat white roof, a large glass atrium entrance at one side",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/chase-center/depth.png",
+   "edges": "controls/chase-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "comerica-park",
+  "kind": "baseball park",
+  "ref": "controls/comerica-park/color.png",
+  "desc_short": "Comerica Park: tan brick ballpark with dark green seats, open outfield with a center field fountain, large left field scoreboard, grass field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/comerica-park/depth.png",
+   "edges": "controls/comerica-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "spartan-stadium",
+  "kind": "football stadium",
+  "ref": "controls/spartan-stadium/color.png",
+  "desc_short": "CEFCU Stadium San Jose: compact college football stadium with blue and gold accents, two tall sideline grandstands, open ends with low seating, green field",
+  "seeds": [
+   11,
+   44,
+   55
+  ],
+  "control": {
+   "depth": "controls/spartan-stadium/depth.png",
+   "edges": "controls/spartan-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]
