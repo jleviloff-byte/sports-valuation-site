@@ -4,7 +4,9 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-export const UA = 'FranchiseMathStadiumBot/0.1 (https://github.com/jleviloff-byte/sports-valuation-site)'
+// Wikimedia API etiquette: descriptive User-Agent with a contact address,
+// maxlag on every API call, batch up to 50 titles, back off on 429 (Retry-After).
+export const UA = 'whatsmyteamworth-stadium-map/1.0 (https://github.com/jleviloff-byte/sports-valuation-site; contact: joshua.leviloff@kellogg.northwestern.edu)'
 const API = 'https://en.wikipedia.org/w/api.php'
 export const CACHE_DIR = path.resolve('research/raw/stadiums/wiki')
 fs.mkdirSync(CACHE_DIR, { recursive: true })

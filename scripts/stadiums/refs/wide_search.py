@@ -13,7 +13,10 @@
 # Usage: python3 scripts/stadiums/refs/wide_search.py slug [slug ...]
 import json, os, re, sys, time, urllib.parse, urllib.request
 
-UA = 'stadium-art-overhaul/1.0 (research; contact via repository)'
+# Wikimedia API etiquette: descriptive User-Agent with a contact address, maxlag=5
+# on every API call, up to 50 titles per query, back off on 429 honoring Retry-After,
+# serial requests only. Thumbnails at 480 px (contact-sheet size), never originals.
+UA = 'whatsmyteamworth-stadium-map/1.0 (https://github.com/jleviloff-byte/sports-valuation-site; contact: joshua.leviloff@kellogg.northwestern.edu)'
 # On Kaggle (CPU session, own IP: Commons rate-limits the cloud container) the
 # venue list arrives inlined as JOBS_INLINE = [{slug, name, category, title}].
 _J = globals().get('JOBS_INLINE')
@@ -30,14 +33,16 @@ FREE = re.compile(r'^(public domain|pd|cc0|cc[- ]by(-sa)?[- ]?\d|cc[- ]by(-sa)?$
 SKIP_CAT = re.compile(r'logos?|maps?|diagrams|seating charts|tickets|people|players|events in|games|concerts|matches|\bteams?\b|video|audio|sounds', re.I)
 
 
-def get(url, tries=6, timeout=40):
+def get(url, tries=8, timeout=40):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 502, 503, 504): time.sleep(10 * (i + 1)); continue
+            if e.code == 429:
+                time.sleep(int(e.headers.get('Retry-After') or 0) or 30 * (i + 1)); continue
+            if e.code in (500, 502, 503, 504): time.sleep(10 * (i + 1)); continue
             return None
         except Exception:
             time.sleep(5 * (i + 1))
@@ -45,10 +50,15 @@ def get(url, tries=6, timeout=40):
 
 
 def commons(params):
-    qs = urllib.parse.urlencode({'format': 'json', 'formatversion': '2', **params})
-    b = get(f'https://commons.wikimedia.org/w/api.php?{qs}')
-    time.sleep(1.0)
-    return json.loads(b) if b else {}
+    qs = urllib.parse.urlencode({'format': 'json', 'formatversion': '2', 'maxlag': '5', **params})
+    for i in range(6):
+        b = get(f'https://commons.wikimedia.org/w/api.php?{qs}')
+        time.sleep(1.0)
+        if not b: return {}
+        j = json.loads(b)
+        if j.get('error', {}).get('code') == 'maxlag': time.sleep(5 * (i + 1)); continue
+        return j
+    return {}
 
 
 def strip(h): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', h or '')).strip()
@@ -80,8 +90,8 @@ def commons_files(slug):
                 if re.search(r'\.(jpe?g|png)$', s['title'], re.I): titles.add(s['title'])
     out = []
     tl = sorted(titles)
-    for i in range(0, len(tl), 40):
-        r = commons({'action': 'query', 'titles': '|'.join(tl[i:i + 40]), 'prop': 'imageinfo|categories', 'cllimit': '30',
+    for i in range(0, len(tl), 50):
+        r = commons({'action': 'query', 'titles': '|'.join(tl[i:i + 50]), 'prop': 'imageinfo|categories', 'cllimit': '30',
                      'iiprop': 'url|size|extmetadata', 'iiurlwidth': '480'})
         for p in r.get('query', {}).get('pages', []):
             ii = (p.get('imageinfo') or [None])[0]

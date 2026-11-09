@@ -12,7 +12,8 @@ async function get(url) {
   for (let i = 0; i < 8; i++) {
     try {
       const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) })
-      if (r.ok) return r.json()
+      if (r.ok) { const j = await r.json(); if (j.error?.code === 'maxlag') { await sleep(5000); continue } return j }
+      if (r.status === 429) { await sleep(1000 * (Number(r.headers.get('retry-after')) || 30)); continue }
     } catch {}
     await sleep(15000 * (i + 1))
   }
@@ -26,7 +27,7 @@ const todo = venues.filter((v) => !out[v.slug])
 for (let i = 0; i < todo.length; i += 50) {
   const batch = todo.slice(i, i + 50)
   const titles = batch.map(titleOf)
-  const qs = new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'pageprops', ppprop: 'wikibase_item', redirects: '1', titles: titles.join('|') })
+  const qs = new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', maxlag: '5', prop: 'pageprops', ppprop: 'wikibase_item', redirects: '1', titles: titles.join('|') })
   const r = await get(`https://en.wikipedia.org/w/api.php?${qs}`)
   const norm = new Map()
   for (const n of [...(r.query.normalized || []), ...(r.query.redirects || [])]) norm.set(n.from, n.to)
@@ -34,7 +35,7 @@ for (let i = 0; i < todo.length; i += 50) {
   const resolve = (t) => { let x = t; for (let k = 0; k < 3 && norm.has(x); k++) x = norm.get(x); return qidByTitle.get(x) }
   const qids = batch.map((v, k) => resolve(titles[k]))
   const ids = [...new Set(qids.filter(Boolean))]
-  const w = ids.length ? await get(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=claims&ids=${ids.join('|')}`) : { entities: {} }
+  const w = ids.length ? await get(`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&maxlag=5&props=claims&ids=${ids.join('|')}`) : { entities: {} }
   batch.forEach((v, k) => {
     const e = w.entities[qids[k]]
     const cat = e?.claims?.P373?.[0]?.mainsnak?.datavalue?.value || null

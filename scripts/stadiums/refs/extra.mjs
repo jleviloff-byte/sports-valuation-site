@@ -13,11 +13,12 @@ import { UA } from '../lib/wiki.mjs'
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 async function api(params) {
-  const qs = new URLSearchParams({ format: 'json', formatversion: '2', ...params })
+  const qs = new URLSearchParams({ format: 'json', formatversion: '2', maxlag: '5', ...params })
   for (let i = 0; i < 8; i++) {
     try {
       const r = await fetch(`https://commons.wikimedia.org/w/api.php?${qs}`, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) })
-      if (r.ok) return r.json()
+      if (r.ok) { const j = await r.json(); if (j.error?.code === 'maxlag') { await sleep(5000); continue } return j }
+      if (r.status === 429) { await sleep(1000 * (Number(r.headers.get('retry-after')) || 30)); continue }
     } catch {}
     await sleep(15000 * (i + 1))
   }

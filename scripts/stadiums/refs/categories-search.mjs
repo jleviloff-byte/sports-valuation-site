@@ -10,7 +10,8 @@ async function get(url) {
   for (let i = 0; i < 8; i++) {
     try {
       const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) })
-      if (r.ok) return r.json()
+      if (r.ok) { const j = await r.json(); if (j.error?.code === 'maxlag') { await sleep(5000); continue } return j }
+      if (r.status === 429) { await sleep(1000 * (Number(r.headers.get('retry-after')) || 30)); continue }
     } catch {}
     await sleep(15000 * (i + 1))
   }
@@ -23,7 +24,7 @@ const words = (t) => t.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).fi
 for (const [slug, x] of Object.entries(cats)) {
   if (x.category) continue
   const q = x.title.replace(/\s*\(.*\)$/, '')
-  const r = await get(`https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=14&srlimit=5&srsearch=${encodeURIComponent(q)}`)
+  const r = await get(`https://commons.wikimedia.org/w/api.php?action=query&format=json&maxlag=5&list=search&srnamespace=14&srlimit=5&srsearch=${encodeURIComponent(q)}`)
   const want = words(q)
   const hit = (r.query?.search || []).map((h) => h.title.replace(/^Category:/, '')).find((t) => want.length && want.every((w) => words(t).includes(w)))
   console.log(`${slug}: "${q}" -> ${hit || 'none'}`)

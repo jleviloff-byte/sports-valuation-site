@@ -12,6 +12,7 @@ for (const [slug, list] of Object.entries(ver)) {
   for (const x of list) {
     if (!x.hires || (x.local_hires && fs.existsSync(x.local_hires))) continue
     const name = x.file.replace(/^File:/, '')
+    // Final picked reference only: a 2560 px rendition (not the original upload).
     const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(name)}?width=2560`
     const out = x.local.replace(/\.jpg$/, '-hires.jpg')
     for (let i = 0; i < 8; i++) {
@@ -19,6 +20,7 @@ for (const [slug, list] of Object.entries(ver)) {
         const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(120000) })
         if (r.ok) { fs.writeFileSync(out, Buffer.from(await r.arrayBuffer())); x.local_hires = out; console.log(slug, 'ok'); break }
         console.log(slug, 'HTTP', r.status)
+        if (r.status === 429) { await sleep(1000 * (Number(r.headers.get('retry-after')) || 60)); continue }
       } catch (e) { console.log(slug, 'err', e.message) }
       await sleep(15000 * (i + 1))
     }
