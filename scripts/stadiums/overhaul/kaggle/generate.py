@@ -151,7 +151,7 @@ def blank(img, rects):
 
 log = []
 for job in JOBS:
-    slug = job['slug']; od = os.path.join(OUT, slug); os.makedirs(od, exist_ok=True)
+    slug = job['slug']; od = os.path.join(OUT, slug + job.get('tag', '')); os.makedirs(od, exist_ok=True)  # tag: one venue under several configs
     t = time.time()
     if job.get('control'):  # fallback path: depth/edges rendered from the NAIP-measured model
         ref = blank(Image.open(os.path.join(IN, job['ref'])).convert('RGB'), job.get('blank', []))

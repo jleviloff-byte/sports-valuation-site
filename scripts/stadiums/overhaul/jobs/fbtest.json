@@ -1,0 +1,162 @@
+[
+ {
+  "slug": "kyle-field",
+  "kind": "football stadium",
+  "ref": "controls/kyle-field/color.png",
+  "desc_short": "Kyle Field: very large closed college football bowl with tall steep upper decks on all sides, brick and gray concrete exterior with towers, green field",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kyle-field/depth.png",
+   "edges": "controls/kyle-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-A"
+ },
+ {
+  "slug": "kyle-field",
+  "kind": "football stadium",
+  "ref": "style/ashe.png",
+  "desc_short": "Kyle Field: very large closed college football bowl with tall steep upper decks on all sides, brick and gray concrete exterior with towers, green field",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kyle-field/depth.png",
+   "edges": "controls/kyle-field/edges.png"
+  },
+  "ip_scale": 0.3,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-B"
+ },
+ {
+  "slug": "busch-stadium",
+  "kind": "baseball park",
+  "ref": "controls/busch-stadium/color.png",
+  "desc_short": "Busch Stadium: red brick and steel ballpark with red seats, open outfield toward downtown, steel truss roof over the upper deck, grass field",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/busch-stadium/depth.png",
+   "edges": "controls/busch-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-A"
+ },
+ {
+  "slug": "busch-stadium",
+  "kind": "baseball park",
+  "ref": "style/ashe.png",
+  "desc_short": "Busch Stadium: red brick and steel ballpark with red seats, open outfield toward downtown, steel truss roof over the upper deck, grass field",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/busch-stadium/depth.png",
+   "edges": "controls/busch-stadium/edges.png"
+  },
+  "ip_scale": 0.3,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-B"
+ },
+ {
+  "slug": "td-garden",
+  "kind": "indoor arena",
+  "ref": "controls/td-garden/color.png",
+  "desc_short": "TD Garden: box-shaped arena built above a rail station, glass and metal facade, flat roof, a tall office tower beside it",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/td-garden/depth.png",
+   "edges": "controls/td-garden/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-A"
+ },
+ {
+  "slug": "td-garden",
+  "kind": "indoor arena",
+  "ref": "style/ashe.png",
+  "desc_short": "TD Garden: box-shaped arena built above a rail station, glass and metal facade, flat roof, a tall office tower beside it",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/td-garden/depth.png",
+   "edges": "controls/td-garden/edges.png"
+  },
+  "ip_scale": 0.3,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-B"
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/charlotte-motor-speedway/color.png",
+  "desc_short": "Charlotte Motor Speedway: banked quad-oval of gray asphalt around a green infield with a lake, a long multi-level grandstand with suites along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/charlotte-motor-speedway/depth.png",
+   "edges": "controls/charlotte-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-A"
+ },
+ {
+  "slug": "charlotte-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "style/ashe.png",
+  "desc_short": "Charlotte Motor Speedway: banked quad-oval of gray asphalt around a green infield with a lake, a long multi-level grandstand with suites along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/charlotte-motor-speedway/depth.png",
+   "edges": "controls/charlotte-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.3,
+  "cn_scale": [
+   0.75,
+   0.55
+  ],
+  "tag": "-B"
+ }
+]
