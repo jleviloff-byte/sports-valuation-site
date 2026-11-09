@@ -1,0 +1,60 @@
+[
+ {
+  "slug": "bank-of-america-stadium",
+  "boxes": []
+ },
+ {
+  "slug": "nissan-stadium",
+  "boxes": []
+ },
+ {
+  "slug": "state-farm-stadium",
+  "boxes": [
+   [
+    0.52,
+    0.3,
+    0.64,
+    0.5
+   ],
+   [
+    0.5,
+    0.6,
+    0.66,
+    0.72
+   ]
+  ]
+ },
+ {
+  "slug": "reliant-stadium",
+  "boxes": [
+   [
+    0.3,
+    0.4,
+    0.42,
+    0.5
+   ]
+  ]
+ },
+ {
+  "slug": "raymond-james-stadium",
+  "boxes": []
+ },
+ {
+  "slug": "spartan-stadium",
+  "boxes": [
+   [
+    0.24,
+    0.4,
+    0.32,
+    0.8
+   ],
+   [
+    0.68,
+    0.4,
+    0.75,
+    0.8
+   ]
+  ],
+  "prompt": "museum-quality architectural scale model, plain green grass football field with white yard lines, plain end zones, soft daylight, no lettering"
+ }
+]

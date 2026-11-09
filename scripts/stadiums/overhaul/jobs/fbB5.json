@@ -1,0 +1,686 @@
+[
+ {
+  "slug": "allianz-field",
+  "kind": "soccer stadium",
+  "ref": "controls/allianz-field/color.png",
+  "desc_short": "Allianz Field: soccer stadium bowl with white seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/allianz-field/depth.png",
+   "edges": "controls/allianz-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bud-walton-arena",
+  "kind": "indoor arena",
+  "ref": "controls/bud-walton-arena/color.png",
+  "desc_short": "Bud Walton Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bud-walton-arena/depth.png",
+   "edges": "controls/bud-walton-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "lenovo-center",
+  "kind": "indoor arena",
+  "ref": "controls/lenovo-center/color.png",
+  "desc_short": "Lenovo Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/lenovo-center/depth.png",
+   "edges": "controls/lenovo-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dana-j-dykhouse-stadium",
+  "kind": "football stadium",
+  "ref": "controls/dana-j-dykhouse-stadium/color.png",
+  "desc_short": "Dana J. Dykhouse Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dana-j-dykhouse-stadium/depth.png",
+   "edges": "controls/dana-j-dykhouse-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "amerant-bank-arena",
+  "kind": "indoor arena",
+  "ref": "controls/amerant-bank-arena/color.png",
+  "desc_short": "Amerant Bank Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/amerant-bank-arena/depth.png",
+   "edges": "controls/amerant-bank-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "benchmark-international-arena",
+  "kind": "indoor arena",
+  "ref": "controls/benchmark-international-arena/color.png",
+  "desc_short": "Benchmark International Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/benchmark-international-arena/depth.png",
+   "edges": "controls/benchmark-international-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "keybank-center",
+  "kind": "indoor arena",
+  "ref": "controls/keybank-center/color.png",
+  "desc_short": "KeyBank Center: enclosed indoor arena with a green roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/keybank-center/depth.png",
+   "edges": "controls/keybank-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kia-center",
+  "kind": "indoor arena",
+  "ref": "controls/kia-center/color.png",
+  "desc_short": "Kia Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kia-center/depth.png",
+   "edges": "controls/kia-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "target-center",
+  "kind": "indoor arena",
+  "ref": "controls/target-center/color.png",
+  "desc_short": "Target Center: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/target-center/depth.png",
+   "edges": "controls/target-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "prudential-center",
+  "kind": "indoor arena",
+  "ref": "controls/prudential-center/color.png",
+  "desc_short": "Prudential Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/prudential-center/depth.png",
+   "edges": "controls/prudential-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "fargodome",
+  "kind": "football stadium",
+  "ref": "controls/fargodome/color.png",
+  "desc_short": "Fargodome: enclosed football stadium with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/fargodome/depth.png",
+   "edges": "controls/fargodome/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "nationwide-arena",
+  "kind": "indoor arena",
+  "ref": "controls/nationwide-arena/color.png",
+  "desc_short": "Nationwide Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/nationwide-arena/depth.png",
+   "edges": "controls/nationwide-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "subaru-park",
+  "kind": "soccer stadium",
+  "ref": "controls/subaru-park/color.png",
+  "desc_short": "Subaru Park: soccer stadium bowl with blue seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/subaru-park/depth.png",
+   "edges": "controls/subaru-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "frost-bank-center",
+  "kind": "indoor arena",
+  "ref": "controls/frost-bank-center/color.png",
+  "desc_short": "Frost Bank Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/frost-bank-center/depth.png",
+   "edges": "controls/frost-bank-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "chi-health-center",
+  "kind": "indoor arena",
+  "ref": "controls/chi-health-center/color.png",
+  "desc_short": "CHI Health Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/chi-health-center/depth.png",
+   "edges": "controls/chi-health-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "cefcu-stadium",
+  "kind": "football stadium",
+  "ref": "controls/cefcu-stadium/color.png",
+  "desc_short": "CEFCU Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/cefcu-stadium/depth.png",
+   "edges": "controls/cefcu-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "ppg-paints-arena",
+  "kind": "indoor arena",
+  "ref": "controls/ppg-paints-arena/color.png",
+  "desc_short": "PPG Paints Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/ppg-paints-arena/depth.png",
+   "edges": "controls/ppg-paints-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "delta-center",
+  "kind": "indoor arena",
+  "ref": "controls/delta-center/color.png",
+  "desc_short": "Delta Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/delta-center/depth.png",
+   "edges": "controls/delta-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "toyota-center",
+  "kind": "indoor arena",
+  "ref": "controls/toyota-center/color.png",
+  "desc_short": "Toyota Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/toyota-center/depth.png",
+   "edges": "controls/toyota-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "enterprise-center",
+  "kind": "indoor arena",
+  "ref": "controls/enterprise-center/color.png",
+  "desc_short": "Enterprise Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/enterprise-center/depth.png",
+   "edges": "controls/enterprise-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dick-s-sporting-goods-park",
+  "kind": "soccer stadium",
+  "ref": "controls/dick-s-sporting-goods-park/color.png",
+  "desc_short": "Dick's Sporting Goods Park: soccer stadium bowl with light gray seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dick-s-sporting-goods-park/depth.png",
+   "edges": "controls/dick-s-sporting-goods-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "colonial-life-arena",
+  "kind": "indoor arena",
+  "ref": "controls/colonial-life-arena/color.png",
+  "desc_short": "Colonial Life Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/colonial-life-arena/depth.png",
+   "edges": "controls/colonial-life-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "paypal-park",
+  "kind": "soccer stadium",
+  "ref": "controls/paypal-park/color.png",
+  "desc_short": "PayPal Park: soccer stadium bowl with teal seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/paypal-park/depth.png",
+   "edges": "controls/paypal-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "marriott-center",
+  "kind": "indoor arena",
+  "ref": "controls/marriott-center/color.png",
+  "desc_short": "Marriott Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/marriott-center/depth.png",
+   "edges": "controls/marriott-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "grand-casino-arena",
+  "kind": "indoor arena",
+  "ref": "controls/grand-casino-arena/color.png",
+  "desc_short": "Grand Casino Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/grand-casino-arena/depth.png",
+   "edges": "controls/grand-casino-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "thomas-and-mack-center",
+  "kind": "indoor arena",
+  "ref": "controls/thomas-and-mack-center/color.png",
+  "desc_short": "Thomas & Mack Center: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/thomas-and-mack-center/depth.png",
+   "edges": "controls/thomas-and-mack-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "navarre-stadium",
+  "kind": "football stadium",
+  "ref": "controls/navarre-stadium/color.png",
+  "desc_short": "Navarre Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/navarre-stadium/depth.png",
+   "edges": "controls/navarre-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "barclays-center",
+  "kind": "indoor arena",
+  "ref": "controls/barclays-center/color.png",
+  "desc_short": "Barclays Center: enclosed indoor arena with a green roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/barclays-center/depth.png",
+   "edges": "controls/barclays-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "provost-umphrey-stadium",
+  "kind": "football stadium",
+  "ref": "controls/provost-umphrey-stadium/color.png",
+  "desc_short": "Provost Umphrey Stadium: football stadium bowl with green seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/provost-umphrey-stadium/depth.png",
+   "edges": "controls/provost-umphrey-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "robert-w-plaster-stadium",
+  "kind": "football stadium",
+  "ref": "controls/robert-w-plaster-stadium/color.png",
+  "desc_short": "Robert W. Plaster Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/robert-w-plaster-stadium/depth.png",
+   "edges": "controls/robert-w-plaster-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "t-mobile-arena",
+  "kind": "indoor arena",
+  "ref": "controls/t-mobile-arena/color.png",
+  "desc_short": "T-Mobile Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/t-mobile-arena/depth.png",
+   "edges": "controls/t-mobile-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "fiserv-forum",
+  "kind": "indoor arena",
+  "ref": "controls/fiserv-forum/color.png",
+  "desc_short": "Fiserv Forum: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/fiserv-forum/depth.png",
+   "edges": "controls/fiserv-forum/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "xfinity-center",
+  "kind": "indoor arena",
+  "ref": "controls/xfinity-center/color.png",
+  "desc_short": "Xfinity Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/xfinity-center/depth.png",
+   "edges": "controls/xfinity-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kohl-center",
+  "kind": "indoor arena",
+  "ref": "controls/kohl-center/color.png",
+  "desc_short": "Kohl Center: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kohl-center/depth.png",
+   "edges": "controls/kohl-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "gainbridge-fieldhouse",
+  "kind": "indoor arena",
+  "ref": "controls/gainbridge-fieldhouse/color.png",
+  "desc_short": "Gainbridge Fieldhouse: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/gainbridge-fieldhouse/depth.png",
+   "edges": "controls/gainbridge-fieldhouse/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "ubs-arena",
+  "kind": "indoor arena",
+  "ref": "controls/ubs-arena/color.png",
+  "desc_short": "UBS Arena: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/ubs-arena/depth.png",
+   "edges": "controls/ubs-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]

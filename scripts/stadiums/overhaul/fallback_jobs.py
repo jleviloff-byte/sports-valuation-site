@@ -1,10 +1,9 @@
 # Generation jobs for the generic fallback path: controls rendered from the
 # generic model (generic.js -> render.mjs -> prep_fallback.py), the flat-color
-# render as the style reference and img2img init (as the pilot's fallback
-# venues), and a description from the spec sheet when one exists, otherwise
+# render as a weak style reference (text-to-image; config A of jobs/fbtest.json), and a description from the spec sheet when one exists, otherwise
 # from the venue type with color names from the NAIP-sampled colors.
 # Usage: python3 fallback_jobs.py <out.json> slug [slug ...]
-import colorsys, glob, json, sys
+import colorsys, glob, json, os, sys
 V = {v['slug']: v for v in json.load(open('data/stadiums.json'))['venues']}
 C = json.load(open('scripts/stadiums/overhaul/naip-colors.json'))
 SPEC = {}
@@ -35,12 +34,14 @@ def desc(s):
     field = 'green soccer pitch' if t == 'soccer_specific' else 'green football field with white yard lines'
     return f"{v['name']}: {KIND[t]} bowl with {seat} seats, concrete concourse, {field}"
 
-out = []
-for s in sys.argv[2:]:
-    v = V[s]
-    kind = KIND[v['venue_type']]
-    out.append({'slug': s, 'kind': kind, 'ref': f'controls/{s}/color.png', 'desc_short': desc(s), 'seeds': [11, 44, 55],
-                'control': {'depth': f'controls/{s}/depth.png', 'edges': f'controls/{s}/edges.png'},
-                'ip_scale': 0.35, 'cn_scale': [0.8, 0.8], 'init': f'controls/{s}/color.png', 'strength': 0.75})
-json.dump(out, open(sys.argv[1], 'w'), indent=1)
-for j in out: print(j['slug'], '|', j['desc_short'][:150])
+if __name__ == '__main__':
+    SEEDS = [int(x) for x in os.environ.get('SEEDS', '11,44,55').split(',')]
+    out = []
+    for s in sys.argv[2:]:
+        v = V[s]
+        kind = KIND[v['venue_type']]
+        out.append({'slug': s, 'kind': kind, 'ref': f'controls/{s}/color.png', 'desc_short': desc(s), 'seeds': SEEDS,
+                    'control': {'depth': f'controls/{s}/depth.png', 'edges': f'controls/{s}/edges.png'},
+                    'ip_scale': 0.2, 'cn_scale': [0.75, 0.55]})  # text-to-image (fbtest config A): img2img from the flat render kept it flat
+    json.dump(out, open(sys.argv[1], 'w'), indent=1)
+    for j in out: print(j['slug'], '|', j['desc_short'][:150])

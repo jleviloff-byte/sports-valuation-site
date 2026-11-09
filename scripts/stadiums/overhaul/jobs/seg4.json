@@ -1,0 +1,57 @@
+[
+ {
+  "slug": "lane-stadium",
+  "ref": "refs/lane-stadium/8.jpg",
+  "box": [
+   0.0,
+   0.1,
+   0.76,
+   0.68
+  ],
+  "query": "a stadium."
+ },
+ {
+  "slug": "kenan-stadium",
+  "ref": "refs/kenan-stadium/1.jpg",
+  "box": [
+   0.18,
+   0.38,
+   0.92,
+   0.85
+  ],
+  "query": "a stadium."
+ },
+ {
+  "slug": "snapdragon-stadium",
+  "ref": "refs/snapdragon-stadium/1.jpg",
+  "box": [
+   0.18,
+   0.25,
+   0.82,
+   0.86
+  ],
+  "query": "a stadium."
+ },
+ {
+  "slug": "powers-field-at-princeton-stadium",
+  "ref": "refs/powers-field-at-princeton-stadium/1.jpg",
+  "box": [
+   0.03,
+   0.2,
+   0.97,
+   0.97
+  ],
+  "query": "a stadium."
+ },
+ {
+  "slug": "washington-grizzly-stadium",
+  "ref": "refs/washington-grizzly-stadium/1.jpg",
+  "box": [
+   0.15,
+   0.17,
+   0.88,
+   0.75
+  ],
+  "query": "a stadium."
+ }
+]

@@ -2312,7 +2312,7 @@
    "height": 6691,
    "local": "research/raw/stadiums/refs-cand/firstbank-stadium/1.jpg",
    "n": 1,
-   "role": "structure+style",
+   "role": "rejected: venue cut off at the frame edge (segmentation review); generic fallback model used",
    "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
    "verified": "2026-11-08",
    "hires": false
@@ -2407,7 +2407,7 @@
    "height": 1080,
    "local": "research/raw/stadiums/refs-cand/rynearson-stadium/2.jpg",
    "n": 2,
-   "role": "structure+style",
+   "role": "rejected: venue cut off at the frame edge (segmentation review); generic fallback model used",
    "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
    "verified": "2026-11-08",
    "hires": false
@@ -2540,7 +2540,7 @@
    "height": 2955,
    "local": "research/raw/stadiums/refs-cand/fitton-field/1.jpg",
    "n": 1,
-   "role": "structure+style",
+   "role": "rejected: venue cut off at the frame edge (segmentation review); generic fallback model used",
    "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
    "verified": "2026-11-08",
    "hires": false
@@ -2711,7 +2711,7 @@
    "height": 3510,
    "local": "research/raw/stadiums/refs-cand/delaware-stadium/1.jpg",
    "n": 1,
-   "role": "structure+style",
+   "role": "rejected: venue cut off at the frame edge (segmentation review); generic fallback model used",
    "note": "aerial; long tail; checked against the NAIP footprint on a review sheet",
    "verified": "2026-11-08",
    "hires": false

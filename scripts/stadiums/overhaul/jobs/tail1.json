@@ -1,0 +1,365 @@
+[
+ {
+  "slug": "legion-field",
+  "kind": "football stadium",
+  "ref": "refs/legion-field/1.jpg",
+  "mask": "masks/legion-field-hull.png",
+  "desc_short": "Legion Field: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "faurot-field",
+  "kind": "football stadium",
+  "ref": "refs/faurot-field/1.jpg",
+  "mask": "masks/faurot-field-hull.png",
+  "desc_short": "Faurot Field: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "scott-stadium",
+  "kind": "football stadium",
+  "ref": "refs/scott-stadium/1.jpg",
+  "mask": "masks/scott-stadium-hull.png",
+  "desc_short": "Scott Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "yale-bowl",
+  "kind": "football stadium",
+  "ref": "refs/yale-bowl/10.jpg",
+  "mask": "masks/yale-bowl-hull.png",
+  "desc_short": "Yale Bowl: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "ross-ade-stadium",
+  "kind": "football stadium",
+  "ref": "refs/ross-ade-stadium/2.jpg",
+  "mask": "masks/ross-ade-stadium-hull.png",
+  "desc_short": "Ross\u2013Ade Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "galaxy-stadium",
+  "kind": "football stadium",
+  "ref": "refs/galaxy-stadium/1.jpg",
+  "mask": "masks/galaxy-stadium-hull.png",
+  "desc_short": "Galaxy Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "milan-puskar-stadium",
+  "kind": "football stadium",
+  "ref": "refs/milan-puskar-stadium/1.jpg",
+  "mask": "masks/milan-puskar-stadium-hull.png",
+  "desc_short": "Milan Puskar Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "california-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "refs/california-memorial-stadium/1.jpg",
+  "mask": "masks/california-memorial-stadium-hull.png",
+  "desc_short": "California Memorial Stadium: football stadium with yellow seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "huntington-bank-stadium",
+  "kind": "football stadium",
+  "ref": "refs/huntington-bank-stadium/1.jpg",
+  "mask": "masks/huntington-bank-stadium-hull.png",
+  "desc_short": "Huntington Bank Stadium: football stadium with red seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "first-community-stadium",
+  "kind": "football stadium",
+  "ref": "refs/first-community-stadium/9.jpg",
+  "mask": "masks/first-community-stadium-hull.png",
+  "desc_short": "First Community Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "sun-bowl",
+  "kind": "football stadium",
+  "ref": "refs/sun-bowl/13.jpg",
+  "mask": "masks/sun-bowl-hull.png",
+  "desc_short": "Sun Bowl: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "simmons-bank-liberty-stadium",
+  "kind": "football stadium",
+  "ref": "refs/simmons-bank-liberty-stadium/14.jpg",
+  "mask": "masks/simmons-bank-liberty-stadium-hull.png",
+  "desc_short": "Simmons Bank Liberty Stadium: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "alumni-stadium",
+  "kind": "football stadium",
+  "ref": "refs/alumni-stadium/4.jpg",
+  "mask": "masks/alumni-stadium-hull.png",
+  "desc_short": "Alumni Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "veterans-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "refs/veterans-memorial-stadium/2.jpg",
+  "mask": "masks/veterans-memorial-stadium-hull.png",
+  "desc_short": "Veterans Memorial Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "datcu-stadium",
+  "kind": "football stadium",
+  "ref": "refs/datcu-stadium/22.jpg",
+  "mask": "masks/datcu-stadium-hull.png",
+  "desc_short": "DATCU Stadium: football stadium with yellow seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "hancock-whitney-stadium",
+  "kind": "football stadium",
+  "ref": "refs/hancock-whitney-stadium/1.jpg",
+  "mask": "masks/hancock-whitney-stadium-hull.png",
+  "desc_short": "Hancock Whitney Stadium: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "broadview-stadium",
+  "kind": "football stadium",
+  "ref": "refs/broadview-stadium/2.jpg",
+  "mask": "masks/broadview-stadium-hull.png",
+  "desc_short": "Broadview Stadium: football stadium with red seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "harvard-stadium",
+  "kind": "football stadium",
+  "ref": "refs/harvard-stadium/22.jpg",
+  "mask": "masks/harvard-stadium-hull.png",
+  "desc_short": "Harvard Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "williams-stadium",
+  "kind": "football stadium",
+  "ref": "refs/williams-stadium/1.jpg",
+  "mask": "masks/williams-stadium-hull.png",
+  "desc_short": "Williams Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "charles-schwab-field",
+  "kind": "baseball park",
+  "ref": "refs/charles-schwab-field/2.jpg",
+  "mask": "masks/charles-schwab-field-hull.png",
+  "desc_short": "Charles Schwab Field: baseball park with gray seats, dirt infield and green grass outfield",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "shell-energy-stadium",
+  "kind": "football stadium",
+  "ref": "refs/shell-energy-stadium/4.jpg",
+  "mask": "masks/shell-energy-stadium-hull.png",
+  "desc_short": "Shell Energy Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "hornet-stadium",
+  "kind": "football stadium",
+  "ref": "refs/hornet-stadium/1.jpg",
+  "mask": "masks/hornet-stadium-hull.png",
+  "desc_short": "Hornet Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "bobcat-stadium",
+  "kind": "football stadium",
+  "ref": "refs/bobcat-stadium/1.jpg",
+  "mask": "masks/bobcat-stadium-hull.png",
+  "desc_short": "Bobcat Stadium: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "richard-gouse-field-at-brown-stadium",
+  "kind": "football stadium",
+  "ref": "refs/richard-gouse-field-at-brown-stadium/1.jpg",
+  "mask": "masks/richard-gouse-field-at-brown-stadium-hull.png",
+  "desc_short": "Richard Gouse Field at Brown Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "value-city-arena",
+  "kind": "indoor arena",
+  "ref": "refs/value-city-arena/1.jpg",
+  "mask": "masks/value-city-arena-hull.png",
+  "desc_short": "Value City Arena: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "moda-center",
+  "kind": "indoor arena",
+  "ref": "refs/moda-center/1.jpg",
+  "mask": "masks/moda-center-hull.png",
+  "desc_short": "Moda Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "american-airlines-center",
+  "kind": "indoor arena",
+  "ref": "refs/american-airlines-center/24.jpg",
+  "mask": "masks/american-airlines-center-hull.png",
+  "desc_short": "American Airlines Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "sap-center",
+  "kind": "indoor arena",
+  "ref": "refs/sap-center/9.jpg",
+  "mask": "masks/sap-center-hull.png",
+  "desc_short": "SAP Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "sporting-park",
+  "kind": "soccer stadium",
+  "ref": "refs/sporting-park/1.jpg",
+  "mask": "masks/sporting-park-hull.png",
+  "desc_short": "Sporting Park: soccer stadium with blue seats, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "paycom-center",
+  "kind": "indoor arena",
+  "ref": "refs/paycom-center/1.jpg",
+  "mask": "masks/paycom-center-hull.png",
+  "desc_short": "Paycom Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "bok-center",
+  "kind": "indoor arena",
+  "ref": "refs/bok-center/1.jpg",
+  "mask": "masks/bok-center-hull.png",
+  "desc_short": "BOK Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "golden-1-center",
+  "kind": "indoor arena",
+  "ref": "refs/golden-1-center/1.jpg",
+  "mask": "masks/golden-1-center-hull.png",
+  "desc_short": "Golden 1 Center: enclosed arena with its real roof and facade",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "kibbie-dome",
+  "kind": "football stadium",
+  "ref": "refs/kibbie-dome/1.jpg",
+  "mask": "masks/kibbie-dome-hull.png",
+  "desc_short": "Kibbie Dome: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ }
+]

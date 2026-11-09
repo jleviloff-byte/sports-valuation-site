@@ -1,0 +1,667 @@
+[
+ {
+  "slug": "simon-skjodt-assembly-hall",
+  "kind": "indoor arena",
+  "ref": "controls/simon-skjodt-assembly-hall/color.png",
+  "desc_short": "Simon Skjodt Assembly Hall: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/simon-skjodt-assembly-hall/depth.png",
+   "edges": "controls/simon-skjodt-assembly-hall/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "uni-dome",
+  "kind": "football stadium",
+  "ref": "controls/uni-dome/color.png",
+  "desc_short": "UNI-Dome: enclosed football stadium with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/uni-dome/depth.png",
+   "edges": "controls/uni-dome/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "honda-center",
+  "kind": "indoor arena",
+  "ref": "controls/honda-center/color.png",
+  "desc_short": "Honda Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/honda-center/depth.png",
+   "edges": "controls/honda-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bridgestone-arena",
+  "kind": "indoor arena",
+  "ref": "controls/bridgestone-arena/color.png",
+  "desc_short": "Bridgestone Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bridgestone-arena/depth.png",
+   "edges": "controls/bridgestone-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "climate-pledge-arena",
+  "kind": "indoor arena",
+  "ref": "controls/climate-pledge-arena/color.png",
+  "desc_short": "Climate Pledge Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/climate-pledge-arena/depth.png",
+   "edges": "controls/climate-pledge-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mortgage-matchup-center",
+  "kind": "indoor arena",
+  "ref": "controls/mortgage-matchup-center/color.png",
+  "desc_short": "Mortgage Matchup Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mortgage-matchup-center/depth.png",
+   "edges": "controls/mortgage-matchup-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bowman-gray-stadium",
+  "kind": "motor racing oval",
+  "ref": "controls/bowman-gray-stadium/color.png",
+  "desc_short": "Bowman Gray Stadium: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bowman-gray-stadium/depth.png",
+   "edges": "controls/bowman-gray-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "robert-k-kraft-field-at-lawrence-a-wien-stadium",
+  "kind": "football stadium",
+  "ref": "controls/robert-k-kraft-field-at-lawrence-a-wien-stadium/color.png",
+  "desc_short": "Robert K. Kraft Field at Lawrence A. Wien Stadium: football stadium bowl with orange seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/robert-k-kraft-field-at-lawrence-a-wien-stadium/depth.png",
+   "edges": "controls/robert-k-kraft-field-at-lawrence-a-wien-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "warren-mcguirk-alumni-stadium",
+  "kind": "football stadium",
+  "ref": "controls/warren-mcguirk-alumni-stadium/color.png",
+  "desc_short": "Warren McGuirk Alumni Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/warren-mcguirk-alumni-stadium/depth.png",
+   "edges": "controls/warren-mcguirk-alumni-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "state-farm-arena",
+  "kind": "indoor arena",
+  "ref": "controls/state-farm-arena/color.png",
+  "desc_short": "State Farm Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/state-farm-arena/depth.png",
+   "edges": "controls/state-farm-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "smoothie-king-center",
+  "kind": "indoor arena",
+  "ref": "controls/smoothie-king-center/color.png",
+  "desc_short": "Smoothie King Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/smoothie-king-center/depth.png",
+   "edges": "controls/smoothie-king-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "roy-stewart-stadium",
+  "kind": "football stadium",
+  "ref": "controls/roy-stewart-stadium/color.png",
+  "desc_short": "Roy Stewart Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/roy-stewart-stadium/depth.png",
+   "edges": "controls/roy-stewart-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "fedexforum",
+  "kind": "indoor arena",
+  "ref": "controls/fedexforum/color.png",
+  "desc_short": "FedExForum: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/fedexforum/depth.png",
+   "edges": "controls/fedexforum/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "tucker-stadium",
+  "kind": "football stadium",
+  "ref": "controls/tucker-stadium/color.png",
+  "desc_short": "Tucker Stadium: football stadium bowl with red seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/tucker-stadium/depth.png",
+   "edges": "controls/tucker-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "hanson-field",
+  "kind": "football stadium",
+  "ref": "controls/hanson-field/color.png",
+  "desc_short": "Hanson Field: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/hanson-field/depth.png",
+   "edges": "controls/hanson-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "indian-wells-tennis-garden",
+  "kind": "tennis stadium",
+  "ref": "controls/indian-wells-tennis-garden/color.png",
+  "desc_short": "Indian Wells Tennis Garden: tennis stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/indian-wells-tennis-garden/depth.png",
+   "edges": "controls/indian-wells-tennis-garden/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "goodman-stadium",
+  "kind": "football stadium",
+  "ref": "controls/goodman-stadium/color.png",
+  "desc_short": "Goodman Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/goodman-stadium/depth.png",
+   "edges": "controls/goodman-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "paladin-stadium",
+  "kind": "football stadium",
+  "ref": "controls/paladin-stadium/color.png",
+  "desc_short": "Paladin Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/paladin-stadium/depth.png",
+   "edges": "controls/paladin-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "simmons-bank-field",
+  "kind": "football stadium",
+  "ref": "controls/simmons-bank-field/color.png",
+  "desc_short": "Simmons Bank Field: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/simmons-bank-field/depth.png",
+   "edges": "controls/simmons-bank-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "harry-turpin-stadium",
+  "kind": "football stadium",
+  "ref": "controls/harry-turpin-stadium/color.png",
+  "desc_short": "Harry Turpin Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/harry-turpin-stadium/depth.png",
+   "edges": "controls/harry-turpin-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "save-mart-center",
+  "kind": "indoor arena",
+  "ref": "controls/save-mart-center/color.png",
+  "desc_short": "Save Mart Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/save-mart-center/depth.png",
+   "edges": "controls/save-mart-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "state-farm-center",
+  "kind": "indoor arena",
+  "ref": "controls/state-farm-center/color.png",
+  "desc_short": "State Farm Center: enclosed indoor arena with a blue roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/state-farm-center/depth.png",
+   "edges": "controls/state-farm-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "pinnacle-bank-arena",
+  "kind": "indoor arena",
+  "ref": "controls/pinnacle-bank-arena/color.png",
+  "desc_short": "Pinnacle Bank Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/pinnacle-bank-arena/depth.png",
+   "edges": "controls/pinnacle-bank-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "the-pit",
+  "kind": "indoor arena",
+  "ref": "controls/the-pit/color.png",
+  "desc_short": "The Pit: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/the-pit/depth.png",
+   "edges": "controls/the-pit/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "coleman-coliseum",
+  "kind": "indoor arena",
+  "ref": "controls/coleman-coliseum/color.png",
+  "desc_short": "Coleman Coliseum: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/coleman-coliseum/depth.png",
+   "edges": "controls/coleman-coliseum/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "jerry-richardson-stadium",
+  "kind": "football stadium",
+  "ref": "controls/jerry-richardson-stadium/color.png",
+  "desc_short": "Jerry Richardson Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/jerry-richardson-stadium/depth.png",
+   "edges": "controls/jerry-richardson-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bryce-jordan-center",
+  "kind": "indoor arena",
+  "ref": "controls/bryce-jordan-center/color.png",
+  "desc_short": "Bryce Jordan Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bryce-jordan-center/depth.png",
+   "edges": "controls/bryce-jordan-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mvp-arena",
+  "kind": "indoor arena",
+  "ref": "controls/mvp-arena/color.png",
+  "desc_short": "MVP Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mvp-arena/depth.png",
+   "edges": "controls/mvp-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "clarence-t-c-ching-athletics-complex",
+  "kind": "football stadium",
+  "ref": "controls/clarence-t-c-ching-athletics-complex/color.png",
+  "desc_short": "Clarence T. C. Ching Athletics Complex: football stadium bowl with dark gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/clarence-t-c-ching-athletics-complex/depth.png",
+   "edges": "controls/clarence-t-c-ching-athletics-complex/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "united-supermarkets-arena",
+  "kind": "indoor arena",
+  "ref": "controls/united-supermarkets-arena/color.png",
+  "desc_short": "United Supermarkets Arena: enclosed indoor arena with a red roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/united-supermarkets-arena/depth.png",
+   "edges": "controls/united-supermarkets-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mizzou-arena",
+  "kind": "indoor arena",
+  "ref": "controls/mizzou-arena/color.png",
+  "desc_short": "Mizzou Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mizzou-arena/depth.png",
+   "edges": "controls/mizzou-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "hilton-coliseum",
+  "kind": "indoor arena",
+  "ref": "controls/hilton-coliseum/color.png",
+  "desc_short": "Hilton Coliseum: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/hilton-coliseum/depth.png",
+   "edges": "controls/hilton-coliseum/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "jon-m-huntsman-center",
+  "kind": "indoor arena",
+  "ref": "controls/jon-m-huntsman-center/color.png",
+  "desc_short": "Jon M. Huntsman Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/jon-m-huntsman-center/depth.png",
+   "edges": "controls/jon-m-huntsman-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "panther-stadium-at-blackshear-field",
+  "kind": "football stadium",
+  "ref": "controls/panther-stadium-at-blackshear-field/color.png",
+  "desc_short": "Panther Stadium at Blackshear Field: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/panther-stadium-at-blackshear-field/depth.png",
+   "edges": "controls/panther-stadium-at-blackshear-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "saluki-stadium",
+  "kind": "football stadium",
+  "ref": "controls/saluki-stadium/color.png",
+  "desc_short": "Saluki Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/saluki-stadium/depth.png",
+   "edges": "controls/saluki-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]

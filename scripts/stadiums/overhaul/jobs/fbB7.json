@@ -1,0 +1,78 @@
+[
+ {
+  "slug": "firstbank-stadium",
+  "kind": "football stadium",
+  "ref": "controls/firstbank-stadium/color.png",
+  "desc_short": "FirstBank Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/firstbank-stadium/depth.png",
+   "edges": "controls/firstbank-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "rynearson-stadium",
+  "kind": "football stadium",
+  "ref": "controls/rynearson-stadium/color.png",
+  "desc_short": "Rynearson Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/rynearson-stadium/depth.png",
+   "edges": "controls/rynearson-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "fitton-field",
+  "kind": "football stadium",
+  "ref": "controls/fitton-field/color.png",
+  "desc_short": "Fitton Field: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/fitton-field/depth.png",
+   "edges": "controls/fitton-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "delaware-stadium",
+  "kind": "football stadium",
+  "ref": "controls/delaware-stadium/color.png",
+  "desc_short": "Delaware Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/delaware-stadium/depth.png",
+   "edges": "controls/delaware-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]

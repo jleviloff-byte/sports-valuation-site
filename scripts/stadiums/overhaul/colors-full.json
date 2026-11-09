@@ -1454,5 +1454,863 @@
    "hex": "#353748",
    "share": 0.151
   }
+ ],
+ "alumni-stadium": [
+  {
+   "hex": "#ebedf1",
+   "share": 0.248
+  },
+  {
+   "hex": "#ced0d4",
+   "share": 0.231
+  },
+  {
+   "hex": "#484c5b",
+   "share": 0.171
+  },
+  {
+   "hex": "#aba8a7",
+   "share": 0.15
+  },
+  {
+   "hex": "#49673c",
+   "share": 0.124
+  },
+  {
+   "hex": "#7f7c7b",
+   "share": 0.075
+  }
+ ],
+ "american-airlines-center": [
+  {
+   "hex": "#3b3030",
+   "share": 0.262
+  },
+  {
+   "hex": "#e2e2e2",
+   "share": 0.183
+  },
+  {
+   "hex": "#54575f",
+   "share": 0.18
+  },
+  {
+   "hex": "#1a161a",
+   "share": 0.13
+  },
+  {
+   "hex": "#b9b6b4",
+   "share": 0.126
+  },
+  {
+   "hex": "#8f7a73",
+   "share": 0.119
+  }
+ ],
+ "bobcat-stadium": [
+  {
+   "hex": "#37445c",
+   "share": 0.207
+  },
+  {
+   "hex": "#a2abbb",
+   "share": 0.195
+  },
+  {
+   "hex": "#677694",
+   "share": 0.167
+  },
+  {
+   "hex": "#6e855d",
+   "share": 0.146
+  },
+  {
+   "hex": "#111f36",
+   "share": 0.146
+  },
+  {
+   "hex": "#e5e9ea",
+   "share": 0.139
+  }
+ ],
+ "bok-center": [
+  {
+   "hex": "#323d46",
+   "share": 0.258
+  },
+  {
+   "hex": "#4c5764",
+   "share": 0.236
+  },
+  {
+   "hex": "#727c89",
+   "share": 0.15
+  },
+  {
+   "hex": "#a3a9b3",
+   "share": 0.131
+  },
+  {
+   "hex": "#141b20",
+   "share": 0.122
+  },
+  {
+   "hex": "#dae0e7",
+   "share": 0.103
+  }
+ ],
+ "broadview-stadium": [
+  {
+   "hex": "#4e6485",
+   "share": 0.229
+  },
+  {
+   "hex": "#213349",
+   "share": 0.192
+  },
+  {
+   "hex": "#7a8664",
+   "share": 0.174
+  },
+  {
+   "hex": "#b06966",
+   "share": 0.157
+  },
+  {
+   "hex": "#99a0ab",
+   "share": 0.131
+  },
+  {
+   "hex": "#d5d8dd",
+   "share": 0.116
+  }
+ ],
+ "california-memorial-stadium": [
+  {
+   "hex": "#f2f0e0",
+   "share": 0.26
+  },
+  {
+   "hex": "#668153",
+   "share": 0.184
+  },
+  {
+   "hex": "#dfc89a",
+   "share": 0.176
+  },
+  {
+   "hex": "#ada28c",
+   "share": 0.151
+  },
+  {
+   "hex": "#4d4c44",
+   "share": 0.119
+  },
+  {
+   "hex": "#1e1a1b",
+   "share": 0.111
+  }
+ ],
+ "charles-schwab-field": [
+  {
+   "hex": "#6b6e73",
+   "share": 0.239
+  },
+  {
+   "hex": "#888c8f",
+   "share": 0.226
+  },
+  {
+   "hex": "#4a5f37",
+   "share": 0.173
+  },
+  {
+   "hex": "#515057",
+   "share": 0.165
+  },
+  {
+   "hex": "#b2b5b4",
+   "share": 0.107
+  },
+  {
+   "hex": "#222a36",
+   "share": 0.092
+  }
+ ],
+ "datcu-stadium": [
+  {
+   "hex": "#555c67",
+   "share": 0.261
+  },
+  {
+   "hex": "#423f40",
+   "share": 0.211
+  },
+  {
+   "hex": "#141b18",
+   "share": 0.206
+  },
+  {
+   "hex": "#85734a",
+   "share": 0.138
+  },
+  {
+   "hex": "#878e96",
+   "share": 0.128
+  },
+  {
+   "hex": "#d1cfbf",
+   "share": 0.056
+  }
+ ],
+ "faurot-field": [
+  {
+   "hex": "#b8b3af",
+   "share": 0.23
+  },
+  {
+   "hex": "#ded8d3",
+   "share": 0.212
+  },
+  {
+   "hex": "#878787",
+   "share": 0.165
+  },
+  {
+   "hex": "#60674b",
+   "share": 0.143
+  },
+  {
+   "hex": "#414337",
+   "share": 0.137
+  },
+  {
+   "hex": "#191b1f",
+   "share": 0.114
+  }
+ ],
+ "first-community-stadium": [
+  {
+   "hex": "#e4e2dc",
+   "share": 0.201
+  },
+  {
+   "hex": "#796f6a",
+   "share": 0.2
+  },
+  {
+   "hex": "#b0aaa2",
+   "share": 0.182
+  },
+  {
+   "hex": "#423f41",
+   "share": 0.168
+  },
+  {
+   "hex": "#141319",
+   "share": 0.137
+  },
+  {
+   "hex": "#6d9038",
+   "share": 0.112
+  }
+ ],
+ "galaxy-stadium": [
+  {
+   "hex": "#7b7861",
+   "share": 0.222
+  },
+  {
+   "hex": "#565354",
+   "share": 0.2
+  },
+  {
+   "hex": "#a29d99",
+   "share": 0.171
+  },
+  {
+   "hex": "#3e3534",
+   "share": 0.17
+  },
+  {
+   "hex": "#dbd2c6",
+   "share": 0.128
+  },
+  {
+   "hex": "#181718",
+   "share": 0.108
+  }
+ ],
+ "golden-1-center": [
+  {
+   "hex": "#b4b7b6",
+   "share": 0.218
+  },
+  {
+   "hex": "#d2d5d4",
+   "share": 0.197
+  },
+  {
+   "hex": "#8a8d8e",
+   "share": 0.166
+  },
+  {
+   "hex": "#5b6269",
+   "share": 0.16
+  },
+  {
+   "hex": "#3a3f48",
+   "share": 0.147
+  },
+  {
+   "hex": "#15191f",
+   "share": 0.112
+  }
+ ],
+ "hancock-whitney-stadium": [
+  {
+   "hex": "#5b6855",
+   "share": 0.257
+  },
+  {
+   "hex": "#bdbebf",
+   "share": 0.203
+  },
+  {
+   "hex": "#e3e5e9",
+   "share": 0.167
+  },
+  {
+   "hex": "#141b2d",
+   "share": 0.134
+  },
+  {
+   "hex": "#423e4f",
+   "share": 0.122
+  },
+  {
+   "hex": "#8d8f92",
+   "share": 0.117
+  }
+ ],
+ "harvard-stadium": [
+  {
+   "hex": "#395137",
+   "share": 0.269
+  },
+  {
+   "hex": "#cdcec0",
+   "share": 0.19
+  },
+  {
+   "hex": "#0d161d",
+   "share": 0.164
+  },
+  {
+   "hex": "#dee8ea",
+   "share": 0.136
+  },
+  {
+   "hex": "#9fa096",
+   "share": 0.127
+  },
+  {
+   "hex": "#767469",
+   "share": 0.115
+  }
+ ],
+ "hornet-stadium": [
+  {
+   "hex": "#75725c",
+   "share": 0.254
+  },
+  {
+   "hex": "#4c584d",
+   "share": 0.247
+  },
+  {
+   "hex": "#989b96",
+   "share": 0.166
+  },
+  {
+   "hex": "#303839",
+   "share": 0.146
+  },
+  {
+   "hex": "#d2d4d1",
+   "share": 0.106
+  },
+  {
+   "hex": "#13191e",
+   "share": 0.082
+  }
+ ],
+ "huntington-bank-stadium": [
+  {
+   "hex": "#84807d",
+   "share": 0.25
+  },
+  {
+   "hex": "#aaa49e",
+   "share": 0.188
+  },
+  {
+   "hex": "#e0e0e0",
+   "share": 0.175
+  },
+  {
+   "hex": "#5c5f50",
+   "share": 0.145
+  },
+  {
+   "hex": "#4e3a38",
+   "share": 0.131
+  },
+  {
+   "hex": "#23181b",
+   "share": 0.111
+  }
+ ],
+ "kibbie-dome": [
+  {
+   "hex": "#6a8097",
+   "share": 0.285
+  },
+  {
+   "hex": "#e7f1f7",
+   "share": 0.249
+  },
+  {
+   "hex": "#89a3b1",
+   "share": 0.182
+  },
+  {
+   "hex": "#cddae5",
+   "share": 0.112
+  },
+  {
+   "hex": "#1f292a",
+   "share": 0.087
+  },
+  {
+   "hex": "#484f56",
+   "share": 0.085
+  }
+ ],
+ "legion-field": [
+  {
+   "hex": "#b4b8b9",
+   "share": 0.237
+  },
+  {
+   "hex": "#4c5a4e",
+   "share": 0.23
+  },
+  {
+   "hex": "#dde0e1",
+   "share": 0.176
+  },
+  {
+   "hex": "#878c8a",
+   "share": 0.168
+  },
+  {
+   "hex": "#37393d",
+   "share": 0.116
+  },
+  {
+   "hex": "#11151b",
+   "share": 0.073
+  }
+ ],
+ "milan-puskar-stadium": [
+  {
+   "hex": "#b3b6b5",
+   "share": 0.216
+  },
+  {
+   "hex": "#818485",
+   "share": 0.205
+  },
+  {
+   "hex": "#eaeeef",
+   "share": 0.173
+  },
+  {
+   "hex": "#54565e",
+   "share": 0.163
+  },
+  {
+   "hex": "#1b1f26",
+   "share": 0.123
+  },
+  {
+   "hex": "#355e39",
+   "share": 0.119
+  }
+ ],
+ "moda-center": [
+  {
+   "hex": "#f2e6d8",
+   "share": 0.352
+  },
+  {
+   "hex": "#dbd0cb",
+   "share": 0.305
+  },
+  {
+   "hex": "#494451",
+   "share": 0.111
+  },
+  {
+   "hex": "#70656d",
+   "share": 0.104
+  },
+  {
+   "hex": "#a99c9a",
+   "share": 0.086
+  },
+  {
+   "hex": "#24202b",
+   "share": 0.042
+  }
+ ],
+ "paycom-center": [
+  {
+   "hex": "#dee0e0",
+   "share": 0.318
+  },
+  {
+   "hex": "#8b8a89",
+   "share": 0.182
+  },
+  {
+   "hex": "#7f5d47",
+   "share": 0.162
+  },
+  {
+   "hex": "#b9b8b6",
+   "share": 0.129
+  },
+  {
+   "hex": "#473730",
+   "share": 0.127
+  },
+  {
+   "hex": "#191615",
+   "share": 0.082
+  }
+ ],
+ "richard-gouse-field-at-brown-stadium": [
+  {
+   "hex": "#5b8b5c",
+   "share": 0.244
+  },
+  {
+   "hex": "#425147",
+   "share": 0.216
+  },
+  {
+   "hex": "#f1f0f2",
+   "share": 0.17
+  },
+  {
+   "hex": "#73717d",
+   "share": 0.154
+  },
+  {
+   "hex": "#b3b3b7",
+   "share": 0.116
+  },
+  {
+   "hex": "#1e201f",
+   "share": 0.1
+  }
+ ],
+ "ross-ade-stadium": [
+  {
+   "hex": "#18191f",
+   "share": 0.199
+  },
+  {
+   "hex": "#748d45",
+   "share": 0.186
+  },
+  {
+   "hex": "#eae6df",
+   "share": 0.166
+  },
+  {
+   "hex": "#70747a",
+   "share": 0.154
+  },
+  {
+   "hex": "#424446",
+   "share": 0.152
+  },
+  {
+   "hex": "#b0aba6",
+   "share": 0.143
+  }
+ ],
+ "sap-center": [
+  {
+   "hex": "#f7faf9",
+   "share": 0.525
+  },
+  {
+   "hex": "#677073",
+   "share": 0.151
+  },
+  {
+   "hex": "#27333a",
+   "share": 0.088
+  },
+  {
+   "hex": "#485559",
+   "share": 0.086
+  },
+  {
+   "hex": "#b9bfbf",
+   "share": 0.079
+  },
+  {
+   "hex": "#8b9393",
+   "share": 0.07
+  }
+ ],
+ "scott-stadium": [
+  {
+   "hex": "#acafb1",
+   "share": 0.21
+  },
+  {
+   "hex": "#14171b",
+   "share": 0.187
+  },
+  {
+   "hex": "#70777f",
+   "share": 0.165
+  },
+  {
+   "hex": "#393e45",
+   "share": 0.164
+  },
+  {
+   "hex": "#e1e6e9",
+   "share": 0.138
+  },
+  {
+   "hex": "#4a6929",
+   "share": 0.136
+  }
+ ],
+ "shell-energy-stadium": [
+  {
+   "hex": "#696f7a",
+   "share": 0.289
+  },
+  {
+   "hex": "#6f7e33",
+   "share": 0.219
+  },
+  {
+   "hex": "#878d97",
+   "share": 0.197
+  },
+  {
+   "hex": "#4b4442",
+   "share": 0.149
+  },
+  {
+   "hex": "#1c1817",
+   "share": 0.1
+  },
+  {
+   "hex": "#c3c4bf",
+   "share": 0.046
+  }
+ ],
+ "simmons-bank-liberty-stadium": [
+  {
+   "hex": "#4c4d54",
+   "share": 0.234
+  },
+  {
+   "hex": "#6d6f6f",
+   "share": 0.184
+  },
+  {
+   "hex": "#e9ecee",
+   "share": 0.163
+  },
+  {
+   "hex": "#c2c3c5",
+   "share": 0.145
+  },
+  {
+   "hex": "#22293f",
+   "share": 0.139
+  },
+  {
+   "hex": "#9b9a9e",
+   "share": 0.135
+  }
+ ],
+ "sporting-park": [
+  {
+   "hex": "#343c57",
+   "share": 0.262
+  },
+  {
+   "hex": "#798198",
+   "share": 0.185
+  },
+  {
+   "hex": "#525a7a",
+   "share": 0.162
+  },
+  {
+   "hex": "#f0f4f7",
+   "share": 0.131
+  },
+  {
+   "hex": "#161d3c",
+   "share": 0.13
+  },
+  {
+   "hex": "#a5b2d1",
+   "share": 0.13
+  }
+ ],
+ "sun-bowl": [
+  {
+   "hex": "#334137",
+   "share": 0.232
+  },
+  {
+   "hex": "#f9f6f0",
+   "share": 0.203
+  },
+  {
+   "hex": "#212734",
+   "share": 0.17
+  },
+  {
+   "hex": "#a79f94",
+   "share": 0.162
+  },
+  {
+   "hex": "#706462",
+   "share": 0.124
+  },
+  {
+   "hex": "#110e13",
+   "share": 0.108
+  }
+ ],
+ "value-city-arena": [
+  {
+   "hex": "#c6c4c4",
+   "share": 0.392
+  },
+  {
+   "hex": "#b7a499",
+   "share": 0.237
+  },
+  {
+   "hex": "#e5e4e2",
+   "share": 0.177
+  },
+  {
+   "hex": "#88766f",
+   "share": 0.107
+  },
+  {
+   "hex": "#49454b",
+   "share": 0.055
+  },
+  {
+   "hex": "#19181d",
+   "share": 0.032
+  }
+ ],
+ "veterans-memorial-stadium": [
+  {
+   "hex": "#c8c8c8",
+   "share": 0.212
+  },
+  {
+   "hex": "#605555",
+   "share": 0.212
+  },
+  {
+   "hex": "#433e41",
+   "share": 0.176
+  },
+  {
+   "hex": "#a2a1a3",
+   "share": 0.173
+  },
+  {
+   "hex": "#7c7983",
+   "share": 0.149
+  },
+  {
+   "hex": "#1f1b23",
+   "share": 0.078
+  }
+ ],
+ "williams-stadium": [
+  {
+   "hex": "#ced3d6",
+   "share": 0.203
+  },
+  {
+   "hex": "#745e64",
+   "share": 0.183
+  },
+  {
+   "hex": "#1f151b",
+   "share": 0.17
+  },
+  {
+   "hex": "#453b43",
+   "share": 0.157
+  },
+  {
+   "hex": "#95999c",
+   "share": 0.144
+  },
+  {
+   "hex": "#47683c",
+   "share": 0.143
+  }
+ ],
+ "yale-bowl": [
+  {
+   "hex": "#718298",
+   "share": 0.202
+  },
+  {
+   "hex": "#425771",
+   "share": 0.188
+  },
+  {
+   "hex": "#a8afb1",
+   "share": 0.173
+  },
+  {
+   "hex": "#e3e3dd",
+   "share": 0.161
+  },
+  {
+   "hex": "#538a58",
+   "share": 0.153
+  },
+  {
+   "hex": "#152743",
+   "share": 0.122
+  }
  ]
 }

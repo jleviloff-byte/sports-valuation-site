@@ -13,13 +13,11 @@
    "depth": "controls/atandt-stadium/depth.png",
    "edges": "controls/atandt-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/atandt-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "empower-field-at-mile-high",
@@ -35,13 +33,11 @@
    "depth": "controls/empower-field-at-mile-high/depth.png",
    "edges": "controls/empower-field-at-mile-high/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/empower-field-at-mile-high/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "mercedes-benz-stadium",
@@ -57,13 +53,11 @@
    "depth": "controls/mercedes-benz-stadium/depth.png",
    "edges": "controls/mercedes-benz-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/mercedes-benz-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "paycor-stadium",
@@ -79,13 +73,11 @@
    "depth": "controls/paycor-stadium/depth.png",
    "edges": "controls/paycor-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/paycor-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "highmark-stadium",
@@ -101,13 +93,11 @@
    "depth": "controls/highmark-stadium/depth.png",
    "edges": "controls/highmark-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/highmark-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "great-american-ball-park",
@@ -123,13 +113,11 @@
    "depth": "controls/great-american-ball-park/depth.png",
    "edges": "controls/great-american-ball-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/great-american-ball-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "american-family-field",
@@ -145,13 +133,11 @@
    "depth": "controls/american-family-field/depth.png",
    "edges": "controls/american-family-field/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/american-family-field/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "daikin-park",
@@ -167,13 +153,11 @@
    "depth": "controls/daikin-park/depth.png",
    "edges": "controls/daikin-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/daikin-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "truist-park",
@@ -189,13 +173,11 @@
    "depth": "controls/truist-park/depth.png",
    "edges": "controls/truist-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/truist-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "globe-life-field",
@@ -211,13 +193,11 @@
    "depth": "controls/globe-life-field/depth.png",
    "edges": "controls/globe-life-field/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/globe-life-field/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "loandepot-park",
@@ -233,13 +213,11 @@
    "depth": "controls/loandepot-park/depth.png",
    "edges": "controls/loandepot-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/loandepot-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "kyle-field",
@@ -255,13 +233,11 @@
    "depth": "controls/kyle-field/depth.png",
    "edges": "controls/kyle-field/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/kyle-field/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "darrell-k-royal-texas-memorial-stadium",
@@ -277,13 +253,11 @@
    "depth": "controls/darrell-k-royal-texas-memorial-stadium/depth.png",
    "edges": "controls/darrell-k-royal-texas-memorial-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/darrell-k-royal-texas-memorial-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "bryant-denny-stadium",
@@ -299,13 +273,11 @@
    "depth": "controls/bryant-denny-stadium/depth.png",
    "edges": "controls/bryant-denny-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/bryant-denny-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "memorial-stadium-sc",
@@ -321,13 +293,11 @@
    "depth": "controls/memorial-stadium-sc/depth.png",
    "edges": "controls/memorial-stadium-sc/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/memorial-stadium-sc/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "razorback-stadium",
@@ -343,13 +313,11 @@
    "depth": "controls/razorback-stadium/depth.png",
    "edges": "controls/razorback-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/razorback-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "td-garden",
@@ -365,13 +333,11 @@
    "depth": "controls/td-garden/depth.png",
    "edges": "controls/td-garden/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/td-garden/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "allen-fieldhouse",
@@ -387,13 +353,11 @@
    "depth": "controls/allen-fieldhouse/depth.png",
    "edges": "controls/allen-fieldhouse/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/allen-fieldhouse/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "charlotte-motor-speedway",
@@ -409,13 +373,11 @@
    "depth": "controls/charlotte-motor-speedway/depth.png",
    "edges": "controls/charlotte-motor-speedway/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/charlotte-motor-speedway/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "busch-stadium",
@@ -431,13 +393,11 @@
    "depth": "controls/busch-stadium/depth.png",
    "edges": "controls/busch-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/busch-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "kauffman-stadium",
@@ -453,13 +413,11 @@
    "depth": "controls/kauffman-stadium/depth.png",
    "edges": "controls/kauffman-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/kauffman-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "oracle-park",
@@ -475,13 +433,11 @@
    "depth": "controls/oracle-park/depth.png",
    "edges": "controls/oracle-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/oracle-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "sanford-stadium",
@@ -497,13 +453,11 @@
    "depth": "controls/sanford-stadium/depth.png",
    "edges": "controls/sanford-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/sanford-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "tiger-stadium",
@@ -519,13 +473,11 @@
    "depth": "controls/tiger-stadium/depth.png",
    "edges": "controls/tiger-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/tiger-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "intuit-dome",
@@ -541,13 +493,11 @@
    "depth": "controls/intuit-dome/depth.png",
    "edges": "controls/intuit-dome/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/intuit-dome/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "t-mobile-park",
@@ -563,13 +513,11 @@
    "depth": "controls/t-mobile-park/depth.png",
    "edges": "controls/t-mobile-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/t-mobile-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "citizens-bank-park",
@@ -585,13 +533,11 @@
    "depth": "controls/citizens-bank-park/depth.png",
    "edges": "controls/citizens-bank-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/citizens-bank-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "indianapolis-motor-speedway",
@@ -607,13 +553,11 @@
    "depth": "controls/indianapolis-motor-speedway/depth.png",
    "edges": "controls/indianapolis-motor-speedway/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/indianapolis-motor-speedway/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "northwest-stadium",
@@ -629,13 +573,11 @@
    "depth": "controls/northwest-stadium/depth.png",
    "edges": "controls/northwest-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/northwest-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "crypto-com-arena",
@@ -651,13 +593,11 @@
    "depth": "controls/crypto-com-arena/depth.png",
    "edges": "controls/crypto-com-arena/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/crypto-com-arena/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "gaylord-family-oklahoma-memorial-stadium",
@@ -673,13 +613,11 @@
    "depth": "controls/gaylord-family-oklahoma-memorial-stadium/depth.png",
    "edges": "controls/gaylord-family-oklahoma-memorial-stadium/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/gaylord-family-oklahoma-memorial-stadium/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "pnc-park",
@@ -695,13 +633,11 @@
    "depth": "controls/pnc-park/depth.png",
    "edges": "controls/pnc-park/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/pnc-park/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "progressive-field",
@@ -717,13 +653,11 @@
    "depth": "controls/progressive-field/depth.png",
    "edges": "controls/progressive-field/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/progressive-field/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "ford-field",
@@ -739,13 +673,11 @@
    "depth": "controls/ford-field/depth.png",
    "edges": "controls/ford-field/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/ford-field/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "united-center",
@@ -761,13 +693,11 @@
    "depth": "controls/united-center/depth.png",
    "edges": "controls/united-center/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/united-center/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  },
  {
   "slug": "talladega-superspeedway",
@@ -783,12 +713,10 @@
    "depth": "controls/talladega-superspeedway/depth.png",
    "edges": "controls/talladega-superspeedway/edges.png"
   },
-  "ip_scale": 0.35,
+  "ip_scale": 0.2,
   "cn_scale": [
-   0.8,
-   0.8
-  ],
-  "init": "controls/talladega-superspeedway/color.png",
-  "strength": 0.75
+   0.75,
+   0.55
+  ]
  }
 ]

@@ -1,0 +1,686 @@
+[
+ {
+  "slug": "cotton-bowl",
+  "kind": "football stadium",
+  "ref": "controls/cotton-bowl/color.png",
+  "desc_short": "Cotton Bowl: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/cotton-bowl/depth.png",
+   "edges": "controls/cotton-bowl/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "barber-motorsports-park",
+  "kind": "motor racing oval",
+  "ref": "controls/barber-motorsports-park/color.png",
+  "desc_short": "Barber Motorsports Park: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/barber-motorsports-park/depth.png",
+   "edges": "controls/barber-motorsports-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "las-vegas-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/las-vegas-motor-speedway/color.png",
+  "desc_short": "Las Vegas Motor Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/las-vegas-motor-speedway/depth.png",
+   "edges": "controls/las-vegas-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "pocono-raceway",
+  "kind": "motor racing oval",
+  "ref": "controls/pocono-raceway/color.png",
+  "desc_short": "Pocono Raceway: banked gray asphalt oval around a green infield, one long multi-level grandstand with yellow seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/pocono-raceway/depth.png",
+   "edges": "controls/pocono-raceway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mid-ohio-sports-car-course",
+  "kind": "motor racing oval",
+  "ref": "controls/mid-ohio-sports-car-course/color.png",
+  "desc_short": "Mid-Ohio Sports Car Course: banked gray asphalt oval around a green infield, one long multi-level grandstand with gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mid-ohio-sports-car-course/depth.png",
+   "edges": "controls/mid-ohio-sports-car-course/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "texas-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/texas-motor-speedway/color.png",
+  "desc_short": "Texas Motor Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/texas-motor-speedway/depth.png",
+   "edges": "controls/texas-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "atlanta-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/atlanta-motor-speedway/color.png",
+  "desc_short": "Atlanta Motor Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/atlanta-motor-speedway/depth.png",
+   "edges": "controls/atlanta-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kinnick-stadium",
+  "kind": "football stadium",
+  "ref": "controls/kinnick-stadium/color.png",
+  "desc_short": "Kinnick Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kinnick-stadium/depth.png",
+   "edges": "controls/kinnick-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "doak-campbell-stadium",
+  "kind": "football stadium",
+  "ref": "controls/doak-campbell-stadium/color.png",
+  "desc_short": "Doak Campbell Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/doak-campbell-stadium/depth.png",
+   "edges": "controls/doak-campbell-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "vaught-hemingway-stadium",
+  "kind": "football stadium",
+  "ref": "controls/vaught-hemingway-stadium/color.png",
+  "desc_short": "Vaught\u2013Hemingway Stadium: football stadium bowl with red seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/vaught-hemingway-stadium/depth.png",
+   "edges": "controls/vaught-hemingway-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "alamodome",
+  "kind": "football stadium",
+  "ref": "controls/alamodome/color.png",
+  "desc_short": "Alamodome: enclosed football stadium with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/alamodome/depth.png",
+   "edges": "controls/alamodome/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "lavell-edwards-stadium",
+  "kind": "football stadium",
+  "ref": "controls/lavell-edwards-stadium/color.png",
+  "desc_short": "LaVell Edwards Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/lavell-edwards-stadium/depth.png",
+   "edges": "controls/lavell-edwards-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "jack-trice-stadium",
+  "kind": "football stadium",
+  "ref": "controls/jack-trice-stadium/color.png",
+  "desc_short": "Jack Trice Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/jack-trice-stadium/depth.png",
+   "edges": "controls/jack-trice-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kroger-field",
+  "kind": "football stadium",
+  "ref": "controls/kroger-field/color.png",
+  "desc_short": "Kroger Field: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kroger-field/depth.png",
+   "edges": "controls/kroger-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "landn-federal-credit-union-stadium",
+  "kind": "football stadium",
+  "ref": "controls/landn-federal-credit-union-stadium/color.png",
+  "desc_short": "L&N Federal Credit Union Stadium: football stadium bowl with red seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/landn-federal-credit-union-stadium/depth.png",
+   "edges": "controls/landn-federal-credit-union-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "gies-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/gies-memorial-stadium/color.png",
+  "desc_short": "Gies Memorial Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/gies-memorial-stadium/depth.png",
+   "edges": "controls/gies-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mississippi-veterans-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/mississippi-veterans-memorial-stadium/color.png",
+  "desc_short": "Mississippi Veterans Memorial Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mississippi-veterans-memorial-stadium/depth.png",
+   "edges": "controls/mississippi-veterans-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "davis-wade-stadium",
+  "kind": "football stadium",
+  "ref": "controls/davis-wade-stadium/color.png",
+  "desc_short": "Davis Wade Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/davis-wade-stadium/depth.png",
+   "edges": "controls/davis-wade-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "camping-world-stadium",
+  "kind": "football stadium",
+  "ref": "controls/camping-world-stadium/color.png",
+  "desc_short": "Camping World Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/camping-world-stadium/depth.png",
+   "edges": "controls/camping-world-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "autzen-stadium",
+  "kind": "football stadium",
+  "ref": "controls/autzen-stadium/color.png",
+  "desc_short": "Autzen Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/autzen-stadium/depth.png",
+   "edges": "controls/autzen-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "gateway-motorsports-park",
+  "kind": "motor racing oval",
+  "ref": "controls/gateway-motorsports-park/color.png",
+  "desc_short": "Gateway Motorsports Park: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/gateway-motorsports-park/depth.png",
+   "edges": "controls/gateway-motorsports-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "carter-finley-stadium",
+  "kind": "football stadium",
+  "ref": "controls/carter-finley-stadium/color.png",
+  "desc_short": "Carter\u2013Finley Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/carter-finley-stadium/depth.png",
+   "edges": "controls/carter-finley-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "michigan-international-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/michigan-international-speedway/color.png",
+  "desc_short": "Michigan International Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with green seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/michigan-international-speedway/depth.png",
+   "edges": "controls/michigan-international-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "rice-eccles-stadium",
+  "kind": "football stadium",
+  "ref": "controls/rice-eccles-stadium/color.png",
+  "desc_short": "Rice\u2013Eccles Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/rice-eccles-stadium/depth.png",
+   "edges": "controls/rice-eccles-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dover-motor-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/dover-motor-speedway/color.png",
+  "desc_short": "Dover Motor Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with dark gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dover-motor-speedway/depth.png",
+   "edges": "controls/dover-motor-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mountain-america-stadium",
+  "kind": "football stadium",
+  "ref": "controls/mountain-america-stadium/color.png",
+  "desc_short": "Mountain America Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mountain-america-stadium/depth.png",
+   "edges": "controls/mountain-america-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "memorial-stadium-in",
+  "kind": "football stadium",
+  "ref": "controls/memorial-stadium-in/color.png",
+  "desc_short": "Memorial Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/memorial-stadium-in/depth.png",
+   "edges": "controls/memorial-stadium-in/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "amon-g-carter-stadium",
+  "kind": "football stadium",
+  "ref": "controls/amon-g-carter-stadium/color.png",
+  "desc_short": "Amon G. Carter Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/amon-g-carter-stadium/depth.png",
+   "edges": "controls/amon-g-carter-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "franklin-field",
+  "kind": "football stadium",
+  "ref": "controls/franklin-field/color.png",
+  "desc_short": "Franklin Field: football stadium bowl with orange seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/franklin-field/depth.png",
+   "edges": "controls/franklin-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "shi-stadium",
+  "kind": "football stadium",
+  "ref": "controls/shi-stadium/color.png",
+  "desc_short": "SHI Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/shi-stadium/depth.png",
+   "edges": "controls/shi-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "boone-pickens-stadium",
+  "kind": "football stadium",
+  "ref": "controls/boone-pickens-stadium/color.png",
+  "desc_short": "Boone Pickens Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/boone-pickens-stadium/depth.png",
+   "edges": "controls/boone-pickens-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bobby-dodd-stadium",
+  "kind": "football stadium",
+  "ref": "controls/bobby-dodd-stadium/color.png",
+  "desc_short": "Bobby Dodd Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bobby-dodd-stadium/depth.png",
+   "edges": "controls/bobby-dodd-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dowdy-ficklen-stadium",
+  "kind": "football stadium",
+  "ref": "controls/dowdy-ficklen-stadium/color.png",
+  "desc_short": "Dowdy\u2013Ficklen Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dowdy-ficklen-stadium/depth.png",
+   "edges": "controls/dowdy-ficklen-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "casino-del-sol-stadium",
+  "kind": "football stadium",
+  "ref": "controls/casino-del-sol-stadium/color.png",
+  "desc_short": "Casino Del Sol Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/casino-del-sol-stadium/depth.png",
+   "edges": "controls/casino-del-sol-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "stanford-stadium",
+  "kind": "football stadium",
+  "ref": "controls/stanford-stadium/color.png",
+  "desc_short": "Stanford Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/stanford-stadium/depth.png",
+   "edges": "controls/stanford-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "folsom-field",
+  "kind": "football stadium",
+  "ref": "controls/folsom-field/color.png",
+  "desc_short": "Folsom Field: football stadium bowl with green seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/folsom-field/depth.png",
+   "edges": "controls/folsom-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]

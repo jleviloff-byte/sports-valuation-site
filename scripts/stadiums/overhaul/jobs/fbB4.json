@@ -1,0 +1,686 @@
+[
+ {
+  "slug": "yager-stadium",
+  "kind": "football stadium",
+  "ref": "controls/yager-stadium/color.png",
+  "desc_short": "Yager Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/yager-stadium/depth.png",
+   "edges": "controls/yager-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "doyt-perry-stadium",
+  "kind": "football stadium",
+  "ref": "controls/doyt-perry-stadium/color.png",
+  "desc_short": "Doyt Perry Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/doyt-perry-stadium/depth.png",
+   "edges": "controls/doyt-perry-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "memorial-stadium-tx",
+  "kind": "football stadium",
+  "ref": "controls/memorial-stadium-tx/color.png",
+  "desc_short": "Memorial Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/memorial-stadium-tx/depth.png",
+   "edges": "controls/memorial-stadium-tx/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "peden-stadium",
+  "kind": "football stadium",
+  "ref": "controls/peden-stadium/color.png",
+  "desc_short": "Peden Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/peden-stadium/depth.png",
+   "edges": "controls/peden-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "amfirst-stadium",
+  "kind": "football stadium",
+  "ref": "controls/amfirst-stadium/color.png",
+  "desc_short": "AmFirst Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/amfirst-stadium/depth.png",
+   "edges": "controls/amfirst-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "casem-spinks-stadium",
+  "kind": "football stadium",
+  "ref": "controls/casem-spinks-stadium/color.png",
+  "desc_short": "Casem-Spinks Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/casem-spinks-stadium/depth.png",
+   "edges": "controls/casem-spinks-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "scheumann-stadium",
+  "kind": "football stadium",
+  "ref": "controls/scheumann-stadium/color.png",
+  "desc_short": "Scheumann Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/scheumann-stadium/depth.png",
+   "edges": "controls/scheumann-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "energizer-park",
+  "kind": "soccer stadium",
+  "ref": "controls/energizer-park/color.png",
+  "desc_short": "Energizer Park: soccer stadium bowl with blue seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/energizer-park/depth.png",
+   "edges": "controls/energizer-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "houchens-industries-l-t-smith-stadium",
+  "kind": "football stadium",
+  "ref": "controls/houchens-industries-l-t-smith-stadium/color.png",
+  "desc_short": "Houchens Industries\u2013L. T. Smith Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/houchens-industries-l-t-smith-stadium/depth.png",
+   "edges": "controls/houchens-industries-l-t-smith-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kfc-yum-center",
+  "kind": "indoor arena",
+  "ref": "controls/kfc-yum-center/color.png",
+  "desc_short": "KFC Yum! Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kfc-yum-center/depth.png",
+   "edges": "controls/kfc-yum-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "first-horizon-coliseum",
+  "kind": "indoor arena",
+  "ref": "controls/first-horizon-coliseum/color.png",
+  "desc_short": "First Horizon Coliseum: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/first-horizon-coliseum/depth.png",
+   "edges": "controls/first-horizon-coliseum/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "oliver-c-dawson-stadium",
+  "kind": "football stadium",
+  "ref": "controls/oliver-c-dawson-stadium/color.png",
+  "desc_short": "Oliver C. Dawson Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/oliver-c-dawson-stadium/depth.png",
+   "edges": "controls/oliver-c-dawson-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "s-b-ballard-stadium",
+  "kind": "football stadium",
+  "ref": "controls/s-b-ballard-stadium/color.png",
+  "desc_short": "S.B. Ballard Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/s-b-ballard-stadium/depth.png",
+   "edges": "controls/s-b-ballard-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dean-smith-center",
+  "kind": "indoor arena",
+  "ref": "controls/dean-smith-center/color.png",
+  "desc_short": "Dean Smith Center: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dean-smith-center/depth.png",
+   "edges": "controls/dean-smith-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "thompson-boling-arena",
+  "kind": "indoor arena",
+  "ref": "controls/thompson-boling-arena/color.png",
+  "desc_short": "Thompson\u2013Boling Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/thompson-boling-arena/depth.png",
+   "edges": "controls/thompson-boling-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "schoellkopf-field",
+  "kind": "football stadium",
+  "ref": "controls/schoellkopf-field/color.png",
+  "desc_short": "Schoellkopf Field: football stadium bowl with red seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/schoellkopf-field/depth.png",
+   "edges": "controls/schoellkopf-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "truist-stadium",
+  "kind": "football stadium",
+  "ref": "controls/truist-stadium/color.png",
+  "desc_short": "Truist Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/truist-stadium/depth.png",
+   "edges": "controls/truist-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "brooks-stadium",
+  "kind": "football stadium",
+  "ref": "controls/brooks-stadium/color.png",
+  "desc_short": "Brooks Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/brooks-stadium/depth.png",
+   "edges": "controls/brooks-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "louis-crews-stadium",
+  "kind": "football stadium",
+  "ref": "controls/louis-crews-stadium/color.png",
+  "desc_short": "Louis Crews Stadium: football stadium bowl with red seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/louis-crews-stadium/depth.png",
+   "edges": "controls/louis-crews-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "xfinity-mobile-arena",
+  "kind": "indoor arena",
+  "ref": "controls/xfinity-mobile-arena/color.png",
+  "desc_short": "Xfinity Mobile Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/xfinity-mobile-arena/depth.png",
+   "edges": "controls/xfinity-mobile-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "stambaugh-stadium",
+  "kind": "football stadium",
+  "ref": "controls/stambaugh-stadium/color.png",
+  "desc_short": "Stambaugh Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/stambaugh-stadium/depth.png",
+   "edges": "controls/stambaugh-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "finley-stadium",
+  "kind": "football stadium",
+  "ref": "controls/finley-stadium/color.png",
+  "desc_short": "Finley Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/finley-stadium/depth.png",
+   "edges": "controls/finley-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "scottsmiracle-gro-field",
+  "kind": "soccer stadium",
+  "ref": "controls/scottsmiracle-gro-field/color.png",
+  "desc_short": "ScottsMiracle-Gro Field: soccer stadium bowl with blue seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/scottsmiracle-gro-field/depth.png",
+   "edges": "controls/scottsmiracle-gro-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "capital-one-arena",
+  "kind": "indoor arena",
+  "ref": "controls/capital-one-arena/color.png",
+  "desc_short": "Capital One Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/capital-one-arena/depth.png",
+   "edges": "controls/capital-one-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "little-caesars-arena",
+  "kind": "indoor arena",
+  "ref": "controls/little-caesars-arena/color.png",
+  "desc_short": "Little Caesars Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/little-caesars-arena/depth.png",
+   "edges": "controls/little-caesars-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "america-first-field",
+  "kind": "soccer stadium",
+  "ref": "controls/america-first-field/color.png",
+  "desc_short": "America First Field: soccer stadium bowl with light gray seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/america-first-field/depth.png",
+   "edges": "controls/america-first-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "audi-field",
+  "kind": "soccer stadium",
+  "ref": "controls/audi-field/color.png",
+  "desc_short": "Audi Field: soccer stadium bowl with light gray seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/audi-field/depth.png",
+   "edges": "controls/audi-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "pitbull-stadium",
+  "kind": "football stadium",
+  "ref": "controls/pitbull-stadium/color.png",
+  "desc_short": "Pitbull Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/pitbull-stadium/depth.png",
+   "edges": "controls/pitbull-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "roy-kidd-stadium",
+  "kind": "football stadium",
+  "ref": "controls/roy-kidd-stadium/color.png",
+  "desc_short": "Roy Kidd Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/roy-kidd-stadium/depth.png",
+   "edges": "controls/roy-kidd-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "seatgeek-stadium",
+  "kind": "football stadium",
+  "ref": "controls/seatgeek-stadium/color.png",
+  "desc_short": "SeatGeek Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/seatgeek-stadium/depth.png",
+   "edges": "controls/seatgeek-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "north-wilkesboro-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/north-wilkesboro-speedway/color.png",
+  "desc_short": "North Wilkesboro Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with yellow seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/north-wilkesboro-speedway/depth.png",
+   "edges": "controls/north-wilkesboro-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "eddie-g-robinson-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/eddie-g-robinson-memorial-stadium/color.png",
+  "desc_short": "Eddie G. Robinson Memorial Stadium: football stadium bowl with yellow seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/eddie-g-robinson-memorial-stadium/depth.png",
+   "edges": "controls/eddie-g-robinson-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "kaseya-center",
+  "kind": "indoor arena",
+  "ref": "controls/kaseya-center/color.png",
+  "desc_short": "Kaseya Center: enclosed indoor arena with a teal roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/kaseya-center/depth.png",
+   "edges": "controls/kaseya-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "ball-arena",
+  "kind": "indoor arena",
+  "ref": "controls/ball-arena/color.png",
+  "desc_short": "Ball Arena: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/ball-arena/depth.png",
+   "edges": "controls/ball-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "spectrum-center",
+  "kind": "indoor arena",
+  "ref": "controls/spectrum-center/color.png",
+  "desc_short": "Spectrum Center: enclosed indoor arena with a white roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/spectrum-center/depth.png",
+   "edges": "controls/spectrum-center/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "rocket-arena",
+  "kind": "indoor arena",
+  "ref": "controls/rocket-arena/color.png",
+  "desc_short": "Rocket Arena: enclosed indoor arena with a light gray roof and a glass and panel facade",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/rocket-arena/depth.png",
+   "edges": "controls/rocket-arena/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]

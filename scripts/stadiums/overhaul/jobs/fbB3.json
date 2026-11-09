@@ -1,0 +1,686 @@
+[
+ {
+  "slug": "allegacy-federal-credit-union-stadium",
+  "kind": "football stadium",
+  "ref": "controls/allegacy-federal-credit-union-stadium/color.png",
+  "desc_short": "Allegacy Federal Credit Union Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/allegacy-federal-credit-union-stadium/depth.png",
+   "edges": "controls/allegacy-federal-credit-union-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "centennial-bank-stadium",
+  "kind": "football stadium",
+  "ref": "controls/centennial-bank-stadium/color.png",
+  "desc_short": "Centennial Bank Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/centennial-bank-stadium/depth.png",
+   "edges": "controls/centennial-bank-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "cajun-field",
+  "kind": "football stadium",
+  "ref": "controls/cajun-field/color.png",
+  "desc_short": "Cajun Field: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/cajun-field/depth.png",
+   "edges": "controls/cajun-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "waldo-stadium",
+  "kind": "football stadium",
+  "ref": "controls/waldo-stadium/color.png",
+  "desc_short": "Waldo Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/waldo-stadium/depth.png",
+   "edges": "controls/waldo-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "geodis-park",
+  "kind": "soccer stadium",
+  "ref": "controls/geodis-park/color.png",
+  "desc_short": "Geodis Park: soccer stadium bowl with blue seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/geodis-park/depth.png",
+   "edges": "controls/geodis-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "flagler-credit-union-stadium",
+  "kind": "football stadium",
+  "ref": "controls/flagler-credit-union-stadium/color.png",
+  "desc_short": "Flagler Credit Union Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/flagler-credit-union-stadium/depth.png",
+   "edges": "controls/flagler-credit-union-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "infocision-stadium-summa-field",
+  "kind": "football stadium",
+  "ref": "controls/infocision-stadium-summa-field/color.png",
+  "desc_short": "InfoCision Stadium\u2013Summa Field: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/infocision-stadium-summa-field/depth.png",
+   "edges": "controls/infocision-stadium-summa-field/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "iowa-speedway",
+  "kind": "motor racing oval",
+  "ref": "controls/iowa-speedway/color.png",
+  "desc_short": "Iowa Speedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/iowa-speedway/depth.png",
+   "edges": "controls/iowa-speedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "mackay-stadium",
+  "kind": "football stadium",
+  "ref": "controls/mackay-stadium/color.png",
+  "desc_short": "Mackay Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/mackay-stadium/depth.png",
+   "edges": "controls/mackay-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "portland-international-raceway",
+  "kind": "motor racing oval",
+  "ref": "controls/portland-international-raceway/color.png",
+  "desc_short": "Portland International Raceway: banked gray asphalt oval around a green infield, one long multi-level grandstand with gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/portland-international-raceway/depth.png",
+   "edges": "controls/portland-international-raceway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "skelly-field-at-h-a-chapman-stadium",
+  "kind": "football stadium",
+  "ref": "controls/skelly-field-at-h-a-chapman-stadium/color.png",
+  "desc_short": "Skelly Field at H. A. Chapman Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/skelly-field-at-h-a-chapman-stadium/depth.png",
+   "edges": "controls/skelly-field-at-h-a-chapman-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "valley-children-s-stadium",
+  "kind": "football stadium",
+  "ref": "controls/valley-children-s-stadium/color.png",
+  "desc_short": "Valley Children's Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/valley-children-s-stadium/depth.png",
+   "edges": "controls/valley-children-s-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "william-dick-price-stadium",
+  "kind": "football stadium",
+  "ref": "controls/william-dick-price-stadium/color.png",
+  "desc_short": "William \"Dick\" Price Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/william-dick-price-stadium/depth.png",
+   "edges": "controls/william-dick-price-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "yulman-stadium",
+  "kind": "football stadium",
+  "ref": "controls/yulman-stadium/color.png",
+  "desc_short": "Yulman Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/yulman-stadium/depth.png",
+   "edges": "controls/yulman-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "war-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/war-memorial-stadium/color.png",
+  "desc_short": "War Memorial Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/war-memorial-stadium/depth.png",
+   "edges": "controls/war-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "aggie-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/aggie-memorial-stadium/color.png",
+  "desc_short": "Aggie Memorial Stadium: football stadium bowl with dark gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/aggie-memorial-stadium/depth.png",
+   "edges": "controls/aggie-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "joe-aillet-stadium",
+  "kind": "football stadium",
+  "ref": "controls/joe-aillet-stadium/color.png",
+  "desc_short": "Joe Aillet Stadium: football stadium bowl with white seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/joe-aillet-stadium/depth.png",
+   "edges": "controls/joe-aillet-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "ufcu-stadium",
+  "kind": "football stadium",
+  "ref": "controls/ufcu-stadium/color.png",
+  "desc_short": "UFCU Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/ufcu-stadium/depth.png",
+   "edges": "controls/ufcu-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "huskie-stadium",
+  "kind": "football stadium",
+  "ref": "controls/huskie-stadium/color.png",
+  "desc_short": "Huskie Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/huskie-stadium/depth.png",
+   "edges": "controls/huskie-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "fmol-health-st-francis-stadium",
+  "kind": "football stadium",
+  "ref": "controls/fmol-health-st-francis-stadium/color.png",
+  "desc_short": "FMOL Health/St. Francis Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/fmol-health-st-francis-stadium/depth.png",
+   "edges": "controls/fmol-health-st-francis-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "johnny-red-floyd-stadium",
+  "kind": "football stadium",
+  "ref": "controls/johnny-red-floyd-stadium/color.png",
+  "desc_short": "Johnny \"Red\" Floyd Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/johnny-red-floyd-stadium/depth.png",
+   "edges": "controls/johnny-red-floyd-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "nu-stadium",
+  "kind": "soccer stadium",
+  "ref": "controls/nu-stadium/color.png",
+  "desc_short": "Nu Stadium: soccer stadium bowl with teal seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/nu-stadium/depth.png",
+   "edges": "controls/nu-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "asu-stadium",
+  "kind": "football stadium",
+  "ref": "controls/asu-stadium/color.png",
+  "desc_short": "ASU Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/asu-stadium/depth.png",
+   "edges": "controls/asu-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "glass-bowl",
+  "kind": "football stadium",
+  "ref": "controls/glass-bowl/color.png",
+  "desc_short": "Glass Bowl: football stadium bowl with orange seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/glass-bowl/depth.png",
+   "edges": "controls/glass-bowl/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dignity-health-sports-park",
+  "kind": "soccer stadium",
+  "ref": "controls/dignity-health-sports-park/color.png",
+  "desc_short": "Dignity Health Sports Park: soccer stadium bowl with gray seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dignity-health-sports-park/depth.png",
+   "edges": "controls/dignity-health-sports-park/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "tql-stadium",
+  "kind": "soccer stadium",
+  "ref": "controls/tql-stadium/color.png",
+  "desc_short": "TQL Stadium: soccer stadium bowl with teal seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/tql-stadium/depth.png",
+   "edges": "controls/tql-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "maverik-stadium",
+  "kind": "football stadium",
+  "ref": "controls/maverik-stadium/color.png",
+  "desc_short": "Maverik Stadium: football stadium bowl with gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/maverik-stadium/depth.png",
+   "edges": "controls/maverik-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "a-w-mumford-stadium",
+  "kind": "football stadium",
+  "ref": "controls/a-w-mumford-stadium/color.png",
+  "desc_short": "A. W. Mumford Stadium: football stadium bowl with teal seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/a-w-mumford-stadium/depth.png",
+   "edges": "controls/a-w-mumford-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bragg-memorial-stadium",
+  "kind": "football stadium",
+  "ref": "controls/bragg-memorial-stadium/color.png",
+  "desc_short": "Bragg Memorial Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bragg-memorial-stadium/depth.png",
+   "edges": "controls/bragg-memorial-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "dix-stadium",
+  "kind": "football stadium",
+  "ref": "controls/dix-stadium/color.png",
+  "desc_short": "Dix Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/dix-stadium/depth.png",
+   "edges": "controls/dix-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "allen-e-paulson-stadium",
+  "kind": "football stadium",
+  "ref": "controls/allen-e-paulson-stadium/color.png",
+  "desc_short": "Allen E. Paulson Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/allen-e-paulson-stadium/depth.png",
+   "edges": "controls/allen-e-paulson-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "inter-co-stadium",
+  "kind": "soccer stadium",
+  "ref": "controls/inter-co-stadium/color.png",
+  "desc_short": "Inter.co Stadium: soccer stadium bowl with blue seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/inter-co-stadium/depth.png",
+   "edges": "controls/inter-co-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "nashville-superspeedway",
+  "kind": "motor racing oval",
+  "ref": "controls/nashville-superspeedway/color.png",
+  "desc_short": "Nashville Superspeedway: banked gray asphalt oval around a green infield, one long multi-level grandstand with light gray seats along the front stretch, pit road, no cars, no crowd",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/nashville-superspeedway/depth.png",
+   "edges": "controls/nashville-superspeedway/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "sports-illustrated-stadium",
+  "kind": "soccer stadium",
+  "ref": "controls/sports-illustrated-stadium/color.png",
+  "desc_short": "Sports Illustrated Stadium: soccer stadium bowl with light gray seats, concrete concourse, green soccer pitch",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/sports-illustrated-stadium/depth.png",
+   "edges": "controls/sports-illustrated-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "bridgeforth-stadium",
+  "kind": "football stadium",
+  "ref": "controls/bridgeforth-stadium/color.png",
+  "desc_short": "Bridgeforth Stadium: football stadium bowl with blue seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/bridgeforth-stadium/depth.png",
+   "edges": "controls/bridgeforth-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ },
+ {
+  "slug": "center-parc-stadium",
+  "kind": "football stadium",
+  "ref": "controls/center-parc-stadium/color.png",
+  "desc_short": "Center Parc Stadium: football stadium bowl with light gray seats, concrete concourse, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ],
+  "control": {
+   "depth": "controls/center-parc-stadium/depth.png",
+   "edges": "controls/center-parc-stadium/edges.png"
+  },
+  "ip_scale": 0.2,
+  "cn_scale": [
+   0.75,
+   0.55
+  ]
+ }
+]
