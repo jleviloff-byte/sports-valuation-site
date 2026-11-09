@@ -66,3 +66,4 @@ research/raw/stadiums/refs-cand/
 # Overhaul intermediates live in the private Kaggle dataset, not git (docs/overhaul/brief.md).
 # Files under art2/out tracked before the overhaul stay tracked.
 scripts/stadiums/art2/out/
+__pycache__/
