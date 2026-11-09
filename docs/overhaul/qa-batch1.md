@@ -62,3 +62,28 @@ photo instead.
 | allegiant-stadium | Allegiant Stadium (medium) | no field visible (closed roof, as built); facade emblem cluster | pass |
 | spartan-stadium | Rice Stadium (low) | blurry, doubled field lines | retry |
 | husky-stadium | Husky Stadium (medium-high) | purple haze; reference predates the 2013 rebuild | pass (provisional, see needs-attention) |
+
+## Retries after attempt 2 (blind ID batches E and F, fresh subagents, cleaned)
+
+| venue | attempt | blind-ID guess (confidence) | artifacts / spec noted | verdict |
+|---|---|---|---|---|
+| providence-park | 2 | Providence Park (medium) | green tint over roofs | pass |
+| petco-park | 2 | Petco Park (high) | lower-left edge sheared | pass |
+| rose-bowl | 2 | Rose Bowl (high) | near end zone folds again; blue halo | retry |
+| oriole-park-at-camden-yards | 2 | Camden Yards (medium) | bowl stretched toward the viewer, warehouse duplicated | retry |
+| chase-center | 2 | Santiago Bernabeu (medium) | wrong venue | retry |
+| comerica-park | 2 | Coors Field (low-medium) | wrong venue, heavy crop | retry |
+| target-field | 2 | Wrigley Field (medium) | wrong venue; infield dirt fills the diamond (spec fail) | retry |
+| nationals-park | 2 | Nationals Park (medium) | flattened | pass |
+| neyland-stadium | 2 | Paycor Stadium (low) | wrong venue; debris over one end | retry |
+| chase-field | 2 | Chase Field (high) | stretched outfield wall | pass |
+| williams-brice-stadium | 2 | Williams-Brice (medium) | warped canopy truss; garbled, unreadable end-zone marks | pass |
+| everbank-stadium | 2 | EverBank Stadium (medium) | washed-out right side | pass |
+| yankee-stadium | 2 | Yankee Stadium (high) | tester read the diamond as misplaced; checked: it matches the reference viewpoint (behind third base) | pass |
+| lincoln-financial-field | 2 | Lincoln Financial Field (medium-high) | no field visible, structure in separate chunks (spec fail) | retry |
+| ohio-stadium | 2 (seed swap) | Ohio Stadium (high) | pink glow in suite windows | pass |
+| angel-stadium | 2 | Angel Stadium (low) | garbled outfield | pass (weak) |
+| dodger-stadium | 2 | Dodger Stadium (low-medium) | blurry, soft | pass (weak) |
+| rate-field | 2 | Yankee Stadium (low) | wrong venue; baselines duplicated | retry |
+
+Running total for the 56 batch-1 photo venues: 35 pass (incl. Husky and Notre Dame provisional), 8 retry (attempt 3), 4 regenerating with signs blanked (`batch1e`), 2 on attempt 3 (`batch1f`), 7 moved to the fallback path.
