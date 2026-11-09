@@ -1,0 +1,57 @@
+[
+ {
+  "slug": "lane-stadium",
+  "kind": "football stadium",
+  "ref": "refs/lane-stadium/8.jpg",
+  "mask": "masks/lane-stadium-hull.png",
+  "desc_short": "Lane Stadium: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "kenan-stadium",
+  "kind": "football stadium",
+  "ref": "refs/kenan-stadium/1.jpg",
+  "mask": "masks/kenan-stadium-hull.png",
+  "desc_short": "Kenan Stadium: football stadium with blue seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "snapdragon-stadium",
+  "kind": "football stadium",
+  "ref": "refs/snapdragon-stadium/1.jpg",
+  "mask": "masks/snapdragon-stadium-hull.png",
+  "desc_short": "Snapdragon Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "powers-field-at-princeton-stadium",
+  "kind": "football stadium",
+  "ref": "refs/powers-field-at-princeton-stadium/1.jpg",
+  "mask": "masks/powers-field-at-princeton-stadium-hull.png",
+  "desc_short": "Powers Field at Princeton Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ },
+ {
+  "slug": "washington-grizzly-stadium",
+  "kind": "football stadium",
+  "ref": "refs/washington-grizzly-stadium/1.jpg",
+  "mask": "masks/washington-grizzly-stadium-hull.png",
+  "desc_short": "Washington\u2013Grizzly Stadium: football stadium with gray seats, green football field with white yard lines",
+  "seeds": [
+   11,
+   44
+  ]
+ }
+]

@@ -2312,5 +2312,135 @@
    "hex": "#152743",
    "share": 0.122
   }
+ ],
+ "kenan-stadium": [
+  {
+   "hex": "#bcc9d6",
+   "share": 0.241
+  },
+  {
+   "hex": "#989892",
+   "share": 0.187
+  },
+  {
+   "hex": "#656e5c",
+   "share": 0.176
+  },
+  {
+   "hex": "#e4eae8",
+   "share": 0.149
+  },
+  {
+   "hex": "#373e41",
+   "share": 0.132
+  },
+  {
+   "hex": "#0f1823",
+   "share": 0.115
+  }
+ ],
+ "lane-stadium": [
+  {
+   "hex": "#323e56",
+   "share": 0.224
+  },
+  {
+   "hex": "#f4f2ef",
+   "share": 0.219
+  },
+  {
+   "hex": "#d2c9c7",
+   "share": 0.166
+  },
+  {
+   "hex": "#555b55",
+   "share": 0.159
+  },
+  {
+   "hex": "#747474",
+   "share": 0.123
+  },
+  {
+   "hex": "#a59c9e",
+   "share": 0.11
+  }
+ ],
+ "powers-field-at-princeton-stadium": [
+  {
+   "hex": "#b1ab9f",
+   "share": 0.24
+  },
+  {
+   "hex": "#e8eaea",
+   "share": 0.186
+  },
+  {
+   "hex": "#3e413d",
+   "share": 0.163
+  },
+  {
+   "hex": "#75706b",
+   "share": 0.151
+  },
+  {
+   "hex": "#151617",
+   "share": 0.148
+  },
+  {
+   "hex": "#406f28",
+   "share": 0.113
+  }
+ ],
+ "snapdragon-stadium": [
+  {
+   "hex": "#485b4e",
+   "share": 0.297
+  },
+  {
+   "hex": "#6b776b",
+   "share": 0.182
+  },
+  {
+   "hex": "#283438",
+   "share": 0.148
+  },
+  {
+   "hex": "#bec4b9",
+   "share": 0.131
+  },
+  {
+   "hex": "#e1e7db",
+   "share": 0.126
+  },
+  {
+   "hex": "#979d94",
+   "share": 0.116
+  }
+ ],
+ "washington-grizzly-stadium": [
+  {
+   "hex": "#546751",
+   "share": 0.232
+  },
+  {
+   "hex": "#8c8d89",
+   "share": 0.217
+  },
+  {
+   "hex": "#b3b7b4",
+   "share": 0.185
+  },
+  {
+   "hex": "#ebeeed",
+   "share": 0.174
+  },
+  {
+   "hex": "#4d413c",
+   "share": 0.127
+  },
+  {
+   "hex": "#211d1c",
+   "share": 0.065
+  }
  ]
 }

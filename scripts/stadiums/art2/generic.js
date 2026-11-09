@@ -17,6 +17,10 @@ const FIELD = { football: { L: 109.73, W: 48.77 }, soccer: { L: 105, W: 68 }, te
 const ROAD_COURSES = new Set(['circuit-of-the-americas', 'barber-motorsports-park', 'mid-ohio-sports-car-course', 'sonoma-raceway', 'watkins-glen-international', 'portland-international-raceway'])
 
 function palette(info) {
+  // Massing style (venues with no usable photo): an honest architectural study
+  // model, white card and pale wood, real grass and the team accent only. No
+  // invented materials or detail. Marked for upgrade when a photo is found.
+  if (info.massing) return { seat: '#e9e6df', roof: '#f2f0eb', facade: '#d8d2c6', grass: '#5b9a4a', concrete: '#efece6', glass: '#c9cfd2' }
   const c = info.colors || {}
   return {
     seat: c.seats || '#7d848c', roof: c.roof || '#d9d9d4', facade: c.facade || '#c9c6bd',
@@ -154,7 +158,7 @@ function rectStadium({ fp, mat, info }, sport) {
     const off = K.rayHit(c, ed, outline) - 4
     g.add(K.place(K.scoreboard(clamp(H * 0.9, 10, 40), clamp(H * 0.3, 4, 14), Math.min(H, 1.2 + depthAt(endB) * 0.6) + 1, mat), [c[0] + ed[0] * off, c[1] + ed[1] * off], 0, (along + 90) % 360))
   }
-  if (v.roof === 'dome' && info.colors?.roof_center) P.roof = info.colors.roof_center
+  if (v.roof === 'dome' && info.colors?.roof_center && !info.massing) P.roof = info.colors.roof_center
   if (v.roof === 'retractable') {
     const ed = [Math.cos(ang), Math.sin(ang)]
     g.add(parkedRoof(c, ed, K.rayHit(c, ed, outline) - 45, F.W + 80, 70, H + 6, P.roof, mat))
@@ -217,7 +221,7 @@ function ballpark({ fp, mat, info }) {
 // (A plain extruded box read as a warehouse in blind ID.)
 function arena({ fp, mat, info }) {
   const P = palette(info), v = info.venue || {}
-  if (info.colors?.roof_center) P.roof = info.colors.roof_center
+  if (info.colors?.roof_center && !info.massing) P.roof = info.colors.roof_center
   const accent = info.team || P.seat
   const c = K.centroid(fp.pts), ang = K.principalAngle(fp.pts)
   const R = clamp(Math.sqrt((v.capacity || 15000) * 1.1), 70, 105) // footprint radius cap

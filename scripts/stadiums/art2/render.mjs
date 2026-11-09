@@ -19,6 +19,7 @@ const args = process.argv.slice(2)
 const styleArg = args.find((a) => a.startsWith('--styles'))
 const STYLES = styleArg ? args[args.indexOf(styleArg) + 1].split(',') : ['vector', 'painted', 'stylized']
 const slugs = args.includes('--pilot') ? PILOT : args.filter((a, i) => !a.startsWith('--') && args[i - 1] !== '--styles')
+const OUTDIR = args.includes('--massing') ? 'massing' : null
 
 const data = JSON.parse(fs.readFileSync('data/stadiums.json', 'utf8'))
 const { venues: wiki } = JSON.parse(fs.readFileSync('research/raw/stadiums/infobox.json', 'utf8'))
@@ -133,12 +134,12 @@ for (const slug of slugs) {
   // No OSM venue polygon: a disk at the venue's coordinates sized by capacity (generic models cap it anyway).
   if (!osm.best) { const r = Math.min(170, 45 + Math.sqrt(v.capacity || 15000) * 0.6); osm.best = { footprint: Array.from({ length: 48 }, (_, k) => [v.lng + (r * Math.cos((k / 48) * 2 * Math.PI)) / (111320 * Math.cos((v.lat * Math.PI) / 180)), v.lat + (r * Math.sin((k / 48) * 2 * Math.PI)) / 110540]) } }
   if (typeof osm.best.footprint === 'string') osm.best.footprint = JSON.parse(osm.best.footprint)
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug, team: (ART[slug]?.seat_colors_source && ART[slug]?.seat_colors?.[0]) || null }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug, massing: args.includes('--massing'), team: (ART[slug]?.seat_colors_source && ART[slug]?.seat_colors?.[0]) || null }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])
     const sq = await composite(r, style)
-    const dir = path.join('scripts/stadiums/art2/out', style)
+    const dir = path.join('scripts/stadiums/art2/out', OUTDIR || style)
     fs.mkdirSync(dir, { recursive: true })
     await sharp(sq).resize(1024, 1024).png().toFile(path.join(dir, `${slug}.png`))
     await sharp(sq).resize(256, 256).png().toFile(path.join(dir, `${slug}-256.png`))
