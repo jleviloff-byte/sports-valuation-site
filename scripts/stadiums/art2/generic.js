@@ -133,8 +133,9 @@ function rectStadium({ fp, mat, info }, sport) {
     ? (ctx, toPx, ppm) => K.tennisCourt(ctx, toPx, ppm, { cx: c[0], cz: c[1], ang, court: '#3f6fa8', surround: '#4f8a5a' })
     : sport === 'soccer'
     ? (ctx, toPx, ppm) => soccerPitch(ctx, toPx, ppm, { cx: c[0], cz: c[1], ang, grass: P.grass, grass2: K.tone(P.grass, 1.08) })
-    : (ctx, toPx, ppm) => K.footballField(ctx, toPx, ppm, { cx: c[0], cz: c[1], hx: F.L / 2, hz: F.W / 2, ang, grass: P.grass, grass2: K.tone(P.grass, 1.08), surround: P.grass, endzone: K.tone(P.grass, 0.85) })
+    : (ctx, toPx, ppm) => K.footballField(ctx, toPx, ppm, { cx: c[0], cz: c[1], hx: F.L / 2, hz: F.W / 2, ang, grass: P.grass, grass2: K.tone(P.grass, 1.08), surround: P.grass, endzone: info.team || K.tone(P.grass, 0.85) })  // painted end zones in team color
   g.add(fieldMesh(g.userData.innerRing, 0.05, draw, mat))
+  if (info.team) g.add(K.rimBand(g, { top: 0.4, bottom: 7, color: info.team, mat }))  // team-color fascia
   // Press box on the deeper sideline, for stands tall enough to carry one.
   const side = K.bearingVec(K.vecBearing([Math.cos(ang + Math.PI / 2), Math.sin(ang + Math.PI / 2)]))
   const sideB = K.vecBearing(side), dA = depthAt(sideB), dB = depthAt((sideB + 180) % 360)
@@ -192,9 +193,13 @@ function ballpark({ fp, mat, info }) {
     facade: P.facade, innerWall: () => '#2f4a3a', fieldY: 0.05,
   }, mat)
   g.add(fieldMesh(g.userData.innerRing, 0.05, (ctx, toPx, ppm) => K.baseballField(ctx, toPx, ppm, { home, cf, grass: P.grass, grass2: K.tone(P.grass, 1.08), dirt: '#b4774a' }, g.userData.innerRing), mat, 8))
+  if (info.team) g.add(K.rimBand(g, { top: 0.4, bottom: 5, color: info.team, mat }))  // team-color fascia
   // Video board beyond center field and light towers on the grandstand rim.
   const off = K.rayHit(c, cfv, outline) - 3
   g.add(K.place(K.scoreboard(30, 11, 9, mat), [c[0] + cfv[0] * off, c[1] + cfv[1] * off], 0, (cf + 90) % 360))
+  // View from behind home plate, as most ballpark photos are, so the diamond is in
+  // front and the outfield behind it (a fixed camera showed some parks from center field).
+  g.userData.cameraBearing = (cf + 180 + 20) % 360
   if (v.roof === 'dome') {
     const outer = g.userData.outerRing.map(([x, , z]) => [x, z])
     g.add(wall(outer, 0, H + 8, P.facade, mat))
@@ -206,19 +211,42 @@ function ballpark({ fp, mat, info }) {
   return g
 }
 
-// Arena: an enclosed drum on the footprint, glass base, clad walls, low dome.
+// Arena: an enclosed drum on the footprint, as seen from above: a low dome with
+// a structural ring, rooftop plant, a glass base with tall glass
+// atria at the entrances, clad upper walls with a fascia band in the team color.
+// (A plain extruded box read as a warehouse in blind ID.)
 function arena({ fp, mat, info }) {
   const P = palette(info), v = info.venue || {}
   if (info.colors?.roof_center) P.roof = info.colors.roof_center
-  const c = K.centroid(fp.pts)
+  const accent = info.team || P.seat
+  const c = K.centroid(fp.pts), ang = K.principalAngle(fp.pts)
   const R = clamp(Math.sqrt((v.capacity || 15000) * 1.1), 70, 105) // footprint radius cap
   const outline = ring(c, fp.pts, () => R, () => 45, 3)
   const H = clamp(18 + (v.capacity || 15000) / 1500, 22, 38)
   const g = new THREE.Group()
-  g.add(wall(outline, 0, 6, P.glass, mat, 'glass'))
-  g.add(wall(outline, 6, H, P.facade, mat))
-  const capRing = K.flatPoly(outline, 0.02, mat(P.concrete, { kind: 'concrete' })); g.add(capRing)
-  g.add(domeRoof(outline, c, H, H * 0.22, P.roof, mat))
+  // Plaza apron around the building.
+  g.add(K.flatPoly(outline.map(([x, z]) => [c[0] + (x - c[0]) * 1.12, c[1] + (z - c[1]) * 1.12]), 0.02, mat('#cfccc4', { kind: 'concrete' })))
+  g.add(wall(outline, 0, 7, P.glass, mat, 'glass'))
+  g.add(wall(outline, 7, H - 3, P.facade, mat))
+  g.add(wall(outline.map(([x, z]) => [c[0] + (x - c[0]) * 1.01, c[1] + (z - c[1]) * 1.01]), H - 3, H, accent, mat, 'paint'))
+  for (let y = 11; y < H - 4; y += 5) g.add(wall(outline.map(([x, z]) => [c[0] + (x - c[0]) * 1.005, c[1] + (z - c[1]) * 1.005]), y, y + 0.6, K.tone(P.facade, 0.8), mat))
+  const rise = H * 0.22
+  g.add(domeRoof(outline, c, H, rise, P.roof, mat))
+  // Structural compression ring on the roof.
+  const inner = outline.map(([x, z]) => [c[0] + (x - c[0]) * 0.55, c[1] + (z - c[1]) * 0.55])
+  const yAt = (t) => H + rise * (1 - (1 - t) ** 2)
+  g.add(wall(inner, yAt(0.45), yAt(0.45) + 1.2, K.tone(P.roof, 0.82), mat, 'metal'))
+  // Rooftop plant: a few low boxes near the center.
+  for (const [dx, dz] of [[-10, 6], [8, -5], [2, 12]]) g.add(K.place(K.box(9, 2.5, 6, '#b9bbbd', mat, { kind: 'metal' }), [c[0] + dx, c[1] + dz], yAt(1) - 1, 0))
+  // Glass entrance atria at both ends of the long axis.
+  const ax = [Math.cos(ang), Math.sin(ang)]
+  for (const e of [-1, 1]) {
+    const d = [ax[0] * e, ax[1] * e], off = K.rayHit(c, d, outline)
+    const atr = new THREE.Group()
+    atr.add(K.box(34, H * 0.7, 14, P.glass, mat, { kind: 'glass' }))
+    const cap2 = K.box(36, 1, 16, '#e3e2dd', mat, { kind: 'metal' }); cap2.position.y = H * 0.7; atr.add(cap2)
+    g.add(K.place(atr, [c[0] + d[0] * (off + 4), c[1] + d[1] * (off + 4)], 0, (K.vecBearing(d) + 90) % 360))
+  }
   return g
 }
 

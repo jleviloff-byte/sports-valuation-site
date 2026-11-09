@@ -30,6 +30,8 @@ const INFO = { 'daytona-international-speedway': { front_bearing: 235 } }
 const NAIP = JSON.parse(fs.readFileSync('research/raw/stadiums/naip-manifest.json', 'utf8'))
 const naipBbox = (slug) => { const u = NAIP[slug]?.url; const m = u && u.match(/bbox=([-0-9.]+),([-0-9.]+),([-0-9.]+),([-0-9.]+)/); return m ? m.slice(1, 5).map(Number) : null }
 // Seat, roof and field colors sampled from each venue's NAIP aerial (generic fallback models).
+// Team accent (fascia bands only; materials stay sampled): data/stadium-art.json.
+const ART = JSON.parse(fs.readFileSync('data/stadium-art.json', 'utf8')).venues
 const NAIP_COLORS = fs.existsSync('scripts/stadiums/overhaul/naip-colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/overhaul/naip-colors.json', 'utf8')) : {}
 const SAMPLED = fs.existsSync('scripts/stadiums/refs/colors.json') ? JSON.parse(fs.readFileSync('scripts/stadiums/refs/colors.json', 'utf8')) : {}
 
@@ -131,7 +133,7 @@ for (const slug of slugs) {
   // No OSM venue polygon: a disk at the venue's coordinates sized by capacity (generic models cap it anyway).
   if (!osm.best) { const r = Math.min(170, 45 + Math.sqrt(v.capacity || 15000) * 0.6); osm.best = { footprint: Array.from({ length: 48 }, (_, k) => [v.lng + (r * Math.cos((k / 48) * 2 * Math.PI)) / (111320 * Math.cos((v.lat * Math.PI) / 180)), v.lat + (r * Math.sin((k / 48) * 2 * Math.PI)) / 110540]) } }
   if (typeof osm.best.footprint === 'string') osm.best.footprint = JSON.parse(osm.best.footprint)
-  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug }
+  const info = { ...(INFO[slug] || {}), cf_bearing: orient[slug]?.bearing ?? undefined, naipBbox: naipBbox(slug), fieldLL: osm.best.field, colors: { ...(NAIP_COLORS[slug] || {}), ...Object.fromEntries(Object.entries(SAMPLED[slug] || {}).map(([k, v]) => [k, v.hex])) }, venue: { venue_type: v.venue_type, roof: v.roof, capacity: v.capacity }, slug, team: (ART[slug]?.seat_colors_source && ART[slug]?.seat_colors?.[0]) || null }
   for (const style of STYLES) {
     const t0 = Date.now()
     const r = await page.evaluate(([s, st, ring, inf]) => window.renderVenue(s, st, ring, inf, 2048), [slug, style, osm.best.footprint, info])
