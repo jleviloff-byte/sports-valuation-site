@@ -22,16 +22,15 @@
 .venue img, .venue .venue-sprite { position: absolute; inset: 0; width: 100%; height: 100%; display: block; background-repeat: no-repeat; transform-origin: 50% 60%; filter: drop-shadow(0 1px 1px rgba(20, 24, 29, 0.25)); }
 .venue:hover img, .venue:focus-visible img, .venue:hover .venue-sprite, .venue:focus-visible .venue-sprite { filter: drop-shadow(0 2px 4px rgba(20, 24, 29, 0.45)) brightness(1.06); }
 .venue:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.venue .venue-fallback { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--text3); opacity: 0.6; }
 
-/* Brick-stacking pop-in: the sprite is revealed bottom-up in three courses. */
-@keyframes brick-stack {
+/* Pop-in: the mark is revealed bottom-up in three steps. */
+@keyframes mark-rise {
   0%   { clip-path: inset(100% 0 0 0); transform: translateY(6px); }
   33%  { clip-path: inset(66% 0 0 0);  transform: translateY(4px); }
   66%  { clip-path: inset(33% 0 0 0);  transform: translateY(2px); }
   100% { clip-path: inset(0 0 0 0);    transform: translateY(0); }
 }
-.venue.pop img, .venue.pop .venue-sprite { animation: brick-stack 0.36s steps(1, end) both; }
+.venue.pop img, .venue.pop .venue-sprite { animation: mark-rise 0.36s steps(1, end) both; }
 @media (prefers-reduced-motion: reduce) { .venue.pop img, .venue.pop .venue-sprite { animation: none; } }
 
 .venue-tip {
@@ -80,3 +79,11 @@
 }
 
 .venue [hidden] { display: none !important; }
+
+/* Card: footprint shown while a venue's illustration is in progress. */
+.loadout-model.in-progress { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.loadout-model.in-progress img { width: 78%; height: auto; aspect-ratio: 1; opacity: 0.95; }
+.loadout-model .in-progress-note {
+  margin-top: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px;
+  letter-spacing: 0.16em; text-transform: uppercase; color: #A0A8B3;
+}

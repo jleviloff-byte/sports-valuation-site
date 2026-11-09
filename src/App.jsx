@@ -51,7 +51,7 @@ const MOBILE_NAV_LINKS = [
   { to: '/#cities',       label: 'Cities' },
   { to: '/recent-sales',  label: 'Recent Sales' },
   { to: '/forbes-breakdown', label: 'Forbes Breakdown' },
-  { to: '/stadiums',      label: 'Stadium Map' },
+  { to: '/stadiums',      label: 'Stadiums & Arenas' },
   { to: '/data-sources',  label: 'Data Sources' },
   { to: '/privacy',       label: 'Legal' },
 ]
@@ -133,7 +133,7 @@ function Nav() {
             <span className="w-px h-4 bg-rule" aria-hidden="true" />
             <Link to="/recent-sales" className="hover:text-accent transition-colors">Recent Sales</Link>
             <Link to="/forbes-breakdown" className="hover:text-accent transition-colors">Forbes Breakdown</Link>
-            <Link to="/stadiums" className="hover:text-accent transition-colors">Stadiums</Link>
+            <Link to="/stadiums" className="hover:text-accent transition-colors">Stadiums &amp; Arenas</Link>
             <Link to="/data-sources" className="hover:text-accent transition-colors">Sources</Link>
           </div>
 
@@ -187,7 +187,7 @@ function Footer() {
               <li><Link to="/#compare"   className="text-graphite hover:text-ink transition-colors">Compare</Link></li>
               <li><Link to="/recent-sales" className="text-graphite hover:text-ink transition-colors">Recent Sales</Link></li>
               <li><Link to="/forbes-breakdown" className="text-graphite hover:text-ink transition-colors">Forbes Breakdown</Link></li>
-              <li><Link to="/stadiums" className="text-graphite hover:text-ink transition-colors">Stadium Map</Link></li>
+              <li><Link to="/stadiums" className="text-graphite hover:text-ink transition-colors">Stadiums &amp; Arenas</Link></li>
             </ul>
           </div>
 

@@ -9,7 +9,8 @@
 // Shapes come from the OSM footprint (convex hull when OSM maps a ring);
 // tracks use an oval inscribed along the property's long axis (Daytona uses
 // the geometry measured on the NAIP aerial). Output: two sprite sheets,
-// public/stadiums/footprints/atlas-{0,1}.webp, and research/raw/stadiums/footprint-atlas.json.
+// public/stadiums/footprints/atlas-{0,1}.webp, per-venue vectors in
+// public/stadiums/footprints/venues/<slug>.svg, and research/raw/stadiums/footprint-atlas.json.
 //
 // Usage: node scripts/stadiums/art/build-footprints.mjs
 import fs from 'node:fs'
@@ -156,6 +157,14 @@ for (const [n, vs] of sheets.entries()) {
   const file = `public/stadiums/footprints/atlas-${n}.webp`
   await sharp({ create: { width: cols * TILE, height: rows * TILE, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } }).composite(comps).webp({ quality: 90, alphaQuality: 100 }).toFile(file)
   meta.push({ sheet: n, cols, rows, count: vs.length, kb: Math.round(fs.statSync(file).size / 1024) })
+}
+// Per-venue vector footprint (map marks above atlas resolution, and the card's
+// large render for venues whose illustration is still in progress). Clip-path
+// and filter ids are made unique per file so several SVGs can share a page.
+fs.mkdirSync('public/stadiums/footprints/venues', { recursive: true })
+for (const v of order) {
+  const svg = svgFor(v, 512).replace(/id="(c\d+|s)"/g, `id="$1-${v.slug}"`).replace(/url\(#(c\d+|s)\)/g, `url(#$1-${v.slug})`)
+  fs.writeFileSync(`public/stadiums/footprints/venues/${v.slug}.svg`, svg)
 }
 // Review sheet of the first 48 at 64 px.
 const prev = order.slice(0, 48)

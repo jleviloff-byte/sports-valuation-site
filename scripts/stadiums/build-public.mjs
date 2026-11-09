@@ -15,7 +15,8 @@ const art = JSON.parse(fs.readFileSync('data/stadium-art.json', 'utf8')).venues
 const credits = fs.existsSync('data/stadium-art-credits.json') ? JSON.parse(fs.readFileSync('data/stadium-art-credits.json', 'utf8')) : {}
 const { forbesBreakdown } = await import(pathToFileURL(path.resolve('data/forbes-breakdown.js')).href)
 const renders = fs.existsSync('research/raw/stadiums/render-report.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/render-report.json', 'utf8')) : []
-const rendered = new Set(fs.existsSync('public/stadiums/sprites') ? fs.readdirSync('public/stadiums/sprites').filter((f) => f.endsWith('-128.webp')).map((f) => f.replace(/-128\.webp$/, '')) : [])
+// Venues whose new illustration passed all four QA checks (docs/overhaul/qa-release-gate.md).
+const rendered = new Set(fs.existsSync('public/stadiums/sprites') ? fs.readdirSync('public/stadiums/sprites').filter((f) => f.endsWith('-512.webp')).map((f) => f.replace(/-512\.webp$/, '')) : [])
 
 // National-zoom footprint shapes (scripts/stadiums/art/build-footprints.mjs).
 const atlas = fs.existsSync('research/raw/stadiums/footprint-atlas.json') ? JSON.parse(fs.readFileSync('research/raw/stadiums/footprint-atlas.json', 'utf8')) : null
@@ -39,7 +40,7 @@ for (const v of data.venues) {
   fs.writeFileSync(`public/stadiums/venues/${v.slug}.json`, JSON.stringify({
     ...v, tenants,
     sport_labels: Object.fromEntries(v.sports.map((s) => [s, SPORT_LABEL[s] || s])),
-    art: { seat_colors: a.seat_colors, ...(credits[v.slug] ? { note: credits[v.slug].note, credits: credits[v.slug].credits, license: credits[v.slug].license } : {}) },
+    art: { has: rendered.has(v.slug), seat_colors: a.seat_colors, ...(credits[v.slug] ? { note: credits[v.slug].note, credits: credits[v.slug].credits, license: credits[v.slug].license } : {}) },
   }))
 }
 fs.writeFileSync('public/stadiums/index.json', JSON.stringify({ generated: data.generated, count: index.length, cpi_base_year: data.cpi_base_year, atlas: atlas && { tile: atlas.tile, sheets: atlas.sheets.map(({ sheet, cols, rows }) => ({ sheet, cols, rows })) }, venues: index }))

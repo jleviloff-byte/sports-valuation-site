@@ -53,7 +53,8 @@ function useColorMode() {
 // 50 largest venues, loaded with the page; sheet 1 = the rest, after the first
 // render). Between REVEAL_START and REVEAL_END the shape fades out while the
 // illustration fades and scales in; illustrations load per venue, only for
-// venues in view.
+// venues in view. Venues whose illustration is still in progress keep their
+// footprint at every zoom.
 const REVEAL_START = 5.9
 const REVEAL_END = 6.6
 const ease = (t) => t * t * (3 - 2 * t)
@@ -141,22 +142,18 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     el.type = 'button'
     el.className = 'venue'
     el.setAttribute('aria-label', `${v.n}, ${v.c}, ${v.st}. Capacity ${fmt(v.cap)}${v.ct === 'estimated' ? ' (estimated)' : ''}. Open details.`)
-    if (v.img) {
-      const tile = document.createElement('span')
-      tile.className = 'venue-sprite'
-      tile.setAttribute('aria-hidden', 'true')
-      el.appendChild(tile)
-      const img = document.createElement('img')
-      img.alt = ''
-      img.decoding = 'async'
-      img.draggable = false
-      img.hidden = true
-      el.appendChild(img)
-    } else {
-      const s = document.createElement('span')
-      s.className = 'venue-fallback'
-      el.appendChild(s)
-    }
+    // Every venue gets the footprint tile (atlas) and an <img> (the illustration,
+    // or for venues whose illustration is in progress, the vector footprint).
+    const tile = document.createElement('span')
+    tile.className = 'venue-sprite'
+    tile.setAttribute('aria-hidden', 'true')
+    el.appendChild(tile)
+    const img = document.createElement('img')
+    img.alt = ''
+    img.decoding = 'async'
+    img.draggable = false
+    img.hidden = true
+    el.appendChild(img)
     el.addEventListener('click', () => state.current.onSelect?.(v.s))
     const showTip = () => {
       const t = tipEl.current
@@ -194,7 +191,9 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
     const next = new Map() // slug -> { x, y, size, anchor? }
     const st = state.current
     const reveal = ease(Math.min(1, Math.max(0, (zoom - REVEAL_START) / (REVEAL_END - REVEAL_START))))
-    const useAtlas = (v) => st.atlas && v.a && reveal < 1
+    // Venues with an illustration crossfade from footprint to art; the rest keep
+    // their footprint at every zoom (sharp vector above the atlas tile size).
+    const useAtlas = (v) => st.atlas && v.a && (v.img ? reveal < 1 : true)
     for (const v of sorted) {
       const p = map.project([v.lo, v.la])
       const size = spritePx(v.cap, zoom, v.t)
@@ -237,11 +236,25 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
       const img = el.querySelector('img')
       if (tile && img) {
         const v = rec.v
-        const showShape = useAtlas(v) && st.sheets[v.a[0]] === 'ready'
-        // The illustration (drawn on top) arrives first, then the shape fades out
-        // beneath it, so one layer is always fully visible and nothing dips or ghosts.
-        const artOpacity = showShape ? ease(Math.min(1, reveal / 0.6)) : 1
-        const shapeOpacity = showShape ? 1 - ease(Math.max(0, (reveal - 0.45) / 0.55)) : 0
+        const atlasReady = useAtlas(v) && st.sheets[v.a[0]] === 'ready'
+        const tileMax = st.atlas?.tile || 96
+        let showShape, artOpacity, shapeOpacity, want
+        if (v.img) {
+          showShape = atlasReady
+          // The illustration (drawn on top) arrives first, then the shape fades out
+          // beneath it, so one layer is always fully visible and nothing dips or ghosts.
+          artOpacity = showShape ? ease(Math.min(1, reveal / 0.6)) : 1
+          shapeOpacity = showShape ? 1 - ease(Math.max(0, (reveal - 0.45) / 0.55)) : 0
+          // Lazy: only venues in view get an illustration request, sized for 2x screens.
+          want = `/stadiums/sprites/${slug}-${s > 110 ? 512 : 256}.webp`
+        } else {
+          // Illustration in progress: footprint only. Atlas while it is sharp enough
+          // (and loaded), the per-venue vector otherwise.
+          showShape = atlasReady && s <= tileMax
+          shapeOpacity = showShape ? 1 : 0
+          artOpacity = showShape ? 0 : 1
+          want = `/stadiums/footprints/venues/${slug}.svg`
+        }
         tile.hidden = shapeOpacity <= 0
         if (!tile.hidden) {
           const sh = st.atlas.sheets[v.a[0]]
@@ -249,15 +262,13 @@ export default function StadiumMap({ venues, onSelect, focus, basemap = 'muted',
           tile.style.backgroundSize = `${sh.cols * s}px ${sh.rows * s}px`
           tile.style.backgroundPosition = `-${v.a[1] * s}px -${v.a[2] * s}px`
           tile.style.opacity = String(shapeOpacity)
-          tile.style.transform = `scale(${1 + 0.08 * reveal})`
+          tile.style.transform = v.img ? `scale(${1 + 0.08 * reveal})` : ''
         }
         img.hidden = artOpacity <= 0
         if (!img.hidden) {
-          // Lazy: only venues in view get an illustration request, sized for 2x screens.
-          const want = `/stadiums/sprites/${slug}-${s > 110 ? 512 : 256}.webp`
           if (img.getAttribute('src') !== want) img.setAttribute('src', want)
           img.style.opacity = String(artOpacity)
-          img.style.transform = `scale(${0.88 + 0.12 * artOpacity})`
+          img.style.transform = v.img ? `scale(${0.88 + 0.12 * artOpacity})` : ''
         }
       }
       if (el.hidden || !shown.has(slug)) {

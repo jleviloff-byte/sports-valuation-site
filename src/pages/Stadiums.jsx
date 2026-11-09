@@ -131,8 +131,8 @@ export default function Stadiums() {
 
   const current = slug ? all.find((v) => v.s === slug) : null
   useEffect(() => {
-    if (current) setMeta(`${current.n}: ${capLabel(current)} seats | Stadium Map | Franchise Math`, `${current.n} in ${current.c}, ${current.st}: capacity ${capLabel(current)}${current.r ? `, rank #${current.r} among US venues with 15,000+ official seats` : ', ranked among motorsport venues only'}. Tenants, cost in 2025 dollars, renovations and rankings.`, `/stadiums/${current.s}`)
-    else setMeta('Stadium Map: every US venue with 15,000+ seats | Franchise Math', `${all.length || 'Every'} US stadiums, arenas, ballparks, racetracks and tennis venues with 15,000+ seats, drawn to scale by capacity.`, '/stadiums')
+    if (current) setMeta(`${current.n}: ${capLabel(current)} seats | Stadiums & Arenas | Franchise Math`, `${current.n} in ${current.c}, ${current.st}: capacity ${capLabel(current)}${current.r ? `, rank #${current.r} among US venues with 15,000+ official seats` : ', ranked among motorsport venues only'}. Tenants, cost in 2025 dollars, renovations and rankings.`, `/stadiums/${current.s}`)
+    else setMeta('Stadiums & Arenas: every US venue with 15,000+ seats | Franchise Math', `${all.length || 'Every'} US stadiums, arenas, ballparks, racetracks and tennis venues with 15,000+ seats, drawn to scale by capacity.`, '/stadiums')
   }, [current, all.length])
 
   function open(s) {
@@ -149,12 +149,12 @@ export default function Stadiums() {
     <main className="bg-paper">
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-3">
         <div className="flex items-center gap-3 mb-3">
-          <span className="eyebrow">Stadium Map</span>
+          <span className="eyebrow">Stadiums &amp; Arenas</span>
           <div className="h-px flex-1 bg-rule" />
         </div>
         <h1 className="section-title text-3xl sm:text-[32px]">Every US venue with 15,000+ seats, to scale</h1>
         <p className="text-sm text-graphite mt-2 max-w-3xl">
-          {all.length ? `${fmt(all.length)} stadiums, arenas, ballparks, racetracks and tennis venues.` : 'Stadiums, arenas, ballparks, racetracks and tennis venues.'} Each venue is drawn as a miniature scale model of the real building, sized by seated capacity, so a 100,000-seat bowl looks bigger than a 20,000-seat arena. Click one for its numbers.
+          {all.length ? `${fmt(all.length)} stadiums, arenas, ballparks, racetracks and tennis venues.` : 'Stadiums, arenas, ballparks, racetracks and tennis venues.'} Each venue is sized by seated capacity, so a 100,000-seat bowl looks bigger than a 20,000-seat arena. Venues are being redrawn as miniature scale models of the real buildings; until a venue's illustration is ready, it shows its footprint. Click one for its numbers.
         </p>
         <div className="mt-4 flex flex-col lg:flex-row lg:items-center gap-3">
           <Search venues={all} onPick={(v) => { setFocus({ ...v }); open(v.s) }} />

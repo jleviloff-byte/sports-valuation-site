@@ -74,18 +74,18 @@ function page({ title, description, url, image, body, preload = true }) {
 fs.mkdirSync(path.join(dist, 'stadiums'), { recursive: true })
 const n = venues.length
 fs.writeFileSync(path.join(dist, 'stadiums.html'), page({
-  title: 'Stadium Map: every US venue with 15,000+ seats | Franchise Math',
+  title: 'Stadiums & Arenas: every US venue with 15,000+ seats | Franchise Math',
   description: `${n} US stadiums, arenas, ballparks, racetracks and tennis venues with 15,000+ seats, drawn to scale by capacity.`,
   url: `${SITE}/stadiums`,
   body: `<h1>Every US venue with 15,000+ seats</h1><p>${n} venues, largest first.</p><ol>${[...venues].sort((a, b) => b.cap - a.cap).map((v) => `<li><a href="/stadiums/${v.s}">${esc(v.n)}</a>, ${esc(v.c)}, ${v.st}: ${capLabel(v)}</li>`).join('')}</ol>`,
 }))
 for (const v of venues) {
-  const title = `${v.n}: ${capLabel(v)} seats | Stadium Map | Franchise Math`
+  const title = `${v.n}: ${capLabel(v)} seats | Stadiums & Arenas | Franchise Math`
   const description = `${v.n} in ${v.c}, ${v.st}: capacity ${capLabel(v)}${v.r ? `, #${v.r} among US venues with 15,000+ official seats` : ', ranked among motorsport venues only'}. Tenants: ${v.tm.slice(0, 3).join(', ')}.`
   fs.writeFileSync(path.join(dist, 'stadiums', `${v.s}.html`), page({
     title, description, url: `${SITE}/stadiums/${v.s}`,
     image: v.img ? `${SITE}/stadiums/hero/${v.s}.webp` : null,
-    body: `<h1>${esc(v.n)}</h1><p>${esc(v.c)}, ${v.st}. Capacity ${capLabel(v)}.${v.r ? ` Rank #${v.r} in the US.` : ' Racetrack capacities are estimates, so it is ranked among motorsport venues only.'}</p><p>Tenants: ${esc(v.tm.join(', '))}.</p><img src="/stadiums/hero/${v.s}.webp" alt="Brick-built illustration of ${esc(v.n)}" width="512" height="512">`,
+    body: `<h1>${esc(v.n)}</h1><p>${esc(v.c)}, ${v.st}. Capacity ${capLabel(v)}.${v.r ? ` Rank #${v.r} in the US.` : ' Racetrack capacities are estimates, so it is ranked among motorsport venues only.'}</p><p>Tenants: ${esc(v.tm.join(', '))}.</p>${v.img ? `<img src="/stadiums/hero/${v.s}.webp" alt="Scale-model illustration of ${esc(v.n)}" width="512" height="512">` : ""}`,
   }))
 }
 console.log(`prerendered /stadiums and ${n} venue pages`)

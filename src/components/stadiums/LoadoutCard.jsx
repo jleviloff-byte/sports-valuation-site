@@ -130,7 +130,7 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
 
         {v && (
           <div ref={stage} className="loadout-stage">
-            <HeroArt key={v.slug} slug={v.slug} name={v.name} />
+            <HeroArt key={v.slug} slug={v.slug} name={v.name} hasArt={!!v.art?.has} />
             {wide && (
               <svg className="loadout-lines" width={geo?.W || 0} height={geo?.H || 0} aria-hidden="true">
                 {paths.map((p, i) => <path key={`${v.slug}-${i}`} d={p.d} style={{ '--len': p.len, '--delay': `${p.delay}s` }} />)}
