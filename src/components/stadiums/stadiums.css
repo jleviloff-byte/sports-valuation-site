@@ -87,3 +87,9 @@
   margin-top: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px;
   letter-spacing: 0.16em; text-transform: uppercase; color: #A0A8B3;
 }
+
+/* PROTOTYPE: live 3D tiles hero (preview only). Credits stay visible (Google terms). */
+.loadout-model.tiles3d { border-radius: 4px; overflow: hidden; background: #0e1116; }
+.tiles3d-canvas { position: absolute; inset: 0; }
+.tiles3d-canvas .cesium-viewer-bottom { font-size: 10px; }
+.tiles3d-note { position: absolute; left: 0; right: 0; top: 50%; text-align: center; }

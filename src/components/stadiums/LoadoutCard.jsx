@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import HeroArt from './HeroArt.jsx'
+import Tiles3DHero, { tiles3dAvailable } from './Tiles3DHero.jsx'
 
 const NA = 'N/A'
 const fmt = (n) => (n == null ? NA : n.toLocaleString('en-US'))
@@ -130,7 +131,9 @@ export default function LoadoutCard({ slug, exists, ranked, onClose, onNavigate 
 
         {v && (
           <div ref={stage} className="loadout-stage">
-            <HeroArt key={v.slug} slug={v.slug} name={v.name} hasArt={!!v.art?.has} />
+            {tiles3dAvailable(v.slug)
+              ? <Tiles3DHero key={v.slug} slug={v.slug} name={v.name} lat={v.lat} lng={v.lng} hasArt={!!v.art?.has} />
+              : <HeroArt key={v.slug} slug={v.slug} name={v.name} hasArt={!!v.art?.has} />}
             {wide && (
               <svg className="loadout-lines" width={geo?.W || 0} height={geo?.H || 0} aria-hidden="true">
                 {paths.map((p, i) => <path key={`${v.slug}-${i}`} d={p.d} style={{ '--len': p.len, '--delay': `${p.delay}s` }} />)}
