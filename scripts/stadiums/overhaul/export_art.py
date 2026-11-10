@@ -24,9 +24,9 @@ for f in sorted(os.listdir(src)):
     s = f[:-4]
     if only and s not in only: continue
     im = Image.open(os.path.join(src, f)).convert('RGBA')
-    hero = trim(im).resize((1600, 1600), Image.LANCZOS)  # no base: on the dark card the board read as a white panel
+    hero = trim(im, pad=0.06).resize((1600, 1600), Image.LANCZOS)  # no base: on the dark card the board read as a white panel
     hero.save(f'public/stadiums/hero/{s}.webp', quality=84, method=6)
-    sp = trim(im)
+    sp = trim(im, pad=0.06)  # pad 0.06 -> at least 5% margin on every side (QA check 5)
     for n in (512, 256):
         sp.resize((n, n), Image.LANCZOS).save(f'public/stadiums/sprites/{s}-{n}.webp', quality=86, method=6)
     p = paths.get(s, 'generic')
