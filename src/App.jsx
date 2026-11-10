@@ -10,7 +10,9 @@ import {
 import Ticker from './components/Ticker.jsx'
 import SectionSkeleton from './components/SectionSkeleton.jsx'
 
-const HomePage       = lazy(() => import('./pages/Home.jsx'))
+// Eager, as on production: a lazy home route rendered a skeleton first and
+// measured ~0.5 s slower to content on a mid-range phone (research/perf).
+import HomePage from './pages/Home.jsx'
 
 // Legal/info pages are tiny but route-split so initial route doesn't pay
 // for them.
