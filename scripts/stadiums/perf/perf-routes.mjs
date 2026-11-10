@@ -23,11 +23,18 @@ const ROUTES = [
   ['/terms', 'main h1'],
   ['/stadiums', '.venue:not([hidden])'],
 ]
-const headers = process.env.PROTECTION_BYPASS ? { 'x-vercel-protection-bypass': process.env.PROTECTION_BYPASS, 'x-vercel-set-bypass-cookie': 'true' } : {}
-const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
+const browser = await chromium.launch({ ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}), args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
 
 async function once(route, sel, root = base) {
-  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, extraHTTPHeaders: headers })
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true })
+  // Bypass header on the protected preview host only: sent cross-origin it breaks
+  // CORS preflights (fonts, map tiles) and skews the timing.
+  if (process.env.PROTECTION_BYPASS) {
+    const host = new URL(root).host
+    // Vercel sets a bypass cookie for the host; the timed navigation then needs no
+    // header and no request interception (interception adds overhead per request).
+    if (host === new URL(base).host) await ctx.request.get(root + '/robots.txt', { headers: { 'x-vercel-protection-bypass': process.env.PROTECTION_BYPASS, 'x-vercel-set-bypass-cookie': 'samesitenone' } })
+  }
   const page = await ctx.newPage()
   const cdp = await ctx.newCDPSession(page)
   await cdp.send('Network.enable')
@@ -48,12 +55,12 @@ const out = []
 const median = (rs) => [...rs].sort((a, b) => a.ms - b.ms)[Math.floor(rs.length / 2)]
 for (const [route, sel] of ROUTES) {
   const rs = [], rb = []
-  for (let i = 0; i < runs; i++) { rs.push(await once(route, sel)); if (baseB) rb.push(await once(route, sel, baseB)) }
+  for (let i = 0; i < runs; i++) { rs.push(await once(route, sel)); if (baseB && !(process.env.PERF_B_SKIP || '').split(',').includes(route)) rb.push(await once(route, sel, baseB)) }
   const med = median(rs)
   const row = { route, median_ms: med.ms, kb: med.kb, runs: rs.map((r) => r.ms) }
-  if (baseB) { const mb = median(rb); Object.assign(row, { b_median_ms: mb.ms, b_kb: mb.kb, b_runs: rb.map((r) => r.ms) }) }
+  if (baseB && rb.length) { const mb = median(rb); Object.assign(row, { b_median_ms: mb.ms, b_kb: mb.kb, b_runs: rb.map((r) => r.ms) }) }
   out.push(row)
-  console.log(`${route.padEnd(18)} A ${String(med.ms).padStart(6)} ms ${String(med.kb).padStart(5)} KB` + (baseB ? `  |  B ${String(row.b_median_ms).padStart(6)} ms ${String(row.b_kb).padStart(5)} KB` : '') + `   (A runs ${row.runs.join(', ')})`)
+  console.log(`${route.padEnd(18)} A ${String(med.ms).padStart(6)} ms ${String(med.kb).padStart(5)} KB` + (baseB && rb.length ? `  |  B ${String(row.b_median_ms).padStart(6)} ms ${String(row.b_kb).padStart(5)} KB` : '') + `   (A runs ${row.runs.join(', ')})`)
 }
 await browser.close()
 fs.mkdirSync('research/perf', { recursive: true })

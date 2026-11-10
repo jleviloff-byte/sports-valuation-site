@@ -18,8 +18,13 @@ fs.mkdirSync(out, { recursive: true })
 const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {})
 const ctx = await browser.newContext({
   viewport: { width, height: 900 }, deviceScaleFactor: 1,
-  extraHTTPHeaders: bypass ? { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } : {},
 })
+// Bypass header on requests to the preview host only: sent cross-origin it breaks
+// CORS preflights (fonts, map tiles) and produces errors the real site does not have.
+if (bypass) {
+  const host = new URL(base).host
+  await ctx.route((u) => u.host === host, (route) => route.continue({ headers: { ...route.request().headers(), 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET } }))
+}
 const report = []
 for (const p of only) {
   const page = await ctx.newPage()

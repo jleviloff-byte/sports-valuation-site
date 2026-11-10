@@ -36,8 +36,11 @@ const HINTS = [
     const code = fs.readFileSync(path.join(dist, 'assets', home), 'utf8')
     const deps = [...new Set([...code.matchAll(/from"\.\/([\w-]+\.js)"/g)].map((m) => m[1]))].filter((d) => !/^(index|react)-/.test(d))
     const urls = [home, ...deps].map((f) => `/assets/${f}`)
-    const script = `<script data-home-preload>if(location.pathname==='/'){${JSON.stringify(urls)}.forEach(function(h){var l=document.createElement('link');l.rel='modulepreload';l.href=h;document.head.appendChild(l)})}</script>`
-    idx = idx.replace('</head>', `    ${script}\n  </head>`)
+    const script = `<script data-home-preload>if(location.pathname==='/'){${JSON.stringify(urls)}.forEach(function(h){var l=document.createElement('link');l.rel='modulepreload';l.crossOrigin='';l.href=h;document.head.appendChild(l)})}</script>`
+    // Inline scripts wait for every stylesheet above them (Google Fonts and the
+    // app CSS), so place this one before the first stylesheet link in <head>.
+    const at = idx.search(/<link[^>]*rel="?stylesheet|<link\s*\n\s*rel="stylesheet"/)
+    idx = at > 0 ? idx.slice(0, at) + `${script}\n    ` + idx.slice(at) : idx.replace('</head>', `    ${script}\n  </head>`)
     fs.writeFileSync(indexPath, idx)
     console.log(`home preload: ${urls.join(', ')}`)
   }
