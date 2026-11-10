@@ -1,14 +1,13 @@
 # Overhaul status
 
 - **Phase:** 3 — full run. Pilot approved by Josh ("Approve as is").
-- **PAUSED by Josh (2026-11-09).** No GPU work until he replies. Kaggle queue and the generic-path re-render are stopped; no kernel is running.
-- **Why:** the generic 3D-model path scored 1 of 18 in blind ID. Like the brick art, a model built from guesses reads as "a stadium", not this stadium.
-- **Where things stand:** see `docs/overhaul/coverage.md` (per venue). Photo path 81 (iconic 43, long tail 38), pilot hand-built models 8, generic path 265 (iconic 47, long tail 218). Batch 1 photo path: 39 of 56 pass blind ID.
-- **Plan (awaiting Josh's go):**
-  1. Coverage first. No iconic venue stays on the generic path. Widen the photo search for every generic venue, iconic first: deeper Wikimedia Commons subcategories, Openverse (CC search across Flickr and others), Flickr Creative Commons, and public-domain US government photos (military DVIDS, NASA, Army Corps, NOAA, NPS). Same license and verification rules as the brief (free license, category/title/caption check, by-eye check against the NAIP footprint, manifest entry).
-  2. Loosen the angle band to 20-60 degrees oblique. A real oblique beats a guessed model.
-  3. Eye-level-only venues: test on 5 venues whether depth from the 3D model plus IP-Adapter fed several eye-level photos passes blind ID. Only scale it if it passes.
-  4. Whatever still has no photo: no fake detail. Propose a clean, simpler style that sits well next to photo-path venues at map size, mark those venues for a later upgrade, and show Josh 3 examples beside photo-path venues before rendering any more.
-  5. Then QA, export, site integration (card and credits already wired), preview, load-time gate, final report.
+- **Interim production release done (2026-11-10)**, approved by Josh: 35 venues with new art, 319 footprint-only, brick art removed. Live at https://www.franchisemath.site/stadiums. Notes and checks: `docs/overhaul/release-2026-11-10.md`.
+- **Release procedure for every later batch:** build; `scripts/stadiums/release/check-pages.mjs` (console errors, screenshots); screenshot diff of existing pages vs production; `scripts/stadiums/check-team-links.mjs`; push the branch; get the preview URL with `scripts/stadiums/release/preview-url.sh` (GitHub REST deployments API; never ask Josh); `scripts/stadiums/perf/perf-routes.mjs` with PROTECTION_BYPASS and PERF_BASE_B=production; fast-forward `main` if all pass.
+- **Plan (photo coverage, approved 2026-11-09):**
+  1. Iconic first: widened search (Commons subcategories, former names, Openverse, NASA; Wikimedia API etiquette) for the 47 generic-path iconic venues plus L&N, Q2, Rupp; review by eye on contact sheets; 20-60 degree obliques, crops of distant aerials if the venue stays ~800 px across, racetrack grandstand-side photos count.
+  2. The 10 three-attempt failures: diagnosed (`diagnosis-10.md`); Target Field fixed but failed blind ID again, Chase Center fixed and shipped; the rest need new references.
+  3. Held back from the release (13): fix and ship in a later batch. Husky Stadium and Notre Dame Stadium get post-rebuild photos (after 2013 and 2017).
+  4. Long tail: 38 photo-path venues generated (tail1/tail2), awaiting review; then the widened search for the 182 "none found" venues.
+  5. At a natural pause: the 5-venue eye-level test and 3 simpler-style examples, shown to Josh together.
 - **Kaggle GPU hours used:** ~12.5 this week of the free 30 (pilot 3.3, segmentation 0.5, batch 1 and retries 4.4, generic-path batches 3.7, tests 0.6). Nothing queued.
 - **Blockers:** none. Notes: Commons throttles this egress IP (HTTP 429), so scripts back off. render.mjs needs `CHROMIUM_PATH=/opt/pw-browsers/chromium` in cloud sessions. Candidate photos are uploading to Kaggle dataset `stadium-overhaul-cands`.
